@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Gestión de Pestañas de Barra Lateral Colorida"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Administra pestañas en el panel lateral, demasiado bonito para ser tan bueno."
+  },
+  "openSidePanel": {
+    "message": "Abrir Panel Lateral"
+  }
+}

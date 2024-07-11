@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Aperi laterale tabulam ad praevideo",
+  "_execute_action": "Activa hanc extensionem",
+  "openSidePanel": "Aperi laterale tabulam",
+  "settings": {
+    "resetCurrentPageSettings": "Reconfirma paginae currentes occasus",
+    "modules": {
+      "appearance": "Species",
+      "beautify": "Ornare",
+      "tabs": "Tabulae",
+      "history": "Historia",
+      "shortcuts": "Compendia",
+      "pip": "Imago-in-imago",
+      "chromeTabGroupAdvanced": "Provectae tabulae coetus",
+      "progressBar": "progressus talea",
+      "floatBall": "Fluctuans pila",
+      "experimentalFeatures": "Experimentales notae"
+    },
+    "appearance": {
+      "header": "Species",
+      "language": {
+        "label": "Lingua interface",
+        "description": "Constitue linguam ad display interfaciem"
+      },
+      "theme": {
+        "label": "Modus coloris",
+        "description": "Elige lucem vel tenebrosum modum coloris"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Cum activa, interfacies monstrabit directionem textus a dextra ad sinistram"
+      },
+      "fontSize": {
+        "label": "Magnitudo fontis",
+        "description": "Constitue magnitudinem fontis",
+        "small": "Parvus",
+        "large": "Magnus"
+      },
+      "fontFamily": {
+        "label": "Familia fontium",
+        "description": "Constitue familiam fontium"
+      },
+      "fontColor": {
+        "label": "Color fontium",
+        "description": "Constitue colorem fontium"
+      },
+      "fontWeight": {
+        "label": "Pondus fontium",
+        "description": "Constitue pondus fontium"
+      },
+      "extAction": {
+        "label": "Actio iconis extensionis",
+        "description": "Constitue actionem cum iconem extensionis cliccas",
+        "openPopup": "Aperi popup",
+        "openSidePanel": "Aperi laterale tabulam"
+      },
+      "SidePanelPosition": {
+        "label": "Positio lateralis tabulae",
+        "description": "Constitue utrum lateralis tabula in sinistra vel dextra ostendatur.",
+        "goToChromeSettings": "I ad Chrome occasus"
+      },
+      "searchBoxPosition": {
+        "label": "Positio arcae quaestionis",
+        "description": "Constitue positionem arcae quaestionis",
+        "top": "Summum",
+        "bottom": "Imum",
+        "hide": "Occulta"
+      },
+      "toolbar": {
+        "label": "Monstra toolbar",
+        "description": "Cum activa, toolbar ostenditur"
+      },
+      "bottomNav": {
+        "label": "Monstra infima navigationis talea",
+        "description": "Cum activa, infima navigationis talea ostenditur"
+      },
+      "buttonPosition": {
+        "label": "Positio bullarum",
+        "description": "Constitue positionem bullarum",
+        "left": "Sinistra",
+        "right": "Dextra"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Occulta lateralis tabula in pleno schermo",
+        "description": "Cum activa, lateralis tabula automatice occulitur cum pagina est in pleno schermo. Propter limitationes Chrome, lateralis tabula automatice aperiri non potest. Manualiter opus est laterale tabulam rursus aperire!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Colore funditus",
+        "description": "Cum activa, lateralis tabula colore funditus ostendetur"
+      },
+      "backgroundPicture": {
+        "label": "Funditus imago",
+        "description": "Clicca [+] ut addas picturam customizatam, clicca [-] ut deleas picturam customizatam. Invenire potes imagines dilectas in sequentibus locis.",
+        "dialogDescription": "Intra imaginis inscriptionem",
+        "OK": "OK",
+        "Cancel": "Cancella",
+        "invalidImage": "Imago invalida"
+      },
+      "backgroundImageTransparency": {
+        "label": "Translucentia imaginis",
+        "description": "Constitue translucentiam imaginis",
+        "transparent": "Transparens",
+        "opaque": "Opacus"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensitas Blur",
+        "description": "Constitue intensitatem Blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Claritas",
+        "description": "Constitue claritatem, tantum in modo obscuro commendatur"
+      },
+      "listBackgroundStyle": {
+        "label": "Stylus funditus indices",
+        "description": "Constitue stylum funditus indices",
+        "single": "Unus",
+        "none": "Nihil",
+        "simple": "Simplex",
+        "complementary": "Complementarium",
+        "analogous": "Analoguus",
+        "triadic": "Triadicus",
+        "tetradic": "Tetradicus"
+      },
+      "listBackgroundTransparency": {
+        "label": "Translucentia funditus indices",
+        "description": "Constitue translucentiam funditus indices",
+        "transparent": "Transparens",
+        "opaque": "Opacus"
+      },
+      "listBottomBorder": {
+        "label": "Funditus indices terminus",
+        "description": "Constitue terminum funditus indices",
+        "none": "Nihil",
+        "dashed": "Intercisus",
+        "solid": "Solidus"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluens scrollbars",
+        "description": "Utere Microsoft Fluens design stile scrollbars et imponas in contento web",
+        "goToChromeSettings": "I ad Chrome occasus"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Visus indices",
+        "description": "Commutare visum indices",
+        "compact": "Visus compactus",
+        "visual": "Visus visualis"
+      },
+      "showBy": {
+        "label": "Monstra per",
+        "description": "Commutare monstra per"
+      },
+      "sortBy": {
+        "label": "Ordina per",
+        "description": "Commutare ordina per"
+      },
+      "showFullUrl": {
+        "label": "Monstra URL completum",
+        "description": "Cum activa, URL completum sub titulo tabulae monstrabitur"
+      },
+      "currentWindowOnly": {
+        "label": "Sola fenestra currente",
+        "description": "Monstra sola tabula fenestrae currentis. Si deactivatur, tabulae omnium fenestrarum ostendentur"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Monstra tabulas pined ut icones",
+        "description": "Cum activa, tabulae pined ut icones ostendentur et non in indice"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Monstra icones tabularum cum coetus collapsus",
+        "description": "Cum activa, coetus collapsus icones tabularum ostendet"
+      },
+      "hoverPreview": {
+        "label": "Praevideo cum supervolare",
+        "description": "Cum activa, supervolans tabulas praevideos ostendet"
+      },
+      "previewWithThumbnail": {
+        "label": "Monstra thumbnails in praevideo",
+        "description": "Cum activa, praevideos thumbnails tabularum ostendet",
+        "alert": "Capi visibilem aream tabulae currentis activae in fenestra specificata. Ad hanc methodum appellare, extensio debet habere permissionem <omnes_urls> vel activamTab permissionem.",
+        "deniedMessage": "Permissionem requisitam negavisti, itaque occasus non mutata sunt. Si sententiam mutas, iterum clicca et authorizationem concede"
+      },
+      "previewDelay": {
+        "label": "Praevideo mora",
+        "description": "Constitue mora temporis pro praevideo tabularum cum supervolare, etc. (secundis). Si ponitur ad 0, mora non erit",
+        "seconds": "Secundae"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Serva nuper clausa tabulas",
+        "description": "Cum activa, serva nuper clausa tabulas"
+      },
+      "dataSource": {
+        "label": "Fons datae",
+        "description": "Elige fontem datae",
+        "recentlyClosedTabs": "Nuper clausa tabulae",
+        "chromeHistory": "Historia Chrome",
+        "alert": "Ad historiam tabulas quaerere, tua authorizatione opus est ad activandum",
+        "deniedMessage": "Permissionem requisitam negavisti, itaque occasus non mutata sunt. Si sententiam mutas, iterum clicca et authorizationem concede"
+      },
+      "showInSidePanel": {
+        "label": "Monstra in laterale tabulam",
+        "description": "Cum activa, monstra in laterale tabulam"
+      },
+      "showInTabSearchResults": {
+        "label": "Monstra historiam in tabula quaestionis eventibus",
+        "description": "Cum activa, nuper historia records in tabula quaestionis eventibus ostendetur"
+      },
+      "limitSearchResults": {
+        "label": "Limita numerum historiae recordorum in tabula quaestionis eventibus",
+        "description": "Constitue numerum limitis historiae recordorum in tabula quaestionis eventibus. Historia records superantes limitum filtrabuntur",
+        "alert": "Nimium recordorum affectabit velocitatem paginae oneris"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Numerus nuper clausa tabularum ad conservandum",
+        "description": "Constitue numerum nuper clausa tabularum ad conservandum"
+      },
+      "keepDays": {
+        "label": "Numerus dierum ad conservandum nuper clausa tabularum",
+        "description": "Constitue numerum dierum ad conservandum nuper clausa tabularum. Expirata data delebitur",
+        "days": "Dies"
+      },
+      "openDuration": {
+        "label": "Duratio aperta",
+        "description": "Sola tabulae apertae diutius quam tempus constitutum conservabuntur",
+        "seconds": "Secundae"
+      }
+    },
+    "shortcuts": {
+      "alert": "Haec pagina est solum ad ostentandum. Ad compendia mutanda, quaeso visita [Extensiones]->[Administra Extensiones]->[Claviaturas Compendia]",
+      "goToChromeSettings": "I ad Chrome occasus",
+      "_execute_action": "Activa hanc extensionem",
+      "openSidePanel": "Aperi laterale tabulam"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imago-in-imago",
+      "tabSwitch": {
+        "label": "PIP in Tab Switch",
+        "description": "Auto-entra PIP cum tabulis mutandis cum video non mutato",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "scrollSwitch": {
+        "label": "Muta ad imago-in-imago cum scrollo",
+        "description": "Si pagina currentis video ludit et video non est mutatum et video est extra visibilem ambitum cum scrollo, entra imago-in-imago.",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Activatio usoris requiritur",
+      "tips_1": "Activatio usoris significat usorem paginam currentem interagere",
+      "tips_2": "Magis specificum, activatio triggers input eventus talis ut:",
+      "tips_3": "Nota: Utere rotam murem scroll vel gestum swipe non triggers!",
+      "tips_4": "Si plura singula vis, quaeso visita:",
+      "click": "Clicca",
+      "contextmenu": "Menu recte-clicca",
+      "dblclick": "Duplex-clicca"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Behavior collapsionis coetus tabularum",
+        "description": "Muta behavior Chrome tabularum collapsionis coetus",
+        "option_collapse_others": "Monstra coetum currentem et collapsa alios",
+        "option_disable": "Expande omnes coetus",
+        "option_auto": "Utere Chrome occasus defaltos"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Auto crea vel iunge eundem coetum dominii",
+        "description": "Cum activa, novae apertae tabulae automatice eundem coetum dominii iungent. Si coetus dominii non existit, novus coetus dominii creabitur",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtra tabulas pinatas in coetibus",
+        "description": "Cum activa, tabulae pinatae non addentur in coetibus",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Activum progressus vectis",
+        "description": "Cum activa, progressus vectis lectio sub titulo tabulae ostendetur",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "readingProgressBar": {
+        "label": "Lectio progressus vectis",
+        "description": "Cum activa, progressus vectis lectio sub titulo tabulae ostendetur",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "scrollHeightRatio": {
+        "label": "Ratio altitudinis scroll",
+        "description": "Ratio altitudinis fenestrae visibilis ad altitudinem paginæ. Vectis progressus ostendetur cum ratio superatur",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "playingProgressBar": {
+        "label": "Ludens progressus vectis",
+        "description": "Cum activa, progressus vectis ludens sub titulo tabulae ostendetur",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Activum fluctuans pila",
+        "description": "Cum lateralis tabula clauditur, fluctuans pila ostendetur in dextra parte paginae, permittens velocem aperturam lateralis tabulae."
+      }
+    },
+    "performance": {
+      "label": "Efficientia",
+      "saveMemoryAction": {
+        "label": "Quomodo memoriam in tabulis servare",
+        "description": "Ad memoriam in tabulis servandam, potes tabulas claudere aut tabulas abicere eligere.",
+        "discardTips": "tabula abjecta nusquam vadit. Eam necamus sed adhuc in striga tabularum Chromis apparet. Si ad tabulam revertaris quae abjecta est, cum cliccatur reiterabitur. Forma contenti, positio scroll et cetera eodem modo servantur et restituuntur quo eodem modo fiant in navigatione tabularum ad anteriorem/posteriorem.",
+        "disabled": "Inactivum",
+        "closeTabs": "Claude tabulas",
+        "discardTabs": "Abice tabulas"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Quamdiu tabulas inactivas abicere",
+        "description": "Cum in tabula nec audio nec video canitur et abicere automaticum non vetatur, tabula post tempus definitum abicietur.",
+        "minutes": "Minuta"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Quamdiu tabulas inactivas claudere",
+        "description": "Cum in tabula nec audio nec video canitur et abicere automaticum non vetatur, tabula post tempus definitum claudetur.",
+        "minutes": "Minuta"
+      },
+      "disableAnimations": {
+        "label": "Animatones inhibe",
+        "description": "efficere effectum undulationis inhibe et omnes transitiones inhibe"
+      }
+    }
+  }
+}

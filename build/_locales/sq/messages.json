@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Menaxhimi i etiketave të anës së shiritit të ngjyrave"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Menaxhoni skedat në panelin anësor, Shumë e bukur për të qenë kaq e mirë."
+  },
+  "openSidePanel": {
+    "message": "Hapni panelin anësor"
+  }
+}

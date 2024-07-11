@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Управљање шареним тракама за управљање ознакама"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Управљајте картицама у бочном панелу, Превише лепо да би било овако добро."
+  },
+  "openSidePanel": {
+    "message": "Отвори бочни панел"
+  }
+}

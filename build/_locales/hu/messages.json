@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Színes oldalsáv címkéinek kezelése"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Kezelje a füleket az oldalsó panelen, Túl szép ahhoz, hogy ilyen jó legyen."
+  },
+  "openSidePanel": {
+    "message": "Oldalsáv megnyitása"
+  }
+}

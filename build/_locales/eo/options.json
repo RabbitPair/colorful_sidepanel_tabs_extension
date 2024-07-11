@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Malfermi flankan panelon por antaŭrigardi",
+  "_execute_action": "Aktivigi tiun ĉi kromprogramon",
+  "openSidePanel": "Malfermi flankan panelon",
+  "settings": {
+    "resetCurrentPageSettings": "Rekomenci aktualajn paĝajn agordojn",
+    "modules": {
+      "appearance": "Aspekto",
+      "beautify": "Beligi",
+      "tabs": "Kartoj",
+      "history": "Historio",
+      "shortcuts": "Fulmoklavoj",
+      "pip": "Bildo-en-bildo",
+      "chromeTabGroupAdvanced": "Progresintaj langetaj grupoj",
+      "progressBar": "progresa stango",
+      "floatBall": "Fluganta pilko",
+      "experimentalFeatures": "Eksperimentaj trajtoj"
+    },
+    "appearance": {
+      "header": "Aspekto",
+      "language": {
+        "label": "Interfaca lingvo",
+        "description": "Agordi la lingvon por la interfaca montrado"
+      },
+      "theme": {
+        "label": "Kolora modo",
+        "description": "Elekti luman aŭ malluman koloran modon"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kiam aktivigita, la interfaco montrigos tekstdirekton de dekstro al maldekstro"
+      },
+      "fontSize": {
+        "label": "Tipara grandeco",
+        "description": "Agordi la tiparan grandecon",
+        "small": "Malgranda",
+        "large": "Granda"
+      },
+      "fontFamily": {
+        "label": "Tipara familio",
+        "description": "Agordi la tiparan familion"
+      },
+      "fontColor": {
+        "label": "Tipara koloro",
+        "description": "Agordi la tiparan koloron"
+      },
+      "fontWeight": {
+        "label": "Tipara pezo",
+        "description": "Agordi la tiparan pezon"
+      },
+      "extAction": {
+        "label": "Klaki kromprograman ikonon agon",
+        "description": "Agordi la agon kiam klakante la kromprograman ikonon",
+        "openPopup": "Malfermi ŝprucfenestron",
+        "openSidePanel": "Malfermi flankan panelon"
+      },
+      "SidePanelPosition": {
+        "label": "Flankan panelan pozicion",
+        "description": "Agordi ĉu la flanka panelo montriĝas maldekstre aŭ dekstre.",
+        "goToChromeSettings": "Iri al Chrome-agordoj"
+      },
+      "searchBoxPosition": {
+        "label": "Serĉu skatolpozicion",
+        "description": "Agordi la pozicion de la serĉu skatolo",
+        "top": "Supre",
+        "bottom": "Malsupre",
+        "hide": "Kaŝi"
+      },
+      "toolbar": {
+        "label": "Montri ilobreton",
+        "description": "Kiam aktivigita, la ilobreto montriĝas"
+      },
+      "bottomNav": {
+        "label": "Montri malsupran navigadobreton",
+        "description": "Kiam aktivigita, la malsupra navigadobreto montriĝas"
+      },
+      "buttonPosition": {
+        "label": "Butonpozicio",
+        "description": "Agordi la pozicion de la butonoj",
+        "left": "Maldekstre",
+        "right": "Dekstre"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Kaŝi flankan panelon en tuta ekrano",
+        "description": "Kiam aktivigita, la flanka panelo aŭtomate kaŝiĝos kiam la paĝo estas en tuta ekrano. Pro Chrome-limoj, la flanka panelo ne povas aŭtomate reaperi. Vi devas mane reaperi la flankan panelon!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Kolora fonaĵo",
+        "description": "Kiam aktivigita, la flanka panelo montriĝos kun kolora fonaĵo"
+      },
+      "backgroundPicture": {
+        "label": "Fona bildo",
+        "description": "Klaku [+] por aldoni propran bildon, klaku [-] por forigi propran bildon. Vi povas trovi viajn ŝatatajn bildojn en la sekvaj retejoj.",
+        "dialogDescription": "Enmeti bildadreson",
+        "OK": "Bone",
+        "Cancel": "Nuligi",
+        "invalidImage": "Nevalida bildadreso"
+      },
+      "backgroundImageTransparency": {
+        "label": "Bilda transparenceco",
+        "description": "Agordi la bildan transparencecon",
+        "transparent": "Travidebla",
+        "opaque": "Opaka"
+      },
+      "backgroundImageBlur": {
+        "label": "Intenseco de la malneto",
+        "description": "Agordi la intensecon de la malneto"
+      },
+      "backgroundImageBrightness": {
+        "label": "Brileco",
+        "description": "Agordi la brilecon, rekomendite nur por malhela reĝimo"
+      },
+      "listBackgroundStyle": {
+        "label": "Listo fona stilo",
+        "description": "Agordi la listan fona stilon",
+        "single": "Ununura",
+        "none": "Nenio",
+        "simple": "Simpla",
+        "complementary": "Komplementa",
+        "analogous": "Analogia",
+        "triadic": "Triada",
+        "tetradic": "Tetra"
+      },
+      "listBackgroundTransparency": {
+        "label": "Listo fona transparenceco",
+        "description": "Agordi la listan fona transparencecon",
+        "transparent": "Travidebla",
+        "opaque": "Opaka"
+      },
+      "listBottomBorder": {
+        "label": "Listo malsupra bordo",
+        "description": "Agordi la listan malsupran bordon",
+        "none": "Nenio",
+        "dashed": "Traseklinia",
+        "solid": "Plena"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Flua ŝovbretoj",
+        "description": "Uzi Microsoft Fluent desegn-stilan ŝovbretojn kaj supermeti ilin sur la retpaĝan enhavon",
+        "goToChromeSettings": "Iri al Chrome-agordoj"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Listo vido",
+        "description": "Ŝalti listan vido",
+        "compact": "Kompakta vido",
+        "visual": "Vida vido"
+      },
+      "showBy": {
+        "label": "Montri per",
+        "description": "Ŝalti montri per"
+      },
+      "sortBy": {
+        "label": "Ordigi per",
+        "description": "Ŝalti ordigi per"
+      },
+      "showFullUrl": {
+        "label": "Montri plenan URL-on",
+        "description": "Kiam aktivigita, la plena URL-o estos montrita sub la lanĉet-titolo"
+      },
+      "currentWindowOnly": {
+        "label": "Nur aktuala fenestro",
+        "description": "Nur montri lanĉetojn de la aktuala fenestro. Se malebligita, lanĉetoj el ĉiuj fenestroj estos montritaj"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Montri pinglitajn lanĉetojn kiel ikonoj",
+        "description": "Kiam aktivigita, pinglitaj lanĉetoj estos montritaj kiel ikonoj kaj ne en la listo"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Montri retejo-ikonojn kiam kollapsantaj grupoj",
+        "description": "Kiam aktivigita, kollapsitaj grupoj montrigos lanĉeto-ikonojn"
+      },
+      "hoverPreview": {
+        "label": "Surhove rigardi",
+        "description": "Kiam aktivigita, surhovante super lanĉetoj montriĝos lanĉeto-antaŭrigardoj"
+      },
+      "previewWithThumbnail": {
+        "label": "Montri bildojn en antaŭrigardo",
+        "description": "Kiam aktivigita, antaŭrigardoj montrigos lanĉeto-bildojn",
+        "alert": "Kapti la videblan areon de la aktuala aktiva lanĉeto en specifita fenestro. Por voki tiun metodon, la kromprogramo devas havi permeson <all_urls> aŭ activeTab-permeson.",
+        "deniedMessage": "Vi malpermesis la necesa permeso, do la agordoj ne ŝanĝiĝis. Se vi ŝanĝos vian opinion, bonvolu klaki denove kaj permesi aŭtorizon"
+      },
+      "previewDelay": {
+        "label": "Antaŭrigardo prokrasto",
+        "description": "Agordi la prokrastotempon por lanĉeto-antaŭrigardoj kiam surhovante super lanĉetoj, ktp. (sekundoj). Se agordita al 0, ne estos prokrasto",
+        "seconds": "Sekundoj"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Konservi lastatempe fermitajn lanĉetojn",
+        "description": "Kiam aktivigita, konservi lastatempe fermitajn lanĉetojn"
+      },
+      "dataSource": {
+        "label": "Datumfonto",
+        "description": "Elekti datumfonton",
+        "recentlyClosedTabs": "Lastatempe fermitaj lanĉetoj",
+        "chromeHistory": "Chrome-historio",
+        "alert": "Por serĉi historioregistrojn, vi bezonas vian aŭtorizon por ebligi",
+        "deniedMessage": "Vi malpermesis la necesa permeso, do la agordoj ne ŝanĝiĝis. Se vi ŝanĝos vian opinion, bonvolu klaki denove kaj permesi aŭtorizon"
+      },
+      "showInSidePanel": {
+        "label": "Montri en flanka panelo",
+        "description": "Kiam aktivigita, montri en flanka panelo"
+      },
+      "showInTabSearchResults": {
+        "label": "Montri historion en lanĉetserĉaj rezultoj",
+        "description": "Kiam aktivigita, lastatempe historiaj registroj estos montritaj en lanĉetserĉaj rezultoj"
+      },
+      "limitSearchResults": {
+        "label": "Limigi nombron de historioregistroj en lanĉetserĉaj rezultoj",
+        "description": "Agordi la limigan nombron de historioregistroj en lanĉetserĉaj rezultoj. Historioregistroj super la limo estos filtritaj",
+        "alert": "Tro multaj registroj influos paĝŝarĝadrapidecon"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Nombro de lastatempe fermitaj lanĉetoj por konservi",
+        "description": "Agordi la nombron de lastatempe fermitaj lanĉetoj por konservi"
+      },
+      "keepDays": {
+        "label": "Nombro de tagoj por konservi lastatempe fermitajn lanĉetojn",
+        "description": "Agordi la nombron de tagoj por konservi lastatempe fermitajn lanĉetojn. Malnoviĝintaj datumoj estos forigitaj",
+        "days": "Tagoj"
+      },
+      "openDuration": {
+        "label": "Malfermi daŭron",
+        "description": "Nur lanĉetoj malfermitaj pli longe ol la agordita tempo estos konservitaj",
+        "seconds": "Sekundoj"
+      }
+    },
+    "shortcuts": {
+      "alert": "Tiu ĉi paĝo estas nur por montri. Por modifi fulmoklavojn, bonvolu viziti [Kromprogramoj]->[Administri Kromprogramojn]->[Fulmoklavoj]",
+      "goToChromeSettings": "Iri al Chrome-agordoj",
+      "_execute_action": "Aktivigi tiun ĉi kromprogramon",
+      "openSidePanel": "Malfermi flankan panelon"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Bildo-en-bildo",
+      "tabSwitch": {
+        "label": "Bildo-en-bildo je lanĉetŝaltado",
+        "description": "Aŭtomate eniri bildo-en-bildo kiam ŝaltante lanĉetojn kun neŝaltita video",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "scrollSwitch": {
+        "label": "Ŝalti al bildo-en-bildo dum ŝovado",
+        "description": "Se la aktuala paĝo ludas videon kaj la video ne estas ŝaltita kaj la video estas ekster la videbla intervalo dum ŝovado, ĝi eniros bildo-en-bildo.",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Uzantoaktivigo postulata",
+      "tips_1": "Uzantoaktivigo signifas ke la uzanto nun interagas kun la paĝo",
+      "tips_2": "Pli precize, aktivigo instigas enigo-eventojn kiel:",
+      "tips_3": "Noto: Uzi la muŝorotacilon aŭ glitgeston ne instigos!",
+      "tips_4": "Se vi volas pliajn detalojn, bonvolu viziti:",
+      "click": "Klaki",
+      "contextmenu": "Dekstraklikmenuo",
+      "dblclick": "Duobla klako"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Lanĉetgrupo kollapsa konduto",
+        "description": "Modifi la konduton de Chrome-retumilo lanĉetgrupo kollapso",
+        "option_collapse_others": "Montri aktualan grupon kaj kollapsi aliajn",
+        "option_disable": "Eksplodi ĉiujn grupojn",
+        "option_auto": "Uzi Chrome-implicitajn agordojn"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Aŭtomate krei aŭ aliĝi al sama domajna grupo",
+        "description": "Kiam aktivigita, novaj malfermitaj lanĉetoj aŭtomate aliĝos al la sama domajna grupo. Se la domajna grupo ne ekzistas, nova domajna grupo estos kreita",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtri pinglitajn lanĉetojn en grupoj",
+        "description": "Kiam aktivigita, pinglitaj lanĉetoj ne estos aldonitaj al grupoj",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Ebligi progresan breton",
+        "description": "Kiam aktivigita, legada progresas breto estos montrita sub la lanĉetitola breto",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "readingProgressBar": {
+        "label": "Legada progresas breto",
+        "description": "Kiam aktivigita, legada progresas breto estos montrita sub la lanĉetitola breto",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "scrollHeightRatio": {
+        "label": "Rulhajta proporcio",
+        "description": "La proporcio de videbla fenestra alteco al paĝa alteco. Progresbreto estos montrita kiam la proporcio estas superita",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "playingProgressBar": {
+        "label": "Ludada progresas breto",
+        "description": "Kiam aktivigita, ludada progresas breto estos montrita sub la lanĉetitola breto",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Ebligi flugantan pilkon",
+        "description": "Kiam la flanka panelo estas fermita, fluganta pilko estos montrita dekstre de la paĝo, permesante rapide malfermi la flankan panelon."
+      }
+    },
+    "performance": {
+      "label": "Efikeco",
+      "saveMemoryAction": {
+        "label": "Kiel ŝpari memoron pri lanĉetoj",
+        "description": "Por ŝpari memoron pri lanĉetoj, vi povas elekti fermi lanĉetojn aŭ forigi lanĉetojn.",
+        "discardTips": "forigita lanĉeto ne iros ie. Ni mortigos ĝin, sed ĝi ankoraŭ estos videbla sur la Crom-lanĉetostrio. Se vi retroiras al lanĉeto kiu estis forigita, ĝi reŝargiĝos post klako. La enhavo de la formularo, rulpozicio kaj tiel plu estas konservataj kaj restarigataj same kiel dum antaŭen/malantaŭen lanĉetnavigado.",
+        "disabled": "Malebligita",
+        "closeTabs": "Fermi lanĉetojn",
+        "discardTabs": "Forigi lanĉetojn"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Kiom longe forigi neaktivajn lanĉetojn",
+        "description": "Kiam ne estas ludata aŭ videigata enhavo sur la lanĉeto kaj aŭtomata forigo ne estas malpermesita, la lanĉeto estos forigita post la specifita tempo.",
+        "minutes": "Minutoj"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Kiom longe fermi neaktivan lanĉeton",
+        "description": "Kiam ne estas ludata aŭ videigata enhavo sur la lanĉeto kaj aŭtomata forigo ne estas malpermesita, la lanĉeto estos fermita post la specifita tempo.",
+        "minutes": "Minutoj"
+      },
+      "disableAnimations": {
+        "label": "Malebligi animaciojn",
+        "description": "malebligi la ondorefejkon kaj malebligi ĉiujn transirojn"
+      }
+    }
+  }
+}

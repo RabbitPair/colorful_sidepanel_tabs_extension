@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Upravljanje oznakama u šarenom bočnom panelu"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Upravljajte karticama u bočnom panelu, previše lijepo da bi bilo ovako dobro."
+  },
+  "openSidePanel": {
+    "message": "Otvori bočni panel"
+  }
+}

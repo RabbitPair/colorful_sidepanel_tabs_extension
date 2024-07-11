@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Кіруючы каляровымі бакавымі ўкладкамі"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Кіруйце ўкладкамі ў бакавой панэлі, занадта прыгожа, каб быць такім добрым."
+  },
+  "openSidePanel": {
+    "message": "Адкрыць бакавую панэль"
+  }
+}

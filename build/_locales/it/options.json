@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Apri il pannello laterale per la visualizzazione",
+  "_execute_action": "Attiva questa estensione",
+  "openSidePanel": "Apri pannello laterale",
+  "settings": {
+    "resetCurrentPageSettings": "Reimposta le impostazioni della pagina corrente",
+    "modules": {
+      "appearance": "Aspetto",
+      "beautify": "Abbellisci",
+      "tabs": "Schede",
+      "history": "Cronologia",
+      "shortcuts": "Scorciatoie",
+      "pip": "Immagine nella immagine",
+      "chromeTabGroupAdvanced": "Gruppi schede avanzati",
+      "progressBar": "barra di avanzamento",
+      "floatBall": "Palla fluttuante",
+      "experimentalFeatures": "Funzionalità sperimentali"
+    },
+    "appearance": {
+      "header": "Aspetto",
+      "language": {
+        "label": "Lingua dell'interfaccia",
+        "description": "Imposta la lingua per la visualizzazione dell'interfaccia"
+      },
+      "theme": {
+        "label": "Modalità colore",
+        "description": "Scegli la modalità colore chiaro o scuro"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Quando abilitato, l'interfaccia visualizzerà la direzione del testo da destra a sinistra"
+      },
+      "fontSize": {
+        "label": "Dimensione del carattere",
+        "description": "Imposta la dimensione del carattere",
+        "small": "Piccolo",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Famiglia del carattere",
+        "description": "Imposta la famiglia del carattere"
+      },
+      "fontColor": {
+        "label": "Colore del carattere",
+        "description": "Imposta il colore del carattere"
+      },
+      "fontWeight": {
+        "label": "Grassetto del carattere",
+        "description": "Imposta il grassetto del carattere"
+      },
+      "extAction": {
+        "label": "Azione clic sull'icona dell'estensione",
+        "description": "Imposta l'azione quando si clicca sull'icona dell'estensione",
+        "openPopup": "Apri popup",
+        "openSidePanel": "Apri pannello laterale"
+      },
+      "SidePanelPosition": {
+        "label": "Posizione del pannello laterale",
+        "description": "Imposta se il pannello laterale è visualizzato a sinistra o a destra.",
+        "goToChromeSettings": "Vai alle impostazioni di Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posizione della casella di ricerca",
+        "description": "Imposta la posizione della casella di ricerca",
+        "top": "In alto",
+        "bottom": "In basso",
+        "hide": "Nascondi"
+      },
+      "toolbar": {
+        "label": "Mostra barra degli strumenti",
+        "description": "Quando abilitato, viene visualizzata la barra degli strumenti"
+      },
+      "bottomNav": {
+        "label": "Mostra barra di navigazione inferiore",
+        "description": "Quando abilitato, viene visualizzata la barra di navigazione inferiore"
+      },
+      "buttonPosition": {
+        "label": "Posizione del pulsante",
+        "description": "Imposta la posizione dei pulsanti",
+        "left": "Sinistra",
+        "right": "Destra"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Nascondi pannello laterale a schermo intero",
+        "description": "Quando abilitato, il pannello laterale si nasconderà automaticamente quando la pagina è a schermo intero. A causa delle limitazioni di Chrome, il pannello laterale non può essere riaperto automaticamente. È necessario riaprire manualmente il pannello laterale!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Sfondo colorato",
+        "description": "Quando abilitato, il pannello laterale visualizzerà uno sfondo colorato"
+      },
+      "backgroundPicture": {
+        "label": "Immagine di sfondo",
+        "description": "Fai clic su [+] per aggiungere un'immagine personalizzata, fai clic su [-] per eliminare un'immagine personalizzata. Puoi trovare le tue immagini preferite sui seguenti siti web.",
+        "dialogDescription": "Inserisci l'indirizzo dell'immagine",
+        "OK": "OK",
+        "Cancel": "Annulla",
+        "invalidImage": "Indirizzo dell'immagine non valido"
+      },
+      "backgroundImageTransparency": {
+        "label": "Trasparenza dell'immagine",
+        "description": "Imposta la trasparenza dell'immagine",
+        "transparent": "Trasparente",
+        "opaque": "Opaco"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensità dello sfocato",
+        "description": "Imposta l'intensità dello sfocato"
+      },
+      "backgroundImageBrightness": {
+        "label": "Luminosità",
+        "description": "Imposta la luminosità, consigliata solo per la modalità scura"
+      },
+      "listBackgroundStyle": {
+        "label": "Stile sfondo elenco",
+        "description": "Imposta lo stile di sfondo dell'elenco",
+        "single": "Singolo",
+        "none": "Nessuno",
+        "simple": "Semplice",
+        "complementary": "Complementare",
+        "analogous": "Analogico",
+        "triadic": "Triadico",
+        "tetradic": "Tetradico"
+      },
+      "listBackgroundTransparency": {
+        "label": "Trasparenza sfondo elenco",
+        "description": "Imposta la trasparenza dello sfondo dell'elenco",
+        "transparent": "Trasparente",
+        "opaque": "Opaco"
+      },
+      "listBottomBorder": {
+        "label": "Bordo inferiore elenco",
+        "description": "Imposta il bordo inferiore dell'elenco",
+        "none": "Nessuno",
+        "dashed": "Tratteggiato",
+        "solid": "Solido"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barre di scorrimento fluide",
+        "description": "Utilizza lo stile di design Microsoft Fluent per le barre di scorrimento e sovrapponile al contenuto web",
+        "goToChromeSettings": "Vai alle impostazioni di Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Visualizzazione elenco",
+        "description": "Cambia visualizzazione elenco",
+        "compact": "Visualizzazione compatta",
+        "visual": "Visualizzazione visiva"
+      },
+      "showBy": {
+        "label": "Mostra per",
+        "description": "Cambia mostra per"
+      },
+      "sortBy": {
+        "label": "Ordina per",
+        "description": "Cambia ordina per"
+      },
+      "showFullUrl": {
+        "label": "Mostra URL completo",
+        "description": "Quando abilitato, l'URL completo verrà mostrato sotto il titolo della scheda"
+      },
+      "currentWindowOnly": {
+        "label": "Solo finestra corrente",
+        "description": "Mostra solo le schede della finestra corrente. Se disabilitato, verranno mostrate le schede di tutte le finestre"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Mostra schede appuntate come icone",
+        "description": "Quando abilitato, le schede appuntate verranno visualizzate come icone e non nell'elenco"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Mostra icone del sito quando si comprimono i gruppi",
+        "description": "Quando abilitato, i gruppi compressi mostreranno le icone delle schede"
+      },
+      "hoverPreview": {
+        "label": "Anteprima al passaggio del mouse",
+        "description": "Quando abilitato, passando il mouse sulle schede verranno visualizzate le anteprime delle schede"
+      },
+      "previewWithThumbnail": {
+        "label": "Mostra miniature nell'anteprima",
+        "description": "Quando abilitato, le anteprime mostreranno le miniature delle schede",
+        "alert": "Cattura l'area visibile della scheda attualmente attiva in una finestra specificata. Per chiamare questo metodo, l'estensione deve avere il permesso <all_urls> o il permesso activeTab.",
+        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono state modificate. Se cambi idea, fai clic di nuovo e autorizza"
+      },
+      "previewDelay": {
+        "label": "Ritardo anteprima",
+        "description": "Imposta il tempo di ritardo per le anteprime delle schede quando si passa il mouse sulle schede, ecc. (secondi). Se impostato su 0, non ci sarà alcun ritardo",
+        "seconds": "Secondi"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Salva schede chiuse di recente",
+        "description": "Quando abilitato, salva le schede chiuse di recente"
+      },
+      "dataSource": {
+        "label": "Origine dati",
+        "description": "Seleziona l'origine dati",
+        "recentlyClosedTabs": "Schede chiuse di recente",
+        "chromeHistory": "Cronologia di Chrome",
+        "alert": "Per cercare i record della cronologia, è necessaria la tua autorizzazione per abilitare",
+        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono state modificate. Se cambi idea, fai clic di nuovo e autorizza"
+      },
+      "showInSidePanel": {
+        "label": "Mostra nel pannello laterale",
+        "description": "Quando abilitato, mostra nel pannello laterale"
+      },
+      "showInTabSearchResults": {
+        "label": "Mostra la cronologia nei risultati della ricerca delle schede",
+        "description": "Quando abilitato, i record di cronologia recenti verranno visualizzati nei risultati della ricerca delle schede"
+      },
+      "limitSearchResults": {
+        "label": "Limita il numero di record della cronologia nei risultati della ricerca delle schede",
+        "description": "Imposta il numero limite di record della cronologia nei risultati della ricerca delle schede. I record della cronologia che superano il limite verranno filtrati",
+        "alert": "Troppi record influenzeranno la velocità di caricamento della pagina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Numero di schede chiuse di recente da mantenere",
+        "description": "Imposta il numero di schede chiuse di recente da mantenere"
+      },
+      "keepDays": {
+        "label": "Numero di giorni per mantenere le schede chiuse di recente",
+        "description": "Imposta il numero di giorni per mantenere le schede chiuse di recente. I dati scaduti verranno eliminati",
+        "days": "Giorni"
+      },
+      "openDuration": {
+        "label": "Durata di apertura",
+        "description": "Verranno salvate solo le schede aperte per più tempo del tempo impostato",
+        "seconds": "Secondi"
+      }
+    },
+    "shortcuts": {
+      "alert": "Questa pagina è solo per la visualizzazione. Per modificare le scorciatoie, visita [Estensioni]->[Gestisci estensioni]->[Scorciatoie da tastiera]",
+      "goToChromeSettings": "Vai alle impostazioni di Chrome",
+      "_execute_action": "Attiva questa estensione",
+      "openSidePanel": "Apri pannello laterale"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Immagine nella immagine",
+      "tabSwitch": {
+        "label": "PIP durante il cambio scheda",
+        "description": "Entra automaticamente in PIP quando si cambia scheda con un video non silenziato",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "scrollSwitch": {
+        "label": "Passa all'immagine nella immagine durante lo scorrimento",
+        "description": "Se la pagina corrente sta riproducendo un video e il video non è silenziato e il video è fuori dalla portata visibile durante lo scorrimento, entrerà nell'immagine nella immagine.",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Attivazione utente richiesta",
+      "tips_1": "L'attivazione utente significa che l'utente sta interagendo attualmente con la pagina",
+      "tips_2": "Più specificamente, l'attivazione attiva eventi di input come:",
+      "tips_3": "Nota: Utilizzare la rotellina del mouse o il gesto di scorrimento non attiverà!",
+      "tips_4": "Se desideri ulteriori dettagli, visita:",
+      "click": "Clicca",
+      "contextmenu": "Menu clic destro",
+      "dblclick": "Doppio clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamento di compressione gruppo schede",
+        "description": "Modifica il comportamento della compressione del gruppo schede del browser Chrome",
+        "option_collapse_others": "Mostra gruppo corrente e comprimi gli altri",
+        "option_disable": "Espandi tutti i gruppi",
+        "option_auto": "Utilizza le impostazioni predefinite di Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Crea automaticamente o unisciti al gruppo stesso dominio",
+        "description": "Quando abilitato, le schede appena aperte si uniranno automaticamente al gruppo dello stesso dominio. Se il gruppo di dominio non esiste, verrà creato un nuovo gruppo di dominio",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtra le schede appuntate nei gruppi",
+        "description": "Quando abilitato, le schede appuntate non verranno aggiunte ai gruppi",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Abilita barra di avanzamento",
+        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della lettura sotto la barra del titolo della scheda",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "readingProgressBar": {
+        "label": "Barra di avanzamento lettura",
+        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della lettura sotto la barra del titolo della scheda",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "scrollHeightRatio": {
+        "label": "Rapporto altezza di scorrimento",
+        "description": "Il rapporto tra l'altezza della finestra visibile e l'altezza della pagina. Una barra di avanzamento verrà visualizzata quando il rapporto viene superato",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "playingProgressBar": {
+        "label": "Barra di avanzamento riproduzione",
+        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della riproduzione sotto la barra del titolo della scheda",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Abilita palla fluttuante",
+        "description": "Quando il pannello laterale è chiuso, verrà visualizzata una palla fluttuante sul lato destro della pagina, consentendo l'apertura rapida del pannello laterale."
+      }
+    },
+    "performance": {
+      "label": "Prestazioni",
+      "saveMemoryAction": {
+        "label": "Come risparmiare memoria sulle schede",
+        "description": "Per risparmiare memoria sulle schede, puoi scegliere di chiudere le schede o scartare le schede.",
+        "discardTips": "una scheda scartata non va da nessuna parte. La chiudiamo ma è ancora visibile sulla barra delle schede di Chrome. Se torni a una scheda che è stata scartata, si ricaricherà quando cliccata. Il contenuto del modulo, la posizione di scorrimento e così via vengono salvati e ripristinati allo stesso modo durante la navigazione avanti/indietro delle schede.",
+        "disabled": "Disabilitato",
+        "closeTabs": "Chiudi schede",
+        "discardTabs": "Scarta schede"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Quanto tempo per scartare le schede inattive",
+        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è vietato, la scheda verrà scartata dopo il tempo specificato.",
+        "minutes": "Minuti"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Quanto tempo per chiudere le schede inattive",
+        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è vietato, la scheda verrà chiusa dopo il tempo specificato.",
+        "minutes": "Minuti"
+      },
+      "disableAnimations": {
+        "label": "Disabilita animazioni",
+        "description": "disabilita l'effetto ondulazione e disabilita tutte le transizioni"
+      }
+    }
+  }
+}

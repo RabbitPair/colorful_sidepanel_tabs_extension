@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Xestión de pestanyas d'o panel lateral coloriu"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Manchet los biguetas en o panel lateral, masiá billa pa estar tan buena."
+  },
+  "openSidePanel": {
+    "message": "Ubrir o panel lateral"
+  }
+}

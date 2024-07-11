@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Administratio tabulæ lateralis coloratæ"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Pārvaldiet cilnes sānu panelī, pārāk skaisti, lai būtu tik labi."
+  },
+  "openSidePanel": {
+    "message": "Aperi tabulam lateralem"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Abrir panel lateral para previsualizar",
+  "_execute_action": "Activar esta extensión",
+  "openSidePanel": "Abrir panel lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Restablecer ajustes de la página actual",
+    "modules": {
+      "appearance": "Apariencia",
+      "beautify": "Embellecer",
+      "tabs": "Pestañas",
+      "history": "Historial",
+      "shortcuts": "Atajos",
+      "pip": "Imagen en imagen",
+      "chromeTabGroupAdvanced": "Grupos de pestañas avanzados",
+      "progressBar": "barra de progreso",
+      "floatBall": "Bola flotante",
+      "experimentalFeatures": "Funciones experimentales"
+    },
+    "appearance": {
+      "header": "Apariencia",
+      "language": {
+        "label": "Idioma de la interfaz",
+        "description": "Establecer el idioma para la visualización de la interfaz"
+      },
+      "theme": {
+        "label": "Modo de color",
+        "description": "Elegir modo de color claro u oscuro"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Cuando está habilitado, la interfaz mostrará la dirección del texto de derecha a izquierda"
+      },
+      "fontSize": {
+        "label": "Tamaño de fuente",
+        "description": "Establecer el tamaño de fuente",
+        "small": "Pequeño",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Familia de fuentes",
+        "description": "Establecer la familia de fuentes"
+      },
+      "fontColor": {
+        "label": "Color de fuente",
+        "description": "Establecer el color de fuente"
+      },
+      "fontWeight": {
+        "label": "Grosor de fuente",
+        "description": "Establecer el grosor de fuente"
+      },
+      "extAction": {
+        "label": "Acción al hacer clic en el icono de la extensión",
+        "description": "Establecer la acción al hacer clic en el icono de la extensión",
+        "openPopup": "Abrir popup",
+        "openSidePanel": "Abrir panel lateral"
+      },
+      "SidePanelPosition": {
+        "label": "Posición del panel lateral",
+        "description": "Establecer si el panel lateral se muestra a la izquierda o a la derecha.",
+        "goToChromeSettings": "Ir a la configuración de Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posición de la caja de búsqueda",
+        "description": "Establecer la posición de la caja de búsqueda",
+        "top": "Arriba",
+        "bottom": "Abajo",
+        "hide": "Ocultar"
+      },
+      "toolbar": {
+        "label": "Mostrar barra de herramientas",
+        "description": "Cuando está habilitado, se muestra la barra de herramientas"
+      },
+      "bottomNav": {
+        "label": "Mostrar barra de navegación inferior",
+        "description": "Cuando está habilitado, se muestra la barra de navegación inferior"
+      },
+      "buttonPosition": {
+        "label": "Posición de los botones",
+        "description": "Establecer la posición de los botones",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ocultar panel lateral en pantalla completa",
+        "description": "Cuando está habilitado, el panel lateral se ocultará automáticamente cuando la página esté en pantalla completa. Debido a las limitaciones de Chrome, el panel lateral no se puede abrir automáticamente. ¡Debes abrir manualmente el panel lateral!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fondo de color",
+        "description": "Cuando está habilitado, el panel lateral mostrará un fondo de color"
+      },
+      "backgroundPicture": {
+        "label": "Imagen de fondo",
+        "description": "Haz clic en [+] para agregar una imagen personalizada, haz clic en [-] para eliminar una imagen personalizada. Puedes encontrar tus imágenes favoritas en los siguientes sitios web.",
+        "dialogDescription": "Introducir dirección de la imagen",
+        "OK": "Aceptar",
+        "Cancel": "Cancelar",
+        "invalidImage": "Dirección de imagen no válida"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparencia de la imagen",
+        "description": "Establecer la transparencia de la imagen",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensidad de desenfoque",
+        "description": "Establecer la intensidad de desenfoque"
+      },
+      "backgroundImageBrightness": {
+        "label": "Brillo",
+        "description": "Establecer el brillo, recomendado solo para el modo oscuro"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo de fondo de lista",
+        "description": "Establecer el estilo de fondo de lista",
+        "single": "Único",
+        "none": "Ninguno",
+        "simple": "Simple",
+        "complementary": "Complementario",
+        "analogous": "Análogo",
+        "triadic": "Triádico",
+        "tetradic": "Tetradico"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparencia de fondo de lista",
+        "description": "Establecer la transparencia de fondo de lista",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "listBottomBorder": {
+        "label": "Borde inferior de lista",
+        "description": "Establecer el borde inferior de lista",
+        "none": "Ninguno",
+        "dashed": "Discontinuo",
+        "solid": "Sólido"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barras de desplazamiento fluidas",
+        "description": "Utilizar el estilo de diseño Microsoft Fluent para las barras de desplazamiento y superponerlas en el contenido web",
+        "goToChromeSettings": "Ir a la configuración de Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vista de lista",
+        "description": "Cambiar a vista de lista",
+        "compact": "Vista compacta",
+        "visual": "Vista visual"
+      },
+      "showBy": {
+        "label": "Mostrar por",
+        "description": "Cambiar mostrar por"
+      },
+      "sortBy": {
+        "label": "Ordenar por",
+        "description": "Cambiar ordenar por"
+      },
+      "showFullUrl": {
+        "label": "Mostrar URL completa",
+        "description": "Cuando está habilitado, se mostrará la URL completa debajo del título de la pestaña"
+      },
+      "currentWindowOnly": {
+        "label": "Solo ventana actual",
+        "description": "Mostrar solo pestañas de la ventana actual. Si está deshabilitado, se mostrarán pestañas de todas las ventanas"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Mostrar pestañas fijadas como iconos",
+        "description": "Cuando está habilitado, las pestañas fijadas se mostrarán como iconos y no en la lista"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Mostrar iconos de sitios web al colapsar grupos",
+        "description": "Cuando está habilitado, los grupos colapsados mostrarán iconos de pestañas"
+      },
+      "hoverPreview": {
+        "label": "Vista previa al pasar el cursor",
+        "description": "Cuando está habilitado, al pasar el cursor sobre las pestañas se mostrarán vistas previas de las pestañas"
+      },
+      "previewWithThumbnail": {
+        "label": "Mostrar miniaturas en la vista previa",
+        "description": "Cuando está habilitado, las vistas previas mostrarán miniaturas de las pestañas",
+        "alert": "Captura el área visible de la pestaña activa actual en una ventana especificada. Para llamar a este método, la extensión debe tener permiso <all_urls> o permiso activeTab.",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que los ajustes no han cambiado. Si cambias de opinión, haz clic de nuevo y permite la autorización"
+      },
+      "previewDelay": {
+        "label": "Retraso de vista previa",
+        "description": "Establecer el tiempo de retraso para las vistas previas de pestañas al pasar el cursor sobre las pestañas, etc. (segundos). Si se establece en 0, no habrá retraso",
+        "seconds": "Segundos"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Guardar pestañas cerradas recientemente",
+        "description": "Cuando está habilitado, guardar pestañas cerradas recientemente"
+      },
+      "dataSource": {
+        "label": "Fuente de datos",
+        "description": "Seleccionar fuente de datos",
+        "recentlyClosedTabs": "Pestañas cerradas recientemente",
+        "chromeHistory": "Historial de Chrome",
+        "alert": "Para buscar registros de historial, necesitas tu autorización para habilitar",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que los ajustes no han cambiado. Si cambias de opinión, haz clic de nuevo y permite la autorización"
+      },
+      "showInSidePanel": {
+        "label": "Mostrar en panel lateral",
+        "description": "Cuando está habilitado, mostrar en panel lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Mostrar historial en resultados de búsqueda de pestañas",
+        "description": "Cuando está habilitado, los registros recientes de historial se mostrarán en los resultados de búsqueda de pestañas"
+      },
+      "limitSearchResults": {
+        "label": "Limitar número de registros de historial en resultados de búsqueda de pestañas",
+        "description": "Establecer el límite de número de registros de historial en resultados de búsqueda de pestañas. Los registros de historial que excedan el límite se filtrarán",
+        "alert": "Demasiados registros afectarán la velocidad de carga de la página"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Número de pestañas cerradas recientemente a mantener",
+        "description": "Establecer el número de pestañas cerradas recientemente a mantener"
+      },
+      "keepDays": {
+        "label": "Número de días para mantener pestañas cerradas recientemente",
+        "description": "Establecer el número de días para mantener pestañas cerradas recientemente. Los datos caducados se eliminarán",
+        "days": "Días"
+      },
+      "openDuration": {
+        "label": "Duración de apertura",
+        "description": "Solo se guardarán las pestañas abiertas durante más tiempo del tiempo establecido",
+        "seconds": "Segundos"
+      }
+    },
+    "shortcuts": {
+      "alert": "Esta página es solo para visualización. Para modificar atajos, visita [Extensiones]->[Gestionar extensiones]->[Atajos de teclado]",
+      "goToChromeSettings": "Ir a la configuración de Chrome",
+      "_execute_action": "Activar esta extensión",
+      "openSidePanel": "Abrir panel lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imagen en imagen",
+      "tabSwitch": {
+        "label": "PIP al cambiar de pestaña",
+        "description": "Entrar automáticamente en PIP al cambiar de pestañas con un video sin silenciar",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "scrollSwitch": {
+        "label": "Cambiar a imagen en imagen al desplazarse",
+        "description": "Si la página actual está reproduciendo un video y el video no está silenciado y el video está fuera del rango visible al desplazarse, entrará en imagen en imagen.",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Se requiere activación del usuario",
+      "tips_1": "La activación del usuario significa que el usuario está interactuando actualmente con la página",
+      "tips_2": "Más específicamente, la activación desencadena eventos de entrada como:",
+      "tips_3": "Nota: ¡Usar la rueda del ratón o el gesto de deslizamiento no activará!",
+      "tips_4": "Si deseas más detalles, visita:",
+      "click": "Clic",
+      "contextmenu": "Menú contextual",
+      "dblclick": "Doble clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamiento de colapso de grupos de pestañas",
+        "description": "Modificar el comportamiento de colapso de grupos de pestañas del navegador Chrome",
+        "option_collapse_others": "Mostrar grupo actual y colapsar otros",
+        "option_disable": "Expandir todos los grupos",
+        "option_auto": "Usar la configuración predeterminada de Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Crear automáticamente o unirse al grupo de mismo dominio",
+        "description": "Cuando está habilitado, las pestañas recién abiertas se unirán automáticamente al grupo de mismo dominio. Si el grupo de dominio no existe, se creará un nuevo grupo de dominio",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrar pestañas fijadas en grupos",
+        "description": "Cuando está habilitado, las pestañas fijadas no se agregarán a los grupos",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Activar barra de progreso",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "scrollHeightRatio": {
+        "label": "Proporción de altura de desplazamiento",
+        "description": "La proporción de la altura de la ventana visible a la altura de la página. Se mostrará una barra de progreso cuando se exceda la proporción",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reproducción",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de reproducción debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Activar bola flotante",
+        "description": "Cuando el panel lateral está cerrado, se mostrará una bola flotante en el lado derecho de la página, permitiendo abrir rápidamente el panel lateral."
+      }
+    },
+    "performance": {
+      "label": "Rendimiento",
+      "saveMemoryAction": {
+        "label": "Cómo ahorrar memoria en las pestañas",
+        "description": "Para ahorrar memoria en las pestañas, puedes elegir cerrar pestañas o descartar pestañas.",
+        "discardTips": "una pestaña descartada no va a ninguna parte. La matamos pero sigue siendo visible en la barra de pestañas de Chrome. Si navegas de vuelta a una pestaña que ha sido descartada, se recargará cuando se haga clic. El contenido del formulario, la posición de desplazamiento, etc., se guardan y restauran de la misma manera que durante la navegación hacia adelante/atrás de la pestaña.",
+        "disabled": "Deshabilitado",
+        "closeTabs": "Cerrar pestañas",
+        "discardTabs": "Descartar pestañas"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Cuánto tiempo para descartar pestañas inactivas",
+        "description": "Cuando no se esté reproduciendo audio o video en la pestaña y no esté prohibido el descarte automático, la pestaña se descartará después del tiempo especificado.",
+        "minutes": "Minutos"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Cuánto tiempo para cerrar pestañas inactivas",
+        "description": "Cuando no se esté reproduciendo audio o video en la pestaña y no esté prohibido el descarte automático, la pestaña se cerrará después del tiempo especificado.",
+        "minutes": "Minutos"
+      },
+      "disableAnimations": {
+        "label": "Deshabilitar animaciones",
+        "description": "deshabilitar el efecto de ondulación y deshabilitar todas las transiciones"
+      }
+    }
+  }
+}

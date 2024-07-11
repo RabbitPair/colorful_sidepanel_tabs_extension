@@ -1,0 +1,341 @@
+{
+  "OpenSideSanelToPreview": "プレビューするためにサイドパネルを開く",
+  "_execute_action": "この拡張機能をアクティブ化",
+  "openSidePanel": "サイドパネルを開く",
+  "settings": {
+    "resetCurrentPageSettings": "現在のページの設定をリセット",
+    "modules": {
+      "appearance": "外観",
+      "beautify": "美化",
+      "tabs": "タブ",
+      "history": "履歴",
+      "shortcuts": "ショートカット",
+      "pip": "ピクチャーインピクチャー",
+      "chromeTabGroupAdvanced": "高度なタブグループ",
+      "progressBar": "プログレスバー",
+      "floatBall": "フロートボール",
+      "experimentalFeatures": "実験的な機能"
+    },
+    "appearance": {
+      "header": "外観",
+      "language": {
+        "label": "インターフェース言語",
+        "description": "インターフェース表示の言語を設定します"
+      },
+      "theme": {
+        "label": "カラーモード",
+        "description": "ライトまたはダークのカラーモードを選択します"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "有効にすると、インターフェースは右から左にテキスト方向を表示します"
+      },
+      "fontSize": {
+        "label": "フォントサイズ",
+        "description": "フォントサイズを設定します",
+        "small": "小",
+        "large": "大"
+      },
+      "fontFamily": {
+        "label": "フォントファミリー",
+        "description": "フォントファミリーを設定します"
+      },
+      "fontColor": {
+        "label": "フォントカラー",
+        "description": "フォントカラーを設定します"
+      },
+      "fontWeight": {
+        "label": "フォントウェイト",
+        "description": "フォントウェイトを設定します"
+      },
+      "extAction": {
+        "label": "拡張機能アイコンのクリックアクション",
+        "description": "拡張機能アイコンをクリックしたときのアクションを設定します",
+        "openPopup": "ポップアップを開く",
+        "openSidePanel": "サイドパネルを開く"
+      },
+      "SidePanelPosition": {
+        "label": "サイドパネルの位置",
+        "description": "サイドパネルが左側に表示されるか右側に表示されるかを設定します。",
+        "goToChromeSettings": "Chromeの設定に移動"
+      },
+      "searchBoxPosition": {
+        "label": "検索ボックスの位置",
+        "description": "検索ボックスの位置を設定します",
+        "top": "上",
+        "bottom": "下",
+        "hide": "非表示"
+      },
+      "toolbar": {
+        "label": "ツールバーを表示",
+        "description": "有効にすると、ツールバーが表示されます"
+      },
+      "bottomNav": {
+        "label": "下部ナビゲーションバーを表示",
+        "description": "有効にすると、下部ナビゲーションバーが表示されます"
+      },
+      "buttonPosition": {
+        "label": "ボタンの位置",
+        "description": "ボタンの位置を設定します",
+        "left": "左",
+        "right": "右"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "フルスクリーン時にサイドパネルを非表示",
+        "description": "有効にすると、ページがフルスクリーンになるとサイドパネルが自動的に非表示になります。Chromeの制限により、サイドパネルは自動的に再表示されません。サイドパネルを手動で再表示する必要があります！"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "カラー背景",
+        "description": "有効にすると、サイドパネルにカラー背景が表示されます"
+      },
+      "backgroundPicture": {
+        "label": "背景画像",
+        "description": "[+] をクリックしてカスタム画像を追加し、[-] をクリックしてカスタム画像を削除します。お気に入りの画像は以下のウェブサイトで見つけることができます。",
+        "dialogDescription": "画像アドレスを入力",
+        "OK": "OK",
+        "Cancel": "キャンセル",
+        "invalidImage": "無効な画像アドレス"
+      },
+      "backgroundImageTransparency": {
+        "label": "画像の透過度",
+        "description": "画像の透過度を設定します",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "backgroundImageBlur": {
+        "label": "ぼかしの強度",
+        "description": "ぼかしの強度を設定します"
+      },
+      "backgroundImageBrightness": {
+        "label": "明るさ",
+        "description": "明るさを設定します。暗いモードにのみ推奨されます"
+      },
+      "listBackgroundStyle": {
+        "label": "リスト背景スタイル",
+        "description": "リスト背景スタイルを設定します",
+        "single": "単一",
+        "none": "なし",
+        "simple": "シンプル",
+        "complementary": "補色",
+        "analogous": "類似色",
+        "triadic": "三色",
+        "tetradic": "四色"
+      },
+      "listBackgroundTransparency": {
+        "label": "リスト背景の透過度",
+        "description": "リスト背景の透過度を設定します",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "listBottomBorder": {
+        "label": "リスト下部の境界線",
+        "description": "リスト下部の境界線を設定します",
+        "none": "なし",
+        "dashed": "破線",
+        "solid": "実線"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "フルーエントスクロールバー",
+        "description": "Microsoft Fluent デザインスタイルのスクロールバーを使用し、Web コンテンツにオーバーレイします",
+        "goToChromeSettings": "Chromeの設定に移動"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "リストビュー",
+        "description": "リストビューを切り替えます",
+        "compact": "コンパクトビュー",
+        "visual": "ビジュアルビュー"
+      },
+      "showBy": {
+        "label": "表示方法",
+        "description": "表示方法を切り替えます"
+      },
+      "sortBy": {
+        "label": "並べ替え",
+        "description": "並べ替えを切り替えます"
+      },
+      "showFullUrl": {
+        "label": "完全なURLを表示",
+        "description": "有効にすると、タブタイトルの下に完全なURLが表示されます"
+      },
+      "currentWindowOnly": {
+        "label": "現在のウィンドウのみ",
+        "description": "現在のウィンドウのタブのみを表示します。無効にすると、すべてのウィンドウのタブが表示されます"
+      },
+      "pinedTabsAsIcons": {
+        "label": "ピン留めされたタブをアイコンとして表示",
+        "description": "有効にすると、ピン留めされたタブがアイコンとして表示され、リストに表示されません"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "グループを折りたたむときにウェブサイトアイコンを表示",
+        "description": "有効にすると、折りたたまれたグループにタブアイコンが表示されます"
+      },
+      "hoverPreview": {
+        "label": "ホバープレビュー",
+        "description": "有効にすると、タブにカーソルを合わせるとタブプレビューが表示されます"
+      },
+      "previewWithThumbnail": {
+        "label": "プレビューでサムネイルを表示",
+        "description": "有効にすると、プレビューにタブのサムネイルが表示されます",
+        "alert": "指定されたウィンドウで現在アクティブなタブの表示領域をキャプチャします。このメソッドを呼び出すには、拡張機能に <all_urls> 権限または activeTab 権限が必要です。",
+        "deniedMessage": "必要な権限を拒否したため、設定が変更されませんでした。考え直す場合は、もう一度クリックして承認してください"
+      },
+      "previewDelay": {
+        "label": "プレビュー遅延",
+        "description": "タブにカーソルを合わせたときなどのタブプレビューの遅延時間を設定します（秒）。0 に設定すると遅延はありません"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "最近閉じたタブを保存",
+        "description": "有効にすると、最近閉じたタブが保存されます"
+      },
+      "dataSource": {
+        "label": "データソース",
+        "description": "データソースを選択します",
+        "recentlyClosedTabs": "最近閉じたタブ",
+        "chromeHistory": "Chrome の履歴",
+        "alert": "履歴レコードを検索するには、承認を有効にする必要があります",
+        "deniedMessage": "必要な権限を拒否したため、設定が変更されませんでした。考え直す場合は、もう一度クリックして承認してください"
+      },
+      "showInSidePanel": {
+        "label": "サイドパネルに表示",
+        "description": "有効にすると、サイドパネルに表示されます"
+      },
+      "showInTabSearchResults": {
+        "label": "タブ検索結果に履歴を表示",
+        "description": "有効にすると、最近の履歴レコードがタブ検索結果に表示されます"
+      },
+      "limitSearchResults": {
+        "label": "タブ検索結果の履歴レコード数を制限",
+        "description": "タブ検索結果に表示される履歴レコードの制限数を設定します。制限を超える履歴レコードはフィルタリングされます",
+        "alert": "多くのレコードはページの読み込み速度に影響します"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "保存する最近閉じたタブの数",
+        "description": "保存する最近閉じたタブの数を設定します"
+      },
+      "keepDays": {
+        "label": "最近閉じたタブを保持する日数",
+        "description": "最近閉じたタブを保持する日数を設定します。期限切れのデータは削除されます"
+      },
+      "openDuration": {
+        "label": "オープン期間",
+        "description": "設定された時間より長く開いているタブのみ保存されます",
+        "seconds": "秒"
+      }
+    },
+    "shortcuts": {
+      "alert": "このページは表示専用です。ショートカットを変更するには、[拡張機能]→[拡張機能の管理]→[キーボードショートカット]を訪れてください",
+      "goToChromeSettings": "Chromeの設定に移動",
+      "_execute_action": "この拡張機能をアクティブ化",
+      "openSidePanel": "サイドパネルを開く"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "ピクチャーインピクチャー",
+      "tabSwitch": {
+        "label": "タブ切り替え時のPIP",
+        "description": "ミュート解除されたビデオを持つタブを切り替えると自動的にPIPに入ります",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "scrollSwitch": {
+        "label": "スクロール時のピクチャーインピクチャーへの切り替え",
+        "description": "現在のページでビデオが再生されており、ビデオがミュート解除されており、ビデオがスクロール時に表示範囲外にある場合、ピクチャーインピクチャーに入ります。",
+        "enabled": "有効",
+        "disabled": "無効"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "ユーザーアクティベーションが必要です",
+      "tips_1": "ユーザーアクティベーションとは、ユーザーが現在ページとやり取りしていることを意味します",
+      "tips_2": "より具体的には、次のような入力イベントがアクティベーションをトリガーします：",
+      "tips_3": "注意：マウスホイールスクロールやスワイプジェスチャーはトリガーされません！",
+      "tips_4": "詳細については、以下をご覧ください：",
+      "click": "クリック",
+      "contextmenu": "右クリックメニュー",
+      "dblclick": "ダブルクリック"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "タブグループの折りたたみ動作",
+        "description": "Chrome ブラウザのタブグループの動作を変更します",
+        "option_collapse_others": "現在のグループを表示し、他を折りたたむ",
+        "option_disable": "すべてのグループを展開",
+        "option_auto": "Chrome のデフォルト設定を使用"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "自動的に同じドメイングループを作成または参加",
+        "description": "有効にすると、新しく開かれたタブは自動的に同じドメイングループに参加します。ドメイングループが存在しない場合、新しいドメイングループが作成されます",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "グループ内のピン留めされたタブをフィルタリング",
+        "description": "有効にすると、ピン留めされたタブはグループに追加されません",
+        "enabled": "有効",
+        "disabled": "無効"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "進行バーを有効にする",
+        "description": "有効にすると、タブのタイトルバーの下に読書進行バーが表示されます",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "readingProgressBar": {
+        "label": "読書進行バー",
+        "description": "有効にすると、タブのタイトルバーの下に読書進行バーが表示されます",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "scrollHeightRatio": {
+        "label": "スクロール高さ比率",
+        "description": "表示されるウィンドウの高さとページの高さの比率。比率を超えると進行バーが表示されます",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "playingProgressBar": {
+        "label": "再生進行バー",
+        "description": "有効にすると、タブのタイトルバーの下に再生進行バーが表示されます",
+        "enabled": "有効",
+        "disabled": "無効"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "フロートボールを有効にする",
+        "description": "サイドパネルが閉じているときに、ページの右側にフロートボールが表示され、サイドパネルを素早く開くことができます。"
+      }
+    },
+    "performance": {
+      "label": "パフォーマンス",
+      "saveMemoryAction": {
+        "label": "タブのメモリを節約する方法",
+        "description": "タブのメモリを節約するには、タブを閉じるか、タブを破棄するかを選択できます。",
+        "discardTips": "破棄されたタブはどこにも行きません。タブを終了しますが、Chromeのタブストリップにはまだ表示されています。破棄されたタブに戻ると、クリック時に再読み込みされます。フォームの内容、スクロール位置などは、タブの前後のナビゲーションと同じ方法で保存および復元されます。",
+        "disabled": "無効",
+        "closeTabs": "タブを閉じる",
+        "discardTabs": "タブを破棄"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "非アクティブなタブを破棄する時間",
+        "description": "タブでオーディオやビデオが再生されておらず、自動破棄が禁止されていない場合、指定された時間後にタブが破棄されます。",
+        "minutes": "分"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "非アクティブなタブを閉じる時間",
+        "description": "タブでオーディオやビデオが再生されておらず、自動破棄が禁止されていない場合、指定された時間後にタブが閉じられます。",
+        "minutes": "分"
+      },
+      "disableAnimations": {
+        "label": "アニメーションを無効にする",
+        "description": "リップル効果とすべてのトランジションを無効にする"
+      }
+    }
+  }
+}

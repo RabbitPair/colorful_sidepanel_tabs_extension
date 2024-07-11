@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Kleurvolle sybalk etiketbestuur"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Bestuur oortjies in die sy paneel, te mooi om so goed te wees."
+  },
+  "openSidePanel": {
+    "message": "Maak sypaneel oop"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Åbn sidepanelet for at forhåndsvise",
+  "_execute_action": "Aktivér denne udvidelse",
+  "openSidePanel": "Åbn sidepanel",
+  "settings": {
+    "resetCurrentPageSettings": "Nulstil nuværende sideindstillinger",
+    "modules": {
+      "appearance": "Udseende",
+      "beautify": "Forskøn",
+      "tabs": "Faner",
+      "history": "Historik",
+      "shortcuts": "Genveje",
+      "pip": "Billede-i-billede",
+      "chromeTabGroupAdvanced": "Avancerede fane-grupper",
+      "progressBar": "Statuslinje",
+      "floatBall": "Flydende kugle",
+      "experimentalFeatures": "Eksperimentelle funktioner"
+    },
+    "appearance": {
+      "header": "Udseende",
+      "language": {
+        "label": "Grænsefladesprog",
+        "description": "Indstil sproget for grænsefladevisning"
+      },
+      "theme": {
+        "label": "Farvetilstand",
+        "description": "Vælg lys eller mørk farvetilstand"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Når aktiveret, vil grænsefladen vise tekstretning fra højre mod venstre"
+      },
+      "fontSize": {
+        "label": "Skriftstørrelse",
+        "description": "Indstil skriftstørrelsen",
+        "small": "Lille",
+        "large": "Stor"
+      },
+      "fontFamily": {
+        "label": "Skrifttype",
+        "description": "Indstil skrifttypen"
+      },
+      "fontColor": {
+        "label": "Skriftfarve",
+        "description": "Indstil skriftfarven"
+      },
+      "fontWeight": {
+        "label": "Skriftvægt",
+        "description": "Indstil skriftvægten"
+      },
+      "extAction": {
+        "label": "Klik på udvidelsesikonhandling",
+        "description": "Indstil handlingen, når der klikkes på udvidelsesikonet",
+        "openPopup": "Åbn popup",
+        "openSidePanel": "Åbn sidepanel"
+      },
+      "SidePanelPosition": {
+        "label": "Sidepanelposition",
+        "description": "Indstil om sidepanelet vises til venstre eller højre.",
+        "goToChromeSettings": "Gå til Chrome-indstillinger"
+      },
+      "searchBoxPosition": {
+        "label": "Søgefeltets position",
+        "description": "Indstil positionen for søgefeltet",
+        "top": "Top",
+        "bottom": "Bund",
+        "hide": "Skjul"
+      },
+      "toolbar": {
+        "label": "Vis værktøjslinje",
+        "description": "Når aktiveret, vises værktøjslinjen"
+      },
+      "bottomNav": {
+        "label": "Vis bundnavigation",
+        "description": "Når aktiveret, vises bundnavigationen"
+      },
+      "buttonPosition": {
+        "label": "Knapposition",
+        "description": "Indstil knappernes position",
+        "left": "Venstre",
+        "right": "Højre"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Skjul sidepanel i fuld skærm",
+        "description": "Når aktiveret, vil sidepanelet automatisk skjules, når siden er i fuld skærm. På grund af Chromes begrænsninger kan sidepanelet ikke automatisk genåbnes. Du skal manuelt genåbne sidepanelet!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Farvet baggrund",
+        "description": "Når aktiveret, vil sidepanelet vise en farvet baggrund"
+      },
+      "backgroundPicture": {
+        "label": "Baggrundsbillede",
+        "description": "Klik på [+] for at tilføje et brugerdefineret billede, klik på [-] for at slette et brugerdefineret billede. Du kan finde dine foretrukne billeder på følgende hjemmesider.",
+        "dialogDescription": "Indtast billedadresse",
+        "OK": "OK",
+        "Cancel": "Annuller",
+        "invalidImage": "Ugyldig billedadresse"
+      },
+      "backgroundImageTransparency": {
+        "label": "Billedgennemsigtighed",
+        "description": "Indstil billedets gennemsigtighed",
+        "transparent": "Gennemsigtig",
+        "opaque": "Uigennemsigtig"
+      },
+      "backgroundImageBlur": {
+        "label": "Sløreintensitet",
+        "description": "Indstil sløreintensiteten"
+      },
+      "backgroundImageBrightness": {
+        "label": "Lysstyrke",
+        "description": "Indstil lysstyrken, anbefales kun til mørk tilstand"
+      },
+      "listBackgroundStyle": {
+        "label": "Liste baggrundsstil",
+        "description": "Indstil listenes baggrundsstil",
+        "single": "Enkel",
+        "none": "Ingen",
+        "simple": "Enkel",
+        "complementary": "Komplementær",
+        "analogous": "Analog",
+        "triadic": "Triadisk",
+        "tetradic": "Tetradisk"
+      },
+      "listBackgroundTransparency": {
+        "label": "Liste baggrundsgennemsigtighed",
+        "description": "Indstil listenes baggrundsgennemsigtighed",
+        "transparent": "Gennemsigtig",
+        "opaque": "Uigennemsigtig"
+      },
+      "listBottomBorder": {
+        "label": "Liste bundkant",
+        "description": "Indstil listenes bundkant",
+        "none": "Ingen",
+        "dashed": "Stiplet",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Flydende rullebjælker",
+        "description": "Brug Microsoft Fluent designstil rullebjælker og læg dem over webindholdet",
+        "goToChromeSettings": "Gå til Chrome-indstillinger"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Listevisning",
+        "description": "Skift listevisning",
+        "compact": "Kompakt visning",
+        "visual": "Visuel visning"
+      },
+      "showBy": {
+        "label": "Vis efter",
+        "description": "Skift vis efter"
+      },
+      "sortBy": {
+        "label": "Sorter efter",
+        "description": "Skift sorter efter"
+      },
+      "showFullUrl": {
+        "label": "Vis fuld URL",
+        "description": "Når aktiveret, vises den fulde URL under fanetitlen"
+      },
+      "currentWindowOnly": {
+        "label": "Kun aktuelt vindue",
+        "description": "Vis kun faner fra det aktuelle vindue. Hvis deaktiveret, vises faner fra alle vinduer"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Vis fastgjorte faner som ikoner",
+        "description": "Når aktiveret, vises fastgjorte faner som ikoner og ikke i listen"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Vis webstedsikoner ved sammenklappede grupper",
+        "description": "Når aktiveret, viser sammenklappede grupper faneikoner"
+      },
+      "hoverPreview": {
+        "label": "Svæveforhåndsvisning",
+        "description": "Når aktiveret, viser svævning over faner fane-forhåndsvisninger"
+      },
+      "previewWithThumbnail": {
+        "label": "Vis miniaturebilleder i forhåndsvisning",
+        "description": "Når aktiveret, viser forhåndsvisninger fane-miniaturebilleder",
+        "alert": "Fang det synlige område af den aktuelt aktive fane i et angivet vindue. For at kalde denne metode skal udvidelsen have tilladelse til <all_urls> eller activeTab-tilladelse.",
+        "deniedMessage": "Du har nægtet den nødvendige tilladelse, så indstillingerne er ikke ændret. Hvis du skifter mening, skal du klikke igen og tillade autorisation"
+      },
+      "previewDelay": {
+        "label": "Forhåndsvisningsforsinkelse",
+        "description": "Indstil forsinkelsestiden for fane-forhåndsvisninger ved svævning over faner osv. (sekunder). Hvis den er indstillet til 0, vil der ikke være nogen forsinkelse",
+        "seconds": "Sekunder"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Gem nyligt lukkede faner",
+        "description": "Når aktiveret, gem nyligt lukkede faner"
+      },
+      "dataSource": {
+        "label": "Datakilde",
+        "description": "Vælg datakilde",
+        "recentlyClosedTabs": "Nyligt lukkede faner",
+        "chromeHistory": "Chrome-historik",
+        "alert": "For at søge i historikoptegnelser skal du have din autorisation til at aktivere",
+        "deniedMessage": "Du har nægtet den nødvendige tilladelse, så indstillingerne er ikke ændret. Hvis du skifter mening, skal du klikke igen og tillade autorisation"
+      },
+      "showInSidePanel": {
+        "label": "Vis i sidepanelet",
+        "description": "Når aktiveret, vis i sidepanelet"
+      },
+      "showInTabSearchResults": {
+        "label": "Vis historik i fane-søgeresultater",
+        "description": "Når aktiveret, vises nylige historikoptegnelser i fane-søgeresultater"
+      },
+      "limitSearchResults": {
+        "label": "Begræns antallet af historikoptegnelser i fane-søgeresultater",
+        "description": "Indstil begrænsningen af antallet af historikoptegnelser i fane-søgeresultater. Historikoptegnelser, der overstiger grænsen, filtreres",
+        "alert": "For mange optegnelser vil påvirke sideindlæsningshastigheden"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Antal nyligt lukkede faner at beholde",
+        "description": "Indstil antallet af nyligt lukkede faner at beholde"
+      },
+      "keepDays": {
+        "label": "Antal dage at beholde nyligt lukkede faner",
+        "description": "Indstil antallet af dage at beholde nyligt lukkede faner. Udløbet data vil blive slettet",
+        "days": "Dage"
+      },
+      "openDuration": {
+        "label": "Åbningsvarighed",
+        "description": "Kun faner, der har været åbne i længere tid end den indstillede tid, vil blive gemt",
+        "seconds": "Sekunder"
+      }
+    },
+    "shortcuts": {
+      "alert": "Denne side er kun til visning. For at ændre genveje, skal du besøge [Udvidelser]->[Administrer udvidelser]->[Tastaturgenveje]",
+      "goToChromeSettings": "Gå til Chrome-indstillinger",
+      "_execute_action": "Aktivér denne udvidelse",
+      "openSidePanel": "Åbn sidepanel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Billede-i-billede",
+      "tabSwitch": {
+        "label": "PIP ved fane-skift",
+        "description": "Automatisk indtast PIP, når der skiftes faner med en umutet video",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "scrollSwitch": {
+        "label": "Skift til billede-i-billede ved rulning",
+        "description": "Hvis den aktuelle side afspiller en video, og videoen ikke er lydløs, og videoen er uden for den synlige rækkevidde ved rulning, vil den indtaste billede-i-billede.",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Brugeraktivering påkrævet",
+      "tips_1": "Brugeraktivering betyder, at brugeren i øjeblikket interagerer med siden",
+      "tips_2": "Mere specifikt udløser aktivering inputbegivenheder som:",
+      "tips_3": "Bemærk: Brug af musehjulet eller svejsegestus udløser ikke!",
+      "tips_4": "Hvis du vil have yderligere oplysninger, skal du besøge:",
+      "click": "Klik",
+      "contextmenu": "Højreklikmenu",
+      "dblclick": "Dobbeltklik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Fane-gruppe-sammenbrudsadfærd",
+        "description": "Ændr adfærden for Chrome-browser fane-gruppe-sammenbrud",
+        "option_collapse_others": "Vis aktuel gruppe og sammenbrud andre",
+        "option_disable": "Udvid alle grupper",
+        "option_auto": "Brug Chromes standardindstillinger"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automatisk opret eller deltag i samme domæne-gruppe",
+        "description": "Når aktiveret, vil nyåbnede faner automatisk deltage i den samme domæne-gruppe. Hvis domæne-gruppen ikke eksisterer, oprettes en ny domæne-gruppe",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrer fastgjorte faner i grupper",
+        "description": "Når aktiveret, vil fastgjorte faner ikke blive tilføjet til grupper",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Aktivér læsefremskridt bjælke",
+        "description": "Når aktiveret, vises en læsefremskridt bjælke under fanetitelbjælken",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "readingProgressBar": {
+        "label": "Læsefremskridt bjælke",
+        "description": "Når aktiveret, vises en læsefremskridt bjælke under fanetitelbjælken",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "scrollHeightRatio": {
+        "label": "Rullehøjdeforhold",
+        "description": "Forholdet mellem synlig vindueshøjde og sidehøjde. En fremskridtsbjælke vises, når forholdet overskrides",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "playingProgressBar": {
+        "label": "Afspilningsfremskridt bjælke",
+        "description": "Når aktiveret, vises en afspilningsfremskridt bjælke under fanetitelbjælken",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Aktivér flydende kugle",
+        "description": "Når sidepanelet er lukket, vises en flydende kugle på højre side af siden, så du hurtigt kan åbne sidepanelet."
+      }
+    },
+    "performance": {
+      "label": "Ymddygiad",
+      "saveMemoryAction": {
+        "label": "Sut i arbed cof ar bylchau",
+        "description": "I arbed cof ar bylchau, gallwch ddewis cau bylchau neu wrthod bylchau.",
+        "discardTips": "nid yw bylchadwy tab yn mynd i unrhyw le. Rydym yn ei ladd ond mae'n dal i'w weld ar y stryp tab Chrome. Os byddwch yn dychwelyd i dab a wrthodwyd, bydd yn ail-lwytho pan gliciwch arno. Mae cynnwys ffurflen, safle sgrolio ac yn y blaen yn cael eu cadw ac adfer yr un ffordd y byddent yn ystod y llywio tab blaenorol/cyn belled.",
+        "disabled": "Analluog",
+        "closeTabs": "Cau bylchau",
+        "discardTabs": "Wrthod bylchau"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Am ba hyd i wrthod bylchau anweithredol",
+        "description": "Pan nad oes unrhyw sain neu fideo'n cael ei chwarae ar y tab ac nid yw wrthod awtomatig yn cael ei wahardd, bydd y tab yn cael ei wrthod ar ôl yr amser penodedig.",
+        "minutes": "Munudau"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Am ba hyd i gau bylchau anweithredol",
+        "description": "Pan nad oes unrhyw sain neu fideo'n cael ei chwarae ar y tab ac nid yw wrthod awtomatig yn cael ei wahardd, bydd y tab yn cael ei gau ar ôl yr amser penodedig.",
+        "minutes": "Munudau"
+      },
+      "disableAnimations": {
+        "label": "Analluogi animeiddiadau",
+        "description": "analluogi effaith ripl ac analluogi pob pontio"
+      }
+    }
+  }
+}

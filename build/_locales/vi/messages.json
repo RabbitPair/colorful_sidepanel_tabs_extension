@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Quản lý thẻ thanh bên đa sắc"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Quản lý các tab trình duyệt trong bảng bên, Đẹp quá mức để tốt thế này."
+  },
+  "openSidePanel": {
+    "message": "Mở thanh bên"
+  }
+}

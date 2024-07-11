@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Abrir panel lateral para previsualizar",
+  "_execute_action": "Activar esta extensión",
+  "openSidePanel": "Abrir panel lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Restablecer configuración da páxina actual",
+    "modules": {
+      "appearance": "Aparencia",
+      "beautify": "Embellecer",
+      "tabs": "Lapas",
+      "history": "Historial",
+      "shortcuts": "Atallos",
+      "pip": "Imaxe na imaxe",
+      "chromeTabGroupAdvanced": "Grupos de lapas avanzados de Chrome",
+      "progressBar": "barra de progreso",
+      "floatBall": "Bola flotante",
+      "experimentalFeatures": "Funcionalidades experimentais"
+    },
+    "appearance": {
+      "header": "Aparencia",
+      "language": {
+        "label": "Idioma da interface",
+        "description": "Establecer o idioma para a visualización da interface"
+      },
+      "theme": {
+        "label": "Modo de cor",
+        "description": "Escoller o modo de cor claro ou escuro"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Cando está habilitado, a interface mostrará a dirección do texto de dereita a esquerda"
+      },
+      "fontSize": {
+        "label": "Tamaño da fonte",
+        "description": "Establecer o tamaño da fonte",
+        "small": "Pequeno",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Tipo de letra",
+        "description": "Establecer el tipo de letra"
+      },
+      "fontColor": {
+        "label": "Color de fuente",
+        "description": "Establecer el color de la fuente"
+      },
+      "fontWeight": {
+        "label": "Grosor de la fuente",
+        "description": "Establecer el grosor de la fuente"
+      },
+      "extAction": {
+        "label": "Acción ao facer clic no icono da extensión",
+        "description": "Establecer a acción ao facer clic no icono da extensión",
+        "openPopup": "Abrir o panel despregable",
+        "openSidePanel": "Abrir o panel lateral"
+      },
+      "SidePanelPosition": {
+        "label": "Posición do panel lateral",
+        "description": "Establecer se o panel lateral se mostra á esquerda ou á dereita.",
+        "goToChromeSettings": "Ir ás configuracións de Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posición da caixa de busca",
+        "description": "Establecer a posición da caixa de busca",
+        "top": "Arriba",
+        "bottom": "Abaixo",
+        "hide": "Ocultar"
+      },
+      "toolbar": {
+        "label": "Amosar a barra de ferramentas",
+        "description": "Cando está habilitado, amósase a barra de ferramentas"
+      },
+      "bottomNav": {
+        "label": "Amosar a barra de navegación inferior",
+        "description": "Cando está habilitado, amósase a barra de navegación inferior"
+      },
+      "buttonPosition": {
+        "label": "Posición dos botóns",
+        "description": "Establecer a posición dos botóns",
+        "left": "Esquerda",
+        "right": "Dereita"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ocultar o panel lateral en pantalla completa",
+        "description": "Cando está habilitado, o panel lateral ocultarase automaticamente cando a páxina estea en pantalla completa. Debido ás limitacións de Chrome, o panel lateral non se pode volver abrir automaticamente. Tes que abrilo manualmente!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fondo coloreado",
+        "description": "Cando está habilitado, o panel lateral mostrará un fondo coloreado"
+      },
+      "backgroundPicture": {
+        "label": "Imaxe de fondo",
+        "description": "Fai clic en [+] para engadir unha imaxe personalizada, fai clic en [-] para eliminar unha imaxe personalizada. Podes atopar as túas imaxes favoritas nos seguintes sitios web.",
+        "dialogDescription": "Introducir a dirección da imaxe",
+        "OK": "Aceptar",
+        "Cancel": "Cancelar",
+        "invalidImage": "Enderezo de imaxe non válido"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparencia da imaxe",
+        "description": "Establecer a transparencia da imaxe",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensidade do desenfoque",
+        "description": "Definir a intensidade do desenfoque"
+      },
+      "backgroundImageBrightness": {
+        "label": "Luminosidade",
+        "description": "Definir a luminosidade, recomendado só para o modo escuro"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo de fondo da lista",
+        "description": "Establecer o estilo de fondo da lista",
+        "single": "Único",
+        "none": "Ningún",
+        "simple": "Simples",
+        "complementary": "Complementario",
+        "analogous": "Análogo",
+        "triadic": "Triádico",
+        "tetradic": "Tetradico"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparencia do fondo da lista",
+        "description": "Establecer a transparencia do fondo da lista",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "listBottomBorder": {
+        "label": "Borde inferior da lista",
+        "description": "Establecer o borde inferior da lista",
+        "none": "Ningún",
+        "dashed": "Raiado",
+        "solid": "Sólido"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barras de desprazamento fluídas",
+        "description": "Usar o estilo de deseño Microsoft Fluent para as barras de desprazamento e superpóñelas ao contido web",
+        "goToChromeSettings": "Ir ás configuracións de Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vista de lista",
+        "description": "Cambiar a vista de lista",
+        "compact": "Vista compacta",
+        "visual": "Vista visual"
+      },
+      "showBy": {
+        "label": "Amosar por",
+        "description": "Cambiar a amosar por"
+      },
+      "sortBy": {
+        "label": "Ordenar por",
+        "description": "Cambiar a ordenar por"
+      },
+      "showFullUrl": {
+        "label": "Amosar URL completa",
+        "description": "Cando está habilitado, a URL completa amosarase baixo o título da lapela"
+      },
+      "currentWindowOnly": {
+        "label": "Só a xanela actual",
+        "description": "Só amosar as lapas da xanela actual. Se está desactivado, amosaranse as lapas de todas as xanelas"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Amosar as lapas fixadas como iconas",
+        "description": "Cando está habilitado, as lapas fixadas amosaranse como iconas e non na lista"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Amosar iconas de sitios web ao colapsar grupos",
+        "description": "Cando está habilitado, os grupos colapsados amosarán iconas de lapas"
+      },
+      "hoverPreview": {
+        "label": "Previsualización ao pasar o rato",
+        "description": "Cando está habilitado, ao pasar o rato sobre as lapas amosarase unha previsualización da lapa"
+      },
+      "previewWithThumbnail": {
+        "label": "Amosar miniaturas na previsualización",
+        "description": "Cando está habilitado, as previsualizacións amosarán miniaturas das lapas",
+        "alert": "Captura a área visible da lapa activa actualmente nunha xanela especificada. Para chamar a este método, a extensión debe ter permiso <all_urls> ou permiso activeTab.",
+        "deniedMessage": "Denegaches o permiso necesario, polo que as configuracións non cambiaron. Se cambias de opinión, preme de novo e permite a autorización"
+      },
+      "previewDelay": {
+        "label": "Retraso da previsualización",
+        "description": "Establecer o tempo de retraso para as previsualizacións de lapas ao pasar o rato sobre elas, etc. (segundos). Se se establece en 0, non haberá retraso",
+        "seconds": "Segundos"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Gardar as lapas pechadas recentemente",
+        "description": "Cando está habilitado, gardar as lapas pechadas recentemente"
+      },
+      "dataSource": {
+        "label": "Fonte de datos",
+        "description": "Seleccionar a fonte de datos",
+        "recentlyClosedTabs": "Lapas pechadas recentemente",
+        "chromeHistory": "Historial de Chrome",
+        "alert": "Para buscar rexistros de historial, necesitas a túa autorización para habilitar",
+        "deniedMessage": "Denegaches o permiso necesario, polo que as configuracións non cambiaron. Se cambias de opinión, preme de novo e permite a autorización"
+      },
+      "showInSidePanel": {
+        "label": "Amosar no panel lateral",
+        "description": "Cando está habilitado, amosar no panel lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Amosar o historial nos resultados da busca de lapas",
+        "description": "Cando está habilitado, os rexistros de historial recentes amosaranse nos resultados da busca de lapas"
+      },
+      "limitSearchResults": {
+        "label": "Limitar o número de rexistros de historial nos resultados da busca de lapas",
+        "description": "Establecer o límite do número de rexistros de historial nos resultados da busca de lapas. Os rexistros de historial que excedan o límite serán filtrados",
+        "alert": "Moitos rexistros afectarán á velocidade de carga da páxina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Número de lapas pechadas recentemente a gardar",
+        "description": "Establecer o número de lapas pechadas recentemente a gardar"
+      },
+      "keepDays": {
+        "label": "Número de días para gardar as lapas pechadas recentemente",
+        "description": "Establecer o número de días para gardar as lapas pechadas recentemente. Os datos caducados serán eliminados",
+        "days": "Días"
+      },
+      "openDuration": {
+        "label": "Duración da apertura",
+        "description": "Só se gardarán as lapas abertas durante máis tempo do tempo establecido",
+        "seconds": "Segundos"
+      }
+    },
+    "shortcuts": {
+      "alert": "Esta páxina é só para visualización. Para modificar os atallos, visita [Extensións]->[Xestionar extensións]->[Atallos de teclado]",
+      "goToChromeSettings": "Ir ás configuracións de Chrome",
+      "_execute_action": "Activar esta extensión",
+      "openSidePanel": "Abrir panel lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imaxe na imaxe",
+      "tabSwitch": {
+        "label": "PIP ao cambiar de lapa",
+        "description": "Entrar automaticamente en PIP ao cambiar de lapas cun vídeo sen silenciar",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "scrollSwitch": {
+        "label": "Cambiar a imaxe na imaxe ao desprazar",
+        "description": "Se a páxina actual está a reproducir un vídeo e o vídeo non está silenciado e o vídeo está fóra do rango visible ao desprazar, entrará na imaxe na imaxe.",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Activación de usuario necesaria",
+      "tips_1": "A activación de usuario significa que o usuario está a interactuar actualmente coa páxina",
+      "tips_2": "Máis concretamente, a activación desencadea eventos de entrada como:",
+      "tips_3": "Nota: O uso da roda do rato ou xesto de desprazamento non activará!",
+      "tips_4": "Se desexas máis detalles, visita:",
+      "click": "Fai clic",
+      "contextmenu": "Menú de clic dereito",
+      "dblclick": "Doble clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamento de colapso do grupo de lapas",
+        "description": "Modificar o comportamento do colapso do grupo de lapas do navegador Chrome",
+        "option_collapse_others": "Amosar o grupo actual e colapsar os demais",
+        "option_disable": "Expandir todos os grupos",
+        "option_auto": "Usar a configuración predeterminada de Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Crear ou unirse automaticamente ao grupo do mesmo dominio",
+        "description": "Cando está habilitado, as lapas abertas recentemente uniranse automaticamente ao grupo do mesmo dominio. Se o grupo de dominio non existe, crearase un novo grupo de dominio",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrar as lapas fixadas nos grupos",
+        "description": "Cando está habilitado, as lapas fixadas non se engadirán aos grupos",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Habilitar a barra de progreso",
+        "description": "Cando está habilitado, amosarase unha barra de progreso de lectura por debaixo da barra de título da lapa",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cando está habilitado, amosarase unha barra de progreso de lectura por debaixo da barra de título da lapa",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "scrollHeightRatio": {
+        "label": "Rátio de altura de desprazamento",
+        "description": "O rátio da altura da xanela visible á altura da páxina. Unha barra de progreso será amosada cando o rátio sexa excedido",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reprodución",
+        "description": "Cando está habilitado, amosarase unha barra de progreso de reprodución por debaixo da barra de título da lapa",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Habilitar a bola flotante",
+        "description": "Cando o panel lateral está pechado, amosarase unha bola flotante no lado dereito da páxina, permitindo a apertura rápida do panel lateral."
+      }
+    },
+    "performance": {
+      "label": "Rendemento",
+      "saveMemoryAction": {
+        "label": "Como gardar memoria nas lapas",
+        "description": "Para gardar memoria nas lapas, podes elixir pechar lapas ou descartalas.",
+        "discardTips": "unha lapa descartada non vai a ningures. Matámola pero segue a verse na franxa de lapas de Chrome. Se navegás de volta a unha lapa que foi descartada, recargarase cando se faga clic. O contido do formulario, a posición de desprazamento e así sucesivamente, guárdanse e restauranse da mesma maneira que se faría durante a navegación de lapas cara adiante/atras.",
+        "disabled": "Desactivado",
+        "closeTabs": "Pechar lapas",
+        "discardTabs": "Descartar lapas"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Canto tempo para descartar lapas inactivas",
+        "description": "Cando non se está a reproducir audio ou vídeo na lapa e non se prohibe o descarte automático, a lapa descartarase despois do tempo especificado.",
+        "minutes": "Minutos"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Canto tempo para pechar lapas inactivas",
+        "description": "Cando non se está a reproducir audio ou vídeo na lapa e non se prohibe o descarte automático, a lapa pecharase despois do tempo especificado.",
+        "minutes": "Minutos"
+      },
+      "disableAnimations": {
+        "label": "Desactivar animacións",
+        "description": "desactivar o efecto de onda e desactivar todas as transicións"
+      }
+    }
+  }
+}

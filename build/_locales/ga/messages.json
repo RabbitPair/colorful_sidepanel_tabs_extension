@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Bainistíocht Cluaisíní Barra Taobh Ildathach"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Bainistigh cluaisíní sa phainéal taobh, Ró-álainn le bheith chomh maith seo."
+  },
+  "openSidePanel": {
+    "message": "Oscail an Painéal Taobh"
+  }
+}

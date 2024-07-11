@@ -1,0 +1,344 @@
+{
+  "OpenSideSanelToPreview": "打開側面板進行預覽",
+  "_execute_action": "激活該擴展程序",
+  "openSidePanel": "打開側邊欄",
+  "settings": {
+    "resetCurrentPageSettings": "重置當前頁面設置",
+    "modules": {
+      "appearance": "外觀",
+      "beautify": "美化",
+      "tabs": "標籤頁",
+      "history": "歷史記錄",
+      "shortcuts": "快捷鍵",
+      "pip": "畫中畫",
+      "chromeTabGroupAdvanced": "高級標籤頁組",
+      "progressBar": "進度條",
+      "floatBall": "浮動球",
+      "experimentalFeatures": "實驗功能"
+    },
+    "appearance": {
+      "header": "外觀",
+      "language": {
+        "label": "界面語言",
+        "description": "設置界面顯示的語言"
+      },
+      "theme": {
+        "label": "顏色模式",
+        "description": "選擇淺色或深色模式"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "啟用後，界面會顯示從右到左的文字方向"
+      },
+      "fontSize": {
+        "label": "字體大小",
+        "description": "設置字體大小",
+        "small": "小",
+        "large": "大"
+      },
+      "fontFamily": {
+        "label": "字體族",
+        "description": "設置字體族"
+      },
+      "fontColor": {
+        "label": "字體顏色",
+        "description": "設置字體顏色"
+      },
+      "fontWeight": {
+        "label": "字體粗細",
+        "description": "設置字體粗細"
+      },
+      "extAction": {
+        "label": "單擊擴展程序圖標的操作",
+        "description": "設置單擊擴展圖標的操作",
+        "openPopup": "打開彈窗",
+        "openSidePanel": "打開側邊欄"
+      },
+      "SidePanelPosition": {
+        "label": "側邊欄位置",
+        "description": "設置側邊欄在左側或右側顯示。",
+        "goToChromeSettings": "前往 Chrome 設置"
+      },
+      "searchBoxPosition": {
+        "label": "搜索框位置",
+        "description": "設置搜索框的位置",
+        "top": "頂部",
+        "bottom": "底部",
+        "hide": "隱藏"
+      },
+      "toolbar": {
+        "label": "顯示工具欄",
+        "description": "啟用後，顯示工具欄"
+      },
+      "bottomNav": {
+        "label": "顯示底部導航欄",
+        "description": "啟用後，顯示底部導航欄"
+      },
+      "buttonPosition": {
+        "label": "按鈕位置",
+        "description": "設置按鈕的位置",
+        "left": "左側",
+        "right": "右側"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "全屏時隱藏側邊欄",
+        "description": "打開後，當頁面全屏時會自動隱藏側邊欄，由於 Chrome 的限制，目前無法自動重新打開側邊欄。您需要手動操作重新打開側邊欄！"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "彩色背景",
+        "description": "啟用後，側邊欄會顯示彩色背景"
+      },
+      "backgroundPicture": {
+        "label": "背景圖片",
+        "description": "點擊 [+] 號添加自定義圖片，點擊 [-] 號刪除自定義圖片。你可以在下面的網站中查找自己喜歡的圖片。",
+        "dialogDescription": "請輸入圖片地址",
+        "OK": "確定",
+        "Cancel": "取消",
+        "invalidImage": "無效的圖片地址"
+      },
+      "backgroundImageTransparency": {
+        "label": "圖片透明度",
+        "description": "設置圖片透明度",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "backgroundImageBlur": {
+        "label": "圖片模糊度",
+        "description": "設置圖片模糊度"
+      },
+      "backgroundImageBrightness": {
+        "label": "圖片亮度",
+        "description": "設定亮度，推薦只在深色模式中使用"
+      },
+      "listBackgroundStyle": {
+        "label": "列表背景樣式",
+        "description": "設置列表背景樣式",
+        "single": "單一色",
+        "none": "無",
+        "simple": "簡單",
+        "complementary": "對比色",
+        "analogous": "對角色",
+        "triadic": "三色",
+        "tetradic": "四色"
+      },
+      "listBackgroundTransparency": {
+        "label": "列表背景透明度",
+        "description": "設置列表背景透明度",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "listBottomBorder": {
+        "label": "列表底部邊框",
+        "description": "設置列表底部邊框",
+        "none": "無",
+        "dashed": "虛線",
+        "solid": "實線"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluent 滾動條",
+        "description": "使用 Microsoft Fluent 設計風格化滾動條並使其覆蓋在網頁內容上",
+        "goToChromeSettings": "前往 Chrome 設置"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "列表視圖",
+        "description": "切換列表視圖",
+        "compact": "緊湊視圖",
+        "visual": "直觀視圖"
+      },
+      "showBy": {
+        "label": "顯示依據",
+        "description": "切換顯示依據"
+      },
+      "sortBy": {
+        "label": "排序依據",
+        "description": "切換排序依據"
+      },
+      "showFullUrl": {
+        "label": "顯示完整網址",
+        "description": "啟用後，完整網址將顯示在標籤標題下方"
+      },
+      "currentWindowOnly": {
+        "label": "僅當前窗口",
+        "description": "僅顯示當前窗口的標籤頁,如果關閉，將顯示所有窗口的標籤頁"
+      },
+      "pinedTabsAsIcons": {
+        "label": "固定標籤頁展示為圖標",
+        "description": "啟用後，固定標籤頁會顯示圖標，不會顯示在列表中。"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "收起分組時顯示網站圖標",
+        "description": "啟用後，折疊組會顯示標籤頁圖標"
+      },
+      "hoverPreview": {
+        "label": "滑鼠懸停預覽",
+        "description": "啟用後，滑鼠懸停時會顯示標籤頁預覽"
+      },
+      "previewWithThumbnail": {
+        "label": "預覽時顯示縮略圖",
+        "description": "啟用後，預覽時會顯示標籤頁縮略圖",
+        "alert": "捕獲指定窗口中當前活動選項卡的可見區域。為了調用此方法，擴展程序必須具有 <all_urls> 權限或 activeTab 權限。",
+        "deniedMessage": "您已拒絕授權所需權限，因此設置未改變，如果您改變主意，請重新點擊並允許授權"
+      },
+      "previewDelay": {
+        "label": "預覽延遲",
+        "description": "設置預覽延遲時間，設置滑鼠懸停標籤頁預覽等待時間（秒）,如何設置 0 ，則不會等待",
+        "seconds": "秒"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "保存最近關閉的標籤頁",
+        "description": "啟用後，保存最近關閉的標籤頁"
+      },
+      "dataSource": {
+        "label": "數據源",
+        "description": "選擇數據源",
+        "recentlyClosedTabs": "最近關閉的標籤頁",
+        "chromeHistory": "Chrome 歷史記錄",
+        "alert": "如需搜索歷史記錄，需要您的授權方可啟用",
+        "deniedMessage": "您已拒絕授權所需權限，因此設置未改變，如果您改變主意，請重新點擊並允許授權"
+      },
+      "showInSidePanel": {
+        "label": "在側邊欄中顯示",
+        "description": "啟用後，在側邊欄中顯示"
+      },
+      "showInTabSearchResults": {
+        "label": "標籤頁搜索結果中顯示歷史記錄",
+        "description": "啟用後，標籤頁搜索結果中將顯示最近歷史記錄"
+      },
+      "limitSearchResults": {
+        "label": "標籤頁搜索結果中歷史記錄限制數量",
+        "description": "設置標籤頁搜索結果中歷史記錄的限制數量，超過限制數量的歷史記錄將被過濾",
+        "alert": "過多的記錄會影響頁面加載速度"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "最近關閉的標籤頁的保留數量",
+        "description": "設置最近關閉的標籤頁的保留數量"
+      },
+      "keepDays": {
+        "label": "最近關閉的標籤頁的保留天數",
+        "description": "設置最近關閉的標籤頁的保留天數，過期的數據會被刪除",
+        "days": "天"
+      },
+      "openDuration": {
+        "label": "打開時長",
+        "description": "只有打開時長超過設置時間的標籤頁才會被保存",
+        "seconds": "秒"
+      }
+    },
+    "shortcuts": {
+      "alert": "本頁面僅供展示，如需修改快捷鍵，請訪問[擴展程序]->[管理擴展]->[鍵盤快捷鍵]",
+      "goToChromeSettings": "前往 Chrome 設置",
+      "_execute_action": "激活該擴展程序",
+      "openSidePanel": "打開側邊欄"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "畫中畫",
+      "tabSwitch": {
+        "label": "切換標籤時切換到畫中畫模式",
+        "description": "在切換瀏覽器標籤頁時，如果當前頁面正在播放視頻且視頻未靜音，就會自動進入畫中畫模式。",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "scrollSwitch": {
+        "label": "滾動頁面時切換畫中畫",
+        "description": "如果滾動頁面時，當前頁面正在播放視頻且視頻未靜音且視頻超出可視範圍內，則會進入畫中畫。",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "需要進行用戶交互",
+      "tips_1": "用戶激活意味著用戶當前正在與頁面交互",
+      "tips_2": "更準確地說，激活觸發輸入事件是以下事件:  ",
+      "tips_3": "注意：使用滑鼠滾輪滑動或輕拂手勢不會觸發!！",
+      "tips_4": "如果你希望進一步的了解詳情請訪問：",
+      "click": "點擊",
+      "contextmenu": "右鍵菜單",
+      "dblclick": "雙擊"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "標籤頁分組收起行為",
+        "description": "修改 Chrome 瀏覽器標籤頁分組的行為",
+        "option_collapse_others": "顯示當前分組並收起其他分組",
+        "option_disable": "展開所有分組",
+        "option_auto": "使用 Chrome 默認設置"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "自動創建或加入同域名分組",
+        "description": "啟用後,新打開的標籤頁會自動加入到相同域名分組,如果域名分組不存在則會創建一個新的域名分組",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "分組時過濾固定標籤頁",
+        "description": "啟用後，固定標籤頁不會被加入到分組中",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "啟用進度條",
+        "description": "啟用後，會在標籤頁標題欄下方顯示閱讀進度條",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "readingProgressBar": {
+        "label": "閱讀進度條",
+        "description": "啟用後，會在標籤頁標題欄下方顯示閱讀進度條",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "scrollHeightRatio": {
+        "label": "滾動高度比例",
+        "description": "可見窗口高度與頁面高度的比例。當比例超過時，將顯示進度條",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "playingProgressBar": {
+        "label": "播放進度條",
+        "description": "啟用後，會在標籤頁標題欄下方顯示播放進度條",
+
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "啟用懸浮球",
+        "description": "當側面板被關閉時，會在頁面右邊顯示懸浮球，可以快速打開側面板。"
+      }
+    },
+    "performance": {
+      "label": "性能",
+      "saveMemoryAction": {
+        "label": "如何節省標籤頁的內存",
+        "description": "要節省標籤頁的內存，您可以選擇關閉標籤頁或丟棄標籤頁。",
+        "discardTips": "丟棄的標籤頁不會消失。我們將其終止，但它仍然在 Chrome 標籤欄上可見。如果您導航回到已丟棄的標籤頁，點擊時它會重新加載。表單內容、滾動位置等將以與前進/後退標籤導航相同的方式保存和恢復。",
+        "disabled": "已禁用",
+        "closeTabs": "關閉標籤頁",
+        "discardTabs": "丟棄標籤頁"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "丟棄不活躍標籤頁的時間",
+        "description": "當標籤頁上沒有播放音頻或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被丟棄。",
+        "minutes": "分鐘"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "關閉不活躍標籤頁的時間",
+        "description": "當標籤頁上沒有播放音頻或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被關閉。",
+        "minutes": "分鐘"
+      },
+      "disableAnimations": {
+        "label": "禁用動畫",
+        "description": "禁用涟漪效果和所有過渡效果"
+      }
+    }
+  }
+}

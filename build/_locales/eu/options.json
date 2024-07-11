@@ -1,0 +1,335 @@
+{
+  "OpenSideSanelToPreview": "Ireki alboko panela aurreikusteko",
+  "_execute_action": "Aktibatu luzapen hau",
+  "openSidePanel": "Ireki alboko panela",
+  "settings": {
+    "resetCurrentPageSettings": "Berrezarri orrialdeko ezarpenak",
+    "modules": {
+      "appearance": "Itxura",
+      "beautify": "Atsegin",
+      "tabs": "Fitxak",
+      "history": "Historia",
+      "shortcuts": "Lasterteklak",
+      "pip": "Irudia-irudian",
+      "chromeTabGroupAdvanced": "Aurreratutako fitxategi-taldeak",
+      "progressBar": "aurrerapen-barra",
+      "floatBall": "Float bola",
+      "experimentalFeatures": "Esperimentazio ezaugarriak"
+    },
+    "appearance": {
+      "header": "Itxura",
+      "language": {
+        "label": "Interfaze hizkuntza",
+        "description": "Ezarri interfazearen bistaratze hizkuntza"
+      },
+      "theme": {
+        "label": "Kolore modua",
+        "description": "Aukeratu argi edo ilun kolore modua"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Gaituta dagoenean, interfazeak testu norabidea eskuinetik ezkerrera bistaratuko du"
+      },
+      "fontSize": {
+        "label": "Letra tamaina",
+        "description": "Ezarri letra tamaina",
+        "small": "Txikia",
+        "large": "Handia"
+      },
+      "fontFamily": {
+        "label": "Letren familia",
+        "description": "Ezarri letren familia"
+      },
+      "fontColor": {
+        "label": "Letren kolorea",
+        "description": "Ezarri letren kolorea"
+      },
+      "fontWeight": {
+        "label": "Letren pisua",
+        "description": "Ezarri letren pisua"
+      },
+      "extAction": {
+        "label": "Klik egin luzapen ikonoari",
+        "description": "Ezarri ekintza ikonoa klik egitean",
+        "openPopup": "Ireki popup-a",
+        "openSidePanel": "Ireki alboko panela"
+      },
+      "SidePanelPosition": {
+        "label": "Alboko panelaren posizioa",
+        "description": "Ezarri alboko panela ezkerrean edo eskuinean bistaratzen den"
+      },
+      "searchBoxPosition": {
+        "label": "Bilaketa-koadroaren posizioa",
+        "description": "Ezarri bilaketa-koadroaren posizioa",
+        "top": "Goian",
+        "bottom": "Behean",
+        "hide": "Ezkutatu"
+      },
+      "toolbar": {
+        "label": "Erakutsi tresna-barra",
+        "description": "Gaituta dagoenean, tresna-barra bistaratzen da"
+      },
+      "bottomNav": {
+        "label": "Erakutsi beheko nabigazio-barra",
+        "description": "Gaituta dagoenean, beheko nabigazio-barra bistaratzen da"
+      },
+      "buttonPosition": {
+        "label": "Botoien posizioa",
+        "description": "Ezarri botoien posizioa",
+        "left": "Ezkerrean",
+        "right": "Eskuinean"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ezkutatu alboko panela pantaila osoan",
+        "description": "Gaituta dagoenean, alboko panela ezkutuko da orria pantaila osoan dagoenean. Chrome-ren mugak direla-eta, alboko panela automatikoki ezin da berriz ireki. Alboko panela eskuz ireki beharko duzu!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Kolorezko atzeko planoak",
+        "description": "Gaituta dagoenean, alboko panelak kolorezko atzeko planoak bistaratuko ditu"
+      },
+      "backgroundPicture": {
+        "label": "Atzeko irudia",
+        "description": "[+] sakatu pertsonalizatutako irudia gehitzeko, [-] sakatu pertsonalizatutako irudia ezabatzeko. Zure gustoko irudiak aurkitu ditzakezu hurrengo webguneetan.",
+        "dialogDescription": "Sartu irudiaren helbidea",
+        "OK": "Ados",
+        "Cancel": "Utzi",
+        "invalidImage": "Irudiaren helbide baliogabea"
+      },
+      "backgroundImageTransparency": {
+        "label": "Irudiaren gardentasuna",
+        "description": "Ezarri irudiaren gardentasuna",
+        "transparent": "Gardena",
+        "opaque": "Opakua"
+      },
+      "backgroundImageBlur": {
+        "label": "Blur intensitatea",
+        "description": "Ezarri blur intensitatea"
+      },
+      "backgroundImageBrightness": {
+        "label": "Argitasuna",
+        "description": "Ezarri argitasuna, gomendatua bakarrik ilun modura"
+      },
+      "listBackgroundStyle": {
+        "label": "Zerrendaren atzeko estiloa",
+        "description": "Ezarri zerrendaren atzeko estiloa",
+        "single": "Bakarra",
+        "none": "Bat ere ez",
+        "simple": "Sinplea",
+        "complementary": "Osagarria",
+        "analogous": "Analogikoa",
+        "triadic": "Triadikoa",
+        "tetradic": "Tetradikoa"
+      },
+      "listBackgroundTransparency": {
+        "label": "Zerrendaren atzeko gardentasuna",
+        "description": "Ezarri zerrendaren atzeko gardentasuna",
+        "transparent": "Gardena",
+        "opaque": "Opakua"
+      },
+      "listBottomBorder": {
+        "label": "Zerrendaren beheko ertza",
+        "description": "Ezarri zerrendaren beheko ertza",
+        "none": "Bat ere ez",
+        "dashed": "Marratua",
+        "solid": "Solida"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluenteko biribilketa-barra",
+        "description": "Erabili Microsoft Fluent diseinu estiloko biribilketa-barra eta gainean jartzea web edukian",
+        "goToChromeSettings": "Joan Chrome-ren ezarpenetara"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Zerrenda ikusi",
+        "description": "Aldatu zerrenda ikuspegiak",
+        "compact": "Kompaktua",
+        "visual": "Bisuala"
+      },
+      "showBy": {
+        "label": "Erakutsi honela",
+        "description": "Aldatu erakutsi honela"
+      },
+      "sortBy": {
+        "label": "Ordenatu honela",
+        "description": "Aldatu ordenatu honela"
+      },
+      "showFullUrl": {
+        "label": "Erakutsi osoa URLa",
+        "description": "Gaituta dagoenean, osoa URLa erakutsiko da fitxaren izenburuaren azpian"
+      },
+      "currentWindowOnly": {
+        "label": "Oraindik leiho bakarrekoa",
+        "description": "Erakutsi soilik oraindik leiho bakarreko fitxak. Desgaituta badago, leiho guztietako fitxak erakutsiko dira"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Erakutsi lankidun fitxak ikono gisa",
+        "description": "Gaituta dagoenean, lankidun fitxak ikono gisa eta ez zerrendan erakutsiko dira"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Erakutsi webgunearen ikonoak taldeak kolapsatzean",
+        "description": "Gaituta dagoenean, kolapsatutako taldeek fitxen ikonoak erakutsiko dituzte"
+      },
+      "hoverPreview": {
+        "label": "Gurutzatu aurreikuspena",
+        "description": "Gaituta dagoenean, fitxen gainean gurutzatzen denean fitxen aurreikuspenak erakutsiko dira"
+      },
+      "previewWithThumbnail": {
+        "label": "Erakutsi irudia aurreikuspenetan",
+        "description": "Gaituta dagoenean, aurreikuspenek fitxen irudiak erakutsiko dituzte",
+        "alert": "Hurrengo web-orrian agertzen den fitxaren ikuspegi eremua hartu. Metodo hau deitzeko, luzapenak <all_urls> baimena edo activeTab baimena izan behar du.",
+        "deniedMessage": "Beharrezko baimena ukatu duzu, beraz ez dira ezarpenak aldatu. Aldatu nahi izanez gero, mesedez egin klik berriz eta baimenik eman"
+      },
+      "previewDelay": {
+        "label": "Aurreikuspeneko atzerapena",
+        "description": "Ezarri fitxen gainean gurutzatzen denean edozerentzat aurreikuspenen atzerapena (segunduak). 0-ra ezarrita badago, ez da atzerik izango"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Gorde berriki itxitako fitxak",
+        "description": "Gaituta dagoenean, gorde berriki itxitako fitxak"
+      },
+      "dataSource": {
+        "label": "Datu-iturria",
+        "description": "Hautatu datu-iturria",
+        "recentlyClosedTabs": "Berriki itxitako fitxak",
+        "chromeHistory": "Chrome historia",
+        "alert": "Historia erregistroak bilatzeko, baimena behar duzu gaitu",
+        "deniedMessage": "Beharrezko baimena ukatu duzu, beraz ez dira ezarpenak aldatu. Aldatu nahi izanez gero, mesedez egin klik berriz eta baimenik eman"
+      },
+      "showInSidePanel": {
+        "label": "Erakutsi alboko panelan",
+        "description": "Gaituta dagoenean, erakutsi alboko panelan"
+      },
+      "showInTabSearchResults": {
+        "label": "Erakutsi historia fitxen bilaketaren emaitsetan",
+        "description": "Gaituta dagoenean, azken historia erregistroak fitxen bilaketaren emaitsetan erakutsiko dira"
+      },
+      "limitSearchResults": {
+        "label": "Mugatu historia erregistroen zenbakia fitxen bilaketaren emaitsetan",
+        "description": "Ezarri historia erregistroen zenbakia mugakoa fitxen bilaketaren emaitsetan. Mugakoa gainditzen duten historia erregistroak iragaziko dira",
+        "alert": "Erregistro gehiegiak orriaren kargatzeko abiadura eragin dezakete"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Gorde berriki itxitako fitxen kopurua",
+        "description": "Ezarri berriki itxitako fitxen kopurua"
+      },
+      "keepDays": {
+        "label": "Gorde berriki itxitako fitxen egun kopurua",
+        "description": "Ezarri berriki itxitako fitxen egun kopurua. Irakurgarriak diren datuak ezabatuko dira",
+        "days": "Egun"
+      },
+      "openDuration": {
+        "label": "Ireki iraupena",
+        "description": "Soilik ezarritako denbora baino luzeago irekitako fitxak gordeko dira",
+        "seconds": "Segundu"
+      }
+    },
+    "shortcuts": {
+      "alert": "Orria bistaratze bakarrik da. Lasterteklak aldatzeko, joan [Extension]->[Kudeatu Luzapenak]->[Teklatu lasterteklak]",
+      "goToChromeSettings": "Joan Chrome ezarpenetara",
+      "_execute_action": "Aktibatu luzapen hau",
+      "openSidePanel": "Ireki alboko panela"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Irudia-irudian",
+      "tabSwitch": {
+        "label": "PIP gaitu fitxan aldatzean",
+        "description": "Auto-sartu PIP fitxak aldatzen direnean bideoa desgaitua duten fitxak",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      },
+      "scrollSwitch": {
+        "label": "Aldatu irudia-irudian gora-scroll egitean",
+        "description": "Orria bideo bat erreproduzitzen ari bada eta bideoa desgaitua badago eta bideoa ikusgarriaren eremuan dagoenean scroll egiten denean, irudia-irudian sartuko da.",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Erabiltzailearen aktibazioa beharrezkoa da",
+      "tips_1": "Erabiltzailearen aktibazioa esan nahi du erabiltzaileak oraindik orrialdearekin interakzioan dagoela",
+      "tips_2": "Zehazkiago, aktibazioak sarrera ekintzak eragiten ditu, hala nola:",
+      "tips_3": "Oharra: Sagua erabiliz gora eta behera egiteak ez du aktibazioa eragiten!",
+      "tips_4": "Informazio gehiago nahi baduzu, joan:",
+      "click": "Klikatu",
+      "contextmenu": "Eskuineko-klik menua",
+      "dblclick": "Bikoitzeko-klik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Fitxategi-taldearen kolapsua",
+        "description": "Aldatu Chrome nabigatzailearen fitxategi-taldeen kolapsuaren jokabidea",
+        "option_collapse_others": "Erakutsi uneko taldea eta kolapsatu besteak",
+        "option_disable": "Zabaldu talde guztiak",
+        "option_auto": "Erabili Chrome-ren lehenetsitako ezarpenak"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automatikoki sortu edo batu domeinu bereko taldea",
+        "description": "Gaituta dagoenean, ireki diren fitxak automatikoki domeinu bereko taldean sartuko dira. Domeinu taldea ez badago, domeinu berri bat sortuko da",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Ezabatu lankidun fitxak taldeetan",
+        "description": "Gaituta dagoenean, lankidun fitxak ez dira taldeetan gehituko",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Gaitu irakurketa-irteera barra",
+        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean"
+      },
+      "readingProgressBar": {
+        "label": "Irakurketa-irteera barra",
+        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean"
+      },
+      "scrollHeightRatio": {
+        "label": "Gora-scrollaren altuera proportzioa",
+        "description": "Ikusgarri den leihoaren altuera orriaren altuera. Barra batek bistaratuko da proportzioa gainditzen denean",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      },
+      "playingProgressBar": {
+        "label": "Erreproduzitzen ari den irteera barra",
+        "description": "Gaituta dagoenean, erreproduzitzen ari den irteera barra bistaratuko da fitxaren izenburu-barra behean"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Gaitu float bola",
+        "description": "Alboko panela itxita dagoenean, float bola bistaratuko da orriaren eskuinean, alboko panela azkar irekitzeko aukera ematen duena"
+      }
+    },
+    "performance": {
+      "label": "Eraginkortasuna",
+      "saveMemoryAction": {
+        "label": "Nola gordetzeko memoria fitxategietan",
+        "description": "Memoria gordetzeko fitxategietan, aukera izan dezakezu fitxategiak ixtea edo baztertzea.",
+        "discardTips": "baztertutako fitxategia ez da inon joaten. Hilketa egiten dugu baina oraindik ikus daiteke Chrome-ren fitxategi zerrendan. Baztertutako fitxategira itzultzen bazaizu, klik egiten denean berriro kargatuko da. Formularioaren edukia, gora eta behera mugitzeko posizioa eta abar berdina gorde eta berreskuratu egiten dira, aurrera/atzera fitxategi nabigazioan egin bezala.",
+        "disabled": "Desgaituta",
+        "closeTabs": "Itxi fitxategiak",
+        "discardTabs": "Baztertu fitxategiak"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Zenbat denbora baztertzeko ez-aktiboak diren fitxategiak",
+        "description": "Audio edo bideoa ez egiten denean fitxategian eta automatikoki baztertzea debekatuta ez dagoenean, fitxategia baztertuko da zehaztutako denboraren ondoren.",
+        "minutes": "Minutuak"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Zenbat denbora itxi ez-aktiboak diren fitxategiak",
+        "description": "Audio edo bideoa ez egiten denean fitxategian eta automatikoki baztertzea debekatuta ez dagoenean, fitxategia itxi egingo da zehaztutako denboraren ondoren.",
+        "minutes": "Minutuak"
+      },
+      "disableAnimations": {
+        "label": "Desgaitu animazioak",
+        "description": "desgaitu ondare efektua eta desgaitu transizio guztiak"
+      }
+    }
+  }
+}

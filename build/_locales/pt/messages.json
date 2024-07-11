@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Gestão colorida de etiquetas da barra lateral"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Gerencie guias no painel lateral, Bonito demais para ser tão bom."
+  },
+  "openSidePanel": {
+    "message": "Abrir painel lateral"
+  }
+}

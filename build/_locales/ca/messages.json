@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Gestió de pestanyes laterals acolorides"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Gestiona pestanyes al panell lateral, massa bonic per ser tan bo."
+  },
+  "openSidePanel": {
+    "message": "Obre la barra lateral"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Litrikar hliðarstikustjórnun"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Stjórna flipum í hliðarstiku, Of fallegt til að vera svona gott."
+  },
+  "openSidePanel": {
+    "message": "Opna hliðarstiku"
+  }
+}

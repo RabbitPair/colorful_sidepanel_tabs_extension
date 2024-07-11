@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Ko'p rangli yon panel yorliqlarini boshqarish"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Yon panelda oyna sahifalarini boshqarish, Juda yaxshi bo'lishi uchun juda chiroyli."
+  },
+  "openSidePanel": {
+    "message": "Yon panelni ochish"
+  }
+}

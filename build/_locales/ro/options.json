@@ -1,0 +1,339 @@
+{
+  "OpenSideSanelToPreview": "Deschideți panoul lateral pentru previzualizare",
+  "_execute_action": "Activați această extensie",
+  "openSidePanel": "Deschideți panoul lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Resetați setările paginii curente",
+    "modules": {
+      "appearance": "Aspect",
+      "beautify": "Înfrumusețare",
+      "tabs": "File",
+      "history": "Istoric",
+      "shortcuts": "Scurtături",
+      "pip": "Imagine în imagine",
+      "chromeTabGroupAdvanced": "Grupuri de file avansate",
+      "progressBar": "Bara de progres",
+      "floatBall": "Minge plutitoare",
+      "experimentalFeatures": "Funcții experimentale"
+    },
+    "appearance": {
+      "header": "Aspect",
+      "language": {
+        "label": "Limba interfeței",
+        "description": "Setați limba pentru afișarea interfeței"
+      },
+      "theme": {
+        "label": "Mod de culoare",
+        "description": "Alegeți modul de culoare deschis sau întunecat"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Când este activat, interfața va afișa textul de la dreapta la stânga"
+      },
+      "fontSize": {
+        "label": "Dimensiunea fontului",
+        "description": "Setați dimensiunea fontului",
+        "small": "Mic",
+        "large": "Mare"
+      },
+      "fontFamily": {
+        "label": "Familia fontului",
+        "description": "Setați familia fontului"
+      },
+      "fontColor": {
+        "label": "Culoarea fontului",
+        "description": "Setați culoarea fontului"
+      },
+      "fontWeight": {
+        "label": "Grosimea fontului",
+        "description": "Setați grosimea fontului"
+      },
+      "extAction": {
+        "label": "Acțiunea la clic pe pictograma extensiei",
+        "description": "Setați acțiunea la clic pe pictograma extensiei",
+        "openPopup": "Deschideți fereastra pop-up",
+        "openSidePanel": "Deschideți panoul lateral"
+      },
+      "SidePanelPosition": {
+        "label": "Poziția panoului lateral",
+        "description": "Setați dacă panoul lateral este afișat în stânga sau în dreapta.",
+        "goToChromeSettings": "Accesați setările Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Poziția casetei de căutare",
+        "description": "Setați poziția casetei de căutare",
+        "top": "Sus",
+        "bottom": "Jos",
+        "hide": "Ascunde"
+      },
+      "toolbar": {
+        "label": "Afișați bara de instrumente",
+        "description": "Când este activat, bara de instrumente este afișată"
+      },
+      "bottomNav": {
+        "label": "Afișați bara de navigare de jos",
+        "description": "Când este activat, bara de navigare de jos este afișată"
+      },
+      "buttonPosition": {
+        "label": "Poziția butoanelor",
+        "description": "Setați poziția butoanelor",
+        "left": "Stânga",
+        "right": "Dreapta"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ascundeți panoul lateral în ecran complet",
+        "description": "Când este activat, panoul lateral se va ascunde automat când pagina este în ecran complet. Din cauza limitărilor Chrome, panoul lateral nu poate fi redeschis automat. Trebuie să redeschideți manual panoul lateral!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fundal colorat",
+        "description": "Când este activat, panoul lateral va afișa un fundal colorat"
+      },
+      "backgroundPicture": {
+        "label": "Imagine de fundal",
+        "description": "Faceți clic pe [+] pentru a adăuga o imagine personalizată, faceți clic pe [-] pentru a șterge o imagine personalizată. Puteți găsi imagini preferate pe următoarele site-uri web.",
+        "dialogDescription": "Introduceți adresa imaginii",
+        "OK": "OK",
+        "Cancel": "Anulează",
+        "invalidImage": "Adresă de imagine nevalidă"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparența imaginii",
+        "description": "Setați transparența imaginii",
+        "transparent": "Transparent",
+        "opaque": "Opac"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensitatea efectului de estompare",
+        "description": "Setați intensitatea efectului de estompare"
+      },
+      "backgroundImageBrightness": {
+        "label": "Luminozitate",
+        "description": "Setați luminozitatea, recomandat doar pentru modul întunecat"
+      },
+      "listBackgroundStyle": {
+        "label": "Stilul de fundal al listei",
+        "description": "Setați stilul de fundal al listei",
+        "single": "Unică",
+        "none": "Niciunul",
+        "simple": "Simplu",
+        "complementary": "Complementar",
+        "analogous": "Analog",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparența fundalului listei",
+        "description": "Setați transparența fundalului listei",
+        "transparent": "Transparent",
+        "opaque": "Opac"
+      },
+      "listBottomBorder": {
+        "label": "Bordura de jos a listei",
+        "description": "Setați bordura de jos a listei",
+        "none": "Niciunul",
+        "dashed": "Punctat",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Bare de derulare Fluent",
+        "description": "Utilizați bare de derulare în stilul Microsoft Fluent și suprapuneți-le pe conținutul web",
+        "goToChromeSettings": "Accesați setările Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vizualizare listă",
+        "description": "Comutați vizualizarea listei",
+        "compact": "Vizualizare compactă",
+        "visual": "Vizualizare vizuală"
+      },
+      "showBy": {
+        "label": "Afișați după",
+        "description": "Comutați afișarea după"
+      },
+      "sortBy": {
+        "label": "Sortați după",
+        "description": "Comutați sortarea după"
+      },
+      "currentWindowOnly": {
+        "label": "Doar fereastra curentă",
+        "description": "Afișați doar filele ferestrei curente. Dacă este dezactivat, filele din toate ferestrele vor fi afișate"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Afișați filele fixate ca pictograme",
+        "description": "Când este activat, filele fixate vor fi afișate ca pictograme și nu în listă"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Afișați pictogramele site-ului când grupurile sunt colapsate",
+        "description": "Când este activat, grupurile colapsate vor afișa pictogramele filelor"
+      },
+      "hoverPreview": {
+        "label": "Previzualizare la trecerea cu mouse-ul",
+        "description": "Când este activat, trecerea cu mouse-ul peste file va afișa previzualizări ale filelor"
+      },
+      "previewWithThumbnail": {
+        "label": "Afișați miniaturi în previzualizare",
+        "description": "Când este activat, previzualizările vor afișa miniaturi ale filelor",
+        "alert": "Capturați zona vizibilă a filei active curente într-o fereastră specificată. Pentru a apela această metodă, extensia trebuie să aibă permisiunea <all_urls> sau permisiunea activeTab.",
+        "deniedMessage": "Ați refuzat permisiunea necesară, astfel încât setările nu s-au schimbat. Dacă vă răzgândiți, vă rugăm să faceți clic din nou și să permiteți autorizarea"
+      },
+      "previewDelay": {
+        "label": "Întârziere previzualizare",
+        "description": "Setați timpul de întârziere pentru previzualizările filelor la trecerea cu mouse-ul peste file, etc. (secunde). Dacă este setat la 0, nu va exista nicio întârziere",
+        "seconds": "Secunde"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Salvați filele recent închise",
+        "description": "Când este activat, salvați filele recent închise"
+      },
+      "dataSource": {
+        "label": "Sursa de date",
+        "description": "Selectați sursa de date",
+        "recentlyClosedTabs": "File recent închise",
+        "chromeHistory": "Istoricul Chrome",
+        "alert": "Pentru a căuta înregistrările istoricului, aveți nevoie de autorizarea dvs. pentru a activa",
+        "deniedMessage": "Ați refuzat permisiunea necesară, astfel încât setările nu s-au schimbat. Dacă vă răzgândiți, vă rugăm să faceți clic din nou și să permiteți autorizarea"
+      },
+      "showInSidePanel": {
+        "label": "Afișați în panoul lateral",
+        "description": "Când este activat, afișați în panoul lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Afișați istoricul în rezultatele căutării filelor",
+        "description": "Când este activat, înregistrările recente ale istoricului vor fi afișate în rezultatele căutării filelor"
+      },
+      "limitSearchResults": {
+        "label": "Limitați numărul de înregistrări ale istoricului în rezultatele căutării filelor",
+        "description": "Setați numărul limită de înregistrări ale istoricului în rezultatele căutării filelor. Înregistrările istoricului care depășesc limita vor fi filtrate",
+        "alert": "Prea multe înregistrări vor afecta viteza de încărcare a paginii"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Numărul de file recent închise de păstrat",
+        "description": "Setați numărul de file recent închise de păstrat"
+      },
+      "keepDays": {
+        "label": "Numărul de zile pentru a păstra filele recent închise",
+        "description": "Setați numărul de zile pentru a păstra filele recent închise. Datele expirate vor fi șterse",
+        "days": "Zile"
+      },
+      "openDuration": {
+        "label": "Durata deschiderii",
+        "description": "Doar filele deschise pentru o perioadă mai lungă decât timpul setat vor fi salvate",
+        "seconds": "Secunde"
+      }
+    },
+    "shortcuts": {
+      "alert": "Această pagină este doar pentru afișare. Pentru a modifica scurtăturile, vă rugăm să vizitați [Extensii]->[Gestionați extensiile]->[Scurtături de la tastatură]",
+      "goToChromeSettings": "Accesați setările Chrome",
+      "_execute_action": "Activați această extensie",
+      "openSidePanel": "Deschideți panoul lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imagine în imagine",
+      "tabSwitch": {
+        "label": "PIP la comutarea filelor",
+        "description": "Intrați automat în PIP la comutarea filelor cu un videoclip nemutat",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "scrollSwitch": {
+        "label": "Comutați la imagine în imagine la derulare",
+        "description": "Dacă pagina curentă redă un videoclip și videoclipul nu este mutat și videoclipul este în afara zonei vizibile la derulare, va intra în imagine în imagine.",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Activarea utilizatorului necesară",
+      "tips_1": "Activarea utilizatorului înseamnă că utilizatorul interacționează în prezent cu pagina",
+      "tips_2": "Mai exact, activarea declanșează evenimente de intrare, cum ar fi:",
+      "tips_3": "Notă: Utilizarea rotiței mouse-ului sau a gestului de glisare nu va declanșa!",
+      "tips_4": "Dacă doriți mai multe detalii, vă rugăm să vizitați:",
+      "click": "Clic",
+      "contextmenu": "Meniu clic dreapta",
+      "dblclick": "Dublu clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamentul de colaps al grupului de file",
+        "description": "Modificați comportamentul de colaps al grupului de file din browserul Chrome",
+        "option_collapse_others": "Afișați grupul curent și colapsați celelalte",
+        "option_disable": "Extindeți toate grupurile",
+        "option_auto": "Utilizați setările implicite Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Creați automat sau alăturați-vă grupului de același domeniu",
+        "description": "Când este activat, filele nou deschise se vor alătura automat grupului de același domeniu. Dacă grupul de domeniu nu există, va fi creat un nou grup de domeniu",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrați filele fixate în grupuri",
+        "description": "Când este activat, filele fixate nu vor fi adăugate în grupuri",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Activați bara de progres",
+        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "readingProgressBar": {
+        "label": "Bară de progres pentru citire",
+        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "scrollHeightRatio": {
+        "label": "Raportul înălțimii de derulare",
+        "description": "Raportul dintre înălțimea ferestrei vizibile și înălțimea paginii. O bară de progres va fi afișată când raportul este depășit",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "playingProgressBar": {
+        "label": "Bară de progres pentru redare",
+        "description": "Când este activat, o bară de progres pentru redare va fi afișată sub bara de titlu a filei",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Activați mingea plutitoare",
+        "description": "Când panoul lateral este închis, o minge plutitoare va fi afișată pe partea dreaptă a paginii, permițând deschiderea rapidă a panoului lateral."
+      }
+    },
+    "performance": {
+      "label": "Performanță",
+      "saveMemoryAction": {
+        "label": "Cum să salvați memoria pe file",
+        "description": "Pentru a salva memoria pe file, puteți alege să închideți filele sau să le eliminați.",
+        "discardTips": "o filă eliminată nu dispare nicăieri. O distrugem, dar este încă vizibilă în bara de file Chrome. Dacă navigați înapoi la o filă care a fost eliminată, se va reîncărca când este clicată. Conținutul formularului, poziția de derulare și așa mai departe sunt salvate și restaurate în același mod în care ar fi în timpul navigării înainte/înapoi pe file.",
+        "disabled": "Dezactivat",
+        "closeTabs": "Închideți filele",
+        "discardTabs": "Eliminați filele"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Cât timp să eliminați filele inactive",
+        "description": "Atunci când nu se redă niciun sunet sau video pe filă și eliminarea automată nu este interzisă, fila va fi eliminată după timpul specificat.",
+        "minutes": "Minute"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Cât timp să închideți filele inactive",
+        "description": "Atunci când nu se redă niciun sunet sau video pe filă și eliminarea automată nu este interzisă, fila va fi închisă după timpul specificat.",
+        "minutes": "Minute"
+      },
+      "disableAnimations": {
+        "label": "Dezactivați animațiile",
+        "description": "dezactivați efectul de unduire și dezactivați toate tranzițiile"
+      }
+    }
+  }
+}

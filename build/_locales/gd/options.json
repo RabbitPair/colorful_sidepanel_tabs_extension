@@ -1,0 +1,340 @@
+{
+  "OpenSideSanelToPreview": "Fosgail an taobh sainnsealadh gus am preasbheachadh",
+  "_execute_action": "Gnìomhachadh an leudachaidh seo",
+  "openSidePanel": "Fosgail an taobh sainnsealadh",
+  "settings": {
+    "resetCurrentPageSettings": "Ath-shuidhich sèitichean an duilleag làithreach",
+    "modules": {
+      "appearance": "Coltas",
+      "beautify": "Sàbhail",
+      "tabs": "Taobhan",
+      "history": "Eachdraidh",
+      "shortcuts": "Bogha-faclan",
+      "pip": "Dealbh ann an dealbh",
+      "chromeTabGroupAdvanced": "Còmhlanan taobh-chlàir adhartach",
+      "progressBar": "bàr adhartais",
+      "floatBall": "Ball sìoladh",
+      "experimentalFeatures": "Gnìomhan eòlach"
+    },
+    "appearance": {
+      "header": "Coltas",
+      "language": {
+        "label": "Cànan an aghaidh",
+        "description": "Suidhich an cànan airson a' chais a thaisbeanadh"
+      },
+      "theme": {
+        "label": "Modh dath",
+        "description": "Tagh modh dath geal no dorcha"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Nuair a chaidh a chumas, bidh an aghaidh a' sealltainn dìreach bho dheas gu clì"
+      },
+      "fontSize": {
+        "label": "Meud litreach",
+        "description": "Suidhich meud litreach",
+        "small": "Beag",
+        "large": "Mòr"
+      },
+      "fontFamily": {
+        "label": "Teaghlach-font",
+        "description": "Suidhich an teaghlach-font"
+      },
+      "fontColor": {
+        "label": "Dath-font",
+        "description": "Suidhich an dath-font"
+      },
+      "fontWeight": {
+        "label": "Meud-font",
+        "description": "Suidhich am meud-font"
+      },
+      "extAction": {
+        "label": "Gnìomh nuair a chlikeas tu air an dealbh",
+        "description": "Suidhich an gnìomh nuair a chlikeas tu air an dealbh",
+        "openPopup": "Fosgail pop-up",
+        "openSidePanel": "Fosgail an taobh sainnsealadh"
+      },
+      "SidePanelPosition": {
+        "label": "Àite an taobh sainnsealadh",
+        "description": "Suidhich ma tha am taobh sainnsealadh air an taisbeanadh air an taobh clì no air an taobh deas.",
+        "goToChromeSettings": "Rach gu sèitichean Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Àite a' bhogsa lorg",
+        "description": "Suidhich àite a' bhogsa lorg",
+        "top": "Barr",
+        "bottom": "Bun",
+        "hide": "Falaich"
+      },
+      "toolbar": {
+        "label": "Seall an t-siostam-innse",
+        "description": "Nuair a chaidh a chumas, bidh an t-siostam-innse air an taisbeanadh"
+      },
+      "bottomNav": {
+        "label": "Seall an t-siostam-innse ìosal",
+        "description": "Nuair a chaidh a chumas, bidh an t-siostam-innse ìosal air an taisbeanadh"
+      },
+      "buttonPosition": {
+        "label": "Àite a' bhogsa",
+        "description": "Suidhich àite a' bhogsa",
+        "left": "Clì",
+        "right": "Dheas"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Falaich an taobh sainnsealadh anns an sgrion làn",
+        "description": "Nuair a chaidh a chumas, bidh am taobh sainnsealadh a' falaich nuair a tha an duilleag anns an sgrion làn. Air sgàth nan teòthachdan aig Chrome, cha tèid am taobh sainnsealadh a dhèanamh a-rithist gu fèin-ghlan. Feumaidh tu an taobh sainnsealadh a dhùnadh a-rithist le do làimh!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Cùlaiche dathach",
+        "description": "Nuair a chaidh a chumas, bidh am taobh sainnsealadh a' taisbeanadh cùlaiche dathach"
+      },
+      "backgroundPicture": {
+        "label": "Dealbh cùlaiche",
+        "description": "Clik [+] gus dealbh cuspaireil a chur ris, clik [-] gus dealbh cuspaireil a sguabadh. Faighidh tu do dhealbhan sàr-mhath air na làraichean a leanas.",
+        "dialogDescription": "Cuir a-steach seòrsa dealbh",
+        "OK": "Ceart",
+        "Cancel": "Sguir dheth",
+        "invalidImage": "Seòrsa dealbh neamh-chruthach"
+      },
+      "backgroundImageTransparency": {
+        "label": "Tras-phrìomh dealbh",
+        "description": "Suidhich tras-phrìomh dealbh",
+        "transparent": "Tras-phrìomh",
+        "opaque": "Dorch"
+      },
+      "backgroundImageBlur": {
+        "label": "Intinn Blur",
+        "description": "Suidhich Intinn Blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Soilleireachd",
+        "description": "Suidhich an t-soilleireachd, moladh airson modh dorcha a-mhàin"
+      },
+      "listBackgroundStyle": {
+        "label": "Stoidhle cùlaiche liosta",
+        "description": "Suidhich stoidhle cùlaiche liosta",
+        "single": "Aon",
+        "none": "Aon",
+        "simple": "Simpil",
+        "complementary": "Complamaideach",
+        "analogous": "Analogach",
+        "triadic": "Triadach",
+        "tetradic": "Tetradach"
+      },
+      "listBackgroundTransparency": {
+        "label": "Tras-phrìomh cùlaiche liosta",
+        "description": "Suidhich tras-phrìomh cùlaiche liosta",
+        "transparent": "Tras-phrìomh",
+        "opaque": "Dorch"
+      },
+      "listBottomBorder": {
+        "label": "Bòrd ìosal liosta",
+        "description": "Suidhich bòrd ìosal liosta",
+        "none": "Aon",
+        "dashed": "Lìneach",
+        "solid": "Soilleir"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Lìneachan sgrìobaidh sìmplidh",
+        "description": "Cleachdadh stoidhle dealbh Microsoft Fluent agus cuir air an làrach-lìn iad",
+        "goToChromeSettings": "Rach gu sèitichean Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Sealladh liosta",
+        "description": "Atharraich sealladh liosta",
+        "compact": "Sealladh cumanta",
+        "visual": "Sealladh dealbh"
+      },
+      "showBy": {
+        "label": "Seall le",
+        "description": "Atharraich seall le"
+      },
+      "sortBy": {
+        "label": "Seòrsaich le",
+        "description": "Atharraich seòrsaich le"
+      },
+      "showFullUrl": {
+        "label": "Seall URL iomlan",
+        "description": "Nuair a chaidh a chumas, bidh URL iomlan air an taisbeanadh fo rùn an taobh"
+      },
+      "currentWindowOnly": {
+        "label": "Aon aonadh làithreach",
+        "description": "Seall aonadh a' chomharrachaidh a-nis. Ma tha e dhìthichte, bidh taobhan bho gach uinneig air an taisbeanadh"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Seall taobhan pinnichte mar ioganan",
+        "description": "Nuair a chaidh a chumas, bidh taobhan pinnichte air an taisbeanadh mar ioganan agus chan eil iad san liosta"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Seall ioganan làraich nuair a' briseadh còmhlanan",
+        "description": "Nuair a chaidh a chumas, bidh còmhlanan briste a' sealltainn ioganan làraich"
+      },
+      "hoverPreview": {
+        "label": "Preasbheachadh nuair a' sùileachadh",
+        "description": "Nuair a chaidh a chumas, bidh sùileachadh thairis air taobhan a' sealltainn preasbheachadh taobh"
+      },
+      "previewWithThumbnail": {
+        "label": "Seall dealbhan-sgrìn anns a' phreasbheachadh",
+        "description": "Nuair a chaidh a chumas, bidh preasbheachadh a' sealltainn dealbhan-sgrìn taobh",
+        "alert": "Thog an raon fhaicinn de na taobhan a tha fosgailte an-dràsta ann an uinneig sònraichte. Airson an gnìomh seo a ghairm, feumaidh an leudachadh <all_urls> cead no ceadTab gnìomhach.",
+        "deniedMessage": "Thug thu dìoladh air an cead a dhìth, mar sin cha do rinn na sèitichean atharrachaidh. Ma thogras tu do naidheachd, cuir a-steach a-rithist agus leig le cead a dhèanamh"
+      },
+      "previewDelay": {
+        "label": "Drochaid preasbheachadh",
+        "description": "Suidhich an ùine dìreach airson preasbheachadh taobhan nuair a' sùileachadh thairis air taobhan, agus mar sin air adhart. (dioghan). Ma suidhichte gu 0, cha bhi drochaid sam bith ann"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Sàbhail taobhan a chaidh dùnadh fad 's a dh'fhalbh",
+        "description": "Nuair a chaidh a chumas, sàbhail taobhan a chaidh dùnadh fad 's a dh'fhalbh"
+      },
+      "dataSource": {
+        "label": "Foinn-dàta",
+        "description": "Tagh foinn-dàta",
+        "recentlyClosedTabs": "Taobhan a chaidh dùnadh fad 's a dh'fhalbh",
+        "chromeHistory": "Eachdraidh Chrome",
+        "alert": "Airson lorg taobhan eachdraidh, feumaidh tu d' cead a chumas",
+        "deniedMessage": "Thug thu dìoladh air an cead a dhìth, mar sin cha do rinn na sèitichean atharrachaidh. Ma thogras tu do naidheachd, cuir a-steach a-rithist agus leig le cead a dhèanamh"
+      },
+      "showInSidePanel": {
+        "label": "Seall anns an taobh sainnsealadh",
+        "description": "Nuair a chaidh a chumas, seall anns an taobh sainnsealadh"
+      },
+      "showInTabSearchResults": {
+        "label": "Seall eachdraidh anns na toraidhean lorg taobh",
+        "description": "Nuair a chaidh a chumas, bidh taobhan eachdraidh ùra a' taisbeanadh anns na toraidhean lorg taobh"
+      },
+      "limitSearchResults": {
+        "label": "Meud taobhan eachdraidh anns na toraidhean lorg taobh",
+        "description": "Suidhich meud taobhan eachdraidh anns na toraidhean lorg taobh. Bidh taobhan eachdraidh a' fàgail an lìonadh a tha nas motha air an sgeadachadh"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Àireamh taobhan a chaidh dùnadh fad 's a dh'fhalbh a sàbhail",
+        "description": "Suidhich àireamh taobhan a chaidh dùnadh fad 's a dh'fhalbh a sàbhail"
+      },
+      "keepDays": {
+        "label": "Àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh",
+        "description": "Suidhich àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh. Bidh dàta dhùthichte a' faotainn sgrios"
+      },
+      "openDuration": {
+        "label": "Am fosgailte",
+        "description": "Aon taobhan a tha fosgailte fad nas fhaide na an ùine a chaidh a shuidheachadh",
+        "seconds": "Dioghan"
+      }
+    },
+    "shortcuts": {
+      "alert": "Tha an duilleag seo airson taisbeanadh a-mhàin. Airson bogha-faclan a mhìneachadh, tadhail air [Leudachaidhean]->[Stiùirich Leudachaidhean]->[Bogha-faclan Clàir]",
+      "goToChromeSettings": "Rach gu sèitichean Chrome",
+      "_execute_action": "Gnìomhachadh an leudachaidh seo",
+      "openSidePanel": "Fosgail an taobh sainnsealadh"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Dealbh ann an dealbh",
+      "tabSwitch": {
+        "label": "PIP airson atharrachadh taobh",
+        "description": "Atharraich a-steach PIP nuair a chaidh a chumas taobhan le dealbh gun ghuth a chur air taobhan eile",
+        "enabled": "Cumasach",
+        "disabled": "Di-chumasach"
+      },
+      "scrollSwitch": {
+        "label": "Atharrachadh gu dealbh ann an dealbh nuair a' sgrìobhadh",
+        "description": "Ma tha an duilleag làithreach a' cluich bhidio agus chan eil an bhidio air a ghuthadh agus tha an bhidio a-muigh air an raon fhaicinn nuair a' sgrìobhadh, bidh e a' dol a-steach dealbh ann an dealbh.",
+        "enabled": "Cumasach",
+        "disabled": "Di-cumasach"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Feumaidh gnìomhachas a chleachdadh",
+      "tips_1": "Tha gnìomhachas a chleachdadh a' ciallachadh gu bheil an neach-cleachdaidh a' cumail a' dol leis an duilleag",
+      "tips_2": "Gu sònraichte, bidh gnìomhachas a' ciallachadh gun tèid tachartasan ionnsachaidh a chur an gnìomh, mar eisimpleir:",
+      "tips_3": "Nota: Chan eil an roth luchd-siubhail no an gheas-sgroladh a' tachairt!",
+      "tips_4": "Ma tha ùidh agad ann an barrachd fiosrachaidh, tadhail air:",
+      "click": "Briog",
+      "contextmenu": "Bogha-clì",
+      "dblclick": "Dùbailte-briog"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Iomairt tabaich gruop",
+        "description": "Atharraich iomairt tabaich gruop brabhsair Chrome",
+        "option_collapse_others": "Seall an gruop làithreach agus iomairt gruopan eile",
+        "option_disable": "Leudaich gach gruop",
+        "option_auto": "Cleachdadh roghainnean àbhaisteach Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Cruthaich neo thaghadh gruop an aon dòigh-dhòmhainn",
+        "description": "Nuair a tha e cumanta, bidh taobhan ùra a fosgladh a' tighinn còmhla gu gruop an aon dòigh-dhòmhainn gu h-àutomatic. Ma tha gruop an dòigh-dhòmhainn nach eil ann, cruthaidh gruop dòigh-dhòmhainn ùr",
+        "enabled": "Cumasach",
+        "disabled": "Di-chumasach"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Sgaoil taobhan prìneach ann am gruopan",
+        "description": "Nuair a tha e cumanta, cha bhi taobhan prìneach a' tighinn còmhla ri gruopan",
+        "enabled": "Cumasach",
+        "disabled": "Di-chumasach"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Cuir an staid barra a-steach",
+        "description": "Nuair a tha e cumanta, bidh barra staid leughaidh a' taisbeanadh fo bhàr teideal an taobh",
+        "enabled": "Cumasach",
+        "disabled": "Di-cumasach"
+      },
+      "readingProgressBar": {
+        "label": "Barra staid leughaidh",
+        "description": "Nuair a tha e cumanta, bidh barra staid leughaidh a' taisbeanadh fo bhàr teideal an taobh",
+        "enabled": "Cumasach",
+        "disabled": "Di-cumasach"
+      },
+      "scrollHeightRatio": {
+        "label": "Cóimheas Airde Scroill",
+        "description": "An cóimheas idir airde fuinneog radhairc agus airde leathanaigh. Taispeánfar barra dul chinn nuair a théann an cóimheas thar an teorainn",
+        "enabled": "Gníomh",
+        "disabled": "Faoi díchumas"
+      },
+      "playingProgressBar": {
+        "label": "Barra staid cluich",
+        "description": "Nuair a tha e cumanta, bidh barra staid cluich a' taisbeanadh fo bhàr teideal an taobh",
+        "enabled": "Cumasach",
+        "disabled": "Di-cumasach"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Cuir an sgeulachd a-steach",
+        "description": "Nuair a tha an taobh sainnsealadh dùinte, bidh sgeulachd a' taisbeanadh air taobh deas na duilleige, a' leigeil le fosgailte luath an taobh sainnsealadh."
+      }
+    },
+    "performance": {
+      "label": "Gnìomhachas",
+      "saveMemoryAction": {
+        "label": "Ciamar a gheibhear cuimhne air taobhan",
+        "description": "Airson cuimhne a gheibheas air taobhan, faodaidh tu taghan a dhùnadh no taghan a chur às.",
+        "discardTips": "Cha tèid taobh a chaidh a dhùnadh gu àite sam bith. Tha sinn a' cur às e ach tha e fhathast coltach air sreap taobh Chrome. Ma nì thu a dhìth air taobh a chaidh a dhùnadh, bidh e a' dhol a-rithist nuair a chuir thu air. Bidh comasachd a' chuirp, a' phostadh sgrìobhainnean agus mar sin air a shàbhaladh agus a dhèanamh a-rithist an aon dòigh 's a bhiodh iad aig gluasad taobh air adhart/air ais.",
+        "disabled": "Di-chumasach",
+        "closeTabs": "Dùn taobhan",
+        "discardTabs": "Cuir taobhan às"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Ciamar fada gus taobhan neo-chumanta a chur às",
+        "description": "Nuair nach eil fuaim no bhidio a' tighinn bho taobh agus chan eil cuimhneachadh àbhaisteach air a chur à comas, bidh an taobh a' tighinn a-mach às a dhèidh an ùine a sgrìobhadh.",
+        "minutes": "Mionaidan"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Ciamar fada gus taobhan neo-chumanta a dhùnadh",
+        "description": "Nuair nach eil fuaim no bhidio a' tighinn bho taobh agus chan eil cuimhneachadh àbhaisteach air a chur à comas, bidh an taobh a' tighinn a-mach às a dhèidh an ùine a sgrìobhadh.",
+        "minutes": "Mionaidan"
+      },
+      "disableAnimations": {
+        "label": "Cuir às ùrachaidhean",
+        "description": "cuir às an tionndadh sìos agus cuir às gach siathamh"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "การจัดการแท็กแถบด้านข้างสีสดใส"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": " จัดการแท็บเบราว์เซอร์ในแผงด้านข้าง สวยเกินกว่าจะดีขนาดนี้."
+  },
+  "openSidePanel": {
+    "message": "เปิดแถบด้านข้าง"
+  }
+}

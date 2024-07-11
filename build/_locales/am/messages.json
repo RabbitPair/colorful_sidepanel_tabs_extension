@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "ቀለም ያላቸው የጎን ፓነል ትሮች"
+  },
+  "appShortName": {
+    "message": "ራቢትፔር"
+  },
+  "appDescription": {
+    "message": "የአሳሽ ትሮችን በጎን ፓነል ያቀናብሩ፣ እንደዚህ ያለ ውብ መሆን አይቻልም"
+  },
+  "openSidePanel": {
+    "message": "ጎን ፓነልን ክፈት"
+  }
+}

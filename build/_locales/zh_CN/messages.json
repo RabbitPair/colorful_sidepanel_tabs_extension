@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "多彩侧边栏标签管理"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "在侧边栏管理浏览器标签页，漂亮得不像实力派"
+  },
+  "openSidePanel": {
+    "message": "打开侧边栏"
+  }
+}

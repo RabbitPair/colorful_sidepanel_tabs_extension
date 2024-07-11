@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Farbenfrohe Seitenleisten-Tab-Verwaltung"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Verwalten Sie Tabs im Seitenbereich, zu hübsch, um so gut zu sein."
+  },
+  "openSidePanel": {
+    "message": "Seitenleiste öffnen"
+  }
+}

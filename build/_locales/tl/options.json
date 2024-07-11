@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Buksan ang side panel upang ma-preview",
+  "_execute_action": "I-activate ang extension na ito",
+  "openSidePanel": "Buksan ang side panel",
+  "settings": {
+    "resetCurrentPageSettings": "I-reset ang mga setting ng kasalukuyang pahina",
+    "modules": {
+      "appearance": "Hitsura",
+      "beautify": "Gandahin",
+      "tabs": "Mga Tab",
+      "history": "Kasaysayan",
+      "shortcuts": "Mga Shortcut",
+      "pip": "Larawan sa larawan",
+      "chromeTabGroupAdvanced": "Advanced na mga grupo ng tab sa Chrome",
+      "progressBar": "progress bar",
+      "floatBall": "Lutang na bola",
+      "experimentalFeatures": "Mga experimental na feature"
+    },
+    "appearance": {
+      "header": "Hitsura",
+      "language": {
+        "label": "Wika ng interface",
+        "description": "Itakda ang wika para sa display ng interface"
+      },
+      "theme": {
+        "label": "Mode ng kulay",
+        "description": "Pumili ng liwanag o madilim na mode ng kulay"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kapag pinagana, ipapakita ng interface ang direksyon ng teksto mula kanan patungo sa kaliwa"
+      },
+      "fontSize": {
+        "label": "Laki ng font",
+        "description": "Itakda ang laki ng font",
+        "small": "Maliit",
+        "large": "Malaki"
+      },
+      "fontFamily": {
+        "label": "Pamilya ng Font",
+        "description": "Itakda ang pamilya ng font"
+      },
+      "fontColor": {
+        "label": "Kulay ng Font",
+        "description": "Itakda ang kulay ng font"
+      },
+      "fontWeight": {
+        "label": "Timbang ng Font",
+        "description": "Itakda ang timbang ng font"
+      },
+      "extAction": {
+        "label": "Aksyon kapag i-click ang icon ng extension",
+        "description": "Itakda ang aksyon kapag i-click ang icon ng extension",
+        "openPopup": "Buksan ang popup",
+        "openSidePanel": "Buksan ang side panel"
+      },
+      "SidePanelPosition": {
+        "label": "Posisyon ng side panel",
+        "description": "Itakda kung ang side panel ay ipapakita sa kaliwa o kanan.",
+        "goToChromeSettings": "Pumunta sa mga setting ng Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posisyon ng search box",
+        "description": "Itakda ang posisyon ng search box",
+        "top": "Itaas",
+        "bottom": "Ibaba",
+        "hide": "Itago"
+      },
+      "toolbar": {
+        "label": "Ipakita ang toolbar",
+        "description": "Kapag pinagana, ipapakita ang toolbar"
+      },
+      "bottomNav": {
+        "label": "Ipakita ang bar ng bottom navigation",
+        "description": "Kapag pinagana, ipapakita ang bar ng bottom navigation"
+      },
+      "buttonPosition": {
+        "label": "Posisyon ng button",
+        "description": "Itakda ang posisyon ng mga button",
+        "left": "Kaliwa",
+        "right": "Kanan"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Itago ang side panel sa full screen",
+        "description": "Kapag pinagana, ang side panel ay awtomatikong magtatago kapag ang pahina ay nasa full screen. Dahil sa mga limitasyon ng Chrome, hindi maaaring awtomatikong buksan ang side panel. Kailangan mong buksan muli nang manu-mano ang side panel!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Kulay na background",
+        "description": "Kapag pinagana, ipapakita ng side panel ang isang kulay na background"
+      },
+      "backgroundPicture": {
+        "label": "Larawan sa background",
+        "description": "I-click ang [+] upang magdagdag ng pasadyang larawan, i-click ang [-] upang burahin ang pasadyang larawan. Maaari mong mahanap ang iyong paboritong larawan sa mga sumusunod na website.",
+        "dialogDescription": "Ipasok ang address ng larawan",
+        "OK": "OK",
+        "Cancel": "Kanselahin",
+        "invalidImage": "Di-wastong address ng larawan"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparency ng larawan",
+        "description": "Itakda ang transparency ng larawan",
+        "transparent": "Transparent",
+        "opaque": "Opake"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensidad ng Blur",
+        "description": "Itakda ang Intensidad ng Blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Kaliwanagan",
+        "description": "Itakda ang kaliwanagan, inirerekomenda lamang para sa dark mode"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo ng background ng listahan",
+        "description": "Itakda ang estilo ng background ng listahan",
+        "single": "Iisa",
+        "none": "Wala",
+        "simple": "Simple",
+        "complementary": "Komplementaryo",
+        "analogous": "Analogous",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparency ng background ng listahan",
+        "description": "Itakda ang transparency ng background ng listahan",
+        "transparent": "Transparent",
+        "opaque": "Opake"
+      },
+      "listBottomBorder": {
+        "label": "Ibaba na border ng listahan",
+        "description": "Itakda ang ibaba na border ng listahan",
+        "none": "Wala",
+        "dashed": "Dashed",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluent scrollbars",
+        "description": "Gamitin ang disenyo ng Microsoft Fluent style scrollbars at i-overlay ang mga ito sa nilalaman ng web",
+        "goToChromeSettings": "Pumunta sa mga setting ng Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Listahan na view",
+        "description": "Magpalit sa listahan na view",
+        "compact": "Compact view",
+        "visual": "Visual view"
+      },
+      "showBy": {
+        "label": "Ipakita ayon sa",
+        "description": "Magpalit sa ipinapakita ayon sa"
+      },
+      "sortBy": {
+        "label": "Pangalagaan ayon sa",
+        "description": "Magpalit sa pangalagaan ayon sa"
+      },
+      "showFullUrl": {
+        "label": "Ipakita ang buong URL",
+        "description": "Kapag pinagana, ang buong URL ay ipapakita sa ilalim ng pamagat ng tab"
+      },
+      "currentWindowOnly": {
+        "label": "Tanging kasalukuyang window",
+        "description": "Ipakita lamang ang mga tab ng kasalukuyang window. Kung hindi pinagana, ipapakita ang mga tab mula sa lahat ng window"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Ipakita ang mga pina-pindot na tab bilang mga icon",
+        "description": "Kapag pinagana, ang mga pina-pindot na tab ay ipapakita bilang mga icon at hindi sa listahan"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Ipakita ang mga icon ng website kapag nagko-collapse ng mga grupo",
+        "description": "Kapag pinagana, ipapakita ang mga icon ng tab kapag nagko-collapse ang mga grupo"
+      },
+      "hoverPreview": {
+        "label": "Preview sa pag-hover",
+        "description": "Kapag pinagana, ang pag-hover sa mga tab ay magpapakita ng mga preview ng tab"
+      },
+      "previewWithThumbnail": {
+        "label": "Ipakita ang mga thumbnail sa preview",
+        "description": "Kapag pinagana, ipapakita ang mga preview ng tab na may mga thumbnail ng tab",
+        "alert": "Kumuha ng nakikitang lugar ng kasalukuyang aktibong tab sa isang tinukoy na window. Upang tawagin ang method na ito, ang extension ay dapat magkaroon ng pahintulot na <all_urls> o pahintulot na activeTab.",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya hindi nagbago ang mga setting. Kung magbabago ang iyong isip, mangyaring mag-click muli at payagan ang awtorisasyon"
+      },
+      "previewDelay": {
+        "label": "Delay sa preview",
+        "description": "Itakda ang oras ng delay para sa mga preview ng tab kapag nagho-hover sa mga tab, atbp. (segundo). Kung itinakda sa 0, walang delay",
+        "seconds": "Segundo"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "I-save ang mga kamakailang naitab",
+        "description": "Kapag pinagana, i-save ang mga kamakailang naitab"
+      },
+      "dataSource": {
+        "label": "Pinagmulan ng data",
+        "description": "Pumili ng pinagmulan ng data",
+        "recentlyClosedTabs": "Kamakailang naitab",
+        "chromeHistory": "Kasaysayan ng Chrome",
+        "alert": "Upang maghanap ng mga rekord ng kasaysayan, kailangan ng iyong awtorisasyon upang paganahin",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya hindi nagbago ang mga setting. Kung magbabago ang iyong isip, mangyaring mag-click muli at payagan ang awtorisasyon"
+      },
+      "showInSidePanel": {
+        "label": "Ipakita sa side panel",
+        "description": "Kapag pinagana, ipakita sa side panel"
+      },
+      "showInTabSearchResults": {
+        "label": "Ipakita ang kasaysayan sa mga resulta ng paghahanap ng tab",
+        "description": "Kapag pinagana, ipapakita ang mga kamakailang rekord ng kasaysayan sa mga resulta ng paghahanap ng tab"
+      },
+      "limitSearchResults": {
+        "label": "Limitahan ang bilang ng mga rekord ng kasaysayan sa mga resulta ng paghahanap ng tab",
+        "description": "Itakda ang limitasyon sa bilang ng mga rekord ng kasaysayan sa mga resulta ng paghahanap ng tab. Ang mga rekord ng kasaysayan na lumalampas sa limitasyon ay ifi-filter",
+        "alert": "Masyadong maraming rekord ang makakaapekto sa bilis ng paglo-load ng pahina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Bilang ng kamakailang naitab na dapat i-save",
+        "description": "Itakda ang bilang ng kamakailang naitab na dapat i-save"
+      },
+      "keepDays": {
+        "label": "Bilang ng mga araw na dapat i-save ang kamakailang naitab",
+        "description": "Itakda ang bilang ng mga araw na dapat i-save ang kamakailang naitab. Ang mga luma nang data ay mabubura",
+        "days": "Araw"
+      },
+      "openDuration": {
+        "label": "Oras ng pagbukas",
+        "description": "Tanging ang mga tab na bukas nang mas matagal sa itinakda na oras ang mai-save",
+        "seconds": "Segundo"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ang pahinang ito ay para lamang sa display. Upang baguhin ang mga shortcut, mangyaring bisitahin ang [Extensions]->[Pamahalaan ang Mga Extension]->[Mga Shortcut ng Keyboard]",
+      "goToChromeSettings": "Pumunta sa mga setting ng Chrome",
+      "_execute_action": "I-activate ang extension na ito",
+      "openSidePanel": "Buksan ang side panel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Larawan sa larawan",
+      "tabSwitch": {
+        "label": "PIP sa Pagpapalit ng Tab",
+        "description": "Auto-pasok sa PIP kapag nagpapalit ng mga tab na may hindi nakamute na video",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "scrollSwitch": {
+        "label": "Magpalit sa larawan sa larawan kapag nag-s-scroll",
+        "description": "Kung ang kasalukuyang pahina ay nagpe-play ng video at ang video ay hindi nakamute at ang video ay wala sa nakikitang saklaw kapag nag-s-scroll, papasok ito sa larawan sa larawan.",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Kinakailangang aktibasyon ng user",
+      "tips_1": "Ang aktibasyon ng user ay nangangahulugang ang user ay kasalukuyang nakikipag-ugnayan sa pahina",
+      "tips_2": "Nang mas partikular, ang aktibasyon ay nagt-trigger ng mga input events tulad ng:",
+      "tips_3": "Tandaan: Ang paggamit ng mouse wheel scroll o swipe gesture ay hindi magt-trigger!",
+      "tips_4": "Kung nais mong makakuha ng karagdagang detalye, mangyaring bisitahin:",
+      "click": "I-click",
+      "contextmenu": "Right-click menu",
+      "dblclick": "Double-click"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Pag-uugali ng pag-collapse ng grupo ng tab",
+        "description": "Baguhin ang pag-uugali ng pag-collapse ng grupo ng tab sa Chrome browser",
+        "option_collapse_others": "Ipakita ang kasalukuyang grupo at i-collapse ang iba",
+        "option_disable": "Buksan ang lahat ng grupo",
+        "option_auto": "Gamitin ang default na setting ng Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Auto lumikha o sumali sa parehong domain group",
+        "description": "Kapag pinagana, ang mga bagong buksang tab ay awtomatikong sasali sa parehong domain group. Kung ang domain group ay hindi umiiral, ang isang bagong domain group ay lalikha",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "I-filter ang mga pina-pindot na tab sa mga grupo",
+        "description": "Kapag pinagana, ang mga pina-pindot na tab ay hindi idadagdag sa mga grupo",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Paganahin ang bar ng pag-unlad",
+        "description": "Kapag pinagana, ipapakita ang bar ng pag-unlad sa pagbasa sa ilalim ng bar ng pamagat ng tab",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "readingProgressBar": {
+        "label": "Bar ng pag-unlad sa pagbasa",
+        "description": "Kapag pinagana, ipapakita ang bar ng pag-unlad sa pagbasa sa ilalim ng bar ng pamagat ng tab",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "scrollHeightRatio": {
+        "label": "Ratio ng taas ng pag-scroll",
+        "description": "Ang ratio ng nakikitang taas ng window sa taas ng pahina. Ipapakita ang isang progress bar kapag lumampas ang ratio",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "playingProgressBar": {
+        "label": "Bar ng pag-unlad sa pagpe-play",
+        "description": "Kapag pinagana, ipapakita ang bar ng pag-unlad sa pagpe-play sa ilalim ng bar ng pamagat ng tab",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Paganahin ang lutang na bola",
+        "description": "Kapag naka-isara ang side panel, ipapakita ang lutang na bola sa kanang bahagi ng pahina, nagbibigay ng mabilis na pagbukas ng side panel."
+      }
+    },
+    "performance": {
+      "label": "Pagganap",
+      "saveMemoryAction": {
+        "label": "Paano mag-save ng memory sa mga tabs",
+        "description": "Upang mag-save ng memory sa mga tabs, maaari kang pumili na isara o itapon ang mga tabs.",
+        "discardTips": "ang isang itinapon na tab ay hindi pupunta kahit saan. Pinapatay namin ito ngunit ito ay patuloy na makikita sa Chrome tab strip. Kung babalik ka sa isang tab na na-discard, ito ay mag-reload kapag na-click. Ang nilalaman ng form, posisyon ng scroll, at iba pa ay ini-save at ibinalik sa parehong paraan kung paano ito gagawin sa forward/backward tab navigation.",
+        "disabled": "Hindi pinagana",
+        "closeTabs": "Isara ang mga tabs",
+        "discardTabs": "Itapon ang mga tabs"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Gaano katagal bago itapon ang mga hindi aktibong tabs",
+        "description": "Kapag walang audio o video na pinapalabas sa tab at hindi ipinagbabawal ang awtomatikong pagtatapon, ang tab ay itatapon pagkatapos ng itinakdang oras.",
+        "minutes": "Mga Minuto"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Gaano katagal bago isara ang mga hindi aktibong tabs",
+        "description": "Kapag walang audio o video na pinapalabas sa tab at hindi ipinagbabawal ang awtomatikong pagtatapon, ang tab ay isasara pagkatapos ng itinakdang oras.",
+        "minutes": "Mga Minuto"
+      },
+      "disableAnimations": {
+        "label": "I-disable ang mga animations",
+        "description": "i-disable ang ripple effect at i-disable ang lahat ng transitions"
+      }
+    }
+  }
+}

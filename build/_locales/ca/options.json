@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Obre el panell lateral per previsualitzar",
+  "_execute_action": "Activa aquesta extensió",
+  "openSidePanel": "Obre el panell lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Restableix la configuració de la pàgina actual",
+    "modules": {
+      "appearance": "Aparença",
+      "beautify": "Embelleix",
+      "tabs": "Pestanyes",
+      "history": "Històric",
+      "shortcuts": "Dreceres",
+      "pip": "Imatge en imatge",
+      "chromeTabGroupAdvanced": "Grups de pestanyes avançats de Chrome",
+      "progressBar": "Barra de progrés",
+      "floatBall": "Bola flotant",
+      "experimentalFeatures": "Funcionalitats experimentals"
+    },
+    "appearance": {
+      "header": "Aparença",
+      "language": {
+        "label": "Idioma de la interfície",
+        "description": "Estableix l'idioma per a la visualització de la interfície"
+      },
+      "theme": {
+        "label": "Mode de color",
+        "description": "Tria el mode de color clar o fosc"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Quan està habilitat, la interfície mostrarà la direcció del text de dreta a esquerra"
+      },
+      "fontSize": {
+        "label": "Mida de la font",
+        "description": "Estableix la mida de la font",
+        "small": "Petita",
+        "large": "Gran"
+      },
+      "fontFamily": {
+        "label": "Família de la font",
+        "description": "Estableix la família de la font"
+      },
+      "fontColor": {
+        "label": "Color de la font",
+        "description": "Estableix el color de la font"
+      },
+      "fontWeight": {
+        "label": "Gruix de la font",
+        "description": "Estableix el gruix de la font"
+      },
+      "extAction": {
+        "label": "Acció en fer clic a la icona de l'extensió",
+        "description": "Estableix l'acció en fer clic a la icona de l'extensió",
+        "openPopup": "Obre el popup",
+        "openSidePanel": "Obre el panell lateral"
+      },
+      "SidePanelPosition": {
+        "label": "Posició del panell lateral",
+        "description": "Estableix si el panell lateral es mostra a l'esquerra o a la dreta.",
+        "goToChromeSettings": "Anar a la configuració de Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posició del quadre de cerca",
+        "description": "Estableix la posició del quadre de cerca",
+        "top": "Dalt",
+        "bottom": "Baix",
+        "hide": "Amaga"
+      },
+      "toolbar": {
+        "label": "Mostra la barra d'eines",
+        "description": "Quan està habilitat, es mostra la barra d'eines"
+      },
+      "bottomNav": {
+        "label": "Mostra la barra de navegació inferior",
+        "description": "Quan està habilitat, es mostra la barra de navegació inferior"
+      },
+      "buttonPosition": {
+        "label": "Posició dels botons",
+        "description": "Estableix la posició dels botons",
+        "left": "Esquerra",
+        "right": "Dreta"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Amaga el panell lateral en pantalla completa",
+        "description": "Quan està habilitat, el panell lateral s'amagarà automàticament quan la pàgina estigui en pantalla completa. Degut a les limitacions de Chrome, el panell lateral no es pot tornar a obrir automàticament. Cal obrir manualment el panell lateral!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fons de color",
+        "description": "Quan està habilitat, el panell lateral mostrarà un fons de color"
+      },
+      "backgroundPicture": {
+        "label": "Imatge de fons",
+        "description": "Fes clic a [+] per afegir una imatge personalitzada, fes clic a [-] per eliminar una imatge personalitzada. Pots trobar les teves imatges preferides als següents llocs web.",
+        "dialogDescription": "Introdueix l'adreça de la imatge",
+        "OK": "D'acord",
+        "Cancel": "Cancel·la",
+        "invalidImage": "Adreça de la imatge no vàlida"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparència de la imatge",
+        "description": "Estableix la transparència de la imatge",
+        "transparent": "Transparent",
+        "opaque": "Opac"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensitat del desenfocament",
+        "description": "Estableix la intensitat del desenfocament"
+      },
+      "backgroundImageBrightness": {
+        "label": "Lluminositat",
+        "description": "Estableix la lluminositat, recomanat només per al mode fosc"
+      },
+      "listBackgroundStyle": {
+        "label": "Estil de fons de la llista",
+        "description": "Estableix l'estil de fons de la llista",
+        "single": "Únic",
+        "none": "Cap",
+        "simple": "Senzill",
+        "complementary": "Complementari",
+        "analogous": "Anàleg",
+        "triadic": "Triàdic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparència del fons de la llista",
+        "description": "Estableix la transparència del fons de la llista",
+        "transparent": "Transparent",
+        "opaque": "Opac"
+      },
+      "listBottomBorder": {
+        "label": "Vora inferior de la llista",
+        "description": "Estableix la vora inferior de la llista",
+        "none": "Cap",
+        "dashed": "Discontinua",
+        "solid": "Sòlida"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barres de desplaçament fluides",
+        "description": "Utilitza l'estil de disseny Fluent de Microsoft per a les barres de desplaçament i superposa-les al contingut web",
+        "goToChromeSettings": "Anar a la configuració de Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vista de llista",
+        "description": "Canvia la vista de llista",
+        "compact": "Vista compacta",
+        "visual": "Vista visual"
+      },
+      "showBy": {
+        "label": "Mostra per",
+        "description": "Canvia la forma de mostrar"
+      },
+      "sortBy": {
+        "label": "Ordena per",
+        "description": "Canvia l'ordre de classificació"
+      },
+      "showFullUrl": {
+        "label": "Mostra la URL completa",
+        "description": "Quan està habilitat, la URL completa es mostrarà sota el títol de la pestanya"
+      },
+      "currentWindowOnly": {
+        "label": "Només finestra actual",
+        "description": "Només mostra les pestanyes de la finestra actual. Si està deshabilitat, es mostraran les pestanyes de totes les finestres"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Mostra les pestanyes fixades com a icones",
+        "description": "Quan està habilitat, les pestanyes fixades es mostraran com a icones i no a la llista"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Mostra icones de llocs web en col·lapsar grups",
+        "description": "Quan està habilitat, els grups col·lapsats mostraran icones de pestanyes"
+      },
+      "hoverPreview": {
+        "label": "Previsualització en passar el ratolí",
+        "description": "Quan està habilitat, en passar el ratolí per sobre de les pestanyes es mostraran previsualitzacions de les pestanyes"
+      },
+      "previewWithThumbnail": {
+        "label": "Mostra miniatures a la previsualització",
+        "description": "Quan està habilitat, les previsualitzacions mostraran miniatures de les pestanyes",
+        "alert": "Captura l'àrea visible de la pestanya activa actual en una finestra especificada. Per cridar aquest mètode, l'extensió ha de tenir el permís <all_urls> o el permís activeTab.",
+        "deniedMessage": "Has denegat el permís necessari, per tant, la configuració no ha canviat. Si canvies d'opinió, si us plau, torna a fer clic i autoritza"
+      },
+      "previewDelay": {
+        "label": "Retard de la previsualització",
+        "description": "Estableix el temps de retard per a les previsualitzacions de les pestanyes en passar el ratolí per sobre de les pestanyes, etc. (segons). Si s'estableix a 0, no hi haurà cap retard",
+        "seconds": "Segons"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Desa les pestanyes tancades recentment",
+        "description": "Quan està habilitat, desa les pestanyes tancades recentment"
+      },
+      "dataSource": {
+        "label": "Origen de dades",
+        "description": "Selecciona l'origen de dades",
+        "recentlyClosedTabs": "Pestanyes tancades recentment",
+        "chromeHistory": "Històric de Chrome",
+        "alert": "Per buscar registres d'historial, necessites la teva autorització per habilitar",
+        "deniedMessage": "Has denegat el permís necessari, per tant, la configuració no ha canviat. Si canvies d'opinió, si us plau, torna a fer clic i autoritza"
+      },
+      "showInSidePanel": {
+        "label": "Mostra al panell lateral",
+        "description": "Quan està habilitat, mostra al panell lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Mostra l'historial en els resultats de cerca de pestanyes",
+        "description": "Quan està habilitat, els registres d'historial recents es mostraran en els resultats de cerca de pestanyes"
+      },
+      "limitSearchResults": {
+        "label": "Limita el nombre de registres d'historial en els resultats de cerca de pestanyes",
+        "description": "Estableix el límit del nombre de registres d'historial en els resultats de cerca de pestanyes. Els registres d'historial que superin el límit seran filtrats",
+        "alert": "Massa registres afectaran la velocitat de càrrega de la pàgina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Nombre de pestanyes tancades recentment a mantenir",
+        "description": "Estableix el nombre de pestanyes tancades recentment a mantenir"
+      },
+      "keepDays": {
+        "label": "Nombre de dies per mantenir les pestanyes tancades recentment",
+        "description": "Estableix el nombre de dies per mantenir les pestanyes tancades recentment. Les dades caducades seran eliminades",
+        "days": "Dies"
+      },
+      "openDuration": {
+        "label": "Durada d'obertura",
+        "description": "Només es desaran les pestanyes obertes durant més temps del temps establert",
+        "seconds": "Segons"
+      }
+    },
+    "shortcuts": {
+      "alert": "Aquesta pàgina és només per a visualització. Per modificar les dreceres, si us plau, visita [Extensions]->[Gestiona extensions]->[Dreceres de teclat]",
+      "goToChromeSettings": "Anar a la configuració de Chrome",
+      "_execute_action": "Activa aquesta extensió",
+      "openSidePanel": "Obre el panell lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imatge en imatge",
+      "tabSwitch": {
+        "label": "PIP en canviar de pestanya",
+        "description": "Entra automàticament en PIP en canviar de pestanyes amb un vídeo sense silenciar",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "scrollSwitch": {
+        "label": "Canvia a imatge en imatge en fer scroll",
+        "description": "Si la pàgina actual està reproduint un vídeo i el vídeo no està silenciat i el vídeo està fora de la gamma visible en fer scroll, entrarà en imatge en imatge.",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "S'ha de requerir l'activació de l'usuari",
+      "tips_1": "L'activació de l'usuari significa que l'usuari està interactuant actualment amb la pàgina",
+      "tips_2": "Més específicament, l'activació desencadena esdeveniments d'entrada com ara:",
+      "tips_3": "Nota: Utilitzar la roda del ratolí o el gest de lliscament no ho activarà!",
+      "tips_4": "Si vols més detalls, si us plau, visita:",
+      "click": "Fes clic",
+      "contextmenu": "Menú de clic dret",
+      "dblclick": "Doble clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportament de col·lapse del grup de pestanyes",
+        "description": "Modifica el comportament del col·lapse del grup de pestanyes del navegador Chrome",
+        "option_collapse_others": "Mostra el grup actual i col·lapsa els altres",
+        "option_disable": "Expandeix tots els grups",
+        "option_auto": "Utilitza la configuració per defecte de Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Crea o uneix automàticament el mateix grup de domini",
+        "description": "Quan està habilitat, les pestanyes noves s'uniran automàticament al mateix grup de domini. Si el grup de domini no existeix, es crearà un grup de domini nou",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtra les pestanyes fixades als grups",
+        "description": "Quan està habilitat, les pestanyes fixades no s'afegiran als grups",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Habilita la barra de progrés",
+        "description": "Quan està habilitat, es mostrarà una barra de progrés de lectura sota la barra de títol de la pestanya",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progrés de lectura",
+        "description": "Quan està habilitat, es mostrarà una barra de progrés de lectura sota la barra de títol de la pestanya",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "scrollHeightRatio": {
+        "label": "Proporció d'alçada de desplaçament",
+        "description": "La proporció de l'alçada de la finestra visible respecte a l'alçada de la pàgina. Es mostrarà una barra de progrés quan es superi la proporció",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "playingProgressBar": {
+        "label": "Barra de progrés de reproducció",
+        "description": "Quan està habilitat, es mostrarà una barra de progrés de reproducció sota la barra de títol de la pestanya",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Habilita la bola flotant",
+        "description": "Quan el panell lateral està tancat, es mostrarà una bola flotant al costat dret de la pàgina, permetent obrir ràpidament el panell lateral."
+      }
+    },
+    "performance": {
+      "label": "Rendiment",
+      "saveMemoryAction": {
+        "label": "Com estalviar memòria a les pestanyes",
+        "description": "Per estalviar memòria a les pestanyes, podeu triar tancar pestanyes o descartar pestanyes.",
+        "discardTips": "una pestanya descartada no va enlloc. La matem però encara és visible a la barra de pestanyes de Chrome. Si torneu a una pestanya que s'ha descartat, es recarregarà quan es faci clic. El contingut del formulari, la posició de desplaçament, etc. es guarden i es restauren de la mateixa manera que durant la navegació endavant/enrere de la pestanya.",
+        "disabled": "Deshabilitat",
+        "closeTabs": "Tanca pestanyes",
+        "discardTabs": "Descarta pestanyes"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Quant de temps per descartar pestanyes inactives",
+        "description": "Quan no hi ha àudio o vídeo reproduint-se a la pestanya i el descart automàtic no està prohibit, la pestanya es descartarà després del temps especificat.",
+        "minutes": "Minuts"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Quant de temps per tancar pestanyes inactives",
+        "description": "Quan no hi ha àudio o vídeo reproduint-se a la pestanya i el descart automàtic no està prohibit, la pestanya es tancarà després del temps especificat.",
+        "minutes": "Minuts"
+      },
+      "disableAnimations": {
+        "label": "Deshabilita les animacions",
+        "description": "deshabilita l'efecte d'ona i deshabilita totes les transicions"
+      }
+    }
+  }
+}

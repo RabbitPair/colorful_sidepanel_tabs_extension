@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Ko'rish uchun tomon panelini oching",
+  "_execute_action": "Uzantani faollashtiring",
+  "openSidePanel": "Tomon panelini oching",
+  "settings": {
+    "resetCurrentPageSettings": "Joriy sahifaning sozlamalarini tiklash",
+    "modules": {
+      "appearance": "Ko'rinish",
+      "beautify": "Yaxshi ko'rinish",
+      "tabs": "Tablar",
+      "history": "Tarix",
+      "shortcuts": "Qisqartmalar",
+      "pip": "Rasmada rasmada",
+      "chromeTabGroupAdvanced": "Ilova tab guruhlarining kengaytirilgan sozlamalari",
+      "progressBar": "taraqqiyot paneli",
+      "floatBall": "Suzuv top",
+      "experimentalFeatures": "Tajribavi xususiyatlar"
+    },
+    "appearance": {
+      "header": "Ko'rinish",
+      "language": {
+        "label": "Interfeys tili",
+        "description": "Interfeys ko'rinishini sozlash"
+      },
+      "theme": {
+        "label": "Rang rejimi",
+        "description": "Yorug'lik yoki kulrang rang rejimini tanlang"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Yo'naltirilgan, interfeys matnini chapdan o'ngga ko'rsatadi"
+      },
+      "fontSize": {
+        "label": "Shrift o'lchami",
+        "description": "Shrift o'lchamini sozlash",
+        "small": "Kichik",
+        "large": "Katta"
+      },
+      "fontFamily": {
+        "label": "Harflar o'rtog'i",
+        "description": "Harflar o'rtog'ini sozlang"
+      },
+      "fontColor": {
+        "label": "Harflar rangi",
+        "description": "Harflar rangini sozlang"
+      },
+      "fontWeight": {
+        "label": "Harflar yechimi",
+        "description": "Harflar yechimini sozlang"
+      },
+      "extAction": {
+        "label": "Kengaytma ikon tugmasini bosing",
+        "description": "Kengaytma ikonini bosganda amalni sozlash",
+        "openPopup": "Popupni oching",
+        "openSidePanel": "Tomon panelini oching"
+      },
+      "SidePanelPosition": {
+        "label": "Tomon panelining joylashuvi",
+        "description": "Tomon panelining chap yoki o'ngda ko'rsatilishini sozlash",
+        "goToChromeSettings": "Chrome sozlamalariga o'tish"
+      },
+      "searchBoxPosition": {
+        "label": "Qidiruv qutisining joylashuvi",
+        "description": "Qidiruv qutisining joylashuvi",
+        "top": "Yuqori",
+        "bottom": "Past",
+        "hide": "Yashirish"
+      },
+      "toolbar": {
+        "label": "Asbob panelini ko'rsatish",
+        "description": "Yoqilganda, asbob paneli ko'rsatiladi"
+      },
+      "bottomNav": {
+        "label": "Past navigatsiya panelini ko'rsatish",
+        "description": "Yoqilganda, past navigatsiya paneli ko'rsatiladi"
+      },
+      "buttonPosition": {
+        "label": "Tugmalar joylashuvi",
+        "description": "Tugmalar joylashuvi sozlash",
+        "left": "Chap",
+        "right": "O'ng"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "To'liq ekran rejimida tomon panelini yashirish",
+        "description": "Yoqilganda, sahifa to'liq ekran rejimida bo'lganida tomon paneli avtomatik ravishda yashiriladi. Chrome cheklovlariga ko'ra, tomon paneli avtomatik ravishda qayta ochilmaydi. Tomon panelini qayta ochish uchun uni qo'llab-quvvatlash kerak!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Rangli orqa fon",
+        "description": "Yoqilganda, tomon paneli rangli fon ko'rsatadi"
+      },
+      "backgroundPicture": {
+        "label": "Orqa fon rasmi",
+        "description": "[+] ni bosing va maxsus rasmini qo'shing, [-] ni bosing va maxsus rasmini o'chiring. Siz sevimli rasmlaringizni quyidagi veb-saytlarda topishingiz mumkin.",
+        "dialogDescription": "Rasm manzilini kiriting",
+        "OK": "Yaxshi",
+        "Cancel": "Bekor qilish",
+        "invalidImage": "Noto'g'ri rasm manzili"
+      },
+      "backgroundImageTransparency": {
+        "label": "Rasm oqimining oqimi",
+        "description": "Rasm oqimini sozlash",
+        "transparent": "Shaffof",
+        "opaque": "Oq"
+      },
+      "backgroundImageBlur": {
+        "label": "Blur intensivligi",
+        "description": "Blur intensivligini sozlash"
+      },
+      "backgroundImageBrightness": {
+        "label": "Yorqinlik",
+        "description": "Yorqinlikni sozlash, faqat qora rejim uchun maslahat beriladi"
+      },
+      "listBackgroundStyle": {
+        "label": "Ro'yxat orqa fon uslubi",
+        "description": "Ro'yxat orqa fon uslubini sozlash",
+        "single": "Yagona",
+        "none": "Hech narsa",
+        "simple": "Oddiy",
+        "complementary": "Qo'shimcha",
+        "analogous": "Analog",
+        "triadic": "Triadik",
+        "tetradic": "Tetradik"
+      },
+      "listBackgroundTransparency": {
+        "label": "Ro'yxat orqa fonining oqimi",
+        "description": "Ro'yxat orqa fonining oqimini sozlash",
+        "transparent": "Shaffof",
+        "opaque": "Oq"
+      },
+      "listBottomBorder": {
+        "label": "Ro'yxat pasti chiziqlari",
+        "description": "Ro'yxat pasti chiziqlarini sozlash",
+        "none": "Hech narsa",
+        "dashed": "Chiziqli",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Oqimli skrollar",
+        "description": "Microsoft Fluent dizayn uslubidagi skrollarni ishlatib, ularni veb-mundarijning ustiga qo'yish",
+        "goToChromeSettings": "Chrome sozlamalariga o'tish"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Ro'yxat ko'rinishi",
+        "description": "Ro'yxat ko'rinishini o'zgartirish",
+        "compact": "Qisqa ko'rinish",
+        "visual": "Visual ko'rinish"
+      },
+      "showBy": {
+        "label": "Ko'rsatish usuli",
+        "description": "Ko'rsatish usulini o'zgartirish"
+      },
+      "sortBy": {
+        "label": "Saralash usuli",
+        "description": "Saralash usulini o'zgartirish"
+      },
+      "showFullUrl": {
+        "label": "Butun URLni ko'rsatish",
+        "description": "Yoqilganda, to'liq URL vazifaning ostida ko'rsatiladi"
+      },
+      "currentWindowOnly": {
+        "label": "Faqat joriy oyna",
+        "description": "Faqat joriy oynaning tablarini ko'rsatish. Agar o'chirilgan bo'lsa, barcha oynalardan tablar ko'rsatiladi"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Tugallangan tablarni ikonlar sifatida ko'rsatish",
+        "description": "Yoqilganda, tugallangan tablar ikonlar sifatida ko'rsatiladi va ro'yxatda emas"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Guruhlar qisqich tab ikonlarini ko'rsatish",
+        "description": "Yoqilganda, qisqich guruhlar tab ikonlarini ko'rsatadi"
+      },
+      "hoverPreview": {
+        "label": "Suzuv ko'rish",
+        "description": "Yoqilganda, tablar ustida suzuv qilish tablarni ko'rsatadi"
+      },
+      "previewWithThumbnail": {
+        "label": "Suzuvda tasvirlarni ko'rsatish",
+        "description": "Yoqilganda, suzuvlar tab tasvirlarini ko'rsatadi",
+        "alert": "Joriy faol tabda ko'rsatilayotgan ko'rinadigan sahifa maydonini yakunlash. Ushbu usulni chaqirish uchun kengaytma <all_urls> ruxsatiga yoki activeTab ruxsatiga ega bo'lishi kerak.",
+        "deniedMessage": "Siz talab qilingan ruxsatni rad etgansiz, shuning uchun sozlamalar o'zgarmaydi. Agar fikringiz o'zgargan bo'lsa, iltimos, qayta bosing va ruxsat bering"
+      },
+      "previewDelay": {
+        "label": "Suzuv kechikishi",
+        "description": "Tablar ustida suzuv qilganda tab suzuvlarining kechikish vaqtini sozlash (soniya). Agar 0 ga sozilgan bo'lsa, kechikish bo'lmaydi",
+        "seconds": "Soniya"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "So'nggi yopilgan tablarni saqlash",
+        "description": "Yoqilganda, so'nggi yopilgan tablarni saqlash"
+      },
+      "dataSource": {
+        "label": "Ma'lumot manbai",
+        "description": "Ma'lumot manbalarini tanlash",
+        "recentlyClosedTabs": "So'nggi yopilgan tablar",
+        "chromeHistory": "Chrome tarixi",
+        "alert": "Tarix yozuvlarini qidirish uchun, ruxsatni yoqish kerak",
+        "deniedMessage": "Siz talab qilingan ruxsatni rad etgansiz, shuning uchun sozlamalar o'zgarmaydi. Agar fikringiz o'zgargan bo'lsa, iltimos, qayta bosing va ruxsat bering"
+      },
+      "showInSidePanel": {
+        "label": "Tomon panelida ko'rsatish",
+        "description": "Yoqilganda, tomon panelida ko'rsatish"
+      },
+      "showInTabSearchResults": {
+        "label": "Tarixni tab qidiruv natijalarida ko'rsatish",
+        "description": "Yoqilganda, so'nggi tarix yozuvlari tab qidiruv natijalarida ko'rsatiladi"
+      },
+      "limitSearchResults": {
+        "label": "Tab qidiruv natijalarida tarix yozuvlarini cheklashning chegarasini belgilash",
+        "description": "Tab qidiruv natijalarida tarix yozuvlarini cheklashning chegarasini belgilash. Chegarani o'tkazgan tarix yozuvlari filtrlanadi",
+        "alert": "Ko'p yozuvlar sahifani yuklash tezligini ta'sir qiladi"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "So'nggi yopilgan tablar soni",
+        "description": "So'nggi yopilgan tablar sonini belgilash"
+      },
+      "keepDays": {
+        "label": "So'nggi yopilgan tablarni saqlash uchun kunlar soni",
+        "description": "So'nggi yopilgan tablarni saqlash uchun kunlar sonini belgilash. Muddati o'tgan ma'lumotlar o'chiriladi",
+        "days": "Kunlar"
+      },
+      "openDuration": {
+        "label": "Ochilgan davr",
+        "description": "Faqat belgilangan vaqtdan uzun ochilgan tablar saqlanadi",
+        "seconds": "Soniya"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ushbu sahifa faqat ko'rsatish uchun. Qisqartmalarni o'zgartirish uchun, iltimos, [Kengaytmalar]->[Kengaytmalar boshqarish]->[Klaviatura qisqartmalari] bo'limiga turing",
+      "goToChromeSettings": "Chrome sozlamalariga o'tish",
+      "_execute_action": "Uzantani faollashtiring",
+      "openSidePanel": "Tomon panelini oching"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Rasmada rasmada",
+      "tabSwitch": {
+        "label": "Tab almashishda PIP",
+        "description": "Tab almashishda ovozli video bilan almashishda avtomatik ravishda PIPga kirish",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      },
+      "scrollSwitch": {
+        "label": "Suzuv qilishda rasmada rasmada o'tish",
+        "description": "Agar joriy sahifa ovozli video o'ynasa va video ovozli bo'lmasa va video ko'rinadigan joydan o'tsa, rasmada rasmada kiradi.",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Foydalanuvchi faollashtirishi talab qilinadi",
+      "tips_1": "Foydalanuvchi faollashtirish, foydalanuvchi hozir sahifada faol ravishda ishlashini anglatadi",
+      "tips_2": "Aynan, faollashtirish chakana hodisalarini faollashtiradi:",
+      "tips_3": "Izoh: Sichqon tezligi aylanish yoki surish harakati faollashtirmaydi!",
+      "tips_4": "Agar batafsil ma'lumotlarga ega bo'lishni istasangiz, iltimos, turing:",
+      "click": "Bosing",
+      "contextmenu": "O'ng bosing menyusi",
+      "dblclick": "Ikki marta bosing"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tab guruhlarini qisqartirish xulqi",
+        "description": "Chrome brauzer tab guruhlarini qisqartirish xulqini o'zgartirish",
+        "option_collapse_others": "Joriy guruhni ko'rsatish va qolganlarini qisqartirish",
+        "option_disable": "Barcha guruhlarni kengaytirish",
+        "option_auto": "Chrome sukunatli sozlamalaridan foydalanish"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Avtomatik ravishda bir xil domen guruhini yaratish yoki qo'shilish",
+        "description": "Yoqilganda, yangi ochilgan tablar avtomatik ravishda bir xil domen guruhiga qo'shiladi. Agar domen guruh mavjud bo'lmasa, yangi domen guruh yaratiladi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Guruhlardagi tayanch tablarni filtrlash",
+        "description": "Yoqilganda, tayanch tablar guruhlarga qo'shilmaydi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "O'qishni boshlash indikatorini yoqish",
+        "description": "Yoqilganda, o'qishning boshlang'ich indikatori tab sarlavhasi pastida ko'rsatiladi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      },
+      "readingProgressBar": {
+        "label": "O'qishni boshlash indikatori",
+        "description": "Yoqilganda, o'qishning boshlang'ich indikatori tab sarlavhasi pastida ko'rsatiladi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      },
+      "scrollHeightRatio": {
+        "label": "Oynaning balandlik nisbati",
+        "description": "Ko'rinadigan oynaning balandligi va sahifa balandligi nisbati. Nisbati oshganda, progress bar ko'rsatiladi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      },
+      "playingProgressBar": {
+        "label": "O'yinning o'tish indikatori",
+        "description": "Yoqilganda, o'yin o'tish indikatori sahifa sarlavhasi pastida ko'rsatiladi",
+        "enabled": "Yoqilgan",
+        "disabled": "O'chirilgan"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Yengil to'pni yoqish",
+        "description": "Yon panel yopilganda, sahifa o'ng tomonida yengil to'p ko'rsatiladi, yon panelni tez ochish imkonini beradi."
+      }
+    },
+    "performance": {
+      "label": "Performans",
+      "saveMemoryAction": {
+        "label": "Hafızayı sekmelerde nasıl saklayabilirsiniz",
+        "description": "Hafızayı sekmelerde saklamak için sekmeleri kapatmayı veya sekmeleri atmayı seçebilirsiniz.",
+        "discardTips": "atılan bir sekme hiçbir yere gitmez. Onu öldürürüz ama hala Chrome sekme şerinde görünür. Atılan bir sekme geri dönüldüğünde, tıklandığında yeniden yüklenecektir. Form içeriği, kaydırma konumu ve benzeri şeyler, ileri/geri sekme gezinmesi sırasında olduğu gibi aynı şekilde kaydedilir ve geri yüklenir.",
+        "disabled": "Devre dışı",
+        "closeTabs": "Sekmeleri kapat",
+        "discardTabs": "Sekmeleri at"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Etkin olmayan sekmeleri ne kadar süreyle atmalı",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme atılacaktır.",
+        "minutes": "Dakika"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Etkin olmayan sekmeleri ne kadar süreyle kapatmalı",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme kapatılacaktır.",
+        "minutes": "Dakika"
+      },
+      "disableAnimations": {
+        "label": "Animasyonları devre dışı bırak",
+        "description": "dalgalanma efektini devre dışı bırak ve tüm geçişleri devre dışı bırak"
+      }
+    }
+  }
+}

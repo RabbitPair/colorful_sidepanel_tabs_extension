@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Hapni panelin anësor për të paraparë",
+  "_execute_action": "Aktivizoni këtë zgjerim",
+  "openSidePanel": "Hapni panelin anësor",
+  "settings": {
+    "resetCurrentPageSettings": "Rivendosni cilësimet e faqes aktuale",
+    "modules": {
+      "appearance": "Pamja",
+      "beautify": "Përmirëso",
+      "tabs": "Zavihkat",
+      "history": "Historia",
+      "shortcuts": "Shkurtesat",
+      "pip": "Imazh në imazh",
+      "chromeTabGroupAdvanced": "Grupet e zavihqeve të avancuara të Chrome",
+      "progressBar": "Shiriti i progresit",
+      "floatBall": "Topi i shkëlqimit",
+      "experimentalFeatures": "Funksionalitetet shtesë"
+    },
+    "appearance": {
+      "header": "Pamja",
+      "language": {
+        "label": "Gjuha e ndërfaqes",
+        "description": "Vendosni gjuhën për shfaqjen e ndërfaqes"
+      },
+      "theme": {
+        "label": "Mënyra e ngjyrave",
+        "description": "Zgjidhni mënyrën e dritës ose të errët të ngjyrave"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kur aktivizohet, ndërfaqja do të shfaqë drejtimin e tekstit nga djathtas në majtas"
+      },
+      "fontSize": {
+        "label": "Madhësia e shkronjave",
+        "description": "Vendosni madhësinë e shkronjave",
+        "small": "E vogël",
+        "large": "E madhe"
+      },
+      "fontFamily": {
+        "label": "Familja e fontit",
+        "description": "Vendosni familjen e fontit"
+      },
+      "fontColor": {
+        "label": "Ngjyra e fontit",
+        "description": "Vendosni ngjyrën e fontit"
+      },
+      "fontWeight": {
+        "label": "Pesha e fontit",
+        "description": "Vendosni peshën e fontit"
+      },
+      "extAction": {
+        "label": "Veprimi i ikonës së zgjerimit të klikuar",
+        "description": "Vendosni veprimin kur klikohet ikona e zgjerimit",
+        "openPopup": "Hapni dritaren modale",
+        "openSidePanel": "Hapni panelin anësor"
+      },
+      "SidePanelPosition": {
+        "label": "Pozicioni i panelit anësor",
+        "description": "Vendosni nëse paneli anësor shfaqet në të majtë ose në të djathtë.",
+        "goToChromeSettings": "Shkoni te cilësimet e Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Pozicioni i kutisë së kërkimit",
+        "description": "Vendosni pozicionin e kutisë së kërkimit",
+        "top": "Në krye",
+        "bottom": "Në fund",
+        "hide": "Fshih"
+      },
+      "toolbar": {
+        "label": "Shfaqni shiritin e veglave",
+        "description": "Kur aktivizohet, shfaqet shiriti i veglave"
+      },
+      "bottomNav": {
+        "label": "Shfaqni shiritin e navigimit në fund",
+        "description": "Kur aktivizohet, shfaqet shiriti i navigimit në fund"
+      },
+      "buttonPosition": {
+        "label": "Pozicioni i butonave",
+        "description": "Vendosni pozicionin e butonave",
+        "left": "Majtas",
+        "right": "Djathtas"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Fshihni panelin anësor në ekran të plotë",
+        "description": "Kur aktivizohet, paneli anësor do të fshihet automatikisht kur faqja është në ekran të plotë. Për shkak të kufizimeve të Chrome, paneli anësor nuk mund të rihapet automatikisht. Ju duhet ta rihapni manualisht panelin anësor!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fon i ngjyrave",
+        "description": "Kur aktivizohet, paneli anësor do të shfaqë një fon të ngjyrave"
+      },
+      "backgroundPicture": {
+        "label": "Imazhi i sfondit",
+        "description": "Klikoni [+] për të shtuar një imazh të personalizuar, klikoni [-] për të fshirë një imazh të personalizuar. Mund të gjeni imazhet tuaja të preferuara në faqet e mëposhtme.",
+        "dialogDescription": "Vendosni adresën e imazhit",
+        "OK": "OK",
+        "Cancel": "Anulo",
+        "invalidImage": "Adresa e pavlefshme e imazhit"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparenca e imazhit",
+        "description": "Vendosni transparencën e imazhit",
+        "transparent": "Transparent",
+        "opaque": "I paqartë"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensiteti i Zbehjes",
+        "description": "Vendosni intensitetin e zbehjes"
+      },
+      "backgroundImageBrightness": {
+        "label": "Ndriçimi",
+        "description": "Vendosni ndriçimin, i rekomanduar vetëm për mënyrën e errët"
+      },
+      "listBackgroundStyle": {
+        "label": "Stili i sfondit të listës",
+        "description": "Vendosni stilin e sfondit të listës",
+        "single": "Një",
+        "none": "Asnjë",
+        "simple": "I thjeshtë",
+        "complementary": "Komplementar",
+        "analogous": "Analog",
+        "triadic": "Triadik",
+        "tetradic": "Tetradik"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparenca e sfondit të listës",
+        "description": "Vendosni transparencën e sfondit të listës",
+        "transparent": "Transparent",
+        "opaque": "I paqartë"
+      },
+      "listBottomBorder": {
+        "label": "Kufiri i fundit të listës",
+        "description": "Vendosni kufirin e fundit të listës",
+        "none": "Asnjë",
+        "dashed": "Me vija të shkurtra",
+        "solid": "I qartë"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Shiritat e shkallëve të shkëlqimit",
+        "description": "Përdorni stilin e dizajnit të shkallëve të shkëlqimit të Microsoft dhe vendosini mbi përmbajtjen e uebit",
+        "goToChromeSettings": "Shkoni te cilësimet e Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Pamja e listës",
+        "description": "Kalo në pamjen e listës",
+        "compact": "Pamje e ngushtë",
+        "visual": "Pamje vizuale"
+      },
+      "showBy": {
+        "label": "Shfaq nga",
+        "description": "Kalo shfaqjen nga"
+      },
+      "sortBy": {
+        "label": "Rendit sipas",
+        "description": "Kalo renditjen sipas"
+      },
+      "showFullUrl": {
+        "label": "Shfaq URL të plotë",
+        "description": "Kur është e aktivizuar, URL i plotë do të shfaqet nën titullin e zavit"
+      },
+      "currentWindowOnly": {
+        "label": "Vetëm dritarja aktuale",
+        "description": "Shfaq vetëm zavihkat e dritares aktuale. Nëse është çaktivizuar, do të shfaqen zavihkat nga të gjitha dritaret"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Shfaq zavihkat e ngjitur si ikona",
+        "description": "Kur aktivizohet, zavihkat e ngjitur do të shfaqen si ikona dhe jo në listë"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Shfaq ikonat e faqeve kur grupeve ulet",
+        "description": "Kur aktivizohet, grupeve të ulura do t'u shfaqen ikonat e faqeve"
+      },
+      "hoverPreview": {
+        "label": "Parashikimi me shkelje",
+        "description": "Kur aktivizohet, kur shkelni mbi zavihkat do të shfaqen parashikimet e zavihkat"
+      },
+      "previewWithThumbnail": {
+        "label": "Shfaq miniaturat në parashikim",
+        "description": "Kur aktivizohet, parashikimet do të shfaqin miniaturat e zavihkat",
+        "alert": "Kapni pjesën e dukshme të zavihkat aktualisht aktive në një dritare të caktuar. Për të thirrur këtë metodë, zgjerimi duhet të ketë lejen <all_urls> ose lejen activeTab.",
+        "deniedMessage": "Ju keni mohuar lejen e nevojshme, kështu që cilësimet nuk janë ndryshuar. Nëse ndryshoni mend, ju lutemi klikoni përsëri dhe lejoni autorizimin"
+      },
+      "previewDelay": {
+        "label": "Vonë parashikimi",
+        "description": "Vendosni kohën e vonë për parashikimet e zavihkat kur shkelni mbi zavihkat, etj. (sekonda). Nëse vendoset në 0, nuk do të ketë vonë",
+        "seconds": "Sekonda"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Ruaj zavihkat e mbyllura së fundmi",
+        "description": "Kur aktivizohet, ruaj zavihkat e mbyllura së fundmi"
+      },
+      "dataSource": {
+        "label": "Burimi i të dhënave",
+        "description": "Zgjidh burimin e të dhënave",
+        "recentlyClosedTabs": "Zavihkat e mbyllura së fundmi",
+        "chromeHistory": "Historia e Chrome",
+        "alert": "Për të kërkuar regjistrat e historisë, ju duhet autorizimi për të aktivizuar",
+        "deniedMessage": "Ju keni mohuar lejen e nevojshme, kështu që cilësimet nuk janë ndryshuar. Nëse ndryshoni mend, ju lutemi klikoni përsëri dhe lejoni autorizimin"
+      },
+      "showInSidePanel": {
+        "label": "Shfaq në panelin anësor",
+        "description": "Kur aktivizohet, shfaq në panelin anësor"
+      },
+      "showInTabSearchResults": {
+        "label": "Shfaq historinë në rezultatet e kërkimit të zavihkat",
+        "description": "Kur aktivizohet, regjistrat e historisë së fundit do të shfaqen në rezultatet e kërkimit të zavihkat"
+      },
+      "limitSearchResults": {
+        "label": "Kufizo numrin e regjistrave të historisë në rezultatet e kërkimit të zavihkat",
+        "description": "Vendosni kufirin e numrit të regjistrave të historisë në rezultatet e kërkimit të zavihkat. Regjistrat e historisë që kalonin kufirin do të filtrihen",
+        "alert": "Shumë regjistra do të ndikojnë në shpejtësinë e ngarkimit të faqes"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Numri i zavihkat e mbyllura së fundmi për të mbajtur",
+        "description": "Vendosni numrin e zavihkat e mbyllura së fundmi për të mbajtur"
+      },
+      "keepDays": {
+        "label": "Numri i ditëve për të mbajtur zavihkat e mbyllura së fundmi",
+        "description": "Vendosni numrin e ditëve për të mbajtur zavihkat e mbyllura së fundmi. Të dhënat e skaduara do të fshihen",
+        "days": "Ditë"
+      },
+      "openDuration": {
+        "label": "Kohëzgjatja e hapjes",
+        "description": "Vetëm zavihkat e hapura për më shumë se kohën e vendosur do të ruhen",
+        "seconds": "Sekonda"
+      }
+    },
+    "shortcuts": {
+      "alert": "Kjo faqe është për shfaqje vetëm. Për të modifikuar shkurtesat, ju lutemi vizitoni [Zgjerime]->[Menaxho zgjerimet]->[Shkurtesat e tastierës]",
+      "goToChromeSettings": "Shkoni te cilësimet e Chrome",
+      "_execute_action": "Aktivizoni këtë zgjerim",
+      "openSidePanel": "Hapni panelin anësor"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imazh në imazh",
+      "tabSwitch": {
+        "label": "PIP në ndërrimin e zavihkat",
+        "description": "Hyni automatikisht në PIP kur ndërroni zavihkat me një video pa zhurmë",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "scrollSwitch": {
+        "label": "Ndërroni në imazh në imazh kur shkrolloni",
+        "description": "Nëse faqja aktuale po luan një video dhe video nuk është i zhurmshëm dhe video është jashtë gamës së dukshme kur shkrolloni, do të hyjë në imazh në imazh.",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Kërkohet aktivizimi i përdoruesit",
+      "tips_1": "Aktivizimi i përdoruesit do të thotë që përdoruesi aktualisht është duke ndërvepruar me faqen",
+      "tips_2": "Më konkretisht, aktivizimi shkakton ngjarje hyrëse si:",
+      "tips_3": "Shënim: Përdorimi i rrotullimit të mëshit të miut ose shenjës së shkeljes nuk do të shkaktojë!",
+      "tips_4": "Nëse dëshironi detaje të mëtejshme, ju lutemi vizitoni:",
+      "click": "Kliko",
+      "contextmenu": "Menyja e klikimit të djathtë",
+      "dblclick": "Klikimi dyfish"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Djegia e sjelljes së grupit të zavihkat të Chrome",
+        "description": "Modifikoni sjelljen e grumbullimit të grupit të zavihkat të shfletuesit Chrome",
+        "option_collapse_others": "Shfaq grupin aktual dhe grumbullo të tjerët",
+        "option_disable": "Zmadho të gjitha grupet",
+        "option_auto": "Përdorni cilësimet parazgjedhur të Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Krijo automatikisht ose bashkohu me grupin e të njëjtit domain automatikisht",
+        "description": "Kur aktivizohet, zavihkat e hapura së fundmi do të bashkohen automatikisht me grupin e të njëjtit domain. Nëse grupi i domainit nuk ekziston, një grup domaini i ri do të krijohet",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtro zavihkat e ngjitur në grupet",
+        "description": "Kur aktivizohet, zavihkat e ngjitur nuk do të shtohen në grupet",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Aktivizoni shiritin e progresit",
+        "description": "Kur është e aktivizuar, një shirit progresi leximi do të shfaqet poshtë shiritit të titullit të zavihkat",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "readingProgressBar": {
+        "label": "Shiriti i progresit të leximit",
+        "description": "Kur është e aktivizuar, një shirit progresi leximi do të shfaqet poshtë shiritit të titullit të zavihkat",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "scrollHeightRatio": {
+        "label": "Raporti i lartësisë së rrotullimit",
+        "description": "Raporti i lartësisë së dritares së dukshme me lartësinë e faqes. Një shirit progresi do të shfaqet kur raporti tejkalohet",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "playingProgressBar": {
+        "label": "Shiriti i progresit të luajtjes",
+        "description": "Kur është e aktivizuar, një shirit progresi luajtje do të shfaqet poshtë shiritit të titullit të zavihkat",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Aktivizoni topin e shkëlqimit",
+        "description": "Kur paneli anësor është i mbyllur, një top shkëlqimi do të shfaqet në anën e djathtë të faqes, duke lejuar hapjen e shpejtë të panelit anësor."
+      }
+    },
+    "performance": {
+      "label": "Performanca",
+      "saveMemoryAction": {
+        "label": "Si të ruani memorien në zavihkat",
+        "description": "Për të ruajtur memorien në zavihkat, mund të zgjidhni të mbyllni zavihkat ose t'i shpërndani ato.",
+        "discardTips": "një zavihkat i shpërndarë nuk shkon askund. Ne e vrasim atë por ende është i dukshëm në shiritin e zavihkat e Chrome. Nëse ktheheni në një zavihkat që është shpërndarë, ai do të ringarkohet kur të klikohet. Përmbajtja e formularit, pozicioni i rrotullimit dhe të tjera ruhen dhe rikthehen në të njëjtën mënyrë siç do të bëheshin gjatë navigimit të zavihkat përpara/prapa.",
+        "disabled": "Çaktivizuar",
+        "closeTabs": "Mbyllni zavihkat",
+        "discardTabs": "Shpërndaj zavihkat"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Sa kohë të shpërndahen zavihkat e paaktivizuara",
+        "description": "Kur nuk ka audio ose video që po luhet në zavihkat dhe shpërndarja automatike nuk është e ndaluar, zavihkat do të shpërndahen pas kohës specifike.",
+        "minutes": "Minuta"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Sa kohë të mbyllen zavihkat e paaktivizuara",
+        "description": "Kur nuk ka audio ose video që po luhet në zavihkat dhe shpërndarja automatike nuk është e ndaluar, zavihkat do të mbyllen pas kohës specifike.",
+        "minutes": "Minuta"
+      },
+      "disableAnimations": {
+        "label": "Çaktivizoni animacionet",
+        "description": "çaktivizon efektin e valës dhe çaktivizon të gjitha tranzicionet"
+      }
+    }
+  }
+}

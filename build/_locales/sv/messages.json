@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Färgglad sidofältsetiketthantering"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Hantera flikar i sidopanelen, För vacker för att vara så bra."
+  },
+  "openSidePanel": {
+    "message": "Öppna sidofältet"
+  }
+}

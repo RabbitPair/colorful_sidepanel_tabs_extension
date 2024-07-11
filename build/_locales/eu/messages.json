@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Kudeaketa fitxa koloretsua"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Kudeatu fitxak alboko panelean, oso ederra hain ona izateko."
+  },
+  "openSidePanel": {
+    "message": "Ireki alboko barra"
+  }
+}

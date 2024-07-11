@@ -1,0 +1,339 @@
+{
+  "OpenSideSanelToPreview": "Oscail painéal taobh chun réamhamharc a dhéanamh",
+  "_execute_action": "Gníomhú ar an bhfheidhmíocht seo",
+  "openSidePanel": "Oscail painéal taobh",
+  "settings": {
+    "resetCurrentPageSettings": "Athshocraigh socruithe an leathanaigh reatha",
+    "modules": {
+      "appearance": "Ceamaraíocht",
+      "beautify": "Áilleacht",
+      "tabs": "Cluaisíní",
+      "history": "Stair",
+      "shortcuts": "Giorrúcháin",
+      "pip": "pictiúr laistigh den phictiúr",
+      "chromeTabGroupAdvanced": "Grúpaí tapaí Chrome níos casta",
+      "progressBar": "barra dul chun cinn",
+      "floatBall": "Liathróid shnámha",
+      "experimentalFeatures": "Gnéithe Taighde"
+    },
+    "appearance": {
+      "header": "Ceamaraíocht",
+      "language": {
+        "label": "Teanga an fhaisnéis",
+        "description": "Socraigh an teanga don taispeántas an fhaisnéis"
+      },
+      "theme": {
+        "label": "Modh dathanna",
+        "description": "Roghnaigh modh dathanna geal nó dorcha"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Nuair a chumasfar é, taispeánfaidh an fhaisnéis treo téacs ó dheas go clé"
+      },
+      "fontSize": {
+        "label": "Méid an fhoirne",
+        "description": "Socraigh méid an fhoirne",
+        "small": "Beag",
+        "large": "Mór"
+      },
+      "fontFamily": {
+        "label": "Teaghlach cló",
+        "description": "Socraigh teaghlach an chló"
+      },
+      "fontColor": {
+        "label": "Dath an chló",
+        "description": "Socraigh dath an chló"
+      },
+      "fontWeight": {
+        "label": "Meáchan an chló",
+        "description": "Socraigh meáchan an chló"
+      },
+      "extAction": {
+        "label": "Gníomh cliceáil ar íomhá an fhaisnéis",
+        "description": "Socraigh an gníomh nuair a chliceálann tú ar íomhá an fhaisnéis",
+        "openPopup": "Oscail bhoscaíochán",
+        "openSidePanel": "Oscail painéal taobh"
+      },
+      "SidePanelPosition": {
+        "label": "Suíomh painéil taobh",
+        "description": "Socraigh an bhfuil an painéal taobh taispáinteach ar an taobh clé nó ar dheis.",
+        "goToChromeSettings": "Téigh chuig socruithe Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Suíomh bosca cuardaigh",
+        "description": "Socraigh suíomh an bhosca cuardaigh",
+        "top": "Barr",
+        "bottom": "Bun",
+        "hide": "Folaigh"
+      },
+      "toolbar": {
+        "label": "Taispeáin an toolbar",
+        "description": "Nuair a chumasfar é, taispeánfar an toolbar"
+      },
+      "bottomNav": {
+        "label": "Taispeáin an barra náváil bun",
+        "description": "Nuair a chumasfar é, taispeánfar an barra náváil bun"
+      },
+      "buttonPosition": {
+        "label": "Suíomh an gcnaipe",
+        "description": "Socraigh suíomh na gcnaipeanna",
+        "left": "Clé",
+        "right": "Deas"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Folaigh an painéal taobh i scáileán iomlán",
+        "description": "Nuair a chumasfar é, nascfaidh an painéal taobh go huathoibríoch nuair a bheidh an leathanach i scáileán iomlán. De bharr teorainneacha Chrome, ní féidir an painéal taobh a oscailt go huathoibríoch. Caithfidh tú an painéal taobh a oscailt arís go hiondúil!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Cúlra dathúil",
+        "description": "Nuair a chumasfar é, taispeánfaidh an painéal taobh cúlra dathúil"
+      },
+      "backgroundPicture": {
+        "label": "Íomhá cúlra",
+        "description": "Cliceáil [+] chun íomhá a chur leis an gcostas, cliceáil [-] chun íomhá a scriosadh. Is féidir leat do ghrianghraif is fearr a fháil ar na suíomhanna seo a leanas.",
+        "dialogDescription": "Cuir isteach seoladh íomhá",
+        "OK": "OK",
+        "Cancel": "Cealaigh",
+        "invalidImage": "Seoladh íomhá neamhbhailí"
+      },
+      "backgroundImageTransparency": {
+        "label": "Trédhearcacht íomhá",
+        "description": "Socraigh trédhearcacht an íomhá",
+        "transparent": "Trédhearc",
+        "opaque": "Neamhtrédhearc"
+      },
+      "backgroundImageBlur": {
+        "label": "Intinn Blúr",
+        "description": "Socraigh Intinn an Bhlaoscála"
+      },
+      "backgroundImageBrightness": {
+        "label": "Gile",
+        "description": "Socraigh an gile, moltaítear é ach do mód dorcha amháin"
+      },
+      "listBackgroundStyle": {
+        "label": "Stíl cúlra liosta",
+        "description": "Socraigh stíl cúlra an liosta",
+        "single": "Aonair",
+        "none": "Neamhní",
+        "simple": "Simplí",
+        "complementary": "Comhpháirtíoch",
+        "analogous": "Anailíseach",
+        "triadic": "Triadach",
+        "tetradic": "Téadradach"
+      },
+      "listBackgroundTransparency": {
+        "label": "Trédhearcacht cúlra liosta",
+        "description": "Socraigh trédhearcacht cúlra an liosta",
+        "transparent": "Trédhearc",
+        "opaque": "Neamhtrédhearc"
+      },
+      "listBottomBorder": {
+        "label": "Bord bun liosta",
+        "description": "Socraigh bord bun an liosta",
+        "none": "Neamhbord",
+        "dashed": "Léimseach",
+        "solid": "Dlúth"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Scrollbars líofa",
+        "description": "Úsáid stíl deartha Microsoft Fluent do scrollbars agus cuir orthu os comhair ábhar an tsuímh gréasáin",
+        "goToChromeSettings": "Téigh chuig socruithe Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Amharc liosta",
+        "description": "Athraigh amharc liosta",
+        "compact": "Amharc comhbhrúite",
+        "visual": "Amharc físiúil"
+      },
+      "showBy": {
+        "label": "Taispeáin de réir",
+        "description": "Athraigh taispeáin de réir"
+      },
+      "sortBy": {
+        "label": "Sórtáil de réir",
+        "description": "Athraigh sórtáil de réir"
+      },
+      "showFullUrl": {
+        "label": "Taispeáin URL iomlán",
+        "description": "Nuair a chumasfar é, taispeánfar an URL iomlán faoi bhun teideal an tsleamhnáin"
+      },
+      "currentWindowOnly": {
+        "label": "Fenêtre actuelle seulement",
+        "description": "Naisc amháin cluaisíní an fhuinneog reatha. Má tá sé díchumasaithe, taispeánfar cluaisíní ó gach fuinneog"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Taispeáin cluaisíní ceangailte mar íomhánna",
+        "description": "Nuair a chumasfar é, taispeánfar cluaisíní ceangailte mar íomhánna agus ní mar liosta iad"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Taispeáin íomhánna láithreán grúpaí a chuirtear i leataobh",
+        "description": "Nuair a chumasfar é, taispeánfar íomhánna cluaisíní nuair a chuirtear grúpaí i leataobh"
+      },
+      "hoverPreview": {
+        "label": "Réamhamharc trasnán",
+        "description": "Nuair a chumasfar é, taispeánfar réamhamharc trasnán nuair a bhíonn tú ag trasnán thar cluaisíní"
+      },
+      "previewWithThumbnail": {
+        "label": "Taispeáin íomhánna i réamhamharc",
+        "description": "Nuair a chumasfar é, taispeánfar íomhánna cluaisíní i réamhamharc, taispeánfar íomhánna cluaisíní",
+        "alert": "Greamaigh an limistéar radhairc atá le feiceáil ar an gcluaisín reatha atá gníomhach i gceannaireacht áirithe. Chun an modh seo a ghairm, caithfidh an forlíonadh <all_urls> nó ceadTab gníomhach a bheith ag an bhforlíonadh.",
+        "deniedMessage": "Tá tú tar éis an cead riachtanach a dhiúltú, mar sin níor athraíodh na socruithe. Más mian leat do mheabhrú a athrú, cliceáil arís agus lig ceadúint"
+      },
+      "previewDelay": {
+        "label": "Moill réamhamharc",
+        "description": "Socraigh an t-am moille do réamhamharc cluaisíní nuair a bhíonn tú ag trasnán thar cluaisíní, srl. (soicind). Má socraítear ar 0, ní bheidh aon moill ann",
+        "seconds": "Soicind"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Sábháil cluaisíní a dúntar le déanaí",
+        "description": "Nuair a chumasfar é, sábhálfar cluaisíní a dúntar le déanaí"
+      },
+      "dataSource": {
+        "label": "Foinse sonraí",
+        "description": "Roghnaigh foinse sonraí",
+        "recentlyClosedTabs": "Cluaisíní dúnta le déanaí",
+        "chromeHistory": "Stair Chrome",
+        "alert": "Chun taifid stair a chuardach, tá tú ag teastáil d'athbhreithniú chun cead a chumasú",
+        "deniedMessage": "Tá tú tar éis an cead riachtanach a dhiúltú, mar sin níor athraíodh na socruithe. Más mian leat do mheabhrú a athrú, cliceáil arís agus lig ceadúint"
+      },
+      "showInSidePanel": {
+        "label": "Taispeáin sa phainéal taobh",
+        "description": "Nuair a chumasfar é, taispeánfar sa phainéal taobh"
+      },
+      "showInTabSearchResults": {
+        "label": "Taispeáin an stair i dtorthaí cuardaigh cluaisíní",
+        "description": "Nuair a chumasfar é, taispeánfar taifid stair le déanaí i dtorthaí cuardaigh cluaisíní"
+      },
+      "limitSearchResults": {
+        "label": "Teorainn líon taifid stair i dtorthaí cuardaigh cluaisíní",
+        "description": "Socraigh an teorainn líon taifid stair i dtorthaí cuardaigh cluaisíní. Scagfar taifid stair a bhfuil níos mó ná an teorainn orthu"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Líon cluaisíní dúnta le déanaí a choinneáil",
+        "description": "Socraigh líon cluaisíní dúnta le déanaí a choinneáil"
+      },
+      "keepDays": {
+        "label": "Líon laethanta chun cluaisíní dúnta le déanaí a choinneáil",
+        "description": "Socraigh líon laethanta chun cluaisíní dúnta le déanaí a choinneáil. Scriosfar sonraí a bhfuil a dáta caite orthu"
+      },
+      "openDuration": {
+        "label": "Am oscailte",
+        "description": "Ní choinneofar ach na cluaisíní atá oscailte le haghaidh níos faide ná an t-am socraithe",
+        "seconds": "Soicind"
+      }
+    },
+    "shortcuts": {
+      "alert": "Is le haghaidh taispeántais amháin an leathanach seo. Chun giorrúcháin a athrú, téigh chuig [Breiseáin]->[Bainistigh Breiseáin]->[Giorrúcháin Boscaíochta]",
+      "goToChromeSettings": "Téigh chuig socruithe Chrome",
+      "_execute_action": "Gníomhú ar an bhfheidhmíocht seo",
+      "openSidePanel": "Oscail painéal taobh"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Íomhá sa phíosa",
+      "tabSwitch": {
+        "label": "PIP ar athrú cluaisíní",
+        "description": "Iontráil PIP go huathoibríoch nuair a athraíonn tú cluaisíní le físeán gan fuaime"
+      },
+      "scrollSwitch": {
+        "label": "Athraigh go dtí íomhá sa phíosa ag scrolláil",
+        "description": "Má tá an leathanach reatha ag seinm físeáin agus níl an físeán dána agus tá an físeán lasmuigh den raon radhairc nuair a scrolláiltear, iontrálfar íomhá sa phíosa.",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Gá d'úsáideoir aghaidh",
+      "tips_1": "Tá gá d'úsáideoir aghaidh ann nuair atá an t-úsáideoir ag baint úsáide as an leathanach faoi láthair",
+      "tips_2": "Go sonrach, déanann aghaidh tionchar ar imeachtaí ionchur cosúil le:",
+      "tips_3": "Nóta: Ní thiontóidh rothlú rothaí an luchóg nó an ghéaraíocht!",
+      "tips_4": "Má tá tuilleadh eolais uait, téigh chuig:",
+      "click": "Cliceáil",
+      "contextmenu": "Ceartchliceáil",
+      "dblclick": "Dúbailcliceáil"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Feidhmíocht dúnadh grúpaí tapaí",
+        "description": "Athraigh feidhmíocht dúnadh grúpaí tapaí brabhsála Chrome",
+        "option_collapse_others": "Taispeáin an grúpa reatha agus dún gach ceann eile",
+        "option_disable": "Leathnaigh gach grúpa",
+        "option_auto": "Úsáid socruithe réamhshocraithe Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Cruthaigh nó bain grúpa den teanga céanna go huathoibríoch",
+        "description": "Nuair a chumasfar é, nascfaidh cluaisíní nua oscailte leis an teanga céanna go huathoibríoch. Má tá an grúpa teanga nach bhfuil ann, cruthófar grúpa teanga nua",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Scag cluaisíní ceangailte amach i ngrúpaí",
+        "description": "Nuair atá cumasaithe, ní chuirfear cluaisíní ceangailte le grúpaí",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Cumasaigh an barra dul chun cinn",
+        "description": "Nuair a chumasfar é, taispeánfar barra dul chinn léitheoireachta thíos faoin mbarr teideal an taobh",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      },
+      "readingProgressBar": {
+        "label": "Barra dul chinn léitheoireachta",
+        "description": "Nuair a chumasfar é, taispeánfar barra dul cinn léitheoireachta thíos faoin mbarr teideal an taobh",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      },
+      "scrollHeightRatio": {
+        "label": "Cóimheas Airde Scroill",
+        "description": "An cóimheas idir airde fuinneog radhairc agus airde leathanaigh. Taispeánfar barra dul chinn nuair a théann an cóimheas thar an teorainn",
+        "enabled": "Gníomh",
+        "disabled": "Faoi díchumas"
+      },
+      "playingProgressBar": {
+        "label": "Barra dul cinn ag seinm",
+        "description": "Nuair a chumasfar é, taispeánfar barra dul cinn ag seinm thíos faoin mbarr teideal an taobh",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Cumasaigh liathróid bháin",
+        "description": "Nuair atá an phainéal taobh dúnta, taispeánfar liathróid bháin ar thaobh deas an leathanaigh, ag ligean duit an phainéal taobh a oscailt go tapa."
+      }
+    },
+    "performance": {
+      "label": "Feidhmíocht",
+      "saveMemoryAction": {
+        "label": "Conas cuimhne a shábháil ar thomhais",
+        "description": "Chun cuimhne a shábháil ar thomhais, is féidir leat roghnú idir dúnadh tomhais nó tomhais a scriosadh.",
+        "discardTips": "Ní théann tomhais scriosta in aon áit. Mharaimid é ach tá sé fós le feiceáil ar stríop tomhais Chrome. Má théann tú ar ais chuig tomhais a scriosadh, athlódóidh sé nuair a chliceálann tú air. Sábhálann agus athchóiríonn sé ábhar foirme, poist scrollála agus mar sin de ar an mbealach céanna a dhéanfaí le lódáil tomais ar aghaidh/aras tomais siar.",
+        "disabled": "Díchumasaithe",
+        "closeTabs": "Dún tomhais",
+        "discardTabs": "Scrios tomhais"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Cé chomh fada le tomhais neamhghníomhach a scriosadh",
+        "description": "Nuair nach bhfuil aon fhuaim nó físeáin á sheinm ar an tomhais agus nach bhfuil scriosadh uathoibríoch cosanta, scriosfar an tomhais tar éis an ama sonraithe.",
+        "minutes": "Nóiméad"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Cé chomh fada le tomhais neamhghníomhach a dhúnadh",
+        "description": "Nuair nach bhfuil aon fhuaim nó físeáin á sheinm ar an tomhais agus nach bhfuil scriosadh uathoibríoch cosanta, dúnfar an tomhais tar éis an ama sonraithe.",
+        "minutes": "Nóiméad"
+      },
+      "disableAnimations": {
+        "label": "Díchumasaithe na hamharcanna",
+        "description": "díchumasaithe an tionchar riple agus díchumasaithe gach aistriúchán"
+      }
+    }
+  }
+}

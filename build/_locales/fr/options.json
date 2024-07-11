@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Ouvrir le volet latéral pour prévisualiser",
+  "_execute_action": "Activer cette extension",
+  "openSidePanel": "Ouvrir le volet latéral",
+  "settings": {
+    "resetCurrentPageSettings": "Réinitialiser les paramètres de la page actuelle",
+    "modules": {
+      "appearance": "Apparence",
+      "beautify": "Embellez",
+      "tabs": "Onglets",
+      "history": "Historique",
+      "shortcuts": "Raccourcis",
+      "pip": "Image dans l'image",
+      "chromeTabGroupAdvanced": "Groupes d'onglets avancés",
+      "progressBar": "barre de progression",
+      "floatBall": "Boule flottante",
+      "experimentalFeatures": "Fonctionnalités expérimentales"
+    },
+    "appearance": {
+      "header": "Apparence",
+      "language": {
+        "label": "Langue de l'interface",
+        "description": "Définir la langue pour l'affichage de l'interface"
+      },
+      "theme": {
+        "label": "Mode couleur",
+        "description": "Choisissez le mode couleur clair ou sombre"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Lorsqu'activé, l'interface affichera la direction du texte de droite à gauche"
+      },
+      "fontSize": {
+        "label": "Taille de la police",
+        "description": "Définir la taille de la police",
+        "small": "Petite",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Famille de polices",
+        "description": "Définir la famille de polices"
+      },
+      "fontColor": {
+        "label": "Couleur de la police",
+        "description": "Définir la couleur de la police"
+      },
+      "fontWeight": {
+        "label": "Épaisseur de la police",
+        "description": "Définir l'épaisseur de la police"
+      },
+      "extAction": {
+        "label": "Action de clic sur l'icône de l'extension",
+        "description": "Définir l'action lors du clic sur l'icône de l'extension",
+        "openPopup": "Ouvrir la fenêtre contextuelle",
+        "openSidePanel": "Ouvrir le volet latéral"
+      },
+      "SidePanelPosition": {
+        "label": "Position du volet latéral",
+        "description": "Définir si le volet latéral est affiché à gauche ou à droite.",
+        "goToChromeSettings": "Aller aux paramètres de Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Position de la boîte de recherche",
+        "description": "Définir la position de la boîte de recherche",
+        "top": "Haut",
+        "bottom": "Bas",
+        "hide": "Cacher"
+      },
+      "toolbar": {
+        "label": "Afficher la barre d'outils",
+        "description": "Lorsqu'activé, la barre d'outils est affichée"
+      },
+      "bottomNav": {
+        "label": "Afficher la barre de navigation inférieure",
+        "description": "Lorsqu'activé, la barre de navigation inférieure est affichée"
+      },
+      "buttonPosition": {
+        "label": "Position du bouton",
+        "description": "Définir la position des boutons",
+        "left": "Gauche",
+        "right": "Droite"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Masquer le volet latéral en plein écran",
+        "description": "Lorsqu'activé, le volet latéral se masquera automatiquement lorsque la page est en plein écran. En raison des limitations de Chrome, le volet latéral ne peut pas être rouvert automatiquement. Vous devez rouvrir manuellement le volet latéral!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Arrière-plan coloré",
+        "description": "Lorsqu'activé, le volet latéral affichera un arrière-plan coloré"
+      },
+      "backgroundPicture": {
+        "label": "Image d'arrière-plan",
+        "description": "Cliquez sur [+] pour ajouter une image personnalisée, cliquez sur [-] pour supprimer une image personnalisée. Vous pouvez trouver vos images préférées sur les sites suivants.",
+        "dialogDescription": "Entrer l'adresse de l'image",
+        "OK": "OK",
+        "Cancel": "Annuler",
+        "invalidImage": "Adresse d'image non valide"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparence de l'image",
+        "description": "Définir la transparence de l'image",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensité du flou",
+        "description": "Définir l'intensité du flou"
+      },
+      "backgroundImageBrightness": {
+        "label": "Luminosité",
+        "description": "Définir la luminosité, recommandé uniquement pour le mode sombre"
+      },
+      "listBackgroundStyle": {
+        "label": "Style d'arrière-plan de la liste",
+        "description": "Définir le style d'arrière-plan de la liste",
+        "single": "Unique",
+        "none": "Aucun",
+        "simple": "Simple",
+        "complementary": "Complémentaire",
+        "analogous": "Analogique",
+        "triadic": "Triadique",
+        "tetradic": "Tétradique"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparence de l'arrière-plan de la liste",
+        "description": "Définir la transparence de l'arrière-plan de la liste",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "listBottomBorder": {
+        "label": "Bord inférieur de la liste",
+        "description": "Définir le bord inférieur de la liste",
+        "none": "Aucun",
+        "dashed": "Tiret",
+        "solid": "Solide"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barres de défilement fluides",
+        "description": "Utilisez le style de conception Microsoft Fluent pour les barres de défilement et superposez-les sur le contenu Web",
+        "goToChromeSettings": "Aller aux paramètres de Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vue en liste",
+        "description": "Changer la vue en liste",
+        "compact": "Vue compacte",
+        "visual": "Vue visuelle"
+      },
+      "showBy": {
+        "label": "Afficher par",
+        "description": "Changer l'affichage par"
+      },
+      "sortBy": {
+        "label": "Trier par",
+        "description": "Changer le tri par"
+      },
+      "showFullUrl": {
+        "label": "Afficher l'URL complète",
+        "description": "Lorsqu'activé, l'URL complète sera affichée sous le titre de l'onglet"
+      },
+      "currentWindowOnly": {
+        "label": "Uniquement fenêtre actuelle",
+        "description": "Afficher uniquement les onglets de la fenêtre actuelle. Si désactivé, les onglets de toutes les fenêtres seront affichés"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Afficher les onglets épinglés sous forme d'icônes",
+        "description": "Lorsqu'activé, les onglets épinglés seront affichés sous forme d'icônes et non dans la liste"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Afficher les icônes de site lors de la réduction des groupes",
+        "description": "Lorsqu'activé, les groupes réduits afficheront les icônes des onglets"
+      },
+      "hoverPreview": {
+        "label": "Aperçu au survol",
+        "description": "Lorsqu'activé, survoler les onglets affichera des aperçus d'onglets"
+      },
+      "previewWithThumbnail": {
+        "label": "Afficher les miniatures dans l'aperçu",
+        "description": "Lorsqu'activé, les aperçus afficheront des miniatures d'onglets",
+        "alert": "Capturez la zone visible de l'onglet actif dans une fenêtre spécifiée. Pour appeler cette méthode, l'extension doit avoir l'autorisation <all_urls> ou l'autorisation activeTab.",
+        "deniedMessage": "Vous avez refusé l'autorisation requise, donc les paramètres n'ont pas été modifiés. Si vous changez d'avis, veuillez cliquer à nouveau et autoriser l'autorisation"
+      },
+      "previewDelay": {
+        "label": "Délai de l'aperçu",
+        "description": "Définir le temps de délai pour les aperçus d'onglets lors du survol des onglets, etc. (secondes). Si défini sur 0, il n'y aura pas de délai",
+        "seconds": "Secondes"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Enregistrer les onglets récemment fermés",
+        "description": "Lorsqu'activé, enregistrer les onglets récemment fermés"
+      },
+      "dataSource": {
+        "label": "Source de données",
+        "description": "Sélectionner la source de données",
+        "recentlyClosedTabs": "Onglets récemment fermés",
+        "chromeHistory": "Historique de Chrome",
+        "alert": "Pour rechercher des enregistrements d'historique, vous devez autoriser votre autorisation",
+        "deniedMessage": "Vous avez refusé l'autorisation requise, donc les paramètres n'ont pas été modifiés. Si vous changez d'avis, veuillez cliquer à nouveau et autoriser l'autorisation"
+      },
+      "showInSidePanel": {
+        "label": "Afficher dans le volet latéral",
+        "description": "Lorsqu'activé, afficher dans le volet latéral"
+      },
+      "showInTabSearchResults": {
+        "label": "Afficher l'historique dans les résultats de recherche d'onglets",
+        "description": "Lorsqu'activé, les enregistrements d'historique récents seront affichés dans les résultats de recherche d'onglets"
+      },
+      "limitSearchResults": {
+        "label": "Limite du nombre d'enregistrements d'historique dans les résultats de recherche d'onglets",
+        "description": "Définir la limite du nombre d'enregistrements d'historique dans les résultats de recherche d'onglets. Les enregistrements d'historique dépassant la limite seront filtrés",
+        "alert": "Trop d'enregistrements affecteront la vitesse de chargement de la page"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Nombre d'onglets récemment fermés à conserver",
+        "description": "Définir le nombre d'onglets récemment fermés à conserver"
+      },
+      "keepDays": {
+        "label": "Nombre de jours à conserver les onglets récemment fermés",
+        "description": "Définir le nombre de jours à conserver les onglets récemment fermés. Les données expirées seront supprimées",
+        "days": "Jours"
+      },
+      "openDuration": {
+        "label": "Durée d'ouverture",
+        "description": "Seuls les onglets ouverts pendant plus longtemps que le temps défini seront enregistrés",
+        "seconds": "Secondes"
+      }
+    },
+    "shortcuts": {
+      "alert": "Cette page est uniquement destinée à l'affichage. Pour modifier les raccourcis, veuillez visiter [Extensions]->[Gérer les extensions]->[Raccourcis clavier]",
+      "goToChromeSettings": "Aller aux paramètres de Chrome",
+      "_execute_action": "Activer cette extension",
+      "openSidePanel": "Ouvrir le volet latéral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Image dans l'image",
+      "tabSwitch": {
+        "label": "PIP lors du changement d'onglet",
+        "description": "Entrer automatiquement en PIP lors du changement d'onglets avec une vidéo non muette",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "scrollSwitch": {
+        "label": "Passer en image dans l'image lors du défilement",
+        "description": "Si la page actuelle lit une vidéo et que la vidéo n'est pas muette et que la vidéo est hors de la plage visible lors du défilement, elle entrera en image dans l'image.",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Activation de l'utilisateur requise",
+      "tips_1": "L'activation de l'utilisateur signifie que l'utilisateur interagit actuellement avec la page",
+      "tips_2": "Plus précisément, l'activation déclenche des événements d'entrée tels que :",
+      "tips_3": "Remarque : Utiliser la molette de la souris ou le geste de balayage ne déclenchera pas !",
+      "tips_4": "Si vous souhaitez plus de détails, veuillez visiter :",
+      "click": "Cliquez",
+      "contextmenu": "Menu clic droit",
+      "dblclick": "Double-clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportement de réduction des groupes d'onglets",
+        "description": "Modifier le comportement de la réduction des groupes d'onglets du navigateur Chrome",
+        "option_collapse_others": "Afficher le groupe actuel et réduire les autres",
+        "option_disable": "Développer tous les groupes",
+        "option_auto": "Utiliser les paramètres par défaut de Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Créer automatiquement ou rejoindre un groupe de domaine identique",
+        "description": "Lorsqu'activé, les onglets nouvellement ouverts rejoindront automatiquement le groupe de domaine identique. Si le groupe de domaine n'existe pas, un nouveau groupe de domaine sera créé",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrer les onglets épinglés dans les groupes",
+        "description": "Lorsqu'activé, les onglets épinglés ne seront pas ajoutés aux groupes",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Activer la barre de progression",
+        "description": "Lorsqu'activé, une barre de progression de lecture sera affichée sous la barre de titre de l'onglet",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "readingProgressBar": {
+        "label": "Barre de progression de lecture",
+        "description": "Lorsqu'activé, une barre de progression de lecture sera affichée sous la barre de titre de l'onglet",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "scrollHeightRatio": {
+        "label": "Ratio de hauteur de défilement",
+        "description": "Le ratio de la hauteur de la fenêtre visible à la hauteur de la page. Une barre de progression sera affichée lorsque le ratio est dépassé",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "playingProgressBar": {
+        "label": "Barre de progression de lecture",
+        "description": "Lorsqu'activé, une barre de progression de lecture sera affichée sous la barre de titre de l'onglet",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Activer la boule flottante",
+        "description": "Lorsque le volet latéral est fermé, une boule flottante sera affichée sur le côté droit de la page, permettant d'ouvrir rapidement le volet latéral."
+      }
+    },
+    "performance": {
+      "label": "Performance",
+      "saveMemoryAction": {
+        "label": "Comment économiser de la mémoire sur les onglets",
+        "description": "Pour économiser de la mémoire sur les onglets, vous pouvez choisir de fermer les onglets ou de les supprimer.",
+        "discardTips": "un onglet supprimé ne disparaît pas. Nous le fermons mais il est toujours visible sur la barre d'onglets de Chrome. Si vous revenez à un onglet qui a été supprimé, il se rechargera lorsque vous cliquerez dessus. Le contenu du formulaire, la position de défilement, etc. sont sauvegardés et restaurés de la même manière qu'ils le seraient lors de la navigation avant/arrière des onglets.",
+        "disabled": "Désactivé",
+        "closeTabs": "Fermer les onglets",
+        "discardTabs": "Supprimer les onglets"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Combien de temps pour supprimer les onglets inactifs",
+        "description": "Lorsqu'aucun audio ou vidéo n'est lu sur l'onglet et que la suppression automatique n'est pas interdite, l'onglet sera supprimé après le temps spécifié.",
+        "minutes": "Minutes"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Combien de temps pour fermer les onglets inactifs",
+        "description": "Lorsqu'aucun audio ou vidéo n'est lu sur l'onglet et que la suppression automatique n'est pas interdite, l'onglet sera fermé après le temps spécifié.",
+        "minutes": "Minutes"
+      },
+      "disableAnimations": {
+        "label": "Désactiver les animations",
+        "description": "désactiver l'effet d'ondulation et désactiver toutes les transitions"
+      }
+    }
+  }
+}

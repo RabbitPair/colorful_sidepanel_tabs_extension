@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "إدارة علامات التبويب الجانبية الملونة"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "إدارة علامات التبويب في اللوحة الجانبية، جميل جدًا ليكون بهذا الجودة."
+  },
+  "openSidePanel": {
+    "message": "افتح اللوحة الجانبية"
+  }
+}

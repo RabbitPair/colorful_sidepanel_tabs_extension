@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Rheoli Tabiau Ochr Lliwgar"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Rheoli tabiau yn y panel ochr, rhy brydferth i fod mor dda."
+  },
+  "openSidePanel": {
+    "message": "Agor Panel Ochr"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Διαχείριση Πολύχρωμων Πλευρικών Ετικετών"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Διαχείριση καρτελών στο πλαϊνό πάνελ, πολύ όμορφο για να είναι τόσο καλό."
+  },
+  "openSidePanel": {
+    "message": "Άνοιγμα Πλευρικού Πάνελ"
+  }
+}

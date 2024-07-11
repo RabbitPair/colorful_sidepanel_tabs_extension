@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Open side panel to preview",
+  "_execute_action": "Aktiveer hierdie uitbreiding",
+  "openSidePanel": "Maak sypaneel oop",
+  "settings": {
+    "resetCurrentPageSettings": "Herstel huidige bladsy-instellings",
+    "modules": {
+      "appearance": "Voorkoms",
+      "beautify": "Versier",
+      "tabs": "Tabs",
+      "history": "Geskiedenis",
+      "shortcuts": "Kortpaaie",
+      "pip": "Prentjie-in-prentjie",
+      "chromeTabGroupAdvanced": "Gevorderde tabbladgroepe",
+      "progressBar": "Voortgangsbalk",
+      "floatBall": "Dryfbal",
+      "experimentalFeatures": "Eksperimentele kenmerke"
+    },
+    "appearance": {
+      "header": "Voorkoms",
+      "language": {
+        "label": "Interfeestaal",
+        "description": "Stel die taal vir die interfeesvertoning in"
+      },
+      "theme": {
+        "label": "Kleurmodus",
+        "description": "Kies lig- of donkerkleurmodus"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Wanneer geaktiveer, sal die interfees teksrigting van regs na links vertoon"
+      },
+      "fontSize": {
+        "label": "Fonkgrootte",
+        "description": "Stel die fonkgrootte in",
+        "small": "Klein",
+        "large": "Groot"
+      },
+      "fontFamily": {
+        "label": "Lettertipe",
+        "description": "Stel die lettertipe in"
+      },
+      "fontColor": {
+        "label": "Letterkleur",
+        "description": "Stel die letterkleur in"
+      },
+      "fontWeight": {
+        "label": "Letterdikte",
+        "description": "Stel die letterdikte in"
+      },
+      "extAction": {
+        "label": "Kliek opskakeling ikoon aksie",
+        "description": "Stel die aksie in wanneer jy op die opskakeling ikoon klik",
+        "openPopup": "Maak popup oop",
+        "openSidePanel": "Maak sypaneel oop"
+      },
+      "SidePanelPosition": {
+        "label": "Sypaneel posisie",
+        "description": "Stel in of die sypaneel aan die linkerkant of regs vertoon word.",
+        "goToChromeSettings": "Gaan na Chrome-instellings"
+      },
+      "searchBoxPosition": {
+        "label": "Soekboks posisie",
+        "description": "Stel die posisie van die soekboks in",
+        "top": "Bo",
+        "bottom": "Onder",
+        "hide": "Versteek"
+      },
+      "toolbar": {
+        "label": "Wys nutsbalk",
+        "description": "Wanneer geaktiveer, word die nutsbalk vertoon"
+      },
+      "bottomNav": {
+        "label": "Wys onderste navigasiebalk",
+        "description": "Wanneer geaktiveer, word die onderste navigasiebalk vertoon"
+      },
+      "buttonPosition": {
+        "label": "Knoppie posisie",
+        "description": "Stel die posisie van die knoppies in",
+        "left": "Links",
+        "right": "Regs"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Versteek sypaneel in volle skerm",
+        "description": "Wanneer geaktiveer, sal die sypaneel outomaties versteek wanneer die bladsy in volle skerm is. As gevolg van Chrome se beperkings, kan die sypaneel nie outomaties weer oopgemaak word nie. Jy moet die sypaneel handmatig weer oopmaak!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Gekleurde agtergrond",
+        "description": "Wanneer geaktiveer, sal die sypaneel 'n gekleurde agtergrond vertoon"
+      },
+      "backgroundPicture": {
+        "label": "Agtergrondprent",
+        "description": "Klik [+] om 'n aangepaste prent by te voeg, klik [-] om 'n aangepaste prent te verwyder. Jy kan jou gunstelingprente op die volgende webwerwe vind.",
+        "dialogDescription": "Voer beeldadres in",
+        "OK": "OK",
+        "Cancel": "Kanselleer",
+        "invalidImage": "Ongeldige beeldadres"
+      },
+      "backgroundImageTransparency": {
+        "label": "Beelddeursigtigheid",
+        "description": "Stel die beelddeursigtigheid in",
+        "transparent": "Deursigtig",
+        "opaque": "Opaak"
+      },
+      "backgroundImageBlur": {
+        "label": "Verwasing intensiteit",
+        "description": "Stel die verwasing intensiteit in"
+      },
+      "backgroundImageBrightness": {
+        "label": "Helderheid",
+        "description": "Stel die helderheid in, aanbeveel vir donker modus"
+      },
+      "listBackgroundStyle": {
+        "label": "Lysagtergrondstyl",
+        "description": "Stel die lysagtergrondstyl in",
+        "single": "enkel",
+        "none": "Geen",
+        "simple": "Eenvoudig",
+        "complementary": "Komplementêr",
+        "analogous": "Analoog",
+        "triadic": "Triadies",
+        "tetradic": "Tetradies"
+      },
+      "listBackgroundTransparency": {
+        "label": "Lysagtergronddeursigtigheid",
+        "description": "Stel die lysagtergronddeursigtigheid in",
+        "transparent": "Deursigtig",
+        "opaque": "Opaak"
+      },
+      "listBottomBorder": {
+        "label": "Lys ondergrens",
+        "description": "Stel die lys ondergrens in",
+        "none": "Geen",
+        "dashed": "Gestippel",
+        "solid": "Massief"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Vloeistofskuifbalke",
+        "description": "Gebruik Microsoft Fluent-ontwerpstylskuifbalke en plaas hulle oor die webinhoud",
+        "goToChromeSettings": "Gaan na Chrome-instellings"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Lysaansig",
+        "description": "Wissel lysaansig",
+        "compact": "Kompakte aansig",
+        "visual": "Visuele aansig"
+      },
+      "showBy": {
+        "label": "Wys deur",
+        "description": "Wissel wys deur"
+      },
+      "sortBy": {
+        "label": "Sorteer volgens",
+        "description": "Wissel sorteer volgens"
+      },
+      "showFullUrl": {
+        "label": "Wys volledige URL",
+        "description": "Wanneer geaktiveer, sal die volledige URL onder die tabtitel vertoon word"
+      },
+      "currentWindowOnly": {
+        "label": "Net huidige venster",
+        "description": "Wys slegs tabs van die huidige venster. As dit gedeaktiveer is, sal tabs van alle vensters vertoon word"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Wys vasgepen tabs as ikone",
+        "description": "Wanneer geaktiveer, sal vasgepen tabs as ikone vertoon word en nie in die lys nie"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Wys webwerfikone wanneer groepe saamgevou word",
+        "description": "Wanneer geaktiveer, sal saamgevoude groepe tabikone wys"
+      },
+      "hoverPreview": {
+        "label": "Muisoorvoorskou",
+        "description": "Wanneer geaktiveer, sal muisoor tabs oorvoorskou toon"
+      },
+      "previewWithThumbnail": {
+        "label": "Wys duimnaels in oorskou",
+        "description": "Wanneer geaktiveer, sal oorskoue tab duimnaels wys",
+        "alert": "Vang die sigbare area van die tans aktiewe tab in 'n gespesifiseerde venster. Om hierdie metode te roep, moet die uitbreiding die <all_urls> toestemming of activeTab-toestemming hê.",
+        "deniedMessage": "Jy het die vereiste toestemming ontken, dus het die instellings nie verander nie. As jy van gedagte verander, klik weer en gee toestemming"
+      },
+      "previewDelay": {
+        "label": "Oorskou vertraging",
+        "description": "Stel die vertragings tyd vir tab oorskoue wanneer jy oor tabs beweeg, ens. (sekondes). As dit op 0 gestel word, sal daar geen vertraging wees nie",
+        "seconds": "Sekondes"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Stoor onlangs geslote tabs",
+        "description": "Wanneer geaktiveer, stoor onlangs geslote tabs"
+      },
+      "dataSource": {
+        "label": "Data-bron",
+        "description": "Kies data-bron",
+        "recentlyClosedTabs": "Onlangs geslote tabs",
+        "chromeHistory": "Chrome-geskiedenis",
+        "alert": "Om geskiedenisrekords te soek, het jy jou toestemming nodig om dit te aktiveer",
+        "deniedMessage": "Jy het die vereiste toestemming ontken, dus het die instellings nie verander nie. As jy van gedagte verander, klik weer en gee toestemming"
+      },
+      "showInSidePanel": {
+        "label": "Wys in sypaneel",
+        "description": "Wanneer geaktiveer, wys in sypaneel"
+      },
+      "showInTabSearchResults": {
+        "label": "Wys geskiedenis in tab-soekresultate",
+        "description": "Wanneer geaktiveer, sal onlangse geskiedenisrekords in tab-soekresultate vertoon word"
+      },
+      "limitSearchResults": {
+        "label": "Beperk aantal geskiedenisrekords in tab-soekresultate",
+        "description": "Stel die limiet aantal geskiedenisrekords in tab-soekresultate in. Geskiedenisrekords wat die limiet oorskry, sal gefiltreer word",
+        "alert": "Te veel rekords sal die bladsy laai spoed affekteer"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Aantal onlangs geslote tabs om te hou",
+        "description": "Stel die aantal onlangs geslote tabs in om te hou"
+      },
+      "keepDays": {
+        "label": "Aantal dae om onlangs geslote tabs te hou",
+        "description": "Stel die aantal dae om onlangs geslote tabs te hou. Vervalle data sal uitgevee word",
+        "days": "Dae"
+      },
+      "openDuration": {
+        "label": "Oopduur",
+        "description": "Slegs tabs wat langer as die ingestelde tyd oop is, sal gestoor word",
+        "seconds": "Sekondes"
+      }
+    },
+    "shortcuts": {
+      "alert": "Hierdie bladsy is slegs vir vertoning. Om kortpaaie te wysig, besoek asseblief [Uitbreidings]->[Bestuur Uitbreidings]->[Sleutelbordkortpaaie]",
+      "goToChromeSettings": "Gaan na Chrome-instellings",
+      "_execute_action": "Aktiveer hierdie uitbreiding",
+      "openSidePanel": "Maak sypaneel oop"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Prentjie-in-prentjie",
+      "tabSwitch": {
+        "label": "PIP met Tab-skakeling",
+        "description": "Takel PIP outomaties in wanneer jy tussen tabs met 'n ongestemde video skakel",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "scrollSwitch": {
+        "label": "Skakel na prentjie-in-prentjie wanneer jy rol",
+        "description": "As die huidige bladsy 'n video speel en die video nie gestem is nie en die video buite die sigbare reeks is wanneer jy rol, sal dit prentjie-in-prentjie betree.",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Gebruikeraktivering benodig",
+      "tips_1": "Gebruikeraktivering beteken dat die gebruiker tans met die bladsy interaksie het",
+      "tips_2": "Meer spesifiek, aktivering veroorsaak insetgebeure soos:",
+      "tips_3": "Nota: Die gebruik van die muiswielrol of veegebaar sal nie aktiveer nie!",
+      "tips_4": "Indien jy verdere inligting wil hê, besoek asseblief:",
+      "click": "Klik",
+      "contextmenu": "Regsklik-meny",
+      "dblclick": "Dubbelklik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tabbladgroepe saamvougedrag",
+        "description": "Wysig die gedrag van Chrome-blaaier tabbladgroepe saamvou",
+        "option_collapse_others": "Wys huidige groep en vou ander saam",
+        "option_disable": "Brei alle groepe uit",
+        "option_auto": "Gebruik Chrome se verstekinstellings"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Skep outomaties of sluit by dieselfde domeingroep aan",
+        "description": "Wanneer geaktiveer, sal nuut geopende tabs outomaties by dieselfde domeingroep aansluit. As die domeingroep nie bestaan nie, sal 'n nuwe domeingroep geskep word",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtreer vasgepen tabs uit in groepe",
+        "description": "Wanneer geaktiveer, sal vasgepen tabs nie by groepe gevoeg word nie",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Aktiveer leesvorderingsbalk",
+        "description": "Wanneer geaktiveer, sal 'n leesvorderingsbalk onder die tabtitelbalk vertoon word",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "readingProgressBar": {
+        "label": "Leesvorderingsbalk",
+        "description": "Wanneer geaktiveer, sal 'n leesvorderingsbalk onder die tabtitelbalk vertoon word",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "scrollHeightRatio": {
+        "label": "Rolhoogte-verhouding",
+        "description": "Die verhouding van sigbare vensterhoogte tot bladsyhoogte. 'n Voortgangsbalk sal vertoon word wanneer die verhouding oorskry word",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "playingProgressBar": {
+        "label": "Speelvorderingsbalk",
+        "description": "Wanneer geaktiveer, sal 'n speelvorderingsbalk onder die tabtitelbalk vertoon word",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Aktiveer dryfbal",
+        "description": "Wanneer die sypaneel toe is, sal 'n dryfbal aan die regterkant van die bladsy vertoon word, wat vinnige oopmaak van die sypaneel moontlik maak."
+      }
+    },
+    "performance": {
+      "label": "Prestasie",
+      "saveMemoryAction": {
+        "label": "Hoe om geheue op tabs te spaar",
+        "description": "Om geheue op tabs te spaar, kan jy kies om tabs te sluit of te verwerp.",
+        "discardTips": " 'n Verwerpte tab gaan nêrens heen nie. Ons maak dit dood, maar dit is steeds sigbaar op die Chrome-tabbladstrook. As jy terugnavigeer na 'n tab wat verwerp is, sal dit herlaai word as dit geklik word. Vorminhoud, skrolposisie ensovoorts word op dieselfde manier gestoor en herstel as tydens vooruit/terug tabnavigasie.",
+        "disabled": "Gedeaktiveer",
+        "closeTabs": "Sluit tabs",
+        "discardTabs": "Verwerp tabs"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Hoe lank om onaktiewe tabs te verwerp",
+        "description": "Wanneer daar geen klank of video op die tab gespeel word en outomatiese verwerping nie verbied word nie, sal die tab na die gespesifiseerde tyd verwerp word.",
+        "minutes": "Minute"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Hoe lank om onaktiewe tabs te sluit",
+        "description": "Wanneer daar geen klank of video op die tab gespeel word en outomatiese verwerping nie verbied word nie, sal die tab na die gespesifiseerde tyd gesluit word.",
+        "minutes": "Minute"
+      },
+      "disableAnimations": {
+        "label": "Deaktiveer animasies",
+        "description": "deaktiveer die rimpelingseffek en deaktiveer alle oorgange"
+      }
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "ጎን ፓነልን ለመቅየር ክፈት",
+  "_execute_action": "ይህን ኤክስቴንሽን አንቀሳቅስ",
+  "openSidePanel": "ጎን ፓነልን ክፈት",
+  "settings": {
+    "resetCurrentPageSettings": "የአሁኑን ገጽ ቅንብሮች እንደገና አድስ",
+    "modules": {
+      "appearance": "እንቅስቃሴ",
+      "beautify": "አስዋቢ",
+      "tabs": "ትሮች",
+      "history": "ታሪክ",
+      "shortcuts": "አጭር መንገዶች",
+      "pip": "ምስል-በ-ምስል",
+      "chromeTabGroupAdvanced": "የተሻሻለ ትሮች ቡድን",
+      "progressBar": "የግምገማ አሞሌ",
+      "floatBall": "እንቅስቃሴ ኳስ",
+      "experimentalFeatures": "ሙከራ ባለባበሮች"
+    },
+    "appearance": {
+      "header": "እንቅስቃሴ",
+      "language": {
+        "label": "የበለጠ ቋንቋ",
+        "description": "ለበለጠ እንቅስቃሴ ቋንቋ አቀናብር"
+      },
+      "theme": {
+        "label": "ቀለም ሁኔታ",
+        "description": "ብርሃን ወይም ጨለማ ቀለም ሁኔታ ይምረጡ"
+      },
+      "rtl": {
+        "label": "ከቀኝ ወደ ግራ",
+        "description": "ሲነቃቃ እንቅስቃሴ የጽሑፍ አቀማመጥን ከቀኝ ወደ ግራ ያሳያል"
+      },
+      "fontSize": {
+        "label": "የፊደል መጠን",
+        "description": "የፊደል መጠን አቀናብር",
+        "small": "ትንሽ",
+        "large": "ትልቅ"
+      },
+      "fontFamily": {
+        "label": "የፊደል ቤተሰብ",
+        "description": "የፊደል ቤተሰብ አቀናብር"
+      },
+      "fontColor": {
+        "label": "የፊደል ቀለም",
+        "description": "የፊደል ቀለም አቀናብር"
+      },
+      "fontWeight": {
+        "label": "የፊደል ክብደት",
+        "description": "የፊደል ክብደት አቀናብር"
+      },
+      "extAction": {
+        "label": "የኤክስቴንሽን አይኮን እንቅስቃሴ",
+        "description": "የኤክስቴንሽን አይኮንን ሲጫን የሚደረገውን እንቅስቃሴ አቀናብር",
+        "openPopup": "ፖፕን ክፈት",
+        "openSidePanel": "ጎን ፓነልን ክፈት"
+      },
+      "SidePanelPosition": {
+        "label": "የጎን ፓነል አቀማመጥ",
+        "description": "ጎን ፓነል በግራ ወይም በቀኝ እንደሚታይ አቀናብር",
+        "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+      },
+      "searchBoxPosition": {
+        "label": "የፍለጋ ሳጥን አቀማመጥ",
+        "description": "የፍለጋ ሳጥን አቀማመጥ አቀናብር",
+        "top": "ላይ",
+        "bottom": "ታች",
+        "hide": "ሸሽግ"
+      },
+      "toolbar": {
+        "label": "መሳሪያ አሞሌን አሳይ",
+        "description": "ሲነቃቃ መሳሪያ አሞሌ ይታያል"
+      },
+      "bottomNav": {
+        "label": "የታችኛውን አሰሳ አሞሌ አሳይ",
+        "description": "ሲነቃቃ የታችኛው አሰሳ አሞሌ ይታያል"
+      },
+      "buttonPosition": {
+        "label": "የአዝራር አቀማመጥ",
+        "description": "የአዝራር አቀማመጥ አቀናብር",
+        "left": "ግራ",
+        "right": "ቀኝ"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "በሙሉ ማያ ገጽ ጎን ፓነልን ሸሽግ",
+        "description": "ሲነቃቃ ገጽ በሙሉ ማያ ሲሆን ጎን ፓነል በራሱ ይሸሽጋል። በክሮም ውስጥ ያለው ገደብ ምክንያት ጎን ፓነል በራሱ እንደገና መክፈት አይቻልም። ጎን ፓነልን በራሱ እንደገና ለመክፈት እባክህ በእጅህ ክፈት!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "ቀለማት ያለው ጀርባ",
+        "description": "ሲነቃቃ ጎን ፓነል ቀለማት ያለው ጀርባ ይሳያል"
+      },
+      "backgroundPicture": {
+        "label": "የጀርባ ምስል",
+        "description": "[+] ተጫን ለማስተካከል ምስል አክል፣ [-] ተጫን ለማስወገድ ምስል አጥፋ። የምትወዱትን ምስሎች በታች ያሉትን ድር ጣቢያዎች ላይ ማግኘት ይችላሉ።",
+        "dialogDescription": "የምስል አድራሻ አስገባ",
+        "OK": "እሺ",
+        "Cancel": "ሰርዝ",
+        "invalidImage": "ልክ ያልሆነ የምስል አድራሻ"
+      },
+      "backgroundImageTransparency": {
+        "label": "የምስል ግልጽነት",
+        "description": "የምስል ግልጽነት አቀናብር",
+        "transparent": "ግልጽ",
+        "opaque": "ደብዛዛ"
+      },
+      "backgroundImageBlur": {
+        "label": "የምስል ግልባጭነት",
+        "description": "የምስል ግልባጭነት አቀናብር"
+      },
+      "backgroundImageBrightness": {
+        "label": "ብሩህነት",
+        "description": "ብሩህነት አቀናብር፣ ለጨለማ ሁኔታ ብቻ የሚመከር"
+      },
+      "listBackgroundStyle": {
+        "label": "የዝርዝር ጀርባ ቅጥ",
+        "description": "የዝርዝር ጀርባ ቅጥ አቀናብር",
+        "single": "አንድ",
+        "none": "ምንም",
+        "simple": "ቀላል",
+        "complementary": "አንድ ላይ አንድ",
+        "analogous": "ተመሳሳይ",
+        "triadic": "ሶስት በአንድ",
+        "tetradic": "አራት በአንድ"
+      },
+      "listBackgroundTransparency": {
+        "label": "የዝርዝር ጀርባ ግልጽነት",
+        "description": "የዝርዝር ጀርባ ግልጽነት አቀናብር",
+        "transparent": "ግልጽ",
+        "opaque": "ደብዛዛ"
+      },
+      "listBottomBorder": {
+        "label": "የዝርዝር ታችኛው ጎድጓድ",
+        "description": "የዝርዝር ታችኛው ጎድጓድ አቀናብር",
+        "none": "ምንም",
+        "dashed": "ተሰባሪ",
+        "solid": "ጠንካራ"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "የሙሉ እንቅስቃሴ ስኮልባር",
+        "description": "የሚንቀሳቀሱ እንቅስቃሴ ስኮልባሮችን ተጠቀምና በድር ይዘት ላይ አስተካክል",
+        "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "ዝርዝር እይታ",
+        "description": "ዝርዝር እይታ ቀይር",
+        "compact": "ቀጭን እይታ",
+        "visual": "እይታ እይታ"
+      },
+      "showBy": {
+        "label": "እንደ ምን አሳይ",
+        "description": "እንደ ምን አሳይ ቀይር"
+      },
+      "sortBy": {
+        "label": "በምን አደርግ",
+        "description": "በምን አደርግ ቀይር"
+      },
+      "showFullUrl": {
+        "label": "ማሳወቅ ማያ URL",
+        "description": "ከማስተካከል በኋላ፣ ማሳወቅ ማያ URL በትሮች ርዕስ አሳይ።"
+      },
+      "currentWindowOnly": {
+        "label": "አሁን ያለው መስኮት ብቻ",
+        "description": "የአሁኑን መስኮት ትሮች ብቻ አሳይ። ካልተነቃቀ ከሁሉም መስኮቶች ትሮች ይታያሉ"
+      },
+      "pinedTabsAsIcons": {
+        "label": "የተሰካ ትሮችን እንደ አይኮኖች አሳይ",
+        "description": "ሲነቃቃ የተሰኩ ትሮች እንደ አይኮኖች ይታያሉ እና በዝርዝር ውስጥ አይሆኑም"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "ቡድኖችን ሲያንስ የድር ጣቢያ አይኮኖችን አሳይ",
+        "description": "ሲነቃቃ የተንሸራተቱ ቡድኖች የትሮች አይኮኖችን ያሳያሉ"
+      },
+      "hoverPreview": {
+        "label": "እንቅስቃሴ ቅድመ እይታ",
+        "description": "ሲነቃቃ በትሮች ላይ እንቅስቃሴ በማድረግ ትሮች ቅድመ እይታ ይሳያል"
+      },
+      "previewWithThumbnail": {
+        "label": "በቅድመ እይታ ምስሎችን አሳይ",
+        "description": "ሲነቃቃ በቅድመ እይታ የትሮች ምስሎችን ያሳያል",
+        "alert": "በተገለጹ መስኮቶች ውስጥ የአሁኑን ተግባራዊ ትር የሚታይበትን አካባቢ ያግኙ። ይህንን ዘዴ ለመጠቀም ቅጥር ማስፈንጠሪያው የ<all_urls> ፈቃድ ወይም የactiveTab ፈቃድ ሊኖረው አለበት።",
+        "deniedMessage": "የሚያስፈልጉትን ፈቃድ እንደላቀቅን ስለሆነ ቅንብሮቹ አልተለወጡም። አስተሳሰብዎን ካስቀየሙ እባኮትን እንደገና ጠቅ ያድርጉ እና ፈቃድ ይፍቀዱ"
+      },
+      "previewDelay": {
+        "label": "የቅድመ እይታ መዘግያ",
+        "description": "በትሮች ላይ ሲነቃቃ የቅድመ እይታ ጊዜ ያቀናብር (ሰከንዶች)። በ0 ተቀመጠ ከሆነ መዘግያ አይኖርም",
+        "seconds": "ሰከንዶች"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "በቅርቡ የተዘጉ ትሮችን አስቀምጥ",
+        "description": "ሲነቃቃ በቅርቡ የተዘጉ ትሮችን አስቀምጥ"
+      },
+      "dataSource": {
+        "label": "የመረጃ ምንጭ",
+        "description": "የመረጃ ምንጭ ይምረጡ",
+        "recentlyClosedTabs": "በቅርቡ የተዘጉ ትሮች",
+        "chromeHistory": "ክሮም ታሪክ",
+        "alert": "የታሪክ መዝገቦችን ለማፈላለግ ፈቃድዎን ማግኘት ያስፈልጋል",
+        "deniedMessage": "የሚያስፈልጉትን ፈቃድ እንደላቀቅን ስለሆነ ቅንብሮቹ አልተለወጡም። አስተሳሰብዎን ካስቀየሙ እባኮትን እንደገና ጠቅ ያድርጉ እና ፈቃድ ይፍቀዱ"
+      },
+      "showInSidePanel": {
+        "label": "በጎን ስርጭት አሳይ",
+        "description": "ሲነቃቃ በጎን ስርጭት አሳይ"
+      },
+      "showInTabSearchResults": {
+        "label": "በትሮች ፍለጋ ውጤቶች ውስጥ ታሪክ አሳይ",
+        "description": "ሲነቃቃ በትሮች ፍለጋ ውጤቶች ውስጥ የቅርብ ጊዜ ታሪክ መዝገቦች ይታያሉ"
+      },
+      "limitSearchResults": {
+        "label": "በትሮች ፍለጋ ውጤቶች ውስጥ የታሪክ መዝገቦችን ቁጥር ያቀናብር",
+        "description": "በትሮች ፍለጋ ውጤቶች ውስጥ የታሪክ መዝገቦችን ቁጥር ያቀናብር። ከተቀመጠ ቁጥር በላይ ያሉ የታሪክ መዝገቦች ይተላለፋሉ",
+        "alert": "ብዙ መዝገቦች የገጽ ጭነት ፍጥነትን ተጽእኖ ያሳድራሉ"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "የበቅርቡ የተዘጉ ትሮችን ለመጠበቅ ቁጥር",
+        "description": "የበቅርቡ የተዘጉ ትሮችን ለመጠበቅ ቁጥር ያቀናብር"
+      },
+      "keepDays": {
+        "label": "የበቅርቡ የተዘጉ ትሮችን ለመጠበቅ ቀናት",
+        "description": "የበቅርቡ የተዘጉ ትሮችን ለመጠበቅ ቀናት ያቀናብር። የጊዜ አብስለው ያሉ መረጃዎች ይሰረያሉ",
+        "days": "ቀናት"
+      },
+      "openDuration": {
+        "label": "የመክፈቻ ጊዜ",
+        "description": "ከተቀመጠ ጊዜ በላይ ብቻ የተከፈቱ ትሮች ይታያሉ",
+        "seconds": "ሰከንዶች"
+      }
+    },
+    "shortcuts": {
+      "alert": "ይህ ገጽ ለማሳየት ብቻ ነው። አጭር መንገዶችን ለማስተካከል እባኮትን [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] ይጎብኙ",
+      "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ",
+      "_execute_action": "ይህን ቅጥር አንቃ",
+      "openSidePanel": "ጎን ስርጭት ክፈት"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "ምስል በምስል",
+      "tabSwitch": {
+        "label": "በትር መቀየር ላይ ምስል በምስል",
+        "description": "በትሮች መቀየር ላይ ከማይታገል ቪዲዮ ጋር ሲነቃቃ ምስል በምስል ውስጥ ይገባል",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      },
+      "scrollSwitch": {
+        "label": "ሲሸብር ወደ ምስል በምስል ይቀይራል",
+        "description": "ከአሁኑ ጊዜ ገጽ ቪዲዮ እየተጫወተ እና ቪዲዮው አልተደበቀም እና በማሸብር ጊዜ ቪዲዮው ከታይቷ አካባቢ ውጭ ከሆነ ምስል በምስል ውስጥ ይገባል።",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "የተጠቃሚ እንቅስቃሴ ያስፈልጋል",
+      "tips_1": "የተጠቃሚ እንቅስቃሴ ማለት ተጠቃሚው ከአሁኑ ጊዜ ገጽ ጋር እየተሳሳተ መሆኑን ማለት ነው",
+      "tips_2": "በተጨማሪም እንቅስቃሴ የሚነሳበት የግቤት ክስተቶችን ያነሳል እንደ:",
+      "tips_3": "ማስታወሻ: የመዳረሻ መሽከርከር ወይም የመሸብር እንቅስቃሴ አያነሳም!",
+      "tips_4": "ተጨማሪ ዝርዝሮችን እንዲያውቁ እባኮትን ይጎብኙ:",
+      "click": "ጠቅ",
+      "contextmenu": "ቀኝ-ጠቅ ምናሌ",
+      "dblclick": "እግር ጠቅ"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "የትር ቡድን መንቀሳቀስ ባህሪ",
+        "description": "የክሮም አሳሽ ትር ቡድን መንቀሳቀስ ባህሪ ያቀናብር",
+        "option_collapse_others": "አሁኑን ቡድን አሳይ እና ሌሎችን አንስ",
+        "option_disable": "ሁሉንም ቡድኖች አስፋፊ",
+        "option_auto": "የክሮም ነቅቷ ቅንብሮችን ተጠቀም"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "ተሳሳቢ ወይም ተመሳሳይ የድር ቡድን አንድ አድርግ",
+        "description": "ሲነቃቃ አዲስ የተከፈቱ ትሮች ተመሳሳይ የድር ቡድን ላይ በራስ ሰር ይቀላቀላሉ። የድር ቡድኑ ካልነበረ አዲስ የድር ቡድን ይፈጠራል",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "በቡድኖች ውስጥ የተሰኩ ትሮችን አስቀምጥ",
+        "description": "ሲነቃቃ የተሰኩ ትሮች በቡድኖች ውስጥ አይጨመሩም",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "የግምገማ አሞሌን አንቃ",
+        "description": "ሲነቃቃ የንባብ አሞሌ በትር ርዕስ አሞሌ ታች ይታያል",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      },
+      "readingProgressBar": {
+        "label": "የንባብ አሞሌ",
+        "description": "ሲነቃቃ የንባብ አሞሌ በትር ርዕስ አሞሌ ታች ይታያል",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      },
+      "scrollHeightRatio": {
+        "label": "የማንኛውን መልእክት ከትር ርዕስ ወደ ገጹ ርዕስ የሚከተለው አንድ አሞሌ",
+        "description": "ትር ርዕስ ለማንኛውን መልእክት ወደ ገጹ ርዕስ ከትር ርዕስ ውጭ እናውቃለን",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      },
+      "playingProgressBar": {
+        "label": "የመጫወቻ አሞሌ",
+        "description": "ሲነቃቃ የመጫወቻ አሞሌ በትር ርዕስ አሞሌ ታች ይታያል",
+        "enabled": "ነቅቷል",
+        "disabled": "እንደተከለከለ"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "እንቅስቃሴ ኳስን አንቃ",
+        "description": "ጎን ፓነል ሲዘጋ እንቅስቃሴ ኳስ በገጹ ቀኝ በኩል ይታያል ፣ ጎን ፓነልን በፍጥነት ለመክፈት ይረዳል።"
+      }
+    },
+    "performance": {
+      "label": "አፈጻጸም",
+      "saveMemoryAction": {
+        "label": "በትሮች ላይ ምህዳርን እንዴት ማስቀመጥ እንችላለን",
+        "description": "በትሮች ላይ ምህዳርን ለማስቀመጥ ትሮችን ማጥፋት ወይም ማስወገድ መምረጥ ትችላለህ።",
+        "discardTips": "የተወገደ ትር ወደ ሌላ ቦታ አይሄድም። እኛ እንደነበርን እናገድዋለን ነገር ግን በክሮም ትር ስትሪፕ ላይ እንደገና ይታያል። ወደ ተወገደ ትር ብትመለስ እንደ ተጫነ እንደገና ይታያል። የቅጽ ይዘት፣ የማንኛውም አካባቢ እና እንዲሁም በትር እንደ ተመለሰ/ተመለሰ እንደ ተቀመጠ እና እንደ ተመለሰ ይታያል።",
+        "disabled": "እንደተከለከለ",
+        "closeTabs": "ትሮችን ዝጋ",
+        "discardTabs": "ትሮችን አስወግድ"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "ያልተንቀሳቃሉ ትሮችን ለመከላከል ምን ያህል ጊዜ",
+        "description": "በትር ላይ የድምፅ ወይም ቪዲዮ እንደማይጫወት እና ራስ ሰር እንደማይከለከል ሲሆን ትር ከተጠቀሰ ጊዜ በኋላ ይከለከላል።",
+        "minutes": "ደቂቃዎች"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "ያልተንቀሳቃሉ ትሮችን ለመዝጋት ምን ያህል ጊዜ",
+        "description": "በትር ላይ የድምፅ ወይም ቪዲዮ እንደማይጫወት እና ራስ ሰር እንደማይከለከል ሲሆን ትር ከተጠቀሰ ጊዜ በኋላ ይዘጋል።",
+        "minutes": "ደቂቃዎች"
+      },
+      "disableAnimations": {
+        "label": "አንቀሳቃሽ አቦልክ",
+        "description": "የማይንቀሳቀስ ተጽዕኖ እና ሁሉንም ማስተላለፍ አቦልክ"
+      }
+    }
+  }
+}

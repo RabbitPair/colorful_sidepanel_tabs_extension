@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Open zijpaneel om te bekijken",
+  "_execute_action": "Activeer deze extensie",
+  "openSidePanel": "Open zijpaneel",
+  "settings": {
+    "resetCurrentPageSettings": "Reset huidige pagina-instellingen",
+    "modules": {
+      "appearance": "Uiterlijk",
+      "beautify": "Verfraaien",
+      "tabs": "Tabbladen",
+      "history": "Geschiedenis",
+      "shortcuts": "Sneltoetsen",
+      "pip": "Beeld-in-beeld",
+      "chromeTabGroupAdvanced": "Geavanceerde tabbladgroepen",
+      "progressBar": "voortgangsbalk",
+      "floatBall": "Zwevende bal",
+      "experimentalFeatures": "Experimentele functies"
+    },
+    "appearance": {
+      "header": "Uiterlijk",
+      "language": {
+        "label": "Interfacetaal",
+        "description": "Stel de taal in voor de interfaceweergave"
+      },
+      "theme": {
+        "label": "Kleurmodus",
+        "description": "Kies lichte of donkere kleurmodus"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Wanneer ingeschakeld, wordt de tekst van rechts naar links weergegeven"
+      },
+      "fontSize": {
+        "label": "Lettergrootte",
+        "description": "Stel de lettergrootte in",
+        "small": "Klein",
+        "large": "Groot"
+      },
+      "fontFamily": {
+        "label": "Lettertype",
+        "description": "Stel het lettertype in"
+      },
+      "fontColor": {
+        "label": "Letterkleur",
+        "description": "Stel de letterkleur in"
+      },
+      "fontWeight": {
+        "label": "Letterdikte",
+        "description": "Stel de letterdikte in"
+      },
+      "extAction": {
+        "label": "Klik op extensie-icoon actie",
+        "description": "Stel de actie in bij het klikken op het extensie-icoon",
+        "openPopup": "Open popup",
+        "openSidePanel": "Open zijpaneel"
+      },
+      "SidePanelPosition": {
+        "label": "Positie zijpaneel",
+        "description": "Stel in of het zijpaneel links of rechts wordt weergegeven.",
+        "goToChromeSettings": "Ga naar Chrome-instellingen"
+      },
+      "searchBoxPosition": {
+        "label": "Positie zoekvak",
+        "description": "Stel de positie van het zoekvak in",
+        "top": "Boven",
+        "bottom": "Onder",
+        "hide": "Verbergen"
+      },
+      "toolbar": {
+        "label": "Toon werkbalk",
+        "description": "Wanneer ingeschakeld, wordt de werkbalk weergegeven"
+      },
+      "bottomNav": {
+        "label": "Toon onderste navigatiebalk",
+        "description": "Wanneer ingeschakeld, wordt de onderste navigatiebalk weergegeven"
+      },
+      "buttonPosition": {
+        "label": "Positie knoppen",
+        "description": "Stel de positie van de knoppen in",
+        "left": "Links",
+        "right": "Rechts"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Verberg zijpaneel in volledig scherm",
+        "description": "Wanneer ingeschakeld, wordt het zijpaneel automatisch verborgen wanneer de pagina in volledig scherm is. Vanwege de beperkingen van Chrome kan het zijpaneel niet automatisch opnieuw worden geopend. U moet het zijpaneel handmatig opnieuw openen!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Gekleurde achtergrond",
+        "description": "Wanneer ingeschakeld, wordt een gekleurde achtergrond weergegeven in het zijpaneel"
+      },
+      "backgroundPicture": {
+        "label": "Achtergrondafbeelding",
+        "description": "Klik op [+] om een aangepaste afbeelding toe te voegen, klik op [-] om een aangepaste afbeelding te verwijderen. U kunt uw favoriete afbeeldingen vinden op de volgende websites.",
+        "dialogDescription": "Voer het afbeeldingsadres in",
+        "OK": "OK",
+        "Cancel": "Annuleren",
+        "invalidImage": "Ongeldig afbeeldingsadres"
+      },
+      "backgroundImageTransparency": {
+        "label": "Afbeeldingstransparantie",
+        "description": "Stel de transparantie van de afbeelding in",
+        "transparent": "Transparant",
+        "opaque": "Ondoorzichtig"
+      },
+      "backgroundImageBlur": {
+        "label": "Vervaging intensiteit",
+        "description": "Stel de vervaging intensiteit in"
+      },
+      "backgroundImageBrightness": {
+        "label": "Helderheid",
+        "description": "Stel de helderheid in, aanbevolen alleen voor donkere modus"
+      },
+      "listBackgroundStyle": {
+        "label": "Achtergrondstijl lijst",
+        "description": "Stel de achtergrondstijl van de lijst in",
+        "single": "Enkel",
+        "none": "Geen",
+        "simple": "Eenvoudig",
+        "complementary": "Complementair",
+        "analogous": "Analoog",
+        "triadic": "Triadisch",
+        "tetradic": "Tetradisch"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparantie achtergrond lijst",
+        "description": "Stel de transparantie van de achtergrond van de lijst in",
+        "transparent": "Transparant",
+        "opaque": "Ondoorzichtig"
+      },
+      "listBottomBorder": {
+        "label": "Onderste rand lijst",
+        "description": "Stel de onderste rand van de lijst in",
+        "none": "Geen",
+        "dashed": "Gestreept",
+        "solid": "Solide"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Vloeiende schuifbalken",
+        "description": "Gebruik Microsoft Fluent design stijl schuifbalken en overlay ze op de webinhoud",
+        "goToChromeSettings": "Ga naar Chrome-instellingen"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Lijstweergave",
+        "description": "Schakel lijstweergave",
+        "compact": "Compacte weergave",
+        "visual": "Visuele weergave"
+      },
+      "showBy": {
+        "label": "Toon op",
+        "description": "Schakel toon op"
+      },
+      "sortBy": {
+        "label": "Sorteer op",
+        "description": "Schakel sorteer op"
+      },
+      "showFullUrl": {
+        "label": "Toon volledige URL",
+        "description": "Indien ingeschakeld, wordt de volledige URL weergegeven onder de tabtitel"
+      },
+      "currentWindowOnly": {
+        "label": "Alleen huidige venster",
+        "description": "Toon alleen tabbladen van het huidige venster. Als uitgeschakeld, worden tabbladen van alle vensters getoond"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Toon vastgezette tabbladen als iconen",
+        "description": "Wanneer ingeschakeld, worden vastgezette tabbladen weergegeven als iconen en niet in de lijst"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Toon website-iconen bij het inklappen van groepen",
+        "description": "Wanneer ingeschakeld, tonen ingeklapte groepen tabblad-iconen"
+      },
+      "hoverPreview": {
+        "label": "Voorbeeld bij zweven",
+        "description": "Wanneer ingeschakeld, worden tabbladvoorbeelden getoond bij het zweven over tabbladen"
+      },
+      "previewWithThumbnail": {
+        "label": "Toon miniaturen in voorbeeld",
+        "description": "Wanneer ingeschakeld, tonen voorbeelden tabblad-miniaturen",
+        "alert": "Leg het zichtbare gebied van het momenteel actieve tabblad vast in een gespecificeerd venster. Om deze methode aan te roepen, moet de extensie <all_urls> toestemming of activeTab toestemming hebben.",
+        "deniedMessage": "U heeft de vereiste toestemming geweigerd, dus de instellingen zijn niet gewijzigd. Als u van gedachten verandert, klik dan opnieuw en geef toestemming"
+      },
+      "previewDelay": {
+        "label": "Voorbeeldvertraging",
+        "description": "Stel de vertragingstijd in voor tabbladvoorbeelden bij het zweven over tabbladen, enz. (seconden). Als ingesteld op 0, is er geen vertraging",
+        "seconds": "Seconden"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Sla recent gesloten tabbladen op",
+        "description": "Wanneer ingeschakeld, sla recent gesloten tabbladen op"
+      },
+      "dataSource": {
+        "label": "Gegevensbron",
+        "description": "Selecteer gegevensbron",
+        "recentlyClosedTabs": "Recent gesloten tabbladen",
+        "chromeHistory": "Chrome geschiedenis",
+        "alert": "Om geschiedenisrecords te doorzoeken, heeft u uw toestemming nodig om in te schakelen",
+        "deniedMessage": "U heeft de vereiste toestemming geweigerd, dus de instellingen zijn niet gewijzigd. Als u van gedachten verandert, klik dan opnieuw en geef toestemming"
+      },
+      "showInSidePanel": {
+        "label": "Toon in zijpaneel",
+        "description": "Wanneer ingeschakeld, toon in zijpaneel"
+      },
+      "showInTabSearchResults": {
+        "label": "Toon geschiedenis in tabblad zoekresultaten",
+        "description": "Wanneer ingeschakeld, worden recente geschiedenisrecords weergegeven in tabblad zoekresultaten"
+      },
+      "limitSearchResults": {
+        "label": "Beperk aantal geschiedenisrecords in tabblad zoekresultaten",
+        "description": "Stel het limiet aantal geschiedenisrecords in tabblad zoekresultaten in. Geschiedenisrecords die het limiet overschrijden, worden gefilterd",
+        "alert": "Te veel records beïnvloeden de laadsnelheid van de pagina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Aantal recent gesloten tabbladen om te bewaren",
+        "description": "Stel het aantal recent gesloten tabbladen in om te bewaren"
+      },
+      "keepDays": {
+        "label": "Aantal dagen om recent gesloten tabbladen te bewaren",
+        "description": "Stel het aantal dagen in om recent gesloten tabbladen te bewaren. Verlopen gegevens worden verwijderd",
+        "days": "Dagen"
+      },
+      "openDuration": {
+        "label": "Open duur",
+        "description": "Alleen tabbladen die langer dan de ingestelde tijd open zijn, worden opgeslagen",
+        "seconds": "Seconden"
+      }
+    },
+    "shortcuts": {
+      "alert": "Deze pagina is alleen voor weergave. Om sneltoetsen te wijzigen, ga naar [Extensies]->[Beheer Extensies]->[Toetsenbord Sneltoetsen]",
+      "goToChromeSettings": "Ga naar Chrome-instellingen",
+      "_execute_action": "Activeer deze extensie",
+      "openSidePanel": "Open zijpaneel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Beeld-in-beeld",
+      "tabSwitch": {
+        "label": "PIP bij Tabblad Wisselen",
+        "description": "Automatisch PIP inschakelen bij het wisselen van tabbladen met een niet-gedempt video",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "scrollSwitch": {
+        "label": "Schakel naar beeld-in-beeld bij scrollen",
+        "description": "Als de huidige pagina een video afspeelt en de video niet is gedempt en de video buiten het zichtbare bereik is bij het scrollen, wordt beeld-in-beeld ingeschakeld.",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Gebruikersactivatie vereist",
+      "tips_1": "Gebruikersactivatie betekent dat de gebruiker momenteel interactie heeft met de pagina",
+      "tips_2": "Meer specifiek activeren invoergebeurtenissen zoals:",
+      "tips_3": "Opmerking: Het gebruik van het muiswiel of veegbewegingen zal niet activeren!",
+      "tips_4": "Als u meer details wilt, bezoek dan:",
+      "click": "Klik",
+      "contextmenu": "Rechtermuisklikmenu",
+      "dblclick": "Dubbelklik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tabbladgroep inklapgedrag",
+        "description": "Wijzig het gedrag van het inklappen van tabbladgroepen in de Chrome-browser",
+        "option_collapse_others": "Toon huidige groep en klap anderen in",
+        "option_disable": "Alle groepen uitvouwen",
+        "option_auto": "Gebruik Chrome standaardinstellingen"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automatisch maken of deelnemen aan dezelfde domeingroep",
+        "description": "Wanneer ingeschakeld, worden nieuw geopende tabbladen automatisch toegevoegd aan dezelfde domeingroep. Als de domeingroep niet bestaat, wordt een nieuwe domeingroep gemaakt",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filter vastgezette tabbladen in groepen",
+        "description": "Wanneer ingeschakeld, worden vastgezette tabbladen niet toegevoegd aan groepen",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Schakel voortgangsbalk in",
+        "description": "Wanneer ingeschakeld, wordt een leesvoortgangsbalk weergegeven onder de tabblad titelbalk",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "readingProgressBar": {
+        "label": "Lees voortgangsbalk",
+        "description": "Wanneer ingeschakeld, wordt een leesvoortgangsbalk weergegeven onder de tabblad titelbalk",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "scrollHeightRatio": {
+        "label": "Schermhoogteverhouding",
+        "description": "De verhouding tussen de zichtbare vensterhoogte en de paginahoogte. Een voortgangsbalk wordt weergegeven wanneer de verhouding wordt overschreden",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "playingProgressBar": {
+        "label": "Speel voortgangsbalk",
+        "description": "Wanneer ingeschakeld, wordt een speelvoortgangsbalk weergegeven onder de tabblad titelbalk",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Schakel zwevende bal in",
+        "description": "Wanneer het zijpaneel is gesloten, wordt een zwevende bal weergegeven aan de rechterkant van de pagina, waarmee u snel het zijpaneel kunt openen."
+      }
+    },
+    "performance": {
+      "label": "Prestaties",
+      "saveMemoryAction": {
+        "label": "Hoe geheugen op tabbladen te besparen",
+        "description": "Om geheugen op tabbladen te besparen, kunt u ervoor kiezen om tabbladen te sluiten of tabbladen te verwerpen.",
+        "discardTips": "een verworpen tabblad gaat nergens heen. We beëindigen het maar het is nog steeds zichtbaar op de Chrome tabstrip. Als u terugnavigeert naar een tabblad dat is verworpen, wordt het opnieuw geladen wanneer erop wordt geklikt. Formulierinhoud, scrollpositie enzovoort worden opgeslagen en hersteld op dezelfde manier als tijdens vooruit/achteruit tabbladnavigatie.",
+        "disabled": "Uitgeschakeld",
+        "closeTabs": "Tabbladen sluiten",
+        "discardTabs": "Tabbladen verwerpen"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Hoe lang inactieve tabbladen verwerpen",
+        "description": "Wanneer er geen audio of video wordt afgespeeld op het tabblad en automatisch verwerpen niet verboden is, wordt het tabblad na de opgegeven tijd verworpen.",
+        "minutes": "Minuten"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Hoe lang inactieve tabbladen sluiten",
+        "description": "Wanneer er geen audio of video wordt afgespeeld op het tabblad en automatisch verwerpen niet verboden is, wordt het tabblad na de opgegeven tijd gesloten.",
+        "minutes": "Minuten"
+      },
+      "disableAnimations": {
+        "label": "Animaties uitschakelen",
+        "description": "schakel het rimpel-effect uit en schakel alle overgangen uit"
+      }
+    }
+  }
+}

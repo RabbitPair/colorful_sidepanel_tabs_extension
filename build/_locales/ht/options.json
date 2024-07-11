@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Ouvri bò kote panèl pou wè",
+  "_execute_action": "Aktive ekstansyon sa a",
+  "openSidePanel": "Ouvri panèl bò kote",
+  "settings": {
+    "resetCurrentPageSettings": "Reyajiste anviwònman paj kouran an",
+    "modules": {
+      "appearance": "Aparans",
+      "beautify": "Bèl",
+      "tabs": "Tab",
+      "history": "Istwa",
+      "shortcuts": "Kout kòt",
+      "pip": "Imaj nan imaj",
+      "chromeTabGroupAdvanced": "Gwoup tab avanse",
+      "progressBar": "ba pwogrè",
+      "floatBall": "Boul flotan",
+      "experimentalFeatures": "Karakteristik eksperyansyèl"
+    },
+    "appearance": {
+      "header": "Aparans",
+      "language": {
+        "label": "Lang interfè",
+        "description": "Chwazi lang pou afichaj interfè a"
+      },
+      "theme": {
+        "label": "Mod koulè",
+        "description": "Chwazi mod koulè klè oswa fonse"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Lè aktive, interfè a pral afiche direksyon tèks la soti nan dwat pou ale nan goch"
+      },
+      "fontSize": {
+        "label": "Gwo tèks la",
+        "description": "Chwazi gwosè tèks la",
+        "small": "Ti",
+        "large": "Gwo"
+      },
+      "fontFamily": {
+        "label": "Famni font",
+        "description": "Chwazi fanmi font la"
+      },
+      "fontColor": {
+        "label": "Koulè font",
+        "description": "Chwazi koulè font la"
+      },
+      "fontWeight": {
+        "label": "Pwoblèm font",
+        "description": "Chwazi pwoblèm font la"
+      },
+      "extAction": {
+        "label": "Aksyon klike sou ikòn ekstansyon an",
+        "description": "Chwazi aksyon lè klike sou ikòn ekstansyon an",
+        "openPopup": "Ouvri popup",
+        "openSidePanel": "Ouvri panèl bò kote"
+      },
+      "SidePanelPosition": {
+        "label": "Pozisyon panèl bò kote",
+        "description": "Chwazi si panèl la bò kote a dwe afiche sou bò gòch oswa dwat.",
+        "goToChromeSettings": "Ale nan anviwònman Chrome a"
+      },
+      "searchBoxPosition": {
+        "label": "Pozisyon bwat chèch la",
+        "description": "Chwazi pozisyon bwat chèch la",
+        "top": "Anwo",
+        "bottom": "Anba",
+        "hide": "Kache"
+      },
+      "toolbar": {
+        "label": "Montre baryè zouti",
+        "description": "Lè aktive, baryè zouti a afiche"
+      },
+      "bottomNav": {
+        "label": "Montre baryè navigasyon anba",
+        "description": "Lè aktive, baryè navigasyon anba a afiche"
+      },
+      "buttonPosition": {
+        "label": "Pozisyon bouton yo",
+        "description": "Chwazi pozisyon bouton yo",
+        "left": "Goche",
+        "right": "Dwat"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Kache panèl bò kote nan ekran total",
+        "description": "Lè aktive, panèl la bò kote pral kache otomatikman lè paj la nan ekran total. Dapre limitasyon Chrome a, panèl la pa ka reouvri otomatikman. Ou bezwen louvri panèl la bò kote mannyè mannyè!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fond koulè",
+        "description": "Lè aktive, panèl la bò kote pral afiche yon fon koulè"
+      },
+      "backgroundPicture": {
+        "label": "Imaj fon",
+        "description": "Klike sou [+] pou ajoute yon imaj koutim, klike sou [-] pou efase yon imaj koutim. Ou ka jwenn imaj ou renmen sou sit entènèt sa yo.",
+        "dialogDescription": "Antre adrès imaj la",
+        "OK": "OK",
+        "Cancel": "Anile",
+        "invalidImage": "Adrès imaj envalid"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparans imaj",
+        "description": "Chwazi transparans imaj la",
+        "transparent": "Transparan",
+        "opaque": "Opak"
+      },
+      "backgroundImageBlur": {
+        "label": "Entansite Flou",
+        "description": "Chwazi entansite flou a"
+      },
+      "backgroundImageBrightness": {
+        "label": "Klere",
+        "description": "Chwazi klere a, rekòmande sèlman pou mòd nwa"
+      },
+      "listBackgroundStyle": {
+        "label": "Stil fon lis la",
+        "description": "Chwazi stil fon lis la",
+        "single": "Sèl",
+        "none": "Pa gen anyen",
+        "simple": "Senp",
+        "complementary": "Konpliman",
+        "analogous": "Analog",
+        "triadic": "Triadik",
+        "tetradic": "Tetradik"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparans fon lis la",
+        "description": "Chwazi transparans fon lis la",
+        "transparent": "Transparan",
+        "opaque": "Opak"
+      },
+      "listBottomBorder": {
+        "label": "Bòdè anba lis la",
+        "description": "Chwazi bòdè anba lis la",
+        "none": "Pa gen anyen",
+        "dashed": "Tire",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Bar zouti flou",
+        "description": "Sèvi ak stil dizayn Microsoft Fluent pou bar zouti ak souplwaye yo sou kontni entènèt la",
+        "goToChromeSettings": "Ale nan anviwònman Chrome a"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vizyon lis",
+        "description": "Chanje vizyon lis la",
+        "compact": "Vizyon konpak",
+        "visual": "Vizyon vizyèl"
+      },
+      "showBy": {
+        "label": "Montre pa",
+        "description": "Chanje montre pa a"
+      },
+      "sortBy": {
+        "label": "Trikò pa",
+        "description": "Chanje trikò pa a"
+      },
+      "showFullUrl": {
+        "label": "Montre URL konplè",
+        "description": "Lè aktive, URL konplè a pral montre anba tit tab la"
+      },
+      "currentWindowOnly": {
+        "label": "Sèlman fenèt kouran an",
+        "description": "Sèlman montre tab yo nan fenèt la kouran. Si li dezaktive, tab yo soti nan tout fenèt yo pral montre"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Montre tab pine kòm ikòn",
+        "description": "Lè aktive, tab pine yo pral afiche kòm ikòn epi pa nan lis la"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Montre ikòn sit entènèt lè kòlapse gwoup yo",
+        "description": "Lè aktive, gwoup kòlapse yo pral montre ikòn tab yo"
+      },
+      "hoverPreview": {
+        "label": "Previzyone souvolaj",
+        "description": "Lè aktive, souvolaj sou tab yo pral montre previzyone tab yo"
+      },
+      "previewWithThumbnail": {
+        "label": "Montre minyatir nan previzyone",
+        "description": "Lè aktive, previzyon yo pral montre minyatir tab yo",
+        "alert": "Kaptire zòn vizib la nan tab la aktif kounye a nan yon fenèt espesifye. Pou rele metòd sa a, ekstansyon an dwe gen <all_urls> otorizasyon oswa otorizasyon activeTab.",
+        "deniedMessage": "Ou te refize otorizasyon ki nesesè a, se konsa anviwònman yo pa chanje. Si ou chanje lide ou, tanpri klike ankò ak pèmèt otorizasyon an"
+      },
+      "previewDelay": {
+        "label": "Retad previzyone",
+        "description": "Chwazi tan retad pou previzyon tab lè souvolaj sou tab yo, elatriye (segond). Si ou mete li nan 0, pa gen retad",
+        "seconds": "Segond"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Sove tab ki fèmen resaman",
+        "description": "Lè aktive, sove tab ki fèmen resaman"
+      },
+      "dataSource": {
+        "label": "Sous done",
+        "description": "Chwazi sous done",
+        "recentlyClosedTabs": "Tab ki fèmen resaman",
+        "chromeHistory": "Istwa Chrome",
+        "alert": "Pou chèche dosye istwa yo, ou bezwen otorizasyon ou pou pèmèt",
+        "deniedMessage": "Ou te refize otorizasyon ki nesesè a, se konsa anviwònman yo pa chanje. Si ou chanje lide ou, tanpri klike ankò ak pèmèt otorizasyon an"
+      },
+      "showInSidePanel": {
+        "label": "Montre nan panèl bò kote",
+        "description": "Lè aktive, montre nan panèl bò kote"
+      },
+      "showInTabSearchResults": {
+        "label": "Montre istwa nan rezilta chèch tab yo",
+        "description": "Lè aktive, dosye istwa resaman yo pral afiche nan rezilta chèch tab yo"
+      },
+      "limitSearchResults": {
+        "label": "Limite kantite dosye istwa nan rezilta chèch tab yo",
+        "description": "Chwazi limit kantite dosye istwa nan rezilta chèch tab yo. Dosye istwa ki depase limit la pral filtre",
+        "alert": "Trop dosye pral afekte vitès chaje paj la"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Kantite tab ki fèmen resaman pou kenbe",
+        "description": "Chwazi kantite tab ki fèmen resaman pou kenbe"
+      },
+      "keepDays": {
+        "label": "Kantite jou pou kenbe tab ki fèmen resaman",
+        "description": "Chwazi kantite jou pou kenbe tab ki fèmen resaman. Done ki ekspire yo pral efase",
+        "days": "Jou"
+      },
+      "openDuration": {
+        "label": "Dwazyèm louvri",
+        "description": "Se sèlman tab ki louvri pou pi lontan pase tan ki mete a pral sove",
+        "seconds": "Segond"
+      }
+    },
+    "shortcuts": {
+      "alert": "Paj sa a se pou afichaj sèlman. Pou modifye kout kòt yo, tanpri vizite [Ekstansyon]->[Jere Ekstansyon]->[Kout kòt klavye]",
+      "goToChromeSettings": "Ale nan anviwònman Chrome a",
+      "_execute_action": "Aktive ekstansyon sa a",
+      "openSidePanel": "Ouvri panèl bò kote"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imaj nan imaj",
+      "tabSwitch": {
+        "label": "PIP sou chanjman tab",
+        "description": "Antre otomatikman nan PIP lè wap chanje tab ak yon videyo ki pa mete sou sòt",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "scrollSwitch": {
+        "label": "Chanje nan imaj nan imaj lè wap defile",
+        "description": "Si paj la kounye a ap jwe yon videyo epi videyo a pa mete sou sòt epi videyo a soti nan zòn vizib la lè wap defile, li pral antre nan imaj nan imaj.",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Nesesite aktivasyon itilizatè",
+      "tips_1": "Aktivasyon itilizatè vle di itilizatè a ap entèraksyon kounye a ak paj la",
+      "tips_2": "Plis espesifikman, aktivasyon an mete an aksyon evènman antre tankou:",
+      "tips_3": "Nòt: Lè wap sèvi ak roda souvolan oswa jès swiv, sa pa pral mete an aksyon!",
+      "tips_4": "Si ou ta renmen plis detay, tanpri vizite:",
+      "click": "Klike",
+      "contextmenu": "Meni dwat",
+      "dblclick": "Double-klike"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Konpòtman kòlapse gwoup tab",
+        "description": "Modifye konpòtman kòlapse gwoup tab navigatè Chrome a",
+        "option_collapse_others": "Montre gwoup kouran an epi kòlapse lòt yo",
+        "option_disable": "Epanse tout gwoup yo",
+        "option_auto": "Sèvi ak anviwònman default Chrome a"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Kreye otomatikman oswa jwenn gwoup menm domèn",
+        "description": "Lè aktive, tab ki louvri nouvo yo pral otomatikman jwenn gwoup menm domèn an. Si gwoup domèn an pa egziste, y ap kreye yon nouvo gwoup domèn",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtre tab pine nan gwoup yo",
+        "description": "Lè aktive, tab pine yo pa pral ajoute nan gwoup yo",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Aktive bar pwogrè a",
+        "description": "Lè aktive, yon bar pwogrè lekti pral afiche anba baryè tit la tab la",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "readingProgressBar": {
+        "label": "Bar pwogrè lekti",
+        "description": "Lè aktive, yon bar pwogrè lekti pral afiche anba baryè tit la tab la",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "scrollHeightRatio": {
+        "label": "Rasyon wotè fènèt la",
+        "description": "Rasyon wotè fènèt vizib la rive nan wotè paj la. Yon bar pwogrè pral afiche lè rasyon an depase",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "playingProgressBar": {
+        "label": "Bar pwogrè jwe",
+        "description": "Lè aktive, yon bar pwogrè jwe pral afiche anba baryè tit la tab la",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Aktive boul flotan",
+        "description": "Lè panèl la bò kote fèmen, yon boul flotan pral afiche sou bò dwat paj la, pèmèt ou louvri rapidman panèl la bò kote."
+      }
+    },
+    "performance": {
+      "label": "Pèfòmans",
+      "saveMemoryAction": {
+        "label": "Kijan pou sove memoris sou tab yo",
+        "description": "Pou sove memoris sou tab yo, ou ka chwazi fèmen tab yo oswa jete tab yo.",
+        "discardTips": "yon tab ki te jete pa ale nannen. Nou touye l, men li toujou vizib sou bwat tab Chrome a. Si ou retounen sou yon tab ki te jete, li pral rechaje lè ou klike sou li. Kontni fòm, pozisyon defileman ak lòt bagay tankou sa yo sove ak retabli menm jan yo ta fèt pandan navigasyon tab nan direksyon anvan/arèyè.",
+        "disabled": "Dezaktive",
+        "closeTabs": "Fèmen tab yo",
+        "discardTabs": "Jete tab yo"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Kijan lontan pou jete tab ki enaktif",
+        "description": "Lè pa gen odyo oswa videyo ki ap jwe sou tab la ak jete otomatik pa entèdi, tab la pral jete apre tan ki espefye a.",
+        "minutes": "Minit"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Kijan lontan pou fèmen tab ki enaktif",
+        "description": "Lè pa gen odyo oswa videyo ki ap jwe sou tab la ak jete otomatik pa entèdi, tab la pral fèmen apre tan ki espefye a.",
+        "minutes": "Minit"
+      },
+      "disableAnimations": {
+        "label": "Dezaktive animasyon yo",
+        "description": "dezaktive efè valan an ak dezaktive tout tranzisyon yo"
+      }
+    }
+  }
+}

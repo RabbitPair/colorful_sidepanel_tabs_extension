@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Menedżjar tal-Tagħrif tal-Pannell tas-Saħħa"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Immaniġġja tabs fil-pannell laterali, Sabiħa wisq biex tkun daqshekk tajba."
+  },
+  "openSidePanel": {
+    "message": "Iftaħ il-Pannell tas-Saħħa"
+  }
+}

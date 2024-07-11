@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Mở bảng điều khiển bên để xem trước",
+  "_execute_action": "Kích hoạt tiện ích này",
+  "openSidePanel": "Mở bảng điều khiển bên",
+  "settings": {
+    "resetCurrentPageSettings": "Đặt lại cài đặt trang hiện tại",
+    "modules": {
+      "appearance": "Giao diện",
+      "beautify": "Làm đẹp",
+      "tabs": "Tab",
+      "history": "Lịch sử",
+      "shortcuts": "Phím tắt",
+      "pip": "Hình trong hình",
+      "chromeTabGroupAdvanced": "Nhóm tab tiên tiến",
+      "progressBar": "Thanh tiến trình",
+      "floatBall": "Hình cầu nổi",
+      "experimentalFeatures": "Tính năng thử nghiệm"
+    },
+    "appearance": {
+      "header": "Giao diện",
+      "language": {
+        "label": "Ngôn ngữ giao diện",
+        "description": "Đặt ngôn ngữ cho hiển thị giao diện"
+      },
+      "theme": {
+        "label": "Chế độ màu sắc",
+        "description": "Chọn chế độ màu sáng hoặc tối"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Khi bật, giao diện sẽ hiển thị hướng văn bản từ phải sang trái"
+      },
+      "fontSize": {
+        "label": "Cỡ chữ",
+        "description": "Đặt cỡ chữ",
+        "small": "Nhỏ",
+        "large": "Lớn"
+      },
+      "fontFamily": {
+        "label": "Họ phông chữ",
+        "description": "Thiết lập họ phông chữ"
+      },
+      "fontColor": {
+        "label": "Màu chữ",
+        "description": "Thiết lập màu chữ"
+      },
+      "fontWeight": {
+        "label": "Độ đậm của chữ",
+        "description": "Thiết lập độ đậm của chữ"
+      },
+      "extAction": {
+        "label": "Hành động khi nhấp vào biểu tượng tiện ích",
+        "description": "Đặt hành động khi nhấp vào biểu tượng tiện ích",
+        "openPopup": "Mở cửa sổ popup",
+        "openSidePanel": "Mở bảng điều khiển bên"
+      },
+      "SidePanelPosition": {
+        "label": "Vị trí bảng điều khiển bên",
+        "description": "Đặt xem bảng điều khiển bên ở bên trái hoặc bên phải.",
+        "goToChromeSettings": "Đi đến cài đặt Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Vị trí hộp tìm kiếm",
+        "description": "Đặt vị trí của hộp tìm kiếm",
+        "top": "Trên",
+        "bottom": "Dưới",
+        "hide": "Ẩn"
+      },
+      "toolbar": {
+        "label": "Hiển thị thanh công cụ",
+        "description": "Khi bật, thanh công cụ sẽ được hiển thị"
+      },
+      "bottomNav": {
+        "label": "Hiển thị thanh điều hướng dưới cùng",
+        "description": "Khi bật, thanh điều hướng dưới cùng sẽ được hiển thị"
+      },
+      "buttonPosition": {
+        "label": "Vị trí nút",
+        "description": "Đặt vị trí của các nút",
+        "left": "Trái",
+        "right": "Phải"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ẩn bảng điều khiển bên khi toàn màn hình",
+        "description": "Khi bật, bảng điều khiển bên sẽ tự động ẩn khi trang ở chế độ toàn màn hình. Do hạn chế của Chrome, bảng điều khiển bên không thể tự động mở lại. Bạn cần mở bảng điều khiển bên thủ công!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Nền màu",
+        "description": "Khi bật, bảng điều khiển bên sẽ hiển thị nền màu"
+      },
+      "backgroundPicture": {
+        "label": "Hình nền",
+        "description": "Nhấp vào [+] để thêm hình ảnh tùy chỉnh, nhấp vào [-] để xóa hình ảnh tùy chỉnh. Bạn có thể tìm hình ảnh yêu thích của mình trên các trang web sau.",
+        "dialogDescription": "Nhập địa chỉ hình ảnh",
+        "OK": "OK",
+        "Cancel": "Hủy",
+        "invalidImage": "Địa chỉ hình ảnh không hợp lệ"
+      },
+      "backgroundImageTransparency": {
+        "label": "Độ trong suốt của hình ảnh",
+        "description": "Đặt độ trong suốt của hình ảnh",
+        "transparent": "Trong suốt",
+        "opaque": "Mờ"
+      },
+      "backgroundImageBlur": {
+        "label": "Độ mờ",
+        "description": "Đặt độ mờ"
+      },
+      "backgroundImageBrightness": {
+        "label": "Độ sáng",
+        "description": "Đặt độ sáng, chỉ nên sử dụng cho chế độ tối"
+      },
+      "listBackgroundStyle": {
+        "label": "Kiểu nền danh sách",
+        "description": "Đặt kiểu nền danh sách",
+        "single": "Đơn",
+        "none": "Không",
+        "simple": "Đơn giản",
+        "complementary": "Bổ sung",
+        "analogous": "Tương tự",
+        "triadic": "Tam giác",
+        "tetradic": "Tứ giác"
+      },
+      "listBackgroundTransparency": {
+        "label": "Độ trong suốt nền danh sách",
+        "description": "Đặt độ trong suốt nền danh sách",
+        "transparent": "Trong suốt",
+        "opaque": "Mờ"
+      },
+      "listBottomBorder": {
+        "label": "Đường viền dưới danh sách",
+        "description": "Đặt đường viền dưới danh sách",
+        "none": "Không",
+        "dashed": "Gạch nối",
+        "solid": "Liền"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Thanh cuộn mượt mà",
+        "description": "Sử dụng kiểu thiết kế thanh cuộn mượt mà của Microsoft và đặt chúng lên nội dung web",
+        "goToChromeSettings": "Đi đến cài đặt Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Chế độ xem danh sách",
+        "description": "Chuyển đổi chế độ xem danh sách",
+        "compact": "Chế độ rút gọn",
+        "visual": "Chế độ trực quan"
+      },
+      "showBy": {
+        "label": "Hiển thị theo",
+        "description": "Chuyển đổi hiển thị theo"
+      },
+      "sortBy": {
+        "label": "Sắp xếp theo",
+        "description": "Chuyển đổi sắp xếp theo"
+      },
+      "showFullUrl": {
+        "label": "Hiển thị URL đầy đủ",
+        "description": "Khi bật, URL đầy đủ sẽ được hiển thị dưới tiêu đề tab"
+      },
+      "currentWindowOnly": {
+        "label": "Chỉ hiển thị cửa sổ hiện tại",
+        "description": "Chỉ hiển thị tab của cửa sổ hiện tại. Nếu tắt, tab từ tất cả các cửa sổ sẽ được hiển thị"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Hiển thị tab ghim dưới dạng biểu tượng",
+        "description": "Khi bật, tab ghim sẽ được hiển thị dưới dạng biểu tượng và không trong danh sách"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Hiển thị biểu tượng trang web khi thu gọn nhóm",
+        "description": "Khi bật, nhóm thu gọn sẽ hiển thị biểu tượng tab"
+      },
+      "hoverPreview": {
+        "label": "Xem trước khi di chuột",
+        "description": "Khi bật, di chuột qua tab sẽ hiển thị xem trước tab"
+      },
+      "previewWithThumbnail": {
+        "label": "Hiển thị hình ảnh xem trước",
+        "description": "Khi bật, xem trước sẽ hiển thị hình ảnh xem trước tab",
+        "alert": "Chụp khu vực hiển thị của tab hiện tại đang hoạt động trong cửa sổ cụ thể. Để gọi phương thức này, tiện ích phải có quyền <all_urls> hoặc quyền activeTab.",
+        "deniedMessage": "Bạn đã từ chối quyền cần thiết, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý kiến, vui lòng nhấp lại và cho phép ủy quyền"
+      },
+      "previewDelay": {
+        "label": "Độ trễ xem trước",
+        "description": "Đặt thời gian trễ cho xem trước tab khi di chuột qua tab, v.v. (giây). Nếu đặt là 0, sẽ không có trễ",
+        "seconds": "Giây"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Lưu tab đã đóng gần đây",
+        "description": "Khi bật, lưu tab đã đóng gần đây"
+      },
+      "dataSource": {
+        "label": "Nguồn dữ liệu",
+        "description": "Chọn nguồn dữ liệu",
+        "recentlyClosedTabs": "Tab đã đóng gần đây",
+        "chromeHistory": "Lịch sử Chrome",
+        "alert": "Để tìm kiếm các bản ghi lịch sử, bạn cần ủy quyền của bạn để kích hoạt",
+        "deniedMessage": "Bạn đã từ chối quyền cần thiết, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý kiến, vui lòng nhấp lại và cho phép ủy quyền"
+      },
+      "showInSidePanel": {
+        "label": "Hiển thị trong bảng điều khiển bên",
+        "description": "Khi bật, hiển thị trong bảng điều khiển bên"
+      },
+      "showInTabSearchResults": {
+        "label": "Hiển thị lịch sử trong kết quả tìm kiếm tab",
+        "description": "Khi bật, các bản ghi lịch sử gần đây sẽ được hiển thị trong kết quả tìm kiếm tab"
+      },
+      "limitSearchResults": {
+        "label": "Giới hạn số bản ghi lịch sử trong kết quả tìm kiếm tab",
+        "description": "Đặt giới hạn số bản ghi lịch sử trong kết quả tìm kiếm tab. Các bản ghi lịch sử vượt quá giới hạn sẽ được lọc",
+        "alert": "Quá nhiều bản ghi sẽ ảnh hưởng đến tốc độ tải trang"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Số tab đã đóng gần đây để giữ",
+        "description": "Đặt số tab đã đóng gần đây để giữ"
+      },
+      "keepDays": {
+        "label": "Số ngày giữ tab đã đóng gần đây",
+        "description": "Đặt số ngày giữ tab đã đóng gần đây. Dữ liệu hết hạn sẽ bị xóa",
+        "days": "Ngày"
+      },
+      "openDuration": {
+        "label": "Thời gian mở",
+        "description": "Chỉ các tab mở lâu hơn thời gian đặt sẽ được lưu",
+        "seconds": "Giây"
+      }
+    },
+    "shortcuts": {
+      "alert": "Trang này chỉ dành cho hiển thị. Để sửa đổi phím tắt, vui lòng truy cập [Tiện ích mở rộng]->[Quản lý tiện ích mở rộng]->[Phím tắt bàn phím]",
+      "goToChromeSettings": "Đi đến cài đặt Chrome",
+      "_execute_action": "Kích hoạt tiện ích này",
+      "openSidePanel": "Mở bảng điều khiển bên"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Hình trong hình",
+      "tabSwitch": {
+        "label": "Hình trong hình khi chuyển tab",
+        "description": "Tự động chuyển sang hình trong hình khi chuyển tab với video không tắt tiếng",
+        "enabled": "Bật",
+        "disabled": "Tắt"
+      },
+      "scrollSwitch": {
+        "label": "Chuyển sang hình trong hình khi cuộn",
+        "description": "Nếu trang hiện tại đang phát video và video không tắt tiếng và video nằm ngoài phạm vi nhìn thấy khi cuộn, nó sẽ chuyển sang hình trong hình.",
+        "enabled": "Bật",
+        "disabled": "Tắt"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Yêu cầu kích hoạt người dùng",
+      "tips_1": "Kích hoạt người dùng có nghĩa là người dùng đang tương tác với trang",
+      "tips_2": "Cụ thể hơn, kích hoạt kích hoạt sự kiện nhập như:",
+      "tips_3": "Lưu ý: Sử dụng bánh xe cuộn hoặc cử chỉ vuốt chuột sẽ không kích hoạt!",
+      "tips_4": "Nếu bạn muốn biết thêm chi tiết, vui lòng truy cập:",
+      "click": "Nhấp chuột",
+      "contextmenu": "Menu chuột phải",
+      "dblclick": "Nhấp đúp"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Hành vi thu gọn nhóm tab",
+        "description": "Sửa đổi hành vi thu gọn nhóm tab trình duyệt Chrome",
+        "option_collapse_others": "Hiển thị nhóm hiện tại và thu gọn nhóm khác",
+        "option_disable": "Mở rộng tất cả các nhóm",
+        "option_auto": "Sử dụng cài đặt mặc định của Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Tự động tạo hoặc tham gia nhóm cùng miền",
+        "description": "Khi bật, các tab mới mở sẽ tự động tham gia nhóm cùng miền. Nếu nhóm miền không tồn tại, một nhóm miền mới sẽ được tạo",
+        "enabled": "Bật",
+        "disabled": "Tắt"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Lọc tab ghim ra khỏi nhóm",
+        "description": "Khi bật, tab ghim sẽ không được thêm vào nhóm",
+        "enabled": "Bật",
+        "disabled": "Tắt"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Bật thanh tiến trình",
+        "description": "Khi bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab",
+        "enabled": "Bật",
+        "disabled": "Tắt"
+      },
+      "readingProgressBar": {
+        "label": "Thanh tiến trình đọc",
+        "description": "Khi được bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
+      },
+      "scrollHeightRatio": {
+        "label": "Tỷ lệ chiều cao cuộn",
+        "description": "Tỷ lệ giữa chiều cao cửa sổ hiển thị và chiều cao trang. Một thanh tiến trình sẽ được hiển thị khi tỷ lệ này bị vượt quá",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
+      },
+      "playingProgressBar": {
+        "label": "Thanh tiến trình phát",
+        "description": "Khi được bật, thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề tab",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Bật float ball",
+        "description": "Khi bảng điều khiển bên đóng, một float ball sẽ được hiển thị ở phía bên phải của trang, cho phép mở nhanh bảng điều khiển bên."
+      }
+    },
+    "performance": {
+      "label": "Hiệu suất",
+      "saveMemoryAction": {
+        "label": "Cách tiết kiệm bộ nhớ trên tab",
+        "description": "Để tiết kiệm bộ nhớ trên tab, bạn có thể chọn đóng tab hoặc loại bỏ tab.",
+        "discardTips": "một tab đã bị loại bỏ không đi đâu cả. Chúng tôi giết nó nhưng nó vẫn hiển thị trên thanh tab Chrome. Nếu bạn quay lại một tab đã bị loại bỏ, nó sẽ tải lại khi được nhấp. Nội dung biểu mẫu, vị trí cuộn và những thứ khác được lưu và khôi phục cùng cách mà chúng sẽ được trong quá trình điều hướng tab tiến/lùi.",
+        "disabled": "Đã tắt",
+        "closeTabs": "Đóng tab",
+        "discardTabs": "Loại bỏ tab"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Bao lâu để loại bỏ tab không hoạt động",
+        "description": "Khi không có âm thanh hoặc video đang phát trên tab và việc loại bỏ tự động không bị cấm, tab sẽ bị loại bỏ sau thời gian quy định.",
+        "minutes": "Phút"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Bao lâu để đóng tab không hoạt động",
+        "description": "Khi không có âm thanh hoặc video đang phát trên tab và việc loại bỏ tự động không bị cấm, tab sẽ được đóng sau thời gian quy định.",
+        "minutes": "Phút"
+      },
+      "disableAnimations": {
+        "label": "Tắt hiệu ứng",
+        "description": "tắt hiệu ứng sóng nhấp và tắt tất cả các chuyển động"
+      }
+    }
+  }
+}

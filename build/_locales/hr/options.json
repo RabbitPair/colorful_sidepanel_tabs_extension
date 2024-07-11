@@ -1,0 +1,337 @@
+{
+  "OpenSideSanelToPreview": "Otvori bočnu ploču za pregled",
+  "_execute_action": "Aktiviraj ovaj dodatak",
+  "openSidePanel": "Otvori bočnu ploču",
+  "settings": {
+    "resetCurrentPageSettings": "Resetiraj postavke trenutne stranice",
+    "modules": {
+      "appearance": "Izgled",
+      "beautify": "Ulepšaj",
+      "tabs": "Kartice",
+      "history": "Povijest",
+      "shortcuts": "Prečaci",
+      "pip": "Slika u slici",
+      "chromeTabGroupAdvanced": "Napredne kartice grupe",
+      "progressBar": "traka za napredak",
+      "floatBall": "Plutajuća loptica",
+      "experimentalFeatures": "Eksperimentalne značajke"
+    },
+    "appearance": {
+      "header": "Izgled",
+      "language": {
+        "label": "Jezik sučelja",
+        "description": "Postavite jezik za prikaz sučelja"
+      },
+      "theme": {
+        "label": "Način boja",
+        "description": "Odaberite svijetli ili tamni način boja"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kada je omogućeno, sučelje će prikazivati tekst s desna na lijevo"
+      },
+      "fontSize": {
+        "label": "Veličina fonta",
+        "description": "Postavite veličinu fonta",
+        "small": "Malo",
+        "large": "Veliko"
+      },
+      "fontFamily": {
+        "label": "Obitelj fontova",
+        "description": "Postavite obitelj fontova"
+      },
+      "fontColor": {
+        "label": "Boja fonta",
+        "description": "Postavite boju fonta"
+      },
+      "fontWeight": {
+        "label": "Debljina fonta",
+        "description": "Postavite debljinu fonta"
+      },
+      "extAction": {
+        "label": "Radnja klikom na ikonu dodatka",
+        "description": "Postavite radnju prilikom klika na ikonu dodatka",
+        "openPopup": "Otvori skočni prozor",
+        "openSidePanel": "Otvori bočnu ploču"
+      },
+      "SidePanelPosition": {
+        "label": "Položaj bočne ploče",
+        "description": "Postavite prikaz bočne ploče s lijeve ili desne strane.",
+        "goToChromeSettings": "Idi na postavke Chromea"
+      },
+      "searchBoxPosition": {
+        "label": "Položaj okvira za pretraživanje",
+        "description": "Postavite položaj okvira za pretraživanje",
+        "top": "Vrh",
+        "bottom": "Dno",
+        "hide": "Sakrij"
+      },
+      "toolbar": {
+        "label": "Prikaži alatnu traku",
+        "description": "Kada je omogućeno, prikazuje se alatna traka"
+      },
+      "bottomNav": {
+        "label": "Prikaži donju navigacijsku traku",
+        "description": "Kada je omogućeno, prikazuje se donja navigacijska traka"
+      },
+      "buttonPosition": {
+        "label": "Položaj gumba",
+        "description": "Postavite položaj gumba",
+        "left": "Lijevo",
+        "right": "Desno"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Sakrij bočnu ploču u punom zaslonu",
+        "description": "Kada je omogućeno, bočna ploča će se automatski sakriti kada je stranica u punom zaslonu. Zbog ograničenja Chromea, bočna ploča se ne može automatski ponovno otvoriti. Morate ručno ponovno otvoriti bočnu ploču!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Obojana pozadina",
+        "description": "Kada je omogućeno, bočna ploča će prikazati obojanu pozadinu"
+      },
+      "backgroundPicture": {
+        "label": "Pozadinska slika",
+        "description": "Kliknite [+] za dodavanje prilagođene slike, kliknite [-] za brisanje prilagođene slike. Svoje omiljene slike možete pronaći na sljedećim web stranicama.",
+        "dialogDescription": "Unesite adresu slike",
+        "OK": "U redu",
+        "Cancel": "Odustani",
+        "invalidImage": "Neispravna adresa slike"
+      },
+      "backgroundImageTransparency": {
+        "label": "Prozirnost slike",
+        "description": "Postavite prozirnost slike",
+        "transparent": "Prozirno",
+        "opaque": "Neprozirno"
+      },
+      "backgroundImageBlur": {
+        "label": "Intenzitet zamućenja",
+        "description": "Postavite intenzitet zamućenja"
+      },
+      "backgroundImageBrightness": {
+        "label": "Svjetlina",
+        "description": "Postavite svjetlinu, preporučeno samo za tamni način rada"
+      },
+      "listBackgroundStyle": {
+        "label": "Stil pozadine liste",
+        "description": "Postavite stil pozadine liste",
+        "single": "Jedno",
+        "none": "Ništa",
+        "simple": "Jednostavno",
+        "complementary": "Komplementarno",
+        "analogous": "Analogno",
+        "triadic": "Trijadno",
+        "tetradic": "Tetradno"
+      },
+      "listBackgroundTransparency": {
+        "label": "Prozirnost pozadine liste",
+        "description": "Postavite prozirnost pozadine liste",
+        "transparent": "Prozirno",
+        "opaque": "Neprozirno"
+      },
+      "listBottomBorder": {
+        "label": "Donja granica liste",
+        "description": "Postavite donju granicu liste",
+        "none": "Ništa",
+        "dashed": "Isprekidano",
+        "solid": "Puno"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Plytke trake za pomicanje",
+        "description": "Koristite Microsoftov dizajn plytkih traka za pomicanje i prekrijte ih preko web sadržaja",
+        "goToChromeSettings": "Idi na postavke Chromea"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Prikaz liste",
+        "description": "Promijenite prikaz liste",
+        "compact": "Kompaktni prikaz",
+        "visual": "Vizualni prikaz"
+      },
+      "showBy": {
+        "label": "Prikaži prema",
+        "description": "Promijenite prikaz prema"
+      },
+      "sortBy": {
+        "label": "Sortiraj prema",
+        "description": "Promijenite sortiranje prema"
+      },
+      "showFullUrl": {
+        "label": "Prikaži punu URL adresu",
+        "description": "Kada je omogućeno, puna URL adresa će biti prikazana ispod naslova kartice"
+      },
+      "currentWindowOnly": {
+        "label": "Samo trenutni prozor",
+        "description": "Prikaži samo kartice trenutnog prozora. Ako je onemogućeno, prikazat će se kartice sa svih prozora"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Prikaži pričvršćene kartice kao ikone",
+        "description": "Kada je omogućeno, pričvršćene kartice bit će prikazane kao ikone, a ne u listi"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Prikaži ikone web stranica prilikom skupljanja grupa",
+        "description": "Kada je omogućeno, skupljene grupe će prikazati ikone kartica"
+      },
+      "hoverPreview": {
+        "label": "Prikaz u prolazu",
+        "description": "Kada je omogućeno, prelazak mišem preko kartica će prikazati preglede kartica"
+      },
+      "previewWithThumbnail": {
+        "label": "Prikaži sličice u pregledu",
+        "description": "Kada je omogućeno, pregledi će prikazati sličice kartica",
+        "alert": "Zabilježite vidljivo područje trenutno aktivne kartice u određenom prozoru. Da biste pozvali ovu metodu, proširenje mora imati dozvolu <all_urls> ili dozvolu activeTab.",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, pa se postavke nisu promijenile. Ako promijenite mišljenje, molimo ponovno kliknite i odobrite autorizaciju"
+      },
+      "previewDelay": {
+        "label": "Odgoda pregleda",
+        "description": "Postavite vrijeme odgode za pregled kartica prilikom prelaska mišem preko kartica, itd. (sekunde). Ako je postavljeno na 0, neće biti odgode",
+        "seconds": "Sekunde"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Spremi nedavno zatvorene kartice",
+        "description": "Kada je omogućeno, spremite nedavno zatvorene kartice"
+      },
+      "dataSource": {
+        "label": "Izvor podataka",
+        "description": "Odaberite izvor podataka",
+        "recentlyClosedTabs": "Nedavno zatvorene kartice",
+        "chromeHistory": "Povijest Chromea",
+        "alert": "Za pretraživanje povijesnih zapisa, trebate vašu autorizaciju za omogućavanje",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, pa se postavke nisu promijenile. Ako promijenite mišljenje, molimo ponovno kliknite i odobrite autorizaciju"
+      },
+      "showInSidePanel": {
+        "label": "Prikaži u bočnoj ploči",
+        "description": "Kada je omogućeno, prikaži u bočnoj ploči"
+      },
+      "showInTabSearchResults": {
+        "label": "Prikaži povijest u rezultatima pretrage kartica",
+        "description": "Kada je omogućeno, nedavni povijesni zapisi bit će prikazani u rezultatima pretrage kartica"
+      },
+      "limitSearchResults": {
+        "label": "Ograniči broj povijesnih zapisa u rezultatima pretrage kartica",
+        "description": "Postavite ograničenje broja povijesnih zapisa u rezultatima pretrage kartica. Povijesni zapisi koji premašuju ograničenje bit će filtrirani",
+        "alert": "Previše zapisa će utjecati na brzinu učitavanja stranice"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Broj nedavno zatvorenih kartica za zadržati",
+        "description": "Postavite broj nedavno zatvorenih kartica za zadržati"
+      },
+      "keepDays": {
+        "label": "Broj dana za zadržati nedavno zatvorene kartice",
+        "description": "Postavite broj dana za zadržati nedavno zatvorene kartice. Istekli podaci bit će izbrisani",
+        "days": "Dani"
+      },
+      "openDuration": {
+        "label": "Trajanje otvaranja",
+        "description": "Samo će kartice otvorene duže od postavljenog vremena biti spremljene",
+        "seconds": "Sekunde"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ova stranica je samo za prikaz. Za izmjenu prečaca, posjetite [Proširenja]->[Upravljanje proširenjima]->[Prečaci na tipkovnici]",
+      "goToChromeSettings": "Idi na postavke Chromea",
+      "_execute_action": "Aktiviraj ovaj dodatak",
+      "openSidePanel": "Otvori bočnu ploču"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Slika u slici",
+      "tabSwitch": {
+        "label": "PIP prilikom prebacivanja kartica",
+        "description": "Automatski uđite u PIP prilikom prebacivanja kartica s neprigušenim videom",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      },
+      "scrollSwitch": {
+        "label": "Prebacivanje na sliku u slici prilikom pomicanja",
+        "description": "Ako se trenutna stranica reproducira video i video nije prigušen te je video izvan vidljivog područja prilikom pomicanja, ući će u sliku u slici.",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Potrebna je korisnička aktivacija",
+      "tips_1": "Korisnička aktivacija znači da korisnik trenutno interagira s stranicom",
+      "tips_2": "Točnije, aktivacija pokreće događaje unosa poput:",
+      "tips_3": "Napomena: Korištenje kotačića miša ili geste povlačenja prsta neće pokrenuti!",
+      "tips_4": "Ako želite više detalja, posjetite:",
+      "click": "Klik",
+      "contextmenu": "Izbornik desnim klikom",
+      "dblclick": "Dvostruki klik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Ponašanje skupine kartica prilikom skupljanja",
+        "description": "Izmijenite ponašanje skupljanja skupine kartica preglednika Chrome",
+        "option_collapse_others": "Prikaži trenutnu grupu i skupi ostale",
+        "option_disable": "Proširi sve grupe",
+        "option_auto": "Koristi zadane postavke Chromea"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automatsko stvaranje ili pridruživanje istoj domeni grupi",
+        "description": "Kada je omogućeno, novo otvorene kartice automatski će se pridružiti istoj domeni grupi. Ako domena grupa ne postoji, stvorit će se nova domena grupa",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtriraj pričvršćene kartice u grupama",
+        "description": "Kada je omogućeno, pričvršćene kartice neće biti dodane u grupe",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Omogući traku napretka",
+        "description": "Kada je omogućeno, traka napretka čitanja bit će prikazana ispod naslova kartice"
+      },
+      "readingProgressBar": {
+        "label": "Traka napretka čitanja",
+        "description": "Kada je omogućeno, traka napretka čitanja bit će prikazana ispod naslova kartice"
+      },
+      "scrollHeightRatio": {
+        "label": "Omjer visine prozora za pomicanje",
+        "description": "Omjer visine vidljivog prozora prema visini stranice. Traka napretka bit će prikazana kada se omjer premaši",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      },
+      "playingProgressBar": {
+        "label": "Traka napretka reprodukcije",
+        "description": "Kada je omogućeno, traka napretka reprodukcije bit će prikazana ispod naslova kartice"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Omogući plutajuću lopticu",
+        "description": "Kada je bočna ploča zatvorena, plutajuća loptica bit će prikazana na desnoj strani stranice, omogućujući brzo otvaranje bočne ploče."
+      }
+    },
+    "performance": {
+      "label": "Izvedba",
+      "saveMemoryAction": {
+        "label": "Kako sačuvati memoriju na karticama",
+        "description": "Da biste sačuvali memoriju na karticama, možete odabrati zatvaranje kartica ili odbacivanje kartica.",
+        "discardTips": "odbijena kartica ne ide nigdje. Mi je uništavamo, ali i dalje je vidljiva na Chrome traci kartica. Ako se vratite na karticu koja je odbačena, ponovno će se učitati pritiskom na nju. Sadržaj obrasca, položaj pomicanja i slično se spremaju i vraćaju na isti način kao što bi se radilo tijekom navigacije naprijed/natrag kartica.",
+        "disabled": "Onemogućeno",
+        "closeTabs": "Zatvori kartice",
+        "discardTabs": "Odbaci kartice"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Koliko dugo odbaciti neaktivne kartice",
+        "description": "Kada na kartici nema zvuka ili videa i automatsko odbacivanje nije zabranjeno, kartica će biti odbačena nakon određenog vremena.",
+        "minutes": "Minute"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Koliko dugo zatvoriti neaktivne kartice",
+        "description": "Kada na kartici nema zvuka ili videa i automatsko odbacivanje nije zabranjeno, kartica će biti zatvorena nakon određenog vremena.",
+        "minutes": "Minute"
+      },
+      "disableAnimations": {
+        "label": "Onemogući animacije",
+        "description": "onemogući efekt vala i onemogući sve prijelaze"
+      }
+    }
+  }
+}

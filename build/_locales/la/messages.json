@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Administratio tabulæ lateralis coloratæ"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Tabulas in latere gestas, nimis pulchrum ut tam bonum sit."
+  },
+  "openSidePanel": {
+    "message": "Aperi tabulam lateralem"
+  }
+}

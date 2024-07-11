@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Värvikas Külgriba Siltide Haldamine"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Halda vahekaarte külgribal, liiga ilus, et olla nii hea."
+  },
+  "openSidePanel": {
+    "message": "Ava Külgriba"
+  }
+}

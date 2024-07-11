@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Fargerik sidepaneletikettstyring"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Administrer faner i sidepanelet, For pen til å være så god."
+  },
+  "openSidePanel": {
+    "message": "Åpne sidepanelet"
+  }
+}

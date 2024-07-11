@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Open side panel to preview",
+  "_execute_action": "Activate this extension",
+  "openSidePanel": "Open side panel",
+  "settings": {
+    "resetCurrentPageSettings": "Reset current page settings",
+    "modules": {
+      "appearance": "Appearance",
+      "beautify": "Beautify",
+      "tabs": "Tabs",
+      "history": "History",
+      "shortcuts": "Shortcuts",
+      "pip": "Picture-in-picture",
+      "chromeTabGroupAdvanced": "Advanced tab groups",
+      "progressBar": "Progress bar",
+      "floatBall": "Float ball",
+      "experimentalFeatures": "Experimental features"
+    },
+    "appearance": {
+      "header": "Appearance",
+      "language": {
+        "label": "Interface language",
+        "description": "Set the language for the interface display"
+      },
+      "theme": {
+        "label": "Colour mode",
+        "description": "Choose light or dark colour mode"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "When enabled, the interface will display text direction from right to left"
+      },
+      "fontSize": {
+        "label": "Font size",
+        "description": "Set the font size",
+        "small": "Small",
+        "large": "Large"
+      },
+      "fontFamily": {
+        "label": "Font family",
+        "description": "Set the font family"
+      },
+      "fontColor": {
+        "label": "Font colour",
+        "description": "Set the font colour"
+      },
+      "fontWeight": {
+        "label": "Font weight",
+        "description": "Set the font weight"
+      },
+      "extAction": {
+        "label": "Click extension icon action",
+        "description": "Set the action when clicking the extension icon",
+        "openPopup": "Open popup",
+        "openSidePanel": "Open side panel"
+      },
+      "SidePanelPosition": {
+        "label": "Side panel position",
+        "description": "Set whether the side panel is displayed on the left or right.",
+        "goToChromeSettings": "Go to Chrome settings"
+      },
+      "searchBoxPosition": {
+        "label": "Search box position",
+        "description": "Set the position of the search box",
+        "top": "Top",
+        "bottom": "Bottom",
+        "hide": "Hide"
+      },
+      "toolbar": {
+        "label": "Show toolbar",
+        "description": "When enabled, the toolbar is displayed"
+      },
+      "bottomNav": {
+        "label": "Show bottom navigation bar",
+        "description": "When enabled, the bottom navigation bar is displayed"
+      },
+      "buttonPosition": {
+        "label": "Button position",
+        "description": "Set the position of the buttons",
+        "left": "Left",
+        "right": "Right"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Hide side panel in full screen",
+        "description": "When enabled, the side panel will automatically hide when the page is in full screen. Due to Chrome's limitations, the side panel cannot be automatically reopened. You need to manually reopen the side panel!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Coloured background",
+        "description": "When enabled, the side panel will display a coloured background"
+      },
+      "backgroundPicture": {
+        "label": "Background picture",
+        "description": "Click [+] to add a custom picture, click [-] to delete a custom picture. You can find your favourite pictures on the following websites.",
+        "dialogDescription": "Enter image address",
+        "OK": "OK",
+        "Cancel": "Cancel",
+        "invalidImage": "Invalid image address"
+      },
+      "backgroundImageTransparency": {
+        "label": "Image transparency",
+        "description": "Set the image transparency",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "backgroundImageBlur": {
+        "label": "Blur intensity",
+        "description": "Set blur intensity"
+      },
+      "backgroundImageBrightness": {
+        "label": "Brightness",
+        "description": "Set the brightness, recommended only for dark mode"
+      },
+      "listBackgroundStyle": {
+        "label": "List background style",
+        "description": "Set the list background style",
+        "single": "Single",
+        "none": "None",
+        "simple": "Simple",
+        "complementary": "Complementary",
+        "analogous": "Analogous",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "List background transparency",
+        "description": "Set the list background transparency",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "listBottomBorder": {
+        "label": "List bottom border",
+        "description": "Set the list bottom border",
+        "none": "None",
+        "dashed": "Dashed",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluent scrollbars",
+        "description": "Use Microsoft Fluent design style scrollbars and overlay them on the web content",
+        "goToChromeSettings": "Go to Chrome settings"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "List view",
+        "description": "Switch list view",
+        "compact": "Compact view",
+        "visual": "Visual view"
+      },
+      "showBy": {
+        "label": "Show by",
+        "description": "Switch show by"
+      },
+      "sortBy": {
+        "label": "Sort by",
+        "description": "Switch sort by"
+      },
+      "showFullUrl": {
+        "label": "Show full URL",
+        "description": "When enabled, the full URL will be shown under the tab title"
+      },
+      "currentWindowOnly": {
+        "label": "Current window only",
+        "description": "Only show tabs of the current window. If disabled, tabs from all windows will be shown"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Show pinned tabs as icons",
+        "description": "When enabled, pinned tabs will be displayed as icons and not in the list"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Show website icons when collapsing groups",
+        "description": "When enabled, collapsed groups will show tab icons"
+      },
+      "hoverPreview": {
+        "label": "Hover preview",
+        "description": "When enabled, hovering over tabs will show tab previews"
+      },
+      "previewWithThumbnail": {
+        "label": "Show thumbnails in preview",
+        "description": "When enabled, previews will show tab thumbnails",
+        "alert": "Capture the visible area of the currently active tab in a specified window. To call this method, the extension must have <all_urls> permission or activeTab permission.",
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorisation"
+      },
+      "previewDelay": {
+        "label": "Preview delay",
+        "description": "Set the delay time for tab previews when hovering over tabs, etc. (seconds). If set to 0, there will be no delay",
+        "seconds": "Seconds"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Save recently closed tabs",
+        "description": "When enabled, save recently closed tabs"
+      },
+      "dataSource": {
+        "label": "Data source",
+        "description": "Select data source",
+        "recentlyClosedTabs": "Recently closed tabs",
+        "chromeHistory": "Chrome history",
+        "alert": "To search history records, you need your authorisation to enable",
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorisation"
+      },
+      "showInSidePanel": {
+        "label": "Show in side panel",
+        "description": "When enabled, show in side panel"
+      },
+      "showInTabSearchResults": {
+        "label": "Show history in tab search results",
+        "description": "When enabled, recent history records will be displayed in tab search results"
+      },
+      "limitSearchResults": {
+        "label": "Limit number of history records in tab search results",
+        "description": "Set the limit number of history records in tab search results. History records exceeding the limit will be filtered",
+        "alert": "Too many records will affect page loading speed"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Number of recently closed tabs to keep",
+        "description": "Set the number of recently closed tabs to keep"
+      },
+      "keepDays": {
+        "label": "Number of days to keep recently closed tabs",
+        "description": "Set the number of days to keep recently closed tabs. Expired data will be deleted",
+        "days": "Days"
+      },
+      "openDuration": {
+        "label": "Open duration",
+        "description": "Only tabs open for longer than the set time will be saved",
+        "seconds": "Seconds"
+      }
+    },
+    "shortcuts": {
+      "alert": "This page is for display only. To modify shortcuts, please visit [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
+      "goToChromeSettings": "Go to Chrome settings",
+      "_execute_action": "Activate this extension",
+      "openSidePanel": "Open side panel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Picture-in-picture",
+      "tabSwitch": {
+        "label": "PIP on Tab Switch",
+        "description": "Auto-enter PIP when switching tabs with an unmuted video",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "scrollSwitch": {
+        "label": "Switch to picture-in-picture when scrolling",
+        "description": "If the current page is playing a video and the video is not muted and the video is out of the visible range when scrolling, it will enter picture-in-picture.",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "User activation required",
+      "tips_1": "User activation means the user is currently interacting with the page",
+      "tips_2": "More specifically, activation triggers input events such as:",
+      "tips_3": "Note: Using the mouse wheel scroll or swipe gesture will not trigger!",
+      "tips_4": "If you would like further details, please visit:",
+      "click": "Click",
+      "contextmenu": "Right-click menu",
+      "dblclick": "Double-click"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tab group collapse behaviour",
+        "description": "Modify the behavior of Chrome browser tab group collapse",
+        "option_collapse_others": "Show current group and collapse others",
+        "option_disable": "Expand all groups",
+        "option_auto": "Use Chrome default settings"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Auto create or join same domain group",
+        "description": "When enabled, newly opened tabs will automatically join the same domain group. If the domain group does not exist, a new domain group will be created",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filter out pinned tabs in groups",
+        "description": "When enabled, pinned tabs will not be added to groups",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Enable progress bar",
+        "description": "When enabled, a reading progress bar will be displayed below the tab title bar",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "When enabled, a reading progress bar will be displayed below the tab title bar",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "scrollHeightRatio": {
+        "label": "Scroll height ratio",
+        "description": "The ratio of visible window height to page height. A progress bar will be displayed when the ratio is exceeded",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "When enabled, a playing progress bar will be displayed below the tab title bar",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Enable float ball",
+        "description": "When the side panel is closed, a float ball will be displayed on the right side of the page, allowing quick opening of the side panel."
+      }
+    },
+    "performance": {
+      "label": "Performance",
+      "saveMemoryAction": {
+        "label": "How to save memory on tabs",
+        "description": "To save memory on tabs, you can choose to close tabs or discard tabs.",
+        "discardTips": "A discarded tab doesn't go anywhere. We kill it but it's still visible on the Chrome tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
+        "disabled": "Disabled",
+        "closeTabs": "Close tabs",
+        "discardTabs": "Discard tabs"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "How long to discard inactive tabs",
+        "description": "When there is no audio or video being played on the tab and automatic discarding is not prohibited, the tab will be discarded after the specified time.",
+        "minutes": "Minutes"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "How long to close inactive tabs",
+        "description": "When there is no audio or video being played on the tab and automatic discarding is not prohibited, the tab will be closed after the specified time.",
+        "minutes": "Minutes"
+      },
+      "disableAnimations": {
+        "label": "Disable animations",
+        "description": "Disable the ripple effect and disable all transitions"
+      }
+    }
+  }
+}

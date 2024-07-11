@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Fungura uruhande rwo kureba",
+  "_execute_action": "Shyira mu bikorwa iyi kongeraho",
+  "openSidePanel": "Fungura uruhande",
+  "settings": {
+    "resetCurrentPageSettings": "Subiramo igenamiterere ry'urupapuro ruriho",
+    "modules": {
+      "appearance": "Imiterere",
+      "beautify": "Gutunganya",
+      "tabs": "Amapaji",
+      "history": "Amateka",
+      "shortcuts": "Inzira ngufi",
+      "pip": "Ifoto mu ifoto",
+      "chromeTabGroupAdvanced": "Amapaji y'itsinda ryateye imbere",
+      "progressBar": "umurongo witerambere",
+      "floatBall": "Umupira w'urujya n'uruza",
+      "experimentalFeatures": "Ibintu by'igerageza"
+    },
+    "appearance": {
+      "header": "Imiterere",
+      "language": {
+        "label": "Ururimi rw'interface",
+        "description": "Shyiraho ururimi rwo kwerekana interface"
+      },
+      "theme": {
+        "label": "Ubwoko bw'amabara",
+        "description": "Hitamo uburyo bw'amabara y'urumuri cyangwa umwijima"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Iyo yemejwe, interface izerekana icyerekezo cy'inyandiko uhereye iburyo ujya ibumoso"
+      },
+      "fontSize": {
+        "label": "Ingano y'inyuguti",
+        "description": "Shyiraho ingano y'inyuguti",
+        "small": "Ntoya",
+        "large": "Nini"
+      },
+      "fontFamily": {
+        "label": "Igihugu cy'ifomu",
+        "description": "Emeza igihugu cy'ifomu"
+      },
+      "fontColor": {
+        "label": "Umucyo w'ifomu",
+        "description": "Emeza umucyo w'ifomu"
+      },
+      "fontWeight": {
+        "label": "Uburenganzira b'ifomu",
+        "description": "Emeza uburenganzira b'ifomu"
+      },
+      "extAction": {
+        "label": "Gukanda ku gikorwa cya ikoni y'inyongera",
+        "description": "Shyiraho igikorwa iyo ukanda ku ikoni y'inyongera",
+        "openPopup": "Fungura popup",
+        "openSidePanel": "Fungura uruhande"
+      },
+      "SidePanelPosition": {
+        "label": "Umwanya w'uruhande",
+        "description": "Shyiraho niba uruhande rwerekanwa ibumoso cyangwa iburyo.",
+        "goToChromeSettings": "Gana ku igenamiterere rya Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Umwanya w'agasanduku k'ubushakashatsi",
+        "description": "Shyiraho umwanya w'agasanduku k'ubushakashatsi",
+        "top": "Hejuru",
+        "bottom": "Hasi",
+        "hide": "Hisha"
+      },
+      "toolbar": {
+        "label": "Erekana ibikoresho",
+        "description": "Iyo yemejwe, ibikoresho birerekanwa"
+      },
+      "bottomNav": {
+        "label": "Erekana urubuga rwo hasi",
+        "description": "Iyo yemejwe, urubuga rwo hasi rurerekanwa"
+      },
+      "buttonPosition": {
+        "label": "Umwanya w'ibipimo",
+        "description": "Shyiraho umwanya w'ibipimo",
+        "left": "Ibumoso",
+        "right": "Iburyo"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Hisha uruhande mu buryo bwuzuye",
+        "description": "Iyo yemejwe, uruhande ruzahita ruhishwa iyo urupapuro ruri mu buryo bwuzuye. Kubera imbogamizi za Chrome, uruhande ntirushobora kongera gufungurwa. Ugomba kongera gufungura uruhande ku giti cyawe!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Inyuma y'amabara",
+        "description": "Iyo yemejwe, uruhande ruzerekana inyuma y'amabara"
+      },
+      "backgroundPicture": {
+        "label": "Ifoto y'inyuma",
+        "description": "Kanda [+] kongeraho ifoto yihariye, kanda [-] gusiba ifoto yihariye. Ushobora kubona amafoto ukunda ku mbuga zikurikira.",
+        "dialogDescription": "Injiza aderesi y'ifoto",
+        "OK": "OK",
+        "Cancel": "Hagarika",
+        "invalidImage": "Aderesi y'ifoto itariyo"
+      },
+      "backgroundImageTransparency": {
+        "label": "Gucengera kw'ifoto",
+        "description": "Shyiraho gucengera kw'ifoto",
+        "transparent": "Gucengera",
+        "opaque": "Guhuma"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensite y'uburanga",
+        "description": "Emeza intensite y'uburanga"
+      },
+      "backgroundImageBrightness": {
+        "label": "Uburenganzira",
+        "description": "Emeza uburenganzira, ushobora kumenyekana mu buryo bw'umunini w'uburanga"
+      },
+      "listBackgroundStyle": {
+        "label": "Imiterere y'inyuma y'urutonde",
+        "description": "Shyiraho imiterere y'inyuma y'urutonde",
+        "single": "Imwe",
+        "none": "Nta na kimwe",
+        "simple": "Byoroshye",
+        "complementary": "Byuzuzanya",
+        "analogous": "Bisa",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Gucengera kw'inyuma y'urutonde",
+        "description": "Shyiraho gucengera kw'inyuma y'urutonde",
+        "transparent": "Gucengera",
+        "opaque": "Guhuma"
+      },
+      "listBottomBorder": {
+        "label": "Umupaka w'inyuma y'urupapuro",
+        "description": "Shyiraho umupaka w'inyuma y'urupapuro",
+        "none": "Nta na kimwe",
+        "dashed": "Dash",
+        "solid": "Gukomera"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Imiyoboro y'uburanga",
+        "description": "Koresha imiyoboro y'uburanga bwa Microsoft Fluent kandi uyishyire ku mbuga z'ububiko",
+        "goToChromeSettings": "Gana ku igenamiterere rya Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Reba urutonde",
+        "description": "Hindura urutonde rwo kureba",
+        "compact": "Reba byegeranye",
+        "visual": "Reba byerekanwe"
+      },
+      "showBy": {
+        "label": "Erekana na",
+        "description": "Hindura erekana na"
+      },
+      "sortBy": {
+        "label": "Tondeka na",
+        "description": "Hindura tondeka na"
+      },
+      "showFullUrl": {
+        "label": "Reba URL nzima",
+        "description": "Uyuhejeje, URL nzima izaba irerekana hejuru y'itike ya tab"
+      },
+      "currentWindowOnly": {
+        "label": "Icyumba cy'ubu gusa",
+        "description": "Erekana gusa amapaji y'icyumba cy'ubu. Niba bidakora, amapaji yose azerekanwa"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Erekana amapaji afatanye nk'ibimenyetso",
+        "description": "Iyo yemejwe, amapaji afatanye azerekanwa nk'ibimenyetso kandi ntibizerekanwa mu rutonde"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Erekana ibimenyetso by'urubuga iyo itsinda ryegeranye",
+        "description": "Iyo yemejwe, amatsinda yegeranye azerekana ibimenyetso by'amapaji"
+      },
+      "hoverPreview": {
+        "label": "Reba mu gihe utembera",
+        "description": "Iyo yemejwe, gutembera hejuru y'amapaji bizerekana ibishushanyo by'amapaji"
+      },
+      "previewWithThumbnail": {
+        "label": "Erekana ibishushanyo mu kureba",
+        "description": "Iyo yemejwe, ibishushanyo bizerekana ibishushanyo by'amapaji",
+        "alert": "Fata ahantu hagaragara ku rupapuro ruriho muri icyumba cyihariye. Kugira ngo ukoreshe ubu buryo, kongeraho bigomba kugira uruhushya rwa <all_urls> cyangwa uruhushya rwa activeTab.",
+        "deniedMessage": "Wanze uruhushya rukenewe, bityo igenamiterere ntiryahindutse. Niba uhinduye ibitekerezo, kanda kongera kandi wemere uruhushya"
+      },
+      "previewDelay": {
+        "label": "Gusubika kureba",
+        "description": "Shyiraho igihe cyo gusubika kureba amapaji mu gihe utembera hejuru y'amapaji, n'ibindi. (amasegonda). Niba byashyizwe kuri 0, nta gusubika bizabaho",
+        "seconds": "Amasegonda"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Bika amapaji aheruka gufungwa",
+        "description": "Iyo yemejwe, bika amapaji aheruka gufungwa"
+      },
+      "dataSource": {
+        "label": "Inkomoko y'ibipimo",
+        "description": "Hitamo inkomoko y'ibipimo",
+        "recentlyClosedTabs": "Amapaji aheruka gufungwa",
+        "chromeHistory": "Amateka ya Chrome",
+        "alert": "Kugira ngo ushakishe amateka, ukeneye uruhushya rwawe kugira ngo wemeze",
+        "deniedMessage": "Wanze uruhushya rukenewe, bityo igenamiterere ntiryahindutse. Niba uhinduye ibitekerezo, kanda kongera kandi wemere uruhushya"
+      },
+      "showInSidePanel": {
+        "label": "Erekana mu ruhande",
+        "description": "Iyo yemejwe, erekana mu ruhande"
+      },
+      "showInTabSearchResults": {
+        "label": "Erekana amateka mu bisubizo by'ubushakashatsi bw'amapaji",
+        "description": "Iyo yemejwe, amateka aheruka azerekanwa mu bisubizo by'ubushakashatsi bw'amapaji"
+      },
+      "limitSearchResults": {
+        "label": "Gena umubare w'amateka mu bisubizo by'ubushakashatsi bw'amapaji",
+        "description": "Shyiraho umubare w'amateka mu bisubizo by'ubushakashatsi bw'amapaji. Amateka arengeje umubare azasibwa",
+        "alert": "Amateka menshi azagira ingaruka ku muvuduko wo gupakira urupapuro"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Umubare w'amapaji aheruka gufungwa yo kubika",
+        "description": "Shyiraho umubare w'amapaji aheruka gufungwa yo kubika"
+      },
+      "keepDays": {
+        "label": "Umubare w'iminsi yo kubika amapaji aheruka gufungwa",
+        "description": "Shyiraho umubare w'iminsi yo kubika amapaji aheruka gufungwa. Amakuru arengeje igihe azasibwa",
+        "days": "Iminsi"
+      },
+      "openDuration": {
+        "label": "Igihe cyo gufungura",
+        "description": "Amapaji afunguwe igihe kirenze igihe cyashyizweho azabikwa gusa",
+        "seconds": "Amasegonda"
+      }
+    },
+    "shortcuts": {
+      "alert": "Iyi paji ni iyo kwerekana gusa. Kugira ngo uhindure inzira ngufi, nyamuneka jya kuri [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
+      "goToChromeSettings": "Gana ku igenamiterere rya Chrome",
+      "_execute_action": "Shyira mu bikorwa iyi kongeraho",
+      "openSidePanel": "Fungura uruhande"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Ifoto mu ifoto",
+      "tabSwitch": {
+        "label": "PIP ku guhindura urupapuro",
+        "description": "Injira mu PIP iyo uhinduye urupapuro rufite video itari mute",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "scrollSwitch": {
+        "label": "Hindura ku ifoto mu ifoto iyo utembera",
+        "description": "Niba urupapuro ruriho rwerekana video kandi video itari mute kandi video iri hanze y'akarere kagaragara iyo utembera, izinjira mu ifoto mu ifoto.",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Gukangura umukozi birakenewe",
+      "tips_1": "Gukangura umukozi bivuze ko umukozi ari gukorana n'urupapuro",
+      "tips_2": "By'umwihariko, gukangura bitera ibihe byinjiza nk'ibi:",
+      "tips_3": "Icyitonderwa: Gukoresha uruziga rw'imbeba cyangwa gukoraho ntibizatera!",
+      "tips_4": "Niba ushaka ibindi bisobanuro, nyamuneka jya kuri:",
+      "click": "Kanda",
+      "contextmenu": "Menu y'iburyo",
+      "dblclick": "Kanda kabiri"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Imyitwarire yo kugabanya itsinda ry'amapaji",
+        "description": "Hindura imyitwarire yo kugabanya itsinda ry'amapaji ya Chrome",
+        "option_collapse_others": "Erekana itsinda ririho kandi ugabanye ayandi",
+        "option_disable": "Gura amatsinda yose",
+        "option_auto": "Koresha igenamiterere rya Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Kwihutira gukora cyangwa kwinjira mu itsinda rimwe",
+        "description": "Iyo yemejwe, amapaji mashya azahita yinjira mu itsinda rimwe. Niba itsinda ritabaho, itsinda rishya rizakorwa",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Siba amapaji afatanye mu matsinda",
+        "description": "Iyo yemejwe, amapaji afatanye ntazongerwa mu matsinda",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Emeza umurongo w'iterambere",
+        "description": "Iyo yemejwe, umurongo w'iterambere ryo gusoma uzerekanwa munsi y'umutwe w'urupapuro",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "readingProgressBar": {
+        "label": "Umurongo w'iterambere ryo gusoma",
+        "description": "Iyo yemejwe, umurongo w'iterambere ryo gusoma uzerekanwa munsi y'umutwe w'urupapuro",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "scrollHeightRatio": {
+        "label": "Igiti cy'urugero ry'uruzinduko",
+        "description": "Igiti cy'urugero ry'uruzinduko ryo kubaho mu kibazo cy'urupapuro. Umurongo w'iterambere uzaba wemerewe iyo igiti cy'urugero cyahindutse",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "playingProgressBar": {
+        "label": "Umurongo w'iterambere ryo gukina",
+        "description": "Iyo yemejwe, umurongo w'iterambere ryo gukina uzerekanwa munsi y'umutwe w'urupapuro",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Emeza umupira w'urujya n'uruza",
+        "description": "Iyo uruhande rufunze, umupira w'urujya n'uruza uzerekanwa ku ruhande rw'iburyo rw'urupapuro, utuma uruhande rufunguka vuba."
+      }
+    },
+    "performance": {
+      "label": "Ububasha",
+      "saveMemoryAction": {
+        "label": "Uko gutanga ububasha ku ibikoresho",
+        "description": "Kugira ububasha ku ibikoresho, waba ufite gahunda yo kugufunga ibikoresho cyangwa kugufata ibikoresho.",
+        "discardTips": "ibikoresho byafungwa ntibibuka aho. Dukira kandi bigenda byihutirwa ku kigero cy'ibikoresho cya Chrome. Muri iyi navigasiya, ijambo ry'ibikoresho, indangururamajwi n'ibindi byose birasabwa kubonwa no kubonanywa nk'uko byagenzurwa wakati wa navigasiya muri iyi bikoresho.",
+        "disabled": "Gufungwa",
+        "closeTabs": "Funga ibikoresho",
+        "discardTabs": "Funga ibikoresho"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Igihe cyangwa kugufunga ibikoresho zikora",
+        "description": "Muri iki gihe ntibyakozwe ibikoresho byo kugufunga ibikoresho ntibyakozwe, ibikoresho byofungwa byakozwe kuri iki gihe.",
+        "minutes": "Imiminota"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Igihe cyangwa kufunga ibikoresho zikora",
+        "description": "Muri iki gihe ntibyakozwe ibikoresho byo kufunga ibikoresho ntibyakozwe, ibikoresho byofungwa byakozwe kuri iki gihe.",
+        "minutes": "Imiminota"
+      },
+      "disableAnimations": {
+        "label": "Gufunga ibiganiro",
+        "description": "gufunga uburyo bwo gukora umurongo n'ubufatanye bwose"
+      }
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "打开侧面板进行预览",
+  "_execute_action": "激活该扩展程序",
+  "openSidePanel": "打开侧边栏",
+  "settings": {
+    "resetCurrentPageSettings": "重置当前页面设置",
+    "modules": {
+      "appearance": "外观",
+      "beautify": "美化",
+      "tabs": "标签页",
+      "history": "历史记录",
+      "shortcuts": "快捷键",
+      "pip": "画中画",
+      "chromeTabGroupAdvanced": "高级标签页组",
+      "progressBar": "进度条",
+      "floatBall": "浮动球",
+      "experimentalFeatures": "实验功能"
+    },
+    "appearance": {
+      "header": "外观",
+      "language": {
+        "label": "界面语言",
+        "description": "设置界面显示的语言"
+      },
+      "theme": {
+        "label": "颜色模式",
+        "description": "选择浅色或深色模式"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "启用后，界面会显示从右到左的文字方向"
+      },
+      "fontSize": {
+        "label": "字体大小",
+        "description": "设置字体大小",
+        "small": "小",
+        "large": "大"
+      },
+      "fontFamily": {
+        "label": "字体族",
+        "description": "设置字体族"
+      },
+      "fontColor": {
+        "label": "字体颜色",
+        "description": "设置字体颜色"
+      },
+      "fontWeight": {
+        "label": "字体粗细",
+        "description": "设置字体粗细"
+      },
+      "extAction": {
+        "label": "单击扩展程序图标的操作",
+        "description": "设置单击扩展图标的操作",
+        "openPopup": "打开弹窗",
+        "openSidePanel": "打开侧边栏"
+      },
+      "SidePanelPosition": {
+        "label": "侧边栏位置",
+        "description": "设置侧边栏在左侧或右侧显示。",
+        "goToChromeSettings": "前往 Chrome 设置"
+      },
+      "searchBoxPosition": {
+        "label": "搜索框位置",
+        "description": "设置搜索框的位置",
+        "top": "顶部",
+        "bottom": "底部",
+        "hide": "隐藏"
+      },
+      "toolbar": {
+        "label": "显示工具栏",
+        "description": "启用后，显示工具栏"
+      },
+      "bottomNav": {
+        "label": "显示底部导航栏",
+        "description": "启用后，显示底部导航栏"
+      },
+      "buttonPosition": {
+        "label": "按钮位置",
+        "description": "设置按钮的位置",
+        "left": "左侧",
+        "right": "右侧"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "全屏时隐藏侧边栏",
+        "description": "打开后，当页面全屏时会自动隐藏侧边栏，由于 Chrome 的限制，目前无法自动重新打开侧边栏。您需要手动操作重新打开侧边栏！"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "彩色背景",
+        "description": "启用后，侧边栏会显示彩色背景"
+      },
+      "backgroundPicture": {
+        "label": "背景图片",
+        "description": "点击 [+] 号添加自定义图片，点击 [-] 号删除自定义图片。你可以在下面的网站中查找自己喜欢的图片。",
+        "dialogDescription": "请输入图片地址",
+        "OK": "确定",
+        "Cancel": "取消",
+        "invalidImage": "无效的图片地址"
+      },
+      "backgroundImageTransparency": {
+        "label": "图片透明度",
+        "description": "设置图片透明度",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "listBackgroundStyle": {
+        "label": "列表背景样式",
+        "description": "设置列表背景样式",
+        "single": "单一",
+        "none": "无",
+        "simple": "简单",
+        "complementary": "对比色",
+        "analogous": "对角色",
+        "triadic": "三色",
+        "tetradic": "四色"
+      },
+      "listBackgroundTransparency": {
+        "label": "列表背景透明度",
+        "description": "设置列表背景透明度",
+        "transparent": "透明",
+        "opaque": "不透明"
+      },
+      "backgroundImageBlur": {
+        "label": "背景模糊度",
+        "description": "设置背景模糊度"
+      },
+      "backgroundImageBrightness": {
+        "label": "背景亮度",
+        "description": "设置背景亮度，仅适用于深色模式"
+      },
+      "listBottomBorder": {
+        "label": "列表底部边框",
+        "description": "设置列表底部边框",
+        "none": "无",
+        "dashed": "虚线",
+        "solid": "实线"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluent 滚动条",
+        "description": "使用 Microsoft Fluent 设计风格化滚动条并使其覆盖在网页内容上",
+        "goToChromeSettings": "前往 Chrome 设置"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "列表视图",
+        "description": "切换列表视图",
+        "compact": "紧凑视图",
+        "visual": "直观视图"
+      },
+      "showBy": {
+        "label": "显示依据",
+        "description": "切换显示依据"
+      },
+      "sortBy": {
+        "label": "排序依据",
+        "description": "切换排序依据"
+      },
+      "showFullUrl": {
+        "label": "显示完整 URL",
+        "description": "启用后，在标签标题下显示完整 URL"
+      },
+      "currentWindowOnly": {
+        "label": "仅当前窗口",
+        "description": "仅显示当前窗口的标签页,如果关闭，将显示所有窗口的标签页"
+      },
+      "pinedTabsAsIcons": {
+        "label": "固定标签页展示为图标",
+        "description": "启用后，固定标签页会显示图标，不会显示在列表中。"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "收起分组时显示网站图标",
+        "description": "启用后，折叠组会显示标签页图标"
+      },
+      "hoverPreview": {
+        "label": "鼠标悬停预览",
+        "description": "启用后，鼠标悬停时会显示标签页预览"
+      },
+      "previewWithThumbnail": {
+        "label": "预览时显示缩略图",
+        "description": "启用后，预览时会显示标签页缩略图",
+        "alert": "捕获指定窗口中当前活动选项卡的可见区域。为了调用此方法，扩展程序必须具有 <all_urls> 权限或 activeTab 权限。",
+        "deniedMessage": "您已拒绝授权所需权限，因此设置未改变，如果您改变主意，请重新点击并允许授权"
+      },
+      "previewDelay": {
+        "label": "预览延迟",
+        "description": "设置预览延迟时间，设置鼠标悬停标签页预览等待时间（秒）,如何设置 0 ，则不会等待",
+        "seconds": "秒"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "保存最近关闭的标签页",
+        "description": "启用后，保存最近关闭的标签页"
+      },
+      "dataSource": {
+        "label": "数据源",
+        "description": "选择数据源",
+        "recentlyClosedTabs": "最近关闭的标签页",
+        "chromeHistory": "Chrome 历史记录",
+        "alert": "如需搜索历史记录，需要您的授权方可启用",
+        "deniedMessage": "您已拒绝授权所需权限，因此设置未改变，如果您改变主意，请重新点击并允许授权"
+      },
+      "showInSidePanel": {
+        "label": "在侧边栏中显示",
+        "description": "启用后，在侧边栏中显示"
+      },
+      "showInTabSearchResults": {
+        "label": "标签页搜索结果中显示历史记录",
+        "description": "启用后，标签页搜索结果中将显示最近历史记录"
+      },
+      "limitSearchResults": {
+        "label": "标签页搜索结果中历史记录限制数量",
+        "description": "设置标签页搜索结果中历史记录的限制数量，超过限制数量的历史记录将被过滤",
+        "alert": "过多的记录会影响页面加载速度"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "最近关闭的标签页的保留数量",
+        "description": "设置最近关闭的标签页的保留数量"
+      },
+      "keepDays": {
+        "label": "最近关闭的标签页的保留天数",
+        "description": "设置最近关闭的标签页的保留天数，过期的数据会被删除",
+        "days": "天"
+      },
+      "openDuration": {
+        "label": "打开时长",
+        "description": "只有打开时长超过设置时间的标签页才会被保存",
+        "seconds": "秒"
+      }
+    },
+    "shortcuts": {
+      "alert": "本页面仅供展示，如需修改快捷键，请访问[扩展程序]->[管理扩展]->[键盘快捷键]",
+      "goToChromeSettings": "前往 Chrome 设置",
+      "_execute_action": "激活该扩展程序",
+      "openSidePanel": "打开侧边栏"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "画中画",
+      "tabSwitch": {
+        "label": "切换标签时切换到画中画模式",
+        "description": "在切换浏览器标签页时，如果当前页面正在播放视频且视频未静音，就会自动进入画中画模式。",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "scrollSwitch": {
+        "label": "滚动页面时切换画中画",
+        "description": "如果滚动页面时，当前页面正在播放视频且视频未静音且视频超出可视范围内，则会进入画中画。",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "需要进行用户交互",
+      "tips_1": "用户激活意味着用户当前正在与页面交互",
+      "tips_2": "更准确地说，激活触发输入事件是以下事件:  ",
+      "tips_3": "注意：使用鼠标滚轮滑动或轻拂手势不会触发!！",
+      "tips_4": "如果你希望进一步的了解详情请访问：",
+      "click": "点击",
+      "contextmenu": "右键菜单",
+      "dblclick": "双击"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "标签页分组收起行为",
+        "description": "修改 Chrome 浏览器标签页分组的行为",
+        "option_collapse_others": "显示当前分组并收起其他分组",
+        "option_disable": "展开所有分组",
+        "option_auto": "使用 Chrome 默认设置"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "自动创建或加入同域名分组",
+        "description": "启用后,新打开的标签页会自动加入到相同域名分组,如果域名分组不存在则会创建一个新的域名分组",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "分组时过滤固定标签页",
+        "description": "启用后，固定标签页不会被加入到分组中",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "启用进度条",
+        "description": "启用后，会在标签页标题栏下方显示阅读进度条",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "readingProgressBar": {
+        "label": "阅读进度条",
+        "description": "启用后，会在标签页标题栏下方显示阅读进度条",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "scrollHeightRatio": {
+        "label": "滚动高度比例",
+        "description": "可见窗口高度与页面高度的比例。当比例超过时，将显示进度条",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      },
+      "playingProgressBar": {
+        "label": "播放进度条",
+        "description": "启用后，会在标签页标题栏下方显示播放进度条",
+        "enabled": "已启用",
+        "disabled": "已禁用"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "启用悬浮球",
+        "description": "当侧面板被关闭时，会在页面右边显示悬浮球，可以快速打开侧面板。"
+      }
+    },
+    "performance": {
+      "label": "性能",
+      "saveMemoryAction": {
+        "label": "如何节省标签页的内存",
+        "description": "要节省标签页的内存，您可以选择关闭标签页或丢弃标签页。",
+        "discardTips": "丢弃的标签页不会消失。我们将其终止，但它仍然在 Chrome 标签栏上可见。如果您导航回到已丢弃的标签页，点击时它会重新加载。表单内容、滚动位置等将以与前进/后退标签导航相同的方式保存和恢复。",
+        "disabled": "已禁用",
+        "closeTabs": "关闭标签页",
+        "discardTabs": "丢弃标签页"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "丢弃不活跃标签页的时间",
+        "description": "当标签页上没有播放音频或视频且未禁止自动丢弃时，标签页将在指定时间后被丢弃。",
+        "minutes": "分钟"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "关闭不活跃标签页的时间",
+        "description": "当标签页上没有播放音频或视频且未禁止自动丢弃时，标签页将在指定时间后被关闭。",
+        "minutes": "分钟"
+      },
+      "disableAnimations": {
+        "label": "禁用动画",
+        "description": "禁用涟漪效果和所有过渡效果"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Pamamahala ng Kulay-kulay na Tagapamahala ng Sidebar"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Pamahalaan ang mga tab sa side panel, Napakaganda para maging ganito kagaling."
+  },
+  "openSidePanel": {
+    "message": "Buksan ang Sidebar"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Dažnabė spalvota šoninė juosta skirtukų tvarkymas"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Tvarkykite skirtukus šoniniame skydelyje, per gražu, kad būtų taip gerai."
+  },
+  "openSidePanel": {
+    "message": "Atidaryti šoninę juostą"
+  }
+}

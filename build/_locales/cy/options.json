@@ -1,0 +1,342 @@
+{
+  "OpenSideSanelToPreview": "Agorwch y panel ochr i weld y rhagolwg",
+  "_execute_action": "Gweithredu'r estyniad hwn",
+  "openSidePanel": "Agorwch y panel ochr",
+  "settings": {
+    "resetCurrentPageSettings": "Ailosod gosodiadau'r dudalen gyfredol",
+    "modules": {
+      "appearance": "Ymddangosiad",
+      "beautify": "Prydferthwch",
+      "tabs": "Tabiau",
+      "history": "Hanes",
+      "shortcuts": "Llychau",
+      "pip": "Delwedd o fewn delwedd",
+      "chromeTabGroupAdvanced": "Grwpiau tabiau uwch Chrome",
+      "progressBar": "Bar cynnydd",
+      "floatBall": "Pêl fflwch",
+      "experimentalFeatures": "Nodweddion arbrofol"
+    },
+    "appearance": {
+      "header": "Ymddangosiad",
+      "language": {
+        "label": "Iaith y rhyngwyneb",
+        "description": "Gosodwch yr iaith ar gyfer ymddangosiad y rhyngwyneb"
+      },
+      "theme": {
+        "label": "Modd lliwiau",
+        "description": "Dewiswch modd lliw golau neu dywyll"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y rhyngwyneb yn dangos cyfeiriad testun o'r dde i'r chwith"
+      },
+      "fontSize": {
+        "label": "Maint ffont",
+        "description": "Gosodwch faint y ffont",
+        "small": "Bach",
+        "large": "Mawr"
+      },
+      "fontFamily": {
+        "label": "Teulu'r ffont",
+        "description": "Gosodwch deulu'r ffont"
+      },
+      "fontColor": {
+        "label": "Lliw'r ffont",
+        "description": "Gosodwch lliw'r ffont"
+      },
+      "fontWeight": {
+        "label": "Pwysau'r ffont",
+        "description": "Gosodwch pwysau'r ffont"
+      },
+      "extAction": {
+        "label": "Gweithrediad clicio ar eicon yr estyniad",
+        "description": "Gosodwch y gweithrediad pan fyddwch yn clicio ar eicon yr estyniad",
+        "openPopup": "Agorwch y bopeth",
+        "openSidePanel": "Agorwch y panel ochr"
+      },
+      "SidePanelPosition": {
+        "label": "Pozisiwn y panel ochr",
+        "description": "Gosodwch a ddangosir y panel ochr ar y chwith neu'r dde.",
+        "goToChromeSettings": "Ewch i osodiadau Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Pozisiwn blwch chwilio",
+        "description": "Gosodwch leoliad y blwch chwilio",
+        "top": "Top",
+        "bottom": "Bottom",
+        "hide": "Cuddio"
+      },
+      "toolbar": {
+        "label": "Dangos y bar offer",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar offer yn cael ei dangos"
+      },
+      "bottomNav": {
+        "label": "Dangos y bar llywio gwaelod",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar llywio gwaelod yn cael ei dangos"
+      },
+      "buttonPosition": {
+        "label": "Pozisiwn y botymau",
+        "description": "Gosodwch leoliad y botymau",
+        "left": "Chwith",
+        "right": "Dde"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Cuddio'r panel ochr mewn sgrin lawn",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y panel ochr yn cuddio'n awtomatig pan fydd y dudalen mewn sgrin lawn. Oherwydd cyfyngiadau Chrome, ni ellir ailagor y panel ochr yn awtomatig. Rhaid i chi ailagor y panel ochr yn llawerol!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Cefndir lliwiedig",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y panel ochr yn dangos cefndir lliwiedig"
+      },
+      "backgroundPicture": {
+        "label": "Llun cefndir",
+        "description": "Cliciwch [+] i ychwanegu llun arbenigol, cliciwch [-] i ddileu llun arbenigol. Gallwch ddod o hyd i'ch hoff luniau ar y gwefannau canlynol.",
+        "dialogDescription": "Rhowch gyfeiriad llun",
+        "OK": "Iawn",
+        "Cancel": "Canslo",
+        "invalidImage": "Cyfeiriad llun annilys"
+      },
+      "backgroundImageTransparency": {
+        "label": "Tryloywder delwedd",
+        "description": "Gosodwch tryloywder delwedd",
+        "transparent": "Tryloyw",
+        "opaque": "Aneglur"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensiti Blur",
+        "description": "Gosodwch Intensiti Blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Disgleirdeb",
+        "description": "Gosodwch y disgleirdeb, argymhellir ar gyfer modd tywyll yn unig"
+      },
+      "listBackgroundStyle": {
+        "label": "Arddull cefndir rhestr",
+        "description": "Gosodwch arddull cefndir rhestr",
+        "single": "Sengl",
+        "none": "Dim",
+        "simple": "Syml",
+        "complementary": "Atodol",
+        "analogous": "Analogus",
+        "triadic": "Triadig",
+        "tetradic": "Tetradig"
+      },
+      "listBackgroundTransparency": {
+        "label": "Tryloywder cefndir rhestr",
+        "description": "Gosodwch tryloywder cefndir rhestr",
+        "transparent": "Tryloyw",
+        "opaque": "Aneglur"
+      },
+      "listBottomBorder": {
+        "label": "Ffin isaf y rhestr",
+        "description": "Gosodwch y ffin isaf y rhestr",
+        "none": "Dim",
+        "dashed": "Tynn",
+        "solid": "Llawn"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barrau sgrolio llyfn",
+        "description": "Defnyddiwch arddull dylunio Microsoft Fluent ar y barrau sgrolio a'u gorlwytho ar gynnwys y we"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Golygu rhestr",
+        "description": "Troi i'r modd golygu rhestr",
+        "compact": "Golygu dwys",
+        "visual": "Golygu gweledol"
+      },
+      "showBy": {
+        "label": "Dangos gan",
+        "description": "Troi i'r modd dangos gan"
+      },
+      "sortBy": {
+        "label": "Trefnu yn ôl",
+        "description": "Troi i'r modd trefnu yn ôl"
+      },
+      "showFullUrl": {
+        "label": "Dangos URL llawn",
+        "description": "Pan fydd yn gallu, bydd y URL llawn yn cael ei ddangos o dan deitl y tab"
+      },
+      "currentWindowOnly": {
+        "label": "Dim ond ffenest bresennol",
+        "description": "Dim ond dangos tabiau'r ffenestr bresennol. Os na fydd hwn wedi'i analluogi, bydd tabiau o bob ffenestr yn cael eu dangos"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Dangos tabiau pinio fel eiconau",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd tabiau pinio'n cael eu dangos fel eiconau ac nid yn y rhestr"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Dangos eiconau gwefan wrth gwympo grwpiau",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd grwpiau wedi'u gwympo'n dangos eiconau tab"
+      },
+      "hoverPreview": {
+        "label": "Rhagolwg wrth ysgwyd",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd ysgwyd dros ftabiau'n dangos rhagolwg tabiau"
+      },
+      "previewWithThumbnail": {
+        "label": "Dangos delweddau mewn rhagolwg",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd rhagolwg yn dangos delweddau tab",
+        "alert": "Daliwch y rhan o'r dudalen sy'n weladwy o'r tab gweithredol presennol mewn ffenestr benodedig. I alw'r dull hwn, rhaid i'r estyniad gael caniatâd <all_urls> neu ganiatâd activeTab.",
+        "deniedMessage": "Rydych wedi gwrthod y caniatâd angenrheidiol, felly ni newidiwyd y gosodiadau. Os byddwch yn newid eich meddwl, cliciwch eto a chaniatáu'r awdurdodi"
+      },
+      "previewDelay": {
+        "label": "Oedi rhagolwg",
+        "description": "Gosodwch amser yr oedi ar gyfer rhagolwg tabiau wrth ysgwyd drosddynt, ac ati. (eiliadau). Os byddwch wedi'i osod i 0, ni fydd unrhyw oedi",
+        "seconds": "Eiliad"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Cadw tabiau a gauwyd yn ddiweddar",
+        "description": "Pan fydd hwn wedi'i alluogi, cadw tabiau a gauwyd yn ddiweddar"
+      },
+      "dataSource": {
+        "label": "Ffynhonnell data",
+        "description": "Dewiswch ffynhonnell data",
+        "recentlyClosedTabs": "Tabiau a gauwyd yn ddiweddar",
+        "chromeHistory": "Hanes Chrome",
+        "alert": "I chwilio'r cofnodion hanes, mae angen eich awdurdodiad i'w alluogi",
+        "deniedMessage": "Rydych wedi gwrthod y caniatâd angenrheidiol, felly ni newidiwyd y gosodiadau. Os byddwch yn newid eich meddwl, cliciwch eto a chaniatáu'r awdurdodi"
+      },
+      "showInSidePanel": {
+        "label": "Dangos yn y panel ochr",
+        "description": "Pan fydd hwn wedi'i alluogi, dangos yn y panel ochr"
+      },
+      "showInTabSearchResults": {
+        "label": "Dangos hanes yn canlyniadau chwilio tabiau",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd cofnodion hanes diweddar yn cael eu dangos yn canlyniadau chwilio tabiau"
+      },
+      "limitSearchResults": {
+        "label": "Cyfyngu nifer y cofnodion hanes yn canlyniadau chwilio tabiau",
+        "description": "Gosodwch y cyfyngiad ar nifer y cofnodion hanes yn canlyniadau chwilio tabiau. Bydd cofnodion hanes sy'n mynd y tu hwnt i'r cyfyngiad yn cael eu hidlo",
+        "alert": "Bydd gormod o gofnodion yn effeithio ar gyflymder llwytho'r dudalen"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Nifer y tabiau a gauwyd yn ddiweddar i'w cadw",
+        "description": "Gosodwch nifer y tabiau a gauwyd yn ddiweddar i'w cadw"
+      },
+      "keepDays": {
+        "label": "Nifer y dyddiau i gadw tabiau a gauwyd yn ddiweddar",
+        "description": "Gosodwch nifer y dyddiau i gadw tabiau a gauwyd yn ddiweddar. Bydd data sydd wedi dod i ben yn cael ei ddileu",
+        "days": "Diwrnod"
+      },
+      "openDuration": {
+        "label": "Amser agor",
+        "description": "Dim ond tabiau agored am fwy na'r amser a osodir fydd yn cael eu cadw",
+        "seconds": "Eiliad"
+      }
+    },
+    "shortcuts": {
+      "alert": "Mae'r dudalen hon ar gyfer dangos yn unig. I newid llwybrau byr, ewch i [Estyniadau]->[Rheoli Estyniadau]->[Llychau Allweddol]",
+      "goToChromeSettings": "Ewch i osodiadau Chrome",
+      "_execute_action": "Gweithredu'r estyniad hwn",
+      "openSidePanel": "Agorwch y panel ochr"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Delwedd o fewn delwedd",
+      "tabSwitch": {
+        "label": "DIB ar droi tabiau",
+        "description": "Mewngofnodi'n awtomatig i DIB wrth droi tabiau gyda fideo di-gwâr",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "scrollSwitch": {
+        "label": "Troi i ddelwedd o fewn delwedd wrth sgrolio",
+        "description": "Os yw'r dudalen bresennol yn chwarae fideo ac nid yw'r fideo wedi'i dawelu ac mae'r fideo y tu allan i'r amrediad gweledol wrth sgrolio, bydd yn mynd i mewn i delwedd o fewn delwedd.",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Angen gweithredu'r defnyddiwr",
+      "tips_1": "Mae gweithredu'r defnyddiwr yn golygu bod y defnyddiwr yn rhyngweithio â'r dudalen ar hyn o bryd",
+      "tips_2": "Yn fwy penodol, mae gweithredu'n sbarduno digwyddiadau mewnbwn fel:",
+      "tips_3": "Nodyn: Ni fydd defnyddio'r olwyn olwg llygoden neu'r symudiad swip yn sbarduno!",
+      "tips_4": "Os hoffech ragor o fanylion, ewch i:",
+      "click": "Cliciwch",
+      "contextmenu": "Dewislen clic de",
+      "dblclick": "Dau glic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Ymddygiad grwp tabiau wrth gwympo",
+        "description": "Addasu ymddygiad gwymp grwp tabiau porwr Chrome",
+        "option_collapse_others": "Dangos y grŵp presennol a gwympo eraill",
+        "option_disable": "Ehangu'r holl grwpiau",
+        "option_auto": "Defnyddio gosodiadau diofyn Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Awtomatig greu neu ymuno â grŵp un domain",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd tabiau newydd a agorir yn ymuno â'r un grŵp domain. Os nad oes y grŵp domain yn bodoli, bydd grŵp domain newydd yn cael ei greu",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Hidlo tabiau pinio mewn grwpiau",
+        "description": "Pan fydd hwn wedi'i alluogi, ni fydd tabiau pinio'n cael eu hychwanegu at grwpiau",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Galluogi bar cynnydd",
+        "description": "Pan fydd yn galluogi, bydd bar cynnydd darllen yn cael ei harddangos isod bar teitl y tab",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "readingProgressBar": {
+        "label": "Bar cynnydd darllen",
+        "description": "Pan fydd yn galluogi, bydd bar cynnydd darllen yn cael ei harddangos isod bar teitl y tab",
+        "enabled": "Wedi'i galluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "scrollHeightRatio": {
+        "label": "Cymhareb uchder sgrolio",
+        "description": "Y cymhareb o uchder ffenestr sy'n weladwy i uchder tudalen. Bydd bar cynnydd yn cael ei harddangos pan fydd y cymhareb yn cael ei oresgyn",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "playingProgressBar": {
+        "label": "Bar cynnydd chwarae",
+        "description": "Pan fydd yn galluogi, bydd bar cynnydd chwarae yn cael ei harddangos isod bar teitl y tab",
+        "enabled": "Wedi'i galluogi",
+        "disabled": "Wedi'i analluogi"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Galluogi pêl ffo",
+        "description": "Pan fydd y panel ochr wedi'i gau, bydd pêl ffo yn cael ei harddangos ar ochr dde'r dudalen, gan ganiatáu agor y panel ochr yn gyflym."
+      }
+    },
+    "performance": {
+      "label": "Perfformiad",
+      "saveMemoryAction": {
+        "label": "Sut i arbed cof ar dabiau",
+        "description": "I arbed cof ar dabiau, gallwch ddewis cau tabiau neu wrthod tabiau.",
+        "discardTips": "nid yw tab a wrthodir yn mynd i unrhyw le. Rydym yn ei ladd ond mae'n dal i'w weld ar y stryp tab Chrome. Os byddwch yn dychwelyd i dab a wrthodwyd, bydd yn ail-lwytho pan gliciwch arno. Mae cynnwys ffurflen, safle sgrolio ac yn y blaen yn cael eu cadw ac adfer yr un ffordd y byddent yn ystod y llywio tab blaenorol/cyn belled.",
+        "disabled": "Analluog",
+        "closeTabs": "Cau tabiau",
+        "discardTabs": "Wrthod tabiau"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Am ba hyd i wrthod tabiau anweithredol",
+        "description": "Pan nad oes unrhyw sain neu fideo'n cael ei chwarae ar y tab ac nid yw wrthod awtomatig yn cael ei wahardd, bydd y tab yn cael ei wrthod ar ôl yr amser penodedig.",
+        "minutes": "Munudau"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Am ba hyd i gau tabiau anweithredol",
+        "description": "Pan nad oes unrhyw sain neu fideo'n cael ei chwarae ar y tab ac nid yw wrthod awtomatig yn cael ei wahardd, bydd y tab yn cael ei gau ar ôl yr amser penodedig.",
+        "minutes": "Munudau"
+      },
+      "disableAnimations": {
+        "label": "Analluogi animeiddiadau",
+        "description": "analluogi effaith ripl ac analluogi pob pontio"
+      }
+    }
+  }
+}

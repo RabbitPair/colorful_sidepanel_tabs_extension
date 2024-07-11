@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Önizleme için yan paneli aç",
+  "_execute_action": "Bu uzantıyı etkinleştir",
+  "openSidePanel": "Yan paneli aç",
+  "settings": {
+    "resetCurrentPageSettings": "Geçerli sayfa ayarlarını sıfırla",
+    "modules": {
+      "appearance": "Görünüm",
+      "beautify": "Güzelleştir",
+      "tabs": "Sekmeler",
+      "history": "Geçmiş",
+      "shortcuts": "Kısayollar",
+      "pip": "Resim içinde resim",
+      "chromeTabGroupAdvanced": "Gelişmiş sekme grupları",
+      "progressBar": "ilerleme çubuğu",
+      "floatBall": "Yüzen top",
+      "experimentalFeatures": "Deneysel özellikler"
+    },
+    "appearance": {
+      "header": "Görünüm",
+      "language": {
+        "label": "Arayüz dili",
+        "description": "Arayüz görüntüleme dilini ayarla"
+      },
+      "theme": {
+        "label": "Renk modu",
+        "description": "Açık veya koyu renk modunu seç"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Etkinleştirildiğinde, arayüz metin yönünü sağdan sola gösterecek"
+      },
+      "fontSize": {
+        "label": "Yazı tipi boyutu",
+        "description": "Yazı tipi boyutunu ayarla",
+        "small": "Küçük",
+        "large": "Büyük"
+      },
+      "fontFamily": {
+        "label": "Yazı Ailesi",
+        "description": "Yazı ailesini ayarla"
+      },
+      "fontColor": {
+        "label": "Yazı Rengi",
+        "description": "Yazı rengini ayarla"
+      },
+      "fontWeight": {
+        "label": "Yazı Yoğunluğu",
+        "description": "Yazı yoğunluğunu ayarla"
+      },
+      "extAction": {
+        "label": "Uzantı simgesine tıklama eylemi",
+        "description": "Uzantı simgesine tıklama eylemini ayarla",
+        "openPopup": "Açılır pencereyi aç",
+        "openSidePanel": "Yan paneli aç"
+      },
+      "SidePanelPosition": {
+        "label": "Yan panel konumu",
+        "description": "Yan panelin sol veya sağda görüntülenip görüntülenmeyeceğini ayarla.",
+        "goToChromeSettings": "Chrome ayarlarına git"
+      },
+      "searchBoxPosition": {
+        "label": "Arama kutusu konumu",
+        "description": "Arama kutusunun konumunu ayarla",
+        "top": "Üst",
+        "bottom": "Alt",
+        "hide": "Gizle"
+      },
+      "toolbar": {
+        "label": "Araç çubuğunu göster",
+        "description": "Etkinleştirildiğinde, araç çubuğu görüntülenir"
+      },
+      "bottomNav": {
+        "label": "Alt gezinme çubuğunu göster",
+        "description": "Etkinleştirildiğinde, alt gezinme çubuğu görüntülenir"
+      },
+      "buttonPosition": {
+        "label": "Düğme konumu",
+        "description": "Düğmelerin konumunu ayarla",
+        "left": "Sol",
+        "right": "Sağ"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Tam ekranda yan paneli gizle",
+        "description": "Etkinleştirildiğinde, sayfa tam ekranda olduğunda yan panel otomatik olarak gizlenecek. Chrome'un sınırlamaları nedeniyle, yan panel otomatik olarak yeniden açılamaz. Yan paneli manuel olarak yeniden açmanız gerekir!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Renkli arka plan",
+        "description": "Etkinleştirildiğinde, yan panel renkli bir arka plan gösterecek"
+      },
+      "backgroundPicture": {
+        "label": "Arka plan resmi",
+        "description": "[+] düğmesine tıklayarak özel bir resim ekleyin, [-] düğmesine tıklayarak özel bir resmi silin. Favori resimlerinizi aşağıdaki web sitelerinde bulabilirsiniz.",
+        "dialogDescription": "Resim adresini girin",
+        "OK": "Tamam",
+        "Cancel": "İptal",
+        "invalidImage": "Geçersiz resim adresi"
+      },
+      "backgroundImageTransparency": {
+        "label": "Resim şeffaflığı",
+        "description": "Resim şeffaflığını ayarla",
+        "transparent": "Şeffaf",
+        "opaque": "Opak"
+      },
+      "backgroundImageBlur": {
+        "label": "Bulanıklık yoğunluğu",
+        "description": "Bulanıklık yoğunluğunu ayarla"
+      },
+      "backgroundImageBrightness": {
+        "label": "Parlaklık",
+        "description": "Parlaklığı ayarla, sadece karanlık mod için önerilir"
+      },
+      "listBackgroundStyle": {
+        "label": "Liste arka plan stili",
+        "description": "Liste arka plan stilini ayarla",
+        "single": "Tek",
+        "none": "Yok",
+        "simple": "Basit",
+        "complementary": "Tamamlayıcı",
+        "analogous": "Benzer",
+        "triadic": "Üçlü",
+        "tetradic": "Dörtlü"
+      },
+      "listBackgroundTransparency": {
+        "label": "Liste arka plan şeffaflığı",
+        "description": "Liste arka plan şeffaflığını ayarla",
+        "transparent": "Şeffaf",
+        "opaque": "Opak"
+      },
+      "listBottomBorder": {
+        "label": "Liste alt kenarlığı",
+        "description": "Liste alt kenarlığını ayarla",
+        "none": "Yok",
+        "dashed": "Kesik çizgili",
+        "solid": "Düz"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Akıcı kaydırma çubukları",
+        "description": "Microsoft Fluent tasarım stili kaydırma çubuklarını kullanın ve bunları web içeriği üzerine yerleştirin",
+        "goToChromeSettings": "Chrome ayarlarına git"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Liste görünümü",
+        "description": "Liste görünümünü değiştir",
+        "compact": "Kompakt görünüm",
+        "visual": "Görsel görünüm"
+      },
+      "showBy": {
+        "label": "Gösterme şekli",
+        "description": "Gösterme şeklini değiştir"
+      },
+      "sortBy": {
+        "label": "Sıralama şekli",
+        "description": "Sıralama şeklini değiştir"
+      },
+      "showFullUrl": {
+        "label": "Tam URL'yi Göster",
+        "description": "Etkinleştirildiğinde, tam URL sekme başlığının altında gösterilecektir"
+      },
+      "currentWindowOnly": {
+        "label": "Yalnızca geçerli pencere",
+        "description": "Yalnızca geçerli pencerenin sekmelerini göster. Devre dışı bırakılırsa, tüm pencerelerin sekmeleri gösterilir"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Sabitlenmiş sekmeleri simge olarak göster",
+        "description": "Etkinleştirildiğinde, sabitlenmiş sekmeler simge olarak gösterilecek ve listede yer almayacak"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Grupları daraltırken web sitesi simgelerini göster",
+        "description": "Etkinleştirildiğinde, daraltılmış gruplar sekme simgelerini gösterecek"
+      },
+      "hoverPreview": {
+        "label": "Üzerine gelince önizleme",
+        "description": "Etkinleştirildiğinde, sekmelerin üzerine gelindiğinde sekme önizlemeleri gösterilecek"
+      },
+      "previewWithThumbnail": {
+        "label": "Önizlemede küçük resimleri göster",
+        "description": "Etkinleştirildiğinde, önizlemeler sekme küçük resimlerini gösterecek",
+        "alert": "Belirtilen pencerede şu anda etkin olan sekmenin görünen alanını yakalayın. Bu yöntemi çağırmak için uzantının <all_urls> iznine veya activeTab iznine sahip olması gerekir.",
+        "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin"
+      },
+      "previewDelay": {
+        "label": "Önizleme gecikmesi",
+        "description": "Sekmelerin üzerine gelindiğinde sekme önizlemeleri için gecikme süresini ayarla (saniye). 0 olarak ayarlanırsa, gecikme olmaz",
+        "seconds": "Saniye"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Son kapatılan sekmeleri kaydet",
+        "description": "Etkinleştirildiğinde, son kapatılan sekmeleri kaydet"
+      },
+      "dataSource": {
+        "label": "Veri kaynağı",
+        "description": "Veri kaynağını seç",
+        "recentlyClosedTabs": "Son kapatılan sekmeler",
+        "chromeHistory": "Chrome geçmişi",
+        "alert": "Geçmiş kayıtlarını aramak için yetkilendirmenize ihtiyaç var",
+        "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin"
+      },
+      "showInSidePanel": {
+        "label": "Yan panelde göster",
+        "description": "Etkinleştirildiğinde, yan panelde göster"
+      },
+      "showInTabSearchResults": {
+        "label": "Sekme arama sonuçlarında geçmişi göster",
+        "description": "Etkinleştirildiğinde, son geçmiş kayıtları sekme arama sonuçlarında gösterilecek"
+      },
+      "limitSearchResults": {
+        "label": "Sekme arama sonuçlarında geçmiş kayıtlarının sayısını sınırla",
+        "description": "Sekme arama sonuçlarında geçmiş kayıtlarının sayısını sınırla. Sınırı aşan geçmiş kayıtları filtrelenecek",
+        "alert": "Çok fazla kayıt sayfa yükleme hızını etkiler"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Kaydedilecek son kapatılan sekme sayısı",
+        "description": "Kaydedilecek son kapatılan sekme sayısını ayarla"
+      },
+      "keepDays": {
+        "label": "Son kapatılan sekmeleri saklama süresi (gün)",
+        "description": "Son kapatılan sekmeleri saklama süresini ayarla. Süresi dolan veriler silinecek",
+        "days": "Gün"
+      },
+      "openDuration": {
+        "label": "Açık kalma süresi",
+        "description": "Belirtilen süreden daha uzun süre açık kalan sekmeler kaydedilecek",
+        "seconds": "Saniye"
+      }
+    },
+    "shortcuts": {
+      "alert": "Bu sayfa yalnızca görüntüleme içindir. Kısayolları değiştirmek için lütfen [Uzantılar]->[Uzantıları Yönet]->[Klavye Kısayolları] bölümünü ziyaret edin",
+      "goToChromeSettings": "Chrome ayarlarına git",
+      "_execute_action": "Bu uzantıyı etkinleştir",
+      "openSidePanel": "Yan paneli aç"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Resim içinde resim",
+      "tabSwitch": {
+        "label": "Sekme Değiştirmede PIP",
+        "description": "Sesli bir video ile sekme değiştirirken otomatik olarak PIP moduna geç",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "scrollSwitch": {
+        "label": "Kaydırırken resim içinde resim moduna geç",
+        "description": "Geçerli sayfa bir video oynatıyorsa ve video sessize alınmamışsa ve kaydırma sırasında video görünür alandan çıkarsa, resim içinde resim moduna geçer.",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Kullanıcı etkinleştirmesi gerekli",
+      "tips_1": "Kullanıcı etkinleştirmesi, kullanıcının şu anda sayfa ile etkileşimde olduğunu gösterir",
+      "tips_2": "Daha spesifik olarak, etkinleştirme şu giriş olaylarını tetikler:",
+      "tips_3": "Not: Fare tekerleği kaydırma veya kaydırma hareketi kullanmak tetiklemeyecektir!",
+      "tips_4": "Daha fazla ayrıntı isterseniz, lütfen ziyaret edin:",
+      "click": "Tıklama",
+      "contextmenu": "Sağ tıklama menüsü",
+      "dblclick": "Çift tıklama"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Sekme grubu daraltma davranışı",
+        "description": "Chrome tarayıcı sekme grubu daraltma davranışını değiştir",
+        "option_collapse_others": "Mevcut grubu göster ve diğerlerini daralt",
+        "option_disable": "Tüm grupları genişlet",
+        "option_auto": "Chrome varsayılan ayarlarını kullan"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Aynı alan adı grubunu otomatik oluştur veya katıl",
+        "description": "Etkinleştirildiğinde, yeni açılan sekmeler otomatik olarak aynı alan adı grubuna katılacak. Alan adı grubu yoksa, yeni bir alan adı grubu oluşturulacak",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Gruplarda sabitlenmiş sekmeleri filtrele",
+        "description": "Etkinleştirildiğinde, sabitlenmiş sekmeler gruplara eklenmeyecek",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "İlerleme çubuğunu etkinleştir",
+        "description": "Etkinleştirildiğinde, sekme başlık çubuğunun altında bir okuma ilerleme çubuğu görüntülenecek",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "readingProgressBar": {
+        "label": "Okuma ilerleme çubuğu",
+        "description": "Etkinleştirildiğinde, sekme başlık çubuğunun altında bir okuma ilerleme çubuğu görüntülenecek",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "scrollHeightRatio": {
+        "label": "Kaydırma yüksekliği oranı",
+        "description": "Görünür pencere yüksekliğinin sayfa yüksekliğine oranı. Oran aşıldığında bir ilerleme çubuğu görüntülenecek",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "playingProgressBar": {
+        "label": "Oynatma ilerleme çubuğu",
+        "description": "Etkinleştirildiğinde, sekme başlık çubuğunun altında bir oynatma ilerleme çubuğu görüntülenecek",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Yüzen topu etkinleştir",
+        "description": "Yan panel kapalıyken, sayfanın sağ tarafında yan paneli hızlıca açmayı sağlayan bir yüzen top görüntülenecek."
+      }
+    },
+    "performance": {
+      "label": "Performans",
+      "saveMemoryAction": {
+        "label": "Hafızayı sekmelerde nasıl saklayabilirsiniz",
+        "description": "Hafızayı sekmelerde saklamak için sekmeleri kapatmayı veya sekmeleri atmayı seçebilirsiniz.",
+        "discardTips": "atılan bir sekme hiçbir yere gitmez. Onu öldürürüz ama hala Chrome sekme şeridinde görünür. Atılan bir sekmeye geri dönerseniz, tıkladığınızda yeniden yüklenecektir. Form içeriği, kaydırma konumu ve benzeri şeyler, ileri/geri sekme gezinmesi sırasında olduğu gibi aynı şekilde kaydedilir ve geri yüklenir.",
+        "disabled": "Devre dışı",
+        "closeTabs": "Sekmeleri kapat",
+        "discardTabs": "Sekmeleri at"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Etkin olmayan sekmeleri ne kadar süreyle atmalı",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme atılacaktır.",
+        "minutes": "Dakika"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Etkin olmayan sekmeleri ne kadar süreyle kapatmalı",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme kapatılacaktır.",
+        "minutes": "Dakika"
+      },
+      "disableAnimations": {
+        "label": "Animasyonları devre dışı bırak",
+        "description": "dalgalanma efektini devre dışı bırak ve tüm geçişleri devre dışı bırak"
+      }
+    }
+  }
+}

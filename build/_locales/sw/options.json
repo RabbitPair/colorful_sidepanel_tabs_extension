@@ -1,0 +1,342 @@
+{
+  "OpenSideSanelToPreview": "Fungua upau wa kando kwa hakikisho",
+  "_execute_action": "Tumia kipengele hiki",
+  "openSidePanel": "Fungua upau wa kando",
+  "settings": {
+    "resetCurrentPageSettings": "Weka upya mipangilio ya ukurasa wa sasa",
+    "modules": {
+      "appearance": "Muonekano",
+      "beautify": "Tengeneza",
+      "tabs": "Vichupo",
+      "history": "Historia",
+      "shortcuts": "Vidokezo vya haraka",
+      "pip": "Picha kwa picha",
+      "chromeTabGroupAdvanced": "Vikundi vya vichupo vya juu",
+      "progressBar": "upau wa maendeleo",
+      "floatBall": "Mpira unaoelea",
+      "experimentalFeatures": "Vipengele vya majaribio"
+    },
+    "appearance": {
+      "header": "Muonekano",
+      "language": {
+        "label": "Lugha ya interface",
+        "description": "Wekeza lugha kwa ajili ya kuonyesha interface"
+      },
+      "theme": {
+        "label": "Mode ya rangi",
+        "description": "Chagua mode ya rangi ya mwanga au giza"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Ukiwezeshwa, interface itaonyesha mwelekeo wa maandishi kutoka kulia kwenda kushoto"
+      },
+      "fontSize": {
+        "label": "Ukubwa wa fonti",
+        "description": "Wekeza ukubwa wa fonti",
+        "small": "Ndogo",
+        "large": "Kubwa"
+      },
+      "fontFamily": {
+        "label": "Familia ya fonti",
+        "description": "Weka familia ya fonti"
+      },
+      "fontColor": {
+        "label": "Rangi ya fonti",
+        "description": "Weka rangi ya fonti"
+      },
+      "fontWeight": {
+        "label": "Uzito wa fonti",
+        "description": "Weka uzito wa fonti"
+      },
+      "extAction": {
+        "label": "Bonyeza kitendo cha ikoni ya nyongeza",
+        "description": "Wekeza kitendo unapobonyeza ikoni ya nyongeza",
+        "openPopup": "Fungua kidirisha kidogo",
+        "openSidePanel": "Fungua upau wa kando"
+      },
+      "SidePanelPosition": {
+        "label": "Nafasi ya upau wa kando",
+        "description": "Wekeza ikiwa upau wa kando unaonyeshwa kushoto au kulia.",
+        "goToChromeSettings": "Nenda kwa mipangilio ya Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Nafasi ya sanduku la utafutaji",
+        "description": "Wekeza nafasi ya sanduku la utafutaji",
+        "juu": "Ju",
+        "chini": "Chini",
+        "ficha": "Ficha"
+      },
+      "toolbar": {
+        "label": "Onyesha upau wa zana",
+        "description": "Ukiwezeshwa, upau wa zana unaonyeshwa"
+      },
+      "bottomNav": {
+        "label": "Onyesha upau wa urambazaji wa chini",
+        "description": "Ukiwezeshwa, upau wa urambazaji wa chini unaonyeshwa"
+      },
+      "buttonPosition": {
+        "label": "Nafasi ya kitufe",
+        "description": "Wekeza nafasi ya vitufe",
+        "kushoto": "Kushoto",
+        "kulia": "Kulia"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ficha upau wa kando katika skrini kamili",
+        "description": "Ukiwezeshwa, upau wa kando utafichwa moja kwa moja wakati ukurasa uko kwenye skrini kamili. Kutokana na vikwazo vya Chrome, upau wa kando hauwezi kufunguliwa tena moja kwa moja. Unahitaji kufungua upau wa kando kwa mikono!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Mandhari yenye rangi",
+        "description": "Ukiwezeshwa, upau wa kando utaonyesha mandhari yenye rangi"
+      },
+      "backgroundPicture": {
+        "label": "Picha ya mandhari",
+        "description": "Bonyeza [+] kuongeza picha ya desturi, bonyeza [-] kufuta picha ya desturi. Unaweza kupata picha zako pendwa kwenye tovuti zifuatazo.",
+        "dialogDescription": "Ingiza anwani ya picha",
+        "OK": "SAWA",
+        "Cancel": "Ghairi",
+        "invalidImage": "Anwani batili ya picha"
+      },
+      "backgroundImageTransparency": {
+        "label": "Uwazi wa picha",
+        "description": "Wekeza uwazi wa picha",
+        "wazi": "Wazi",
+        "opaqu": "Opaqu"
+      },
+      "backgroundImageBlur": {
+        "label": "Ukungu",
+        "description": "Wekeza ukungu"
+      },
+      "backgroundImageBrightness": {
+        "label": "Mwangaza",
+        "description": "Wekeza mwangaza, inapendekezwa kwa mode ya giza pekee"
+      },
+      "listBackgroundStyle": {
+        "label": "Mtindo wa mandhari ya orodha",
+        "description": "Wekeza mtindo wa mandhari ya orodha",
+        "hakuna": "Hakuna",
+        "rahisi": "Rahisi",
+        "kielelezo": "Kielelezo",
+        "analogi": "Analogi",
+        "triadiki": "Triadiki",
+        "tetradiki": "Tetradiki"
+      },
+      "listBackgroundTransparency": {
+        "label": "Uwazi wa mandhari ya orodha",
+        "description": "Wekeza uwazi wa mandhari ya orodha",
+        "wazi": "Wazi",
+        "opaqu": "Opaqu"
+      },
+      "listBottomBorder": {
+        "label": "Mstari wa chini wa orodha",
+        "description": "Wekeza mstari wa chini wa orodha",
+        "hakuna": "Hakuna",
+        "mchanganyiko": "Mchanganyiko",
+        "imara": "Imara"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Vidirisha vya kubadilika",
+        "description": "Tumia mtindo wa kubuni wa Microsoft Fluent kwa vidirisha vya kubadilika na uwaweke juu ya maudhui ya wavuti",
+        "goToChromeSettings": "Nenda kwa mipangilio ya Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Onyesha orodha",
+        "description": "Badilisha onyesho la orodha",
+        "kifupi": "Onyesho la kifupi",
+        "visual": "Onyesho la visual"
+      },
+      "showBy": {
+        "label": "Onyesha kwa",
+        "description": "Badilisha onyesha kwa"
+      },
+      "sortBy": {
+        "label": "Panga kwa",
+        "description": "Badilisha panga kwa"
+      },
+      "showFullUrl": {
+        "label": "Onyesha URL kamili",
+        "description": "Ukiwezeshwa, URL kamili itaonyeshwa chini ya kichwa cha kichupo"
+      },
+      "currentWindowOnly": {
+        "label": "Fungua dirisha la sasa pekee",
+        "description": "Onyesha vichupo vya dirisha la sasa pekee. Ikiwa imelemazwa, vichupo kutoka dirisha zote vitaonyeshwa"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Onyesha vichupo vilivyofungwa kama ikoni",
+        "description": "Ukiwezeshwa, vichupo vilivyofungwa vitaonyeshwa kama ikoni na sio kwenye orodha"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Onyesha ikoni za wavuti wakati wa kufupisha vikundi",
+        "description": "Ukiwezeshwa, vikundi vilivyofupishwa vitaonyesha ikoni za vichupo"
+      },
+      "hoverPreview": {
+        "label": "Hakiki ya kubonyeza",
+        "description": "Ukiwezeshwa, kubonyeza juu ya vichupo kutaonyesha hakiki za vichupo"
+      },
+      "previewWithThumbnail": {
+        "label": "Onyesha picha ndogo katika hakiki",
+        "description": "Ukiwezeshwa, hakiki zitaonyesha picha ndogo za vichupo",
+        "onyo": "Chukua eneo linaloonekana la kichupo kilicho wazi kwenye dirisha lililowekwa. Ili kuita njia hii, nyongeza inapaswa kuwa na ruhusa ya <all_urls> au ruhusa ya activeTab.",
+        "kataaUjumbe": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
+      },
+      "previewDelay": {
+        "label": "Kuchelewesha hakiki",
+        "description": "Wekeza muda wa kuchelewesha kwa hakiki za vichupo unapobonyeza juu ya vichupo, n.k. (sekunde). Ikiwekwa kwa 0, hakutakuwa na kuchelewa",
+        "sekunde": "Sekunde"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Hifadhi vichupo vilivyofungwa hivi karibuni",
+        "description": "Ukiwezeshwa, hifadhi vichupo vilivyofungwa hivi karibuni"
+      },
+      "dataSource": {
+        "label": "Chanzo cha data",
+        "description": "Chagua chanzo cha data",
+        "vichupoVilivyofungwaHiviKaribuni": "Vichupo vilivyofungwa hivi karibuni",
+        "historiaYaChrome": "Historia ya Chrome",
+        "onyo": "Ili kutafuta rekodi za historia, unahitaji idhini yako kuwezeshwa",
+        "kataaUjumbe": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
+      },
+      "showInSidePanel": {
+        "label": "Onyesha kwenye upau wa kando",
+        "description": "Ukiwezeshwa, onyesha kwenye upau wa kando"
+      },
+      "showInTabSearchResults": {
+        "label": "Onyesha historia katika matokeo ya utafutaji wa kichupo",
+        "description": "Ukiwezeshwa, rekodi za historia za hivi karibuni zitaonyeshwa katika matokeo ya utafutaji wa kichupo"
+      },
+      "limitSearchResults": {
+        "label": "Wekeza idadi ya rekodi za historia katika matokeo ya utafutaji wa kichupo",
+        "description": "Wekeza kikomo cha idadi ya rekodi za historia katika matokeo ya utafutaji wa kichupo. Rekodi za historia zinazozidi kikomo zitafutwa",
+        "onyo": "Rekodi nyingi zitaathiri kasi ya kupakia ukurasa"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Idadi ya vichupo vilivyofungwa hivi karibuni kuhifadhi",
+        "description": "Wekeza idadi ya vichupo vilivyofungwa hivi karibuni kuhifadhi"
+      },
+      "keepDays": {
+        "label": "Idadi ya siku za kuhifadhi vichupo vilivyofungwa hivi karibuni",
+        "description": "Wekeza idadi ya siku za kuhifadhi vichupo vilivyofungwa hivi karibuni. Data iliyomalizika itafutwa",
+        "siku": "Siku"
+      },
+      "openDuration": {
+        "label": "Muda wa kufungua",
+        "description": "Vichupo vyenye wakati mrefu wa kufunguliwa tu ndio vitahifadhiwa",
+        "sekunde": "Sekunde"
+      }
+    },
+    "shortcuts": {
+      "onyo": "Ukurasa huu ni kwa kuonyesha tu. Ili kubadilisha vidokezo, tafadhali tembelea [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
+      "goToChromeSettings": "Nenda kwa mipangilio ya Chrome",
+      "_execute_action": "Tumia kipengele hiki",
+      "openSidePanel": "Fungua upau wa kando"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Picha kwa picha",
+      "tabSwitch": {
+        "label": "PIP kwenye Kubadilisha Kichupo",
+        "description": "Ingia moja kwa moja kwenye PIP unapobadilisha vichupo na video isiyozimwa",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "scrollSwitch": {
+        "label": "Badilisha kwenda picha kwa picha unapopiga mshale",
+        "description": "Ikiwa ukurasa wa sasa unacheza video na video haijazimwa na video iko nje ya eneo linaloonekana unapopiga mshale, itaingia moja kwa moja kwenye picha kwa picha.",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Inahitajika Uanzishaji wa Mtumiaji",
+      "tips_1": "Uanzishaji wa mtumiaji maana yake mtumiaji kwa sasa anashirikiana na ukurasa",
+      "tips_2": "Hasa, uanzishaji unachochea matukio ya kuingiza kama vile:",
+      "tips_3": "Angalizo: Kutumia mhimili wa gurudumu la panya au ishara ya kupiga mara mbili haitaanzisha!",
+      "tips_4": "Ikiwa ungependa maelezo zaidi, tafadhali tembelea:",
+      "bonyeza": "Bonyeza",
+      "menyuYaKulia": "Menyu ya kulia",
+      "bonyezaMaraMbili": "Bonyeza mara mbili"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tabia ya Kufupisha Kikundi cha Vichupo",
+        "description": "Badilisha tabia ya kufupisha kikundi cha vichupo cha kivinjari cha Chrome",
+        "option_collapse_others": "Onyesha kikundi cha sasa na kufupisha vingine",
+        "option_disable": "Fungua vikundi vyote",
+        "option_auto": "Tumia mipangilio ya msingi ya Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Tumia moja kwa moja au jiunge na kikundi cha kikoa sawa",
+        "description": "Ukiwezeshwa, vichupo vilivyofunguliwa vipya vitaungana moja kwa moja na kikundi cha kikoa sawa. Ikiwa kikundi cha kikoa hakipo, kikundi kipya cha kikoa kitabuniwa",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Chuja vichupo vilivyofungwa katika vikundi",
+        "description": "Ukiwezeshwa, vichupo vilivyofungwa haitaongezwa kwenye vikundi",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Washa mstari wa maendeleo",
+        "description": "Ukiwezeshwa, mstari wa maendeleo wa kusoma utaonyeshwa chini ya upau wa kichwa cha kichupo",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "readingProgressBar": {
+        "label": "Mstari wa maendeleo wa kusoma",
+        "description": "Ukiwezeshwa, mstari wa maendeleo wa kusoma utaonyeshwa chini ya upau wa kichwa cha kichupo",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "scrollHeightRatio": {
+        "label": "Uwiano wa Urefu wa Kusogeza",
+        "description": "Uwiano wa urefu wa dirisha linaloonekana kwa urefu wa ukurasa. Mstari wa maendeleo utaonyeshwa wakati uwiano unazidi",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "playingProgressBar": {
+        "label": "Mstari wa maendeleo wa kucheza",
+        "description": "Ukiwezeshwa, mstari wa maendeleo wa kucheza utaonyeshwa chini ya upau wa kichwa cha kichupo",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Washa mpira wa kuteleza",
+        "description": "Ukiwa upau wa upande umefungwa, mpira wa kuteleza utaonyeshwa upande wa kulia wa ukurasa, kuruhusu ufunguzi wa haraka wa upau wa upande."
+      }
+    },
+    "performance": {
+      "label": "Utendaji",
+      "saveMemoryAction": {
+        "label": "Jinsi ya kuokoa kumbukumbu kwenye vichupo",
+        "description": "Ili kuokoa kumbukumbu kwenye vichupo, unaweza kuchagua kufunga vichupo au kuyatupa.",
+        "discardTips": "kichupo kilichotupwa hakielekei popote. Tunakifuta lakini bado kinaonekana kwenye mstari wa vichupo vya Chrome. Ukirudi kwenye kichupo kilichotupwa, kitajilisha wakati unapobofya. Yaliyomo ya fomu, nafasi ya kusogeza na kadhalika hufutwa na kurudishwa kwa njia ile ile wangekuwa wakati wa kuvinjari mbele/nyuma kwenye vichupo.",
+        "disabled": "Imelemazwa",
+        "closeTabs": "Funga vichupo",
+        "discardTabs": "Tupa vichupo"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Muda gani wa kutupa vichupo visivyofanya kazi",
+        "description": "Wakati hakuna sauti au video inayochezwa kwenye kichupo na kutupa kiotomatiki hakuzuiwi, kichupo kitatupwa baada ya muda uliowekwa.",
+        "minutes": "Dakika"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Muda gani wa kufunga vichupo visivyofanya kazi",
+        "description": "Wakati hakuna sauti au video inayochezwa kwenye kichupo na kutupa kiotomatiki hakuzuiwi, kichupo kitafungwa baada ya muda uliowekwa.",
+        "minutes": "Dakika"
+      },
+      "disableAnimations": {
+        "label": "Zima michoro",
+        "description": "zima athari ya mawimbi na zima mabadiliko yote"
+      }
+    }
+  }
+}

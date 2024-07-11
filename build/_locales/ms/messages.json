@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Pengurusan Tab Sisi Berwarna-warni"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Urus tab penyemak imbas di panel sisi, Terlalu cantik untuk menjadi sebaik ini."
+  },
+  "openSidePanel": {
+    "message": "Buka Panel Sisi"
+  }
+}

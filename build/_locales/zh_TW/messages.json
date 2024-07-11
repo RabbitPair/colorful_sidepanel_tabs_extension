@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "多彩側邊欄標籤管理"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "在側邊欄管理瀏覽器標籤頁，漂亮得不像實力派"
+  },
+  "openSidePanel": {
+    "message": "打開側邊欄"
+  }
+}

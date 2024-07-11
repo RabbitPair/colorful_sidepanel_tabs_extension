@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Farverig sidebjælke faneadministration"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Administrer faner i sidepanelet, for smuk til at være så god."
+  },
+  "openSidePanel": {
+    "message": "Åbn sidepanel"
+  }
+}

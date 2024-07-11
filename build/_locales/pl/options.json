@@ -1,0 +1,339 @@
+{
+  "OpenSideSanelToPreview": "Otwórz panel boczny, aby wyświetlić podgląd",
+  "_execute_action": "Aktywuj to rozszerzenie",
+  "openSidePanel": "Otwórz panel boczny",
+  "settings": {
+    "resetCurrentPageSettings": "Zresetuj ustawienia bieżącej strony",
+    "modules": {
+      "appearance": "Wygląd",
+      "beautify": "Upiększ",
+      "tabs": "Karty",
+      "history": "Historia",
+      "shortcuts": "Skróty",
+      "pip": "Obraz w obrazie",
+      "chromeTabGroupAdvanced": "Zaawansowane grupy kart",
+      "progressBar": "pasek postępu",
+      "floatBall": "Pływająca kula",
+      "experimentalFeatures": "Funkcje eksperymentalne"
+    },
+    "appearance": {
+      "header": "Wygląd",
+      "language": {
+        "label": "Język interfejsu",
+        "description": "Ustaw język wyświetlania interfejsu"
+      },
+      "theme": {
+        "label": "Tryb kolorów",
+        "description": "Wybierz tryb jasny lub ciemny"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Po włączeniu interfejs będzie wyświetlał tekst od prawej do lewej"
+      },
+      "fontSize": {
+        "label": "Rozmiar czcionki",
+        "description": "Ustaw rozmiar czcionki",
+        "small": "Mały",
+        "large": "Duży"
+      },
+      "fontFamily": {
+        "label": "Rodzina czcionek",
+        "description": "Ustaw rodzinę czcionek"
+      },
+      "fontColor": {
+        "label": "Kolor czcionki",
+        "description": "Ustaw kolor czcionki"
+      },
+      "fontWeight": {
+        "label": "Grubość czcionki",
+        "description": "Ustaw grubość czcionki"
+      },
+      "extAction": {
+        "label": "Akcja po kliknięciu ikony rozszerzenia",
+        "description": "Ustaw akcję po kliknięciu ikony rozszerzenia",
+        "openPopup": "Otwórz popup",
+        "openSidePanel": "Otwórz panel boczny"
+      },
+      "SidePanelPosition": {
+        "label": "Pozycja panelu bocznego",
+        "description": "Ustaw, czy panel boczny jest wyświetlany po lewej czy prawej stronie.",
+        "goToChromeSettings": "Przejdź do ustawień Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Pozycja pola wyszukiwania",
+        "description": "Ustaw pozycję pola wyszukiwania",
+        "top": "Góra",
+        "bottom": "Dół",
+        "hide": "Ukryj"
+      },
+      "toolbar": {
+        "label": "Pokaż pasek narzędzi",
+        "description": "Po włączeniu pasek narzędzi jest wyświetlany"
+      },
+      "bottomNav": {
+        "label": "Pokaż dolny pasek nawigacyjny",
+        "description": "Po włączeniu dolny pasek nawigacyjny jest wyświetlany"
+      },
+      "buttonPosition": {
+        "label": "Pozycja przycisków",
+        "description": "Ustaw pozycję przycisków",
+        "left": "Lewo",
+        "right": "Prawo"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ukryj panel boczny w trybie pełnoekranowym",
+        "description": "Po włączeniu panel boczny automatycznie ukryje się, gdy strona będzie w trybie pełnoekranowym. Ze względu na ograniczenia Chrome, panel boczny nie może być automatycznie ponownie otwarty. Musisz ręcznie ponownie otworzyć panel boczny!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Kolorowe tło",
+        "description": "Po włączeniu panel boczny będzie wyświetlał kolorowe tło"
+      },
+      "backgroundPicture": {
+        "label": "Obraz tła",
+        "description": "Kliknij [+], aby dodać niestandardowy obraz, kliknij [-], aby usunąć niestandardowy obraz. Możesz znaleźć swoje ulubione obrazy na następujących stronach internetowych.",
+        "dialogDescription": "Wprowadź adres obrazu",
+        "OK": "OK",
+        "Cancel": "Anuluj",
+        "invalidImage": "Nieprawidłowy adres obrazu"
+      },
+      "backgroundImageTransparency": {
+        "label": "Przezroczystość obrazu",
+        "description": "Ustaw przezroczystość obrazu",
+        "transparent": "Przezroczysty",
+        "opaque": "Nieprzezroczysty"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensywność rozmycia",
+        "description": "Ustaw intensywność rozmycia"
+      },
+      "backgroundImageBrightness": {
+        "label": "Jasność",
+        "description": "Ustaw jasność, zalecane tylko dla trybu ciemnego"
+      },
+      "listBackgroundStyle": {
+        "label": "Styl tła listy",
+        "description": "Ustaw styl tła listy",
+        "single": "Pojedynczy",
+        "none": "Brak",
+        "simple": "Prosty",
+        "complementary": "Komplementarny",
+        "analogous": "Analogiczny",
+        "triadic": "Triadyczny",
+        "tetradic": "Tetradyczny"
+      },
+      "listBackgroundTransparency": {
+        "label": "Przezroczystość tła listy",
+        "description": "Ustaw przezroczystość tła listy",
+        "transparent": "Przezroczysty",
+        "opaque": "Nieprzezroczysty"
+      },
+      "listBottomBorder": {
+        "label": "Dolna granica listy",
+        "description": "Ustaw dolną granicę listy",
+        "none": "Brak",
+        "dashed": "Przerywana",
+        "solid": "Stała"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Płynne paski przewijania",
+        "description": "Używaj pasków przewijania w stylu Microsoft Fluent i nakładaj je na zawartość sieci",
+        "goToChromeSettings": "Przejdź do ustawień Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Widok listy",
+        "description": "Przełącz widok listy",
+        "compact": "Widok kompaktowy",
+        "visual": "Widok wizualny"
+      },
+      "showBy": {
+        "label": "Pokaż według",
+        "description": "Przełącz pokaż według"
+      },
+      "sortBy": {
+        "label": "Sortuj według",
+        "description": "Przełącz sortuj według"
+      },
+      "currentWindowOnly": {
+        "label": "Tylko bieżące okno",
+        "description": "Pokaż tylko karty bieżącego okna. Jeśli wyłączone, będą wyświetlane karty ze wszystkich okien"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Pokaż przypięte karty jako ikony",
+        "description": "Po włączeniu przypięte karty będą wyświetlane jako ikony, a nie na liście"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Pokaż ikony stron internetowych po złożeniu grup",
+        "description": "Po włączeniu złożone grupy będą wyświetlać ikony kart"
+      },
+      "hoverPreview": {
+        "label": "Podgląd po najechaniu",
+        "description": "Po włączeniu najechanie na karty wyświetli podgląd kart"
+      },
+      "previewWithThumbnail": {
+        "label": "Pokaż miniatury w podglądzie",
+        "description": "Po włączeniu podglądy będą wyświetlać miniatury kart",
+        "alert": "Przechwyć widoczny obszar aktualnie aktywnej karty w określonym oknie. Aby wywołać tę metodę, rozszerzenie musi mieć uprawnienia <all_urls> lub uprawnienia activeTab.",
+        "deniedMessage": "Odmówiłeś wymaganych uprawnień, więc ustawienia nie zostały zmienione. Jeśli zmienisz zdanie, kliknij ponownie i zezwól na autoryzację"
+      },
+      "previewDelay": {
+        "label": "Opóźnienie podglądu",
+        "description": "Ustaw czas opóźnienia podglądu kart po najechaniu na karty itp. (sekundy). Jeśli ustawione na 0, nie będzie opóźnienia",
+        "seconds": "Sekundy"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Zapisz ostatnio zamknięte karty",
+        "description": "Po włączeniu zapisz ostatnio zamknięte karty"
+      },
+      "dataSource": {
+        "label": "Źródło danych",
+        "description": "Wybierz źródło danych",
+        "recentlyClosedTabs": "Ostatnio zamknięte karty",
+        "chromeHistory": "Historia Chrome",
+        "alert": "Aby przeszukiwać historię, potrzebujesz autoryzacji",
+        "deniedMessage": "Odmówiłeś wymaganych uprawnień, więc ustawienia nie zostały zmienione. Jeśli zmienisz zdanie, kliknij ponownie i zezwól na autoryzację"
+      },
+      "showInSidePanel": {
+        "label": "Pokaż w panelu bocznym",
+        "description": "Po włączeniu pokaż w panelu bocznym"
+      },
+      "showInTabSearchResults": {
+        "label": "Pokaż historię w wynikach wyszukiwania kart",
+        "description": "Po włączeniu ostatnie rekordy historii będą wyświetlane w wynikach wyszukiwania kart"
+      },
+      "limitSearchResults": {
+        "label": "Ogranicz liczbę rekordów historii w wynikach wyszukiwania kart",
+        "description": "Ustaw limit liczby rekordów historii w wynikach wyszukiwania kart. Rekordy historii przekraczające limit będą filtrowane",
+        "alert": "Zbyt wiele rekordów wpłynie na szybkość ładowania strony"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Liczba ostatnio zamkniętych kart do zachowania",
+        "description": "Ustaw liczbę ostatnio zamkniętych kart do zachowania"
+      },
+      "keepDays": {
+        "label": "Liczba dni przechowywania ostatnio zamkniętych kart",
+        "description": "Ustaw liczbę dni przechowywania ostatnio zamkniętych kart. Przeterminowane dane zostaną usunięte",
+        "days": "Dni"
+      },
+      "openDuration": {
+        "label": "Czas otwarcia",
+        "description": "Tylko karty otwarte dłużej niż ustawiony czas będą zapisywane",
+        "seconds": "Sekundy"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ta strona jest tylko do wyświetlania. Aby zmodyfikować skróty, odwiedź [Rozszerzenia]->[Zarządzaj rozszerzeniami]->[Skróty klawiaturowe]",
+      "goToChromeSettings": "Przejdź do ustawień Chrome",
+      "_execute_action": "Aktywuj to rozszerzenie",
+      "openSidePanel": "Otwórz panel boczny"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Obraz w obrazie",
+      "tabSwitch": {
+        "label": "PIP przy przełączaniu kart",
+        "description": "Automatycznie włącz PIP przy przełączaniu kart z nie wyciszonym wideo",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      },
+      "scrollSwitch": {
+        "label": "Przełącz na obraz w obrazie podczas przewijania",
+        "description": "Jeśli bieżąca strona odtwarza wideo i wideo nie jest wyciszone, a wideo jest poza widocznym zakresem podczas przewijania, przejdzie do obrazu w obrazie.",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Wymagana aktywacja użytkownika",
+      "tips_1": "Aktywacja użytkownika oznacza, że użytkownik aktualnie wchodzi w interakcję ze stroną",
+      "tips_2": "Bardziej szczegółowo, aktywacja wyzwala zdarzenia wejściowe, takie jak:",
+      "tips_3": "Uwaga: Użycie kółka myszy lub gestu przewijania nie wyzwoli!",
+      "tips_4": "Jeśli chcesz uzyskać więcej szczegółów, odwiedź:",
+      "click": "Kliknij",
+      "contextmenu": "Menu kontekstowe",
+      "dblclick": "Podwójne kliknięcie"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Zachowanie grupy kart przy zwijaniu",
+        "description": "Zmień zachowanie zwijania grupy kart w przeglądarce Chrome",
+        "option_collapse_others": "Pokaż bieżącą grupę i zwiń pozostałe",
+        "option_disable": "Rozwiń wszystkie grupy",
+        "option_auto": "Użyj domyślnych ustawień Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automatycznie twórz lub dołączaj do grupy tej samej domeny",
+        "description": "Po włączeniu nowo otwarte karty automatycznie dołączą do grupy tej samej domeny. Jeśli grupa domeny nie istnieje, zostanie utworzona nowa grupa domeny",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtruj przypięte karty w grupach",
+        "description": "Po włączeniu przypięte karty nie będą dodawane do grup",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Włącz pasek postępu",
+        "description": "Po włączeniu pasek postępu czytania będzie wyświetlany poniżej paska tytułowego karty",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      },
+      "readingProgressBar": {
+        "label": "Pasek postępu czytania",
+        "description": "Po włączeniu pasek postępu czytania będzie wyświetlany poniżej paska tytułowego karty",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      },
+      "scrollHeightRatio": {
+        "label": "Współczynnik wysokości przewijania",
+        "description": "Stosunek widocznej wysokości okna do wysokości strony. Pasek postępu będzie wyświetlany, gdy stosunek zostanie przekroczony",
+        "enabled": "Włączony",
+        "disabled": "Wyłączony"
+      },
+      "playingProgressBar": {
+        "label": "Pasek postępu odtwarzania",
+        "description": "Po włączeniu pasek postępu odtwarzania będzie wyświetlany poniżej paska tytułowego karty",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Włącz pływającą kulę",
+        "description": "Gdy panel boczny jest zamknięty, pływająca kula będzie wyświetlana po prawej stronie strony, umożliwiając szybkie otwarcie panelu bocznego."
+      }
+    },
+    "performance": {
+      "label": "Wydajność",
+      "saveMemoryAction": {
+        "label": "Jak oszczędzać pamięć na kartach",
+        "description": "Aby zaoszczędzić pamięć na kartach, możesz wybrać zamknięcie kart lub odrzucenie kart.",
+        "discardTips": "odrzucona karta nie znika. Zabijamy ją, ale nadal jest widoczna na pasku kart Chrome. Jeśli wrócisz do karty, która została odrzucona, zostanie ponownie załadowana po kliknięciu. Zawartość formularza, pozycja przewijania itp. są zapisywane i przywracane w taki sam sposób, jak podczas nawigacji w przód i w tył po kartach.",
+        "disabled": "Wyłączone",
+        "closeTabs": "Zamknij karty",
+        "discardTabs": "Odrzuć karty"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Czas odrzucania nieaktywnych kart",
+        "description": "Gdy na karcie nie jest odtwarzany dźwięk ani wideo, a automatyczne odrzucanie nie jest zabronione, karta zostanie odrzucona po określonym czasie.",
+        "minutes": "Minuty"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Czas zamykania nieaktywnych kart",
+        "description": "Gdy na karcie nie jest odtwarzany dźwięk ani wideo, a automatyczne odrzucanie nie jest zabronione, karta zostanie zamknięta po określonym czasie.",
+        "minutes": "Minuty"
+      },
+      "disableAnimations": {
+        "label": "Wyłącz animacje",
+        "description": "wyłącz efekt rozprysku i wyłącz wszystkie przejścia"
+      }
+    }
+  }
+}

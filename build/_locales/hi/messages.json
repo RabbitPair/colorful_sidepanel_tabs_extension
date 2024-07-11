@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "रंगीन साइडबार टैब प्रबंधन"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "साइड पैनल में टैब्स प्रबंधित करें, इतना अच्छा होने के लिए बहुत सुंदर।"
+  },
+  "openSidePanel": {
+    "message": "साइड पैनल खोलें"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Opnaðu hliðarpanel til að fyrirskoða",
+  "_execute_action": "Virkja þessa viðbót",
+  "openSidePanel": "Opna hliðarpanel",
+  "settings": {
+    "resetCurrentPageSettings": "Endurstilla núverandi síðustillingar",
+    "modules": {
+      "appearance": "Útlit",
+      "beautify": "Fínpússa",
+      "tabs": "Töflur",
+      "history": "Saga",
+      "shortcuts": "Flýtileiðir",
+      "pip": "Mynd í mynd",
+      "chromeTabGroupAdvanced": "Ítarlegar flipahópar",
+      "progressBar": "framvindustiku",
+      "floatBall": "Fljótandi bolti",
+      "experimentalFeatures": "Íþróttakennslueiginleikar"
+    },
+    "appearance": {
+      "header": "Útlit",
+      "language": {
+        "label": "Tungumál viðmóts",
+        "description": "Stilltu tungumál fyrir viðmótið"
+      },
+      "theme": {
+        "label": "Liturhamur",
+        "description": "Veldu ljósan eða dökkann liturham"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Þegar virkt, mun viðmótið birta texta frá hægri til vinstri"
+      },
+      "fontSize": {
+        "label": "Leturstærð",
+        "description": "Stilltu leturstærð",
+        "small": "Lítil",
+        "large": "Stór"
+      },
+      "fontFamily": {
+        "label": "Leturgerð",
+        "description": "Stilla leturgerð"
+      },
+      "fontColor": {
+        "label": "Leturlitur",
+        "description": "Stilla leturlit"
+      },
+      "fontWeight": {
+        "label": "Leturþyngd",
+        "description": "Stilla leturþyngd"
+      },
+      "extAction": {
+        "label": "Aðgerð við smelltu viðbótartákn",
+        "description": "Stilltu aðgerð þegar smellt er á viðbótartákn",
+        "openPopup": "Opna popup",
+        "openSidePanel": "Opna hliðarpanel"
+      },
+      "SidePanelPosition": {
+        "label": "Staðsetning hliðarpanels",
+        "description": "Stilltu hvort hliðarpanel sé birt vinstra megin eða hægra megin.",
+        "goToChromeSettings": "Fara í stillingar Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Staðsetning leitarbox",
+        "description": "Stilltu staðsetningu leitarbox",
+        "top": "Efri",
+        "bottom": "Neðri",
+        "hide": "Fela"
+      },
+      "toolbar": {
+        "label": "Sýna tækjastiku",
+        "description": "Þegar virkt, er tækjastika birt"
+      },
+      "bottomNav": {
+        "label": "Sýna neðri siglingarstiku",
+        "description": "Þegar virkt, er neðri siglingarstika birt"
+      },
+      "buttonPosition": {
+        "label": "Staðsetning hnappa",
+        "description": "Stilltu staðsetningu hnappa",
+        "left": "Vinstri",
+        "right": "Hægri"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Fela hliðarpanel í fullskjá",
+        "description": "Þegar virkt, mun hliðarpanelinn fela sig sjálfkrafa þegar síðan er í fullskjá. Vegna takmarkana Chromes, getur hliðarpanelinn ekki verið opnaður aftur sjálfkrafa. Þú verður að opna hliðarpanelinn aftur handvirkt!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Litlögð bakgrunn",
+        "description": "Þegar virkt, mun hliðarpanelinn birta litlögðan bakgrunn"
+      },
+      "backgroundPicture": {
+        "label": "Bakgrunnsmynd",
+        "description": "Smelltu á [+] til að bæta við sérsniðinni mynd, smelltu á [-] til að eyða sérsniðinni mynd. Þú getur fundið uppáhaldsmyndir þínar á eftirfarandi vefsíðum.",
+        "dialogDescription": "Sláðu inn vefslóð myndar",
+        "OK": "Í lagi",
+        "Cancel": "Hætta við",
+        "invalidImage": "Ógild vefslóð myndar"
+      },
+      "backgroundImageTransparency": {
+        "label": "Myndargegnsæi",
+        "description": "Stilltu myndargegnsæi",
+        "transparent": "Gegnsær",
+        "opaque": "Ógegnsær"
+      },
+      "backgroundImageBlur": {
+        "label": "Þyngd þokkunar",
+        "description": "Stilla þyngd þokkunar"
+      },
+      "backgroundImageBrightness": {
+        "label": "Birta",
+        "description": "Stilla birtu, mælt bara fyrir dimmt hátt"
+      },
+      "listBackgroundStyle": {
+        "label": "Stíllistabakgrunnur",
+        "description": "Stilltu stíllistabakgrunn",
+        "single": "Einn",
+        "none": "Enginn",
+        "simple": "Einfaldur",
+        "complementary": "Viðbót",
+        "analogous": "Analog",
+        "triadic": "Þríhyrningur",
+        "tetradic": "Fjórhliða"
+      },
+      "listBackgroundTransparency": {
+        "label": "Gegnsæi stíllistabakgrunns",
+        "description": "Stilltu gegnsæi stíllistabakgrunns",
+        "transparent": "Gegnsær",
+        "opaque": "Ógegnsær"
+      },
+      "listBottomBorder": {
+        "label": "Neðri ramma stíllista",
+        "description": "Stilltu neðri ramma stíllista",
+        "none": "Enginn",
+        "dashed": "Strikaður",
+        "solid": "Fastur"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fljótandi rúllustikur",
+        "description": "Notaðu stíl rúllustika Microsoft Fluent hönnunar og birtu þær yfir vefinn",
+        "goToChromeSettings": "Fara í stillingar Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "List utsýni",
+        "description": "Skiptu yfir í lista utsýni",
+        "compact": "Þjappað utsýni",
+        "visual": "Sjónrænt utsýni"
+      },
+      "showBy": {
+        "label": "Sýna eftir",
+        "description": "Skiptu um að sýna eftir"
+      },
+      "sortBy": {
+        "label": "Raða eftir",
+        "description": "Skiptu um að raða eftir"
+      },
+      "showFullUrl": {
+        "label": "Sýna fulla vefslóð",
+        "description": "Þegar virkt, full vefslóð verður sýnd undir flipatitlinum"
+      },
+      "currentWindowOnly": {
+        "label": "Aðeins núverandi gluggi",
+        "description": "Aðeins sýna flipa í núverandi glugga. Ef óvirkjað, verða flipar úr öllum gluggum sýndir"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Sýna festaða flipa sem tákn",
+        "description": "Þegar virkt, verða festaðir flipar sýndir sem tákn og ekki í lista"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Sýna vefsvæðatákn þegar hópar eru samþjappaðir",
+        "description": "Þegar virkt, sýna samþjappaða hópa vefsvæðatákn"
+      },
+      "hoverPreview": {
+        "label": "Fletta yfir",
+        "description": "Þegar virkt, fletting yfir flipa mun sýna flettingar"
+      },
+      "previewWithThumbnail": {
+        "label": "Sýna smámyndir í flettingu",
+        "description": "Þegar virkt, mun flettingar sýna flipamyndir",
+        "alert": "Taktu mynd af sýnilega svæðið í núverandi virka flipa í tilteknum glugga. Til að kalla á þessa aðferð þarf viðbótin að hafa leyfi <all_urls> eða activeTab leyfi.",
+        "deniedMessage": "Þú hefur hafnað nauðsynlegu leyfi, svo stillingarnar hafa ekki breyst. Ef þú skiptir um skoðun, vinsamlegast smelltu aftur og leyfðu heimild"
+      },
+      "previewDelay": {
+        "label": "Flettingartími",
+        "description": "Stilltu biðtímann fyrir flettingar þegar flettir yfir flipa, o.s.frv. (sekúndur). Ef stillt á 0, verður enginn biðtími",
+        "seconds": "Sekúndur"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Vistaðu nýlega lokaðar flipa",
+        "description": "Þegar virkt, vistaðu nýlega lokaðar flipa"
+      },
+      "dataSource": {
+        "label": "Gagnagjafi",
+        "description": "Veldu gagnagjafa",
+        "recentlyClosedTabs": "Nýlega lokaðar flipar",
+        "chromeHistory": "Chrome saga",
+        "alert": "Til að leita að söguupplýsingum, þarftu að leyfa heimildir",
+        "deniedMessage": "Þú hefur hafnað nauðsynlegum heimildum, svo stillingarnar hafa ekki breyst. Ef þú skiptir um skoðun, vinsamlegast smelltu aftur og leyfðu heimild"
+      },
+      "showInSidePanel": {
+        "label": "Sýna í hliðarpanel",
+        "description": "Þegar virkt, sýna í hliðarpanel"
+      },
+      "showInTabSearchResults": {
+        "label": "Sýna sögu í leitarniðurstöðum flipa",
+        "description": "Þegar virkt, nýlegar söguupplýsingar verða sýndar í leitarniðurstöðum flipa"
+      },
+      "limitSearchResults": {
+        "label": "Takmarka fjölda söguupplýsinga í leitarniðurstöðum flipa",
+        "description": "Stilltu takmarkið á fjölda söguupplýsinga í leitarniðurstöðum flipa. Söguupplýsingar sem fara yfir takmarkið verða síaðar",
+        "alert": "Of margar upplýsingar munu hafa áhrif á hraða hleðslu síðunnar"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Fjöldi nýlega lokaðra flipa sem á að halda",
+        "description": "Stilltu fjölda nýlega lokaðra flipa sem á að halda"
+      },
+      "keepDays": {
+        "label": "Fjöldi daga sem á að halda nýlega lokaðra flipa",
+        "description": "Stilltu fjölda daga sem á að halda nýlega lokaðra flipa. Útrunnin gögn verða eytt",
+        "days": "Dagar"
+      },
+      "openDuration": {
+        "label": "Opinartími",
+        "description": "Aðeins flipar sem hafa verið opnir lengur en stillt er á munu vera vistaðir",
+        "seconds": "Sekúndur"
+      }
+    },
+    "shortcuts": {
+      "alert": "Þessi síða er einungis til sýnis. Til að breyta flýtileiðum, vinsamlegast heimsækja [Viðbætur]->[Stjórna viðbótum]->[Lyklaborðsflýtileiðir]",
+      "goToChromeSettings": "Fara í stillingar Chrome",
+      "_execute_action": "Virkja þessa viðbót",
+      "openSidePanel": "Opna hliðarpanel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Mynd í mynd",
+      "tabSwitch": {
+        "label": "MIM við flipaskipti",
+        "description": "Sjálfvirkur innsláttur í MIM þegar skipt er um flipa með óhljóðsett myndband",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "scrollSwitch": {
+        "label": "Skipta yfir í mynd í mynd þegar skrollað er",
+        "description": "Ef núverandi síða er að spila myndband og myndbandið er ekki hljóðsett og myndbandið er ekki í sjónrænum bili þegar skrollað er, þá verður farið yfir í mynd í mynd.",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Krafist notenda virkjunar",
+      "tips_1": "Notenda virkjun þýðir að notandinn sé nú þegar að hafa samskipti við síðuna",
+      "tips_2": "Nánar tiltekið, virkjun vekur inntakshendingar eins og:",
+      "tips_3": "Athugaðu: Notkun músahjóls eða sveifluþáttar mun ekki vekja!",
+      "tips_4": "Ef þú vilt frekari upplýsingar, vinsamlegast heimsækja:",
+      "click": "Smelltu",
+      "contextmenu": "Hægrismelltu valmynd",
+      "dblclick": "Tvísmelltu"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Hvattur hópur flipa til að hreinsa hegðun",
+        "description": "Breyttu hegðun hóps samanfellingar Chrome vafraflipa",
+        "option_collapse_others": "Sýna núverandi hóp og hreinsa aðra",
+        "option_disable": "Opna öll hópa",
+        "option_auto": "Nota sjálfgefnar stillingar Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Sjálfvirk skapa eða sameina hóp með sama lén",
+        "description": "Þegar virkt, nýlega opnuð flipar verða sjálfkrafa sameinaðar í sama lénshóp. Ef lénshópurinn er ekki til, verður nýr lénshópur búinn til",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Sía út festar flipa í hópum",
+        "description": "Þegar virkt, festar flipar verða ekki bættar við hópa",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Virkja framvindustiku",
+        "description": "Þegar virkt, verður lesningarfremgangsstika sýnd fyrir neðan flipatitilinn",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "readingProgressBar": {
+        "label": "Lesningarfremgangsstika",
+        "description": "Þegar virkt, verður lesningarfremgangsstika sýnd fyrir neðan flipatitilinn",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "scrollHeightRatio": {
+        "label": "Hlutfall hæðar skrollunar",
+        "description": "Hlutfall sýnilegrar gluggahæðar við síðuhæð. Framvindustika verður sýnd þegar hlutfallið er farið yfir",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "playingProgressBar": {
+        "label": "Spilunarfremgangsstika",
+        "description": "Þegar virkt, verður spilunarfremgangsstika sýnd fyrir neðan flipatitilinn",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Virkja sveifbola",
+        "description": "Þegar hliðarpanelinn er lokaður, verður sveifboli sýndur á hægri hlið síðunnar, sem gerir kleift að opna hliðarpanelinn hratt."
+      }
+    },
+    "performance": {
+      "label": "Framför",
+      "saveMemoryAction": {
+        "label": "Hvernig á að spara minni á flipum",
+        "description": "Til að spara minni á flipum getur þú valið að loka flipum eða henda þeim burt.",
+        "discardTips": "a discarded tab doesn't go anywhere. We kill it but it's still visible on the Chrome tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
+        "disabled": "Óvirkjað",
+        "closeTabs": "Loka flipum",
+        "discardTabs": "Henda flipum"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Hversu lengi á að henda óvirkum flipum",
+        "description": "Þegar engin hljóð eða mynd er spiluð á flipanum og sjálfvirk hending er ekki bannað, verður flipinn hentur eftir tiltekinn tíma.",
+        "minutes": "Mínútur"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Hversu lengi á að loka óvirkum flipum",
+        "description": "Þegar engin hljóð eða mynd er spiluð á flipanum og sjálfvirk hending er ekki bannað, verður flipinn lokaður eftir tiltekinn tíma.",
+        "minutes": "Mínútur"
+      },
+      "disableAnimations": {
+        "label": "Afvirkja flutningar",
+        "description": "Afvirkja bylgjuefnið og öll flutninga"
+      }
+    }
+  }
+}

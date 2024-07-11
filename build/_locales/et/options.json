@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Ava küljepaneel eelvaateks",
+  "_execute_action": "Aktiveeri see laiendus",
+  "openSidePanel": "Ava küljepaneel",
+  "settings": {
+    "resetCurrentPageSettings": "Lähtesta praeguse lehe sätted",
+    "modules": {
+      "appearance": "Välimus",
+      "beautify": "Kaunista",
+      "tabs": "Vahekaardid",
+      "history": "Ajalugu",
+      "shortcuts": "Kiirklahvid",
+      "pip": "Pilt-pildis",
+      "chromeTabGroupAdvanced": "Täiustatud vahekaartide grupid",
+      "progressBar": "edenemisriba",
+      "floatBall": "Ujuv pall",
+      "experimentalFeatures": "Katsetusfunktsioonid"
+    },
+    "appearance": {
+      "header": "Välimus",
+      "language": {
+        "label": "Kasutajaliidese keel",
+        "description": "Määrake kasutajaliidese kuvamise keel"
+      },
+      "theme": {
+        "label": "Värvirežiim",
+        "description": "Valige hele või tumedat värvi režiim"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kui see on lubatud, kuvatakse tekst paremalt vasakule"
+      },
+      "fontSize": {
+        "label": "Fondi suurus",
+        "description": "Määrake fondi suurus",
+        "small": "Väike",
+        "large": "Suur"
+      },
+      "fontFamily": {
+        "label": "Fondi perekond",
+        "description": "Määrake fondi perekond"
+      },
+      "fontColor": {
+        "label": "Fondi värv",
+        "description": "Määrake fondi värv"
+      },
+      "fontWeight": {
+        "label": "Fondi kaal",
+        "description": "Määrake fondi kaal"
+      },
+      "extAction": {
+        "label": "Klõpsa laienduse ikooni toiming",
+        "description": "Määrake toiming, kui klõpsate laienduse ikoonil",
+        "openPopup": "Ava hüpikaken",
+        "openSidePanel": "Ava küljepaneel"
+      },
+      "SidePanelPosition": {
+        "label": "Küljepaneeli asend",
+        "description": "Määrake, kas küljepaneel kuvatakse vasakul või paremal.",
+        "goToChromeSettings": "Minge Chrome'i sätetesse"
+      },
+      "searchBoxPosition": {
+        "label": "Otsingukasti asend",
+        "description": "Määrake otsingukasti asend",
+        "top": "Üleval",
+        "bottom": "All",
+        "hide": "Peida"
+      },
+      "toolbar": {
+        "label": "Kuva tööriistariba",
+        "description": "Kui see on lubatud, kuvatakse tööriistariba"
+      },
+      "bottomNav": {
+        "label": "Kuva alumine navigeerimisriba",
+        "description": "Kui see on lubatud, kuvatakse alumine navigeerimisriba"
+      },
+      "buttonPosition": {
+        "label": "Nupu asend",
+        "description": "Määrake nuppude asend",
+        "left": "Vasakul",
+        "right": "Paremal"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Peida küljepaneel täisekraanil",
+        "description": "Kui see on lubatud, peidab küljepaneel automaatselt, kui leht on täisekraanil. Chrome'i piirangute tõttu ei saa küljepaneeli automaatselt uuesti avada. Peate küljepaneeli käsitsi uuesti avama!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Värviline taust",
+        "description": "Kui see on lubatud, kuvatakse küljepaneelil värviline taust"
+      },
+      "backgroundPicture": {
+        "label": "Taustapilt",
+        "description": "Klõpsake [+], et lisada kohandatud pilt, klõpsake [-], et kustutada kohandatud pilt. Leiate oma lemmikpildid järgmistelt veebisaitidelt.",
+        "dialogDescription": "Sisestage pildi aadress",
+        "OK": "OK",
+        "Cancel": "Tühista",
+        "invalidImage": "Vigane pildi aadress"
+      },
+      "backgroundImageTransparency": {
+        "label": "Pildi läbipaistvus",
+        "description": "Määrake pildi läbipaistvus",
+        "transparent": "Läbipaistev",
+        "opaque": "Läbipaistmatu"
+      },
+      "backgroundImageBlur": {
+        "label": "Udu intensiivsus",
+        "description": "Määrake udu intensiivsus"
+      },
+      "backgroundImageBrightness": {
+        "label": "Heledus",
+        "description": "Määrake heledus, soovitatav ainult tumedale režiimile"
+      },
+      "listBackgroundStyle": {
+        "label": "Loendi taustastiil",
+        "description": "Määrake loendi taustastiil",
+        "single": "Üksik",
+        "none": "Puudub",
+        "simple": "Lihtne",
+        "complementary": "Komplementaarne",
+        "analogous": "Analoogiline",
+        "triadic": "Triadiline",
+        "tetradic": "Tetradiline"
+      },
+      "listBackgroundTransparency": {
+        "label": "Loendi tausta läbipaistvus",
+        "description": "Määrake loendi tausta läbipaistvus",
+        "transparent": "Läbipaistev",
+        "opaque": "Läbipaistmatu"
+      },
+      "listBottomBorder": {
+        "label": "Loendi alumine piir",
+        "description": "Määrake loendi alumine piir",
+        "none": "Puudub",
+        "dashed": "Katkendlik",
+        "solid": "Täis"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Voolavad kerimisribad",
+        "description": "Kasutage Microsofti voolava disaini stiilis kerimisribasid ja kattke need veebisisu kohal",
+        "goToChromeSettings": "Minge Chrome'i sätetesse"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Loendi vaade",
+        "description": "Lülitage loendi vaade",
+        "compact": "Kompaktne vaade",
+        "visual": "Visuaalne vaade"
+      },
+      "showBy": {
+        "label": "Kuva järgi",
+        "description": "Lülitage kuvamine järgi"
+      },
+      "sortBy": {
+        "label": "Sorteerimise alus",
+        "description": "Lülitage sorteerimine järgi"
+      },
+      "showFullUrl": {
+        "label": "Näita täielikku URL-i",
+        "description": "Kui see on lubatud, kuvatakse täielik URL vahekaardi pealkirja all"
+      },
+      "currentWindowOnly": {
+        "label": "Ainult praegune aken",
+        "description": "Kuva ainult praeguse akna vahekaardid. Kui see on keelatud, kuvatakse kõigi akende vahekaardid"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Kuva kinnitatud vahekaardid ikoonidena",
+        "description": "Kui see on lubatud, kuvatakse kinnitatud vahekaardid ikoonidena ja mitte loendis"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Kuva veebisaidi ikoonid kokkutõmbunud gruppides",
+        "description": "Kui see on lubatud, kuvatakse kokkutõmbunud gruppides vahekaartide ikoonid"
+      },
+      "hoverPreview": {
+        "label": "Hõljukvaade",
+        "description": "Kui see on lubatud, kuvatakse vahekaartide kohal hõljudes vahekaartide eelvaated"
+      },
+      "previewWithThumbnail": {
+        "label": "Kuva pisipildid eelvaates",
+        "description": "Kui see on lubatud, kuvatakse eelvaadetes vahekaartide pisipildid",
+        "alert": "Püüdke määratud aknas kuvatava praegu aktiivse vahekaardi nähtav ala. Selle meetodi kutsumiseks peab laiendusel olema <all_urls> luba või activeTab luba.",
+        "deniedMessage": "Olete keelanud vajaliku loa, seega sätted pole muutunud. Kui muudate meelt, klõpsake uuesti ja lubage volitused"
+      },
+      "previewDelay": {
+        "label": "Eelvaate viivitus",
+        "description": "Määrake vahekaartide kohal hõljumisel vahekaartide eelvaadete viivitusaeg jne (sekundites). Kui see on määratud 0-le, pole viivitust",
+        "seconds": "Sekundit"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Salvesta hiljuti suletud vahekaardid",
+        "description": "Kui see on lubatud, salvestatakse hiljuti suletud vahekaardid"
+      },
+      "dataSource": {
+        "label": "Andmeallikas",
+        "description": "Valige andmeallikas",
+        "recentlyClosedTabs": "Hiljuti suletud vahekaardid",
+        "chromeHistory": "Chrome'i ajalugu",
+        "alert": "Ajaloo kirjete otsimiseks peate lubama oma volitused",
+        "deniedMessage": "Olete keelanud vajaliku loa, seega sätted pole muutunud. Kui muudate meelt, klõpsake uuesti ja lubage volitused"
+      },
+      "showInSidePanel": {
+        "label": "Kuva küljepaneelis",
+        "description": "Kui see on lubatud, kuvatakse küljepaneelis"
+      },
+      "showInTabSearchResults": {
+        "label": "Kuva ajalugu vahekaardi otsingutulemustes",
+        "description": "Kui see on lubatud, kuvatakse hiljutised ajaloo kirjed vahekaardi otsingutulemustes"
+      },
+      "limitSearchResults": {
+        "label": "Ajaloo kirjete arvu piiramine vahekaardi otsingutulemustes",
+        "description": "Määrake ajaloo kirjete arvu piir vahekaardi otsingutulemustes. Piirist üle läinud ajaloo kirjed filtreeritakse",
+        "alert": "Liiga palju kirjeid mõjutab lehe laadimiskiirust"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Hiljuti suletud vahekaartide arv, mida hoida",
+        "description": "Määrake hiljuti suletud vahekaartide arv, mida hoida"
+      },
+      "keepDays": {
+        "label": "Hoida hiljuti suletud vahekaarte päevades",
+        "description": "Määrake hiljuti suletud vahekaartide hoidmiseks päevade arv. Aegunud andmed kustutatakse",
+        "days": "Päeva"
+      },
+      "openDuration": {
+        "label": "Ava kestus",
+        "description": "Salvestatakse ainult vahekaardid, mis on avatud kauem kui määratud aeg",
+        "seconds": "Sekundit"
+      }
+    },
+    "shortcuts": {
+      "alert": "See leht on ainult kuvamiseks. Kiirklahvide muutmiseks külastage palun [Laiendid]->[Halda laiendeid]->[Klaviatuuri kiirklahvid]",
+      "goToChromeSettings": "Minge Chrome'i sätetesse",
+      "_execute_action": "Aktiveeri see laiendus",
+      "openSidePanel": "Ava küljepaneel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Pilt-pildis",
+      "tabSwitch": {
+        "label": "PIP vahekaardi vahetamisel",
+        "description": "Automaatne sisenemine PIP-režiimi vahekaartide vahetamisel heliga videote puhul",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "scrollSwitch": {
+        "label": "Vaheta pilt-pildis režiimi kerides",
+        "description": "Kui praegusel lehel mängitakse videot ja video pole vaikitud ning video on kerimisel nähtava ala väljaspool, siseneb see pilt-pildis režiimi.",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Kasutaja aktiveerimine on vajalik",
+      "tips_1": "Kasutaja aktiveerimine tähendab, et kasutaja suhtleb praegu lehega",
+      "tips_2": "Täpsemalt, aktiveerimine käivitab sisendi sündmused, nagu:",
+      "tips_3": "Märkus: Hiire kerimisratta kasutamine või libistamisžest ei käivita!",
+      "tips_4": "Kui soovite täiendavaid üksikasju, külastage palun:",
+      "click": "Klõpsake",
+      "contextmenu": "Paremklõpsu menüü",
+      "dblclick": "Topeltklõps"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Vahekaartide grupi kokkutõmbumise käitumine",
+        "description": "Muutke Chrome'i brauseri vahekaartide grupi kokkutõmbumise käitumist",
+        "option_collapse_others": "Kuva praegune grupp ja kokku muud",
+        "option_disable": "Laienda kõiki gruppe",
+        "option_auto": "Kasuta Chrome'i vaikeseadeid"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automaatselt loo või liitu sama domeeni grupiga",
+        "description": "Kui see on lubatud, liituvad uued avatud vahekaardid automaatselt sama domeeni grupiga. Kui domeeni gruppi pole, luuakse uus domeeni grupp",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtreeri kinnitatud vahekaardid gruppidesse",
+        "description": "Kui see on lubatud, ei lisata kinnitatud vahekaarte gruppidesse",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Luba loetelu lugemise edenemisriba",
+        "description": "Kui see on lubatud, kuvatakse vahekaardi pealkirjariba all lugemise edenemisriba",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "readingProgressBar": {
+        "label": "Lugemise edenemisriba",
+        "description": "Kui see on lubatud, kuvatakse vahekaardi pealkirjariba all lugemise edenemisriba",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "scrollHeightRatio": {
+        "label": "Kerimise kõrguse suhe",
+        "description": "Nähtava akna kõrguse suhe lehe kõrgusega. Edenemisriba kuvatakse, kui suhe ületatakse",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "playingProgressBar": {
+        "label": "Esitamise edenemisriba",
+        "description": "Kui see on lubatud, kuvatakse vahekaardi pealkirjariba all esitamise edenemisriba",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Luba ujuv pall",
+        "description": "Kui küljepaneel on suletud, kuvatakse lehe paremas servas ujuv pall, mis võimaldab küljepaneeli kiiret avamist."
+      }
+    },
+    "performance": {
+      "label": "Jõudlus",
+      "saveMemoryAction": {
+        "label": "Kuidas salvestada mälu vahekaartidel",
+        "description": "Mälu salvestamiseks vahekaartidel saate valida, kas sulgeda vahekaardid või visata need ära.",
+        "discardTips": "ära visatud vahekaart ei kao kuhugi. Me tapame selle, kuid see on endiselt nähtav Chrome'i vahekaardi ribal. Kui naasete vahekaardile, mis on visatud, laaditakse see uuesti klõpsates. Vormi sisu, kerimispositsioon jne salvestatakse ja taastatakse samamoodi nagu edasi/tagasi vahekaardi navigeerimise ajal.",
+        "disabled": "Keelatud",
+        "closeTabs": "Sulge vahekaardid",
+        "discardTabs": "Viska vahekaardid ära"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Kui kaua visataks ära mitteaktiivsed vahekaardid",
+        "description": "Kui vahekaardil ei mängita heli ega videot ning automaatne viskamine pole keelatud, visatakse vahekaart ära pärast määratud aega.",
+        "minutes": "Minutit"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Kui kaua sulgeda mitteaktiivsed vahekaardid",
+        "description": "Kui vahekaardil ei mängita heli ega videot ning automaatne viskamine pole keelatud, suletakse vahekaart pärast määratud aega.",
+        "minutes": "Minutit"
+      },
+      "disableAnimations": {
+        "label": "Keela animatsioonid",
+        "description": "keela lainetusefekt ja keela kõik üleminekud"
+      }
+    }
+  }
+}

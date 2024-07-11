@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Odpri stranski panel za predogled",
+  "_execute_action": "Aktiviraj to razširitev",
+  "openSidePanel": "Odpri stranski panel",
+  "settings": {
+    "resetCurrentPageSettings": "Ponastavi nastavitve trenutne strani",
+    "modules": {
+      "appearance": "Videz",
+      "beautify": "Poboljšaj",
+      "tabs": "Zavihki",
+      "history": "Zgodovina",
+      "shortcuts": "Bližnjice",
+      "pip": "Slika v sliki",
+      "chromeTabGroupAdvanced": "Napredne skupine zavihkov",
+      "progressBar": "vrstica napredka",
+      "floatBall": "Plavajoča žoga",
+      "experimentalFeatures": "Poskusne funkcije"
+    },
+    "appearance": {
+      "header": "Videz",
+      "language": {
+        "label": "Jezik vmesnika",
+        "description": "Nastavite jezik za prikaz vmesnika"
+      },
+      "theme": {
+        "label": "Način barv",
+        "description": "Izberite svetel ali temen način barv"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Ko je omogočeno, se bo besedilo prikazalo z desne proti levi"
+      },
+      "fontSize": {
+        "label": "Velikost pisave",
+        "description": "Nastavite velikost pisave",
+        "small": "Majhno",
+        "large": "Veliko"
+      },
+      "fontFamily": {
+        "label": "Družina pisav",
+        "description": "Nastavite družino pisav"
+      },
+      "fontColor": {
+        "label": "Barva pisave",
+        "description": "Nastavite barvo pisave"
+      },
+      "fontWeight": {
+        "label": "Debelina pisave",
+        "description": "Nastavite debelino pisave"
+      },
+      "extAction": {
+        "label": "Dejanje ob kliku na ikono razširitve",
+        "description": "Nastavite dejanje ob kliku na ikono razširitve",
+        "openPopup": "Odpri pojavnega okna",
+        "openSidePanel": "Odpri stranski panel"
+      },
+      "SidePanelPosition": {
+        "label": "Položaj stranskega panela",
+        "description": "Nastavite, ali naj bo stranski panel prikazan na levi ali desni strani.",
+        "goToChromeSettings": "Pojdi na nastavitve Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Položaj iskalnega polja",
+        "description": "Nastavite položaj iskalnega polja",
+        "top": "Zgoraj",
+        "bottom": "Spodaj",
+        "hide": "Skrij"
+      },
+      "toolbar": {
+        "label": "Pokaži orodno vrstico",
+        "description": "Ko je omogočeno, se prikaže orodna vrstica"
+      },
+      "bottomNav": {
+        "label": "Pokaži spodnjo navigacijsko vrstico",
+        "description": "Ko je omogočeno, se prikaže spodnja navigacijska vrstica"
+      },
+      "buttonPosition": {
+        "label": "Položaj gumba",
+        "description": "Nastavite položaj gumbov",
+        "left": "Levo",
+        "right": "Desno"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Skrij stranski panel v celozaslonskem načinu",
+        "description": "Ko je omogočeno, se bo stranski panel samodejno skril, ko je stran v celozaslonskem načinu. Zaradi omejitev Chroma stranski panel ne bo samodejno ponovno odprt. Stranski panel morate ročno ponovno odpreti!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Barvno ozadje",
+        "description": "Ko je omogočeno, bo stranski panel prikazal barvno ozadje"
+      },
+      "backgroundPicture": {
+        "label": "Ozadje slike",
+        "description": "Kliknite [+], da dodate prilagojeno sliko, kliknite [-], da izbrišete prilagojeno sliko. Svoje najljubše slike lahko najdete na naslednjih spletnih mestih.",
+        "dialogDescription": "Vnesite naslov slike",
+        "OK": "V redu",
+        "Cancel": "Prekliči",
+        "invalidImage": "Neveljaven naslov slike"
+      },
+      "backgroundImageTransparency": {
+        "label": "Prosojnost slike",
+        "description": "Nastavite prosojnost slike",
+        "transparent": "Prosojno",
+        "opaque": "Neprosojno"
+      },
+      "backgroundImageBlur": {
+        "label": "Intenzivnost zameglitve",
+        "description": "Nastavite intenzivnost zameglitve"
+      },
+      "backgroundImageBrightness": {
+        "label": "Svetlost",
+        "description": "Nastavite svetlost, priporočljivo samo za temni način"
+      },
+      "listBackgroundStyle": {
+        "label": "Slog ozadja seznama",
+        "description": "Nastavite slog ozadja seznama",
+        "single": "Eno",
+        "none": "Brez",
+        "simple": "Preprosto",
+        "complementary": "Dopolnilno",
+        "analogous": "Analogno",
+        "triadic": "Triadično",
+        "tetradic": "Tetradno"
+      },
+      "listBackgroundTransparency": {
+        "label": "Prosojnost ozadja seznama",
+        "description": "Nastavite prosojnost ozadja seznama",
+        "transparent": "Prosojno",
+        "opaque": "Neprosojno"
+      },
+      "listBottomBorder": {
+        "label": "Spodnja meja seznama",
+        "description": "Nastavite spodnjo mejo seznama",
+        "none": "Brez",
+        "dashed": "Črtkano",
+        "solid": "Trdno"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Tekoči drsniki",
+        "description": "Uporabite slog oblikovanja Microsoft Fluent za drsnike in jih prekrijte na vsebino spleta",
+        "goToChromeSettings": "Pojdi na nastavitve Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Pogled seznama",
+        "description": "Preklopite na pogled seznama",
+        "compact": "Kompaktni pogled",
+        "visual": "Vizualni pogled"
+      },
+      "showBy": {
+        "label": "Prikaži po",
+        "description": "Preklopite na prikaz po"
+      },
+      "sortBy": {
+        "label": "Razvrsti po",
+        "description": "Preklopite na razvrščanje po"
+      },
+      "showFullUrl": {
+        "label": "Pokaži celoten URL",
+        "description": "Ko je omogočeno, bo celoten URL prikazan pod naslovom zavihka"
+      },
+      "currentWindowOnly": {
+        "label": "Samo trenutno okno",
+        "description": "Prikaži samo zavihke trenutnega okna. Če je onemogočeno, bodo prikazani zavihki iz vseh oken"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Prikaži pripete zavihke kot ikone",
+        "description": "Ko je omogočeno, bodo pripeti zavihki prikazani kot ikone in ne na seznamu"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Prikaži ikone spletnih mest pri zlaganju skupin",
+        "description": "Ko je omogočeno, bodo zložene skupine prikazale ikone zavihkov"
+      },
+      "hoverPreview": {
+        "label": "Predogled ob lebdenju",
+        "description": "Ko je omogočeno, bo lebdenje nad zavihki prikazalo predogled zavihkov"
+      },
+      "previewWithThumbnail": {
+        "label": "Prikaži sličice v predogledu",
+        "description": "Ko je omogočeno, bodo predogledi prikazali sličice zavihkov",
+        "alert": "Zajemite vidno območje trenutno aktivnega zavihka v določenem oknu. Da pokličete to metodo, mora razširitev imeti dovoljenje <all_urls> ali dovoljenje activeTab.",
+        "deniedMessage": "Zavrnili ste zahtevano dovoljenje, zato se nastavitve niso spremenile. Če spremenite mnenje, prosim, kliknite znova in dovolite pooblastilo"
+      },
+      "previewDelay": {
+        "label": "Zamik predogleda",
+        "description": "Nastavite čas zamika za predoglede zavihkov ob lebdenju nad zavihki itd. (sekunde). Če je nastavljeno na 0, ne bo zamika",
+        "seconds": "Sekunde"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Shrani nedavno zaprte zavihke",
+        "description": "Ko je omogočeno, shrani nedavno zaprte zavihke"
+      },
+      "dataSource": {
+        "label": "Vir podatkov",
+        "description": "Izberite vir podatkov",
+        "recentlyClosedTabs": "Nedavno zaprti zavihki",
+        "chromeHistory": "Zgodovina Chroma",
+        "alert": "Za iskanje zgodovinskih zapisov potrebujete vaše pooblastilo za omogočanje",
+        "deniedMessage": "Zavrnili ste zahtevano dovoljenje, zato se nastavitve niso spremenile. Če spremenite mnenje, prosim, kliknite znova in dovolite pooblastilo"
+      },
+      "showInSidePanel": {
+        "label": "Pokaži v stranskem panelu",
+        "description": "Ko je omogočeno, pokaži v stranskem panelu"
+      },
+      "showInTabSearchResults": {
+        "label": "Pokaži zgodovino v rezultatih iskanja zavihkov",
+        "description": "Ko je omogočeno, bodo nedavni zgodovinski zapisi prikazani v rezultatih iskanja zavihkov"
+      },
+      "limitSearchResults": {
+        "label": "Omeji število zgodovinskih zapisov v rezultatih iskanja zavihkov",
+        "description": "Nastavite omejitev števila zgodovinskih zapisov v rezultatih iskanja zavihkov. Zgodovinski zapisi, ki presegajo omejitev, bodo filtrirani",
+        "alert": "Preveč zapisov bo vplivalo na hitrost nalaganja strani"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Število nedavno zaprtih zavihkov za ohranitev",
+        "description": "Nastavite število nedavno zaprtih zavihkov za ohranitev"
+      },
+      "keepDays": {
+        "label": "Število dni za ohranitev nedavno zaprtih zavihkov",
+        "description": "Nastavite število dni za ohranitev nedavno zaprtih zavihkov. Pretečeni podatki bodo izbrisani",
+        "days": "Dni"
+      },
+      "openDuration": {
+        "label": "Trajanje odprtja",
+        "description": "Shranijo se samo zavihki, ki so odprti dlje časa od nastavljenega časa",
+        "seconds": "Sekunde"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ta stran je samo za prikaz. Za spreminjanje bližnjic obiščite [Razširitve]->[Upravljanje razširitev]->[Bližnjice na tipkovnici]",
+      "goToChromeSettings": "Pojdi na nastavitve Chrome",
+      "_execute_action": "Aktiviraj to razširitev",
+      "openSidePanel": "Odpri stranski panel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Slika v sliki",
+      "tabSwitch": {
+        "label": "PIP ob preklopu zavihkov",
+        "description": "Samodejno vstopite v PIP ob preklopu zavihkov z neustavljenim videoposnetkom",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "scrollSwitch": {
+        "label": "Preklopi na sliko v sliki ob pomikanju",
+        "description": "Če trenutna stran predvaja video in video ni utišan ter je video izven vidnega območja ob pomikanju, bo vstopil v sliko v sliki.",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Zahtevana uporabniška aktivacija",
+      "tips_1": "Uporabniška aktivacija pomeni, da uporabnik trenutno interakcira s stranjo",
+      "tips_2": "Bolj natančno, aktivacija sproži vhodne dogodke, kot so:",
+      "tips_3": "Opomba: Uporaba kolesa miške ali geste drsenja ne bo sprožila!",
+      "tips_4": "Če želite več podrobnosti, obiščite:",
+      "click": "Klikni",
+      "contextmenu": "Meni z desnim klikom",
+      "dblclick": "Dvojni klik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Vedenje zlaganja skupine zavihkov",
+        "description": "Spremenite vedenje zlaganja skupine zavihkov brskalnika Chrome",
+        "option_collapse_others": "Pokaži trenutno skupino in zloži druge",
+        "option_disable": "Razširi vse skupine",
+        "option_auto": "Uporabi privzete nastavitve Chroma"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Samodejno ustvari ali se pridruži skupini zavihkov istega domena",
+        "description": "Ko je omogočeno, se bodo novo odprti zavihki samodejno pridružili skupini zavihkov istega domena. Če skupina domene ne obstaja, se bo ustvarila nova skupina domene",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtriraj pripete zavihke v skupinah",
+        "description": "Ko je omogočeno, pripeti zavihki ne bodo dodani v skupine",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Omogoči vrstico napredka",
+        "description": "Ko je omogočeno, se bo pod naslovno vrstico zavihka prikazala vrstica napredka branja",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "readingProgressBar": {
+        "label": "Vrstica napredka branja",
+        "description": "Ko je omogočeno, se bo pod naslovno vrstico zavihka prikazala vrstica napredka branja",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "scrollHeightRatio": {
+        "label": "Razmerje višine pomikanja",
+        "description": "Razmerje med višino vidnega okna in višino strani. Vrstica napredka se bo prikazala, ko bo to razmerje preseženo.",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "playingProgressBar": {
+        "label": "Vrstica napredka predvajanja",
+        "description": "Ko je omogočeno, se bo pod naslovno vrstico zavihka prikazala vrstica napredka predvajanja",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Omogoči plavajočo žogo",
+        "description": "Ko je stranska plošča zaprta, bo na desni strani strani prikazana plavajoča žoga, ki omogoča hitro odpiranje stranske plošče."
+      }
+    },
+    "performance": {
+      "label": "Učinkovitost",
+      "saveMemoryAction": {
+        "label": "Kako prihraniti pomnilnik na zavihkih",
+        "description": "Za prihranek pomnilnika na zavihkih lahko izberete, ali zaprete zavihke ali jih zavržete.",
+        "discardTips": "zavržen zavihek ne gre nikamor. Uničimo ga, vendar je še vedno viden na traku zavihkov Chroma. Če se vrnete na zavihek, ki je bil zavržen, se bo znova naložil ob kliku. Vsebina obrazca, položaj pomika in podobno se shranijo in obnovijo na enak način kot med navigacijo zavihkov naprej/nazaj.",
+        "disabled": "Onemogočeno",
+        "closeTabs": "Zapri zavihke",
+        "discardTabs": "Zavrzi zavihke"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Kako dolgo zavreči neaktivne zavihke",
+        "description": "Ko na zavihku ni predvajanja zvoka ali videa in samodejno zavrženje ni prepovedano, bo zavihek zavržen po določenem času.",
+        "minutes": "Minute"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Kako dolgo zapreti neaktivne zavihke",
+        "description": "Ko na zavihku ni predvajanja zvoka ali videa in samodejno zavrženje ni prepovedano, bo zavihek zaprt po določenem času.",
+        "minutes": "Minute"
+      },
+      "disableAnimations": {
+        "label": "Onemogoči animacije",
+        "description": "onemogoči učinek valovanja in onemogoči vse prehode"
+      }
+    }
+  }
+}

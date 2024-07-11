@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "വിവിധ സൈഡ്‌ബാർ ടാഗ് മാനേജ്മെന്റ്"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "സൈഡ് പാനലിൽ ടാബുകൾ നിയന്ത്രിക്കുക, ഇത്ര നല്ലതായിരിക്കാനുള്ളത് വളരെ മനോഹരം."
+  },
+  "openSidePanel": {
+    "message": "സൈഡ്‌ബാർ തുറക്കുക"
+  }
+}

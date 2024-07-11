@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Správa barevných postranních panelů"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Spravujte karty v postranním panelu, příliš hezké, aby to bylo tak dobré."
+  },
+  "openSidePanel": {
+    "message": "Otevřít postranní panel"
+  }
+}

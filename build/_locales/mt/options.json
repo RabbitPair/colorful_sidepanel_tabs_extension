@@ -1,0 +1,340 @@
+{
+  "OpenSideSanelToPreview": "Iftaħ il-panel naħa biex tara",
+  "_execute_action": "Attiva din l'estensjoni",
+  "openSidePanel": "Iftaħ il-panel naħa",
+  "settings": {
+    "resetCurrentPageSettings": "Irriżetta l-impostazzjonijiet tal-paġna attwali",
+    "modules": {
+      "appearance": "Ħaġa",
+      "beautify": "Isbaħ",
+      "tabs": "Tabs",
+      "history": "Storja",
+      "shortcuts": "Shortcuts",
+      "pip": "Picture-in-picture",
+      "chromeTabGroupAdvanced": "Gruppi ta 'tabs avvanzati",
+      "progressBar": "bar tal-progress",
+      "floatBall": "Float ball",
+      "experimentalFeatures": "Karaċteristiċi eżperimentali"
+    },
+    "appearance": {
+      "header": "Ħaġa",
+      "language": {
+        "label": "Lingwa tal-interfaċċa",
+        "description": "Istabli l-lingwa għall-viżwalizzazzjoni tal-interfaċċa"
+      },
+      "theme": {
+        "label": "Modalità tal-kulur",
+        "description": "Agħżel modalità ta 'kulur ħelu jew skur"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Meta jkun attivat, l-interfaċċa se turi direzzjoni tat-test minn dritt lejn xi ħaġa"
+      },
+      "fontSize": {
+        "label": "Daqs tat-tipografija",
+        "description": "Istabli d-daqs tat-tipografija",
+        "small": "Żgħir",
+        "large": "Kbir"
+      },
+      "fontFamily": {
+        "label": "Familja tal-font",
+        "description": "Istabli l-familja tal-font"
+      },
+      "fontColor": {
+        "label": "Kulur tal-font",
+        "description": "Istabli l-kulur tal-font"
+      },
+      "fontWeight": {
+        "label": "Durezza tal-font",
+        "description": "Istabli d-durezza tal-font"
+      },
+      "extAction": {
+        "label": "Azzjoni tal-klikk fuq l-ikona tal-estensjoni",
+        "description": "Istabli l-azzjoni meta tagħmel klikk fuq l-ikona tal-estensjoni",
+        "openPopup": "Iftaħ il-popup",
+        "openSidePanel": "Iftaħ il-panel naħa"
+      },
+      "SidePanelPosition": {
+        "label": "Pozizzjoni tal-panel naħa",
+        "description": "Istabli jekk il-panel naħa tkun mniżżla fuq ix-xellug jew fuq ix-xellug.",
+        "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Pozizzjoni tal-kaxxa tat-tfittxija",
+        "description": "Istabli l-pozizzjoni tal-kaxxa tat-tfittxija",
+        "top": "Fuq",
+        "bottom": "Isfel",
+        "hide": "Aħbi"
+      },
+      "toolbar": {
+        "label": "Uri toolbar",
+        "description": "Meta jkun attivat, it-toolbar se jidher"
+      },
+      "bottomNav": {
+        "label": "Uri il-barraniżża ta 'navigazzjoni",
+        "description": "Meta jkun attivat, il-barraniżża ta 'navigazzjoni se jidher"
+      },
+      "buttonPosition": {
+        "label": "Pozizzjoni tal-buttuni",
+        "description": "Istabli l-pozizzjoni tal-buttuni",
+        "left": "Le",
+        "right": "Dritt"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Aħbi l-panel naħa f'skerm sħiħ",
+        "description": "Meta jkun attivat, il-panel naħa se jingħatawa awtomatikament meta l-paġna tkun f'skerm sħiħ. Minħabba l-limitazzjonijiet tal-Chrome, il-panel naħa ma tistax tiġi miftuħa awtomatikament. Trid tiftaħ il-panel naħa manwalment!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Sfond kolorat",
+        "description": "Meta jkun attivat, il-panel naħa se juri sfond kolorat"
+      },
+      "backgroundPicture": {
+        "label": "Ritratt tas-sfond",
+        "description": "Ikklikkja [+] biex żid ritratt kustom, ikklikkja [-] biex ħass ritratt kustom. Tista 'tara l-pajjiżi preħħieġa tiegħek fuq is-siti li ġejjin.",
+        "dialogDescription": "Daħħal indirizz tal-immaġni",
+        "OK": "OK",
+        "Cancel": "Ikkanċella",
+        "invalidImage": "Indirizz tal-immaġni invalidu"
+      },
+      "backgroundImageTransparency": {
+        "label": "Trasparenza tal-immaġni",
+        "description": "Istabli l-trasparenza tal-immaġni",
+        "transparent": "Trasparent",
+        "opaque": "Opak"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensità tal-Blur",
+        "description": "Istabli l-intensità tal-Blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Luminosità",
+        "description": "Istabli l-luminosità, rakkomandat biss għal modalità skura"
+      },
+      "listBackgroundStyle": {
+        "label": "Stil tas-sfond tal-lista",
+        "description": "Istabli l-istil tas-sfond tal-lista",
+        "single": "Waħda",
+        "none": "Xejn",
+        "semplici": "Semplici",
+        "komplimentari": "Komplimentari",
+        "analogu": "Analogu",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Trasparenza tas-sfond tal-lista",
+        "description": "Istabli l-trasparenza tas-sfond tal-lista",
+        "transparent": "Trasparent",
+        "opaque": "Opak"
+      },
+      "listBottomBorder": {
+        "label": "Il-bord ta 'kodiċi t'isfel",
+        "description": "Istabli l-bord ta 'kodiċi t'isfel",
+        "none": "Xejn",
+        "dashed": "Mqar",
+        "solid": "Solidu"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Scrollbars fluenti",
+        "description": "Uża l-istil Microsoft Fluent design scrollbars u jissoprażaw fuq il-kontenut web",
+        "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vista tal-lista",
+        "description": "Sib vista tal-lista",
+        "compact": "Vista kompatta",
+        "visual": "Vista viżiva"
+      },
+      "showBy": {
+        "label": "Uri minn",
+        "description": "Sib uri minn"
+      },
+      "sortBy": {
+        "label": "Sort by",
+        "description": "Sib sort by"
+      },
+      "showFullUrl": {
+        "label": "Uri sħiħ tal-URL",
+        "description": "Meta jiġi attivat, l-URL sħiħ se jidhru taħt it-titlu tat-tab"
+      },
+      "currentWindowOnly": {
+        "label": "Biss it-tab attwali",
+        "description": "Uri biss it-tabs tal-ikkurrenti. Jekk ma jkunx attivat, it-tabs minn kull tfuliti se jidhru"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Uri tabs magħluqa bħala ikoni",
+        "description": "Meta jkun attivat, it-tabs magħluqa se jidhru bħala ikoni u mhux fil-lista"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Uri ikoni tas-sit tal-webs meta jinkisru l-gruppi",
+        "description": "Meta jkun attivat, il-gruppi magħluqa se juru ikoni ta 'tabs"
+      },
+      "hoverPreview": {
+        "label": "Preżentazzjoni tal-hover",
+        "description": "Meta jkun attivat, meta tħoss fuq it-tabs se juri l-preżentazzjonijiet tal-tab"
+      },
+      "previewWithThumbnail": {
+        "label": "Uri thumbnails fil-preżentazzjoni",
+        "description": "Meta jkun attivat, il-preżentazzjonijiet se juru thumbnails tal-tab",
+        "alert": "Ċaħħdu l-ara visibbli tal-tab attiv attwali f'ikkunsill speċifikat. Biex tissemma din il-metodu, l-estensjoni trid il-permess <all_urls> jew il-permess activeTab.",
+        "deniedMessage": "Tista 'ħtajjrek il-permess meħtieġ, allura l-impostazzjonijiet ma bdewx. Jekk tibdel id-deċiżjoni tiegħek, jekk jogħġbok ikklikkja mill-ġdid u żid l-awtorizzazzjoni"
+      },
+      "previewDelay": {
+        "label": "Dilata tal-preżentazzjoni",
+        "description": "Istabli żmien id-dilata għall-preżentazzjonijiet tal-tab meta tħoss fuq it-tabs, eċċ. (sekondi). Jekk immarkat għal 0, ma jkunx hemm dilata"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Salva tabs li ġew magħluqa riċentement",
+        "description": "Meta jkun attivat, salvaw tabs li ġew magħluqa riċentement"
+      },
+      "dataSource": {
+        "label": "Sors tad-data",
+        "description": "Agħżel sors tad-data",
+        "recentlyClosedTabs": "Tabs li ġew magħluqa riċentement",
+        "chromeHistory": "Storja tal-Chrome",
+        "alert": "Biex tiftaħ ir-rekords tal-istorja, trid l-awtorizzazzjoni tiegħek biex tattiva",
+        "deniedMessage": "Tista 'ħtajjrek il-permess meħtieġ, allura l-impostazzjonijiet ma bdewx. Jekk tibdel id-deċiżjoni tiegħek, jekk jogħġbok ikklikkja mill-ġdid u żid l-awtorizzazzjoni"
+      },
+      "showInSidePanel": {
+        "label": "Uri fil-panel naħa",
+        "description": "Meta jkun attivat, uri fil-panel naħa"
+      },
+      "showInTabSearchResults": {
+        "label": "Uri l-istorja fil-rizultati tat-tfittxija tal-tab",
+        "description": "Meta jkun attivat, ir-rekords riċenti tal-istorja se jidhru fil-rizultati tat-tfittxija tal-tab"
+      },
+      "limitSearchResults": {
+        "label": "Limitu tal-numru ta 'rekords tal-istorja fil-rizultati tat-tfittxija tal-tab",
+        "description": "Istabli l-limitu tal-numru ta 'rekords tal-istorja fil-rizultati tat-tfittxija tal-tab. Ir-rekords tal-istorja li jgħaddu l-limitu se jinfiltraw",
+        "alert": "Numru żgħir ta 'rekords se jaffettwaw l-veloċità tal-ħolqien tal-paġna"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Numru ta 'tabs li ġew magħluqa riċentement biex jżomm",
+        "description": "Istabli l-numru ta 'tabs li ġew magħluqa riċentement biex jżomm"
+      },
+      "keepDays": {
+        "label": "Numru ta 'jiem biex jżomm tabs li ġew magħluqa riċentement",
+        "description": "Istabli l-numru ta 'jiem biex jżomm tabs li ġew magħluqa riċentement. Id-data skaduta se tiġi imħassra",
+        "days": "Jiem"
+      },
+      "openDuration": {
+        "label": "Dwarura miftuħa",
+        "description": "Biss tabs miftuħin għal aktar minn żmien stabbilit se jkunu salvati",
+        "seconds": "Sekondi"
+      }
+    },
+    "shortcuts": {
+      "alert": "Dan il-paġna hi għall-viżwalizzazzjoni biss. Biex tmodifika l-kurżuri, żur il-[Estensjonijiet]->[Ikkontrolla Estensjonijiet]->[Kurżuri tal-Keyboard]",
+      "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome",
+      "_execute_action": "Attiva din l'estensjoni",
+      "openSidePanel": "Iftaħ il-panel naħa"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Picture-in-picture",
+      "tabSwitch": {
+        "label": "PIP fuq Tab Switch",
+        "description": "Daxx auto PIP meta tibdel tabs b'video li mhumiex imxewwar"
+      },
+      "scrollSwitch": {
+        "label": "Switch għal picture-in-picture meta tisrollja",
+        "description": "Jekk il-paġna attwali qed jgħallem video u l-video mhux imxewwar u l-video barra mill-ħsieb viżiv meta tisrollja, se jidħol fil-picture-in-picture.",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Aktivazzjoni tal-utent meħtieġa",
+      "tips_1": "L-attivazzjoni tal-utent tfisser li l-utent bħalissa qed jinteraġixxi mal-paġna",
+      "tips_2": "Aktar speċifikament, l-attivazzjoni tħalli l-input events bħal:",
+      "tips_3": "Nota: L-użu tal-wheel scroll tal-mawsa jew il-ġest ta 'swipe ma jwassalx!",
+      "tips_4": "Jekk trid aktar dettalji, żur:",
+      "click": "Ikklikkja",
+      "contextmenu": "Menu ta 'dritt klikk",
+      "dblclick": "Doppju klikk"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Ħsieb ta 'kollaps ta 'grupp ta' tabs",
+        "description": "Ibdel il-mod kif it-tabijiet tal-grupp ta 'tabs tal-browser Chrome jikollapsaw",
+        "option_collapse_others": "Uri l-grupp attwali u kollapsa l-oħrajn",
+        "option_disable": "Espandi l-gruppi kollha",
+        "option_auto": "Uża l-impostazzjonijiet default tal-Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Auto joħol jew jiġu mħabbra fil-grupp tas-sit stess",
+        "description": "Meta jiġi attivat, it-tabijiet ġodda miftuħa se jiġu awtomatikament mħabbra fil-grupp tas-sit stess. Jekk il-grupp tas-sit ma jeżistix, se jiġi mħabbra grupp tas-sit ġdid",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrar it-tabijiet impenjati fil-gruppi",
+        "description": "Meta jiġi attivat, it-tabijiet impenjati ma jkunux miżjuda fil-gruppi",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Ikkuntattja l-progress bar",
+        "description": "Meta jkun attivat, barra mill-ħsieb it-titlu tal-tab jidher barra l-progress bar tal-qari",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      },
+      "readingProgressBar": {
+        "label": "Progress bar tal-qari",
+        "description": "Meta jkun attivat, barra mill-ħsieb it-titlu tal-tab jidher barra l-progress bar tal-qari",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      },
+      "scrollHeightRatio": {
+        "label": "Raġun tal-għoli tal-scroll",
+        "description": "Ir-raġun bejn l-għoli tal-widow viżibbli u l-għoli tal-paġna. Barra mill-ħsieb it-titlu tal-tab jidher meta l-raġun ikun ġieb",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      },
+      "playingProgressBar": {
+        "label": "Progress bar tal-logħba",
+        "description": "Meta jkun attivat, barra mill-ħsieb it-titlu tal-tab jidher barra l-progress bar tal-logħba",
+        "enabled": "Attivat",
+        "disabled": "Mxarrab"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Ikkuntattja il-ballun float",
+        "description": "Meta l-panel naħa jkun magħluq, ballun float jidher fuq il-ġewwa tal-paġna, permezz ta 'liema tista' tfittex biex tiftaħ il-panel naħa."
+      }
+    },
+    "performance": {
+      "label": "Performanza",
+      "saveMemoryAction": {
+        "label": "Kif issaħħaħ memorja fuq it-tabijiet",
+        "description": "Biex issaħħaħ memorja fuq it-tabijiet, tista 'tagħżel li tiffranka it-tabijiet jew tiffranka it-tabijiet.",
+        "discardTips": "it-tab imfarrak ma jmur fejn ikun. Niddispjaċuha iżda hija għadha viżibbli fuq il-ħsieb it-tab tal-Chrome. Jekk tagħżel it-tab li ġie imfarrak, se jirriġar meta tikklikkja. Il-kontenut tal-formola, il-pożizzjoni tal-scroll u ħafna iżda jiġu salvati u restawrati bħala kif ikunu matul in-navigazzjoni tal-tab lejn l-quddiem/lejn lura.",
+        "disabled": "Mxarrab",
+        "closeTabs": "Agħlaq it-tabijiet",
+        "discardTabs": "Tiffranka it-tabijiet"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Għal kemm żmien biex tiffranka it-tabijiet inattivi",
+        "description": "Meta ma jkunx qed jittella audio jew video fuq it-tab u l-imfarrak awtomatiku mhux permess, it-tab se jinfarrak wara ż-żmien speċifikat.",
+        "minutes": "Minuti"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Għal kemm żmien biex tagħlaq it-tabijiet inattivi",
+        "description": "Meta ma jkunx qed jittella audio jew video fuq it-tab u l-imfarrak awtomatiku mhux permess, it-tab se jingħalaq wara ż-żmien speċifikat.",
+        "minutes": "Minuti"
+      },
+      "disableAnimations": {
+        "label": "Aħnaq l-animazzjonijiet",
+        "description": "aħnaq l-effett tal-ripple u aħnaq it-transazzjonijiet kollha"
+      }
+    }
+  }
+}

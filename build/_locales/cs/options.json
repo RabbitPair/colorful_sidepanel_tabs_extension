@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Otevřít boční panel pro náhled",
+  "_execute_action": "Aktivovat toto rozšíření",
+  "openSidePanel": "Otevřít boční panel",
+  "settings": {
+    "resetCurrentPageSettings": "Obnovit nastavení aktuální stránky",
+    "modules": {
+      "appearance": "Vzhled",
+      "beautify": "Zkrášlit",
+      "tabs": "Karty",
+      "history": "Historie",
+      "shortcuts": "Zkratky",
+      "pip": "Obrázek v obrázku",
+      "chromeTabGroupAdvanced": "Pokročilé skupiny karet Chrome",
+      "progressBar": "Indikátor průběhu",
+      "floatBall": "Plovoucí koule",
+      "experimentalFeatures": "Experimentální funkce"
+    },
+    "appearance": {
+      "header": "Vzhled",
+      "language": {
+        "label": "Jazyk rozhraní",
+        "description": "Nastavte jazyk pro zobrazení rozhraní"
+      },
+      "theme": {
+        "label": "Režim barev",
+        "description": "Vyberte světlý nebo tmavý režim barev"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Pokud je povoleno, rozhraní zobrazí směr textu zprava doleva"
+      },
+      "fontSize": {
+        "label": "Velikost písma",
+        "description": "Nastavte velikost písma",
+        "small": "Malé",
+        "large": "Velké"
+      },
+      "fontFamily": {
+        "label": "Rodina písma",
+        "description": "Nastavte rodinu písma"
+      },
+      "fontColor": {
+        "label": "Barva písma",
+        "description": "Nastavte barvu písma"
+      },
+      "fontWeight": {
+        "label": "Tloušťka písma",
+        "description": "Nastavte tloušťku písma"
+      },
+      "extAction": {
+        "label": "Akce po kliknutí na ikonu rozšíření",
+        "description": "Nastavte akci po kliknutí na ikonu rozšíření",
+        "openPopup": "Otevřít vyskakovací okno",
+        "openSidePanel": "Otevřít boční panel"
+      },
+      "SidePanelPosition": {
+        "label": "Pozice bočního panelu",
+        "description": "Nastavte, zda se boční panel zobrazuje vlevo nebo vpravo.",
+        "goToChromeSettings": "Přejít na nastavení Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Pozice vyhledávacího pole",
+        "description": "Nastavte pozici vyhledávacího pole",
+        "top": "Nahoře",
+        "bottom": "Dole",
+        "hide": "Skrýt"
+      },
+      "toolbar": {
+        "label": "Zobrazit panel nástrojů",
+        "description": "Pokud je povoleno, zobrazí se panel nástrojů"
+      },
+      "bottomNav": {
+        "label": "Zobrazit spodní navigační panel",
+        "description": "Pokud je povoleno, zobrazí se spodní navigační panel"
+      },
+      "buttonPosition": {
+        "label": "Pozice tlačítek",
+        "description": "Nastavte pozici tlačítek",
+        "left": "Vlevo",
+        "right": "Vpravo"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Skrýt boční panel v režimu celé obrazovky",
+        "description": "Pokud je povoleno, boční panel se automaticky skryje, když je stránka v režimu celé obrazovky. Kvůli omezením Chrome nelze boční panel automaticky znovu otevřít. Musíte boční panel znovu otevřít ručně!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Barevné pozadí",
+        "description": "Pokud je povoleno, bude boční panel zobrazovat barevné pozadí"
+      },
+      "backgroundPicture": {
+        "label": "Pozadí obrázku",
+        "description": "Klikněte na [+] pro přidání vlastního obrázku, klikněte na [-] pro smazání vlastního obrázku. Oblíbené obrázky najdete na následujících webových stránkách.",
+        "dialogDescription": "Zadejte adresu obrázku",
+        "OK": "OK",
+        "Cancel": "Zrušit",
+        "invalidImage": "Neplatná adresa obrázku"
+      },
+      "backgroundImageTransparency": {
+        "label": "Průhlednost obrázku",
+        "description": "Nastavte průhlednost obrázku",
+        "transparent": "Průhledný",
+        "opaque": "Neprůhledný"
+      },
+      "backgroundImageBlur": {
+        "label": "Intenzita rozmazání",
+        "description": "Nastavte intenzitu rozmazání"
+      },
+      "backgroundImageBrightness": {
+        "label": "Jas",
+        "description": "Nastavte jas, doporučeno pouze pro tmavý režim"
+      },
+      "listBackgroundStyle": {
+        "label": "Styl pozadí seznamu",
+        "description": "Nastavte styl pozadí seznamu",
+        "single": "Jednotlivé",
+        "none": "Žádný",
+        "simple": "Jednoduchý",
+        "complementary": "Doplňkový",
+        "analogous": "Analogický",
+        "triadic": "Triadický",
+        "tetradic": "Tetradický"
+      },
+      "listBackgroundTransparency": {
+        "label": "Průhlednost pozadí seznamu",
+        "description": "Nastavte průhlednost pozadí seznamu",
+        "transparent": "Průhledný",
+        "opaque": "Neprůhledný"
+      },
+      "listBottomBorder": {
+        "label": "Dolní ohraničení seznamu",
+        "description": "Nastavte dolní ohraničení seznamu",
+        "none": "Žádný",
+        "dashed": "Přerušovaný",
+        "solid": "Plný"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Plynulé posuvníky",
+        "description": "Použijte posuvníky ve stylu designu Microsoft Fluent a překryjte je na obsah webové stránky",
+        "goToChromeSettings": "Přejít na nastavení Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Zobrazení seznamu",
+        "description": "Přepnout zobrazení seznamu",
+        "compact": "Kompaktní zobrazení",
+        "visual": "Vizuální zobrazení"
+      },
+      "showBy": {
+        "label": "Zobrazit podle",
+        "description": "Přepnout zobrazení podle"
+      },
+      "sortBy": {
+        "label": "Seřadit podle",
+        "description": "Přepnout třídění podle"
+      },
+      "showFullUrl": {
+        "label": "Zobrazit plnou URL",
+        "description": "Pokud je povoleno, celá adresa URL bude zobrazena pod názvem karty"
+      },
+      "currentWindowOnly": {
+        "label": "Pouze aktuální okno",
+        "description": "Zobrazit pouze karty aktuálního okna. Pokud je zakázáno, budou zobrazeny karty ze všech oken"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Zobrazit připnuté karty jako ikony",
+        "description": "Pokud je povoleno, budou připnuté karty zobrazeny jako ikony a ne v seznamu"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Zobrazit ikony webů při sbalení skupin",
+        "description": "Pokud je povoleno, sbalené skupiny zobrazí ikony karet"
+      },
+      "hoverPreview": {
+        "label": "Náhled při najetí",
+        "description": "Pokud je povoleno, při najetí na karty se zobrazí náhledy karet"
+      },
+      "previewWithThumbnail": {
+        "label": "Zobrazit miniatury v náhledu",
+        "description": "Pokud je povoleno, náhledy zobrazí miniatury karet",
+        "alert": "Zachytit viditelnou oblast aktuálně aktivní karty v určeném okně. Pro volání této metody musí rozšíření mít oprávnění <all_urls> nebo oprávnění activeTab.",
+        "deniedMessage": "Odmítl jste požadované oprávnění, takže se nastavení nezměnila. Pokud změníte názor, klikněte znovu a povolte autorizaci"
+      },
+      "previewDelay": {
+        "label": "Zpoždění náhledu",
+        "description": "Nastavte dobu zpoždění pro náhledy karet při najetí na karty apod. (sekundy). Pokud je nastaveno na 0, nebude žádné zpoždění",
+        "seconds": "Sekundy"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Uložit nedávno zavřené karty",
+        "description": "Pokud je povoleno, uloží se nedávno zavřené karty"
+      },
+      "dataSource": {
+        "label": "Zdroj dat",
+        "description": "Vyberte zdroj dat",
+        "recentlyClosedTabs": "Nedávno zavřené karty",
+        "chromeHistory": "Historie Chrome",
+        "alert": "Pro vyhledávání historických záznamů potřebujete vaši autorizaci k povolení",
+        "deniedMessage": "Odmítl jste požadované oprávnění, takže se nastavení nezměnila. Pokud změníte názor, klikněte znovu a povolte autorizaci"
+      },
+      "showInSidePanel": {
+        "label": "Zobrazit v bočním panelu",
+        "description": "Pokud je povoleno, zobrazí se v bočním panelu"
+      },
+      "showInTabSearchResults": {
+        "label": "Zobrazit historii ve výsledcích vyhledávání karet",
+        "description": "Pokud je povoleno, nedávné historické záznamy budou zobrazeny ve výsledcích vyhledávání karet"
+      },
+      "limitSearchResults": {
+        "label": "Omezit počet historických záznamů ve výsledcích vyhledávání karet",
+        "description": "Nastavte limit počtu historických záznamů ve výsledcích vyhledávání karet. Historické záznamy přesahující limit budou filtrovány",
+        "alert": "Příliš mnoho záznamů ovlivní rychlost načítání stránky"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Počet nedávno zavřených karet k uchování",
+        "description": "Nastavte počet nedávno zavřených karet k uchování"
+      },
+      "keepDays": {
+        "label": "Počet dní k uchování nedávno zavřených karet",
+        "description": "Nastavte počet dní k uchování nedávno zavřených karet. Expirovaná data budou smazána",
+        "days": "Dny"
+      },
+      "openDuration": {
+        "label": "Doba otevření",
+        "description": "Budou uloženy pouze karty otevřené déle než nastavený čas",
+        "seconds": "Sekundy"
+      }
+    },
+    "shortcuts": {
+      "alert": "Tato stránka slouží pouze k zobrazení. Chcete-li upravit zkratky, navštivte [Rozšíření]->[Spravovat rozšíření]->[Klávesové zkratky]",
+      "goToChromeSettings": "Přejít na nastavení Chrome",
+      "_execute_action": "Aktivovat toto rozšíření",
+      "openSidePanel": "Otevřít boční panel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Obrázek v obrázku",
+      "tabSwitch": {
+        "label": "PIP při přepínání karet",
+        "description": "Automaticky vstoupit do PIP při přepínání karet s neztlumeným videem",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "scrollSwitch": {
+        "label": "Přepnout na obrázek v obrázku při posouvání",
+        "description": "Pokud je aktuální stránka přehrávána videem a video není ztlumené a video je mimo viditelnou oblast při posouvání, vstoupí do obrázku v obrázku.",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Vyžadována uživatelská aktivace",
+      "tips_1": "Uživatelská aktivace znamená, že uživatel v současné době interaguje s stránkou",
+      "tips_2": "Konkrétněji aktivace spouští události vstupu, jako jsou:",
+      "tips_3": "Poznámka: Použití posuvníku kolečka myši nebo gesta přejetí prstem nezpůsobí spuštění!",
+      "tips_4": "Pokud chcete další podrobnosti, navštivte:",
+      "click": "Klikněte",
+      "contextmenu": "Kontextové menu",
+      "dblclick": "Dvojklik"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Chování skupiny karet při sbalení",
+        "description": "Upravit chování sbalení skupiny karet v prohlížeči Chrome",
+        "option_collapse_others": "Zobrazit aktuální skupinu a sbalit ostatní",
+        "option_disable": "Rozbalit všechny skupiny",
+        "option_auto": "Použít výchozí nastavení Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Automaticky vytvořit nebo se připojit ke skupině stejného domény",
+        "description": "Pokud je povoleno, nově otevřené karty se automaticky připojí ke stejné skupině domény. Pokud skupina domény neexistuje, bude vytvořena nová skupina domény",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrovat připnuté karty ve skupinách",
+        "description": "Pokud je povoleno, připnuté karty nebudou přidány do skupin",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Povolit průběžný pruh",
+        "description": "Pokud je povoleno, bude pod titulkem karty zobrazen průběžný pruh čtení",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "readingProgressBar": {
+        "label": "Průběžný pruh čtení",
+        "description": "Pokud je povoleno, bude pod titulkem karty zobrazen průběžný pruh čtení",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "scrollHeightRatio": {
+        "label": "Poměr výšky posouvání",
+        "description": "Poměr výšky viditelného okna k výšce stránky. Když je poměr překročen, zobrazí se průběžný pruh",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "playingProgressBar": {
+        "label": "Průběžný pruh přehrávání",
+        "description": "Pokud je povoleno, bude pod titulkem karty zobrazen průběžný pruh přehrávání",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Povolit plovoucí míček",
+        "description": "Když je boční panel zavřen, na pravé straně stránky se zobrazí plovoucí míček, který umožňuje rychlé otevření bočního panelu."
+      }
+    },
+    "performance": {
+      "label": "Výkon",
+      "saveMemoryAction": {
+        "label": "Jak ušetřit paměť na kartách",
+        "description": "Chcete-li ušetřit paměť na kartách, můžete zvolit zavření karet nebo jejich odložení.",
+        "discardTips": "odložená karta nikam nezmizí. Zabijeme ji, ale stále je viditelná na liště karet Chrome. Pokud se vrátíte na kartu, která byla odložena, znovu se načte po kliknutí. Obsah formuláře, pozice posouvání a podobně jsou uloženy a obnoveny stejným způsobem jako při navigaci vpřed/zpět na kartě.",
+        "disabled": "Zakázáno",
+        "closeTabs": "Zavřít karty",
+        "discardTabs": "Odložit karty"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Jak dlouho odkládat neaktivní karty",
+        "description": "Pokud na kartě není přehráván žádný zvuk nebo video a automatické odkládání není zakázáno, karta bude odložena po uplynutí stanovené doby.",
+        "minutes": "Minuty"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Jak dlouho zavírat neaktivní karty",
+        "description": "Pokud na kartě není přehráván žádný zvuk nebo video a automatické odkládání není zakázáno, karta bude zavřena po uplynutí stanovené doby.",
+        "minutes": "Minuty"
+      },
+      "disableAnimations": {
+        "label": "Zakázat animace",
+        "description": "zakázat efekt vlnění a zakázat všechny přechody"
+      }
+    }
+  }
+}

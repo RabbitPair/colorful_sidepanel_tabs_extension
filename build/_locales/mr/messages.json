@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "विविध साइडबार टॅग व्यवस्थापन"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "साइड पॅनेलमध्ये टॅब व्यवस्थापित करा, इतके चांगले असण्यासाठी खूप सुंदर."
+  },
+  "openSidePanel": {
+    "message": "साइडबार उघडा"
+  }
+}

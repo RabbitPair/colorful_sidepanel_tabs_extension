@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Usimamizi wa lebo za upau wa rangi"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Dhibiti vichupo kwenye paneli ya pembeni, Nzuri sana kuwa hii nzuri."
+  },
+  "openSidePanel": {
+    "message": "Fungua upau wa kando"
+  }
+}

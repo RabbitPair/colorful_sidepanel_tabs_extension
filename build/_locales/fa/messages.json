@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "مدیریت برچسب‌های نوار کناری رنگارنگ"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "مدیریت برگه‌ها در پانل کناری، خیلی زیبا برای اینکه اینقدر خوب باشد."
+  },
+  "openSidePanel": {
+    "message": "باز کردن نوار کناری"
+  }
+}

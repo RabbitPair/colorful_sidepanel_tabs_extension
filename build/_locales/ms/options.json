@@ -1,0 +1,343 @@
+{
+  "OpenSideSanelToPreview": "Buka panel sisi untuk pratonton",
+  "_execute_action": "Aktifkan sambungan ini",
+  "openSidePanel": "Buka panel sisi",
+  "settings": {
+    "resetCurrentPageSettings": "Tetapkan semula tetapan halaman semasa",
+    "modules": {
+      "appearance": "Penampilan",
+      "beautify": "Cantikkan",
+      "tabs": "Tab",
+      "history": "Sejarah",
+      "shortcuts": "Pintasan",
+      "pip": "Gambar-dalam-gambar",
+      "chromeTabGroupAdvanced": "Kumpulan tab lanjutan",
+      "progressBar": "bilah kemajuan",
+      "floatBall": "Bola terapung",
+      "experimentalFeatures": "Ciri-ciri eksperimen"
+    },
+    "appearance": {
+      "header": "Penampilan",
+      "language": {
+        "label": "Bahasa antara muka",
+        "description": "Tetapkan bahasa untuk paparan antara muka"
+      },
+      "theme": {
+        "label": "Mod warna",
+        "description": "Pilih mod warna terang atau gelap"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Apabila diaktifkan, antara muka akan memaparkan arah teks dari kanan ke kiri"
+      },
+      "fontSize": {
+        "label": "Saiz fon",
+        "description": "Tetapkan saiz fon",
+        "small": "Kecil",
+        "large": "Besar"
+      },
+      "fontFamily": {
+        "label": "Keluarga Font",
+        "description": "Tetapkan keluarga font"
+      },
+      "fontColor": {
+        "label": "Warna Font",
+        "description": "Tetapkan warna font"
+      },
+      "fontWeight": {
+        "label": "Ketebalan Font",
+        "description": "Tetapkan ketebalan font"
+      },
+      "extAction": {
+        "label": "Tindakan ikon sambungan klik",
+        "description": "Tetapkan tindakan apabila mengklik ikon sambungan",
+        "openPopup": "Buka popup",
+        "openSidePanel": "Buka panel sisi"
+      },
+      "SidePanelPosition": {
+        "label": "Kedudukan panel sisi",
+        "description": "Tetapkan sama ada panel sisi dipaparkan di sebelah kiri atau kanan.",
+        "goToChromeSettings": "Pergi ke tetapan Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Kedudukan kotak carian",
+        "description": "Tetapkan kedudukan kotak carian",
+        "top": "Atas",
+        "bottom": "Bawah",
+        "hide": "Sembunyikan"
+      },
+      "toolbar": {
+        "label": "Tunjukkan bar alat",
+        "description": "Apabila diaktifkan, bar alat dipaparkan"
+      },
+      "bottomNav": {
+        "label": "Tunjukkan bar navigasi bawah",
+        "description": "Apabila diaktifkan, bar navigasi bawah dipaparkan"
+      },
+      "buttonPosition": {
+        "label": "Kedudukan butang",
+        "description": "Tetapkan kedudukan butang",
+        "left": "Kiri",
+        "right": "Kanan"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Sembunyikan panel sisi dalam skrin penuh",
+        "description": "Apabila diaktifkan, panel sisi akan disembunyikan secara automatik apabila halaman dalam skrin penuh. Disebabkan oleh had Chrome, panel sisi tidak boleh dibuka semula secara automatik. Anda perlu membuka semula panel sisi secara manual!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Latar belakang berwarna",
+        "description": "Apabila diaktifkan, panel sisi akan memaparkan latar belakang berwarna"
+      },
+      "backgroundPicture": {
+        "label": "Gambar latar belakang",
+        "description": "Klik [+] untuk menambah gambar tersuai, klik [-] untuk memadam gambar tersuai. Anda boleh mencari gambar kegemaran anda di laman web berikut.",
+        "dialogDescription": "Masukkan alamat imej",
+        "OK": "OK",
+        "Cancel": "Batal",
+        "invalidImage": "Alamat imej tidak sah"
+      },
+      "backgroundImageTransparency": {
+        "label": "Ketelusan imej",
+        "description": "Tetapkan ketelusan imej",
+        "transparent": "Telus",
+        "opaque": "Legap"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensiti Kabur",
+        "description": "Tetapkan Intensiti Kabur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Kecerahan",
+        "description": "Tetapkan kecerahan, disyorkan hanya untuk mod gelap"
+      },
+      "listBackgroundStyle": {
+        "label": "Gaya latar belakang senarai",
+        "description": "Tetapkan gaya latar belakang senarai",
+        "single": "Tunggal",
+        "none": "Tiada",
+        "simple": "Ringkas",
+        "complementary": "Pelengkap",
+        "analogous": "Analog",
+        "triadic": "Triadik",
+        "tetradic": "Tetradik"
+      },
+      "listBackgroundTransparency": {
+        "label": "Ketelusan latar belakang senarai",
+        "description": "Tetapkan ketelusan latar belakang senarai",
+        "transparent": "Telus",
+        "opaque": "Legap"
+      },
+      "listBottomBorder": {
+        "label": "Sempadan bawah senarai",
+        "description": "Tetapkan sempadan bawah senarai",
+        "none": "Tiada",
+        "dashed": "Bertitik",
+        "solid": "Pejal"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Scrollbar lancar",
+        "description": "Gunakan scrollbar gaya reka bentuk Microsoft Fluent dan tindihkannya pada kandungan web",
+        "goToChromeSettings": "Pergi ke tetapan Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Paparan senarai",
+        "description": "Tukar paparan senarai",
+        "compact": "Paparan padat",
+        "visual": "Paparan visual"
+      },
+      "showBy": {
+        "label": "Tunjukkan mengikut",
+        "description": "Tukar tunjukkan mengikut"
+      },
+      "sortBy": {
+        "label": "Susun mengikut",
+        "description": "Tukar susun mengikut"
+      },
+      "showFullUrl": {
+        "label": "Tunjukkan URL penuh",
+        "description": "Apabila diaktifkan, URL penuh akan dipaparkan di bawah tajuk tab"
+      },
+      "currentWindowOnly": {
+        "label": "Hanya tetingkap semasa",
+        "description": "Hanya tunjukkan tab tetingkap semasa. Jika dinyahdayakan, tab dari semua tetingkap akan ditunjukkan"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Tunjukkan tab yang dipinkan sebagai ikon",
+        "description": "Apabila diaktifkan, tab yang dipinkan akan dipaparkan sebagai ikon dan tidak dalam senarai"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Tunjukkan ikon laman web apabila kumpulan dikurangkan",
+        "description": "Apabila diaktifkan, kumpulan yang dikurangkan akan menunjukkan ikon tab"
+      },
+      "hoverPreview": {
+        "label": "Pratonton hover",
+        "description": "Apabila diaktifkan, melayang di atas tab akan menunjukkan pratonton tab"
+      },
+      "previewWithThumbnail": {
+        "label": "Tunjukkan thumbnail dalam pratonton",
+        "description": "Apabila diaktifkan, pratonton akan menunjukkan thumbnail tab",
+        "alert": "Tangkap kawasan yang kelihatan pada tab aktif semasa dalam tetingkap yang ditentukan. Untuk memanggil kaedah ini, sambungan mesti mempunyai kebenaran <all_urls> atau kebenaran activeTab.",
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik semula dan benarkan kebenaran"
+      },
+      "previewDelay": {
+        "label": "Kelewatan pratonton",
+        "description": "Tetapkan masa kelewatan untuk pratonton tab apabila melayang di atas tab, dsb. (saat). Jika ditetapkan kepada 0, tiada kelewatan",
+        "seconds": "Saat"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Simpan tab yang baru ditutup",
+        "description": "Apabila diaktifkan, simpan tab yang baru ditutup"
+      },
+      "dataSource": {
+        "label": "Sumber data",
+        "description": "Pilih sumber data",
+        "recentlyClosedTabs": "Tab yang baru ditutup",
+        "chromeHistory": "Sejarah Chrome",
+        "alert": "Untuk mencari rekod sejarah, anda memerlukan kebenaran anda untuk mengaktifkan",
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik semula dan benarkan kebenaran"
+      },
+      "showInSidePanel": {
+        "label": "Tunjukkan dalam panel sisi",
+        "description": "Apabila diaktifkan, tunjukkan dalam panel sisi"
+      },
+      "showInTabSearchResults": {
+        "label": "Tunjukkan sejarah dalam hasil carian tab",
+        "description": "Apabila diaktifkan, rekod sejarah terkini akan dipaparkan dalam hasil carian tab"
+      },
+      "limitSearchResults": {
+        "label": "Hadkan bilangan rekod sejarah dalam hasil carian tab",
+        "description": "Tetapkan bilangan had rekod sejarah dalam hasil carian tab. Rekod sejarah yang melebihi had akan ditapis",
+        "alert": "Terlalu banyak rekod akan menjejaskan kelajuan pemuatan halaman"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Bilangan tab yang baru ditutup untuk disimpan",
+        "description": "Tetapkan bilangan tab yang baru ditutup untuk disimpan"
+      },
+      "keepDays": {
+        "label": "Bilangan hari untuk menyimpan tab yang baru ditutup",
+        "description": "Tetapkan bilangan hari untuk menyimpan tab yang baru ditutup. Data yang tamat tempoh akan dipadamkan",
+        "days": "Hari"
+      },
+      "openDuration": {
+        "label": "Tempoh buka",
+        "description": "Hanya tab yang dibuka lebih lama daripada masa yang ditetapkan akan disimpan",
+        "seconds": "Saat"
+      }
+    },
+    "shortcuts": {
+      "alert": "Halaman ini hanya untuk paparan. Untuk mengubah pintasan, sila lawati [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
+      "goToChromeSettings": "Pergi ke tetapan Chrome",
+      "_execute_action": "Aktifkan sambungan ini",
+      "openSidePanel": "Buka panel sisi"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Gambar-dalam-gambar",
+      "tabSwitch": {
+        "label": "PIP pada Tukar Tab",
+        "description": "Masuk secara automatik ke PIP apabila menukar tab dengan video yang tidak dibisukan",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      },
+      "scrollSwitch": {
+        "label": "Tukar ke gambar-dalam-gambar apabila menatal",
+        "description": "Jika halaman semasa sedang memainkan video dan video tidak dibisukan dan video berada di luar julat yang boleh dilihat apabila menatal, ia akan masuk ke gambar-dalam-gambar.",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Pengaktifan pengguna diperlukan",
+      "tips_1": "Pengaktifan pengguna bermaksud pengguna sedang berinteraksi dengan halaman",
+      "tips_2": "Lebih khusus lagi, pengaktifan mencetuskan acara input seperti:",
+      "tips_3": "Nota: Menggunakan roda tetikus untuk menatal atau isyarat leret tidak akan mencetuskan!",
+      "tips_4": "Jika anda ingin maklumat lanjut, sila lawati:",
+      "click": "Klik",
+      "contextmenu": "Menu klik kanan",
+      "dblclick": "Klik dua kali"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Tingkah laku pengurangan kumpulan tab",
+        "description": "Ubah tingkah laku pengurangan kumpulan tab penyemak imbas Chrome",
+        "option_collapse_others": "Tunjukkan kumpulan semasa dan kurangkan yang lain",
+        "option_disable": "Kembangkan semua kumpulan",
+        "option_auto": "Gunakan tetapan lalai Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Cipta atau sertai kumpulan domain yang sama secara automatik",
+        "description": "Apabila diaktifkan, tab yang baru dibuka akan secara automatik menyertai kumpulan domain yang sama. Jika kumpulan domain tidak wujud, kumpulan domain baru akan dicipta",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Tapis tab yang dipinkan dalam kumpulan",
+        "description": "Apabila diaktifkan, tab yang dipinkan tidak akan ditambah ke dalam kumpulan",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Aktifkan bar kemajuan",
+        "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      },
+      "readingProgressBar": {
+        "label": "Bar kemajuan bacaan",
+        "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      },
+      "scrollHeightRatio": {
+        "label": "Nisbah Ketinggian Skrol",
+        "description": "Nisbah ketinggian tetingkap yang terlihat kepada ketinggian halaman. Bar kemajuan akan dipaparkan apabila nisbah ini melebihi",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      },
+      "playingProgressBar": {
+        "label": "Bar kemajuan main",
+        "description": "Apabila diaktifkan, bar kemajuan main akan dipaparkan di bawah bar tajuk tab",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinyahdayakan"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Aktifkan bola terapung",
+        "description": "Apabila panel sisi ditutup, bola terapung akan dipaparkan di sebelah kanan halaman, membolehkan pembukaan panel sisi dengan cepat."
+      }
+    },
+    "performance": {
+      "label": "Prestasi",
+      "saveMemoryAction": {
+        "label": "Bagaimana untuk menjimatkan ingatan pada tab",
+        "description": "Untuk menjimatkan ingatan pada tab, anda boleh memilih untuk menutup tab atau membuang tab.",
+        "discardTips": "tab yang dibuang tidak pergi ke mana-mana. Kami mematikannya tetapi masih kelihatan pada jalur tab Chrome. Jika anda kembali ke tab yang telah dibuang, ia akan dimuat semula apabila diklik. Kandungan borang, kedudukan skrol, dan sebagainya disimpan dan dipulihkan dengan cara yang sama seperti semasa navigasi tab ke hadapan/ke belakang.",
+        "disabled": "Dimatikan",
+        "closeTabs": "Tutup tab",
+        "discardTabs": "Buang tab"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Berapa lama untuk membuang tab tidak aktif",
+        "description": "Apabila tiada audio atau video dimainkan pada tab dan pembuangan automatik tidak dilarang, tab akan dibuang selepas masa yang ditetapkan.",
+        "minutes": "Minit"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Berapa lama untuk menutup tab tidak aktif",
+        "description": "Apabila tiada audio atau video dimainkan pada tab dan pembuangan automatik tidak dilarang, tab akan ditutup selepas masa yang ditetapkan.",
+        "minutes": "Minit"
+      },
+      "disableAnimations": {
+        "label": "Matikan animasi",
+        "description": "matikan kesan riak dan matikan semua peralihan"
+      }
+    }
+  }
+}

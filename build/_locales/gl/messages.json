@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Xestión de Pestañas da Barra Lateral Colorida"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Xestiona as lapelas no panel lateral, demasiado bonito para ser tan bo."
+  },
+  "openSidePanel": {
+    "message": "Abrir o Panel Lateral"
+  }
+}

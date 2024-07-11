@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Správa farebných bočných panelových záložiek"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Spravujte karty v bočnom paneli, Príliš pekné na to, aby to bolo také dobré."
+  },
+  "openSidePanel": {
+    "message": "Otvoriť bočný panel"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Rianachd Clàran Taobh Dathach"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Stiùirich tabaichean anns a’ phannal-taoibh, ro bhòidheach airson a bhith cho math seo."
+  },
+  "openSidePanel": {
+    "message": "Fosgail am Pannal Taobh"
+  }
+}
