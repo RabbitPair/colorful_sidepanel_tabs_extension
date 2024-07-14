@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Позиција на страничниот панел",
         "description": "Поставете дали страничниот панел ќе се прикажува на левата или десната страна.",
-        "goToChromeSettings": "Оди на поставки на Chrome"
+        "goToBrowserSettings": "Оди на поставки на Chrome"
       },
       "searchBoxPosition": {
         "label": "Позиција на полето за пребарување",
@@ -79,6 +79,10 @@
         "description": "Поставете ја позицијата на копчињата",
         "left": "Лево",
         "right": "Десно"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Секогаш прикажувај го копчето за затворање",
+        "description": "Кога е овозможено, копчето за затворање ќе се прикажува секогаш; кога е оневозможено, копчето за затворање ќе се прикажува само кога глувчето е надвор од јазичето"
       },
       "fullScreenHideSidePanel": {
         "label": "Сокриј страничен панел во цел екран",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Флуентни лизгалки",
         "description": "Користете лизгалки во стилот на Microsoft Fluent дизајн и преклопете ги на веб-содржината",
-        "goToChromeSettings": "Оди на поставки на Chrome"
+        "goToBrowserSettings": "Оди на поставки на Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Оваа страница е само за прикажување. За да ги измените кратенките, ве молиме посетете [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToChromeSettings": "Оди на поставки на Chrome",
+      "goToBrowserSettings": "Оди на поставки на Chrome",
       "_execute_action": "Активирај го ова продолжение",
       "openSidePanel": "Отвори страничен панел"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Оневозможи анимации",
         "description": "оневозможи го ефектот на треперење и ги оневозможи сите транзиции"
+      }
+    },
+    "site": {
+      "label": "Site settings",
+      "allSites": "All sites",
+      "sortBy": "Sort by",
+      "mostVisited": "Most visited",
+      "dataStored": "Data stored",
+      "name": "Name",
+      "deleteAllData": "Delete all data",
+      "totalStorageUsedBySites": "Total storage used by sites",
+      "totalCount": "Total count",
+      "addNewSite": {
+        "label": "Add new site",
+        "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
+        "placeholder": "Website address, such as 'www.example.com'",
+        "add": "Add",
+        "cancel": "Cancel",
+        "invalidDomain": "Invalid website address"
+      },
+      "browserSettings": {
+        "label": "Browser settings",
+        "description": "You can modify site settings, such as deleting data or changing site permissions.",
+        "goToBrowserSettings": "Go to browser settings"
+      },
+      "autoDiscardable": {
+        "label": "Auto discardable",
+        "description": "When enabled, the tab will be allowed to be discarded by the browser, and if you turn on performance and set the time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "When enabled, a reading progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the reading progress bar in the global settings to modify this setting."
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "When enabled, a playing progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the playing progress bar in the global settings to modify this setting."
+      },
+      "tabSwitchPip": {
+        "label": "PIP on Tab Switch",
+        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
+        "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Clear history after close",
+        "description": "When enabled, the history will be cleared after closing the tab."
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Синхронизација со облак",
+      "SyncNow": "Синхронизирај сега",
+      "SyncNowWithGoogleDrive": "Синхронизација со Google Drive",
+      "SyncNowWithDropbox": "Синхронизација со Dropbox",
+      "SyncNowWithOneDrive": "Синхронизација со OneDrive",
+      "Synchronizing": "Синхронизација...",
+      "SyncedSuccessfully": "Успешно синхронизирано",
+      "SyncFailed": "Неуспешна синхронизација",
+      "LoginRequired": "Потребна е најава",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Синхронизирај конфигурации",
+        "description": "Изберете како да ги синхронизирате конфигурациите на оваа додаток.",
+        "disabled": "Оневозможено",
+        "uploadOnly": "Само прикачување",
+        "downloadOnly": "Само преземање",
+        "staySynchronized": "Останете синхронизирани"
+      },
+      "SyncTabs": {
+        "label": "Синхронизација на картички",
+        "description": "Изберете како да ги синхронизирате податоците на картичките, без приватни податоци како колачиња и лични информации.",
+        "disabled": "Оневозможено",
+        "uploadOnly": "Само прикачување",
+        "downloadOnly": "Само преземање",
+        "staySynchronized": "Останете синхронизирани"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Отворање или затворање на картички синхроно",
+        "description": "Кога е овозможено, отворањето или затворањето на картички во различни прелистувачи ќе биде синхронизирано. Ова важи само кога опцијата 'остани синхронизиран' е активна",
+        "OpenOrCloseTabsSynchronouslyWarning": "Доколку се најавите на иста сметка во два прелистувачи и вклучите оваа опција, отворањето или затворањето на картички во еден прелистувач ќе изврши истата операција во другиот прелистувач. Доколку веб-страницата забрани повторни најавувања со истата сметка, може да се појават исклучоци."
+      },
+      "SyncPrivateData": {
+        "label": "Синхронизација на приватни податоци",
+        "description": "Изберете како да ги синхронизирате приватните податоци, како колачиња на веб-страници, податоци за локално складирање на веб-страници, податоци за SessionStorage итн. Податоците ќе бидат шифрирани пред синхронизација.",
+        "disabled": "Оневозможено",
+        "uploadOnly": "Само прикачување",
+        "downloadOnly": "Само преземање",
+        "staySynchronized": "Останете синхронизирани"
       }
     }
   }

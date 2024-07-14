@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "사이드 패널 위치",
         "description": "사이드 패널이 왼쪽에 표시되는지 오른쪽에 표시되는지 설정",
-        "goToChromeSettings": "Chrome 설정으로 이동"
+        "goToBrowserSettings": "Chrome 설정으로 이동"
       },
       "searchBoxPosition": {
         "label": "검색 상자 위치",
@@ -79,6 +79,10 @@
         "description": "버튼 위치 설정",
         "left": "왼쪽",
         "right": "오른쪽"
+      },
+      "alwaysShowCloseButton": {
+        "label": "닫기 버튼 항상 표시",
+        "description": "활성화되면 닫기 버튼이 항상 표시됩니다; 비활성화되면 마우스가 탭 위에 올라가 있을 때만 닫기 버튼이 표시됩니다"
       },
       "fullScreenHideSidePanel": {
         "label": "전체 화면에서 사이드 패널 숨기기",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "유창한 스크롤바",
         "description": "Microsoft Fluent 디자인 스타일 스크롤바를 사용하고 웹 콘텐츠 위에 오버레이합니다",
-        "goToChromeSettings": "Chrome 설정으로 이동"
+        "goToBrowserSettings": "Chrome 설정으로 이동"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "이 페이지는 표시 전용입니다. 바로 가기를 수정하려면 [확장 프로그램]->[확장 관리]->[키보드 바로 가기]를 방문하십시오",
-      "goToChromeSettings": "Chrome 설정으로 이동",
+      "goToBrowserSettings": "Chrome 설정으로 이동",
       "_execute_action": "이 확장 프로그램을 활성화",
       "openSidePanel": "사이드 패널 열기"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "애니메이션 비활성화",
         "description": "물결 효과를 비활성화하고 모든 전환을 비활성화합니다"
+      }
+    },
+    "site": {
+      "label": "사이트 설정",
+      "allSites": "모든 사이트",
+      "sortBy": "정렬 기준",
+      "mostVisited": "가장 많이 방문한",
+      "dataStored": "저장된 데이터",
+      "name": "이름",
+      "deleteAllData": "모든 데이터 삭제",
+      "totalStorageUsedBySites": "사이트에서 사용하는 총 저장 공간",
+      "totalCount": "총 개수",
+      "addNewSite": {
+        "label": "새 사이트 추가",
+        "description": "새 웹 사이트 주소를 입력하고 '추가'를 클릭합니다.",
+        "placeholder": "웹 사이트 주소, 예: 'www.example.com'",
+        "add": "추가",
+        "cancel": "취소",
+        "invalidDomain": "잘못된 웹 사이트 주소"
+      },
+      "browserSettings": {
+        "label": "브라우저 설정",
+        "description": "데이터 삭제 또는 사이트 권한 변경과 같은 사이트 설정을 수정할 수 있습니다.",
+        "goToBrowserSettings": "브라우저 설정으로 이동"
+      },
+      "autoDiscardable": {
+        "label": "자동 폐기 가능",
+        "description": "활성화되면 브라우저에서 탭을 폐기할 수 있으며, 성능을 켜고 비활성 탭을 폐기할 시간을 설정하면 지정된 시간 후에 탭이 폐기됩니다. 비활성화되면 탭이 폐기되지 않습니다."
+      },
+      "readingProgressBar": {
+        "label": "읽기 진행 막대",
+        "description": "활성화하면 탭 제목 표시줄 아래에 읽기 진행 막대가 표시됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 읽기 진행 막대를 켜야 합니다."
+      },
+      "playingProgressBar": {
+        "label": "재생 진행 막대",
+        "description": "활성화하면 탭 제목 표시줄 아래에 재생 진행 막대가 표시됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 재생 진행 막대를 켜야 합니다."
+      },
+      "tabSwitchPip": {
+        "label": "탭 전환 시 PIP",
+        "description": "활성화하면 음소거되지 않은 비디오가 있는 탭을 전환할 때 자동으로 Picture-in-picture로 전환됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 Picture-in-picture를 켜야 합니다."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "닫은 후 히스토리 지우기",
+        "description": "활성화하면 탭을 닫은 후 히스토리가 지워집니다."
+      },
+      "SyncTabs": {
+        "label": "탭 동기화",
+        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택합니다.",
+        "disabled": "비활성화됨",
+        "uploadOnly": "업로드만",
+        "downloadOnly": "다운로드만",
+        "staySynchronized": "동기화 유지",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 동기화를 켜야 합니다."
+      },
+      "SyncPrivateData": {
+        "label": "개인 데이터 동기화",
+        "description": "웹 사이트 쿠키, 웹 페이지 로컬 저장소 데이터, SessionStorage 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택합니다. 데이터는 동기화 전에 암호화됩니다.",
+        "disabled": "비활성화됨",
+        "uploadOnly": "업로드만",
+        "downloadOnly": "다운로드만",
+        "staySynchronized": "동기화 유지",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 동기화를 켜야 합니다."
+      }
+    },
+    "SyncToCloud": {
+      "label": "클라우드 동기화",
+      "SyncNow": "지금 동기화",
+      "SyncNowWithGoogleDrive": "Google 드라이브로 지금 동기화",
+      "SyncNowWithDropbox": "Dropbox로 지금 동기화",
+      "SyncNowWithOneDrive": "OneDrive로 지금 동기화",
+      "Synchronizing": "동기화 중...",
+      "SyncedSuccessfully": "성공적으로 동기화됨",
+      "SyncFailed": "동기화 실패",
+      "LoginRequired": "로그인 필요",
+      "GoogleDrive": "Google 드라이브",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "동기화 구성",
+        "description": "이 확장 프로그램의 구성을 동기화하는 방법을 선택합니다.",
+        "disabled": "비활성화됨",
+        "uploadOnly": "업로드만",
+        "downloadOnly": "다운로드만",
+        "staySynchronized": "동기화 유지"
+      },
+      "SyncTabs": {
+        "label": "탭 동기화",
+        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택합니다.",
+        "disabled": "비활성화됨",
+        "uploadOnly": "업로드만",
+        "downloadOnly": "다운로드만",
+        "staySynchronized": "동기화 유지"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "탭을 동기화하여 열거나 닫기",
+        "description": "활성화하면 다른 브라우저에서 탭을 열거나 닫을 때 동기화됩니다. '동기화 유지' 옵션이 활성화된 경우에만 적용됩니다.",
+        "OpenOrCloseTabsSynchronouslyWarning": "동일한 계정으로 동시에 두 개의 브라우저에 로그인하고이 옵션을 켜면 한 브라우저에서 탭을 열거나 닫으면 다른 브라우저에서도 동일한 작업이 수행됩니다. 웹 사이트가 동일한 계정으로 반복 로그인을 금지하는 경우 예외가 발생할 수 있습니다."
+      },
+      "SyncPrivateData": {
+        "label": "개인 데이터 동기화",
+        "description": "웹 사이트 쿠키, 웹 페이지 로컬 저장소 데이터, SessionStorage 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택합니다. 데이터는 동기화 전에 암호화됩니다.",
+        "disabled": "비활성화됨",
+        "uploadOnly": "업로드만",
+        "downloadOnly": "다운로드만",
+        "staySynchronized": "동기화 유지"
       }
     }
   }

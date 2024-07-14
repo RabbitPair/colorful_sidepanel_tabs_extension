@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sidopanelens position",
         "description": "Ställ in om sidopanelen visas till vänster eller höger.",
-        "goToChromeSettings": "Gå till Chrome-inställningar"
+        "goToBrowserSettings": "Gå till Chrome-inställningar"
       },
       "searchBoxPosition": {
         "label": "Sökrutans position",
@@ -79,6 +79,10 @@
         "description": "Ställ in knappens position",
         "left": "Vänster",
         "right": "Höger"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Visa alltid stängknappen",
+        "description": "När aktiverat kommer stängknappen alltid att visas; när inaktiverat kommer stängknappen endast att visas när musen svävar över fliken"
       },
       "fullScreenHideSidePanel": {
         "label": "Dölj sidopanelen i helskärm",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Använd Microsoft Fluent design scrollbars och överlägg dem på webbinnehållet",
-        "goToChromeSettings": "Gå till Chrome-inställningar"
+        "goToBrowserSettings": "Gå till Chrome-inställningar"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Denna sida är endast för visning. För att ändra genvägar, besök [Tillägg]->[Hantera tillägg]->[Tangentbordsgenvägar]",
-      "goToChromeSettings": "Gå till Chrome-inställningar",
+      "goToBrowserSettings": "Gå till Chrome-inställningar",
       "_execute_action": "Aktivera denna tillägg",
       "openSidePanel": "Öppna sidopanelen"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Onemogoči animacije",
         "description": "onemogoči učinek valovanja in onemogoči vse prehode"
+      }
+    },
+    "site": {
+      "label": "Webbplatsinställningar",
+      "allSites": "Alla webbplatser",
+      "sortBy": "Sortera efter",
+      "mostVisited": "Mest besökta",
+      "dataStored": "Data lagrad",
+      "name": "Namn",
+      "deleteAllData": "Radera all data",
+      "totalStorageUsedBySites": "Total lagring använd av webbplatser",
+      "totalCount": "Totalt antal",
+      "addNewSite": {
+        "label": "Lägg till ny webbplats",
+        "description": "Ange en ny webbadress, som 'www.example.com', och klicka på 'Lägg till'.",
+        "placeholder": "Webbadress, som 'www.example.com'",
+        "add": "Lägg till",
+        "cancel": "Avbryt",
+        "invalidDomain": "Ogiltig webbadress"
+      },
+      "browserSettings": {
+        "label": "Webbläsarinställningar",
+        "description": "Du kan ändra webbplatsinställningar, som att radera data eller ändra webbplatsbehörigheter.",
+        "goToBrowserSettings": "Gå till webbläsarinställningar"
+      },
+      "autoDiscardable": {
+        "label": "Automatiskt kasserbar",
+        "description": "När det är aktiverat kommer fliken att tillåtas att kasseras av webbläsaren, och om du slår på prestanda och ställer in tiden för att kassera inaktiva flikar, kommer fliken att kasseras efter den angivna tiden. Om det är inaktiverat kommer fliken inte att kasseras"
+      },
+      "readingProgressBar": {
+        "label": "Läsningsframstegsfält",
+        "description": "När det är aktiverat kommer ett läsningsframstegsfält att visas under flikens titelrad.",
+        "globaldisabledTips": "Du måste aktivera läsningsframstegsfältet i de globala inställningarna för att ändra denna inställning."
+      },
+      "playingProgressBar": {
+        "label": "Spelande framstegsfält",
+        "description": "När det är aktiverat kommer ett spelande framstegsfält att visas under flikens titelrad.",
+        "globaldisabledTips": "Du måste aktivera spelande framstegsfältet i de globala inställningarna för att ändra denna inställning."
+      },
+      "tabSwitchPip": {
+        "label": "PIP vid flikbyte",
+        "description": "När det är aktiverat, auto-in i bild-i-bild när du byter flikar med en omute video.",
+        "globaldisabledTips": "Du måste aktivera bild-i-bild i de globala inställningarna för att ändra denna inställning."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Rensa historik efter stängning",
+        "description": "När det är aktiverat kommer historiken att rensas efter att fliken har stängts."
+      },
+      "SyncTabs": {
+        "label": "Synkronisera flikar",
+        "description": "Välj hur flikdata ska synkroniseras, exklusive privat data som kakor och personlig information.",
+        "disabled": "Inaktiverad",
+        "uploadOnly": "Endast uppladdning",
+        "downloadOnly": "Endast nedladdning",
+        "staySynchronized": "Förbli synkroniserad",
+        "globaldisabledTips": "Du måste aktivera synkronisering i Globala inställningar för att ändra denna inställning."
+      },
+      "SyncPrivateData": {
+        "label": "Synkronisera privat data",
+        "description": "Välj hur privat data, som webbplatskakor, webbsides lokal lagringsdata, SessionStorage-data, etc., ska synkroniseras. Data kommer att krypteras innan synkronisering.",
+        "disabled": "Inaktiverad",
+        "uploadOnly": "Endast uppladdning",
+        "downloadOnly": "Endast nedladdning",
+        "staySynchronized": "Förbli synkroniserad",
+        "globaldisabledTips": "Du måste aktivera synkronisering i Globala inställningar för att ändra denna inställning."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synkronisera till molnet",
+      "SyncNow": "Synkronisera nu",
+      "SyncNowWithGoogleDrive": "Synkronisera nu med Google Drive",
+      "SyncNowWithDropbox": "Synkronisera nu med Dropbox",
+      "SyncNowWithOneDrive": "Synkronisera nu med OneDrive",
+      "Synchronizing": "Synkroniserar...",
+      "SyncedSuccessfully": "Synkroniserad framgångsrikt",
+      "SyncFailed": "Synkronisering misslyckades",
+      "LoginRequired": "Inloggning krävs",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synkronisera konfigurationer",
+        "description": "Välj hur denna tilläggets konfigurationer ska synkroniseras.",
+        "disabled": "Inaktiverad",
+        "uploadOnly": "Endast uppladdning",
+        "downloadOnly": "Endast nedladdning",
+        "staySynchronized": "Förbli synkroniserad"
+      },
+      "SyncTabs": {
+        "label": "Synkronisera flikar",
+        "description": "Välj hur flikdata ska synkroniseras, exklusive privat data som kakor och personlig information.",
+        "disabled": "Inaktiverad",
+        "uploadOnly": "Endast uppladdning",
+        "downloadOnly": "Endast nedladdning",
+        "staySynchronized": "Förbli synkroniserad"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Öppna eller stäng flikar synkront",
+        "description": "När detta är aktiverat kommer öppning eller stängning av flikar i olika webbläsare att synkroniseras. Detta gäller endast när alternativet 'Förbli synkroniserad' är aktivt",
+        "OpenOrCloseTabsSynchronouslyWarning": "Om du loggar in på samma konto i två webbläsare samtidigt och aktiverar detta alternativ kommer öppning eller stängning av flikar i en webbläsare att utföra samma operation i den andra webbläsaren. Om webbplatsen förbjuder upprepade inloggningar med samma konto kan undantag uppstå."
+      },
+      "SyncPrivateData": {
+        "label": "Synkronisera privat data",
+        "description": "Välj hur privat data, som webbplatskakor, webbsides lokal lagringsdata, SessionStorage-data, etc., ska synkroniseras. Data kommer att krypteras innan synkronisering.",
+        "disabled": "Inaktiverad",
+        "uploadOnly": "Endast uppladdning",
+        "downloadOnly": "Endast nedladdning",
+        "staySynchronized": "Förbli synkroniserad"
       }
     }
   }

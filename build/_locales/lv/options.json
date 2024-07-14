@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sānu paneļa pozīcija",
         "description": "Iestatiet, vai sānu panelis tiek parādīts pa kreisi vai pa labi.",
-        "goToChromeSettings": "Doties uz Chrome iestatījumiem"
+        "goToBrowserSettings": "Doties uz Chrome iestatījumiem"
       },
       "searchBoxPosition": {
         "label": "Meklēšanas lodziņa pozīcija",
@@ -79,6 +79,10 @@
         "description": "Iestatiet pogu pozīciju",
         "left": "Pa kreisi",
         "right": "Pa labi"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Vienmēr rādīt aizvēršanas pogu",
+        "description": "Ja iespējots, aizvēršanas poga vienmēr tiks rādīta; ja atspējots, aizvēršanas poga tiks rādīta tikai tad, kad pele pārvietojas virs cilnes"
       },
       "fullScreenHideSidePanel": {
         "label": "Paslēpt sānu paneli pilnekrāna režīmā",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Plūstošas ​​ritināšanas joslas",
         "description": "Izmantojiet Microsoft Fluent dizaina stila ritināšanas joslas un pārklājiet tās ar tīmekļa saturu",
-        "goToChromeSettings": "Doties uz Chrome iestatījumiem"
+        "goToBrowserSettings": "Doties uz Chrome iestatījumiem"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Šī lapa ir paredzēta tikai displejam. Lai modificētu saīsnes, lūdzu, apmeklējiet [Paplašinājumi]->[Pārvaldīt paplašinājumus]->[Klaviatūras saīsnes]",
-      "goToChromeSettings": "Doties uz Chrome iestatījumiem",
+      "goToBrowserSettings": "Doties uz Chrome iestatījumiem",
       "_execute_action": "Aktivizēt šo paplašinājumu",
       "openSidePanel": "Atvērt sānu paneli"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Atspējot animācijas",
         "description": "atspējot vilnis efektu un atspējot visas pārejas"
+      }
+    },
+    "site": {
+      "label": "Vietnes iestatījumi",
+      "allSites": "Visas vietnes",
+      "sortBy": "Kārtot pēc",
+      "mostVisited": "Visvairāk apmeklētas",
+      "dataStored": "Datu glabāšana",
+      "name": "Nosaukums",
+      "deleteAllData": "Dzēst visus datus",
+      "totalStorageUsedBySites": "Kopējais izmantotais krātuves apjoms vietnēm",
+      "totalCount": "Kopējais skaits",
+      "addNewSite": {
+        "label": "Pievienot jaunu vietni",
+        "description": "Ievadiet jaunu tīmekļa vietnes adresi, piemēram, 'www.piemers.com', un noklikšķiniet uz 'Pievienot'.",
+        "placeholder": "Tīmekļa vietnes adrese, piemēram, 'www.piemers.com'",
+        "add": "Pievienot",
+        "cancel": "Atcelt",
+        "invalidDomain": "Nederīga tīmekļa vietnes adrese"
+      },
+      "browserSettings": {
+        "label": "Pārlūkprogrammas iestatījumi",
+        "description": "Jūs varat modificēt vietņu iestatījumus, piemēram, dzēšot datus vai mainot vietnes atļaujas.",
+        "goToBrowserSettings": "Doties uz pārlūkprogrammas iestatījumiem"
+      },
+      "autoDiscardable": {
+        "label": "Automātiski atmest",
+        "description": "Ja ir iespējots, cilne var tikt atmesta pārlūkprogrammas, un, ja ieslēdzat veiktspēju un iestatāt laiku, lai atmestu neaktīvās cilnes, cilne tiks atmesta pēc norādītā laika. Ja ir atspējots, cilne netiks atmesta"
+      },
+      "readingProgressBar": {
+        "label": "Lasīšanas progresa josla",
+        "description": "Ja ir iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresa josla.",
+        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz lasīšanas progresa josla globālajos iestatījumos."
+      },
+      "playingProgressBar": {
+        "label": "Atskaņošanas progresa josla",
+        "description": "Ja ir iespējots, zem cilnes nosaukuma joslas tiks parādīta atskaņošanas progresa josla.",
+        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz atskaņošanas progresa josla globālajos iestatījumos."
+      },
+      "tabSwitchPip": {
+        "label": "PIP pārslēgšanās cilnē",
+        "description": "Ja ir iespējots, automātiski ievadiet attēlu attēlā, pārslēdzot cilnes ar neslēgtu video.",
+        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz attēls attēlā globālajos iestatījumos."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Notīrīt vēsturi pēc aizvēršanas",
+        "description": "Ja ir iespējots, vēsture tiks notīrīta pēc cilnes aizvēršanas."
+      },
+      "SyncTabs": {
+        "label": "Sinchronizēt cilnes",
+        "description": "Izvēlieties, kā sinhronizēt cilņu datus, izņemot privātos datus, piemēram, sīkdatnes un personīgo informāciju.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielāde",
+        "downloadOnly": "Tikai lejupielāde",
+        "staySynchronized": "Palikt sinhronizētam",
+        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz sinhronizācija Globālajos iestatījumos."
+      },
+      "SyncPrivateData": {
+        "label": "Sinchronizēt privātos datus",
+        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietnes sīkdatnes, vietnes lokālās krātuves datus, sesijas krātuves datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielāde",
+        "downloadOnly": "Tikai lejupielāde",
+        "staySynchronized": "Palikt sinhronizētam",
+        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz sinhronizācija Globālajos iestatījumos."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinchronizēt ar mākoņiem",
+      "SyncNow": "Sinchronizēt tagad",
+      "SyncNowWithGoogleDrive": "Sinchronizēt tagad ar Google Drive",
+      "SyncNowWithDropbox": "Sinchronizēt tagad ar Dropbox",
+      "SyncNowWithOneDrive": "Sinchronizēt tagad ar OneDrive",
+      "Synchronizing": "Sinchronizē...",
+      "SyncedSuccessfully": "Veiksmīgi sinchronizēts",
+      "SyncFailed": "Sinchronizācija neizdevās",
+      "LoginRequired": "Nepieciešama pierakstīšanās",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinchronizēt konfigurācijas",
+        "description": "Izvēlieties, kā sinhronizēt šīs paplašinājuma konfigurācijas.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielāde",
+        "downloadOnly": "Tikai lejupielāde",
+        "staySynchronized": "Palikt sinhronizētam"
+      },
+      "SyncTabs": {
+        "label": "Sinchronizēt cilnes",
+        "description": "Izvēlieties, kā sinhronizēt cilņu datus, izņemot privātos datus, piemēram, sīkdatnes un personīgo informāciju.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielāde",
+        "downloadOnly": "Tikai lejupielāde",
+        "staySynchronized": "Palikt sinhronizētam"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Atvērt vai aizvērt cilnes sinhronizēti",
+        "description": "Ja ir iespējots, atverot vai aizverot cilnes dažādās pārlūkprogrammās, tas tiks sinhronizēts. Tas attiecas tikai tad, ja ir aktīva opcija 'palikt sinhronizētam'.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ja vienlaikus pieslēdzaties divās pārlūkprogrammās ar vienu un to pašu kontu un ieslēdzat šo opciju, atverot vai aizverot cilnes vienā pārlūkprogrammā, tāda pati darbība tiks veikta arī citā pārlūkprogrammā. Ja vietne aizliedz atkārtotus pieslēgumus ar to pašu kontu, var rasties izņēmumi."
+      },
+      "SyncPrivateData": {
+        "label": "Sinchronizēt privātos datus",
+        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietnes sīkdatnes, vietnes lokālās krātuves datus, sesijas krātuves datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielāde",
+        "downloadOnly": "Tikai lejupielāde",
+        "staySynchronized": "Palikt sinhronizētam"
       }
     }
   }

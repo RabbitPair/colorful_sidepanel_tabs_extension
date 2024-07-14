@@ -43,6 +43,7 @@
     "closeTab": "關閉標籤頁",
     "CloseOtherTabs": "關閉其他標籤頁",
     "CloseSameSiteTabs": "關閉同域名標籤頁",
+    "CloseSameSiteOtherTabs": "關閉同域名其他標籤頁",
     "Reload": "重新載入",
     "RestoreTabs": "恢復標籤頁",
     "DiscardTab": "丟棄標籤頁",

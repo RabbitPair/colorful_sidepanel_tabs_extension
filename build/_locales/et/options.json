@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Küljepaneeli asend",
         "description": "Määrake, kas küljepaneel kuvatakse vasakul või paremal.",
-        "goToChromeSettings": "Minge Chrome'i sätetesse"
+        "goToBrowserSettings": "Minge Chrome'i sätetesse"
       },
       "searchBoxPosition": {
         "label": "Otsingukasti asend",
@@ -79,6 +79,10 @@
         "description": "Määrake nuppude asend",
         "left": "Vasakul",
         "right": "Paremal"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Näita alati sulgemisnuppu",
+        "description": "Kui see on lubatud, kuvatakse sulgemisnupp alati; kui see on keelatud, kuvatakse sulgemisnupp ainult siis, kui hiir on vahekaardi kohal"
       },
       "fullScreenHideSidePanel": {
         "label": "Peida küljepaneel täisekraanil",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Voolavad kerimisribad",
         "description": "Kasutage Microsofti voolava disaini stiilis kerimisribasid ja kattke need veebisisu kohal",
-        "goToChromeSettings": "Minge Chrome'i sätetesse"
+        "goToBrowserSettings": "Minge Chrome'i sätetesse"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "See leht on ainult kuvamiseks. Kiirklahvide muutmiseks külastage palun [Laiendid]->[Halda laiendeid]->[Klaviatuuri kiirklahvid]",
-      "goToChromeSettings": "Minge Chrome'i sätetesse",
+      "goToBrowserSettings": "Minge Chrome'i sätetesse",
       "_execute_action": "Aktiveeri see laiendus",
       "openSidePanel": "Ava küljepaneel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Keela animatsioonid",
         "description": "keela lainetusefekt ja keela kõik üleminekud"
+      }
+    },
+    "site": {
+      "label": "Veebisaidi seaded",
+      "allSites": "Kõik saidid",
+      "sortBy": "Sorteeri",
+      "mostVisited": "Kõige külastatumad",
+      "dataStored": "Andmed salvestatud",
+      "name": "Nimi",
+      "deleteAllData": "Kustuta kõik andmed",
+      "totalStorageUsedBySites": "Kokku saididelt kasutatud salvestusruum",
+      "totalCount": "Koguarv",
+      "addNewSite": {
+        "label": "Lisa uus sait",
+        "description": "Sisestage uus veebiaadress, näiteks 'www.example.com', ja klõpsake nuppu 'Lisa'.",
+        "placeholder": "Veebiaadress, näiteks 'www.example.com'",
+        "add": "Lisa",
+        "cancel": "Tühista",
+        "invalidDomain": "Vigane veebiaadress"
+      },
+      "browserSettings": {
+        "label": "Brauseri seaded",
+        "description": "Saate muuta saidi seadeid, näiteks kustutada andmeid või muuta saidi lubasid.",
+        "goToBrowserSettings": "Mine brauseri seadetesse"
+      },
+      "autoDiscardable": {
+        "label": "Automaatselt kõrvaldatav",
+        "description": "Kui see on lubatud, võib brauser vahekaardi kõrvaldada, ja kui lülitate sisse jõudluse ning määratlete aja mitteaktiivsete vahekaartide kõrvaldamiseks, kõrvaldatakse vahekaart pärast määratud aega. Kui see on keelatud, ei kõrvaldata vahekaarti"
+      },
+      "readingProgressBar": {
+        "label": "Lugemise edenemisriba",
+        "description": "Kui see on lubatud, kuvatakse lugemise edenemisriba vahekaardi pealkirjariba all.",
+        "globaldisabledTips": "Peate lugemise edenemisriba sisse lülitama üldseadetes selle seadistuse muutmiseks."
+      },
+      "playingProgressBar": {
+        "label": "Esitamise edenemisriba",
+        "description": "Kui see on lubatud, kuvatakse esitamise edenemisriba vahekaardi pealkirjariba all.",
+        "globaldisabledTips": "Peate esitamise edenemisriba sisse lülitama üldseadetes selle seadistuse muutmiseks."
+      },
+      "tabSwitchPip": {
+        "label": "PIP vahekaardi vahetamisel",
+        "description": "Kui see on lubatud, siseneb automaatselt pildis-pildis režiimi, kui vahetate vahekaarte helita videoga.",
+        "globaldisabledTips": "Peate pildis-pildis režiimi sisse lülitama üldseadetes selle seadistuse muutmiseks."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Kustuta ajalugu pärast sulgemist",
+        "description": "Kui see on lubatud, kustutatakse ajalugu pärast vahekaardi sulgemist."
+      },
+      "SyncTabs": {
+        "label": "Sünkrooni vahekaardid",
+        "description": "Valige, kuidas sünkroonida vahekaardi andmeid, välja arvatud privaatsed andmed nagu küpsised ja isiklikud andmed.",
+        "disabled": "Keelatud",
+        "uploadOnly": "Ainult üleslaadimine",
+        "downloadOnly": "Ainult allalaadimine",
+        "staySynchronized": "Jääge sünkroonituks",
+        "globaldisabledTips": "Peate sünkrooni sisse lülitama üldseadetes selle seadistuse muutmiseks."
+      },
+      "SyncPrivateData": {
+        "label": "Sünkrooni privaatsed andmed",
+        "description": "Valige, kuidas sünkroniseerida privaatseid andmeid, nagu veebisaidi küpsised, veebilehe kohalikud salvestusandmed, SessionStorage'i andmed jne. Andmed krüpteeritakse enne sünkroniseerimist.",
+        "disabled": "Keelatud",
+        "uploadOnly": "Ainult üleslaadimine",
+        "downloadOnly": "Ainult allalaadimine",
+        "staySynchronized": "Jääge sünkroonituks",
+        "globaldisabledTips": "Peate sünkrooni sisse lülitama üldseadetes selle seadistuse muutmiseks."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sünkroniseeri pilve",
+      "SyncNow": "Sünkroniseeri kohe",
+      "SyncNowWithGoogleDrive": "Sünkroniseeri kohe Google Drive'iga",
+      "SyncNowWithDropbox": "Sünkroniseeri kohe Dropbox'iga",
+      "SyncNowWithOneDrive": "Sünkroniseeri kohe OneDrive'iga",
+      "Synchronizing": "Sünkroniseerimine...",
+      "SyncedSuccessfully": "Edukalt sünkroniseeritud",
+      "SyncFailed": "Sünkroniseerimine ebaõnnestus",
+      "LoginRequired": "Sisselogimine nõutud",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sünkrooni seaded",
+        "description": "Valige, kuidas sünkroniseerida selle laiendi konfiguratsioone.",
+        "disabled": "Keelatud",
+        "uploadOnly": "Ainult üleslaadimine",
+        "downloadOnly": "Ainult allalaadimine",
+        "staySynchronized": "Jääge sünkroonituks"
+      },
+      "SyncTabs": {
+        "label": "Sünkrooni vahekaardid",
+        "description": "Valige, kuidas sünkroonida vahekaardi andmeid, välja arvatud privaatsed andmed nagu küpsised ja isiklikud andmed.",
+        "disabled": "Keelatud",
+        "uploadOnly": "Ainult üleslaadimine",
+        "downloadOnly": "Ainult allalaadimine",
+        "staySynchronized": "Jääge sünkroonituks"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Ava või sulge vahekaardid sünkroonselt",
+        "description": "Kui see on lubatud, sünkroniseeritakse erinevates brauserites vahekaartide avamine või sulgemine. See kehtib ainult siis, kui valik 'jääge sünkroonituks' on aktiivne",
+        "OpenOrCloseTabsSynchronouslyWarning": "Kui logite sisse sama konto kahes brauseris samal ajal ja lülitate selle valiku sisse, avatakse või suletakse vahekaardid ühes brauseris teises brauseris sama toimingu. Kui veebisait keelab korduvad sisselogimised samasse kontosse, võivad tekkida erandid."
+      },
+      "SyncPrivateData": {
+        "label": "Sünkrooni privaatsed andmed",
+        "description": "Valige, kuidas sünkroniseerida privaatseid andmeid, nagu veebisaidi küpsised, veebilehe kohalikud salvestusandmed, SessionStorage'i andmed jne. Andmed krüpteeritakse enne sünkroniseerimist.",
+        "disabled": "Keelatud",
+        "uploadOnly": "Ainult üleslaadimine",
+        "downloadOnly": "Ainult allalaadimine",
+        "staySynchronized": "Jääge sünkroonituks"
       }
     }
   }

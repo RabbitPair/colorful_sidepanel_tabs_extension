@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "サイドパネルの位置",
         "description": "サイドパネルが左側に表示されるか右側に表示されるかを設定します。",
-        "goToChromeSettings": "Chromeの設定に移動"
+        "goToBrowserSettings": "Chromeの設定に移動"
       },
       "searchBoxPosition": {
         "label": "検索ボックスの位置",
@@ -79,6 +79,10 @@
         "description": "ボタンの位置を設定します",
         "left": "左",
         "right": "右"
+      },
+      "alwaysShowCloseButton": {
+        "label": "閉じるボタンを常に表示",
+        "description": "有効にすると、閉じるボタンが常に表示されます。無効にすると、マウスがタブの上にあるときのみ閉じるボタンが表示されます"
       },
       "fullScreenHideSidePanel": {
         "label": "フルスクリーン時にサイドパネルを非表示",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "フルーエントスクロールバー",
         "description": "Microsoft Fluent デザインスタイルのスクロールバーを使用し、Web コンテンツにオーバーレイします",
-        "goToChromeSettings": "Chromeの設定に移動"
+        "goToBrowserSettings": "Chromeの設定に移動"
       }
     },
     "tabs": {
@@ -230,7 +234,7 @@
     },
     "shortcuts": {
       "alert": "このページは表示専用です。ショートカットを変更するには、[拡張機能]→[拡張機能の管理]→[キーボードショートカット]を訪れてください",
-      "goToChromeSettings": "Chromeの設定に移動",
+      "goToBrowserSettings": "Chromeの設定に移動",
       "_execute_action": "この拡張機能をアクティブ化",
       "openSidePanel": "サイドパネルを開く"
     },
@@ -335,6 +339,114 @@
       "disableAnimations": {
         "label": "アニメーションを無効にする",
         "description": "リップル効果とすべてのトランジションを無効にする"
+      }
+    },
+    "site": {
+      "label": "サイト設定",
+      "allSites": "すべてのサイト",
+      "sortBy": "並び替え",
+      "mostVisited": "最も訪れた",
+      "dataStored": "保存されたデータ",
+      "name": "名前",
+      "deleteAllData": "すべてのデータを削除",
+      "totalStorageUsedBySites": "サイトで使用される総ストレージ",
+      "totalCount": "合計数",
+      "addNewSite": {
+        "label": "新しいサイトを追加",
+        "description": "新しいウェブサイトのアドレス（例：'www.example.com'）を入力し、'追加' をクリックします。",
+        "placeholder": "ウェブサイトのアドレス（例：'www.example.com'）",
+        "add": "追加",
+        "cancel": "キャンセル",
+        "invalidDomain": "無効なウェブサイトアドレス"
+      },
+      "browserSettings": {
+        "label": "ブラウザ設定",
+        "description": "データの削除やサイトの権限の変更など、サイト設定を変更できます。",
+        "goToBrowserSettings": "ブラウザ設定に移動"
+      },
+      "autoDiscardable": {
+        "label": "自動破棄可能",
+        "description": "有効にすると、ブラウザによってタブが破棄されることが許可され、パフォーマンスをオンにして非アクティブなタブを破棄する時間を設定すると、指定された時間後にタブが破棄されます。 無効にすると、タブは破棄されません"
+      },
+      "readingProgressBar": {
+        "label": "読書進行バー",
+        "description": "有効にすると、タブのタイトルバーの下に読書進行バーが表示されます。",
+        "globaldisabledTips": "この設定を変更するには、グローバル設定で読書進行バーをオンにする必要があります。"
+      },
+      "playingProgressBar": {
+        "label": "再生進行バー",
+        "description": "有効にすると、タブのタイトルバーの下に再生進行バーが表示されます。",
+        "globaldisabledTips": "この設定を変更するには、グローバル設定で再生進行バーをオンにする必要があります。"
+      },
+      "tabSwitchPip": {
+        "label": "タブ切り替え時のPIP",
+        "description": "有効にすると、ミュート解除されたビデオを持つタブを切り替えると、自動的にピクチャインピクチャに入ります。",
+        "globaldisabledTips": "この設定を変更するには、グローバル設定でピクチャインピクチャをオンにする必要があります。"
+      },
+      "clearHistoyAfterCLose": {
+        "label": "閉じた後に履歴をクリア",
+        "description": "有効にすると、タブを閉じた後に履歴がクリアされます。"
+      },
+      "SyncTabs": {
+        "label": "タブを同期",
+        "description": "クッキーや個人情報などのプライベートデータを除いたタブデータを同期する方法を選択します。",
+        "disabled": "無効",
+        "uploadOnly": "アップロードのみ",
+        "downloadOnly": "ダウンロードのみ",
+        "staySynchronized": "同期を維持",
+        "globaldisabledTips": "この設定を変更するには、グローバル設定で同期をオンにする必要があります。"
+      },
+      "SyncPrivateData": {
+        "label": "プライベートデータを同期",
+        "description": "ウェブサイトのクッキー、ウェブページのローカルストレージデータ、SessionStorageデータなどのプライベートデータを同期する方法を選択します。データは同期前に暗号化されます。",
+        "disabled": "無効",
+        "uploadOnly": "アップロードのみ",
+        "downloadOnly": "ダウンロードのみ",
+        "staySynchronized": "同期を維持",
+        "globaldisabledTips": "この設定を変更するには、グローバル設定で同期をオンにする必要があります。"
+      }
+    },
+    "SyncToCloud": {
+      "label": "クラウドと同期",
+      "SyncNow": "今すぐ同期",
+      "SyncNowWithGoogleDrive": "Google Drive で今すぐ同期",
+      "SyncNowWithDropbox": "Dropbox で今すぐ同期",
+      "SyncNowWithOneDrive": "OneDrive で今すぐ同期",
+      "Synchronizing": "同期中...",
+      "SyncedSuccessfully": "同期が成功しました",
+      "SyncFailed": "同期に失敗しました",
+      "LoginRequired": "ログインが必要です",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "同期設定",
+        "description": "この拡張機能の設定を同期する方法を選択します。",
+        "disabled": "無効",
+        "uploadOnly": "アップロードのみ",
+        "downloadOnly": "ダウンロードのみ",
+        "staySynchronized": "同期を維持"
+      },
+      "SyncTabs": {
+        "label": "タブを同期",
+        "description": "クッキーや個人情報などのプライベートデータを除いたタブデータを同期する方法を選択します。",
+        "disabled": "無効",
+        "uploadOnly": "アップロードのみ",
+        "downloadOnly": "ダウンロードのみ",
+        "staySynchronized": "同期を維持"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "タブを同期して開くまたは閉じる",
+        "description": "有効にすると、異なるブラウザでタブを開いたり閉じたりすると同期されます。これは、'同期を維持'オプションがアクティブな場合にのみ適用されます。",
+        "OpenOrCloseTabsSynchronouslyWarning": "同じアカウントで同時に2つのブラウザにログインし、このオプションをオンにすると、1つのブラウザでタブを開いたり閉じたりすると、他のブラウザでも同じ操作が実行されます。ウェブサイトが同じアカウントでの繰り返しログインを禁止している場合、例外が発生する可能性があります。"
+      },
+      "SyncPrivateData": {
+        "label": "プライベートデータを同期",
+        "description": "ウェブサイトのクッキー、ウェブページのローカルストレージデータ、SessionStorageデータなどのプライベートデータを同期する方法を選択します。データは同期前に暗号化されます。",
+        "disabled": "無効",
+        "uploadOnly": "アップロードのみ",
+        "downloadOnly": "ダウンロードのみ",
+        "staySynchronized": "同期を維持"
       }
     }
   }

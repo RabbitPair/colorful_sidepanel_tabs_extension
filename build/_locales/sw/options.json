@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Nafasi ya upau wa kando",
         "description": "Wekeza ikiwa upau wa kando unaonyeshwa kushoto au kulia.",
-        "goToChromeSettings": "Nenda kwa mipangilio ya Chrome"
+        "goToBrowserSettings": "Nenda kwa mipangilio ya Chrome"
       },
       "searchBoxPosition": {
         "label": "Nafasi ya sanduku la utafutaji",
@@ -79,6 +79,10 @@
         "description": "Wekeza nafasi ya vitufe",
         "kushoto": "Kushoto",
         "kulia": "Kulia"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Onyesha kitufe cha kufunga daima",
+        "description": "Ukiwezeshwa, kitufe cha kufunga kitadumu kuonyeshwa; ukiwa hauna uwezo, kitufe cha kufunga kitadumu kuonyeshwa tu wakati panya inapohamia juu ya kichupo"
       },
       "fullScreenHideSidePanel": {
         "label": "Ficha upau wa kando katika skrini kamili",
@@ -138,7 +142,7 @@
       "fluentOverlayScrollbars": {
         "label": "Vidirisha vya kubadilika",
         "description": "Tumia mtindo wa kubuni wa Microsoft Fluent kwa vidirisha vya kubadilika na uwaweke juu ya maudhui ya wavuti",
-        "goToChromeSettings": "Nenda kwa mipangilio ya Chrome"
+        "goToBrowserSettings": "Nenda kwa mipangilio ya Chrome"
       }
     },
     "tabs": {
@@ -231,7 +235,7 @@
     },
     "shortcuts": {
       "onyo": "Ukurasa huu ni kwa kuonyesha tu. Ili kubadilisha vidokezo, tafadhali tembelea [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToChromeSettings": "Nenda kwa mipangilio ya Chrome",
+      "goToBrowserSettings": "Nenda kwa mipangilio ya Chrome",
       "_execute_action": "Tumia kipengele hiki",
       "openSidePanel": "Fungua upau wa kando"
     },
@@ -336,6 +340,114 @@
       "disableAnimations": {
         "label": "Zima michoro",
         "description": "zima athari ya mawimbi na zima mabadiliko yote"
+      }
+    },
+    "site": {
+      "label": "Mipangilio ya Tovuti",
+      "allSites": "Tovuti zote",
+      "sortBy": "Panga kwa",
+      "mostVisited": "Zilizotembelewa zaidi",
+      "dataStored": "Data iliyohifadhiwa",
+      "name": "Jina",
+      "deleteAllData": "Futa data zote",
+      "totalStorageUsedBySites": "Jumla ya uhifadhi uliotumiwa na tovuti",
+      "totalCount": "Jumla ya idadi",
+      "addNewSite": {
+        "label": "Ongeza tovuti mpya",
+        "description": "Ingiza anwani mpya ya wavuti, kama 'www.example.com', na bonyeza 'Ongeza'.",
+        "placeholder": "Anwani ya wavuti, kama 'www.example.com'",
+        "add": "Ongeza",
+        "cancel": "Ghairi",
+        "invalidDomain": "Anwani batili ya wavuti"
+      },
+      "browserSettings": {
+        "label": "Mipangilio ya Kivinjari",
+        "description": "Unaweza kurekebisha mipangilio ya tovuti, kama kufuta data au kubadilisha ruhusa za tovuti.",
+        "goToBrowserSettings": "Nenda kwa mipangilio ya kivinjari"
+      },
+      "autoDiscardable": {
+        "label": "Tupwa kiotomatiki",
+        "description": "Ukiwezeshwa, kichupo kitaruhusiwa kutupwa na kivinjari, na ikiwa unawasha utendaji na kuweka wakati wa kutupa vichupo visivyofanya kazi, kichupo kitatupwa baada ya muda uliowekwa. Ikiwa imelemazwa, kichupo hakitupwi"
+      },
+      "readingProgressBar": {
+        "label": "Mstari wa Maendeleo ya Kusoma",
+        "description": "Ukiwezeshwa, mstari wa maendeleo ya kusoma utaonyeshwa chini ya upau wa kichwa cha kichupo.",
+        "globaldisabledTips": "Lazima uweze mstari wa maendeleo ya kusoma katika mipangilio ya jumla ili ubadilishe mipangilio hii."
+      },
+      "playingProgressBar": {
+        "label": "Mstari wa Maendeleo ya Kucheza",
+        "description": "Ukiwezeshwa, mstari wa maendeleo ya kucheza utaonyeshwa chini ya upau wa kichwa cha kichupo.",
+        "globaldisabledTips": "Lazima uweze mstari wa maendeleo ya kucheza katika mipangilio ya jumla ili ubadilishe mipangilio hii."
+      },
+      "tabSwitchPip": {
+        "label": "PIP wakati wa Kubadilisha Kichupo",
+        "description": "Ukiwezeshwa, ingia moja kwa moja kwenye Picha katika Picha unapobadilisha vichupo na video isiyozimwa.",
+        "globaldisabledTips": "Lazima uweze Picha katika Picha katika mipangilio ya jumla ili ubadilishe mipangilio hii."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Futa historia baada ya kufunga",
+        "description": "Ukiwezeshwa, historia itafutwa baada ya kufunga kichupo."
+      },
+      "SyncTabs": {
+        "label": "Hifadhi vichupo",
+        "description": "Chagua jinsi ya kusawazisha data ya kichupo, isipokuwa data ya kibinafsi kama vidakuzi na taarifa za kibinafsi.",
+        "disabled": "Imelemazwa",
+        "uploadOnly": "Hifadhi tu",
+        "downloadOnly": "Pakua tu",
+        "staySynchronized": "Baki kusawazishwa",
+        "globaldisabledTips": "Lazima uweze kusawazisha katika Mipangilio ya Jumla ili ubadilishe mipangilio hii."
+      },
+      "SyncPrivateData": {
+        "label": "Hifadhi data binafsi",
+        "description": "Chagua jinsi ya kusawazisha data binafsi, kama vidakuzi vya wavuti, data ya uhifadhi wa ukurasa wa wavuti, data ya Uhifadhi wa Kikao, n.k. Data itakuwa imefichwa kabla ya kusawazisha.",
+        "disabled": "Imelemazwa",
+        "uploadOnly": "Hifadhi tu",
+        "downloadOnly": "Pakua tu",
+        "staySynchronized": "Baki kusawazishwa",
+        "globaldisabledTips": "Lazima uweze kusawazisha katika Mipangilio ya Jumla ili ubadilishe mipangilio hii."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Hifadhi kwenye wingu",
+      "SyncNow": "Hifadhi Sasa",
+      "SyncNowWithGoogleDrive": "Hifadhi Sasa na Google Drive",
+      "SyncNowWithDropbox": "Hifadhi Sasa na Dropbox",
+      "SyncNowWithOneDrive": "Hifadhi Sasa na OneDrive",
+      "Synchronizing": "Inahifadhi...",
+      "SyncedSuccessfully": "Imehifadhiwa kwa mafanikio",
+      "SyncFailed": "Hifadhi ilishindikana",
+      "LoginRequired": "Inahitaji kuingia",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Hifadhi mipangilio",
+        "description": "Chagua jinsi ya kusawazisha mipangilio ya programu-jalizi hii.",
+        "disabled": "Imezimwa",
+        "uploadOnly": "Hifadhi tu",
+        "downloadOnly": "Pakua tu",
+        "staySynchronized": "Baki kusawazishwa"
+      },
+      "SyncTabs": {
+        "label": "Hifadhi vichupo",
+        "description": "Chagua jinsi ya kusawazisha data ya kichupo, isipokuwa data ya kibinafsi kama vidakuzi na taarifa za kibinafsi.",
+        "disabled": "Imezimwa",
+        "uploadOnly": "Hifadhi tu",
+        "downloadOnly": "Pakua tu",
+        "staySynchronized": "Baki kusawazishwa"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Fungua au funga vichupo kwa usawazishaji",
+        "description": "Ukiwezesha, kufungua au kufunga vichupo katika vivinjari tofauti kutakuwa kusawazishwa. Hii inatumika tu wakati chaguo la 'baki kusawazishwa' limeamilishwa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ikiwa unajiunga kwenye akaunti moja kwenye vivinjari viwili wakati mmoja na kuwezesha chaguo hili, kufungua au kufunga vichupo katika kivinjari kimoja kutatekeleza operesheni sawa katika kivinjari kingine. Ikiwa tovuti inazuia kuingia mara kwa mara kwa akaunti moja, matatizo yanaweza kutokea."
+      },
+      "SyncPrivateData": {
+        "label": "Hifadhi data binafsi",
+        "description": "Chagua jinsi ya kusawazisha data binafsi, kama vidakuzi vya wavuti, data ya uhifadhi wa ukurasa wa wavuti, data ya Uhifadhi wa Kikao, n.k. Data itakuwa imefichwa kabla ya kusawazisha.",
+        "disabled": "Imezimwa",
+        "uploadOnly": "Hifadhi tu",
+        "downloadOnly": "Pakua tu",
+        "staySynchronized": "Baki kusawazishwa"
       }
     }
   }

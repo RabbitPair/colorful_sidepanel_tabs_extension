@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozisiwn y panel ochr",
         "description": "Gosodwch a ddangosir y panel ochr ar y chwith neu'r dde.",
-        "goToChromeSettings": "Ewch i osodiadau Chrome"
+        "goToBrowserSettings": "Ewch i osodiadau Chrome"
       },
       "searchBoxPosition": {
         "label": "Pozisiwn blwch chwilio",
@@ -79,6 +79,10 @@
         "description": "Gosodwch leoliad y botymau",
         "left": "Chwith",
         "right": "Dde"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Dangos y botwm cau bob amser",
+        "description": "Pan fydd wedi'i alluogi, bydd y botwm cau bob amser yn ymddangos; pan fydd wedi'i analluogi, dim ond pan fydd y llygoden yn hofran dros y tab y bydd y botwm cau yn ymddangos"
       },
       "fullScreenHideSidePanel": {
         "label": "Cuddio'r panel ochr mewn sgrin lawn",
@@ -231,7 +235,7 @@
     },
     "shortcuts": {
       "alert": "Mae'r dudalen hon ar gyfer dangos yn unig. I newid llwybrau byr, ewch i [Estyniadau]->[Rheoli Estyniadau]->[Llychau Allweddol]",
-      "goToChromeSettings": "Ewch i osodiadau Chrome",
+      "goToBrowserSettings": "Ewch i osodiadau Chrome",
       "_execute_action": "Gweithredu'r estyniad hwn",
       "openSidePanel": "Agorwch y panel ochr"
     },
@@ -336,6 +340,113 @@
       "disableAnimations": {
         "label": "Analluogi animeiddiadau",
         "description": "analluogi effaith ripl ac analluogi pob pontio"
+      }
+    },
+    "site": {
+      "label": "Gosodiadau'r wefan",
+      "allSites": "Pob safle",
+      "sortBy": "Trefnu yn ôl",
+      "mostVisited": "Ymwelwyd â'r mwyaf",
+      "dataStored": "Data wedi'i storio",
+      "name": "enw",
+      "deleteAllData": "Dileu'r holl ddata",
+      "totalStorageUsedBySites": "Cyfanswm y storfa a ddefnyddir gan safleoedd",
+      "totalCount": "Cyfanswm y nifer",
+      "addNewSite": {
+        "label": "Ychwanegu safle newydd",
+        "description": "Rhowch gyfeiriad wefan newydd, megis 'www.example.com', a chliciwch 'Ychwanegu'.",
+        "placeholder": "cyfeiriad wefan, megis 'www.example.com'",
+        "add": "Ychwanegu",
+        "cancel": "Canslo",
+        "invalidDomain": "Cyfeiriad wefan annilys"
+      },
+      "browserSettings": {
+        "label": "Gosodiadau porwr",
+        "description": "Gallwch olygu gosodiadau safle, megis dileu data neu newid caniatâd safle.",
+        "goToBrowserSettings": "Ewch i osodiadau porwr"
+      },
+      "autoDiscardable": {
+        "label": "Auto gael ei wrthod",
+        "description": "Pan fydd wedi'i alluogi, bydd y tab yn cael ei wrthod gan y porwr, ac os gweithiwch ym mheryglon a gosod amser i wrthod tabiau anweithredol, bydd y tab yn cael ei wrthod ar ôl yr amser penodedig. Os yw'n analluog, ni fydd y tab yn cael ei wrthod"
+      },
+      "readingProgressBar": {
+        "label": "Bar cynnydd darllen",
+        "description": "Pan fydd wedi'i alluogi, bydd bar cynnydd darllen yn cael ei harddangos isod bar teitl y tab.",
+        "globaldisabledTips": "Rhaid i chi alluogi'r bar cynnydd darllen yn y gosodiadau cyffredinol i olygu'r gosodiad hwn."
+      },
+      "playingProgressBar": {
+        "label": "Bar cynnydd chwarae",
+        "description": "Pan fydd wedi'i alluogi, bydd bar cynnydd chwarae yn cael ei harddangos isod bar teitl y tab.",
+        "globaldisabledTips": "Rhaid i chi alluogi'r bar cynnydd chwarae yn y gosodiadau cyffredinol i olygu'r gosodiad hwn."
+      },
+      "tabSwitchPip": {
+        "label": "PIP wrth Droi Tab",
+        "description": "Pan fydd wedi'i alluogi, bydd Mewnbynnu'n Ddelwedd mewn Delwedd yn awtomatig wrth droi tabiau gyda fideo heb eu sain."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Clirio hanes ar ôl cau",
+        "description": "Pan fydd wedi'i alluogi, bydd y hanes yn cael ei glirio ar ôl cau'r tab."
+      },
+      "SyncTabs": {
+        "label": "Sync tabiau",
+        "description": "Dewiswch sut i syncio data tab, ac eithrio data preifat fel cwcis a gwybodaeth bersonol.",
+        "disabled": "Analluog",
+        "uploadOnly": "uwchlwytho'n unig",
+        "downloadOnly": "lawrlwytho'n unig",
+        "staySynchronized": "Aros yn gyfatebol",
+        "globaldisabledTips": "Rhaid i chi alluogi'r sync yn y Gosodiadau Cyffredinol i olygu'r gosodiad hwn."
+      },
+      "SyncPrivateData": {
+        "label": "Sync data preifat",
+        "description": "Dewiswch sut i gyfateb data preifat, fel cwcis wefan, data storfa leol tudalen we, data StorfaSesiwn, ac ati. Bydd data'n cael ei amgryptio cyn cyfatebio.",
+        "disabled": "Analluog",
+        "uploadOnly": "uwchlwytho'n unig",
+        "downloadOnly": "lawrlwytho'n unig",
+        "staySynchronized": "Aros yn gyfatebol",
+        "globaldisabledTips": "Rhaid i chi alluogi'r sync yn y Gosodiadau Cyffredinol i olygu'r gosodiad hwn."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sync i'r cwmwl",
+      "SyncNow": "Sync Nawr",
+      "SyncNowWithGoogleDrive": "Sync Nawr gyda Google Drive",
+      "SyncNowWithDropbox": "Sync Nawr gyda Dropbox",
+      "SyncNowWithOneDrive": "Sync Nawr gyda OneDrive",
+      "Synchronizing": "Synchronizing...",
+      "SyncedSuccessfully": "Synchronized successfully",
+      "SyncFailed": "Synchronized failed",
+      "LoginRequired": "Login required",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sync cyfluniadau",
+        "description": "Dewiswch sut i gyfateb cyfluniadau'r estyniad hwn.",
+        "disabled": "Wedi'i analluogi",
+        "uploadOnly": "uwchlwytho'n unig",
+        "downloadOnly": "lawrlwytho'n unig",
+        "staySynchronized": "Aros yn gyfatebol"
+      },
+      "SyncTabs": {
+        "label": "Sync tabiau",
+        "description": "Dewiswch sut i syncio data tab, ac eithrio data preifat fel cwcis a gwybodaeth bersonol.",
+        "disabled": "Wedi'i analluogi",
+        "uploadOnly": "uwchlwytho'n unig",
+        "downloadOnly": "lawrlwytho'n unig",
+        "staySynchronized": "Aros yn gyfatebol"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Agor neu gau tabiau'n gyfatebol",
+        "description": "Pan fydd hwn wedi'i alluogi, bydd agor neu gau tabiau mewn porwyr gwahanol yn cael eu cyfateb. Dim ond pan fydd y dewis 'aros yn gyfatebol' yn weithredol",
+        "OpenOrCloseTabsSynchronouslyWarning": "Os byddwch chi'n mewngofnodi i'r un cyfrif mewn dau borwr ar yr un pryd ac yn troi'r dewis hwn ymlaen, bydd agor neu gau tabiau mewn un porwr yn cyflawni'r un gweithrediad yn y porwr arall. Os yw'r wefan yn gwahardd mewngofnodiadau ailadroddol gyda'r un cyfrif, gall achosion ddigwydd."
+      },
+      "SyncPrivateData": {
+        "label": "Sync data preifat",
+        "description": "Dewiswch sut i gyfateb data preifat, fel cwcis wefan, data storfa leol tudalen we, data StorfaSesiwn, ac ati. Bydd data'n cael ei amgryptio cyn cyfatebio.",
+        "disabled": "Wedi'i analluogi",
+        "uploadOnly": "uwchlwytho'n unig",
+        "downloadOnly": "lawrlwytho'n unig",
+        "staySynchronized": "Aros yn gyfatebol"
       }
     }
   }

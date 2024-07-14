@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Open side panel to preview",
+  "OpenSidePanelToPreview": "Open side panel to preview",
   "_execute_action": "Activate this extension",
   "openSidePanel": "Open side panel",
   "settings": {
@@ -12,7 +12,7 @@
       "shortcuts": "Shortcuts",
       "pip": "Picture-in-picture",
       "chromeTabGroupAdvanced": "Advanced tab groups",
-      "progressBar": "progress bar",
+      "progressBar": "Progress bar",
       "floatBall": "Float ball",
       "experimentalFeatures": "Experimental features"
     },
@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Side panel position",
         "description": "Set whether the side panel is displayed on the left or right.",
-        "goToChromeSettings": "Go to Chrome settings"
+        "goToBrowserSettings": "Go to Chrome settings"
       },
       "searchBoxPosition": {
         "label": "Search box position",
@@ -79,6 +79,10 @@
         "description": "Set the position of the buttons",
         "left": "Left",
         "right": "Right"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Always show close button",
+        "description": "When enabled, the close button will always show; when disabled, the close button will only show when the mouse is hovering over the tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Hide side panel in full screen",
@@ -106,7 +110,7 @@
       },
       "backgroundImageBlur": {
         "label": "Blur intensity",
-        "description": "Set Blur intensity"
+        "description": "Set blur intensity"
       },
       "backgroundImageBrightness": {
         "label": "Brightness",
@@ -115,7 +119,7 @@
       "listBackgroundStyle": {
         "label": "List background style",
         "description": "Set the list background style",
-        "single": "single",
+        "single": "Single",
         "none": "None",
         "simple": "Simple",
         "complementary": "Complementary",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Use Microsoft Fluent design style scrollbars and overlay them on the web content",
-        "goToChromeSettings": "Go to Chrome settings"
+        "goToBrowserSettings": "Go to Chrome settings"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "This page is for display only. To modify shortcuts, please visit [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToChromeSettings": "Go to Chrome settings",
+      "goToBrowserSettings": "Go to Chrome settings",
       "_execute_action": "Activate this extension",
       "openSidePanel": "Open side panel"
     },
@@ -266,7 +270,7 @@
         "label": "Tab group collapse behavior",
         "description": "Modify the behavior of Chrome browser tab group collapse",
         "option_collapse_others": "Show current group and collapse others",
-        "option_disable": "ExpandAll groups",
+        "option_disable": "Expand all groups",
         "option_auto": "Use Chrome default settings"
       },
       "autoCreateOrJoinSameDomainGroup": {
@@ -319,7 +323,7 @@
       "saveMemoryAction": {
         "label": "How to save memory on tabs",
         "description": "To save memory on tabs, you can choose to close tabs or discard tabs.",
-        "discardTips": "a discarded tab doesn't go anywhere. We kill it but it's still visible on the Chrome tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
+        "discardTips": "A discarded tab doesn't go anywhere. We kill it but it's still visible on the Chrome tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
         "disabled": "Disabled",
         "closeTabs": "Close tabs",
         "discardTabs": "Discard tabs"
@@ -336,7 +340,115 @@
       },
       "disableAnimations": {
         "label": "Disable animations",
-        "description": "disable the ripple effect and disable all transitions"
+        "description": "Disable the ripple effect and disable all transitions"
+      }
+    },
+    "site": {
+      "label": "Site settings",
+      "allSites": "All sites",
+      "sortBy": "Sort by",
+      "mostVisited": "Most visited",
+      "dataStored": "Data stored",
+      "name": "Name",
+      "deleteAllData": "Delete all data",
+      "totalStorageUsedBySites": "Total storage used by sites",
+      "totalCount": "Total count",
+      "addNewSite": {
+        "label": "Add new site",
+        "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
+        "placeholder": "Website address, such as 'www.example.com'",
+        "add": "Add",
+        "cancel": "Cancel",
+        "invalidDomain": "Invalid website address"
+      },
+      "browserSettings": {
+        "label": "Browser settings",
+        "description": "You can modify site settings, such as deleting data or changing site permissions.",
+        "goToBrowserSettings": "Go to browser settings"
+      },
+      "autoDiscardable": {
+        "label": "Auto discardable",
+        "description": "When enabled, the tab will be allowed to be discarded by the browser, and if you turn on performance and set the time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "When enabled, a reading progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the reading progress bar in the global settings to modify this setting."
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "When enabled, a playing progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the playing progress bar in the global settings to modify this setting."
+      },
+      "tabSwitchPip": {
+        "label": "PIP on Tab Switch",
+        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
+        "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Clear history after close",
+        "description": "When enabled, the history will be cleared after closing the tab."
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sync to cloud",
+      "SyncNow": "Sync Now",
+      "SyncNowWithGoogleDrive": "Sync Now with Google Drive",
+      "SyncNowWithDropbox": "Sync Now with Dropbox",
+      "SyncNowWithOneDrive": "Sync Now with OneDrive",
+      "Synchronizing": "Synchronizing...",
+      "SyncedSuccessfully": "Synchronized successfully",
+      "SyncFailed": "Synchronization failed",
+      "LoginRequired": "Login required",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sync configs",
+        "description": "Choose how to synchronize this extension's configurations.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized"
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Open or close tabs synchronously",
+        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
+        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "Stay synchronized"
       }
     }
   }

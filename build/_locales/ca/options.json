@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posició del panell lateral",
         "description": "Estableix si el panell lateral es mostra a l'esquerra o a la dreta.",
-        "goToChromeSettings": "Anar a la configuració de Chrome"
+        "goToBrowserSettings": "Anar a la configuració de Chrome"
       },
       "searchBoxPosition": {
         "label": "Posició del quadre de cerca",
@@ -79,6 +79,10 @@
         "description": "Estableix la posició dels botons",
         "left": "Esquerra",
         "right": "Dreta"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Mostra sempre el botó de tancar",
+        "description": "Quan està habilitat, el botó de tancar es mostrarà sempre; quan està deshabilitat, el botó de tancar només es mostrarà quan el ratolí estigui sobre la pestanya"
       },
       "fullScreenHideSidePanel": {
         "label": "Amaga el panell lateral en pantalla completa",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barres de desplaçament fluides",
         "description": "Utilitza l'estil de disseny Fluent de Microsoft per a les barres de desplaçament i superposa-les al contingut web",
-        "goToChromeSettings": "Anar a la configuració de Chrome"
+        "goToBrowserSettings": "Anar a la configuració de Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Aquesta pàgina és només per a visualització. Per modificar les dreceres, si us plau, visita [Extensions]->[Gestiona extensions]->[Dreceres de teclat]",
-      "goToChromeSettings": "Anar a la configuració de Chrome",
+      "goToBrowserSettings": "Anar a la configuració de Chrome",
       "_execute_action": "Activa aquesta extensió",
       "openSidePanel": "Obre el panell lateral"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Deshabilita les animacions",
         "description": "deshabilita l'efecte d'ona i deshabilita totes les transicions"
+      }
+    },
+    "site": {
+      "label": "Configuració del lloc",
+      "allSites": "Tots els llocs",
+      "sortBy": "Ordena per",
+      "mostVisited": "Més visitats",
+      "dataStored": "Dades emmagatzemades",
+      "name": "nom",
+      "deleteAllData": "Esborra totes les dades",
+      "totalStorageUsedBySites": "Emmagatzematge total utilitzat pels llocs",
+      "totalCount": "Compte total",
+      "addNewSite": {
+        "label": "Afegeix un nou lloc",
+        "description": "Introduïu una nova adreça web, com ara 'www.example.com', i feu clic a 'Afegir'.",
+        "placeholder": "adreça web, com ara 'www.example.com'",
+        "add": "Afegir",
+        "cancel": "Cancel·la",
+        "invalidDomain": "Adreça web no vàlida"
+      },
+      "browserSettings": {
+        "label": "Configuració del navegador",
+        "description": "Podeu modificar la configuració del lloc, com ara eliminar dades o canviar els permisos del lloc.",
+        "goToBrowserSettings": "Anar a la configuració del navegador"
+      },
+      "autoDiscardable": {
+        "label": "Descartable automàticament",
+        "description": "Quan està habilitat, el tabulador es permetrà descartar pel navegador, i si activeu el rendiment i establiu el temps per descartar les pestanyes inactives, el tabulador es descartarà després del temps especificat. Si està deshabilitat, el tabulador no es descartarà"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progrés de lectura",
+        "description": "Quan està habilitat, es mostrarà una barra de progrés de lectura sota la barra de títol de la pestanya.",
+        "globaldisabledTips": "Heu d'activar la barra de progrés de lectura a la configuració global per modificar aquesta configuració."
+      },
+      "playingProgressBar": {
+        "label": "Barra de progrés de reproducció",
+        "description": "Quan està habilitat, es mostrarà una barra de progrés de reproducció sota la barra de títol de la pestanya.",
+        "globaldisabledTips": "Heu d'activar la barra de progrés de reproducció a la configuració global per modificar aquesta configuració."
+      },
+      "tabSwitchPip": {
+        "label": "PIP en canvi de pestanya",
+        "description": "Quan està habilitat, l'entrada automàtica de Picture-in-picture quan es canvien les pestanyes amb un vídeo sense silenciar.",
+        "globaldisabledTips": "Heu d'activar el Picture-in-picture a la configuració global per modificar aquesta configuració."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Neteja l'historial després de tancar",
+        "description": "Quan està habilitat, l'historial es netejarà després de tancar la pestanya."
+      },
+      "SyncTabs": {
+        "label": "Sincronitza les pestanyes",
+        "description": "Trieu com sincronitzar les dades de les pestanyes, excloent les dades privades com les galetes i la informació personal.",
+        "disabled": "Deshabilitat",
+        "uploadOnly": "Només pujar",
+        "downloadOnly": "Només baixar",
+        "staySynchronized": "Mantenir sincronitzat",
+        "globaldisabledTips": "Heu d'activar la sincronització a la configuració global per modificar aquesta configuració."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronitza les dades privades",
+        "description": "Trieu com sincronitzar les dades privades, com les galetes del lloc web, les dades de l'emmagatzematge local de la pàgina web, les dades de SessionStorage, etc. Les dades es xifren abans de la sincronització.",
+        "disabled": "Deshabilitat",
+        "uploadOnly": "Només pujar",
+        "downloadOnly": "Només baixar",
+        "staySynchronized": "Mantenir sincronitzat",
+        "globaldisabledTips": "Heu d'activar la sincronització a la configuració global per modificar aquesta configuració."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronitzar amb el núvol",
+      "SyncNow": "Sincronitzar ara",
+      "SyncNowWithGoogleDrive": "Sincronitzar ara amb Google Drive",
+      "SyncNowWithDropbox": "Sincronitzar ara amb Dropbox",
+      "SyncNowWithOneDrive": "Sincronitzar ara amb OneDrive",
+      "Synchronizing": "Sincronitzant...",
+      "SyncedSuccessfully": "S'ha sincronitzat correctament",
+      "SyncFailed": "Error en la sincronització",
+      "LoginRequired": "Cal iniciar sessió",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Configuracions de sincronització",
+        "description": "Trieu com sincronitzar les configuracions d'aquesta extensió.",
+        "disabled": "Desactivat",
+        "uploadOnly": "Només pujar",
+        "downloadOnly": "Només baixar",
+        "staySynchronized": "Mantenir sincronitzat"
+      },
+      "SyncTabs": {
+        "label": "Sincronitzar pestanyes",
+        "description": "Trieu com sincronitzar les dades de les pestanyes, excloent les dades privades com les galetes i la informació personal.",
+        "disabled": "Desactivat",
+        "uploadOnly": "Només pujar",
+        "downloadOnly": "Només baixar",
+        "staySynchronized": "Mantenir sincronitzat"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Obrir o tancar pestanyes de manera sincronitzada",
+        "description": "Quan està habilitat, obrir o tancar pestanyes en diferents navegadors es sincronitzarà. Això només s'aplica quan l'opció 'mantenir sincronitzat' està activa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Si inicieu sessió amb el mateix compte en dos navegadors al mateix temps i activeu aquesta opció, obrir o tancar pestanyes en un navegador realitzarà la mateixa operació en l'altre navegador. Si el lloc web prohibeix les connexions repetides amb el mateix compte, poden produir-se excepcions."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronitzar dades privades",
+        "description": "Trieu com sincronitzar les dades privades, com les galetes del lloc web, les dades de l'emmagatzematge local de la pàgina web, les dades de SessionStorage, etc. Les dades es xifren abans de la sincronització.",
+        "disabled": "Desactivat",
+        "uploadOnly": "Només pujar",
+        "downloadOnly": "Només baixar",
+        "staySynchronized": "Mantenir sincronitzat"
       }
     }
   }

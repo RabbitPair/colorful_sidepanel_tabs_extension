@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posición do panel lateral",
         "description": "Establecer se o panel lateral se mostra á esquerda ou á dereita.",
-        "goToChromeSettings": "Ir ás configuracións de Chrome"
+        "goToBrowserSettings": "Ir ás configuracións de Chrome"
       },
       "searchBoxPosition": {
         "label": "Posición da caixa de busca",
@@ -79,6 +79,10 @@
         "description": "Establecer a posición dos botóns",
         "left": "Esquerda",
         "right": "Dereita"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Amosar sempre o botón de peche",
+        "description": "Cando está habilitado, o botón de peche amosarase sempre; cando está deshabilitado, o botón de peche só se amosará cando o rato estea a pasar sobre a lapela"
       },
       "fullScreenHideSidePanel": {
         "label": "Ocultar o panel lateral en pantalla completa",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barras de desprazamento fluídas",
         "description": "Usar o estilo de deseño Microsoft Fluent para as barras de desprazamento e superpóñelas ao contido web",
-        "goToChromeSettings": "Ir ás configuracións de Chrome"
+        "goToBrowserSettings": "Ir ás configuracións de Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Esta páxina é só para visualización. Para modificar os atallos, visita [Extensións]->[Xestionar extensións]->[Atallos de teclado]",
-      "goToChromeSettings": "Ir ás configuracións de Chrome",
+      "goToBrowserSettings": "Ir ás configuracións de Chrome",
       "_execute_action": "Activar esta extensión",
       "openSidePanel": "Abrir panel lateral"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Desactivar animacións",
         "description": "desactivar o efecto de onda e desactivar todas as transicións"
+      }
+    },
+    "site": {
+      "label": "Axustes do sitio",
+      "allSites": "Todos os sitios",
+      "sortBy": "Ordenar por",
+      "mostVisited": "Máis visitados",
+      "dataStored": "Datos almacenados",
+      "name": "Nome",
+      "deleteAllData": "Eliminar todos os datos",
+      "totalStorageUsedBySites": "Almacenamento total utilizado polos sitios",
+      "totalCount": "Contaxe total",
+      "addNewSite": {
+        "label": "Engadir novo sitio",
+        "description": "Introduce un novo enderezo web, como 'www.exemplo.com', e fai clic en 'Engadir'.",
+        "placeholder": "Enderezo web, como 'www.exemplo.com'",
+        "add": "Engadir",
+        "cancel": "Cancelar",
+        "invalidDomain": "Enderezo web non válido"
+      },
+      "browserSettings": {
+        "label": "Axustes do navegador",
+        "description": "Podes modificar os axustes do sitio, como eliminar datos ou cambiar permisos do sitio.",
+        "goToBrowserSettings": "Ir aos axustes do navegador"
+      },
+      "autoDiscardable": {
+        "label": "Descartable automaticamente",
+        "description": "Cando está habilitado, a lapela poderá ser descartada polo navegador, e se activas o rendemento e defines o tempo para descartar lapelas inactivas, a lapela será descartada despois do tempo especificado. Se está desactivado, a lapela non será descartada"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cando está habilitado, amosarase unha barra de progreso de lectura por debaixo da barra de título da lapa.",
+        "globaldisabledTips": "Debes activar a barra de progreso de lectura nos axustes globais para modificar este axuste."
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reprodución",
+        "description": "Cando está habilitado, amosarase unha barra de progreso de reprodución por debaixo da barra de título da lapa.",
+        "globaldisabledTips": "Debes activar a barra de progreso de reprodución nos axustes globais para modificar este axuste."
+      },
+      "tabSwitchPip": {
+        "label": "PIP ao cambiar de lapela",
+        "description": "Cando está habilitado, entrarás automaticamente en Picture-in-picture ao cambiar de lapelas con un vídeo sen silenciar.",
+        "globaldisabledTips": "Debes activar Picture-in-picture nos axustes globais para modificar este axuste."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Limpar historial despois de pechar",
+        "description": "Cando está habilitado, o historial será limpo despois de pechar a lapela."
+      },
+      "SyncTabs": {
+        "label": "Sincronizar lapelas",
+        "description": "Escolle como sincronizar os datos das lapelas, excluíndo datos privados como cookies e información persoal.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Só subir",
+        "downloadOnly": "Só descargar",
+        "staySynchronized": "Manter sincronizado",
+        "globaldisabledTips": "Debes activar a sincronización nos axustes globais para modificar este axuste."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Escolle como sincronizar datos privados, como cookies de sitios web, datos de almacenamento local de páxinas web, datos de SessionStorage, etc. Os datos serán cifrados antes da sincronización.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Só subir",
+        "downloadOnly": "Só descargar",
+        "staySynchronized": "Manter sincronizado",
+        "globaldisabledTips": "Debes activar a sincronización nos axustes globais para modificar este axuste."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronizar coa nube",
+      "SyncNow": "Sincronizar agora",
+      "SyncNowWithGoogleDrive": "Sincronizar agora con Google Drive",
+      "SyncNowWithDropbox": "Sincronizar agora con Dropbox",
+      "SyncNowWithOneDrive": "Sincronizar agora con OneDrive",
+      "Synchronizing": "Sincronizando...",
+      "SyncedSuccessfully": "Sincronizado correctamente",
+      "SyncFailed": "Fallou a sincronización",
+      "LoginRequired": "É necesario iniciar sesión",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sincronizar configuracións",
+        "description": "Escolle como sincronizar as configuracións desta extensión.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Só subir",
+        "downloadOnly": "Só descargar",
+        "staySynchronized": "Manter sincronizado"
+      },
+      "SyncTabs": {
+        "label": "Sincronizar lapelas",
+        "description": "Escolle como sincronizar os datos das lapelas, excluíndo datos privados como cookies e información persoal.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Só subir",
+        "downloadOnly": "Só descargar",
+        "staySynchronized": "Manter sincronizado"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Abrir ou pechar lapelas de forma sincronizada",
+        "description": "Cando está activado, abrir ou pechar lapelas en diferentes navegadores será sincronizado. Isto só se aplica cando a opción 'manter sincronizado' está activa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Se inicias sesión na mesma conta en dous navegadores ao mesmo tempo e activas esta opción, abrir ou pechar lapelas nun navegador realizará a mesma operación no outro navegador. Se o sitio web prohibe os accesos repetidos coa mesma conta, poden ocorrer excepcións."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Escolle como sincronizar datos privados, como cookies de sitios web, datos de almacenamento local de páxinas web, datos de SessionStorage, etc. Os datos serán cifrados antes da sincronización.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Só subir",
+        "downloadOnly": "Só descargar",
+        "staySynchronized": "Manter sincronizado"
       }
     }
   }

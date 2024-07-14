@@ -43,6 +43,7 @@
     "closeTab": "关闭标签页",
     "CloseOtherTabs": "关闭其他标签页",
     "CloseSameSiteTabs": "关闭同域名标签页",
+    "CloseSameSiteOtherTabs": "关闭同域名其他标签页",
     "Reload": "重新加载",
     "RestoreTabs": "恢复标签页",
     "DiscardTab": "丢弃标签页",

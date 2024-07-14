@@ -79,6 +79,10 @@
         "left": "Ezkerrean",
         "right": "Eskuinean"
       },
+      "alwaysShowCloseButton": {
+        "label": "Betiko erakutsi itxi botoia",
+        "description": "Gaituta dagoenean, itxi botoia betiko erakutsiko da; desgaituta dagoenean, itxi botoia soilik erakutsiko da sagua fitxaren gainean dagoenean"
+      },
       "fullScreenHideSidePanel": {
         "label": "Ezkutatu alboko panela pantaila osoan",
         "description": "Gaituta dagoenean, alboko panela ezkutuko da orria pantaila osoan dagoenean. Chrome-ren mugak direla-eta, alboko panela automatikoki ezin da berriz ireki. Alboko panela eskuz ireki beharko duzu!"
@@ -138,7 +142,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluenteko biribilketa-barra",
         "description": "Erabili Microsoft Fluent diseinu estiloko biribilketa-barra eta gainean jartzea web edukian",
-        "goToChromeSettings": "Joan Chrome-ren ezarpenetara"
+        "goToBrowserSettings": "Joan Chrome-ren ezarpenetara"
       }
     },
     "tabs": {
@@ -230,7 +234,7 @@
     },
     "shortcuts": {
       "alert": "Orria bistaratze bakarrik da. Lasterteklak aldatzeko, joan [Extension]->[Kudeatu Luzapenak]->[Teklatu lasterteklak]",
-      "goToChromeSettings": "Joan Chrome ezarpenetara",
+      "goToBrowserSettings": "Joan Chrome ezarpenetara",
       "_execute_action": "Aktibatu luzapen hau",
       "openSidePanel": "Ireki alboko panela"
     },
@@ -329,6 +333,113 @@
       "disableAnimations": {
         "label": "Desgaitu animazioak",
         "description": "desgaitu ondare efektua eta desgaitu transizio guztiak"
+      }
+    },
+    "site": {
+      "label": "Gunearen ezarpenak",
+      "allSites": "Gune guztiak",
+      "sortBy": "Ordenatu",
+      "mostVisited": "Gehien bisitatutakoa",
+      "dataStored": "Gorde diren datuak",
+      "name": "Izena",
+      "deleteAllData": "Ezabatu datu guztiak",
+      "totalStorageUsedBySites": "Guneetan erabiltzen den gako totala",
+      "totalCount": "Guztira kontua",
+      "addNewSite": {
+        "label": "Gehitu gune berria",
+        "description": "Sartu webgunearen helbide berria, adibidez 'www.adibidea.com', eta egin klik 'Gehitu'.",
+        "placeholder": "Webgunearen helbidea, adibidez 'www.adibidea.com'",
+        "add": "Gehitu",
+        "cancel": "Utzi",
+        "invalidDomain": "Webgunearen helbide baliogabea"
+      },
+      "browserSettings": {
+        "label": "Nabigatzailearen ezarpenak",
+        "description": "Aukeratu gunearen ezarpenak, datuak ezabatzeko edo gunearen baimenak aldatzeko.",
+        "goToBrowserSettings": "Joan nabigatzailearen ezarpenetara"
+      },
+      "autoDiscardable": {
+        "label": "Automatikoki baztertu daiteke",
+        "description": "Gaituta dagoenean, fitxa baztertu ahal izango da nabigatzaileak, eta eraginkortasuna gaitu eta ez-aktiboak diren fitxak baztertzeko denbora ezarri baduzu, fitxa baztertuko da zehaztutako denbora pasatu ondoren. Desgaituta dagoenean, fitxa ez da baztertuko"
+      },
+      "readingProgressBar": {
+        "label": "Irakurketa-irteera barra",
+        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean.",
+        "globaldisabledTips": "Irakurketa-irteera barra gaitu behar duzu ezarpenetan orokorrean, ezarpen hau aldatzeko."
+      },
+      "playingProgressBar": {
+        "label": "Erreproduzitzen ari den irteera barra",
+        "description": "Gaituta dagoenean, erreproduzitzen ari den irteera barra bistaratuko da fitxaren izenburu-barra behean.",
+        "globaldisabledTips": "Erreproduzitzen ari den irteera barra gaitu behar duzu ezarpenetan orokorrean, ezarpen hau aldatzeko."
+      },
+      "tabSwitchPip": {
+        "label": "PIP fitxan aldatzean",
+        "description": "Gaituta dagoenean, auto-sartu Picture-in-picture modura fitxak aldatzen direnean bideoa desgaitua duten fitxak."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Garbitu historia itxi ondoren",
+        "description": "Gaituta dagoenean, historia garbituko da fitxa itxi ondoren."
+      },
+      "SyncTabs": {
+        "label": "Sinkronizatu fitxak",
+        "description": "Hautatu nola sinkronizatu fitxategi datuak, kukietan eta informazio pertsonaletan barne.",
+        "disabled": "Desgaituta",
+        "uploadOnly": "Igo soilik",
+        "downloadOnly": "Deskargatu soilik",
+        "staySynchronized": "Jarraitu sinkronizatuta",
+        "globaldisabledTips": "Sinkronizatu ezarpenetan orokorrean gaitu behar duzu ezarpen hau aldatzeko."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronizatu datu pribatuak",
+        "description": "Hautatu nola sinkronizatu datu pribatuak, hala nola webguneen kukietan, webgunearen tokiko biltegi datuetan, SessionStorage datuetan, eta abar. Datuak enkriptatuko dira sinkronizazioa baino lehen.",
+        "disabled": "Desgaituta",
+        "uploadOnly": "Igo soilik",
+        "downloadOnly": "Deskargatu soilik",
+        "staySynchronized": "Jarraitu sinkronizatuta",
+        "globaldisabledTips": "Sinkronizatu ezarpenetan orokorrean gaitu behar duzu ezarpen hau aldatzeko."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkronizatu pilarekin",
+      "SyncNow": "Sinkronizatu Orain",
+      "SyncNowWithGoogleDrive": "Sinkronizatu Orain Google Drive-arekin",
+      "SyncNowWithDropbox": "Sinkronizatu Orain Dropbox-arekin",
+      "SyncNowWithOneDrive": "Sinkronizatu Orain OneDrive-arekin",
+      "Synchronizing": "Sinkronizatzen...",
+      "SyncedSuccessfully": "Sinkronizazioa ongi burutu da",
+      "SyncFailed": "Sinkronizazioak huts egin du",
+      "LoginRequired": "Saioa hasi behar da",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkronizatu konfigurazioak",
+        "description": "Hautatu nola sinkronizatu luzapenaren konfigurazioak.",
+        "disabled": "Desgaituta",
+        "uploadOnly": "Igo soilik",
+        "downloadOnly": "Deskargatu soilik",
+        "staySynchronized": "Jarraitu sinkronizatuta"
+      },
+      "SyncTabs": {
+        "label": "Sinkronizatu fitxak",
+        "description": "Hautatu nola sinkronizatu fitxategi datuak, kukietan eta informazio pertsonaletan barne.",
+        "disabled": "Desgaituta",
+        "uploadOnly": "Igo soilik",
+        "downloadOnly": "Deskargatu soilik",
+        "staySynchronized": "Jarraitu sinkronizatuta"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Ireki edo itxi fitxak sinkronizatuta",
+        "description": "Aktibatuta dagoenean, fitxak irekitzea edo itzitzea ezberdinetako nabigatzaileetan sinkronizatuko da. Hau soilik aplikatzen da 'jarraitu sinkronizatuta' aukera aktibatuta dagoenean",
+        "OpenOrCloseTabsSynchronouslyWarning": "Kontu bera bi nabigatzaileetan aldi berean saioa hasten bazaizu eta aukera hau aktibatzen baduzu, fitxak irekitzea edo itzitzea nabigatzaile batean eragiten duen ekintza nabigatzaile beste batean ere gauzatuko da. Webguneak errepikatutako saioak debekatzen baditu, salbuespenak gertatu daitezke."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronizatu datu pribatuak",
+        "description": "Hautatu nola sinkronizatu datu pribatuak, hala nola webguneen kukietan, webgunearen tokiko biltegi datuetan, SessionStorage datuetan, eta abar. Datuak enkriptatuko dira sinkronizazioa baino lehen.",
+        "disabled": "Desgaituta",
+        "uploadOnly": "Igo soilik",
+        "downloadOnly": "Deskargatu soilik",
+        "staySynchronized": "Jarraitu sinkronizatuta"
       }
     }
   }

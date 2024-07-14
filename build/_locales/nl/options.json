@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Positie zijpaneel",
         "description": "Stel in of het zijpaneel links of rechts wordt weergegeven.",
-        "goToChromeSettings": "Ga naar Chrome-instellingen"
+        "goToBrowserSettings": "Ga naar Chrome-instellingen"
       },
       "searchBoxPosition": {
         "label": "Positie zoekvak",
@@ -79,6 +79,10 @@
         "description": "Stel de positie van de knoppen in",
         "left": "Links",
         "right": "Rechts"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Altijd sluitknop tonen",
+        "description": "Wanneer ingeschakeld, wordt de sluitknop altijd getoond; wanneer uitgeschakeld, wordt de sluitknop alleen getoond wanneer de muis over het tabblad zweeft"
       },
       "fullScreenHideSidePanel": {
         "label": "Verberg zijpaneel in volledig scherm",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Vloeiende schuifbalken",
         "description": "Gebruik Microsoft Fluent design stijl schuifbalken en overlay ze op de webinhoud",
-        "goToChromeSettings": "Ga naar Chrome-instellingen"
+        "goToBrowserSettings": "Ga naar Chrome-instellingen"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Deze pagina is alleen voor weergave. Om sneltoetsen te wijzigen, ga naar [Extensies]->[Beheer Extensies]->[Toetsenbord Sneltoetsen]",
-      "goToChromeSettings": "Ga naar Chrome-instellingen",
+      "goToBrowserSettings": "Ga naar Chrome-instellingen",
       "_execute_action": "Activeer deze extensie",
       "openSidePanel": "Open zijpaneel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Animaties uitschakelen",
         "description": "schakel het rimpel-effect uit en schakel alle overgangen uit"
+      }
+    },
+    "site": {
+      "label": "Website instellingen",
+      "allSites": "Alle websites",
+      "sortBy": "Sorteer op",
+      "mostVisited": "Meest bezocht",
+      "dataStored": "Gegevens opgeslagen",
+      "name": "Naam",
+      "deleteAllData": "Verwijder alle gegevens",
+      "totalStorageUsedBySites": "Totale opslag gebruikt door websites",
+      "totalCount": "Totaal aantal",
+      "addNewSite": {
+        "label": "Nieuwe site toevoegen",
+        "description": "Voer een nieuw websiteadres in, zoals 'www.example.com', en klik op 'Toevoegen'.",
+        "placeholder": "Websiteadres, zoals 'www.example.com'",
+        "add": "Toevoegen",
+        "cancel": "Annuleren",
+        "invalidDomain": "Ongeldig websiteadres"
+      },
+      "browserSettings": {
+        "label": "Browserinstellingen",
+        "description": "U kunt site-instellingen aanpassen, zoals gegevens verwijderen of site-machtigingen wijzigen.",
+        "goToBrowserSettings": "Ga naar browserinstellingen"
+      },
+      "autoDiscardable": {
+        "label": "Automatisch wegwerpbaar",
+        "description": "Indien ingeschakeld, kan het tabblad worden weggegooid door de browser, en als u prestaties inschakelt en de tijd instelt om inactieve tabbladen weg te gooien, wordt het tabblad na de opgegeven tijd weggegooid. Als het is uitgeschakeld, wordt het tabblad niet weggegooid"
+      },
+      "readingProgressBar": {
+        "label": "Leesvoortgangsbalk",
+        "description": "Wanneer ingeschakeld, wordt een leesvoortgangsbalk weergegeven onder de tabblad titelbalk.",
+        "globaldisabledTips": "U moet de leesvoortgangsbalk inschakelen in de globale instellingen om deze instelling te wijzigen."
+      },
+      "playingProgressBar": {
+        "label": "Speelvoortgangsbalk",
+        "description": "Wanneer ingeschakeld, wordt een speelvoortgangsbalk weergegeven onder de tabblad titelbalk.",
+        "globaldisabledTips": "U moet de speelvoortgangsbalk inschakelen in de globale instellingen om deze instelling te wijzigen."
+      },
+      "tabSwitchPip": {
+        "label": "PIP bij tabbladwisseling",
+        "description": "Wanneer ingeschakeld, wordt automatisch Picture-in-picture ingeschakeld bij het wisselen van tabbladen met een niet-gedempte video.",
+        "globaldisabledTips": "U moet Picture-in-picture inschakelen in de globale instellingen om deze instelling te wijzigen."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Geschiedenis wissen na sluiten",
+        "description": "Wanneer ingeschakeld, wordt de geschiedenis gewist na het sluiten van het tabblad."
+      },
+      "SyncTabs": {
+        "label": "Synchroniseer tabbladen",
+        "description": "Kies hoe tabbladgegevens gesynchroniseerd moeten worden, met uitzondering van privégegevens zoals cookies en persoonlijke informatie.",
+        "disabled": "Uitgeschakeld",
+        "uploadOnly": "Alleen uploaden",
+        "downloadOnly": "Alleen downloaden",
+        "staySynchronized": "Blijf gesynchroniseerd",
+        "globaldisabledTips": "U moet synchronisatie inschakelen in de globale instellingen om deze instelling te wijzigen."
+      },
+      "SyncPrivateData": {
+        "label": "Synchroniseer privégegevens",
+        "description": "Kies hoe privégegevens gesynchroniseerd moeten worden, zoals websitecookies, webpagina-localstoragegegevens, SessionStorage-gegevens, enz. Gegevens worden versleuteld voordat ze gesynchroniseerd worden.",
+        "disabled": "Uitgeschakeld",
+        "uploadOnly": "Alleen uploaden",
+        "downloadOnly": "Alleen downloaden",
+        "staySynchronized": "Blijf gesynchroniseerd",
+        "globaldisabledTips": "U moet synchronisatie inschakelen in de globale instellingen om deze instelling te wijzigen."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synchroniseer naar de cloud",
+      "SyncNow": "Nu synchroniseren",
+      "SyncNowWithGoogleDrive": "Nu synchroniseren met Google Drive",
+      "SyncNowWithDropbox": "Nu synchroniseren met Dropbox",
+      "SyncNowWithOneDrive": "Nu synchroniseren met OneDrive",
+      "Synchronizing": "Synchroniseren...",
+      "SyncedSuccessfully": "Succesvol gesynchroniseerd",
+      "SyncFailed": "Synchronisatie mislukt",
+      "LoginRequired": "Inloggen vereist",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synchronisatieconfiguraties",
+        "description": "Kies hoe de configuraties van deze extensie gesynchroniseerd moeten worden.",
+        "disabled": "Uitgeschakeld",
+        "uploadOnly": "Alleen uploaden",
+        "downloadOnly": "Alleen downloaden",
+        "staySynchronized": "Blijf gesynchroniseerd"
+      },
+      "SyncTabs": {
+        "label": "Synchroniseer tabbladen",
+        "description": "Kies hoe tabbladgegevens gesynchroniseerd moeten worden, met uitzondering van privégegevens zoals cookies en persoonlijke informatie.",
+        "disabled": "Uitgeschakeld",
+        "uploadOnly": "Alleen uploaden",
+        "downloadOnly": "Alleen downloaden",
+        "staySynchronized": "Blijf gesynchroniseerd"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Tabbladen synchroon openen of sluiten",
+        "description": "Indien ingeschakeld, zullen het openen of sluiten van tabbladen in verschillende browsers gesynchroniseerd worden. Dit is alleen van toepassing wanneer de optie 'blijf gesynchroniseerd' actief is",
+        "OpenOrCloseTabsSynchronouslyWarning": "Als u tegelijkertijd inlogt op hetzelfde account in twee browsers en deze optie inschakelt, zal het openen of sluiten van tabbladen in de ene browser dezelfde handeling uitvoeren in de andere browser. Als de website herhaaldelijk inloggen met hetzelfde account verbiedt, kunnen er uitzonderingen optreden."
+      },
+      "SyncPrivateData": {
+        "label": "Synchroniseer privégegevens",
+        "description": "Kies hoe privégegevens gesynchroniseerd moeten worden, zoals websitecookies, webpagina-localstoragegegevens, SessionStorage-gegevens, enz. Gegevens worden versleuteld voordat ze gesynchroniseerd worden.",
+        "disabled": "Uitgeschakeld",
+        "uploadOnly": "Alleen uploaden",
+        "downloadOnly": "Alleen downloaden",
+        "staySynchronized": "Blijf gesynchroniseerd"
       }
     }
   }

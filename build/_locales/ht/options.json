@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozisyon panèl bò kote",
         "description": "Chwazi si panèl la bò kote a dwe afiche sou bò gòch oswa dwat.",
-        "goToChromeSettings": "Ale nan anviwònman Chrome a"
+        "goToBrowserSettings": "Ale nan anviwònman Chrome a"
       },
       "searchBoxPosition": {
         "label": "Pozisyon bwat chèch la",
@@ -79,6 +79,10 @@
         "description": "Chwazi pozisyon bouton yo",
         "left": "Goche",
         "right": "Dwat"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Montre toujou bouton fèmen an",
+        "description": "Lè aktive, bouton fèmen an pral toujou montre; lè dezaktive, bouton fèmen an pral sèlman montre lè sòti sou tab la"
       },
       "fullScreenHideSidePanel": {
         "label": "Kache panèl bò kote nan ekran total",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Bar zouti flou",
         "description": "Sèvi ak stil dizayn Microsoft Fluent pou bar zouti ak souplwaye yo sou kontni entènèt la",
-        "goToChromeSettings": "Ale nan anviwònman Chrome a"
+        "goToBrowserSettings": "Ale nan anviwònman Chrome a"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Paj sa a se pou afichaj sèlman. Pou modifye kout kòt yo, tanpri vizite [Ekstansyon]->[Jere Ekstansyon]->[Kout kòt klavye]",
-      "goToChromeSettings": "Ale nan anviwònman Chrome a",
+      "goToBrowserSettings": "Ale nan anviwònman Chrome a",
       "_execute_action": "Aktive ekstansyon sa a",
       "openSidePanel": "Ouvri panèl bò kote"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Dezaktive animasyon yo",
         "description": "dezaktive efè valan an ak dezaktive tout tranzisyon yo"
+      }
+    },
+    "site": {
+      "label": "Anviwònman sit entènèt la",
+      "allSites": "Tout sit yo",
+      "sortBy": "Triye pa",
+      "mostVisited": "Pi vizite",
+      "dataStored": "Done stoke",
+      "name": "Non",
+      "deleteAllData": "Efase tout done yo",
+      "totalStorageUsedBySites": "Total done ki itilize pa sit yo",
+      "totalCount": "Kantite total",
+      "addNewSite": {
+        "label": "Ajoute sit nouvo",
+        "description": "Antre yon adrès sit entènèt nouvo, tankou 'www.egzanp.com', epi klike sou 'Ajoute'.",
+        "placeholder": "Adrès sit entènèt, tankou 'www.egzanp.com'",
+        "add": "Ajoute",
+        "cancel": "Anile",
+        "invalidDomain": "Adrès sit entènèt envalid"
+      },
+      "browserSettings": {
+        "label": "Anviwònman navigatè a",
+        "description": "Ou ka modifye anviwònman sit yo, tankou efase done oswa chanje pèmisyon sit yo.",
+        "goToBrowserSettings": "Ale nan anviwònman navigatè a"
+      },
+      "autoDiscardable": {
+        "label": "Otomatik jete",
+        "description": "Lè aktive, tab la pral pèmèt jete pa navigatè a, epi si ou mete pèfòmans ak defini tan pou jete tab ki enaktif, tab la pral jete apre tan ki espefye a. Si dezaktive, tab la p'ap jete"
+      },
+      "readingProgressBar": {
+        "label": "Bar pwogrè lekti",
+        "description": "Lè aktive, yon bar pwogrè lekti pral afiche anba baryè tit la tab la.",
+        "globaldisabledTips": "Ou dwe aktive bar pwogrè lekti nan anviwònman global la pou modifye anviwònman sa a."
+      },
+      "playingProgressBar": {
+        "label": "Bar pwogrè jwe",
+        "description": "Lè aktive, yon bar pwogrè jwe pral afiche anba baryè tit la tab la.",
+        "globaldisabledTips": "Ou dwe aktive bar pwogrè jwe nan anviwònman global la pou modifye anviwònman sa a."
+      },
+      "tabSwitchPip": {
+        "label": "PIP sou Tab Switch",
+        "description": "Lè aktive, otomatikman antre nan Imaj nan imaj lè ou chanje tab ak yon videyo ki pa mete sou soud.",
+        "globaldisabledTips": "Ou dwe aktive Imaj nan imaj nan anviwònman global la pou modifye anviwònman sa a."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Efase istwa apre fèmen",
+        "description": "Lè aktive, istwa a pral efase apre ou fèmen tab la."
+      },
+      "SyncTabs": {
+        "label": "Senk tab yo",
+        "description": "Chwazi kijan pou senk done tab yo, eksepte done prive tankou kuki ak enfo pèsonèl.",
+        "disabled": "Anile",
+        "uploadOnly": "Sèlman Upload",
+        "downloadOnly": "Sèlman Download",
+        "staySynchronized": "Releve senkronize",
+        "globaldisabledTips": "Ou dwe aktive senkronizasyon nan Anviwònman Global la pou modifye anviwònman sa a."
+      },
+      "SyncPrivateData": {
+        "label": "Senk done prive yo",
+        "description": "Chwazi kijan pou senk done prive tankou kuki sit entènèt, done lokal la nan paj entènèt, done SesyonStòrèj, elatriye. Done yo pral kripte anvan senkronizasyon an.",
+        "disabled": "Anile",
+        "uploadOnly": "Sèlman Upload",
+        "downloadOnly": "Sèlman Download",
+        "staySynchronized": "Releve senkronize",
+        "globaldisabledTips": "Ou dwe aktive senkronizasyon nan Anviwònman Global la pou modifye anviwònman sa a."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Senk ak klo",
+      "SyncNow": "Senk Kounye a",
+      "SyncNowWithGoogleDrive": "Senk Kounye a ak Google Drive",
+      "SyncNowWithDropbox": "Senk Kounye a ak Dropbox",
+      "SyncNowWithOneDrive": "Senk Kounye a ak OneDrive",
+      "Synchronizing": "An senk...",
+      "SyncedSuccessfully": "Senk siksè",
+      "SyncFailed": "Senk echwe",
+      "LoginRequired": "Koneksyon obligatwa",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Senk konfigirasyon yo",
+        "description": "Chwazi kijan pou senk konfigirasyon ekstansyon sa a.",
+        "disabled": "Anile",
+        "uploadOnly": "Sèlman Upload",
+        "downloadOnly": "Sèlman Download",
+        "staySynchronized": "Releve senkronize"
+      },
+      "SyncTabs": {
+        "label": "Senk tab yo",
+        "description": "Chwazi kijan pou senk done tab yo, eksepte done prive tankou kuki ak enfo pèsonèl.",
+        "disabled": "Anile",
+        "uploadOnly": "Sèlman Upload",
+        "downloadOnly": "Sèlman Download",
+        "staySynchronized": "Releve senkronize"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Louvri oswa fèmen tab yo ansanm",
+        "description": "Lè aktive, louvri oswa fèmen tab nan diferan navigatè yo pral senkronize. Sa sèlman aplike lè opsyon 'releve senkronize' la aktif",
+        "OpenOrCloseTabsSynchronouslyWarning": "Si ou konekte nan menm kont nan de navigatè nan menm tan ak w ap mete opsyon sa a sou, louvri oswa fèmen tab nan youn navigatè pral fè menm operasyon an nan lòt navigatè a. Si sit entènèt la entèdi koneksyon repete ak menm kont la, eksepsyon yo ka rive."
+      },
+      "SyncPrivateData": {
+        "label": "Senk done prive yo",
+        "description": "Chwazi kijan pou senk done prive tankou kuki sit entènèt, done lokal la nan paj entènèt, done SesyonStòrèj, elatriye. Done yo pral kripte anvan senkronizasyon an.",
+        "disabled": "Anile",
+        "uploadOnly": "Sèlman Upload",
+        "downloadOnly": "Sèlman Download",
+        "staySynchronized": "Releve senkronize"
       }
     }
   }

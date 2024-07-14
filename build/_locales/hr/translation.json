@@ -43,6 +43,7 @@
     "closeTab": "Zatvori karticu",
     "CloseOtherTabs": "Zatvori ostale kartice",
     "CloseSameSiteTabs": "Zatvori kartice s iste stranice",
+    "CloseSameSiteOtherTabs": "Zatvori ostale kartice s iste stranice",
     "Reload": "Ponovno učitaj",
     "RestoreTabs": "Vrati kartice",
     "DiscardTab": "Odbaci karticu",

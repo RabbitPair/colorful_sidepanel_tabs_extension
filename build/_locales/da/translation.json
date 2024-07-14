@@ -42,7 +42,8 @@
   "tabMenu": {
     "closeTab": "Luk fane",
     "CloseOtherTabs": "Luk andre faner",
-    "CloseSameSiteTabs": "Luk samme webstedsfaner",
+    "CloseSameSiteTabs": "Luk faner fra samme websted",
+    "CloseSameSiteOtherTabs": "Luk andre faner fra samme websted",
     "Reload": "Genindlæs",
     "RestoreTabs": "Gendan faner",
     "DiscardTab": "Kassér fane",

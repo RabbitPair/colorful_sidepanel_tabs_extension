@@ -43,6 +43,7 @@
     "closeTab": "Tab schließen",
     "CloseOtherTabs": "Andere Tabs schließen",
     "CloseSameSiteTabs": "Tabs von derselben Seite schließen",
+    "CloseSameSiteOtherTabs": "Andere Tabs derselben Seite schließen",
     "Reload": "Neu laden",
     "RestoreTabs": "Tabs wiederherstellen",
     "DiscardTab": "Tab verwerfen",

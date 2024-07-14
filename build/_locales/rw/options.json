@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Umwanya w'uruhande",
         "description": "Shyiraho niba uruhande rwerekanwa ibumoso cyangwa iburyo.",
-        "goToChromeSettings": "Gana ku igenamiterere rya Chrome"
+        "goToBrowserSettings": "Gana ku igenamiterere rya Chrome"
       },
       "searchBoxPosition": {
         "label": "Umwanya w'agasanduku k'ubushakashatsi",
@@ -79,6 +79,10 @@
         "description": "Shyiraho umwanya w'ibipimo",
         "left": "Ibumoso",
         "right": "Iburyo"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Emeza gusa ikibonke kigufunga",
+        "description": "Iyo yemejwe, ikibonke kigufunga kizerekana kuri bose; iyo itarabemejwe, ikibonke kigufunga kizerekana gusa iyo kibutoza ku kanya k'ikururira"
       },
       "fullScreenHideSidePanel": {
         "label": "Hisha uruhande mu buryo bwuzuye",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Imiyoboro y'uburanga",
         "description": "Koresha imiyoboro y'uburanga bwa Microsoft Fluent kandi uyishyire ku mbuga z'ububiko",
-        "goToChromeSettings": "Gana ku igenamiterere rya Chrome"
+        "goToBrowserSettings": "Gana ku igenamiterere rya Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Iyi paji ni iyo kwerekana gusa. Kugira ngo uhindure inzira ngufi, nyamuneka jya kuri [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToChromeSettings": "Gana ku igenamiterere rya Chrome",
+      "goToBrowserSettings": "Gana ku igenamiterere rya Chrome",
       "_execute_action": "Shyira mu bikorwa iyi kongeraho",
       "openSidePanel": "Fungura uruhande"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Gufunga ibiganiro",
         "description": "gufunga uburyo bwo gukora umurongo n'ubufatanye bwose"
+      }
+    },
+    "site": {
+      "label": "Ibitegeko by'itariki",
+      "allSites": "Ibitegeko byose",
+      "sortBy": "Sort by",
+      "mostVisited": "Ibitegeko byinjije",
+      "dataStored": "Data yahindutse",
+      "name": "Izina",
+      "deleteAllData": "Siba data zose",
+      "totalStorageUsedBySites": "Igiciro cyose cyo kuzindura data ku bitegeko",
+      "totalCount": "Igiciro cyose",
+      "addNewSite": {
+        "label": "Emeza site nshya",
+        "description": "Shyiramo urubuga rwawe rwa internet, nk'uko 'www.example.com', kandi kanda 'Emeza'.",
+        "placeholder": "Urubuga rw'internet, nk'uko 'www.example.com'",
+        "add": "Emeza",
+        "cancel": "Cancel",
+        "invalidDomain": "Urubuga rw'internet ntirwemerewe"
+      },
+      "browserSettings": {
+        "label": "Amakuru y'ibikoresho",
+        "description": "Ukeneye guhindura ibikoresho by'ibikoresho, nkuko kugufunga ibikoresho cyangwa guhindura ibikoresho by'ibikoresho.",
+        "goToBrowserSettings": "Hindura amakuru y'ibrowiza"
+      },
+      "autoDiscardable": {
+        "label": "Auto discardable",
+        "description": "Iyo yemejwe, ibikoresho byakoreshejwe kugufungwa n'ibrowiza, kandi iyo wakoresheje ububasha n'ibikoresho by'ibikoresho by'ibikoresho, ibikoresho byakoreshejwe kugufungwa aho bavugwa. Iyo yafungwa, ibikoresho ntibyakoreshejwe."
+      },
+      "readingProgressBar": {
+        "label": "Ibikoresho by'umurongo w'ukurikira",
+        "description": "Iyo yemejwe, ibikoresho by'umurongo w'ukurikira byakoreshejwe kuri ruhande rw'ibikoresho.",
+        "globaldisabledTips": "Ukeneye gukora ibikoresho by'umurongo w'ukurikira mu mabwiriza meza kugirango uhindure iyi settinga."
+      },
+      "playingProgressBar": {
+        "label": "Ibikoresho by'umurongo w'ukurikira",
+        "description": "Iyo yemejwe, ibikoresho by'umurongo w'ukurikira byakoreshejwe kuri ruhande rw'ibikoresho.",
+        "globaldisabledTips": "Ukeneye gukora ibikoresho by'umurongo w'ukurikira mu mabwiriza meza kugirango uhindure iyi settinga."
+      },
+      "tabSwitchPip": {
+        "label": "PIP kuri Tab Switch",
+        "description": "Iyo yemejwe, auto-enter Picture-in-picture iyo wakoresheje ibikoresho n'umunyamakuru w'umuziki ushaka.",
+        "globaldisabledTips": "Ibyo wakoresheje Picture-in-picture mu byerekeye ibikoresho byose kugirango ushobore guhindura iyi settinga."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Siba istoriya aho ifunga",
+        "description": "Iyo yemejwe, istoriya izasibwa aho ifunga ibikoresho."
+      },
+      "SyncTabs": {
+        "label": "Synchronize tabs",
+        "description": "Hitamo iki gusinzira amakuru ya vichupo, nkuko ibikurikira: ibikorwa by'ibikorerwa ku itegeko, amakuru y'ibitabo by'ibikorerwa ku murwa, amakuru y'ubutumwa bw'ikoranabuhanga, n'ibindi.",
+        "disabled": "Disabled",
+        "uploadOnly": "Gusinzira gusa",
+        "downloadOnly": "Gukura gusa",
+        "staySynchronized": "Kurangiza kugira ngo azasinzire",
+        "globaldisabledTips": "Ibyo wakoresheje gusinzira mu byerekeye ibikoresho byose kugirango ushobore guhindura iyi settinga."
+      },
+      "SyncPrivateData": {
+        "label": "Synchronize amakuru abantu",
+        "description": "Hitamo iki gusinzira amakuru abantu, nkuko ibikurikira: ibikorwa by'ibikorerwa ku itegeko, amakuru y'ibitabo by'ibikorerwa ku murwa, amakuru y'ubutumwa bw'ikoranabuhanga, n'ibindi. Amakuru azasinzirwa buri gihe.",
+        "disabled": "Disabled",
+        "uploadOnly": "Gusinzira gusa",
+        "downloadOnly": "Gukura gusa",
+        "staySynchronized": "Kurangiza kugira ngo azasinzire",
+        "globaldisabledTips": "Ibyo wakoresheje gusinzira mu byerekeye ibikoresho byose kugirango ushobore guhindura iyi settinga."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Gusinzira ku murwa",
+      "SyncNow": "Sinzibura ubu",
+      "SyncNowWithGoogleDrive": "Sinzibura ubu na Google Drive",
+      "SyncNowWithDropbox": "Sinzibura ubu na Dropbox",
+      "SyncNowWithOneDrive": "Sinzibura ubu na OneDrive",
+      "Synchronizing": "Kusinzira...",
+      "SyncedSuccessfully": "Sinzibiriwe neza",
+      "SyncFailed": "Gusinzira ntibyagenze",
+      "LoginRequired": "Kuboneka kwinjira",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinzibire amakuru",
+        "description": "Hitamo iki gusinzira ibikorwa bya iyi nkuru.",
+        "disabled": "Gufungwa",
+        "uploadOnly": "Gusinzira gusa",
+        "downloadOnly": "Gukura gusa",
+        "staySynchronized": "Kurangiza kugira ngo azasinzire"
+      },
+      "SyncTabs": {
+        "label": "Sinzibire vichupo",
+        "description": "Hitamo iki gusinzira amakuru ya vichupo, nkuko ibikurikira: ibikorwa by'ibikorerwa ku itegeko, amakuru y'ibitabo by'ibikorerwa ku murwa, amakuru y'ubutumwa bw'ikoranabuhanga, n'ibindi.",
+        "disabled": "Gufungwa",
+        "uploadOnly": "Gusinzira gusa",
+        "downloadOnly": "Gukura gusa",
+        "staySynchronized": "Kurangiza kugira ngo azasinzire"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Fungua ama funga vichupo kwa ushirikiano",
+        "description": "Ukiwezesha, kufungua au kufunga vichupo katika vivinjari tofauti kutasawazishwa. Hii inatumika tu wakati chaguo la 'baki kusawazishwa' limeamilishwa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ikiwa utaingia kwenye akaunti moja kwenye vivinjari viwili kwa wakati mmoja na kuwasha chaguo hili, kufungua au kufunga vichupo katika kivinjari kimoja kutatekeleza operesheni ileile kwenye kivinjari kingine. Ikiwa tovuti inazuia kuingia mara kwa mara kwa akaunti ileile, kunaweza kutokea mafungu."
+      },
+      "SyncPrivateData": {
+        "label": "Igurisha amakuru abantu",
+        "description": "Hitamo iki gusinzira amakuru abantu, nkuko ibikurikira: ibikorwa by'ibikorerwa ku itegeko, amakuru y'ibitabo by'ibikorerwa ku murwa, amakuru y'ubutumwa bw'ikoranabuhanga, n'ibindi. Amakuru azasinzirwa buri gihe.",
+        "disabled": "Gufungwa",
+        "uploadOnly": "Gusinzira gusa",
+        "downloadOnly": "Gukura gusa",
+        "staySynchronized": "Kurangiza kugira ngo azasinzire"
       }
     }
   }

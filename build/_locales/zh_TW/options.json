@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "側邊欄位置",
         "description": "設置側邊欄在左側或右側顯示。",
-        "goToChromeSettings": "前往 Chrome 設置"
+        "goToBrowserSettings": "前往 Chrome 設置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -79,6 +79,10 @@
         "description": "設置按鈕的位置",
         "left": "左側",
         "right": "右側"
+      },
+      "alwaysShowCloseButton": {
+        "label": "總是顯示關閉按鈕",
+        "description": "啟用後，關閉按鈕將始終顯示；禁用時，只有在滑鼠懸停在標籤上時才會顯示關閉按鈕"
       },
       "fullScreenHideSidePanel": {
         "label": "全屏時隱藏側邊欄",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滾動條",
         "description": "使用 Microsoft Fluent 設計風格化滾動條並使其覆蓋在網頁內容上",
-        "goToChromeSettings": "前往 Chrome 設置"
+        "goToBrowserSettings": "前往 Chrome 設置"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "本頁面僅供展示，如需修改快捷鍵，請訪問[擴展程序]->[管理擴展]->[鍵盤快捷鍵]",
-      "goToChromeSettings": "前往 Chrome 設置",
+      "goToBrowserSettings": "前往 Chrome 設置",
       "_execute_action": "激活該擴展程序",
       "openSidePanel": "打開側邊欄"
     },
@@ -338,6 +342,114 @@
       "disableAnimations": {
         "label": "禁用動畫",
         "description": "禁用涟漪效果和所有過渡效果"
+      }
+    },
+    "site": {
+      "label": "網站設定",
+      "allSites": "所有網站",
+      "sortBy": "排序方式",
+      "mostVisited": "最常造訪",
+      "dataStored": "儲存的資料",
+      "name": "名稱",
+      "deleteAllData": "刪除所有資料",
+      "totalStorageUsedBySites": "網站使用的總儲存空間",
+      "totalCount": "總數",
+      "addNewSite": {
+        "label": "新增網站",
+        "description": "輸入新的網站地址，例如 'www.example.com'，然後點擊 '新增'。",
+        "placeholder": "網站地址，例如 'www.example.com'",
+        "add": "新增",
+        "cancel": "取消",
+        "invalidDomain": "無效的網站地址"
+      },
+      "browserSettings": {
+        "label": "瀏覽器設定",
+        "description": "您可以修改網站設定，例如刪除資料或更改網站權限。",
+        "goToBrowserSettings": "前往瀏覽器設定"
+      },
+      "autoDiscardable": {
+        "label": "自動丟棄",
+        "description": "啟用時，瀏覽器將允許該標籤頁被丟棄，如果您啟用性能並設置丟棄不活躍標籤頁的時間，則該標籤頁將在指定時間後被丟棄。如果停用，則不會丟棄該標籤頁"
+      },
+      "readingProgressBar": {
+        "label": "閱讀進度條",
+        "description": "啟用後，會在標籤頁標題欄下方顯示閱讀進度條。",
+        "globaldisabledTips": "您必須在全局設定中啟用閱讀進度條才能修改此設定。"
+      },
+      "playingProgressBar": {
+        "label": "播放進度條",
+        "description": "啟用後，會在標籤頁標題欄下方顯示播放進度條。",
+        "globaldisabledTips": "您必須在全局設定中啟用播放進度條才能修改此設定。"
+      },
+      "tabSwitchPip": {
+        "label": "切換標籤時的 PIP",
+        "description": "啟用後，當切換帶有未靜音視頻的標籤時，自動進入畫中畫模式。",
+        "globaldisabledTips": "您必須在全局設定中啟用畫中畫才能修改此設定。"
+      },
+      "clearHistoyAfterCLose": {
+        "label": "關閉後清除歷史記錄",
+        "description": "啟用後，關閉標籤後將清除歷史記錄。"
+      },
+      "SyncTabs": {
+        "label": "同步標籤頁",
+        "description": "選擇如何同步標籤頁資料，不包括私人資料如 cookies 和個人資訊。",
+        "disabled": "已停用",
+        "uploadOnly": "僅上傳",
+        "downloadOnly": "僅下載",
+        "staySynchronized": "保持同步",
+        "globaldisabledTips": "您必須在全局設定中啟用同步才能修改此設定。"
+      },
+      "SyncPrivateData": {
+        "label": "同步私人資料",
+        "description": "選擇如何同步私人資料，如網站 cookies、網頁本地儲存資料、SessionStorage 資料等。資料將在同步前進行加密。",
+        "disabled": "已停用",
+        "uploadOnly": "僅上傳",
+        "downloadOnly": "僅下載",
+        "staySynchronized": "保持同步",
+        "globaldisabledTips": "您必須在全局設定中啟用同步才能修改此設定。"
+      }
+    },
+    "SyncToCloud": {
+      "label": "同步至雲端",
+      "SyncNow": "立即同步",
+      "SyncNowWithGoogleDrive": "使用 Google Drive 立即同步",
+      "SyncNowWithDropbox": "使用 Dropbox 立即同步",
+      "SyncNowWithOneDrive": "使用 OneDrive 立即同步",
+      "Synchronizing": "同步中...",
+      "SyncedSuccessfully": "同步成功",
+      "SyncFailed": "同步失敗",
+      "LoginRequired": "需要登入",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "同步設定",
+        "description": "選擇如何同步此擴充功能的設定。",
+        "disabled": "停用",
+        "uploadOnly": "僅上傳",
+        "downloadOnly": "僅下載",
+        "staySynchronized": "保持同步"
+      },
+      "SyncTabs": {
+        "label": "同步分頁",
+        "description": "選擇如何同步分頁資料，不包括私人資料如 cookies 和個人資訊。",
+        "disabled": "停用",
+        "uploadOnly": "僅上傳",
+        "downloadOnly": "僅下載",
+        "staySynchronized": "保持同步"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "同步開啟或關閉分頁",
+        "description": "啟用後，在不同瀏覽器中開啟或關閉分頁將同步進行。僅當 '保持同步' 選項啟用時才適用",
+        "OpenOrCloseTabsSynchronouslyWarning": "如果您同時在兩個瀏覽器中使用相同帳戶登入並啟用此選項，則在一個瀏覽器中開啟或關閉分頁將在另一個瀏覽器中執行相同操作。如果網站禁止使用相同帳戶重複登入，可能會發生異常情況。"
+      },
+      "SyncPrivateData": {
+        "label": "同步私人資料",
+        "description": "選擇如何同步私人資料，如網站 cookies、網頁本地儲存資料、SessionStorage 資料等。資料將在同步前進行加密。",
+        "disabled": "停用",
+        "uploadOnly": "僅上傳",
+        "downloadOnly": "僅下載",
+        "staySynchronized": "保持同步"
       }
     }
   }

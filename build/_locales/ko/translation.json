@@ -43,6 +43,7 @@
     "closeTab": "탭 닫기",
     "CloseOtherTabs": "다른 탭 닫기",
     "CloseSameSiteTabs": "같은 사이트 탭 닫기",
+    "CloseSameSiteOtherTabs": "같은 사이트 다른 탭 닫기",
     "Reload": "새로고침",
     "RestoreTabs": "탭 복원",
     "DiscardTab": "탭 버리기",

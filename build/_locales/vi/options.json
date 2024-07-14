@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Vị trí bảng điều khiển bên",
         "description": "Đặt xem bảng điều khiển bên ở bên trái hoặc bên phải.",
-        "goToChromeSettings": "Đi đến cài đặt Chrome"
+        "goToBrowserSettings": "Đi đến cài đặt Chrome"
       },
       "searchBoxPosition": {
         "label": "Vị trí hộp tìm kiếm",
@@ -79,6 +79,10 @@
         "description": "Đặt vị trí của các nút",
         "left": "Trái",
         "right": "Phải"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Luôn hiển thị nút đóng",
+        "description": "Khi bật, nút đóng sẽ luôn hiển thị; khi tắt, nút đóng chỉ hiển thị khi chuột di chuyển qua tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Ẩn bảng điều khiển bên khi toàn màn hình",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Thanh cuộn mượt mà",
         "description": "Sử dụng kiểu thiết kế thanh cuộn mượt mà của Microsoft và đặt chúng lên nội dung web",
-        "goToChromeSettings": "Đi đến cài đặt Chrome"
+        "goToBrowserSettings": "Đi đến cài đặt Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Trang này chỉ dành cho hiển thị. Để sửa đổi phím tắt, vui lòng truy cập [Tiện ích mở rộng]->[Quản lý tiện ích mở rộng]->[Phím tắt bàn phím]",
-      "goToChromeSettings": "Đi đến cài đặt Chrome",
+      "goToBrowserSettings": "Đi đến cài đặt Chrome",
       "_execute_action": "Kích hoạt tiện ích này",
       "openSidePanel": "Mở bảng điều khiển bên"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Tắt hiệu ứng",
         "description": "tắt hiệu ứng sóng nhấp và tắt tất cả các chuyển động"
+      }
+    },
+    "site": {
+      "label": "Cài đặt trang web",
+      "allSites": "Tất cả các trang",
+      "sortBy": "Sắp xếp theo",
+      "mostVisited": "Thường xuyên ghé thăm nhất",
+      "dataStored": "Dữ liệu đã lưu trữ",
+      "name": "Tên",
+      "deleteAllData": "Xóa tất cả dữ liệu",
+      "totalStorageUsedBySites": "Tổng dung lượng đã sử dụng bởi các trang",
+      "totalCount": "Tổng số",
+      "addNewSite": {
+        "label": "Thêm trang web mới",
+        "description": "Nhập địa chỉ trang web mới, chẳng hạn 'www.example.com', và nhấn 'Thêm'.",
+        "placeholder": "Địa chỉ trang web, chẳng hạn 'www.example.com'",
+        "add": "Thêm",
+        "cancel": "Hủy",
+        "invalidDomain": "Địa chỉ trang web không hợp lệ"
+      },
+      "browserSettings": {
+        "label": "Cài đặt trình duyệt",
+        "description": "Bạn có thể sửa đổi cài đặt trang web, chẳng hạn xóa dữ liệu hoặc thay đổi quyền truy cập trang web.",
+        "goToBrowserSettings": "Đi đến cài đặt trình duyệt"
+      },
+      "autoDiscardable": {
+        "label": "Tự động có thể loại bỏ",
+        "description": "Khi được bật, tab sẽ được phép bị loại bỏ bởi trình duyệt, và nếu bạn bật hiệu suất và thiết lập thời gian để loại bỏ tab không hoạt động, tab sẽ bị loại bỏ sau thời gian quy định. Nếu tắt, tab sẽ không bị loại bỏ"
+      },
+      "readingProgressBar": {
+        "label": "Thanh tiến trình đọc",
+        "description": "Khi được bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab.",
+        "globaldisabledTips": "Bạn phải bật thanh tiến trình đọc trong cài đặt toàn cầu để sửa đổi cài đặt này."
+      },
+      "playingProgressBar": {
+        "label": "Thanh tiến trình phát",
+        "description": "Khi được bật, thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề tab.",
+        "globaldisabledTips": "Bạn phải bật thanh tiến trình phát trong cài đặt toàn cầu để sửa đổi cài đặt này."
+      },
+      "tabSwitchPip": {
+        "label": "PIP khi chuyển tab",
+        "description": "Khi được bật, tự động chuyển sang Chế độ hình ảnh trong hình khi chuyển tab với video không tắt tiếng.",
+        "globaldisabledTips": "Bạn phải bật Chế độ hình ảnh trong hình trong cài đặt toàn cầu để sửa đổi cài đặt này."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Xóa lịch sử sau khi đóng",
+        "description": "Khi được bật, lịch sử sẽ được xóa sau khi đóng tab."
+      },
+      "SyncTabs": {
+        "label": "Đồng bộ tab",
+        "description": "Chọn cách đồng bộ hóa dữ liệu tab, loại bỏ dữ liệu riêng tư như cookie và thông tin cá nhân.",
+        "disabled": "Vô hiệu hóa",
+        "uploadOnly": "Chỉ tải lên",
+        "downloadOnly": "Chỉ tải xuống",
+        "staySynchronized": "Giữ đồng bộ",
+        "globaldisabledTips": "Bạn phải bật đồng bộ trong Cài đặt Toàn cầu để sửa đổi cài đặt này."
+      },
+      "SyncPrivateData": {
+        "label": "Đồng bộ dữ liệu riêng tư",
+        "description": "Chọn cách đồng bộ hóa dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ hóa.",
+        "disabled": "Vô hiệu hóa",
+        "uploadOnly": "Chỉ tải lên",
+        "downloadOnly": "Chỉ tải xuống",
+        "staySynchronized": "Giữ đồng bộ",
+        "globaldisabledTips": "Bạn phải bật đồng bộ trong Cài đặt Toàn cầu để sửa đổi cài đặt này."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Đồng bộ lên đám mây",
+      "SyncNow": "Đồng bộ ngay",
+      "SyncNowWithGoogleDrive": "Đồng bộ với Google Drive ngay",
+      "SyncNowWithDropbox": "Đồng bộ với Dropbox ngay",
+      "SyncNowWithOneDrive": "Đồng bộ với OneDrive ngay",
+      "Synchronizing": "Đang đồng bộ...",
+      "SyncedSuccessfully": "Đã đồng bộ thành công",
+      "SyncFailed": "Đồng bộ thất bại",
+      "LoginRequired": "Yêu cầu đăng nhập",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Đồng bộ cấu hình",
+        "description": "Chọn cách đồng bộ hóa cấu hình của tiện ích mở rộng này.",
+        "disabled": "Vô hiệu hóa",
+        "uploadOnly": "Chỉ tải lên",
+        "downloadOnly": "Chỉ tải xuống",
+        "staySynchronized": "Giữ đồng bộ"
+      },
+      "SyncTabs": {
+        "label": "Đồng bộ tab",
+        "description": "Chọn cách đồng bộ hóa dữ liệu tab, loại bỏ dữ liệu riêng tư như cookie và thông tin cá nhân.",
+        "disabled": "Vô hiệu hóa",
+        "uploadOnly": "Chỉ tải lên",
+        "downloadOnly": "Chỉ tải xuống",
+        "staySynchronized": "Giữ đồng bộ"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Mở hoặc đóng tab đồng bộ",
+        "description": "Khi bật, việc mở hoặc đóng tab trên các trình duyệt khác nhau sẽ được đồng bộ hóa. Điều này chỉ áp dụng khi tùy chọn 'giữ đồng bộ' được kích hoạt",
+        "OpenOrCloseTabsSynchronouslyWarning": "Nếu bạn đăng nhập vào cùng một tài khoản trên hai trình duyệt cùng một lúc và bật tùy chọn này, việc mở hoặc đóng tab trên một trình duyệt sẽ thực hiện cùng một thao tác trên trình duyệt khác. Nếu trang web cấm đăng nhập lặp lại với cùng một tài khoản, có thể xảy ra ngoại lệ."
+      },
+      "SyncPrivateData": {
+        "label": "Đồng bộ dữ liệu riêng tư",
+        "description": "Chọn cách đồng bộ hóa dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ hóa.",
+        "disabled": "Vô hiệu hóa",
+        "uploadOnly": "Chỉ tải lên",
+        "downloadOnly": "Chỉ tải xuống",
+        "staySynchronized": "Giữ đồng bộ"
       }
     }
   }

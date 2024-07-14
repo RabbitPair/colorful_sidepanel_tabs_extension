@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sypaneel posisie",
         "description": "Stel in of die sypaneel aan die linkerkant of regs vertoon word.",
-        "goToChromeSettings": "Gaan na Chrome-instellings"
+        "goToBrowserSettings": "Gaan na Chrome-instellings"
       },
       "searchBoxPosition": {
         "label": "Soekboks posisie",
@@ -79,6 +79,10 @@
         "description": "Stel die posisie van die knoppies in",
         "left": "Links",
         "right": "Regs"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Wys altyd nabyknoppie",
+        "description": "Wanneer geaktiveer, sal die nabyknoppie altyd wys; wanneer gedeaktiveer, sal die nabyknoppie net wys wanneer die muis oor die lappie beweeg"
       },
       "fullScreenHideSidePanel": {
         "label": "Versteek sypaneel in volle skerm",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Vloeistofskuifbalke",
         "description": "Gebruik Microsoft Fluent-ontwerpstylskuifbalke en plaas hulle oor die webinhoud",
-        "goToChromeSettings": "Gaan na Chrome-instellings"
+        "goToBrowserSettings": "Gaan na Chrome-instellings"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Hierdie bladsy is slegs vir vertoning. Om kortpaaie te wysig, besoek asseblief [Uitbreidings]->[Bestuur Uitbreidings]->[Sleutelbordkortpaaie]",
-      "goToChromeSettings": "Gaan na Chrome-instellings",
+      "goToBrowserSettings": "Gaan na Chrome-instellings",
       "_execute_action": "Aktiveer hierdie uitbreiding",
       "openSidePanel": "Maak sypaneel oop"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Deaktiveer animasies",
         "description": "deaktiveer die rimpelingseffek en deaktiveer alle oorgange"
+      }
+    },
+    "site": {
+      "label": "Webwerf instellings",
+      "allSites": "Alle webwerwe",
+      "sortBy": "Sorteer volgens",
+      "mostVisited": "Meeste besoek",
+      "dataStored": "Data gestoor",
+      "name": "naam",
+      "deleteAllData": "Verwyder alle data",
+      "totalStorageUsedBySites": "Totale stoorplek gebruik deur webwerwe",
+      "totalCount": "Totale telling",
+      "addNewSite": {
+        "label": "Voeg nuwe webwerf by",
+        "description": "Voer 'n nuwe webwerf adres in, soos 'www.example.com', en klik op 'Voeg by'.",
+        "placeholder": "webwerf adres, soos 'www.example.com'",
+        "add": "Voeg by",
+        "cancel": "Kanselleer",
+        "invalidDomain": "Ongeldige webwerf adres"
+      },
+      "browserSettings": {
+        "label": "Blaaier instellings",
+        "description": "Jy kan webwerf instellings wysig, soos data verwydering of webwerf toestemmings verander.",
+        "goToBrowserSettings": "Gaan na blaaier instellings"
+      },
+      "autoDiscardable": {
+        "label": "Outomaties verwerpbaar",
+        "description": "Wanneer geaktiveer, sal die tab deur die blaaier toegelaat word om verwerp te word, en as jy prestasie aanskakel en die tyd stel om onaktiewe tabs te verwerp, sal die tab na die gespesifiseerde tyd verwerp word. Indien gedeaktiveer, sal die tab nie verwerp word nie"
+      },
+      "readingProgressBar": {
+        "label": "Leesvorderingsbalk",
+        "description": "Wanneer geaktiveer, sal 'n leesvorderingsbalk onder die tabtitelbalk vertoon word.",
+        "globaldisabledTips": "Jy moet die leesvorderingsbalk in die globale instellings aanskakel om hierdie instelling te wysig."
+      },
+      "playingProgressBar": {
+        "label": "speel vorderingsbalk",
+        "description": "Wanneer geaktiveer, sal 'n speelvorderingsbalk onder die tabtitelbalk vertoon word.",
+        "globaldisabledTips": "Jy moet die speelvorderingsbalk in die globale instellings aanskakel om hierdie instelling te wysig."
+      },
+      "tabSwitchPip": {
+        "label": "PIP op Tab Skakel",
+        "description": "Wanneer geaktiveer, Auto-enter Picture-in-picture wanneer tabs skakel met 'n ongestemde video.",
+        "globaldisabledTips": "Jy moet die Picture-in-picture in die globale instellings aanskakel om hierdie instelling te wysig."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Skoon geskiedenis na sluit",
+        "description": "Wanneer geaktiveer, sal die geskiedenis skoongemaak word na die sluit van die tab."
+      },
+      "SyncTabs": {
+        "label": "Sinkroniseer tabs",
+        "description": "Kies hoe om tab data te sinkroniseer, uitgesluit private data soos koekies en persoonlike inligting.",
+        "disabled": "Gedeaktiveer",
+        "uploadOnly": "Net oplaai",
+        "downloadOnly": "Net aflaai",
+        "staySynchronized": "Bly gesinkroniseer",
+        "globaldisabledTips": "Jy moet die sinkronisasie in Globale Instellings aanskakel om hierdie instelling te wysig."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkroniseer private data",
+        "description": "Kies hoe om private data te sinkroniseer, soos webwerf koekies, webblad localstorage data, SessionStorage data, ens. Data sal voor sinkronisasie versleutel word.",
+        "disabled": "Gedeaktiveer",
+        "uploadOnly": "Net oplaai",
+        "downloadOnly": "Net aflaai",
+        "staySynchronized": "Bly gesinkroniseer",
+        "globaldisabledTips": "Jy moet die sinkronisasie in Globale Instellings aanskakel om hierdie instelling te wysig."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkroniseer na die wolk",
+      "SyncNow": "Sinkroniseer Nou",
+      "SyncNowWithGoogleDrive": "Sinkroniseer Nou met Google Drive",
+      "SyncNowWithDropbox": "Sinkroniseer Nou met Dropbox",
+      "SyncNowWithOneDrive": "Sinkroniseer Nou met OneDrive",
+      "Synchronizing": "Sinkroniseer...",
+      "SyncedSuccessfully": "Suksesvol gesinkroniseer",
+      "SyncFailed": "Sinkronisasie misluk",
+      "LoginRequired": "Aanteken benodig",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkroniseer konfigurasies",
+        "description": "Kies hoe om hierdie uitbreiding konfigurasies te sinkroniseer.",
+        "disabled": "Gedeaktiveer",
+        "uploadOnly": "Net oplaai",
+        "downloadOnly": "Net aflaai",
+        "staySynchronized": "Bly gesinkroniseer"
+      },
+      "SyncTabs": {
+        "label": "Sinkroniseer tabs",
+        "description": "Kies hoe om tab data te sinkroniseer, uitgesluit private data soos koekies en persoonlike inligting.",
+        "disabled": "Gedeaktiveer",
+        "uploadOnly": "Net oplaai",
+        "downloadOnly": "Net aflaai",
+        "staySynchronized": "Bly gesinkroniseer"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Open of sluit tabs gelyktydig",
+        "description": "Wanneer geaktiveer, sal die oopmaak of sluit van tabs in verskillende blaaier gesinkroniseer word. Dit geld net wanneer die 'bly gesinkroniseer' opsie aktief is",
+        "OpenOrCloseTabsSynchronouslyWarning": "Indien jy gelyktydig in twee blaaier met dieselfde rekening aanmeld en hierdie opsie aanskakel, sal die oopmaak of sluit van tabs in een blaaier dieselfde operasie in die ander blaaier uitvoer. Indien die webwerf herhaalde aanmeldings met dieselfde rekening verbied, kan uitsonderings voorkom."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkroniseer private data",
+        "description": "Kies hoe om private data te sinkroniseer, soos webwerf koekies, webblad localstorage data, SessionStorage data, ens. Data sal voor sinkronisasie versleutel word.",
+        "disabled": "Gedeaktiveer",
+        "uploadOnly": "Net oplaai",
+        "downloadOnly": "Net aflaai",
+        "staySynchronized": "Bly gesinkroniseer"
       }
     }
   }

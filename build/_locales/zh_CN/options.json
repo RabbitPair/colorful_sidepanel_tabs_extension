@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "侧边栏位置",
         "description": "设置侧边栏在左侧或右侧显示。",
-        "goToChromeSettings": "前往 Chrome 设置"
+        "goToBrowserSettings": "前往 Chrome 设置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -79,6 +79,10 @@
         "description": "设置按钮的位置",
         "left": "左侧",
         "right": "右侧"
+      },
+      "alwaysShowCloseButton": {
+        "label": "始终显示关闭按钮",
+        "description": "启用后，关闭按钮将始终显示；禁用时，关闭按钮仅在鼠标悬停在选项卡上时显示"
       },
       "fullScreenHideSidePanel": {
         "label": "全屏时隐藏侧边栏",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滚动条",
         "description": "使用 Microsoft Fluent 设计风格化滚动条并使其覆盖在网页内容上",
-        "goToChromeSettings": "前往 Chrome 设置"
+        "goToBrowserSettings": "前往 Chrome 设置"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "本页面仅供展示，如需修改快捷键，请访问[扩展程序]->[管理扩展]->[键盘快捷键]",
-      "goToChromeSettings": "前往 Chrome 设置",
+      "goToBrowserSettings": "前往 Chrome 设置",
       "_execute_action": "激活该扩展程序",
       "openSidePanel": "打开侧边栏"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "禁用动画",
         "description": "禁用涟漪效果和所有过渡效果"
+      }
+    },
+    "site": {
+      "label": "网站设置",
+      "allSites": "所有网站",
+      "sortBy": "排序方式",
+      "mostVisited": "最常访问",
+      "dataStored": "数据存储",
+      "name": "名称",
+      "deleteAllData": "删除所有数据",
+      "totalStorageUsedBySites": "网站使用的总存储空间",
+      "totalCount": "总计数",
+      "addNewSite": {
+        "label": "添加新网站",
+        "description": "输入新的网站地址，例如 'www.example.com'，然后点击 '添加'。",
+        "placeholder": "网站地址，例如 'www.example.com'",
+        "add": "添加",
+        "cancel": "取消",
+        "invalidDomain": "无效的网站地址"
+      },
+      "browserSettings": {
+        "label": "浏览器设置",
+        "description": "您可以修改网站设置，如删除数据或更改网站权限。",
+        "goToBrowserSettings": "前往浏览器设置"
+      },
+      "autoDiscardable": {
+        "label": "自动丢弃",
+        "description": "启用后，浏览器将允许丢弃标签页，如果您打开性能并设置丢弃不活跃标签页的时间，标签页将在指定时间后被丢弃。如果禁用，标签页将不会被丢弃。"
+      },
+      "readingProgressBar": {
+        "label": "阅读进度条",
+        "description": "启用后，会在标签页标题栏下方显示阅读进度条。",
+        "globaldisabledTips": "您必须在全局设置中打开阅读进度条才能修改此设置。"
+      },
+      "playingProgressBar": {
+        "label": "播放进度条",
+        "description": "启用后，将在标签标题栏下显示播放进度条。",
+        "globaldisabledTips": "您必须在全局设置中打开播放进度条才能修改此设置。"
+      },
+      "tabSwitchPip": {
+        "label": "切换标签时 PIP",
+        "description": "启用后，切换到带有未静音视频的标签时将自动进入画中画模式。",
+        "globaldisabledTips": "您必须在全局设置中打开画中画模式才能修改此设置。"
+      },
+      "clearHistoyAfterCLose": {
+        "label": "关闭后清除历史记录",
+        "description": "启用后，关闭标签后将清除历史记录。"
+      },
+      "SyncTabs": {
+        "label": "同步标签页",
+        "description": "选择如何同步标签页数据，不包括私人数据，如cookies和个人信息。",
+        "disabled": "已禁用",
+        "uploadOnly": "仅上传",
+        "downloadOnly": "仅下载",
+        "staySynchronized": "保持同步",
+        "globaldisabledTips": "您必须在全局设置中打开同步功能才能修改此设置。"
+      },
+      "SyncPrivateData": {
+        "label": "同步私人数据",
+        "description": "选择如何同步私人数据，如网站cookies、网页本地存储数据、SessionStorage数据等。数据将在同步前进行加密。",
+        "disabled": "已禁用",
+        "uploadOnly": "仅上传",
+        "downloadOnly": "仅下载",
+        "staySynchronized": "保持同步",
+        "globaldisabledTips": "您必须在全局设置中打开同步功能才能修改此设置。"
+      }
+    },
+    "SyncToCloud": {
+      "label": "同步到云端",
+      "SyncNow": "立即同步",
+      "SyncNowWithGoogleDrive": "使用 Google Drive 立即同步",
+      "SyncNowWithDropbox": "使用Dropbox立即同步",
+      "SyncNowWithOneDrive": "使用OneDrive立即同步",
+      "Synchronizing": "同步中...",
+      "SyncedSuccessfully": "同步成功",
+      "SyncFailed": "同步失败",
+      "LoginRequired": "需要登录",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "同步配置",
+        "description": "选择如何同步此扩展的配置。",
+        "disabled": "已禁用",
+        "uploadOnly": "仅上传",
+        "downloadOnly": "仅下载",
+        "staySynchronized": "保持同步"
+      },
+      "SyncTabs": {
+        "label": "同步标签页",
+        "description": "选择如何同步标签页数据，不包括私人数据，如cookies和个人信息。",
+        "disabled": "已禁用",
+        "uploadOnly": "仅上传",
+        "downloadOnly": "仅下载",
+        "staySynchronized": "保持同步"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "同步打开或关闭标签页",
+        "description": "启用后，在不同浏览器中打开或关闭标签页将同步。仅当“保持同步”选项激活时才适用",
+        "OpenOrCloseTabsSynchronouslyWarning": "如果您同时在两个浏览器中使用相同帐户登录并打开此选项，则在一个浏览器中打开或关闭标签页将在另一个浏览器中执行相同操作。如果网站禁止使用相同帐户重复登录，则可能会发生异常情况。"
+      },
+      "SyncPrivateData": {
+        "label": "同步私人数据",
+        "description": "选择如何同步私人数据，如网站cookies、网页本地存储数据、SessionStorage数据等。数据将在同步前进行加密。",
+        "disabled": "已禁用",
+        "uploadOnly": "仅上传",
+        "downloadOnly": "仅下载",
+        "staySynchronized": "保持同步"
       }
     }
   }

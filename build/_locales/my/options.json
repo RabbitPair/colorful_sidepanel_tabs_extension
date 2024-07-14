@@ -56,7 +56,7 @@
       "SidePanelPosition": {
         "label": "အပြင်အလွန်ဖွင့်ပါပြီ",
         "description": "အပြင်အလွန်ဖွင့်ပါပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
-        "goToChromeSettings": "Chrome ဆက်တင်များသို့သွားပါ"
+        "goToBrowserSettings": "Chrome ဆက်တင်များသို့သွားပါ"
       },
       "searchBoxPosition": {
         "label": "ရှာဖွေပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
@@ -78,6 +78,10 @@
         "description": "ခလုတ်အောက်တွင်ရှိပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
         "left": "ဘယ်",
         "right": "ညာ"
+      },
+      "alwaysShowCloseButton": {
+        "label": "အကြောင်းလုပ်ပါပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
+        "description": "အကြောင်းလုပ်ပါပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီး"
       },
       "fullScreenHideSidePanel": {
         "label": "အပြည့်အဝည်းအောက်တွင်ရှိပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
@@ -138,7 +142,7 @@
       "fluentOverlayScrollbars": {
         "label": "အလှပြင်ခြင်းရှိပြီးပြီးအလှပြင်ခြင်းရှိပြီးပြီးအလှပြင်ခြင်းရှိပြီးပြီးအလှပြင်ခြင်းရှိပြီးပြီး",
         "description": "Microsoft Fluent ပုံစံပုံစံအလှပြင်ခြင်းအလှပြင်ခြင်းအလှပြင်ခြင်းအလှပြင်ခြင်းအလှပြင်ခြင်းနှင့်ဝင်ရောက်ပြီးပြီးဝင်ရောက်ပြီးပြီးဝင်ရောက်ပြီးပြီး",
-        "goToChromeSettings": "Chrome ဆက်တင်များသို့သွားပါ"
+        "goToBrowserSettings": "Chrome ဆက်တင်များသို့သွားပါ"
       }
     },
     "tabs": {
@@ -231,7 +235,7 @@
     },
     "shortcuts": {
       "alert": "ဤစာမျက်နှာသည် ပြင်ဆင်ရန်သို့သို့သို့ သင်သွင်းရန် [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] သို့သို့သို့",
-      "goToChromeSettings": "Chrome ဆက်တင်သို့ သွင်းရန်",
+      "goToBrowserSettings": "Chrome ဆက်တင်သို့ သွင်းရန်",
       "_execute_action": "ဤတည်နေရာကို ဖွင့်ရန်",
       "openSidePanel": "အနောက်ပိုင်း ဖွင့်ရန်"
     },
@@ -337,6 +341,115 @@
         "label": "အနီမေးရှင်းများကို ပိတ်ပါ",
         "description": "ရစ်ပဲလ် အကျိုးသက်ရောက်မှုကို ပိတ်ပြီး အပြောင်းအလဲအားလုံးကို ပိတ်ပါ"
       }
+    },
+    "site": {
+      "label": "Site settings",
+      "allSites": "All sites",
+      "sortBy": "Sort by",
+      "mostVisited": "Most visited",
+      "dataStored": "Data stored",
+      "name": "Name",
+      "deleteAllData": "Delete all data",
+      "totalStorageUsedBySites": "Total storage used by sites",
+      "totalCount": "Total count",
+      "addNewSite": {
+        "label": "Add new site",
+        "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
+        "placeholder": "Website address, such as 'www.example.com'",
+        "add": "Add",
+        "cancel": "Cancel",
+        "invalidDomain": "Invalid website address"
+      },
+      "browserSettings": {
+        "label": "Browser settings",
+        "description": "You can modify site settings, such as deleting data or changing site permissions.",
+        "goToBrowserSettings": "Go to browser settings"
+      },
+      "autoDiscardable": {
+        "label": "Auto discardable",
+        "description": "When enabled, the tab will be allowed to be discarded by the browser, and if you turn on performance and set the time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "When enabled, a reading progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the reading progress bar in the global settings to modify this setting."
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "When enabled, a playing progress bar will be displayed below the tab title bar.",
+        "globaldisabledTips": "You must turn on the playing progress bar in the global settings to modify this setting."
+      },
+      "tabSwitchPip": {
+        "label": "PIP on Tab Switch",
+        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
+        "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Clear history after close",
+        "description": "When enabled, the history will be cleared after closing the tab."
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။",
+        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sync to cloud",
+      "SyncNow": "Sync Now",
+      "SyncNowWithGoogleDrive": "Sync Now with Google Drive",
+      "SyncNowWithDropbox": "Sync Now with Dropbox",
+      "SyncNowWithOneDrive": "Sync Now with OneDrive",
+      "Synchronizing": "Synchronizing...",
+      "SyncedSuccessfully": "Synchronized successfully",
+      "SyncFailed": "Synchronization failed",
+      "LoginRequired": "Login required",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sync configs",
+        "description": "Choose how to synchronize this extension's configurations.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Open or close tabs synchronously",
+        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
+        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "Disabled",
+        "uploadOnly": "Upload only",
+        "downloadOnly": "Download only",
+        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+      }
     }
+   
   }
 }

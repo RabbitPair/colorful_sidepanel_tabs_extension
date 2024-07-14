@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozizzjoni tal-panel naħa",
         "description": "Istabli jekk il-panel naħa tkun mniżżla fuq ix-xellug jew fuq ix-xellug.",
-        "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome"
+        "goToBrowserSettings": "Mur għall-impostazzjonijiet tal-Chrome"
       },
       "searchBoxPosition": {
         "label": "Pozizzjoni tal-kaxxa tat-tfittxija",
@@ -79,6 +79,10 @@
         "description": "Istabli l-pozizzjoni tal-buttuni",
         "left": "Le",
         "right": "Dritt"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Uri dejjem il-buttuna ta 'ħruġ",
+        "description": "Meta jkun attivat, il-buttuna ta 'ħruġ se juri dejjem; meta jkun disattivat, il-buttuna ta 'ħruġ se juri biss meta l-imsieħba qiegħed fuq it-tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Aħbi l-panel naħa f'skerm sħiħ",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Scrollbars fluenti",
         "description": "Uża l-istil Microsoft Fluent design scrollbars u jissoprażaw fuq il-kontenut web",
-        "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome"
+        "goToBrowserSettings": "Mur għall-impostazzjonijiet tal-Chrome"
       }
     },
     "tabs": {
@@ -231,7 +235,7 @@
     },
     "shortcuts": {
       "alert": "Dan il-paġna hi għall-viżwalizzazzjoni biss. Biex tmodifika l-kurżuri, żur il-[Estensjonijiet]->[Ikkontrolla Estensjonijiet]->[Kurżuri tal-Keyboard]",
-      "goToChromeSettings": "Mur għall-impostazzjonijiet tal-Chrome",
+      "goToBrowserSettings": "Mur għall-impostazzjonijiet tal-Chrome",
       "_execute_action": "Attiva din l'estensjoni",
       "openSidePanel": "Iftaħ il-panel naħa"
     },
@@ -334,6 +338,114 @@
       "disableAnimations": {
         "label": "Aħnaq l-animazzjonijiet",
         "description": "aħnaq l-effett tal-ripple u aħnaq it-transazzjonijiet kollha"
+      }
+    },
+    "site": {
+      "label": "Settings tal-websajt",
+      "allSites": "Kull websajt",
+      "sortBy": "Sort by",
+      "mostVisited": "Aktar żurati",
+      "dataStored": "Data storata",
+      "name": "Isem",
+      "deleteAllData": "Ħassar kull data",
+      "totalStorageUsedBySites": "Total ta 'storja użata minn websajts",
+      "totalCount": "Total ta 'kuntatt",
+      "addNewSite": {
+        "label": "Żid websajt ġdid",
+        "description": "Daħħal indirizz ta 'websajt ġdid, bħal 'www.example.com', u kklikkja 'Żid'.",
+        "placeholder": "Indirizz ta 'websajt, bħal 'www.example.com'",
+        "add": "Żid",
+        "cancel": "Ikkanċella",
+        "invalidDomain": "Indirizz ta 'websajt invalidu"
+      },
+      "browserSettings": {
+        "label": "Settings tal-browser",
+        "description": "Tista 'timmodifika settings tal-websajt, bħal ħassar data jew tibdil permessi tal-websajt.",
+        "goToBrowserSettings": "Mur għall-settings tal-browser"
+      },
+      "autoDiscardable": {
+        "label": "Auto jidħol biex jinħassar",
+        "description": "Meta jkun attivat, it-tab jingħata permess li jinħassar mill-browser, u jekk tiffaċċja l-iskor ta 'performanza u tistabbilixxi ż-żmien biex tiffranka tabs inattivi, it-tab se jinħassar wara ż-żmien speċifikat. Jekk imxarrab, it-tab ma jinħassarx"
+      },
+      "readingProgressBar": {
+        "label": "Progress bar tal-qari",
+        "description": "Meta jkun attivat, progress bar tal-qari se jidher taħt il-barra tal-ħsieb tal-tab.",
+        "globaldisabledTips": "Għandek bżonn li tiffaċċja l-progress bar tal-qari fil-settings globali biex timmodifika din l-istess."
+      },
+      "playingProgressBar": {
+        "label": "Progress bar tal-logħba",
+        "description": "Meta jkun attivat, progress bar tal-logħba se jidher taħt il-barra tal-ħsieb tal-tab.",
+        "globaldisabledTips": "Għandek bżonn li tiffaċċja l-progress bar tal-logħba fil-settings globali biex timmodifika din l-istess."
+      },
+      "tabSwitchPip": {
+        "label": "PIP fuq Tab Switch",
+        "description": "Meta jkun attivat, auto-daħħal Picture-in-picture meta tibdel tabs b'video li mhumiex imxewwra.",
+        "globaldisabledTips": "Għandek bżonn li tiffaċċja l-Picture-in-picture fil-settings globali biex timmodifika din l-istess."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Ħassar il-istorja wara l-iktar",
+        "description": "Meta jkun attivat, l-istorja se tkun imħassra wara li tiċċerra it-tab."
+      },
+      "SyncTabs": {
+        "label": "Sinsinkronizza tabs",
+        "description": "Agħżel kif tissinkronizza data tal-tab, eskludenti data privata bħal-cookies u informazzjoni personali.",
+        "disabled": "Mxarrab",
+        "uploadOnly": "Upload biss",
+        "downloadOnly": "Niżżel biss",
+        "staySynchronized": "Ibqa 'sinsronizzat",
+        "globaldisabledTips": "Għandek bżonn li tiffaċċja l-sinsinkronizzazzjoni fil-Settings Globali biex timmodifika din l-istess."
+      },
+      "SyncPrivateData": {
+        "label": "Sinsinkronizza data privata",
+        "description": "Agħżel kif tissinkronizza data privata, bħal-cookies tas-sit, data tal-localstorage tal-paġna web, data tal-SessionStorage, eċċ. Id-data se tkun inkriptata qabel is-sinkronizzazzjoni.",
+        "disabled": "Mxarrab",
+        "uploadOnly": "Upload biss",
+        "downloadOnly": "Niżżel biss",
+        "staySynchronized": "Ibqa 'sinsronizzat",
+        "globaldisabledTips": "Għandek bżonn li tiffaċċja l-sinsinkronizzazzjoni fil-Settings Globali biex timmodifika din l-istess."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkronizza mal-ħadid",
+      "SyncNow": "Sinkronizza Issa",
+      "SyncNowWithGoogleDrive": "Sinkronizza Issa permezz ta 'Google Drive",
+      "SyncNowWithDropbox": "Sinkronizza Issa permezz ta 'Dropbox",
+      "SyncNowWithOneDrive": "Sinkronizza Issa permezz ta 'OneDrive",
+      "Synchronizing": "Is-sinkronizzazzjoni...",
+      "SyncedSuccessfully": "Sinkronizzat b'suċċess",
+      "SyncFailed": "Is-sinkronizzazzjoni kkonflitxiet",
+      "LoginRequired": "Għandek bżonn li tidħol",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkronizza konfigurazzjonijiet",
+        "description": "Agħżel kif tissinkronizza l-konfigurazzjonijiet ta 'din l-estensjoni.",
+        "disabled": "Mhux attivat",
+        "uploadOnly": "Upload biss",
+        "downloadOnly": "Niżżel biss",
+        "staySynchronized": "Ibqa 'sinsronizzat"
+      },
+      "SyncTabs": {
+        "label": "Sinkronizza tabs",
+        "description": "Agħżel kif tissinkronizza d-data tal-tab, eskludenti d-data privata bħal-cookies u informazzjoni personali.",
+        "disabled": "Mhux attivat",
+        "uploadOnly": "Upload biss",
+        "downloadOnly": "Niżżel biss",
+        "staySynchronized": "Ibqa 'sinsronizzat"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Iftaħ jew iffranka tabs b'sinċronizzazzjoni",
+        "description": "Meta jkun attivat, l-iftaħ jew iffranka tabs f'browser differenti se jkunu sinċronizzati. Dan japplika biss meta l-għażla 'ibqa' s-sinċronizzat' hija attiva",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jekk tiddħol fil-istess kont f'żewġ browsers fis-saħħa u tħalli din l-għażla fuq, l-iftaħ jew iffranka tabs f'browser se jwettqu l-istess operazzjoni fil-browser ieħor. Jekk il-websajt jipprohibixxi l-loggins ripetuti bil-istess kont, jistgħu jkunu eżempji."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronizza d-data privata",
+        "description": "Agħżel kif tissinkronizza d-data privata, bħal-cookies tas-sit, d-dati tal-localstorage tal-paġna web, d-dati tal-SessionStorage, eċċ. Id-data se tkun inkriptata qabel is-sinkronizzazzjoni.",
+        "disabled": "Mhux attivat",
+        "uploadOnly": "Upload biss",
+        "downloadOnly": "Niżżel biss",
+        "staySynchronized": "Ibqa 'sinsronizzat"
       }
     }
   }

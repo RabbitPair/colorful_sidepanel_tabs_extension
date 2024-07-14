@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Position du volet latéral",
         "description": "Définir si le volet latéral est affiché à gauche ou à droite.",
-        "goToChromeSettings": "Aller aux paramètres de Chrome"
+        "goToBrowserSettings": "Aller aux paramètres de Chrome"
       },
       "searchBoxPosition": {
         "label": "Position de la boîte de recherche",
@@ -79,6 +79,10 @@
         "description": "Définir la position des boutons",
         "left": "Gauche",
         "right": "Droite"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Toujours afficher le bouton de fermeture",
+        "description": "Lorsqu'activé, le bouton de fermeture sera toujours affiché ; lorsqu'il est désactivé, le bouton de fermeture ne s'affichera que lorsque la souris survole l'onglet"
       },
       "fullScreenHideSidePanel": {
         "label": "Masquer le volet latéral en plein écran",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barres de défilement fluides",
         "description": "Utilisez le style de conception Microsoft Fluent pour les barres de défilement et superposez-les sur le contenu Web",
-        "goToChromeSettings": "Aller aux paramètres de Chrome"
+        "goToBrowserSettings": "Aller aux paramètres de Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Cette page est uniquement destinée à l'affichage. Pour modifier les raccourcis, veuillez visiter [Extensions]->[Gérer les extensions]->[Raccourcis clavier]",
-      "goToChromeSettings": "Aller aux paramètres de Chrome",
+      "goToBrowserSettings": "Aller aux paramètres de Chrome",
       "_execute_action": "Activer cette extension",
       "openSidePanel": "Ouvrir le volet latéral"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Désactiver les animations",
         "description": "désactiver l'effet d'ondulation et désactiver toutes les transitions"
+      }
+    },
+    "site": {
+      "label": "Paramètres du site",
+      "allSites": "Tous les sites",
+      "sortBy": "Trier par",
+      "mostVisited": "Les plus visités",
+      "dataStored": "Données stockées",
+      "name": "Nom",
+      "deleteAllData": "Supprimer toutes les données",
+      "totalStorageUsedBySites": "Stockage total utilisé par les sites",
+      "totalCount": "Nombre total",
+      "addNewSite": {
+        "label": "Ajouter un nouveau site",
+        "description": "Entrez une nouvelle adresse de site Web, telle que 'www.example.com', et cliquez sur 'Ajouter'.",
+        "placeholder": "Adresse du site Web, telle que 'www.example.com'",
+        "add": "Ajouter",
+        "cancel": "Annuler",
+        "invalidDomain": "Adresse de site Web invalide"
+      },
+      "browserSettings": {
+        "label": "Paramètres du navigateur",
+        "description": "Vous pouvez modifier les paramètres du site, tels que la suppression des données ou la modification des autorisations du site.",
+        "goToBrowserSettings": "Aller aux paramètres du navigateur"
+      },
+      "autoDiscardable": {
+        "label": "Auto-discardable",
+        "description": "Lorsqu'il est activé, l'onglet pourra être abandonné par le navigateur, et si vous activez les performances et définissez le temps pour abandonner les onglets inactifs, l'onglet sera abandonné après le temps spécifié. S'il est désactivé, l'onglet ne sera pas abandonné"
+      },
+      "readingProgressBar": {
+        "label": "Barre de progression de lecture",
+        "description": "Lorsqu'activé, une barre de progression de lecture sera affichée sous la barre de titre de l'onglet.",
+        "globaldisabledTips": "Vous devez activer la barre de progression de lecture dans les paramètres globaux pour modifier ce paramètre."
+      },
+      "playingProgressBar": {
+        "label": "Barre de progression de lecture",
+        "description": "Lorsqu'activé, une barre de progression de lecture sera affichée sous la barre de titre de l'onglet.",
+        "globaldisabledTips": "Vous devez activer la barre de progression de lecture dans les paramètres globaux pour modifier ce paramètre."
+      },
+      "tabSwitchPip": {
+        "label": "PIP lors du changement d'onglet",
+        "description": "Lorsqu'il est activé, passe automatiquement en mode Picture-in-picture lors du changement d'onglets avec une vidéo non muette.",
+        "globaldisabledTips": "Vous devez activer le mode Picture-in-picture dans les paramètres globaux pour modifier ce paramètre."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Effacer l'historique après la fermeture",
+        "description": "Lorsqu'il est activé, l'historique sera effacé après la fermeture de l'onglet."
+      },
+      "SyncTabs": {
+        "label": "Synchroniser les onglets",
+        "description": "Choisissez comment synchroniser les données des onglets, à l'exclusion des données privées telles que les cookies et les informations personnelles.",
+        "disabled": "Désactivé",
+        "uploadOnly": "Télécharger uniquement",
+        "downloadOnly": "Télécharger uniquement",
+        "staySynchronized": "Rester synchronisé",
+        "globaldisabledTips": "Vous devez activer la synchronisation dans les paramètres globaux pour modifier ce paramètre."
+      },
+      "SyncPrivateData": {
+        "label": "Synchroniser les données privées",
+        "description": "Choisissez comment synchroniser les données privées, telles que les cookies de site Web, les données de stockage local des pages Web, les données de SessionStorage, etc. Les données seront cryptées avant la synchronisation.",
+        "disabled": "Désactivé",
+        "uploadOnly": "Télécharger uniquement",
+        "downloadOnly": "Télécharger uniquement",
+        "staySynchronized": "Rester synchronisé",
+        "globaldisabledTips": "Vous devez activer la synchronisation dans les paramètres globaux pour modifier ce paramètre."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synchroniser avec le cloud",
+      "SyncNow": "Synchroniser maintenant",
+      "SyncNowWithGoogleDrive": "Synchroniser maintenant avec Google Drive",
+      "SyncNowWithDropbox": "Synchroniser maintenant avec Dropbox",
+      "SyncNowWithOneDrive": "Synchroniser maintenant avec OneDrive",
+      "Synchronizing": "Synchronisation en cours...",
+      "SyncedSuccessfully": "Synchronisation réussie",
+      "SyncFailed": "Échec de la synchronisation",
+      "LoginRequired": "Connexion requise",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synchroniser les configurations",
+        "description": "Choisissez comment synchroniser les configurations de cette extension.",
+        "disabled": "Désactivé",
+        "uploadOnly": "Télécharger uniquement",
+        "downloadOnly": "Télécharger uniquement",
+        "staySynchronized": "Rester synchronisé"
+      },
+      "SyncTabs": {
+        "label": "Synchroniser les onglets",
+        "description": "Choisissez comment synchroniser les données des onglets, à l'exclusion des données privées telles que les cookies et les informations personnelles.",
+        "disabled": "Désactivé",
+        "uploadOnly": "Télécharger uniquement",
+        "downloadOnly": "Télécharger uniquement",
+        "staySynchronized": "Rester synchronisé"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Ouvrir ou fermer les onglets de manière synchrone",
+        "description": "Lorsqu'activé, l'ouverture ou la fermeture des onglets dans différents navigateurs sera synchronisée. Cela s'applique uniquement lorsque l'option 'rester synchronisé' est active",
+        "OpenOrCloseTabsSynchronouslyWarning": "Si vous vous connectez au même compte dans deux navigateurs en même temps et activez cette option, l'ouverture ou la fermeture des onglets dans un navigateur effectuera la même opération dans l'autre navigateur. Si le site Web interdit les connexions répétées avec le même compte, des exceptions peuvent se produire."
+      },
+      "SyncPrivateData": {
+        "label": "Synchroniser les données privées",
+        "description": "Choisissez comment synchroniser les données privées, telles que les cookies de site Web, les données de stockage local des pages Web, les données de SessionStorage, etc. Les données seront cryptées avant la synchronisation.",
+        "disabled": "Désactivé",
+        "uploadOnly": "Télécharger uniquement",
+        "downloadOnly": "Télécharger uniquement",
+        "staySynchronized": "Rester synchronisé"
       }
     }
   }

@@ -43,6 +43,7 @@
     "closeTab": "Lap bezárása",
     "CloseOtherTabs": "Egyéb lapok bezárása",
     "CloseSameSiteTabs": "Azonos webhely lapjainak bezárása",
+    "CloseSameSiteOtherTabs": "Azonos webhely más lapjainak bezárása",
     "Reload": "Újratöltés",
     "RestoreTabs": "Lapok visszaállítása",
     "DiscardTab": "Lap eldobása",

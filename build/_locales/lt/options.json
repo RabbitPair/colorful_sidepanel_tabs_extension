@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Šoninės juostos padėtis",
         "description": "Nustatyti, ar šoninė juosta rodoma kairėje, ar dešinėje.",
-        "goToChromeSettings": "Eiti į „Chrome“ nustatymus"
+        "goToBrowserSettings": "Eiti į „Chrome“ nustatymus"
       },
       "searchBoxPosition": {
         "label": "Paieškos laukelio padėtis",
@@ -79,6 +79,10 @@
         "description": "Nustatyti mygtukų padėtį",
         "left": "Kairėje",
         "right": "Dešinėje"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Visada rodyti uždarymo mygtuką",
+        "description": "Įjungus, uždarymo mygtukas visada bus rodomas; išjungus, uždarymo mygtukas bus rodomas tik tada, kai pelės žymeklis bus virš kortelės"
       },
       "fullScreenHideSidePanel": {
         "label": "Slėpti šoninę juostą visame ekrane",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Sklandūs slinkties juostos",
         "description": "Naudoti „Microsoft Fluent“ dizaino stiliaus slinkties juostas ir jas uždėti ant žiniatinklio turinio",
-        "goToChromeSettings": "Eiti į „Chrome“ nustatymus"
+        "goToBrowserSettings": "Eiti į „Chrome“ nustatymus"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Šis puslapis skirtas tik rodyti. Norėdami pakeisti sparčiuosius klavišus, apsilankykite [Plėtiniai]->[Valdyti plėtinius]->[Spartieji klavišai]",
-      "goToChromeSettings": "Eiti į „Chrome“ nustatymus",
+      "goToBrowserSettings": "Eiti į „Chrome“ nustatymus",
       "_execute_action": "Aktyvuoti šį plėtinį",
       "openSidePanel": "Atidaryti šoninę juostą"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Išjungti animacijas",
         "description": "išjungti bangos efektą ir išjungti visas perėjimas"
+      }
+    },
+    "site": {
+      "label": "Svetainės nustatymai",
+      "allSites": "Visos svetainės",
+      "sortBy": "Rūšiuoti pagal",
+      "mostVisited": "Labiausiai lankomos",
+      "dataStored": "Saugomi duomenys",
+      "name": "Vardas",
+      "deleteAllData": "Ištrinti visus duomenis",
+      "totalStorageUsedBySites": "Viso saugojimo vietos, naudojamos svetainėmis",
+      "totalCount": "Viso skaičiaus",
+      "addNewSite": {
+        "label": "Pridėti naują svetainę",
+        "description": "Įveskite naują svetainės adresą, pvz., „www.pavyzdys.com“, ir spustelėkite „Pridėti“.",
+        "placeholder": "Svetainės adresas, pvz., „www.pavyzdys.com“",
+        "add": "Pridėti",
+        "cancel": "Atšaukti",
+        "invalidDomain": "Netinkamas svetainės adresas"
+      },
+      "browserSettings": {
+        "label": "Naršyklės nustatymai",
+        "description": "Galite keisti svetainių nustatymus, pvz., ištrinti duomenis ar pakeisti svetainės leidimus.",
+        "goToBrowserSettings": "Eiti į naršyklės nustatymus"
+      },
+      "autoDiscardable": {
+        "label": "Automatiškai atmestinas",
+        "description": "Įjungus, naršyklė galės atmesti kortelę, ir jei įjungėte veikimo funkciją ir nustatėte laiką atmesti neaktyvias korteles, kortelė bus atmesta po nurodyto laiko. Išjungus, kortelė nebus atmesta"
+      },
+      "readingProgressBar": {
+        "label": "Skaitymo eigos juosta",
+        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma skaitymo eigos juosta.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti skaitymo eigos juostą bendruosiuose nustatymuose."
+      },
+      "playingProgressBar": {
+        "label": "Grojimo eigos juosta",
+        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma grojimo eigos juosta.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti grojimo eigos juostą bendruosiuose nustatymuose."
+      },
+      "tabSwitchPip": {
+        "label": "PIP perjungiant korteles",
+        "description": "Įjungus, automatiškai įjungiamas vaizdas vaizde, kai perjungiama kortelė su nebyliu vaizdo įrašu.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti vaizdą vaizde bendruosiuose nustatymuose."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Išvalyti istoriją uždarius",
+        "description": "Įjungus, istorija bus išvalyta uždarant kortelę."
+      },
+      "SyncTabs": {
+        "label": "Sinchronizuoti korteles",
+        "description": "Pasirinkite, kaip sinchronizuoti kortelių duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
+        "disabled": "Išjungta",
+        "uploadOnly": "Tik įkėlimas",
+        "downloadOnly": "Tik atsisiuntimas",
+        "staySynchronized": "Likti sinchronizuotam",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą bendruosiuose nustatymuose."
+      },
+      "SyncPrivateData": {
+        "label": "Sinchronizuoti privačius duomenis",
+        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, svetainės vietinės saugyklos duomenys, sesijos saugyklos duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
+        "disabled": "Išjungta",
+        "uploadOnly": "Tik įkėlimas",
+        "downloadOnly": "Tik atsisiuntimas",
+        "staySynchronized": "Likti sinchronizuotam",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą bendruosiuose nustatymuose."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinchronizuoti su debesimi",
+      "SyncNow": "Sinchronizuoti dabar",
+      "SyncNowWithGoogleDrive": "Sinchronizuoti dabar su „Google Drive“",
+      "SyncNowWithDropbox": "Sinchronizuoti dabar su „Dropbox“",
+      "SyncNowWithOneDrive": "Sinchronizuoti dabar su „OneDrive“",
+      "Synchronizing": "Sinchronizuojama...",
+      "SyncedSuccessfully": "Sėkmingai sinchronizuota",
+      "SyncFailed": "Sinchronizacija nepavyko",
+      "LoginRequired": "Prisijungimas būtinas",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinchronizuoti konfigūracijas",
+        "description": "Pasirinkite, kaip sinchronizuoti šios plėtinio konfigūracijas.",
+        "disabled": "Išjungta",
+        "uploadOnly": "Tik įkėlimas",
+        "downloadOnly": "Tik atsisiuntimas",
+        "staySynchronized": "Likti sinchronizuotam"
+      },
+      "SyncTabs": {
+        "label": "Sinchronizuoti korteles",
+        "description": "Pasirinkite, kaip sinchronizuoti kortelių duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
+        "disabled": "Išjungta",
+        "uploadOnly": "Tik įkėlimas",
+        "downloadOnly": "Tik atsisiuntimas",
+        "staySynchronized": "Likti sinchronizuotam"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Atidaryti arba uždaryti korteles sinchroniškai",
+        "description": "Įjungus, atidarant arba uždarant korteles skirtinguose naršyklėse bus sinchronizuota. Tai taikoma tik tada, kai aktyvuota parinktis „likti sinchronizuotam“",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jei tuo pačiu metu prisijungiate prie dviejų naršyklės paskyrų ir įjungiate šią parinktį, atidarant arba uždarant korteles vienoje naršyklėje, toks pats veiksmas bus atliktas kitoje naršyklėje. Jei svetainė draudžia kartotinius prisijungimus su ta pačia paskyra, gali kilti išimčių."
+      },
+      "SyncPrivateData": {
+        "label": "Sinchronizuoti privačius duomenis",
+        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, svetainės vietinės saugyklos duomenys, sesijos saugyklos duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
+        "disabled": "Išjungta",
+        "uploadOnly": "Tik įkėlimas",
+        "downloadOnly": "Tik atsisiuntimas",
+        "staySynchronized": "Likti sinchronizuotam"
       }
     }
   }

@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Position der Seitenleiste",
         "description": "Legen Sie fest, ob die Seitenleiste links oder rechts angezeigt wird.",
-        "goToChromeSettings": "Zu den Chrome-Einstellungen gehen"
+        "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
       },
       "searchBoxPosition": {
         "label": "Position der Suchbox",
@@ -79,6 +79,10 @@
         "description": "Legen Sie die Position der Schaltflächen fest",
         "left": "Links",
         "right": "Rechts"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Schließen-Schaltfläche immer anzeigen",
+        "description": "Wenn aktiviert, wird die Schließen-Schaltfläche immer angezeigt; wenn deaktiviert, wird die Schließen-Schaltfläche nur angezeigt, wenn die Maus über dem Tab schwebt"
       },
       "fullScreenHideSidePanel": {
         "label": "Seitenleiste im Vollbild ausblenden",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fließende Scrollleisten",
         "description": "Verwenden Sie das Scrollleisten-Design im Microsoft Fluent-Stil und überlagern Sie es auf dem Webinhalt",
-        "goToChromeSettings": "Zu den Chrome-Einstellungen gehen"
+        "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Diese Seite dient nur zur Anzeige. Um Verknüpfungen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
-      "goToChromeSettings": "Zu den Chrome-Einstellungen gehen",
+      "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen",
       "_execute_action": "Diese Erweiterung aktivieren",
       "openSidePanel": "Seitenleiste öffnen"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Animationen deaktivieren",
         "description": "den Ripple-Effekt und alle Übergänge deaktivieren"
+      }
+    },
+    "site": {
+      "label": "Website-Einstellungen",
+      "allSites": "Alle Websites",
+      "sortBy": "Sortieren nach",
+      "mostVisited": "Am häufigsten besucht",
+      "dataStored": "Gespeicherte Daten",
+      "name": "Name",
+      "deleteAllData": "Alle Daten löschen",
+      "totalStorageUsedBySites": "Insgesamt von Websites verwendeter Speicher",
+      "totalCount": "Gesamtanzahl",
+      "addNewSite": {
+        "label": "Neue Website hinzufügen",
+        "description": "Geben Sie eine neue Website-Adresse ein, z. B. 'www.beispiel.com', und klicken Sie auf 'Hinzufügen'.",
+        "placeholder": "Website-Adresse, z. B. 'www.beispiel.com'",
+        "add": "Hinzufügen",
+        "cancel": "Abbrechen",
+        "invalidDomain": "Ungültige Website-Adresse"
+      },
+      "browserSettings": {
+        "label": "Browser-Einstellungen",
+        "description": "Sie können Website-Einstellungen ändern, z. B. Daten löschen oder Berechtigungen ändern.",
+        "goToBrowserSettings": "Zu den Browsereinstellungen gehen"
+      },
+      "autoDiscardable": {
+        "label": "Automatisch verwerfbar",
+        "description": "Wenn aktiviert, kann die Registerkarte vom Browser verworfen werden. Wenn Sie die Leistung einschalten und die Zeit zum Verwerfen inaktiver Registerkarten festlegen, wird die Registerkarte nach Ablauf der angegebenen Zeit verworfen. Wenn deaktiviert, wird die Registerkarte nicht verworfen."
+      },
+      "readingProgressBar": {
+        "label": "Lese-Fortschrittsleiste",
+        "description": "Wenn aktiviert, wird eine Lese-Fortschrittsleiste unterhalb der Registerkartenüberschrift angezeigt.",
+        "globaldisabledTips": "Sie müssen die Lese-Fortschrittsleiste in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      },
+      "playingProgressBar": {
+        "label": "Abspiel-Fortschrittsleiste",
+        "description": "Wenn aktiviert, wird eine Abspiel-Fortschrittsleiste unterhalb der Registerkartenüberschrift angezeigt.",
+        "globaldisabledTips": "Sie müssen die Abspiel-Fortschrittsleiste in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      },
+      "tabSwitchPip": {
+        "label": "PIP beim Tab-Wechsel",
+        "description": "Wenn aktiviert, wechseln Sie automatisch in den Bild-in-Bild-Modus, wenn Sie Tabs mit einem nicht stummgeschalteten Video wechseln.",
+        "globaldisabledTips": "Sie müssen das Bild-in-Bild in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Verlauf nach Schließen löschen",
+        "description": "Wenn aktiviert, wird der Verlauf nach dem Schließen der Registerkarte gelöscht."
+      },
+      "SyncTabs": {
+        "label": "Tabs synchronisieren",
+        "description": "Wählen Sie aus, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme von privaten Daten wie Cookies und persönlichen Informationen.",
+        "disabled": "Deaktiviert",
+        "uploadOnly": "Nur hochladen",
+        "downloadOnly": "Nur herunterladen",
+        "staySynchronized": "Synchronisiert bleiben",
+        "globaldisabledTips": "Sie müssen die Synchronisierung in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      },
+      "SyncPrivateData": {
+        "label": "Private Daten synchronisieren",
+        "description": "Wählen Sie aus, wie private Daten wie Website-Cookies, lokale Speicherdaten von Webseiten, SessionStorage-Daten usw. vor der Synchronisierung verschlüsselt werden sollen.",
+        "disabled": "Deaktiviert",
+        "uploadOnly": "Nur hochladen",
+        "downloadOnly": "Nur herunterladen",
+        "staySynchronized": "Synchronisiert bleiben",
+        "globaldisabledTips": "Sie müssen die Synchronisierung in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      }
+    },
+    "SyncToCloud": {
+      "label": "In die Cloud synchronisieren",
+      "SyncNow": "Jetzt synchronisieren",
+      "SyncNowWithGoogleDrive": "Jetzt mit Google Drive synchronisieren",
+      "SyncNowWithDropbox": "Jetzt mit Dropbox synchronisieren",
+      "SyncNowWithOneDrive": "Jetzt mit OneDrive synchronisieren",
+      "Synchronizing": "Synchronisierung läuft...",
+      "SyncedSuccessfully": "Erfolgreich synchronisiert",
+      "SyncFailed": "Synchronisierung fehlgeschlagen",
+      "LoginRequired": "Anmeldung erforderlich",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Konfigurationen synchronisieren",
+        "description": "Wählen Sie aus, wie die Konfigurationen dieser Erweiterung synchronisiert werden sollen.",
+        "disabled": "Deaktiviert",
+        "uploadOnly": "Nur hochladen",
+        "downloadOnly": "Nur herunterladen",
+        "staySynchronized": "Synchronisiert bleiben"
+      },
+      "SyncTabs": {
+        "label": "Tabs synchronisieren",
+        "description": "Wählen Sie aus, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme von privaten Daten wie Cookies und persönlichen Informationen.",
+        "disabled": "Deaktiviert",
+        "uploadOnly": "Nur hochladen",
+        "downloadOnly": "Nur herunterladen",
+        "staySynchronized": "Synchronisiert bleiben"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Tabs synchron öffnen oder schließen",
+        "description": "Wenn aktiviert, werden das Öffnen oder Schließen von Tabs in verschiedenen Browsern synchronisiert. Dies gilt nur, wenn die Option 'Synchronisiert bleiben' aktiv ist.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Wenn Sie sich gleichzeitig in zwei Browsern mit demselben Konto anmelden und diese Option aktivieren, werden das Öffnen oder Schließen von Tabs in einem Browser die gleiche Operation im anderen Browser ausführen. Wenn die Website wiederholte Anmeldungen mit demselben Konto verbietet, können Ausnahmen auftreten."
+      },
+      "SyncPrivateData": {
+        "label": "Private Daten synchronisieren",
+        "description": "Wählen Sie aus, wie private Daten wie Website-Cookies, lokale Speicherdaten von Webseiten, SessionStorage-Daten usw. vor der Synchronisierung verschlüsselt werden sollen.",
+        "disabled": "Deaktiviert",
+        "uploadOnly": "Nur hochladen",
+        "downloadOnly": "Nur herunterladen",
+        "staySynchronized": "Synchronisiert bleiben"
       }
     }
   }

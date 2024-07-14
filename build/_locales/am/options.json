@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "የጎን ፓነል አቀማመጥ",
         "description": "ጎን ፓነል በግራ ወይም በቀኝ እንደሚታይ አቀናብር",
-        "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+        "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ"
       },
       "searchBoxPosition": {
         "label": "የፍለጋ ሳጥን አቀማመጥ",
@@ -79,6 +79,10 @@
         "description": "የአዝራር አቀማመጥ አቀናብር",
         "left": "ግራ",
         "right": "ቀኝ"
+      },
+      "alwaysShowCloseButton": {
+        "label": "የማነጋገር አዝግ አለው",
+        "description": "ከተሰማው ገጽ እንደገና የማነጋገር አዝግ እንደሚታይ አሳይን; ከተሰማው ገጽ እንደገና የማነጋገር አዝግ እንደገና በተለያዩ ገጽ ሲሆን እንደሚታይ አሳይን"
       },
       "fullScreenHideSidePanel": {
         "label": "በሙሉ ማያ ገጽ ጎን ፓነልን ሸሽግ",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "የሙሉ እንቅስቃሴ ስኮልባር",
         "description": "የሚንቀሳቀሱ እንቅስቃሴ ስኮልባሮችን ተጠቀምና በድር ይዘት ላይ አስተካክል",
-        "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+        "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "ይህ ገጽ ለማሳየት ብቻ ነው። አጭር መንገዶችን ለማስተካከል እባኮትን [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] ይጎብኙ",
-      "goToChromeSettings": "ወደ ክሮም ቅንብሮች ሂድ",
+      "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ",
       "_execute_action": "ይህን ቅጥር አንቃ",
       "openSidePanel": "ጎን ስርጭት ክፈት"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "አንቀሳቃሽ አቦልክ",
         "description": "የማይንቀሳቀስ ተጽዕኖ እና ሁሉንም ማስተላለፍ አቦልክ"
+      }
+    },
+    "site": {
+      "label": "የድህረ ገጽ ቅንብሮች",
+      "allSites": "ሁሉም ድህረ ገጽዎች",
+      "sortBy": "በምን ቅደም እንደሚቀይር",
+      "mostVisited": "በተመሳሳይ ድህረ ገጽዎች",
+      "dataStored": "የሚታይ መረጃ",
+      "name": "ስም",
+      "deleteAllData": "ሁሉም መረጃዎችን አስወግድ",
+      "totalStorageUsedBySites": "በድህረ ገጽዎች በትክክል የተጠቀሱ የታይታ ቦታ",
+      "totalCount": "በትክክል በትክክል በትክክል",
+      "addNewSite": {
+        "label": "አዲስ ድህረ ገጽ አክል",
+        "description": "አዲስ ድህረ ገጽ አᡀፍር አድርገን፣ ስለግሩ 'www.example.com' ወደሚለው ድህረ ገጽ አድርግ።",
+        "placeholder": "ድህረ ገጽ አᡀፍር፣ ስለግሩ 'www.example.com'",
+        "add": "አክል",
+        "cancel": "ሰርዝ",
+        "invalidDomain": "አዲስ ድህረ ገጽ አᡀፍር"
+      },
+      "browserSettings": {
+        "label": "በትር ማስተካከል",
+        "description": "ድህረ ገጽ ቅንብሮችን ለማስቀመጥ ወይም ለመቀየር በትር ማስተካከል ይችላሉ።",
+        "goToBrowserSettings": "ወደ በትር ማስተካከል ሂደዋል"
+      },
+      "autoDiscardable": {
+        "label": "አቶ ማስቀመጥ የሚችል",
+        "description": "እስከ ነቅቷል የትር በትር ማስቀመጥ የሚችል ለማስቀመጥ ትር በትር ማስቀመጥ ወደ በትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ ማስቀመጥ ይችላሉ። እስከ እንደተከለከለ የትር በትር ማስቀመጥ የሚችል ለማስቀመጥ ትር በትር ማስቀመጥ ወደ በትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ ማስቀመጥ ይችላሉ።"
+      },
+      "readingProgressBar": {
+        "label": "የንባብ አሞሌ",
+        "description": "ሲነቃቃ የንባብ አሞሌ በትር ርዕስ አሞሌ ታች ይታያል።",
+        "globaldisabledTips": "በትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ የንባብ አሞሌን ለመቀየር ወይም ለመረጡ በትር ማስተካከል ይችላሉ።"
+      },
+      "playingProgressBar": {
+        "label": "መጫወቻ አሞሌ",
+        "description": "ሲነቃቃ መጫወቻ አሞሌ በትር ርዕስ አሞሌ ታች ይታያል።",
+        "globaldisabledTips": "በትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ መጫወቻ አሞሌን ለመቀየር ወይም ለመረጡ በትር ማስተካከል ይችላሉ።"
+      },
+      "tabSwitchPip": {
+        "label": "PIP በትር መቀየር",
+        "description": "ከተቀየረው ስለሚቀየር፣ ከተቀየረው ትር ከተጠቀሰ ጊዜ እናንተን ማስቀመጥ ይችላል።",
+        "globaldisabledTips": "እንደትር ማስተካከል ከተጠቀሰ ጊዜ ለመቀየር ወይም ለመረጡ የትር መቀየርን ማስቀመጥ ይችላል።"
+      },
+      "clearHistoyAfterCLose": {
+        "label": "በማያወራው ሳጥን ከተማረረበት በኋላ ታትም የታለፈ ታሪክ",
+        "description": "ከተማረረበት በኋላ ታትም የታለፈ ታሪክ በትር ርዕስ አሞሌ ታች ይታያል።"
+      },
+      "SyncTabs": {
+        "label": "ትንተና ትርጉም",
+        "description": "ለትርጉም የትንተና መረጃዎችን ምን ለማስቀመጥ ይምረጡ። የግል መረጃዎች እና ግል ስለሚሆን የትንተና መረጃዎችን ምን ለማስቀመጥ ይምረጡ።",
+        "disabled": "እንደተሰማሁ",
+        "uploadOnly": "በማለፍያ",
+        "downloadOnly": "በማለፍያ",
+        "staySynchronized": "በትር ርዕስ ይችላሉ",
+        "globaldisabledTips": "እባኮ በትር ማስተካከል እንደተሰማሁ ይሞክሩ።"
+      },
+      "SyncPrivateData": {
+        "label": "የግል መረጃዎችን ትንተና",
+        "description": "ምን ለመረጡ የግል መረጃዎችን ትንተና ለማስቀመጥ ይምረጡ። ስለግሩ የግል መረጃዎችን ትንተና ለማስቀመጥ ወደ ትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ የግል መረጃዎችን ትንተና ይችላሉ።",
+        "disabled": "እንደተሰማሁ",
+        "uploadOnly": "በማለፍያ",
+        "downloadOnly": "በማለፍያ",
+        "staySynchronized": "በትር ርዕስ ይችላሉ",
+        "globaldisabledTips": "እንደትር ማስተካከል ከተጠቀሰ ጊዜ ለመቀየር ወይም ለመረጡ የግል መረጃዎችን ትንተና ይችላሉ።"
+      }
+    },
+    "SyncToCloud": {
+      "label": "በማህበረሰብ ትርጉም",
+      "SyncNow": "ትርጉም አሁን",
+      "SyncNowWithGoogleDrive": "ትርጉም አሁን ከ Google Drive",
+      "SyncNowWithDropbox": "ትርጉም አሁን ከ Dropbox",
+      "SyncNowWithOneDrive": "ትርጉም አሁን ከ OneDrive",
+      "Synchronizing": "ትርጉም ለማለፍ...",
+      "SyncedSuccessfully": "ትርጉም ተሳክቷል",
+      "SyncFailed": "ትርጉም አልተሳክም",
+      "LoginRequired": "ይህንን ማስገባት ይዘምሩ",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "ትርጉም ቅንብሮች",
+        "description": "ይህንን ትርጉም ቅንብሮች ምረጡ።",
+        "disabled": "እንደተሰማሁ",
+        "uploadOnly": "በማለፍያ",
+        "downloadOnly": "በማለፍያ",
+        "staySynchronized": "በትር ርዕስ ይችላሉ"
+      },
+      "SyncTabs": {
+        "label": "ትርጉም ትርጉም",
+        "description": "ምርጡ እናንተን ከትር መቀየር የትር መቀየርን ማስቀመጥ ይምረጡ። የግል መረጃዎች እና ግል ስለሚሆን የትርጉም መረጃዎችን ምርጡ።",
+        "disabled": "እንደተሰማሁ",
+        "uploadOnly": "በማለፍያ",
+        "downloadOnly": "በማለፍያ",
+        "staySynchronized": "በትር ርዕስ ይችላሉ"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "ትንተና ወደተማለፈ ወደተማለፈ ታሪክዎች በትር ርዕስ ይታያሉ",
+        "description": "እንደተማለፈ ለትር ርዕስ ወደተማለፈ ወደተማለፈ ታሪክዎች በትር ርዕስ ይታያሉ። ይህ በትር ርዕስ ወደተማለፈ ወደተማለፈ ታሪክዎች በትር ርዕስ ይታያሉ በማለፍያ ይምረጡ።",
+        "OpenOrCloseTabsSynchronouslyWarning": "እንደተማለፈ እናንተን በትር ርዕስ ወደተማለፈ ወደተማለፈ ታሪክዎች በትር ርዕስ ይታያሉ። እናንተ ሁሉንም በአንድ በርካታ በትር ርዕስ በአንድ በርካታ ታሪክ በትር ርዕስ ይታያሉ። እስከ የድርጅ መረጃ አልተሰማም እናንተን በትር ርዕስ ወደተማለፈ ወደተማለፈ ታሪክዎች በትር ርዕስ ይታያሉ።"
+      },
+      "SyncPrivateData": {
+        "label": "የግል መረጃዎችን ትንተና",
+        "description": "ምን ለመረጡ የግል መረጃዎችን ትንተና ለማስቀመጥ ይምረጡ። ስለግሩ የግል መረጃዎችን ትንተና ለማስቀመጥ ወደ ትር ማስተካከል ከተጠቀሰ ጊዜ በኋላ የግል መረጃዎችን ትንተና ይችላሉ።",
+        "disabled": "እንደተሰማሁ",
+        "uploadOnly": "በማለፍያ",
+        "downloadOnly": "በማለፍያ",
+        "staySynchronized": "በትር ርዕስ ይችላሉ"
       }
     }
   }

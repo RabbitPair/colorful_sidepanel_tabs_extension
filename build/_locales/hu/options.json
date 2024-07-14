@@ -55,7 +55,7 @@
       "SidePanelPosition": {
         "label": "Oldalpanel pozíciója",
         "description": "Állítsa be, hogy az oldalpanel bal vagy jobb oldalon jelenjen meg.",
-        "goToChromeSettings": "Ugrás a Chrome beállításokhoz"
+        "goToBrowserSettings": "Ugrás a Chrome beállításokhoz"
       },
       "searchBoxPosition": {
         "label": "Keresőmező pozíciója",
@@ -72,6 +72,10 @@
       "buttonPosition": {
         "label": "Gomb pozíciója",
         "description": "Állítsa be a gombok pozícióját"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Mindig mutassa a bezárás gombot",
+        "description": "Amikor engedélyezve van, a bezárás gomb mindig látható lesz; amikor letiltva van, a bezárás gomb csak akkor jelenik meg, amikor az egér a lap felett van"
       },
       "fullScreenHideSidePanel": {
         "label": "Oldalpanel elrejtése teljes képernyőn",
@@ -194,7 +198,7 @@
     },
     "shortcuts": {
       "alert": "Ez az oldal csak megjelenítésre szolgál. A gyorsbillentyűk módosításához kérjük, látogasson el az [Bővítmények]->[Bővítmények kezelése]->[Billentyűparancsok] menübe",
-      "goToChromeSettings": "Ugrás a Chrome beállításokhoz",
+      "goToBrowserSettings": "Ugrás a Chrome beállításokhoz",
       "_execute_action": "Bővítmény aktiválása",
       "openSidePanel": "Oldalpanel megnyitása"
     },
@@ -258,8 +262,7 @@
         "label": "Lebegő gomb engedélyezése",
         "description": "Amikor az oldalpanel zárva van, egy lebegő gomb jelenik meg az oldal jobb oldalán, amely lehetővé teszi az oldalpanel gyors megnyitását"
       }
-    }
-    ,
+    },
     "performance": {
       "label": "Teljesítmény",
       "saveMemoryAction": {
@@ -283,6 +286,113 @@
       "disableAnimations": {
         "label": "Animációk letiltása",
         "description": "letiltja a hullámhatást és az összes átmenetet"
+      }
+    },
+    "site": {
+      "label": "Webhely beállítások",
+      "allSites": "Minden webhely",
+      "sortBy": "Rendezés",
+      "mostVisited": "Leglátogatottabb",
+      "dataStored": "Tárolt adatok",
+      "name": "Név",
+      "deleteAllData": "Minden adat törlése",
+      "totalStorageUsedBySites": "Webhelyek által használt össz tárhely",
+      "totalCount": "Összes szám",
+      "addNewSite": {
+        "label": "Új webhely hozzáadása",
+        "description": "Adjon meg egy új webhely címet, például 'www.pelda.com', majd kattintson az 'Hozzáadás' gombra.",
+        "placeholder": "Webhely címe, például 'www.pelda.com'",
+        "add": "Hozzáadás",
+        "cancel": "Mégse",
+        "invalidDomain": "Érvénytelen webhely cím"
+      },
+      "browserSettings": {
+        "label": "Böngésző beállítások",
+        "description": "Módosíthatja a webhely beállításokat, például adatok törlése vagy webhely engedélyek módosítása.",
+        "goToBrowserSettings": "Ugrás a böngésző beállításokhoz"
+      },
+      "autoDiscardable": {
+        "label": "Automatikusan eldobható",
+        "description": "Amikor engedélyezve van, a lapot a böngésző eldobhatja, és ha bekapcsolja a teljesítményt, és beállítja az inaktív lapok eldobásának idejét, a lapot az előírt idő után el fogják dobni. Ha letiltva van, a lapot nem fogják eldobni"
+      },
+      "readingProgressBar": {
+        "label": "Olvasási előrehaladási sáv",
+        "description": "Amikor engedélyezve van, egy olvasási előrehaladási sáv jelenik meg a lap cím sávja alatt.",
+        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia az olvasási előrehaladási sávot ennek a beállításnak a módosításához."
+      },
+      "playingProgressBar": {
+        "label": "Lejátszási előrehaladási sáv",
+        "description": "Amikor engedélyezve van, egy lejátszási előrehaladási sáv jelenik meg a lap cím sávja alatt.",
+        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a lejátszási előrehaladási sávot ennek a beállításnak a módosításához."
+      },
+      "tabSwitchPip": {
+        "label": "PIP a lapváltáskor",
+        "description": "Amikor engedélyezve van, automatikusan belép a Kép a képben módba, amikor egy lapváltáskor egy nem lenémított videót talál."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Előzmények törlése a lap bezárása után",
+        "description": "Amikor engedélyezve van, az előzmények törlődnek a lap bezárása után."
+      },
+      "SyncTabs": {
+        "label": "Lapok szinkronizálása",
+        "description": "Válassza ki, hogyan szeretné szinkronizálni a lapadatokat, kivéve a cookie-kat és személyes információkat.",
+        "disabled": "Letiltva",
+        "uploadOnly": "Csak feltöltés",
+        "downloadOnly": "Csak letöltés",
+        "staySynchronized": "Szinkronban tartás",
+        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a szinkronizálást ennek a beállításnak a módosításához."
+      },
+      "SyncPrivateData": {
+        "label": "Személyes adatok szinkronizálása",
+        "description": "Válassza ki, hogyan szeretné szinkronizálni a személyes adatokat, például a webhely cookie-kat, a weboldal helyi tároló adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
+        "disabled": "Letiltva",
+        "uploadOnly": "Csak feltöltés",
+        "downloadOnly": "Csak letöltés",
+        "staySynchronized": "Szinkronban tartás",
+        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a szinkronizálást ennek a beállításnak a módosításához."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Felhőszinkronizálás",
+      "SyncNow": "Szinkronizálás most",
+      "SyncNowWithGoogleDrive": "Szinkronizálás most Google Drive-dal",
+      "SyncNowWithDropbox": "Szinkronizálás most Dropbox-szal",
+      "SyncNowWithOneDrive": "Szinkronizálás most OneDrive-dal",
+      "Synchronizing": "Szinkronizálás folyamatban...",
+      "SyncedSuccessfully": "Sikeres szinkronizálás",
+      "SyncFailed": "Szinkronizálás sikertelen",
+      "LoginRequired": "Bejelentkezés szükséges",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Konfigurációk szinkronizálása",
+        "description": "Válassza ki, hogyan szeretné szinkronizálni a bővítmény konfigurációit.",
+        "disabled": "Letiltva",
+        "uploadOnly": "Csak feltöltés",
+        "downloadOnly": "Csak letöltés",
+        "staySynchronized": "Szinkronban tartás"
+      },
+      "SyncTabs": {
+        "label": "Lapok szinkronizálása",
+        "description": "Válassza ki, hogyan szeretné szinkronizálni a lapadatokat, kivéve a cookie-kat és személyes információkat.",
+        "disabled": "Letiltva",
+        "uploadOnly": "Csak feltöltés",
+        "downloadOnly": "Csak letöltés",
+        "staySynchronized": "Szinkronban tartás"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Lapok egyidejű megnyitása vagy bezárása",
+        "description": "Amikor engedélyezve van, a különböző böngészőkben történő lapok megnyitása vagy bezárása szinkronizálva lesz. Ez csak akkor érvényes, ha az „Szinkronban tartás” opció aktív.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ha ugyanazzal a fiókkal jelentkezik be két böngészőben egyszerre, és bekapcsolja ezt az opciót, akkor az egyik böngészőben történő lapok megnyitása vagy bezárása ugyanezt a műveletet fogja végrehajtani a másik böngészőben. Ha a webhely megtiltja a többszöri bejelentkezést ugyanazzal a fiókkal, kivételek fordulhatnak elő."
+      },
+      "SyncPrivateData": {
+        "label": "Személyes adatok szinkronizálása",
+        "description": "Válassza ki, hogyan szeretné szinkronizálni a személyes adatokat, például a webhely cookie-kat, a weboldal helyi tároló adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
+        "disabled": "Letiltva",
+        "uploadOnly": "Csak feltöltés",
+        "downloadOnly": "Csak letöltés",
+        "staySynchronized": "Szinkronban tartás"
       }
     }
   }

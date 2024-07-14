@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Poziția panoului lateral",
         "description": "Setați dacă panoul lateral este afișat în stânga sau în dreapta.",
-        "goToChromeSettings": "Accesați setările Chrome"
+        "goToBrowserSettings": "Accesați setările Chrome"
       },
       "searchBoxPosition": {
         "label": "Poziția casetei de căutare",
@@ -79,6 +79,10 @@
         "description": "Setați poziția butoanelor",
         "left": "Stânga",
         "right": "Dreapta"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Întotdeauna afișați butonul de închidere",
+        "description": "Când este activat, butonul de închidere va fi întotdeauna afișat; când este dezactivat, butonul de închidere va fi afișat doar atunci când mouse-ul planează deasupra filei"
       },
       "fullScreenHideSidePanel": {
         "label": "Ascundeți panoul lateral în ecran complet",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Bare de derulare Fluent",
         "description": "Utilizați bare de derulare în stilul Microsoft Fluent și suprapuneți-le pe conținutul web",
-        "goToChromeSettings": "Accesați setările Chrome"
+        "goToBrowserSettings": "Accesați setările Chrome"
       }
     },
     "tabs": {
@@ -228,7 +232,7 @@
     },
     "shortcuts": {
       "alert": "Această pagină este doar pentru afișare. Pentru a modifica scurtăturile, vă rugăm să vizitați [Extensii]->[Gestionați extensiile]->[Scurtături de la tastatură]",
-      "goToChromeSettings": "Accesați setările Chrome",
+      "goToBrowserSettings": "Accesați setările Chrome",
       "_execute_action": "Activați această extensie",
       "openSidePanel": "Deschideți panoul lateral"
     },
@@ -333,6 +337,114 @@
       "disableAnimations": {
         "label": "Dezactivați animațiile",
         "description": "dezactivați efectul de unduire și dezactivați toate tranzițiile"
+      }
+    },
+    "site": {
+      "label": "Setări site",
+      "allSites": "Toate site-urile",
+      "sortBy": "Sortează după",
+      "mostVisited": "Cele mai vizitate",
+      "dataStored": "Date stocate",
+      "name": "Nume",
+      "deleteAllData": "Ștergeți toate datele",
+      "totalStorageUsedBySites": "Totalul stocării utilizate de site-uri",
+      "totalCount": "Total cont",
+      "addNewSite": {
+        "label": "Adăugați un site nou",
+        "description": "Introduceți o adresă web nouă, cum ar fi 'www.example.com', și faceți clic pe 'Adăugați'.",
+        "placeholder": "Adresă site web, cum ar fi 'www.example.com'",
+        "add": "Adăugați",
+        "cancel": "Anulați",
+        "invalidDomain": "Adresă web invalidă"
+      },
+      "browserSettings": {
+        "label": "Setări browser",
+        "description": "Puteți modifica setările site-ului, cum ar fi ștergerea datelor sau schimbarea permisiunilor site-ului.",
+        "goToBrowserSettings": "Mergeți la setările browser-ului"
+      },
+      "autoDiscardable": {
+        "label": "Auto eliminabil",
+        "description": "Când este activat, fila va fi permisă să fie eliminată de browser, iar dacă activați performanța și setați timpul pentru a elimina filele inactive, fila va fi eliminată după timpul specificat. Dacă este dezactivat, fila nu va fi eliminată"
+      },
+      "readingProgressBar": {
+        "label": "Bară de progres pentru citire",
+        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei.",
+        "globaldisabledTips": "Trebuie să activați bara de progres pentru citire în setările globale pentru a modifica această setare."
+      },
+      "playingProgressBar": {
+        "label": "Bară de progres pentru redare",
+        "description": "Când este activat, o bară de progres pentru redare va fi afișată sub bara de titlu a filei.",
+        "globaldisabledTips": "Trebuie să activați bara de progres pentru redare în setările globale pentru a modifica această setare."
+      },
+      "tabSwitchPip": {
+        "label": "PIP la comutarea filelor",
+        "description": "Când este activat, intrați automat în modul Picture-in-picture când comutați filele cu un videoclip nemutat.",
+        "globaldisabledTips": "Trebuie să activați Picture-in-picture în setările globale pentru a modifica această setare."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Ștergeți istoricul după închidere",
+        "description": "Când este activat, istoricul va fi șters după închiderea filei."
+      },
+      "SyncTabs": {
+        "label": "Sincronizați filele",
+        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private cum ar fi cookie-urile și informațiile personale.",
+        "disabled": "Dezactivat",
+        "uploadOnly": "Doar încărcare",
+        "downloadOnly": "Doar descărcare",
+        "staySynchronized": "Rămâneți sincronizat",
+        "globaldisabledTips": "Trebuie să activați sincronizarea în Setările globale pentru a modifica această setare."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizați datele private",
+        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage, etc. Datele vor fi criptate înainte de sincronizare.",
+        "disabled": "Dezactivat",
+        "uploadOnly": "Doar încărcare",
+        "downloadOnly": "Doar descărcare",
+        "staySynchronized": "Rămâneți sincronizat",
+        "globaldisabledTips": "Trebuie să activați sincronizarea în Setările globale pentru a modifica această setare."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronizați cu norul",
+      "SyncNow": "Sincronizați acum",
+      "SyncNowWithGoogleDrive": "Sincronizați acum cu Google Drive",
+      "SyncNowWithDropbox": "Sincronizați acum cu Dropbox",
+      "SyncNowWithOneDrive": "Sincronizați acum cu OneDrive",
+      "Synchronizing": "Se sincronizează...",
+      "SyncedSuccessfully": "Sincronizat cu succes",
+      "SyncFailed": "Sincronizare eșuată",
+      "LoginRequired": "Autentificare necesară",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sincronizați configurațiile",
+        "description": "Alegeți cum să sincronizați configurațiile acestei extensii.",
+        "disabled": "Dezactivat",
+        "uploadOnly": "Doar încărcare",
+        "downloadOnly": "Doar descărcare",
+        "staySynchronized": "Rămâneți sincronizat"
+      },
+      "SyncTabs": {
+        "label": "Sincronizați filele",
+        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private cum ar fi cookie-urile și informațiile personale.",
+        "disabled": "Dezactivat",
+        "uploadOnly": "Doar încărcare",
+        "downloadOnly": "Doar descărcare",
+        "staySynchronized": "Rămâneți sincronizat"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Deschideți sau închideți filele în mod sincron",
+        "description": "Când este activat, deschiderea sau închiderea filelor în diferite browsere va fi sincronizată. Acest lucru se aplică doar atunci când opțiunea 'rămâneți sincronizat' este activă",
+        "OpenOrCloseTabsSynchronouslyWarning": "Dacă vă conectați la același cont în două browsere în același timp și activați această opțiune, deschiderea sau închiderea filelor într-un browser va efectua aceeași operație în celălalt browser. Dacă site-ul interzice logările repetate cu același cont, pot apărea excepții."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizați datele private",
+        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage, etc. Datele vor fi criptate înainte de sincronizare.",
+        "disabled": "Dezactivat",
+        "uploadOnly": "Doar încărcare",
+        "downloadOnly": "Doar descărcare",
+        "staySynchronized": "Rămâneți sincronizat"
       }
     }
   }

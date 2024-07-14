@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Staðsetning hliðarpanels",
         "description": "Stilltu hvort hliðarpanel sé birt vinstra megin eða hægra megin.",
-        "goToChromeSettings": "Fara í stillingar Chrome"
+        "goToBrowserSettings": "Fara í stillingar Chrome"
       },
       "searchBoxPosition": {
         "label": "Staðsetning leitarbox",
@@ -79,6 +79,10 @@
         "description": "Stilltu staðsetningu hnappa",
         "left": "Vinstri",
         "right": "Hægri"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Alltaf sýna loka hnapp",
+        "description": "Þegar virkt, mun loka hnappurinn alltaf birtast; þegar óvirkt, mun loka hnappurinn birtast aðeins þegar músinni er yfir flipanum"
       },
       "fullScreenHideSidePanel": {
         "label": "Fela hliðarpanel í fullskjá",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fljótandi rúllustikur",
         "description": "Notaðu stíl rúllustika Microsoft Fluent hönnunar og birtu þær yfir vefinn",
-        "goToChromeSettings": "Fara í stillingar Chrome"
+        "goToBrowserSettings": "Fara í stillingar Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Þessi síða er einungis til sýnis. Til að breyta flýtileiðum, vinsamlegast heimsækja [Viðbætur]->[Stjórna viðbótum]->[Lyklaborðsflýtileiðir]",
-      "goToChromeSettings": "Fara í stillingar Chrome",
+      "goToBrowserSettings": "Fara í stillingar Chrome",
       "_execute_action": "Virkja þessa viðbót",
       "openSidePanel": "Opna hliðarpanel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Afvirkja flutningar",
         "description": "Afvirkja bylgjuefnið og öll flutninga"
+      }
+    },
+    "site": {
+      "label": "Stillingar síðu",
+      "allSites": "Allar síður",
+      "sortBy": "Raða eftir",
+      "mostVisited": "Mest heimsótt",
+      "dataStored": "Gögn geymd",
+      "name": "Nafn",
+      "deleteAllData": "Eyða öllum gögnum",
+      "totalStorageUsedBySites": "Heildar geymsla sem notuð er af síðum",
+      "totalCount": "Heildarfjöldi",
+      "addNewSite": {
+        "label": "Bæta við nýrri síðu",
+        "description": "Sláðu inn vefslóð á nýja síðu, svo sem 'www.dæmi.is', og smelltu á 'Bæta við'.",
+        "placeholder": "Vefslóð, svo sem 'www.dæmi.is'",
+        "add": "Bæta við",
+        "cancel": "Hætta við",
+        "invalidDomain": "Ógild vefslóð"
+      },
+      "browserSettings": {
+        "label": "Vafra stillingar",
+        "description": "Þú getur breytt stillingum síðu, svo sem að eyða gögnum eða breyta leyfum síðu.",
+        "goToBrowserSettings": "Fara í vafra stillingar"
+      },
+      "autoDiscardable": {
+        "label": "Sjálfvirk hending",
+        "description": "Þegar virkt, verður hægt að henda flipanum með vafra, og ef þú kveikir á framför og stillir tímann til að henda óvirkum flipum, verður flipinn hentur eftir tiltekinn tíma. Ef óvirkjað, verður flipinn ekki hentur"
+      },
+      "readingProgressBar": {
+        "label": "Lesningarfremgangsstika",
+        "description": "Þegar virkt, verður lesningarfremgangsstika sýnd fyrir neðan flipatitilinn.",
+        "globaldisabledTips": "Þú verður að kveikja á lesningarfremgangsstiku í almennum stillingum til að breyta þessari stillingu."
+      },
+      "playingProgressBar": {
+        "label": "Spilunarfremgangsstika",
+        "description": "Þegar virkt, verður spilunarfremgangsstika sýnd fyrir neðan flipatitilinn.",
+        "globaldisabledTips": "Þú verður að kveikja á spilunarfremgangsstiku í almennum stillingum til að breyta þessari stillingu."
+      },
+      "tabSwitchPip": {
+        "label": "PIP við flipaskipti",
+        "description": "Þegar virkt, verður sjálfvirkur innsláttur í mynd í mynd þegar skipt er á milli flipa með óhljóðaðri myndbandi.",
+        "globaldisabledTips": "Þú verður að kveikja á mynd í mynd í almennum stillingum til að breyta þessari stillingu."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Hreinsa sögu eftir loka",
+        "description": "Þegar virkt, verður saga hreinsuð eftir að flipinn er lokaður."
+      },
+      "SyncTabs": {
+        "label": "Samkeyra flipa",
+        "description": "Veldu hvernig á að samkeyra gögn flipa, nema einkagögn eins og kökur og persónuupplýsingar.",
+        "disabled": "Óvirk",
+        "uploadOnly": "Aðeins upphleðsla",
+        "downloadOnly": "Aðeins niðurhal",
+        "staySynchronized": "Haltu samkeyrslu",
+        "globaldisabledTips": "Þú verður að kveikja á samkeyrslu í almennum stillingum til að breyta þessari stillingu."
+      },
+      "SyncPrivateData": {
+        "label": "Samkeyra einkagögn",
+        "description": "Veldu hvernig á að samkeyra einkagögn, eins og vefsíðu kökur, gagnagrunn síðu á vefnum, SessionStorage gögn o.s.frv. Gögnin verða dulkóðuð áður en samkeyrsla verður framkvæmd.",
+        "disabled": "Óvirk",
+        "uploadOnly": "Aðeins upphleðsla",
+        "downloadOnly": "Aðeins niðurhal",
+        "staySynchronized": "Haltu samkeyrslu",
+        "globaldisabledTips": "Þú verður að kveikja á samkeyrslu í almennum stillingum til að breyta þessari stillingu."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Samkeyra í skýið",
+      "SyncNow": "Samkeyra núna",
+      "SyncNowWithGoogleDrive": "Samkeyra núna með Google Drive",
+      "SyncNowWithDropbox": "Samkeyra núna með Dropbox",
+      "SyncNowWithOneDrive": "Samkeyra núna með OneDrive",
+      "Synchronizing": "Að samkeyra...",
+      "SyncedSuccessfully": "Samkeyrsla tókst",
+      "SyncFailed": "Samkeyrsla mistókst",
+      "LoginRequired": "Þarf að skrá sig inn",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Stilla samkeyrslu",
+        "description": "Veldu hvernig á að samkeyra stillingar þessa viðbótar.",
+        "disabled": "Óvirk",
+        "uploadOnly": "Aðeins upphleðsla",
+        "downloadOnly": "Aðeins niðurhal",
+        "staySynchronized": "Haltu samkeyrslu"
+      },
+      "SyncTabs": {
+        "label": "Samkeyra flipa",
+        "description": "Veldu hvernig á að samkeyra gögn flipa, nema einkagögn eins og kökur og persónuupplýsingar.",
+        "disabled": "Óvirk",
+        "uploadOnly": "Aðeins upphleðsla",
+        "downloadOnly": "Aðeins niðurhal",
+        "staySynchronized": "Haltu samkeyrslu"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Opna eða loka flipum samstundis",
+        "description": "Ef virkt, verða opnun eða lokun flipa í mismunandi vafra samkeyrð. Þetta á við aðeins þegar valkosturinn 'haltu samkeyrslu' er virkur",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ef þú skráir þig inn á sama reikning í tveimur vöfum á sama tíma og snýr þessum valkost á, mun opna eða loka flipum í einum vafra framkvæma sömu aðgerð í hinum vafra. Ef vefsíðan bannar endurteknar innskráningar með sama reikningi, geta undantekningar orðið."
+      },
+      "SyncPrivateData": {
+        "label": "Samkeyra einkagögn",
+        "description": "Veldu hvernig á að samkeyra einkagögn, eins og vefsíðu kökur, gagnagrunn síðu á vefnum, SessionStorage gögn o.s.frv. Gögnin verða dulkóðuð áður en samkeyrsla verður framkvæmd.",
+        "disabled": "Óvirk",
+        "uploadOnly": "Aðeins upphleðsla",
+        "downloadOnly": "Aðeins niðurhal",
+        "staySynchronized": "Haltu samkeyrslu"
       }
     }
   }

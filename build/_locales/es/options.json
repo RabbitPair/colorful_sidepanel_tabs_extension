@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posición del panel lateral",
         "description": "Establecer si el panel lateral se muestra a la izquierda o a la derecha.",
-        "goToChromeSettings": "Ir a la configuración de Chrome"
+        "goToBrowserSettings": "Ir a la configuración de Chrome"
       },
       "searchBoxPosition": {
         "label": "Posición de la caja de búsqueda",
@@ -79,6 +79,10 @@
         "description": "Establecer la posición de los botones",
         "left": "Izquierda",
         "right": "Derecha"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Mostrar siempre el botón de cerrar",
+        "description": "Cuando está habilitado, el botón de cerrar siempre se mostrará; cuando está deshabilitado, el botón de cerrar solo se mostrará cuando el mouse esté sobre la pestaña"
       },
       "fullScreenHideSidePanel": {
         "label": "Ocultar panel lateral en pantalla completa",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barras de desplazamiento fluidas",
         "description": "Utilizar el estilo de diseño Microsoft Fluent para las barras de desplazamiento y superponerlas en el contenido web",
-        "goToChromeSettings": "Ir a la configuración de Chrome"
+        "goToBrowserSettings": "Ir a la configuración de Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Esta página es solo para visualización. Para modificar atajos, visita [Extensiones]->[Gestionar extensiones]->[Atajos de teclado]",
-      "goToChromeSettings": "Ir a la configuración de Chrome",
+      "goToBrowserSettings": "Ir a la configuración de Chrome",
       "_execute_action": "Activar esta extensión",
       "openSidePanel": "Abrir panel lateral"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Deshabilitar animaciones",
         "description": "deshabilitar el efecto de ondulación y deshabilitar todas las transiciones"
+      }
+    },
+    "site": {
+      "label": "Configuración del sitio",
+      "allSites": "Todos los sitios",
+      "sortBy": "Ordenar por",
+      "mostVisited": "Más visitados",
+      "dataStored": "Datos almacenados",
+      "name": "Nombre",
+      "deleteAllData": "Eliminar todos los datos",
+      "totalStorageUsedBySites": "Total de almacenamiento utilizado por los sitios",
+      "totalCount": "Recuento total",
+      "addNewSite": {
+        "label": "Agregar nuevo sitio",
+        "description": "Ingresa una nueva dirección web, como 'www.ejemplo.com', y haz clic en 'Agregar'.",
+        "placeholder": "Dirección del sitio web, como 'www.ejemplo.com'",
+        "add": "Agregar",
+        "cancel": "Cancelar",
+        "invalidDomain": "Dirección web no válida"
+      },
+      "browserSettings": {
+        "label": "Configuración del navegador",
+        "description": "Puedes modificar la configuración del sitio, como eliminar datos o cambiar permisos del sitio.",
+        "goToBrowserSettings": "Ir a la configuración del navegador"
+      },
+      "autoDiscardable": {
+        "label": "Descartable automáticamente",
+        "description": "Cuando está habilitado, la pestaña podrá ser descartada por el navegador, y si activas el rendimiento y estableces el tiempo para descartar pestañas inactivas, la pestaña se descartará después del tiempo especificado. Si está deshabilitado, la pestaña no se descartará"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña.",
+        "globaldisabledTips": "Debes activar la barra de progreso de lectura en la configuración global para modificar esta configuración."
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reproducción",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de reproducción debajo de la barra de título de la pestaña.",
+        "globaldisabledTips": "Debes activar la barra de progreso de reproducción en la configuración global para modificar esta configuración."
+      },
+      "tabSwitchPip": {
+        "label": "PIP al cambiar de pestaña",
+        "description": "Cuando está habilitado, se activará automáticamente la función de imagen en imagen al cambiar de pestaña con un video sin silenciar.",
+        "globaldisabledTips": "Debes activar la función de imagen en imagen en la configuración global para modificar esta configuración."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Limpiar historial después de cerrar",
+        "description": "Cuando está habilitado, se limpiará el historial después de cerrar la pestaña."
+      },
+      "SyncTabs": {
+        "label": "Sincronizar pestañas",
+        "description": "Elige cómo sincronizar los datos de las pestañas, excluyendo datos privados como cookies e información personal.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Permanecer sincronizado",
+        "globaldisabledTips": "Debes activar la sincronización en la Configuración Global para modificar esta configuración."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Elige cómo sincronizar datos privados, como cookies de sitios web, datos de almacenamiento local de páginas web, datos de SessionStorage, etc. Los datos se cifrarán antes de la sincronización.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Permanecer sincronizado",
+        "globaldisabledTips": "Debes activar la sincronización en la Configuración Global para modificar esta configuración."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronizar con la nube",
+      "SyncNow": "Sincronizar ahora",
+      "SyncNowWithGoogleDrive": "Sincronizar ahora con Google Drive",
+      "SyncNowWithDropbox": "Sincronizar ahora con Dropbox",
+      "SyncNowWithOneDrive": "Sincronizar ahora con OneDrive",
+      "Synchronizing": "Sincronizando...",
+      "SyncedSuccessfully": "Sincronizado exitosamente",
+      "SyncFailed": "Fallo en la sincronización",
+      "LoginRequired": "Inicio de sesión requerido",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Configuraciones de sincronización",
+        "description": "Elige cómo sincronizar las configuraciones de esta extensión.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Permanecer sincronizado"
+      },
+      "SyncTabs": {
+        "label": "Sincronizar pestañas",
+        "description": "Elige cómo sincronizar los datos de las pestañas, excluyendo datos privados como cookies e información personal.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Permanecer sincronizado"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Abrir o cerrar pestañas de forma sincrónica",
+        "description": "Cuando está habilitado, abrir o cerrar pestañas en diferentes navegadores se sincronizará. Esto solo se aplica cuando la opción 'permanecer sincronizado' está activa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Si inicias sesión en la misma cuenta en dos navegadores al mismo tiempo y activas esta opción, abrir o cerrar pestañas en un navegador realizará la misma operación en el otro navegador. Si el sitio web prohíbe los inicios de sesión repetidos con la misma cuenta, pueden ocurrir excepciones."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Elige cómo sincronizar datos privados, como cookies de sitios web, datos de almacenamiento local de páginas web, datos de SessionStorage, etc. Los datos se cifrarán antes de la sincronización.",
+        "disabled": "Desactivado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Permanecer sincronizado"
       }
     }
   }

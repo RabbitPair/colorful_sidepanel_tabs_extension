@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Flankan panelan pozicion",
         "description": "Agordi ĉu la flanka panelo montriĝas maldekstre aŭ dekstre.",
-        "goToChromeSettings": "Iri al Chrome-agordoj"
+        "goToBrowserSettings": "Iri al Chrome-agordoj"
       },
       "searchBoxPosition": {
         "label": "Serĉu skatolpozicion",
@@ -79,6 +79,10 @@
         "description": "Agordi la pozicion de la butonoj",
         "left": "Maldekstre",
         "right": "Dekstre"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Ĉiam montri ferm-butonon",
+        "description": "Kiam aktivigita, la ferm-butono ĉiam montriĝos; kiam malaktivigita, la ferm-butono montriĝos nur kiam la muso ŝvebas super la langeto"
       },
       "fullScreenHideSidePanel": {
         "label": "Kaŝi flankan panelon en tuta ekrano",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Flua ŝovbretoj",
         "description": "Uzi Microsoft Fluent desegn-stilan ŝovbretojn kaj supermeti ilin sur la retpaĝan enhavon",
-        "goToChromeSettings": "Iri al Chrome-agordoj"
+        "goToBrowserSettings": "Iri al Chrome-agordoj"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Tiu ĉi paĝo estas nur por montri. Por modifi fulmoklavojn, bonvolu viziti [Kromprogramoj]->[Administri Kromprogramojn]->[Fulmoklavoj]",
-      "goToChromeSettings": "Iri al Chrome-agordoj",
+      "goToBrowserSettings": "Iri al Chrome-agordoj",
       "_execute_action": "Aktivigi tiun ĉi kromprogramon",
       "openSidePanel": "Malfermi flankan panelon"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Malebligi animaciojn",
         "description": "malebligi la ondorefejkon kaj malebligi ĉiujn transirojn"
+      }
+    },
+    "site": {
+      "label": "Retejo-agordoj",
+      "allSites": "Ĉiuj retejoj",
+      "sortBy": "Ordigi laŭ",
+      "mostVisited": "Plej vizitataj",
+      "dataStored": "Datumoj konservitaj",
+      "name": "Nomo",
+      "deleteAllData": "Forigi ĉiujn datumojn",
+      "totalStorageUsedBySites": "Entute uzata memoro de retejoj",
+      "totalCount": "Entuta nombro",
+      "addNewSite": {
+        "label": "Aldoni novan retejon",
+        "description": "Enigu novan reteja adreson, ekzemple 'www.ekzemplo.com', kaj klaku 'Aldoni'.",
+        "placeholder": "Reteja adreso, ekzemple 'www.ekzemplo.com'",
+        "add": "Aldoni",
+        "cancel": "Nuligi",
+        "invalidDomain": "Nevalida reteja adreso"
+      },
+      "browserSettings": {
+        "label": "Retumila agordoj",
+        "description": "Vi povas modifi retejo-agordojn, kiel forigi datumojn aŭ ŝanĝi retejo-permesojn.",
+        "goToBrowserSettings": "Iru al retumilaj agordoj"
+      },
+      "autoDiscardable": {
+        "label": "Aŭtomate forigebla",
+        "description": "Kiam aktivigita, la lanĉeto estos permesita esti forigita de la retumilo, kaj se vi aktivigas efikecon kaj agordas la tempon por forigi neaktivajn lanĉetojn, la lanĉeto estos forigita post la specifita tempo. Se malaktivigita, la lanĉeto ne estos forigita"
+      },
+      "readingProgressBar": {
+        "label": "Leganta progreslinio",
+        "description": "Kiam aktivigita, leganta progreslinio estos montrata sub la lanĉet-titolobreto.",
+        "globaldisabledTips": "Vi devas aktivigi la legantan progreslinion en la ĝeneralaj agordoj por modifi tiun ĉi agordon."
+      },
+      "playingProgressBar": {
+        "label": "Ludanta progreslinio",
+        "description": "Kiam aktivigita, ludanta progreslinio estos montrata sub la lanĉet-titolobreto.",
+        "globaldisabledTips": "Vi devas aktivigi la ludantan progreslinion en la ĝeneralaj agordoj por modifi tiun ĉi agordon."
+      },
+      "tabSwitchPip": {
+        "label": "PIP dum lanĉetŝanĝo",
+        "description": "Kiam aktivigita, aŭtomate eniru Bildo-en-bildo kiam ŝanĝas lanĉetojn kun neŝaltita video.",
+        "globaldisabledTips": "Vi devas aktivigi la Bildo-en-bildo en la ĝeneralaj agordoj por modifi tiun ĉi agordon."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Forigi historion post fermita",
+        "description": "Kiam aktivigita, la historio estos forigita post la lanĉeto estas fermita."
+      },
+      "SyncTabs": {
+        "label": "Sinkronizi lanĉetojn",
+        "description": "Elektu kiel sinkronizi lanĉdatenojn, escepte privataj datumoj kiel kuketoj kaj personaj informoj.",
+        "disabled": "Malaktivigita",
+        "uploadOnly": "Nur alŝuti",
+        "downloadOnly": "Nur elŝuti",
+        "staySynchronized": "Resti sinkronizita",
+        "globaldisabledTips": "Vi devas aktivigi sinkronigon en la Ĝeneralaj Agordoj por modifi tiun ĉi agordon."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronizi privatajn datumojn",
+        "description": "Elektu kiel sinkronizi privatajn datumojn, kiel reteja kuketoj, retpaĝa loka datumaro, SesioDatumaro, ktp. Datumoj estos ĉifritaj antaŭ la sinkronizado.",
+        "disabled": "Malaktivigita",
+        "uploadOnly": "Nur alŝuti",
+        "downloadOnly": "Nur elŝuti",
+        "staySynchronized": "Resti sinkronizita",
+        "globaldisabledTips": "Vi devas aktivigi sinkronigon en la Ĝeneralaj Agordoj por modifi tiun ĉi agordon."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkronizi al la nubo",
+      "SyncNow": "Sinkronizi Nun",
+      "SyncNowWithGoogleDrive": "Sinkronizi Nun kun Google Drive",
+      "SyncNowWithDropbox": "Sinkronizi Nun kun Dropbox",
+      "SyncNowWithOneDrive": "Sinkronizi Nun kun OneDrive",
+      "Synchronizing": "Sinkronizante...",
+      "SyncedSuccessfully": "Sukcese Sinkronizita",
+      "SyncFailed": "Sinkronizado malsukcesis",
+      "LoginRequired": "Ensaluti postulata",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkronizaj agordoj",
+        "description": "Elektu kiel sinkronizi la agordojn de tiu ĉi kromprogramo.",
+        "disabled": "Malaktivigita",
+        "uploadOnly": "Nur alŝuti",
+        "downloadOnly": "Nur elŝuti",
+        "staySynchronized": "Resti sinkronizita"
+      },
+      "SyncTabs": {
+        "label": "Sinkronizi langetojn",
+        "description": "Elektu kiel sinkronizi lanĉdatenojn, escepte private datenoj kiel kuketoj kaj personaj informoj.",
+        "disabled": "Malaktivigita",
+        "uploadOnly": "Nur alŝuti",
+        "downloadOnly": "Nur elŝuti",
+        "staySynchronized": "Resti sinkronizita"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Malfermi aŭ fermi lanĉdatenojn samtempe",
+        "description": "Kiam aktivigita, malfermi aŭ fermi lanĉdatenojn en malsamaj retumiloj estos sinkronizita. Tio validas nur kiam la opcio 'resti sinkronizita' estas aktiva",
+        "OpenOrCloseTabsSynchronouslyWarning": "Se vi ensalutas al la sama konto en du retumiloj samtempe kaj aktivigas tiun ĉi opcion, malfermi aŭ fermi lanĉdatenojn en unu retumilo plenumos la saman operacion en la alia retumilo. Se la retejo malpermesas ripetajn ensalutojn kun la sama konto, eble okazos esceptoj."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronizi privatajn datumojn",
+        "description": "Elektu kiel sinkronizi privatajn datumojn, kiel reteja kuketoj, retpaĝa loka datumaro, SesioDatumaro, ktp. Datumoj estos ĉifritaj antaŭ la sinkronizado.",
+        "disabled": "Malaktivigita",
+        "uploadOnly": "Nur alŝuti",
+        "downloadOnly": "Nur elŝuti",
+        "staySynchronized": "Resti sinkronizita"
       }
     }
   }

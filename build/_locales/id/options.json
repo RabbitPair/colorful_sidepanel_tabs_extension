@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posisi panel samping",
         "description": "Atur apakah panel samping ditampilkan di sebelah kiri atau kanan.",
-        "goToChromeSettings": "Buka pengaturan Chrome"
+        "goToBrowserSettings": "Buka pengaturan Chrome"
       },
       "searchBoxPosition": {
         "label": "Posisi kotak pencarian",
@@ -79,6 +79,10 @@
         "description": "Atur posisi tombol",
         "left": "Kiri",
         "right": "Kanan"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Selalu tampilkan tombol tutup",
+        "description": "Ketika diaktifkan, tombol tutup akan selalu ditampilkan; ketika dinonaktifkan, tombol tutup hanya akan ditampilkan saat mouse mengarah ke tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Sembunyikan panel samping dalam layar penuh",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Scrollbars halus",
         "description": "Gunakan gaya desain Microsoft Fluent untuk scrollbars dan tumpang tindihkan mereka pada konten web",
-        "goToChromeSettings": "Buka pengaturan Chrome"
+        "goToBrowserSettings": "Buka pengaturan Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Halaman ini hanya untuk tampilan. Untuk mengubah pintasan, silakan kunjungi [Ekstensi]->[Kelola Ekstensi]->[Pintasan Keyboard]",
-      "goToChromeSettings": "Buka pengaturan Chrome",
+      "goToBrowserSettings": "Buka pengaturan Chrome",
       "_execute_action": "Aktifkan ekstensi ini",
       "openSidePanel": "Buka panel samping"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Nonaktifkan animasi",
         "description": "nonaktifkan efek riak dan nonaktifkan semua transisi"
+      }
+    },
+    "site": {
+      "label": "Pengaturan Situs",
+      "allSites": "Semua situs",
+      "sortBy": "Urutkan berdasarkan",
+      "mostVisited": "Paling sering dikunjungi",
+      "dataStored": "Data disimpan",
+      "name": "Nama",
+      "deleteAllData": "Hapus semua data",
+      "totalStorageUsedBySites": "Total penyimpanan yang digunakan oleh situs",
+      "totalCount": "Total hitungan",
+      "addNewSite": {
+        "label": "Tambah situs baru",
+        "description": "Masukkan alamat situs web baru, seperti 'www.example.com', dan klik 'Tambah'.",
+        "placeholder": "Alamat situs web, seperti 'www.example.com'",
+        "add": "Tambah",
+        "cancel": "Batal",
+        "invalidDomain": "Alamat situs web tidak valid"
+      },
+      "browserSettings": {
+        "label": "Pengaturan browser",
+        "description": "Anda dapat mengubah pengaturan situs, seperti menghapus data atau mengubah izin situs.",
+        "goToBrowserSettings": "Pergi ke pengaturan browser"
+      },
+      "autoDiscardable": {
+        "label": "Dapat dibuang secara otomatis",
+        "description": "Ketika diaktifkan, tab akan diizinkan untuk dibuang oleh browser, dan jika Anda mengaktifkan kinerja dan mengatur waktu untuk membuang tab tidak aktif, tab akan dibuang setelah waktu yang ditentukan. Jika dinonaktifkan, tab tidak akan dibuang"
+      },
+      "readingProgressBar": {
+        "label": "Baris kemajuan membaca",
+        "description": "Ketika diaktifkan, baris kemajuan membaca akan ditampilkan di bawah bar judul tab.",
+        "globaldisabledTips": "Anda harus mengaktifkan baris kemajuan membaca di pengaturan global untuk mengubah pengaturan ini."
+      },
+      "playingProgressBar": {
+        "label": "Baris kemajuan pemutaran",
+        "description": "Ketika diaktifkan, baris kemajuan pemutaran akan ditampilkan di bawah bar judul tab.",
+        "globaldisabledTips": "Anda harus mengaktifkan baris kemajuan pemutaran di pengaturan global untuk mengubah pengaturan ini."
+      },
+      "tabSwitchPip": {
+        "label": "PIP saat Beralih Tab",
+        "description": "Ketika diaktifkan, masuk otomatis ke Mode Picture-in-picture saat beralih tab dengan video yang tidak dibisukan.",
+        "globaldisabledTips": "Anda harus mengaktifkan Mode Picture-in-picture di pengaturan global untuk mengubah pengaturan ini."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Hapus riwayat setelah ditutup",
+        "description": "Ketika diaktifkan, riwayat akan dihapus setelah menutup tab."
+      },
+      "SyncTabs": {
+        "label": "Sinkronkan tab",
+        "description": "Pilih cara untuk menyinkronkan data tab, kecuali data pribadi seperti cookie dan informasi pribadi.",
+        "disabled": "Nonaktifkan",
+        "uploadOnly": "Hanya Unggah",
+        "downloadOnly": "Hanya Unduh",
+        "staySynchronized": "Tetap Disinkronkan",
+        "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronkan data pribadi",
+        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum disinkronkan.",
+        "disabled": "Nonaktifkan",
+        "uploadOnly": "Hanya Unggah",
+        "downloadOnly": "Hanya Unduh",
+        "staySynchronized": "Tetap Disinkronkan",
+        "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkronkan ke cloud",
+      "SyncNow": "Sinkronkan Sekarang",
+      "SyncNowWithGoogleDrive": "Sinkronkan Sekarang dengan Google Drive",
+      "SyncNowWithDropbox": "Sinkronkan Sekarang dengan Dropbox",
+      "SyncNowWithOneDrive": "Sinkronkan Sekarang dengan OneDrive",
+      "Synchronizing": "Menyinkronkan...",
+      "SyncedSuccessfully": "Berhasil Disinkronkan",
+      "SyncFailed": "Gagal Menyinkronkan",
+      "LoginRequired": "Login diperlukan",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkronkan konfigurasi",
+        "description": "Pilih cara untuk menyinkronkan konfigurasi ekstensi ini.",
+        "disabled": "Nonaktifkan",
+        "uploadOnly": "Hanya Unggah",
+        "downloadOnly": "Hanya Unduh",
+        "staySynchronized": "Tetap Disinkronkan"
+      },
+      "SyncTabs": {
+        "label": "Sinkronkan tab",
+        "description": "Pilih cara untuk menyinkronkan data tab, kecuali data pribadi seperti cookie dan informasi pribadi.",
+        "disabled": "Nonaktifkan",
+        "uploadOnly": "Hanya Unggah",
+        "downloadOnly": "Hanya Unduh",
+        "staySynchronized": "Tetap Disinkronkan"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Buka atau tutup tab secara bersamaan",
+        "description": "Ketika diaktifkan, membuka atau menutup tab di browser yang berbeda akan disinkronkan. Ini hanya berlaku ketika opsi 'tetap disinkronkan' aktif",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jika Anda login ke akun yang sama di dua browser secara bersamaan dan mengaktifkan opsi ini, membuka atau menutup tab di satu browser akan melakukan operasi yang sama di browser lainnya. Jika situs web melarang login berulang dengan akun yang sama, mungkin terjadi pengecualian."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkronkan data pribadi",
+        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum disinkronkan.",
+        "disabled": "Nonaktifkan",
+        "uploadOnly": "Hanya Unggah",
+        "downloadOnly": "Hanya Unduh",
+        "staySynchronized": "Tetap Disinkronkan"
       }
     }
   }

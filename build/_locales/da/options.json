@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sidepanelposition",
         "description": "Indstil om sidepanelet vises til venstre eller højre.",
-        "goToChromeSettings": "Gå til Chrome-indstillinger"
+        "goToBrowserSettings": "Gå til Chrome-indstillinger"
       },
       "searchBoxPosition": {
         "label": "Søgefeltets position",
@@ -79,6 +79,10 @@
         "description": "Indstil knappernes position",
         "left": "Venstre",
         "right": "Højre"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Vis altid luk-knappen",
+        "description": "Når aktiveret, vil luk-knappen altid blive vist; når deaktiveret, vil luk-knappen kun blive vist, når musen svæver over fanen"
       },
       "fullScreenHideSidePanel": {
         "label": "Skjul sidepanel i fuld skærm",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Flydende rullebjælker",
         "description": "Brug Microsoft Fluent designstil rullebjælker og læg dem over webindholdet",
-        "goToChromeSettings": "Gå til Chrome-indstillinger"
+        "goToBrowserSettings": "Gå til Chrome-indstillinger"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Denne side er kun til visning. For at ændre genveje, skal du besøge [Udvidelser]->[Administrer udvidelser]->[Tastaturgenveje]",
-      "goToChromeSettings": "Gå til Chrome-indstillinger",
+      "goToBrowserSettings": "Gå til Chrome-indstillinger",
       "_execute_action": "Aktivér denne udvidelse",
       "openSidePanel": "Åbn sidepanel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Analluogi animeiddiadau",
         "description": "analluogi effaith ripl ac analluogi pob pontio"
+      }
+    },
+    "site": {
+      "label": "Webstedsindstillinger",
+      "allSites": "Alle websteder",
+      "sortBy": "Sorter efter",
+      "mostVisited": "Mest besøgte",
+      "dataStored": "Data gemt",
+      "name": "navn",
+      "deleteAllData": "Slet alle data",
+      "totalStorageUsedBySites": "Samlet lagerplads brugt af websteder",
+      "totalCount": "Samlet antal",
+      "addNewSite": {
+        "label": "Tilføj nyt websted",
+        "description": "Indtast en ny webadresse, f.eks. 'www.example.com', og klik på 'Tilføj'.",
+        "placeholder": "webadresse, f.eks. 'www.example.com'",
+        "add": "Tilføj",
+        "cancel": "Annuller",
+        "invalidDomain": "Ugyldig webadresse"
+      },
+      "browserSettings": {
+        "label": "Browserindstillinger",
+        "description": "Du kan ændre webstedsindstillinger, f.eks. slette data eller ændre webstedsrettigheder.",
+        "goToBrowserSettings": "Gå til browserindstillinger"
+      },
+      "autoDiscardable": {
+        "label": "Auto-discardable",
+        "description": "Når aktiveret, vil fanen kunne kasseres af browseren, og hvis du aktiverer ydeevne og angiver tidspunktet for at kassere inaktive faner, vil fanen blive kasseret efter det angivne tidspunkt. Hvis deaktiveret, vil fanen ikke blive kasseret"
+      },
+      "readingProgressBar": {
+        "label": "Læsefremskridt bjælke",
+        "description": "Når aktiveret, vises en læsefremskridt bjælke under fanetitelbjælken.",
+        "globaldisabledTips": "Du skal aktivere læsefremskridt bjælken i de globale indstillinger for at ændre denne indstilling."
+      },
+      "playingProgressBar": {
+        "label": "Afspilningsfremskridt bjælke",
+        "description": "Når aktiveret, vises en afspilningsfremskridt bjælke under fanetitelbjælken.",
+        "globaldisabledTips": "Du skal aktivere afspilningsfremskridt bjælken i de globale indstillinger for at ændre denne indstilling."
+      },
+      "tabSwitchPip": {
+        "label": "PIP ved fane skift",
+        "description": "Når aktiveret, Auto-enter Picture-in-picture ved skift af faner med en umuted video.",
+        "globaldisabledTips": "Du skal aktivere Picture-in-picture i de globale indstillinger for at ændre denne indstilling."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Ryd historik efter lukning",
+        "description": "Når aktiveret, vil historikken blive ryddet efter lukning af fanen."
+      },
+      "SyncTabs": {
+        "label": "Synkronisér faner",
+        "description": "Vælg hvordan fanedata skal synkroniseres, undtagen private data såsom cookies og personlige oplysninger.",
+        "disabled": "Deaktiveret",
+        "uploadOnly": "Kun upload",
+        "downloadOnly": "Kun download",
+        "staySynchronized": "Forbliv synkroniseret",
+        "globaldisabledTips": "Du skal aktivere synkronisering i Globale indstillinger for at ændre denne indstilling."
+      },
+      "SyncPrivateData": {
+        "label": "Synkronisér private data",
+        "description": "Vælg hvordan private data, såsom website cookies, webstedets localstorage data, SessionStorage data osv., skal synkroniseres. Data vil blive krypteret før synkronisering.",
+        "disabled": "Deaktiveret",
+        "uploadOnly": "Kun upload",
+        "downloadOnly": "Kun download",
+        "staySynchronized": "Forbliv synkroniseret",
+        "globaldisabledTips": "Du skal aktivere synkronisering i Globale indstillinger for at ændre denne indstilling."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synkronisér til cloud",
+      "SyncNow": "Synkronisér nu",
+      "SyncNowWithGoogleDrive": "Synkronisér nu med Google Drive",
+      "SyncNowWithDropbox": "Synkronisér nu med Dropbox",
+      "SyncNowWithOneDrive": "Synkronisér nu med OneDrive",
+      "Synchronizing": "Synkroniserer...",
+      "SyncedSuccessfully": "Synkroniseret succesfuldt",
+      "SyncFailed": "Synkronisering mislykkedes",
+      "LoginRequired": "Login påkrævet",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synkronisér konfigurationer",
+        "description": "Vælg hvordan denne udvidelses konfigurationer skal synkroniseres.",
+        "disabled": "Deaktiveret",
+        "uploadOnly": "Kun upload",
+        "downloadOnly": "Kun download",
+        "staySynchronized": "Forbliv synkroniseret"
+      },
+      "SyncTabs": {
+        "label": "Synkronisér faner",
+        "description": "Vælg hvordan fanedata skal synkroniseres, undtagen private data såsom cookies og personlige oplysninger.",
+        "disabled": "Deaktiveret",
+        "uploadOnly": "Kun upload",
+        "downloadOnly": "Kun download",
+        "staySynchronized": "Forbliv synkroniseret"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Åbn eller luk faner synkront",
+        "description": "Når aktiveret, vil åbning eller lukning af faner i forskellige browsere blive synkroniseret. Dette gælder kun, når 'forbliv synkroniseret' er aktiv.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Hvis du er logget ind på den samme konto i to browsere samtidig og aktiverer denne indstilling, vil åbning eller lukning af faner i den ene browser udføre den samme handling i den anden browser. Hvis hjemmesiden forbyder gentagne logins med den samme konto, kan der opstå undtagelser."
+      },
+      "SyncPrivateData": {
+        "label": "Synkronisér private data",
+        "description": "Vælg hvordan private data, såsom website cookies, webstedets localstorage data, SessionStorage data osv., skal synkroniseres. Data vil blive krypteret før synkronisering.",
+        "disabled": "Deaktiveret",
+        "uploadOnly": "Kun upload",
+        "downloadOnly": "Kun download",
+        "staySynchronized": "Forbliv synkroniseret"
       }
     }
   }

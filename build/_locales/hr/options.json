@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Položaj bočne ploče",
         "description": "Postavite prikaz bočne ploče s lijeve ili desne strane.",
-        "goToChromeSettings": "Idi na postavke Chromea"
+        "goToBrowserSettings": "Idi na postavke Chromea"
       },
       "searchBoxPosition": {
         "label": "Položaj okvira za pretraživanje",
@@ -79,6 +79,10 @@
         "description": "Postavite položaj gumba",
         "left": "Lijevo",
         "right": "Desno"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Uvijek prikaži gumb za zatvaranje",
+        "description": "Kada je omogućeno, gumb za zatvaranje će uvijek biti prikazan; kada je onemogućeno, gumb za zatvaranje će se prikazati samo kada je miš iznad kartice"
       },
       "fullScreenHideSidePanel": {
         "label": "Sakrij bočnu ploču u punom zaslonu",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Plytke trake za pomicanje",
         "description": "Koristite Microsoftov dizajn plytkih traka za pomicanje i prekrijte ih preko web sadržaja",
-        "goToChromeSettings": "Idi na postavke Chromea"
+        "goToBrowserSettings": "Idi na postavke Chromea"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Ova stranica je samo za prikaz. Za izmjenu prečaca, posjetite [Proširenja]->[Upravljanje proširenjima]->[Prečaci na tipkovnici]",
-      "goToChromeSettings": "Idi na postavke Chromea",
+      "goToBrowserSettings": "Idi na postavke Chromea",
       "_execute_action": "Aktiviraj ovaj dodatak",
       "openSidePanel": "Otvori bočnu ploču"
     },
@@ -331,6 +335,114 @@
       "disableAnimations": {
         "label": "Onemogući animacije",
         "description": "onemogući efekt vala i onemogući sve prijelaze"
+      }
+    },
+    "site": {
+      "label": "Postavke stranice",
+      "allSites": "Sve stranice",
+      "sortBy": "Sortiraj po",
+      "mostVisited": "Najčešće posjećene",
+      "dataStored": "Pohranjeni podaci",
+      "name": "Naziv",
+      "deleteAllData": "Izbriši sve podatke",
+      "totalStorageUsedBySites": "Ukupna pohrana koju koriste stranice",
+      "totalCount": "Ukupan broj",
+      "addNewSite": {
+        "label": "Dodaj novu stranicu",
+        "description": "Unesite novu adresu web stranice, na primjer 'www.example.com', i kliknite 'Dodaj'.",
+        "placeholder": "Adresa web stranice, na primjer 'www.example.com'",
+        "add": "Dodaj",
+        "cancel": "Odustani",
+        "invalidDomain": "Neispravna adresa web stranice"
+      },
+      "browserSettings": {
+        "label": "Postavke preglednika",
+        "description": "Možete izmijeniti postavke stranice, kao što je brisanje podataka ili promjena dopuštenja stranice.",
+        "goToBrowserSettings": "Idi na postavke preglednika"
+      },
+      "autoDiscardable": {
+        "label": "Automatski odbaciva",
+        "description": "Kada je omogućeno, preglednik će moći odbaciti karticu, a ako uključite izvedbu i postavite vrijeme za odbacivanje neaktivnih kartica, kartica će se odbaciti nakon određenog vremena. Ako je onemogućeno, kartica se neće odbaciti."
+      },
+      "readingProgressBar": {
+        "label": "Traka napretka čitanja",
+        "description": "Kada je omogućeno, traka napretka čitanja prikazat će se ispod trake s naslovom kartice.",
+        "globaldisabledTips": "Morate uključiti traku napretka čitanja u globalnim postavkama da biste izmijenili ovu postavku."
+      },
+      "playingProgressBar": {
+        "label": "Traka napretka reprodukcije",
+        "description": "Kada je omogućeno, traka napretka reprodukcije prikazat će se ispod trake s naslovom kartice.",
+        "globaldisabledTips": "Morate uključiti traku napretka reprodukcije u globalnim postavkama da biste izmijenili ovu postavku."
+      },
+      "tabSwitchPip": {
+        "label": "PIP prilikom prebacivanja kartica",
+        "description": "Kada je omogućeno, automatski uđite u sliku u slici prilikom prebacivanja kartica s neutišanom videom.",
+        "globaldisabledTips": "Morate uključiti sliku u slici u globalnim postavkama da biste izmijenili ovu postavku."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Očisti povijest nakon zatvaranja",
+        "description": "Kada je omogućeno, povijest će se očistiti nakon zatvaranja kartice."
+      },
+      "SyncTabs": {
+        "label": "Sinkroniziraj kartice",
+        "description": "Odaberite kako sinkronizirati podatke o karticama, isključujući privatne podatke poput kolačića i osobnih podataka.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prenesi",
+        "downloadOnly": "Samo preuzmi",
+        "staySynchronized": "Ostanite sinkronizirani",
+        "globaldisabledTips": "Morate uključiti sinkronizaciju u globalnim postavkama da biste izmijenili ovu postavku."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkroniziraj privatne podatke",
+        "description": "Odaberite kako sinkronizirati privatne podatke, poput kolačića web stranice, podataka o lokalnom spremištu web stranice, podataka o SessionStorageu itd. Podaci će se šifrirati prije sinkronizacije.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prenesi",
+        "downloadOnly": "Samo preuzmi",
+        "staySynchronized": "Ostanite sinkronizirani",
+        "globaldisabledTips": "Morate uključiti sinkronizaciju u globalnim postavkama da biste izmijenili ovu postavku."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkroniziraj u oblak",
+      "SyncNow": "Sinkroniziraj sada",
+      "SyncNowWithGoogleDrive": "Sinkroniziraj sada s Google Driveom",
+      "SyncNowWithDropbox": "Sinkroniziraj sada s Dropboxom",
+      "SyncNowWithOneDrive": "Sinkroniziraj sada s OneDriveom",
+      "Synchronizing": "Sinkroniziranje...",
+      "SyncedSuccessfully": "Sinkronizirano uspješno",
+      "SyncFailed": "Sinkronizacija nije uspjela",
+      "LoginRequired": "Potrebna je prijava",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkroniziraj postavke",
+        "description": "Odaberite kako sinkronizirati postavke ove ekstenzije.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prenesi",
+        "downloadOnly": "Samo preuzmi",
+        "staySynchronized": "Ostanite sinkronizirani"
+      },
+      "SyncTabs": {
+        "label": "Sinkroniziraj kartice",
+        "description": "Odaberite kako sinkronizirati podatke o karticama, isključujući privatne podatke poput kolačića i osobnih podataka.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prenesi",
+        "downloadOnly": "Samo preuzmi",
+        "staySynchronized": "Ostanite sinkronizirani"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Otvori ili zatvori kartice sinkrono",
+        "description": "Kada je omogućeno, otvaranje ili zatvaranje kartica u različitim preglednicima bit će sinkronizirano. To se primjenjuje samo kada je opcija 'ostani sinkroniziran' aktivna",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ako se prijavite na isti račun u dvije preglednike u isto vrijeme i uključite ovu opciju, otvaranje ili zatvaranje kartica u jednoj preglednici izvršit će istu operaciju u drugoj preglednici. Ako web stranica zabranjuje ponovljene prijave s istog računa, mogu se dogoditi iznimke."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkroniziraj privatne podatke",
+        "description": "Odaberite kako sinkronizirati privatne podatke, poput kolačića web stranice, podataka o lokalnom spremištu web stranice, podataka o SessionStorageu itd. Podaci će se šifrirati prije sinkronizacije.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prenesi",
+        "downloadOnly": "Samo preuzmi",
+        "staySynchronized": "Ostanite sinkronizirani"
       }
     }
   }

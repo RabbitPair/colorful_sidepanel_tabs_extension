@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "സൈഡ് പാനൽ സ്ഥാനം",
         "description": "സൈഡ് പാനൽ ഇടത് അല്ലെങ്കിൽ വലത് പ്രദർശിപ്പിക്കണമോ എന്ന് സജ്ജമാക്കുക.",
-        "goToChromeSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക"
+        "goToBrowserSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക"
       },
       "searchBoxPosition": {
         "label": "തിരയൽ ബോക്സ് സ്ഥാനം",
@@ -79,6 +79,10 @@
         "description": "ബട്ടണുകളുടെ സ്ഥാനം സജ്ജമാക്കുക",
         "left": "ഇടത്",
         "right": "വലത്"
+      },
+      "alwaysShowCloseButton": {
+        "label": "എപ്പോഴും അടയ്ക്കുന്ന അടയ്ക്കുന്ന ബട്ടൺ",
+        "description": "സജീവമാക്കിയാല്, അടയ്ക്കുന്ന ബട്ടൺ എപ്പോഴും പ്രദർശിപ്പിക്കും; അയായാല്, അടയ്ക്കുന്ന ബട്ടൺ ടാബിന്റെ മൗസ് ഓവർ ചെയ്യുമ്പോൾ മാത്രം പ്രദർശിപ്പിക്കും"
       },
       "fullScreenHideSidePanel": {
         "label": "പൂർണ്ണ സ്ക്രീനിൽ സൈഡ് പാനൽ മറയ്ക്കുക",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "ഫ്ലുവന്റ് സ്ക്രോൾബാർസ്",
         "description": "മൈക്രോസോഫ്റ്റ് ഫ്ലുവന്റ് ഡിസൈൻ ശൈലി സ്ക്രോൾബാർസ് ഉപയോഗിച്ച് വെബ് ഉള്ളടക്കത്തിൽ ഓവർലേ ചെയ്യുക",
-        "goToChromeSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക"
+        "goToBrowserSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "ഈ പേജ് പ്രദർശനത്തിനായി മാത്രമാണ്. ഷോർട്ട്കട്ടുകൾ മാറ്റാൻ, ദയവായി [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] സന്ദർശിക്കുക",
-      "goToChromeSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക",
+      "goToBrowserSettings": "ക്രോം ക്രമീകരണങ്ങളിലേക്ക് പോകുക",
       "_execute_action": "ഈ വിപുലീകരണം സജീവമാക്കുക",
       "openSidePanel": "സൈഡ് പാനൽ തുറക്കുക"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "ആനിമേഷനുകൾ അടയ്ക്കുക",
         "description": "റിപ്പിൾ എഫക്റ്റ് അടയ്ക്കുക എന്നിവ അടയ്ക്കുക"
+      }
+    },
+    "site": {
+      "label": "സൈറ്റ് ക്രമീകരണങ്ങൾ",
+      "allSites": "എല്ലാ സൈറ്റുകൾ",
+      "sortBy": "ശ്രേണികരണം",
+      "mostVisited": "ഏറ്റവും പ്രവേശിച്ചത്",
+      "dataStored": "ഡാറ്റ സംഭരിച്ചത്",
+      "name": "പേര്",
+      "deleteAllData": "എല്ലാ ഡാറ്റ ഇല്ലാതാക്കുക",
+      "totalStorageUsedBySites": "സൈറ്റുകൾ ഉപയോഗിച്ച ആകെ സ്റ്റോറേജ്",
+      "totalCount": "ആകെ എണ്ണം",
+      "addNewSite": {
+        "label": "പുതിയ സൈറ്റ് ചേർക്കുക",
+        "description": "പുതിയ വെബ്‌സൈറ്റ് വിലാസം നൽകുക, പോകുക 'ചേർക്കുക'.",
+        "placeholder": "വെബ്‌സൈറ്റ് വിലാസം, ഉദാ: 'www.example.com'",
+        "add": "ചേർക്കുക",
+        "cancel": "റദ്ദാക്കുക",
+        "invalidDomain": "അസാധുവായ വെബ്‌സൈറ്റ് വിലാസം"
+      },
+      "browserSettings": {
+        "label": "ബ്രൌസർ ക്രമീകരണങ്ങൾ",
+        "description": "നിങ്ങൾ സൈറ്റ് ക്രമീകരണങ്ങൾ മാറ്റാനാകുമെങ്കിൽ, ഡാറ്റ ഇല്ലാതാക്കാനോ അല്ലെങ്കിൽ സൈറ്റ് അനുമതികൾ മാറ്റാനോ നിങ്ങൾക്ക് അനുവദിക്കുന്നു.",
+        "goToBrowserSettings": "ബ്രൌസർ ക്രമീകരണങ്ങൾക്ക് പോകുക"
+      },
+      "autoDiscardable": {
+        "label": "ഓട്ടോ അപകടകരമായ",
+        "description": "സജീവമാക്കിയാൽ, ബ്രൌസർ അത് അപകടകരിക്കാനും അനുമതിക്കും, പ്രദർശനം ഓണ്‍ ചെയ്തു നിഷ്ക്രിയമായ ടാബുകള്‍ നിരാകരിക്കാനും സമയം ക്രമീകരിച്ചാല്‍ അത് അപകടകരിക്കപ്പെടും. അസജീവമാക്കിയാൽ, അത് അപകടകരിക്കപ്പെടുന്നില്ല"
+      },
+      "readingProgressBar": {
+        "label": "വായന പുരോഗതി ബാർ",
+        "description": "സജീവമാക്കിയാൽ, ടാബ് തലക്കെട്ട് ബാറിന് താഴെ ഒരു വായന പുരോഗതി ബാർ പ്രദർശിപ്പിക്കും",
+        "globaldisabledTips": "നിങ്ങൾക്ക് ഈ ക്രമീകരണം മാറ്റാനാകുമെങ്കിൽ, വായന പുരോഗതി ബാർ സജീവമാക്കണം."
+      },
+      "playingProgressBar": {
+        "label": "പ്ലേയിംഗ് പുരോഗതി ബാർ",
+        "description": "സജീവമാക്കിയാൽ, ടാബ് തലക്കെട്ട് ബാറിന് താഴെ ഒരു പ്ലേയിംഗ് പുരോഗതി ബാർ പ്രദർശിപ്പിക്കും",
+        "globaldisabledTips": "നിങ്ങൾക്ക് ഈ ക്രമീകരണം മാറ്റാനാകുമെങ്കിൽ, പ്ലേയിംഗ് പുരോഗതി ബാർ സജീവമാക്കണം."
+      },
+      "tabSwitchPip": {
+        "label": "ടാബ് സ്വിച്ച് പിപി",
+        "description": "സജീവമാക്കിയാൽ, ഒരു അമ്യൂട്ട് വീഡിയോയുടെ ടാബുകള്‍ സ്വിച്ച് ചെയ്യുമ്പോള്‍ ഓട്ടോ-എന്റർ പിപി അനുവദിക്കും.",
+        "globaldisabledTips": "നിങ്ങൾക്ക് ഈ ക്രമീകരണം മാറ്റാനാകുമെങ്കിൽ, പിപി സജീവമാക്കണം."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "അടയ്ക്കാന്‍ ചെയ്യുന്നത് ടാബ് അടയ്ക്കിയ ശേഷം ചരിത്രം മായിക്കും",
+        "description": "അടയ്ക്കാന്‍ ചെയ്യുന്നത് ടാബ് അടയ്ക്കിയ ശേഷം ചരിത്രം മായിക്കും."
+      },
+      "SyncTabs": {
+        "label": "സിങ്ക് ടാബുകള്‍",
+        "description": "കുക്കീസ് മുതല്‍ വ്യക്തിഗത വിവരങ്ങളെ പൊരുതിയില്‍ വിവരങ്ങള്‍ സിങ്ക് ചെയ്യാന്‍ എങ്ങനെ തിരഞ്ഞെടുക്കാം.",
+        "disabled": "അക്ഷമമാക്കിയിരിക്കുക",
+        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
+        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
+        "staySynchronized": "സമന്വയിപ്പിക്കുക",
+        "globaldisabledTips": "ഈ ക്രമീകരണം മാറ്റാന്‍ നിങ്ങള്‍ക്ക് ഗ്ലോബല്‍ ക്രമീകരണം ഓണ്‍ ചെയ്യണം."
+      },
+      "SyncPrivateData": {
+        "label": "സിങ്ക് സ്വകാര്യ ഡാറ്റ",
+        "description": "വെബ്‌സൈറ്റ് കുക്കീസ്, വെബ് പേജ് ലോക്കൽസ്റ്റോറേജ് ഡാറ്റ, സെഷന്‍സ്റ്റോറേജ് ഡാറ്റ എന്നിവ പോലെ സ്വകാര്യ ഡാറ്റ എങ്ങനെ സമന്വയിപ്പിക്കാം. ഡാറ്റ സമന്വയിപ്പിക്കുന്ന മുമ്പ് അത് എന്‍ക്രിപ്റ്റ് ചെയ്യപ്പെടും.",
+        "disabled": "അക്ഷമമാക്കിയിരിക്കുക",
+        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
+        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
+        "staySynchronized": "സമന്വയിപ്പിക്കുക",
+        "globaldisabledTips": "ഈ ക്രമീകരണം മാറ്റാന്‍ നിങ്ങള്‍ക്ക് ഗ്ലോബല്‍ ക്രമീകരണം ഓണ്‍ ചെയ്യണം."
+      }
+    },
+    "SyncToCloud": {
+      "label": "മേഘസംഗീതം",
+      "SyncNow": "ഇപ്പോൾ സിങ്ക് ചെയ്യുക",
+      "SyncNowWithGoogleDrive": "ഗൂഗിൾ ഡ്രൈവിൽ സിങ്ക് ചെയ്യുക",
+      "SyncNowWithDropbox": "ഡ്രോപ്പ്‌ബോക്സിൽ സിങ്ക് ചെയ്യുക",
+      "SyncNowWithOneDrive": "വൺ‌ഡ്രൈവിൽ സിങ്ക് ചെയ്യുക",
+      "Synchronizing": "സമന്വയിപ്പിക്കുന്നു...",
+      "SyncedSuccessfully": "സമന്വയിപ്പിച്ചു",
+      "SyncFailed": "സമന്വയിപ്പിക്കാനായി പരാജയപ്പെട്ടു",
+      "LoginRequired": "ലോഗിൻ ആവശ്യമുണ്ട്",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sync configs",
+        "description": "Choose how to synchronize this extension's configurations.",
+        "disabled": "അക്ഷമമാക്കുക",
+        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
+        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
+        "staySynchronized": "സമന്വയിപ്പിക്കുക"
+      },
+      "SyncTabs": {
+        "label": "Sync tabs",
+        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
+        "disabled": "അക്ഷമമാക്കുക",
+        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
+        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
+        "staySynchronized": "സമന്വയിപ്പിക്കുക"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Open or close tabs synchronously",
+        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
+        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+      },
+      "SyncPrivateData": {
+        "label": "Sync private data",
+        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
+        "disabled": "അക്ഷമമാക്കുക",
+        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
+        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
+        "staySynchronized": "സമന്വയിപ്പിക്കുക"
       }
     }
   }

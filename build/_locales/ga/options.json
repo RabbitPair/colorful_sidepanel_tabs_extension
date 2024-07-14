@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Suíomh painéil taobh",
         "description": "Socraigh an bhfuil an painéal taobh taispáinteach ar an taobh clé nó ar dheis.",
-        "goToChromeSettings": "Téigh chuig socruithe Chrome"
+        "goToBrowserSettings": "Téigh chuig socruithe Chrome"
       },
       "searchBoxPosition": {
         "label": "Suíomh bosca cuardaigh",
@@ -79,6 +79,10 @@
         "description": "Socraigh suíomh na gcnaipeanna",
         "left": "Clé",
         "right": "Deas"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Taispeáin an cnaipe dúnadh i gcónaí",
+        "description": "Nuair a chumasfar é, taispeánfaidh an cnaipe dúnadh i gcónaí; nuair a bhíonn sé díchumasaithe, ní taispeánfar an cnaipe dúnadh ach amháin nuair a bhíonn an luchóg ag luascadh thar an taobh"
       },
       "fullScreenHideSidePanel": {
         "label": "Folaigh an painéal taobh i scáileán iomlán",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Scrollbars líofa",
         "description": "Úsáid stíl deartha Microsoft Fluent do scrollbars agus cuir orthu os comhair ábhar an tsuímh gréasáin",
-        "goToChromeSettings": "Téigh chuig socruithe Chrome"
+        "goToBrowserSettings": "Téigh chuig socruithe Chrome"
       }
     },
     "tabs": {
@@ -230,7 +234,7 @@
     },
     "shortcuts": {
       "alert": "Is le haghaidh taispeántais amháin an leathanach seo. Chun giorrúcháin a athrú, téigh chuig [Breiseáin]->[Bainistigh Breiseáin]->[Giorrúcháin Boscaíochta]",
-      "goToChromeSettings": "Téigh chuig socruithe Chrome",
+      "goToBrowserSettings": "Téigh chuig socruithe Chrome",
       "_execute_action": "Gníomhú ar an bhfheidhmíocht seo",
       "openSidePanel": "Oscail painéal taobh"
     },
@@ -333,6 +337,103 @@
       "disableAnimations": {
         "label": "Díchumasaithe na hamharcanna",
         "description": "díchumasaithe an tionchar riple agus díchumasaithe gach aistriúchán"
+      }
+    },
+    "site": {
+      "label": "Socruithe Suímh",
+      "allSites": "Gach suíomh",
+      "sortBy": "Sórtáil de réir",
+      "mostVisited": "Is mó a cuireadh cuairt air",
+      "dataStored": "Sonraí stóráilte",
+      "name": "Ainm",
+      "deleteAllData": "Scrios gach sonraí",
+      "totalStorageUsedBySites": "Iomlán stóráil a úsáidtear ag suíomhanna",
+      "totalCount": "Iomlán líon",
+      "addNewSite": {
+        "label": "Cuir suíomh nua leis",
+        "description": "Cuir isteach seoladh suíomh nua, mar shampla 'www.sampla.com', agus cliceáil 'Cuir'.",
+        "placeholder": "Seoladh suíomh, mar shampla 'www.sampla.com'",
+        "add": "Cuir",
+        "cancel": "Cealaigh",
+        "invalidDomain": "Seoladh suíomh neamhbhailí"
+      },
+      "browserSettings": {
+        "label": "Socruithe brabhsálaí",
+        "description": "Is féidir leat socruithe suímh a athrú, cosúil le sonraí a scrios nó ceadanna suímh a athrú.",
+        "goToBrowserSettings": "Téigh chuig socruithe brabhsálaí"
+      },
+      "autoDiscardable": {
+        "label": "Díchumasaithe uathoibríoch",
+        "description": "Nuair atá sé cumasaithe, ligfear don taobhán a bheith in ann a bheith scriosta ag an mbabhsálaí, agus más gá duit feidhmíocht a chumasú agus an t-am a shocrú le haghaidh tomhais neamhghníomhacha, scriosfar an taobhán tar éis an ama sonraithe. Mura bhfuil sé cumasaithe, ní scriosfar an taobhán"
+      },
+      "readingProgressBar": {
+        "label": "Barra dul chinn léitheoireachta",
+        "description": "Nuair atá sé cumasaithe, taispeánfar barra dul chinn léitheoireachta thíos faoin mbarr teideal an taobh.",
+        "globaldisabledTips": "Ní mór duit an barra dul chinn léitheoireachta a chumasú sna socruithe coitianta chun an socruithe seo a athrú."
+      },
+      "playingProgressBar": {
+        "label": "Barra dul cinn ag seinm",
+        "description": "Nuair atá sé cumasaithe, taispeánfar barra dul cinn ag seinm thíos faoin mbarr teideal an taobh.",
+        "globaldisabledTips": "Ní mór duit an barra dul cinn ag seinm a chumasú sna socruithe coitianta chun an socruithe seo a athrú."
+      },
+      "tabSwitchPip": {
+        "label": "PIP ar Luasóg Taobh",
+        "description": "Nuair atá sé cumasaithe, cuirtear isteach Pictiúr-i-mhír nuair a chuireann tú isteach ar luasóg le físeán gan fuaime."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Glan stair tar éis dúnadh",
+        "description": "Nuair atá sé cumasaithe, glantar an stair tar éis an taobh a dhúnadh."
+      },
+      "SyncTabs": {
+        "label": "Sincronú taobhán",
+        "description": "Roghnaigh conas sonraí taobhán a sincronú, gan sonraí príobháideacha cosúil le fianáin agus sonraí pearsanta."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronú sonraí príobháideacha",
+        "description": "Roghnaigh conas sonraí príobháideacha a sincronú, cosúil le fianáin láithreáin gréasáin, sonraí áitiúla leabharstórais leathanach gréasáin, sonraí StóráilSeisiún, srl. Criptófar sonraí sula ndéanfar a sincronú."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sync leis an gcloud",
+      "SyncNow": "Sync Anois",
+      "SyncNowWithGoogleDrive": "Sync Anois le Google Drive",
+      "SyncNowWithDropbox": "Sync Anois le Dropbox",
+      "SyncNowWithOneDrive": "Sync Anois le OneDrive",
+      "Synchronizing": "Ag Sincronú...",
+      "SyncedSuccessfully": "Sincronaithe go rathúil",
+      "SyncFailed": "Sincronú Theip",
+      "LoginRequired": "Logáil isteach ag teastáil",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sincronú cumraíochtaí",
+        "description": "Roghnaigh conas a sincronú cumraíochtaí an bhreatimeachta seo.",
+        "disabled": "Díchumasaithe",
+        "uploadOnly": "Uaslódáil amháin",
+        "downloadOnly": "Íoslódáil amháin",
+        "staySynchronized": "Fan síochrónaithe"
+      },
+      "SyncTabs": {
+        "label": "Sincronú taobhán",
+        "description": "Roghnaigh conas a sincronú sonraí taobhán, gan sonraí príobháideacha cosúil le fianáin agus sonraí pearsanta.",
+        "disabled": "Díchumasaithe",
+        "uploadOnly": "Uaslódáil amháin",
+        "downloadOnly": "Íoslódáil amháin",
+        "staySynchronized": "Fan síochrónaithe"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Oscail nó dún taobhán go síochrónach",
+        "description": "Nuair atá sé cumasaithe, beidh oscailt nó dúnadh taobhán i mbrabhsálaí difriúil síochrónaithe. Níl sé seo i bhfeidhm ach amháin nuair atá an rogha 'fan síochrónaithe' gníomhach",
+        "OpenOrCloseTabsSynchronouslyWarning": "Má logálaíonn tú isteach ar an gcuntas céanna i ndá bhrabhsálaí ag an am céanna agus cuireann tú an rogha seo ar siúl, déanfaidh oscailt nó dúnadh taobhán i mbabhsálaí amháin an gníomh céanna i babhsálaí eile. Más rud é go ndéanann an suíomh gréasáin cosc a chur ar logáilteacha tagartha leis an gcuntas céanna, d'fhéadfadh eisceacht a bheith ann."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronú sonraí príobháideacha",
+        "description": "Roghnaigh conas a sincronú sonraí príobháideacha, cosúil le fianáin láithreáin gréasáin, sonraí áitiúla leabharstórais leathanach gréasáin, sonraí StóráilSeisiún, srl. Criptófar sonraí sula ndéanfar a sincronú.",
+        "disabled": "Díchumasaithe",
+        "uploadOnly": "Uaslódáil amháin",
+        "downloadOnly": "Íoslódáil amháin",
+        "staySynchronized": "Fan síochrónaithe"
       }
     }
   }

@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "מיקום פאנל צדדי",
         "description": "הגדר אם הפאנל הצדדי מוצג בצד שמאל או ימין.",
-        "goToChromeSettings": "עבור להגדרות Chrome"
+        "goToBrowserSettings": "עבור להגדרות Chrome"
       },
       "searchBoxPosition": {
         "label": "מיקום תיבת חיפוש",
@@ -79,6 +79,10 @@
         "description": "הגדר את מיקום הכפתורים",
         "left": "שמאל",
         "right": "ימין"
+      },
+      "alwaysShowCloseButton": {
+        "label": "הצג תמיד כפתור סגירה",
+        "description": "כאשר מופעל, כפתור הסגירה יוצג תמיד; כאשר מנוטרל, כפתור הסגירה יוצג רק כאשר העכבר עובר מעל הכרטיסייה"
       },
       "fullScreenHideSidePanel": {
         "label": "הסתר פאנל צדדי במסך מלא",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "סרגלי גלילה חלקים",
         "description": "השתמש בסגנון עיצוב Microsoft Fluent לסרגלי גלילה והצג אותם מעל תוכן האינטרנט",
-        "goToChromeSettings": "עבור להגדרות Chrome"
+        "goToBrowserSettings": "עבור להגדרות Chrome"
       }
     },
     "tabs": {
@@ -231,7 +235,7 @@
     },
     "shortcuts": {
       "alert": "דף זה הינו לתצוגה בלבד. כדי לשנות קיצורי דרך, אנא בקר ב-[הרחבות]->[ניהול הרחבות]->[קיצורי מקלדת]",
-      "goToChromeSettings": "עבור להגדרות Chrome",
+      "goToBrowserSettings": "עבור להגדרות Chrome",
       "_execute_action": "הפעל את ההרחבה",
       "openSidePanel": "פתח פאנל צדדי"
     },
@@ -336,6 +340,114 @@
       "disableAnimations": {
         "label": "נטרל אנימציות",
         "description": "נטרל את אפקט הגלילה ונטרל את כל המעברים"
+      }
+    },
+    "site": {
+      "label": "הגדרות אתר",
+      "allSites": "כל האתרים",
+      "sortBy": "מיין לפי",
+      "mostVisited": "הכי נצפים",
+      "dataStored": "נתונים מאוחסנים",
+      "name": "שם",
+      "deleteAllData": "מחק את כל הנתונים",
+      "totalStorageUsedBySites": "סך כל האחסון בשימוש על ידי אתרים",
+      "totalCount": "סך הכל",
+      "addNewSite": {
+        "label": "הוסף אתר חדש",
+        "description": "הזן כתובת אתר חדשה, כגון 'www.example.com', ולחץ על 'הוסף'.",
+        "placeholder": "כתובת אתר, כגון 'www.example.com'",
+        "add": "הוסף",
+        "cancel": "בטל",
+        "invalidDomain": "כתובת אתר לא חוקית"
+      },
+      "browserSettings": {
+        "label": "הגדרות הדפדפן",
+        "description": "אתה יכול לשנות את הגדרות האתר, כגון מחיקת נתונים או שינוי הרשאות אתר.",
+        "goToBrowserSettings": "עבור להגדרות הדפדפן"
+      },
+      "autoDiscardable": {
+        "label": "ניתנת לזריקה אוטומטית",
+        "description": "כאשר מופעלת, הלשונית תוכל להיזרק על ידי הדפדפן, ואם תפעיל ביצועים ותגדיר את הזמן לזריקת לשוניות לא פעילות, הלשונית תיזרק לאחר הזמן שצוין. אם מושבת, הלשונית לא תיזרק"
+      },
+      "readingProgressBar": {
+        "label": "סרגל התקדמות בקריאה",
+        "description": "כאשר מופעל, סרגל התקדמות בקריאה יוצג מתחת לסרגל כותרת הלשונית.",
+        "globaldisabledTips": "עליך להפעיל את סרגל התקדמות הקריאה בהגדרות הכלליות כדי לשנות הגדרה זו."
+      },
+      "playingProgressBar": {
+        "label": "סרגל התקדמות בהשמעה",
+        "description": "כאשר מופעל, סרגל התקדמות בהשמעה יוצג מתחת לסרגל כותרת הלשונית.",
+        "globaldisabledTips": "עליך להפעיל את סרגל התקדמות ההשמעה בהגדרות הכלליות כדי לשנות הגדרה זו."
+      },
+      "tabSwitchPip": {
+        "label": "PIP בעת החלפת לשוניות",
+        "description": "כאשר מופעל, כניסה אוטומטית לתמונה בתמונה בעת החלפת לשוניות עם וידאו לא מושתק.",
+        "globaldisabledTips": "עליך להפעיל את תמונה בתמונה בהגדרות הכלליות כדי לשנות הגדרה זו."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "נקה היסטוריה לאחר סגירה",
+        "description": "כאשר מופעל, ההיסטוריה תימחק לאחר סגירת הלשונית."
+      },
+      "SyncTabs": {
+        "label": "סינכרון לשוניות",
+        "description": "בחר כיצד לסנכרן נתוני לשוניות, ללא כלול נתונים פרטיים כמו עוגיות ומידע אישי.",
+        "disabled": "מושבת",
+        "uploadOnly": "העלה בלבד",
+        "downloadOnly": "הורד בלבד",
+        "staySynchronized": "הישאר מסונכרן",
+        "globaldisabledTips": "עליך להפעיל סינכרון בהגדרות הכלליות כדי לשנות הגדרה זו."
+      },
+      "SyncPrivateData": {
+        "label": "סינכרון נתונים פרטיים",
+        "description": "בחר כיצד לסנכרן נתונים פרטיים, כגון עוגיות אתרים, נתוני אחסון מקומי של דפי אינטרנט, נתוני SessionStorage וכו'. הנתונים יאוחסנו באופן מוצפן לפני הסינכרון.",
+        "disabled": "מושבת",
+        "uploadOnly": "העלה בלבד",
+        "downloadOnly": "הורד בלבד",
+        "staySynchronized": "הישאר מסונכרן",
+        "globaldisabledTips": "עליך להפעיל סינכרון בהגדרות הכלליות כדי לשנות הגדרה זו."
+      }
+    },
+    "SyncToCloud": {
+      "label": "סינכרון לענן",
+      "SyncNow": "סינכרון עכשיו",
+      "SyncNowWithGoogleDrive": "סינכרון עכשיו עם Google Drive",
+      "SyncNowWithDropbox": "סינכרון עכשיו עם Dropbox",
+      "SyncNowWithOneDrive": "סינכרון עכשיו עם OneDrive",
+      "Synchronizing": "מסנכרן...",
+      "SyncedSuccessfully": "סינכרון מוצלח",
+      "SyncFailed": "שגיאה בסינכרון",
+      "LoginRequired": "נדרשת כניסה",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "סינכרון תצורות",
+        "description": "בחר כיצד לסנכרן את תצורות ההרחבה הזו.",
+        "disabled": "מושבת",
+        "uploadOnly": "העלה בלבד",
+        "downloadOnly": "הורד בלבד",
+        "staySynchronized": "הישאר מסונכרן"
+      },
+      "SyncTabs": {
+        "label": "סינכרון לשוניות",
+        "description": "בחר כיצד לסנכרן נתוני לשוניות, ללא כלול נתונים פרטיים כמו עוגיות ומידע אישי.",
+        "disabled": "מושבת",
+        "uploadOnly": "העלה בלבד",
+        "downloadOnly": "הורד בלבד",
+        "staySynchronized": "הישאר מסונכרן"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "פתח או סגור לשוניות באופן סינכרוני",
+        "description": "כאשר מופעל, פתיחה או סגירה של לשוניות בדפדפנים שונים תתבצע באופן סינכרוני. זה חל רק כאשר האפשרות 'הישאר מסונכרן' פעילה",
+        "OpenOrCloseTabsSynchronouslyWarning": "אם אתה נכנס לאותו חשבון בשני דפדפנים בו זמנית ומפעיל אפשרות זו, פתיחה או סגירה של לשוניות בדפדפן אחד תבצע את אותה פעולה בדפדפן השני. אם אתר האינטרנט אוסר כניסות חוזרות עם אותו חשבון, ייתכנו חריגות."
+      },
+      "SyncPrivateData": {
+        "label": "סינכרון נתונים פרטיים",
+        "description": "בחר כיצד לסנכרן נתונים פרטיים, כגון עוגיות אתרים, נתוני אחסון מקומי של דפי אינטרנט, נתוני SessionStorage וכו'. הנתונים יאוחסנו באופן מוצפן לפני הסינכרון.",
+        "disabled": "מושבת",
+        "uploadOnly": "העלה בלבד",
+        "downloadOnly": "הורד בלבד",
+        "staySynchronized": "הישאר מסונכרן"
       }
     }
   }

@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posisyon ng side panel",
         "description": "Itakda kung ang side panel ay ipapakita sa kaliwa o kanan.",
-        "goToChromeSettings": "Pumunta sa mga setting ng Chrome"
+        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
       },
       "searchBoxPosition": {
         "label": "Posisyon ng search box",
@@ -79,6 +79,10 @@
         "description": "Itakda ang posisyon ng mga button",
         "left": "Kaliwa",
         "right": "Kanan"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Palaging ipakita ang button na pagsara",
+        "description": "Kapag pinagana, palaging ipapakita ang button na pagsara; kapag hindi pinagana, ang button na pagsara ay magpapakita lamang kapag ang mouse ay nasa ibabaw ng tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Itago ang side panel sa full screen",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Gamitin ang disenyo ng Microsoft Fluent style scrollbars at i-overlay ang mga ito sa nilalaman ng web",
-        "goToChromeSettings": "Pumunta sa mga setting ng Chrome"
+        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Ang pahinang ito ay para lamang sa display. Upang baguhin ang mga shortcut, mangyaring bisitahin ang [Extensions]->[Pamahalaan ang Mga Extension]->[Mga Shortcut ng Keyboard]",
-      "goToChromeSettings": "Pumunta sa mga setting ng Chrome",
+      "goToBrowserSettings": "Pumunta sa mga setting ng Chrome",
       "_execute_action": "I-activate ang extension na ito",
       "openSidePanel": "Buksan ang side panel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "I-disable ang mga animations",
         "description": "i-disable ang ripple effect at i-disable ang lahat ng transitions"
+      }
+    },
+    "site": {
+      "label": "Mga setting ng site",
+      "allSites": "Lahat ng mga site",
+      "sortBy": "I-sort ayon sa",
+      "mostVisited": "Pinakamadalas na binisita",
+      "dataStored": "Nakaimbak na data",
+      "name": "Pangalan",
+      "deleteAllData": "Burahin ang lahat ng data",
+      "totalStorageUsedBySites": "Kabuuang storage na ginamit ng mga site",
+      "totalCount": "Kabuuang bilang",
+      "addNewSite": {
+        "label": "Magdagdag ng bagong site",
+        "description": "Ilagay ang bagong website address, tulad ng 'www.example.com', at i-click ang 'Idagdag'.",
+        "placeholder": "Website address, tulad ng 'www.example.com'",
+        "add": "Idagdag",
+        "cancel": "Kanselahin",
+        "invalidDomain": "Hindi wastong website address"
+      },
+      "browserSettings": {
+        "label": "Mga setting ng browser",
+        "description": "Maaari mong baguhin ang mga setting ng site, tulad ng pagbubura ng data o pagbabago ng mga pahintulot ng site.",
+        "goToBrowserSettings": "Pumunta sa mga setting ng browser"
+      },
+      "autoDiscardable": {
+        "label": "Auto discardable",
+        "description": "Kapag pinagana, papayagan ang tab na itapon ng browser, at kung i-on mo ang performance at itakda ang oras para itapon ang mga hindi aktibong tabs, ang tab ay itatapon pagkatapos ng itinakdang oras. Kung hindi pinagana, hindi itatapon ang tab."
+      },
+      "readingProgressBar": {
+        "label": "Bar ng pag-unlad sa pagbasa",
+        "description": "Kapag pinagana, ipapakita ang bar ng pag-unlad sa pagbasa sa ilalim ng bar ng pamagat ng tab.",
+        "globaldisabledTips": "Kailangan mong i-on ang bar ng pag-unlad sa pagbasa sa global settings para baguhin ang setting na ito."
+      },
+      "playingProgressBar": {
+        "label": "Bar ng pag-unlad sa pagpe-play",
+        "description": "Kapag pinagana, ipapakita ang bar ng pag-unlad sa pagpe-play sa ilalim ng bar ng pamagat ng tab.",
+        "globaldisabledTips": "Kailangan mong i-on ang bar ng pag-unlad sa pagpe-play sa global settings para baguhin ang setting na ito."
+      },
+      "tabSwitchPip": {
+        "label": "PIP sa Pag-switch ng Tab",
+        "description": "Kapag pinagana, auto-enter sa Picture-in-picture kapag nag-switch ng tabs na may hindi nakamute na video.",
+        "globaldisabledTips": "Kailangan mong i-on ang Picture-in-picture sa global settings para baguhin ang setting na ito."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Burahin ang history pagkatapos isara",
+        "description": "Kapag pinagana, ang history ay mabubura pagkatapos isara ang tab."
+      },
+      "SyncTabs": {
+        "label": "I-sync ang mga tabs",
+        "description": "Pumili kung paano i-sync ang data ng mga tab, maliban sa pribadong data tulad ng cookies at personal na impormasyon.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync",
+        "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings para baguhin ang setting na ito."
+      },
+      "SyncPrivateData": {
+        "label": "I-sync ang pribadong data",
+        "description": "Pumili kung paano i-sync ang pribadong data, tulad ng cookies ng website, data ng localstorage ng web page, data ng SessionStorage, at iba pa. Ang data ay i-e-encrypt bago i-sync.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync",
+        "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings para baguhin ang setting na ito."
+      }
+    },
+    "SyncToCloud": {
+      "label": "I-sync sa ulap",
+      "SyncNow": "I-sync Ngayon",
+      "SyncNowWithGoogleDrive": "I-sync Ngayon gamit ang Google Drive",
+      "SyncNowWithDropbox": "I-sync Ngayon gamit ang Dropbox",
+      "SyncNowWithOneDrive": "I-sync Ngayon gamit ang OneDrive",
+      "Synchronizing": "Nagso-synchronize...",
+      "SyncedSuccessfully": "Matagumpay na na-synchronize",
+      "SyncFailed": "Nabigo ang pagsa-synchronize",
+      "LoginRequired": "Kinakailangan ang Pag-login",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "I-sync ang mga konfigurasyon",
+        "description": "Pumili kung paano i-synchronize ang mga konfigurasyon ng extension na ito.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-synchronize"
+      },
+      "SyncTabs": {
+        "label": "I-sync ang mga tab",
+        "description": "Pumili kung paano i-synchronize ang data ng mga tab, maliban sa pribadong data tulad ng cookies at personal na impormasyon.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-synchronize"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Buksan o isara ang mga tab nang sabay-sabay",
+        "description": "Kapag pinagana, ang pagbubukas o pagsasara ng mga tab sa iba't ibang mga browser ay magiging naka-synchronize. Ito ay umiiral lamang kapag ang opsyon na 'manatiling naka-synchronize' ay aktibo",
+        "OpenOrCloseTabsSynchronouslyWarning": "Kung nag-login ka sa parehong account sa dalawang browser nang sabay at pinagana ang opsyon na ito, ang pagbubukas o pagsasara ng mga tab sa isang browser ay magpapatupad ng parehong operasyon sa ibang browser. Kung ipinagbabawal ng website ang paulit-ulit na pag-login gamit ang parehong account, maaaring magkaroon ng mga exception."
+      },
+      "SyncPrivateData": {
+        "label": "I-sync ang pribadong data",
+        "description": "Pumili kung paano i-synchronize ang pribadong data, tulad ng cookies ng website, data ng localstorage ng web page, data ng SessionStorage, at iba pa. Ang data ay i-e-encrypt bago i-synchronize.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-synchronize"
       }
     }
   }

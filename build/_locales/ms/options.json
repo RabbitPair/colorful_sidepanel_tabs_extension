@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Kedudukan panel sisi",
         "description": "Tetapkan sama ada panel sisi dipaparkan di sebelah kiri atau kanan.",
-        "goToChromeSettings": "Pergi ke tetapan Chrome"
+        "goToBrowserSettings": "Pergi ke tetapan Chrome"
       },
       "searchBoxPosition": {
         "label": "Kedudukan kotak carian",
@@ -79,6 +79,10 @@
         "description": "Tetapkan kedudukan butang",
         "left": "Kiri",
         "right": "Kanan"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Sentiasa tunjukkan butang tutup",
+        "description": "Apabila diaktifkan, butang tutup akan sentiasa dipaparkan; apabila dilumpuhkan, butang tutup hanya akan dipaparkan apabila tetikus berada di atas tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Sembunyikan panel sisi dalam skrin penuh",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Scrollbar lancar",
         "description": "Gunakan scrollbar gaya reka bentuk Microsoft Fluent dan tindihkannya pada kandungan web",
-        "goToChromeSettings": "Pergi ke tetapan Chrome"
+        "goToBrowserSettings": "Pergi ke tetapan Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Halaman ini hanya untuk paparan. Untuk mengubah pintasan, sila lawati [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToChromeSettings": "Pergi ke tetapan Chrome",
+      "goToBrowserSettings": "Pergi ke tetapan Chrome",
       "_execute_action": "Aktifkan sambungan ini",
       "openSidePanel": "Buka panel sisi"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Matikan animasi",
         "description": "matikan kesan riak dan matikan semua peralihan"
+      }
+    },
+    "site": {
+      "label": "Tetapan laman",
+      "allSites": "Semua laman",
+      "sortBy": "Isih mengikut",
+      "mostVisited": "Paling kerap dilawati",
+      "dataStored": "Data disimpan",
+      "name": "Nama",
+      "deleteAllData": "Padam semua data",
+      "totalStorageUsedBySites": "Jumlah storan digunakan oleh laman",
+      "totalCount": "Jumlah keseluruhan",
+      "addNewSite": {
+        "label": "Tambah laman baru",
+        "description": "Masukkan alamat laman web baru, seperti 'www.contoh.com', dan klik 'Tambah'.",
+        "placeholder": "Alamat laman web, seperti 'www.contoh.com'",
+        "add": "Tambah",
+        "cancel": "Batal",
+        "invalidDomain": "Alamat laman web tidak sah"
+      },
+      "browserSettings": {
+        "label": "Tetapan pelayar",
+        "description": "Anda boleh mengubahsuai tetapan laman, seperti memadam data atau menukar kebenaran laman.",
+        "goToBrowserSettings": "Pergi ke tetapan pelayar"
+      },
+      "autoDiscardable": {
+        "label": "Boleh dibuang secara automatik",
+        "description": "Apabila diaktifkan, tab akan dibenarkan untuk dibuang oleh pelayar, dan jika anda menghidupkan prestasi dan menetapkan masa untuk membuang tab tidak aktif, tab akan dibuang selepas masa yang ditetapkan. Jika dimatikan, tab tidak akan dibuang"
+      },
+      "readingProgressBar": {
+        "label": "Bar kemajuan bacaan",
+        "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab.",
+        "globaldisabledTips": "Anda perlu menghidupkan bar kemajuan bacaan dalam tetapan global untuk mengubah tetapan ini."
+      },
+      "playingProgressBar": {
+        "label": "Bar kemajuan main",
+        "description": "Apabila diaktifkan, bar kemajuan main akan dipaparkan di bawah bar tajuk tab.",
+        "globaldisabledTips": "Anda perlu menghidupkan bar kemajuan main dalam tetapan global untuk mengubah tetapan ini."
+      },
+      "tabSwitchPip": {
+        "label": "PIP pada Penukaran Tab",
+        "description": "Apabila diaktifkan, auto-masuk ke Mod Gambar-dalam-Gambar apabila menukar tab dengan video yang tidak dibisukan.",
+        "globaldisabledTips": "Anda perlu menghidupkan Mod Gambar-dalam-Gambar dalam tetapan global untuk mengubah tetapan ini."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Hapus sejarah selepas tutup",
+        "description": "Apabila diaktifkan, sejarah akan dihapuskan selepas menutup tab."
+      },
+      "SyncTabs": {
+        "label": "Segerak tab",
+        "description": "Pilih bagaimana untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
+        "disabled": "Dinyahdayakan",
+        "uploadOnly": "Muat naik sahaja",
+        "downloadOnly": "Muat turun sahaja",
+        "staySynchronized": "Kekal disegerakkan",
+        "globaldisabledTips": "Anda perlu menghidupkan segerak dalam Tetapan Global untuk mengubah tetapan ini."
+      },
+      "SyncPrivateData": {
+        "label": "Segerak data peribadi",
+        "description": "Pilih bagaimana untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan laman web, data SessionStorage, dan lain-lain. Data akan dienkripsi sebelum disegerakkan.",
+        "disabled": "Dinyahdayakan",
+        "uploadOnly": "Muat naik sahaja",
+        "downloadOnly": "Muat turun sahaja",
+        "staySynchronized": "Kekal disegerakkan",
+        "globaldisabledTips": "Anda perlu menghidupkan segerak dalam Tetapan Global untuk mengubah tetapan ini."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Segerak ke awan",
+      "SyncNow": "Segerak Sekarang",
+      "SyncNowWithGoogleDrive": "Segerak Sekarang dengan Google Drive",
+      "SyncNowWithDropbox": "Segerak Sekarang dengan Dropbox",
+      "SyncNowWithOneDrive": "Segerak Sekarang dengan OneDrive",
+      "Synchronizing": "Menyegerakkan...",
+      "SyncedSuccessfully": "Berjaya disegerakkan",
+      "SyncFailed": "Segerakan gagal",
+      "LoginRequired": "Log masuk diperlukan",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Segerak konfigurasi",
+        "description": "Pilih bagaimana untuk menyegerakkan konfigurasi sambungan ini.",
+        "disabled": "Dinyahdayakan",
+        "uploadOnly": "Muat naik sahaja",
+        "downloadOnly": "Muat turun sahaja",
+        "staySynchronized": "Kekal disegerakkan"
+      },
+      "SyncTabs": {
+        "label": "Segerak tab",
+        "description": "Pilih bagaimana untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
+        "disabled": "Dinyahdayakan",
+        "uploadOnly": "Muat naik sahaja",
+        "downloadOnly": "Muat turun sahaja",
+        "staySynchronized": "Kekal disegerakkan"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Buka atau tutup tab secara serentak",
+        "description": "Apabila diaktifkan, membuka atau menutup tab dalam pelayar yang berbeza akan disegerakkan. Ini hanya berlaku apabila pilihan 'kekal disegerakkan' aktif",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jika anda log masuk ke akaun yang sama dalam dua pelayar pada masa yang sama dan mengaktifkan pilihan ini, membuka atau menutup tab dalam satu pelayar akan melakukan operasi yang sama dalam pelayar yang lain. Jika laman web menghalang log masuk berulang dengan akaun yang sama, pengecualian mungkin berlaku."
+      },
+      "SyncPrivateData": {
+        "label": "Segerak data peribadi",
+        "description": "Pilih bagaimana untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan laman web, data SessionStorage, dan lain-lain. Data akan dienkripsi sebelum disegerakkan.",
+        "disabled": "Dinyahdayakan",
+        "uploadOnly": "Muat naik sahaja",
+        "downloadOnly": "Muat turun sahaja",
+        "staySynchronized": "Kekal disegerakkan"
       }
     }
   }

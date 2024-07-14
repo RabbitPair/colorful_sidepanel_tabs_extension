@@ -43,6 +43,7 @@
     "closeTab": "Close Tab",
     "CloseOtherTabs": "Close Other Tabs",
     "CloseSameSiteTabs": "Close Same Site Tabs",
+    "CloseSameSiteOtherTabs": "Close Same Site Other Tabs",
     "Reload": "Reload",
     "RestoreTabs": "Restore Tabs",
     "DiscardTab": "Discard Tab",

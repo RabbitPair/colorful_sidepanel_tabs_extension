@@ -43,6 +43,7 @@
     "closeTab": "タブを閉じる",
     "CloseOtherTabs": "他のタブを閉じる",
     "CloseSameSiteTabs": "同じサイトのタブを閉じる",
+    "CloseSameSiteOtherTabs": "同じサイトの他のタブを閉じる",
     "Reload": "再読み込み",
     "RestoreTabs": "タブを復元",
     "DiscardTab": "タブを破棄",

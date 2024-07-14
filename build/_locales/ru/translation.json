@@ -43,6 +43,7 @@
     "closeTab": "Закрыть вкладку",
     "CloseOtherTabs": "Закрыть другие вкладки",
     "CloseSameSiteTabs": "Закрыть вкладки с того же сайта",
+    "CloseSameSiteOtherTabs": "Закрыть другие вкладки с того же сайта",
     "Reload": "Перезагрузить",
     "RestoreTabs": "Восстановить вкладки",
     "DiscardTab": "Отменить вкладку",

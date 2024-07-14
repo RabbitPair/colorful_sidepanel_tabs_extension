@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozice bočního panelu",
         "description": "Nastavte, zda se boční panel zobrazuje vlevo nebo vpravo.",
-        "goToChromeSettings": "Přejít na nastavení Chrome"
+        "goToBrowserSettings": "Přejít na nastavení Chrome"
       },
       "searchBoxPosition": {
         "label": "Pozice vyhledávacího pole",
@@ -79,6 +79,10 @@
         "description": "Nastavte pozici tlačítek",
         "left": "Vlevo",
         "right": "Vpravo"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Vždy zobrazit tlačítko zavřít",
+        "description": "Když je povoleno, tlačítko zavřít se vždy zobrazí; když je zakázáno, tlačítko zavřít se zobrazí pouze při najetí myší na kartu"
       },
       "fullScreenHideSidePanel": {
         "label": "Skrýt boční panel v režimu celé obrazovky",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Plynulé posuvníky",
         "description": "Použijte posuvníky ve stylu designu Microsoft Fluent a překryjte je na obsah webové stránky",
-        "goToChromeSettings": "Přejít na nastavení Chrome"
+        "goToBrowserSettings": "Přejít na nastavení Chrome"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Tato stránka slouží pouze k zobrazení. Chcete-li upravit zkratky, navštivte [Rozšíření]->[Spravovat rozšíření]->[Klávesové zkratky]",
-      "goToChromeSettings": "Přejít na nastavení Chrome",
+      "goToBrowserSettings": "Přejít na nastavení Chrome",
       "_execute_action": "Aktivovat toto rozšíření",
       "openSidePanel": "Otevřít boční panel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Zakázat animace",
         "description": "zakázat efekt vlnění a zakázat všechny přechody"
+      }
+    },
+    "site": {
+      "label": "Nastavení stránky",
+      "allSites": "Všechny stránky",
+      "sortBy": "Seřadit podle",
+      "mostVisited": "Nejnavštěvovanější",
+      "dataStored": "Uložená data",
+      "name": "název",
+      "deleteAllData": "Smazat všechna data",
+      "totalStorageUsedBySites": "Celkové využité úložiště stránkami",
+      "totalCount": "Celkový počet",
+      "addNewSite": {
+        "label": "Přidat novou stránku",
+        "description": "Zadejte novou adresu webové stránky, například 'www.priklad.com', a klikněte na 'Přidat'.",
+        "placeholder": "adresa webové stránky, například 'www.priklad.com'",
+        "add": "Přidat",
+        "cancel": "Zrušit",
+        "invalidDomain": "Neplatná adresa webové stránky"
+      },
+      "browserSettings": {
+        "label": "Nastavení prohlížeče",
+        "description": "Můžete upravit nastavení stránky, jako je mazání dat nebo změna oprávnění stránky.",
+        "goToBrowserSettings": "Přejít na nastavení prohlížeče"
+      },
+      "autoDiscardable": {
+        "label": "Automaticky odkládat",
+        "description": "Pokud je povoleno, bude možné kartu prohlížeče odložit prohlížečem. Pokud zapnete výkon a nastavíte čas pro odkládání neaktivních karet, karta bude odložena po uplynutí stanovené doby. Pokud je zakázáno, karta nebude odložena."
+      },
+      "readingProgressBar": {
+        "label": "Průběžný pruh čtení",
+        "description": "Pokud je povoleno, bude pod titulkem karty zobrazen průběžný pruh čtení.",
+        "globaldisabledTips": "Musíte zapnout průběžný pruh čtení v globálním nastavení pro upravení tohoto nastavení."
+      },
+      "playingProgressBar": {
+        "label": "Průběžný pruh přehrávání",
+        "description": "Pokud je povoleno, bude pod titulkem karty zobrazen průběžný pruh přehrávání.",
+        "globaldisabledTips": "Musíte zapnout průběžný pruh přehrávání v globálním nastavení pro upravení tohoto nastavení."
+      },
+      "tabSwitchPip": {
+        "label": "PIP při přepínání karet",
+        "description": "Pokud je povoleno, automaticky vstoupíte do režimu Picture-in-picture při přepínání karet s neztlumeným videem.",
+        "globaldisabledTips": "Musíte zapnout režim Picture-in-picture v globálním nastavení pro upravení tohoto nastavení."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Vymazat historii po zavření",
+        "description": "Pokud je povoleno, historie bude vymazána po zavření karty."
+      },
+      "SyncTabs": {
+        "label": "Synchronizovat karty",
+        "description": "Vyberte, jak synchronizovat data karet, s výjimkou soukromých dat, jako jsou cookies a osobní informace.",
+        "disabled": "Zakázáno",
+        "uploadOnly": "Pouze nahrát",
+        "downloadOnly": "Pouze stáhnout",
+        "staySynchronized": "Zůstat synchronizováno",
+        "globaldisabledTips": "Musíte zapnout synchronizaci v globálním nastavení pro upravení tohoto nastavení."
+      },
+      "SyncPrivateData": {
+        "label": "Synchronizovat soukromá data",
+        "description": "Vyberte, jak synchronizovat soukromá data, jako jsou cookies webových stránek, data uložená v lokálním úložišti webových stránek, data SessionStorage atd. Data budou šifrována před synchronizací.",
+        "disabled": "Zakázáno",
+        "uploadOnly": "Pouze nahrát",
+        "downloadOnly": "Pouze stáhnout",
+        "staySynchronized": "Zůstat synchronizováno",
+        "globaldisabledTips": "Musíte zapnout synchronizaci v globálním nastavení pro upravení tohoto nastavení."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synchronizovat do cloudu",
+      "SyncNow": "Synchronizovat nyní",
+      "SyncNowWithGoogleDrive": "Synchronizovat nyní pomocí Google Drive",
+      "SyncNowWithDropbox": "Synchronizovat nyní pomocí Dropboxu",
+      "SyncNowWithOneDrive": "Synchronizovat nyní pomocí OneDrive",
+      "Synchronizing": "Synchronizace...",
+      "SyncedSuccessfully": "Úspěšně synchronizováno",
+      "SyncFailed": "Synchronizace selhala",
+      "LoginRequired": "Vyžadováno přihlášení",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synchronizovat konfigurace",
+        "description": "Vyberte, jak synchronizovat konfigurace tohoto rozšíření.",
+        "disabled": "Zakázáno",
+        "uploadOnly": "Pouze nahrát",
+        "downloadOnly": "Pouze stáhnout",
+        "staySynchronized": "Zůstat synchronizováno"
+      },
+      "SyncTabs": {
+        "label": "Synchronizovat panely",
+        "description": "Vyberte, jak synchronizovat data panelů, s výjimkou soukromých dat, jako jsou cookies a osobní informace.",
+        "disabled": "Zakázáno",
+        "uploadOnly": "Pouze nahrát",
+        "downloadOnly": "Pouze stáhnout",
+        "staySynchronized": "Zůstat synchronizováno"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Otevírat nebo zavírat panely synchronně",
+        "description": "Pokud je povoleno, otevírání nebo zavírání panelů v různých prohlížečích bude synchronizováno. Toto platí pouze tehdy, když je aktivní možnost 'Zůstat synchronizováno'.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Pokud se přihlásíte ke stejnému účtu ve dvou prohlížečích současně a tuto možnost zapnete, otevírání nebo zavírání panelů v jednom prohlížeči provede stejnou operaci v druhém prohlížeči. Pokud webová stránka zakazuje opakované přihlášení se stejným účtem, mohou nastat výjimky."
+      },
+      "SyncPrivateData": {
+        "label": "Synchronizovat soukromá data",
+        "description": "Vyberte, jak synchronizovat soukromá data, jako jsou cookies webových stránek, data uložená v lokálním úložišti webových stránek, data SessionStorage atd. Data budou šifrována před synchronizací.",
+        "disabled": "Zakázáno",
+        "uploadOnly": "Pouze nahrát",
+        "downloadOnly": "Pouze stáhnout",
+        "staySynchronized": "Zůstat synchronizováno"
       }
     }
   }

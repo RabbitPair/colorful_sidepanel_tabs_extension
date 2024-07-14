@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozycja panelu bocznego",
         "description": "Ustaw, czy panel boczny jest wyświetlany po lewej czy prawej stronie.",
-        "goToChromeSettings": "Przejdź do ustawień Chrome"
+        "goToBrowserSettings": "Przejdź do ustawień Chrome"
       },
       "searchBoxPosition": {
         "label": "Pozycja pola wyszukiwania",
@@ -79,6 +79,10 @@
         "description": "Ustaw pozycję przycisków",
         "left": "Lewo",
         "right": "Prawo"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Zawsze pokaż przycisk zamknięcia",
+        "description": "Po włączeniu, przycisk zamknięcia zawsze będzie widoczny; po wyłączeniu, przycisk zamknięcia będzie widoczny tylko, gdy myszka znajduje się nad zakładką"
       },
       "fullScreenHideSidePanel": {
         "label": "Ukryj panel boczny w trybie pełnoekranowym",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Płynne paski przewijania",
         "description": "Używaj pasków przewijania w stylu Microsoft Fluent i nakładaj je na zawartość sieci",
-        "goToChromeSettings": "Przejdź do ustawień Chrome"
+        "goToBrowserSettings": "Przejdź do ustawień Chrome"
       }
     },
     "tabs": {
@@ -228,7 +232,7 @@
     },
     "shortcuts": {
       "alert": "Ta strona jest tylko do wyświetlania. Aby zmodyfikować skróty, odwiedź [Rozszerzenia]->[Zarządzaj rozszerzeniami]->[Skróty klawiaturowe]",
-      "goToChromeSettings": "Przejdź do ustawień Chrome",
+      "goToBrowserSettings": "Przejdź do ustawień Chrome",
       "_execute_action": "Aktywuj to rozszerzenie",
       "openSidePanel": "Otwórz panel boczny"
     },
@@ -333,6 +337,114 @@
       "disableAnimations": {
         "label": "Wyłącz animacje",
         "description": "wyłącz efekt rozprysku i wyłącz wszystkie przejścia"
+      }
+    },
+    "site": {
+      "label": "Ustawienia strony",
+      "allSites": "Wszystkie strony",
+      "sortBy": "Sortuj według",
+      "mostVisited": "Najczęściej odwiedzane",
+      "dataStored": "Przechowywane dane",
+      "name": "Nazwa",
+      "deleteAllData": "Usuń wszystkie dane",
+      "totalStorageUsedBySites": "Całkowite zużycie pamięci przez strony",
+      "totalCount": "Całkowita liczba",
+      "addNewSite": {
+        "label": "Dodaj nową stronę",
+        "description": "Wprowadź nowy adres strony internetowej, na przykład „www.przykład.com”, a następnie kliknij „Dodaj”.",
+        "placeholder": "Adres strony internetowej, na przykład „www.przykład.com”",
+        "add": "Dodaj",
+        "cancel": "Anuluj",
+        "invalidDomain": "Nieprawidłowy adres strony internetowej"
+      },
+      "browserSettings": {
+        "label": "Ustawienia przeglądarki",
+        "description": "Możesz modyfikować ustawienia strony, takie jak usuwanie danych lub zmiana uprawnień strony.",
+        "goToBrowserSettings": "Przejdź do ustawień przeglądarki"
+      },
+      "autoDiscardable": {
+        "label": "Automatyczne odrzucanie",
+        "description": "Po włączeniu karta będzie mogła zostać odrzucona przez przeglądarkę, a jeśli włączysz wydajność i ustawisz czas odrzucania nieaktywnych kart, karta zostanie odrzucona po określonym czasie. Jeśli jest wyłączone, karta nie zostanie odrzucona"
+      },
+      "readingProgressBar": {
+        "label": "Pasek postępu czytania",
+        "description": "Po włączeniu pasek postępu czytania będzie wyświetlany poniżej paska tytułowego karty.",
+        "globaldisabledTips": "Musisz włączyć pasek postępu czytania w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      },
+      "playingProgressBar": {
+        "label": "Pasek postępu odtwarzania",
+        "description": "Po włączeniu pasek postępu odtwarzania będzie wyświetlany poniżej paska tytułowego karty.",
+        "globaldisabledTips": "Musisz włączyć pasek postępu odtwarzania w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      },
+      "tabSwitchPip": {
+        "label": "PIP podczas przełączania karty",
+        "description": "Po włączeniu automatycznie przejdź do trybu Picture-in-picture podczas przełączania kart z wideo bez wyciszenia.",
+        "globaldisabledTips": "Musisz włączyć tryb Picture-in-picture w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Wyczyść historię po zamknięciu",
+        "description": "Po włączeniu historia zostanie wyczyszczona po zamknięciu karty."
+      },
+      "SyncTabs": {
+        "label": "Synchronizuj karty",
+        "description": "Wybierz sposób synchronizacji danych karty, wyłączając prywatne dane, takie jak pliki cookie i informacje osobiste.",
+        "disabled": "Wyłączone",
+        "uploadOnly": "Tylko wysyłanie",
+        "downloadOnly": "Tylko pobieranie",
+        "staySynchronized": "Zachowaj synchronizację",
+        "globaldisabledTips": "Musisz włączyć synchronizację w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      },
+      "SyncPrivateData": {
+        "label": "Synchronizuj prywatne dane",
+        "description": "Wybierz sposób synchronizacji prywatnych danych, takich jak pliki cookie witryny, dane lokalne strony internetowej, dane SessionStorage, itp. Dane będą szyfrowane przed synchronizacją.",
+        "disabled": "Wyłączone",
+        "uploadOnly": "Tylko wysyłanie",
+        "downloadOnly": "Tylko pobieranie",
+        "staySynchronized": "Zachowaj synchronizację",
+        "globaldisabledTips": "Musisz włączyć synchronizację w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synchronizuj z chmurą",
+      "SyncNow": "Synchronizuj teraz",
+      "SyncNowWithGoogleDrive": "Synchronizuj teraz z Google Drive",
+      "SyncNowWithDropbox": "Synchronizuj teraz z Dropbox",
+      "SyncNowWithOneDrive": "Synchronizuj teraz z OneDrive",
+      "Synchronizing": "Synchronizowanie...",
+      "SyncedSuccessfully": "Synchronizacja zakończona pomyślnie",
+      "SyncFailed": "Błąd synchronizacji",
+      "LoginRequired": "Wymagane logowanie",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synchronizuj konfiguracje",
+        "description": "Wybierz sposób synchronizacji konfiguracji tego rozszerzenia.",
+        "disabled": "Wyłączone",
+        "uploadOnly": "Tylko wysyłanie",
+        "downloadOnly": "Tylko pobieranie",
+        "staySynchronized": "Zachowaj synchronizację"
+      },
+      "SyncTabs": {
+        "label": "Synchronizuj karty",
+        "description": "Wybierz sposób synchronizacji danych karty, wyłączając prywatne dane, takie jak pliki cookie i informacje osobiste.",
+        "disabled": "Wyłączone",
+        "uploadOnly": "Tylko wysyłanie",
+        "downloadOnly": "Tylko pobieranie",
+        "staySynchronized": "Zachowaj synchronizację"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Otwieraj lub zamykaj karty synchronicznie",
+        "description": "Gdy jest włączone, otwieranie lub zamykanie kart w różnych przeglądarkach będzie synchronizowane. Dotyczy to tylko wtedy, gdy opcja „zachowaj synchronizację” jest aktywna",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jeśli zalogujesz się na to samo konto w dwóch przeglądarkach jednocześnie i włączysz tę opcję, otwieranie lub zamykanie kart w jednej przeglądarce spowoduje wykonanie tej samej operacji w drugiej przeglądarce. Jeśli witryna zabrania wielokrotnego logowania na to samo konto, mogą wystąpić wyjątki."
+      },
+      "SyncPrivateData": {
+        "label": "Synchronizuj prywatne dane",
+        "description": "Wybierz sposób synchronizacji prywatnych danych, takich jak pliki cookie witryny, dane lokalne strony internetowej, dane SessionStorage, itp. Dane będą szyfrowane przed synchronizacją.",
+        "disabled": "Wyłączone",
+        "uploadOnly": "Tylko wysyłanie",
+        "downloadOnly": "Tylko pobieranie",
+        "staySynchronized": "Zachowaj synchronizację"
       }
     }
   }

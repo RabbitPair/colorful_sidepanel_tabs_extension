@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Tomon panelining joylashuvi",
         "description": "Tomon panelining chap yoki o'ngda ko'rsatilishini sozlash",
-        "goToChromeSettings": "Chrome sozlamalariga o'tish"
+        "goToBrowserSettings": "Chrome sozlamalariga o'tish"
       },
       "searchBoxPosition": {
         "label": "Qidiruv qutisining joylashuvi",
@@ -79,6 +79,10 @@
         "description": "Tugmalar joylashuvi sozlash",
         "left": "Chap",
         "right": "O'ng"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Har doim yopish tugmasini ko'rsatish",
+        "description": "Yoqilganda, yopish tugmasi har doim ko'rinadi; o'chirilganda esa yopish tugmasi faqat tabni o'zgartirganda ko'rinadi"
       },
       "fullScreenHideSidePanel": {
         "label": "To'liq ekran rejimida tomon panelini yashirish",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Oqimli skrollar",
         "description": "Microsoft Fluent dizayn uslubidagi skrollarni ishlatib, ularni veb-mundarijning ustiga qo'yish",
-        "goToChromeSettings": "Chrome sozlamalariga o'tish"
+        "goToBrowserSettings": "Chrome sozlamalariga o'tish"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Ushbu sahifa faqat ko'rsatish uchun. Qisqartmalarni o'zgartirish uchun, iltimos, [Kengaytmalar]->[Kengaytmalar boshqarish]->[Klaviatura qisqartmalari] bo'limiga turing",
-      "goToChromeSettings": "Chrome sozlamalariga o'tish",
+      "goToBrowserSettings": "Chrome sozlamalariga o'tish",
       "_execute_action": "Uzantani faollashtiring",
       "openSidePanel": "Tomon panelini oching"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Animasyonları devre dışı bırak",
         "description": "dalgalanma efektini devre dışı bırak ve tüm geçişleri devre dışı bırak"
+      }
+    },
+    "site": {
+      "label": "Sayt sozlamalari",
+      "allSites": "Barcha saytlar",
+      "sortBy": "Tartiblash usuli",
+      "mostVisited": "Eng ko'p ko'rilgan",
+      "dataStored": "Ma'lumot saqlangan",
+      "name": "Ism",
+      "deleteAllData": "Barcha ma'lumotlarni o'chirish",
+      "totalStorageUsedBySites": "Saytlar tomonidan ishlatilgan umumiy saqlash hajmi",
+      "totalCount": "Umumiy sanasi",
+      "addNewSite": {
+        "label": "Yangi sayt qo'shish",
+        "description": "Yangi veb-sayt manzilini kiriting, masalan, 'www.example.com', va 'Qo'shish' tugmasini bosing.",
+        "placeholder": "Veb-sayt manzili, masalan, 'www.example.com'",
+        "add": "Qo'shish",
+        "cancel": "Bekor qilish",
+        "invalidDomain": "Noto'g'ri veb-sayt manzili"
+      },
+      "browserSettings": {
+        "label": "Brauzer sozlamalari",
+        "description": "Siz sayt sozlamalarini o'zgartirishingiz mumkin, masalan, ma'lumotlarni o'chirish yoki sayt ruxsatlarini o'zgartirish.",
+        "goToBrowserSettings": "Brauzer sozlamalariga o'tish"
+      },
+      "autoDiscardable": {
+        "label": "Avtomatik butunlashtiriladigan",
+        "description": "Yoqilganda, brauzer tomonidan tabni butunlashtirishga ruxsat beriladi, va agar siz performansni yoqotib va etkin olmayan tablarni butunlashtirish vaqti sozlashni yoqotib qo'ysangiz, tab belgilangan vaqtdan so'ng butunlashtiriladi. Agar o'chirilsa, tab butunlashtirilmaydi"
+      },
+      "readingProgressBar": {
+        "label": "O'qishning o'tish indikatori",
+        "description": "Yoqilganda, tab sarlavhasi pastida o'qishning o'tish indikatori ko'rsatiladi.",
+        "globaldisabledTips": "Siz bu sozlamani o'zgartirish uchun umumiy sozlamalarda o'qishning o'tish indikatorini yoqishingiz kerak."
+      },
+      "playingProgressBar": {
+        "label": "O'yin o'tish indikatori",
+        "description": "Yoqilganda, tab sarlavhasi pastida o'yin o'tish indikatori ko'rsatiladi.",
+        "globaldisabledTips": "Siz bu sozlamani o'zgartirish uchun umumiy sozlamalarda o'yin o'tish indikatorini yoqishingiz kerak."
+      },
+      "tabSwitchPip": {
+        "label": "PIP tab o'tishda",
+        "description": "Yoqilganda, ovozli video bilan tablarni o'tkazishda avtomatik ravishda Picture-in-picturega kiriladi.",
+        "globaldisabledTips": "Siz bu sozlamani o'zgartirish uchun umumiy sozlamalarda Picture-in-pictureni yoqishingiz kerak."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Yopilgandan so'ng tarixni tozalash",
+        "description": "Yoqilganda, tabni yopgandan so'ng tarix tozalanadi."
+      },
+      "SyncTabs": {
+        "label": "Tablarni sinxronlashtirish",
+        "description": "Kuklar va shaxsi ma'lumotlar kabi maxfiy ma'lumotlarni chiqarib tashlab, tab ma'lumotlarini qanday sinxronlashtirishni tanlang.",
+        "disabled": "O'chirilgan",
+        "uploadOnly": "Faqat yuklash",
+        "downloadOnly": "Faqat yuklab olish",
+        "staySynchronized": "Sinxronlashtirilgan qolish",
+        "globaldisabledTips": "Siz bu sozlamani o'zgartirish uchun umumiy sozlamalarda sinxronlashtirishni yoqishingiz kerak."
+      },
+      "SyncPrivateData": {
+        "label": "Maxfiy ma'lumotlarni sinxronlashtirish",
+        "description": "Veb-sayt kuklari, veb-sahifa lokal saqlash ma'lumotlari, SessionStorage ma'lumotlari va h.k. kabi maxfiy ma'lumotlarni qanday sinxronlashtirishni tanlang. Ma'lumotlar sinxronlashtirilgandan oldin shifrlanadi.",
+        "disabled": "O'chirilgan",
+        "uploadOnly": "Faqat yuklash",
+        "downloadOnly": "Faqat yuklab olish",
+        "staySynchronized": "Sinxronlashtirilgan qolish",
+        "globaldisabledTips": "Siz bu sozlamani o'zgartirish uchun umumiy sozlamalarda sinxronlashtirishni yoqishingiz kerak."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Bulut senkronizasiyası",
+      "SyncNow": "Hemen Senkronize Et",
+      "SyncNowWithGoogleDrive": "Google Drive ile Hemen Senkronize Et",
+      "SyncNowWithDropbox": "Dropbox ile Hemen Senkronize Et",
+      "SyncNowWithOneDrive": "OneDrive ile Hemen Senkronize Et",
+      "Synchronizing": "Senkronizasiya edilir...",
+      "SyncedSuccessfully": "Uğurla senkronizasiya edildi",
+      "SyncFailed": "Senkronizasiya uğursuz oldu",
+      "LoginRequired": "Giriş tələb olunur",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Senkronizasiya konfiqurasiyaları",
+        "description": "Bu əlavənin konfiqurasiyalarını necə senkronizasiya etmək istədiyinizi seçin.",
+        "disabled": "Deaktiv edildi",
+        "uploadOnly": "Yalnız yüklə",
+        "downloadOnly": "Yalnız endir",
+        "staySynchronized": "Senkronizasiya qal"
+      },
+      "SyncTabs": {
+        "label": "Sekmeleri senkronizasiya et",
+        "description": "Çerezlər və şəxsi məlumatlar kimi gizli məlumatları nəzərə almadan sekmelerin məlumatlarını necə senkronizasiya etmək istədiyinizi seçin.",
+        "disabled": "Deaktiv edildi",
+        "uploadOnly": "Yalnız yüklə",
+        "downloadOnly": "Yalnız endir",
+        "staySynchronized": "Senkronizasiya qal"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Sekmeleri eyni anda aç və ya bağla",
+        "description": "Etkinləşdirildikdə, fərqli brauzerlərdə sekmeleri açmaq və ya bağlamaq sinxronlaşdırılacaq. Bu yalnız 'senkronizasiya qal' seçimi aktiv olduğu zaman tətbiq olunur",
+        "OpenOrCloseTabsSynchronouslyWarning": "Eyni hesabla eyni anda iki brauzerə daxil olarsınızsa və bu seçimi aktiv edirsinizsə, bir brauzerdə sekmeleri açmaq və ya bağlamaq əməliyyatı digər brauzerdə eyni əməliyyatı yerinə yetirəcəkdir. Veb sayt eyni hesabla təkrarlı girişləri qadağan edirsə, istisnalar yarana bilər."
+      },
+      "SyncPrivateData": {
+        "label": "Gizli məlumatları senkronizasiya et",
+        "description": "Veb sayt çerezləri, səhifə lokal saxlama məlumatları, SessionStorage məlumatları və s. kimi gizli məlumatları necə senkronizasiya etmək istədiyinizi seçin. Məlumatlar senkronizasiya əvvəl şifrələnir.",
+        "disabled": "Deaktiv edildi",
+        "uploadOnly": "Yalnız yüklə",
+        "downloadOnly": "Yalnız endir",
+        "staySynchronized": "Senkronizasiya qal"
       }
     }
   }

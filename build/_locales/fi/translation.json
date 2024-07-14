@@ -43,6 +43,7 @@
     "closeTab": "Sulje välilehti",
     "CloseOtherTabs": "Sulje muut välilehdet",
     "CloseSameSiteTabs": "Sulje saman sivuston välilehdet",
+    "CloseSameSiteOtherTabs": "Sulje saman sivuston muut välilehdet",
     "Reload": "Lataa uudelleen",
     "RestoreTabs": "Palauta välilehdet",
     "DiscardTab": "Hylkää välilehti",

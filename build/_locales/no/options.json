@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sidepanelposisjon",
         "description": "Angi om sidepanelet vises til venstre eller høyre.",
-        "goToChromeSettings": "Gå til Chrome-innstillinger"
+        "goToBrowserSettings": "Gå til Chrome-innstillinger"
       },
       "searchBoxPosition": {
         "label": "Søkeboksposisjon",
@@ -79,6 +79,10 @@
         "description": "Angi posisjonen til knappene",
         "left": "Venstre",
         "right": "Høyre"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Vis alltid lukkeknappen",
+        "description": "Når aktivert, vil lukkeknappen alltid vises; når deaktivert, vil lukkeknappen bare vises når musen svever over fanen"
       },
       "fullScreenHideSidePanel": {
         "label": "Skjul sidepanel i fullskjerm",
@@ -139,7 +143,7 @@
       "fluentOverlayScrollbars": {
         "label": "Flytende rullefelt",
         "description": "Bruk Microsoft Fluent designstil rullefelt og overlegg dem på nettinnholdet",
-        "goToChromeSettings": "Gå til Chrome-innstillinger"
+        "goToBrowserSettings": "Gå til Chrome-innstillinger"
       }
     },
     "tabs": {
@@ -232,7 +236,7 @@
     },
     "shortcuts": {
       "alert": "Denne siden er kun for visning. For å endre snarveier, vennligst besøk [Utvidelser]->[Administrer utvidelser]->[Tastatursnarveier]",
-      "goToChromeSettings": "Gå til Chrome-innstillinger",
+      "goToBrowserSettings": "Gå til Chrome-innstillinger",
       "_execute_action": "Aktiver denne utvidelsen",
       "openSidePanel": "Åpne sidepanel"
     },
@@ -337,6 +341,114 @@
       "disableAnimations": {
         "label": "Deaktiver animasjoner",
         "description": "deaktiver bølgeeffekten og deaktiver alle overganger"
+      }
+    },
+    "site": {
+      "label": "Nettstedinnstillinger",
+      "allSites": "Alle nettsteder",
+      "sortBy": "Sorter etter",
+      "mostVisited": "Mest besøkt",
+      "dataStored": "Data lagret",
+      "name": "Navn",
+      "deleteAllData": "Slett all data",
+      "totalStorageUsedBySites": "Total lagringsplass brukt av nettsteder",
+      "totalCount": "Totalt antall",
+      "addNewSite": {
+        "label": "Legg til nytt nettsted",
+        "description": "Skriv inn en ny nettstedsadresse, for eksempel 'www.eksempel.com', og klikk 'Legg til'.",
+        "placeholder": "Nettstedsadresse, for eksempel 'www.eksempel.com'",
+        "add": "Legg til",
+        "cancel": "Avbryt",
+        "invalidDomain": "Ugyldig nettstedsadresse"
+      },
+      "browserSettings": {
+        "label": "Nettleserinnstillinger",
+        "description": "Du kan endre nettstedsinnstillinger, for eksempel slette data eller endre nettstedstillatelser.",
+        "goToBrowserSettings": "Gå til nettleserinnstillinger"
+      },
+      "autoDiscardable": {
+        "label": "Automatisk forkastbar",
+        "description": "Når aktivert, vil fanen kunne forkastes av nettleseren, og hvis du slår på ytelse og angir tiden for å forkaste inaktive faner, vil fanen forkastes etter angitt tid. Hvis deaktivert, vil fanen ikke bli forkastet"
+      },
+      "readingProgressBar": {
+        "label": "Lese fremdriftslinje",
+        "description": "Når aktivert, vil en lese fremdriftslinje vises under fane tittel linjen.",
+        "globaldisabledTips": "Du må slå på lese fremdriftslinjen i de globale innstillingene for å endre denne innstillingen."
+      },
+      "playingProgressBar": {
+        "label": "Spille fremdriftslinje",
+        "description": "Når aktivert, vil en spille fremdriftslinje vises under fane tittel linjen.",
+        "globaldisabledTips": "Du må slå på spille fremdriftslinjen i de globale innstillingene for å endre denne innstillingen."
+      },
+      "tabSwitchPip": {
+        "label": "PIP ved fanebytte",
+        "description": "Når aktivert, vil du automatisk gå inn i Bilde-i-bilde når du bytter faner med en umutet video.",
+        "globaldisabledTips": "Du må slå på Bilde-i-bilde i de globale innstillingene for å endre denne innstillingen."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Slett historikk etter lukking",
+        "description": "Når aktivert, vil historikken bli slettet etter at fanen er lukket."
+      },
+      "SyncTabs": {
+        "label": "Synkroniser faner",
+        "description": "Velg hvordan du vil synkronisere fane-data, ekskludert privat data som informasjonskapsler og personlig informasjon.",
+        "disabled": "Deaktivert",
+        "uploadOnly": "Kun opplasting",
+        "downloadOnly": "Kun nedlasting",
+        "staySynchronized": "Forbli synkronisert",
+        "globaldisabledTips": "Du må slå på synkronisering i globale innstillinger for å endre denne innstillingen."
+      },
+      "SyncPrivateData": {
+        "label": "Synkroniser privat data",
+        "description": "Velg hvordan du vil synkronisere privat data, som informasjonskapsler for nettsteder, data for lokal lagring av nettsider, SessionStorage-data, osv. Data vil bli kryptert før synkronisering.",
+        "disabled": "Deaktivert",
+        "uploadOnly": "Kun opplasting",
+        "downloadOnly": "Kun nedlasting",
+        "staySynchronized": "Forbli synkronisert",
+        "globaldisabledTips": "Du må slå på synkronisering i globale innstillinger for å endre denne innstillingen."
+      }
+    },
+    "SyncToCloud": {
+      "label": "Synkroniser til skyen",
+      "SyncNow": "Synkroniser nå",
+      "SyncNowWithGoogleDrive": "Synkroniser nå med Google Drive",
+      "SyncNowWithDropbox": "Synkroniser nå med Dropbox",
+      "SyncNowWithOneDrive": "Synkroniser nå med OneDrive",
+      "Synchronizing": "Synkroniserer...",
+      "SyncedSuccessfully": "Synkronisert vellykket",
+      "SyncFailed": "Synkronisering mislyktes",
+      "LoginRequired": "Pålogging påkrevd",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Synkroniser konfigurasjoner",
+        "description": "Velg hvordan du vil synkronisere denne utvidelsens konfigurasjoner.",
+        "disabled": "Deaktivert",
+        "uploadOnly": "Kun opplasting",
+        "downloadOnly": "Kun nedlasting",
+        "staySynchronized": "Forbli synkronisert"
+      },
+      "SyncTabs": {
+        "label": "Synkroniser faner",
+        "description": "Velg hvordan du vil synkronisere fane-data, ekskludert privat data som informasjonskapsler og personlig informasjon.",
+        "disabled": "Deaktivert",
+        "uploadOnly": "Kun opplasting",
+        "downloadOnly": "Kun nedlasting",
+        "staySynchronized": "Forbli synkronisert"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Åpne eller lukke faner synkront",
+        "description": "Når aktivert, vil åpning eller lukking av faner i ulike nettlesere bli synkronisert. Dette gjelder bare når alternativet 'forbli synkronisert' er aktivert",
+        "OpenOrCloseTabsSynchronouslyWarning": "Hvis du logger inn på samme konto i to nettlesere samtidig og slår på dette alternativet, vil åpning eller lukking av faner i én nettleser utføre samme operasjon i den andre nettleseren. Hvis nettstedet forbyr gjentatte pålogginger med samme konto, kan unntak oppstå."
+      },
+      "SyncPrivateData": {
+        "label": "Synkroniser privat data",
+        "description": "Velg hvordan du vil synkronisere privat data, som nettstedinformasjonskapsler, web-sidelagringsdata, SessionStorage-data, osv. Data vil bli kryptert før synkronisering.",
+        "disabled": "Deaktivert",
+        "uploadOnly": "Kun opplasting",
+        "downloadOnly": "Kun nedlasting",
+        "staySynchronized": "Forbli synkronisert"
       }
     }
   }

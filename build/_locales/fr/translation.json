@@ -43,6 +43,7 @@
     "closeTab": "Fermer l'onglet",
     "CloseOtherTabs": "Fermer les autres onglets",
     "CloseSameSiteTabs": "Fermer les onglets du même site",
+    "CloseSameSiteOtherTabs": "Fermer les autres onglets du même site",
     "Reload": "Recharger",
     "RestoreTabs": "Restaurer les onglets",
     "DiscardTab": "Abandonner l'onglet",

@@ -43,6 +43,7 @@
     "closeTab": "Sulge vahekaart",
     "CloseOtherTabs": "Sulge teised vahekaardid",
     "CloseSameSiteTabs": "Sulge samas saidis olevad vahekaardid",
+    "CloseSameSiteOtherTabs": "Sulge samas saidis olevad muud vahekaardid",
     "Reload": "Laadi uuesti",
     "RestoreTabs": "Taasta vahekaardid",
     "DiscardTab": "Hülga vahekaart",

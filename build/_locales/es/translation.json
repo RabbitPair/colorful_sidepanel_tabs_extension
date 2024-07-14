@@ -43,6 +43,7 @@
     "closeTab": "Cerrar pestaña",
     "CloseOtherTabs": "Cerrar otras pestañas",
     "CloseSameSiteTabs": "Cerrar pestañas del mismo sitio",
+    "CloseSameSiteOtherTabs": "Cerrar otras pestañas del mismo sitio",
     "Reload": "Recargar",
     "RestoreTabs": "Restaurar pestañas",
     "DiscardTab": "Descartar pestaña",
