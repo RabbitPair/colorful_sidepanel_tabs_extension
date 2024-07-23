@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kleurrijk zijbalklabelbeheer"
+    "message": "Kleurrijke Zijpaneel Tabs"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Beheer tabbladen in het zijpaneel, Te mooi om zo goed te zijn."
+    "message": "Beheer browsertabbladen in het zijpaneel"
   },
   "openSidePanel": {
-    "message": "Zijbalk openen"
+    "message": "Open Zijpaneel"
   }
 }

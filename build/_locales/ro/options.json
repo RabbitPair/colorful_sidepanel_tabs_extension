@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Deschideți panoul lateral pentru previzualizare",
+  "OpenSidePanelToPreview": "Deschideți panoul lateral pentru previzualizare",
   "_execute_action": "Activați această extensie",
   "openSidePanel": "Deschideți panoul lateral",
   "settings": {
@@ -9,10 +9,10 @@
       "beautify": "Înfrumusețare",
       "tabs": "File",
       "history": "Istoric",
-      "shortcuts": "Scurtături",
+      "shortcuts": "Comenzi rapide",
       "pip": "Imagine în imagine",
       "chromeTabGroupAdvanced": "Grupuri de file avansate",
-      "progressBar": "Bara de progres",
+      "progressBar": "Bară de progres",
       "floatBall": "Minge plutitoare",
       "experimentalFeatures": "Funcții experimentale"
     },
@@ -37,8 +37,8 @@
         "large": "Mare"
       },
       "fontFamily": {
-        "label": "Familia fontului",
-        "description": "Setați familia fontului"
+        "label": "Familia de fonturi",
+        "description": "Setați familia de fonturi"
       },
       "fontColor": {
         "label": "Culoarea fontului",
@@ -52,7 +52,8 @@
         "label": "Acțiunea la clic pe pictograma extensiei",
         "description": "Setați acțiunea la clic pe pictograma extensiei",
         "openPopup": "Deschideți fereastra pop-up",
-        "openSidePanel": "Deschideți panoul lateral"
+        "openSidePanel": "Deschideți panoul lateral",
+        "SmallWindowAlert": "Dacă panoul lateral ocupă prea mult spațiu, se recomandă utilizarea unei ferestre pop-up"
       },
       "SidePanelPosition": {
         "label": "Poziția panoului lateral",
@@ -71,18 +72,18 @@
         "description": "Când este activat, bara de instrumente este afișată"
       },
       "bottomNav": {
-        "label": "Afișați bara de navigare de jos",
-        "description": "Când este activat, bara de navigare de jos este afișată"
+        "label": "Afișați bara de navigare inferioară",
+        "description": "Când este activat, bara de navigare inferioară este afișată"
       },
       "buttonPosition": {
-        "label": "Poziția butoanelor",
+        "label": "Poziția butonului",
         "description": "Setați poziția butoanelor",
         "left": "Stânga",
         "right": "Dreapta"
       },
       "alwaysShowCloseButton": {
-        "label": "Întotdeauna afișați butonul de închidere",
-        "description": "Când este activat, butonul de închidere va fi întotdeauna afișat; când este dezactivat, butonul de închidere va fi afișat doar atunci când mouse-ul planează deasupra filei"
+        "label": "Afișați întotdeauna butonul de închidere",
+        "description": "Când este activat, butonul de închidere va fi întotdeauna afișat; când este dezactivat, butonul de închidere va fi afișat doar când mouse-ul este deasupra filei"
       },
       "fullScreenHideSidePanel": {
         "label": "Ascundeți panoul lateral în ecran complet",
@@ -109,17 +110,17 @@
         "opaque": "Opac"
       },
       "backgroundImageBlur": {
-        "label": "Intensitatea efectului de estompare",
-        "description": "Setați intensitatea efectului de estompare"
+        "label": "Intensitatea blurului",
+        "description": "Setați intensitatea blurului"
       },
       "backgroundImageBrightness": {
         "label": "Luminozitate",
         "description": "Setați luminozitatea, recomandat doar pentru modul întunecat"
       },
       "listBackgroundStyle": {
-        "label": "Stilul de fundal al listei",
-        "description": "Setați stilul de fundal al listei",
-        "single": "Unică",
+        "label": "Stilul fundalului listei",
+        "description": "Setați stilul fundalului listei",
+        "single": "Simplu",
         "none": "Niciunul",
         "simple": "Simplu",
         "complementary": "Complementar",
@@ -134,8 +135,8 @@
         "opaque": "Opac"
       },
       "listBottomBorder": {
-        "label": "Bordura de jos a listei",
-        "description": "Setați bordura de jos a listei",
+        "label": "Marginea inferioară a listei",
+        "description": "Setați marginea inferioară a listei",
         "none": "Niciunul",
         "dashed": "Punctat",
         "solid": "Solid"
@@ -161,6 +162,10 @@
         "label": "Sortați după",
         "description": "Comutați sortarea după"
       },
+      "showFullUrl": {
+        "label": "Afișați URL-ul complet",
+        "description": "Când este activat, URL-ul complet va fi afișat sub titlul filei"
+      },
       "currentWindowOnly": {
         "label": "Doar fereastra curentă",
         "description": "Afișați doar filele ferestrei curente. Dacă este dezactivat, filele din toate ferestrele vor fi afișate"
@@ -169,8 +174,12 @@
         "label": "Afișați filele fixate ca pictograme",
         "description": "Când este activat, filele fixate vor fi afișate ca pictograme și nu în listă"
       },
+      "pinToQuickAccess": {
+        "label": "Afișați accesul rapid",
+        "description": "Puteți seta o filă să apară în Acces rapid pentru a fi ușor de găsit. Doar faceți clic dreapta (sau apăsați lung) pe ea și selectați Fixare în Acces rapid. Debifați-o când nu mai aveți nevoie de ea acolo, făcând clic dreapta (sau apăsând lung) pe ea și selectând Ștergere din Acces rapid. Diferența față de filele fixate este că Accesul rapid salvează URL-ul și deschide o filă nouă de fiecare dată când este clicată."
+      },
       "collapsedGroupShowTabIcons": {
-        "label": "Afișați pictogramele site-ului când grupurile sunt colapsate",
+        "label": "Afișați pictogramele site-ului când colapsați grupurile",
         "description": "Când este activat, grupurile colapsate vor afișa pictogramele filelor"
       },
       "hoverPreview": {
@@ -191,15 +200,15 @@
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Salvați filele recent închise",
-        "description": "Când este activat, salvați filele recent închise"
+        "label": "Salvați filele închise recent",
+        "description": "Când este activat, salvați filele închise recent"
       },
       "dataSource": {
         "label": "Sursa de date",
         "description": "Selectați sursa de date",
-        "recentlyClosedTabs": "File recent închise",
+        "recentlyClosedTabs": "File închise recent",
         "chromeHistory": "Istoricul Chrome",
-        "alert": "Pentru a căuta înregistrările istoricului, aveți nevoie de autorizarea dvs. pentru a activa",
+        "alert": "Pentru a căuta înregistrările istorice, aveți nevoie de autorizarea dvs. pentru a activa",
         "deniedMessage": "Ați refuzat permisiunea necesară, astfel încât setările nu s-au schimbat. Dacă vă răzgândiți, vă rugăm să faceți clic din nou și să permiteți autorizarea"
       },
       "showInSidePanel": {
@@ -208,20 +217,20 @@
       },
       "showInTabSearchResults": {
         "label": "Afișați istoricul în rezultatele căutării filelor",
-        "description": "Când este activat, înregistrările recente ale istoricului vor fi afișate în rezultatele căutării filelor"
+        "description": "Când este activat, înregistrările recente din istoric vor fi afișate în rezultatele căutării filelor"
       },
       "limitSearchResults": {
-        "label": "Limitați numărul de înregistrări ale istoricului în rezultatele căutării filelor",
-        "description": "Setați numărul limită de înregistrări ale istoricului în rezultatele căutării filelor. Înregistrările istoricului care depășesc limita vor fi filtrate",
+        "label": "Limitați numărul de înregistrări istorice în rezultatele căutării filelor",
+        "description": "Setați limita numărului de înregistrări istorice în rezultatele căutării filelor. Înregistrările istorice care depășesc limita vor fi filtrate",
         "alert": "Prea multe înregistrări vor afecta viteza de încărcare a paginii"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Numărul de file recent închise de păstrat",
-        "description": "Setați numărul de file recent închise de păstrat"
+        "label": "Numărul de file închise recent de păstrat",
+        "description": "Setați numărul de file închise recent de păstrat"
       },
       "keepDays": {
-        "label": "Numărul de zile pentru a păstra filele recent închise",
-        "description": "Setați numărul de zile pentru a păstra filele recent închise. Datele expirate vor fi șterse",
+        "label": "Numărul de zile de păstrat filele închise recent",
+        "description": "Setați numărul de zile de păstrat filele închise recent. Datele expirate vor fi șterse",
         "days": "Zile"
       },
       "openDuration": {
@@ -231,7 +240,7 @@
       }
     },
     "shortcuts": {
-      "alert": "Această pagină este doar pentru afișare. Pentru a modifica scurtăturile, vă rugăm să vizitați [Extensii]->[Gestionați extensiile]->[Scurtături de la tastatură]",
+      "alert": "Această pagină este doar pentru afișare. Pentru a modifica comenzile rapide, vă rugăm să vizitați [Extensii]->[Gestionați extensiile]->[Comenzi rapide de la tastatură]",
       "goToBrowserSettings": "Accesați setările Chrome",
       "_execute_action": "Activați această extensie",
       "openSidePanel": "Deschideți panoul lateral"
@@ -240,13 +249,13 @@
       "Picture-in-picture": "Imagine în imagine",
       "tabSwitch": {
         "label": "PIP la comutarea filelor",
-        "description": "Intrați automat în PIP la comutarea filelor cu un videoclip nemutat",
+        "description": "Intrați automat în PIP când comutați filele cu un videoclip nemutat",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       },
       "scrollSwitch": {
         "label": "Comutați la imagine în imagine la derulare",
-        "description": "Dacă pagina curentă redă un videoclip și videoclipul nu este mutat și videoclipul este în afara zonei vizibile la derulare, va intra în imagine în imagine.",
+        "description": "Dacă pagina curentă redă un videoclip și videoclipul nu este mutat și videoclipul este în afara razei vizibile la derulare, va intra în imagine în imagine.",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       }
@@ -263,15 +272,15 @@
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Comportamentul de colaps al grupului de file",
-        "description": "Modificați comportamentul de colaps al grupului de file din browserul Chrome",
-        "option_collapse_others": "Afișați grupul curent și colapsați celelalte",
+        "label": "Comportamentul de restrângere a grupului de file",
+        "description": "Modificați comportamentul de restrângere a grupului de file din browserul Chrome",
+        "option_collapse_others": "Afișați grupul curent și restrângeți celelalte",
         "option_disable": "Extindeți toate grupurile",
-        "option_auto": "Utilizați setările implicite Chrome"
+        "option_auto": "Utilizați setările implicite ale Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Creați automat sau alăturați-vă grupului de același domeniu",
-        "description": "Când este activat, filele nou deschise se vor alătura automat grupului de același domeniu. Dacă grupul de domeniu nu există, va fi creat un nou grup de domeniu",
+        "label": "Creați sau alăturați-vă automat aceluiași grup de domenii",
+        "description": "Când este activat, filele nou deschise se vor alătura automat aceluiași grup de domenii. Dacă grupul de domenii nu există, va fi creat un nou grup de domenii",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       },
@@ -285,13 +294,13 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Activați bara de progres",
-        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei",
+        "description": "Când este activat, o bară de progres a citirii va fi afișată sub bara de titlu a filei",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       },
       "readingProgressBar": {
-        "label": "Bară de progres pentru citire",
-        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei",
+        "label": "Bara de progres a citirii",
+        "description": "Când este activat, o bară de progres a citirii va fi afișată sub bara de titlu a filei",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       },
@@ -302,8 +311,8 @@
         "disabled": "Dezactivat"
       },
       "playingProgressBar": {
-        "label": "Bară de progres pentru redare",
-        "description": "Când este activat, o bară de progres pentru redare va fi afișată sub bara de titlu a filei",
+        "label": "Bara de progres a redării",
+        "description": "Când este activat, o bară de progres a redării va fi afișată sub bara de titlu a filei",
         "enabled": "Activat",
         "disabled": "Dezactivat"
       }
@@ -317,26 +326,26 @@
     "performance": {
       "label": "Performanță",
       "saveMemoryAction": {
-        "label": "Cum să salvați memoria pe file",
-        "description": "Pentru a salva memoria pe file, puteți alege să închideți filele sau să le eliminați.",
-        "discardTips": "o filă eliminată nu dispare nicăieri. O distrugem, dar este încă vizibilă în bara de file Chrome. Dacă navigați înapoi la o filă care a fost eliminată, se va reîncărca când este clicată. Conținutul formularului, poziția de derulare și așa mai departe sunt salvate și restaurate în același mod în care ar fi în timpul navigării înainte/înapoi pe file.",
+        "label": "Cum să economisiți memorie pe file",
+        "description": "Pentru a economisi memorie pe file, puteți alege să închideți filele sau să renunțați la file.",
+        "discardTips": "O filă renunțată nu merge nicăieri. O închidem, dar rămâne vizibilă pe bara de file Chrome. Dacă navigați înapoi la o filă care a fost renunțată, aceasta se va reîncărca când este selectată. Conținutul formularului, poziția de derulare și așa mai departe sunt salvate și restaurate în același mod în care ar fi în timpul navigării înainte/înapoi a filelor.",
         "disabled": "Dezactivat",
-        "closeTabs": "Închideți filele",
-        "discardTabs": "Eliminați filele"
+        "closeTabs": "Închide filele",
+        "discardTabs": "Renunță la file"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Cât timp să eliminați filele inactive",
-        "description": "Atunci când nu se redă niciun sunet sau video pe filă și eliminarea automată nu este interzisă, fila va fi eliminată după timpul specificat.",
+        "label": "Cât timp să renunțați la filele inactive",
+        "description": "Când nu se redă audio sau video pe filă și renunțarea automată nu este interzisă, fila va fi renunțată după timpul specificat.",
         "minutes": "Minute"
       },
       "closeInactiveTabsMinutes": {
         "label": "Cât timp să închideți filele inactive",
-        "description": "Atunci când nu se redă niciun sunet sau video pe filă și eliminarea automată nu este interzisă, fila va fi închisă după timpul specificat.",
+        "description": "Când nu se redă audio sau video pe filă și renunțarea automată nu este interzisă, fila va fi închisă după timpul specificat.",
         "minutes": "Minute"
       },
       "disableAnimations": {
         "label": "Dezactivați animațiile",
-        "description": "dezactivați efectul de unduire și dezactivați toate tranzițiile"
+        "description": "Dezactivați efectul de undă și dezactivați toate tranzițiile"
       }
     },
     "site": {
@@ -346,40 +355,40 @@
       "mostVisited": "Cele mai vizitate",
       "dataStored": "Date stocate",
       "name": "Nume",
-      "deleteAllData": "Ștergeți toate datele",
-      "totalStorageUsedBySites": "Totalul stocării utilizate de site-uri",
-      "totalCount": "Total cont",
+      "deleteAllData": "Șterge toate datele",
+      "totalStorageUsedBySites": "Stocare totală utilizată de site-uri",
+      "totalCount": "Număr total",
       "addNewSite": {
         "label": "Adăugați un site nou",
-        "description": "Introduceți o adresă web nouă, cum ar fi 'www.example.com', și faceți clic pe 'Adăugați'.",
-        "placeholder": "Adresă site web, cum ar fi 'www.example.com'",
+        "description": "Introduceți o nouă adresă de site, cum ar fi 'www.exemplu.com', și faceți clic pe 'Adăugați'.",
+        "placeholder": "Adresă site, cum ar fi 'www.exemplu.com'",
         "add": "Adăugați",
         "cancel": "Anulați",
-        "invalidDomain": "Adresă web invalidă"
+        "invalidDomain": "Adresă site invalidă"
       },
       "browserSettings": {
         "label": "Setări browser",
         "description": "Puteți modifica setările site-ului, cum ar fi ștergerea datelor sau schimbarea permisiunilor site-ului.",
-        "goToBrowserSettings": "Mergeți la setările browser-ului"
+        "goToBrowserSettings": "Accesați setările browserului"
       },
       "autoDiscardable": {
-        "label": "Auto eliminabil",
-        "description": "Când este activat, fila va fi permisă să fie eliminată de browser, iar dacă activați performanța și setați timpul pentru a elimina filele inactive, fila va fi eliminată după timpul specificat. Dacă este dezactivat, fila nu va fi eliminată"
+        "label": "Renunțare automată",
+        "description": "Când este activat, fila va fi permisă să fie renunțată de browser, iar dacă activați performanța și setați timpul pentru a renunța la filele inactive, fila va fi renunțată după timpul specificat. Dacă este dezactivat, fila nu va fi renunțată"
       },
       "readingProgressBar": {
-        "label": "Bară de progres pentru citire",
-        "description": "Când este activat, o bară de progres pentru citire va fi afișată sub bara de titlu a filei.",
-        "globaldisabledTips": "Trebuie să activați bara de progres pentru citire în setările globale pentru a modifica această setare."
+        "label": "Bara de progres a citirii",
+        "description": "Când este activat, o bară de progres a citirii va fi afișată sub bara de titlu a filei.",
+        "globaldisabledTips": "Trebuie să activați bara de progres a citirii în setările globale pentru a modifica această setare."
       },
       "playingProgressBar": {
-        "label": "Bară de progres pentru redare",
-        "description": "Când este activat, o bară de progres pentru redare va fi afișată sub bara de titlu a filei.",
-        "globaldisabledTips": "Trebuie să activați bara de progres pentru redare în setările globale pentru a modifica această setare."
+        "label": "Bara de progres a redării",
+        "description": "Când este activat, o bară de progres a redării va fi afișată sub bara de titlu a filei.",
+        "globaldisabledTips": "Trebuie să activați bara de progres a redării în setările globale pentru a modifica această setare."
       },
       "tabSwitchPip": {
         "label": "PIP la comutarea filelor",
-        "description": "Când este activat, intrați automat în modul Picture-in-picture când comutați filele cu un videoclip nemutat.",
-        "globaldisabledTips": "Trebuie să activați Picture-in-picture în setările globale pentru a modifica această setare."
+        "description": "Când este activat, intrați automat în Imagine în imagine când comutați filele cu un videoclip nemutat.",
+        "globaldisabledTips": "Trebuie să activați Imagine în imagine în setările globale pentru a modifica această setare."
       },
       "clearHistoyAfterCLose": {
         "label": "Ștergeți istoricul după închidere",
@@ -387,32 +396,32 @@
       },
       "SyncTabs": {
         "label": "Sincronizați filele",
-        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private cum ar fi cookie-urile și informațiile personale.",
+        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private, cum ar fi cookie-urile și informațiile personale.",
         "disabled": "Dezactivat",
         "uploadOnly": "Doar încărcare",
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat",
-        "globaldisabledTips": "Trebuie să activați sincronizarea în Setările globale pentru a modifica această setare."
+        "globaldisabledTips": "Trebuie să activați sincronizarea în setările globale pentru a modifica această setare."
       },
       "SyncPrivateData": {
         "label": "Sincronizați datele private",
-        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage, etc. Datele vor fi criptate înainte de sincronizare.",
+        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage etc. Datele vor fi criptate înainte de sincronizare.",
         "disabled": "Dezactivat",
         "uploadOnly": "Doar încărcare",
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat",
-        "globaldisabledTips": "Trebuie să activați sincronizarea în Setările globale pentru a modifica această setare."
+        "globaldisabledTips": "Trebuie să activați sincronizarea în setările globale pentru a modifica această setare."
       }
     },
     "SyncToCloud": {
-      "label": "Sincronizați cu norul",
+      "label": "Sincronizați în cloud",
       "SyncNow": "Sincronizați acum",
       "SyncNowWithGoogleDrive": "Sincronizați acum cu Google Drive",
       "SyncNowWithDropbox": "Sincronizați acum cu Dropbox",
       "SyncNowWithOneDrive": "Sincronizați acum cu OneDrive",
       "Synchronizing": "Se sincronizează...",
       "SyncedSuccessfully": "Sincronizat cu succes",
-      "SyncFailed": "Sincronizare eșuată",
+      "SyncFailed": "Sincronizarea a eșuat",
       "LoginRequired": "Autentificare necesară",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
@@ -427,20 +436,20 @@
       },
       "SyncTabs": {
         "label": "Sincronizați filele",
-        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private cum ar fi cookie-urile și informațiile personale.",
+        "description": "Alegeți cum să sincronizați datele filelor, excluzând datele private, cum ar fi cookie-urile și informațiile personale.",
         "disabled": "Dezactivat",
         "uploadOnly": "Doar încărcare",
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Deschideți sau închideți filele în mod sincron",
-        "description": "Când este activat, deschiderea sau închiderea filelor în diferite browsere va fi sincronizată. Acest lucru se aplică doar atunci când opțiunea 'rămâneți sincronizat' este activă",
-        "OpenOrCloseTabsSynchronouslyWarning": "Dacă vă conectați la același cont în două browsere în același timp și activați această opțiune, deschiderea sau închiderea filelor într-un browser va efectua aceeași operație în celălalt browser. Dacă site-ul interzice logările repetate cu același cont, pot apărea excepții."
+        "label": "Deschideți sau închideți filele sincronizat",
+        "description": "Când este activat, deschiderea sau închiderea filelor în diferite browsere va fi sincronizată. Aceasta se aplică doar atunci când opțiunea 'rămâneți sincronizat' este activă",
+        "OpenOrCloseTabsSynchronouslyWarning": "Dacă vă autentificați în același cont în două browsere în același timp și activați această opțiune, deschiderea sau închiderea filelor într-un browser va efectua aceeași operațiune în celălalt browser. Dacă site-ul interzice autentificările repetate cu același cont, pot apărea excepții."
       },
       "SyncPrivateData": {
         "label": "Sincronizați datele private",
-        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage, etc. Datele vor fi criptate înainte de sincronizare.",
+        "description": "Alegeți cum să sincronizați datele private, cum ar fi cookie-urile site-ului, datele localstorage ale paginii web, datele SessionStorage etc. Datele vor fi criptate înainte de sincronizare.",
         "disabled": "Dezactivat",
         "uploadOnly": "Doar încărcare",
         "downloadOnly": "Doar descărcare",

@@ -1,6 +1,6 @@
 {
-  "OpenSideSanelToPreview": "打开侧面板进行预览",
-  "_execute_action": "激活该扩展程序",
+  "OpenSidePanelToPreview": "打开侧边栏预览",
+  "_execute_action": "激活此扩展",
   "openSidePanel": "打开侧边栏",
   "settings": {
     "resetCurrentPageSettings": "重置当前页面设置",
@@ -11,7 +11,7 @@
       "history": "历史记录",
       "shortcuts": "快捷键",
       "pip": "画中画",
-      "chromeTabGroupAdvanced": "高级标签页组",
+      "chromeTabGroupAdvanced": "高级标签组",
       "progressBar": "进度条",
       "floatBall": "浮动球",
       "experimentalFeatures": "实验功能"
@@ -20,7 +20,7 @@
       "header": "外观",
       "language": {
         "label": "界面语言",
-        "description": "设置界面显示的语言"
+        "description": "设置界面显示语言"
       },
       "theme": {
         "label": "颜色模式",
@@ -28,7 +28,7 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "启用后，界面会显示从右到左的文字方向"
+        "description": "启用后，界面将从右到左显示文本方向"
       },
       "fontSize": {
         "label": "字体大小",
@@ -37,8 +37,8 @@
         "large": "大"
       },
       "fontFamily": {
-        "label": "字体族",
-        "description": "设置字体族"
+        "label": "字体",
+        "description": "设置字体"
       },
       "fontColor": {
         "label": "字体颜色",
@@ -49,15 +49,16 @@
         "description": "设置字体粗细"
       },
       "extAction": {
-        "label": "单击扩展程序图标的操作",
-        "description": "设置单击扩展图标的操作",
-        "openPopup": "打开弹窗",
-        "openSidePanel": "打开侧边栏"
+        "label": "点击扩展图标的操作",
+        "description": "设置点击扩展图标时的操作",
+        "openPopup": "打开弹出窗口",
+        "openSidePanel": "打开侧边栏",
+        "SmallWindowAlert": "如果侧边栏占用太多空间，建议使用弹出窗口"
       },
       "SidePanelPosition": {
         "label": "侧边栏位置",
-        "description": "设置侧边栏在左侧或右侧显示。",
-        "goToBrowserSettings": "前往 Chrome 设置"
+        "description": "设置侧边栏显示在左侧或右侧。",
+        "goToBrowserSettings": "前往Chrome设置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -82,22 +83,22 @@
       },
       "alwaysShowCloseButton": {
         "label": "始终显示关闭按钮",
-        "description": "启用后，关闭按钮将始终显示；禁用时，关闭按钮仅在鼠标悬停在选项卡上时显示"
+        "description": "启用后，关闭按钮将始终显示；禁用时，关闭按钮仅在鼠标悬停在标签页上时显示"
       },
       "fullScreenHideSidePanel": {
         "label": "全屏时隐藏侧边栏",
-        "description": "打开后，当页面全屏时会自动隐藏侧边栏，由于 Chrome 的限制，目前无法自动重新打开侧边栏。您需要手动操作重新打开侧边栏！"
+        "description": "启用后，页面全屏时侧边栏将自动隐藏。由于Chrome的限制，侧边栏无法自动重新打开。您需要手动重新打开侧边栏！"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "彩色背景",
-        "description": "启用后，侧边栏会显示彩色背景"
+        "description": "启用后，侧边栏将显示彩色背景"
       },
       "backgroundPicture": {
         "label": "背景图片",
-        "description": "点击 [+] 号添加自定义图片，点击 [-] 号删除自定义图片。你可以在下面的网站中查找自己喜欢的图片。",
-        "dialogDescription": "请输入图片地址",
+        "description": "点击[+]添加自定义图片，点击[-]删除自定义图片。您可以在以下网站找到您喜欢的图片。",
+        "dialogDescription": "输入图片地址",
         "OK": "确定",
         "Cancel": "取消",
         "invalidImage": "无效的图片地址"
@@ -108,14 +109,22 @@
         "transparent": "透明",
         "opaque": "不透明"
       },
+      "backgroundImageBlur": {
+        "label": "模糊强度",
+        "description": "设置模糊强度"
+      },
+      "backgroundImageBrightness": {
+        "label": "亮度",
+        "description": "设置亮度，仅推荐用于深色模式"
+      },
       "listBackgroundStyle": {
         "label": "列表背景样式",
         "description": "设置列表背景样式",
         "single": "单一",
         "none": "无",
         "simple": "简单",
-        "complementary": "对比色",
-        "analogous": "对角色",
+        "complementary": "互补",
+        "analogous": "类似",
         "triadic": "三色",
         "tetradic": "四色"
       },
@@ -124,14 +133,6 @@
         "description": "设置列表背景透明度",
         "transparent": "透明",
         "opaque": "不透明"
-      },
-      "backgroundImageBlur": {
-        "label": "背景模糊度",
-        "description": "设置背景模糊度"
-      },
-      "backgroundImageBrightness": {
-        "label": "背景亮度",
-        "description": "设置背景亮度，仅适用于深色模式"
       },
       "listBottomBorder": {
         "label": "列表底部边框",
@@ -162,34 +163,38 @@
         "description": "切换排序依据"
       },
       "showFullUrl": {
-        "label": "显示完整 URL",
-        "description": "启用后，在标签标题下显示完整 URL"
+        "label": "显示完整URL",
+        "description": "启用后，标签页标题下将显示完整URL"
       },
       "currentWindowOnly": {
-        "label": "仅当前窗口",
-        "description": "仅显示当前窗口的标签页,如果关闭，将显示所有窗口的标签页"
+        "label": "仅显示当前窗口",
+        "description": "仅显示当前窗口的标签页。如果禁用，将显示所有窗口的标签页"
       },
       "pinedTabsAsIcons": {
-        "label": "固定标签页展示为图标",
-        "description": "启用后，固定标签页会显示图标，不会显示在列表中。"
+        "label": "将固定标签页显示为图标",
+        "description": "启用后，固定标签页将显示为图标而不是列表"
+      },
+      "pinToQuickAccess": {
+        "label": "显示快速访问",
+        "description": "您可以将标签页设置为显示在快速访问中，以便于查找。只需右键单击（或长按）它并选择固定到快速访问。当您不再需要它时，通过右键单击（或长按）它并选择从快速访问中删除来取消固定。与固定标签页的区别在于，快速访问保存URL并在每次点击时打开新标签页。"
       },
       "collapsedGroupShowTabIcons": {
-        "label": "收起分组时显示网站图标",
-        "description": "启用后，折叠组会显示标签页图标"
+        "label": "折叠组时显示网站图标",
+        "description": "启用后，折叠组将显示标签页图标"
       },
       "hoverPreview": {
-        "label": "鼠标悬停预览",
-        "description": "启用后，鼠标悬停时会显示标签页预览"
+        "label": "悬停预览",
+        "description": "启用后，悬停在标签页上将显示标签页预览"
       },
       "previewWithThumbnail": {
-        "label": "预览时显示缩略图",
-        "description": "启用后，预览时会显示标签页缩略图",
-        "alert": "捕获指定窗口中当前活动选项卡的可见区域。为了调用此方法，扩展程序必须具有 <all_urls> 权限或 activeTab 权限。",
-        "deniedMessage": "您已拒绝授权所需权限，因此设置未改变，如果您改变主意，请重新点击并允许授权"
+        "label": "在预览中显示缩略图",
+        "description": "启用后，预览将显示标签页缩略图",
+        "alert": "捕获指定窗口中当前活动标签页的可见区域。要调用此方法，扩展程序必须具有<all_urls>权限或activeTab权限。",
+        "deniedMessage": "您已拒绝所需的权限，因此设置未更改。如果您改变主意，请再次点击并允许授权"
       },
       "previewDelay": {
         "label": "预览延迟",
-        "description": "设置预览延迟时间，设置鼠标悬停标签页预览等待时间（秒）,如何设置 0 ，则不会等待",
+        "description": "设置悬停在标签页上等时标签页预览的延迟时间（秒）。如果设置为0，则没有延迟",
         "seconds": "秒"
       }
     },
@@ -202,219 +207,219 @@
         "label": "数据源",
         "description": "选择数据源",
         "recentlyClosedTabs": "最近关闭的标签页",
-        "chromeHistory": "Chrome 历史记录",
-        "alert": "如需搜索历史记录，需要您的授权方可启用",
-        "deniedMessage": "您已拒绝授权所需权限，因此设置未改变，如果您改变主意，请重新点击并允许授权"
+        "chromeHistory": "Chrome历史记录",
+        "alert": "要搜索历史记录，需要您的授权启用",
+        "deniedMessage": "您已拒绝所需的权限，因此设置未更改。如果您改变主意，请再次点击并允许授权"
       },
       "showInSidePanel": {
         "label": "在侧边栏中显示",
         "description": "启用后，在侧边栏中显示"
       },
       "showInTabSearchResults": {
-        "label": "标签页搜索结果中显示历史记录",
-        "description": "启用后，标签页搜索结果中将显示最近历史记录"
+        "label": "在标签页搜索结果中显示历史记录",
+        "description": "启用后，最近的历史记录将显示在标签页搜索结果中"
       },
       "limitSearchResults": {
-        "label": "标签页搜索结果中历史记录限制数量",
-        "description": "设置标签页搜索结果中历史记录的限制数量，超过限制数量的历史记录将被过滤",
-        "alert": "过多的记录会影响页面加载速度"
+        "label": "限制标签页搜索结果中的历史记录数量",
+        "description": "设置标签页搜索结果中历史记录的限制数量。超过限制的历史记录将被过滤",
+        "alert": "记录过多会影响页面加载速度"
       },
       "saveRecentlyTabsLimit": {
-        "label": "最近关闭的标签页的保留数量",
-        "description": "设置最近关闭的标签页的保留数量"
+        "label": "保留的最近关闭的标签页数量",
+        "description": "设置保留的最近关闭的标签页数量"
       },
       "keepDays": {
-        "label": "最近关闭的标签页的保留天数",
-        "description": "设置最近关闭的标签页的保留天数，过期的数据会被删除",
+        "label": "保留最近关闭的标签页的天数",
+        "description": "设置保留最近关闭的标签页的天数。过期数据将被删除",
         "days": "天"
       },
       "openDuration": {
         "label": "打开时长",
-        "description": "只有打开时长超过设置时间的标签页才会被保存",
+        "description": "仅保存打开时间超过设定时间的标签页",
         "seconds": "秒"
       }
     },
     "shortcuts": {
-      "alert": "本页面仅供展示，如需修改快捷键，请访问[扩展程序]->[管理扩展]->[键盘快捷键]",
-      "goToBrowserSettings": "前往 Chrome 设置",
-      "_execute_action": "激活该扩展程序",
+      "alert": "此页面仅供显示。要修改快捷键，请访问[扩展程序]->[管理扩展程序]->[键盘快捷键]",
+      "goToBrowserSettings": "前往Chrome设置",
+      "_execute_action": "激活此扩展",
       "openSidePanel": "打开侧边栏"
     },
     "picture_in_picture": {
       "Picture-in-picture": "画中画",
       "tabSwitch": {
-        "label": "切换标签时切换到画中画模式",
-        "description": "在切换浏览器标签页时，如果当前页面正在播放视频且视频未静音，就会自动进入画中画模式。",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "label": "标签页切换时的画中画",
+        "description": "切换未静音视频的标签页时自动进入画中画",
+        "enabled": "启用",
+        "disabled": "禁用"
       },
       "scrollSwitch": {
-        "label": "滚动页面时切换画中画",
-        "description": "如果滚动页面时，当前页面正在播放视频且视频未静音且视频超出可视范围内，则会进入画中画。",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "label": "滚动时切换到画中画",
+        "description": "如果当前页面正在播放视频且视频未静音，并且滚动时视频超出可见范围，将进入画中画。",
+        "enabled": "启用",
+        "disabled": "禁用"
       }
     },
     "userActivitionAlert": {
-      "title": "需要进行用户交互",
+      "title": "需要用户激活",
       "tips_1": "用户激活意味着用户当前正在与页面交互",
-      "tips_2": "更准确地说，激活触发输入事件是以下事件:  ",
-      "tips_3": "注意：使用鼠标滚轮滑动或轻拂手势不会触发!！",
-      "tips_4": "如果你希望进一步的了解详情请访问：",
+      "tips_2": "更具体地说，激活会触发输入事件，例如：",
+      "tips_3": "注意：使用鼠标滚轮滚动或滑动手势不会触发！",
+      "tips_4": "如果您想了解更多详细信息，请访问：",
       "click": "点击",
       "contextmenu": "右键菜单",
       "dblclick": "双击"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "标签页分组收起行为",
-        "description": "修改 Chrome 浏览器标签页分组的行为",
-        "option_collapse_others": "显示当前分组并收起其他分组",
-        "option_disable": "展开所有分组",
-        "option_auto": "使用 Chrome 默认设置"
+        "label": "标签组折叠行为",
+        "description": "修改Chrome浏览器标签组折叠的行为",
+        "option_collapse_others": "显示当前组并折叠其他组",
+        "option_disable": "展开所有组",
+        "option_auto": "使用Chrome默认设置"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自动创建或加入同域名分组",
         "description": "启用后,新打开的标签页会自动加入到相同域名分组,如果域名分组不存在则会创建一个新的域名分组",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "enabled": "启用",
+        "disabled": "禁用"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "分组时过滤固定标签页",
-        "description": "启用后，固定标签页不会被加入到分组中",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "label": "过滤掉组中的固定标签页",
+        "description": "启用后，固定标签页将不会被添加到组中",
+        "enabled": "启用",
+        "disabled": "禁用"
       }
     },
     "progressBar": {
       "enableProgressBar": {
         "label": "启用进度条",
-        "description": "启用后，会在标签页标题栏下方显示阅读进度条",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "description": "启用后，阅读进度条将显示在标签标题栏下方",
+        "enabled": "启用",
+        "disabled": "禁用"
       },
       "readingProgressBar": {
         "label": "阅读进度条",
-        "description": "启用后，会在标签页标题栏下方显示阅读进度条",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "description": "启用后，阅读进度条将显示在标签标题栏下方",
+        "enabled": "启用",
+        "disabled": "禁用"
       },
       "scrollHeightRatio": {
-        "label": "滚动高度比例",
-        "description": "可见窗口高度与页面高度的比例。当比例超过时，将显示进度条",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "label": "滚动高度比",
+        "description": "可见窗口高度与页面高度的比例。当超过比例时，将显示进度条",
+        "enabled": "启用",
+        "disabled": "禁用"
       },
       "playingProgressBar": {
         "label": "播放进度条",
-        "description": "启用后，会在标签页标题栏下方显示播放进度条",
-        "enabled": "已启用",
-        "disabled": "已禁用"
+        "description": "启用后，播放进度条将显示在标签标题栏下方",
+        "enabled": "启用",
+        "disabled": "禁用"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "启用悬浮球",
-        "description": "当侧面板被关闭时，会在页面右边显示悬浮球，可以快速打开侧面板。"
+        "label": "启用浮动球",
+        "description": "当侧边栏关闭时，页面右侧将显示一个浮动球，允许快速打开侧边栏。"
       }
     },
     "performance": {
       "label": "性能",
       "saveMemoryAction": {
-        "label": "如何节省标签页的内存",
-        "description": "要节省标签页的内存，您可以选择关闭标签页或丢弃标签页。",
-        "discardTips": "丢弃的标签页不会消失。我们将其终止，但它仍然在 Chrome 标签栏上可见。如果您导航回到已丢弃的标签页，点击时它会重新加载。表单内容、滚动位置等将以与前进/后退标签导航相同的方式保存和恢复。",
-        "disabled": "已禁用",
+        "label": "如何节省标签页内存",
+        "description": "要节省标签页内存，您可以选择关闭标签页或丢弃标签页。",
+        "discardTips": "丢弃的标签页不会消失。我们会将其终止，但它仍然在Chrome标签栏中可见。如果您导航回到已丢弃的标签页，点击时它会重新加载。表单内容、滚动位置等将以与前进/后退标签导航相同的方式保存和恢复。",
+        "disabled": "禁用",
         "closeTabs": "关闭标签页",
         "discardTabs": "丢弃标签页"
       },
       "discardInactiveTabsMinutes": {
-        "label": "丢弃不活跃标签页的时间",
+        "label": "丢弃非活动标签页的时间",
         "description": "当标签页上没有播放音频或视频且未禁止自动丢弃时，标签页将在指定时间后被丢弃。",
         "minutes": "分钟"
       },
       "closeInactiveTabsMinutes": {
-        "label": "关闭不活跃标签页的时间",
+        "label": "关闭非活动标签页的时间",
         "description": "当标签页上没有播放音频或视频且未禁止自动丢弃时，标签页将在指定时间后被关闭。",
         "minutes": "分钟"
       },
       "disableAnimations": {
         "label": "禁用动画",
-        "description": "禁用涟漪效果和所有过渡效果"
+        "description": "禁用涟漪效果并禁用所有过渡"
       }
     },
     "site": {
-      "label": "网站设置",
-      "allSites": "所有网站",
+      "label": "站点设置",
+      "allSites": "所有站点",
       "sortBy": "排序方式",
-      "mostVisited": "最常访问",
-      "dataStored": "数据存储",
+      "mostVisited": "访问最多",
+      "dataStored": "存储的数据",
       "name": "名称",
       "deleteAllData": "删除所有数据",
-      "totalStorageUsedBySites": "网站使用的总存储空间",
-      "totalCount": "总计数",
+      "totalStorageUsedBySites": "站点使用的总存储",
+      "totalCount": "总数",
       "addNewSite": {
-        "label": "添加新网站",
-        "description": "输入新的网站地址，例如 'www.example.com'，然后点击 '添加'。",
-        "placeholder": "网站地址，例如 'www.example.com'",
+        "label": "添加新站点",
+        "description": "输入一个新网站地址，例如'www.example.com'，然后点击'添加'。",
+        "placeholder": "网站地址，例如'www.example.com'",
         "add": "添加",
         "cancel": "取消",
         "invalidDomain": "无效的网站地址"
       },
       "browserSettings": {
         "label": "浏览器设置",
-        "description": "您可以修改网站设置，如删除数据或更改网站权限。",
+        "description": "您可以修改站点设置，例如删除数据或更改站点权限。",
         "goToBrowserSettings": "前往浏览器设置"
       },
       "autoDiscardable": {
         "label": "自动丢弃",
-        "description": "启用后，浏览器将允许丢弃标签页，如果您打开性能并设置丢弃不活跃标签页的时间，标签页将在指定时间后被丢弃。如果禁用，标签页将不会被丢弃。"
+        "description": "启用后，浏览器将允许丢弃标签页，如果您打开性能并设置丢弃非活动标签页的时间，标签页将在指定时间后被丢弃。如果禁用，标签页将不会被丢弃"
       },
       "readingProgressBar": {
         "label": "阅读进度条",
-        "description": "启用后，会在标签页标题栏下方显示阅读进度条。",
+        "description": "启用后，阅读进度条将显示在标签标题栏下方。",
         "globaldisabledTips": "您必须在全局设置中打开阅读进度条才能修改此设置。"
       },
       "playingProgressBar": {
         "label": "播放进度条",
-        "description": "启用后，将在标签标题栏下显示播放进度条。",
+        "description": "启用后，播放进度条将显示在标签标题栏下方。",
         "globaldisabledTips": "您必须在全局设置中打开播放进度条才能修改此设置。"
       },
       "tabSwitchPip": {
-        "label": "切换标签时 PIP",
-        "description": "启用后，切换到带有未静音视频的标签时将自动进入画中画模式。",
-        "globaldisabledTips": "您必须在全局设置中打开画中画模式才能修改此设置。"
+        "label": "标签切换时的画中画",
+        "description": "启用后，切换未静音视频的标签页时自动进入画中画。",
+        "globaldisabledTips": "您必须在全局设置中打开画中画才能修改此设置。"
       },
       "clearHistoyAfterCLose": {
         "label": "关闭后清除历史记录",
-        "description": "启用后，关闭标签后将清除历史记录。"
+        "description": "启用后，关闭标签页后将清除历史记录。"
       },
       "SyncTabs": {
         "label": "同步标签页",
-        "description": "选择如何同步标签页数据，不包括私人数据，如cookies和个人信息。",
-        "disabled": "已禁用",
+        "description": "选择如何同步标签页数据，不包括私人数据，如Cookie和个人信息。",
+        "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步",
-        "globaldisabledTips": "您必须在全局设置中打开同步功能才能修改此设置。"
+        "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       },
       "SyncPrivateData": {
         "label": "同步私人数据",
-        "description": "选择如何同步私人数据，如网站cookies、网页本地存储数据、SessionStorage数据等。数据将在同步前进行加密。",
-        "disabled": "已禁用",
+        "description": "选择如何同步私人数据，如网站Cookie、网页本地存储数据、SessionStorage数据等。数据将在同步前加密。",
+        "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步",
-        "globaldisabledTips": "您必须在全局设置中打开同步功能才能修改此设置。"
+        "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       }
     },
     "SyncToCloud": {
       "label": "同步到云端",
       "SyncNow": "立即同步",
-      "SyncNowWithGoogleDrive": "使用 Google Drive 立即同步",
+      "SyncNowWithGoogleDrive": "使用Google Drive立即同步",
       "SyncNowWithDropbox": "使用Dropbox立即同步",
       "SyncNowWithOneDrive": "使用OneDrive立即同步",
-      "Synchronizing": "同步中...",
+      "Synchronizing": "正在同步...",
       "SyncedSuccessfully": "同步成功",
       "SyncFailed": "同步失败",
       "LoginRequired": "需要登录",
@@ -424,28 +429,28 @@
       "SyncConfigs": {
         "label": "同步配置",
         "description": "选择如何同步此扩展的配置。",
-        "disabled": "已禁用",
+        "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步"
       },
       "SyncTabs": {
         "label": "同步标签页",
-        "description": "选择如何同步标签页数据，不包括私人数据，如cookies和个人信息。",
-        "disabled": "已禁用",
+        "description": "选择如何同步标签页数据，不包括私人数据，如Cookie和个人信息。",
+        "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步"
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "同步打开或关闭标签页",
-        "description": "启用后，在不同浏览器中打开或关闭标签页将同步。仅当“保持同步”选项激活时才适用",
-        "OpenOrCloseTabsSynchronouslyWarning": "如果您同时在两个浏览器中使用相同帐户登录并打开此选项，则在一个浏览器中打开或关闭标签页将在另一个浏览器中执行相同操作。如果网站禁止使用相同帐户重复登录，则可能会发生异常情况。"
+        "description": "启用后，在不同浏览器中打开或关闭标签页将被同步。这仅在“保持同步”选项激活时适用",
+        "OpenOrCloseTabsSynchronouslyWarning": "如果您在两个浏览器中同时登录同一帐户并打开此选项，在一个浏览器中打开或关闭标签页将在另一个浏览器中执行相同操作。如果网站禁止使用同一帐户重复登录，可能会发生异常。"
       },
       "SyncPrivateData": {
         "label": "同步私人数据",
-        "description": "选择如何同步私人数据，如网站cookies、网页本地存储数据、SessionStorage数据等。数据将在同步前进行加密。",
-        "disabled": "已禁用",
+        "description": "选择如何同步私人数据，如网站Cookie、网页本地存储数据、SessionStorage数据等。数据将在同步前加密。",
+        "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步"

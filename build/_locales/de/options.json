@@ -1,34 +1,34 @@
 {
-  "OpenSideSanelToPreview": "Seitenleiste öffnen, um Vorschau anzuzeigen",
+  "OpenSidePanelToPreview": "Seitenleiste öffnen, um eine Vorschau anzuzeigen",
   "_execute_action": "Diese Erweiterung aktivieren",
   "openSidePanel": "Seitenleiste öffnen",
   "settings": {
     "resetCurrentPageSettings": "Aktuelle Seiteneinstellungen zurücksetzen",
     "modules": {
-      "appearance": "Erscheinungsbild",
+      "appearance": "Aussehen",
       "beautify": "Verschönern",
       "tabs": "Tabs",
       "history": "Verlauf",
-      "shortcuts": "Verknüpfungen",
-      "pip": "Bild-im-Bild",
+      "shortcuts": "Tastenkombinationen",
+      "pip": "Bild-in-Bild",
       "chromeTabGroupAdvanced": "Erweiterte Tab-Gruppen",
       "progressBar": "Fortschrittsbalken",
       "floatBall": "Schwebender Ball",
       "experimentalFeatures": "Experimentelle Funktionen"
     },
     "appearance": {
-      "header": "Erscheinungsbild",
+      "header": "Aussehen",
       "language": {
         "label": "Sprache der Benutzeroberfläche",
         "description": "Legen Sie die Sprache für die Anzeige der Benutzeroberfläche fest"
       },
       "theme": {
         "label": "Farbmodus",
-        "description": "Wählen Sie den hellen oder dunklen Farbmodus aus"
+        "description": "Wählen Sie den hellen oder dunklen Farbmodus"
       },
       "rtl": {
         "label": "RTL",
-        "description": "Wenn aktiviert, wird der Text von rechts nach links angezeigt"
+        "description": "Wenn aktiviert, wird die Benutzeroberfläche den Text von rechts nach links anzeigen"
       },
       "fontSize": {
         "label": "Schriftgröße",
@@ -37,8 +37,8 @@
         "large": "Groß"
       },
       "fontFamily": {
-        "label": "Schriftart",
-        "description": "Legen Sie die Schriftart fest"
+        "label": "Schriftfamilie",
+        "description": "Legen Sie die Schriftfamilie fest"
       },
       "fontColor": {
         "label": "Schriftfarbe",
@@ -52,7 +52,8 @@
         "label": "Aktion beim Klicken auf das Erweiterungssymbol",
         "description": "Legen Sie die Aktion fest, wenn Sie auf das Erweiterungssymbol klicken",
         "openPopup": "Popup öffnen",
-        "openSidePanel": "Seitenleiste öffnen"
+        "openSidePanel": "Seitenleiste öffnen",
+        "SmallWindowAlert": "Wenn die Seitenleiste zu viel Platz einnimmt, wird empfohlen, ein Popup-Fenster zu verwenden"
       },
       "SidePanelPosition": {
         "label": "Position der Seitenleiste",
@@ -60,11 +61,11 @@
         "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
       },
       "searchBoxPosition": {
-        "label": "Position der Suchbox",
-        "description": "Legen Sie die Position der Suchbox fest",
+        "label": "Position der Suchleiste",
+        "description": "Legen Sie die Position der Suchleiste fest",
         "top": "Oben",
         "bottom": "Unten",
-        "hide": "Ausblenden"
+        "hide": "Verstecken"
       },
       "toolbar": {
         "label": "Symbolleiste anzeigen",
@@ -81,12 +82,12 @@
         "right": "Rechts"
       },
       "alwaysShowCloseButton": {
-        "label": "Schließen-Schaltfläche immer anzeigen",
-        "description": "Wenn aktiviert, wird die Schließen-Schaltfläche immer angezeigt; wenn deaktiviert, wird die Schließen-Schaltfläche nur angezeigt, wenn die Maus über dem Tab schwebt"
+        "label": "Schaltfläche zum Schließen immer anzeigen",
+        "description": "Wenn aktiviert, wird die Schaltfläche zum Schließen immer angezeigt; wenn deaktiviert, wird die Schaltfläche zum Schließen nur angezeigt, wenn die Maus über dem Tab schwebt"
       },
       "fullScreenHideSidePanel": {
-        "label": "Seitenleiste im Vollbild ausblenden",
-        "description": "Wenn aktiviert, wird die Seitenleiste automatisch ausgeblendet, wenn die Seite im Vollbildmodus ist. Aufgrund von Chromes Einschränkungen kann die Seitenleiste nicht automatisch wieder geöffnet werden. Sie müssen die Seitenleiste manuell wieder öffnen!"
+        "label": "Seitenleiste im Vollbildmodus ausblenden",
+        "description": "Wenn aktiviert, wird die Seitenleiste automatisch ausgeblendet, wenn die Seite im Vollbildmodus ist. Aufgrund von Chrome-Einschränkungen kann die Seitenleiste nicht automatisch wieder geöffnet werden. Sie müssen die Seitenleiste manuell wieder öffnen!"
       }
     },
     "beautify": {
@@ -106,20 +107,20 @@
         "label": "Bildtransparenz",
         "description": "Legen Sie die Bildtransparenz fest",
         "transparent": "Transparent",
-        "opaque": "Deckend"
+        "opaque": "Undurchsichtig"
       },
       "backgroundImageBlur": {
-        "label": "Unschärfe-Intensität",
-        "description": "Setzen Sie die Unschärfe-Intensität"
+        "label": "Unschärfeintensität",
+        "description": "Legen Sie die Unschärfeintensität fest"
       },
       "backgroundImageBrightness": {
         "label": "Helligkeit",
-        "description": "Setzen Sie die Helligkeit, empfohlen nur für den Dunkelmodus"
+        "description": "Legen Sie die Helligkeit fest, empfohlen nur für den Dunkelmodus"
       },
       "listBackgroundStyle": {
         "label": "Listenhintergrundstil",
         "description": "Legen Sie den Listenhintergrundstil fest",
-        "single": "Einzel",
+        "single": "Einzeln",
         "none": "Keiner",
         "simple": "Einfach",
         "complementary": "Komplementär",
@@ -131,38 +132,38 @@
         "label": "Listenhintergrundtransparenz",
         "description": "Legen Sie die Listenhintergrundtransparenz fest",
         "transparent": "Transparent",
-        "opaque": "Deckend"
+        "opaque": "Undurchsichtig"
       },
       "listBottomBorder": {
-        "label": "Unterer Listenrand",
+        "label": "Untere Listenrand",
         "description": "Legen Sie den unteren Listenrand fest",
         "none": "Keiner",
         "dashed": "Gestrichelt",
         "solid": "Durchgezogen"
       },
       "fluentOverlayScrollbars": {
-        "label": "Fließende Scrollleisten",
-        "description": "Verwenden Sie das Scrollleisten-Design im Microsoft Fluent-Stil und überlagern Sie es auf dem Webinhalt",
+        "label": "Fließende Bildlaufleisten",
+        "description": "Verwenden Sie Microsoft Fluent Design-Stil Bildlaufleisten und überlagern Sie sie auf dem Webinhalt",
         "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
       }
     },
     "tabs": {
       "listView": {
         "label": "Listenansicht",
-        "description": "Listenansicht umschalten",
-        "compact": "Kompakte Ansicht",
+        "description": "Listenansicht wechseln",
+        "compact": "Kompaktansicht",
         "visual": "Visuelle Ansicht"
       },
       "showBy": {
         "label": "Anzeigen nach",
-        "description": "Nach Anzeigen umschalten"
+        "description": "Anzeigen nach wechseln"
       },
       "sortBy": {
         "label": "Sortieren nach",
-        "description": "Nach Sortieren umschalten"
+        "description": "Sortieren nach wechseln"
       },
       "showFullUrl": {
-        "label": "Volle URL anzeigen",
+        "label": "Vollständige URL anzeigen",
         "description": "Wenn aktiviert, wird die vollständige URL unter dem Tab-Titel angezeigt"
       },
       "currentWindowOnly": {
@@ -173,19 +174,23 @@
         "label": "Angeheftete Tabs als Symbole anzeigen",
         "description": "Wenn aktiviert, werden angeheftete Tabs als Symbole und nicht in der Liste angezeigt"
       },
+      "pinToQuickAccess": {
+        "label": "Schnellzugriff anzeigen",
+        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff angezeigt wird, damit er leicht zu finden ist. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie Zum Schnellzugriff anheften. Lösen Sie ihn, wenn Sie ihn dort nicht mehr benötigen, indem Sie mit der rechten Maustaste darauf klicken (oder lange drücken) und Von Schnellzugriff löschen auswählen. Der Unterschied zu angehefteten Tabs besteht darin, dass der Schnellzugriff die URL speichert und jedes Mal, wenn darauf geklickt wird, einen neuen Tab öffnet."
+      },
       "collapsedGroupShowTabIcons": {
-        "label": "Website-Symbole anzeigen beim Zusammenklappen von Gruppen",
+        "label": "Webseitensymbole beim Zusammenklappen von Gruppen anzeigen",
         "description": "Wenn aktiviert, werden beim Zusammenklappen von Gruppen Tab-Symbole angezeigt"
       },
       "hoverPreview": {
-        "label": "Hover-Vorschau",
-        "description": "Wenn aktiviert, werden beim Überfahren von Tabs Tab-Vorschauen angezeigt"
+        "label": "Vorschau beim Hover",
+        "description": "Wenn aktiviert, wird beim Überfahren von Tabs eine Vorschau angezeigt"
       },
       "previewWithThumbnail": {
-        "label": "Miniaturansichten in der Vorschau anzeigen",
-        "description": "Wenn aktiviert, werden in der Vorschau Tab-Miniaturansichten angezeigt",
-        "alert": "Erfassen Sie den sichtbaren Bereich des aktuell aktiven Tabs in einem bestimmten Fenster. Um diese Methode aufzurufen, muss die Erweiterung die Berechtigung <all_urls> oder activeTab-Berechtigung haben.",
-        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie es sich anders überlegen, klicken Sie erneut und erlauben Sie die Autorisierung"
+        "label": "Thumbnails in der Vorschau anzeigen",
+        "description": "Wenn aktiviert, werden in der Vorschau Tab-Thumbnails angezeigt",
+        "alert": "Erfassen Sie den sichtbaren Bereich des aktuell aktiven Tabs in einem bestimmten Fenster. Um diese Methode aufzurufen, muss die Erweiterung die Berechtigung <all_urls> oder die activeTab-Berechtigung haben.",
+        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung"
       },
       "previewDelay": {
         "label": "Vorschauverzögerung",
@@ -195,62 +200,62 @@
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Zuletzt geschlossene Tabs speichern",
-        "description": "Wenn aktiviert, speichern Sie zuletzt geschlossene Tabs"
+        "label": "Kürzlich geschlossene Tabs speichern",
+        "description": "Wenn aktiviert, werden kürzlich geschlossene Tabs gespeichert"
       },
       "dataSource": {
         "label": "Datenquelle",
         "description": "Datenquelle auswählen",
-        "recentlyClosedTabs": "Zuletzt geschlossene Tabs",
+        "recentlyClosedTabs": "Kürzlich geschlossene Tabs",
         "chromeHistory": "Chrome-Verlauf",
         "alert": "Um Verlaufsdatensätze zu durchsuchen, benötigen Sie Ihre Autorisierung zur Aktivierung",
-        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie es sich anders überlegen, klicken Sie erneut und erlauben Sie die Autorisierung"
+        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung"
       },
       "showInSidePanel": {
-        "label": "Im Seitenbereich anzeigen",
-        "description": "Wenn aktiviert, im Seitenbereich anzeigen"
+        "label": "Im Seitenpanel anzeigen",
+        "description": "Wenn aktiviert, im Seitenpanel anzeigen"
       },
       "showInTabSearchResults": {
         "label": "Verlauf in Tab-Suchergebnissen anzeigen",
-        "description": "Wenn aktiviert, werden kürzliche Verlaufsdatensätze in Tab-Suchergebnissen angezeigt"
+        "description": "Wenn aktiviert, werden kürzliche Verlaufsdatensätze in den Tab-Suchergebnissen angezeigt"
       },
       "limitSearchResults": {
         "label": "Anzahl der Verlaufsdatensätze in Tab-Suchergebnissen begrenzen",
-        "description": "Legen Sie die Anzahl der Verlaufsdatensätze in Tab-Suchergebnissen fest. Verlaufsdatensätze, die die Grenze überschreiten, werden gefiltert",
-        "alert": "Zu viele Datensätze beeinträchtigen die Seitenaufbau-Geschwindigkeit"
+        "description": "Legen Sie die Begrenzung der Anzahl der Verlaufsdatensätze in den Tab-Suchergebnissen fest. Verlaufsdatensätze, die das Limit überschreiten, werden gefiltert",
+        "alert": "Zu viele Datensätze beeinträchtigen die Ladegeschwindigkeit der Seite"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Anzahl der zuletzt geschlossenen Tabs zum Speichern",
-        "description": "Legen Sie die Anzahl der zuletzt geschlossenen Tabs fest, die gespeichert werden sollen"
+        "label": "Anzahl der zu speichernden kürzlich geschlossenen Tabs",
+        "description": "Legen Sie die Anzahl der zu speichernden kürzlich geschlossenen Tabs fest"
       },
       "keepDays": {
-        "label": "Anzahl der Tage zum Speichern zuletzt geschlossener Tabs",
-        "description": "Legen Sie die Anzahl der Tage fest, an denen zuletzt geschlossene Tabs gespeichert werden sollen. Abgelaufene Daten werden gelöscht",
+        "label": "Anzahl der Tage, an denen kürzlich geschlossene Tabs gespeichert werden",
+        "description": "Legen Sie die Anzahl der Tage fest, an denen kürzlich geschlossene Tabs gespeichert werden. Abgelaufene Daten werden gelöscht",
         "days": "Tage"
       },
       "openDuration": {
         "label": "Öffnungsdauer",
-        "description": "Es werden nur Tabs gespeichert, die länger als die festgelegte Zeit geöffnet sind",
+        "description": "Nur Tabs, die länger als die eingestellte Zeit geöffnet sind, werden gespeichert",
         "seconds": "Sekunden"
       }
     },
     "shortcuts": {
-      "alert": "Diese Seite dient nur zur Anzeige. Um Verknüpfungen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
+      "alert": "Diese Seite dient nur zur Anzeige. Um Tastenkombinationen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
       "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen",
       "_execute_action": "Diese Erweiterung aktivieren",
       "openSidePanel": "Seitenleiste öffnen"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Bild-im-Bild",
+      "Picture-in-picture": "Bild-in-Bild",
       "tabSwitch": {
-        "label": "Bild-im-Bild bei Tab-Wechsel",
-        "description": "Automatisches Betreten des Bild-im-Bild-Modus beim Wechseln von Tabs mit einem nicht stummen Video",
+        "label": "PIP beim Tab-Wechsel",
+        "description": "Automatisch in PIP wechseln, wenn Tabs mit einem nicht stummgeschalteten Video gewechselt werden",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "scrollSwitch": {
-        "label": "Zum Bild-im-Bild wechseln beim Scrollen",
-        "description": "Wenn die aktuelle Seite ein Video abspielt und das Video nicht stummgeschaltet ist und das Video beim Scrollen aus dem sichtbaren Bereich heraus ist, wird Bild-im-Bild aktiviert.",
+        "label": "Beim Scrollen in Bild-in-Bild wechseln",
+        "description": "Wenn die aktuelle Seite ein Video abspielt und das Video nicht stummgeschaltet ist und das Video beim Scrollen aus dem sichtbaren Bereich verschwindet, wird es in Bild-in-Bild wechseln.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       }
@@ -258,29 +263,29 @@
     "userActivitionAlert": {
       "title": "Benutzeraktivierung erforderlich",
       "tips_1": "Benutzeraktivierung bedeutet, dass der Benutzer derzeit mit der Seite interagiert",
-      "tips_2": "Genauer gesagt lösen Aktivierungen Eingabeereignisse wie:",
-      "tips_3": "Hinweis: Das Scrollen mit dem Mausrad oder Wischgesten löst keine Aktivierung aus!",
+      "tips_2": "Genauer gesagt, Aktivierung löst Eingabeereignisse wie aus:",
+      "tips_3": "Hinweis: Die Verwendung des Mausrads oder Wischgesten löst dies nicht aus!",
       "tips_4": "Wenn Sie weitere Details wünschen, besuchen Sie bitte:",
       "click": "Klicken",
-      "contextmenu": "Kontextmenü",
+      "contextmenu": "Rechtsklick-Menü",
       "dblclick": "Doppelklick"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Verhalten beim Zusammenklappen von Tab-Gruppen",
-        "description": "Ändern Sie das Verhalten des Zusammenklappens von Chrome-Browser-Tab-Gruppen",
-        "option_collapse_others": "Aktuelle Gruppe anzeigen und andere zusammenklappen",
+        "label": "Verhalten beim Einklappen von Tab-Gruppen",
+        "description": "Ändern Sie das Verhalten des Einklappens von Tab-Gruppen im Chrome-Browser",
+        "option_collapse_others": "Aktuelle Gruppe anzeigen und andere einklappen",
         "option_disable": "Alle Gruppen erweitern",
-        "option_auto": "Chrome-Standardwerte verwenden"
+        "option_auto": "Chrome-Standardeinstellungen verwenden"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Automatisch Gruppe mit gleicher Domäne erstellen oder beitreten",
-        "description": "Wenn aktiviert, werden neu geöffnete Tabs automatisch der gleichen Domänengruppe beitreten. Wenn die Domänengruppe nicht existiert, wird eine neue Domänengruppe erstellt",
+        "label": "Automatisch gleiche Domain-Gruppe erstellen oder beitreten",
+        "description": "Wenn aktiviert, werden neu geöffnete Tabs automatisch der gleichen Domain-Gruppe beitreten. Wenn die Domain-Gruppe nicht existiert, wird eine neue Domain-Gruppe erstellt",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Angeheftete Tabs in Gruppen filtern",
+        "label": "Angeheftete Tabs in Gruppen herausfiltern",
         "description": "Wenn aktiviert, werden angeheftete Tabs nicht zu Gruppen hinzugefügt",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
@@ -288,26 +293,26 @@
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Fortschrittsleiste aktivieren",
-        "description": "Wenn aktiviert, wird eine Lesezeichenleiste unterhalb der Registerkartenüberschrift angezeigt",
+        "label": "Fortschrittsbalken aktivieren",
+        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "readingProgressBar": {
-        "label": "Lesezeichenleiste",
-        "description": "Wenn aktiviert, wird eine Lesezeichenleiste unterhalb der Registerkartenüberschrift angezeigt",
+        "label": "Lesefortschrittsbalken",
+        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "scrollHeightRatio": {
-        "label": "Verhältnis der Scrollhöhe",
-        "description": "Das Verhältnis der sichtbaren Fensterhöhe zur Seitenhöhe. Eine Fortschrittsleiste wird angezeigt, wenn das Verhältnis überschritten wird",
+        "label": "Scroll-Höhenverhältnis",
+        "description": "Das Verhältnis der sichtbaren Fensterhöhe zur Seitenhöhe. Ein Fortschrittsbalken wird angezeigt, wenn das Verhältnis überschritten wird",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "playingProgressBar": {
-        "label": "Abspiel-Fortschrittsleiste",
-        "description": "Wenn aktiviert, wird eine Abspiel-Fortschrittsleiste unterhalb der Registerkartenüberschrift angezeigt",
+        "label": "Abspielfortschrittsbalken",
+        "description": "Wenn aktiviert, wird ein Abspielfortschrittsbalken unter der Tab-Titelleiste angezeigt",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       }
@@ -315,7 +320,7 @@
     "floatBall": {
       "enableFloatBall": {
         "label": "Schwebenden Ball aktivieren",
-        "description": "Wenn die Seitenleiste geschlossen ist, wird ein schwebender Ball auf der rechten Seite der Seite angezeigt, der das schnelle Öffnen der Seitenleiste ermöglicht."
+        "description": "Wenn das Seitenpanel geschlossen ist, wird ein schwebender Ball auf der rechten Seite der Seite angezeigt, der ein schnelles Öffnen des Seitenpanels ermöglicht."
       }
     },
     "performance": {
@@ -323,7 +328,7 @@
       "saveMemoryAction": {
         "label": "Wie man Speicher bei Tabs spart",
         "description": "Um Speicher bei Tabs zu sparen, können Sie wählen, ob Sie Tabs schließen oder verwerfen möchten.",
-        "discardTips": "Ein verworfener Tab verschwindet nicht. Wir beenden ihn, aber er ist immer noch im Chrome-Tab-Streifen sichtbar. Wenn Sie zu einem verworfenen Tab zurückkehren, wird er beim Klicken neu geladen. Formularinhalte, Scrollposition und so weiter werden auf die gleiche Weise gespeichert und wiederhergestellt wie beim Vorwärts-/Rückwärtsnavigieren von Tabs.",
+        "discardTips": "Ein verworfener Tab geht nirgendwo hin. Wir beenden ihn, aber er bleibt in der Chrome-Tab-Leiste sichtbar. Wenn Sie zu einem verworfenen Tab zurückkehren, wird er beim Klicken neu geladen. Formularinhalte, Scrollposition usw. werden auf die gleiche Weise gespeichert und wiederhergestellt wie beim Vorwärts-/Rückwärtsnavigieren von Tabs.",
         "disabled": "Deaktiviert",
         "closeTabs": "Tabs schließen",
         "discardTabs": "Tabs verwerfen"
@@ -340,21 +345,21 @@
       },
       "disableAnimations": {
         "label": "Animationen deaktivieren",
-        "description": "den Ripple-Effekt und alle Übergänge deaktivieren"
+        "description": "Den Welleneffekt und alle Übergänge deaktivieren"
       }
     },
     "site": {
-      "label": "Website-Einstellungen",
-      "allSites": "Alle Websites",
+      "label": "Seiteneinstellungen",
+      "allSites": "Alle Seiten",
       "sortBy": "Sortieren nach",
       "mostVisited": "Am häufigsten besucht",
       "dataStored": "Gespeicherte Daten",
       "name": "Name",
       "deleteAllData": "Alle Daten löschen",
-      "totalStorageUsedBySites": "Insgesamt von Websites verwendeter Speicher",
+      "totalStorageUsedBySites": "Gesamtspeicherplatz, der von Seiten verwendet wird",
       "totalCount": "Gesamtanzahl",
       "addNewSite": {
-        "label": "Neue Website hinzufügen",
+        "label": "Neue Seite hinzufügen",
         "description": "Geben Sie eine neue Website-Adresse ein, z. B. 'www.beispiel.com', und klicken Sie auf 'Hinzufügen'.",
         "placeholder": "Website-Adresse, z. B. 'www.beispiel.com'",
         "add": "Hinzufügen",
@@ -362,36 +367,36 @@
         "invalidDomain": "Ungültige Website-Adresse"
       },
       "browserSettings": {
-        "label": "Browser-Einstellungen",
-        "description": "Sie können Website-Einstellungen ändern, z. B. Daten löschen oder Berechtigungen ändern.",
+        "label": "Browsereinstellungen",
+        "description": "Sie können Seiteneinstellungen ändern, z. B. Daten löschen oder Site-Berechtigungen ändern.",
         "goToBrowserSettings": "Zu den Browsereinstellungen gehen"
       },
       "autoDiscardable": {
         "label": "Automatisch verwerfbar",
-        "description": "Wenn aktiviert, kann die Registerkarte vom Browser verworfen werden. Wenn Sie die Leistung einschalten und die Zeit zum Verwerfen inaktiver Registerkarten festlegen, wird die Registerkarte nach Ablauf der angegebenen Zeit verworfen. Wenn deaktiviert, wird die Registerkarte nicht verworfen."
+        "description": "Wenn aktiviert, darf der Tab vom Browser verworfen werden, und wenn Sie die Leistung aktivieren und die Zeit zum Verwerfen inaktiver Tabs festlegen, wird der Tab nach der angegebenen Zeit verworfen. Wenn deaktiviert, wird der Tab nicht verworfen"
       },
       "readingProgressBar": {
-        "label": "Lese-Fortschrittsleiste",
-        "description": "Wenn aktiviert, wird eine Lese-Fortschrittsleiste unterhalb der Registerkartenüberschrift angezeigt.",
-        "globaldisabledTips": "Sie müssen die Lese-Fortschrittsleiste in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+        "label": "Lesefortschrittsbalken",
+        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt.",
+        "globaldisabledTips": "Sie müssen den Lesefortschrittsbalken in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
       },
       "playingProgressBar": {
-        "label": "Abspiel-Fortschrittsleiste",
-        "description": "Wenn aktiviert, wird eine Abspiel-Fortschrittsleiste unterhalb der Registerkartenüberschrift angezeigt.",
-        "globaldisabledTips": "Sie müssen die Abspiel-Fortschrittsleiste in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+        "label": "Abspielfortschrittsbalken",
+        "description": "Wenn aktiviert, wird ein Abspielfortschrittsbalken unter der Tab-Titelleiste angezeigt.",
+        "globaldisabledTips": "Sie müssen den Abspielfortschrittsbalken in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
       },
       "tabSwitchPip": {
         "label": "PIP beim Tab-Wechsel",
-        "description": "Wenn aktiviert, wechseln Sie automatisch in den Bild-in-Bild-Modus, wenn Sie Tabs mit einem nicht stummgeschalteten Video wechseln.",
-        "globaldisabledTips": "Sie müssen das Bild-in-Bild in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+        "description": "Wenn aktiviert, wird beim Wechseln von Tabs mit einem nicht stummgeschalteten Video automatisch in Bild-in-Bild gewechselt.",
+        "globaldisabledTips": "Sie müssen Bild-in-Bild in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
       },
       "clearHistoyAfterCLose": {
-        "label": "Verlauf nach Schließen löschen",
-        "description": "Wenn aktiviert, wird der Verlauf nach dem Schließen der Registerkarte gelöscht."
+        "label": "Verlauf nach dem Schließen löschen",
+        "description": "Wenn aktiviert, wird der Verlauf nach dem Schließen des Tabs gelöscht."
       },
       "SyncTabs": {
         "label": "Tabs synchronisieren",
-        "description": "Wählen Sie aus, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme von privaten Daten wie Cookies und persönlichen Informationen.",
+        "description": "Wählen Sie, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme privater Daten wie Cookies und persönlichen Informationen.",
         "disabled": "Deaktiviert",
         "uploadOnly": "Nur hochladen",
         "downloadOnly": "Nur herunterladen",
@@ -400,7 +405,7 @@
       },
       "SyncPrivateData": {
         "label": "Private Daten synchronisieren",
-        "description": "Wählen Sie aus, wie private Daten wie Website-Cookies, lokale Speicherdaten von Webseiten, SessionStorage-Daten usw. vor der Synchronisierung verschlüsselt werden sollen.",
+        "description": "Wählen Sie, wie private Daten synchronisiert werden sollen, z. B. Website-Cookies, lokale Webseitenspeicherdaten, SessionStorage-Daten usw. Daten werden vor der Synchronisierung verschlüsselt.",
         "disabled": "Deaktiviert",
         "uploadOnly": "Nur hochladen",
         "downloadOnly": "Nur herunterladen",
@@ -414,7 +419,7 @@
       "SyncNowWithGoogleDrive": "Jetzt mit Google Drive synchronisieren",
       "SyncNowWithDropbox": "Jetzt mit Dropbox synchronisieren",
       "SyncNowWithOneDrive": "Jetzt mit OneDrive synchronisieren",
-      "Synchronizing": "Synchronisierung läuft...",
+      "Synchronizing": "Synchronisieren...",
       "SyncedSuccessfully": "Erfolgreich synchronisiert",
       "SyncFailed": "Synchronisierung fehlgeschlagen",
       "LoginRequired": "Anmeldung erforderlich",
@@ -423,7 +428,7 @@
       "OneDrive": "OneDrive",
       "SyncConfigs": {
         "label": "Konfigurationen synchronisieren",
-        "description": "Wählen Sie aus, wie die Konfigurationen dieser Erweiterung synchronisiert werden sollen.",
+        "description": "Wählen Sie, wie die Konfigurationen dieser Erweiterung synchronisiert werden sollen.",
         "disabled": "Deaktiviert",
         "uploadOnly": "Nur hochladen",
         "downloadOnly": "Nur herunterladen",
@@ -431,7 +436,7 @@
       },
       "SyncTabs": {
         "label": "Tabs synchronisieren",
-        "description": "Wählen Sie aus, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme von privaten Daten wie Cookies und persönlichen Informationen.",
+        "description": "Wählen Sie, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme privater Daten wie Cookies und persönlichen Informationen.",
         "disabled": "Deaktiviert",
         "uploadOnly": "Nur hochladen",
         "downloadOnly": "Nur herunterladen",
@@ -439,12 +444,12 @@
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "Tabs synchron öffnen oder schließen",
-        "description": "Wenn aktiviert, werden das Öffnen oder Schließen von Tabs in verschiedenen Browsern synchronisiert. Dies gilt nur, wenn die Option 'Synchronisiert bleiben' aktiv ist.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Wenn Sie sich gleichzeitig in zwei Browsern mit demselben Konto anmelden und diese Option aktivieren, werden das Öffnen oder Schließen von Tabs in einem Browser die gleiche Operation im anderen Browser ausführen. Wenn die Website wiederholte Anmeldungen mit demselben Konto verbietet, können Ausnahmen auftreten."
+        "description": "Wenn aktiviert, wird das Öffnen oder Schließen von Tabs in verschiedenen Browsern synchronisiert. Dies gilt nur, wenn die Option 'Synchronisiert bleiben' aktiv ist",
+        "OpenOrCloseTabsSynchronouslyWarning": "Wenn Sie sich gleichzeitig in zwei Browsern mit demselben Konto anmelden und diese Option aktivieren, wird das Öffnen oder Schließen von Tabs in einem Browser die gleiche Aktion im anderen Browser ausführen. Wenn die Website wiederholte Anmeldungen mit demselben Konto verbietet, können Ausnahmen auftreten."
       },
       "SyncPrivateData": {
         "label": "Private Daten synchronisieren",
-        "description": "Wählen Sie aus, wie private Daten wie Website-Cookies, lokale Speicherdaten von Webseiten, SessionStorage-Daten usw. vor der Synchronisierung verschlüsselt werden sollen.",
+        "description": "Wählen Sie, wie private Daten synchronisiert werden sollen, z. B. Website-Cookies, lokale Webseitenspeicherdaten, SessionStorage-Daten usw. Daten werden vor der Synchronisierung verschlüsselt.",
         "disabled": "Deaktiviert",
         "uploadOnly": "Nur hochladen",
         "downloadOnly": "Nur herunterladen",

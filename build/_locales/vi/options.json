@@ -1,19 +1,19 @@
 {
-  "OpenSideSanelToPreview": "Mở bảng điều khiển bên để xem trước",
-  "_execute_action": "Kích hoạt tiện ích này",
-  "openSidePanel": "Mở bảng điều khiển bên",
+  "OpenSidePanelToPreview": "Mở bảng bên để xem trước",
+  "_execute_action": "Kích hoạt tiện ích mở rộng này",
+  "openSidePanel": "Mở bảng bên",
   "settings": {
     "resetCurrentPageSettings": "Đặt lại cài đặt trang hiện tại",
     "modules": {
       "appearance": "Giao diện",
       "beautify": "Làm đẹp",
-      "tabs": "Tab",
+      "tabs": "Thẻ",
       "history": "Lịch sử",
       "shortcuts": "Phím tắt",
       "pip": "Hình trong hình",
-      "chromeTabGroupAdvanced": "Nhóm tab tiên tiến",
+      "chromeTabGroupAdvanced": "Nhóm thẻ nâng cao",
       "progressBar": "Thanh tiến trình",
-      "floatBall": "Hình cầu nổi",
+      "floatBall": "Bóng nổi",
       "experimentalFeatures": "Tính năng thử nghiệm"
     },
     "appearance": {
@@ -23,56 +23,57 @@
         "description": "Đặt ngôn ngữ cho hiển thị giao diện"
       },
       "theme": {
-        "label": "Chế độ màu sắc",
+        "label": "Chế độ màu",
         "description": "Chọn chế độ màu sáng hoặc tối"
       },
       "rtl": {
         "label": "RTL",
-        "description": "Khi bật, giao diện sẽ hiển thị hướng văn bản từ phải sang trái"
+        "description": "Khi được bật, giao diện sẽ hiển thị văn bản từ phải sang trái"
       },
       "fontSize": {
-        "label": "Cỡ chữ",
-        "description": "Đặt cỡ chữ",
+        "label": "Kích thước phông chữ",
+        "description": "Đặt kích thước phông chữ",
         "small": "Nhỏ",
         "large": "Lớn"
       },
       "fontFamily": {
-        "label": "Họ phông chữ",
-        "description": "Thiết lập họ phông chữ"
+        "label": "Phông chữ",
+        "description": "Đặt phông chữ"
       },
       "fontColor": {
-        "label": "Màu chữ",
-        "description": "Thiết lập màu chữ"
+        "label": "Màu phông chữ",
+        "description": "Đặt màu phông chữ"
       },
       "fontWeight": {
-        "label": "Độ đậm của chữ",
-        "description": "Thiết lập độ đậm của chữ"
+        "label": "Độ đậm phông chữ",
+        "description": "Đặt độ đậm phông chữ"
       },
       "extAction": {
         "label": "Hành động khi nhấp vào biểu tượng tiện ích",
         "description": "Đặt hành động khi nhấp vào biểu tượng tiện ích",
-        "openPopup": "Mở cửa sổ popup",
-        "openSidePanel": "Mở bảng điều khiển bên"
+        "openPopup": "Mở cửa sổ bật lên",
+        "openSidePanel": "Mở bảng bên",
+        "SmallWindowAlert": "Nếu bảng bên chiếm quá nhiều không gian, bạn nên sử dụng cửa sổ bật lên"
       },
       "SidePanelPosition": {
-        "label": "Vị trí bảng điều khiển bên",
-        "description": "Đặt xem bảng điều khiển bên ở bên trái hoặc bên phải.",
-        "goToBrowserSettings": "Đi đến cài đặt Chrome"
+        "label": "Vị trí bảng bên",
+        "description": "Đặt bảng bên hiển thị ở bên trái hoặc bên phải.",
+        "goToBrowserSettings": "Đi tới cài đặt Chrome"
       },
       "searchBoxPosition": {
         "label": "Vị trí hộp tìm kiếm",
         "description": "Đặt vị trí của hộp tìm kiếm",
-        "top": "Trên",
-        "bottom": "Dưới",
+        "top": "Trên cùng",
+        "bottom": "Dưới cùng",
         "hide": "Ẩn"
       },
       "toolbar": {
         "label": "Hiển thị thanh công cụ",
-        "description": "Khi bật, thanh công cụ sẽ được hiển thị"
+        "description": "Khi được bật, thanh công cụ sẽ được hiển thị"
       },
       "bottomNav": {
         "label": "Hiển thị thanh điều hướng dưới cùng",
-        "description": "Khi bật, thanh điều hướng dưới cùng sẽ được hiển thị"
+        "description": "Khi được bật, thanh điều hướng dưới cùng sẽ được hiển thị"
       },
       "buttonPosition": {
         "label": "Vị trí nút",
@@ -82,21 +83,21 @@
       },
       "alwaysShowCloseButton": {
         "label": "Luôn hiển thị nút đóng",
-        "description": "Khi bật, nút đóng sẽ luôn hiển thị; khi tắt, nút đóng chỉ hiển thị khi chuột di chuyển qua tab"
+        "description": "Khi được bật, nút đóng sẽ luôn hiển thị; khi tắt, nút đóng chỉ hiển thị khi chuột di chuyển qua thẻ"
       },
       "fullScreenHideSidePanel": {
-        "label": "Ẩn bảng điều khiển bên khi toàn màn hình",
-        "description": "Khi bật, bảng điều khiển bên sẽ tự động ẩn khi trang ở chế độ toàn màn hình. Do hạn chế của Chrome, bảng điều khiển bên không thể tự động mở lại. Bạn cần mở bảng điều khiển bên thủ công!"
+        "label": "Ẩn bảng bên trong chế độ toàn màn hình",
+        "description": "Khi được bật, bảng bên sẽ tự động ẩn khi trang ở chế độ toàn màn hình. Do hạn chế của Chrome, bảng bên không thể tự động mở lại. Bạn cần mở lại bảng bên thủ công!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "Nền màu",
-        "description": "Khi bật, bảng điều khiển bên sẽ hiển thị nền màu"
+        "description": "Khi được bật, bảng bên sẽ hiển thị nền màu"
       },
       "backgroundPicture": {
         "label": "Hình nền",
-        "description": "Nhấp vào [+] để thêm hình ảnh tùy chỉnh, nhấp vào [-] để xóa hình ảnh tùy chỉnh. Bạn có thể tìm hình ảnh yêu thích của mình trên các trang web sau.",
+        "description": "Nhấp vào [+] để thêm hình ảnh tùy chỉnh, nhấp vào [-] để xóa hình ảnh tùy chỉnh. Bạn có thể tìm thấy hình ảnh yêu thích của mình trên các trang web sau.",
         "dialogDescription": "Nhập địa chỉ hình ảnh",
         "OK": "OK",
         "Cancel": "Hủy",
@@ -109,8 +110,8 @@
         "opaque": "Mờ"
       },
       "backgroundImageBlur": {
-        "label": "Độ mờ",
-        "description": "Đặt độ mờ"
+        "label": "Cường độ làm mờ",
+        "description": "Đặt cường độ làm mờ"
       },
       "backgroundImageBrightness": {
         "label": "Độ sáng",
@@ -124,34 +125,34 @@
         "simple": "Đơn giản",
         "complementary": "Bổ sung",
         "analogous": "Tương tự",
-        "triadic": "Tam giác",
-        "tetradic": "Tứ giác"
+        "triadic": "Bộ ba",
+        "tetradic": "Bộ bốn"
       },
       "listBackgroundTransparency": {
-        "label": "Độ trong suốt nền danh sách",
-        "description": "Đặt độ trong suốt nền danh sách",
+        "label": "Độ trong suốt của nền danh sách",
+        "description": "Đặt độ trong suốt của nền danh sách",
         "transparent": "Trong suốt",
         "opaque": "Mờ"
       },
       "listBottomBorder": {
-        "label": "Đường viền dưới danh sách",
-        "description": "Đặt đường viền dưới danh sách",
+        "label": "Đường viền dưới của danh sách",
+        "description": "Đặt đường viền dưới của danh sách",
         "none": "Không",
-        "dashed": "Gạch nối",
-        "solid": "Liền"
+        "dashed": "Nét đứt",
+        "solid": "Nét liền"
       },
       "fluentOverlayScrollbars": {
-        "label": "Thanh cuộn mượt mà",
-        "description": "Sử dụng kiểu thiết kế thanh cuộn mượt mà của Microsoft và đặt chúng lên nội dung web",
-        "goToBrowserSettings": "Đi đến cài đặt Chrome"
+        "label": "Thanh cuộn Fluent",
+        "description": "Sử dụng thanh cuộn kiểu thiết kế Fluent của Microsoft và phủ lên nội dung web",
+        "goToBrowserSettings": "Đi tới cài đặt Chrome"
       }
     },
     "tabs": {
       "listView": {
         "label": "Chế độ xem danh sách",
         "description": "Chuyển đổi chế độ xem danh sách",
-        "compact": "Chế độ rút gọn",
-        "visual": "Chế độ trực quan"
+        "compact": "Chế độ xem gọn",
+        "visual": "Chế độ xem trực quan"
       },
       "showBy": {
         "label": "Hiển thị theo",
@@ -163,259 +164,263 @@
       },
       "showFullUrl": {
         "label": "Hiển thị URL đầy đủ",
-        "description": "Khi bật, URL đầy đủ sẽ được hiển thị dưới tiêu đề tab"
+        "description": "Khi được bật, URL đầy đủ sẽ được hiển thị dưới tiêu đề thẻ"
       },
       "currentWindowOnly": {
-        "label": "Chỉ hiển thị cửa sổ hiện tại",
-        "description": "Chỉ hiển thị tab của cửa sổ hiện tại. Nếu tắt, tab từ tất cả các cửa sổ sẽ được hiển thị"
+        "label": "Chỉ cửa sổ hiện tại",
+        "description": "Chỉ hiển thị các thẻ của cửa sổ hiện tại. Nếu tắt, các thẻ từ tất cả các cửa sổ sẽ được hiển thị"
       },
       "pinedTabsAsIcons": {
-        "label": "Hiển thị tab ghim dưới dạng biểu tượng",
-        "description": "Khi bật, tab ghim sẽ được hiển thị dưới dạng biểu tượng và không trong danh sách"
+        "label": "Hiển thị các thẻ ghim dưới dạng biểu tượng",
+        "description": "Khi được bật, các thẻ ghim sẽ được hiển thị dưới dạng biểu tượng và không nằm trong danh sách"
+      },
+      "pinToQuickAccess": {
+        "label": "Hiển thị truy cập nhanh",
+        "description": "Bạn có thể đặt một thẻ để hiển thị trong Truy cập nhanh để dễ dàng tìm thấy. Chỉ cần nhấp chuột phải (hoặc nhấn lâu) và chọn Ghim vào Truy cập nhanh. Bỏ ghim khi bạn không cần nữa bằng cách nhấp chuột phải (hoặc nhấn lâu) và chọn Xóa khỏi Truy cập nhanh. Sự khác biệt so với các thẻ ghim là Truy cập nhanh lưu URL và mở một thẻ mới mỗi khi nhấp vào."
       },
       "collapsedGroupShowTabIcons": {
         "label": "Hiển thị biểu tượng trang web khi thu gọn nhóm",
-        "description": "Khi bật, nhóm thu gọn sẽ hiển thị biểu tượng tab"
+        "description": "Khi được bật, các nhóm thu gọn sẽ hiển thị biểu tượng thẻ"
       },
       "hoverPreview": {
         "label": "Xem trước khi di chuột",
-        "description": "Khi bật, di chuột qua tab sẽ hiển thị xem trước tab"
+        "description": "Khi được bật, di chuột qua các thẻ sẽ hiển thị xem trước thẻ"
       },
       "previewWithThumbnail": {
-        "label": "Hiển thị hình ảnh xem trước",
-        "description": "Khi bật, xem trước sẽ hiển thị hình ảnh xem trước tab",
-        "alert": "Chụp khu vực hiển thị của tab hiện tại đang hoạt động trong cửa sổ cụ thể. Để gọi phương thức này, tiện ích phải có quyền <all_urls> hoặc quyền activeTab.",
-        "deniedMessage": "Bạn đã từ chối quyền cần thiết, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý kiến, vui lòng nhấp lại và cho phép ủy quyền"
+        "label": "Hiển thị hình thu nhỏ trong xem trước",
+        "description": "Khi được bật, xem trước sẽ hiển thị hình thu nhỏ của thẻ",
+        "alert": "Chụp vùng hiển thị của thẻ hiện đang hoạt động trong một cửa sổ cụ thể. Để gọi phương thức này, tiện ích mở rộng phải có quyền <all_urls> hoặc quyền activeTab.",
+        "deniedMessage": "Bạn đã từ chối quyền yêu cầu, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý định, vui lòng nhấp lại và cho phép ủy quyền"
       },
       "previewDelay": {
         "label": "Độ trễ xem trước",
-        "description": "Đặt thời gian trễ cho xem trước tab khi di chuột qua tab, v.v. (giây). Nếu đặt là 0, sẽ không có trễ",
+        "description": "Đặt thời gian trễ cho xem trước thẻ khi di chuột qua các thẻ, v.v. (giây). Nếu đặt là 0, sẽ không có độ trễ",
         "seconds": "Giây"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Lưu tab đã đóng gần đây",
-        "description": "Khi bật, lưu tab đã đóng gần đây"
+        "label": "Lưu các thẻ đã đóng gần đây",
+        "description": "Khi được bật, lưu các thẻ đã đóng gần đây"
       },
       "dataSource": {
         "label": "Nguồn dữ liệu",
         "description": "Chọn nguồn dữ liệu",
-        "recentlyClosedTabs": "Tab đã đóng gần đây",
+        "recentlyClosedTabs": "Các thẻ đã đóng gần đây",
         "chromeHistory": "Lịch sử Chrome",
-        "alert": "Để tìm kiếm các bản ghi lịch sử, bạn cần ủy quyền của bạn để kích hoạt",
-        "deniedMessage": "Bạn đã từ chối quyền cần thiết, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý kiến, vui lòng nhấp lại và cho phép ủy quyền"
+        "alert": "Để tìm kiếm các bản ghi lịch sử, bạn cần sự ủy quyền của bạn để bật",
+        "deniedMessage": "Bạn đã từ chối quyền yêu cầu, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý định, vui lòng nhấp lại và cho phép ủy quyền"
       },
       "showInSidePanel": {
-        "label": "Hiển thị trong bảng điều khiển bên",
-        "description": "Khi bật, hiển thị trong bảng điều khiển bên"
+        "label": "Hiển thị trong bảng bên",
+        "description": "Khi được bật, hiển thị trong bảng bên"
       },
       "showInTabSearchResults": {
-        "label": "Hiển thị lịch sử trong kết quả tìm kiếm tab",
-        "description": "Khi bật, các bản ghi lịch sử gần đây sẽ được hiển thị trong kết quả tìm kiếm tab"
+        "label": "Hiển thị lịch sử trong kết quả tìm kiếm thẻ",
+        "description": "Khi được bật, các bản ghi lịch sử gần đây sẽ được hiển thị trong kết quả tìm kiếm thẻ"
       },
       "limitSearchResults": {
-        "label": "Giới hạn số bản ghi lịch sử trong kết quả tìm kiếm tab",
-        "description": "Đặt giới hạn số bản ghi lịch sử trong kết quả tìm kiếm tab. Các bản ghi lịch sử vượt quá giới hạn sẽ được lọc",
+        "label": "Giới hạn số lượng bản ghi lịch sử trong kết quả tìm kiếm thẻ",
+        "description": "Đặt giới hạn số lượng bản ghi lịch sử trong kết quả tìm kiếm thẻ. Các bản ghi lịch sử vượt quá giới hạn sẽ bị lọc",
         "alert": "Quá nhiều bản ghi sẽ ảnh hưởng đến tốc độ tải trang"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Số tab đã đóng gần đây để giữ",
-        "description": "Đặt số tab đã đóng gần đây để giữ"
+        "label": "Số lượng thẻ đã đóng gần đây để giữ",
+        "description": "Đặt số lượng thẻ đã đóng gần đây để giữ"
       },
       "keepDays": {
-        "label": "Số ngày giữ tab đã đóng gần đây",
-        "description": "Đặt số ngày giữ tab đã đóng gần đây. Dữ liệu hết hạn sẽ bị xóa",
+        "label": "Số ngày giữ các thẻ đã đóng gần đây",
+        "description": "Đặt số ngày giữ các thẻ đã đóng gần đây. Dữ liệu hết hạn sẽ bị xóa",
         "days": "Ngày"
       },
       "openDuration": {
         "label": "Thời gian mở",
-        "description": "Chỉ các tab mở lâu hơn thời gian đặt sẽ được lưu",
+        "description": "Chỉ các thẻ mở lâu hơn thời gian đặt sẽ được lưu",
         "seconds": "Giây"
       }
     },
     "shortcuts": {
-      "alert": "Trang này chỉ dành cho hiển thị. Để sửa đổi phím tắt, vui lòng truy cập [Tiện ích mở rộng]->[Quản lý tiện ích mở rộng]->[Phím tắt bàn phím]",
-      "goToBrowserSettings": "Đi đến cài đặt Chrome",
-      "_execute_action": "Kích hoạt tiện ích này",
-      "openSidePanel": "Mở bảng điều khiển bên"
+      "alert": "Trang này chỉ để hiển thị. Để sửa đổi phím tắt, vui lòng truy cập [Tiện ích mở rộng]->[Quản lý Tiện ích mở rộng]->[Phím tắt]",
+      "goToBrowserSettings": "Đi tới cài đặt Chrome",
+      "_execute_action": "Kích hoạt tiện ích mở rộng này",
+      "openSidePanel": "Mở bảng bên"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Hình trong hình",
       "tabSwitch": {
-        "label": "Hình trong hình khi chuyển tab",
-        "description": "Tự động chuyển sang hình trong hình khi chuyển tab với video không tắt tiếng",
-        "enabled": "Bật",
-        "disabled": "Tắt"
+        "label": "PIP khi chuyển thẻ",
+        "description": "Tự động vào PIP khi chuyển thẻ với video không bị tắt tiếng",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
       },
       "scrollSwitch": {
         "label": "Chuyển sang hình trong hình khi cuộn",
-        "description": "Nếu trang hiện tại đang phát video và video không tắt tiếng và video nằm ngoài phạm vi nhìn thấy khi cuộn, nó sẽ chuyển sang hình trong hình.",
-        "enabled": "Bật",
-        "disabled": "Tắt"
+        "description": "Nếu trang hiện tại đang phát video và video không bị tắt tiếng và video nằm ngoài phạm vi hiển thị khi cuộn, nó sẽ vào hình trong hình.",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
       }
     },
     "userActivitionAlert": {
       "title": "Yêu cầu kích hoạt người dùng",
-      "tips_1": "Kích hoạt người dùng có nghĩa là người dùng đang tương tác với trang",
-      "tips_2": "Cụ thể hơn, kích hoạt kích hoạt sự kiện nhập như:",
-      "tips_3": "Lưu ý: Sử dụng bánh xe cuộn hoặc cử chỉ vuốt chuột sẽ không kích hoạt!",
+      "tips_1": "Kích hoạt người dùng có nghĩa là người dùng hiện đang tương tác với trang",
+      "tips_2": "Cụ thể hơn, kích hoạt kích hoạt các sự kiện đầu vào như:",
+      "tips_3": "Lưu ý: Sử dụng cuộn bánh xe chuột hoặc cử chỉ vuốt sẽ không kích hoạt!",
       "tips_4": "Nếu bạn muốn biết thêm chi tiết, vui lòng truy cập:",
       "click": "Nhấp chuột",
-      "contextmenu": "Menu chuột phải",
+      "contextmenu": "Menu nhấp chuột phải",
       "dblclick": "Nhấp đúp"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Hành vi thu gọn nhóm tab",
-        "description": "Sửa đổi hành vi thu gọn nhóm tab trình duyệt Chrome",
-        "option_collapse_others": "Hiển thị nhóm hiện tại và thu gọn nhóm khác",
+        "label": "Hành vi thu gọn nhóm thẻ",
+        "description": "Thay đổi hành vi thu gọn nhóm thẻ của trình duyệt Chrome",
+        "option_collapse_others": "Hiển thị nhóm hiện tại và thu gọn các nhóm khác",
         "option_disable": "Mở rộng tất cả các nhóm",
         "option_auto": "Sử dụng cài đặt mặc định của Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Tự động tạo hoặc tham gia nhóm cùng miền",
-        "description": "Khi bật, các tab mới mở sẽ tự động tham gia nhóm cùng miền. Nếu nhóm miền không tồn tại, một nhóm miền mới sẽ được tạo",
-        "enabled": "Bật",
-        "disabled": "Tắt"
+        "description": "Khi được bật, các thẻ mới mở sẽ tự động tham gia nhóm cùng miền. Nếu nhóm miền không tồn tại, một nhóm miền mới sẽ được tạo",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Lọc tab ghim ra khỏi nhóm",
-        "description": "Khi bật, tab ghim sẽ không được thêm vào nhóm",
-        "enabled": "Bật",
-        "disabled": "Tắt"
+        "label": "Lọc các thẻ đã ghim trong nhóm",
+        "description": "Khi được bật, các thẻ đã ghim sẽ không được thêm vào nhóm",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
       }
     },
     "progressBar": {
       "enableProgressBar": {
         "label": "Bật thanh tiến trình",
-        "description": "Khi bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab",
-        "enabled": "Bật",
-        "disabled": "Tắt"
+        "description": "Khi được bật, một thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề thẻ",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
       },
       "readingProgressBar": {
         "label": "Thanh tiến trình đọc",
-        "description": "Khi được bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab",
+        "description": "Khi được bật, một thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề thẻ",
         "enabled": "Đã bật",
         "disabled": "Đã tắt"
       },
       "scrollHeightRatio": {
         "label": "Tỷ lệ chiều cao cuộn",
-        "description": "Tỷ lệ giữa chiều cao cửa sổ hiển thị và chiều cao trang. Một thanh tiến trình sẽ được hiển thị khi tỷ lệ này bị vượt quá",
+        "description": "Tỷ lệ chiều cao cửa sổ hiển thị so với chiều cao trang. Một thanh tiến trình sẽ được hiển thị khi tỷ lệ này bị vượt quá",
         "enabled": "Đã bật",
         "disabled": "Đã tắt"
       },
       "playingProgressBar": {
         "label": "Thanh tiến trình phát",
-        "description": "Khi được bật, thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề tab",
+        "description": "Khi được bật, một thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề thẻ",
         "enabled": "Đã bật",
         "disabled": "Đã tắt"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Bật float ball",
-        "description": "Khi bảng điều khiển bên đóng, một float ball sẽ được hiển thị ở phía bên phải của trang, cho phép mở nhanh bảng điều khiển bên."
+        "label": "Bật bóng nổi",
+        "description": "Khi bảng bên bị đóng, một bóng nổi sẽ được hiển thị ở bên phải trang, cho phép mở nhanh bảng bên."
       }
     },
     "performance": {
       "label": "Hiệu suất",
       "saveMemoryAction": {
-        "label": "Cách tiết kiệm bộ nhớ trên tab",
-        "description": "Để tiết kiệm bộ nhớ trên tab, bạn có thể chọn đóng tab hoặc loại bỏ tab.",
-        "discardTips": "một tab đã bị loại bỏ không đi đâu cả. Chúng tôi giết nó nhưng nó vẫn hiển thị trên thanh tab Chrome. Nếu bạn quay lại một tab đã bị loại bỏ, nó sẽ tải lại khi được nhấp. Nội dung biểu mẫu, vị trí cuộn và những thứ khác được lưu và khôi phục cùng cách mà chúng sẽ được trong quá trình điều hướng tab tiến/lùi.",
+        "label": "Cách tiết kiệm bộ nhớ trên các thẻ",
+        "description": "Để tiết kiệm bộ nhớ trên các thẻ, bạn có thể chọn đóng thẻ hoặc bỏ thẻ.",
+        "discardTips": "Một thẻ bị bỏ không đi đâu cả. Chúng tôi giết nó nhưng nó vẫn hiển thị trên thanh thẻ của Chrome. Nếu bạn điều hướng trở lại một thẻ đã bị bỏ, nó sẽ tải lại khi được nhấp. Nội dung biểu mẫu, vị trí cuộn và v.v. được lưu và khôi phục theo cách tương tự như khi điều hướng tiến/lùi thẻ.",
         "disabled": "Đã tắt",
-        "closeTabs": "Đóng tab",
-        "discardTabs": "Loại bỏ tab"
+        "closeTabs": "Đóng thẻ",
+        "discardTabs": "Bỏ thẻ"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Bao lâu để loại bỏ tab không hoạt động",
-        "description": "Khi không có âm thanh hoặc video đang phát trên tab và việc loại bỏ tự động không bị cấm, tab sẽ bị loại bỏ sau thời gian quy định.",
+        "label": "Thời gian để bỏ thẻ không hoạt động",
+        "description": "Khi không có âm thanh hoặc video đang phát trên thẻ và việc bỏ tự động không bị cấm, thẻ sẽ bị bỏ sau thời gian được chỉ định.",
         "minutes": "Phút"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Bao lâu để đóng tab không hoạt động",
-        "description": "Khi không có âm thanh hoặc video đang phát trên tab và việc loại bỏ tự động không bị cấm, tab sẽ được đóng sau thời gian quy định.",
+        "label": "Thời gian để đóng thẻ không hoạt động",
+        "description": "Khi không có âm thanh hoặc video đang phát trên thẻ và việc bỏ tự động không bị cấm, thẻ sẽ bị đóng sau thời gian được chỉ định.",
         "minutes": "Phút"
       },
       "disableAnimations": {
-        "label": "Tắt hiệu ứng",
-        "description": "tắt hiệu ứng sóng nhấp và tắt tất cả các chuyển động"
+        "label": "Tắt hoạt ảnh",
+        "description": "Tắt hiệu ứng gợn sóng và tắt tất cả các chuyển tiếp"
       }
     },
     "site": {
-      "label": "Cài đặt trang web",
+      "label": "Cài đặt trang",
       "allSites": "Tất cả các trang",
       "sortBy": "Sắp xếp theo",
-      "mostVisited": "Thường xuyên ghé thăm nhất",
+      "mostVisited": "Được truy cập nhiều nhất",
       "dataStored": "Dữ liệu đã lưu trữ",
       "name": "Tên",
       "deleteAllData": "Xóa tất cả dữ liệu",
-      "totalStorageUsedBySites": "Tổng dung lượng đã sử dụng bởi các trang",
-      "totalCount": "Tổng số",
+      "totalStorageUsedBySites": "Tổng dung lượng lưu trữ được sử dụng bởi các trang",
+      "totalCount": "Tổng số lượng",
       "addNewSite": {
-        "label": "Thêm trang web mới",
-        "description": "Nhập địa chỉ trang web mới, chẳng hạn 'www.example.com', và nhấn 'Thêm'.",
-        "placeholder": "Địa chỉ trang web, chẳng hạn 'www.example.com'",
+        "label": "Thêm trang mới",
+        "description": "Nhập địa chỉ trang web mới, chẳng hạn như 'www.example.com', và nhấp 'Thêm'.",
+        "placeholder": "Địa chỉ trang web, chẳng hạn như 'www.example.com'",
         "add": "Thêm",
         "cancel": "Hủy",
         "invalidDomain": "Địa chỉ trang web không hợp lệ"
       },
       "browserSettings": {
         "label": "Cài đặt trình duyệt",
-        "description": "Bạn có thể sửa đổi cài đặt trang web, chẳng hạn xóa dữ liệu hoặc thay đổi quyền truy cập trang web.",
-        "goToBrowserSettings": "Đi đến cài đặt trình duyệt"
+        "description": "Bạn có thể thay đổi cài đặt trang, chẳng hạn như xóa dữ liệu hoặc thay đổi quyền trang.",
+        "goToBrowserSettings": "Đi tới cài đặt trình duyệt"
       },
       "autoDiscardable": {
-        "label": "Tự động có thể loại bỏ",
-        "description": "Khi được bật, tab sẽ được phép bị loại bỏ bởi trình duyệt, và nếu bạn bật hiệu suất và thiết lập thời gian để loại bỏ tab không hoạt động, tab sẽ bị loại bỏ sau thời gian quy định. Nếu tắt, tab sẽ không bị loại bỏ"
+        "label": "Tự động bỏ",
+        "description": "Khi được bật, thẻ sẽ được phép bị bỏ bởi trình duyệt, và nếu bạn bật hiệu suất và đặt thời gian để bỏ thẻ không hoạt động, thẻ sẽ bị bỏ sau thời gian được chỉ định. Nếu bị tắt, thẻ sẽ không bị bỏ"
       },
       "readingProgressBar": {
         "label": "Thanh tiến trình đọc",
-        "description": "Khi được bật, thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề tab.",
-        "globaldisabledTips": "Bạn phải bật thanh tiến trình đọc trong cài đặt toàn cầu để sửa đổi cài đặt này."
+        "description": "Khi được bật, một thanh tiến trình đọc sẽ được hiển thị dưới thanh tiêu đề thẻ.",
+        "globaldisabledTips": "Bạn phải bật thanh tiến trình đọc trong cài đặt toàn cầu để thay đổi cài đặt này."
       },
       "playingProgressBar": {
         "label": "Thanh tiến trình phát",
-        "description": "Khi được bật, thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề tab.",
-        "globaldisabledTips": "Bạn phải bật thanh tiến trình phát trong cài đặt toàn cầu để sửa đổi cài đặt này."
+        "description": "Khi được bật, một thanh tiến trình phát sẽ được hiển thị dưới thanh tiêu đề thẻ.",
+        "globaldisabledTips": "Bạn phải bật thanh tiến trình phát trong cài đặt toàn cầu để thay đổi cài đặt này."
       },
       "tabSwitchPip": {
-        "label": "PIP khi chuyển tab",
-        "description": "Khi được bật, tự động chuyển sang Chế độ hình ảnh trong hình khi chuyển tab với video không tắt tiếng.",
-        "globaldisabledTips": "Bạn phải bật Chế độ hình ảnh trong hình trong cài đặt toàn cầu để sửa đổi cài đặt này."
+        "label": "PIP khi chuyển thẻ",
+        "description": "Khi được bật, tự động vào chế độ Hình trong hình khi chuyển thẻ với video không bị tắt tiếng.",
+        "globaldisabledTips": "Bạn phải bật chế độ Hình trong hình trong cài đặt toàn cầu để thay đổi cài đặt này."
       },
       "clearHistoyAfterCLose": {
         "label": "Xóa lịch sử sau khi đóng",
-        "description": "Khi được bật, lịch sử sẽ được xóa sau khi đóng tab."
+        "description": "Khi được bật, lịch sử sẽ bị xóa sau khi đóng thẻ."
       },
       "SyncTabs": {
-        "label": "Đồng bộ tab",
-        "description": "Chọn cách đồng bộ hóa dữ liệu tab, loại bỏ dữ liệu riêng tư như cookie và thông tin cá nhân.",
-        "disabled": "Vô hiệu hóa",
+        "label": "Đồng bộ thẻ",
+        "description": "Chọn cách đồng bộ dữ liệu thẻ, ngoại trừ dữ liệu riêng tư như cookie và thông tin cá nhân.",
+        "disabled": "Đã tắt",
         "uploadOnly": "Chỉ tải lên",
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ",
-        "globaldisabledTips": "Bạn phải bật đồng bộ trong Cài đặt Toàn cầu để sửa đổi cài đặt này."
+        "globaldisabledTips": "Bạn phải bật đồng bộ trong cài đặt toàn cầu để thay đổi cài đặt này."
       },
       "SyncPrivateData": {
         "label": "Đồng bộ dữ liệu riêng tư",
-        "description": "Chọn cách đồng bộ hóa dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ hóa.",
-        "disabled": "Vô hiệu hóa",
+        "description": "Chọn cách đồng bộ dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage của trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ.",
+        "disabled": "Đã tắt",
         "uploadOnly": "Chỉ tải lên",
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ",
-        "globaldisabledTips": "Bạn phải bật đồng bộ trong Cài đặt Toàn cầu để sửa đổi cài đặt này."
+        "globaldisabledTips": "Bạn phải bật đồng bộ trong cài đặt toàn cầu để thay đổi cài đặt này."
       }
     },
     "SyncToCloud": {
       "label": "Đồng bộ lên đám mây",
       "SyncNow": "Đồng bộ ngay",
-      "SyncNowWithGoogleDrive": "Đồng bộ với Google Drive ngay",
-      "SyncNowWithDropbox": "Đồng bộ với Dropbox ngay",
-      "SyncNowWithOneDrive": "Đồng bộ với OneDrive ngay",
+      "SyncNowWithGoogleDrive": "Đồng bộ ngay với Google Drive",
+      "SyncNowWithDropbox": "Đồng bộ ngay với Dropbox",
+      "SyncNowWithOneDrive": "Đồng bộ ngay với OneDrive",
       "Synchronizing": "Đang đồng bộ...",
-      "SyncedSuccessfully": "Đã đồng bộ thành công",
+      "SyncedSuccessfully": "Đồng bộ thành công",
       "SyncFailed": "Đồng bộ thất bại",
       "LoginRequired": "Yêu cầu đăng nhập",
       "GoogleDrive": "Google Drive",
@@ -423,33 +428,33 @@
       "OneDrive": "OneDrive",
       "SyncConfigs": {
         "label": "Đồng bộ cấu hình",
-        "description": "Chọn cách đồng bộ hóa cấu hình của tiện ích mở rộng này.",
-        "disabled": "Vô hiệu hóa",
+        "description": "Chọn cách đồng bộ cấu hình của tiện ích này.",
+        "disabled": "Đã tắt",
         "uploadOnly": "Chỉ tải lên",
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ"
       },
       "SyncTabs": {
-        "label": "Đồng bộ tab",
-        "description": "Chọn cách đồng bộ hóa dữ liệu tab, loại bỏ dữ liệu riêng tư như cookie và thông tin cá nhân.",
-        "disabled": "Vô hiệu hóa",
+        "label": "Đồng bộ thẻ",
+        "description": "Chọn cách đồng bộ dữ liệu thẻ, ngoại trừ dữ liệu riêng tư như cookie và thông tin cá nhân.",
+        "disabled": "Đã tắt",
         "uploadOnly": "Chỉ tải lên",
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Mở hoặc đóng tab đồng bộ",
-        "description": "Khi bật, việc mở hoặc đóng tab trên các trình duyệt khác nhau sẽ được đồng bộ hóa. Điều này chỉ áp dụng khi tùy chọn 'giữ đồng bộ' được kích hoạt",
-        "OpenOrCloseTabsSynchronouslyWarning": "Nếu bạn đăng nhập vào cùng một tài khoản trên hai trình duyệt cùng một lúc và bật tùy chọn này, việc mở hoặc đóng tab trên một trình duyệt sẽ thực hiện cùng một thao tác trên trình duyệt khác. Nếu trang web cấm đăng nhập lặp lại với cùng một tài khoản, có thể xảy ra ngoại lệ."
+        "label": "Mở hoặc đóng thẻ đồng bộ",
+        "description": "Khi được bật, việc mở hoặc đóng thẻ trong các trình duyệt khác nhau sẽ được đồng bộ. Điều này chỉ áp dụng khi tùy chọn 'giữ đồng bộ' đang hoạt động",
+        "OpenOrCloseTabsSynchronouslyWarning": "Nếu bạn đăng nhập vào cùng một tài khoản trong hai trình duyệt cùng một lúc và bật tùy chọn này, việc mở hoặc đóng thẻ trong một trình duyệt sẽ thực hiện cùng một thao tác trong trình duyệt khác. Nếu trang web cấm đăng nhập lặp lại với cùng một tài khoản, có thể xảy ra ngoại lệ."
       },
       "SyncPrivateData": {
         "label": "Đồng bộ dữ liệu riêng tư",
-        "description": "Chọn cách đồng bộ hóa dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ hóa.",
-        "disabled": "Vô hiệu hóa",
+        "description": "Chọn cách đồng bộ dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage của trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ.",
+        "disabled": "Đã tắt",
         "uploadOnly": "Chỉ tải lên",
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ"
       }
     }
-  }
+}
 }

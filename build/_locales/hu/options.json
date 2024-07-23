@@ -1,398 +1,459 @@
 {
-  "OpenSideSanelToPreview": "Oldalpanel megnyitása előnézet megtekintéséhez",
-  "_execute_action": "Bővítmény aktiválása",
-  "openSidePanel": "Oldalpanel megnyitása",
+  "OpenSidePanelToPreview": "Oldalsó panel megnyitása az előnézethez",
+  "_execute_action": "A bővítmény aktiválása",
+  "openSidePanel": "Oldalsó panel megnyitása",
   "settings": {
-    "resetCurrentPageSettings": "Jelenlegi oldalbeállítások visszaállítása",
+    "resetCurrentPageSettings": "Az aktuális oldal beállításainak visszaállítása",
     "modules": {
       "appearance": "Megjelenés",
       "beautify": "Szépítés",
-      "tabs": "Tabok",
+      "tabs": "Lapok",
       "history": "Előzmények",
       "shortcuts": "Gyorsbillentyűk",
       "pip": "Kép a képben",
       "chromeTabGroupAdvanced": "Speciális lapcsoportok",
-      "progressBar": "fejlődésmutató",
-      "floatBall": "Lebegő gomb",
+      "progressBar": "Folyamatjelző sáv",
+      "floatBall": "Lebegő labda",
       "experimentalFeatures": "Kísérleti funkciók"
     },
     "appearance": {
       "header": "Megjelenés",
       "language": {
-        "label": "Felhasználói felület nyelve",
-        "description": "Állítsa be a felhasználói felület nyelvét"
+        "label": "Felület nyelve",
+        "description": "A felület nyelvének beállítása"
       },
       "theme": {
-        "label": "Szín mód",
-        "description": "Válasszon világos vagy sötét szín módot"
+        "label": "Színmód",
+        "description": "Világos vagy sötét színmód kiválasztása"
       },
       "rtl": {
         "label": "RTL",
-        "description": "Amikor engedélyezve van, a felület jobbról balra fogja megjeleníteni a szöveget"
+        "description": "Ha engedélyezve van, a felület jobbról balra jeleníti meg a szöveget"
       },
       "fontSize": {
         "label": "Betűméret",
-        "description": "Állítsa be a betűméretet",
+        "description": "A betűméret beállítása",
         "small": "Kicsi",
         "large": "Nagy"
       },
       "fontFamily": {
         "label": "Betűtípus",
-        "description": "Állítsa be a betűtípust"
+        "description": "A betűtípus beállítása"
       },
       "fontColor": {
         "label": "Betűszín",
-        "description": "Állítsa be a betűszínt"
+        "description": "A betűszín beállítása"
       },
       "fontWeight": {
-        "label": "Betű vastagság",
-        "description": "Állítsa be a betű vastagságát"
+        "label": "Betűvastagság",
+        "description": "A betűvastagság beállítása"
       },
       "extAction": {
-        "label": "Kattintás a bővítmény ikonra",
-        "description": "Állítsa be az akciót, amikor a bővítmény ikonjára kattint"
+        "label": "Bővítmény ikon kattintási művelet",
+        "description": "A bővítmény ikonra kattintáskor végrehajtandó művelet beállítása",
+        "openPopup": "Felugró ablak megnyitása",
+        "openSidePanel": "Oldalsó panel megnyitása",
+        "SmallWindowAlert": "Ha az oldalsó panel túl sok helyet foglal el, javasoljuk, hogy használjon felugró ablakot"
       },
       "SidePanelPosition": {
-        "label": "Oldalpanel pozíciója",
-        "description": "Állítsa be, hogy az oldalpanel bal vagy jobb oldalon jelenjen meg.",
+        "label": "Oldalsó panel pozíciója",
+        "description": "Az oldalsó panel bal vagy jobb oldali megjelenítésének beállítása.",
         "goToBrowserSettings": "Ugrás a Chrome beállításokhoz"
       },
       "searchBoxPosition": {
         "label": "Keresőmező pozíciója",
-        "description": "Állítsa be a keresőmező pozícióját"
+        "description": "A keresőmező pozíciójának beállítása",
+        "top": "Fent",
+        "bottom": "Lent",
+        "hide": "Elrejtés"
       },
       "toolbar": {
         "label": "Eszköztár megjelenítése",
-        "description": "Amikor engedélyezve van, az eszköztár megjelenik"
+        "description": "Ha engedélyezve van, az eszköztár megjelenik"
       },
       "bottomNav": {
         "label": "Alsó navigációs sáv megjelenítése",
-        "description": "Amikor engedélyezve van, az alsó navigációs sáv megjelenik"
+        "description": "Ha engedélyezve van, az alsó navigációs sáv megjelenik"
       },
       "buttonPosition": {
-        "label": "Gomb pozíciója",
-        "description": "Állítsa be a gombok pozícióját"
+        "label": "Gombok pozíciója",
+        "description": "A gombok pozíciójának beállítása",
+        "left": "Bal",
+        "right": "Jobb"
       },
       "alwaysShowCloseButton": {
-        "label": "Mindig mutassa a bezárás gombot",
-        "description": "Amikor engedélyezve van, a bezárás gomb mindig látható lesz; amikor letiltva van, a bezárás gomb csak akkor jelenik meg, amikor az egér a lap felett van"
+        "label": "Bezárás gomb mindig megjelenítése",
+        "description": "Ha engedélyezve van, a bezárás gomb mindig megjelenik; ha le van tiltva, a bezárás gomb csak akkor jelenik meg, ha az egér a lap fölé van húzva"
       },
       "fullScreenHideSidePanel": {
-        "label": "Oldalpanel elrejtése teljes képernyőn",
-        "description": "Amikor engedélyezve van, az oldalpanel automatikusan elrejtődik, amikor az oldal teljes képernyős módban van. A Chrome korlátai miatt az oldalpanel nem nyílik meg automatikusan. Kézzel kell újra megnyitnia az oldalpanelt!"
+        "label": "Oldalsó panel elrejtése teljes képernyőn",
+        "description": "Ha engedélyezve van, az oldalsó panel automatikusan elrejtődik, amikor az oldal teljes képernyőn van. A Chrome korlátozásai miatt az oldalsó panel nem nyitható meg automatikusan újra. Manuálisan kell újra megnyitnia az oldalsó panelt!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "Színes háttér",
-        "description": "Amikor engedélyezve van, a oldalpanel színes háttérrel jelenik meg"
+        "description": "Ha engedélyezve van, az oldalsó panel színes háttérrel jelenik meg"
       },
       "backgroundPicture": {
         "label": "Háttérkép",
-        "description": "Kattintson a [+] gombra egyéni kép hozzáadásához, kattintson a [-] gombra egyéni kép törléséhez."
+        "description": "Kattintson a [+] gombra egy egyéni kép hozzáadásához, kattintson a [-] gombra egy egyéni kép törléséhez. Kedvenc képeit megtalálhatja a következő webhelyeken.",
+        "dialogDescription": "Adja meg a kép címét",
+        "OK": "OK",
+        "Cancel": "Mégse",
+        "invalidImage": "Érvénytelen kép cím"
       },
       "backgroundImageTransparency": {
         "label": "Kép átlátszósága",
-        "description": "Állítsa be a kép átlátszóságát"
+        "description": "A kép átlátszóságának beállítása",
+        "transparent": "Átlátszó",
+        "opaque": "Átlátszatlan"
       },
       "backgroundImageBlur": {
         "label": "Elmosódás intenzitása",
-        "description": "Állítsa be az elmosódás intenzitását"
+        "description": "Az elmosódás intenzitásának beállítása"
       },
       "backgroundImageBrightness": {
         "label": "Fényerő",
-        "description": "Állítsa be a fényerőt, csak sötét módban ajánlott"
+        "description": "A fényerő beállítása, csak sötét módhoz ajánlott"
       },
       "listBackgroundStyle": {
-        "label": "Lista háttér stílusa",
-        "description": "Állítsa be a lista háttér stílusát"
+        "label": "Lista háttérstílusa",
+        "description": "A lista háttérstílusának beállítása",
+        "single": "Egyszerű",
+        "none": "Nincs",
+        "simple": "Egyszerű",
+        "complementary": "Komplementer",
+        "analogous": "Analóg",
+        "triadic": "Triádikus",
+        "tetradic": "Tetrádikus"
       },
       "listBackgroundTransparency": {
         "label": "Lista háttér átlátszósága",
-        "description": "Állítsa be a lista háttér átlátszóságát"
+        "description": "A lista háttér átlátszóságának beállítása",
+        "transparent": "Átlátszó",
+        "opaque": "Átlátszatlan"
       },
       "listBottomBorder": {
-        "label": "Lista alsó szegélye",
-        "description": "Állítsa be a lista alsó szegélyét"
+        "label": "Lista alsó határvonala",
+        "description": "A lista alsó határvonalának beállítása",
+        "none": "Nincs",
+        "dashed": "Szaggatott",
+        "solid": "Folyamatos"
       },
       "fluentOverlayScrollbars": {
-        "label": "Folyékony görgetősávok",
-        "description": "Használja a Microsoft folyékony design stílusú görgetősávokat és helyezze azokat a webes tartalomra"
+        "label": "Fluent görgetősávok",
+        "description": "Microsoft Fluent design stílusú görgetősávok használata és azok átfedése a webtartalommal",
+        "goToBrowserSettings": "Ugrás a Chrome beállításokhoz"
       }
     },
     "tabs": {
       "listView": {
         "label": "Lista nézet",
-        "description": "Váltás listanézetre"
+        "description": "Lista nézet váltása",
+        "compact": "Kompakt nézet",
+        "visual": "Vizuális nézet"
       },
       "showBy": {
-        "label": "Megjelenítés alapja",
-        "description": "Váltás megjelenítés alapjára"
+        "label": "Megjelenítés",
+        "description": "Megjelenítés váltása"
       },
       "sortBy": {
-        "label": "Rendezés alapja",
-        "description": "Váltás rendezés alapjára"
+        "label": "Rendezés",
+        "description": "Rendezés váltása"
       },
       "showFullUrl": {
         "label": "Teljes URL megjelenítése",
-        "description": "Ha engedélyezve van, a teljes URL megjelenik a fül címének alatt"
+        "description": "Ha engedélyezve van, a teljes URL megjelenik a lap cím alatt"
       },
       "currentWindowOnly": {
         "label": "Csak az aktuális ablak",
-        "description": "Csak az aktuális ablak füleinek megjelenítése"
+        "description": "Csak az aktuális ablak lapjainak megjelenítése. Ha le van tiltva, az összes ablak lapjai megjelennek"
       },
       "pinedTabsAsIcons": {
         "label": "Rögzített lapok ikonként való megjelenítése",
-        "description": "Amikor engedélyezve van, a rögzített lapok ikonként jelennek meg a listában"
+        "description": "Ha engedélyezve van, a rögzített lapok ikonként jelennek meg, és nem a listában"
+      },
+      "pinToQuickAccess": {
+        "label": "Gyors elérés megjelenítése",
+        "description": "Beállíthat egy lapot, hogy megjelenjen a Gyors elérésben, így könnyen megtalálható lesz. Csak kattintson rá jobb gombbal (vagy hosszan nyomja meg), és válassza a Rögzítés a Gyors eléréshez lehetőséget. Ha már nincs rá szüksége, kattintson rá jobb gombbal (vagy hosszan nyomja meg), és válassza a Törlés a Gyors elérésből lehetőséget. A rögzített lapoktól eltérően a Gyors elérés menti az URL-t, és minden alkalommal új lapot nyit meg, amikor rákattint."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Webhely ikonok megjelenítése csoportok összecsukásakor",
-        "description": "Amikor engedélyezve van, az összecsukott csoportok webhely ikonokat fognak mutatni"
+        "label": "Webhely ikonok megjelenítése csoportok összeomlásakor",
+        "description": "Ha engedélyezve van, az összeomlott csoportok lapikonokat jelenítenek meg"
       },
       "hoverPreview": {
-        "label": "Lebegő előnézet",
-        "description": "Amikor engedélyezve van, az egérkurzor mozgatásakor a lapok előnézeteket fognak mutatni"
+        "label": "Előnézet lebegéskor",
+        "description": "Ha engedélyezve van, a lapok fölé húzva előnézetet jelenít meg"
       },
       "previewWithThumbnail": {
-        "label": "Előnézetek mutatása miniatűrökkel",
-        "description": "Amikor engedélyezve van, az előnézetek miniatűrökkel fognak mutatni"
+        "label": "Miniatűrök megjelenítése az előnézetben",
+        "description": "Ha engedélyezve van, az előnézetek lap miniatűröket jelenítenek meg",
+        "alert": "A jelenleg aktív lap látható területének rögzítése egy megadott ablakban. Ennek a módszernek a meghívásához a bővítménynek rendelkeznie kell <all_urls> engedéllyel vagy activeTab engedéllyel.",
+        "deniedMessage": "Megtagadta a szükséges engedélyt, így a beállítások nem változtak. Ha meggondolja magát, kattintson újra, és engedélyezze az engedélyezést"
       },
       "previewDelay": {
         "label": "Előnézet késleltetése",
-        "description": "Állítsa be az előnézetek késleltetési idejét, amikor az egérkurzor mozgatásakor az előnézetek megjelennek stb. (másodpercekben). Ha 0-ra van állítva, akkor nincs késleltetés"
+        "description": "Az előnézet késleltetési idejének beállítása, amikor a lapok fölé húzza az egeret stb. (másodpercek). Ha 0-ra van állítva, nem lesz késleltetés",
+        "seconds": "Másodpercek"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Legutóbbi bezárt lapok mentése",
-        "description": "Amikor engedélyezve van, mentse el a legutóbbi bezárt lapokat"
+        "label": "Nemrég bezárt lapok mentése",
+        "description": "Ha engedélyezve van, a nemrég bezárt lapok mentése"
       },
       "dataSource": {
         "label": "Adatforrás",
-        "description": "Válasszon adatforrást"
+        "description": "Adatforrás kiválasztása",
+        "recentlyClosedTabs": "Nemrég bezárt lapok",
+        "chromeHistory": "Chrome előzmények",
+        "alert": "Az előzmények kereséséhez szüksége van az engedélyére",
+        "deniedMessage": "Megtagadta a szükséges engedélyt, így a beállítások nem változtak. Ha meggondolja magát, kattintson újra, és engedélyezze az engedélyezést"
       },
       "showInSidePanel": {
-        "label": "Megjelenítés az oldalpanelen",
-        "description": "Amikor engedélyezve van, jelenjen meg az oldalpanelen"
+        "label": "Megjelenítés az oldalsó panelen",
+        "description": "Ha engedélyezve van, megjelenítés az oldalsó panelen"
       },
       "showInTabSearchResults": {
-        "label": "Előzmények megjelenítése a lapkeresési eredményekben",
-        "description": "Amikor engedélyezve van, a legutóbbi előzmények megjelennek a lapkeresési eredményekben"
+        "label": "Előzmények megjelenítése a lap keresési eredményekben",
+        "description": "Ha engedélyezve van, a legutóbbi előzmények megjelennek a lap keresési eredményekben"
       },
       "limitSearchResults": {
-        "label": "Előzmények számának korlátozása a lapkeresési eredményekben",
-        "description": "Állítsa be az előzmények számának korlátját a lapkeresési eredményekben"
+        "label": "Az előzmények számának korlátozása a lap keresési eredményekben",
+        "description": "Az előzmények számának korlátozása a lap keresési eredményekben. Az előzmények, amelyek meghaladják a korlátot, szűrésre kerülnek",
+        "alert": "Túl sok rekord befolyásolja az oldal betöltési sebességét"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Tárolandó legutóbbi bezárt lapok száma",
-        "description": "Állítsa be a tárolandó legutóbbi bezárt lapok számát"
+        "label": "A nemrég bezárt lapok számának megtartása",
+        "description": "A nemrég bezárt lapok számának beállítása"
       },
       "keepDays": {
-        "label": "Tárolandó legutóbbi bezárt lapok napjainak száma",
-        "description": "Állítsa be a tárolandó legutóbbi bezárt lapok napjainak számát"
+        "label": "A nemrég bezárt lapok megtartásának napjai",
+        "description": "A nemrég bezárt lapok megtartásának napjainak beállítása. A lejárt adatok törlésre kerülnek",
+        "days": "Napok"
       },
       "openDuration": {
         "label": "Megnyitási időtartam",
-        "description": "Csak azok a lapok lesznek mentve, amelyek hosszabb ideig vannak nyitva, mint a beállított idő"
+        "description": "Csak a beállított időnél hosszabb ideig nyitva tartott lapok kerülnek mentésre",
+        "seconds": "Másodpercek"
       }
     },
     "shortcuts": {
-      "alert": "Ez az oldal csak megjelenítésre szolgál. A gyorsbillentyűk módosításához kérjük, látogasson el az [Bővítmények]->[Bővítmények kezelése]->[Billentyűparancsok] menübe",
+      "alert": "Ez az oldal csak megjelenítésre szolgál. A gyorsbillentyűk módosításához látogasson el a [Bővítmények]->[Bővítmények kezelése]->[Gyorsbillentyűk] oldalra",
       "goToBrowserSettings": "Ugrás a Chrome beállításokhoz",
-      "_execute_action": "Bővítmény aktiválása",
-      "openSidePanel": "Oldalpanel megnyitása"
+      "_execute_action": "A bővítmény aktiválása",
+      "openSidePanel": "Oldalsó panel megnyitása"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Kép a képben",
       "tabSwitch": {
-        "label": "Kép a képben lapváltáskor",
-        "description": "Automatikus belépés a kép a képben módba, amikor lapok között vált, és van egy nem lenémított videó"
+        "label": "PIP lapváltáskor",
+        "description": "Automatikus PIP módba lépés, amikor egy nem némított videóval rendelkező lapra vált",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       },
       "scrollSwitch": {
-        "label": "Váltás kép a képben módba görgetéskor",
-        "description": "Ha az aktuális oldalon egy videó játszódik, és a videó nincs lenémítva, valamint a videó nem látható a görgetés során, akkor belép a kép a képben módba"
+        "label": "Kép a képben váltás görgetéskor",
+        "description": "Ha az aktuális oldalon egy videó lejátszása folyik, és a videó nincs némítva, valamint a videó kikerül a látható tartományból görgetéskor, akkor kép a képben módba lép.",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       }
     },
     "userActivitionAlert": {
       "title": "Felhasználói aktiválás szükséges",
-      "tips_1": "A felhasználói aktiválás azt jelenti, hogy a felhasználó jelenleg interakcióba lép az oldallal",
-      "tips_2": "Konkrétabban az aktiválás olyan eseményeket indít, mint például:",
-      "tips_3": "Megjegyzés: Az egér görgőjének használata vagy az ujjal történő csúsztatás nem fog aktiválást indítani!",
-      "tips_4": "Ha további részleteket szeretne, kérjük, látogasson el ide:",
+      "tips_1": "A felhasználói aktiválás azt jelenti, hogy a felhasználó jelenleg interakcióban van az oldallal",
+      "tips_2": "Pontosabban, az aktiválás olyan bemeneti eseményeket vált ki, mint például:",
+      "tips_3": "Megjegyzés: Az egérgörgő görgetése vagy az ujjmozdulat nem váltja ki!",
+      "tips_4": "Ha további részleteket szeretne, látogasson el ide:",
       "click": "Kattintás",
-      "contextmenu": "Jobbklikk menü",
+      "contextmenu": "Jobb klikk menü",
       "dblclick": "Dupla kattintás"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Lapcsoport összecsukási viselkedése",
-        "description": "Módosítsa a Chrome böngésző lapcsoport összecsukási viselkedését"
+        "label": "Lapcsoport összeomlási viselkedés",
+        "description": "A Chrome böngésző lapcsoport összeomlási viselkedésének módosítása",
+        "option_collapse_others": "Jelenlegi csoport megjelenítése és a többi összeomlása",
+        "option_disable": "Összes csoport kibontása",
+        "option_auto": "Chrome alapértelmezett beállításainak használata"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Automatikus létrehozás vagy csatlakozás ugyanazon a domain csoportba",
-        "description": "Amikor engedélyezve van, az újonnan megnyitott lapok automatikusan csatlakoznak ugyanazon domain csoportba. Ha a domain csoport nem létezik, akkor új domain csoport lesz létrehozva"
+        "label": "Automatikus létrehozás vagy csatlakozás azonos domain csoporthoz",
+        "description": "Ha engedélyezve van, az újonnan megnyitott lapok automatikusan csatlakoznak az azonos domain csoporthoz. Ha a domain csoport nem létezik, új domain csoport jön létre",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Rögzített lapok szűrése a csoportokból",
-        "description": "Amikor engedélyezve van, a rögzített lapok nem lesznek hozzáadva a csoportokhoz"
+        "label": "Rögzített lapok kiszűrése a csoportokban",
+        "description": "Ha engedélyezve van, a rögzített lapok nem kerülnek hozzáadásra a csoportokhoz",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Olvasási előrehaladási sáv engedélyezése",
-        "description": "Amikor engedélyezve van, egy olvasási előrehaladási sáv jelenik meg a lap cím sávja alatt"
+        "label": "Folyamatjelző sáv engedélyezése",
+        "description": "Ha engedélyezve van, egy olvasási folyamatjelző sáv jelenik meg a lap címsor alatt",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       },
       "readingProgressBar": {
-        "label": "Olvasási előrehaladási sáv",
-        "description": "Amikor engedélyezve van, egy olvasási előrehaladási sáv jelenik meg a lap cím sávja alatt"
+        "label": "Olvasási folyamatjelző sáv",
+        "description": "Ha engedélyezve van, egy olvasási folyamatjelző sáv jelenik meg a lap címsor alatt",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       },
       "scrollHeightRatio": {
-        "label": "Görgetési magasság arány",
-        "description": "Az ablak látható magasságának aránya az oldal magasságához. Egy előrehaladási sáv jelenik meg, amikor az arány túllépve van",
+        "label": "Görgetési magasság aránya",
+        "description": "A látható ablak magasságának és az oldal magasságának aránya. Folyamatjelző sáv jelenik meg, ha az arány meghaladja",
         "enabled": "Engedélyezve",
         "disabled": "Letiltva"
       },
       "playingProgressBar": {
-        "label": "Lejátszási előrehaladási sáv",
-        "description": "Amikor engedélyezve van, egy lejátszási előrehaladási sáv jelenik meg a lap cím sávja alatt"
+        "label": "Lejátszási folyamatjelző sáv",
+        "description": "Ha engedélyezve van, egy lejátszási folyamatjelző sáv jelenik meg a lap címsor alatt",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Lebegő gomb engedélyezése",
-        "description": "Amikor az oldalpanel zárva van, egy lebegő gomb jelenik meg az oldal jobb oldalán, amely lehetővé teszi az oldalpanel gyors megnyitását"
+        "label": "Lebegő labda engedélyezése",
+        "description": "Ha az oldalsó panel zárva van, egy lebegő labda jelenik meg az oldal jobb oldalán, amely lehetővé teszi az oldalsó panel gyors megnyitását."
       }
     },
     "performance": {
       "label": "Teljesítmény",
       "saveMemoryAction": {
-        "label": "Hogyan lehet memóriát megtakarítani a lapokon",
-        "description": "A lapokon való memóriamegtakarításhoz választhatsz a lapok bezárása vagy eldobása között.",
-        "discardTips": "egy eldobott lap nem megy sehová. Megöljük, de még mindig látható a Chrome lapcsíkon. Ha visszanavigálsz egy eldobott lapra, újratöltődik a kattintáskor. Az űrlat tartalma, a görgetési pozíció stb. ugyanúgy mentésre és visszaállításra kerülnek, ahogyan az előre/hátra lapnavigáció során történne.",
+        "label": "Hogyan takarítson meg memóriát a lapokon",
+        "description": "A lapok memóriájának megtakarítása érdekében választhatja a lapok bezárását vagy elvetését.",
+        "discardTips": "Az elvetett lap nem megy sehova. Megöljük, de még mindig látható a Chrome lapcsíkon. Ha visszanavigál egy elvetett lapra, az újratöltődik, amikor rákattint. Az űrlap tartalma, a görgetési pozíció stb. ugyanúgy mentésre és visszaállításra kerül, mint az előre/hátra lap navigáció során.",
         "disabled": "Letiltva",
         "closeTabs": "Lapok bezárása",
-        "discardTabs": "Lapok eldobása"
+        "discardTabs": "Lapok elvetése"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Mennyi ideig dobja el az inaktív lapokat",
-        "description": "Amikor a lapokon nincs hang vagy video lejátszás, és az automatikus eldobás nem tiltott, a lapot az előírt idő után el fogják dobni.",
+        "label": "Mennyi ideig elvetni az inaktív lapokat",
+        "description": "Ha a lapon nincs hang vagy videó lejátszva, és az automatikus elvetés nincs tiltva, a lap a megadott idő után elvetésre kerül.",
         "minutes": "Percek"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Mennyi ideig zárja be az inaktív lapokat",
-        "description": "Amikor a lapokon nincs hang vagy video lejátszás, és az automatikus eldobás nem tiltott, a lapot az előírt idő után bezárják.",
+        "label": "Mennyi ideig bezárni az inaktív lapokat",
+        "description": "Ha a lapon nincs hang vagy videó lejátszva, és az automatikus elvetés nincs tiltva, a lap a megadott idő után bezárásra kerül.",
         "minutes": "Percek"
       },
       "disableAnimations": {
         "label": "Animációk letiltása",
-        "description": "letiltja a hullámhatást és az összes átmenetet"
+        "description": "A hullámhatás és az összes átmenet letiltása"
       }
     },
     "site": {
-      "label": "Webhely beállítások",
-      "allSites": "Minden webhely",
+      "label": "Oldal beállítások",
+      "allSites": "Összes oldal",
       "sortBy": "Rendezés",
       "mostVisited": "Leglátogatottabb",
       "dataStored": "Tárolt adatok",
       "name": "Név",
-      "deleteAllData": "Minden adat törlése",
-      "totalStorageUsedBySites": "Webhelyek által használt össz tárhely",
+      "deleteAllData": "Összes adat törlése",
+      "totalStorageUsedBySites": "Az oldalak által használt teljes tárhely",
       "totalCount": "Összes szám",
       "addNewSite": {
-        "label": "Új webhely hozzáadása",
-        "description": "Adjon meg egy új webhely címet, például 'www.pelda.com', majd kattintson az 'Hozzáadás' gombra.",
-        "placeholder": "Webhely címe, például 'www.pelda.com'",
+        "label": "Új oldal hozzáadása",
+        "description": "Adjon meg egy új weboldal címet, például 'www.example.com', és kattintson a 'Hozzáadás' gombra.",
+        "placeholder": "Weboldal címe, például 'www.example.com'",
         "add": "Hozzáadás",
         "cancel": "Mégse",
-        "invalidDomain": "Érvénytelen webhely cím"
+        "invalidDomain": "Érvénytelen weboldal cím"
       },
       "browserSettings": {
         "label": "Böngésző beállítások",
-        "description": "Módosíthatja a webhely beállításokat, például adatok törlése vagy webhely engedélyek módosítása.",
+        "description": "Módosíthatja az oldal beállításait, például adatokat törölhet vagy módosíthatja az oldal engedélyeit.",
         "goToBrowserSettings": "Ugrás a böngésző beállításokhoz"
       },
       "autoDiscardable": {
-        "label": "Automatikusan eldobható",
-        "description": "Amikor engedélyezve van, a lapot a böngésző eldobhatja, és ha bekapcsolja a teljesítményt, és beállítja az inaktív lapok eldobásának idejét, a lapot az előírt idő után el fogják dobni. Ha letiltva van, a lapot nem fogják eldobni"
+        "label": "Automatikusan elvethető",
+        "description": "Ha engedélyezve van, a lap elvethető lesz a böngésző által, és ha bekapcsolja a teljesítményt és beállítja az inaktív lapok elvetésének idejét, a lap a megadott idő után elvetésre kerül. Ha letiltva van, a lap nem kerül elvetésre"
       },
       "readingProgressBar": {
-        "label": "Olvasási előrehaladási sáv",
-        "description": "Amikor engedélyezve van, egy olvasási előrehaladási sáv jelenik meg a lap cím sávja alatt.",
-        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia az olvasási előrehaladási sávot ennek a beállításnak a módosításához."
+        "label": "Olvasási folyamatjelző sáv",
+        "description": "Ha engedélyezve van, egy olvasási folyamatjelző sáv jelenik meg a lap címsor alatt.",
+        "globaldisabledTips": "Az olvasási folyamatjelző sávot be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
       },
       "playingProgressBar": {
-        "label": "Lejátszási előrehaladási sáv",
-        "description": "Amikor engedélyezve van, egy lejátszási előrehaladási sáv jelenik meg a lap cím sávja alatt.",
-        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a lejátszási előrehaladási sávot ennek a beállításnak a módosításához."
+        "label": "Lejátszási folyamatjelző sáv",
+        "description": "Ha engedélyezve van, egy lejátszási folyamatjelző sáv jelenik meg a lap címsor alatt.",
+        "globaldisabledTips": "A lejátszási folyamatjelző sávot be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
       },
       "tabSwitchPip": {
-        "label": "PIP a lapváltáskor",
-        "description": "Amikor engedélyezve van, automatikusan belép a Kép a képben módba, amikor egy lapváltáskor egy nem lenémított videót talál."
+        "label": "PIP lapváltáskor",
+        "description": "Ha engedélyezve van, automatikusan belép a Kép a képben módba, amikor egy nem némított videóval rendelkező lapra vált.",
+        "globaldisabledTips": "A Kép a képben módot be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
       },
       "clearHistoyAfterCLose": {
-        "label": "Előzmények törlése a lap bezárása után",
-        "description": "Amikor engedélyezve van, az előzmények törlődnek a lap bezárása után."
+        "label": "Előzmények törlése bezárás után",
+        "description": "Ha engedélyezve van, az előzmények törlődnek a lap bezárása után."
       },
       "SyncTabs": {
         "label": "Lapok szinkronizálása",
-        "description": "Válassza ki, hogyan szeretné szinkronizálni a lapadatokat, kivéve a cookie-kat és személyes információkat.",
+        "description": "Válassza ki, hogyan szinkronizálja a lapadatokat, kivéve a privát adatokat, például a sütiket és a személyes információkat.",
         "disabled": "Letiltva",
         "uploadOnly": "Csak feltöltés",
         "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Szinkronban tartás",
-        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a szinkronizálást ennek a beállításnak a módosításához."
+        "staySynchronized": "Maradjon szinkronizálva",
+        "globaldisabledTips": "A szinkronizálást be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
       },
       "SyncPrivateData": {
-        "label": "Személyes adatok szinkronizálása",
-        "description": "Válassza ki, hogyan szeretné szinkronizálni a személyes adatokat, például a webhely cookie-kat, a weboldal helyi tároló adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
+        "label": "Privát adatok szinkronizálása",
+        "description": "Válassza ki, hogyan szinkronizálja a privát adatokat, például a weboldal sütiket, a weboldal helyi tárolási adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
         "disabled": "Letiltva",
         "uploadOnly": "Csak feltöltés",
         "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Szinkronban tartás",
-        "globaldisabledTips": "A globális beállításokban be kell kapcsolnia a szinkronizálást ennek a beállításnak a módosításához."
+        "staySynchronized": "Maradjon szinkronizálva",
+        "globaldisabledTips": "A szinkronizálást be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
       }
     },
     "SyncToCloud": {
-      "label": "Felhőszinkronizálás",
+      "label": "Szinkronizálás a felhőbe",
       "SyncNow": "Szinkronizálás most",
-      "SyncNowWithGoogleDrive": "Szinkronizálás most Google Drive-dal",
-      "SyncNowWithDropbox": "Szinkronizálás most Dropbox-szal",
-      "SyncNowWithOneDrive": "Szinkronizálás most OneDrive-dal",
-      "Synchronizing": "Szinkronizálás folyamatban...",
-      "SyncedSuccessfully": "Sikeres szinkronizálás",
+      "SyncNowWithGoogleDrive": "Szinkronizálás most a Google Drive-val",
+      "SyncNowWithDropbox": "Szinkronizálás most a Dropbox-szal",
+      "SyncNowWithOneDrive": "Szinkronizálás most a OneDrive-val",
+      "Synchronizing": "Szinkronizálás...",
+      "SyncedSuccessfully": "Sikeresen szinkronizálva",
       "SyncFailed": "Szinkronizálás sikertelen",
       "LoginRequired": "Bejelentkezés szükséges",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Konfigurációk szinkronizálása",
-        "description": "Válassza ki, hogyan szeretné szinkronizálni a bővítmény konfigurációit.",
+        "label": "Szinkronizálási konfigurációk",
+        "description": "Válassza ki, hogyan szinkronizálja a bővítmény konfigurációit.",
         "disabled": "Letiltva",
         "uploadOnly": "Csak feltöltés",
         "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Szinkronban tartás"
+        "staySynchronized": "Maradjon szinkronizálva"
       },
       "SyncTabs": {
         "label": "Lapok szinkronizálása",
-        "description": "Válassza ki, hogyan szeretné szinkronizálni a lapadatokat, kivéve a cookie-kat és személyes információkat.",
+        "description": "Válassza ki, hogyan szinkronizálja a lapadatokat, kivéve a privát adatokat, például a sütiket és a személyes információkat.",
         "disabled": "Letiltva",
         "uploadOnly": "Csak feltöltés",
         "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Szinkronban tartás"
+        "staySynchronized": "Maradjon szinkronizálva"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Lapok egyidejű megnyitása vagy bezárása",
-        "description": "Amikor engedélyezve van, a különböző böngészőkben történő lapok megnyitása vagy bezárása szinkronizálva lesz. Ez csak akkor érvényes, ha az „Szinkronban tartás” opció aktív.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ha ugyanazzal a fiókkal jelentkezik be két böngészőben egyszerre, és bekapcsolja ezt az opciót, akkor az egyik böngészőben történő lapok megnyitása vagy bezárása ugyanezt a műveletet fogja végrehajtani a másik böngészőben. Ha a webhely megtiltja a többszöri bejelentkezést ugyanazzal a fiókkal, kivételek fordulhatnak elő."
+        "label": "Lapok megnyitása vagy bezárása szinkronban",
+        "description": "Ha engedélyezve van, a különböző böngészőkben megnyitott vagy bezárt lapok szinkronizálva lesznek. Ez csak akkor érvényes, ha az 'Maradjon szinkronizálva' opció aktív",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ha egyszerre két böngészőben jelentkezik be ugyanarra a fiókra, és bekapcsolja ezt az opciót, az egyik böngészőben megnyitott vagy bezárt lapok ugyanazt a műveletet hajtják végre a másik böngészőben. Ha a weboldal tiltja az ismételt bejelentkezéseket ugyanazzal a fiókkal, kivételek fordulhatnak elő."
       },
       "SyncPrivateData": {
-        "label": "Személyes adatok szinkronizálása",
-        "description": "Válassza ki, hogyan szeretné szinkronizálni a személyes adatokat, például a webhely cookie-kat, a weboldal helyi tároló adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
+        "label": "Privát adatok szinkronizálása",
+        "description": "Válassza ki, hogyan szinkronizálja a privát adatokat, például a weboldal sütiket, a weboldal helyi tárolási adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
         "disabled": "Letiltva",
         "uploadOnly": "Csak feltöltés",
         "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Szinkronban tartás"
+        "staySynchronized": "Maradjon szinkronizálva"
       }
     }
   }

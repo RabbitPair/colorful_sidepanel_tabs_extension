@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "رنگین سائیڈ پینل ٹیبز"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "براؤزر ٹیبز کو سائیڈ پینل میں منظم کریں"
+  },
+  "openSidePanel": {
+    "message": "سائیڈ پینل کھولیں"
+  }
+}

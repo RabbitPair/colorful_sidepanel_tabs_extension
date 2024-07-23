@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Správa barevných postranních panelů"
+    "message": "Barevné postranní panely karet"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Spravujte karty v postranním panelu, příliš hezké, aby to bylo tak dobré."
+    "message": "Spravujte karty prohlížeče v postranním panelu"
   },
   "openSidePanel": {
     "message": "Otevřít postranní panel"

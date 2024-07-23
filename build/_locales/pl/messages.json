@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Zarządzanie kolorowymi etykietami paska bocznego"
+    "message": "Kolorowe Karty Panelu Bocznego"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Zarządzaj kartami w panelu bocznym, Zbyt ładne, by było tak dobre."
+    "message": "Zarządzaj kartami przeglądarki w panelu bocznym"
   },
   "openSidePanel": {
-    "message": "Otwórz panel boczny"
+    "message": "Otwórz Panel Boczny"
   }
 }

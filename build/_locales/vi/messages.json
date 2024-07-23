@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Quản lý thẻ thanh bên đa sắc"
+    "message": "Các Tab Bên Cạnh Đầy Màu Sắc"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Quản lý các tab trình duyệt trong bảng bên, Đẹp quá mức để tốt thế này."
+    "message": "Quản lý các tab trình duyệt trong bảng điều khiển bên"
   },
   "openSidePanel": {
-    "message": "Mở thanh bên"
+    "message": "Mở Bảng Điều Khiển Bên"
   }
 }

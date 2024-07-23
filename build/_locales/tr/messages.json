@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Renkli Kenar Çubuğu Etiket Yönetimi"
+    "message": "Renkli Yan Panel Sekmeleri"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Yan paneldeki sekmeleri yönetin, Bu kadar iyi olmak için çok güzel."
+    "message": "Tarayıcı sekmelerini yan panelde yönetin"
   },
   "openSidePanel": {
-    "message": "Kenar Çubuğunu Aç"
+    "message": "Yan Paneli Aç"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Fargerik sidepaneletikettstyring"
+    "message": "Fargerike Sidepanel Faner"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "kaninpar"
   },
   "appDescription": {
-    "message": "Administrer faner i sidepanelet, For pen til å være så god."
+    "message": "Administrer nettleserfaner i sidepanelet"
   },
   "openSidePanel": {
-    "message": "Åpne sidepanelet"
+    "message": "Åpne Sidepanel"
   }
 }

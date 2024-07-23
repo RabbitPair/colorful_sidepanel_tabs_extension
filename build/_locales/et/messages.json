@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Värvikas Külgriba Siltide Haldamine"
+    "message": "Värvilised külgpaneeli vahekaardid"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Halda vahekaarte külgribal, liiga ilus, et olla nii hea."
+    "message": "Halda brauseri vahekaarte külgpaneelil"
   },
   "openSidePanel": {
-    "message": "Ava Külgriba"
+    "message": "Ava külgpaneel"
   }
 }

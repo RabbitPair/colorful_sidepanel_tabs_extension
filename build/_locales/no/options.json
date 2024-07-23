@@ -1,9 +1,9 @@
 {
-  "OpenSideSanelToPreview": "Åpne sidepanel for å forhåndsvise",
+  "OpenSidePanelToPreview": "Åpne sidepanel for å forhåndsvise",
   "_execute_action": "Aktiver denne utvidelsen",
   "openSidePanel": "Åpne sidepanel",
   "settings": {
-    "resetCurrentPageSettings": "Tilbakestill gjeldende sides innstillinger",
+    "resetCurrentPageSettings": "Tilbakestill gjeldende sideinnstillinger",
     "modules": {
       "appearance": "Utseende",
       "beautify": "Forskjønne",
@@ -12,7 +12,7 @@
       "shortcuts": "Snarveier",
       "pip": "Bilde-i-bilde",
       "chromeTabGroupAdvanced": "Avanserte fanegrupper",
-      "progressBar": "fremdriftsindikator",
+      "progressBar": "Fremdriftslinje",
       "floatBall": "Flytende ball",
       "experimentalFeatures": "Eksperimentelle funksjoner"
     },
@@ -20,7 +20,7 @@
       "header": "Utseende",
       "language": {
         "label": "Grensesnittspråk",
-        "description": "Angi språket for grensesnittvisning"
+        "description": "Angi språket for grensesnittet"
       },
       "theme": {
         "label": "Fargemodus",
@@ -37,22 +37,23 @@
         "large": "Stor"
       },
       "fontFamily": {
-        "label": "Skrifttype",
-        "description": "Angi skrifttypen"
+        "label": "Skriftfamilie",
+        "description": "Angi skriftfamilien"
       },
       "fontColor": {
         "label": "Skriftfarge",
         "description": "Angi skriftfargen"
       },
       "fontWeight": {
-        "label": "Skrifttykkelse",
-        "description": "Angi skrifttykkelsen"
+        "label": "Skriftvekt",
+        "description": "Angi skriftvekten"
       },
       "extAction": {
         "label": "Klikk på utvidelsesikon-handling",
         "description": "Angi handlingen når du klikker på utvidelsesikonet",
         "openPopup": "Åpne popup",
-        "openSidePanel": "Åpne sidepanel"
+        "openSidePanel": "Åpne sidepanel",
+        "SmallWindowAlert": "Hvis sidepanelet tar opp for mye plass, anbefales det at du bruker et popup-vindu"
       },
       "SidePanelPosition": {
         "label": "Sidepanelposisjon",
@@ -86,7 +87,7 @@
       },
       "fullScreenHideSidePanel": {
         "label": "Skjul sidepanel i fullskjerm",
-        "description": "Når aktivert, vil sidepanelet automatisk skjules når siden er i fullskjerm. På grunn av Chromes begrensninger kan ikke sidepanelet automatisk åpnes igjen. Du må manuelt åpne sidepanelet igjen!"
+        "description": "Når aktivert, vil sidepanelet automatisk skjules når siden er i fullskjerm. På grunn av Chromes begrensninger kan ikke sidepanelet åpnes automatisk igjen. Du må manuelt åpne sidepanelet igjen!"
       }
     },
     "beautify": {
@@ -109,8 +110,8 @@
         "opaque": "Ugjennomsiktig"
       },
       "backgroundImageBlur": {
-        "label": "Uskarphet",
-        "description": "Angi uskarphetens intensitet"
+        "label": "Uskarphetsintensitet",
+        "description": "Angi uskarphetsintensitet"
       },
       "backgroundImageBrightness": {
         "label": "Lysstyrke",
@@ -163,33 +164,37 @@
       },
       "showFullUrl": {
         "label": "Vis full URL",
-        "description": "Når aktivert, vil den fulle URL-en vises under fanetittelen"
+        "description": "Når aktivert, vil hele URL-en vises under fanetittelen"
       },
       "currentWindowOnly": {
         "label": "Kun gjeldende vindu",
-        "description": "Vis kun faner i gjeldende vindu. Hvis deaktivert, vises faner fra alle vinduer"
+        "description": "Vis bare faner i gjeldende vindu. Hvis deaktivert, vil faner fra alle vinduer vises"
       },
       "pinedTabsAsIcons": {
         "label": "Vis festede faner som ikoner",
         "description": "Når aktivert, vil festede faner vises som ikoner og ikke i listen"
       },
+      "pinToQuickAccess": {
+        "label": "Vis hurtigtilgang",
+        "description": "Du kan angi en fane til å vises i Hurtigtilgang slik at den blir enkel å finne. Bare høyreklikk (eller langtrykk) på den og velg Fest til Hurtigtilgang. Fjern den når du ikke trenger den der lenger ved å høyreklikke (eller langtrykke) på den og velge Slett fra Hurtigtilgang. Forskjellen fra festede faner er at Hurtigtilgang lagrer URL-en og åpner en ny fane hver gang den klikkes."
+      },
       "collapsedGroupShowTabIcons": {
         "label": "Vis nettstedikoner når grupper kollapser",
-        "description": "Når aktivert, vil kollapsede grupper vise faneikoner"
+        "description": "Når aktivert, vil kollapsede grupper vise fanikoner"
       },
       "hoverPreview": {
-        "label": "Forhåndsvisning ved hover",
-        "description": "Når aktivert, vil hovering over faner vise fane forhåndsvisninger"
+        "label": "Forhåndsvisning ved sveving",
+        "description": "Når aktivert, vil sveving over faner vise forhåndsvisninger"
       },
       "previewWithThumbnail": {
         "label": "Vis miniatyrbilder i forhåndsvisning",
-        "description": "Når aktivert, vil forhåndsvisninger vise fane miniatyrbilder",
+        "description": "Når aktivert, vil forhåndsvisninger vise faneminiatyrbilder",
         "alert": "Ta et bilde av det synlige området av den for øyeblikket aktive fanen i et spesifisert vindu. For å kalle denne metoden, må utvidelsen ha <all_urls> tillatelse eller activeTab tillatelse.",
-        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke endret seg. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon"
+        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke blitt endret. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon"
       },
       "previewDelay": {
         "label": "Forhåndsvisningsforsinkelse",
-        "description": "Angi forsinkelsestiden for fane forhåndsvisninger når du hover over faner, etc. (sekunder). Hvis satt til 0, vil det ikke være noen forsinkelse",
+        "description": "Angi forsinkelsestiden for faneforhåndsvisninger når du svever over faner, etc. (sekunder). Hvis satt til 0, vil det ikke være noen forsinkelse",
         "seconds": "Sekunder"
       }
     },
@@ -204,24 +209,24 @@
         "recentlyClosedTabs": "Nylig lukkede faner",
         "chromeHistory": "Chrome-historikk",
         "alert": "For å søke i historikkposter, trenger du din autorisasjon for å aktivere",
-        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke endret seg. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon"
+        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke blitt endret. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon"
       },
       "showInSidePanel": {
         "label": "Vis i sidepanel",
         "description": "Når aktivert, vis i sidepanel"
       },
       "showInTabSearchResults": {
-        "label": "Vis historikk i fane søkresultater",
-        "description": "Når aktivert, vil nylige historikkposter vises i fane søkresultater"
+        "label": "Vis historikk i fanesøkeresultater",
+        "description": "Når aktivert, vil nylige historikkposter vises i fanesøkeresultater"
       },
       "limitSearchResults": {
-        "label": "Begrens antall historikkposter i fane søkresultater",
-        "description": "Angi grensen for antall historikkposter i fane søkresultater. Historikkposter som overskrider grensen vil bli filtrert",
+        "label": "Begrens antall historikkposter i fanesøkeresultater",
+        "description": "Angi grensen for antall historikkposter i fanesøkeresultater. Historikkposter som overskrider grensen vil bli filtrert",
         "alert": "For mange poster vil påvirke sideinnlastingshastigheten"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Antall nylig lukkede faner å beholde",
-        "description": "Angi antall nylig lukkede faner å beholde"
+        "label": "Antall nylig lukkede faner som skal beholdes",
+        "description": "Angi antall nylig lukkede faner som skal beholdes"
       },
       "keepDays": {
         "label": "Antall dager å beholde nylig lukkede faner",
@@ -230,7 +235,7 @@
       },
       "openDuration": {
         "label": "Åpen varighet",
-        "description": "Kun faner som er åpne lenger enn den angitte tiden vil bli lagret",
+        "description": "Bare faner som er åpne lenger enn den angitte tiden vil bli lagret",
         "seconds": "Sekunder"
       }
     },
@@ -244,13 +249,13 @@
       "Picture-in-picture": "Bilde-i-bilde",
       "tabSwitch": {
         "label": "PIP ved faneveksling",
-        "description": "Auto-gå inn i PIP når du bytter faner med en ikke-dempet video",
+        "description": "Automatisk gå inn i PIP når du bytter faner med en ikke-dempet video",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
       },
       "scrollSwitch": {
         "label": "Bytt til bilde-i-bilde ved rulling",
-        "description": "Hvis den gjeldende siden spiller en video og videoen ikke er dempet og videoen er utenfor det synlige området ved rulling, vil den gå inn i bilde-i-bilde.",
+        "description": "Hvis den gjeldende siden spiller av en video og videoen ikke er dempet og videoen er utenfor det synlige området når du ruller, vil den gå inn i bilde-i-bilde.",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
       }
@@ -258,23 +263,23 @@
     "userActivitionAlert": {
       "title": "Brukeraktivering kreves",
       "tips_1": "Brukeraktivering betyr at brukeren for øyeblikket samhandler med siden",
-      "tips_2": "Mer spesifikt, aktivering utløser inndatahendelser som:",
+      "tips_2": "Mer spesifikt utløser aktivering inndatahendelser som:",
       "tips_3": "Merk: Bruk av musehjulrulling eller sveipebevegelse vil ikke utløse!",
-      "tips_4": "Hvis du ønsker flere detaljer, vennligst besøk:",
+      "tips_4": "Hvis du ønsker ytterligere detaljer, vennligst besøk:",
       "click": "Klikk",
       "contextmenu": "Høyreklikkmeny",
       "dblclick": "Dobbeltklikk"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Fanegruppe kollaps oppførsel",
-        "description": "Endre oppførselen til Chrome-nettleserens fanegruppekollaps",
+        "label": "Atferd for fanegruppekollaps",
+        "description": "Endre atferden til Chrome-nettleserens fanegruppekollaps",
         "option_collapse_others": "Vis gjeldende gruppe og kollaps andre",
         "option_disable": "Utvid alle grupper",
         "option_auto": "Bruk Chrome standardinnstillinger"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Auto opprett eller bli med i samme domenegruppe",
+        "label": "Automatisk opprett eller bli med i samme domenegruppe",
         "description": "Når aktivert, vil nylig åpnede faner automatisk bli med i samme domenegruppe. Hvis domenegruppen ikke eksisterer, vil en ny domenegruppe bli opprettet",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
@@ -289,13 +294,13 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Aktiver fremdriftslinje",
-        "description": "Når aktivert, vil en lesefremdriftslinje vises under fane tittel linjen",
+        "description": "Når aktivert, vil en leseprogresjonslinje vises under fane tittel linjen",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
       },
       "readingProgressBar": {
-        "label": "Lesefremdriftslinje",
-        "description": "Når aktivert, vil en lesefremdriftslinje vises under fane tittel linjen",
+        "label": "Leseprogresjonslinje",
+        "description": "Når aktivert, vil en leseprogresjonslinje vises under fane tittel linjen",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
       },
@@ -306,8 +311,8 @@
         "disabled": "Deaktivert"
       },
       "playingProgressBar": {
-        "label": "Spillefremdriftslinje",
-        "description": "Når aktivert, vil en spillefremdriftslinje vises under fane tittel linjen",
+        "label": "Spilleprogresjonslinje",
+        "description": "Når aktivert, vil en spilleprogresjonslinje vises under fane tittel linjen",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
       }
@@ -323,43 +328,43 @@
       "saveMemoryAction": {
         "label": "Hvordan spare minne på faner",
         "description": "For å spare minne på faner, kan du velge å lukke faner eller forkaste faner.",
-        "discardTips": "en forkastet fane går ikke noe sted. Vi dreper den, men den er fortsatt synlig på Chrome-fanestripen. Hvis du navigerer tilbake til en fane som er forkastet, vil den lastes inn på nytt når du klikker på den. Skjema innhold, rulleposisjon og så videre blir lagret og gjenopprettet på samme måte som under fremover/bakover fane navigering.",
+        "discardTips": "En forkastet fane forsvinner ikke. Vi avslutter den, men den er fortsatt synlig på Chrome-fanelinjen. Hvis du navigerer tilbake til en fane som er forkastet, vil den lastes inn på nytt når du klikker. Skjema innhold, rulleposisjon og så videre lagres og gjenopprettes på samme måte som under fremover/bakover fane navigering.",
         "disabled": "Deaktivert",
         "closeTabs": "Lukk faner",
         "discardTabs": "Forkast faner"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Hvor lenge skal inaktive faner forkastes",
-        "description": "Når det ikke spilles av lyd eller video på fanen og automatisk forkasting ikke er forbudt, vil fanen forkastes etter den angitte tiden.",
+        "label": "Hvor lenge forkaste inaktive faner",
+        "description": "Når det ikke spilles av lyd eller video på fanen og automatisk forkasting ikke er forbudt, vil fanen bli forkastet etter den angitte tiden.",
         "minutes": "Minutter"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Hvor lenge skal inaktive faner lukkes",
-        "description": "Når det ikke spilles av lyd eller video på fanen og automatisk forkasting ikke er forbudt, vil fanen lukkes etter den angitte tiden.",
+        "label": "Hvor lenge lukke inaktive faner",
+        "description": "Når det ikke spilles av lyd eller video på fanen og automatisk forkasting ikke er forbudt, vil fanen bli lukket etter den angitte tiden.",
         "minutes": "Minutter"
       },
       "disableAnimations": {
         "label": "Deaktiver animasjoner",
-        "description": "deaktiver bølgeeffekten og deaktiver alle overganger"
+        "description": "Deaktiver ripple-effekten og deaktiver alle overganger"
       }
     },
     "site": {
-      "label": "Nettstedinnstillinger",
+      "label": "Nettstedsinnstillinger",
       "allSites": "Alle nettsteder",
       "sortBy": "Sorter etter",
       "mostVisited": "Mest besøkt",
       "dataStored": "Data lagret",
       "name": "Navn",
-      "deleteAllData": "Slett all data",
-      "totalStorageUsedBySites": "Total lagringsplass brukt av nettsteder",
+      "deleteAllData": "Slett alle data",
+      "totalStorageUsedBySites": "Total lagring brukt av nettsteder",
       "totalCount": "Totalt antall",
       "addNewSite": {
         "label": "Legg til nytt nettsted",
-        "description": "Skriv inn en ny nettstedsadresse, for eksempel 'www.eksempel.com', og klikk 'Legg til'.",
-        "placeholder": "Nettstedsadresse, for eksempel 'www.eksempel.com'",
+        "description": "Skriv inn en ny nettadresse, for eksempel 'www.eksempel.com', og klikk 'Legg til'.",
+        "placeholder": "Nettadresse, for eksempel 'www.eksempel.com'",
         "add": "Legg til",
         "cancel": "Avbryt",
-        "invalidDomain": "Ugyldig nettstedsadresse"
+        "invalidDomain": "Ugyldig nettadresse"
       },
       "browserSettings": {
         "label": "Nettleserinnstillinger",
@@ -368,44 +373,44 @@
       },
       "autoDiscardable": {
         "label": "Automatisk forkastbar",
-        "description": "Når aktivert, vil fanen kunne forkastes av nettleseren, og hvis du slår på ytelse og angir tiden for å forkaste inaktive faner, vil fanen forkastes etter angitt tid. Hvis deaktivert, vil fanen ikke bli forkastet"
+        "description": "Når aktivert, vil fanen tillates å bli forkastet av nettleseren, og hvis du slår på ytelse og setter tiden til å forkaste inaktive faner, vil fanen bli forkastet etter den angitte tiden. Hvis deaktivert, vil fanen ikke bli forkastet"
       },
       "readingProgressBar": {
-        "label": "Lese fremdriftslinje",
-        "description": "Når aktivert, vil en lese fremdriftslinje vises under fane tittel linjen.",
-        "globaldisabledTips": "Du må slå på lese fremdriftslinjen i de globale innstillingene for å endre denne innstillingen."
+        "label": "Leseprogresjonslinje",
+        "description": "Når aktivert, vil en leseprogresjonslinje vises under fane tittel linjen.",
+        "globaldisabledTips": "Du må slå på leseprogresjonslinjen i de globale innstillingene for å endre denne innstillingen."
       },
       "playingProgressBar": {
-        "label": "Spille fremdriftslinje",
-        "description": "Når aktivert, vil en spille fremdriftslinje vises under fane tittel linjen.",
-        "globaldisabledTips": "Du må slå på spille fremdriftslinjen i de globale innstillingene for å endre denne innstillingen."
+        "label": "Spilleprogresjonslinje",
+        "description": "Når aktivert, vil en spilleprogresjonslinje vises under fane tittel linjen.",
+        "globaldisabledTips": "Du må slå på spilleprogresjonslinjen i de globale innstillingene for å endre denne innstillingen."
       },
       "tabSwitchPip": {
-        "label": "PIP ved fanebytte",
-        "description": "Når aktivert, vil du automatisk gå inn i Bilde-i-bilde når du bytter faner med en umutet video.",
-        "globaldisabledTips": "Du må slå på Bilde-i-bilde i de globale innstillingene for å endre denne innstillingen."
+        "label": "PIP ved faneveksling",
+        "description": "Når aktivert, gå automatisk inn i bilde-i-bilde når du bytter faner med en ikke-dempet video.",
+        "globaldisabledTips": "Du må slå på bilde-i-bilde i de globale innstillingene for å endre denne innstillingen."
       },
       "clearHistoyAfterCLose": {
-        "label": "Slett historikk etter lukking",
-        "description": "Når aktivert, vil historikken bli slettet etter at fanen er lukket."
+        "label": "Tøm historikk etter lukking",
+        "description": "Når aktivert, vil historikken bli tømt etter lukking av fanen."
       },
       "SyncTabs": {
         "label": "Synkroniser faner",
-        "description": "Velg hvordan du vil synkronisere fane-data, ekskludert privat data som informasjonskapsler og personlig informasjon.",
+        "description": "Velg hvordan du vil synkronisere fane data, unntatt private data som informasjonskapsler og personlig informasjon.",
         "disabled": "Deaktivert",
-        "uploadOnly": "Kun opplasting",
-        "downloadOnly": "Kun nedlasting",
+        "uploadOnly": "Last opp bare",
+        "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert",
-        "globaldisabledTips": "Du må slå på synkronisering i globale innstillinger for å endre denne innstillingen."
+        "globaldisabledTips": "Du må slå på synkronisering i de globale innstillingene for å endre denne innstillingen."
       },
       "SyncPrivateData": {
-        "label": "Synkroniser privat data",
-        "description": "Velg hvordan du vil synkronisere privat data, som informasjonskapsler for nettsteder, data for lokal lagring av nettsider, SessionStorage-data, osv. Data vil bli kryptert før synkronisering.",
+        "label": "Synkroniser private data",
+        "description": "Velg hvordan du vil synkronisere private data, for eksempel nettstedets informasjonskapsler, webside lokal lagringsdata, SessionStorage data, etc. Data vil bli kryptert før synkronisering.",
         "disabled": "Deaktivert",
-        "uploadOnly": "Kun opplasting",
-        "downloadOnly": "Kun nedlasting",
+        "uploadOnly": "Last opp bare",
+        "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert",
-        "globaldisabledTips": "Du må slå på synkronisering i globale innstillinger for å endre denne innstillingen."
+        "globaldisabledTips": "Du må slå på synkronisering i de globale innstillingene for å endre denne innstillingen."
       }
     },
     "SyncToCloud": {
@@ -417,7 +422,7 @@
       "Synchronizing": "Synkroniserer...",
       "SyncedSuccessfully": "Synkronisert vellykket",
       "SyncFailed": "Synkronisering mislyktes",
-      "LoginRequired": "Pålogging påkrevd",
+      "LoginRequired": "Innlogging kreves",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
@@ -425,29 +430,29 @@
         "label": "Synkroniser konfigurasjoner",
         "description": "Velg hvordan du vil synkronisere denne utvidelsens konfigurasjoner.",
         "disabled": "Deaktivert",
-        "uploadOnly": "Kun opplasting",
-        "downloadOnly": "Kun nedlasting",
+        "uploadOnly": "Last opp bare",
+        "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert"
       },
       "SyncTabs": {
         "label": "Synkroniser faner",
-        "description": "Velg hvordan du vil synkronisere fane-data, ekskludert privat data som informasjonskapsler og personlig informasjon.",
+        "description": "Velg hvordan du vil synkronisere fane data, unntatt private data som informasjonskapsler og personlig informasjon.",
         "disabled": "Deaktivert",
-        "uploadOnly": "Kun opplasting",
-        "downloadOnly": "Kun nedlasting",
+        "uploadOnly": "Last opp bare",
+        "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Åpne eller lukke faner synkront",
-        "description": "Når aktivert, vil åpning eller lukking av faner i ulike nettlesere bli synkronisert. Dette gjelder bare når alternativet 'forbli synkronisert' er aktivert",
-        "OpenOrCloseTabsSynchronouslyWarning": "Hvis du logger inn på samme konto i to nettlesere samtidig og slår på dette alternativet, vil åpning eller lukking av faner i én nettleser utføre samme operasjon i den andre nettleseren. Hvis nettstedet forbyr gjentatte pålogginger med samme konto, kan unntak oppstå."
+        "label": "Åpne eller lukk faner synkront",
+        "description": "Når aktivert, vil åpning eller lukking av faner i forskjellige nettlesere bli synkronisert. Dette gjelder bare når alternativet 'forbli synkronisert' er aktivt",
+        "OpenOrCloseTabsSynchronouslyWarning": "Hvis du logger inn på samme konto i to nettlesere samtidig og slår på dette alternativet, vil åpning eller lukking av faner i en nettleser utføre samme operasjon i den andre nettleseren. Hvis nettstedet forbyr gjentatte pålogginger med samme konto, kan det oppstå unntak."
       },
       "SyncPrivateData": {
-        "label": "Synkroniser privat data",
-        "description": "Velg hvordan du vil synkronisere privat data, som nettstedinformasjonskapsler, web-sidelagringsdata, SessionStorage-data, osv. Data vil bli kryptert før synkronisering.",
+        "label": "Synkroniser private data",
+        "description": "Velg hvordan du vil synkronisere private data, for eksempel nettstedets informasjonskapsler, webside lokal lagringsdata, SessionStorage data, etc. Data vil bli kryptert før synkronisering.",
         "disabled": "Deaktivert",
-        "uploadOnly": "Kun opplasting",
-        "downloadOnly": "Kun nedlasting",
+        "uploadOnly": "Last opp bare",
+        "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert"
       }
     }

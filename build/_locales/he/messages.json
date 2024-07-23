@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "ניהול תגיות סרגל הצד הצבעוני"
+    "message": "כרטיסיות צד צבעוניות"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "נהל כרטיסיות בפאנל הצדדי, יפה מדי כדי להיות כל כך טוב."
+    "message": "ניהול כרטיסיות דפדפן בפאנל הצד"
   },
   "openSidePanel": {
-    "message": "פתח את סרגל הצד"
+    "message": "פתח פאנל צד"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "OpenSideSanelToPreview": "Atidaryti šoninę juostą peržiūrai",
+  "OpenSidePanelToPreview": "Atidaryti šoninę panelę peržiūrai",
   "_execute_action": "Aktyvuoti šį plėtinį",
-  "openSidePanel": "Atidaryti šoninę juostą",
+  "openSidePanel": "Atidaryti šoninę panelę",
   "settings": {
     "resetCurrentPageSettings": "Atstatyti dabartinio puslapio nustatymus",
     "modules": {
       "appearance": "Išvaizda",
-      "beautify": "Gražinimas",
-      "tabs": "Kortelės",
+      "beautify": "Pagražinti",
+      "tabs": "Skirtukai",
       "history": "Istorija",
       "shortcuts": "Spartieji klavišai",
-      "pip": "Vaizdas paveikslėlyje",
-      "chromeTabGroupAdvanced": "Išplėstinės kortelių grupės",
-      "progressBar": "progreso juosta",
+      "pip": "Vaizdas vaizde",
+      "chromeTabGroupAdvanced": "Išplėstinės skirtukų grupės",
+      "progressBar": "Progreso juosta",
       "floatBall": "Plūduriuojantis kamuolys",
       "experimentalFeatures": "Eksperimentinės funkcijos"
     },
@@ -28,7 +28,7 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "Įjungus, sąsaja rodys teksto kryptį iš dešinės į kairę"
+        "description": "Kai įjungta, sąsaja rodys tekstą iš dešinės į kairę"
       },
       "fontSize": {
         "label": "Šrifto dydis",
@@ -45,34 +45,35 @@
         "description": "Nustatyti šrifto spalvą"
       },
       "fontWeight": {
-        "label": "Šrifto svoris",
-        "description": "Nustatyti šrifto svorį"
+        "label": "Šrifto storis",
+        "description": "Nustatyti šrifto storį"
       },
       "extAction": {
-        "label": "Spustelėjus plėtinio piktogramą",
-        "description": "Nustatyti veiksmą, kai spustelėjama plėtinio piktograma",
+        "label": "Veiksmas spustelėjus plėtinio piktogramą",
+        "description": "Nustatyti veiksmą spustelėjus plėtinio piktogramą",
         "openPopup": "Atidaryti iššokantį langą",
-        "openSidePanel": "Atidaryti šoninę juostą"
+        "openSidePanel": "Atidaryti šoninę panelę",
+        "SmallWindowAlert": "Jei šoninė panelė užima per daug vietos, rekomenduojama naudoti iššokantį langą"
       },
       "SidePanelPosition": {
-        "label": "Šoninės juostos padėtis",
-        "description": "Nustatyti, ar šoninė juosta rodoma kairėje, ar dešinėje.",
-        "goToBrowserSettings": "Eiti į „Chrome“ nustatymus"
+        "label": "Šoninės panelės padėtis",
+        "description": "Nustatyti, ar šoninė panelė rodoma kairėje ar dešinėje.",
+        "goToBrowserSettings": "Eiti į Chrome nustatymus"
       },
       "searchBoxPosition": {
         "label": "Paieškos laukelio padėtis",
         "description": "Nustatyti paieškos laukelio padėtį",
         "top": "Viršuje",
         "bottom": "Apačioje",
-        "hide": "Slėpti"
+        "hide": "Paslėpti"
       },
       "toolbar": {
         "label": "Rodyti įrankių juostą",
-        "description": "Įjungus, rodoma įrankių juosta"
+        "description": "Kai įjungta, rodoma įrankių juosta"
       },
       "bottomNav": {
         "label": "Rodyti apatinę naršymo juostą",
-        "description": "Įjungus, rodoma apatinė naršymo juosta"
+        "description": "Kai įjungta, rodoma apatinė naršymo juosta"
       },
       "buttonPosition": {
         "label": "Mygtukų padėtis",
@@ -82,21 +83,21 @@
       },
       "alwaysShowCloseButton": {
         "label": "Visada rodyti uždarymo mygtuką",
-        "description": "Įjungus, uždarymo mygtukas visada bus rodomas; išjungus, uždarymo mygtukas bus rodomas tik tada, kai pelės žymeklis bus virš kortelės"
+        "description": "Kai įjungta, uždarymo mygtukas visada bus rodomas; kai išjungta, uždarymo mygtukas bus rodomas tik pelės žymekliui esant virš skirtuko"
       },
       "fullScreenHideSidePanel": {
-        "label": "Slėpti šoninę juostą visame ekrane",
-        "description": "Įjungus, šoninė juosta automatiškai pasislėps, kai puslapis bus visame ekrane. Dėl „Chrome“ apribojimų šoninės juostos automatiškai atidaryti neįmanoma. Jums reikės rankiniu būdu ją atidaryti!"
+        "label": "Paslėpti šoninę panelę viso ekrano režime",
+        "description": "Kai įjungta, šoninė panelė automatiškai pasislėps, kai puslapis bus viso ekrano režime. Dėl Chrome apribojimų šoninė panelė negali būti automatiškai atidaryta iš naujo. Jums reikės rankiniu būdu atidaryti šoninę panelę!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "Spalvotas fonas",
-        "description": "Įjungus, šoninė juosta rodys spalvotą foną"
+        "description": "Kai įjungta, šoninė panelė rodys spalvotą foną"
       },
       "backgroundPicture": {
         "label": "Fono paveikslėlis",
-        "description": "Spustelėkite [+], kad pridėtumėte pasirinktinį paveikslėlį, spustelėkite [-], kad ištrintumėte pasirinktinį paveikslėlį. Savo mėgstamus paveikslėlius galite rasti šiose svetainėse.",
+        "description": "Spustelėkite [+], kad pridėtumėte pasirinktą paveikslėlį, spustelėkite [-], kad ištrintumėte pasirinktą paveikslėlį. Galite rasti mėgstamus paveikslėlius šiose svetainėse.",
         "dialogDescription": "Įveskite paveikslėlio adresą",
         "OK": "Gerai",
         "Cancel": "Atšaukti",
@@ -106,15 +107,15 @@
         "label": "Paveikslėlio skaidrumas",
         "description": "Nustatyti paveikslėlio skaidrumą",
         "transparent": "Skaidrus",
-        "opaque": "Neskaidrus"
+        "opaque": "Nepermatomas"
       },
       "backgroundImageBlur": {
-        "label": "Skaidrumo intensyvumas",
-        "description": "Nustatyti skaidrumo intensyvumą"
+        "label": "Neryškumo intensyvumas",
+        "description": "Nustatyti neryškumo intensyvumą"
       },
       "backgroundImageBrightness": {
-        "label": "Šviesumas",
-        "description": "Nustatyti šviesumą, rekomenduojama tik tamsiam režimui"
+        "label": "Ryškumas",
+        "description": "Nustatyti ryškumą, rekomenduojama tik tamsiam režimui"
       },
       "listBackgroundStyle": {
         "label": "Sąrašo fono stilius",
@@ -123,35 +124,35 @@
         "none": "Nėra",
         "simple": "Paprastas",
         "complementary": "Papildomas",
-        "analogous": "Analogiškas",
+        "analogous": "Analoginis",
         "triadic": "Triadinis",
-        "tetradic": "Tetradic"
+        "tetradic": "Tetradinis"
       },
       "listBackgroundTransparency": {
         "label": "Sąrašo fono skaidrumas",
         "description": "Nustatyti sąrašo fono skaidrumą",
         "transparent": "Skaidrus",
-        "opaque": "Neskaidrus"
+        "opaque": "Nepermatomas"
       },
       "listBottomBorder": {
         "label": "Sąrašo apatinė riba",
         "description": "Nustatyti sąrašo apatinę ribą",
         "none": "Nėra",
-        "dashed": "Brūkšniuotas",
-        "solid": "Vientisas"
+        "dashed": "Brūkšninė",
+        "solid": "Tvirta"
       },
       "fluentOverlayScrollbars": {
-        "label": "Sklandūs slinkties juostos",
-        "description": "Naudoti „Microsoft Fluent“ dizaino stiliaus slinkties juostas ir jas uždėti ant žiniatinklio turinio",
-        "goToBrowserSettings": "Eiti į „Chrome“ nustatymus"
+        "label": "Sklandžios slinkties juostos",
+        "description": "Naudokite Microsoft Fluent dizaino stiliaus slinkties juostas ir uždėkite jas ant interneto turinio",
+        "goToBrowserSettings": "Eiti į Chrome nustatymus"
       }
     },
     "tabs": {
       "listView": {
-        "label": "Sąrašo rodinys",
-        "description": "Perjungti sąrašo rodinį",
-        "compact": "Kompaktiškas rodinys",
-        "visual": "Vizualinis rodinys"
+        "label": "Sąrašo vaizdas",
+        "description": "Perjungti sąrašo vaizdą",
+        "compact": "Kompaktiškas vaizdas",
+        "visual": "Vizualinis vaizdas"
       },
       "showBy": {
         "label": "Rodyti pagal",
@@ -162,152 +163,156 @@
         "description": "Perjungti rūšiavimą pagal"
       },
       "showFullUrl": {
-        "label": "Rodyti pilną URL",
-        "description": "Įjungus, pilnas URL bus rodomas po kortelės pavadinimu"
+        "label": "Rodyti visą URL",
+        "description": "Kai įjungta, po skirtuko pavadinimu bus rodomas visas URL"
       },
       "currentWindowOnly": {
         "label": "Tik dabartinis langas",
-        "description": "Rodyti tik dabartinio lango korteles. Jei išjungta, bus rodomos visų langų kortelės"
+        "description": "Rodyti tik dabartinio lango skirtukus. Jei išjungta, bus rodomi visi langų skirtukai"
       },
       "pinedTabsAsIcons": {
-        "label": "Rodyti pritvirtintas korteles kaip piktogramas",
-        "description": "Įjungus, pritvirtintos kortelės bus rodomos kaip piktogramos, o ne sąraše"
+        "label": "Rodyti prisegtus skirtukus kaip piktogramas",
+        "description": "Kai įjungta, prisegti skirtukai bus rodomi kaip piktogramos, o ne sąraše"
+      },
+      "pinToQuickAccess": {
+        "label": "Rodyti greitąją prieigą",
+        "description": "Galite nustatyti skirtuką, kad jis būtų rodomas greitojoje prieigoje, kad būtų lengva rasti. Tiesiog dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite Prisegti prie greitosios prieigos. Atsegti, kai jo nebereikia, dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite Ištrinti iš greitosios prieigos. Skirtumas nuo prisegtų skirtukų yra tas, kad greitoji prieiga išsaugo URL ir kiekvieną kartą spustelėjus atidaro naują skirtuką."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Rodyti svetainės piktogramas sugrupuojant",
-        "description": "Įjungus, sugrupuotos kortelės rodys kortelių piktogramas"
+        "label": "Rodyti svetainių piktogramas, kai grupės yra suskleistos",
+        "description": "Kai įjungta, suskleistos grupės rodys skirtukų piktogramas"
       },
       "hoverPreview": {
-        "label": "Peržiūra užvedus pelę",
-        "description": "Įjungus, užvedus pelę ant kortelių, bus rodomos kortelių peržiūros"
+        "label": "Peržiūra užvedus",
+        "description": "Kai įjungta, užvedus pelės žymeklį ant skirtukų bus rodomos skirtukų peržiūros"
       },
       "previewWithThumbnail": {
         "label": "Rodyti miniatiūras peržiūroje",
-        "description": "Įjungus, peržiūros rodys kortelių miniatiūras",
-        "alert": "Užfiksuoti matomą dabartinės aktyvios kortelės sritį nurodytame lange. Norėdami iškviesti šį metodą, plėtinys turi turėti <all_urls> leidimą arba activeTab leidimą.",
-        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nepasikeitė. Jei persimanėte, spustelėkite dar kartą ir leiskite autorizavimą"
+        "description": "Kai įjungta, peržiūrose bus rodomos skirtukų miniatiūros",
+        "alert": "Užfiksuokite matomą aktyvaus skirtuko sritį nurodytame lange. Norint iškviesti šį metodą, plėtinys turi turėti <all_urls> leidimą arba activeTab leidimą.",
+        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nebuvo pakeisti. Jei persigalvosite, spustelėkite dar kartą ir leiskite autorizaciją"
       },
       "previewDelay": {
-        "label": "Peržiūros vėlavimas",
-        "description": "Nustatyti kortelių peržiūros vėlavimo laiką, kai užvedama pelė ant kortelių ir pan. (sekundės). Jei nustatyta 0, vėlavimo nebus",
+        "label": "Peržiūros delsimas",
+        "description": "Nustatyti skirtukų peržiūros delsimo laiką užvedus pelės žymeklį ant skirtukų ir pan. (sekundėmis). Jei nustatyta 0, delsimo nebus",
         "seconds": "Sekundės"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Išsaugoti neseniai uždarytas korteles",
-        "description": "Įjungus, išsaugoti neseniai uždarytas korteles"
+        "label": "Išsaugoti neseniai uždarytus skirtukus",
+        "description": "Kai įjungta, išsaugoti neseniai uždarytus skirtukus"
       },
       "dataSource": {
         "label": "Duomenų šaltinis",
         "description": "Pasirinkti duomenų šaltinį",
-        "recentlyClosedTabs": "Neseniai uždarytos kortelės",
-        "chromeHistory": "„Chrome“ istorija",
-        "alert": "Norėdami ieškoti istorijos įrašų, jums reikia jūsų autorizacijos, kad būtų galima įjungti",
-        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nepasikeitė. Jei persimanėte, spustelėkite dar kartą ir leiskite autorizavimą"
+        "recentlyClosedTabs": "Neseniai uždaryti skirtukai",
+        "chromeHistory": "Chrome istorija",
+        "alert": "Norint ieškoti istorijos įrašų, reikia jūsų leidimo įjungti",
+        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nebuvo pakeisti. Jei persigalvosite, spustelėkite dar kartą ir leiskite autorizaciją"
       },
       "showInSidePanel": {
-        "label": "Rodyti šoninėje juostoje",
-        "description": "Įjungus, rodyti šoninėje juostoje"
+        "label": "Rodyti šoninėje panelėje",
+        "description": "Kai įjungta, rodyti šoninėje panelėje"
       },
       "showInTabSearchResults": {
-        "label": "Rodyti istoriją kortelių paieškos rezultatuose",
-        "description": "Įjungus, neseniai istorijos įrašai bus rodomi kortelių paieškos rezultatuose"
+        "label": "Rodyti istoriją skirtukų paieškos rezultatuose",
+        "description": "Kai įjungta, neseniai istorijos įrašai bus rodomi skirtukų paieškos rezultatuose"
       },
       "limitSearchResults": {
-        "label": "Apriboti istorijos įrašų skaičių kortelių paieškos rezultatuose",
-        "description": "Nustatyti istorijos įrašų skaičiaus apribojimą kortelių paieškos rezultatuose. Istorijos įrašai, viršijantys apribojimą, bus filtruojami",
+        "label": "Apriboti istorijos įrašų skaičių skirtukų paieškos rezultatuose",
+        "description": "Nustatyti istorijos įrašų skaičiaus apribojimą skirtukų paieškos rezultatuose. Istorijos įrašai, viršijantys apribojimą, bus filtruojami",
         "alert": "Per daug įrašų gali paveikti puslapio įkėlimo greitį"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Išsaugoti neseniai uždarytų kortelių skaičius",
-        "description": "Nustatyti išsaugoti neseniai uždarytų kortelių skaičių"
+        "label": "Neseniai uždarytų skirtukų skaičius, kurį reikia išsaugoti",
+        "description": "Nustatyti neseniai uždarytų skirtukų skaičių, kurį reikia išsaugoti"
       },
       "keepDays": {
-        "label": "Dienų skaičius, kiek išsaugoti neseniai uždarytas korteles",
-        "description": "Nustatyti dienų skaičių, kiek išsaugoti neseniai uždarytas korteles. Pasibaigę duomenys bus ištrinti",
+        "label": "Neseniai uždarytų skirtukų saugojimo dienų skaičius",
+        "description": "Nustatyti neseniai uždarytų skirtukų saugojimo dienų skaičių. Pasibaigus galiojimo laikui, duomenys bus ištrinti",
         "days": "Dienos"
       },
       "openDuration": {
         "label": "Atidarymo trukmė",
-        "description": "Bus išsaugotos tik kortelės, atidarytos ilgiau nei nustatytas laikas",
+        "description": "Išsaugomi tik tie skirtukai, kurie buvo atidaryti ilgiau nei nustatytas laikas",
         "seconds": "Sekundės"
       }
     },
     "shortcuts": {
-      "alert": "Šis puslapis skirtas tik rodyti. Norėdami pakeisti sparčiuosius klavišus, apsilankykite [Plėtiniai]->[Valdyti plėtinius]->[Spartieji klavišai]",
-      "goToBrowserSettings": "Eiti į „Chrome“ nustatymus",
+      "alert": "Šis puslapis skirtas tik rodymui. Norėdami keisti sparčiuosius klavišus, apsilankykite [Plėtiniai]->[Tvarkyti plėtinius]->[Spartieji klavišai]",
+      "goToBrowserSettings": "Eiti į Chrome nustatymus",
       "_execute_action": "Aktyvuoti šį plėtinį",
-      "openSidePanel": "Atidaryti šoninę juostą"
+      "openSidePanel": "Atidaryti šoninę panelę"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Vaizdas paveikslėlyje",
+      "Picture-in-picture": "Vaizdas vaizde",
       "tabSwitch": {
-        "label": "PIP perjungiant korteles",
-        "description": "Automatiškai įeiti į PIP perjungiant korteles su netyliu vaizdo įrašu",
+        "label": "PIP perjungiant skirtukus",
+        "description": "Automatiškai įjungti PIP perjungiant skirtukus su ne nutildytu vaizdo įrašu",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       },
       "scrollSwitch": {
-        "label": "Perjungti į vaizdą paveikslėlyje slenkant",
-        "description": "Jei dabartiniame puslapyje grojamas vaizdo įrašas ir vaizdo įrašas nėra nutildytas ir vaizdo įrašas yra už matomos srities ribų slenkant, jis įeis į vaizdą paveikslėlyje.",
+        "label": "Perjungti į vaizdą vaizde slenkant",
+        "description": "Jei dabartiniame puslapyje grojamas vaizdo įrašas ir vaizdo įrašas nėra nutildytas ir vaizdo įrašas yra už matomos srities ribų slenkant, jis įsijungs į vaizdą vaizde.",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       }
     },
     "userActivitionAlert": {
-      "title": "Reikalinga vartotojo aktyvacija",
-      "tips_1": "Vartotojo aktyvacija reiškia, kad vartotojas šiuo metu sąveikauja su puslapiu",
-      "tips_2": "Tiksliau, aktyvacija suaktyvina įvesties įvykius, tokius kaip:",
-      "tips_3": "Pastaba: naudojant pelės rato slinktį arba braukimo gestą, nebus suaktyvinta!",
-      "tips_4": "Jei norite sužinoti daugiau informacijos, apsilankykite:",
+      "title": "Reikalingas vartotojo aktyvavimas",
+      "tips_1": "Vartotojo aktyvavimas reiškia, kad vartotojas šiuo metu sąveikauja su puslapiu",
+      "tips_2": "Konkrečiau, aktyvavimas sukelia įvesties įvykius, tokius kaip:",
+      "tips_3": "Pastaba: Naudojant pelės ratuko slinkimą ar perbraukimo gestą, aktyvavimas nebus suaktyvintas!",
+      "tips_4": "Jei norite daugiau informacijos, apsilankykite:",
       "click": "Spustelėjimas",
-      "contextmenu": "Dešiniuoju pelės mygtuku spustelėkite meniu",
+      "contextmenu": "Dešiniojo pelės mygtuko meniu",
       "dblclick": "Dvigubas spustelėjimas"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Kortelių grupės sugrupavimo elgsena",
-        "description": "Pakeisti „Chrome“ naršyklės kortelių grupės sugrupavimo elgseną",
-        "option_collapse_others": "Rodyti dabartinę grupę ir sugrupuoti kitas",
+        "label": "Skirtukų grupės suskleidimo elgsena",
+        "description": "Keisti Chrome naršyklės skirtukų grupės suskleidimo elgseną",
+        "option_collapse_others": "Rodyti dabartinę grupę ir suskleisti kitas",
         "option_disable": "Išplėsti visas grupes",
-        "option_auto": "Naudoti „Chrome“ numatytuosius nustatymus"
+        "option_auto": "Naudoti numatytuosius Chrome nustatymus"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Automatiškai sukurti arba prisijungti prie tos pačios srities grupės",
-        "description": "Įjungus, naujai atidarytos kortelės automatiškai prisijungs prie tos pačios srities grupės. Jei srities grupės nėra, bus sukurta nauja srities grupė",
+        "label": "Automatiškai sukurti arba prisijungti prie tos pačios domeno grupės",
+        "description": "Kai įjungta, naujai atidaryti skirtukai automatiškai prisijungs prie tos pačios domeno grupės. Jei domeno grupė neegzistuoja, bus sukurta nauja domeno grupė",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Filtruoti pritvirtintas korteles grupėse",
-        "description": "Įjungus, pritvirtintos kortelės nebus pridedamos prie grupių",
+        "label": "Filtruoti prisegtus skirtukus grupėse",
+        "description": "Kai įjungta, prisegti skirtukai nebus pridedami į grupes",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Įjungti eigos juostą",
-        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma skaitymo eigos juosta",
+        "label": "Įjungti progreso juostą",
+        "description": "Kai įjungta, skaitymo progreso juosta bus rodoma žemiau skirtuko pavadinimo juostos",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       },
       "readingProgressBar": {
-        "label": "Skaitymo eigos juosta",
-        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma skaitymo eigos juosta",
+        "label": "Skaitymo progreso juosta",
+        "description": "Kai įjungta, skaitymo progreso juosta bus rodoma žemiau skirtuko pavadinimo juostos",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       },
       "scrollHeightRatio": {
         "label": "Slinkimo aukščio santykis",
-        "description": "Matomo lango aukščio santykis su puslapio aukščiu. Kai santykis viršijamas, bus rodoma eigos juosta",
+        "description": "Matomo lango aukščio ir puslapio aukščio santykis. Progreso juosta bus rodoma, kai santykis bus viršytas",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       },
       "playingProgressBar": {
-        "label": "Grojimo eigos juosta",
-        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma grojimo eigos juosta",
+        "label": "Grojimo progreso juosta",
+        "description": "Kai įjungta, grojimo progreso juosta bus rodoma žemiau skirtuko pavadinimo juostos",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
       }
@@ -315,140 +320,140 @@
     "floatBall": {
       "enableFloatBall": {
         "label": "Įjungti plūduriuojantį kamuolį",
-        "description": "Kai šoninė juosta bus uždaryta, dešinėje puslapio pusėje bus rodomas plūduriuojantis kamuolys, leidžiantis greitai atidaryti šoninę juostą."
+        "description": "Kai šoninė panelė uždaryta, dešinėje puslapio pusėje bus rodomas plūduriuojantis kamuolys, leidžiantis greitai atidaryti šoninę panelę."
       }
     },
     "performance": {
       "label": "Veikimas",
       "saveMemoryAction": {
-        "label": "Kaip sutaupyti atmintį kortelėse",
-        "description": "Norėdami sutaupyti atmintį kortel��se, galite pasirinkti uždaryti kortelės arba atmesti kortelės.",
-        "discardTips": "atmesta kortelė niekur nekeliauja. Mes ją išjungiame, bet ji vis dar matoma „Chrome“ kortelių juostoje. Jei grįžtate į kortelę, kuri buvo atmesta, ji bus perkrauta, kai paspausite. Formos turinys, slinkimo pozicija ir t.t. yra išsaugomi ir atkurti taip pat, kaip būtų per pirmyn/atgal kortelių naršymą.",
+        "label": "Kaip taupyti atmintį skirtukuose",
+        "description": "Norėdami taupyti atmintį skirtukuose, galite pasirinkti uždaryti skirtukus arba atmesti skirtukus.",
+        "discardTips": "Atmestas skirtukas niekur nedingsta. Mes jį uždarome, bet jis vis dar matomas Chrome skirtukų juostoje. Jei grįšite į atmestą skirtuką, jis bus perkrautas, kai jį spustelėsite. Formos turinys, slinkimo pozicija ir pan. yra išsaugomi ir atkuriami taip pat, kaip ir naršant pirmyn/atgal skirtukus.",
         "disabled": "Išjungta",
-        "closeTabs": "Uždaryti korteles",
-        "discardTabs": "Atmesti korteles"
+        "closeTabs": "Uždaryti skirtukus",
+        "discardTabs": "Atmesti skirtukus"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Kiek laiko atmesti neaktyvias korteles",
-        "description": "Kai kortelėje neveikia joks garso ar vaizdo įrašas ir automatinis atmetsimas nėra uždraustas, kortelė bus atmesta po nurodyto laiko.",
+        "label": "Kiek laiko atmesti neaktyvius skirtukus",
+        "description": "Kai skirtuke nėra grojamo garso ar vaizdo ir automatinis atmetimas nėra draudžiamas, skirtukas bus atmestas po nurodyto laiko.",
         "minutes": "Minutės"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Kiek laiko uždaryti neaktyvias korteles",
-        "description": "Kai kortelėje neveikia joks garso ar vaizdo įrašas ir automatinis atmetsimas nėra uždraustas, kortelė bus uždaryta po nurodyto laiko.",
+        "label": "Kiek laiko uždaryti neaktyvius skirtukus",
+        "description": "Kai skirtuke nėra grojamo garso ar vaizdo ir automatinis atmetimas nėra draudžiamas, skirtukas bus uždarytas po nurodyto laiko.",
         "minutes": "Minutės"
       },
       "disableAnimations": {
         "label": "Išjungti animacijas",
-        "description": "išjungti bangos efektą ir išjungti visas perėjimas"
+        "description": "Išjungti bangos efektą ir išjungti visus perėjimus"
       }
     },
     "site": {
       "label": "Svetainės nustatymai",
       "allSites": "Visos svetainės",
       "sortBy": "Rūšiuoti pagal",
-      "mostVisited": "Labiausiai lankomos",
-      "dataStored": "Saugomi duomenys",
-      "name": "Vardas",
+      "mostVisited": "Dažniausiai lankomos",
+      "dataStored": "Išsaugoti duomenys",
+      "name": "Pavadinimas",
       "deleteAllData": "Ištrinti visus duomenis",
-      "totalStorageUsedBySites": "Viso saugojimo vietos, naudojamos svetainėmis",
-      "totalCount": "Viso skaičiaus",
+      "totalStorageUsedBySites": "Bendras svetainių naudojamas saugojimas",
+      "totalCount": "Bendras skaičius",
       "addNewSite": {
         "label": "Pridėti naują svetainę",
-        "description": "Įveskite naują svetainės adresą, pvz., „www.pavyzdys.com“, ir spustelėkite „Pridėti“.",
-        "placeholder": "Svetainės adresas, pvz., „www.pavyzdys.com“",
+        "description": "Įveskite naują svetainės adresą, pvz., 'www.example.com', ir spustelėkite 'Pridėti'.",
+        "placeholder": "Svetainės adresas, pvz., 'www.example.com'",
         "add": "Pridėti",
         "cancel": "Atšaukti",
-        "invalidDomain": "Netinkamas svetainės adresas"
+        "invalidDomain": "Neteisingas svetainės adresas"
       },
       "browserSettings": {
         "label": "Naršyklės nustatymai",
-        "description": "Galite keisti svetainių nustatymus, pvz., ištrinti duomenis ar pakeisti svetainės leidimus.",
+        "description": "Galite keisti svetainės nustatymus, pvz., ištrinti duomenis arba keisti svetainės leidimus.",
         "goToBrowserSettings": "Eiti į naršyklės nustatymus"
       },
       "autoDiscardable": {
         "label": "Automatiškai atmestinas",
-        "description": "Įjungus, naršyklė galės atmesti kortelę, ir jei įjungėte veikimo funkciją ir nustatėte laiką atmesti neaktyvias korteles, kortelė bus atmesta po nurodyto laiko. Išjungus, kortelė nebus atmesta"
+        "description": "Kai įjungta, skirtukas bus leidžiamas atmesti naršyklės, ir jei įjungsite veikimą ir nustatysite laiką atmesti neaktyvius skirtukus, skirtukas bus atmestas po nurodyto laiko. Jei išjungta, skirtukas nebus atmestas"
       },
       "readingProgressBar": {
-        "label": "Skaitymo eigos juosta",
-        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma skaitymo eigos juosta.",
-        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti skaitymo eigos juostą bendruosiuose nustatymuose."
+        "label": "Skaitymo progreso juosta",
+        "description": "Kai įjungta, skaitymo progreso juosta bus rodoma žemiau skirtuko pavadinimo juostos.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti skaitymo progreso juostą globaliuose nustatymuose."
       },
       "playingProgressBar": {
-        "label": "Grojimo eigos juosta",
-        "description": "Įjungus, žemiau kortelių pavadinimo juostos bus rodoma grojimo eigos juosta.",
-        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti grojimo eigos juostą bendruosiuose nustatymuose."
+        "label": "Grojimo progreso juosta",
+        "description": "Kai įjungta, grojimo progreso juosta bus rodoma žemiau skirtuko pavadinimo juostos.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti grojimo progreso juostą globaliuose nustatymuose."
       },
       "tabSwitchPip": {
-        "label": "PIP perjungiant korteles",
-        "description": "Įjungus, automatiškai įjungiamas vaizdas vaizde, kai perjungiama kortelė su nebyliu vaizdo įrašu.",
-        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti vaizdą vaizde bendruosiuose nustatymuose."
+        "label": "PIP perjungiant skirtukus",
+        "description": "Kai įjungta, automatiškai įjungti vaizdą vaizde perjungiant skirtukus su ne nutildytu vaizdo įrašu.",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti vaizdą vaizde globaliuose nustatymuose."
       },
       "clearHistoyAfterCLose": {
-        "label": "Išvalyti istoriją uždarius",
-        "description": "Įjungus, istorija bus išvalyta uždarant kortelę."
+        "label": "Išvalyti istoriją po uždarymo",
+        "description": "Kai įjungta, istorija bus išvalyta po skirtuko uždarymo."
       },
       "SyncTabs": {
-        "label": "Sinchronizuoti korteles",
-        "description": "Pasirinkite, kaip sinchronizuoti kortelių duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
+        "label": "Sinchronizuoti skirtukus",
+        "description": "Pasirinkite, kaip sinchronizuoti skirtukų duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
         "disabled": "Išjungta",
-        "uploadOnly": "Tik įkėlimas",
-        "downloadOnly": "Tik atsisiuntimas",
-        "staySynchronized": "Likti sinchronizuotam",
-        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą bendruosiuose nustatymuose."
+        "uploadOnly": "Tik įkelti",
+        "downloadOnly": "Tik atsisiųsti",
+        "staySynchronized": "Išlikti sinchronizuotam",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą globaliuose nustatymuose."
       },
       "SyncPrivateData": {
         "label": "Sinchronizuoti privačius duomenis",
-        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, svetainės vietinės saugyklos duomenys, sesijos saugyklos duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
+        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, tinklalapių vietos saugyklos duomenys, SessionStorage duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
         "disabled": "Išjungta",
-        "uploadOnly": "Tik įkėlimas",
-        "downloadOnly": "Tik atsisiuntimas",
-        "staySynchronized": "Likti sinchronizuotam",
-        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą bendruosiuose nustatymuose."
+        "uploadOnly": "Tik įkelti",
+        "downloadOnly": "Tik atsisiųsti",
+        "staySynchronized": "Išlikti sinchronizuotam",
+        "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą globaliuose nustatymuose."
       }
     },
     "SyncToCloud": {
       "label": "Sinchronizuoti su debesimi",
       "SyncNow": "Sinchronizuoti dabar",
-      "SyncNowWithGoogleDrive": "Sinchronizuoti dabar su „Google Drive“",
-      "SyncNowWithDropbox": "Sinchronizuoti dabar su „Dropbox“",
-      "SyncNowWithOneDrive": "Sinchronizuoti dabar su „OneDrive“",
+      "SyncNowWithGoogleDrive": "Sinchronizuoti dabar su Google Drive",
+      "SyncNowWithDropbox": "Sinchronizuoti dabar su Dropbox",
+      "SyncNowWithOneDrive": "Sinchronizuoti dabar su OneDrive",
       "Synchronizing": "Sinchronizuojama...",
       "SyncedSuccessfully": "Sėkmingai sinchronizuota",
-      "SyncFailed": "Sinchronizacija nepavyko",
-      "LoginRequired": "Prisijungimas būtinas",
+      "SyncFailed": "Sinchronizavimas nepavyko",
+      "LoginRequired": "Reikalingas prisijungimas",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
         "label": "Sinchronizuoti konfigūracijas",
-        "description": "Pasirinkite, kaip sinchronizuoti šios plėtinio konfigūracijas.",
+        "description": "Pasirinkite, kaip sinchronizuoti šio plėtinio konfigūracijas.",
         "disabled": "Išjungta",
-        "uploadOnly": "Tik įkėlimas",
-        "downloadOnly": "Tik atsisiuntimas",
-        "staySynchronized": "Likti sinchronizuotam"
+        "uploadOnly": "Tik įkelti",
+        "downloadOnly": "Tik atsisiųsti",
+        "staySynchronized": "Išlikti sinchronizuotam"
       },
       "SyncTabs": {
-        "label": "Sinchronizuoti korteles",
-        "description": "Pasirinkite, kaip sinchronizuoti kortelių duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
+        "label": "Sinchronizuoti skirtukus",
+        "description": "Pasirinkite, kaip sinchronizuoti skirtukų duomenis, išskyrus privačius duomenis, tokius kaip slapukai ir asmeninė informacija.",
         "disabled": "Išjungta",
-        "uploadOnly": "Tik įkėlimas",
-        "downloadOnly": "Tik atsisiuntimas",
-        "staySynchronized": "Likti sinchronizuotam"
+        "uploadOnly": "Tik įkelti",
+        "downloadOnly": "Tik atsisiųsti",
+        "staySynchronized": "Išlikti sinchronizuotam"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Atidaryti arba uždaryti korteles sinchroniškai",
-        "description": "Įjungus, atidarant arba uždarant korteles skirtinguose naršyklėse bus sinchronizuota. Tai taikoma tik tada, kai aktyvuota parinktis „likti sinchronizuotam“",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jei tuo pačiu metu prisijungiate prie dviejų naršyklės paskyrų ir įjungiate šią parinktį, atidarant arba uždarant korteles vienoje naršyklėje, toks pats veiksmas bus atliktas kitoje naršyklėje. Jei svetainė draudžia kartotinius prisijungimus su ta pačia paskyra, gali kilti išimčių."
+        "label": "Atidaryti arba uždaryti skirtukus sinchroniškai",
+        "description": "Kai įjungta, atidarant arba uždarant skirtukus skirtingose naršyklėse, jie bus sinchronizuoti. Tai taikoma tik tada, kai aktyvi parinktis 'išlikti sinchronizuotam'",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jei prisijungsite prie tos pačios paskyros dviejose naršyklėse vienu metu ir įjungsite šią parinktį, atidarant arba uždarant skirtukus vienoje naršyklėje, ta pati operacija bus atliekama kitoje naršyklėje. Jei svetainė draudžia pakartotinius prisijungimus su ta pačia paskyra, gali kilti išimčių."
       },
       "SyncPrivateData": {
         "label": "Sinchronizuoti privačius duomenis",
-        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, svetainės vietinės saugyklos duomenys, sesijos saugyklos duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
+        "description": "Pasirinkite, kaip sinchronizuoti privačius duomenis, tokius kaip svetainių slapukai, tinklalapių vietos saugyklos duomenys, SessionStorage duomenys ir kt. Duomenys bus užšifruoti prieš sinchronizavimą.",
         "disabled": "Išjungta",
-        "uploadOnly": "Tik įkėlimas",
-        "downloadOnly": "Tik atsisiuntimas",
-        "staySynchronized": "Likti sinchronizuotam"
+        "uploadOnly": "Tik įkelti",
+        "downloadOnly": "Tik atsisiųsti",
+        "staySynchronized": "Išlikti sinchronizuotam"
       }
     }
   }

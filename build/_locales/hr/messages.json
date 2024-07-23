@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Upravljanje oznakama u šarenom bočnom panelu"
+    "message": "Šarene kartice bočne ploče"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Upravljajte karticama u bočnom panelu, previše lijepo da bi bilo ovako dobro."
+    "message": "Upravljajte karticama preglednika na bočnoj ploči"
   },
   "openSidePanel": {
-    "message": "Otvori bočni panel"
+    "message": "Otvori bočnu ploču"
   }
 }

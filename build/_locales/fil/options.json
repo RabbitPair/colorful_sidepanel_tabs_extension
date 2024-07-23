@@ -1,0 +1,461 @@
+{
+  "OpenSidePanelToPreview": "Buksan ang side panel upang i-preview",
+  "_execute_action": "Isaaktibo ang extension na ito",
+  "openSidePanel": "Buksan ang side panel",
+  "settings": {
+    "resetCurrentPageSettings": "I-reset ang mga setting ng kasalukuyang pahina",
+    "modules": {
+      "appearance": "Hitsura",
+      "beautify": "Pagandahin",
+      "tabs": "Mga tab",
+      "history": "Kasaysayan",
+      "shortcuts": "Mga shortcut",
+      "pip": "Larawan-sa-larawan",
+      "chromeTabGroupAdvanced": "Advanced na mga grupo ng tab",
+      "progressBar": "Progress bar",
+      "floatBall": "Float ball",
+      "experimentalFeatures": "Mga eksperimentong tampok"
+    },
+    "appearance": {
+      "header": "Hitsura",
+      "language": {
+        "label": "Wika ng interface",
+        "description": "Itakda ang wika para sa pagpapakita ng interface"
+      },
+      "theme": {
+        "label": "Mode ng kulay",
+        "description": "Pumili ng light o dark na mode ng kulay"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Kapag pinagana, ang interface ay magpapakita ng direksyon ng teksto mula kanan papuntang kaliwa"
+      },
+      "fontSize": {
+        "label": "Laki ng font",
+        "description": "Itakda ang laki ng font",
+        "small": "Maliit",
+        "large": "Malaki"
+      },
+      "fontFamily": {
+        "label": "Pamilya ng font",
+        "description": "Itakda ang pamilya ng font"
+      },
+      "fontColor": {
+        "label": "Kulay ng font",
+        "description": "Itakda ang kulay ng font"
+      },
+      "fontWeight": {
+        "label": "Bigat ng font",
+        "description": "Itakda ang bigat ng font"
+      },
+      "extAction": {
+        "label": "Aksyon sa pag-click ng icon ng extension",
+        "description": "Itakda ang aksyon kapag nag-click sa icon ng extension",
+        "openPopup": "Buksan ang popup",
+        "openSidePanel": "Buksan ang side panel",
+        "SmallWindowAlert": "Kung ang side panel ay kumukuha ng masyadong maraming espasyo, inirerekomenda na gumamit ka ng pop-up window"
+      },
+      "SidePanelPosition": {
+        "label": "Posisyon ng side panel",
+        "description": "Itakda kung ang side panel ay ipapakita sa kaliwa o kanan.",
+        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posisyon ng search box",
+        "description": "Itakda ang posisyon ng search box",
+        "top": "Ituktok",
+        "bottom": "Ibaba",
+        "hide": "Itago"
+      },
+      "toolbar": {
+        "label": "Ipakita ang toolbar",
+        "description": "Kapag pinagana, ang toolbar ay ipapakita"
+      },
+      "bottomNav": {
+        "label": "Ipakita ang navigation bar sa ibaba",
+        "description": "Kapag pinagana, ang navigation bar sa ibaba ay ipapakita"
+      },
+      "buttonPosition": {
+        "label": "Posisyon ng button",
+        "description": "Itakda ang posisyon ng mga button",
+        "left": "Kaliwa",
+        "right": "Kanan"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Laging ipakita ang close button",
+        "description": "Kapag pinagana, ang close button ay laging ipapakita; kapag hindi pinagana, ang close button ay ipapakita lamang kapag ang mouse ay nasa ibabaw ng tab"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Itago ang side panel sa full screen",
+        "description": "Kapag pinagana, ang side panel ay awtomatikong itatago kapag ang pahina ay nasa full screen. Dahil sa mga limitasyon ng Chrome, ang side panel ay hindi maaaring awtomatikong muling buksan. Kailangan mong manu-manong muling buksan ang side panel!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "May kulay na background",
+        "description": "Kapag pinagana, ang side panel ay magpapakita ng may kulay na background"
+      },
+      "backgroundPicture": {
+        "label": "Larawan sa background",
+        "description": "I-click ang [+] upang magdagdag ng custom na larawan, i-click ang [-] upang tanggalin ang custom na larawan. Maaari kang makahanap ng iyong mga paboritong larawan sa mga sumusunod na website.",
+        "dialogDescription": "Ilagay ang address ng larawan",
+        "OK": "OK",
+        "Cancel": "Kanselahin",
+        "invalidImage": "Hindi wastong address ng larawan"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparency ng larawan",
+        "description": "Itakda ang transparency ng larawan",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensity ng blur",
+        "description": "Itakda ang intensity ng blur"
+      },
+      "backgroundImageBrightness": {
+        "label": "Liwanag",
+        "description": "Itakda ang liwanag, inirerekomenda lamang para sa dark mode"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo ng background ng listahan",
+        "description": "Itakda ang estilo ng background ng listahan",
+        "single": "Single",
+        "none": "Wala",
+        "simple": "Simple",
+        "complementary": "Complementary",
+        "analogous": "Analogous",
+        "triadic": "Triadic",
+        "tetradic": "Tetradic"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparency ng background ng listahan",
+        "description": "Itakda ang transparency ng background ng listahan",
+        "transparent": "Transparent",
+        "opaque": "Opaque"
+      },
+      "listBottomBorder": {
+        "label": "Ibabang border ng listahan",
+        "description": "Itakda ang ibabang border ng listahan",
+        "none": "Wala",
+        "dashed": "Dashed",
+        "solid": "Solid"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Fluent scrollbars",
+        "description": "Gamitin ang Microsoft Fluent design style scrollbars at i-overlay ang mga ito sa web content",
+        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "List view",
+        "description": "I-switch ang list view",
+        "compact": "Compact view",
+        "visual": "Visual view"
+      },
+      "showBy": {
+        "label": "Ipakita ayon sa",
+        "description": "I-switch ang ipakita ayon sa"
+      },
+      "sortBy": {
+        "label": "Ayusin ayon sa",
+        "description": "I-switch ang ayusin ayon sa"
+      },
+      "showFullUrl": {
+        "label": "Ipakita ang buong URL",
+        "description": "Kapag pinagana, ang buong URL ay ipapakita sa ilalim ng pamagat ng tab"
+      },
+      "currentWindowOnly": {
+        "label": "Kasalukuyang window lamang",
+        "description": "Ipakita lamang ang mga tab ng kasalukuyang window. Kung hindi pinagana, ang mga tab mula sa lahat ng mga window ay ipapakita"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Ipakita ang mga naka-pin na tab bilang mga icon",
+        "description": "Kapag pinagana, ang mga naka-pin na tab ay ipapakita bilang mga icon at hindi sa listahan"
+      },
+      "pinToQuickAccess": {
+        "label": "Ipakita ang mabilis na pag-access",
+        "description": "Maaari mong itakda ang isang tab upang ipakita sa Mabilis na pag-access upang madali itong mahanap. I-right-click (o long-press) lamang ito at piliin ang Pin sa Mabilis na pag-access. I-unpin ito kapag hindi mo na kailangan doon sa pamamagitan ng pag-right-click (o long-press) at pagpili ng Tanggalin mula sa Mabilis na pag-access. Ang pagkakaiba mula sa mga naka-pin na tab ay ang Mabilis na Pag-access ay nagse-save ng URL at nagbubukas ng bagong tab sa tuwing ito ay na-click."
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Ipakita ang mga icon ng website kapag nag-collapse ng mga grupo",
+        "description": "Kapag pinagana, ang mga nag-collapse na grupo ay magpapakita ng mga icon ng tab"
+      },
+      "hoverPreview": {
+        "label": "Hover preview",
+        "description": "Kapag pinagana, ang pag-hover sa mga tab ay magpapakita ng mga preview ng tab"
+      },
+      "previewWithThumbnail": {
+        "label": "Ipakita ang mga thumbnail sa preview",
+        "description": "Kapag pinagana, ang mga preview ay magpapakita ng mga thumbnail ng tab",
+        "alert": "I-capture ang nakikitang bahagi ng kasalukuyang aktibong tab sa isang tinukoy na window. Upang tawagin ang pamamaraang ito, ang extension ay dapat magkaroon ng <all_urls> na pahintulot o activeTab na pahintulot.",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya't ang mga setting ay hindi nagbago. Kung magbago ang iyong isip, mangyaring i-click muli at payagan ang awtorisasyon"
+      },
+      "previewDelay": {
+        "label": "Pagkaantala ng preview",
+        "description": "Itakda ang oras ng pagkaantala para sa mga preview ng tab kapag nag-hover sa mga tab, atbp. (segundo). Kung itatakda sa 0, walang pagkaantala",
+        "seconds": "Segundo"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "I-save ang kamakailang mga tab na isinara",
+        "description": "Kapag pinagana, i-save ang kamakailang mga tab na isinara"
+      },
+      "dataSource": {
+        "label": "Pinagmulan ng data",
+        "description": "Piliin ang pinagmulan ng data",
+        "recentlyClosedTabs": "Kamakailang mga tab na isinara",
+        "chromeHistory": "Kasaysayan ng Chrome",
+        "alert": "Upang maghanap ng mga tala ng kasaysayan, kailangan ang iyong awtorisasyon upang paganahin",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya't ang mga setting ay hindi nagbago. Kung magbago ang iyong isip, mangyaring i-click muli at payagan ang awtorisasyon"
+      },
+      "showInSidePanel": {
+        "label": "Ipakita sa side panel",
+        "description": "Kapag pinagana, ipakita sa side panel"
+      },
+      "showInTabSearchResults": {
+        "label": "Ipakita ang kasaysayan sa mga resulta ng paghahanap ng tab",
+        "description": "Kapag pinagana, ang mga kamakailang tala ng kasaysayan ay ipapakita sa mga resulta ng paghahanap ng tab"
+      },
+      "limitSearchResults": {
+        "label": "Limitahan ang bilang ng mga tala ng kasaysayan sa mga resulta ng paghahanap ng tab",
+        "description": "Itakda ang limitasyon ng bilang ng mga tala ng kasaysayan sa mga resulta ng paghahanap ng tab. Ang mga tala ng kasaysayan na lumampas sa limitasyon ay mai-filter",
+        "alert": "Ang sobrang dami ng mga tala ay makakaapekto sa bilis ng pag-load ng pahina"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Bilang ng mga kamakailang tab na isinara na itatago",
+        "description": "Itakda ang bilang ng mga kamakailang tab na isinara na itatago"
+      },
+      "keepDays": {
+        "label": "Bilang ng mga araw na itatago ang kamakailang mga tab na isinara",
+        "description": "Itakda ang bilang ng mga araw na itatago ang kamakailang mga tab na isinara. Ang mga nag-expire na data ay tatanggalin",
+        "days": "Araw"
+      },
+      "openDuration": {
+        "label": "Tagal ng pagbubukas",
+        "description": "Tanging mga tab na bukas nang mas matagal kaysa sa itinakdang oras ang mase-save",
+        "seconds": "Segundo"
+      }
+    },
+    "shortcuts": {
+      "alert": "Ang pahinang ito ay para lamang sa pagpapakita. Upang baguhin ang mga shortcut, mangyaring bisitahin ang [Mga Extension]->[Pamahalaan ang Mga Extension]->[Mga Shortcut sa Keyboard]",
+      "goToBrowserSettings": "Pumunta sa mga setting ng Chrome",
+      "_execute_action": "Isaaktibo ang extension na ito",
+      "openSidePanel": "Buksan ang side panel"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Larawan-sa-larawan",
+      "tabSwitch": {
+        "label": "PIP sa Paglipat ng Tab",
+        "description": "Awtomatikong pumasok sa PIP kapag lumilipat ng mga tab na may hindi naka-mute na video",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "scrollSwitch": {
+        "label": "Lumipat sa larawan-sa-larawan kapag nag-scroll",
+        "description": "Kung ang kasalukuyang pahina ay nagpe-play ng video at ang video ay hindi naka-mute at ang video ay wala sa nakikitang saklaw kapag nag-scroll, ito ay papasok sa larawan-sa-larawan.",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Kinakailangan ang pag-activate ng user",
+      "tips_1": "Ang pag-activate ng user ay nangangahulugang ang user ay kasalukuyang nakikipag-ugnayan sa pahina",
+      "tips_2": "Mas partikular, ang pag-activate ay nagti-trigger ng mga input event tulad ng:",
+      "tips_3": "Tandaan: Ang paggamit ng mouse wheel scroll o swipe gesture ay hindi magti-trigger!",
+      "tips_4": "Kung nais mo ng karagdagang detalye, mangyaring bisitahin:",
+      "click": "I-click",
+      "contextmenu": "Right-click menu",
+      "dblclick": "Double-click"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Pag-uugali ng pag-collapse ng tab group",
+        "description": "Baguhin ang pag-uugali ng pag-collapse ng tab group sa Chrome browser",
+        "option_collapse_others": "Ipakita ang kasalukuyang grupo at i-collapse ang iba",
+        "option_disable": "I-expand ang lahat ng grupo",
+        "option_auto": "Gamitin ang default na mga setting ng Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Awtomatikong lumikha o sumali sa parehong domain group",
+        "description": "Kapag pinagana, ang mga bagong bukas na tab ay awtomatikong sasali sa parehong domain group. Kung ang domain group ay hindi umiiral, isang bagong domain group ang malilikha",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "I-filter ang mga naka-pin na tab sa mga grupo",
+        "description": "Kapag pinagana, ang mga naka-pin na tab ay hindi idaragdag sa mga grupo",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Paganahin ang progress bar",
+        "description": "Kapag pinagana, isang reading progress bar ang ipapakita sa ibaba ng tab title bar",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "Kapag pinagana, isang reading progress bar ang ipapakita sa ibaba ng tab title bar",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "scrollHeightRatio": {
+        "label": "Scroll height ratio",
+        "description": "Ang ratio ng nakikitang taas ng window sa taas ng pahina. Isang progress bar ang ipapakita kapag lumampas sa ratio",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "Kapag pinagana, isang playing progress bar ang ipapakita sa ibaba ng tab title bar",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Paganahin ang float ball",
+        "description": "Kapag sarado ang side panel, isang float ball ang ipapakita sa kanang bahagi ng pahina, na nagpapahintulot ng mabilis na pagbukas ng side panel."
+      }
+    },
+    "performance": {
+      "label": "Pagganap",
+      "saveMemoryAction": {
+        "label": "Paano mag-save ng memorya sa mga tab",
+        "description": "Upang mag-save ng memorya sa mga tab, maaari mong piliing isara ang mga tab o i-discard ang mga tab.",
+        "discardTips": "Ang isang discarded na tab ay hindi pupunta kahit saan. Pinapatay namin ito ngunit nakikita pa rin ito sa Chrome tab strip. Kung babalik ka sa isang tab na na-discard, magre-reload ito kapag na-click. Ang nilalaman ng form, posisyon ng scroll at iba pa ay nai-save at naibabalik sa parehong paraan tulad ng sa forward/backward na pag-navigate ng tab.",
+        "disabled": "Hindi pinagana",
+        "closeTabs": "Isara ang mga tab",
+        "discardTabs": "I-discard ang mga tab"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Gaano katagal bago i-discard ang mga hindi aktibong tab",
+        "description": "Kapag walang audio o video na pinapatugtog sa tab at hindi ipinagbabawal ang awtomatikong pag-discard, ang tab ay i-discard pagkatapos ng tinukoy na oras.",
+        "minutes": "Minuto"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Gaano katagal bago isara ang mga hindi aktibong tab",
+        "description": "Kapag walang audio o video na pinapatugtog sa tab at hindi ipinagbabawal ang awtomatikong pag-discard, ang tab ay isasara pagkatapos ng tinukoy na oras.",
+        "minutes": "Minuto"
+      },
+      "disableAnimations": {
+        "label": "I-disable ang mga animation",
+        "description": "I-disable ang ripple effect at i-disable ang lahat ng transitions"
+      }
+    },
+    "site": {
+      "label": "Mga setting ng site",
+      "allSites": "Lahat ng site",
+      "sortBy": "Ayusin ayon sa",
+      "mostVisited": "Pinakabinibisita",
+      "dataStored": "Nakaimbak na data",
+      "name": "Pangalan",
+      "deleteAllData": "Tanggalin ang lahat ng data",
+      "totalStorageUsedBySites": "Kabuuang storage na ginagamit ng mga site",
+      "totalCount": "Kabuuang bilang",
+      "addNewSite": {
+        "label": "Magdagdag ng bagong site",
+        "description": "Ilagay ang bagong address ng website, tulad ng 'www.example.com', at i-click ang 'Magdagdag'.",
+        "placeholder": "Address ng website, tulad ng 'www.example.com'",
+        "add": "Magdagdag",
+        "cancel": "Kanselahin",
+        "invalidDomain": "Hindi wastong address ng website"
+      },
+      "browserSettings": {
+        "label": "Mga setting ng browser",
+        "description": "Maaari mong baguhin ang mga setting ng site, tulad ng pagtanggal ng data o pagbabago ng mga pahintulot ng site.",
+        "goToBrowserSettings": "Pumunta sa mga setting ng browser"
+      },
+      "autoDiscardable": {
+        "label": "Awtomatikong na-discard",
+        "description": "Kapag pinagana, ang tab ay papayagang ma-discard ng browser, at kung i-on mo ang pagganap at itakda ang oras upang i-discard ang mga hindi aktibong tab, ang tab ay i-discard pagkatapos ng tinukoy na oras. Kung hindi pinagana, ang tab ay hindi ma-discard"
+      },
+      "readingProgressBar": {
+        "label": "Reading progress bar",
+        "description": "Kapag pinagana, isang reading progress bar ang ipapakita sa ibaba ng tab title bar.",
+        "globaldisabledTips": "Kailangan mong i-on ang reading progress bar sa global settings upang mabago ang setting na ito."
+      },
+      "playingProgressBar": {
+        "label": "Playing progress bar",
+        "description": "Kapag pinagana, isang playing progress bar ang ipapakita sa ibaba ng tab title bar.",
+        "globaldisabledTips": "Kailangan mong i-on ang playing progress bar sa global settings upang mabago ang setting na ito."
+      },
+      "tabSwitchPip": {
+        "label": "PIP sa Paglipat ng Tab",
+        "description": "Kapag pinagana, awtomatikong pumasok sa Picture-in-picture kapag lumilipat ng mga tab na may hindi naka-mute na video.",
+        "globaldisabledTips": "Kailangan mong i-on ang Picture-in-picture sa global settings upang mabago ang setting na ito."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "I-clear ang kasaysayan pagkatapos isara",
+        "description": "Kapag pinagana, ang kasaysayan ay i-clear pagkatapos isara ang tab."
+      },
+      "SyncTabs": {
+        "label": "I-sync ang mga tab",
+        "description": "Piliin kung paano i-sync ang data ng tab, hindi kasama ang pribadong data tulad ng cookies at personal na impormasyon.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync",
+        "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings upang mabago ang setting na ito."
+      },
+      "SyncPrivateData": {
+        "label": "I-sync ang pribadong data",
+        "description": "Piliin kung paano i-sync ang pribadong data, tulad ng cookies ng website, data ng localstorage ng web page, data ng SessionStorage, atbp. Ang data ay ie-encrypt bago i-sync.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync",
+        "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings upang mabago ang setting na ito."
+      }
+    },
+    "SyncToCloud": {
+      "label": "I-sync sa cloud",
+      "SyncNow": "I-sync Ngayon",
+      "SyncNowWithGoogleDrive": "I-sync Ngayon gamit ang Google Drive",
+      "SyncNowWithDropbox": "I-sync Ngayon gamit ang Dropbox",
+      "SyncNowWithOneDrive": "I-sync Ngayon gamit ang OneDrive",
+      "Synchronizing": "Nagsi-sync...",
+      "SyncedSuccessfully": "Matagumpay na na-sync",
+      "SyncFailed": "Nabigo ang pag-sync",
+      "LoginRequired": "Kinakailangan ang pag-login",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "I-sync ang mga config",
+        "description": "Piliin kung paano i-sync ang mga configuration ng extension na ito.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync"
+      },
+      "SyncTabs": {
+        "label": "I-sync ang mga tab",
+        "description": "Piliin kung paano i-sync ang data ng tab, hindi kasama ang pribadong data tulad ng cookies at personal na impormasyon.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Buksan o isara ang mga tab nang sabay-sabay",
+        "description": "Kapag pinagana, ang pagbukas o pagsara ng mga tab sa iba't ibang browser ay mase-sync. Nalalapat lamang ito kapag aktibo ang opsyong 'manatiling naka-sync'",
+        "OpenOrCloseTabsSynchronouslyWarning": "Kung mag-log in ka sa parehong account sa dalawang browser nang sabay-sabay at i-on ang opsyong ito, ang pagbukas o pagsara ng mga tab sa isang browser ay gagawin din sa kabilang browser. Kung ipinagbabawal ng website ang paulit-ulit na pag-login gamit ang parehong account, maaaring maganap ang mga eksepsiyon."
+      },
+      "SyncPrivateData": {
+        "label": "I-sync ang pribadong data",
+        "description": "Piliin kung paano i-sync ang pribadong data, tulad ng cookies ng website, data ng localstorage ng web page, data ng SessionStorage, atbp. Ang data ay ie-encrypt bago i-sync.",
+        "disabled": "Hindi pinagana",
+        "uploadOnly": "I-upload lamang",
+        "downloadOnly": "I-download lamang",
+        "staySynchronized": "Manatiling naka-sync"
+      }
+    }
+      }
+    }
+

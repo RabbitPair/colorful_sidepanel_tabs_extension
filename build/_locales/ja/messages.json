@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "カラフルなサイドバータブ管理"
+    "message": "カラフルなサイドパネルタブ"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "サイドパネルでタブを管理、良すぎて綺麗すぎる。"
+    "message": "サイドパネルでブラウザタブを管理する"
   },
   "openSidePanel": {
     "message": "サイドパネルを開く"

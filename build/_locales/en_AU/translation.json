@@ -73,7 +73,8 @@
     "ExitPip": "Exit Picture-in-Picture",
     "EnableSiteTabSwitchPip": "Enable PIP when switching tabs for this site",
     "DisableSiteTabSwitchPip": "Disable PIP when switching tabs for this site",
-    "RemoveFromGroup": "Remove from Group"
+    "RemoveFromGroup": "Remove from Group",
+    "PinToQuickAccess": "Pin to Quick Access"
   },
   "groupMenu": {
     "RenameGroup": "Rename Group",
@@ -93,6 +94,18 @@
   "RemoveDuplicateTabs": "Remove {{count}} Duplicate Tabs",
   "NoDuplicateTabs": "No Duplicate Tabs",
   "DuplicateTabsRemoved": "Duplicate Tabs Removed",
+  "DiscardInactiveTabs": "Discard Inactive Tabs",
+  "CloseAllDiscardedTabs": "Close All Discarded Tabs",
+  "Changelog": "Changelog",
+  "Delete": "Delete",
+  "Edit": "Edit",
+  "Save": "Save",
+  "Cancel": "Cancel",
+  "OpenInNewTab": "Open in new tab",
+  "OpenInNewWindow": "Open in new window",
+  "OpenInIncognitoWindow": "Open in incognito window",
+  "Name": "Name",
+  "URL": "URL",
   "GroupBySite": "Group by Site",
   "UngroupAll": "Ungroup All",
   "RateExtension": "Rate Extension",

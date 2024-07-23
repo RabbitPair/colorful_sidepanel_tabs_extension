@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Önizleme için yan paneli aç",
+  "OpenSidePanelToPreview": "Önizleme için yan paneli aç",
   "_execute_action": "Bu uzantıyı etkinleştir",
   "openSidePanel": "Yan paneli aç",
   "settings": {
@@ -12,7 +12,7 @@
       "shortcuts": "Kısayollar",
       "pip": "Resim içinde resim",
       "chromeTabGroupAdvanced": "Gelişmiş sekme grupları",
-      "progressBar": "ilerleme çubuğu",
+      "progressBar": "İlerleme çubuğu",
       "floatBall": "Yüzen top",
       "experimentalFeatures": "Deneysel özellikler"
     },
@@ -37,22 +37,23 @@
         "large": "Büyük"
       },
       "fontFamily": {
-        "label": "Yazı Ailesi",
-        "description": "Yazı ailesini ayarla"
+        "label": "Yazı tipi ailesi",
+        "description": "Yazı tipi ailesini ayarla"
       },
       "fontColor": {
-        "label": "Yazı Rengi",
-        "description": "Yazı rengini ayarla"
+        "label": "Yazı tipi rengi",
+        "description": "Yazı tipi rengini ayarla"
       },
       "fontWeight": {
-        "label": "Yazı Yoğunluğu",
-        "description": "Yazı yoğunluğunu ayarla"
+        "label": "Yazı tipi kalınlığı",
+        "description": "Yazı tipi kalınlığını ayarla"
       },
       "extAction": {
-        "label": "Uzantı simgesine tıklama eylemi",
+        "label": "Uzantı simgesi tıklama eylemi",
         "description": "Uzantı simgesine tıklama eylemini ayarla",
         "openPopup": "Açılır pencereyi aç",
-        "openSidePanel": "Yan paneli aç"
+        "openSidePanel": "Yan paneli aç",
+        "SmallWindowAlert": "Yan panel çok fazla yer kaplıyorsa, açılır pencere kullanmanız önerilir"
       },
       "SidePanelPosition": {
         "label": "Yan panel konumu",
@@ -81,12 +82,12 @@
         "right": "Sağ"
       },
       "alwaysShowCloseButton": {
-        "label": "Her zaman kapatma düğmesini göster",
-        "description": "Etkinleştirildiğinde, kapatma düğmesi her zaman görünecek; devre dışı bırakıldığında, kapatma düğmesi yalnızca fare sekmenin üzerine geldiğinde görünecektir"
+        "label": "Kapat düğmesini her zaman göster",
+        "description": "Etkinleştirildiğinde, kapatma düğmesi her zaman gösterilir; devre dışı bırakıldığında, kapatma düğmesi yalnızca fare sekmenin üzerine geldiğinde gösterilir"
       },
       "fullScreenHideSidePanel": {
         "label": "Tam ekranda yan paneli gizle",
-        "description": "Etkinleştirildiğinde, sayfa tam ekranda olduğunda yan panel otomatik olarak gizlenecek. Chrome'un sınırlamaları nedeniyle, yan panel otomatik olarak yeniden açılamaz. Yan paneli manuel olarak yeniden açmanız gerekir!"
+        "description": "Etkinleştirildiğinde, sayfa tam ekranda olduğunda yan panel otomatik olarak gizlenir. Chrome'un sınırlamaları nedeniyle, yan panel otomatik olarak yeniden açılamaz. Yan paneli manuel olarak yeniden açmanız gerekir!"
       }
     },
     "beautify": {
@@ -114,7 +115,7 @@
       },
       "backgroundImageBrightness": {
         "label": "Parlaklık",
-        "description": "Parlaklığı ayarla, sadece karanlık mod için önerilir"
+        "description": "Parlaklığı ayarla, yalnızca koyu mod için önerilir"
       },
       "listBackgroundStyle": {
         "label": "Liste arka plan stili",
@@ -142,7 +143,7 @@
       },
       "fluentOverlayScrollbars": {
         "label": "Akıcı kaydırma çubukları",
-        "description": "Microsoft Fluent tasarım stili kaydırma çubuklarını kullanın ve bunları web içeriği üzerine yerleştirin",
+        "description": "Microsoft Fluent tasarım stili kaydırma çubuklarını kullanın ve bunları web içeriğinin üzerine yerleştirin",
         "goToBrowserSettings": "Chrome ayarlarına git"
       }
     },
@@ -162,34 +163,38 @@
         "description": "Sıralama şeklini değiştir"
       },
       "showFullUrl": {
-        "label": "Tam URL'yi Göster",
-        "description": "Etkinleştirildiğinde, tam URL sekme başlığının altında gösterilecektir"
+        "label": "Tam URL'yi göster",
+        "description": "Etkinleştirildiğinde, sekme başlığının altında tam URL gösterilecek"
       },
       "currentWindowOnly": {
         "label": "Yalnızca geçerli pencere",
-        "description": "Yalnızca geçerli pencerenin sekmelerini göster. Devre dışı bırakılırsa, tüm pencerelerin sekmeleri gösterilir"
+        "description": "Yalnızca geçerli pencerenin sekmelerini göster. Devre dışı bırakıldığında, tüm pencerelerin sekmeleri gösterilecek"
       },
       "pinedTabsAsIcons": {
         "label": "Sabitlenmiş sekmeleri simge olarak göster",
-        "description": "Etkinleştirildiğinde, sabitlenmiş sekmeler simge olarak gösterilecek ve listede yer almayacak"
+        "description": "Etkinleştirildiğinde, sabitlenmiş sekmeler liste yerine simge olarak gösterilecek"
+      },
+      "pinToQuickAccess": {
+        "label": "Hızlı erişimi göster",
+        "description": "Bir sekmeyi Hızlı erişimde gösterecek şekilde ayarlayabilirsiniz, böylece kolayca bulunabilir. Sağ tıklayın (veya uzun basın) ve Hızlı erişime sabitle'yi seçin. Artık orada olmasına gerek kalmadığında, sağ tıklayarak (veya uzun basarak) ve Hızlı erişimden sil'i seçerek sabitlemeyi kaldırın. Sabitlenmiş sekmelerden farkı, Hızlı Erişim'in URL'yi kaydetmesi ve her tıklamada yeni bir sekme açmasıdır."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Grupları daraltırken web sitesi simgelerini göster",
+        "label": "Gruplar daraltıldığında web sitesi simgelerini göster",
         "description": "Etkinleştirildiğinde, daraltılmış gruplar sekme simgelerini gösterecek"
       },
       "hoverPreview": {
-        "label": "Üzerine gelince önizleme",
+        "label": "Üzerine gelindiğinde önizleme",
         "description": "Etkinleştirildiğinde, sekmelerin üzerine gelindiğinde sekme önizlemeleri gösterilecek"
       },
       "previewWithThumbnail": {
         "label": "Önizlemede küçük resimleri göster",
         "description": "Etkinleştirildiğinde, önizlemeler sekme küçük resimlerini gösterecek",
-        "alert": "Belirtilen pencerede şu anda etkin olan sekmenin görünen alanını yakalayın. Bu yöntemi çağırmak için uzantının <all_urls> iznine veya activeTab iznine sahip olması gerekir.",
+        "alert": "Belirtilen pencerede şu anda aktif olan sekmenin görünen alanını yakalayın. Bu yöntemi çağırmak için uzantının <all_urls> iznine veya activeTab iznine sahip olması gerekir.",
         "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin"
       },
       "previewDelay": {
         "label": "Önizleme gecikmesi",
-        "description": "Sekmelerin üzerine gelindiğinde sekme önizlemeleri için gecikme süresini ayarla (saniye). 0 olarak ayarlanırsa, gecikme olmaz",
+        "description": "Sekmelerin üzerine gelindiğinde vb. sekme önizlemeleri için gecikme süresini ayarla (saniye). 0 olarak ayarlanırsa, gecikme olmaz",
         "seconds": "Saniye"
       }
     },
@@ -203,7 +208,7 @@
         "description": "Veri kaynağını seç",
         "recentlyClosedTabs": "Son kapatılan sekmeler",
         "chromeHistory": "Chrome geçmişi",
-        "alert": "Geçmiş kayıtlarını aramak için yetkilendirmenize ihtiyaç var",
+        "alert": "Geçmiş kayıtlarını aramak için yetkilendirmenizi etkinleştirmeniz gerekir",
         "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin"
       },
       "showInSidePanel": {
@@ -220,8 +225,8 @@
         "alert": "Çok fazla kayıt sayfa yükleme hızını etkiler"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Kaydedilecek son kapatılan sekme sayısı",
-        "description": "Kaydedilecek son kapatılan sekme sayısını ayarla"
+        "label": "Saklanacak son kapatılan sekme sayısı",
+        "description": "Saklanacak son kapatılan sekme sayısını ayarla"
       },
       "keepDays": {
         "label": "Son kapatılan sekmeleri saklama süresi (gün)",
@@ -230,7 +235,7 @@
       },
       "openDuration": {
         "label": "Açık kalma süresi",
-        "description": "Belirtilen süreden daha uzun süre açık kalan sekmeler kaydedilecek",
+        "description": "Yalnızca belirlenen süreden daha uzun süre açık kalan sekmeler kaydedilecek",
         "seconds": "Saniye"
       }
     },
@@ -244,22 +249,22 @@
       "Picture-in-picture": "Resim içinde resim",
       "tabSwitch": {
         "label": "Sekme Değiştirmede PIP",
-        "description": "Sesli bir video ile sekme değiştirirken otomatik olarak PIP moduna geç",
+        "description": "Sekmeler arasında geçiş yaparken sesi kapatılmamış bir video olduğunda otomatik olarak PIP'ye gir",
         "enabled": "Etkin",
         "disabled": "Devre dışı"
       },
       "scrollSwitch": {
-        "label": "Kaydırırken resim içinde resim moduna geç",
-        "description": "Geçerli sayfa bir video oynatıyorsa ve video sessize alınmamışsa ve kaydırma sırasında video görünür alandan çıkarsa, resim içinde resim moduna geçer.",
+        "label": "Kaydırırken resim içinde resime geç",
+        "description": "Geçerli sayfa bir video oynatıyorsa ve video sesi kapatılmamışsa ve kaydırma sırasında video görünür alanın dışına çıkarsa, resim içinde resime geçer.",
         "enabled": "Etkin",
         "disabled": "Devre dışı"
       }
     },
     "userActivitionAlert": {
       "title": "Kullanıcı etkinleştirmesi gerekli",
-      "tips_1": "Kullanıcı etkinleştirmesi, kullanıcının şu anda sayfa ile etkileşimde olduğunu gösterir",
-      "tips_2": "Daha spesifik olarak, etkinleştirme şu giriş olaylarını tetikler:",
-      "tips_3": "Not: Fare tekerleği kaydırma veya kaydırma hareketi kullanmak tetiklemeyecektir!",
+      "tips_1": "Kullanıcı etkinleştirmesi, kullanıcının şu anda sayfa ile etkileşimde olduğu anlamına gelir",
+      "tips_2": "Daha spesifik olarak, etkinleştirme aşağıdaki gibi giriş olaylarını tetikler:",
+      "tips_3": "Not: Fare tekerleği kaydırma veya kaydırma hareketi tetiklenmeyecek!",
       "tips_4": "Daha fazla ayrıntı isterseniz, lütfen ziyaret edin:",
       "click": "Tıklama",
       "contextmenu": "Sağ tıklama menüsü",
@@ -268,14 +273,14 @@
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
         "label": "Sekme grubu daraltma davranışı",
-        "description": "Chrome tarayıcı sekme grubu daraltma davranışını değiştir",
+        "description": "Chrome tarayıcı sekme grubu daraltma davranışını değiştirin",
         "option_collapse_others": "Mevcut grubu göster ve diğerlerini daralt",
         "option_disable": "Tüm grupları genişlet",
         "option_auto": "Chrome varsayılan ayarlarını kullan"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Aynı alan adı grubunu otomatik oluştur veya katıl",
-        "description": "Etkinleştirildiğinde, yeni açılan sekmeler otomatik olarak aynı alan adı grubuna katılacak. Alan adı grubu yoksa, yeni bir alan adı grubu oluşturulacak",
+        "label": "Aynı alan grubu otomatik oluştur veya katıl",
+        "description": "Etkinleştirildiğinde, yeni açılan sekmeler otomatik olarak aynı alan grubuna katılacak. Alan grubu yoksa, yeni bir alan grubu oluşturulacak",
         "enabled": "Etkin",
         "disabled": "Devre dışı"
       },
@@ -321,26 +326,26 @@
     "performance": {
       "label": "Performans",
       "saveMemoryAction": {
-        "label": "Hafızayı sekmelerde nasıl saklayabilirsiniz",
-        "description": "Hafızayı sekmelerde saklamak için sekmeleri kapatmayı veya sekmeleri atmayı seçebilirsiniz.",
-        "discardTips": "atılan bir sekme hiçbir yere gitmez. Onu öldürürüz ama hala Chrome sekme şeridinde görünür. Atılan bir sekmeye geri dönerseniz, tıkladığınızda yeniden yüklenecektir. Form içeriği, kaydırma konumu ve benzeri şeyler, ileri/geri sekme gezinmesi sırasında olduğu gibi aynı şekilde kaydedilir ve geri yüklenir.",
+        "label": "Sekmelerde belleği nasıl tasarruf edersiniz",
+        "description": "Sekmelerde belleği tasarruf etmek için sekmeleri kapatmayı veya sekmeleri atmayı seçebilirsiniz.",
+        "discardTips": "Atılan bir sekme hiçbir yere gitmez. Onu öldürürüz ama hala Chrome sekme şeridinde görünür. Atılan bir sekmeye geri döndüğünüzde, tıklandığında yeniden yüklenir. Form içeriği, kaydırma konumu vb. ileri/geri sekme gezintisi sırasında kaydedilir ve geri yüklenir.",
         "disabled": "Devre dışı",
         "closeTabs": "Sekmeleri kapat",
         "discardTabs": "Sekmeleri at"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Etkin olmayan sekmeleri ne kadar süreyle atmalı",
-        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme atılacaktır.",
+        "label": "Etkin olmayan sekmeleri ne kadar süre sonra atılacak",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süre sonra sekme atılacak.",
         "minutes": "Dakika"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Etkin olmayan sekmeleri ne kadar süreyle kapatmalı",
-        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süreden sonra sekme kapatılacaktır.",
+        "label": "Etkin olmayan sekmeleri ne kadar süre sonra kapatılacak",
+        "description": "Sekmede ses veya video oynatılmadığında ve otomatik atma yasaklanmadığında, belirtilen süre sonra sekme kapatılacak.",
         "minutes": "Dakika"
       },
       "disableAnimations": {
         "label": "Animasyonları devre dışı bırak",
-        "description": "dalgalanma efektini devre dışı bırak ve tüm geçişleri devre dışı bırak"
+        "description": "Dalga efektini devre dışı bırak ve tüm geçişleri devre dışı bırak"
       }
     },
     "site": {
@@ -350,12 +355,12 @@
       "mostVisited": "En çok ziyaret edilen",
       "dataStored": "Depolanan veri",
       "name": "Ad",
-      "deleteAllData": "Tüm veriyi sil",
+      "deleteAllData": "Tüm verileri sil",
       "totalStorageUsedBySites": "Siteler tarafından kullanılan toplam depolama",
       "totalCount": "Toplam sayı",
       "addNewSite": {
         "label": "Yeni site ekle",
-        "description": "Yeni bir web sitesi adresi girin, örneğin 'www.example.com', ve 'Ekle' düğmesine tıklayın.",
+        "description": "Yeni bir web sitesi adresi girin, örneğin 'www.example.com', ve 'Ekle'ye tıklayın.",
         "placeholder": "Web sitesi adresi, örneğin 'www.example.com'",
         "add": "Ekle",
         "cancel": "İptal",
@@ -363,92 +368,92 @@
       },
       "browserSettings": {
         "label": "Tarayıcı ayarları",
-        "description": "Verileri silme veya site izinlerini değiştirme gibi site ayarlarını değiştirebilirsiniz.",
+        "description": "Site ayarlarını değiştirebilir, verileri silebilir veya site izinlerini değiştirebilirsiniz.",
         "goToBrowserSettings": "Tarayıcı ayarlarına git"
       },
       "autoDiscardable": {
         "label": "Otomatik atılabilir",
-        "description": "Etkinleştirildiğinde, sekme tarayıcı tarafından atılmasına izin verilecek ve performansı açarsanız ve etkin olmayan sekmeleri atma süresini ayarlarsanız, belirtilen süre sonunda sekme atılacaktır. Devre dışı bırakıldığında sekme atılmayacaktır"
+        "description": "Etkinleştirildiğinde, sekmenin tarayıcı tarafından atılmasına izin verilecek ve performansı açarsanız ve etkin olmayan sekmeleri atma süresini ayarlarsanız, belirtilen süre sonra sekme atılacak. Devre dışı bırakıldığında, sekme atılmayacak"
       },
       "readingProgressBar": {
         "label": "Okuma ilerleme çubuğu",
         "description": "Etkinleştirildiğinde, sekme başlık çubuğunun altında bir okuma ilerleme çubuğu görüntülenecek.",
-        "globaldisabledTips": "Bu ayarı değiştirmek için genel ayarlarda okuma ilerleme çubuğunu etkinleştirmeniz gerekmektedir."
+        "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda okuma ilerleme çubuğunu açmalısınız."
       },
       "playingProgressBar": {
         "label": "Oynatma ilerleme çubuğu",
         "description": "Etkinleştirildiğinde, sekme başlık çubuğunun altında bir oynatma ilerleme çubuğu görüntülenecek.",
-        "globaldisabledTips": "Bu ayarı değiştirmek için genel ayarlarda oynatma ilerleme çubuğunu etkinleştirmeniz gerekmektedir."
+        "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda oynatma ilerleme çubuğunu açmalısınız."
       },
       "tabSwitchPip": {
-        "label": "Tablo Değişiminde PIP",
-        "description": "Etkinleştirildiğinde, sesi kapatılmamış bir video ile sekmeler arasında geçiş yaparken Otomatik olarak Resim-içinde-resim'e girilir.",
-        "globaldisabledTips": "Bu ayarı değiştirmek için genel ayarlarda Resim-içinde-resim'i etkinleştirmeniz gerekmektedir."
+        "label": "Sekme Değiştirmede PIP",
+        "description": "Etkinleştirildiğinde, sesi kapatılmamış bir video ile sekmeler arasında geçiş yaparken otomatik olarak Resim içinde resime girer.",
+        "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda Resim içinde resimi açmalısınız."
       },
       "clearHistoyAfterCLose": {
-        "label": "Kapatmadan sonra geçmişi temizle",
-        "description": "Etkinleştirildiğinde, sekme kapatıldıktan sonra geçmiş temizlenecektir."
+        "label": "Kapattıktan sonra geçmişi temizle",
+        "description": "Etkinleştirildiğinde, sekme kapatıldıktan sonra geçmiş temizlenecek."
       },
       "SyncTabs": {
         "label": "Sekmeleri senkronize et",
-        "description": "Çerezler ve kişisel bilgiler gibi özel verileri hariç tutarak sekmelerin verilerini nasıl senkronize edeceğinizi seçin.",
+        "description": "Çerezler ve kişisel bilgiler gibi özel veriler hariç sekme verilerini nasıl senkronize edeceğinizi seçin.",
         "disabled": "Devre dışı",
         "uploadOnly": "Yalnızca yükle",
         "downloadOnly": "Yalnızca indir",
         "staySynchronized": "Senkronize kal",
-        "globaldisabledTips": "Bu ayarı değiştirmek için Genel Ayarlar'da senkronizasyonu etkinleştirmeniz gerekmektedir."
+        "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda senkronizasyonu açmalısınız."
       },
       "SyncPrivateData": {
         "label": "Özel verileri senkronize et",
-        "description": "Web sitesi çerezleri, web sayfası yerel depolama verileri, SessionStorage verileri vb. gibi özel verileri nasıl senkronize edeceğinizi seçin. Veriler senkronizasyon öncesinde şifrelenir.",
+        "description": "Web sitesi çerezleri, web sayfası yerel depolama verileri, SessionStorage verileri vb. gibi özel verileri nasıl senkronize edeceğinizi seçin. Veriler senkronizasyon öncesinde şifrelenecek.",
         "disabled": "Devre dışı",
         "uploadOnly": "Yalnızca yükle",
         "downloadOnly": "Yalnızca indir",
         "staySynchronized": "Senkronize kal",
-        "globaldisabledTips": "Bu ayarı değiştirmek için Genel Ayarlar'da senkronizasyonu etkinleştirmeniz gerekmektedir."
+        "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda senkronizasyonu açmalısınız."
       }
     },
     "SyncToCloud": {
-      "label": "Buluta Senkronize Et",
-      "SyncNow": "Şimdi Senkronize Et",
-      "SyncNowWithGoogleDrive": "Google Drive ile Şimdi Senkronize Et",
-      "SyncNowWithDropbox": "Dropbox ile Şimdi Senkronize Et",
-      "SyncNowWithOneDrive": "OneDrive ile Şimdi Senkronize Et",
-      "Synchronizing": "Senkronize Ediliyor...",
-      "SyncedSuccessfully": "Başarıyla Senkronize Edildi",
-      "SyncFailed": "Senkronizasyon Başarısız",
-      "LoginRequired": "Giriş Yapılması Gerekiyor",
+      "label": "Buluta senkronize et",
+      "SyncNow": "Şimdi senkronize et",
+      "SyncNowWithGoogleDrive": "Google Drive ile şimdi senkronize et",
+      "SyncNowWithDropbox": "Dropbox ile şimdi senkronize et",
+      "SyncNowWithOneDrive": "OneDrive ile şimdi senkronize et",
+      "Synchronizing": "Senkronize ediliyor...",
+      "SyncedSuccessfully": "Başarıyla senkronize edildi",
+      "SyncFailed": "Senkronizasyon başarısız oldu",
+      "LoginRequired": "Giriş gerekli",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Senkronizasyon Ayarları",
-        "description": "Bu uzantının yapılandırmalarını senkronize etme şeklini seçin.",
-        "disabled": "Devre Dışı",
-        "uploadOnly": "Yalnızca Yükle",
-        "downloadOnly": "Yalnızca İndir",
-        "staySynchronized": "Senkronize Kal"
+        "label": "Senkronizasyon yapılandırmaları",
+        "description": "Bu uzantının yapılandırmalarını nasıl senkronize edeceğinizi seçin.",
+        "disabled": "Devre dışı",
+        "uploadOnly": "Yalnızca yükle",
+        "downloadOnly": "Yalnızca indir",
+        "staySynchronized": "Senkronize kal"
       },
       "SyncTabs": {
-        "label": "Sekmeleri Senkronize Et",
-        "description": "Çerezler ve kişisel bilgiler gibi özel verileri hariç tutarak sekmelerin verilerini nasıl senkronize edeceğinizi seçin.",
-        "disabled": "Devre Dışı",
-        "uploadOnly": "Yalnızca Yükle",
-        "downloadOnly": "Yalnızca İndir",
-        "staySynchronized": "Senkronize Kal"
+        "label": "Sekmeleri senkronize et",
+        "description": "Çerezler ve kişisel bilgiler gibi özel veriler hariç sekme verilerini nasıl senkronize edeceğinizi seçin.",
+        "disabled": "Devre dışı",
+        "uploadOnly": "Yalnızca yükle",
+        "downloadOnly": "Yalnızca indir",
+        "staySynchronized": "Senkronize kal"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Sekmeleri Senkronize Aç veya Kapat",
-        "description": "Etkinleştirildiğinde, farklı tarayıcılarda sekmeleri açma veya kapatma işlemleri senkronize edilir. Bu yalnızca 'senkronize kal' seçeneği etkin olduğunda geçerlidir.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Aynı hesaba aynı anda iki tarayıcıda giriş yaparsanız ve bu seçeneği açarsanız, bir tarayıcıda sekmeleri açma veya kapatma işlemi diğer tarayıcıda da aynı şekilde gerçekleşir. Web sitesi aynı hesapla tekrarlı girişlere izin vermiyorsa, istisnalar oluşabilir."
+        "label": "Sekmeleri eşzamanlı olarak aç veya kapat",
+        "description": "Etkinleştirildiğinde, farklı tarayıcılarda sekme açma veya kapatma senkronize edilecek. Bu yalnızca 'senkronize kal' seçeneği etkin olduğunda geçerlidir",
+        "OpenOrCloseTabsSynchronouslyWarning": "Aynı anda iki tarayıcıda aynı hesaba giriş yaparsanız ve bu seçeneği açarsanız, bir tarayıcıda sekme açma veya kapatma diğer tarayıcıda aynı işlemi gerçekleştirecektir. Web sitesi aynı hesapla tekrar giriş yapmayı yasaklarsa, istisnalar meydana gelebilir."
       },
       "SyncPrivateData": {
-        "label": "Özel Verileri Senkronize Et",
-        "description": "Çerezler, web sayfası yerel depolama verileri, SessionStorage verileri vb. gibi web sitesi özel verilerini nasıl senkronize edeceğinizi seçin. Veriler senkronize edilmeden önce şifrelenir.",
-        "disabled": "Devre Dışı",
-        "uploadOnly": "Yalnızca Yükle",
-        "downloadOnly": "Yalnızca İndir",
-        "staySynchronized": "Senkronize Kal"
+        "label": "Özel verileri senkronize et",
+        "description": "Web sitesi çerezleri, web sayfası yerel depolama verileri, SessionStorage verileri vb. gibi özel verileri nasıl senkronize edeceğinizi seçin. Veriler senkronizasyon öncesinde şifrelenecek.",
+        "disabled": "Devre dışı",
+        "uploadOnly": "Yalnızca yükle",
+        "downloadOnly": "Yalnızca indir",
+        "staySynchronized": "Senkronize kal"
       }
     }
   }

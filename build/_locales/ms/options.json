@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Buka panel sisi untuk pratonton",
+  "OpenSidePanelToPreview": "Buka panel sisi untuk pratonton",
   "_execute_action": "Aktifkan sambungan ini",
   "openSidePanel": "Buka panel sisi",
   "settings": {
@@ -10,11 +10,11 @@
       "tabs": "Tab",
       "history": "Sejarah",
       "shortcuts": "Pintasan",
-      "pip": "Gambar-dalam-gambar",
+      "pip": "Gambar-dalam-Gambar",
       "chromeTabGroupAdvanced": "Kumpulan tab lanjutan",
-      "progressBar": "bilah kemajuan",
+      "progressBar": "Bar kemajuan",
       "floatBall": "Bola terapung",
-      "experimentalFeatures": "Ciri-ciri eksperimen"
+      "experimentalFeatures": "Ciri-ciri eksperimental"
     },
     "appearance": {
       "header": "Penampilan",
@@ -37,22 +37,23 @@
         "large": "Besar"
       },
       "fontFamily": {
-        "label": "Keluarga Font",
-        "description": "Tetapkan keluarga font"
+        "label": "Keluarga fon",
+        "description": "Tetapkan keluarga fon"
       },
       "fontColor": {
-        "label": "Warna Font",
-        "description": "Tetapkan warna font"
+        "label": "Warna fon",
+        "description": "Tetapkan warna fon"
       },
       "fontWeight": {
-        "label": "Ketebalan Font",
-        "description": "Tetapkan ketebalan font"
+        "label": "Ketebalan fon",
+        "description": "Tetapkan ketebalan fon"
       },
       "extAction": {
         "label": "Tindakan ikon sambungan klik",
         "description": "Tetapkan tindakan apabila mengklik ikon sambungan",
         "openPopup": "Buka popup",
-        "openSidePanel": "Buka panel sisi"
+        "openSidePanel": "Buka panel sisi",
+        "SmallWindowAlert": "Jika panel sisi mengambil terlalu banyak ruang, disarankan agar anda menggunakan tetingkap pop-up"
       },
       "SidePanelPosition": {
         "label": "Kedudukan panel sisi",
@@ -68,11 +69,11 @@
       },
       "toolbar": {
         "label": "Tunjukkan bar alat",
-        "description": "Apabila diaktifkan, bar alat dipaparkan"
+        "description": "Apabila diaktifkan, bar alat akan dipaparkan"
       },
       "bottomNav": {
         "label": "Tunjukkan bar navigasi bawah",
-        "description": "Apabila diaktifkan, bar navigasi bawah dipaparkan"
+        "description": "Apabila diaktifkan, bar navigasi bawah akan dipaparkan"
       },
       "buttonPosition": {
         "label": "Kedudukan butang",
@@ -82,11 +83,11 @@
       },
       "alwaysShowCloseButton": {
         "label": "Sentiasa tunjukkan butang tutup",
-        "description": "Apabila diaktifkan, butang tutup akan sentiasa dipaparkan; apabila dilumpuhkan, butang tutup hanya akan dipaparkan apabila tetikus berada di atas tab"
+        "description": "Apabila diaktifkan, butang tutup akan sentiasa dipaparkan; apabila dinyahaktifkan, butang tutup hanya akan dipaparkan apabila tetikus melayang di atas tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Sembunyikan panel sisi dalam skrin penuh",
-        "description": "Apabila diaktifkan, panel sisi akan disembunyikan secara automatik apabila halaman dalam skrin penuh. Disebabkan oleh had Chrome, panel sisi tidak boleh dibuka semula secara automatik. Anda perlu membuka semula panel sisi secara manual!"
+        "description": "Apabila diaktifkan, panel sisi akan disembunyikan secara automatik apabila halaman berada dalam skrin penuh. Disebabkan oleh had Chrome, panel sisi tidak boleh dibuka semula secara automatik. Anda perlu membuka semula panel sisi secara manual!"
       }
     },
     "beautify": {
@@ -109,12 +110,12 @@
         "opaque": "Legap"
       },
       "backgroundImageBlur": {
-        "label": "Intensiti Kabur",
-        "description": "Tetapkan Intensiti Kabur"
+        "label": "Keamatan kabur",
+        "description": "Tetapkan keamatan kabur"
       },
       "backgroundImageBrightness": {
         "label": "Kecerahan",
-        "description": "Tetapkan kecerahan, disyorkan hanya untuk mod gelap"
+        "description": "Tetapkan kecerahan, disarankan hanya untuk mod gelap"
       },
       "listBackgroundStyle": {
         "label": "Gaya latar belakang senarai",
@@ -141,8 +142,8 @@
         "solid": "Pejal"
       },
       "fluentOverlayScrollbars": {
-        "label": "Scrollbar lancar",
-        "description": "Gunakan scrollbar gaya reka bentuk Microsoft Fluent dan tindihkannya pada kandungan web",
+        "label": "Bar skrol lancar",
+        "description": "Gunakan bar skrol gaya reka bentuk Microsoft Fluent dan tindihkannya pada kandungan web",
         "goToBrowserSettings": "Pergi ke tetapan Chrome"
       }
     },
@@ -167,25 +168,29 @@
       },
       "currentWindowOnly": {
         "label": "Hanya tetingkap semasa",
-        "description": "Hanya tunjukkan tab tetingkap semasa. Jika dinyahdayakan, tab dari semua tetingkap akan ditunjukkan"
+        "description": "Hanya tunjukkan tab tetingkap semasa. Jika dinyahaktifkan, tab dari semua tetingkap akan dipaparkan"
       },
       "pinedTabsAsIcons": {
-        "label": "Tunjukkan tab yang dipinkan sebagai ikon",
-        "description": "Apabila diaktifkan, tab yang dipinkan akan dipaparkan sebagai ikon dan tidak dalam senarai"
+        "label": "Tunjukkan tab yang dipin sebagai ikon",
+        "description": "Apabila diaktifkan, tab yang dipin akan dipaparkan sebagai ikon dan tidak dalam senarai"
+      },
+      "pinToQuickAccess": {
+        "label": "Tunjukkan akses pantas",
+        "description": "Anda boleh menetapkan tab untuk dipaparkan dalam Akses Pantas supaya ia mudah dicari. Hanya klik kanan (atau tekan lama) dan pilih Pin ke Akses Pantas. Nyahpin apabila anda tidak memerlukannya lagi dengan mengklik kanan (atau tekan lama) dan memilih Padam dari Akses Pantas. Perbezaan dari tab yang dipin adalah Akses Pantas menyimpan URL dan membuka tab baru setiap kali ia diklik."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Tunjukkan ikon laman web apabila kumpulan dikurangkan",
-        "description": "Apabila diaktifkan, kumpulan yang dikurangkan akan menunjukkan ikon tab"
+        "label": "Tunjukkan ikon laman web apabila mengumpulkan kumpulan",
+        "description": "Apabila diaktifkan, kumpulan yang dikumpulkan akan menunjukkan ikon tab"
       },
       "hoverPreview": {
-        "label": "Pratonton hover",
+        "label": "Pratonton melayang",
         "description": "Apabila diaktifkan, melayang di atas tab akan menunjukkan pratonton tab"
       },
       "previewWithThumbnail": {
-        "label": "Tunjukkan thumbnail dalam pratonton",
-        "description": "Apabila diaktifkan, pratonton akan menunjukkan thumbnail tab",
+        "label": "Tunjukkan lakaran kecil dalam pratonton",
+        "description": "Apabila diaktifkan, pratonton akan menunjukkan lakaran kecil tab",
         "alert": "Tangkap kawasan yang kelihatan pada tab aktif semasa dalam tetingkap yang ditentukan. Untuk memanggil kaedah ini, sambungan mesti mempunyai kebenaran <all_urls> atau kebenaran activeTab.",
-        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik semula dan benarkan kebenaran"
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik lagi dan benarkan kebenaran"
       },
       "previewDelay": {
         "label": "Kelewatan pratonton",
@@ -195,16 +200,16 @@
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Simpan tab yang baru ditutup",
-        "description": "Apabila diaktifkan, simpan tab yang baru ditutup"
+        "label": "Simpan tab yang ditutup baru-baru ini",
+        "description": "Apabila diaktifkan, simpan tab yang ditutup baru-baru ini"
       },
       "dataSource": {
         "label": "Sumber data",
         "description": "Pilih sumber data",
-        "recentlyClosedTabs": "Tab yang baru ditutup",
+        "recentlyClosedTabs": "Tab yang ditutup baru-baru ini",
         "chromeHistory": "Sejarah Chrome",
         "alert": "Untuk mencari rekod sejarah, anda memerlukan kebenaran anda untuk mengaktifkan",
-        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik semula dan benarkan kebenaran"
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik lagi dan benarkan kebenaran"
       },
       "showInSidePanel": {
         "label": "Tunjukkan dalam panel sisi",
@@ -220,12 +225,12 @@
         "alert": "Terlalu banyak rekod akan menjejaskan kelajuan pemuatan halaman"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Bilangan tab yang baru ditutup untuk disimpan",
-        "description": "Tetapkan bilangan tab yang baru ditutup untuk disimpan"
+        "label": "Bilangan tab yang ditutup baru-baru ini untuk disimpan",
+        "description": "Tetapkan bilangan tab yang ditutup baru-baru ini untuk disimpan"
       },
       "keepDays": {
-        "label": "Bilangan hari untuk menyimpan tab yang baru ditutup",
-        "description": "Tetapkan bilangan hari untuk menyimpan tab yang baru ditutup. Data yang tamat tempoh akan dipadamkan",
+        "label": "Bilangan hari untuk menyimpan tab yang ditutup baru-baru ini",
+        "description": "Tetapkan bilangan hari untuk menyimpan tab yang ditutup baru-baru ini. Data yang tamat tempoh akan dipadamkan",
         "days": "Hari"
       },
       "openDuration": {
@@ -241,25 +246,25 @@
       "openSidePanel": "Buka panel sisi"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Gambar-dalam-gambar",
+      "Picture-in-picture": "Gambar-dalam-Gambar",
       "tabSwitch": {
         "label": "PIP pada Tukar Tab",
-        "description": "Masuk secara automatik ke PIP apabila menukar tab dengan video yang tidak dibisukan",
+        "description": "Masuk PIP secara automatik apabila menukar tab dengan video yang tidak disenyapkan",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       },
       "scrollSwitch": {
-        "label": "Tukar ke gambar-dalam-gambar apabila menatal",
-        "description": "Jika halaman semasa sedang memainkan video dan video tidak dibisukan dan video berada di luar julat yang boleh dilihat apabila menatal, ia akan masuk ke gambar-dalam-gambar.",
+        "label": "Tukar kepada gambar-dalam-gambar apabila menatal",
+        "description": "Jika halaman semasa sedang memainkan video dan video tidak disenyapkan dan video berada di luar julat yang boleh dilihat apabila menatal, ia akan masuk ke dalam gambar-dalam-gambar.",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       }
     },
     "userActivitionAlert": {
       "title": "Pengaktifan pengguna diperlukan",
       "tips_1": "Pengaktifan pengguna bermaksud pengguna sedang berinteraksi dengan halaman",
       "tips_2": "Lebih khusus lagi, pengaktifan mencetuskan acara input seperti:",
-      "tips_3": "Nota: Menggunakan roda tetikus untuk menatal atau isyarat leret tidak akan mencetuskan!",
+      "tips_3": "Nota: Menggunakan roda tetikus atau gerak isyarat leret tidak akan mencetuskan!",
       "tips_4": "Jika anda ingin maklumat lanjut, sila lawati:",
       "click": "Klik",
       "contextmenu": "Menu klik kanan",
@@ -267,64 +272,64 @@
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Tingkah laku pengurangan kumpulan tab",
-        "description": "Ubah tingkah laku pengurangan kumpulan tab penyemak imbas Chrome",
-        "option_collapse_others": "Tunjukkan kumpulan semasa dan kurangkan yang lain",
+        "label": "Tingkah laku kumpulan tab runtuh",
+        "description": "Ubah tingkah laku runtuhan kumpulan tab pelayar Chrome",
+        "option_collapse_others": "Tunjukkan kumpulan semasa dan runtuhkan yang lain",
         "option_disable": "Kembangkan semua kumpulan",
         "option_auto": "Gunakan tetapan lalai Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Cipta atau sertai kumpulan domain yang sama secara automatik",
-        "description": "Apabila diaktifkan, tab yang baru dibuka akan secara automatik menyertai kumpulan domain yang sama. Jika kumpulan domain tidak wujud, kumpulan domain baru akan dicipta",
+        "label": "Auto buat atau sertai kumpulan domain yang sama",
+        "description": "Apabila diaktifkan, tab yang baru dibuka akan secara automatik menyertai kumpulan domain yang sama. Jika kumpulan domain tidak wujud, kumpulan domain baru akan dibuat",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Tapis tab yang dipinkan dalam kumpulan",
-        "description": "Apabila diaktifkan, tab yang dipinkan tidak akan ditambah ke dalam kumpulan",
+        "label": "Tapis tab yang dipin dalam kumpulan",
+        "description": "Apabila diaktifkan, tab yang dipin tidak akan ditambah ke dalam kumpulan",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Aktifkan bar kemajuan",
+        "label": "Dayakan bar kemajuan",
         "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       },
       "readingProgressBar": {
         "label": "Bar kemajuan bacaan",
         "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       },
       "scrollHeightRatio": {
-        "label": "Nisbah Ketinggian Skrol",
-        "description": "Nisbah ketinggian tetingkap yang terlihat kepada ketinggian halaman. Bar kemajuan akan dipaparkan apabila nisbah ini melebihi",
+        "label": "Nisbah ketinggian tatal",
+        "description": "Nisbah ketinggian tetingkap yang boleh dilihat kepada ketinggian halaman. Bar kemajuan akan dipaparkan apabila nisbah melebihi",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       },
       "playingProgressBar": {
         "label": "Bar kemajuan main",
         "description": "Apabila diaktifkan, bar kemajuan main akan dipaparkan di bawah bar tajuk tab",
         "enabled": "Diaktifkan",
-        "disabled": "Dinyahdayakan"
+        "disabled": "Dinonaktifkan"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Aktifkan bola terapung",
-        "description": "Apabila panel sisi ditutup, bola terapung akan dipaparkan di sebelah kanan halaman, membolehkan pembukaan panel sisi dengan cepat."
+        "label": "Dayakan bola terapung",
+        "description": "Apabila panel sisi ditutup, bola terapung akan dipaparkan di sebelah kanan halaman, membolehkan pembukaan pantas panel sisi."
       }
     },
     "performance": {
       "label": "Prestasi",
       "saveMemoryAction": {
-        "label": "Bagaimana untuk menjimatkan ingatan pada tab",
-        "description": "Untuk menjimatkan ingatan pada tab, anda boleh memilih untuk menutup tab atau membuang tab.",
-        "discardTips": "tab yang dibuang tidak pergi ke mana-mana. Kami mematikannya tetapi masih kelihatan pada jalur tab Chrome. Jika anda kembali ke tab yang telah dibuang, ia akan dimuat semula apabila diklik. Kandungan borang, kedudukan skrol, dan sebagainya disimpan dan dipulihkan dengan cara yang sama seperti semasa navigasi tab ke hadapan/ke belakang.",
-        "disabled": "Dimatikan",
+        "label": "Cara untuk menjimatkan memori pada tab",
+        "description": "Untuk menjimatkan memori pada tab, anda boleh memilih untuk menutup tab atau membuang tab.",
+        "discardTips": "Tab yang dibuang tidak pergi ke mana-mana. Kami membunuhnya tetapi ia masih kelihatan pada jalur tab Chrome. Jika anda menavigasi kembali ke tab yang telah dibuang, ia akan dimuat semula apabila diklik. Kandungan borang, kedudukan tatal dan sebagainya disimpan dan dipulihkan dengan cara yang sama seperti semasa navigasi tab ke hadapan/belakang.",
+        "disabled": "Dinonaktifkan",
         "closeTabs": "Tutup tab",
         "discardTabs": "Buang tab"
       },
@@ -339,113 +344,113 @@
         "minutes": "Minit"
       },
       "disableAnimations": {
-        "label": "Matikan animasi",
-        "description": "matikan kesan riak dan matikan semua peralihan"
+        "label": "Lumpuhkan animasi",
+        "description": "Lumpuhkan kesan riak dan lumpuhkan semua peralihan"
       }
     },
     "site": {
       "label": "Tetapan laman",
       "allSites": "Semua laman",
-      "sortBy": "Isih mengikut",
+      "sortBy": "Susun mengikut",
       "mostVisited": "Paling kerap dilawati",
       "dataStored": "Data disimpan",
       "name": "Nama",
       "deleteAllData": "Padam semua data",
-      "totalStorageUsedBySites": "Jumlah storan digunakan oleh laman",
-      "totalCount": "Jumlah keseluruhan",
+      "totalStorageUsedBySites": "Jumlah storan yang digunakan oleh laman",
+      "totalCount": "Jumlah kiraan",
       "addNewSite": {
         "label": "Tambah laman baru",
-        "description": "Masukkan alamat laman web baru, seperti 'www.contoh.com', dan klik 'Tambah'.",
-        "placeholder": "Alamat laman web, seperti 'www.contoh.com'",
+        "description": "Masukkan alamat laman web baru, seperti 'www.example.com', dan klik 'Tambah'.",
+        "placeholder": "Alamat laman web, seperti 'www.example.com'",
         "add": "Tambah",
         "cancel": "Batal",
         "invalidDomain": "Alamat laman web tidak sah"
       },
       "browserSettings": {
         "label": "Tetapan pelayar",
-        "description": "Anda boleh mengubahsuai tetapan laman, seperti memadam data atau menukar kebenaran laman.",
+        "description": "Anda boleh mengubah tetapan laman, seperti memadam data atau menukar kebenaran laman.",
         "goToBrowserSettings": "Pergi ke tetapan pelayar"
       },
       "autoDiscardable": {
-        "label": "Boleh dibuang secara automatik",
-        "description": "Apabila diaktifkan, tab akan dibenarkan untuk dibuang oleh pelayar, dan jika anda menghidupkan prestasi dan menetapkan masa untuk membuang tab tidak aktif, tab akan dibuang selepas masa yang ditetapkan. Jika dimatikan, tab tidak akan dibuang"
+        "label": "Auto boleh dibuang",
+        "description": "Apabila diaktifkan, tab akan dibenarkan untuk dibuang oleh pelayar, dan jika anda menghidupkan prestasi dan menetapkan masa untuk membuang tab tidak aktif, tab akan dibuang selepas masa yang ditetapkan. Jika dinonaktifkan, tab tidak akan dibuang"
       },
       "readingProgressBar": {
         "label": "Bar kemajuan bacaan",
         "description": "Apabila diaktifkan, bar kemajuan bacaan akan dipaparkan di bawah bar tajuk tab.",
-        "globaldisabledTips": "Anda perlu menghidupkan bar kemajuan bacaan dalam tetapan global untuk mengubah tetapan ini."
+        "globaldisabledTips": "Anda mesti menghidupkan bar kemajuan bacaan dalam tetapan global untuk mengubah tetapan ini."
       },
       "playingProgressBar": {
         "label": "Bar kemajuan main",
         "description": "Apabila diaktifkan, bar kemajuan main akan dipaparkan di bawah bar tajuk tab.",
-        "globaldisabledTips": "Anda perlu menghidupkan bar kemajuan main dalam tetapan global untuk mengubah tetapan ini."
+        "globaldisabledTips": "Anda mesti menghidupkan bar kemajuan main dalam tetapan global untuk mengubah tetapan ini."
       },
       "tabSwitchPip": {
-        "label": "PIP pada Penukaran Tab",
-        "description": "Apabila diaktifkan, auto-masuk ke Mod Gambar-dalam-Gambar apabila menukar tab dengan video yang tidak dibisukan.",
-        "globaldisabledTips": "Anda perlu menghidupkan Mod Gambar-dalam-Gambar dalam tetapan global untuk mengubah tetapan ini."
+        "label": "PIP pada Tukar Tab",
+        "description": "Apabila diaktifkan, auto-masuk Gambar-dalam-Gambar apabila menukar tab dengan video yang tidak disenyapkan.",
+        "globaldisabledTips": "Anda mesti menghidupkan Gambar-dalam-Gambar dalam tetapan global untuk mengubah tetapan ini."
       },
       "clearHistoyAfterCLose": {
-        "label": "Hapus sejarah selepas tutup",
-        "description": "Apabila diaktifkan, sejarah akan dihapuskan selepas menutup tab."
+        "label": "Kosongkan sejarah selepas tutup",
+        "description": "Apabila diaktifkan, sejarah akan dikosongkan selepas menutup tab."
       },
       "SyncTabs": {
-        "label": "Segerak tab",
-        "description": "Pilih bagaimana untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
-        "disabled": "Dinyahdayakan",
+        "label": "Segerakkan tab",
+        "description": "Pilih cara untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
+        "disabled": "Dinonaktifkan",
         "uploadOnly": "Muat naik sahaja",
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan",
-        "globaldisabledTips": "Anda perlu menghidupkan segerak dalam Tetapan Global untuk mengubah tetapan ini."
+        "globaldisabledTips": "Anda mesti menghidupkan penyegerakan dalam Tetapan Global untuk mengubah tetapan ini."
       },
       "SyncPrivateData": {
-        "label": "Segerak data peribadi",
-        "description": "Pilih bagaimana untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan laman web, data SessionStorage, dan lain-lain. Data akan dienkripsi sebelum disegerakkan.",
-        "disabled": "Dinyahdayakan",
+        "label": "Segerakkan data peribadi",
+        "description": "Pilih cara untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan halaman web, data SessionStorage, dan lain-lain. Data akan disulitkan sebelum penyegerakan.",
+        "disabled": "Dinonaktifkan",
         "uploadOnly": "Muat naik sahaja",
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan",
-        "globaldisabledTips": "Anda perlu menghidupkan segerak dalam Tetapan Global untuk mengubah tetapan ini."
+        "globaldisabledTips": "Anda mesti menghidupkan penyegerakan dalam Tetapan Global untuk mengubah tetapan ini."
       }
     },
     "SyncToCloud": {
-      "label": "Segerak ke awan",
-      "SyncNow": "Segerak Sekarang",
-      "SyncNowWithGoogleDrive": "Segerak Sekarang dengan Google Drive",
-      "SyncNowWithDropbox": "Segerak Sekarang dengan Dropbox",
-      "SyncNowWithOneDrive": "Segerak Sekarang dengan OneDrive",
+      "label": "Segerakkan ke awan",
+      "SyncNow": "Segerakkan Sekarang",
+      "SyncNowWithGoogleDrive": "Segerakkan Sekarang dengan Google Drive",
+      "SyncNowWithDropbox": "Segerakkan Sekarang dengan Dropbox",
+      "SyncNowWithOneDrive": "Segerakkan Sekarang dengan OneDrive",
       "Synchronizing": "Menyegerakkan...",
       "SyncedSuccessfully": "Berjaya disegerakkan",
-      "SyncFailed": "Segerakan gagal",
+      "SyncFailed": "Penyegerakan gagal",
       "LoginRequired": "Log masuk diperlukan",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Segerak konfigurasi",
-        "description": "Pilih bagaimana untuk menyegerakkan konfigurasi sambungan ini.",
-        "disabled": "Dinyahdayakan",
+        "label": "Segerakkan konfigurasi",
+        "description": "Pilih cara untuk menyegerakkan konfigurasi sambungan ini.",
+        "disabled": "Dinonaktifkan",
         "uploadOnly": "Muat naik sahaja",
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan"
       },
       "SyncTabs": {
-        "label": "Segerak tab",
-        "description": "Pilih bagaimana untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
-        "disabled": "Dinyahdayakan",
+        "label": "Segerakkan tab",
+        "description": "Pilih cara untuk menyegerakkan data tab, tidak termasuk data peribadi seperti kuki dan maklumat peribadi.",
+        "disabled": "Dinonaktifkan",
         "uploadOnly": "Muat naik sahaja",
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan"
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "Buka atau tutup tab secara serentak",
-        "description": "Apabila diaktifkan, membuka atau menutup tab dalam pelayar yang berbeza akan disegerakkan. Ini hanya berlaku apabila pilihan 'kekal disegerakkan' aktif",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jika anda log masuk ke akaun yang sama dalam dua pelayar pada masa yang sama dan mengaktifkan pilihan ini, membuka atau menutup tab dalam satu pelayar akan melakukan operasi yang sama dalam pelayar yang lain. Jika laman web menghalang log masuk berulang dengan akaun yang sama, pengecualian mungkin berlaku."
+        "description": "Apabila diaktifkan, membuka atau menutup tab dalam pelayar yang berbeza akan disegerakkan. Ini hanya terpakai apabila pilihan 'kekal disegerakkan' aktif",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jika anda log masuk ke akaun yang sama dalam dua pelayar pada masa yang sama dan menghidupkan pilihan ini, membuka atau menutup tab dalam satu pelayar akan melakukan operasi yang sama dalam pelayar yang lain. Jika laman web melarang log masuk berulang dengan akaun yang sama, pengecualian mungkin berlaku."
       },
       "SyncPrivateData": {
-        "label": "Segerak data peribadi",
-        "description": "Pilih bagaimana untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan laman web, data SessionStorage, dan lain-lain. Data akan dienkripsi sebelum disegerakkan.",
-        "disabled": "Dinyahdayakan",
+        "label": "Segerakkan data peribadi",
+        "description": "Pilih cara untuk menyegerakkan data peribadi, seperti kuki laman web, data storan tempatan halaman web, data SessionStorage, dan lain-lain. Data akan disulitkan sebelum penyegerakan.",
+        "disabled": "Dinonaktifkan",
         "uploadOnly": "Muat naik sahaja",
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan"

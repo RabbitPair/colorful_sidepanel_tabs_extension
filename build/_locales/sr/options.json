@@ -1,19 +1,19 @@
 {
-  "OpenSideSanelToPreview": "Otvori bočnu tablu za pregled",
-  "_execute_action": "Aktiviraj ovaj dodatak",
-  "openSidePanel": "Otvori bočnu tablu",
+  "OpenSidePanelToPreview": "Otvorite bočnu traku za pregled",
+  "_execute_action": "Aktivirajte ovo proširenje",
+  "openSidePanel": "Otvorite bočnu traku",
   "settings": {
-    "resetCurrentPageSettings": "Resetuj postavke trenutne stranice",
+    "resetCurrentPageSettings": "Resetujte podešavanja trenutne stranice",
     "modules": {
       "appearance": "Izgled",
-      "beautify": "Ulepšaj",
-      "tabs": "Tabovi",
+      "beautify": "Ulepšavanje",
+      "tabs": "Kartice",
       "history": "Istorija",
       "shortcuts": "Prečice",
       "pip": "Slika u slici",
-      "chromeTabGroupAdvanced": "Napredne tab grupe",
+      "chromeTabGroupAdvanced": "Napredne grupe kartica",
       "progressBar": "Traka napretka",
-      "floatBall": "Plutajuća loptica",
+      "floatBall": "Plutajuća lopta",
       "experimentalFeatures": "Eksperimentalne funkcije"
     },
     "appearance": {
@@ -28,13 +28,13 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "Kada je omogućeno, tekst će se prikazivati s desna na levo"
+        "description": "Kada je omogućeno, interfejs će prikazivati tekst u smeru s desna na levo"
       },
       "fontSize": {
         "label": "Veličina fonta",
         "description": "Postavite veličinu fonta",
-        "small": "Mala",
-        "large": "Velika"
+        "small": "Mali",
+        "large": "Veliki"
       },
       "fontFamily": {
         "label": "Porodica fonta",
@@ -49,54 +49,55 @@
         "description": "Postavite debljinu fonta"
       },
       "extAction": {
-        "label": "Akcija klikom na ikonu proširenja",
-        "description": "Postavite akciju prilikom klika na ikonu proširenja",
+        "label": "Akcija pri kliku na ikonu proširenja",
+        "description": "Postavite akciju pri kliku na ikonu proširenja",
         "openPopup": "Otvori iskačući prozor",
-        "openSidePanel": "Otvori bočnu tablu"
+        "openSidePanel": "Otvori bočnu traku",
+        "SmallWindowAlert": "Ako bočna traka zauzima previše prostora, preporučuje se da koristite iskačući prozor"
       },
       "SidePanelPosition": {
-        "label": "Pozicija bočne table",
-        "description": "Postavite da li će bočna tabla biti prikazana sa leve ili desne strane.",
-        "goToBrowserSettings": "Idi na Chrome podešavanja"
+        "label": "Pozicija bočne trake",
+        "description": "Postavite da li se bočna traka prikazuje levo ili desno.",
+        "goToBrowserSettings": "Idite na podešavanja Chrome-a"
       },
       "searchBoxPosition": {
-        "label": "Pozicija polja za pretragu",
-        "description": "Postavite poziciju polja za pretragu",
+        "label": "Pozicija pretraživača",
+        "description": "Postavite poziciju pretraživača",
         "top": "Gore",
         "bottom": "Dole",
         "hide": "Sakrij"
       },
       "toolbar": {
-        "label": "Prikaži traku sa alatkama",
-        "description": "Kada je omogućeno, traka sa alatkama će biti prikazana"
+        "label": "Prikaži alatnu traku",
+        "description": "Kada je omogućeno, alatna traka je prikazana"
       },
       "bottomNav": {
         "label": "Prikaži donju navigacionu traku",
-        "description": "Kada je omogućeno, donja navigaciona traka će biti prikazana"
+        "description": "Kada je omogućeno, donja navigaciona traka je prikazana"
       },
       "buttonPosition": {
-        "label": "Pozicija dugmadi",
+        "label": "Pozicija dugmeta",
         "description": "Postavite poziciju dugmadi",
         "left": "Levo",
         "right": "Desno"
       },
       "alwaysShowCloseButton": {
         "label": "Uvek prikaži dugme za zatvaranje",
-        "description": "Kada je omogućeno, dugme za zatvaranje će uvek biti prikazano; kada je onemogućeno, dugme za zatvaranje će se prikazati samo kada je miš iznad taba"
+        "description": "Kada je omogućeno, dugme za zatvaranje će uvek biti prikazano; kada je onemogućeno, dugme za zatvaranje će biti prikazano samo kada je miš iznad kartice"
       },
       "fullScreenHideSidePanel": {
-        "label": "Sakrij bočnu tablu u režimu punog ekrana",
-        "description": "Kada je omogućeno, bočna tabla će se automatski sakriti kada je stranica u režimu punog ekrana. Zbog ograničenja Chrome-a, bočna tabla se ne može automatski ponovo otvoriti. Morate ručno ponovo otvoriti bočnu tablu!"
+        "label": "Sakrij bočnu traku u punom ekranu",
+        "description": "Kada je omogućeno, bočna traka će se automatski sakriti kada je stranica u punom ekranu. Zbog ograničenja Chrome-a, bočna traka se ne može automatski ponovo otvoriti. Morate ručno ponovo otvoriti bočnu traku!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "Obojena pozadina",
-        "description": "Kada je omogućeno, bočna tabla će prikazivati obojenu pozadinu"
+        "description": "Kada je omogućeno, bočna traka će prikazivati obojenu pozadinu"
       },
       "backgroundPicture": {
         "label": "Pozadinska slika",
-        "description": "Kliknite [+] da dodate prilagođenu sliku, kliknite [-] da obrišete prilagođenu sliku. Možete pronaći omiljene slike na sledećim veb sajtovima.",
+        "description": "Kliknite [+] da dodate prilagođenu sliku, kliknite [-] da obrišete prilagođenu sliku. Možete pronaći svoje omiljene slike na sledećim vebsajtovima.",
         "dialogDescription": "Unesite adresu slike",
         "OK": "U redu",
         "Cancel": "Otkaži",
@@ -109,23 +110,23 @@
         "opaque": "Neprozirno"
       },
       "backgroundImageBlur": {
-        "label": "Intenzitet zamagljivanja",
-        "description": "Postavite intenzitet zamagljivanja"
+        "label": "Intenzitet zamućenja",
+        "description": "Postavite intenzitet zamućenja"
       },
       "backgroundImageBrightness": {
-        "label": "Osvetljenje",
-        "description": "Postavite osvetljenje, preporučuje se samo za tamni režim"
+        "label": "Osvetljenost",
+        "description": "Postavite osvetljenost, preporučuje se samo za tamni režim"
       },
       "listBackgroundStyle": {
         "label": "Stil pozadine liste",
         "description": "Postavite stil pozadine liste",
-        "single": "Jedno",
-        "none": "Ništa",
+        "single": "Jednostruko",
+        "none": "Nijedno",
         "simple": "Jednostavno",
         "complementary": "Komplementarno",
         "analogous": "Analogno",
-        "triadic": "Trijadno",
-        "tetradic": "Tetradno"
+        "triadic": "Triadično",
+        "tetradic": "Tetradično"
       },
       "listBackgroundTransparency": {
         "label": "Prozirnost pozadine liste",
@@ -134,123 +135,127 @@
         "opaque": "Neprozirno"
       },
       "listBottomBorder": {
-        "label": "Donja granica liste",
-        "description": "Postavite donju granicu liste",
-        "none": "Ništa",
+        "label": "Donja ivica liste",
+        "description": "Postavite donju ivicu liste",
+        "none": "Nijedno",
         "dashed": "Isprekidano",
-        "solid": "Neprekidno"
+        "solid": "Puno"
       },
       "fluentOverlayScrollbars": {
-        "label": "Tečne trake za pomeranje",
-        "description": "Koristite Microsoft-ov stil dizajna tečnih traka za pomeranje i prekrijte ih preko web sadržaja",
-        "goToBrowserSettings": "Idi na Chrome podešavanja"
+        "label": "Fluent skrol trake",
+        "description": "Koristite Microsoft Fluent dizajn stil skrol traka i preklopite ih preko veb sadržaja",
+        "goToBrowserSettings": "Idite na podešavanja Chrome-a"
       }
     },
     "tabs": {
       "listView": {
         "label": "Prikaz liste",
-        "description": "Promenite prikaz liste",
+        "description": "Prebaci prikaz liste",
         "compact": "Kompaktni prikaz",
         "visual": "Vizuelni prikaz"
       },
       "showBy": {
         "label": "Prikaži po",
-        "description": "Promenite prikaz po"
+        "description": "Prebaci prikaži po"
       },
       "sortBy": {
-        "label": "Rasporedi po",
-        "description": "Promenite raspored po"
+        "label": "Sortiraj po",
+        "description": "Prebaci sortiraj po"
       },
       "showFullUrl": {
-        "label": "Prikaži punu URL adresu",
-        "description": "Kada je omogućeno, puna URL adresa će biti prikazana ispod naslova taba"
+        "label": "Prikaži pun URL",
+        "description": "Kada je omogućeno, pun URL će biti prikazan ispod naslova kartice"
       },
       "currentWindowOnly": {
         "label": "Samo trenutni prozor",
-        "description": "Prikaži samo tabove trenutnog prozora. Ako je onemogućeno, tabovi sa svih prozora će biti prikazani"
+        "description": "Prikaži samo kartice trenutnog prozora. Ako je onemogućeno, kartice iz svih prozora će biti prikazane"
       },
       "pinedTabsAsIcons": {
-        "label": "Prikaži prikačene tabove kao ikone",
-        "description": "Kada je omogućeno, prikačeni tabovi će biti prikazani kao ikone, a ne u listi"
+        "label": "Prikaži zakačene kartice kao ikone",
+        "description": "Kada je omogućeno, zakačene kartice će biti prikazane kao ikone, a ne u listi"
+      },
+      "pinToQuickAccess": {
+        "label": "Prikaži brzi pristup",
+        "description": "Možete postaviti karticu da se prikaže u Brzom pristupu kako bi je bilo lako pronaći. Samo kliknite desnim tasterom miša (ili dugo pritisnite) i izaberite Zakači za brzi pristup. Otkačite je kada vam više nije potrebna tamo tako što ćete kliknuti desnim tasterom miša (ili dugo pritisnuti) i izabrati Obriši iz brzog pristupa. Razlika od zakačenih kartica je u tome što Brzi pristup čuva URL i otvara novu karticu svaki put kada se klikne."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Prikaži ikone veb sajtova prilikom skupljanja grupa",
-        "description": "Kada je omogućeno, skupljene grupe će prikazivati ikone tabova"
+        "label": "Prikaži ikone vebsajta kada se grupe skupe",
+        "description": "Kada je omogućeno, sklopljene grupe će prikazivati ikone kartica"
       },
       "hoverPreview": {
-        "label": "Pregled pri prelasku",
-        "description": "Kada je omogućeno, prelazak mišem preko tabova će prikazati preglede tabova"
+        "label": "Pregled pri prelasku miša",
+        "description": "Kada je omogućeno, prelazak miša preko kartica će prikazivati preglede kartica"
       },
       "previewWithThumbnail": {
         "label": "Prikaži sličice u pregledu",
-        "description": "Kada je omogućeno, pregledi će prikazivati sličice tabova",
-        "alert": "Zabeležite vidljivo područje trenutno aktivnog taba u određenom prozoru. Da biste pozvali ovu metodu, proširenje mora imati dozvolu <all_urls> ili activeTab dozvolu.",
-        "deniedMessage": "Odbili ste potrebnu dozvolu, pa postavke nisu promenjene. Ako promenite mišljenje, molimo kliknite ponovo i dozvolite autorizaciju"
+        "description": "Kada je omogućeno, pregledi će prikazivati sličice kartica",
+        "alert": "Zabeležite vidljivu oblast trenutno aktivne kartice u određenom prozoru. Da biste pozvali ovu metodu, proširenje mora imati <all_urls> dozvolu ili activeTab dozvolu.",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, tako da podešavanja nisu promenjena. Ako se predomislite, molimo vas da ponovo kliknete i dozvolite autorizaciju"
       },
       "previewDelay": {
-        "label": "Odlaganje pregleda",
-        "description": "Postavite vreme odlaganja za preglede tabova prilikom prelaska mišem preko tabova, itd. (sekunde). Ako je postavljeno na 0, neće biti odlaganja",
+        "label": "Kašnjenje pregleda",
+        "description": "Postavite vreme kašnjenja za preglede kartica pri prelasku miša preko kartica, itd. (sekunde). Ako je postavljeno na 0, neće biti kašnjenja",
         "seconds": "Sekunde"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Sačuvaj nedavno zatvorene tabove",
-        "description": "Kada je omogućeno, sačuvaj nedavno zatvorene tabove"
+        "label": "Sačuvaj nedavno zatvorene kartice",
+        "description": "Kada je omogućeno, sačuvajte nedavno zatvorene kartice"
       },
       "dataSource": {
         "label": "Izvor podataka",
         "description": "Izaberite izvor podataka",
-        "recentlyClosedTabs": "Nedavno zatvoreni tabovi",
-        "chromeHistory": "Istorija Chrome-a",
-        "alert": "Za pretragu istorijskih zapisa, potrebna je vaša autorizacija za omogućavanje",
-        "deniedMessage": "Odbili ste potrebnu dozvolu, pa postavke nisu promenjene. Ako promenite mišljenje, molimo kliknite ponovo i dozvolite autorizaciju"
+        "recentlyClosedTabs": "Nedavno zatvorene kartice",
+        "chromeHistory": "Chrome istorija",
+        "alert": "Da biste pretraživali istorijske zapise, potrebna vam je vaša autorizacija za omogućavanje",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, tako da podešavanja nisu promenjena. Ako se predomislite, molimo vas da ponovo kliknete i dozvolite autorizaciju"
       },
       "showInSidePanel": {
-        "label": "Prikaži u bočnoj tabli",
-        "description": "Kada je omogućeno, prikaži u bočnoj tabli"
+        "label": "Prikaži u bočnoj traci",
+        "description": "Kada je omogućeno, prikaži u bočnoj traci"
       },
       "showInTabSearchResults": {
-        "label": "Prikaži istoriju u rezultatima pretrage tabova",
-        "description": "Kada je omogućeno, nedavni istorijski zapisi će biti prikazani u rezultatima pretrage tabova"
+        "label": "Prikaži istoriju u rezultatima pretrage kartica",
+        "description": "Kada je omogućeno, nedavni istorijski zapisi će biti prikazani u rezultatima pretrage kartica"
       },
       "limitSearchResults": {
-        "label": "Ograniči broj istorijskih zapisa u rezultatima pretrage tabova",
-        "description": "Postavite ograničenje broja istorijskih zapisa u rezultatima pretrage tabova. Istorija koja premašuje ograničenje će biti filtrirana",
+        "label": "Ograničite broj istorijskih zapisa u rezultatima pretrage kartica",
+        "description": "Postavite ograničenje broja istorijskih zapisa u rezultatima pretrage kartica. Istorijski zapisi koji premašuju ograničenje će biti filtrirani",
         "alert": "Previše zapisa će uticati na brzinu učitavanja stranice"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Broj nedavno zatvorenih tabova za čuvanje",
-        "description": "Postavite broj nedavno zatvorenih tabova za čuvanje"
+        "label": "Broj nedavno zatvorenih kartica za čuvanje",
+        "description": "Postavite broj nedavno zatvorenih kartica za čuvanje"
       },
       "keepDays": {
-        "label": "Broj dana za čuvanje nedavno zatvorenih tabova",
-        "description": "Postavite broj dana za čuvanje nedavno zatvorenih tabova. Istekli podaci će biti obrisani",
-        "days": "Dana"
+        "label": "Broj dana za čuvanje nedavno zatvorenih kartica",
+        "description": "Postavite broj dana za čuvanje nedavno zatvorenih kartica. Istekli podaci će biti obrisani",
+        "days": "Dani"
       },
       "openDuration": {
         "label": "Trajanje otvaranja",
-        "description": "Samo tabovi otvoreni duže od postavljenog vremena će biti sačuvani",
+        "description": "Samo kartice koje su otvorene duže od postavljenog vremena će biti sačuvane",
         "seconds": "Sekunde"
       }
     },
     "shortcuts": {
-      "alert": "Ova stranica je samo za prikaz. Da biste izmenili prečice, posetite [Proširenja]->[Upravljanje proširenjima]->[Tastaturske prečice]",
-      "goToBrowserSettings": "Idi na Chrome podešavanja",
-      "_execute_action": "Aktiviraj ovaj dodatak",
-      "openSidePanel": "Otvori bočnu tablu"
+      "alert": "Ova stranica je samo za prikaz. Da biste izmenili prečice, posetite [Proširenja]->[Upravljanje proširenjima]->[Tastaturne prečice]",
+      "goToBrowserSettings": "Idite na podešavanja Chrome-a",
+      "_execute_action": "Aktivirajte ovo proširenje",
+      "openSidePanel": "Otvorite bočnu traku"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Slika u slici",
       "tabSwitch": {
-        "label": "PIP prilikom prebacivanja tabova",
-        "description": "Automatski uđite u PIP kada prebacujete tabove sa neprigušenim videom",
+        "label": "PIP pri prebacivanju kartica",
+        "description": "Automatski uđite u PIP pri prebacivanju kartica sa neisključenim zvukom video zapisa",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       },
       "scrollSwitch": {
-        "label": "Prebacivanje na sliku u slici prilikom pomeranja",
-        "description": "Ako trenutna stranica reprodukuje video i video nije prigušen i video je van vidljivog opsega prilikom pomeranja, ući će u sliku u slici.",
+        "label": "Prebacivanje na sliku u slici pri skrolovanju",
+        "description": "Ako trenutna stranica reprodukuje video i video nije isključen i video izlazi iz vidljivog opsega pri skrolovanju, preći će u sliku u slici.",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       }
@@ -258,30 +263,30 @@
     "userActivitionAlert": {
       "title": "Potrebna je aktivacija korisnika",
       "tips_1": "Aktivacija korisnika znači da korisnik trenutno interaguje sa stranicom",
-      "tips_2": "Konkretnije, aktivacija pokreće događaje unosa kao što su:",
-      "tips_3": "Napomena: Korišćenje točka miša ili gesta prevlačenja neće pokrenuti!",
+      "tips_2": "Preciznije, aktivacija pokreće ulazne događaje kao što su:",
+      "tips_3": "Napomena: Korišćenje točkića miša za skrolovanje ili gest prevlačenja neće pokrenuti aktivaciju!",
       "tips_4": "Ako želite više detalja, posetite:",
       "click": "Klik",
-      "contextmenu": "Meni desnim klikom",
+      "contextmenu": "Desni klik meni",
       "dblclick": "Dvostruki klik"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Ponašanje skupljanja tab grupa",
-        "description": "Izmenite ponašanje skupljanja tab grupa pregledača Chrome",
+        "label": "Ponašanje grupisanja kartica",
+        "description": "Izmenite ponašanje grupisanja kartica u Chrome pregledaču",
         "option_collapse_others": "Prikaži trenutnu grupu i skupi ostale",
         "option_disable": "Proširi sve grupe",
         "option_auto": "Koristi podrazumevana podešavanja Chrome-a"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Automatsko kreiranje ili pridruživanje grupi istog domena",
-        "description": "Kada je omogućeno, novo otvoreni tabovi će automatski pristupiti istoj grupi domena. Ako grupa domena ne postoji, biće kreirana nova grupa domena",
+        "label": "Automatski kreiraj ili pridruži grupi istog domena",
+        "description": "Kada je omogućeno, novootvorene kartice će se automatski pridružiti grupi istog domena. Ako grupa domena ne postoji, biće kreirana nova grupa domena",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Filtriraj prikačene tabove u grupama",
-        "description": "Kada je omogućeno, prikačeni tabovi neće biti dodati u grupe",
+        "label": "Filtriraj zakačene kartice u grupama",
+        "description": "Kada je omogućeno, zakačene kartice neće biti dodate u grupe",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       }
@@ -289,13 +294,13 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Omogući traku napretka",
-        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod trake naslova taba",
+        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod naslova kartice",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       },
       "readingProgressBar": {
         "label": "Traka napretka čitanja",
-        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod trake naslova taba",
+        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod naslova kartice",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       },
@@ -307,40 +312,40 @@
       },
       "playingProgressBar": {
         "label": "Traka napretka reprodukcije",
-        "description": "Kada je omogućeno, traka napretka reprodukcije će biti prikazana ispod trake naslova taba",
+        "description": "Kada je omogućeno, traka napretka reprodukcije će biti prikazana ispod naslova kartice",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Omogući plutajuću lopticu",
-        "description": "Kada je bočna tabla zatvorena, plutajuća loptica će biti prikazana sa desne strane stranice, omogućavajući brzo otvaranje bočne table."
+        "label": "Omogući plutajuću loptu",
+        "description": "Kada je bočna traka zatvorena, plutajuća lopta će biti prikazana na desnoj strani stranice, omogućavajući brzo otvaranje bočne trake."
       }
     },
     "performance": {
       "label": "Performanse",
       "saveMemoryAction": {
-        "label": "Kako sačuvati memoriju na tabovima",
-        "description": "Da biste sačuvali memoriju na tabovima, možete izabrati da zatvorite tabove ili da ih odbacite.",
-        "discardTips": "odbacen tab ne ide nigde. Mi ga ubijamo, ali je i dalje vidljiv na Chrome tab traci. Ako se vratite na tab koji je odbačen, ponovo će se učitati kada se klikne na njega. Sadržaj forme, pozicija skrolovanja i slično se čuvaju i vraćaju na isti način kao što bi bili tokom navigacije unapred/nazad tabova.",
+        "label": "Kako uštedeti memoriju na karticama",
+        "description": "Da biste uštedeli memoriju na karticama, možete odabrati da zatvorite kartice ili da ih odbacite.",
+        "discardTips": "Odbacivanje kartice ne znači da ona nestaje. Mi je ubijamo, ali ona je i dalje vidljiva na traci kartica u Chrome-u. Ako se vratite na karticu koja je odbačena, ona će se ponovo učitati kada kliknete na nju. Sadržaj formulara, pozicija skrolovanja i slično se čuvaju i vraćaju na isti način kao kod navigacije napred/nazad.",
         "disabled": "Onemogućeno",
-        "closeTabs": "Zatvori tabove",
-        "discardTabs": "Odbaci tabove"
+        "closeTabs": "Zatvori kartice",
+        "discardTabs": "Odbaci kartice"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Koliko dugo odbaciti neaktivne tabove",
-        "description": "Kada nema reprodukcije zvuka ili videa na tabu i automatsko odbacivanje nije zabranjeno, tab će biti odbačen nakon određenog vremena.",
+        "label": "Koliko dugo odbacivati neaktivne kartice",
+        "description": "Kada se na kartici ne reprodukuje audio ili video i automatsko odbacivanje nije zabranjeno, kartica će biti odbačena nakon navedenog vremena.",
         "minutes": "Minuti"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Koliko dugo zatvoriti neaktivne tabove",
-        "description": "Kada nema reprodukcije zvuka ili videa na tabu i automatsko odbacivanje nije zabranjeno, tab će biti zatvoren nakon određenog vremena.",
+        "label": "Koliko dugo zatvarati neaktivne kartice",
+        "description": "Kada se na kartici ne reprodukuje audio ili video i automatsko odbacivanje nije zabranjeno, kartica će biti zatvorena nakon navedenog vremena.",
         "minutes": "Minuti"
       },
       "disableAnimations": {
         "label": "Onemogući animacije",
-        "description": "onemogući efekat talasanja i onemogući sve prelaze"
+        "description": "Onemogući efekat talasa i onemogući sve tranzicije"
       }
     },
     "site": {
@@ -348,73 +353,73 @@
       "allSites": "Svi sajtovi",
       "sortBy": "Sortiraj po",
       "mostVisited": "Najposećeniji",
-      "dataStored": "Podaci sačuvani",
+      "dataStored": "Sačuvani podaci",
       "name": "Ime",
       "deleteAllData": "Obriši sve podatke",
-      "totalStorageUsedBySites": "Ukupno korišćenje skladišta od strane sajtova",
+      "totalStorageUsedBySites": "Ukupno korišćenje memorije od strane sajtova",
       "totalCount": "Ukupan broj",
       "addNewSite": {
         "label": "Dodaj novi sajt",
-        "description": "Unesite novu web adresu, kao što je 'www.primer.com', i kliknite 'Dodaj'.",
-        "placeholder": "Web adresa, kao što je 'www.primer.com'",
+        "description": "Unesite novu adresu sajta, kao što je 'www.example.com', i kliknite 'Dodaj'.",
+        "placeholder": "Adresa sajta, kao što je 'www.example.com'",
         "add": "Dodaj",
         "cancel": "Otkaži",
-        "invalidDomain": "Nevažeća web adresa"
+        "invalidDomain": "Nevažeća adresa sajta"
       },
       "browserSettings": {
         "label": "Podešavanja pregledača",
-        "description": "Možete izmeniti podešavanja sajta, kao što su brisanje podataka ili promena dozvola sajta.",
-        "goToBrowserSettings": "Idi na podešavanja pregledača"
+        "description": "Možete izmeniti podešavanja sajta, kao što je brisanje podataka ili promena dozvola sajta.",
+        "goToBrowserSettings": "Idite na podešavanja pregledača"
       },
       "autoDiscardable": {
         "label": "Automatsko odbacivanje",
-        "description": "Kada je omogućeno, tab će biti dozvoljen za odbacivanje od strane pregledača, i ako uključite performanse i postavite vreme za odbacivanje neaktivnih tabova, tab će biti odbačen nakon određenog vremena. Ako je onemogućeno, tab neće biti odbačen"
+        "description": "Kada je omogućeno, kartica će biti dozvoljena za odbacivanje od strane pregledača, a ako uključite performanse i postavite vreme za odbacivanje neaktivnih kartica, kartica će biti odbačena nakon navedenog vremena. Ako je onemogućeno, kartica neće biti odbačena"
       },
       "readingProgressBar": {
         "label": "Traka napretka čitanja",
-        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod trake naslova taba.",
+        "description": "Kada je omogućeno, traka napretka čitanja će biti prikazana ispod naslova kartice.",
         "globaldisabledTips": "Morate uključiti traku napretka čitanja u globalnim podešavanjima da biste izmenili ovo podešavanje."
       },
       "playingProgressBar": {
         "label": "Traka napretka reprodukcije",
-        "description": "Kada je omogućeno, traka napretka reprodukcije će biti prikazana ispod trake naslova taba.",
+        "description": "Kada je omogućeno, traka napretka reprodukcije će biti prikazana ispod naslova kartice.",
         "globaldisabledTips": "Morate uključiti traku napretka reprodukcije u globalnim podešavanjima da biste izmenili ovo podešavanje."
       },
       "tabSwitchPip": {
-        "label": "PIP prilikom prebacivanja tabova",
-        "description": "Kada je omogućeno, automatski ulazite u Picture-in-picture kada prebacujete tabove sa neprigušenim videom.",
-        "globaldisabledTips": "Morate uključiti Picture-in-picture u globalnim podešavanjima da biste izmenili ovo podešavanje."
+        "label": "PIP pri prebacivanju kartica",
+        "description": "Kada je omogućeno, automatski ulazi u sliku u slici pri prebacivanju kartica sa neutišanim videom.",
+        "globaldisabledTips": "Morate uključiti sliku u slici u globalnim podešavanjima da biste izmenili ovo podešavanje."
       },
       "clearHistoyAfterCLose": {
         "label": "Obriši istoriju nakon zatvaranja",
-        "description": "Kada je omogućeno, istorija će biti obrisana nakon zatvaranja taba."
+        "description": "Kada je omogućeno, istorija će biti obrisana nakon zatvaranja kartice."
       },
       "SyncTabs": {
-        "label": "Sinhronizacija tabova",
-        "description": "Izaberite kako sinhronizovati podatke tabova, isključujući privatne podatke poput kolačića i ličnih informacija.",
+        "label": "Sinhronizuj kartice",
+        "description": "Izaberite kako da sinhronizujete podatke kartica, isključujući privatne podatke kao što su kolačići i lične informacije.",
         "disabled": "Onemogućeno",
         "uploadOnly": "Samo otpremanje",
         "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostati sinhronizovan",
+        "staySynchronized": "Ostani sinhronizovan",
         "globaldisabledTips": "Morate uključiti sinhronizaciju u globalnim podešavanjima da biste izmenili ovo podešavanje."
       },
       "SyncPrivateData": {
-        "label": "Sinhronizacija privatnih podataka",
-        "description": "Izaberite kako sinhronizovati privatne podatke, kao što su kolačići sa veb sajtova, podaci lokalnog skladišta veb stranica, podaci SessionStorage-a, itd. Podaci će biti šifrovani pre sinhronizacije.",
+        "label": "Sinhronizuj privatne podatke",
+        "description": "Izaberite kako da sinhronizujete privatne podatke, kao što su kolačići sajtova, lokalno sačuvani podaci stranica, SessionStorage podaci, itd. Podaci će biti šifrovani pre sinhronizacije.",
         "disabled": "Onemogućeno",
         "uploadOnly": "Samo otpremanje",
         "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostati sinhronizovan",
+        "staySynchronized": "Ostani sinhronizovan",
         "globaldisabledTips": "Morate uključiti sinhronizaciju u globalnim podešavanjima da biste izmenili ovo podešavanje."
       }
     },
     "SyncToCloud": {
-      "label": "Sinhronizacija sa oblakom",
+      "label": "Sinhronizuj sa oblakom",
       "SyncNow": "Sinhronizuj sada",
-      "SyncNowWithGoogleDrive": "Sinhronizuj sada sa Google Drive-om",
-      "SyncNowWithDropbox": "Sinhronizuj sada sa Dropbox-om",
-      "SyncNowWithOneDrive": "Sinhronizuj sada sa OneDrive-om",
-      "Synchronizing": "Sinhronizacija u toku...",
+      "SyncNowWithGoogleDrive": "Sinhronizuj sada sa Google Drive",
+      "SyncNowWithDropbox": "Sinhronizuj sada sa Dropbox",
+      "SyncNowWithOneDrive": "Sinhronizuj sada sa OneDrive",
+      "Synchronizing": "Sinhronizacija...",
       "SyncedSuccessfully": "Uspešno sinhronizovano",
       "SyncFailed": "Sinhronizacija nije uspela",
       "LoginRequired": "Potrebna prijava",
@@ -422,33 +427,33 @@
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Sinhronizacija konfiguracija",
-        "description": "Izaberite kako sinhronizovati konfiguracije ovog proširenja.",
+        "label": "Sinhronizuj konfiguracije",
+        "description": "Izaberite kako da sinhronizujete konfiguracije ovog proširenja.",
         "disabled": "Onemogućeno",
         "uploadOnly": "Samo otpremanje",
         "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostati sinhronizovan"
+        "staySynchronized": "Ostani sinhronizovan"
       },
       "SyncTabs": {
-        "label": "Sinhronizacija tabova",
-        "description": "Izaberite kako sinhronizovati podatke tabova, isključujući privatne podatke poput kolačića i ličnih informacija.",
+        "label": "Sinhronizuj kartice",
+        "description": "Izaberite kako da sinhronizujete podatke kartica, isključujući privatne podatke kao što su kolačići i lične informacije.",
         "disabled": "Onemogućeno",
         "uploadOnly": "Samo otpremanje",
         "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostati sinhronizovan"
+        "staySynchronized": "Ostani sinhronizovan"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Otvori ili zatvori tabove sinhronizovano",
-        "description": "Kada je omogućeno, otvaranje ili zatvaranje tabova u različitim pregledačima će biti sinhronizovano. Ovo važi samo kada je opcija 'Ostati sinhronizovan' aktivna",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ako se prijavite na isti nalog u dva pregledača istovremeno i uključite ovu opciju, otvaranje ili zatvaranje tabova u jednom pregledaču će izvršiti istu operaciju u drugom pregledaču. Ako veb sajt zabranjuje ponovne prijave sa istim nalogom, mogu se pojaviti izuzeci."
+        "label": "Sinhronizovano otvaranje ili zatvaranje kartica",
+        "description": "Kada je omogućeno, otvaranje ili zatvaranje kartica u različitim pregledačima će biti sinhronizovano. Ovo se primenjuje samo kada je opcija 'ostani sinhronizovan' aktivna",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ako se prijavite na isti nalog u dva pregledača istovremeno i uključite ovu opciju, otvaranje ili zatvaranje kartica u jednom pregledaču će izvršiti istu operaciju u drugom pregledaču. Ako sajt zabranjuje ponovljene prijave sa istim nalogom, mogu se pojaviti izuzeci."
       },
       "SyncPrivateData": {
-        "label": "Sinhronizacija privatnih podataka",
-        "description": "Izaberite kako sinhronizovati privatne podatke, poput kolačića sa veb sajtova, podataka lokalnog skladišta veb stranica, podataka SessionStorage-a, itd. Podaci će biti šifrovani pre sinhronizacije.",
+        "label": "Sinhronizuj privatne podatke",
+        "description": "Izaberite kako da sinhronizujete privatne podatke, kao što su kolačići sajtova, lokalno sačuvani podaci stranica, SessionStorage podaci, itd. Podaci će biti šifrovani pre sinhronizacije.",
         "disabled": "Onemogućeno",
         "uploadOnly": "Samo otpremanje",
         "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostati sinhronizovan"
+        "staySynchronized": "Ostani sinhronizovan"
       }
     }
   }

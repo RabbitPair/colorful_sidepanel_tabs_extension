@@ -1,23 +1,23 @@
 {
-  "OpenSideSanelToPreview": "Buka panel samping untuk pratinjau",
+  "OpenSidePanelToPreview": "Buka panel samping untuk pratinjau",
   "_execute_action": "Aktifkan ekstensi ini",
   "openSidePanel": "Buka panel samping",
   "settings": {
-    "resetCurrentPageSettings": "Reset pengaturan halaman saat ini",
+    "resetCurrentPageSettings": "Atur ulang pengaturan halaman saat ini",
     "modules": {
-      "appearance": "Penampilan",
+      "appearance": "Tampilan",
       "beautify": "Mempercantik",
       "tabs": "Tab",
       "history": "Riwayat",
-      "shortcuts": "Pintasan",
-      "pip": "Gambar dalam gambar",
-      "chromeTabGroupAdvanced": "Grup tab lanjutan Chrome",
-      "progressBar": "bar kemajuan",
+      "shortcuts": "Jalan Pintas",
+      "pip": "Gambar-dalam-Gambar",
+      "chromeTabGroupAdvanced": "Grup tab lanjutan",
+      "progressBar": "Bilah kemajuan",
       "floatBall": "Bola mengambang",
       "experimentalFeatures": "Fitur eksperimental"
     },
     "appearance": {
-      "header": "Penampilan",
+      "header": "Tampilan",
       "language": {
         "label": "Bahasa antarmuka",
         "description": "Atur bahasa untuk tampilan antarmuka"
@@ -37,8 +37,8 @@
         "large": "Besar"
       },
       "fontFamily": {
-        "label": "Jenis font",
-        "description": "Atur jenis font"
+        "label": "Jenis huruf",
+        "description": "Atur jenis huruf"
       },
       "fontColor": {
         "label": "Warna font",
@@ -49,15 +49,16 @@
         "description": "Atur ketebalan font"
       },
       "extAction": {
-        "label": "Tindakan ikon ekstensi saat diklik",
+        "label": "Tindakan klik ikon ekstensi",
         "description": "Atur tindakan saat mengklik ikon ekstensi",
         "openPopup": "Buka popup",
-        "openSidePanel": "Buka panel samping"
+        "openSidePanel": "Buka panel samping",
+        "SmallWindowAlert": "Jika panel samping memakan terlalu banyak ruang, disarankan untuk menggunakan jendela pop-up"
       },
       "SidePanelPosition": {
         "label": "Posisi panel samping",
-        "description": "Atur apakah panel samping ditampilkan di sebelah kiri atau kanan.",
-        "goToBrowserSettings": "Buka pengaturan Chrome"
+        "description": "Atur apakah panel samping ditampilkan di kiri atau kanan.",
+        "goToBrowserSettings": "Pergi ke pengaturan Chrome"
       },
       "searchBoxPosition": {
         "label": "Posisi kotak pencarian",
@@ -68,11 +69,11 @@
       },
       "toolbar": {
         "label": "Tampilkan toolbar",
-        "description": "Ketika diaktifkan, toolbar ditampilkan"
+        "description": "Ketika diaktifkan, toolbar akan ditampilkan"
       },
       "bottomNav": {
         "label": "Tampilkan bilah navigasi bawah",
-        "description": "Ketika diaktifkan, bilah navigasi bawah ditampilkan"
+        "description": "Ketika diaktifkan, bilah navigasi bawah akan ditampilkan"
       },
       "buttonPosition": {
         "label": "Posisi tombol",
@@ -82,11 +83,11 @@
       },
       "alwaysShowCloseButton": {
         "label": "Selalu tampilkan tombol tutup",
-        "description": "Ketika diaktifkan, tombol tutup akan selalu ditampilkan; ketika dinonaktifkan, tombol tutup hanya akan ditampilkan saat mouse mengarah ke tab"
+        "description": "Ketika diaktifkan, tombol tutup akan selalu ditampilkan; ketika dinonaktifkan, tombol tutup hanya akan ditampilkan saat mouse melayang di atas tab"
       },
       "fullScreenHideSidePanel": {
         "label": "Sembunyikan panel samping dalam layar penuh",
-        "description": "Ketika diaktifkan, panel samping akan otomatis menyembunyikan saat halaman dalam mode layar penuh. Karena keterbatasan Chrome, panel samping tidak dapat secara otomatis dibuka kembali. Anda perlu membuka panel samping secara manual!"
+        "description": "Ketika diaktifkan, panel samping akan otomatis disembunyikan saat halaman dalam layar penuh. Karena keterbatasan Chrome, panel samping tidak dapat dibuka kembali secara otomatis. Anda perlu membuka kembali panel samping secara manual!"
       }
     },
     "beautify": {
@@ -109,8 +110,8 @@
         "opaque": "Buram"
       },
       "backgroundImageBlur": {
-        "label": "Intensitas Blur",
-        "description": "Atur intensitas Blur"
+        "label": "Intensitas blur",
+        "description": "Atur intensitas blur"
       },
       "backgroundImageBrightness": {
         "label": "Kecerahan",
@@ -124,8 +125,8 @@
         "simple": "Sederhana",
         "complementary": "Komplementer",
         "analogous": "Analog",
-        "triadic": "Triadic",
-        "tetradic": "Tetradic"
+        "triadic": "Triadik",
+        "tetradic": "Tetradik"
       },
       "listBackgroundTransparency": {
         "label": "Transparansi latar belakang daftar",
@@ -137,29 +138,29 @@
         "label": "Batas bawah daftar",
         "description": "Atur batas bawah daftar",
         "none": "Tidak ada",
-        "dashed": "Putus-putus",
-        "solid": "Padat"
+        "dashed": "Garis putus-putus",
+        "solid": "Garis solid"
       },
       "fluentOverlayScrollbars": {
-        "label": "Scrollbars halus",
-        "description": "Gunakan gaya desain Microsoft Fluent untuk scrollbars dan tumpang tindihkan mereka pada konten web",
-        "goToBrowserSettings": "Buka pengaturan Chrome"
+        "label": "Scrollbar Fluent",
+        "description": "Gunakan scrollbar gaya desain Microsoft Fluent dan overlay pada konten web",
+        "goToBrowserSettings": "Pergi ke pengaturan Chrome"
       }
     },
     "tabs": {
       "listView": {
         "label": "Tampilan daftar",
-        "description": "Alihkan tampilan daftar",
+        "description": "Beralih tampilan daftar",
         "compact": "Tampilan kompak",
         "visual": "Tampilan visual"
       },
       "showBy": {
-        "label": "Tampilkan dengan",
-        "description": "Alihkan tampilkan dengan"
+        "label": "Tampilkan berdasarkan",
+        "description": "Beralih tampilkan berdasarkan"
       },
       "sortBy": {
         "label": "Urutkan berdasarkan",
-        "description": "Alihkan urutkan berdasarkan"
+        "description": "Beralih urutkan berdasarkan"
       },
       "showFullUrl": {
         "label": "Tampilkan URL lengkap",
@@ -167,44 +168,48 @@
       },
       "currentWindowOnly": {
         "label": "Hanya jendela saat ini",
-        "description": "Hanya tampilkan tab dari jendela saat ini. Jika dinonaktifkan, tab dari semua jendela akan ditampilkan"
+        "description": "Hanya menampilkan tab dari jendela saat ini. Jika dinonaktifkan, tab dari semua jendela akan ditampilkan"
       },
       "pinedTabsAsIcons": {
-        "label": "Tampilkan tab yang dijepit sebagai ikon",
-        "description": "Ketika diaktifkan, tab yang dijepit akan ditampilkan sebagai ikon dan bukan dalam daftar"
+        "label": "Tampilkan tab yang disematkan sebagai ikon",
+        "description": "Ketika diaktifkan, tab yang disematkan akan ditampilkan sebagai ikon dan tidak dalam daftar"
+      },
+      "pinToQuickAccess": {
+        "label": "Tampilkan akses cepat",
+        "description": "Anda dapat mengatur tab untuk ditampilkan di Akses cepat sehingga mudah ditemukan. Cukup klik kanan (atau tekan lama) dan pilih Sematkan ke Akses cepat. Lepaskan saat Anda tidak membutuhkannya lagi dengan mengklik kanan (atau menekan lama) dan memilih Hapus dari Akses cepat. Perbedaannya dengan tab yang disematkan adalah Akses Cepat menyimpan URL dan membuka tab baru setiap kali diklik."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Tampilkan ikon situs web saat menggabungkan grup",
-        "description": "Ketika diaktifkan, grup yang digabungkan akan menampilkan ikon tab"
+        "label": "Tampilkan ikon situs web saat mengelompokkan grup",
+        "description": "Ketika diaktifkan, grup yang dikelompokkan akan menampilkan ikon tab"
       },
       "hoverPreview": {
-        "label": "Pratinjau saat mengarahkan",
-        "description": "Ketika diaktifkan, mengarahkan kursor ke tab akan menampilkan pratinjau tab"
+        "label": "Pratinjau melayang",
+        "description": "Ketika diaktifkan, melayang di atas tab akan menampilkan pratinjau tab"
       },
       "previewWithThumbnail": {
-        "label": "Tampilkan gambar mini dalam pratinjau",
-        "description": "Ketika diaktifkan, pratinjau akan menampilkan gambar mini tab",
-        "alert": "Ambil area terlihat dari tab aktif saat ini dalam jendela tertentu. Untuk memanggil metode ini, ekstensi harus memiliki izin <all_urls> atau izin activeTab.",
-        "deniedMessage": "Anda telah menolak izin yang diperlukan, jadi pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi"
+        "label": "Tampilkan thumbnail dalam pratinjau",
+        "description": "Ketika diaktifkan, pratinjau akan menampilkan thumbnail tab",
+        "alert": "Tangkap area yang terlihat dari tab aktif saat ini di jendela yang ditentukan. Untuk memanggil metode ini, ekstensi harus memiliki izin <all_urls> atau izin activeTab.",
+        "deniedMessage": "Anda telah menolak izin yang diperlukan, sehingga pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi"
       },
       "previewDelay": {
-        "label": "Tunda pratinjau",
-        "description": "Atur waktu tunda untuk pratinjau tab saat mengarahkan kursor ke tab, dll. (detik). Jika diatur ke 0, tidak akan ada tunda",
+        "label": "Penundaan pratinjau",
+        "description": "Atur waktu penundaan untuk pratinjau tab saat melayang di atas tab, dll. (detik). Jika diatur ke 0, tidak akan ada penundaan",
         "seconds": "Detik"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "Simpan tab yang ditutup baru-baru ini",
-        "description": "Ketika diaktifkan, simpan tab yang ditutup baru-baru ini"
+        "label": "Simpan tab yang baru ditutup",
+        "description": "Ketika diaktifkan, simpan tab yang baru ditutup"
       },
       "dataSource": {
         "label": "Sumber data",
         "description": "Pilih sumber data",
-        "recentlyClosedTabs": "Tab yang ditutup baru-baru ini",
+        "recentlyClosedTabs": "Tab yang baru ditutup",
         "chromeHistory": "Riwayat Chrome",
-        "alert": "Untuk mencari catatan riwayat, Anda perlu otorisasi Anda untuk mengaktifkan",
-        "deniedMessage": "Anda telah menolak izin yang diperlukan, jadi pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi"
+        "alert": "Untuk mencari catatan riwayat, Anda memerlukan otorisasi Anda untuk mengaktifkan",
+        "deniedMessage": "Anda telah menolak izin yang diperlukan, sehingga pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi"
       },
       "showInSidePanel": {
         "label": "Tampilkan di panel samping",
@@ -215,116 +220,116 @@
         "description": "Ketika diaktifkan, catatan riwayat terbaru akan ditampilkan dalam hasil pencarian tab"
       },
       "limitSearchResults": {
-        "label": "Batas jumlah catatan riwayat dalam hasil pencarian tab",
+        "label": "Batasi jumlah catatan riwayat dalam hasil pencarian tab",
         "description": "Atur batas jumlah catatan riwayat dalam hasil pencarian tab. Catatan riwayat yang melebihi batas akan difilter",
-        "alert": "Terlalu banyak catatan akan mempengaruhi kecepatan memuat halaman"
+        "alert": "Terlalu banyak catatan akan mempengaruhi kecepatan pemuatan halaman"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Jumlah tab yang ditutup baru-baru ini yang akan disimpan",
-        "description": "Atur jumlah tab yang ditutup baru-baru ini yang akan disimpan"
+        "label": "Jumlah tab yang baru ditutup untuk disimpan",
+        "description": "Atur jumlah tab yang baru ditutup untuk disimpan"
       },
       "keepDays": {
-        "label": "Jumlah hari untuk menyimpan tab yang ditutup baru-baru ini",
-        "description": "Atur jumlah hari untuk menyimpan tab yang ditutup baru-baru ini. Data yang kedaluwarsa akan dihapus",
+        "label": "Jumlah hari untuk menyimpan tab yang baru ditutup",
+        "description": "Atur jumlah hari untuk menyimpan tab yang baru ditutup. Data yang kedaluwarsa akan dihapus",
         "days": "Hari"
       },
       "openDuration": {
         "label": "Durasi buka",
-        "description": "Hanya tab yang terbuka lebih lama dari waktu yang ditetapkan akan disimpan",
+        "description": "Hanya tab yang dibuka lebih lama dari waktu yang ditentukan yang akan disimpan",
         "seconds": "Detik"
       }
     },
     "shortcuts": {
-      "alert": "Halaman ini hanya untuk tampilan. Untuk mengubah pintasan, silakan kunjungi [Ekstensi]->[Kelola Ekstensi]->[Pintasan Keyboard]",
-      "goToBrowserSettings": "Buka pengaturan Chrome",
+      "alert": "Halaman ini hanya untuk tampilan. Untuk mengubah jalan pintas, silakan kunjungi [Ekstensi]->[Kelola Ekstensi]->[Jalan Pintas Keyboard]",
+      "goToBrowserSettings": "Pergi ke pengaturan Chrome",
       "_execute_action": "Aktifkan ekstensi ini",
       "openSidePanel": "Buka panel samping"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Gambar dalam gambar",
+      "Picture-in-picture": "Gambar-dalam-Gambar",
       "tabSwitch": {
-        "label": "PIP saat Beralih Tab",
+        "label": "PIP pada Pergantian Tab",
         "description": "Masuk otomatis ke PIP saat beralih tab dengan video yang tidak dibisukan",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       },
       "scrollSwitch": {
-        "label": "Beralih ke gambar dalam gambar saat menggulir",
-        "description": "Jika halaman saat ini memutar video dan video tidak dibisukan dan video berada di luar jangkauan yang terlihat saat menggulir, maka akan masuk ke gambar dalam gambar.",
+        "label": "Beralih ke gambar-dalam-gambar saat menggulir",
+        "description": "Jika halaman saat ini memutar video dan video tidak dibisukan dan video berada di luar jangkauan yang terlihat saat menggulir, itu akan masuk ke gambar-dalam-gambar.",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       }
     },
     "userActivitionAlert": {
       "title": "Aktivasi pengguna diperlukan",
       "tips_1": "Aktivasi pengguna berarti pengguna saat ini berinteraksi dengan halaman",
-      "tips_2": "Lebih spesifik lagi, aktivasi memicu peristiwa input seperti:",
-      "tips_3": "Catatan: Menggunakan gulir roda mouse atau gerakan geser tidak akan memicu!",
-      "tips_4": "Jika Anda ingin informasi lebih lanjut, silakan kunjungi:",
+      "tips_2": "Lebih spesifik, aktivasi memicu peristiwa input seperti:",
+      "tips_3": "Catatan: Menggunakan roda gulir mouse atau gerakan gesek tidak akan memicu!",
+      "tips_4": "Jika Anda ingin detail lebih lanjut, silakan kunjungi:",
       "click": "Klik",
       "contextmenu": "Menu klik kanan",
-      "dblclick": "Klik ganda"
+      "dblclick": "Klik dua kali"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Perilaku pengelompokan tab saat terkompresi",
-        "description": "Modifikasi perilaku pengelompokan tab browser Chrome",
-        "option_collapse_others": "Tampilkan grup saat ini dan kompres yang lain",
+        "label": "Perilaku kolaps grup tab",
+        "description": "Ubah perilaku kolaps grup tab di browser Chrome",
+        "option_collapse_others": "Tampilkan grup saat ini dan kolaps lainnya",
         "option_disable": "Perluas semua grup",
         "option_auto": "Gunakan pengaturan default Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Otomatis membuat atau bergabung dengan grup domain yang sama",
-        "description": "Ketika diaktifkan, tab yang baru dibuka akan bergabung secara otomatis dengan grup domain yang sama. Jika grup domain tidak ada, grup domain baru akan dibuat",
+        "label": "Buat atau gabung grup domain yang sama secara otomatis",
+        "description": "Ketika diaktifkan, tab yang baru dibuka akan otomatis bergabung dengan grup domain yang sama. Jika grup domain tidak ada, grup domain baru akan dibuat",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Filter tab yang dijepit dalam grup",
-        "description": "Ketika diaktifkan, tab yang dijepit tidak akan ditambahkan ke grup",
+        "label": "Saring tab yang disematkan dalam grup",
+        "description": "Ketika diaktifkan, tab yang disematkan tidak akan ditambahkan ke grup",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Aktifkan baris kemajuan",
-        "description": "Ketika diaktifkan, baris kemajuan membaca akan ditampilkan di bawah bar judul tab",
+        "label": "Aktifkan bilah kemajuan",
+        "description": "Ketika diaktifkan, bilah kemajuan membaca akan ditampilkan di bawah bilah judul tab",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       },
       "readingProgressBar": {
-        "label": "Baris kemajuan membaca",
-        "description": "Ketika diaktifkan, baris kemajuan membaca akan ditampilkan di bawah bar judul tab",
+        "label": "Bilah kemajuan membaca",
+        "description": "Ketika diaktifkan, bilah kemajuan membaca akan ditampilkan di bawah bilah judul tab",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       },
       "scrollHeightRatio": {
         "label": "Rasio tinggi gulir",
-        "description": "Rasio tinggi jendela yang terlihat terhadap tinggi halaman. Baris kemajuan akan ditampilkan ketika rasio terlampaui",
+        "description": "Rasio tinggi jendela yang terlihat terhadap tinggi halaman. Bilah kemajuan akan ditampilkan ketika rasio terlampaui",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       },
       "playingProgressBar": {
-        "label": "Baris kemajuan pemutaran",
-        "description": "Ketika diaktifkan, baris kemajuan pemutaran akan ditampilkan di bawah bar judul tab",
+        "label": "Bilah kemajuan pemutaran",
+        "description": "Ketika diaktifkan, bilah kemajuan pemutaran akan ditampilkan di bawah bilah judul tab",
         "enabled": "Diaktifkan",
-        "disabled": "Nonaktif"
+        "disabled": "Dinonaktifkan"
       }
     },
     "floatBall": {
       "enableFloatBall": {
         "label": "Aktifkan bola mengambang",
-        "description": "Ketika panel samping ditutup, bola mengambang akan ditampilkan di sisi kanan halaman, memungkinkan pembukaan cepat panel samping."
+        "description": "Ketika panel samping ditutup, bola mengambang akan ditampilkan di sisi kanan halaman, memungkinkan pembukaan panel samping dengan cepat."
       }
     },
     "performance": {
       "label": "Kinerja",
       "saveMemoryAction": {
-        "label": "Bagaimana cara menghemat memori pada tab",
+        "label": "Cara menghemat memori pada tab",
         "description": "Untuk menghemat memori pada tab, Anda dapat memilih untuk menutup tab atau membuang tab.",
-        "discardTips": "sebuah tab yang dibuang tidak pergi ke mana pun. Kami menghancurkannya tetapi tetap terlihat di strip tab Chrome. Jika Anda kembali ke tab yang telah dibuang, itu akan dimuat ulang saat diklik. Konten formulir, posisi gulir, dan sebagainya disimpan dan dipulihkan dengan cara yang sama seperti saat navigasi tab maju/mundur.",
-        "disabled": "Nonaktif",
+        "discardTips": "Tab yang dibuang tidak pergi ke mana-mana. Kami mematikannya tetapi tetap terlihat di bilah tab Chrome. Jika Anda kembali ke tab yang telah dibuang, itu akan dimuat ulang saat diklik. Konten formulir, posisi gulir, dan sebagainya disimpan dan dipulihkan dengan cara yang sama seperti saat navigasi tab maju/mundur.",
+        "disabled": "Dinonaktifkan",
         "closeTabs": "Tutup tab",
         "discardTabs": "Buang tab"
       },
@@ -340,24 +345,24 @@
       },
       "disableAnimations": {
         "label": "Nonaktifkan animasi",
-        "description": "nonaktifkan efek riak dan nonaktifkan semua transisi"
+        "description": "Nonaktifkan efek riak dan nonaktifkan semua transisi"
       }
     },
     "site": {
-      "label": "Pengaturan Situs",
+      "label": "Pengaturan situs",
       "allSites": "Semua situs",
       "sortBy": "Urutkan berdasarkan",
       "mostVisited": "Paling sering dikunjungi",
-      "dataStored": "Data disimpan",
+      "dataStored": "Data yang disimpan",
       "name": "Nama",
       "deleteAllData": "Hapus semua data",
       "totalStorageUsedBySites": "Total penyimpanan yang digunakan oleh situs",
-      "totalCount": "Total hitungan",
+      "totalCount": "Jumlah total",
       "addNewSite": {
-        "label": "Tambah situs baru",
-        "description": "Masukkan alamat situs web baru, seperti 'www.example.com', dan klik 'Tambah'.",
+        "label": "Tambahkan situs baru",
+        "description": "Masukkan alamat situs web baru, seperti 'www.example.com', dan klik 'Tambahkan'.",
         "placeholder": "Alamat situs web, seperti 'www.example.com'",
-        "add": "Tambah",
+        "add": "Tambahkan",
         "cancel": "Batal",
         "invalidDomain": "Alamat situs web tidak valid"
       },
@@ -371,19 +376,19 @@
         "description": "Ketika diaktifkan, tab akan diizinkan untuk dibuang oleh browser, dan jika Anda mengaktifkan kinerja dan mengatur waktu untuk membuang tab tidak aktif, tab akan dibuang setelah waktu yang ditentukan. Jika dinonaktifkan, tab tidak akan dibuang"
       },
       "readingProgressBar": {
-        "label": "Baris kemajuan membaca",
-        "description": "Ketika diaktifkan, baris kemajuan membaca akan ditampilkan di bawah bar judul tab.",
-        "globaldisabledTips": "Anda harus mengaktifkan baris kemajuan membaca di pengaturan global untuk mengubah pengaturan ini."
+        "label": "Bilah kemajuan membaca",
+        "description": "Ketika diaktifkan, bilah kemajuan membaca akan ditampilkan di bawah bilah judul tab.",
+        "globaldisabledTips": "Anda harus mengaktifkan bilah kemajuan membaca di pengaturan global untuk mengubah pengaturan ini."
       },
       "playingProgressBar": {
-        "label": "Baris kemajuan pemutaran",
-        "description": "Ketika diaktifkan, baris kemajuan pemutaran akan ditampilkan di bawah bar judul tab.",
-        "globaldisabledTips": "Anda harus mengaktifkan baris kemajuan pemutaran di pengaturan global untuk mengubah pengaturan ini."
+        "label": "Bilah kemajuan pemutaran",
+        "description": "Ketika diaktifkan, bilah kemajuan pemutaran akan ditampilkan di bawah bilah judul tab.",
+        "globaldisabledTips": "Anda harus mengaktifkan bilah kemajuan pemutaran di pengaturan global untuk mengubah pengaturan ini."
       },
       "tabSwitchPip": {
-        "label": "PIP saat Beralih Tab",
-        "description": "Ketika diaktifkan, masuk otomatis ke Mode Picture-in-picture saat beralih tab dengan video yang tidak dibisukan.",
-        "globaldisabledTips": "Anda harus mengaktifkan Mode Picture-in-picture di pengaturan global untuk mengubah pengaturan ini."
+        "label": "PIP pada Pergantian Tab",
+        "description": "Ketika diaktifkan, masuk otomatis ke Gambar-dalam-Gambar saat beralih tab dengan video yang tidak dibisukan.",
+        "globaldisabledTips": "Anda harus mengaktifkan Gambar-dalam-Gambar di pengaturan global untuk mengubah pengaturan ini."
       },
       "clearHistoyAfterCLose": {
         "label": "Hapus riwayat setelah ditutup",
@@ -391,20 +396,20 @@
       },
       "SyncTabs": {
         "label": "Sinkronkan tab",
-        "description": "Pilih cara untuk menyinkronkan data tab, kecuali data pribadi seperti cookie dan informasi pribadi.",
-        "disabled": "Nonaktifkan",
-        "uploadOnly": "Hanya Unggah",
-        "downloadOnly": "Hanya Unduh",
-        "staySynchronized": "Tetap Disinkronkan",
+        "description": "Pilih cara untuk menyinkronkan data tab, tidak termasuk data pribadi seperti cookie dan informasi pribadi.",
+        "disabled": "Dinonaktifkan",
+        "uploadOnly": "Hanya unggah",
+        "downloadOnly": "Hanya unduh",
+        "staySynchronized": "Tetap sinkron",
         "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
       },
       "SyncPrivateData": {
         "label": "Sinkronkan data pribadi",
-        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum disinkronkan.",
-        "disabled": "Nonaktifkan",
-        "uploadOnly": "Hanya Unggah",
-        "downloadOnly": "Hanya Unduh",
-        "staySynchronized": "Tetap Disinkronkan",
+        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum sinkronisasi.",
+        "disabled": "Dinonaktifkan",
+        "uploadOnly": "Hanya unggah",
+        "downloadOnly": "Hanya unduh",
+        "staySynchronized": "Tetap sinkron",
         "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
       }
     },
@@ -415,8 +420,8 @@
       "SyncNowWithDropbox": "Sinkronkan Sekarang dengan Dropbox",
       "SyncNowWithOneDrive": "Sinkronkan Sekarang dengan OneDrive",
       "Synchronizing": "Menyinkronkan...",
-      "SyncedSuccessfully": "Berhasil Disinkronkan",
-      "SyncFailed": "Gagal Menyinkronkan",
+      "SyncedSuccessfully": "Berhasil disinkronkan",
+      "SyncFailed": "Sinkronisasi gagal",
       "LoginRequired": "Login diperlukan",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
@@ -424,31 +429,31 @@
       "SyncConfigs": {
         "label": "Sinkronkan konfigurasi",
         "description": "Pilih cara untuk menyinkronkan konfigurasi ekstensi ini.",
-        "disabled": "Nonaktifkan",
-        "uploadOnly": "Hanya Unggah",
-        "downloadOnly": "Hanya Unduh",
-        "staySynchronized": "Tetap Disinkronkan"
+        "disabled": "Dinonaktifkan",
+        "uploadOnly": "Hanya unggah",
+        "downloadOnly": "Hanya unduh",
+        "staySynchronized": "Tetap sinkron"
       },
       "SyncTabs": {
         "label": "Sinkronkan tab",
-        "description": "Pilih cara untuk menyinkronkan data tab, kecuali data pribadi seperti cookie dan informasi pribadi.",
-        "disabled": "Nonaktifkan",
-        "uploadOnly": "Hanya Unggah",
-        "downloadOnly": "Hanya Unduh",
-        "staySynchronized": "Tetap Disinkronkan"
+        "description": "Pilih cara untuk menyinkronkan data tab, tidak termasuk data pribadi seperti cookie dan informasi pribadi.",
+        "disabled": "Dinonaktifkan",
+        "uploadOnly": "Hanya unggah",
+        "downloadOnly": "Hanya unduh",
+        "staySynchronized": "Tetap sinkron"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Buka atau tutup tab secara bersamaan",
-        "description": "Ketika diaktifkan, membuka atau menutup tab di browser yang berbeda akan disinkronkan. Ini hanya berlaku ketika opsi 'tetap disinkronkan' aktif",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jika Anda login ke akun yang sama di dua browser secara bersamaan dan mengaktifkan opsi ini, membuka atau menutup tab di satu browser akan melakukan operasi yang sama di browser lainnya. Jika situs web melarang login berulang dengan akun yang sama, mungkin terjadi pengecualian."
+        "label": "Buka atau tutup tab secara sinkron",
+        "description": "Ketika diaktifkan, membuka atau menutup tab di browser yang berbeda akan disinkronkan. Ini hanya berlaku ketika opsi 'tetap sinkron' aktif",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jika Anda masuk ke akun yang sama di dua browser pada saat yang sama dan mengaktifkan opsi ini, membuka atau menutup tab di satu browser akan melakukan operasi yang sama di browser lain. Jika situs web melarang login berulang dengan akun yang sama, pengecualian dapat terjadi."
       },
       "SyncPrivateData": {
         "label": "Sinkronkan data pribadi",
-        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum disinkronkan.",
-        "disabled": "Nonaktifkan",
-        "uploadOnly": "Hanya Unggah",
-        "downloadOnly": "Hanya Unduh",
-        "staySynchronized": "Tetap Disinkronkan"
+        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum sinkronisasi.",
+        "disabled": "Dinonaktifkan",
+        "uploadOnly": "Hanya unggah",
+        "downloadOnly": "Hanya unduh",
+        "staySynchronized": "Tetap sinkron"
       }
     }
   }

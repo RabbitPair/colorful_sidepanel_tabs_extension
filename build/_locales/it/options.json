@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Apri il pannello laterale per la visualizzazione",
+  "OpenSidePanelToPreview": "Apri pannello laterale per l'anteprima",
   "_execute_action": "Attiva questa estensione",
   "openSidePanel": "Apri pannello laterale",
   "settings": {
@@ -10,9 +10,9 @@
       "tabs": "Schede",
       "history": "Cronologia",
       "shortcuts": "Scorciatoie",
-      "pip": "Immagine nella immagine",
-      "chromeTabGroupAdvanced": "Gruppi schede avanzati",
-      "progressBar": "barra di avanzamento",
+      "pip": "Immagine nell'immagine",
+      "chromeTabGroupAdvanced": "Gruppi di schede avanzati",
+      "progressBar": "Barra di progresso",
       "floatBall": "Palla fluttuante",
       "experimentalFeatures": "Funzionalità sperimentali"
     },
@@ -24,11 +24,11 @@
       },
       "theme": {
         "label": "Modalità colore",
-        "description": "Scegli la modalità colore chiaro o scuro"
+        "description": "Scegli la modalità colore chiara o scura"
       },
       "rtl": {
         "label": "RTL",
-        "description": "Quando abilitato, l'interfaccia visualizzerà la direzione del testo da destra a sinistra"
+        "description": "Quando abilitato, l'interfaccia mostrerà il testo da destra a sinistra"
       },
       "fontSize": {
         "label": "Dimensione del carattere",
@@ -37,26 +37,27 @@
         "large": "Grande"
       },
       "fontFamily": {
-        "label": "Famiglia del carattere",
-        "description": "Imposta la famiglia del carattere"
+        "label": "Famiglia di caratteri",
+        "description": "Imposta la famiglia di caratteri"
       },
       "fontColor": {
         "label": "Colore del carattere",
         "description": "Imposta il colore del carattere"
       },
       "fontWeight": {
-        "label": "Grassetto del carattere",
-        "description": "Imposta il grassetto del carattere"
+        "label": "Peso del carattere",
+        "description": "Imposta il peso del carattere"
       },
       "extAction": {
-        "label": "Azione clic sull'icona dell'estensione",
+        "label": "Azione icona estensione",
         "description": "Imposta l'azione quando si clicca sull'icona dell'estensione",
         "openPopup": "Apri popup",
-        "openSidePanel": "Apri pannello laterale"
+        "openSidePanel": "Apri pannello laterale",
+        "SmallWindowAlert": "Se il pannello laterale occupa troppo spazio, si consiglia di utilizzare una finestra popup"
       },
       "SidePanelPosition": {
         "label": "Posizione del pannello laterale",
-        "description": "Imposta se il pannello laterale è visualizzato a sinistra o a destra.",
+        "description": "Imposta se il pannello laterale viene visualizzato a sinistra o a destra.",
         "goToBrowserSettings": "Vai alle impostazioni di Chrome"
       },
       "searchBoxPosition": {
@@ -68,21 +69,21 @@
       },
       "toolbar": {
         "label": "Mostra barra degli strumenti",
-        "description": "Quando abilitato, viene visualizzata la barra degli strumenti"
+        "description": "Quando abilitato, la barra degli strumenti viene visualizzata"
       },
       "bottomNav": {
         "label": "Mostra barra di navigazione inferiore",
-        "description": "Quando abilitato, viene visualizzata la barra di navigazione inferiore"
+        "description": "Quando abilitato, la barra di navigazione inferiore viene visualizzata"
       },
       "buttonPosition": {
-        "label": "Posizione del pulsante",
+        "label": "Posizione dei pulsanti",
         "description": "Imposta la posizione dei pulsanti",
         "left": "Sinistra",
         "right": "Destra"
       },
       "alwaysShowCloseButton": {
         "label": "Mostra sempre il pulsante di chiusura",
-        "description": "Quando abilitato, il pulsante di chiusura sarà sempre visibile; quando disabilitato, il pulsante di chiusura verrà visualizzato solo quando il mouse è sopra la scheda"
+        "description": "Quando abilitato, il pulsante di chiusura sarà sempre visibile; quando disabilitato, il pulsante di chiusura sarà visibile solo quando il mouse è sopra la scheda"
       },
       "fullScreenHideSidePanel": {
         "label": "Nascondi pannello laterale a schermo intero",
@@ -92,15 +93,15 @@
     "beautify": {
       "coloredbackground": {
         "label": "Sfondo colorato",
-        "description": "Quando abilitato, il pannello laterale visualizzerà uno sfondo colorato"
+        "description": "Quando abilitato, il pannello laterale mostrerà uno sfondo colorato"
       },
       "backgroundPicture": {
         "label": "Immagine di sfondo",
-        "description": "Fai clic su [+] per aggiungere un'immagine personalizzata, fai clic su [-] per eliminare un'immagine personalizzata. Puoi trovare le tue immagini preferite sui seguenti siti web.",
+        "description": "Clicca [+] per aggiungere un'immagine personalizzata, clicca [-] per eliminare un'immagine personalizzata. Puoi trovare le tue immagini preferite sui seguenti siti web.",
         "dialogDescription": "Inserisci l'indirizzo dell'immagine",
         "OK": "OK",
         "Cancel": "Annulla",
-        "invalidImage": "Indirizzo dell'immagine non valido"
+        "invalidImage": "Indirizzo immagine non valido"
       },
       "backgroundImageTransparency": {
         "label": "Trasparenza dell'immagine",
@@ -109,15 +110,15 @@
         "opaque": "Opaco"
       },
       "backgroundImageBlur": {
-        "label": "Intensità dello sfocato",
-        "description": "Imposta l'intensità dello sfocato"
+        "label": "Intensità della sfocatura",
+        "description": "Imposta l'intensità della sfocatura"
       },
       "backgroundImageBrightness": {
         "label": "Luminosità",
-        "description": "Imposta la luminosità, consigliata solo per la modalità scura"
+        "description": "Imposta la luminosità, consigliato solo per la modalità scura"
       },
       "listBackgroundStyle": {
-        "label": "Stile sfondo elenco",
+        "label": "Stile di sfondo dell'elenco",
         "description": "Imposta lo stile di sfondo dell'elenco",
         "single": "Singolo",
         "none": "Nessuno",
@@ -128,30 +129,30 @@
         "tetradic": "Tetradico"
       },
       "listBackgroundTransparency": {
-        "label": "Trasparenza sfondo elenco",
+        "label": "Trasparenza dello sfondo dell'elenco",
         "description": "Imposta la trasparenza dello sfondo dell'elenco",
         "transparent": "Trasparente",
         "opaque": "Opaco"
       },
       "listBottomBorder": {
-        "label": "Bordo inferiore elenco",
+        "label": "Bordo inferiore dell'elenco",
         "description": "Imposta il bordo inferiore dell'elenco",
         "none": "Nessuno",
         "dashed": "Tratteggiato",
         "solid": "Solido"
       },
       "fluentOverlayScrollbars": {
-        "label": "Barre di scorrimento fluide",
-        "description": "Utilizza lo stile di design Microsoft Fluent per le barre di scorrimento e sovrapponile al contenuto web",
+        "label": "Barre di scorrimento fluenti",
+        "description": "Usa le barre di scorrimento in stile Microsoft Fluent e sovrapponile al contenuto web",
         "goToBrowserSettings": "Vai alle impostazioni di Chrome"
       }
     },
     "tabs": {
       "listView": {
-        "label": "Visualizzazione elenco",
-        "description": "Cambia visualizzazione elenco",
-        "compact": "Visualizzazione compatta",
-        "visual": "Visualizzazione visiva"
+        "label": "Vista elenco",
+        "description": "Cambia vista elenco",
+        "compact": "Vista compatta",
+        "visual": "Vista visiva"
       },
       "showBy": {
         "label": "Mostra per",
@@ -170,22 +171,26 @@
         "description": "Mostra solo le schede della finestra corrente. Se disabilitato, verranno mostrate le schede di tutte le finestre"
       },
       "pinedTabsAsIcons": {
-        "label": "Mostra schede appuntate come icone",
-        "description": "Quando abilitato, le schede appuntate verranno visualizzate come icone e non nell'elenco"
+        "label": "Mostra schede bloccate come icone",
+        "description": "Quando abilitato, le schede bloccate verranno visualizzate come icone e non nell'elenco"
+      },
+      "pinToQuickAccess": {
+        "label": "Mostra accesso rapido",
+        "description": "Puoi impostare una scheda per apparire in Accesso rapido in modo che sia facile da trovare. Basta fare clic con il tasto destro (o premere a lungo) e selezionare Fissa a Accesso rapido. Sbloccalo quando non ne hai più bisogno facendo clic con il tasto destro (o premendo a lungo) e selezionando Elimina da Accesso rapido. La differenza rispetto alle schede bloccate è che Accesso rapido salva l'URL e apre una nuova scheda ogni volta che viene cliccato."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Mostra icone del sito quando si comprimono i gruppi",
+        "label": "Mostra icone dei siti web quando si comprimono i gruppi",
         "description": "Quando abilitato, i gruppi compressi mostreranno le icone delle schede"
       },
       "hoverPreview": {
         "label": "Anteprima al passaggio del mouse",
-        "description": "Quando abilitato, passando il mouse sulle schede verranno visualizzate le anteprime delle schede"
+        "description": "Quando abilitato, passando il mouse sulle schede verranno mostrate le anteprime delle schede"
       },
       "previewWithThumbnail": {
         "label": "Mostra miniature nell'anteprima",
         "description": "Quando abilitato, le anteprime mostreranno le miniature delle schede",
         "alert": "Cattura l'area visibile della scheda attualmente attiva in una finestra specificata. Per chiamare questo metodo, l'estensione deve avere il permesso <all_urls> o il permesso activeTab.",
-        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono state modificate. Se cambi idea, fai clic di nuovo e autorizza"
+        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono cambiate. Se cambi idea, fai clic di nuovo e consenti l'autorizzazione"
       },
       "previewDelay": {
         "label": "Ritardo anteprima",
@@ -199,24 +204,24 @@
         "description": "Quando abilitato, salva le schede chiuse di recente"
       },
       "dataSource": {
-        "label": "Origine dati",
-        "description": "Seleziona l'origine dati",
+        "label": "Fonte dei dati",
+        "description": "Seleziona la fonte dei dati",
         "recentlyClosedTabs": "Schede chiuse di recente",
         "chromeHistory": "Cronologia di Chrome",
         "alert": "Per cercare i record della cronologia, è necessaria la tua autorizzazione per abilitare",
-        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono state modificate. Se cambi idea, fai clic di nuovo e autorizza"
+        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono cambiate. Se cambi idea, fai clic di nuovo e consenti l'autorizzazione"
       },
       "showInSidePanel": {
         "label": "Mostra nel pannello laterale",
         "description": "Quando abilitato, mostra nel pannello laterale"
       },
       "showInTabSearchResults": {
-        "label": "Mostra la cronologia nei risultati della ricerca delle schede",
-        "description": "Quando abilitato, i record di cronologia recenti verranno visualizzati nei risultati della ricerca delle schede"
+        "label": "Mostra cronologia nei risultati di ricerca delle schede",
+        "description": "Quando abilitato, i record della cronologia recente verranno visualizzati nei risultati di ricerca delle schede"
       },
       "limitSearchResults": {
-        "label": "Limita il numero di record della cronologia nei risultati della ricerca delle schede",
-        "description": "Imposta il numero limite di record della cronologia nei risultati della ricerca delle schede. I record della cronologia che superano il limite verranno filtrati",
+        "label": "Limita il numero di record della cronologia nei risultati di ricerca delle schede",
+        "description": "Imposta il numero limite di record della cronologia nei risultati di ricerca delle schede. I record della cronologia che superano il limite verranno filtrati",
         "alert": "Troppi record influenzeranno la velocità di caricamento della pagina"
       },
       "saveRecentlyTabsLimit": {
@@ -230,84 +235,84 @@
       },
       "openDuration": {
         "label": "Durata di apertura",
-        "description": "Verranno salvate solo le schede aperte per più tempo del tempo impostato",
+        "description": "Solo le schede aperte per un tempo superiore a quello impostato verranno salvate",
         "seconds": "Secondi"
       }
     },
     "shortcuts": {
-      "alert": "Questa pagina è solo per la visualizzazione. Per modificare le scorciatoie, visita [Estensioni]->[Gestisci estensioni]->[Scorciatoie da tastiera]",
+      "alert": "Questa pagina è solo per visualizzazione. Per modificare le scorciatoie, visita [Estensioni]->[Gestisci estensioni]->[Scorciatoie da tastiera]",
       "goToBrowserSettings": "Vai alle impostazioni di Chrome",
       "_execute_action": "Attiva questa estensione",
       "openSidePanel": "Apri pannello laterale"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Immagine nella immagine",
+      "Picture-in-picture": "Immagine nell'immagine",
       "tabSwitch": {
-        "label": "PIP durante il cambio scheda",
-        "description": "Entra automaticamente in PIP quando si cambia scheda con un video non silenziato",
+        "label": "PIP al cambio di scheda",
+        "description": "Entra automaticamente in PIP quando si cambia scheda con un video non disattivato",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       },
       "scrollSwitch": {
-        "label": "Passa all'immagine nella immagine durante lo scorrimento",
-        "description": "Se la pagina corrente sta riproducendo un video e il video non è silenziato e il video è fuori dalla portata visibile durante lo scorrimento, entrerà nell'immagine nella immagine.",
+        "label": "Passa a immagine nell'immagine durante lo scorrimento",
+        "description": "Se la pagina corrente sta riproducendo un video e il video non è disattivato e il video è fuori dall'area visibile durante lo scorrimento, entrerà in immagine nell'immagine.",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       }
     },
     "userActivitionAlert": {
       "title": "Attivazione utente richiesta",
-      "tips_1": "L'attivazione utente significa che l'utente sta interagendo attualmente con la pagina",
+      "tips_1": "L'attivazione dell'utente significa che l'utente sta attualmente interagendo con la pagina",
       "tips_2": "Più specificamente, l'attivazione attiva eventi di input come:",
-      "tips_3": "Nota: Utilizzare la rotellina del mouse o il gesto di scorrimento non attiverà!",
+      "tips_3": "Nota: L'uso della rotellina del mouse o del gesto di scorrimento non attiverà!",
       "tips_4": "Se desideri ulteriori dettagli, visita:",
-      "click": "Clicca",
-      "contextmenu": "Menu clic destro",
+      "click": "Clic",
+      "contextmenu": "Menu contestuale",
       "dblclick": "Doppio clic"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Comportamento di compressione gruppo schede",
-        "description": "Modifica il comportamento della compressione del gruppo schede del browser Chrome",
-        "option_collapse_others": "Mostra gruppo corrente e comprimi gli altri",
+        "label": "Comportamento di riduzione del gruppo di schede",
+        "description": "Modifica il comportamento di riduzione del gruppo di schede del browser Chrome",
+        "option_collapse_others": "Mostra il gruppo corrente e riduci gli altri",
         "option_disable": "Espandi tutti i gruppi",
-        "option_auto": "Utilizza le impostazioni predefinite di Chrome"
+        "option_auto": "Usa le impostazioni predefinite di Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Crea automaticamente o unisciti al gruppo stesso dominio",
-        "description": "Quando abilitato, le schede appena aperte si uniranno automaticamente al gruppo dello stesso dominio. Se il gruppo di dominio non esiste, verrà creato un nuovo gruppo di dominio",
+        "label": "Crea automaticamente o unisciti allo stesso gruppo di dominio",
+        "description": "Quando abilitato, le schede appena aperte si uniranno automaticamente allo stesso gruppo di dominio. Se il gruppo di dominio non esiste, verrà creato un nuovo gruppo di dominio",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Filtra le schede appuntate nei gruppi",
-        "description": "Quando abilitato, le schede appuntate non verranno aggiunte ai gruppi",
+        "label": "Filtra le schede bloccate nei gruppi",
+        "description": "Quando abilitato, le schede bloccate non verranno aggiunte ai gruppi",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Abilita barra di avanzamento",
-        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della lettura sotto la barra del titolo della scheda",
+        "label": "Abilita barra di progresso",
+        "description": "Quando abilitato, una barra di progresso di lettura verrà visualizzata sotto la barra del titolo della scheda",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       },
       "readingProgressBar": {
-        "label": "Barra di avanzamento lettura",
-        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della lettura sotto la barra del titolo della scheda",
+        "label": "Barra di progresso di lettura",
+        "description": "Quando abilitato, una barra di progresso di lettura verrà visualizzata sotto la barra del titolo della scheda",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       },
       "scrollHeightRatio": {
         "label": "Rapporto altezza di scorrimento",
-        "description": "Il rapporto tra l'altezza della finestra visibile e l'altezza della pagina. Una barra di avanzamento verrà visualizzata quando il rapporto viene superato",
+        "description": "Il rapporto tra l'altezza della finestra visibile e l'altezza della pagina. Una barra di progresso verrà visualizzata quando il rapporto viene superato",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       },
       "playingProgressBar": {
-        "label": "Barra di avanzamento riproduzione",
-        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della riproduzione sotto la barra del titolo della scheda",
+        "label": "Barra di progresso di riproduzione",
+        "description": "Quando abilitato, una barra di progresso di riproduzione verrà visualizzata sotto la barra del titolo della scheda",
         "enabled": "Abilitato",
         "disabled": "Disabilitato"
       }
@@ -315,7 +320,7 @@
     "floatBall": {
       "enableFloatBall": {
         "label": "Abilita palla fluttuante",
-        "description": "Quando il pannello laterale è chiuso, verrà visualizzata una palla fluttuante sul lato destro della pagina, consentendo l'apertura rapida del pannello laterale."
+        "description": "Quando il pannello laterale è chiuso, una palla fluttuante verrà visualizzata sul lato destro della pagina, consentendo l'apertura rapida del pannello laterale."
       }
     },
     "performance": {
@@ -323,24 +328,24 @@
       "saveMemoryAction": {
         "label": "Come risparmiare memoria sulle schede",
         "description": "Per risparmiare memoria sulle schede, puoi scegliere di chiudere le schede o scartare le schede.",
-        "discardTips": "una scheda scartata non va da nessuna parte. La chiudiamo ma è ancora visibile sulla barra delle schede di Chrome. Se torni a una scheda che è stata scartata, si ricaricherà quando cliccata. Il contenuto del modulo, la posizione di scorrimento e così via vengono salvati e ripristinati allo stesso modo durante la navigazione avanti/indietro delle schede.",
+        "discardTips": "Una scheda scartata non va da nessuna parte. La chiudiamo ma è ancora visibile sulla barra delle schede di Chrome. Se torni a una scheda che è stata scartata, si ricaricherà quando cliccata. Il contenuto del modulo, la posizione di scorrimento e così via vengono salvati e ripristinati allo stesso modo durante la navigazione avanti/indietro delle schede.",
         "disabled": "Disabilitato",
         "closeTabs": "Chiudi schede",
         "discardTabs": "Scarta schede"
       },
       "discardInactiveTabsMinutes": {
         "label": "Quanto tempo per scartare le schede inattive",
-        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è vietato, la scheda verrà scartata dopo il tempo specificato.",
+        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è proibito, la scheda verrà scartata dopo il tempo specificato.",
         "minutes": "Minuti"
       },
       "closeInactiveTabsMinutes": {
         "label": "Quanto tempo per chiudere le schede inattive",
-        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è vietato, la scheda verrà chiusa dopo il tempo specificato.",
+        "description": "Quando non viene riprodotto audio o video sulla scheda e lo scarto automatico non è proibito, la scheda verrà chiusa dopo il tempo specificato.",
         "minutes": "Minuti"
       },
       "disableAnimations": {
         "label": "Disabilita animazioni",
-        "description": "disabilita l'effetto ondulazione e disabilita tutte le transizioni"
+        "description": "Disabilita l'effetto ondulazione e disabilita tutte le transizioni"
       }
     },
     "site": {
@@ -351,42 +356,42 @@
       "dataStored": "Dati memorizzati",
       "name": "Nome",
       "deleteAllData": "Elimina tutti i dati",
-      "totalStorageUsedBySites": "Totale spazio utilizzato dai siti",
+      "totalStorageUsedBySites": "Memoria totale utilizzata dai siti",
       "totalCount": "Conteggio totale",
       "addNewSite": {
         "label": "Aggiungi nuovo sito",
-        "description": "Inserisci un nuovo indirizzo del sito web, come 'www.esempio.com', e clicca su 'Aggiungi'.",
-        "placeholder": "Indirizzo del sito web, come 'www.esempio.com'",
+        "description": "Inserisci un nuovo indirizzo web, come 'www.esempio.com', e clicca su 'Aggiungi'.",
+        "placeholder": "Indirizzo web, come 'www.esempio.com'",
         "add": "Aggiungi",
         "cancel": "Annulla",
-        "invalidDomain": "Indirizzo del sito web non valido"
+        "invalidDomain": "Indirizzo web non valido"
       },
       "browserSettings": {
         "label": "Impostazioni del browser",
-        "description": "Puoi modificare le impostazioni del sito, come eliminare i dati o modificare i permessi del sito.",
+        "description": "Puoi modificare le impostazioni del sito, come eliminare i dati o cambiare le autorizzazioni del sito.",
         "goToBrowserSettings": "Vai alle impostazioni del browser"
       },
       "autoDiscardable": {
-        "label": "Auto scartabile",
-        "description": "Quando abilitato, la scheda potrà essere scartata dal browser e se attivi le prestazioni e imposti il tempo per scartare le schede inattive, la scheda verrà scartata dopo il tempo specificato. Se disabilitato, la scheda non verrà scartata"
+        "label": "Scartabile automaticamente",
+        "description": "Quando abilitato, la scheda sarà consentita di essere scartata dal browser, e se attivi le prestazioni e imposti il tempo per scartare le schede inattive, la scheda verrà scartata dopo il tempo specificato. Se disabilitato, la scheda non verrà scartata"
       },
       "readingProgressBar": {
-        "label": "Barra di avanzamento lettura",
-        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della lettura sotto la barra del titolo della scheda.",
-        "globaldisabledTips": "Devi attivare la barra di avanzamento lettura nelle impostazioni globali per modificare questa impostazione."
+        "label": "Barra di progresso di lettura",
+        "description": "Quando abilitato, una barra di progresso di lettura verrà visualizzata sotto la barra del titolo della scheda.",
+        "globaldisabledTips": "Devi attivare la barra di progresso di lettura nelle impostazioni globali per modificare questa impostazione."
       },
       "playingProgressBar": {
-        "label": "Barra di avanzamento riproduzione",
-        "description": "Quando abilitato, verrà visualizzata una barra di avanzamento della riproduzione sotto la barra del titolo della scheda.",
-        "globaldisabledTips": "Devi attivare la barra di avanzamento riproduzione nelle impostazioni globali per modificare questa impostazione."
+        "label": "Barra di progresso di riproduzione",
+        "description": "Quando abilitato, una barra di progresso di riproduzione verrà visualizzata sotto la barra del titolo della scheda.",
+        "globaldisabledTips": "Devi attivare la barra di progresso di riproduzione nelle impostazioni globali per modificare questa impostazione."
       },
       "tabSwitchPip": {
-        "label": "PIP su cambio scheda",
-        "description": "Quando abilitato, entra automaticamente nella modalità Picture-in-picture quando si cambia scheda con un video non in pausa.",
-        "globaldisabledTips": "Devi attivare la modalità Picture-in-picture nelle impostazioni globali per modificare questa impostazione."
+        "label": "PIP al cambio di scheda",
+        "description": "Quando abilitato, entra automaticamente in Immagine nell'immagine quando si cambia scheda con un video non disattivato.",
+        "globaldisabledTips": "Devi attivare Immagine nell'immagine nelle impostazioni globali per modificare questa impostazione."
       },
       "clearHistoyAfterCLose": {
-        "label": "Cancella la cronologia dopo la chiusura",
+        "label": "Cancella cronologia dopo la chiusura",
         "description": "Quando abilitato, la cronologia verrà cancellata dopo la chiusura della scheda."
       },
       "SyncTabs": {
@@ -394,7 +399,7 @@
         "description": "Scegli come sincronizzare i dati delle schede, escludendo i dati privati come i cookie e le informazioni personali.",
         "disabled": "Disabilitato",
         "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo scaricamento",
+        "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato",
         "globaldisabledTips": "Devi attivare la sincronizzazione nelle Impostazioni globali per modificare questa impostazione."
       },
@@ -403,7 +408,7 @@
         "description": "Scegli come sincronizzare i dati privati, come i cookie del sito web, i dati di localstorage della pagina web, i dati di SessionStorage, ecc. I dati verranno crittografati prima della sincronizzazione.",
         "disabled": "Disabilitato",
         "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo scaricamento",
+        "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato",
         "globaldisabledTips": "Devi attivare la sincronizzazione nelle Impostazioni globali per modificare questa impostazione."
       }
@@ -415,18 +420,18 @@
       "SyncNowWithDropbox": "Sincronizza ora con Dropbox",
       "SyncNowWithOneDrive": "Sincronizza ora con OneDrive",
       "Synchronizing": "Sincronizzazione in corso...",
-      "SyncedSuccessfully": "Sincronizzazione riuscita",
+      "SyncedSuccessfully": "Sincronizzato con successo",
       "SyncFailed": "Sincronizzazione fallita",
       "LoginRequired": "Accesso richiesto",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Configurazioni di sincronizzazione",
+        "label": "Sincronizza configurazioni",
         "description": "Scegli come sincronizzare le configurazioni di questa estensione.",
         "disabled": "Disabilitato",
         "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo scaricamento",
+        "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato"
       },
       "SyncTabs": {
@@ -434,20 +439,20 @@
         "description": "Scegli come sincronizzare i dati delle schede, escludendo i dati privati come i cookie e le informazioni personali.",
         "disabled": "Disabilitato",
         "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo scaricamento",
+        "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Apri o chiudi le schede in modo sincrono",
-        "description": "Quando abilitato, l'apertura o la chiusura delle schede in browser diversi sarà sincronizzata. Questo si applica solo quando l'opzione 'rimani sincronizzato' è attiva",
-        "OpenOrCloseTabsSynchronouslyWarning": "Se accedi allo stesso account da due browser contemporaneamente e attivi questa opzione, l'apertura o la chiusura delle schede in un browser eseguirà la stessa operazione nell'altro browser. Se il sito web vieta l'accesso ripetuto con lo stesso account, potrebbero verificarsi eccezioni."
+        "label": "Apri o chiudi schede in modo sincrono",
+        "description": "Quando abilitato, l'apertura o la chiusura delle schede in diversi browser verrà sincronizzata. Questo si applica solo quando l'opzione 'rimani sincronizzato' è attiva",
+        "OpenOrCloseTabsSynchronouslyWarning": "Se accedi allo stesso account in due browser contemporaneamente e attivi questa opzione, l'apertura o la chiusura delle schede in un browser eseguirà la stessa operazione nell'altro browser. Se il sito web vieta accessi ripetuti con lo stesso account, potrebbero verificarsi eccezioni."
       },
       "SyncPrivateData": {
         "label": "Sincronizza dati privati",
         "description": "Scegli come sincronizzare i dati privati, come i cookie del sito web, i dati di localstorage della pagina web, i dati di SessionStorage, ecc. I dati verranno crittografati prima della sincronizzazione.",
         "disabled": "Disabilitato",
         "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo scaricamento",
+        "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato"
       }
     }

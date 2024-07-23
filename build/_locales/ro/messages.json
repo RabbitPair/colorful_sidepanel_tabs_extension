@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Gestionarea colorată a etichetelor din bara laterală"
+    "message": "File colorate în panoul lateral"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Gestionează filele în panoul lateral, Prea frumos pentru a fi atât de bun."
+    "message": "Gestionează filele browserului în panoul lateral"
   },
   "openSidePanel": {
-    "message": "Deschideți panoul lateral"
+    "message": "Deschide panoul lateral"
   }
 }

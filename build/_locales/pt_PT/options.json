@@ -1,0 +1,417 @@
+{
+  "OpenSidePanelToPreview": "Abrir painel lateral para visualizar",
+  "_execute_action": "Ativar esta extensão",
+  "openSidePanel": "Abrir painel lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Redefinir configurações da página atual",
+    "modules": {
+      "appearance": "Aparência",
+      "beautify": "Embelezar",
+      "tabs": "Abas",
+      "history": "Histórico",
+      "shortcuts": "Atalhos",
+      "pip": "Imagem-em-imagem",
+      "chromeTabGroupAdvanced": "Grupos de abas avançados",
+      "progressBar": "Barra de progresso",
+      "floatBall": "Bola flutuante",
+      "experimentalFeatures": "Recursos experimentais"
+    },
+    "appearance": {
+      "header": "Aparência",
+      "language": {
+        "label": "Idioma da interface",
+        "description": "Defina o idioma para a exibição da interface"
+      },
+      "theme": {
+        "label": "Modo de cor",
+        "description": "Escolha o modo de cor claro ou escuro"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Quando ativado, a interface exibirá o texto da direita para a esquerda"
+      },
+      "fontSize": {
+        "label": "Tamanho da fonte",
+        "description": "Defina o tamanho da fonte",
+        "small": "Pequeno",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Família da fonte",
+        "description": "Defina a família da fonte"
+      },
+      "fontColor": {
+        "label": "Cor da fonte",
+        "description": "Defina a cor da fonte"
+      },
+      "fontWeight": {
+        "label": "Peso da fonte",
+        "description": "Defina o peso da fonte"
+      },
+      "extAction": {
+        "label": "Ação ao clicar no ícone da extensão",
+        "description": "Defina a ação ao clicar no ícone da extensão",
+        "openPopup": "Abrir popup",
+        "openSidePanel": "Abrir painel lateral",
+        "SmallWindowAlert": "Se o painel lateral ocupar muito espaço, é recomendável usar uma janela pop-up"
+      },
+      "SidePanelPosition": {
+        "label": "Posição do painel lateral",
+        "description": "Defina se o painel lateral é exibido à esquerda ou à direita.",
+        "goToBrowserSettings": "Ir para as configurações do Chrome"
+      },
+      "searchBoxPosition": {
+        "label": "Posição da caixa de pesquisa",
+        "description": "Defina a posição da caixa de pesquisa",
+        "top": "Topo",
+        "bottom": "Fundo",
+        "hide": "Ocultar"
+      },
+      "toolbar": {
+        "label": "Mostrar barra de ferramentas",
+        "description": "Quando ativado, a barra de ferramentas é exibida"
+      },
+      "bottomNav": {
+        "label": "Mostrar barra de navegação inferior",
+        "description": "Quando ativado, a barra de navegação inferior é exibida"
+      },
+      "buttonPosition": {
+        "label": "Posição do botão",
+        "description": "Defina a posição dos botões",
+        "left": "Esquerda",
+        "right": "Direita"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Sempre mostrar botão de fechar",
+        "description": "Quando ativado, o botão de fechar sempre será exibido; quando desativado, o botão de fechar só será exibido quando o mouse estiver sobre a aba"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ocultar painel lateral em tela cheia",
+        "description": "Quando ativado, o painel lateral será automaticamente ocultado quando a página estiver em tela cheia. Devido às limitações do Chrome, o painel lateral não pode ser reaberto automaticamente. Você precisa reabrir manualmente o painel lateral!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fundo colorido",
+        "description": "Quando ativado, o painel lateral exibirá um fundo colorido"
+      },
+      "backgroundPicture": {
+        "label": "Imagem de fundo",
+        "description": "Clique em [+] para adicionar uma imagem personalizada, clique em [-] para excluir uma imagem personalizada. Você pode encontrar suas imagens favoritas nos seguintes sites.",
+        "dialogDescription": "Insira o endereço da imagem",
+        "OK": "OK",
+        "Cancel": "Cancelar",
+        "invalidImage": "Endereço de imagem inválido"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparência da imagem",
+        "description": "Defina a transparência da imagem",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensidade do desfoque",
+        "description": "Defina a intensidade do desfoque"
+      },
+      "backgroundImageBrightness": {
+        "label": "Brilho",
+        "description": "Defina o brilho, recomendado apenas para o modo escuro"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo de fundo da lista",
+        "description": "Defina o estilo de fundo da lista",
+        "single": "Único",
+        "none": "Nenhum",
+        "simple": "Simples",
+        "complementary": "Complementar",
+        "analogous": "Análogo",
+        "triadic": "Triádico",
+        "tetradic": "Tetrádico"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparência do fundo da lista",
+        "description": "Defina a transparência do fundo da lista",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "listBottomBorder": {
+        "label": "Borda inferior da lista",
+        "description": "Defina a borda inferior da lista",
+        "none": "Nenhum",
+        "dashed": "Tracejada",
+        "solid": "Sólida"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barras de rolagem fluentes",
+        "description": "Use barras de rolagem no estilo de design fluente da Microsoft e sobreponha-as no conteúdo da web",
+        "goToBrowserSettings": "Ir para as configurações do Chrome"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Visualização em lista",
+        "description": "Alternar visualização em lista",
+        "compact": "Visualização compacta",
+        "visual": "Visualização visual"
+      },
+      "showBy": {
+        "label": "Mostrar por",
+        "description": "Alternar mostrar por"
+      },
+      "sortBy": {
+        "label": "Ordenar por",
+        "description": "Alternar ordenar por"
+      },
+      "showFullUrl": {
+        "label": "Mostrar URL completo",
+        "description": "Quando ativado, o URL completo será exibido sob o título da aba"
+      },
+      "currentWindowOnly": {
+        "label": "Apenas janela atual",
+        "description": "Mostrar apenas abas da janela atual. Se desativado, abas de todas as janelas serão exibidas"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Mostrar abas fixadas como ícones",
+        "description": "Quando ativado, abas fixadas serão exibidas como ícones e não na lista"
+      },
+      "pinToQuickAccess": {
+        "label": "Mostrar acesso rápido",
+        "description": "Você pode definir uma aba para aparecer no Acesso rápido para que seja fácil de encontrar. Basta clicar com o botão direito (ou pressionar longamente) e selecionar Fixar no Acesso rápido. Desafixe quando não precisar mais dela clicando com o botão direito (ou pressionando longamente) e selecionando Excluir do Acesso rápido. A diferença das abas fixadas é que o Acesso Rápido salva o URL e abre uma nova aba toda vez que é clicado."
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Mostrar ícones de sites ao colapsar grupos",
+        "description": "Quando ativado, grupos colapsados mostrarão ícones de abas"
+      },
+      "hoverPreview": {
+        "label": "Visualização ao passar o mouse",
+        "description": "Quando ativado, passar o mouse sobre as abas mostrará visualizações das abas"
+      },
+      "previewWithThumbnail": {
+        "label": "Mostrar miniaturas na visualização",
+        "description": "Quando ativado, as visualizações mostrarão miniaturas das abas",
+        "alert": "Capture a área visível da aba atualmente ativa em uma janela especificada. Para chamar este método, a extensão deve ter permissão <all_urls> ou permissão activeTab.",
+        "deniedMessage": "Você negou a permissão necessária, então as configurações não foram alteradas. Se mudar de ideia, clique novamente e permita a autorização"
+      },
+      "previewDelay": {
+        "label": "Atraso na visualização",
+        "description": "Defina o tempo de atraso para visualizações de abas ao passar o mouse sobre as abas, etc. (segundos). Se definido como 0, não haverá atraso",
+        "seconds": "Segundos"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Salvar abas fechadas recentemente",
+        "description": "Quando ativado, salvar abas fechadas recentemente"
+      },
+      "dataSource": {
+        "label": "Fonte de dados",
+        "description": "Selecionar fonte de dados",
+        "recentlyClosedTabs": "Abas fechadas recentemente",
+        "chromeHistory": "Histórico do Chrome",
+        "alert": "Para pesquisar registros de histórico, é necessário sua autorização para ativar",
+        "deniedMessage": "Você negou a permissão necessária, então as configurações não foram alteradas. Se mudar de ideia, clique novamente e permita a autorização"
+      },
+      "showInSidePanel": {
+        "label": "Mostrar no painel lateral",
+        "description": "Quando ativado, mostrar no painel lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Mostrar histórico nos resultados de pesquisa de abas",
+        "description": "Quando ativado, registros de histórico recentes serão exibidos nos resultados de pesquisa de abas"
+      },
+      "limitSearchResults": {
+        "label": "Limitar número de registros de histórico nos resultados de pesquisa de abas",
+        "description": "Defina o número limite de registros de histórico nos resultados de pesquisa de abas. Registros de histórico que excederem o limite serão filtrados",
+        "alert": "Muitos registros afetarão a velocidade de carregamento da página"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Número de abas fechadas recentemente a manter",
+        "description": "Defina o número de abas fechadas recentemente a manter"
+      },
+      "keepDays": {
+        "label": "Número de dias para manter abas fechadas recentemente",
+        "description": "Defina o número de dias para manter abas fechadas recentemente. Dados expirados serão excluídos",
+        "days": "Dias"
+      },
+      "openDuration": {
+        "label": "Duração de abertura",
+        "description": "Apenas abas abertas por mais tempo do que o tempo definido serão salvas",
+        "seconds": "Segundos"
+      }
+    },
+    "shortcuts": {
+      "alert": "Esta página é apenas para exibição. Para modificar atalhos, visite [Extensões]->[Gerenciar Extensões]->[Atalhos de Teclado]",
+      "goToBrowserSettings": "Ir para as configurações do Chrome",
+      "_execute_action": "Ativar esta extensão",
+      "openSidePanel": "Abrir painel lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Imagem-em-imagem",
+      "tabSwitch": {
+        "label": "PIP ao alternar abas",
+        "description": "Entrar automaticamente em PIP ao alternar abas com um vídeo não silenciado",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "scrollSwitch": {
+        "label": "Alternar para imagem-em-imagem ao rolar",
+        "description": "Se a página atual estiver reproduzindo um vídeo e o vídeo não estiver silenciado e o vídeo estiver fora do alcance visível ao rolar, ele entrará em imagem-em-imagem.",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Ativação do usuário necessária",
+      "tips_1": "Ativação do usuário significa que o usuário está interagindo com a página no momento",
+      "tips_2": "Mais especificamente, a ativação aciona eventos de entrada, como:",
+      "tips_3": "Nota: Usar a rolagem do mouse ou gesto de deslizar não acionará!",
+      "tips_4": "Se você quiser mais detalhes, por favor visite:",
+      "click": "Clique",
+      "contextmenu": "Menu do botão direito",
+      "dblclick": "Duplo clique"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamento de colapso do grupo de abas",
+        "description": "Modificar o comportamento de colapso do grupo de abas do navegador Chrome",
+        "option_collapse_others": "Mostrar grupo atual e colapsar outros",
+        "option_disable": "Expandir todos os grupos",
+        "option_auto": "Usar configurações padrão do Chrome"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Criar ou entrar automaticamente no mesmo grupo de domínio",
+        "description": "Quando ativado, novas abas abertas entrarão automaticamente no mesmo grupo de domínio. Se o grupo de domínio não existir, um novo grupo de domínio será criado",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrar abas fixadas em grupos",
+        "description": "Quando ativado, abas fixadas não serão adicionadas a grupos",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Ativar barra de progresso",
+        "description": "Quando ativado, uma barra de progresso de leitura será exibida abaixo da barra de título da aba",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progresso de leitura",
+        "description": "Quando ativado, uma barra de progresso de leitura será exibida abaixo da barra de título da aba",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "scrollHeightRatio": {
+        "label": "Proporção da altura de rolagem",
+        "description": "A proporção da altura da janela visível para a altura da página. Uma barra de progresso será exibida quando a proporção for excedida",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "playingProgressBar": {
+        "label": "Barra de progresso de reprodução",
+        "description": "Quando ativado, uma barra de progresso de reprodução será exibida abaixo da barra de título da aba",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Ativar bola flutuante",
+        "description": "Quando o painel lateral estiver fechado, uma bola flutuante será exibida no lado direito da página, permitindo a abertura rápida do painel lateral."
+      }
+    },
+    "performance": {
+      "label": "Desempenho",
+      "saveMemoryAction": {
+        "label": "Como economizar memória nas abas",
+        "description": "Para economizar memória nas abas, você pode escolher fechar abas ou descartar abas.",
+        "discardTips": "Uma aba descartada não vai a lugar nenhum. Nós a matamos, mas ela ainda é visível na faixa de abas do Chrome. Se você navegar de volta para uma aba que foi descartada, ela será recarregada quando clicada. O conteúdo do formulário, a posição de rolagem e assim por diante são salvos e restaurados da mesma forma que seriam durante a navegação para frente/trás da aba.",
+        "disabled": "Desativado",
+        "closeTabs": "Fechar abas",
+        "discardTabs": "Descartar abas"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Quanto tempo para descartar abas inativas",
+        "description": "Quando não há áudio ou vídeo sendo reproduzido na aba e o descarte automático não é proibido, a aba será descartada após o tempo especificado.",
+        "minutes": "Minutos"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Quanto tempo para fechar abas inativas",
+        "description": "Quando não há áudio ou vídeo sendo reproduzido na aba e o descarte automático não é proibido, a aba será fechada após o tempo especificado.",
+        "minutes": "Minutos"
+      },
+      "disableAnimations": {
+        "label": "Desativar animações",
+        "description": "Desativar o efeito de ondulação e desativar todas as transições"
+      }
+    },
+    "site": {
+      "label": "Configurações do site",
+      "allSites": "Todos os sites",
+      "sortBy": "Ordenar por",
+      "mostVisited": "Mais visitados",
+      "dataStored": "Dados armazenados",
+      "name": "Nome",
+      "deleteAllData": "Excluir todos os dados",
+      "totalStorageUsedBySites": "Armazenamento total usado pelos sites",
+      "totalCount": "Contagem total",
+      "addNewSite": {
+        "label": "Adicionar novo site",
+        "description": "Digite um novo endereço de site, como 'www.exemplo.com', e clique em 'Adicionar'.",
+        "placeholder": "Endereço do site, como 'www.exemplo.com'",
+        "add": "Adicionar",
+        "cancel": "Cancelar",
+        "invalidDomain": "Endereço do site inválido"
+      },
+      "browserSettings": {
+        "label": "Configurações do navegador",
+        "description": "Você pode modificar as configurações do site, como excluir dados ou alterar permissões do site.",
+        "goToBrowserSettings": "Ir para as configurações do navegador"
+      },
+      "autoDiscardable": {
+        "label": "Descartável automaticamente",
+        "description": "Quando ativado, a aba será permitida a ser descartada pelo navegador, e se você ativar o desempenho e definir o tempo para descartar abas inativas, a aba será descartada após o tempo especificado. Se desativado, a aba não será descartada"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progresso de leitura",
+        "description": "Quando ativado, uma barra de progresso de leitura será exibida abaixo da barra de título da aba.",
+        "globaldisabledTips": "Você deve ativar a barra de progresso de leitura nas configurações globais para modificar esta configuração."
+      },
+      "playingProgressBar": {
+        "label": "Barra de progresso de reprodução",
+        "description": "Quando ativado, uma barra de progresso de reprodução será exibida abaixo da barra de título da aba.",
+        "globaldisabledTips": "Você deve ativar a barra de progresso de reprodução nas configurações globais para modificar esta configuração."
+      },
+      "tabSwitchPip": {
+        "label": "PIP ao alternar abas",
+        "description": "Quando ativado, entrar automaticamente em Imagem-em-imagem ao alternar abas com um vídeo não silenciado.",
+        "globaldisabledTips": "Você deve ativar a Imagem-em-imagem nas configurações globais para modificar esta configuração."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Limpar histórico após fechar",
+        "description": "Quando ativado, o histórico será limpo após fechar a aba."
+      },
+      "SyncTabs": {
+        "label": "Sincronizar abas",
+        "description": "Escolha como sincronizar os dados das abas, excluindo dados privados, como cookies e informações pessoais.",
+        "disabled": "Desativado",
+        "uploadOnly": "Apenas enviar",
+        "downloadOnly": "Apenas baixar",
+        "staySynchronized": "Permanecer sincronizado",
+        "globaldisabledTips": "Você deve ativar a sincronização nas Configurações Globais para modificar esta configuração."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar dados privados",
+        "description": "Escolha como sincronizar dados privados, como cookies de sites, dados de armazenamento local de páginas da web, dados de SessionStorage, etc. Os dados serão criptografados antes da sincronização.",
+        "disabled": "Desativado",
+        "uploadOnly": "Apenas enviar",
+        "downloadOnly": "Apenas baixar",
+        "staySynchronized": "Permanecer sincronizado",
+        "globaldisabledTips": "Você deve ativar a sincronização nas Configurações Globais para modificar esta configuração."
+      }
+    }
+  }
+}

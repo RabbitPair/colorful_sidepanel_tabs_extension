@@ -1,26 +1,26 @@
 {
-  "OpenSideSanelToPreview": "Atvērt sānu paneli priekšskatījumam",
+  "OpenSidePanelToPreview": "Atvērt sānu paneli, lai priekšskatītu",
   "_execute_action": "Aktivizēt šo paplašinājumu",
   "openSidePanel": "Atvērt sānu paneli",
   "settings": {
     "resetCurrentPageSettings": "Atiestatīt pašreizējās lapas iestatījumus",
     "modules": {
       "appearance": "Izskats",
-      "beautify": "Skaistums",
+      "beautify": "Skaistināt",
       "tabs": "Cilnes",
       "history": "Vēsture",
-      "shortcuts": "Saīsnes",
+      "shortcuts": "Īsceļi",
       "pip": "Attēls attēlā",
-      "chromeTabGroupAdvanced": "Paplašinātas cilņu grupas",
-      "progressBar": "progresa josla",
-      "floatBall": "Peldētājs",
+      "chromeTabGroupAdvanced": "Paplašinātās cilņu grupas",
+      "progressBar": "Progresijas josla",
+      "floatBall": "Peldošā bumba",
       "experimentalFeatures": "Eksperimentālās funkcijas"
     },
     "appearance": {
       "header": "Izskats",
       "language": {
         "label": "Saskarnes valoda",
-        "description": "Iestatiet saskarnes displeja valodu"
+        "description": "Iestatīt saskarnes valodu"
       },
       "theme": {
         "label": "Krāsu režīms",
@@ -28,75 +28,76 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "Ja iespējots, saskarne parādīs teksta virzienu no labās uz kreiso"
+        "description": "Kad iespējots, saskarnē teksts tiks rādīts no labās uz kreiso pusi"
       },
       "fontSize": {
         "label": "Fonta izmērs",
-        "description": "Iestatiet fonta izmēru",
+        "description": "Iestatīt fonta izmēru",
         "small": "Mazs",
         "large": "Liels"
       },
       "fontFamily": {
-        "label": "Fontu ģimene",
-        "description": "Iestatiet fontu ģimeni"
+        "label": "Fonta ģimene",
+        "description": "Iestatīt fonta ģimeni"
       },
       "fontColor": {
         "label": "Fonta krāsa",
-        "description": "Iestatiet fonta krāsu"
+        "description": "Iestatīt fonta krāsu"
       },
       "fontWeight": {
         "label": "Fonta biezums",
-        "description": "Iestatiet fonta biezumu"
+        "description": "Iestatīt fonta biezumu"
       },
       "extAction": {
-        "label": "Paplašinājuma ikonas klikšķa darbība",
-        "description": "Iestatiet darbību, noklikšķinot uz paplašinājuma ikonas",
+        "label": "Darbība, noklikšķinot uz paplašinājuma ikonas",
+        "description": "Iestatīt darbību, noklikšķinot uz paplašinājuma ikonas",
         "openPopup": "Atvērt uznirstošo logu",
-        "openSidePanel": "Atvērt sānu paneli"
+        "openSidePanel": "Atvērt sānu paneli",
+        "SmallWindowAlert": "Ja sānu panelis aizņem pārāk daudz vietas, ieteicams izmantot uznirstošo logu"
       },
       "SidePanelPosition": {
         "label": "Sānu paneļa pozīcija",
-        "description": "Iestatiet, vai sānu panelis tiek parādīts pa kreisi vai pa labi.",
+        "description": "Iestatīt, vai sānu panelis tiek rādīts kreisajā vai labajā pusē.",
         "goToBrowserSettings": "Doties uz Chrome iestatījumiem"
       },
       "searchBoxPosition": {
         "label": "Meklēšanas lodziņa pozīcija",
-        "description": "Iestatiet meklēšanas lodziņa pozīciju",
+        "description": "Iestatīt meklēšanas lodziņa pozīciju",
         "top": "Augšā",
         "bottom": "Apakšā",
         "hide": "Paslēpt"
       },
       "toolbar": {
         "label": "Rādīt rīkjoslu",
-        "description": "Ja iespējots, rīkjosla tiek parādīta"
+        "description": "Kad iespējots, rīkjosla tiek rādīta"
       },
       "bottomNav": {
         "label": "Rādīt apakšējo navigācijas joslu",
-        "description": "Ja iespējots, apakšējā navigācijas josla tiek parādīta"
+        "description": "Kad iespējots, apakšējā navigācijas josla tiek rādīta"
       },
       "buttonPosition": {
         "label": "Pogu pozīcija",
-        "description": "Iestatiet pogu pozīciju",
+        "description": "Iestatīt pogu pozīciju",
         "left": "Pa kreisi",
         "right": "Pa labi"
       },
       "alwaysShowCloseButton": {
         "label": "Vienmēr rādīt aizvēršanas pogu",
-        "description": "Ja iespējots, aizvēršanas poga vienmēr tiks rādīta; ja atspējots, aizvēršanas poga tiks rādīta tikai tad, kad pele pārvietojas virs cilnes"
+        "description": "Kad iespējots, aizvēršanas poga vienmēr tiks rādīta; kad atspējots, aizvēršanas poga tiks rādīta tikai tad, kad pele ir virs cilnes"
       },
       "fullScreenHideSidePanel": {
         "label": "Paslēpt sānu paneli pilnekrāna režīmā",
-        "description": "Ja iespējots, sānu panelis automātiski paslēpsies, kad lapa ir pilnekrāna režīmā. Sakarā ar Chrome ierobežojumiem, sānu paneli nevar automātiski atvērt. Jums ir manuāli jāatver sānu panelis!"
+        "description": "Kad iespējots, sānu panelis automātiski paslēpsies, kad lapa būs pilnekrāna režīmā. Chrome ierobežojumu dēļ sānu paneli nevar automātiski atvērt no jauna. Jums manuāli jāatver sānu panelis!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "Krāsains fons",
-        "description": "Ja iespējots, sānu panelis parādīs krāsainu fonu"
+        "description": "Kad iespējots, sānu panelis rādīs krāsainu fonu"
       },
       "backgroundPicture": {
         "label": "Fona attēls",
-        "description": "Noklikšķiniet uz [+], lai pievienotu pielāgotu attēlu, noklikšķiniet uz [-], lai izdzēstu pielāgotu attēlu. Jūs varat atrast savus iecienītākos attēlus šajās vietnēs.",
+        "description": "Noklikšķiniet uz [+], lai pievienotu pielāgotu attēlu, noklikšķiniet uz [-], lai dzēstu pielāgotu attēlu. Jūs varat atrast savus iecienītākos attēlus šādās vietnēs.",
         "dialogDescription": "Ievadiet attēla adresi",
         "OK": "Labi",
         "Cancel": "Atcelt",
@@ -104,45 +105,45 @@
       },
       "backgroundImageTransparency": {
         "label": "Attēla caurspīdīgums",
-        "description": "Iestatiet attēla caurspīdīgumu",
+        "description": "Iestatīt attēla caurspīdīgumu",
         "transparent": "Caurspīdīgs",
         "opaque": "Necaurspīdīgs"
       },
       "backgroundImageBlur": {
-        "label": "Attēla izplūdums",
-        "description": "Iestatiet attēla izplūdumu"
+        "label": "Izplūduma intensitāte",
+        "description": "Iestatīt izplūduma intensitāti"
       },
       "backgroundImageBrightness": {
         "label": "Spilgtums",
-        "description": "Iestatiet spilgtumu, ieteicams tikai tumšajam režīmam"
+        "description": "Iestatīt spilgtumu, ieteicams tikai tumšajam režīmam"
       },
       "listBackgroundStyle": {
         "label": "Saraksta fona stils",
-        "description": "Iestatiet saraksta fona stilu",
-        "single": "Vienots",
+        "description": "Iestatīt saraksta fona stilu",
+        "single": "Viens",
         "none": "Nav",
         "simple": "Vienkāršs",
         "complementary": "Papildinošs",
-        "analogous": "Analogs",
+        "analogous": "Līdzīgs",
         "triadic": "Triādisks",
         "tetradic": "Tetrādisks"
       },
       "listBackgroundTransparency": {
         "label": "Saraksta fona caurspīdīgums",
-        "description": "Iestatiet saraksta fona caurspīdīgumu",
+        "description": "Iestatīt saraksta fona caurspīdīgumu",
         "transparent": "Caurspīdīgs",
         "opaque": "Necaurspīdīgs"
       },
       "listBottomBorder": {
         "label": "Saraksta apakšējā robeža",
-        "description": "Iestatiet saraksta apakšējo robežu",
+        "description": "Iestatīt saraksta apakšējo robežu",
         "none": "Nav",
         "dashed": "Pārtraukta",
-        "solid": "Ciets"
+        "solid": "Cieta"
       },
       "fluentOverlayScrollbars": {
-        "label": "Plūstošas ​​ritināšanas joslas",
-        "description": "Izmantojiet Microsoft Fluent dizaina stila ritināšanas joslas un pārklājiet tās ar tīmekļa saturu",
+        "label": "Plūstošās ritjoslas",
+        "description": "Izmantot Microsoft Fluent dizaina stila ritjoslas un pārklāt tās uz tīmekļa satura",
         "goToBrowserSettings": "Doties uz Chrome iestatījumiem"
       }
     },
@@ -151,91 +152,95 @@
         "label": "Saraksta skats",
         "description": "Pārslēgt saraksta skatu",
         "compact": "Kompakts skats",
-        "visual": "Vizuāls skats"
+        "visual": "Vizuālais skats"
       },
       "showBy": {
         "label": "Rādīt pēc",
-        "description": "Pārslēgt rādīt pēc"
+        "description": "Pārslēgt rādīšanu pēc"
       },
       "sortBy": {
         "label": "Kārtot pēc",
-        "description": "Pārslēgt kārtot pēc"
+        "description": "Pārslēgt kārtošanu pēc"
       },
       "showFullUrl": {
         "label": "Rādīt pilnu URL",
-        "description": "Ja iespējots, pilns URL tiks parādīts zem cilnes virsraksta"
+        "description": "Kad iespējots, pilns URL tiks rādīts zem cilnes nosaukuma"
       },
       "currentWindowOnly": {
         "label": "Tikai pašreizējais logs",
-        "description": "Rādīt tikai pašreizējā loga cilnes. Ja atspējots, tiks parādītas cilnes no visiem logiem"
+        "description": "Rādīt tikai pašreizējā loga cilnes. Ja atspējots, tiks rādītas visu logu cilnes"
       },
       "pinedTabsAsIcons": {
         "label": "Rādīt piespraustās cilnes kā ikonas",
-        "description": "Ja iespējots, piespraustās cilnes tiks parādītas kā ikonas, nevis sarakstā"
+        "description": "Kad iespējots, piespraustās cilnes tiks rādītas kā ikonas, nevis sarakstā"
+      },
+      "pinToQuickAccess": {
+        "label": "Rādīt ātro piekļuvi",
+        "description": "Jūs varat iestatīt cilni, lai tā tiktu rādīta ātrajā piekļuvē, lai to būtu viegli atrast. Vienkārši noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties Piespraust ātrajai piekļuvei. Atspraudiet to, kad jums vairs nav nepieciešams, noklikšķinot ar peles labo pogu (vai ilgi nospiežot) un izvēloties Dzēst no ātrās piekļuves. Atšķirība no piespraustajām cilnēm ir tāda, ka ātrā piekļuve saglabā URL un katru reizi, kad to noklikšķina, atver jaunu cilni."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Rādīt vietnes ikonas, sabrukšanas grupas",
-        "description": "Ja iespējots, sabrukušās grupas parādīs cilņu ikonas"
+        "label": "Rādīt vietnes ikonas, kad grupas ir sakļautas",
+        "description": "Kad iespējots, sakļautās grupas rādīs cilņu ikonas"
       },
       "hoverPreview": {
-        "label": "Pārvietošanas priekšskatījums",
-        "description": "Ja iespējots, pārvietojoties virs cilnēm, tiks parādīti cilņu priekšskatījumi"
+        "label": "Pārlūkot priekšskatījumu",
+        "description": "Kad iespējots, pārlūkojot cilnes, tiks rādīti cilņu priekšskatījumi"
       },
       "previewWithThumbnail": {
         "label": "Rādīt sīktēlus priekšskatījumā",
-        "description": "Ja iespējots, priekšskatījumi parādīs cilņu sīktēlus",
-        "alert": "Uztveriet pašreizējās aktīvās cilnes redzamo apgabalu norādītajā logā. Lai izsauktu šo metodi, paplašinājumam jābūt <all_urls> atļaujai vai activeTab atļaujai.",
-        "deniedMessage": "Jūs esat atteikušies no nepieciešamās atļaujas, tāpēc iestatījumi nav mainīti. Ja jūs maināt prātu, lūdzu, noklikšķiniet vēlreiz un atļaujiet pilnvarojumu"
+        "description": "Kad iespējots, priekšskatījumos tiks rādīti cilņu sīktēli",
+        "alert": "Tveriet redzamo pašlaik aktīvās cilnes apgabalu noteiktā logā. Lai izsauktu šo metodi, paplašinājumam ir jābūt <all_urls> atļaujai vai activeTab atļaujai.",
+        "deniedMessage": "Jūs esat atteicis nepieciešamo atļauju, tāpēc iestatījumi nav mainīti. Ja maināt savu prātu, lūdzu, noklikšķiniet vēlreiz un atļaujiet autorizāciju"
       },
       "previewDelay": {
-        "label": "Priekšskatījuma aizture",
-        "description": "Iestatiet cilņu priekšskatījumu aiztures laiku, pārvietojoties virs cilnēm utt. (sekundes). Ja iestatīts uz 0, nebūs aiztures",
+        "label": "Priekšskatījuma aizkave",
+        "description": "Iestatīt priekšskatījuma aizkaves laiku, pārlūkojot cilnes utt. (sekundes). Ja iestatīts uz 0, aizkaves nebūs",
         "seconds": "Sekundes"
       }
     },
     "history": {
       "saveRecentlyTabs": {
         "label": "Saglabāt nesen aizvērtās cilnes",
-        "description": "Ja iespējots, saglabāt nesen aizvērtās cilnes"
+        "description": "Kad iespējots, saglabāt nesen aizvērtās cilnes"
       },
       "dataSource": {
         "label": "Datu avots",
-        "description": "Izvēlieties datu avotu",
+        "description": "Izvēlēties datu avotu",
         "recentlyClosedTabs": "Nesen aizvērtās cilnes",
         "chromeHistory": "Chrome vēsture",
-        "alert": "Lai meklētu vēstures ierakstus, jums ir nepieciešama jūsu pilnvara, lai to iespējotu",
-        "deniedMessage": "Jūs esat atteikušies no nepieciešamās atļaujas, tāpēc iestatījumi nav mainīti. Ja jūs maināt prātu, lūdzu, noklikšķiniet vēlreiz un atļaujiet pilnvarojumu"
+        "alert": "Lai meklētu vēstures ierakstus, jums ir jāatļauj autorizācija",
+        "deniedMessage": "Jūs esat atteicis nepieciešamo atļauju, tāpēc iestatījumi nav mainīti. Ja maināt savu prātu, lūdzu, noklikšķiniet vēlreiz un atļaujiet autorizāciju"
       },
       "showInSidePanel": {
         "label": "Rādīt sānu panelī",
-        "description": "Ja iespējots, rādīt sānu panelī"
+        "description": "Kad iespējots, rādīt sānu panelī"
       },
       "showInTabSearchResults": {
         "label": "Rādīt vēsturi cilņu meklēšanas rezultātos",
-        "description": "Ja iespējots, nesenās vēstures ieraksti tiks parādīti cilņu meklēšanas rezultātos"
+        "description": "Kad iespējots, nesenās vēstures ieraksti tiks rādīti cilņu meklēšanas rezultātos"
       },
       "limitSearchResults": {
         "label": "Ierobežot vēstures ierakstu skaitu cilņu meklēšanas rezultātos",
-        "description": "Iestatiet vēstures ierakstu skaita ierobežojumu cilņu meklēšanas rezultātos. Vēstures ieraksti, kas pārsniedz ierobežojumu, tiks filtrēti",
+        "description": "Iestatīt vēstures ierakstu skaita ierobežojumu cilņu meklēšanas rezultātos. Vēstures ieraksti, kas pārsniedz ierobežojumu, tiks filtrēti",
         "alert": "Pārāk daudz ierakstu ietekmēs lapas ielādes ātrumu"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Nesen aizvērto cilņu skaits, kas jāglabā",
-        "description": "Iestatiet nesen aizvērto cilņu skaitu, kas jāglabā"
+        "label": "Saglabājamo nesen aizvērto cilņu skaits",
+        "description": "Iestatīt saglabājamo nesen aizvērto cilņu skaitu"
       },
       "keepDays": {
-        "label": "Dienu skaits, lai saglabātu nesen aizvērtās cilnes",
-        "description": "Iestatiet dienu skaitu, lai saglabātu nesen aizvērtās cilnes. Beigušies dati tiks izdzēsti",
+        "label": "Saglabājamo nesen aizvērto cilņu dienu skaits",
+        "description": "Iestatīt saglabājamo nesen aizvērto cilņu dienu skaitu. Beidzies dati tiks dzēsti",
         "days": "Dienas"
       },
       "openDuration": {
         "label": "Atvēršanas ilgums",
-        "description": "Tikai cilnes, kas atvērtas ilgāk par iestatīto laiku, tiks saglabātas",
+        "description": "Tiks saglabātas tikai cilnes, kas atvērtas ilgāk par iestatīto laiku",
         "seconds": "Sekundes"
       }
     },
     "shortcuts": {
-      "alert": "Šī lapa ir paredzēta tikai displejam. Lai modificētu saīsnes, lūdzu, apmeklējiet [Paplašinājumi]->[Pārvaldīt paplašinājumus]->[Klaviatūras saīsnes]",
+      "alert": "Šī lapa ir paredzēta tikai skatīšanai. Lai modificētu īsceļus, lūdzu, apmeklējiet [Paplašinājumi]->[Pārvaldīt paplašinājumus]->[Tastatūras īsceļi]",
       "goToBrowserSettings": "Doties uz Chrome iestatījumiem",
       "_execute_action": "Aktivizēt šo paplašinājumu",
       "openSidePanel": "Atvērt sānu paneli"
@@ -244,13 +249,13 @@
       "Picture-in-picture": "Attēls attēlā",
       "tabSwitch": {
         "label": "PIP cilnes pārslēgšanā",
-        "description": "Automātiski ievadiet PIP, pārslēdzot cilnes ar neklusētu video",
+        "description": "Automātiski ievadīt PIP, pārslēdzot cilnes ar neizslēgtu video",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       },
       "scrollSwitch": {
         "label": "Pārslēgties uz attēlu attēlā, ritinot",
-        "description": "Ja pašreizējā lapā tiek atskaņots video un video nav kluss un video ir ārpus redzamās zonas, ritinot, tas ieies attēlā attēlā.",
+        "description": "Ja pašreizējā lapa atskaņo video un video nav izslēgts un video ir ārpus redzamās zonas, ritinot, tas ievadīs attēlu attēlā.",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       }
@@ -259,196 +264,153 @@
       "title": "Nepieciešama lietotāja aktivizēšana",
       "tips_1": "Lietotāja aktivizēšana nozīmē, ka lietotājs pašlaik mijiedarbojas ar lapu",
       "tips_2": "Konkrētāk, aktivizēšana izraisa ievades notikumus, piemēram:",
-      "tips_3": "Piezīme: Peles riteņa ritināšana vai slīdēšanas žests neizraisīs!",
-      "tips_4": "Ja vēlaties uzzināt vairāk, lūdzu, apmeklējiet:",
+      "tips_3": "Piezīme: Izmantojot peles ritenīša ritināšanu vai vilkšanas žestu, tas netiks aktivizēts!",
+      "tips_4": "Ja vēlaties iegūt sīkāku informāciju, lūdzu, apmeklējiet:",
       "click": "Klikšķis",
-      "contextmenu": "Labās pogas izvēlne",
+      "contextmenu": "Ar peles labo pogu noklikšķiniet uz izvēlnes",
       "dblclick": "Dubultklikšķis"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Cilņu grupas sabrukšanas uzvedība",
-        "description": "Modificējiet Chrome pārlūka cilņu grupas sabrukšanas uzvedību",
-        "option_collapse_others": "Rādīt pašreizējo grupu un sabrukt citas",
+        "label": "Cilnes grupas sabrukšanas uzvedība",
+        "description": "Mainīt Chrome pārlūka cilnes grupas sabrukšanas uzvedību",
+        "option_collapse_others": "Rādīt pašreizējo grupu un sabrukt citus",
         "option_disable": "Izvērst visas grupas",
         "option_auto": "Izmantot Chrome noklusējuma iestatījumus"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automātiski izveidot vai pievienoties tai pašai domēna grupai",
-        "description": "Ja iespējots, jaunatvērtās cilnes automātiski pievienosies tai pašai domēna grupai. Ja domēna grupa nepastāv, tiks izveidota jauna domēna grupa",
+        "description": "Kad iespējots, jaunatvērtās cilnes automātiski pievienosies tai pašai domēna grupai. Ja domēna grupa nepastāv, tiks izveidota jauna domēna grupa",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       },
       "groupFilterOutPinnedTabs": {
         "label": "Filtrēt piespraustās cilnes grupās",
-        "description": "Ja iespējots, piespraustās cilnes netiks pievienotas grupām",
+        "description": "Kad iespējots, piespraustās cilnes netiks pievienotas grupām",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Iespējot progresu joslu",
-        "description": "Ja iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresu josla",
+        "label": "Iespējot progresa joslu",
+        "description": "Kad iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresa josla",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       },
       "readingProgressBar": {
-        "label": "Lasīšanas progresu josla",
-        "description": "Ja iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresu josla",
+        "label": "Lasīšanas progresa josla",
+        "description": "Kad iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresa josla",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       },
       "scrollHeightRatio": {
         "label": "Ritināšanas augstuma attiecība",
-        "description": "Redzamā loga augstuma attiecība pret lapas augstumu. Kad attiecība tiek pārsniegta, tiks parādīta progresa josla",
+        "description": "Redzamā loga augstuma attiecība pret lapas augstumu. Progresa josla tiks parādīta, kad attiecība tiks pārsniegta",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       },
       "playingProgressBar": {
-        "label": "Atskaņošanas progresu josla",
-        "description": "Ja iespējots, zem cilnes nosaukuma joslas tiks parādīta atskaņošanas progresu josla",
+        "label": "Atskaņošanas progresa josla",
+        "description": "Kad iespējots, zem cilnes nosaukuma joslas tiks parādīta atskaņošanas progresa josla",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Iespējot peldētāju",
-        "description": "Kad sānu panelis ir aizvērts, lapas labajā pusē tiks parādīts peldētājs, kas ļauj ātri atvērt sānu paneli."
+        "label": "Iespējot peldošo bumbu",
+        "description": "Kad sānu panelis ir aizvērts, lapas labajā pusē tiks parādīta peldoša bumba, kas ļauj ātri atvērt sānu paneli."
       }
     },
     "performance": {
       "label": "Veiktspēja",
       "saveMemoryAction": {
         "label": "Kā ietaupīt atmiņu cilnēs",
-        "description": "Lai ietaupītu atmiņu cilnēs, jūs varat izvēlēties aizvērt cilnes vai atmest cilnes.",
-        "discardTips": "atmesta cilne nekur neiet. Mēs to iznīcinām, bet tā joprojām ir redzama Chrome cilņu joslā. Ja atgriezīsieties pie atmestas cilnes, tā tiks pārlādēta, kad uz to noklikšķinās. Formas saturs, ritināšanas pozīcija utt. tiek saglabāti un atjaunoti tāpat kā tas notiktu, pārvietojoties uz priekšu/atpakaļ cilņu navigācijā.",
+        "description": "Lai ietaupītu atmiņu cilnēs, varat izvēlēties aizvērt cilnes vai atbrīvot cilnes.",
+        "discardTips": "Atbrīvota cilne nekur nepazūd. Mēs to izslēdzam, bet tā joprojām ir redzama Chrome cilnes joslā. Ja atgriezīsieties pie cilnes, kas ir atbrīvota, tā tiks pārlādēta, kad uz tās noklikšķināsiet. Formas saturs, ritināšanas pozīcija utt. tiek saglabāti un atjaunoti tāpat kā pārvietojoties uz priekšu/atpakaļ cilnēs.",
         "disabled": "Atspējots",
         "closeTabs": "Aizvērt cilnes",
-        "discardTabs": "Atmest cilnes"
+        "discardTabs": "Atbrīvot cilnes"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Cik ilgi atmest neaktīvās cilnes",
-        "description": "Kad cilnē netiek atskaņots neviens audio vai video un automātiska atmestīšana nav aizliegta, cilne tiks atmesta pēc norādītā laika.",
+        "label": "Cik ilgi atbrīvot neaktīvās cilnes",
+        "description": "Kad cilnē netiek atskaņots audio vai video un automātiskā atbrīvošana nav aizliegta, cilne tiks atbrīvota pēc norādītā laika.",
         "minutes": "Minūtes"
       },
       "closeInactiveTabsMinutes": {
         "label": "Cik ilgi aizvērt neaktīvās cilnes",
-        "description": "Kad cilnē netiek atskaņots neviens audio vai video un automātiska atmestīšana nav aizliegta, cilne tiks aizvērta pēc norādītā laika.",
+        "description": "Kad cilnē netiek atskaņots audio vai video un automātiskā atbrīvošana nav aizliegta, cilne tiks aizvērta pēc norādītā laika.",
         "minutes": "Minūtes"
       },
       "disableAnimations": {
         "label": "Atspējot animācijas",
-        "description": "atspējot vilnis efektu un atspējot visas pārejas"
+        "description": "Atspējot viļņu efektu un atspējot visas pārejas"
       }
     },
     "site": {
       "label": "Vietnes iestatījumi",
       "allSites": "Visas vietnes",
       "sortBy": "Kārtot pēc",
-      "mostVisited": "Visvairāk apmeklētas",
-      "dataStored": "Datu glabāšana",
+      "mostVisited": "Visvairāk apmeklētās",
+      "dataStored": "Saglabātie dati",
       "name": "Nosaukums",
       "deleteAllData": "Dzēst visus datus",
-      "totalStorageUsedBySites": "Kopējais izmantotais krātuves apjoms vietnēm",
+      "totalStorageUsedBySites": "Kopējais vietņu izmantotais krātuves apjoms",
       "totalCount": "Kopējais skaits",
       "addNewSite": {
         "label": "Pievienot jaunu vietni",
-        "description": "Ievadiet jaunu tīmekļa vietnes adresi, piemēram, 'www.piemers.com', un noklikšķiniet uz 'Pievienot'.",
-        "placeholder": "Tīmekļa vietnes adrese, piemēram, 'www.piemers.com'",
+        "description": "Ievadiet jaunu vietnes adresi, piemēram, 'www.example.com', un noklikšķiniet uz 'Pievienot'.",
+        "placeholder": "Vietnes adrese, piemēram, 'www.example.com'",
         "add": "Pievienot",
         "cancel": "Atcelt",
-        "invalidDomain": "Nederīga tīmekļa vietnes adrese"
+        "invalidDomain": "Nederīga vietnes adrese"
       },
       "browserSettings": {
-        "label": "Pārlūkprogrammas iestatījumi",
-        "description": "Jūs varat modificēt vietņu iestatījumus, piemēram, dzēšot datus vai mainot vietnes atļaujas.",
-        "goToBrowserSettings": "Doties uz pārlūkprogrammas iestatījumiem"
+        "label": "Pārlūka iestatījumi",
+        "description": "Varat mainīt vietnes iestatījumus, piemēram, dzēst datus vai mainīt vietnes atļaujas.",
+        "goToBrowserSettings": "Doties uz pārlūka iestatījumiem"
       },
       "autoDiscardable": {
-        "label": "Automātiski atmest",
-        "description": "Ja ir iespējots, cilne var tikt atmesta pārlūkprogrammas, un, ja ieslēdzat veiktspēju un iestatāt laiku, lai atmestu neaktīvās cilnes, cilne tiks atmesta pēc norādītā laika. Ja ir atspējots, cilne netiks atmesta"
+        "label": "Automātiski atbrīvojams",
+        "description": "Kad iespējots, cilne tiks atļauta pārlūka atbrīvošanai, un, ja ieslēgsiet veiktspēju un iestatīsiet laiku neaktīvo cilņu atbrīvošanai, cilne tiks atbrīvota pēc norādītā laika. Ja atspējots, cilne netiks atbrīvota"
       },
       "readingProgressBar": {
         "label": "Lasīšanas progresa josla",
-        "description": "Ja ir iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresa josla.",
-        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz lasīšanas progresa josla globālajos iestatījumos."
+        "description": "Kad iespējots, zem cilnes nosaukuma joslas tiks parādīta lasīšanas progresa josla.",
+        "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz lasīšanas progresa josla globālajos iestatījumos."
       },
       "playingProgressBar": {
         "label": "Atskaņošanas progresa josla",
-        "description": "Ja ir iespējots, zem cilnes nosaukuma joslas tiks parādīta atskaņošanas progresa josla.",
-        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz atskaņošanas progresa josla globālajos iestatījumos."
+        "description": "Kad iespējots, zem cilnes nosaukuma joslas tiks parādīta atskaņošanas progresa josla.",
+        "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz atskaņošanas progresa josla globālajos iestatījumos."
       },
       "tabSwitchPip": {
-        "label": "PIP pārslēgšanās cilnē",
-        "description": "Ja ir iespējots, automātiski ievadiet attēlu attēlā, pārslēdzot cilnes ar neslēgtu video.",
-        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz attēls attēlā globālajos iestatījumos."
+        "label": "PIP cilnes pārslēgšanā",
+        "description": "Kad iespējots, automātiski ievadīt attēlu attēlā, pārslēdzot cilnes ar neizslēgtu video.",
+        "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz attēls attēlā globālajos iestatījumos."
       },
       "clearHistoyAfterCLose": {
         "label": "Notīrīt vēsturi pēc aizvēršanas",
-        "description": "Ja ir iespējots, vēsture tiks notīrīta pēc cilnes aizvēršanas."
+        "description": "Kad iespējots, vēsture tiks notīrīta pēc cilnes aizvēršanas."
       },
       "SyncTabs": {
-        "label": "Sinchronizēt cilnes",
-        "description": "Izvēlieties, kā sinhronizēt cilņu datus, izņemot privātos datus, piemēram, sīkdatnes un personīgo informāciju.",
+        "label": "Sinhronizēt cilnes",
+        "description": "Izvēlieties, kā sinhronizēt cilnes datus, izņemot privātos datus, piemēram, sīkfailus un personisko informāciju.",
         "disabled": "Atspējots",
-        "uploadOnly": "Tikai augšupielāde",
-        "downloadOnly": "Tikai lejupielāde",
+        "uploadOnly": "Tikai augšupielādēt",
+        "downloadOnly": "Tikai lejupielādēt",
         "staySynchronized": "Palikt sinhronizētam",
-        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz sinhronizācija Globālajos iestatījumos."
+        "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz sinhronizācija globālajos iestatījumos."
       },
       "SyncPrivateData": {
-        "label": "Sinchronizēt privātos datus",
-        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietnes sīkdatnes, vietnes lokālās krātuves datus, sesijas krātuves datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
+        "label": "Sinhronizēt privātos datus",
+        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietņu sīkfailus, tīmekļa lapas vietējos datus, sesijas datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
         "disabled": "Atspējots",
-        "uploadOnly": "Tikai augšupielāde",
-        "downloadOnly": "Tikai lejupielāde",
+        "uploadOnly": "Tikai augšupielādēt",
+        "downloadOnly": "Tikai lejupielādēt",
         "staySynchronized": "Palikt sinhronizētam",
-        "globaldisabledTips": "Lai modificētu šo iestatījumu, jums jāieslēdz sinhronizācija Globālajos iestatījumos."
-      }
-    },
-    "SyncToCloud": {
-      "label": "Sinchronizēt ar mākoņiem",
-      "SyncNow": "Sinchronizēt tagad",
-      "SyncNowWithGoogleDrive": "Sinchronizēt tagad ar Google Drive",
-      "SyncNowWithDropbox": "Sinchronizēt tagad ar Dropbox",
-      "SyncNowWithOneDrive": "Sinchronizēt tagad ar OneDrive",
-      "Synchronizing": "Sinchronizē...",
-      "SyncedSuccessfully": "Veiksmīgi sinchronizēts",
-      "SyncFailed": "Sinchronizācija neizdevās",
-      "LoginRequired": "Nepieciešama pierakstīšanās",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sinchronizēt konfigurācijas",
-        "description": "Izvēlieties, kā sinhronizēt šīs paplašinājuma konfigurācijas.",
-        "disabled": "Atspējots",
-        "uploadOnly": "Tikai augšupielāde",
-        "downloadOnly": "Tikai lejupielāde",
-        "staySynchronized": "Palikt sinhronizētam"
-      },
-      "SyncTabs": {
-        "label": "Sinchronizēt cilnes",
-        "description": "Izvēlieties, kā sinhronizēt cilņu datus, izņemot privātos datus, piemēram, sīkdatnes un personīgo informāciju.",
-        "disabled": "Atspējots",
-        "uploadOnly": "Tikai augšupielāde",
-        "downloadOnly": "Tikai lejupielāde",
-        "staySynchronized": "Palikt sinhronizētam"
-      },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Atvērt vai aizvērt cilnes sinhronizēti",
-        "description": "Ja ir iespējots, atverot vai aizverot cilnes dažādās pārlūkprogrammās, tas tiks sinhronizēts. Tas attiecas tikai tad, ja ir aktīva opcija 'palikt sinhronizētam'.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ja vienlaikus pieslēdzaties divās pārlūkprogrammās ar vienu un to pašu kontu un ieslēdzat šo opciju, atverot vai aizverot cilnes vienā pārlūkprogrammā, tāda pati darbība tiks veikta arī citā pārlūkprogrammā. Ja vietne aizliedz atkārtotus pieslēgumus ar to pašu kontu, var rasties izņēmumi."
-      },
-      "SyncPrivateData": {
-        "label": "Sinchronizēt privātos datus",
-        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietnes sīkdatnes, vietnes lokālās krātuves datus, sesijas krātuves datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
-        "disabled": "Atspējots",
-        "uploadOnly": "Tikai augšupielāde",
-        "downloadOnly": "Tikai lejupielāde",
-        "staySynchronized": "Palikt sinhronizētam"
+        "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz sinhronizācija globālajos iestatījumos."
       }
     }
   }

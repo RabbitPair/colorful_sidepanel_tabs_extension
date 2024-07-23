@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Manajemen Tab Sisi Berwarna"
+    "message": "Tab Panel Samping Berwarna"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Kelola tab browser di panel samping, Terlalu cantik untuk sebaik ini."
+    "message": "Kelola tab browser di panel samping"
   },
   "openSidePanel": {
-    "message": "Buka Panel Sisi"
+    "message": "Buka Panel Samping"
   }
 }

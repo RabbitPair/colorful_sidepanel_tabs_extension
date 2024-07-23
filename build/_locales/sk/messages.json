@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Správa farebných bočných panelových záložiek"
+    "message": "Farebné bočné panely kariet"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Spravujte karty v bočnom paneli, Príliš pekné na to, aby to bolo také dobré."
+    "message": "Spravujte karty prehliadača v bočnom paneli"
   },
   "openSidePanel": {
     "message": "Otvoriť bočný panel"

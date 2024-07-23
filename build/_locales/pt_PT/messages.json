@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Abas Coloridas no Painel Lateral"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Gerir separadores no painel lateral, tão bonito que é bom"
+  },
+  "openSidePanel": {
+    "message": "Abrir Painel Lateral"
+  }
+}

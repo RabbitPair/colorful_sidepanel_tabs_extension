@@ -1,18 +1,18 @@
 {
-  "OpenSideSanelToPreview": "Otvorte bočný panel na náhľad",
+  "OpenSidePanelToPreview": "Otvoriť bočný panel na náhľad",
   "_execute_action": "Aktivovať toto rozšírenie",
   "openSidePanel": "Otvoriť bočný panel",
   "settings": {
     "resetCurrentPageSettings": "Obnoviť nastavenia aktuálnej stránky",
     "modules": {
       "appearance": "Vzhľad",
-      "beautify": "Zkrášliť",
+      "beautify": "Krása",
       "tabs": "Karty",
       "history": "História",
       "shortcuts": "Skratky",
-      "pip": "Obrázok v obrázku",
-      "chromeTabGroupAdvanced": "Pokročilé skupiny kariet Chrome",
-      "progressBar": "Indikátor priebehu",
+      "pip": "Obraz v obraze",
+      "chromeTabGroupAdvanced": "Pokročilé skupiny kariet",
+      "progressBar": "Ukazovateľ priebehu",
       "floatBall": "Plávajúca guľa",
       "experimentalFeatures": "Experimentálne funkcie"
     },
@@ -23,12 +23,12 @@
         "description": "Nastavte jazyk pre zobrazenie rozhrania"
       },
       "theme": {
-        "label": "Režim farieb",
-        "description": "Vyberte svetlý alebo tmavý režim farieb"
+        "label": "Farebný režim",
+        "description": "Vyberte svetlý alebo tmavý farebný režim"
       },
       "rtl": {
         "label": "RTL",
-        "description": "Ak je povolené, rozhranie zobrazí smer textu zprava doľava"
+        "description": "Keď je povolené, rozhranie bude zobrazovať textový smer sprava doľava"
       },
       "fontSize": {
         "label": "Veľkosť písma",
@@ -45,18 +45,19 @@
         "description": "Nastavte farbu písma"
       },
       "fontWeight": {
-        "label": "Tloušťka písma",
-        "description": "Nastavte tloušťku písma"
+        "label": "Hrúbka písma",
+        "description": "Nastavte hrúbku písma"
       },
       "extAction": {
-        "label": "Akcia kliknutia na ikonu rozšírenia",
+        "label": "Akcia pri kliknutí na ikonu rozšírenia",
         "description": "Nastavte akciu pri kliknutí na ikonu rozšírenia",
         "openPopup": "Otvoriť vyskakovacie okno",
-        "openSidePanel": "Otvoriť bočný panel"
+        "openSidePanel": "Otvoriť bočný panel",
+        "SmallWindowAlert": "Ak bočný panel zaberá príliš veľa miesta, odporúča sa použiť vyskakovacie okno"
       },
       "SidePanelPosition": {
         "label": "Pozícia bočného panela",
-        "description": "Nastavte, či sa bočný panel zobrazuje na ľavej alebo pravej strane.",
+        "description": "Nastavte, či sa bočný panel zobrazuje vľavo alebo vpravo.",
         "goToBrowserSettings": "Prejsť na nastavenia Chrome"
       },
       "searchBoxPosition": {
@@ -68,11 +69,11 @@
       },
       "toolbar": {
         "label": "Zobraziť panel nástrojov",
-        "description": "Ak je povolené, zobrazí sa panel nástrojov"
+        "description": "Keď je povolené, panel nástrojov sa zobrazí"
       },
       "bottomNav": {
-        "label": "Zobraziť spodný navigačný panel",
-        "description": "Ak je povolené, zobrazí sa spodný navigačný panel"
+        "label": "Zobraziť dolný navigačný panel",
+        "description": "Keď je povolené, dolný navigačný panel sa zobrazí"
       },
       "buttonPosition": {
         "label": "Pozícia tlačidiel",
@@ -82,21 +83,21 @@
       },
       "alwaysShowCloseButton": {
         "label": "Vždy zobraziť tlačidlo zatvorenia",
-        "description": "Ak je povolené, tlačidlo zatvorenia sa vždy zobrazí; ak je zakázané, tlačidlo zatvorenia sa zobrazí len vtedy, keď je myš nad kartou"
+        "description": "Keď je povolené, tlačidlo zatvorenia sa vždy zobrazí; keď je zakázané, tlačidlo zatvorenia sa zobrazí iba pri prechode myšou nad kartou"
       },
       "fullScreenHideSidePanel": {
-        "label": "Skryť bočný panel v režime celého displeja",
-        "description": "Ak je povolené, bočný panel sa automaticky skryje, keď je stránka v režime celého displeja. Kvôli obmedzeniam Chrome sa bočný panel nemôže automaticky znovu otvoriť. Musíte bočný panel znovu otvoriť manuálne!"
+        "label": "Skryť bočný panel v režime celej obrazovky",
+        "description": "Keď je povolené, bočný panel sa automaticky skryje, keď je stránka v režime celej obrazovky. Kvôli obmedzeniam Chrome sa bočný panel nemôže automaticky znovu otvoriť. Musíte manuálne znovu otvoriť bočný panel!"
       }
     },
     "beautify": {
       "coloredbackground": {
-        "label": "Farbené pozadie",
-        "description": "Ak je povolené, bočný panel zobrazí farbené pozadie"
+        "label": "Farebné pozadie",
+        "description": "Keď je povolené, bočný panel bude zobrazovať farebné pozadie"
       },
       "backgroundPicture": {
-        "label": "Pozadie obrázka",
-        "description": "Kliknite na [+] pre pridanie vlastného obrázka, kliknite na [-] pre odstránenie vlastného obrázka. Svoje obľúbené obrázky nájdete na nasledujúcich webových stránkach.",
+        "label": "Obrázok na pozadí",
+        "description": "Kliknite na [+] pre pridanie vlastného obrázka, kliknite na [-] pre odstránenie vlastného obrázka. Svoje obľúbené obrázky môžete nájsť na nasledujúcich webových stránkach.",
         "dialogDescription": "Zadajte adresu obrázka",
         "OK": "OK",
         "Cancel": "Zrušiť",
@@ -114,15 +115,15 @@
       },
       "backgroundImageBrightness": {
         "label": "Jas",
-        "description": "Nastavte jas, odporúčané len pre tmavý režim"
+        "description": "Nastavte jas, odporúčané iba pre tmavý režim"
       },
       "listBackgroundStyle": {
         "label": "Štýl pozadia zoznamu",
         "description": "Nastavte štýl pozadia zoznamu",
-        "single": "Jednotlivé",
+        "single": "Jednoduché",
         "none": "Žiadne",
         "simple": "Jednoduché",
-        "complementary": "Doplňujúce",
+        "complementary": "Doplnkové",
         "analogous": "Analogické",
         "triadic": "Triadické",
         "tetradic": "Tetradické"
@@ -130,19 +131,19 @@
       "listBackgroundTransparency": {
         "label": "Priehľadnosť pozadia zoznamu",
         "description": "Nastavte priehľadnosť pozadia zoznamu",
-        "transparent": "Priehľadné",
-        "opaque": "Nepriehľadné"
+        "transparent": "Priehľadný",
+        "opaque": "Nepriehľadný"
       },
       "listBottomBorder": {
-        "label": "Spodná hranica zoznamu",
-        "description": "Nastavte spodnú hranicu zoznamu",
-        "none": "Žiadna",
-        "dashed": "Dvojitá",
-        "solid": "Plná"
+        "label": "Spodný okraj zoznamu",
+        "description": "Nastavte spodný okraj zoznamu",
+        "none": "Žiadne",
+        "dashed": "Čiarkované",
+        "solid": "Pevné"
       },
       "fluentOverlayScrollbars": {
         "label": "Plynulé posuvníky",
-        "description": "Použite štýl dizajnu Microsoft Fluent pre posuvníky a prekryte ich na obsah webových stránok",
+        "description": "Použite posuvníky v štýle Microsoft Fluent design a prekryte ich na webový obsah",
         "goToBrowserSettings": "Prejsť na nastavenia Chrome"
       }
     },
@@ -151,19 +152,19 @@
         "label": "Zobrazenie zoznamu",
         "description": "Prepnúť zobrazenie zoznamu",
         "compact": "Kompaktné zobrazenie",
-        "visual": "Vizuálne zobrazenie"
+        "visual": "Vizualizované zobrazenie"
       },
       "showBy": {
         "label": "Zobraziť podľa",
-        "description": "Prepnúť zobraziť podľa"
+        "description": "Prepnúť zobrazenie podľa"
       },
       "sortBy": {
         "label": "Zoradiť podľa",
-        "description": "Prepnúť zoradiť podľa"
+        "description": "Prepnúť zoradenie podľa"
       },
       "showFullUrl": {
-        "label": "Zobraziť plnú URL",
-        "description": "Ak je povolené, plná adresa URL sa zobrazí pod názvom karty"
+        "label": "Zobraziť celú URL",
+        "description": "Keď je povolené, celá URL sa zobrazí pod názvom karty"
       },
       "currentWindowOnly": {
         "label": "Iba aktuálne okno",
@@ -171,52 +172,56 @@
       },
       "pinedTabsAsIcons": {
         "label": "Zobraziť pripnuté karty ako ikony",
-        "description": "Ak je povolené, pripnuté karty sa zobrazia ako ikony a nie v zozname"
+        "description": "Keď je povolené, pripnuté karty sa zobrazia ako ikony a nie v zozname"
+      },
+      "pinToQuickAccess": {
+        "label": "Zobraziť rýchly prístup",
+        "description": "Môžete nastaviť kartu, aby sa zobrazila v rýchlom prístupe, aby bola ľahko nájditeľná. Stačí na ňu kliknúť pravým tlačidlom myši (alebo dlhým stlačením) a vybrať Pripnúť na rýchly prístup. Odopnite ju, keď ju už nepotrebujete, kliknutím pravým tlačidlom myši (alebo dlhým stlačením) a výberom Odstrániť z rýchleho prístupu. Rozdiel oproti pripnutým kartám je, že rýchly prístup ukladá URL a otvára novú kartu zakaždým, keď na ňu kliknete."
       },
       "collapsedGroupShowTabIcons": {
-        "label": "Zobraziť ikony webových stránok pri zmenšovaní skupín",
-        "description": "Ak je povolené, zmenšené skupiny zobrazia ikony kariet"
+        "label": "Zobraziť ikony webových stránok pri zbalení skupín",
+        "description": "Keď je povolené, zbalené skupiny zobrazia ikony kariet"
       },
       "hoverPreview": {
-        "label": "Náhľad kurzorom",
-        "description": "Ak je povolené, pri prejdení kurzorom nad kartami sa zobrazia náhľady kariet"
+        "label": "Náhľad pri prechode myšou",
+        "description": "Keď je povolené, prechod myšou nad kartami zobrazí náhľady kariet"
       },
       "previewWithThumbnail": {
-        "label": "Zobraziť náhľady v náhľade",
-        "description": "Ak je povolené, náhľady zobrazia náhľady kariet",
-        "alert": "Zachyťte viditeľnú oblasť aktívnej karty v určenom okne. Na volanie tejto metódy musí mať rozšírenie povolenie <all_urls> alebo povolenie activeTab.",
-        "deniedMessage": "Zakázali ste požadované povolenie, takže sa nastavenia nezmenili. Ak zmeníte názor, kliknite znova a povolte autorizáciu"
+        "label": "Zobraziť miniatúry v náhľade",
+        "description": "Keď je povolené, náhľady zobrazia miniatúry kariet",
+        "alert": "Zachytiť viditeľnú oblasť aktuálne aktívnej karty v určenom okne. Na volanie tejto metódy musí mať rozšírenie povolenie <all_urls> alebo povolenie activeTab.",
+        "deniedMessage": "Odmietli ste požadované povolenie, takže nastavenia sa nezmenili. Ak zmeníte názor, kliknite znova a povoľte autorizáciu"
       },
       "previewDelay": {
-        "label": "Oneskorený náhľad",
-        "description": "Nastavte čas oneskorenia pre náhľady kariet pri prejdení kurzorom nad kartami atď. (sekundy). Ak je nastavené na 0, nebude žiadne oneskorenie",
+        "label": "Oneskorenie náhľadu",
+        "description": "Nastavte čas oneskorenia pre náhľady kariet pri prechode myšou nad kartami atď. (sekundy). Ak je nastavené na 0, nebude žiadne oneskorenie",
         "seconds": "Sekundy"
       }
     },
     "history": {
       "saveRecentlyTabs": {
         "label": "Uložiť nedávno zatvorené karty",
-        "description": "Ak je povolené, uložia sa nedávno zatvorené karty"
+        "description": "Keď je povolené, uložia sa nedávno zatvorené karty"
       },
       "dataSource": {
         "label": "Zdroj údajov",
         "description": "Vyberte zdroj údajov",
         "recentlyClosedTabs": "Nedávno zatvorené karty",
         "chromeHistory": "História Chrome",
-        "alert": "Na vyhľadávanie záznamov histórie potrebujete vašu autorizáciu na povolenie",
-        "deniedMessage": "Zakázali ste požadované povolenie, takže sa nastavenia nezmenili. Ak zmeníte názor, kliknite znova a povolte autorizáciu"
+        "alert": "Na vyhľadávanie záznamov histórie potrebujete vaše povolenie na povolenie",
+        "deniedMessage": "Odmietli ste požadované povolenie, takže nastavenia sa nezmenili. Ak zmeníte názor, kliknite znova a povoľte autorizáciu"
       },
       "showInSidePanel": {
         "label": "Zobraziť v bočnom paneli",
-        "description": "Ak je povolené, zobrazí sa v bočnom paneli"
+        "description": "Keď je povolené, zobrazí sa v bočnom paneli"
       },
       "showInTabSearchResults": {
-        "label": "Zobraziť históriu výsledkov vyhľadávania kariet",
-        "description": "Ak je povolené, nedávne záznamy histórie sa zobrazia vo výsledkoch vyhľadávania kariet"
+        "label": "Zobraziť históriu vo výsledkoch vyhľadávania kariet",
+        "description": "Keď je povolené, nedávne záznamy histórie sa zobrazia vo výsledkoch vyhľadávania kariet"
       },
       "limitSearchResults": {
         "label": "Obmedziť počet záznamov histórie vo výsledkoch vyhľadávania kariet",
-        "description": "Nastavte obmedzenie počtu záznamov histórie vo výsledkoch vyhľadávania kariet. Záznamy histórie nad obmedzením budú filtrované",
+        "description": "Nastavte limitný počet záznamov histórie vo výsledkoch vyhľadávania kariet. Záznamy histórie presahujúce limit budú filtrované",
         "alert": "Príliš veľa záznamov ovplyvní rýchlosť načítania stránky"
       },
       "saveRecentlyTabsLimit": {
@@ -225,90 +230,89 @@
       },
       "keepDays": {
         "label": "Počet dní na uchovanie nedávno zatvorených kariet",
-        "description": "Nastavte počet dní na uchovanie nedávno zatvorených kariet. Vypršané údaje budú vymazané",
+        "description": "Nastavte počet dní na uchovanie nedávno zatvorených kariet. Expirujúce údaje budú vymazané",
         "days": "Dni"
       },
       "openDuration": {
         "label": "Doba otvorenia",
-        "description": "Uložia sa iba karty otvorené dlhšie ako nastavený čas",
+        "description": "Iba karty otvorené dlhšie ako nastavený čas budú uložené",
         "seconds": "Sekundy"
       }
     },
     "shortcuts": {
-      "alert": "Táto stránka je len na zobrazenie. Ak chcete upraviť skratky, navštívte [Rozšírenia]->[Spravovať rozšírenia]->[Klávesové skratky]",
+      "alert": "Táto stránka je určená iba na zobrazenie. Ak chcete upraviť skratky, navštívte [Rozšírenia]->[Spravovať rozšírenia]->[Klávesové skratky]",
       "goToBrowserSettings": "Prejsť na nastavenia Chrome",
       "_execute_action": "Aktivovať toto rozšírenie",
       "openSidePanel": "Otvoriť bočný panel"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "Obrázok v obrázku",
+      "Picture-in-picture": "Obraz v obraze",
       "tabSwitch": {
-        "label": "Obrázok v obrázku pri prepínaní kariet",
-        "description": "Automaticky vstúpiť do režimu obrázok v obrázku pri prepínaní kariet s neztlmeným videom",
+        "label": "PIP pri prepínaní kariet",
+        "description": "Automaticky vstúpiť do PIP pri prepínaní kariet s neztlmeným videom",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       },
       "scrollSwitch": {
-        "label": "Prepnúť na obrázok v obrázku pri posúvaní",
-        "description": "Ak je aktuálna stránka prehráva video a video nie je ztlmené a video je mimo viditeľného rozsahu pri posúvaní, vstúpi do režimu obrázok v obrázku.",
+        "label": "Prepnúť na obraz v obraze pri rolovaní",
+        "description": "Ak aktuálna stránka prehráva video a video nie je stlmené a video je mimo viditeľného rozsahu pri rolovaní, vstúpi do obrazu v obraze.",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       }
     },
     "userActivitionAlert": {
       "title": "Vyžaduje sa aktivácia používateľa",
-      "tips_1": "Aktivácia používateľa znamená, že používateľ v súčasnosti interaguje so stránkou",
-      "tips_2": "Konkrétne aktivácia spúšťa vstupné udalosti ako:",
-      "tips_3": "Poznámka: Použitie posúvania kolieskom myši alebo gestoťahom nevyvolá!",
+      "tips_1": "Aktivácia používateľa znamená, že používateľ momentálne interaguje so stránkou",
+      "tips_2": "Konkrétnejšie, aktivácia spúšťa vstupné udalosti ako:",
+      "tips_3": "Poznámka: Použitie kolieska myši alebo gestá potiahnutia nebudú spúšťať!",
       "tips_4": "Ak chcete ďalšie podrobnosti, navštívte:",
-      "click": "Kliknite",
-      "contextmenu": "Kontextové menu",
-      "dblclick": "Dvojklik"
+      "click": "Kliknutie",
+      "contextmenu": "Pravé kliknutie",
+      "dblclick": "Dvojité kliknutie"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Správanie sa skupiny kariet pri zmenšovaní",
-        "description": "Upraviť správanie sa skupiny kariet prehliadača Chrome pri zmenšovaní",
-        "option_collapse_others": "Zobraziť aktuálnu skupinu a zmenšiť ostatné",
+        "label": "Správanie zoskupenia kariet",
+        "description": "Upravte správanie zoskupenia kariet v prehliadači Chrome",
+        "option_collapse_others": "Zobraziť aktuálnu skupinu a zoskupiť ostatné",
         "option_disable": "Rozbaliť všetky skupiny",
         "option_auto": "Použiť predvolené nastavenia Chrome"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Automaticky vytvoriť alebo sa pridať do skupiny rovnakého doménového názvu",
-        "description": "Ak je povolené, nové otvorené karty sa automaticky pridajú do rovnakej skupiny doménového názvu. Ak skupina doménového názvu neexistuje, vytvorí sa nová skupina doménového názvu",
+        "label": "Automaticky vytvoriť alebo pripojiť skupinu rovnakého doménového mena",
+        "description": "Keď je povolené, novootvorené karty sa automaticky pripoja k skupine rovnakého doménového mena. Ak skupina doménového mena neexistuje, vytvorí sa nová skupina doménového mena",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Filtrovať pripevnené karty vo skupinách",
-        "description": "Ak je povolené, pripevnené karty sa nepridajú do skupín",
+        "label": "Filtrovať pripnuté karty v skupinách",
+        "description": "Keď je povolené, pripnuté karty nebudú pridané do skupín",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Povoliť lištu prečítavania",
-        "description": "Ak je povolené, pod lištou s názvom karty sa zobrazí lišta prečítavania",
+        "label": "Povoliť ukazovateľ priebehu",
+        "description": "Keď je povolené, pod názvom karty sa zobrazí ukazovateľ priebehu čítania",
         "enabled": "Povolené",
-
         "disabled": "Zakázané"
       },
       "readingProgressBar": {
-        "label": "Lišta prečítavania",
-        "description": "Ak je povolené, pod lištou s názvom karty sa zobrazí lišta prečítavania",
+        "label": "Ukazovateľ priebehu čítania",
+        "description": "Keď je povolené, pod názvom karty sa zobrazí ukazovateľ priebehu čítania",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       },
       "scrollHeightRatio": {
-        "label": "Pomer výšky posúvania",
-        "description": "Pomer viditeľnej výšky okna k výške stránky. Lišta prečítavania sa zobrazí, keď je pomer prekročený",
+        "label": "Pomer výšky rolovania",
+        "description": "Pomer viditeľnej výšky okna k výške stránky. Ukazovateľ priebehu sa zobrazí, keď je pomer prekročený",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       },
       "playingProgressBar": {
-        "label": "Lišta prehrávania",
-        "description": "Ak je povolené, pod lištou s názvom karty sa zobrazí lišta prehrávania",
+        "label": "Ukazovateľ priebehu prehrávania",
+        "description": "Keď je povolené, pod názvom karty sa zobrazí ukazovateľ priebehu prehrávania",
         "enabled": "Povolené",
         "disabled": "Zakázané"
       }
@@ -316,32 +320,32 @@
     "floatBall": {
       "enableFloatBall": {
         "label": "Povoliť plávajúcu guľu",
-        "description": "Keď je bočný panel zatvorený, na pravej strane stránky sa zobrazí plávajúca guľa, umožňujúca rýchle otvorenie bočného panela."
+        "description": "Keď je bočný panel zatvorený, na pravej strane stránky sa zobrazí plávajúca guľa, ktorá umožňuje rýchle otvorenie bočného panela."
       }
     },
     "performance": {
       "label": "Výkon",
       "saveMemoryAction": {
-        "label": "Ako ušetriť pamäť na kartách",
-        "description": "Na ušetrenie pamäte na kartách môžete zvoliť zatvorenie kariet alebo zahodenie kariet.",
-        "discardTips": "zahodená karta nezmizne nikam. Zabijeme ju, ale stále je viditeľná na lište kariet Chrome. Ak sa vrátite na kartu, ktorá bola zahodená, znovu sa načíta po kliknutí. Obsah formulára, pozícia posúvania a podobne sú uložené a obnovené rovnakým spôsobom, ako by boli počas navigácie dopredu/dozadu v kartách.",
+        "label": "Ako šetriť pamäť na kartách",
+        "description": "Na šetrenie pamäte na kartách môžete zvoliť zatvorenie kariet alebo zahodenie kariet.",
+        "discardTips": "Zahodená karta nikam neodchádza. Zabijeme ju, ale stále je viditeľná na paneli kariet Chrome. Ak sa vrátite na kartu, ktorá bola zahodená, po kliknutí sa znova načíta. Obsah formulára, pozícia rolovania a podobne sa ukladajú a obnovujú rovnakým spôsobom, ako by to bolo pri navigácii dopredu/dozadu na karte.",
         "disabled": "Zakázané",
         "closeTabs": "Zatvoriť karty",
         "discardTabs": "Zahodiť karty"
       },
       "discardInactiveTabsMinutes": {
         "label": "Ako dlho zahodiť neaktívne karty",
-        "description": "Keď na karte nie je prehrávaný zvuk alebo video a automatické zahodenie nie je zakázané, karta bude zahodená po uplynutí určeného času.",
+        "description": "Keď sa na karte neprehráva žiadny zvuk ani video a automatické zahodenie nie je zakázané, karta sa po uplynutí stanoveného času zahodí.",
         "minutes": "Minúty"
       },
       "closeInactiveTabsMinutes": {
         "label": "Ako dlho zatvoriť neaktívne karty",
-        "description": "Keď na karte nie je prehrávaný zvuk alebo video a automatické zahodenie nie je zakázané, karta bude zatvorená po uplynutí určeného času.",
+        "description": "Keď sa na karte neprehráva žiadny zvuk ani video a automatické zahodenie nie je zakázané, karta sa po uplynutí stanoveného času zatvorí.",
         "minutes": "Minúty"
       },
       "disableAnimations": {
         "label": "Zakázať animácie",
-        "description": "zakázať efekt vlnenia a zakázať všetky prechody"
+        "description": "Zakázať efekt vlny a zakázať všetky prechody"
       }
     },
     "site": {
@@ -351,74 +355,74 @@
       "mostVisited": "Najnavštevovanejšie",
       "dataStored": "Uložené údaje",
       "name": "Meno",
-      "deleteAllData": "Zmazať všetky údaje",
-      "totalStorageUsedBySites": "Celkové úložisko použité stránkami",
+      "deleteAllData": "Vymazať všetky údaje",
+      "totalStorageUsedBySites": "Celkové úložisko používané stránkami",
       "totalCount": "Celkový počet",
       "addNewSite": {
         "label": "Pridať novú stránku",
-        "description": "Zadajte novú webovú adresu, napríklad 'www.priklad.com', a kliknite na 'Pridať'.",
-        "placeholder": "Webová adresa, napríklad 'www.priklad.com'",
+        "description": "Zadajte novú webovú adresu, napríklad 'www.example.com', a kliknite na 'Pridať'.",
+        "placeholder": "Webová adresa, napríklad 'www.example.com'",
         "add": "Pridať",
         "cancel": "Zrušiť",
         "invalidDomain": "Neplatná webová adresa"
       },
       "browserSettings": {
         "label": "Nastavenia prehliadača",
-        "description": "Môžete upraviť nastavenia stránky, ako je vymazanie údajov alebo zmena oprávnení stránky.",
+        "description": "Môžete upraviť nastavenia stránky, ako je vymazanie údajov alebo zmena povolení stránky.",
         "goToBrowserSettings": "Prejsť na nastavenia prehliadača"
       },
       "autoDiscardable": {
         "label": "Automaticky zahoditeľné",
-        "description": "Ak je povolené, karta bude môcť byť zahodená prehliadačom, a ak zapnete výkon a nastavíte čas na zahodenie neaktívnych kariet, karta bude zahodená po uplynutí určeného času. Ak je zakázané, karta nebude zahodená"
+        "description": "Keď je povolené, karta bude môcť byť zahodená prehliadačom, a ak zapnete výkon a nastavíte čas na zahodenie neaktívnych kariet, karta sa po uplynutí stanoveného času zahodí. Ak je zakázané, karta nebude zahodená"
       },
       "readingProgressBar": {
-        "label": "Lišta prečítavania",
-        "description": "Ak je povolené, pod lištou s názvom karty sa zobrazí lišta prečítavania.",
-        "globaldisabledTips": "Musíte zapnúť lištu prečítavania v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
+        "label": "Ukazovateľ priebehu čítania",
+        "description": "Keď je povolené, pod názvom karty sa zobrazí ukazovateľ priebehu čítania.",
+        "globaldisabledTips": "Musíte zapnúť ukazovateľ priebehu čítania v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
       },
       "playingProgressBar": {
-        "label": "Lišta prehrávania",
-        "description": "Ak je povolené, pod lištou s názvom karty sa zobrazí lišta prehrávania.",
-        "globaldisabledTips": "Musíte zapnúť lištu prehrávania v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
+        "label": "Ukazovateľ priebehu prehrávania",
+        "description": "Keď je povolené, pod názvom karty sa zobrazí ukazovateľ priebehu prehrávania.",
+        "globaldisabledTips": "Musíte zapnúť ukazovateľ priebehu prehrávania v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
       },
       "tabSwitchPip": {
         "label": "PIP pri prepínaní kariet",
-        "description": "Ak je povolené, automaticky vstúpite do režimu Picture-in-picture pri prepínaní kariet s neztlmeným videom.",
-        "globaldisabledTips": "Musíte zapnúť režim Picture-in-picture v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
+        "description": "Keď je povolené, automaticky vstúpi do obrazu v obraze pri prepínaní kariet s neztlmeným videom.",
+        "globaldisabledTips": "Musíte zapnúť obraz v obraze v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
       },
       "clearHistoyAfterCLose": {
         "label": "Vymazať históriu po zatvorení",
-        "description": "Ak je povolené, históriu sa vymaže po zatvorení karty."
+        "description": "Keď je povolené, história sa po zatvorení karty vymaže."
       },
       "SyncTabs": {
         "label": "Synchronizovať karty",
-        "description": "Vyberte, ako synchronizovať údaje kariet, s výnimkou súkromných údajov ako sú cookies a osobné informácie.",
+        "description": "Vyberte, ako synchronizovať údaje kariet, s výnimkou súkromných údajov, ako sú cookies a osobné informácie.",
         "disabled": "Zakázané",
         "uploadOnly": "Iba nahrávanie",
         "downloadOnly": "Iba sťahovanie",
-        "staySynchronized": "Zostať synchronizovaný",
+        "staySynchronized": "Zostať synchronizované",
         "globaldisabledTips": "Musíte zapnúť synchronizáciu v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
       },
       "SyncPrivateData": {
         "label": "Synchronizovať súkromné údaje",
-        "description": "Vyberte, ako synchronizovať súkromné údaje, ako sú cookies webových stránok, údaje uložené v lokálnom úložisku webových stránok, údaje SessionStorage atď. Údaje budú šifrované pred synchronizáciou.",
+        "description": "Vyberte, ako synchronizovať súkromné údaje, ako sú cookies webových stránok, údaje lokálneho úložiska webových stránok, údaje SessionStorage atď. Údaje budú pred synchronizáciou zašifrované.",
         "disabled": "Zakázané",
         "uploadOnly": "Iba nahrávanie",
         "downloadOnly": "Iba sťahovanie",
-        "staySynchronized": "Zostať synchronizovaný",
+        "staySynchronized": "Zostať synchronizované",
         "globaldisabledTips": "Musíte zapnúť synchronizáciu v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
       }
     },
     "SyncToCloud": {
-      "label": "Synchronizova�� do cloudu",
+      "label": "Synchronizovať do cloudu",
       "SyncNow": "Synchronizovať teraz",
-      "SyncNowWithGoogleDrive": "Synchronizovať teraz cez Google Drive",
-      "SyncNowWithDropbox": "Synchronizovať teraz cez Dropbox",
-      "SyncNowWithOneDrive": "Synchronizovať teraz cez OneDrive",
-      "Synchronizing": "Synchronizuje sa...",
+      "SyncNowWithGoogleDrive": "Synchronizovať teraz s Google Drive",
+      "SyncNowWithDropbox": "Synchronizovať teraz s Dropbox",
+      "SyncNowWithOneDrive": "Synchronizovať teraz s OneDrive",
+      "Synchronizing": "Synchronizácia...",
       "SyncedSuccessfully": "Úspešne synchronizované",
       "SyncFailed": "Synchronizácia zlyhala",
-      "LoginRequired": "Vyžadované prihlásenie",
+      "LoginRequired": "Vyžaduje sa prihlásenie",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
@@ -428,28 +432,28 @@
         "disabled": "Zakázané",
         "uploadOnly": "Iba nahrávanie",
         "downloadOnly": "Iba sťahovanie",
-        "staySynchronized": "Zostať synchronizovaný"
+        "staySynchronized": "Zostať synchronizované"
       },
       "SyncTabs": {
         "label": "Synchronizovať karty",
-        "description": "Vyberte, ako synchronizovať údaje kariet, s výnimkou súkromných údajov ako sú cookies a osobné informácie.",
+        "description": "Vyberte, ako synchronizovať údaje kariet, s výnimkou súkromných údajov, ako sú cookies a osobné informácie.",
         "disabled": "Zakázané",
         "uploadOnly": "Iba nahrávanie",
         "downloadOnly": "Iba sťahovanie",
-        "staySynchronized": "Zostať synchronizovaný"
+        "staySynchronized": "Zostať synchronizované"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Otvárať alebo zatvárať karty synchronne",
-        "description": "Ak je povolené, otváranie alebo zatváranie kariet v rôznych prehliadačoch bude synchronizované. Toto platí len v prípade, že je aktívna možnosť 'zostať synchronizovaný'.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ak sa prihlásite do rovnakého účtu v dvoch prehliadačoch súčasne a zapnete túto možnosť, otváranie alebo zatváranie kariet v jednom prehliadači vykoná rovnakú operáciu v druhom prehliadači. Ak webová stránka zakazuje opakované prihlásenia s rovnakým účtom, môžu nastať výnimky."
+        "label": "Otvárať alebo zatvárať karty synchronizovane",
+        "description": "Keď je povolené, otváranie alebo zatváranie kariet v rôznych prehliadačoch bude synchronizované. Toto platí iba vtedy, keď je aktívna možnosť 'zostať synchronizované'",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ak sa prihlásite do rovnakého účtu v dvoch prehliadačoch súčasne a zapnete túto možnosť, otváranie alebo zatváranie kariet v jednom prehliadači vykoná rovnakú operáciu v druhom prehliadači. Ak webová stránka zakazuje opakované prihlásenia s rovnakým účtom, môžu sa vyskytnúť výnimky."
       },
       "SyncPrivateData": {
         "label": "Synchronizovať súkromné údaje",
-        "description": "Vyberte, ako synchronizovať súkromné údaje, ako sú cookies webových stránok, údaje uložené v lokálnom úložisku webových stránok, údaje SessionStorage atď. Údaje budú šifrované pred synchronizáciou.",
+        "description": "Vyberte, ako synchronizovať súkromné údaje, ako sú cookies webových stránok, údaje lokálneho úložiska webových stránok, údaje SessionStorage atď. Údaje budú pred synchronizáciou zašifrované.",
         "disabled": "Zakázané",
         "uploadOnly": "Iba nahrávanie",
         "downloadOnly": "Iba sťahovanie",
-        "staySynchronized": "Zostať synchronizovaný"
+        "staySynchronized": "Zostať synchronizované"
       }
     }
   }

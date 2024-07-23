@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Gestion des Onglets du Panneau Latéral Coloré"
+    "message": "Onglets colorés du panneau latéral"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Gérez les onglets dans le panneau latéral, Trop joli pour être aussi bon."
+    "message": "Gérer les onglets du navigateur dans le panneau latéral"
   },
   "openSidePanel": {
-    "message": "Ouvrir le Panneau Latéral"
+    "message": "Ouvrir le panneau latéral"
   }
 }

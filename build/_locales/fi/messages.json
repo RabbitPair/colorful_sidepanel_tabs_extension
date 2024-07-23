@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Värikäs Sivupalkin Välilehtien Hallinta"
+    "message": "Värikkäät sivupaneelin välilehdet"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Hallitse välilehtiä sivupaneelissa, liian kaunis ollakseen näin hyvä."
+    "message": "Hallitse selaimen välilehtiä sivupaneelissa"
   },
   "openSidePanel": {
-    "message": "Avaa Sivupalkki"
+    "message": "Avaa sivupaneeli"
   }
 }

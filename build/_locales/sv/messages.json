@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Färgglad sidofältsetiketthantering"
+    "message": "Färgglada Sidopanelflikar"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "kaninpar"
   },
   "appDescription": {
-    "message": "Hantera flikar i sidopanelen, För vacker för att vara så bra."
+    "message": "Hantera webbläsarflikar i sidopanelen"
   },
   "openSidePanel": {
-    "message": "Öppna sidofältet"
+    "message": "Öppna Sidopanel"
   }
 }

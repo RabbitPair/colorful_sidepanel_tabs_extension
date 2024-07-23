@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Makukulay na Mga Tab ng Side Panel"
+  },
+  "appShortName": {
+    "message": "rabbitpair"
+  },
+  "appDescription": {
+    "message": "Pamahalaan ang mga tab ng browser sa side panel"
+  },
+  "openSidePanel": {
+    "message": "Buksan ang Side Panel"
+  }
+}

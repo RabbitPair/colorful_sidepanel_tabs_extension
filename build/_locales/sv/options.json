@@ -1,9 +1,9 @@
 {
-  "OpenSideSanelToPreview": "Öppna sidopanelen för att förhandsgranska",
+  "OpenSidePanelToPreview": "Öppna sidopanel för att förhandsgranska",
   "_execute_action": "Aktivera denna tillägg",
-  "openSidePanel": "Öppna sidopanelen",
+  "openSidePanel": "Öppna sidopanel",
   "settings": {
-    "resetCurrentPageSettings": "Återställ aktuella sidinställningar",
+    "resetCurrentPageSettings": "Återställ nuvarande sidinställningar",
     "modules": {
       "appearance": "Utseende",
       "beautify": "Försköna",
@@ -12,7 +12,7 @@
       "shortcuts": "Genvägar",
       "pip": "Bild-i-bild",
       "chromeTabGroupAdvanced": "Avancerade flikgrupper",
-      "progressBar": "förloppsindikator",
+      "progressBar": "Framstegsfält",
       "floatBall": "Flytande boll",
       "experimentalFeatures": "Experimentella funktioner"
     },
@@ -20,19 +20,19 @@
       "header": "Utseende",
       "language": {
         "label": "Gränssnittsspråk",
-        "description": "Ställ in språket för gränssnittet"
+        "description": "Ställ in språket för gränssnittets visning"
       },
       "theme": {
         "label": "Färgläge",
-        "description": "Välj ljus eller mörkt färgläge"
+        "description": "Välj ljust eller mörkt färgläge"
       },
       "rtl": {
         "label": "RTL",
-        "description": "När aktiverat kommer gränssnittet att visa text från höger till vänster"
+        "description": "När aktiverat kommer gränssnittet att visa text riktning från höger till vänster"
       },
       "fontSize": {
         "label": "Teckenstorlek",
-        "description": "Ställ in teckenstorlek",
+        "description": "Ställ in teckenstorleken",
         "small": "Liten",
         "large": "Stor"
       },
@@ -45,14 +45,15 @@
         "description": "Ställ in teckenfärgen"
       },
       "fontWeight": {
-        "label": "Teckenstycke",
-        "description": "Ställ in teckenstycket"
+        "label": "Teckentjocklek",
+        "description": "Ställ in teckentjockleken"
       },
       "extAction": {
-        "label": "Klicka på tilläggsikonen",
+        "label": "Klicka på tilläggsikonens åtgärd",
         "description": "Ställ in åtgärden när du klickar på tilläggsikonen",
         "openPopup": "Öppna popup",
-        "openSidePanel": "Öppna sidopanelen"
+        "openSidePanel": "Öppna sidopanel",
+        "SmallWindowAlert": "Om sidopanelen tar upp för mycket utrymme rekommenderas det att du använder ett popup-fönster"
       },
       "SidePanelPosition": {
         "label": "Sidopanelens position",
@@ -85,7 +86,7 @@
         "description": "När aktiverat kommer stängknappen alltid att visas; när inaktiverat kommer stängknappen endast att visas när musen svävar över fliken"
       },
       "fullScreenHideSidePanel": {
-        "label": "Dölj sidopanelen i helskärm",
+        "label": "Dölj sidopanel i helskärm",
         "description": "När aktiverat kommer sidopanelen automatiskt att döljas när sidan är i helskärm. På grund av Chromes begränsningar kan sidopanelen inte automatiskt öppnas igen. Du måste manuellt öppna sidopanelen igen!"
       }
     },
@@ -109,8 +110,8 @@
         "opaque": "Ogenomskinlig"
       },
       "backgroundImageBlur": {
-        "label": "Osäkerhet av suddighet",
-        "description": "Ställ in osäkerheten av suddighet"
+        "label": "Suddighetsintensitet",
+        "description": "Ställ in suddighetsintensitet"
       },
       "backgroundImageBrightness": {
         "label": "Ljusstyrka",
@@ -134,15 +135,15 @@
         "opaque": "Ogenomskinlig"
       },
       "listBottomBorder": {
-        "label": "Listans bottenkant",
-        "description": "Ställ in listans bottenkant",
+        "label": "Listans bottenram",
+        "description": "Ställ in listans bottenram",
         "none": "Ingen",
         "dashed": "Streckad",
         "solid": "Solid"
       },
       "fluentOverlayScrollbars": {
-        "label": "Fluent scrollbars",
-        "description": "Använd Microsoft Fluent design scrollbars och överlägg dem på webbinnehållet",
+        "label": "Fluent rullningslister",
+        "description": "Använd Microsoft Fluent designstil rullningslister och överlägg dem på webbinnehållet",
         "goToBrowserSettings": "Gå till Chrome-inställningar"
       }
     },
@@ -162,16 +163,20 @@
         "description": "Växla sortera efter"
       },
       "showFullUrl": {
-        "label": "Visa hela URL:en",
-        "description": "När aktiverat, kommer hela URL:en att visas under flikens titel"
+        "label": "Visa fullständig URL",
+        "description": "När aktiverat kommer den fullständiga URL:en att visas under flikens titel"
       },
       "currentWindowOnly": {
-        "label": "Endast aktuellt fönster",
-        "description": "Visa endast flikar i aktuellt fönster. Om inaktiverat visas flikar från alla fönster"
+        "label": "Endast nuvarande fönster",
+        "description": "Visa endast flikar i det nuvarande fönstret. Om inaktiverat kommer flikar från alla fönster att visas"
       },
       "pinedTabsAsIcons": {
         "label": "Visa fästa flikar som ikoner",
-        "description": "När aktiverat visas fästa flikar som ikoner och inte i listan"
+        "description": "När aktiverat kommer fästa flikar att visas som ikoner och inte i listan"
+      },
+      "pinToQuickAccess": {
+        "label": "Visa snabbåtkomst",
+        "description": "Du kan ställa in en flik att visas i Snabbåtkomst så att den blir lätt att hitta. Högerklicka (eller långtryck) på den och välj Fäst till Snabbåtkomst. Ta bort den när du inte behöver den där längre genom att högerklicka (eller långtrycka) på den och välja Ta bort från Snabbåtkomst. Skillnaden från fästa flikar är att Snabbåtkomst sparar URL:en och öppnar en ny flik varje gång den klickas."
       },
       "collapsedGroupShowTabIcons": {
         "label": "Visa webbplatsikoner när grupper kollapsar",
@@ -179,17 +184,17 @@
       },
       "hoverPreview": {
         "label": "Förhandsgranskning vid hovring",
-        "description": "När aktiverat kommer hovring över flikar att visa förhandsgranskningar"
+        "description": "När aktiverat kommer förhandsgranskningar av flikar att visas när du hovrar över flikarna"
       },
       "previewWithThumbnail": {
         "label": "Visa miniatyrer i förhandsgranskning",
         "description": "När aktiverat kommer förhandsgranskningar att visa flikminiatyrer",
-        "alert": "Fånga det synliga området av den för närvarande aktiva fliken i ett specificerat fönster. För att anropa denna metod måste tillägget ha <all_urls> tillstånd eller activeTab tillstånd.",
-        "deniedMessage": "Du har nekat det nödvändiga tillståndet, så inställningarna har inte ändrats. Om du ändrar dig, klicka igen och tillåt auktorisering"
+        "alert": "Fånga det synliga området av den för närvarande aktiva fliken i ett specificerat fönster. För att anropa denna metod måste tillägget ha <all_urls> behörighet eller activeTab behörighet.",
+        "deniedMessage": "Du har nekat den nödvändiga behörigheten, så inställningarna har inte ändrats. Om du ändrar dig, vänligen klicka igen och tillåt auktorisering"
       },
       "previewDelay": {
         "label": "Förhandsgranskningsfördröjning",
-        "description": "Ställ in fördröjningstiden för flikförhandsgranskningar vid hovring över flikar, etc. (sekunder). Om inställt på 0, kommer det inte att vara någon fördröjning",
+        "description": "Ställ in fördröjningstiden för flikförhandsgranskningar när du hovrar över flikar, etc. (sekunder). Om inställt på 0 kommer det inte att vara någon fördröjning",
         "seconds": "Sekunder"
       }
     },
@@ -204,11 +209,11 @@
         "recentlyClosedTabs": "Nyligen stängda flikar",
         "chromeHistory": "Chrome-historik",
         "alert": "För att söka i historikposter behöver du din auktorisering för att aktivera",
-        "deniedMessage": "Du har nekat det nödvändiga tillståndet, så inställningarna har inte ändrats. Om du ändrar dig, klicka igen och tillåt auktorisering"
+        "deniedMessage": "Du har nekat den nödvändiga behörigheten, så inställningarna har inte ändrats. Om du ändrar dig, vänligen klicka igen och tillåt auktorisering"
       },
       "showInSidePanel": {
-        "label": "Visa i sidopanelen",
-        "description": "När aktiverat, visa i sidopanelen"
+        "label": "Visa i sidopanel",
+        "description": "När aktiverat, visa i sidopanel"
       },
       "showInTabSearchResults": {
         "label": "Visa historik i fliksökningsresultat",
@@ -225,7 +230,7 @@
       },
       "keepDays": {
         "label": "Antal dagar att behålla nyligen stängda flikar",
-        "description": "Ställ in antalet dagar att behålla nyligen stängda flikar. Utgångna data kommer att raderas",
+        "description": "Ställ in antalet dagar att behålla nyligen stängda flikar. Utgången data kommer att raderas",
         "days": "Dagar"
       },
       "openDuration": {
@@ -235,16 +240,16 @@
       }
     },
     "shortcuts": {
-      "alert": "Denna sida är endast för visning. För att ändra genvägar, besök [Tillägg]->[Hantera tillägg]->[Tangentbordsgenvägar]",
+      "alert": "Denna sida är endast för visning. För att ändra genvägar, vänligen besök [Tillägg]->[Hantera tillägg]->[Tangentbordsgenvägar]",
       "goToBrowserSettings": "Gå till Chrome-inställningar",
       "_execute_action": "Aktivera denna tillägg",
-      "openSidePanel": "Öppna sidopanelen"
+      "openSidePanel": "Öppna sidopanel"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Bild-i-bild",
       "tabSwitch": {
         "label": "PIP vid flikbyte",
-        "description": "Auto-aktivera PIP när du byter flikar med en omuterad video",
+        "description": "Gå automatiskt in i PIP när du byter flik med en omuterad video",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
       },
@@ -258,24 +263,24 @@
     "userActivitionAlert": {
       "title": "Användaraktivering krävs",
       "tips_1": "Användaraktivering innebär att användaren för närvarande interagerar med sidan",
-      "tips_2": "Mer specifikt, aktivering utlöser inmatningshändelser som:",
-      "tips_3": "Obs: Användning av musens rullhjul eller svepgest kommer inte att utlösa!",
-      "tips_4": "Om du vill ha mer information, besök:",
+      "tips_2": "Mer specifikt utlöser aktivering inmatningshändelser som:",
+      "tips_3": "Obs: Användning av mushjulrullning eller svepgest kommer inte att utlösa!",
+      "tips_4": "Om du vill ha mer information, vänligen besök:",
       "click": "Klicka",
       "contextmenu": "Högerklicksmeny",
-      "dblclick": "Dubbelklicka"
+      "dblclick": "Dubbelklick"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Flikgruppers kollapsbeteende",
-        "description": "Ändra beteendet för Chrome-webbläsarens flikgruppers kollaps",
+        "label": "Flikgruppens kollapsbeteende",
+        "description": "Ändra beteendet för Chrome-webbläsarens flikgruppskollaps",
         "option_collapse_others": "Visa aktuell grupp och kollapsa andra",
         "option_disable": "Expandera alla grupper",
         "option_auto": "Använd Chromes standardinställningar"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Auto skapa eller gå med i samma domängrupp",
-        "description": "När aktiverat kommer nyligen öppnade flikar automatiskt att gå med i samma domängrupp. Om domängruppen inte finns, kommer en ny domängrupp att skapas",
+        "label": "Skapa eller gå med i samma domängrupp automatiskt",
+        "description": "När aktiverat kommer nyligen öppnade flikar automatiskt att gå med i samma domängrupp. Om domängruppen inte finns kommer en ny domängrupp att skapas",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
       },
@@ -289,19 +294,19 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Aktivera framstegsfält",
-        "description": "När aktiverat kommer ett läsningsframstegsfält att visas under flikens titelrad",
+        "description": "När aktiverat kommer ett läsframstegsfält att visas under flikens titelrad",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
       },
       "readingProgressBar": {
-        "label": "Läsningsframstegsfält",
-        "description": "När aktiverat kommer ett läsningsframstegsfält att visas under flikens titelrad",
+        "label": "Läsframstegsfält",
+        "description": "När aktiverat kommer ett läsframstegsfält att visas under flikens titelrad",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
       },
       "scrollHeightRatio": {
-        "label": "Förhållande mellan rullningshöjd",
-        "description": "Förhållandet mellan den synliga fönsterhöjden och sidans höjd. En framstegsfält visas när förhållandet överskrids.",
+        "label": "Rullhöjdsförhållande",
+        "description": "Förhållandet mellan synlig fönsterhöjd och sidans höjd. Ett framstegsfält kommer att visas när förhållandet överskrids",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
       },
@@ -319,28 +324,28 @@
       }
     },
     "performance": {
-      "label": "Izvedba",
+      "label": "Prestanda",
       "saveMemoryAction": {
-        "label": "Kako prihraniti pomnilnik na zavihkih",
-        "description": "Za prihranek pomnilnika na zavihkih lahko izberete, ali zaprete zavihke ali jih zavržete.",
-        "discardTips": "zavržen zavihek ne gre nikamor. Uničimo ga, vendar je še vedno viden na traku zavihkov Chroma. Če se vrnete na zavihek, ki je bil zavržen, se bo znova naložil ob kliku. Vsebina obrazca, položaj pomika in podobno se shranijo in obnovijo na enak način kot med navigacijo zavihkov naprej/nazaj.",
-        "disabled": "Onemogočeno",
-        "closeTabs": "Zapri zavihke",
-        "discardTabs": "Zavrzi zavihke"
+        "label": "Hur man sparar minne på flikar",
+        "description": "För att spara minne på flikar kan du välja att stänga flikar eller kassera flikar.",
+        "discardTips": "En kasserad flik försvinner inte. Vi dödar den men den är fortfarande synlig på Chrome-fliklisten. Om du navigerar tillbaka till en flik som har kasserats, kommer den att laddas om när den klickas på. Formulärinnehåll, rullningsposition och så vidare sparas och återställs på samma sätt som vid framåt/bakåt-fliknavigering.",
+        "disabled": "Inaktiverad",
+        "closeTabs": "Stäng flikar",
+        "discardTabs": "Kassera flikar"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Kako dolgo zavreči neaktivne zavihke",
-        "description": "Ko na zavihku ni predvajanja zvoka ali videa in samodejno zavrženje ni prepovedano, bo zavihek zavržen po uplynutí určeného času.",
-        "minutes": "Minute"
+        "label": "Hur länge inaktiva flikar ska kasseras",
+        "description": "När det inte spelas upp ljud eller video på fliken och automatisk kassering inte är förbjuden, kommer fliken att kasseras efter den angivna tiden.",
+        "minutes": "Minuter"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Kako dolgo zapreti neaktivne zavihke",
-        "description": "Ko na zavihku ni predvajanja zvoka ali videa in samodejno zavrženje ni prepovedano, bo zavihek zaprt po uplynutí určeného času.",
-        "minutes": "Minute"
+        "label": "Hur länge inaktiva flikar ska stängas",
+        "description": "När det inte spelas upp ljud eller video på fliken och automatisk kassering inte är förbjuden, kommer fliken att stängas efter den angivna tiden.",
+        "minutes": "Minuter"
       },
       "disableAnimations": {
-        "label": "Onemogoči animacije",
-        "description": "onemogoči učinek valovanja in onemogoči vse prehode"
+        "label": "Inaktivera animationer",
+        "description": "Inaktivera rippel-effekten och inaktivera alla övergångar"
       }
     },
     "site": {
@@ -355,57 +360,57 @@
       "totalCount": "Totalt antal",
       "addNewSite": {
         "label": "Lägg till ny webbplats",
-        "description": "Ange en ny webbadress, som 'www.example.com', och klicka på 'Lägg till'.",
-        "placeholder": "Webbadress, som 'www.example.com'",
+        "description": "Ange en ny webbplatsadress, till exempel 'www.example.com', och klicka på 'Lägg till'.",
+        "placeholder": "Webbplatsadress, till exempel 'www.example.com'",
         "add": "Lägg till",
         "cancel": "Avbryt",
-        "invalidDomain": "Ogiltig webbadress"
+        "invalidDomain": "Ogiltig webbplatsadress"
       },
       "browserSettings": {
         "label": "Webbläsarinställningar",
-        "description": "Du kan ändra webbplatsinställningar, som att radera data eller ändra webbplatsbehörigheter.",
+        "description": "Du kan ändra webbplatsinställningar, till exempel radera data eller ändra webbplatsbehörigheter.",
         "goToBrowserSettings": "Gå till webbläsarinställningar"
       },
       "autoDiscardable": {
-        "label": "Automatiskt kasserbar",
-        "description": "När det är aktiverat kommer fliken att tillåtas att kasseras av webbläsaren, och om du slår på prestanda och ställer in tiden för att kassera inaktiva flikar, kommer fliken att kasseras efter den angivna tiden. Om det är inaktiverat kommer fliken inte att kasseras"
+        "label": "Automatiskt kassera",
+        "description": "När aktiverat kommer fliken att tillåtas att kasseras av webbläsaren, och om du aktiverar prestanda och ställer in tiden för att kassera inaktiva flikar, kommer fliken att kasseras efter den angivna tiden. Om inaktiverat kommer fliken inte att kasseras"
       },
       "readingProgressBar": {
-        "label": "Läsningsframstegsfält",
-        "description": "När det är aktiverat kommer ett läsningsframstegsfält att visas under flikens titelrad.",
-        "globaldisabledTips": "Du måste aktivera läsningsframstegsfältet i de globala inställningarna för att ändra denna inställning."
+        "label": "Läsframstegsfält",
+        "description": "När aktiverat kommer ett läsframstegsfält att visas under flikens titelrad.",
+        "globaldisabledTips": "Du måste aktivera läsframstegsfältet i de globala inställningarna för att ändra denna inställning."
       },
       "playingProgressBar": {
         "label": "Spelande framstegsfält",
-        "description": "När det är aktiverat kommer ett spelande framstegsfält att visas under flikens titelrad.",
+        "description": "När aktiverat kommer ett spelande framstegsfält att visas under flikens titelrad.",
         "globaldisabledTips": "Du måste aktivera spelande framstegsfältet i de globala inställningarna för att ändra denna inställning."
       },
       "tabSwitchPip": {
         "label": "PIP vid flikbyte",
-        "description": "När det är aktiverat, auto-in i bild-i-bild när du byter flikar med en omute video.",
+        "description": "När aktiverat, gå automatiskt in i bild-i-bild när du byter flik med en omuterad video.",
         "globaldisabledTips": "Du måste aktivera bild-i-bild i de globala inställningarna för att ändra denna inställning."
       },
       "clearHistoyAfterCLose": {
         "label": "Rensa historik efter stängning",
-        "description": "När det är aktiverat kommer historiken att rensas efter att fliken har stängts."
+        "description": "När aktiverat kommer historiken att rensas efter att fliken stängs."
       },
       "SyncTabs": {
         "label": "Synkronisera flikar",
-        "description": "Välj hur flikdata ska synkroniseras, exklusive privat data som kakor och personlig information.",
+        "description": "Välj hur du vill synkronisera flikdata, exklusive privat data som cookies och personlig information.",
         "disabled": "Inaktiverad",
         "uploadOnly": "Endast uppladdning",
         "downloadOnly": "Endast nedladdning",
         "staySynchronized": "Förbli synkroniserad",
-        "globaldisabledTips": "Du måste aktivera synkronisering i Globala inställningar för att ändra denna inställning."
+        "globaldisabledTips": "Du måste aktivera synkronisering i de globala inställningarna för att ändra denna inställning."
       },
       "SyncPrivateData": {
         "label": "Synkronisera privat data",
-        "description": "Välj hur privat data, som webbplatskakor, webbsides lokal lagringsdata, SessionStorage-data, etc., ska synkroniseras. Data kommer att krypteras innan synkronisering.",
+        "description": "Välj hur du vill synkronisera privat data, såsom webbplatscookies, webbsidans localstorage-data, SessionStorage-data, etc. Data kommer att krypteras före synkronisering.",
         "disabled": "Inaktiverad",
         "uploadOnly": "Endast uppladdning",
         "downloadOnly": "Endast nedladdning",
         "staySynchronized": "Förbli synkroniserad",
-        "globaldisabledTips": "Du måste aktivera synkronisering i Globala inställningar för att ändra denna inställning."
+        "globaldisabledTips": "Du måste aktivera synkronisering i de globala inställningarna för att ändra denna inställning."
       }
     },
     "SyncToCloud": {
@@ -423,7 +428,7 @@
       "OneDrive": "OneDrive",
       "SyncConfigs": {
         "label": "Synkronisera konfigurationer",
-        "description": "Välj hur denna tilläggets konfigurationer ska synkroniseras.",
+        "description": "Välj hur du vill synkronisera denna tilläggs konfigurationer.",
         "disabled": "Inaktiverad",
         "uploadOnly": "Endast uppladdning",
         "downloadOnly": "Endast nedladdning",
@@ -431,7 +436,7 @@
       },
       "SyncTabs": {
         "label": "Synkronisera flikar",
-        "description": "Välj hur flikdata ska synkroniseras, exklusive privat data som kakor och personlig information.",
+        "description": "Välj hur du vill synkronisera flikdata, exklusive privat data som cookies och personlig information.",
         "disabled": "Inaktiverad",
         "uploadOnly": "Endast uppladdning",
         "downloadOnly": "Endast nedladdning",
@@ -439,12 +444,12 @@
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "Öppna eller stäng flikar synkront",
-        "description": "När detta är aktiverat kommer öppning eller stängning av flikar i olika webbläsare att synkroniseras. Detta gäller endast när alternativet 'Förbli synkroniserad' är aktivt",
-        "OpenOrCloseTabsSynchronouslyWarning": "Om du loggar in på samma konto i två webbläsare samtidigt och aktiverar detta alternativ kommer öppning eller stängning av flikar i en webbläsare att utföra samma operation i den andra webbläsaren. Om webbplatsen förbjuder upprepade inloggningar med samma konto kan undantag uppstå."
+        "description": "När aktiverat kommer öppning eller stängning av flikar i olika webbläsare att synkroniseras. Detta gäller endast när alternativet 'förbli synkroniserad' är aktivt",
+        "OpenOrCloseTabsSynchronouslyWarning": "Om du loggar in på samma konto i två webbläsare samtidigt och aktiverar detta alternativ, kommer öppning eller stängning av flikar i en webbläsare att utföra samma operation i den andra webbläsaren. Om webbplatsen förbjuder upprepade inloggningar med samma konto kan undantag uppstå."
       },
       "SyncPrivateData": {
         "label": "Synkronisera privat data",
-        "description": "Välj hur privat data, som webbplatskakor, webbsides lokal lagringsdata, SessionStorage-data, etc., ska synkroniseras. Data kommer att krypteras innan synkronisering.",
+        "description": "Välj hur du vill synkronisera privat data, såsom webbplatscookies, webbsidans localstorage-data, SessionStorage-data, etc. Data kommer att krypteras före synkronisering.",
         "disabled": "Inaktiverad",
         "uploadOnly": "Endast uppladdning",
         "downloadOnly": "Endast nedladdning",

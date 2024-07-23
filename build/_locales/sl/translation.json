@@ -1,5 +1,5 @@
 {
-  "NewTab": "Nova zavihka",
+  "NewTab": "Nov zavihek",
   "Settings": "Nastavitve",
   "More": "Več",
   "Reload": "Osveži",
@@ -54,7 +54,7 @@
     "AddToReadingList": "Dodaj na seznam za branje",
     "AddedToReadingListSuccessfully": "Uspešno dodano na seznam za branje",
     "AddTabToNewGroup": "Dodaj zavihek v novo skupino",
-    "UntitledGroup": "Napacno ime skupine",
+    "UntitledGroup": "Neimenovana skupina",
     "AddTabOnRight": "Dodaj zavihek na desno",
     "SiteSettings": "Nastavitve strani",
     "ClearCookies": "Počisti piškotke",

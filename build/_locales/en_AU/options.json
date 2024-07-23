@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Open side panel to preview",
+  "OpenSidePanelToPreview": "Open side panel to preview",
   "_execute_action": "Activate this extension",
   "openSidePanel": "Open side panel",
   "settings": {
@@ -23,8 +23,8 @@
         "description": "Set the language for the interface display"
       },
       "theme": {
-        "label": "Colour mode",
-        "description": "Choose light or dark colour mode"
+        "label": "Color mode",
+        "description": "Choose light or dark color mode"
       },
       "rtl": {
         "label": "RTL",
@@ -41,8 +41,8 @@
         "description": "Set the font family"
       },
       "fontColor": {
-        "label": "Font colour",
-        "description": "Set the font colour"
+        "label": "Font color",
+        "description": "Set the font color"
       },
       "fontWeight": {
         "label": "Font weight",
@@ -52,7 +52,8 @@
         "label": "Click extension icon action",
         "description": "Set the action when clicking the extension icon",
         "openPopup": "Open popup",
-        "openSidePanel": "Open side panel"
+        "openSidePanel": "Open side panel",
+        "SmallWindowAlert": "If the side panel takes up too much space, it is recommended that you use a pop-up window"
       },
       "SidePanelPosition": {
         "label": "Side panel position",
@@ -91,12 +92,12 @@
     },
     "beautify": {
       "coloredbackground": {
-        "label": "Coloured background",
-        "description": "When enabled, the side panel will display a coloured background"
+        "label": "Colored background",
+        "description": "When enabled, the side panel will display a colored background"
       },
       "backgroundPicture": {
         "label": "Background picture",
-        "description": "Click [+] to add a custom picture, click [-] to delete a custom picture. You can find your favourite pictures on the following websites.",
+        "description": "Click [+] to add a custom picture, click [-] to delete a custom picture. You can find your favorite pictures on the following websites.",
         "dialogDescription": "Enter image address",
         "OK": "OK",
         "Cancel": "Cancel",
@@ -173,6 +174,10 @@
         "label": "Show pinned tabs as icons",
         "description": "When enabled, pinned tabs will be displayed as icons and not in the list"
       },
+      "pinToQuickAccess": {
+        "label": "Show quick access",
+        "description": "You can set a tab to show up in Quick access so it'll be easy to find. Just right-click (or long-press) it and select Pin to Quick access. Unpin it when you don’t need it there anymore by right-clicking (or long-pressing) it and selecting Delete from Quick access.The difference from pinned tabs is that Quick Access saves the URL and opens a new tab every time it is clicked."
+      },
       "collapsedGroupShowTabIcons": {
         "label": "Show website icons when collapsing groups",
         "description": "When enabled, collapsed groups will show tab icons"
@@ -185,7 +190,7 @@
         "label": "Show thumbnails in preview",
         "description": "When enabled, previews will show tab thumbnails",
         "alert": "Capture the visible area of the currently active tab in a specified window. To call this method, the extension must have <all_urls> permission or activeTab permission.",
-        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorisation"
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorization"
       },
       "previewDelay": {
         "label": "Preview delay",
@@ -203,8 +208,8 @@
         "description": "Select data source",
         "recentlyClosedTabs": "Recently closed tabs",
         "chromeHistory": "Chrome history",
-        "alert": "To search history records, you need your authorisation to enable",
-        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorisation"
+        "alert": "To search history records, you need your authorization to enable",
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorization"
       },
       "showInSidePanel": {
         "label": "Show in side panel",
@@ -267,7 +272,7 @@
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Tab group collapse behaviour",
+        "label": "Tab group collapse behavior",
         "description": "Modify the behavior of Chrome browser tab group collapse",
         "option_collapse_others": "Show current group and collapse others",
         "option_disable": "Expand all groups",
@@ -349,14 +354,14 @@
       "sortBy": "Sort by",
       "mostVisited": "Most visited",
       "dataStored": "Data stored",
-      "name": "name",
+      "name": "Name",
       "deleteAllData": "Delete all data",
       "totalStorageUsedBySites": "Total storage used by sites",
       "totalCount": "Total count",
       "addNewSite": {
         "label": "Add new site",
         "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
-        "placeholder": "website address, such as 'www.example.com'",
+        "placeholder": "Website address, such as 'www.example.com'",
         "add": "Add",
         "cancel": "Cancel",
         "invalidDomain": "Invalid website address"
@@ -382,7 +387,7 @@
       },
       "tabSwitchPip": {
         "label": "PIP on Tab Switch",
-        "description": "When enabled, Auto-enter Picture-in-picture when switching tabs with an unmuted video.",
+        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
         "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
       },
       "clearHistoyAfterCLose": {
@@ -416,14 +421,14 @@
       "SyncNowWithOneDrive": "Sync Now with OneDrive",
       "Synchronizing": "Synchronizing...",
       "SyncedSuccessfully": "Synchronized successfully",
-      "SyncFailed": "Synchronized failed",
+      "SyncFailed": "Synchronization failed",
       "LoginRequired": "Login required",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
         "label": "Sync configs",
-        "description": "Choose how to synchronize this extension configurations.",
+        "description": "Choose how to synchronize this extension's configurations.",
         "disabled": "Disabled",
         "uploadOnly": "Upload only",
         "downloadOnly": "Download only",

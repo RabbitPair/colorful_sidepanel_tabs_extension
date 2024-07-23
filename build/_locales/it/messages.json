@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Gestione delle schede della barra laterale colorata"
+    "message": "Schede del pannello laterale colorato"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Gestisci le schede nel pannello laterale, Troppo bello per essere così buono."
+    "message": "Gestisci le schede del browser nel pannello laterale"
   },
   "openSidePanel": {
-    "message": "Apri il pannello laterale"
+    "message": "Apri pannello laterale"
   }
 }

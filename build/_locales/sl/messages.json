@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Upravljanje barvnih zavihkov stranske vrstice"
+    "message": "Barviti stranski zavihki"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Upravljajte zavihke v stranskem panele, Prelepo, da bi bilo tako dobro."
+    "message": "Upravljajte zavihek brskalnika v stranskem podoknu"
   },
   "openSidePanel": {
-    "message": "Odpri stranski panel"
+    "message": "Odpri stransko podokno"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Colorful Sidepanel Tabs"
+    "message": "Colorful Side Panel Tabs"
   },
   "appShortName": {
     "message": "rabbitpair"
   },
   "appDescription": {
-    "message": "Manage browser tabs in the side panel, Too pretty to be this good"
+    "message": "Manage browser tabs in the side panel, too pretty to be this good"
   },
   "openSidePanel": {
-    "message": "Open SidePanel"
+    "message": "Open Side Panel"
   }
 }

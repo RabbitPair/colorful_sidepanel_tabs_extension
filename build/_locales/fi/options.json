@@ -1,38 +1,38 @@
 {
-  "OpenSideSanelToPreview": "Avaa sivupaneeli esikatseluun",
+  "OpenSidePanelToPreview": "Avaa sivupaneeli esikatselua varten",
   "_execute_action": "Aktivoi tämä laajennus",
   "openSidePanel": "Avaa sivupaneeli",
   "settings": {
     "resetCurrentPageSettings": "Nollaa nykyisen sivun asetukset",
     "modules": {
-      "appearance": "Ulkoasu",
+      "appearance": "Ulkonäkö",
       "beautify": "Kaunista",
       "tabs": "Välilehdet",
       "history": "Historia",
       "shortcuts": "Pikanäppäimet",
       "pip": "Kuva kuvassa",
       "chromeTabGroupAdvanced": "Edistyneet välilehtiryhmät",
-      "progressBar": "edistymispalkki",
-      "floatBall": "Levypallo",
+      "progressBar": "Edistymispalkki",
+      "floatBall": "Kelluva pallo",
       "experimentalFeatures": "Kokeelliset ominaisuudet"
     },
     "appearance": {
-      "header": "Ulkoasu",
+      "header": "Ulkonäkö",
       "language": {
         "label": "Käyttöliittymän kieli",
-        "description": "Aseta kieli käyttöliittymän näyttöön"
+        "description": "Aseta käyttöliittymän näyttökieli"
       },
       "theme": {
-        "label": "Värimoodi",
-        "description": "Valitse vaalea tai tumma värimoodi"
+        "label": "Väritila",
+        "description": "Valitse vaalea tai tumma väritila"
       },
       "rtl": {
         "label": "RTL",
         "description": "Kun käytössä, käyttöliittymä näyttää tekstin suunnan oikealta vasemmalle"
       },
       "fontSize": {
-        "label": "Fonttikoko",
-        "description": "Aseta fonttikoko",
+        "label": "Fontin koko",
+        "description": "Aseta fontin koko",
         "small": "Pieni",
         "large": "Suuri"
       },
@@ -49,44 +49,45 @@
         "description": "Aseta fontin paksuus"
       },
       "extAction": {
-        "label": "Napsauta laajennuskuvaketta",
-        "description": "Aseta toiminto napsautettaessa laajennuskuvaketta",
+        "label": "Laajennuskuvakkeen toiminto",
+        "description": "Aseta toiminto, kun napsautat laajennuskuvaketta",
         "openPopup": "Avaa ponnahdusikkuna",
-        "openSidePanel": "Avaa sivupaneeli"
+        "openSidePanel": "Avaa sivupaneeli",
+        "SmallWindowAlert": "Jos sivupaneeli vie liikaa tilaa, on suositeltavaa käyttää ponnahdusikkunaa"
       },
       "SidePanelPosition": {
         "label": "Sivupaneelin sijainti",
-        "description": "Aseta näytetäänkö sivupaneeli vasemmalla vai oikealla.",
+        "description": "Aseta, näytetäänkö sivupaneeli vasemmalla vai oikealla.",
         "goToBrowserSettings": "Siirry Chromen asetuksiin"
       },
       "searchBoxPosition": {
-        "label": "Hakuruudun sijainti",
-        "description": "Aseta hakuruudun sijainti",
+        "label": "Hakukentän sijainti",
+        "description": "Aseta hakukentän sijainti",
         "top": "Yläosa",
         "bottom": "Alaosa",
         "hide": "Piilota"
       },
       "toolbar": {
         "label": "Näytä työkalupalkki",
-        "description": "Kun käytössä, työkalupalkki näkyy"
+        "description": "Kun käytössä, työkalupalkki näytetään"
       },
       "bottomNav": {
-        "label": "Näytä alatunnistepalkki",
-        "description": "Kun käytössä, alatunnistepalkki näkyy"
+        "label": "Näytä alavalikkopalkki",
+        "description": "Kun käytössä, alavalikkopalkki näytetään"
       },
       "buttonPosition": {
-        "label": "Painikkeen sijainti",
+        "label": "Painikkeiden sijainti",
         "description": "Aseta painikkeiden sijainti",
         "left": "Vasen",
         "right": "Oikea"
       },
       "alwaysShowCloseButton": {
-        "label": "Näytä aina sulje-painike",
-        "description": "Kun käytössä, sulje-painike näkyy aina; kun ei käytössä, sulje-painike näkyy vain hiiren ollessa välilehden päällä"
+        "label": "Näytä sulkemispainike aina",
+        "description": "Kun käytössä, sulkemispainike näytetään aina; kun pois käytöstä, sulkemispainike näytetään vain, kun hiiri on välilehden päällä"
       },
       "fullScreenHideSidePanel": {
         "label": "Piilota sivupaneeli koko näytössä",
-        "description": "Kun käytössä, sivupaneeli piilotetaan automaattisesti, kun sivu on koko näytössä. Chromen rajoitusten vuoksi sivupaneelia ei voi avata automaattisesti uudelleen. Sinun täytyy avata sivupaneeli manuaalisesti!"
+        "description": "Kun käytössä, sivupaneeli piilotetaan automaattisesti, kun sivu on koko näytössä. Chromen rajoitusten vuoksi sivupaneelia ei voida avata automaattisesti uudelleen. Sinun on avattava sivupaneeli manuaalisesti uudelleen!"
       }
     },
     "beautify": {
@@ -96,8 +97,8 @@
       },
       "backgroundPicture": {
         "label": "Taustakuva",
-        "description": "Napsauta [+] lisätäksesi mukautetun kuvan, napsauta [-] poistaaksesi mukautetun kuvan. Voit löytää suosikkikuviasi seuraavilta verkkosivuilta.",
-        "dialogDescription": "Syötä kuvan osoite",
+        "description": "Napsauta [+] lisätäksesi mukautetun kuvan, napsauta [-] poistaaksesi mukautetun kuvan. Voit löytää suosikkikuvasi seuraavilta verkkosivustoilta.",
+        "dialogDescription": "Anna kuvan osoite",
         "OK": "OK",
         "Cancel": "Peruuta",
         "invalidImage": "Virheellinen kuvan osoite"
@@ -114,15 +115,15 @@
       },
       "backgroundImageBrightness": {
         "label": "Kirkkaus",
-        "description": "Aseta kirkkaus, suositellaan vain pimeää tilaa varten"
+        "description": "Aseta kirkkaus, suositellaan vain tummalle tilalle"
       },
       "listBackgroundStyle": {
         "label": "Luettelon taustatyyli",
         "description": "Aseta luettelon taustatyyli",
-        "single": "Yksi",
+        "single": "Yksittäinen",
         "none": "Ei mitään",
         "simple": "Yksinkertainen",
-        "complementary": "Komplementaarinen",
+        "complementary": "Täydentävä",
         "analogous": "Analoginen",
         "triadic": "Triadinen",
         "tetradic": "Tetradinen"
@@ -134,15 +135,15 @@
         "opaque": "Läpinäkymätön"
       },
       "listBottomBorder": {
-        "label": "Luettelon alareuna",
-        "description": "Aseta luettelon alareuna",
+        "label": "Luettelon alareunan raja",
+        "description": "Aseta luettelon alareunan raja",
         "none": "Ei mitään",
-        "dashed": "Viivattu",
-        "solid": "Kiinteä"
+        "dashed": "Katkoviiva",
+        "solid": "Yhtenäinen"
       },
       "fluentOverlayScrollbars": {
-        "label": "Virtaavat vierityspalkit",
-        "description": "Käytä Microsoft Fluent -muotoilun tyyliä vierityspalkkeihin ja aseta ne verkkosisällön päälle",
+        "label": "Sujuvat vierityspalkit",
+        "description": "Käytä Microsoft Fluent -tyylisiä vierityspalkkeja ja peitä ne verkkosisällön päälle",
         "goToBrowserSettings": "Siirry Chromen asetuksiin"
       }
     },
@@ -155,41 +156,45 @@
       },
       "showBy": {
         "label": "Näytä",
-        "description": "Vaihda näyttöä"
+        "description": "Vaihda näyttötapa"
       },
       "sortBy": {
         "label": "Lajittele",
-        "description": "Vaihda lajittelua"
+        "description": "Vaihda lajittelutapa"
       },
       "showFullUrl": {
-        "label": "Näytä koko URL",
-        "description": "Kun käytössä, koko URL näytetään välilehden otsikon alla"
+        "label": "Näytä koko URL-osoite",
+        "description": "Kun käytössä, koko URL-osoite näytetään välilehden otsikon alla"
       },
       "currentWindowOnly": {
         "label": "Vain nykyinen ikkuna",
-        "description": "Näytä vain nykyisen ikkunan välilehdet. Jos poistettu käytöstä, näytetään välilehdet kaikista ikkunoista"
+        "description": "Näytä vain nykyisen ikkunan välilehdet. Jos pois käytöstä, kaikki ikkunat näytetään"
       },
       "pinedTabsAsIcons": {
         "label": "Näytä kiinnitetyt välilehdet kuvakkeina",
         "description": "Kun käytössä, kiinnitetyt välilehdet näytetään kuvakkeina eikä luettelossa"
       },
+      "pinToQuickAccess": {
+        "label": "Näytä pikalinkit",
+        "description": "Voit asettaa välilehden näkyviin Pikalinkkeihin, jotta se on helppo löytää. Napsauta sitä hiiren kakkospainikkeella (tai pitkään painamalla) ja valitse Kiinnitä Pikalinkkeihin. Poista se, kun et enää tarvitse sitä siellä, napsauttamalla sitä hiiren kakkospainikkeella (tai pitkään painamalla) ja valitsemalla Poista Pikalinkeistä. Ero kiinnitettyihin välilehtiin on, että Pikalinkit tallentaa URL-osoitteen ja avaa uuden välilehden joka kerta, kun sitä napsautetaan."
+      },
       "collapsedGroupShowTabIcons": {
-        "label": "Näytä verkkosivujen kuvakkeet ryhmiä kootessa",
-        "description": "Kun käytössä, kootut ryhmät näyttävät välilehtikuvakkeet"
+        "label": "Näytä verkkosivustojen kuvakkeet, kun ryhmät on kutistettu",
+        "description": "Kun käytössä, kutistetut ryhmät näyttävät välilehtien kuvakkeet"
       },
       "hoverPreview": {
-        "label": "Leijuvan esikatselunäkymä",
+        "label": "Esikatselu hiiren päällä",
         "description": "Kun käytössä, välilehtien päällä leijuminen näyttää välilehtien esikatselut"
       },
       "previewWithThumbnail": {
         "label": "Näytä pikkukuvat esikatselussa",
         "description": "Kun käytössä, esikatselut näyttävät välilehtien pikkukuvat",
-        "alert": "Tallenna näkyvissä oleva alue nykyisestä aktiivisesta välilehdestä määritetyssä ikkunassa. Tämän metodin kutsumiseksi laajennuksella on oltava <all_urls> -oikeudet tai activeTab-oikeudet.",
-        "deniedMessage": "Olet kieltänyt tarvittavan luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli valtuutus"
+        "alert": "Tallenna aktiivisen välilehden näkyvä alue määritetyssä ikkunassa. Tämän menetelmän kutsumiseksi laajennuksella on oltava <all_urls> -lupa tai activeTab-lupa.",
+        "deniedMessage": "Olet kieltänyt vaaditun luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli valtuutus"
       },
       "previewDelay": {
         "label": "Esikatselun viive",
-        "description": "Aseta viiveaika välilehtien päällä leijuttaessa näytettäville esikatseluille jne. (sekunneissa). Jos asetettu 0:ksi, viivettä ei ole",
+        "description": "Aseta välilehtien esikatselun viiveaika, kun leijut välilehtien päällä jne. (sekunteina). Jos asetettu arvo on 0, viivettä ei ole",
         "seconds": "Sekuntia"
       }
     },
@@ -202,40 +207,40 @@
         "label": "Tietolähde",
         "description": "Valitse tietolähde",
         "recentlyClosedTabs": "Äskettäin suljetut välilehdet",
-        "chromeHistory": "Chromen historia",
-        "alert": "Historiatietueiden etsimiseksi tarvitset valtuutuksesi",
-        "deniedMessage": "Olet kieltänyt tarvittavan luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli valtuutus"
+        "chromeHistory": "Chrome-historia",
+        "alert": "Etsiäksesi historiatietueita, tarvitset valtuutuksesi käyttöön",
+        "deniedMessage": "Olet kieltänyt vaaditun luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli valtuutus"
       },
       "showInSidePanel": {
         "label": "Näytä sivupaneelissa",
         "description": "Kun käytössä, näytä sivupaneelissa"
       },
       "showInTabSearchResults": {
-        "label": "Näytä historia välilehden hakutuloksissa",
-        "description": "Kun käytössä, äskettäinen historia näytetään välilehden hakutuloksissa"
+        "label": "Näytä historia välilehtien hakutuloksissa",
+        "description": "Kun käytössä, viimeaikaiset historiatiedot näytetään välilehtien hakutuloksissa"
       },
       "limitSearchResults": {
-        "label": "Rajoita historia tietueiden määrää välilehden hakutuloksissa",
-        "description": "Aseta rajoitus historia tietueiden määrälle välilehden hakutuloksissa. Ylimenevät historia tietueet suodatetaan",
+        "label": "Rajoita historiatietueiden määrää välilehtien hakutuloksissa",
+        "description": "Aseta historiatietueiden rajoitus välilehtien hakutuloksissa. Rajoituksen ylittävät historiatiedot suodatetaan",
         "alert": "Liian monet tietueet vaikuttavat sivun latausnopeuteen"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Säilytettävien äskettäin suljettujen välilehtien määrä",
-        "description": "Aseta äskettäin suljettujen välilehtien määrä"
+        "label": "Äskettäin suljettujen välilehtien säilytysmäärä",
+        "description": "Aseta äskettäin suljettujen välilehtien säilytysmäärä"
       },
       "keepDays": {
-        "label": "Säilytettävien äskettäin suljettujen välilehtien päivien määrä",
-        "description": "Aseta äskettäin suljettujen välilehtien päivien määrä. Vanhentunut data poistetaan",
-        "days": "Päivää"
+        "label": "Äskettäin suljettujen välilehtien säilytyspäivät",
+        "description": "Aseta äskettäin suljettujen välilehtien säilytyspäivät. Vanhentuneet tiedot poistetaan",
+        "days": "Päivät"
       },
       "openDuration": {
-        "label": "Aukiolon kesto",
-        "description": "Vain välilehdet, jotka ovat olleet auki kauemmin kuin asetettu aika, tallennetaan",
+        "label": "Aukioloaika",
+        "description": "Vain välilehdet, jotka ovat auki pidempään kuin asetettu aika, tallennetaan",
         "seconds": "Sekuntia"
       }
     },
     "shortcuts": {
-      "alert": "Tämä sivu on vain näyttöä varten. Pikanäppäinten muokkaamiseksi siirry kohtaan [Laajennukset]->[Hallinnoi laajennuksia]->[Pikanäppäimet]",
+      "alert": "Tämä sivu on vain näyttöä varten. Muokataksesi pikanäppäimiä, käy [Laajennukset]->[Hallitse laajennuksia]->[Pikanäppäimet]",
       "goToBrowserSettings": "Siirry Chromen asetuksiin",
       "_execute_action": "Aktivoi tämä laajennus",
       "openSidePanel": "Avaa sivupaneeli"
@@ -244,210 +249,210 @@
       "Picture-in-picture": "Kuva kuvassa",
       "tabSwitch": {
         "label": "PIP välilehden vaihdossa",
-        "description": "Siirry automaattisesti PIP-tilaan vaihtaessasi välilehtiä äänettömällä videolla",
+        "description": "Siirry automaattisesti PIP-tilaan, kun vaihdat välilehtiä, joissa on mykistämätön video",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       },
       "scrollSwitch": {
-        "label": "Vaihda kuva kuvassa -tilaan vierittäessä",
-        "description": "Jos nykyinen sivu toistaa videota ja video ei ole äänetön ja video on näkyvän alueen ulkopuolella vieritettäessä, se siirtyy kuva kuvassa -tilaan.",
+        "label": "Siirry kuva kuvassa -tilaan vieritettäessä",
+        "description": "Jos nykyisellä sivulla toistetaan videota ja video ei ole mykistetty ja video on vierityksen aikana näkyvän alueen ulkopuolella, se siirtyy kuva kuvassa -tilaan.",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       }
     },
     "userActivitionAlert": {
       "title": "Käyttäjän aktivointi vaaditaan",
       "tips_1": "Käyttäjän aktivointi tarkoittaa, että käyttäjä on tällä hetkellä vuorovaikutuksessa sivun kanssa",
-      "tips_2": "Tarkemmin sanottuna aktivointi laukaisee syöttötapahtumat, kuten:",
-      "tips_3": "Huomaa: Hiiren vierityspyörän käyttö tai pyyhkäisyele ei laukaise!",
-      "tips_4": "Jos haluat lisätietoja, käy:",
-      "click": "Klikkaa",
-      "contextmenu": "Hiiren oikea painike -valikko",
+      "tips_2": "Tarkemmin sanottuna aktivointi laukaisee syötetapahtumat, kuten:",
+      "tips_3": "Huom: Hiiren rullan vieritys tai pyyhkäisyele ei laukaise!",
+      "tips_4": "Jos haluat lisätietoja, käy osoitteessa:",
+      "click": "Klikkaus",
+      "contextmenu": "Oikean painikkeen valikko",
       "dblclick": "Kaksoisklikkaus"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
-        "label": "Välilehtiryhmän kokoontumiskäyttäytyminen",
-        "description": "Muuta Chromen selaimen välilehtiryhmän kokoontumiskäyttäytymistä",
-        "option_collapse_others": "Näytä nykyinen ryhmä ja kokoontuu muut",
+        "label": "Välilehtiryhmän tiivistämiskäyttäytyminen",
+        "description": "Muokkaa Chrome-selaimen välilehtiryhmän tiivistämiskäyttäytymistä",
+        "option_collapse_others": "Näytä nykyinen ryhmä ja tiivistä muut",
         "option_disable": "Laajenna kaikki ryhmät",
         "option_auto": "Käytä Chromen oletusasetuksia"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "Luo tai liity automaattisesti samaan verkkotunnusryhmään",
-        "description": "Kun käytössä, uudet avatut välilehdet liittyvät automaattisesti samaan verkkotunnusryhmään. Jos verkkotunnusryhmää ei ole olemassa, luodaan uusi verkkotunnusryhmä",
+        "label": "Luo tai liity automaattisesti samaan toimialueen ryhmään",
+        "description": "Kun käytössä, uudet välilehdet liittyvät automaattisesti samaan toimialueen ryhmään. Jos toimialueen ryhmää ei ole, uusi toimialueen ryhmä luodaan",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       },
       "groupFilterOutPinnedTabs": {
-        "label": "Suodata kiinnitetyt välilehdet ryhmistä",
-        "description": "Kun käytössä, kiinnitetyt välilehdet eivät lisäänny ryhmiin",
+        "label": "Suodata kiinnitetyt välilehdet ryhmissä",
+        "description": "Kun käytössä, kiinnitettyjä välilehtiä ei lisätä ryhmiin",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "Ota lukemisen etenemispalkki käyttöön",
-        "description": "Kun käytössä, lukemisen etenemispalkki näkyy välilehden otsikkopalkin alapuolella",
+        "label": "Ota käyttöön edistymispalkki",
+        "description": "Kun käytössä, välilehden otsikkopalkin alapuolella näytetään lukemisen edistymispalkki",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       },
       "readingProgressBar": {
-        "label": "Lukemisen etenemispalkki",
-        "description": "Kun käytössä, lukemisen etenemispalkki näkyy välilehden otsikkopalkin alapuolella",
+        "label": "Lukemisen edistymispalkki",
+        "description": "Kun käytössä, välilehden otsikkopalkin alapuolella näytetään lukemisen edistymispalkki",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       },
       "scrollHeightRatio": {
         "label": "Vierityskorkeuden suhde",
-        "description": "Näkyvän ikkunan korkeuden suhde sivun korkeuteen. Edistymispalkki näytetään, kun suhde ylittyy",
+        "description": "Näkyvän ikkunan korkeuden ja sivun korkeuden suhde. Edistymispalkki näytetään, kun suhde ylittyy",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       },
       "playingProgressBar": {
-        "label": "Toistettavan etenemispalkki",
-        "description": "Kun käytössä, toistettava etenemispalkki näkyy välilehden otsikkopalkin alapuolella",
+        "label": "Toiston edistymispalkki",
+        "description": "Kun käytössä, välilehden otsikkopalkin alapuolella näytetään toiston edistymispalkki",
         "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä"
+        "disabled": "Pois käytöstä"
       }
     },
     "floatBall": {
       "enableFloatBall": {
-        "label": "Ota kelluva pallo käyttöön",
-        "description": "Kun sivupaneeli on suljettu, kelluva pallo n��kyy sivun oikealla puolella, mahdollistaen sivupaneelin nopean avaamisen."
+        "label": "Ota käyttöön kelluva pallo",
+        "description": "Kun sivupaneeli on suljettu, sivun oikealle puolelle näytetään kelluva pallo, jonka avulla sivupaneeli voidaan avata nopeasti."
       }
     },
     "performance": {
       "label": "Suorituskyky",
       "saveMemoryAction": {
-        "label": "Miten säästää muistia välilehdillä",
-        "description": "Välilehdillä muistin säästämiseksi voit valita sulkea välilehtiä tai hylätä välilehtiä.",
-        "discardTips": "hylätty välilehti ei mene minnekään. Tappamme sen, mutta se on edelleen näkyvissä Chromen välilehtipalkissa. Jos siirryt takaisin hylättyyn välilehteen, se ladataan uudelleen napsautettaessa. Lomakkeen sisältö, vieritysasento ja niin edelleen tallennetaan ja palautetaan samalla tavalla kuin eteen- ja taaksepäin tapahtuvan välilehtinavigoinnin aikana.",
-        "disabled": "Poissa käytöstä",
+        "label": "Kuinka säästää muistia välilehdillä",
+        "description": "Voit säästää muistia välilehdillä valitsemalla välilehtien sulkemisen tai hylkäämisen.",
+        "discardTips": "Hylätty välilehti ei mene minnekään. Tapaamme sen, mutta se on edelleen näkyvissä Chromen välilehtinauhassa. Jos siirryt takaisin hylättyyn välilehteen, se ladataan uudelleen, kun sitä napsautetaan. Lomakkeen sisältö, vierityspaikka ja niin edelleen tallennetaan ja palautetaan samalla tavalla kuin eteenpäin/taaksepäin välilehtien navigoinnissa.",
+        "disabled": "Pois käytöstä",
         "closeTabs": "Sulje välilehdet",
         "discardTabs": "Hylkää välilehdet"
       },
       "discardInactiveTabsMinutes": {
         "label": "Kuinka kauan hylätä passiiviset välilehdet",
-        "description": "Kun välilehdellä ei ole ääntä tai videota ja automaattista hylkäämistä ei ole estetty, välilehti hylätään määritetyn ajan kuluttua.",
-        "minutes": "Minuuttia"
+        "description": "Kun välilehdellä ei toisteta ääntä tai videota ja automaattista hylkäämistä ei ole estetty, välilehti hylätään määritetyn ajan kuluttua.",
+        "minutes": "Minuutit"
       },
       "closeInactiveTabsMinutes": {
         "label": "Kuinka kauan sulkea passiiviset välilehdet",
-        "description": "Kun välilehdellä ei ole ääntä tai videota ja automaattista hylkäämistä ei ole estetty, välilehti suljetaan määritetyn ajan kuluttua.",
-        "minutes": "Minuuttia"
+        "description": "Kun välilehdellä ei toisteta ääntä tai videota ja automaattista hylkäämistä ei ole estetty, välilehti suljetaan määritetyn ajan kuluttua.",
+        "minutes": "Minuutit"
       },
       "disableAnimations": {
         "label": "Poista animaatiot käytöstä",
-        "description": "poista aaltoiluefekti ja poista kaikki siirtymät"
+        "description": "Poista aaltoefekti ja poista kaikki siirtymät käytöstä"
       }
     },
     "site": {
       "label": "Sivuston asetukset",
       "allSites": "Kaikki sivustot",
       "sortBy": "Lajittele",
-      "mostVisited": "Eniten vierailtu",
+      "mostVisited": "Eniten vieraillut",
       "dataStored": "Tallennetut tiedot",
       "name": "Nimi",
       "deleteAllData": "Poista kaikki tiedot",
-      "totalStorageUsedBySites": "Sivustoilla käytetty tallennustila yhteensä",
+      "totalStorageUsedBySites": "Sivustojen käyttämä tallennustila yhteensä",
       "totalCount": "Kokonaismäärä",
       "addNewSite": {
         "label": "Lisää uusi sivusto",
-        "description": "Syötä uusi verkkosivuston osoite, kuten 'www.esimerkki.com', ja klikkaa 'Lisää'.",
-        "placeholder": "Verkkosivuston osoite, kuten 'www.esimerkki.com'",
+        "description": "Syötä uusi verkkosivuston osoite, kuten 'www.example.com', ja napsauta 'Lisää'.",
+        "placeholder": "Verkkosivuston osoite, kuten 'www.example.com'",
         "add": "Lisää",
         "cancel": "Peruuta",
         "invalidDomain": "Virheellinen verkkosivuston osoite"
       },
       "browserSettings": {
         "label": "Selaimen asetukset",
-        "description": "Voit muokata sivuston asetuksia, kuten poistaa tietoja tai muuttaa sivuston oikeuksia.",
+        "description": "Voit muokata sivuston asetuksia, kuten poistaa tietoja tai muuttaa sivuston käyttöoikeuksia.",
         "goToBrowserSettings": "Siirry selaimen asetuksiin"
       },
       "autoDiscardable": {
         "label": "Automaattisesti hylättävä",
-        "description": "Kun tämä on käytössä, välilehti voidaan hylätä selaimen toimesta, ja jos suorituskyky on päällä ja olet asettanut ajan hylätä passiiviset välilehdet, välilehti hylätään määritetyn ajan kuluttua. Jos tämä on poissa käytöstä, välilehteä ei hylätä"
+        "description": "Kun käytössä, välilehti voidaan hylätä selaimen toimesta, ja jos otat suorituskyvyn käyttöön ja asetat ajan passiivisten välilehtien hylkäämiselle, välilehti hylätään määritetyn ajan kuluttua. Jos pois käytöstä, välilehteä ei hylätä"
       },
       "readingProgressBar": {
         "label": "Lukemisen edistymispalkki",
-        "description": "Kun tämä on käytössä, lukemisen edistymispalkki näkyy välilehden otsikkopalkin alapuolella.",
-        "globaldisabledTips": "Sinun on otettava lukemisen edistymispalkki käyttöön globaaleissa asetuksissa muuttaaksesi tätä asetusta."
+        "description": "Kun käytössä, välilehden otsikkopalkin alapuolella näytetään lukemisen edistymispalkki.",
+        "globaldisabledTips": "Sinun on otettava lukemisen edistymispalkki käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
       },
       "playingProgressBar": {
         "label": "Toiston edistymispalkki",
-        "description": "Kun tämä on käytössä, toiston edistymispalkki näkyy välilehden otsikkopalkin alapuolella.",
-        "globaldisabledTips": "Sinun on otettava toiston edistymispalkki käyttöön globaaleissa asetuksissa muuttaaksesi tätä asetusta."
+        "description": "Kun käytössä, välilehden otsikkopalkin alapuolella näytetään toiston edistymispalkki.",
+        "globaldisabledTips": "Sinun on otettava toiston edistymispalkki käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
       },
       "tabSwitchPip": {
-        "label": "PIP päällä välilehden vaihdossa",
-        "description": "Kun tämä on käytössä, siirrytään automaattisesti kuvan kuvassa -tilaan vaihdettaessa välilehtiä, joissa on äänetön video.",
-        "globaldisabledTips": "Sinun on otettava kuvan kuvassa käyttöön globaaleissa asetuksissa muuttaaksesi tätä asetusta."
+        "label": "PIP välilehden vaihdossa",
+        "description": "Kun käytössä, siirry automaattisesti kuva kuvassa -tilaan, kun vaihdat välilehtiä, joissa on mykistämätön video.",
+        "globaldisabledTips": "Sinun on otettava kuva kuvassa -tila käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
       },
       "clearHistoyAfterCLose": {
         "label": "Tyhjennä historia sulkemisen jälkeen",
-        "description": "Kun tämä on käytössä, historia tyhjennetään välilehden sulkemisen jälkeen."
+        "description": "Kun käytössä, historia tyhjennetään välilehden sulkemisen jälkeen."
       },
       "SyncTabs": {
         "label": "Synkronoi välilehdet",
-        "description": "Valitse, miten välilehtien tiedot synkronoidaan, poislukien yksityiset tiedot, kuten evästeet ja henkilökohtaiset tiedot.",
-        "disabled": "Poistettu käytöstä",
-        "uploadOnly": "Vain lataa",
-        "downloadOnly": "Vain lataa",
+        "description": "Valitse, kuinka haluat synkronoida välilehtitiedot, lukuun ottamatta yksityisiä tietoja, kuten evästeitä ja henkilökohtaisia tietoja.",
+        "disabled": "Pois käytöstä",
+        "uploadOnly": "Vain lataus",
+        "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna",
-        "globaldisabledTips": "Sinun on otettava synkronointi käyttöön globaaleissa asetuksissa muuttaaksesi tätä asetusta."
+        "globaldisabledTips": "Sinun on otettava synkronointi käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
       },
       "SyncPrivateData": {
         "label": "Synkronoi yksityiset tiedot",
-        "description": "Valitse, miten synkronoida yksityiset tiedot, kuten verkkosivustojen evästeet, verkkosivun paikalliset tallennustiedot, SessionStorage-tiedot jne. Tiedot salataan ennen synkronointia.",
-        "disabled": "Poistettu käytöstä",
-        "uploadOnly": "Vain lataa",
-        "downloadOnly": "Vain lataa",
+        "description": "Valitse, kuinka haluat synkronoida yksityiset tiedot, kuten verkkosivuston evästeet, verkkosivun paikalliset tallennustiedot, SessionStorage-tiedot jne. Tiedot salataan ennen synkronointia.",
+        "disabled": "Pois käytöstä",
+        "uploadOnly": "Vain lataus",
+        "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna",
-        "globaldisabledTips": "Sinun on otettava synkronointi käyttöön globaaleissa asetuksissa muuttaaksesi tätä asetusta."
+        "globaldisabledTips": "Sinun on otettava synkronointi käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
       }
     },
     "SyncToCloud": {
       "label": "Synkronoi pilveen",
       "SyncNow": "Synkronoi nyt",
-      "SyncNowWithGoogleDrive": "Synkronoi nyt Google Driveen",
-      "SyncNowWithDropbox": "Synkronoi nyt Dropboxiin",
-      "SyncNowWithOneDrive": "Synkronoi nyt OneDriveen",
+      "SyncNowWithGoogleDrive": "Synkronoi nyt Google Driven kanssa",
+      "SyncNowWithDropbox": "Synkronoi nyt Dropboxin kanssa",
+      "SyncNowWithOneDrive": "Synkronoi nyt OneDriven kanssa",
       "Synchronizing": "Synkronoidaan...",
-      "SyncedSuccessfully": "Synkronointi onnistui",
+      "SyncedSuccessfully": "Synkronoitu onnistuneesti",
       "SyncFailed": "Synkronointi epäonnistui",
       "LoginRequired": "Kirjautuminen vaaditaan",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Synkronointiasetukset",
-        "description": "Valitse, miten tämän laajennuksen asetukset synkronoidaan.",
-        "disabled": "Poistettu käytöstä",
-        "uploadOnly": "Vain lataa",
-        "downloadOnly": "Vain lataa",
+        "label": "Synkronoi asetukset",
+        "description": "Valitse, kuinka haluat synkronoida tämän laajennuksen asetukset.",
+        "disabled": "Pois käytöstä",
+        "uploadOnly": "Vain lataus",
+        "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna"
       },
       "SyncTabs": {
         "label": "Synkronoi välilehdet",
-        "description": "Valitse, miten välilehtien tiedot synkronoidaan, poislukien yksityiset tiedot, kuten evästeet ja henkilökohtaiset tiedot.",
-        "disabled": "Poistettu käytöstä",
-        "uploadOnly": "Vain lataa",
-        "downloadOnly": "Vain lataa",
+        "description": "Valitse, kuinka haluat synkronoida välilehtitiedot, lukuun ottamatta yksityisiä tietoja, kuten evästeitä ja henkilökohtaisia tietoja.",
+        "disabled": "Pois käytöstä",
+        "uploadOnly": "Vain lataus",
+        "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna"
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "Avaa tai sulje välilehdet synkronoidusti",
-        "description": "Kun tämä on käytössä, välilehtien avaaminen tai sulkeminen eri selaimissa synkronoidaan. Tämä pätee vain, kun 'pysy synkronoituna' -vaihtoehto on aktiivinen",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jos kirjaudut sisään samaan tiliin kahdessa selaimessa samanaikaisesti ja otat tämän vaihtoehdon käyttöön, välilehtien avaaminen tai sulkeminen yhdessä selaimessa suorittaa saman toimenpiteen toisessa selaimessa. Jos verkkosivusto kieltää toistuvat kirjautumiset samalla tilillä, poikkeuksia saattaa ilmetä."
+        "description": "Kun käytössä, välilehtien avaaminen tai sulkeminen eri selaimissa synkronoidaan. Tämä koskee vain, kun 'pysy synkronoituna' -vaihtoehto on aktiivinen",
+        "OpenOrCloseTabsSynchronouslyWarning": "Jos kirjaudut samaan tiliin kahdessa selaimessa samanaikaisesti ja otat tämän vaihtoehdon käyttöön, välilehtien avaaminen tai sulkeminen yhdessä selaimessa suorittaa saman toiminnon toisessa selaimessa. Jos verkkosivusto kieltää toistuvat kirjautumiset samalla tilillä, poikkeuksia voi esiintyä."
       },
       "SyncPrivateData": {
         "label": "Synkronoi yksityiset tiedot",
-        "description": "Valitse, miten synkronoida yksityiset tiedot, kuten verkkosivustojen evästeet, verkkosivun paikalliset tallennustiedot, SessionStorage-tiedot jne. Tiedot salataan ennen synkronointia.",
-        "disabled": "Poistettu käytöstä",
-        "uploadOnly": "Vain lataa",
-        "downloadOnly": "Vain lataa",
+        "description": "Valitse, kuinka haluat synkronoida yksityiset tiedot, kuten verkkosivuston evästeet, verkkosivun paikalliset tallennustiedot, SessionStorage-tiedot jne. Tiedot salataan ennen synkronointia.",
+        "disabled": "Pois käytöstä",
+        "uploadOnly": "Vain lataus",
+        "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna"
       }
     }
