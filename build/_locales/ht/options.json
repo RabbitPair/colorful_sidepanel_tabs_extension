@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Montre baryè zouti",
-        "description": "Lè aktive, baryè zouti a afiche"
+        "description": "Lè aktive, baryè zouti a afiche",
+        "moreOptions": "Plis Opsyon",
+        "moreOptionsDescription": "Ou ka kontwole ki ikòn ki parèt sou baryè zouti a.",
+        "moreOptionsHideLabel": "Kache etikèt ikòn baryè zouti",
+        "close": "Fèmen",
+        "options": {
+          "toolbar_newtab": "Nouvo Tab",
+          "toolbar_orderby": "Klasman Pa",
+          "toolbar_showby": "Montre Pa",
+          "toolbar_view": "Gade",
+          "toolbar_colorMode": "Mòd Koulè",
+          "toolbar_muteAllTabs": "Fèmen Son Tout Tab yo",
+          "toolbar_scrollToActiveTab": "Defile nan Tab Aktif la"
+        }
       },
       "bottomNav": {
         "label": "Montre baryè navigasyon anba",
@@ -176,6 +189,23 @@
       "collapsedGroupShowTabIcons": {
         "label": "Montre ikòn sit entènèt lè kòlapse gwoup yo",
         "description": "Lè aktive, gwoup kòlapse yo pral montre ikòn tab yo"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Montre aksè rapid",
+        "description": "Ou ka mete yon tab pou montre nan Aksè rapid pou li fasil pou jwenn. Jis klike-dwa (oswa peze long) li epi chwazi Fikse nan Aksè rapid. Retire li lè ou pa bezwen li la ankò pa klike-dwa (oswa peze long) li epi chwazi Efase nan Aksè rapid. Diferans lan ak tab fikse se ke Aksè rapid sove URL la epi louvri yon nouvo tab chak fwa li klike."
+      },
+      "selectFromHistory": {
+        "label": "Chwazi nan istwa",
+        "description": "Si ou bezwen chwazi nan istwa a, otorizasyon ou nesesè",
+        "numberOfDays": "Kantite jou",
+        "numberOfUrls": "Kantite URL",
+        "cancel": "Anile",
+        "query": "Rechèch",
+        "selectItemsToAddToQuickAccess": "Chwazi atik pou ajoute nan aksè rapid:",
+        "selectAll": "Chwazi tout",
+        "addSelected": "Ajoute chwazi yo",
+        "addedSuccess": "Ajoute {{count}} atik nan aksè rapid.",
+        "deniedMessage": "Ou te refize otorizasyon ki nesesè a, se konsa anviwònman yo pa chanje. Si ou chanje lide ou, tanpri klike ankò ak pèmèt otorizasyon an"
       },
       "hoverPreview": {
         "label": "Previzyone souvolaj",
@@ -406,6 +436,38 @@
         "downloadOnly": "Sèlman Download",
         "staySynchronized": "Releve senkronize",
         "globaldisabledTips": "Ou dwe aktive senkronizasyon nan Anviwònman Global la pou modifye anviwònman sa a."
+      }
+    },
+    "importAndExport": {
+      "title": "Enpòte/Eksportasyon",
+      "description": "",
+      "options": {
+        "preferences": "Preferans Itilizatè",
+        "preferencesInfo": "Gen ladan anviwònman jeneral default, preferans ekspozisyon ak done, ak chanje tèm koòdone itilizatè.",
+        "quickAccess": "Aksè Rapid",
+        "quickAccessWarning": "Ikòn yon sit entènèt ou poko vizite ka parèt anòmal. Pa enkyete, li pral parèt nòmalman apre ou vizite epi rekòmanse navigatè a.",
+        "siteConfig": "Anviwònman Sit",
+        "siteConfigInfo": "tankou otomatik jete, imaj nan imaj sou Tab Switch, bar pwogrè lekti, bar pwogrè jwe, elatriye.",
+        "recentlyTabs": "Tab fèmen dènyèman"
+      },
+      "cancelBtn": "Anile",
+      "exportBtn": "Eksportasyon",
+      "importBtn": "Enpòte",
+      "importing": "Ap enpòte...",
+      "fileError": "Erè nan analiz dosye, tanpri telechaje dosye konfigirasyon JSON kòrèk la",
+      "import": {
+        "label": "Enpòte soti nan dosye",
+        "description": "",
+        "formTips": "Chwazi done ou vle enpòte",
+        "importSuccess": "Enpòte siksè",
+        "importFailed": "Enpòte echwe"
+      },
+      "export": {
+        "label": "Eksportasyon nan dosye",
+        "description": "",
+        "formTips": "Chwazi done ou vle eksportasyon",
+        "exportSuccess": "Eksportasyon siksè",
+        "exportFailed": "Eksportasyon echwe"
       }
     },
     "SyncToCloud": {

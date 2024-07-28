@@ -1,0 +1,18 @@
+{
+  "triggerLabel": "Submit Suggestions or Issues",
+  "triggerAriaLabel": "Submit Suggestions or Issues",
+  "formTitle": "Submit Suggestions or Issues",
+  "submitButtonLabel": "Submit",
+  "cancelButtonLabel": "Cancel",
+  "confirmButtonLabel": "Confirm",
+  "addScreenshotButtonLabel": "Add a screenshot",
+  "removeScreenshotButtonLabel": "Remove a screenshot",
+  "nameLabel": "Name",
+  "namePlaceholder": "Your name",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Your email",
+  "isRequiredLabel": "(required)",
+  "messageLabel": "Description",
+  "messagePlaceholder": "Please describe your suggestion or issue.",
+  "successMessageText": "Thank you for your feedback!"
+}

@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Vis verktøylinje",
-        "description": "Når aktivert, vises verktøylinjen"
+        "description": "Når aktivert, vises verktøylinjen",
+        "moreOptions": "Flere alternativer",
+        "moreOptionsDescription": "Du kan kontrollere hvilke ikoner som vises på verktøylinjen.",
+        "moreOptionsHideLabel": "Skjul etiketter for verktøylinjeikoner",
+        "close": "Lukk",
+        "options": {
+          "toolbar_newtab": "Ny fane",
+          "toolbar_orderby": "Sorter etter",
+          "toolbar_showby": "Vis etter",
+          "toolbar_view": "visning",
+          "toolbar_colorMode": "Fargemodus",
+          "toolbar_muteAllTabs": "Demp alle faner som lager lyd",
+          "toolbar_scrollToActiveTab": "Rull til aktiv fane"
+        }
       },
       "bottomNav": {
         "label": "Vis bunnnavigasjonslinje",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Vis hurtigtilgang",
         "description": "Du kan angi en fane til å vises i Hurtigtilgang slik at den blir enkel å finne. Bare høyreklikk (eller langtrykk) på den og velg Fest til Hurtigtilgang. Fjern den når du ikke trenger den der lenger ved å høyreklikke (eller langtrykke) på den og velge Slett fra Hurtigtilgang. Forskjellen fra festede faner er at Hurtigtilgang lagrer URL-en og åpner en ny fane hver gang den klikkes."
+      },
+      "selectFromHistory": {
+        "label": "Velg fra historikk",
+        "description": "Hvis du trenger å velge fra historikken, kreves din autorisasjon",
+        "numberOfDays": "Antall dager",
+        "numberOfUrls": "Antall URL-er",
+        "cancel": "Avbryt",
+        "query": "Spørring",
+        "selectItemsToAddToQuickAccess": "Velg elementer for å legge til i hurtigtilgang:",
+        "selectAll": "Velg alle",
+        "addSelected": "Legg til valgte",
+        "addedSuccess": "La til {{count}} elementer i hurtigtilgang.",
+        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke blitt endret. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Vis nettstedikoner når grupper kollapser",
@@ -411,6 +437,38 @@
         "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert",
         "globaldisabledTips": "Du må slå på synkronisering i de globale innstillingene for å endre denne innstillingen."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Eksport",
+      "description": "",
+      "options": {
+        "preferences": "Brukerinnstillinger",
+        "preferencesInfo": "Inkluderer standard generelle innstillinger, visnings- og datainnstillinger, og bytte av brukergrensesnitt-temaer.",
+        "quickAccess": "Hurtigtilgang",
+        "quickAccessWarning": "Ikonet til et ikke besøkt nettsted kan vises unormalt. Ikke bekymre deg, det vil vises normalt etter at du har besøkt og startet nettleseren på nytt.",
+        "siteConfig": "Nettstedsinnstillinger",
+        "siteConfigInfo": "slik som automatisk forkastbar, bilde-i-bilde ved faneveksling, leseprogresjonslinje, spilleprogresjonslinje, etc.",
+        "recentlyTabs": "Nylig lukkede faner"
+      },
+      "cancelBtn": "Avbryt",
+      "exportBtn": "Eksporter",
+      "importBtn": "Importer",
+      "importing": "Importerer...",
+      "fileError": "Filparsing feil, vennligst last opp riktig JSON konfigurasjonsfil",
+      "import": {
+        "label": "Importer fra fil",
+        "description": "",
+        "formTips": "Velg dataene du vil importere",
+        "importSuccess": "Importering vellykket",
+        "importFailed": "Importering mislyktes"
+      },
+      "export": {
+        "label": "Eksporter til fil",
+        "description": "",
+        "formTips": "Velg dataene du vil eksportere",
+        "exportSuccess": "Eksportering vellykket",
+        "exportFailed": "Eksportering mislyktes"
       }
     },
     "SyncToCloud": {

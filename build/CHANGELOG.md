@@ -1,3 +1,26 @@
+## v1.3.0
+
+### New Features
+
+- **Import/Export**: Export user preferences, quick access, website settings, and recently closed tabs data, and import them into another browser to synchronize extension data.
+- **Select quick access from histrory**: You can search the most frequently visited websites from the history and add them to the quick access
+- **Toolbar more options**: Add more options to the toolbar. You can hide the label on the toolbar and control which icons are displayed on the toolbar.
+
+### Improvements
+
+- **Search Box**: The search box now supports the Enter key to search keywords in a new tab. If there is no matching tab or history after entering the keyword, you can press Enter to search using the default search engine.
+- **Data Initialization**: Adjust the timing of data initialization and optimize repeated rendering caused by data modifications.
+- **Changelog URL**: Update the changelog URL to the release URL on GitHub.
+- **Layout Optimization**: Optimize layout changes when the window size changes.
+- **error logs recording**:Use Sentry to collect error logs. Rest assured, this feature will not collect your private data.
+
+### Bug Fixes
+
+- **Tooltip position error**: Fix the issue where the tooltip flashes when switching themes and views in the toolbar.
+- **Bottom Navigation**: Fix the issue where the bottom navigation blocks the list when many tabs are open.
+
+---
+
 ## v1.2.3
 
 ### Bug fixes:

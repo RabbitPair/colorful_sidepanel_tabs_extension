@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Monstra toolbar",
-        "description": "Cum activa, toolbar ostenditur"
+        "description": "Cum activa, toolbar ostenditur",
+        "moreOptions": "Plures Optiones",
+        "moreOptionsDescription": "Potes moderari quae icones in toolbar appareant.",
+        "moreOptionsHideLabel": "Occulta icones toolbar titulos",
+        "close": "Claude",
+        "options": {
+          "toolbar_newtab": "Novum Tab",
+          "toolbar_orderby": "Ordina Per",
+          "toolbar_showby": "Monstra Per",
+          "toolbar_view": "visum",
+          "toolbar_colorMode": "Modus Coloris",
+          "toolbar_muteAllTabs": "Obmutesce Omnes Tabulas Sonos Facientes",
+          "toolbar_scrollToActiveTab": "Volvunt ad Activam Tabulam"
+        }
       },
       "bottomNav": {
         "label": "Monstra infima navigationis talea",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Monstra tabulas pined ut icones",
         "description": "Cum activa, tabulae pined ut icones ostendentur et non in indice"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Monstra celerem accessum",
+        "description": "Potes tabulam constituere ut in Celeri accessu appareat ut facile invenias. Ius-click (vel diu-urge) eam et elige 'Pin ad Celerem accessum'. Depinge eam cum non amplius opus est ibi per ius-click (vel diu-urge) eam et elige 'Delete ex Celeri accessu'. Differentia a tabulis pined est quod Celer Accessus URL servat et novam tabulam omni tempore aperit cum cliccatur."
+      },
+      "selectFromHistory": {
+        "label": "Selige ex historia",
+        "description": "Si opus est seligere ex historia, tua auctoritas requiritur",
+        "numberOfDays": "Numerus dierum",
+        "numberOfUrls": "Numerus URL",
+        "cancel": "Cancellare",
+        "query": "Quaerere",
+        "selectItemsToAddToQuickAccess": "Selige res ad celerem accessum addere:",
+        "selectAll": "Selige Omnia",
+        "addSelected": "Addere Selecta",
+        "addedSuccess": "Addita {{count}} res ad celerem accessum.",
+        "deniedMessage": "Permissionem requisitam negavisti, itaque occasus non mutata sunt. Si sententiam mutas, iterum clicca et auctoritatem concede"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Monstra icones tabularum cum coetus collapsus",
@@ -406,6 +436,38 @@
         "downloadOnly": "Solo scaricamento",
         "staySynchronized": "Rimani sincronizzato",
         "globaldisabledTips": "Devi attivare la sincronizzazione nelle Impostazioni globali per modificare questa impostazione."
+      }
+    },
+    "importAndExport": {
+      "title": "Importa/Esporta",
+      "description": "",
+      "options": {
+        "preferences": "Preferenze utente",
+        "preferencesInfo": "Include le impostazioni generali predefinite, le preferenze di visualizzazione e dati, e il cambio dei temi dell'interfaccia utente.",
+        "quickAccess": "Accesso rapido",
+        "quickAccessWarning": "L'icona di un sito web non visitato potrebbe essere visualizzata in modo anomalo. Non preoccuparti, verrà visualizzata normalmente dopo aver visitato e riavviato il browser.",
+        "siteConfig": "Impostazioni del sito",
+        "siteConfigInfo": "come auto scartabile, picture-in-picture su cambio scheda, barra di avanzamento lettura, barra di avanzamento riproduzione, ecc.",
+        "recentlyTabs": "Schede chiuse di recente"
+      },
+      "cancelBtn": "Annulla",
+      "exportBtn": "Esporta",
+      "importBtn": "Importa",
+      "importing": "Importazione in corso...",
+      "fileError": "Errore di analisi del file, carica il file di configurazione JSON corretto",
+      "import": {
+        "label": "Importa da file",
+        "description": "",
+        "formTips": "Seleziona i dati che desideri importare",
+        "importSuccess": "Importazione riuscita",
+        "importFailed": "Importazione fallita"
+      },
+      "export": {
+        "label": "Esporta su file",
+        "description": "",
+        "formTips": "Seleziona i dati che desideri esportare",
+        "exportSuccess": "Esportazione riuscita",
+        "exportFailed": "Esportazione fallita"
       }
     },
     "SyncToCloud": {

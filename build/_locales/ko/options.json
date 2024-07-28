@@ -1,20 +1,20 @@
 {
-  "OpenSideSanelToPreview": "프리뷰를 보려면 사이드 패널을 엽니다",
-  "_execute_action": "이 확장 프로그램을 활성화",
+  "OpenSidePanelToPreview": "미리보기를 위해 사이드 패널 열기",
+  "_execute_action": "이 확장 프로그램 활성화",
   "openSidePanel": "사이드 패널 열기",
   "settings": {
-    "resetCurrentPageSettings": "현재 페이지 설정 초기화",
+    "resetCurrentPageSettings": "현재 페이지 설정 재설정",
     "modules": {
       "appearance": "외관",
-      "beautify": "Embellecer",
+      "beautify": "미화",
       "tabs": "탭",
-      "history": "역사",
-      "shortcuts": "바로 가기",
-      "pip": "화면 내 화면",
+      "history": "기록",
+      "shortcuts": "단축키",
+      "pip": "화면 속 화면",
       "chromeTabGroupAdvanced": "고급 탭 그룹",
-      "progressBar": "진행 표시 줄",
+      "progressBar": "진행률 표시줄",
       "floatBall": "플로트 볼",
-      "experimentalFeatures": "실험적인 기능"
+      "experimentalFeatures": "실험적 기능"
     },
     "appearance": {
       "header": "외관",
@@ -24,11 +24,11 @@
       },
       "theme": {
         "label": "색상 모드",
-        "description": "라이트 또는 다크 색상 모드 선택"
+        "description": "밝은 색상 모드 또는 어두운 색상 모드 선택"
       },
       "rtl": {
-        "label": "RTL",
-        "description": "활성화하면 인터페이스가 오른쪽에서 왼쪽으로 텍스트 방향을 표시합니다"
+        "label": "오른쪽에서 왼쪽으로",
+        "description": "활성화되면 인터페이스가 오른쪽에서 왼쪽으로 텍스트 방향을 표시합니다"
       },
       "fontSize": {
         "label": "글꼴 크기",
@@ -37,8 +37,8 @@
         "large": "큰"
       },
       "fontFamily": {
-        "label": "글꼴 패밀리",
-        "description": "글꼴 패밀리 설정"
+        "label": "글꼴",
+        "description": "글꼴 설정"
       },
       "fontColor": {
         "label": "글꼴 색상",
@@ -49,54 +49,68 @@
         "description": "글꼴 두께 설정"
       },
       "extAction": {
-        "label": "확장 프로그램 아이콘 클릭 작업",
-        "description": "확장 프로그램 아이콘을 클릭했을 때의 작업 설정",
+        "label": "확장 아이콘 클릭 동작",
+        "description": "확장 아이콘을 클릭할 때의 동작 설정",
         "openPopup": "팝업 열기",
-        "openSidePanel": "사이드 패널 열기"
+        "openSidePanel": "사이드 패널 열기",
+        "SmallWindowAlert": "사이드 패널이 너무 많은 공간을 차지하면 팝업 창을 사용하는 것이 좋습니다"
       },
       "SidePanelPosition": {
         "label": "사이드 패널 위치",
-        "description": "사이드 패널이 왼쪽에 표시되는지 오른쪽에 표시되는지 설정",
+        "description": "사이드 패널이 왼쪽 또는 오른쪽에 표시되는지 설정합니다.",
         "goToBrowserSettings": "Chrome 설정으로 이동"
       },
       "searchBoxPosition": {
         "label": "검색 상자 위치",
-        "description": "검색 상자 위치 설정",
-        "top": "상단",
-        "bottom": "하단",
+        "description": "검색 상자의 위치 설정",
+        "top": "위",
+        "bottom": "아래",
         "hide": "숨기기"
       },
       "toolbar": {
         "label": "도구 모음 표시",
-        "description": "활성화하면 도구 모음이 표시됩니다"
+        "description": "활성화되면 도구 모음이 표시됩니다",
+        "moreOptions": "추가 옵션",
+        "moreOptionsDescription": "도구 모음에 표시할 아이콘을 제어할 수 있습니다.",
+        "moreOptionsHideLabel": "도구 모음 아이콘 레이블 숨기기",
+        "close": "닫기",
+        "options": {
+          "toolbar_newtab": "새 탭",
+          "toolbar_orderby": "정렬 기준",
+          "toolbar_showby": "표시 기준",
+          "toolbar_view": "보기",
+          "toolbar_colorMode": "색상 모드",
+          "toolbar_muteAllTabs": "소리가 나는 모든 탭 음소거",
+          "toolbar_scrollToActiveTab": "활성 탭으로 스크롤"
+        }
       },
       "bottomNav": {
-        "label": "하단 탐색 모음 표시",
-        "description": "활성화하면 하단 탐색 모음이 표시됩니다"
+        "label": "하단 탐색 표시줄 표시",
+        "description": "활성화되면 하단 탐색 표시줄이 표시됩니다"
       },
       "buttonPosition": {
         "label": "버튼 위치",
-        "description": "버튼 위치 설정",
+        "description": "버튼의 위치 설정",
         "left": "왼쪽",
         "right": "오른쪽"
       },
       "alwaysShowCloseButton": {
-        "label": "닫기 버튼 항상 표시",
-        "description": "활성화되면 닫기 버튼이 항상 표시됩니다; 비활성화되면 마우스가 탭 위에 올라가 있을 때만 닫기 버튼이 표시됩니다"
+        "label": "항상 닫기 버튼 표시",
+        "description": "활성화되면 닫기 버튼이 항상 표시됩니다. 비활성화되면 마우스가 탭 위로 이동할 때만 닫기 버튼이 표시됩니다"
       },
       "fullScreenHideSidePanel": {
         "label": "전체 화면에서 사이드 패널 숨기기",
-        "description": "활성화하면 페이지가 전체 화면 모드일 때 사이드 패널이 자동으로 숨겨집니다. Chrome의 제한으로 인해 사이드 패널을 자동으로 다시 열 수 없습니다. 사이드 패널을 수동으로 다시 열어야 합니다!"
+        "description": "활성화되면 페이지가 전체 화면일 때 사이드 패널이 자동으로 숨겨집니다. Chrome의 제한으로 인해 사이드 패널을 자동으로 다시 열 수 없습니다. 사이드 패널을 수동으로 다시 열어야 합니다!"
       }
     },
     "beautify": {
       "coloredbackground": {
         "label": "색상 배경",
-        "description": "활성화하면 사이드 패널에 색상 배경이 표시됩니다"
+        "description": "활성화되면 사이드 패널에 색상 배경이 표시됩니다"
       },
       "backgroundPicture": {
-        "label": "배경 사진",
-        "description": "[+]를 클릭하여 사용자 정의 이미지를 추가하고, [-]를 클릭하여 사용자 정의 이미지를 삭제합니다. 원하는 이미지는 다음 웹 사이트에서 찾을 수 있습니다.",
+        "label": "배경 그림",
+        "description": "[+]를 클릭하여 사용자 정의 그림을 추가하고, [-]를 클릭하여 사용자 정의 그림을 삭제합니다. 다음 웹사이트에서 좋아하는 그림을 찾을 수 있습니다.",
         "dialogDescription": "이미지 주소 입력",
         "OK": "확인",
         "Cancel": "취소",
@@ -114,18 +128,18 @@
       },
       "backgroundImageBrightness": {
         "label": "밝기",
-        "description": "밝기 설정, 어두운 모드에만 권장됨"
+        "description": "밝기 설정, 어두운 모드에만 권장"
       },
       "listBackgroundStyle": {
         "label": "목록 배경 스타일",
         "description": "목록 배경 스타일 설정",
         "single": "단일",
         "none": "없음",
-        "simple": "간단",
-        "complementary": "보완",
-        "analogous": "유사한",
-        "triadic": "삼합",
-        "tetradic": "사합"
+        "simple": "단순",
+        "complementary": "보색",
+        "analogous": "유사",
+        "triadic": "삼색",
+        "tetradic": "사색"
       },
       "listBackgroundTransparency": {
         "label": "목록 배경 투명도",
@@ -142,7 +156,7 @@
       },
       "fluentOverlayScrollbars": {
         "label": "유창한 스크롤바",
-        "description": "Microsoft Fluent 디자인 스타일 스크롤바를 사용하고 웹 콘텐츠 위에 오버레이합니다",
+        "description": "Microsoft Fluent 디자인 스타일 스크롤바를 사용하고 웹 콘텐츠에 오버레이합니다",
         "goToBrowserSettings": "Chrome 설정으로 이동"
       }
     },
@@ -150,7 +164,7 @@
       "listView": {
         "label": "목록 보기",
         "description": "목록 보기 전환",
-        "compact": "간단한 보기",
+        "compact": "간결한 보기",
         "visual": "시각적 보기"
       },
       "showBy": {
@@ -163,106 +177,123 @@
       },
       "showFullUrl": {
         "label": "전체 URL 표시",
-        "description": "활성화되면 전체 URL이 탭 제목 아래에 표시됩니다"
+        "description": "활성화되면 탭 제목 아래에 전체 URL이 표시됩니다"
       },
       "currentWindowOnly": {
         "label": "현재 창만",
-        "description": "현재 창의 탭만 표시합니다. 비활성화된 경우 모든 창의 탭이 표시됩니다"
+        "description": "현재 창의 탭만 표시합니다. 비활성화되면 모든 창의 탭이 표시됩니다"
       },
       "pinedTabsAsIcons": {
         "label": "고정된 탭을 아이콘으로 표시",
-        "description": "활성화하면 고정된 탭이 아이콘으로 표시되어 목록에 표시되지 않습니다"
+        "description": "활성화되면 고정된 탭이 목록에 표시되지 않고 아이콘으로 표시됩니다"
+      },
+      "pinToQuickAccess": {
+        "label": "빠른 액세스 표시",
+        "description": "탭을 빠른 액세스에 표시하도록 설정할 수 있습니다. 이렇게 하면 쉽게 찾을 수 있습니다. 탭을 마우스 오른쪽 버튼으로 클릭(또는 길게 누르기)하고 '빠른 액세스에 고정'을 선택하세요. 더 이상 필요하지 않으면 마우스 오른쪽 버튼으로 클릭(또는 길게 누르기)하고 '빠른 액세스에서 삭제'를 선택하여 고정을 해제하세요. 고정된 탭과의 차이점은 빠른 액세스가 URL을 저장하고 클릭할 때마다 새 탭을 연다는 것입니다."
+      },
+      "selectFromHistory": {
+        "label": "기록에서 선택",
+        "description": "기록에서 선택하려면 권한이 필요합니다",
+        "numberOfDays": "일 수",
+        "numberOfUrls": "URL 수",
+        "cancel": "취소",
+        "query": "쿼리",
+        "selectItemsToAddToQuickAccess": "빠른 액세스에 추가할 항목 선택:",
+        "selectAll": "모두 선택",
+        "addSelected": "선택 항목 추가",
+        "addedSuccess": "{{count}}개의 항목이 빠른 액세스에 추가되었습니다.",
+        "deniedMessage": "필요한 권한을 거부하셨으므로 설정이 변경되지 않았습니다. 마음이 바뀌면 다시 클릭하고 권한을 허용하세요"
       },
       "collapsedGroupShowTabIcons": {
-        "label": "그룹 축소 시 웹 사이트 아이콘 표시",
-        "description": "활성화하면 축소된 그룹에 탭 아이콘을 표시합니다"
+        "label": "그룹 축소 시 웹사이트 아이콘 표시",
+        "description": "활성화되면 축소된 그룹에 탭 아이콘이 표시됩니다"
       },
       "hoverPreview": {
-        "label": "마우스 호버 미리 보기",
-        "description": "활성화하면 탭 위로 마우스를 올리면 탭 미리 보기가 표시됩니다"
+        "label": "호버 미리보기",
+        "description": "활성화되면 탭 위에 마우스를 올리면 탭 미리보기가 표시됩니다"
       },
       "previewWithThumbnail": {
-        "label": "미리 보기에서 썸네일 표시",
-        "description": "활성화하면 미리 보기에 탭 썸네일이 표시됩니다",
-        "alert": "지정된 창에서 현재 활성 탭의 가시 영역을 캡처합니다. 이 방법을 호출하려면 확장 프로그램이 <all_urls> 권한 또는 activeTab 권한이 있어야 합니다.",
-        "deniedMessage": "필요한 권한을 거부했으므로 설정이 변경되지 않았습니다. 마음을 바꾸면 다시 클릭하여 승인하십시오"
+        "label": "미리보기에서 썸네일 표시",
+        "description": "활성화되면 미리보기에 탭 썸네일이 표시됩니다",
+        "alert": "지정된 창에서 현재 활성 탭의 보이는 영역을 캡처합니다. 이 메서드를 호출하려면 확장 프로그램에 <all_urls> 권한 또는 activeTab 권한이 있어야 합니다.",
+        "deniedMessage": "필요한 권한을 거부하셨으므로 설정이 변경되지 않았습니다. 마음이 바뀌면 다시 클릭하고 권한을 허용하세요"
       },
       "previewDelay": {
-        "label": "미리 보기 지연",
-        "description": "탭 위로 마우스를 올릴 때 탭 미리 보기의 지연 시간을 설정합니다 (초). 0으로 설정하면 지연이 없습니다",
+        "label": "미리보기 지연",
+        "description": "탭 위에 마우스를 올릴 때 탭 미리보기의 지연 시간을 설정합니다. (초). 0으로 설정하면 지연이 없습니다",
         "seconds": "초"
       }
     },
     "history": {
       "saveRecentlyTabs": {
-        "label": "최근에 닫은 탭 저장",
-        "description": "활성화하면 최근에 닫은 탭을 저장합니다"
+        "label": "최근 닫은 탭 저장",
+        "description": "활성화되면 최근 닫은 탭을 저장합니다"
       },
       "dataSource": {
-        "label": "데이터 원본",
-        "description": "데이터 원본 선택",
-        "recentlyClosedTabs": "최근에 닫은 탭",
+        "label": "데이터 소스",
+        "description": "데이터 소스 선택",
+        "recentlyClosedTabs": "최근 닫은 탭",
         "chromeHistory": "Chrome 기록",
-        "alert": "기록 검색을 위해 권한을 활성화해야 합니다",
-        "deniedMessage": "필요한 권한을 거부했으므로 설정이 변경되지 않았습니다. 마음을 바꾸면 다시 클릭하여 승인하십시오"
+        "alert": "기록을 검색하려면 권한이 필요합니다",
+        "deniedMessage": "필요한 권한을 거부하셨으므로 설정이 변경되지 않았습니다. 마음이 바뀌면 다시 클릭하고 권한을 허용하세요"
       },
       "showInSidePanel": {
         "label": "사이드 패널에 표시",
-        "description": "활성화하면 사이드 패널에 표시됩니다"
+        "description": "활성화되면 사이드 패널에 표시됩니다"
       },
       "showInTabSearchResults": {
-        "label": "탭 검색 결과에 히스토리 표시",
-        "description": "활성화하면 최근 기록이 탭 검색 결과에 표시됩니다"
+        "label": "탭 검색 결과에 기록 표시",
+        "description": "활성화되면 최근 기록이 탭 검색 결과에 표시됩니다"
       },
       "limitSearchResults": {
-        "label": "탭 검색 결과에서 기록 수 제한",
-        "description": "탭 검색 결과에서 기록 수 제한을 설정합니다. 제한을 초과하는 기록은 필터링됩니다",
-        "alert": "너무 많은 기록은 페이지 로딩 속도에 영향을 줄 수 있습니다"
+        "label": "탭 검색 결과의 기록 수 제한",
+        "description": "탭 검색 결과의 기록 수를 제한합니다. 제한을 초과하는 기록은 필터링됩니다",
+        "alert": "기록이 너무 많으면 페이지 로딩 속도에 영향을 미칩니다"
       },
       "saveRecentlyTabsLimit": {
-        "label": "유지할 최근에 닫은 탭 수",
-        "description": "유지할 최근에 닫은 탭 수를 설정합니다"
+        "label": "저장할 최근 닫은 탭 수",
+        "description": "저장할 최근 닫은 탭 수를 설정합니다"
       },
       "keepDays": {
-        "label": "최근에 닫은 탭을 유지할 일 수",
-        "description": "최근에 닫은 탭을 유지할 일 수를 설정합니다. 만료된 데이터는 삭제됩니다",
+        "label": "최근 닫은 탭을 유지할 일 수",
+        "description": "최근 닫은 탭을 유지할 일 수를 설정합니다. 만료된 데이터는 삭제됩니다",
         "days": "일"
       },
       "openDuration": {
-        "label": "열린 기간",
+        "label": "열린 시간",
         "description": "설정된 시간보다 오래 열린 탭만 저장됩니다",
         "seconds": "초"
       }
     },
     "shortcuts": {
-      "alert": "이 페이지는 표시 전용입니다. 바로 가기를 수정하려면 [확장 프로그램]->[확장 관리]->[키보드 바로 가기]를 방문하십시오",
+      "alert": "이 페이지는 표시 전용입니다. 바로 가기를 수정하려면 [확장 프로그램]->[확장 프로그램 관리]->[키보드 바로 가기]로 이동하세요",
       "goToBrowserSettings": "Chrome 설정으로 이동",
-      "_execute_action": "이 확장 프로그램을 활성화",
+      "_execute_action": "이 확장 프로그램 활성화",
       "openSidePanel": "사이드 패널 열기"
     },
     "picture_in_picture": {
-      "Picture-in-picture": "화면 내 화면",
+      "Picture-in-picture": "화면 속 화면",
       "tabSwitch": {
-        "label": "탭 전환 시 PIP",
+        "label": "탭 전환 시 화면 속 화면",
         "description": "음소거되지 않은 비디오가 있는 탭을 전환할 때 자동으로 PIP로 전환",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       },
       "scrollSwitch": {
-        "label": "스크롤 시 화면 내 화면으로 전환",
-        "description": "현재 페이지에서 비디오를 재생 중이고 비디오가 음소거되지 않았으며 스크롤할 때 비디오가 보이지 않는 경우 화면 내 화면으로 전환됩니다.",
+        "label": "스크롤 시 화면 속 화면 전환",
+        "description": "현재 페이지에서 비디오가 재생 중이고 비디오가 음소거되지 않았으며 스크롤 시 비디오가 보이지 않는 범위에 있을 때 화면 속 화면으로 전환됩니다.",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       }
     },
     "userActivitionAlert": {
       "title": "사용자 활성화 필요",
-      "tips_1": "사용자 활성화란 사용자가 현재 페이지와 상호 작용 중임을 의미합니다",
-      "tips_2": "더 구체적으로는 활성화가 입력 이벤트를 트리거하는 것을 의미합니다:",
-      "tips_3": "참고: 마우스 휠 스크롤 또는 스와이프 제스처 사용은 트리거하지 않습니다!",
-      "tips_4": "자세한 내용을 원하시면 방문하십시오:",
+      "tips_1": "사용자 활성화는 사용자가 현재 페이지와 상호 작용하고 있음을 의미합니다",
+      "tips_2": "더 구체적으로, 활성화는 다음과 같은 입력 이벤트를 트리거합니다:",
+      "tips_3": "참고: 마우스 휠 스크롤 또는 스와이프 제스처는 트리거되지 않습니다!",
+      "tips_4": "자세한 내용을 원하시면 다음을 방문하세요:",
       "click": "클릭",
-      "contextmenu": "마우스 오른쪽 단추 메뉴",
+      "contextmenu": "오른쪽 클릭 메뉴",
       "dblclick": "더블 클릭"
     },
     "chromeTabGroupAdvanced": {
@@ -274,40 +305,40 @@
         "option_auto": "Chrome 기본 설정 사용"
       },
       "autoCreateOrJoinSameDomainGroup": {
-        "label": "동일 도메인 그룹 자동 생성 또는 가입",
-        "description": "활성화하면 새로 열린 탭이 자동으로 동일 도메인 그룹에 가입합니다. 도메인 그룹이 없는 경우 새 도메인 그룹이 생성됩니다",
+        "label": "동일 도메인 그룹 자동 생성 또는 참여",
+        "description": "활성화되면 새로 열린 탭이 자동으로 동일 도메인 그룹에 참여합니다. 도메인 그룹이 존재하지 않으면 새 도메인 그룹이 생성됩니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       },
       "groupFilterOutPinnedTabs": {
         "label": "그룹에서 고정된 탭 필터링",
-        "description": "활성화하면 고정된 탭이 그룹에 추가되지 않습니다",
+        "description": "활성화되면 고정된 탭이 그룹에 추가되지 않습니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       }
     },
     "progressBar": {
       "enableProgressBar": {
-        "label": "진행 막대 표시",
-        "description": "활성화하면 탭 제목 표시줄 아래에 읽기 진행 막대가 표시됩니다",
+        "label": "진행률 표시줄 활성화",
+        "description": "활성화되면 탭 제목 표시줄 아래에 읽기 진행률 표시줄이 표시됩니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       },
       "readingProgressBar": {
-        "label": "읽기 진행 막대",
-        "description": "활성화하면 탭 제목 표시줄 아래에 읽기 진행 막대가 표시됩니다",
+        "label": "읽기 진행률 표시줄",
+        "description": "활성화되면 탭 제목 표시줄 아래에 읽기 진행률 표시줄이 표시됩니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       },
       "scrollHeightRatio": {
         "label": "스크롤 높이 비율",
-        "description": "보이는 창 높이와 페이지 높이의 비율입니다. 비율이 초과되면 진행 막대가 표시됩니다",
+        "description": "보이는 창 높이와 페이지 높이의 비율. 비율을 초과하면 진행률 표시줄이 표시됩니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       },
       "playingProgressBar": {
-        "label": "재생 진행 막대",
-        "description": "활성화하면 탭 제목 표시줄 아래에 재생 진행 막대가 표시됩니다",
+        "label": "재생 진행률 표시줄",
+        "description": "활성화되면 탭 제목 표시줄 아래에 재생 진행률 표시줄이 표시됩니다",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
       }
@@ -315,7 +346,7 @@
     "floatBall": {
       "enableFloatBall": {
         "label": "플로트 볼 활성화",
-        "description": "사이드 패널이 닫힌 경우, 페이지 오른쪽에 플로트 볼이 표시되어 사이드 패널을 빠르게 열 수 있습니다."
+        "description": "사이드 패널이 닫히면 페이지 오른쪽에 플로트 볼이 표시되어 사이드 패널을 빠르게 열 수 있습니다."
       }
     },
     "performance": {
@@ -351,15 +382,15 @@
       "dataStored": "저장된 데이터",
       "name": "이름",
       "deleteAllData": "모든 데이터 삭제",
-      "totalStorageUsedBySites": "사이트에서 사용하는 총 저장 공간",
-      "totalCount": "총 개수",
+      "totalStorageUsedBySites": "사이트별 총 저장 용량",
+      "totalCount": "총 수",
       "addNewSite": {
         "label": "새 사이트 추가",
-        "description": "새 웹 사이트 주소를 입력하고 '추가'를 클릭합니다.",
-        "placeholder": "웹 사이트 주소, 예: 'www.example.com'",
+        "description": "'www.example.com'과 같은 새 웹사이트 주소를 입력하고 '추가'를 클릭하세요.",
+        "placeholder": "'www.example.com'과 같은 웹사이트 주소",
         "add": "추가",
         "cancel": "취소",
-        "invalidDomain": "잘못된 웹 사이트 주소"
+        "invalidDomain": "잘못된 웹사이트 주소"
       },
       "browserSettings": {
         "label": "브라우저 설정",
@@ -367,31 +398,31 @@
         "goToBrowserSettings": "브라우저 설정으로 이동"
       },
       "autoDiscardable": {
-        "label": "자동 폐기 가능",
-        "description": "활성화되면 브라우저에서 탭을 폐기할 수 있으며, 성능을 켜고 비활성 탭을 폐기할 시간을 설정하면 지정된 시간 후에 탭이 폐기됩니다. 비활성화되면 탭이 폐기되지 않습니다."
+        "label": "자동 버리기 가능",
+        "description": "활성화되면 브라우저에서 탭을 버릴 수 있으며, 성능을 켜고 비활성 탭을 버리는 시간을 설정하면 지정된 시간 후에 탭이 버려집니다. 비활성화되면 탭이 버려지지 않습니다"
       },
       "readingProgressBar": {
-        "label": "읽기 진행 막대",
-        "description": "활성화하면 탭 제목 표시줄 아래에 읽기 진행 막대가 표시됩니다.",
-        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 읽기 진행 막대를 켜야 합니다."
+        "label": "읽기 진행률 표시줄",
+        "description": "활성화되면 탭 제목 표시줄 아래에 읽기 진행률 표시줄이 표시됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 읽기 진행률 표시줄을 켜야 합니다."
       },
       "playingProgressBar": {
-        "label": "재생 진행 막대",
-        "description": "활성화하면 탭 제목 표시줄 아래에 재생 진행 막대가 표시됩니다.",
-        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 재생 진행 막대를 켜야 합니다."
+        "label": "재생 진행률 표시줄",
+        "description": "활성화되면 탭 제목 표시줄 아래에 재생 진행률 표시줄이 표시됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 재생 진행률 표시줄을 켜야 합니다."
       },
       "tabSwitchPip": {
         "label": "탭 전환 시 PIP",
-        "description": "활성화하면 음소거되지 않은 비디오가 있는 탭을 전환할 때 자동으로 Picture-in-picture로 전환됩니다.",
-        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 Picture-in-picture를 켜야 합니다."
+        "description": "활성화되면 음소거되지 않은 비디오가 있는 탭을 전환할 때 자동으로 PIP 모드로 전환됩니다.",
+        "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 PIP를 켜야 합니다."
       },
       "clearHistoyAfterCLose": {
-        "label": "닫은 후 히스토리 지우기",
-        "description": "활성화하면 탭을 닫은 후 히스토리가 지워집니다."
+        "label": "닫은 후 기록 지우기",
+        "description": "활성화되면 탭을 닫은 후 기록이 지워집니다."
       },
       "SyncTabs": {
         "label": "탭 동기화",
-        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택합니다.",
+        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택하세요.",
         "disabled": "비활성화됨",
         "uploadOnly": "업로드만",
         "downloadOnly": "다운로드만",
@@ -400,7 +431,7 @@
       },
       "SyncPrivateData": {
         "label": "개인 데이터 동기화",
-        "description": "웹 사이트 쿠키, 웹 페이지 로컬 저장소 데이터, SessionStorage 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택합니다. 데이터는 동기화 전에 암호화됩니다.",
+        "description": "웹사이트 쿠키, 웹 페이지 로컬 스토리지 데이터, 세션 스토리지 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택하세요. 데이터는 동기화 전에 암호화됩니다.",
         "disabled": "비활성화됨",
         "uploadOnly": "업로드만",
         "downloadOnly": "다운로드만",
@@ -408,22 +439,54 @@
         "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 동기화를 켜야 합니다."
       }
     },
+    "importAndExport": {
+      "title": "가져오기/내보내기",
+      "description": "",
+      "options": {
+        "preferences": "사용자 환경 설정",
+        "preferencesInfo": "기본 일반 설정, 디스플레이 및 데이터 환경 설정, 사용자 인터페이스 테마 전환 포함.",
+        "quickAccess": "빠른 접근",
+        "quickAccessWarning": "방문하지 않은 웹사이트의 아이콘이 비정상적으로 표시될 수 있습니다. 걱정하지 마세요, 방문 후 브라우저를 다시 시작하면 정상적으로 표시됩니다.",
+        "siteConfig": "사이트 설정",
+        "siteConfigInfo": "자동 버리기 가능, 탭 전환 시 PIP, 읽기 진행률 표시줄, 재생 진행률 표시줄 등.",
+        "recentlyTabs": "최근 닫은 탭"
+      },
+      "cancelBtn": "취소",
+      "exportBtn": "내보내기",
+      "importBtn": "가져오기",
+      "importing": "가져오는 중...",
+      "fileError": "파일 구문 분석 오류, 올바른 JSON 구성 파일을 업로드하세요",
+      "import": {
+        "label": "파일에서 가져오기",
+        "description": "",
+        "formTips": "가져오려는 데이터를 선택하세요",
+        "importSuccess": "가져오기 성공",
+        "importFailed": "가져오기 실패"
+      },
+      "export": {
+        "label": "파일로 내보내기",
+        "description": "",
+        "formTips": "내보내려는 데이터를 선택하세요",
+        "exportSuccess": "내보내기 성공",
+        "exportFailed": "내보내기 실패"
+      }
+    },
     "SyncToCloud": {
-      "label": "클라우드 동기화",
+      "label": "클라우드에 동기화",
       "SyncNow": "지금 동기화",
-      "SyncNowWithGoogleDrive": "Google 드라이브로 지금 동기화",
+      "SyncNowWithGoogleDrive": "Google Drive로 지금 동기화",
       "SyncNowWithDropbox": "Dropbox로 지금 동기화",
       "SyncNowWithOneDrive": "OneDrive로 지금 동기화",
       "Synchronizing": "동기화 중...",
-      "SyncedSuccessfully": "성공적으로 동기화됨",
+      "SyncedSuccessfully": "동기화 성공",
       "SyncFailed": "동기화 실패",
       "LoginRequired": "로그인 필요",
-      "GoogleDrive": "Google 드라이브",
+      "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "동기화 구성",
-        "description": "이 확장 프로그램의 구성을 동기화하는 방법을 선택합니다.",
+        "label": "구성 동기화",
+        "description": "이 확장의 구성을 동기화하는 방법을 선택하세요.",
         "disabled": "비활성화됨",
         "uploadOnly": "업로드만",
         "downloadOnly": "다운로드만",
@@ -431,7 +494,7 @@
       },
       "SyncTabs": {
         "label": "탭 동기화",
-        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택합니다.",
+        "description": "쿠키 및 개인 정보와 같은 개인 데이터를 제외한 탭 데이터를 동기화하는 방법을 선택하세요.",
         "disabled": "비활성화됨",
         "uploadOnly": "업로드만",
         "downloadOnly": "다운로드만",
@@ -439,12 +502,12 @@
       },
       "OpenOrCloseTabsSynchronously": {
         "label": "탭을 동기화하여 열거나 닫기",
-        "description": "활성화하면 다른 브라우저에서 탭을 열거나 닫을 때 동기화됩니다. '동기화 유지' 옵션이 활성화된 경우에만 적용됩니다.",
-        "OpenOrCloseTabsSynchronouslyWarning": "동일한 계정으로 동시에 두 개의 브라우저에 로그인하고이 옵션을 켜면 한 브라우저에서 탭을 열거나 닫으면 다른 브라우저에서도 동일한 작업이 수행됩니다. 웹 사이트가 동일한 계정으로 반복 로그인을 금지하는 경우 예외가 발생할 수 있습니다."
+        "description": "활성화되면 다른 브라우저에서 탭을 열거나 닫는 것이 동기화됩니다. 이 옵션은 '동기화 유지' 옵션이 활성화된 경우에만 적용됩니다",
+        "OpenOrCloseTabsSynchronouslyWarning": "동일한 계정으로 두 브라우저에 동시에 로그인하고 이 옵션을 켜면 한 브라우저에서 탭을 열거나 닫으면 다른 브라우저에서도 동일한 작업이 수행됩니다. 웹사이트가 동일한 계정으로 반복 로그인을 금지하는 경우 예외가 발생할 수 있습니다."
       },
       "SyncPrivateData": {
         "label": "개인 데이터 동기화",
-        "description": "웹 사이트 쿠키, 웹 페이지 로컬 저장소 데이터, SessionStorage 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택합니다. 데이터는 동기화 전에 암호화됩니다.",
+        "description": "웹사이트 쿠키, 웹 페이지 로컬 스토리지 데이터, 세션 스토리지 데이터 등과 같은 개인 데이터를 동기화하는 방법을 선택하세요. 데이터는 동기화 전에 암호화됩니다.",
         "disabled": "비활성화됨",
         "uploadOnly": "업로드만",
         "downloadOnly": "다운로드만",

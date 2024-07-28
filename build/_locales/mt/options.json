@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Uri toolbar",
-        "description": "Meta jkun attivat, it-toolbar se jidher"
+        "description": "Meta jkun attivat, it-toolbar se jidher",
+        "moreOptions": "Aktar Għażliet",
+        "moreOptionsDescription": "Tista 'tikkontrolla liema ikoni jidhru fuq it-toolbar.",
+        "moreOptionsHideLabel": "Aħbi tikketti tal-ikoni tat-toolbar",
+        "close": "Agħlaq",
+        "options": {
+          "toolbar_newtab": "Tab Ġdid",
+          "toolbar_orderby": "Ordna Skont",
+          "toolbar_showby": "Uri Skont",
+          "toolbar_view": "veduta",
+          "toolbar_colorMode": "Modalità tal-kulur",
+          "toolbar_muteAllTabs": "Sikket il-Tabs Kollha li Qed Jagħmlu Ħoss",
+          "toolbar_scrollToActiveTab": "Skrollja għall-Tab Attiv"
+        }
       },
       "bottomNav": {
         "label": "Uri il-barraniżża ta 'navigazzjoni",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Uri tabs magħluqa bħala ikoni",
         "description": "Meta jkun attivat, it-tabs magħluqa se jidhru bħala ikoni u mhux fil-lista"
+      },
+      "pinToQuickAccess": {
+        "label": "Uri aċċess rapidu",
+        "description": "Tista' tissettja tab biex tidher fl-Aċċess rapidu sabiex tkun faċli biex issibha. Sempliċement ikklikkja bil-lemin (jew agħfas fit-tul) u agħżel Pin għall-Aċċess rapidu. Neħħiha meta ma jkollokx bżonnha hemm aktar billi tikklikkja bil-lemin (jew agħfas fit-tul) u tagħżel Ħassar mill-Aċċess rapidu. Id-differenza mit-tabs pinned hija li l-Aċċess rapidu jiffranka l-URL u jiftaħ tab ġdida kull darba li tiġi kklikkjata."
+      },
+      "selectFromHistory": {
+        "label": "Agħżel mill-istorja",
+        "description": "Jekk għandek bżonn tagħżel mill-istorja, l-awtorizzazzjoni tiegħek hija meħtieġa",
+        "numberOfDays": "Numru ta' jiem",
+        "numberOfUrls": "Numru ta' URLs",
+        "cancel": "Ikkanċella",
+        "query": "Mistoqsija",
+        "selectItemsToAddToQuickAccess": "Agħżel oġġetti biex iżżid mal-aċċess rapidu:",
+        "selectAll": "Agħżel Kollox",
+        "addSelected": "Żid Magħżul",
+        "addedSuccess": "Żdiedu {{count}} oġġetti għall-aċċess rapidu.",
+        "deniedMessage": "Ir-rikjesta tiegħek għall-permess meħtieġ ġiet miċħuda, għalhekk l-issettjar ma nbidilx. Jekk tbiddel fehmtek, jekk jogħġbok ikklikkja mill-ġdid u ippermetti l-awtorizzazzjoni"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Uri ikoni tas-sit tal-webs meta jinkisru l-gruppi",
@@ -403,6 +433,38 @@
         "downloadOnly": "Niżżel biss",
         "staySynchronized": "Ibqa 'sinsronizzat",
         "globaldisabledTips": "Għandek bżonn li tiffaċċja l-sinsinkronizzazzjoni fil-Settings Globali biex timmodifika din l-istess."
+      }
+    },
+    "importAndExport": {
+      "title": "Importa/Esporta",
+      "description": "",
+      "options": {
+        "preferences": "Preferenzi tal-Utent",
+        "preferencesInfo": "Jinkludi settings ġenerali default, preferenzi ta' display u data, u tibdil ta' temi tal-interface tal-utent.",
+        "quickAccess": "Aċċess Rapidu",
+        "quickAccessWarning": "L-ikona ta' websajt li ma ġietx miżjura tista' tidher b'mod anormali. Tinkwetax, se tidher b'mod normali wara li żżurha u terġa' tibda l-browser.",
+        "siteConfig": "Settings tas-Sit",
+        "siteConfigInfo": "bħal auto discardable, picture-in-picture fuq Tab Switch, progress bar tal-qari, progress bar tal-logħba, eċċ.",
+        "recentlyTabs": "Tabs magħluqa reċentement"
+      },
+      "cancelBtn": "Ikkanċella",
+      "exportBtn": "Esporta",
+      "importBtn": "Importa",
+      "importing": "Importazzjoni...",
+      "fileError": "Żball fil-parsing tal-fajl, jekk jogħġbok ittella' l-fajl JSON korrett tal-konfigurazzjoni",
+      "import": {
+        "label": "Importa minn fajl",
+        "description": "",
+        "formTips": "Agħżel id-data li trid timporta",
+        "importSuccess": "Importazzjoni b'suċċess",
+        "importFailed": "Importazzjoni falliet"
+      },
+      "export": {
+        "label": "Esporta għal fajl",
+        "description": "",
+        "formTips": "Agħżel id-data li trid tesporta",
+        "exportSuccess": "Esportazzjoni b'suċċess",
+        "exportFailed": "Esportazzjoni falliet"
       }
     },
     "SyncToCloud": {

@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Eszköztár megjelenítése",
-        "description": "Ha engedélyezve van, az eszköztár megjelenik"
+        "description": "Ha engedélyezve van, az eszköztár megjelenik",
+        "moreOptions": "További beállítások",
+        "moreOptionsDescription": "Szabályozhatja, hogy mely ikonok jelenjenek meg az eszköztáron.",
+        "moreOptionsHideLabel": "Eszköztár ikon címkék elrejtése",
+        "close": "Bezárás",
+        "options": {
+          "toolbar_newtab": "Új lap",
+          "toolbar_orderby": "Rendezés",
+          "toolbar_showby": "Megjelenítés",
+          "toolbar_view": "nézet",
+          "toolbar_colorMode": "Színmód",
+          "toolbar_muteAllTabs": "Az összes hangot adó lap némítása",
+          "toolbar_scrollToActiveTab": "Görgetés az aktív laphoz"
+        }
       },
       "bottomNav": {
         "label": "Alsó navigációs sáv megjelenítése",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Gyors elérés megjelenítése",
         "description": "Beállíthat egy lapot, hogy megjelenjen a Gyors elérésben, így könnyen megtalálható lesz. Csak kattintson rá jobb gombbal (vagy hosszan nyomja meg), és válassza a Rögzítés a Gyors eléréshez lehetőséget. Ha már nincs rá szüksége, kattintson rá jobb gombbal (vagy hosszan nyomja meg), és válassza a Törlés a Gyors elérésből lehetőséget. A rögzített lapoktól eltérően a Gyors elérés menti az URL-t, és minden alkalommal új lapot nyit meg, amikor rákattint."
+      },
+      "selectFromHistory": {
+        "label": "Választás az előzményekből",
+        "description": "Ha az előzményekből kell választania, az engedélye szükséges",
+        "numberOfDays": "Napok száma",
+        "numberOfUrls": "URL-ek száma",
+        "cancel": "Mégse",
+        "query": "Lekérdezés",
+        "selectItemsToAddToQuickAccess": "Válassza ki az elemeket a gyors eléréshez való hozzáadáshoz:",
+        "selectAll": "Összes kiválasztása",
+        "addSelected": "Kiválasztottak hozzáadása",
+        "addedSuccess": "{{count}} elemet adtunk hozzá a gyors eléréshez.",
+        "deniedMessage": "Megtagadta a szükséges engedélyt, így a beállítások nem változtak. Ha meggondolja magát, kattintson újra, és engedélyezze az engedélyezést"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Webhely ikonok megjelenítése csoportok összeomlásakor",
@@ -411,6 +437,38 @@
         "downloadOnly": "Csak letöltés",
         "staySynchronized": "Maradjon szinkronizálva",
         "globaldisabledTips": "A szinkronizálást be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
+      }
+    },
+    "importAndExport": {
+      "title": "Importálás/Exportálás",
+      "description": "",
+      "options": {
+        "preferences": "Felhasználói beállítások",
+        "preferencesInfo": "Tartalmazza az alapértelmezett általános beállításokat, a megjelenítési és adatbeállításokat, valamint a felhasználói felület témáinak váltását.",
+        "quickAccess": "Gyors hozzáférés",
+        "quickAccessWarning": "Egy nem látogatott weboldal ikonja rendellenesen jelenhet meg. Ne aggódjon, a böngésző újraindítása után normálisan fog megjelenni.",
+        "siteConfig": "Webhely beállítások",
+        "siteConfigInfo": "például automatikusan elvethető, kép a képben lapváltáskor, olvasási folyamatjelző sáv, lejátszási folyamatjelző sáv stb.",
+        "recentlyTabs": "Nemrég bezárt lapok"
+      },
+      "cancelBtn": "Mégse",
+      "exportBtn": "Exportálás",
+      "importBtn": "Importálás",
+      "importing": "Importálás...",
+      "fileError": "Fájl feldolgozási hiba, kérjük, töltse fel a helyes JSON konfigurációs fájlt",
+      "import": {
+        "label": "Importálás fájlból",
+        "description": "",
+        "formTips": "Válassza ki az importálni kívánt adatokat",
+        "importSuccess": "Importálás sikeres",
+        "importFailed": "Importálás sikertelen"
+      },
+      "export": {
+        "label": "Exportálás fájlba",
+        "description": "",
+        "formTips": "Válassza ki az exportálni kívánt adatokat",
+        "exportSuccess": "Exportálás sikeres",
+        "exportFailed": "Exportálás sikertelen"
       }
     },
     "SyncToCloud": {

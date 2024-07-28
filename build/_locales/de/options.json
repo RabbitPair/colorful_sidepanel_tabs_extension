@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Symbolleiste anzeigen",
-        "description": "Wenn aktiviert, wird die Symbolleiste angezeigt"
+        "description": "Wenn aktiviert, wird die Symbolleiste angezeigt",
+        "moreOptions": "Weitere Optionen",
+        "moreOptionsDescription": "Sie können steuern, welche Symbole in der Symbolleiste angezeigt werden.",
+        "moreOptionsHideLabel": "Symbolleisten-Symbolbeschriftungen ausblenden",
+        "close": "Schließen",
+        "options": {
+          "toolbar_newtab": "Neuer Tab",
+          "toolbar_orderby": "Sortieren nach",
+          "toolbar_showby": "Anzeigen nach",
+          "toolbar_view": "Ansicht",
+          "toolbar_colorMode": "Farbmodus",
+          "toolbar_muteAllTabs": "Alle Tabs stummschalten, die Geräusche machen",
+          "toolbar_scrollToActiveTab": "Zum aktiven Tab scrollen"
+        }
       },
       "bottomNav": {
         "label": "Untere Navigationsleiste anzeigen",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Schnellzugriff anzeigen",
         "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff angezeigt wird, damit er leicht zu finden ist. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie Zum Schnellzugriff anheften. Lösen Sie ihn, wenn Sie ihn dort nicht mehr benötigen, indem Sie mit der rechten Maustaste darauf klicken (oder lange drücken) und Von Schnellzugriff löschen auswählen. Der Unterschied zu angehefteten Tabs besteht darin, dass der Schnellzugriff die URL speichert und jedes Mal, wenn darauf geklickt wird, einen neuen Tab öffnet."
+      },
+      "selectFromHistory": {
+        "label": "Aus dem Verlauf auswählen",
+        "description": "Wenn Sie aus dem Verlauf auswählen müssen, ist Ihre Autorisierung erforderlich",
+        "numberOfDays": "Anzahl der Tage",
+        "numberOfUrls": "Anzahl der URLs",
+        "cancel": "Abbrechen",
+        "query": "Abfrage",
+        "selectItemsToAddToQuickAccess": "Elemente zum Schnellzugriff hinzufügen auswählen:",
+        "selectAll": "Alle auswählen",
+        "addSelected": "Ausgewählte hinzufügen",
+        "addedSuccess": "{{count}} Elemente zum Schnellzugriff hinzugefügt.",
+        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Webseitensymbole beim Zusammenklappen von Gruppen anzeigen",
@@ -411,6 +437,38 @@
         "downloadOnly": "Nur herunterladen",
         "staySynchronized": "Synchronisiert bleiben",
         "globaldisabledTips": "Sie müssen die Synchronisierung in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      }
+    },
+    "importAndExport": {
+      "title": "Importieren/Exportieren",
+      "description": "",
+      "options": {
+        "preferences": "Benutzereinstellungen",
+        "preferencesInfo": "Beinhaltet allgemeine Standardeinstellungen, Anzeige- und Datenschutzeinstellungen sowie das Wechseln von Benutzeroberflächenthemen.",
+        "quickAccess": "Schnellzugriff",
+        "quickAccessWarning": "Das Symbol einer unbesuchten Website kann abnormal angezeigt werden. Keine Sorge, es wird normal angezeigt, nachdem Sie die Website besucht und den Browser neu gestartet haben.",
+        "siteConfig": "Website-Einstellungen",
+        "siteConfigInfo": "wie z.B. automatisch verwerfbar, Bild-in-Bild beim Tab-Wechsel, Lesefortschrittsbalken, Abspielfortschrittsbalken usw.",
+        "recentlyTabs": "Kürzlich geschlossene Tabs"
+      },
+      "cancelBtn": "Abbrechen",
+      "exportBtn": "Exportieren",
+      "importBtn": "Importieren",
+      "importing": "Importieren...",
+      "fileError": "Dateiparsing-Fehler, bitte laden Sie die korrekte JSON-Konfigurationsdatei hoch",
+      "import": {
+        "label": "Aus Datei importieren",
+        "description": "",
+        "formTips": "Wählen Sie die Daten aus, die Sie importieren möchten",
+        "importSuccess": "Import erfolgreich",
+        "importFailed": "Import fehlgeschlagen"
+      },
+      "export": {
+        "label": "In Datei exportieren",
+        "description": "",
+        "formTips": "Wählen Sie die Daten aus, die Sie exportieren möchten",
+        "exportSuccess": "Export erfolgreich",
+        "exportFailed": "Export fehlgeschlagen"
       }
     },
     "SyncToCloud": {

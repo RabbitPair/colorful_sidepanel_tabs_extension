@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Wys nutsbalk",
-        "description": "Wanneer geaktiveer, word die nutsbalk vertoon"
+        "description": "Wanneer geaktiveer, word die nutsbalk vertoon",
+        "moreOptions": "Meer Opsies",
+        "moreOptionsDescription": "Jy kan beheer watter ikone op die nutsbalk verskyn.",
+        "moreOptionsHideLabel": "Versteek nutsbalk ikoonetikette",
+        "close": "Sluit",
+        "options": {
+          "toolbar_newtab": "Nuwe Oortjie",
+          "toolbar_orderby": "Sorteer Volgens",
+          "toolbar_showby": "Wys Volgens",
+          "toolbar_view": "siening",
+          "toolbar_colorMode": "Kleurmodus",
+          "toolbar_muteAllTabs": "Dem Al Die Oortjies Wat Geluide Maak",
+          "toolbar_scrollToActiveTab": "Rol na Aktiewe Oortjie"
+        }
       },
       "bottomNav": {
         "label": "Wys onderste navigasiebalk",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Wys vasgepen tabs as ikone",
         "description": "Wanneer geaktiveer, sal vasgepen tabs as ikone vertoon word en nie in die lys nie"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Wys vinnige toegang",
+        "description": "Jy kan 'n oortjie stel om in Vinnige toegang te verskyn sodat dit maklik is om te vind. Regskliek (of druk lank) daarop en kies Pin na Vinnige toegang. Ontkoppel dit wanneer jy dit nie meer daar nodig het nie deur regskliek (of lank te druk) daarop en kies Verwyder van Vinnige toegang. Die verskil van vasgepende oortjies is dat Vinnige Toegang die URL stoor en 'n nuwe oortjie oopmaak elke keer as dit gekliek word."
+      },
+      "selectFromHistory": {
+        "label": "Kies uit geskiedenis",
+        "description": "As jy uit die geskiedenis moet kies, is jou magtiging nodig",
+        "numberOfDays": "Aantal dae",
+        "numberOfUrls": "Aantal URL's",
+        "cancel": "Kanselleer",
+        "query": "Navraag",
+        "selectItemsToAddToQuickAccess": "Kies items om by vinnige toegang te voeg:",
+        "selectAll": "Kies Alles",
+        "addSelected": "Voeg Gekose By",
+        "addedSuccess": "{{count}} items by vinnige toegang gevoeg.",
+        "deniedMessage": "Jy het die vereiste toestemming geweier, so die instellings het nie verander nie. As jy van gedagte verander, klik asseblief weer en gee toestemming"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Wys webwerfikone wanneer groepe saamgevou word",
@@ -406,6 +436,38 @@
         "downloadOnly": "Net aflaai",
         "staySynchronized": "Bly gesinkroniseer",
         "globaldisabledTips": "Jy moet die sinkronisasie in Globale Instellings aanskakel om hierdie instelling te wysig."
+      }
+    },
+    "importAndExport": {
+      "title": "Invoer/Uitvoer",
+      "description": "",
+      "options": {
+        "preferences": "Gebruikersvoorkeure",
+        "preferencesInfo": "Sluit standaard algemene instellings, vertoon- en datavoorkeure, en die wisseling van gebruikerskoppelvlaktemas in.",
+        "quickAccess": "Vinnige Toegang",
+        "quickAccessWarning": "Die ikoon van 'n onbesoekte webwerf mag abnormaal vertoon. Moenie bekommerd wees nie, dit sal normaal vertoon nadat jy die webwerf besoek en die blaaier herbegin het.",
+        "siteConfig": "Webwerf Instellings",
+        "siteConfigInfo": "soos outomaties verwerpbaar, prent-in-prent op Tab Skakel, leesvorderingsbalk, speelvorderingsbalk, ens.",
+        "recentlyTabs": "Onlangs geslote oortjies"
+      },
+      "cancelBtn": "Kanselleer",
+      "exportBtn": "Uitvoer",
+      "importBtn": "Invoer",
+      "importing": "Besig om in te voer...",
+      "fileError": "Lêerontledingsfout, laai asseblief die korrekte JSON-konfigurasielêer op",
+      "import": {
+        "label": "Invoer vanaf lêer",
+        "description": "",
+        "formTips": "Kies die data wat jy wil invoer",
+        "importSuccess": "Invoer suksesvol",
+        "importFailed": "Invoer het misluk"
+      },
+      "export": {
+        "label": "Uitvoer na lêer",
+        "description": "",
+        "formTips": "Kies die data wat jy wil uitvoer",
+        "exportSuccess": "Uitvoer suksesvol",
+        "exportFailed": "Uitvoer het misluk"
       }
     },
     "SyncToCloud": {

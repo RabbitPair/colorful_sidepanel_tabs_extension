@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Rodyti įrankių juostą",
-        "description": "Kai įjungta, rodoma įrankių juosta"
+        "description": "Kai įjungta, rodoma įrankių juosta",
+        "moreOptions": "Daugiau parinkčių",
+        "moreOptionsDescription": "Galite valdyti, kurios piktogramos rodomos įrankių juostoje.",
+        "moreOptionsHideLabel": "Slėpti įrankių juostos piktogramų etiketes",
+        "close": "Uždaryti",
+        "options": {
+          "toolbar_newtab": "Naujas skirtukas",
+          "toolbar_orderby": "Rūšiuoti pagal",
+          "toolbar_showby": "Rodyti pagal",
+          "toolbar_view": "vaizdas",
+          "toolbar_colorMode": "Spalvų režimas",
+          "toolbar_muteAllTabs": "Nutildyti visus garsą skleidžiančius skirtukus",
+          "toolbar_scrollToActiveTab": "Slinkti iki aktyvaus skirtuko"
+        }
       },
       "bottomNav": {
         "label": "Rodyti apatinę naršymo juostą",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Rodyti greitąją prieigą",
         "description": "Galite nustatyti skirtuką, kad jis būtų rodomas greitojoje prieigoje, kad būtų lengva rasti. Tiesiog dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite Prisegti prie greitosios prieigos. Atsegti, kai jo nebereikia, dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite Ištrinti iš greitosios prieigos. Skirtumas nuo prisegtų skirtukų yra tas, kad greitoji prieiga išsaugo URL ir kiekvieną kartą spustelėjus atidaro naują skirtuką."
+      },
+      "selectFromHistory": {
+        "label": "Pasirinkti iš istorijos",
+        "description": "Jei reikia pasirinkti iš istorijos, reikalinga jūsų autorizacija",
+        "numberOfDays": "Dienų skaičius",
+        "numberOfUrls": "URL skaičius",
+        "cancel": "Atšaukti",
+        "query": "Užklausa",
+        "selectItemsToAddToQuickAccess": "Pasirinkite elementus, kuriuos norite pridėti prie greitosios prieigos:",
+        "selectAll": "Pasirinkti viską",
+        "addSelected": "Pridėti pasirinktus",
+        "addedSuccess": "Pridėta {{count}} elementų prie greitosios prieigos.",
+        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nebuvo pakeisti. Jei persigalvosite, spustelėkite dar kartą ir leiskite autorizaciją"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Rodyti svetainių piktogramas, kai grupės yra suskleistos",
@@ -411,6 +437,38 @@
         "downloadOnly": "Tik atsisiųsti",
         "staySynchronized": "Išlikti sinchronizuotam",
         "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą globaliuose nustatymuose."
+      }
+    },
+    "importAndExport": {
+      "title": "Importuoti/Eksportuoti",
+      "description": "",
+      "options": {
+        "preferences": "Vartotojo nuostatos",
+        "preferencesInfo": "Apima numatytuosius bendruosius nustatymus, ekrano ir duomenų nuostatas bei vartotojo sąsajos temų keitimą.",
+        "quickAccess": "Greita prieiga",
+        "quickAccessWarning": "Neaplankytos svetainės piktograma gali būti rodoma netinkamai. Nesijaudinkite, ji bus rodoma tinkamai po to, kai apsilankysite ir iš naujo paleisite naršyklę.",
+        "siteConfig": "Svetainės nustatymai",
+        "siteConfigInfo": "tokie kaip automatiškai atmestinas, vaizdas vaizde perjungiant skirtukus, skaitymo progreso juosta, grojimo progreso juosta ir kt.",
+        "recentlyTabs": "Neseniai uždaryti skirtukai"
+      },
+      "cancelBtn": "Atšaukti",
+      "exportBtn": "Eksportuoti",
+      "importBtn": "Importuoti",
+      "importing": "Importuojama...",
+      "fileError": "Failo analizės klaida, prašome įkelti teisingą JSON konfigūracijos failą",
+      "import": {
+        "label": "Importuoti iš failo",
+        "description": "",
+        "formTips": "Pasirinkite duomenis, kuriuos norite importuoti",
+        "importSuccess": "Importavimas sėkmingas",
+        "importFailed": "Importavimas nepavyko"
+      },
+      "export": {
+        "label": "Eksportuoti į failą",
+        "description": "",
+        "formTips": "Pasirinkite duomenis, kuriuos norite eksportuoti",
+        "exportSuccess": "Eksportavimas sėkmingas",
+        "exportFailed": "Eksportavimas nepavyko"
       }
     },
     "SyncToCloud": {

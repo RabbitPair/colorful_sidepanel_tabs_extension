@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Mostra la barra d'eines",
-        "description": "Quan està habilitat, es mostra la barra d'eines"
+        "description": "Quan està habilitat, es mostra la barra d'eines",
+        "moreOptions": "Més opcions",
+        "moreOptionsDescription": "Pots controlar quines icones apareixen a la barra d'eines.",
+        "moreOptionsHideLabel": "Amaga les etiquetes de les icones de la barra d'eines",
+        "close": "Tanca",
+        "options": {
+          "toolbar_newtab": "Nova pestanya",
+          "toolbar_orderby": "Ordena per",
+          "toolbar_showby": "Mostra per",
+          "toolbar_view": "vista",
+          "toolbar_colorMode": "Mode de color",
+          "toolbar_muteAllTabs": "Silencia totes les pestanyes que fan soroll",
+          "toolbar_scrollToActiveTab": "Desplaça't a la pestanya activa"
+        }
       },
       "bottomNav": {
         "label": "Mostra la barra de navegació inferior",
@@ -406,6 +419,38 @@
         "downloadOnly": "Només baixar",
         "staySynchronized": "Mantenir sincronitzat",
         "globaldisabledTips": "Heu d'activar la sincronització a la configuració global per modificar aquesta configuració."
+      }
+    },
+    "importAndExport": {
+      "title": "Importar/Exportar",
+      "description": "",
+      "options": {
+        "preferences": "Preferències de l'usuari",
+        "preferencesInfo": "Inclou la configuració general per defecte, preferències de visualització i dades, i canvi de temes de la interfície d'usuari.",
+        "quickAccess": "Accés ràpid",
+        "quickAccessWarning": "La icona d'un lloc web no visitat pot mostrar-se de manera anormal. No et preocupis, es mostrarà normalment després de visitar-lo i reiniciar el navegador.",
+        "siteConfig": "Configuració del lloc",
+        "siteConfigInfo": "com ara descartable automàticament, picture-in-picture en canvi de pestanya, barra de progrés de lectura, barra de progrés de reproducció, etc.",
+        "recentlyTabs": "Pestanyes tancades recentment"
+      },
+      "cancelBtn": "Cancel·la",
+      "exportBtn": "Exportar",
+      "importBtn": "Importar",
+      "importing": "Important...",
+      "fileError": "Error en l'anàlisi del fitxer, si us plau, carrega el fitxer de configuració JSON correcte",
+      "import": {
+        "label": "Importar des d'un fitxer",
+        "description": "",
+        "formTips": "Selecciona les dades que vols importar",
+        "importSuccess": "Importació exitosa",
+        "importFailed": "Importació fallida"
+      },
+      "export": {
+        "label": "Exportar a un fitxer",
+        "description": "",
+        "formTips": "Selecciona les dades que vols exportar",
+        "exportSuccess": "Exportació exitosa",
+        "exportFailed": "Exportació fallida"
       }
     },
     "SyncToCloud": {

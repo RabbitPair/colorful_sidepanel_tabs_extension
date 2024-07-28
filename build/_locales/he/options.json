@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "הצג סרגל כלים",
-        "description": "כאשר מופעל, סרגל הכלים יוצג"
+        "description": "כאשר מופעל, סרגל הכלים יוצג",
+        "moreOptions": "אפשרויות נוספות",
+        "moreOptionsDescription": "תוכל לשלוט באילו סמלים יופיעו בסרגל הכלים.",
+        "moreOptionsHideLabel": "הסתר תוויות סמלי סרגל הכלים",
+        "close": "סגור",
+        "options": {
+          "toolbar_newtab": "כרטיסייה חדשה",
+          "toolbar_orderby": "מיין לפי",
+          "toolbar_showby": "הצג לפי",
+          "toolbar_view": "תצוגה",
+          "toolbar_colorMode": "מצב צבע",
+          "toolbar_muteAllTabs": "השתק את כל הכרטיסיות שמשמיעות צלילים",
+          "toolbar_scrollToActiveTab": "גלול לכרטיסייה הפעילה"
+        }
       },
       "bottomNav": {
         "label": "הצג סרגל ניווט תחתון",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "הצג גישה מהירה",
         "description": "תוכל להגדיר כרטיסייה שתוצג בגישה מהירה כך שיהיה קל למצוא אותה. פשוט לחץ לחיצה ימנית (או לחץ ארוך) ובחר נעץ לגישה מהירה. הסר את הנעיצה כאשר אינך זקוק לה יותר על ידי לחיצה ימנית (או לחיצה ארוכה) ובחירה מחק מגישה מהירה. ההבדל מכרטיסיות נעוצות הוא שגישה מהירה שומרת את כתובת ה-URL ופותחת כרטיסייה חדשה בכל פעם שלוחצים עליה."
+      },
+      "selectFromHistory": {
+        "label": "בחר מההיסטוריה",
+        "description": "אם אתה צריך לבחור מההיסטוריה, נדרשת הרשאתך",
+        "numberOfDays": "מספר הימים",
+        "numberOfUrls": "מספר כתובות ה-URL",
+        "cancel": "בטל",
+        "query": "שאילתה",
+        "selectItemsToAddToQuickAccess": "בחר פריטים להוספה לגישה מהירה:",
+        "selectAll": "בחר הכל",
+        "addSelected": "הוסף נבחרים",
+        "addedSuccess": "נוספו {{count}} פריטים לגישה מהירה.",
+        "deniedMessage": "סירבת להרשאה הנדרשת, ולכן ההגדרות לא השתנו. אם תשנה את דעתך, אנא לחץ שוב ואפשר הרשאה"
       },
       "collapsedGroupShowTabIcons": {
         "label": "הצג סמלי אתרים בעת קריסת קבוצות",
@@ -411,6 +437,38 @@
         "downloadOnly": "הורד בלבד",
         "staySynchronized": "הישאר מסונכרן",
         "globaldisabledTips": "עליך להפעיל סנכרון בהגדרות הגלובליות כדי לשנות הגדרה זו."
+      }
+    },
+    "importAndExport": {
+      "title": "ייבוא/ייצוא",
+      "description": "",
+      "options": {
+        "preferences": "העדפות משתמש",
+        "preferencesInfo": "כולל הגדרות כלליות ברירת מחדל, העדפות תצוגה ונתונים, ומעבר בין נושאי ממשק משתמש.",
+        "quickAccess": "גישה מהירה",
+        "quickAccessWarning": "הסמל של אתר שלא ביקרו בו עשוי להופיע בצורה לא תקינה. אל דאגה, הוא יופיע בצורה תקינה לאחר שתבקרו ותפעילו מחדש את הדפדפן.",
+        "siteConfig": "הגדרות אתר",
+        "siteConfigInfo": "כגון ביטול אוטומטי, תמונה בתוך תמונה במעבר כרטיסיות, סרגל התקדמות קריאה, סרגל התקדמות ניגון, וכו'.",
+        "recentlyTabs": "כרטיסיות שנסגרו לאחרונה"
+      },
+      "cancelBtn": "בטל",
+      "exportBtn": "ייצא",
+      "importBtn": "ייבא",
+      "importing": "מייבא...",
+      "fileError": "שגיאת ניתוח קובץ, אנא העלה את קובץ התצורה הנכון בפורמט JSON",
+      "import": {
+        "label": "ייבא מקובץ",
+        "description": "",
+        "formTips": "בחר את הנתונים שברצונך לייבא",
+        "importSuccess": "הייבוא הצליח",
+        "importFailed": "הייבוא נכשל"
+      },
+      "export": {
+        "label": "ייצא לקובץ",
+        "description": "",
+        "formTips": "בחר את הנתונים שברצונך לייצא",
+        "exportSuccess": "הייצוא הצליח",
+        "exportFailed": "הייצוא נכשל"
       }
     },
     "SyncToCloud": {

@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Erekana ibikoresho",
-        "description": "Iyo yemejwe, ibikoresho birerekanwa"
+        "description": "Iyo yemejwe, ibikoresho birerekanwa",
+        "moreOptions": "Amahitamo menshi",
+        "moreOptionsDescription": "Urashobora kugenzura ibimenyetso bigaragara kuri toolbar.",
+        "moreOptionsHideLabel": "Hisha ibimenyetso bya toolbar",
+        "close": "Funga",
+        "options": {
+          "toolbar_newtab": "Ikarita nshya",
+          "toolbar_orderby": "Kururutsa",
+          "toolbar_showby": "Kwerekana",
+          "toolbar_view": "reba",
+          "toolbar_colorMode": "Ubwoko bw'amabara",
+          "toolbar_muteAllTabs": "Cecekesha amakarita yose akora urusaku",
+          "toolbar_scrollToActiveTab": "Kuzunguruka ku ikarita ikora"
+        }
       },
       "bottomNav": {
         "label": "Erekana urubuga rwo hasi",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Erekana amapaji afatanye nk'ibimenyetso",
         "description": "Iyo yemejwe, amapaji afatanye azerekanwa nk'ibimenyetso kandi ntibizerekanwa mu rutonde"
+      },
+      "pinToQuickAccess": {
+        "label": "Erekana kwinjira byihuse",
+        "description": "Urashobora gushyiraho tab kugirango yerekane muri Quick access kugirango byorohe kubibona. Kanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo Pin to Quick access. Kuyikuraho igihe utagikeneye aho ukanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo Gusiba muri Quick access. Itandukaniro riri hagati ya tabs zafashwe ni uko Quick Access ibika URL kandi igafungura tab nshya buri gihe iyo ikanditsweho."
+      },
+      "selectFromHistory": {
+        "label": "Hitamo mu mateka",
+        "description": "Niba ukeneye guhitamo mu mateka, uruhushya rwawe rurakenewe",
+        "numberOfDays": "Umubare w'iminsi",
+        "numberOfUrls": "Umubare wa URLs",
+        "cancel": "Hagarika",
+        "query": "Gusaba",
+        "selectItemsToAddToQuickAccess": "Hitamo ibintu byo kongera muri quick access:",
+        "selectAll": "Hitamo byose",
+        "addSelected": "Ongeraho byatoranijwe",
+        "addedSuccess": "Byongeweho {{count}} ibintu muri quick access.",
+        "deniedMessage": "Wanze uruhushya rukenewe, bityo igenamiterere ntiryahindutse. Niba uhinduye ibitekerezo, kanda kongera kandi wemere uruhushya"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Erekana ibimenyetso by'urubuga iyo itsinda ryegeranye",
@@ -406,6 +436,38 @@
         "downloadOnly": "Gukura gusa",
         "staySynchronized": "Kurangiza kugira ngo azasinzire",
         "globaldisabledTips": "Ibyo wakoresheje gusinzira mu byerekeye ibikoresho byose kugirango ushobore guhindura iyi settinga."
+      }
+    },
+    "importAndExport": {
+      "title": "Kwinjiza/Gusohora",
+      "description": "",
+      "options": {
+        "preferences": "Ibyo Umukoresha Akunda",
+        "preferencesInfo": "Birimo guhindura ibikoresho by'ibanze, guhindura ibikoresho by'ibikoresho, no guhindura insanganyamatsiko y'uburyo bwo gukoresha.",
+        "quickAccess": "Kwinjira Vuba",
+        "quickAccessWarning": "Ikirangantego cy'urubuga rutari rwigeze gusurwa gishobora kugaragara nabi. Ntugire ikibazo, kizagaragara neza nyuma yo gusura no kongera gufungura umubrowiza.",
+        "siteConfig": "Ibyo Urubuga Rukoresha",
+        "siteConfigInfo": "nko kuba auto discardable, picture-in-picture kuri Tab Switch, umurongo w'ukurikira, umurongo w'ukurikira, n'ibindi.",
+        "recentlyTabs": "Amataburiya aherutse gufungwa"
+      },
+      "cancelBtn": "Hagarika",
+      "exportBtn": "Gusohora",
+      "importBtn": "Kwinjiza",
+      "importing": "Birimo Kwinjizwa...",
+      "fileError": "Ikosa ryo gusesengura dosiye, nyamuneka shyiramo dosiye ya JSON ikwiye",
+      "import": {
+        "label": "Kwinjiza muri dosiye",
+        "description": "",
+        "formTips": "Hitamo amakuru ushaka kwinjiza",
+        "importSuccess": "Kwinjiza byagenze neza",
+        "importFailed": "Kwinjiza byanze"
+      },
+      "export": {
+        "label": "Gusohora muri dosiye",
+        "description": "",
+        "formTips": "Hitamo amakuru ushaka gusohora",
+        "exportSuccess": "Gusohora byagenze neza",
+        "exportFailed": "Gusohora byanze"
       }
     },
     "SyncToCloud": {

@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Prikaži alatnu traku",
-        "description": "Kada je omogućeno, alatna traka je prikazana"
+        "description": "Kada je omogućeno, alatna traka je prikazana",
+        "moreOptions": "Više opcija",
+        "moreOptionsDescription": "Možete kontrolisati koje ikone se pojavljuju na alatnoj traci.",
+        "moreOptionsHideLabel": "Sakrij oznake ikona alatne trake",
+        "close": "Zatvori",
+        "options": {
+          "toolbar_newtab": "Nova kartica",
+          "toolbar_orderby": "Poredaj po",
+          "toolbar_showby": "Prikaži po",
+          "toolbar_view": "prikaz",
+          "toolbar_colorMode": "Režim boja",
+          "toolbar_muteAllTabs": "Isključi zvuk na svim karticama koje proizvode zvuk",
+          "toolbar_scrollToActiveTab": "Skroluj do aktivne kartice"
+        }
       },
       "bottomNav": {
         "label": "Prikaži donju navigacionu traku",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Prikaži brzi pristup",
         "description": "Možete postaviti karticu da se prikaže u Brzom pristupu kako bi je bilo lako pronaći. Samo kliknite desnim tasterom miša (ili dugo pritisnite) i izaberite Zakači za brzi pristup. Otkačite je kada vam više nije potrebna tamo tako što ćete kliknuti desnim tasterom miša (ili dugo pritisnuti) i izabrati Obriši iz brzog pristupa. Razlika od zakačenih kartica je u tome što Brzi pristup čuva URL i otvara novu karticu svaki put kada se klikne."
+      },
+      "selectFromHistory": {
+        "label": "Izaberi iz istorije",
+        "description": "Ako treba da izaberete iz istorije, potrebna je vaša autorizacija",
+        "numberOfDays": "Broj dana",
+        "numberOfUrls": "Broj URL-ova",
+        "cancel": "Otkaži",
+        "query": "Upit",
+        "selectItemsToAddToQuickAccess": "Izaberite stavke za dodavanje u brzi pristup:",
+        "selectAll": "Izaberi sve",
+        "addSelected": "Dodaj izabrano",
+        "addedSuccess": "Dodato {{count}} stavki u brzi pristup.",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, tako da podešavanja nisu promenjena. Ako se predomislite, molimo vas da ponovo kliknete i dozvolite autorizaciju"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Prikaži ikone vebsajta kada se grupe skupe",
@@ -411,6 +437,38 @@
         "downloadOnly": "Samo preuzimanje",
         "staySynchronized": "Ostani sinhronizovan",
         "globaldisabledTips": "Morate uključiti sinhronizaciju u globalnim podešavanjima da biste izmenili ovo podešavanje."
+      }
+    },
+    "importAndExport": {
+      "title": "Uvoz/Izvoz",
+      "description": "",
+      "options": {
+        "preferences": "Korisničke postavke",
+        "preferencesInfo": "Uključuje podrazumevana opšta podešavanja, prikaz i podatke, kao i promenu tema korisničkog interfejsa.",
+        "quickAccess": "Brzi pristup",
+        "quickAccessWarning": "Ikona neposećenog sajta može se prikazati nenormalno. Ne brinite, prikazaće se normalno nakon što posetite sajt i ponovo pokrenete pregledač.",
+        "siteConfig": "Podešavanja sajta",
+        "siteConfigInfo": "kao što su automatsko odbacivanje, slika u slici pri prebacivanju kartica, traka napretka čitanja, traka napretka reprodukcije, itd.",
+        "recentlyTabs": "Nedavno zatvorene kartice"
+      },
+      "cancelBtn": "Otkaži",
+      "exportBtn": "Izvezi",
+      "importBtn": "Uvezi",
+      "importing": "Uvozi se...",
+      "fileError": "Greška pri parsiranju datoteke, molimo vas da otpremite ispravnu JSON konfiguracionu datoteku",
+      "import": {
+        "label": "Uvezi iz datoteke",
+        "description": "",
+        "formTips": "Izaberite podatke koje želite da uvezete",
+        "importSuccess": "Uvoz uspešan",
+        "importFailed": "Uvoz neuspešan"
+      },
+      "export": {
+        "label": "Izvezi u datoteku",
+        "description": "",
+        "formTips": "Izaberite podatke koje želite da izvezete",
+        "exportSuccess": "Izvoz uspešan",
+        "exportFailed": "Izvoz neuspešan"
       }
     },
     "SyncToCloud": {

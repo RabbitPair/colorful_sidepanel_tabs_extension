@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Shfaqni shiritin e veglave",
-        "description": "Kur aktivizohet, shfaqet shiriti i veglave"
+        "description": "Kur aktivizohet, shfaqet shiriti i veglave",
+        "moreOptions": "Më shumë opsione",
+        "moreOptionsDescription": "Ju mund të kontrolloni cilat ikona shfaqen në shiritin e veglave.",
+        "moreOptionsHideLabel": "Fshih etiketat e ikonave të shiritit të veglave",
+        "close": "Mbyll",
+        "options": {
+          "toolbar_newtab": "Skedë e re",
+          "toolbar_orderby": "Rendit sipas",
+          "toolbar_showby": "Shfaq sipas",
+          "toolbar_view": "shikim",
+          "toolbar_colorMode": "Mënyra e ngjyrave",
+          "toolbar_muteAllTabs": "Fik të gjitha skedat që bëjnë zë",
+          "toolbar_scrollToActiveTab": "Rrotullohu te skeda aktive"
+        }
       },
       "bottomNav": {
         "label": "Shfaqni shiritin e navigimit në fund",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Shfaq zavihkat e ngjitur si ikona",
         "description": "Kur aktivizohet, zavihkat e ngjitur do të shfaqen si ikona dhe jo në listë"
+      },
+      "pinToQuickAccess": {
+        "label": "Shfaq qasjen e shpejtë",
+        "description": "Mund të vendosni një skedë që të shfaqet në Qasje të shpejtë që të jetë e lehtë për t'u gjetur. Thjesht klikoni me të djathtën (ose shtypni gjatë) dhe zgjidhni Vendos në Qasje të shpejtë. Hiqeni kur nuk ju nevojitet më duke klikuar me të djathtën (ose duke shtypur gjatë) dhe duke zgjedhur Fshi nga Qasja e shpejtë. Dallimi nga skedat e ngjitura është se Qasja e shpejtë ruan URL-në dhe hap një skedë të re sa herë që klikohet."
+      },
+      "selectFromHistory": {
+        "label": "Zgjidh nga historia",
+        "description": "Nëse keni nevojë të zgjidhni nga historia, kërkohet autorizimi juaj",
+        "numberOfDays": "Numri i ditëve",
+        "numberOfUrls": "Numri i URL-ve",
+        "cancel": "Anulo",
+        "query": "Kërko",
+        "selectItemsToAddToQuickAccess": "Zgjidh artikujt për t'i shtuar në qasje të shpejtë:",
+        "selectAll": "Zgjidh të gjitha",
+        "addSelected": "Shto të zgjedhurat",
+        "addedSuccess": "Shtuar {{count}} artikuj në qasje të shpejtë.",
+        "deniedMessage": "Ju keni mohuar lejen e kërkuar, kështu që cilësimet nuk janë ndryshuar. Nëse ndryshoni mendje, ju lutemi klikoni përsëri dhe lejoni autorizimin"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Shfaq ikonat e faqeve kur grupeve ulet",
@@ -406,6 +436,38 @@
         "downloadOnly": "Vetëm shkarkimi",
         "staySynchronized": "Qëndro sinkronizuar",
         "globaldisabledTips": "Duhet të aktivizoni sinkronizimin në cilësimet globale për të modifikuar këtë cilësim."
+      }
+    },
+    "importAndExport": {
+      "title": "Importo/Eksporto",
+      "description": "",
+      "options": {
+        "preferences": "Preferencat e Përdoruesit",
+        "preferencesInfo": "Përfshin cilësimet e përgjithshme të paracaktuara, preferencat e shfaqjes dhe të dhënave, dhe ndërrimin e temave të ndërfaqes së përdoruesit.",
+        "quickAccess": "Qasje e Shpejtë",
+        "quickAccessWarning": "Ikona e një faqeje të pa vizituar mund të shfaqet në mënyrë anormale. Mos u shqetësoni, do të shfaqet normalisht pasi ta vizitoni dhe të rifilloni shfletuesin.",
+        "siteConfig": "Cilësimet e Faqes",
+        "siteConfigInfo": "si auto-shpërndarë, imazh-në-imazh në ndërrimin e zavihkat, shiriti i progresit të leximit, shiriti i progresit të luajtjes, etj.",
+        "recentlyTabs": "Zavihkat e mbyllura së fundmi"
+      },
+      "cancelBtn": "Anulo",
+      "exportBtn": "Eksporto",
+      "importBtn": "Importo",
+      "importing": "Duke importuar...",
+      "fileError": "Gabim në analizimin e skedarit, ju lutemi ngarkoni skedarin e saktë të konfigurimit JSON",
+      "import": {
+        "label": "Importo nga skedari",
+        "description": "",
+        "formTips": "Zgjidhni të dhënat që dëshironi të importoni",
+        "importSuccess": "Importimi u krye me sukses",
+        "importFailed": "Importimi dështoi"
+      },
+      "export": {
+        "label": "Eksporto në skedar",
+        "description": "",
+        "formTips": "Zgjidhni të dhënat që dëshironi të eksportoni",
+        "exportSuccess": "Eksportimi u krye me sukses",
+        "exportFailed": "Eksportimi dështoi"
       }
     },
     "SyncToCloud": {

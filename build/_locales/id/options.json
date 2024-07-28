@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Tampilkan toolbar",
-        "description": "Ketika diaktifkan, toolbar akan ditampilkan"
+        "description": "Ketika diaktifkan, toolbar akan ditampilkan",
+        "moreOptions": "Opsi Lainnya",
+        "moreOptionsDescription": "Anda dapat mengontrol ikon mana yang muncul di toolbar.",
+        "moreOptionsHideLabel": "Sembunyikan label ikon toolbar",
+        "close": "Tutup",
+        "options": {
+          "toolbar_newtab": "Tab Baru",
+          "toolbar_orderby": "Urutkan Berdasarkan",
+          "toolbar_showby": "Tampilkan Berdasarkan",
+          "toolbar_view": "tampilan",
+          "toolbar_colorMode": "Mode warna",
+          "toolbar_muteAllTabs": "Bisukan Semua Tab yang Mengeluarkan Suara",
+          "toolbar_scrollToActiveTab": "Gulir ke Tab Aktif"
+        }
       },
       "bottomNav": {
         "label": "Tampilkan bilah navigasi bawah",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Tampilkan akses cepat",
         "description": "Anda dapat mengatur tab untuk ditampilkan di Akses cepat sehingga mudah ditemukan. Cukup klik kanan (atau tekan lama) dan pilih Sematkan ke Akses cepat. Lepaskan saat Anda tidak membutuhkannya lagi dengan mengklik kanan (atau menekan lama) dan memilih Hapus dari Akses cepat. Perbedaannya dengan tab yang disematkan adalah Akses Cepat menyimpan URL dan membuka tab baru setiap kali diklik."
+      },
+      "selectFromHistory": {
+        "label": "Pilih dari riwayat",
+        "description": "Jika Anda perlu memilih dari riwayat, otorisasi Anda diperlukan",
+        "numberOfDays": "Jumlah hari",
+        "numberOfUrls": "Jumlah URL",
+        "cancel": "Batal",
+        "query": "Kueri",
+        "selectItemsToAddToQuickAccess": "Pilih item untuk ditambahkan ke akses cepat:",
+        "selectAll": "Pilih Semua",
+        "addSelected": "Tambahkan yang Dipilih",
+        "addedSuccess": "Ditambahkan {{count}} item ke akses cepat.",
+        "deniedMessage": "Anda telah menolak izin yang diperlukan, sehingga pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Tampilkan ikon situs web saat mengelompokkan grup",
@@ -411,6 +437,38 @@
         "downloadOnly": "Hanya unduh",
         "staySynchronized": "Tetap sinkron",
         "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
+      }
+    },
+    "importAndExport": {
+      "title": "Impor/Ekspor",
+      "description": "",
+      "options": {
+        "preferences": "Preferensi Pengguna",
+        "preferencesInfo": "Termasuk pengaturan umum default, preferensi tampilan dan data, dan penggantian tema antarmuka pengguna.",
+        "quickAccess": "Akses Cepat",
+        "quickAccessWarning": "Ikon situs web yang belum dikunjungi mungkin ditampilkan secara tidak normal. Jangan khawatir, itu akan ditampilkan secara normal setelah Anda mengunjungi dan memulai ulang browser.",
+        "siteConfig": "Pengaturan Situs",
+        "siteConfigInfo": "seperti dapat dibuang secara otomatis, gambar-dalam-gambar pada Pergantian Tab, bilah kemajuan membaca, bilah kemajuan pemutaran, dll.",
+        "recentlyTabs": "Tab yang baru saja ditutup"
+      },
+      "cancelBtn": "Batal",
+      "exportBtn": "Ekspor",
+      "importBtn": "Impor",
+      "importing": "Mengimpor...",
+      "fileError": "Kesalahan parsing file, harap unggah file konfigurasi JSON yang benar",
+      "import": {
+        "label": "Impor dari file",
+        "description": "",
+        "formTips": "Pilih data yang ingin Anda impor",
+        "importSuccess": "Impor berhasil",
+        "importFailed": "Impor gagal"
+      },
+      "export": {
+        "label": "Ekspor ke file",
+        "description": "",
+        "formTips": "Pilih data yang ingin Anda ekspor",
+        "exportSuccess": "Ekspor berhasil",
+        "exportFailed": "Ekspor gagal"
       }
     },
     "SyncToCloud": {

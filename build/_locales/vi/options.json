@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Hiển thị thanh công cụ",
-        "description": "Khi được bật, thanh công cụ sẽ được hiển thị"
+        "description": "Khi được bật, thanh công cụ sẽ được hiển thị",
+        "moreOptions": "Tùy chọn khác",
+        "moreOptionsDescription": "Bạn có thể kiểm soát các biểu tượng nào xuất hiện trên thanh công cụ.",
+        "moreOptionsHideLabel": "Ẩn nhãn biểu tượng thanh công cụ",
+        "close": "Đóng",
+        "options": {
+          "toolbar_newtab": "Thẻ mới",
+          "toolbar_orderby": "Sắp xếp theo",
+          "toolbar_showby": "Hiển thị theo",
+          "toolbar_view": "xem",
+          "toolbar_colorMode": "Chế độ màu",
+          "toolbar_muteAllTabs": "Tắt âm thanh tất cả các thẻ",
+          "toolbar_scrollToActiveTab": "Cuộn đến thẻ đang hoạt động"
+        }
       },
       "bottomNav": {
         "label": "Hiển thị thanh điều hướng dưới cùng",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Hiển thị truy cập nhanh",
         "description": "Bạn có thể đặt một thẻ để hiển thị trong Truy cập nhanh để dễ dàng tìm thấy. Chỉ cần nhấp chuột phải (hoặc nhấn lâu) và chọn Ghim vào Truy cập nhanh. Bỏ ghim khi bạn không cần nữa bằng cách nhấp chuột phải (hoặc nhấn lâu) và chọn Xóa khỏi Truy cập nhanh. Sự khác biệt so với các thẻ ghim là Truy cập nhanh lưu URL và mở một thẻ mới mỗi khi nhấp vào."
+      },
+      "selectFromHistory": {
+        "label": "Chọn từ lịch sử",
+        "description": "Nếu bạn cần chọn từ lịch sử, bạn cần ủy quyền",
+        "numberOfDays": "Số ngày",
+        "numberOfUrls": "Số lượng URL",
+        "cancel": "Hủy",
+        "query": "Truy vấn",
+        "selectItemsToAddToQuickAccess": "Chọn các mục để thêm vào truy cập nhanh:",
+        "selectAll": "Chọn tất cả",
+        "addSelected": "Thêm các mục đã chọn",
+        "addedSuccess": "Đã thêm {{count}} mục vào truy cập nhanh.",
+        "deniedMessage": "Bạn đã từ chối quyền yêu cầu, vì vậy cài đặt không thay đổi. Nếu bạn thay đổi ý định, vui lòng nhấp lại và cho phép ủy quyền"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Hiển thị biểu tượng trang web khi thu gọn nhóm",
@@ -411,6 +437,38 @@
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ",
         "globaldisabledTips": "Bạn phải bật đồng bộ trong cài đặt toàn cầu để thay đổi cài đặt này."
+      }
+    },
+    "importAndExport": {
+      "title": "Nhập/Xuất",
+      "description": "",
+      "options": {
+        "preferences": "Tùy chọn người dùng",
+        "preferencesInfo": "Bao gồm cài đặt chung mặc định, tùy chọn hiển thị và dữ liệu, và chuyển đổi giao diện người dùng.",
+        "quickAccess": "Truy cập nhanh",
+        "quickAccessWarning": "Biểu tượng của một trang web chưa được truy cập có thể hiển thị không bình thường. Đừng lo lắng, nó sẽ hiển thị bình thường sau khi bạn truy cập và khởi động lại trình duyệt.",
+        "siteConfig": "Cài đặt trang",
+        "siteConfigInfo": "chẳng hạn như tự động bỏ, hình trong hình khi chuyển thẻ, thanh tiến trình đọc, thanh tiến trình phát, v.v.",
+        "recentlyTabs": "Các thẻ đã đóng gần đây"
+      },
+      "cancelBtn": "Hủy",
+      "exportBtn": "Xuất",
+      "importBtn": "Nhập",
+      "importing": "Đang nhập...",
+      "fileError": "Lỗi phân tích tệp, vui lòng tải lên tệp cấu hình JSON chính xác",
+      "import": {
+        "label": "Nhập từ tệp",
+        "description": "",
+        "formTips": "Chọn dữ liệu bạn muốn nhập",
+        "importSuccess": "Nhập thành công",
+        "importFailed": "Nhập thất bại"
+      },
+      "export": {
+        "label": "Xuất ra tệp",
+        "description": "",
+        "formTips": "Chọn dữ liệu bạn muốn xuất",
+        "exportSuccess": "Xuất thành công",
+        "exportFailed": "Xuất thất bại"
       }
     },
     "SyncToCloud": {

@@ -1,0 +1,18 @@
+{
+  "triggerLabel": "提交建议或问题",
+  "triggerAriaLabel": "提交建议或问题",
+  "formTitle": "提交建议或问题",
+  "submitButtonLabel": "提交",
+  "cancelButtonLabel": "取消",
+  "confirmButtonLabel": "确认",
+  "addScreenshotButtonLabel": "添加截图",
+  "removeScreenshotButtonLabel": "移除截图",
+  "nameLabel": "姓名",
+  "namePlaceholder": "您的姓名",
+  "emailLabel": "邮箱",
+  "emailPlaceholder": "您的邮箱",
+  "isRequiredLabel": "（必填）",
+  "messageLabel": "描述",
+  "messagePlaceholder": "请描述您的建议或问题。",
+  "successMessageText": "感谢您的反馈！"
+}

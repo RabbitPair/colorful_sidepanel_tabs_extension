@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Amosar a barra de ferramentas",
-        "description": "Cando está habilitado, amósase a barra de ferramentas"
+        "description": "Cando está habilitado, amósase a barra de ferramentas",
+        "moreOptions": "Máis opcións",
+        "moreOptionsDescription": "Podes controlar que iconas aparecen na barra de ferramentas.",
+        "moreOptionsHideLabel": "Ocultar etiquetas de iconas da barra de ferramentas",
+        "close": "Pechar",
+        "options": {
+          "toolbar_newtab": "Nova lapela",
+          "toolbar_orderby": "Ordenar por",
+          "toolbar_showby": "Mostrar por",
+          "toolbar_view": "vista",
+          "toolbar_colorMode": "Modo de cor",
+          "toolbar_muteAllTabs": "Silenciar todas as lapelas que emiten sons",
+          "toolbar_scrollToActiveTab": "Desprazarse á lapela activa"
+        }
       },
       "bottomNav": {
         "label": "Amosar a barra de navegación inferior",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Amosar as lapas fixadas como iconas",
         "description": "Cando está habilitado, as lapas fixadas amosaranse como iconas e non na lista"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Amosar acceso rápido",
+        "description": "Podes configurar unha lapela para que apareza en Acceso rápido para que sexa fácil de atopar. Simplemente fai clic dereito (ou mantén premido) e selecciona Fixar en Acceso rápido. Desfixa cando non o necesites máis facendo clic dereito (ou mantén premido) e selecciona Eliminar de Acceso rápido. A diferenza das lapelas fixadas é que Acceso rápido garda a URL e abre unha nova lapela cada vez que se fai clic."
+      },
+      "selectFromHistory": {
+        "label": "Seleccionar do historial",
+        "description": "Se necesitas seleccionar do historial, requírese a túa autorización",
+        "numberOfDays": "Número de días",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecciona elementos para engadir a acceso rápido:",
+        "selectAll": "Seleccionar todo",
+        "addSelected": "Engadir seleccionados",
+        "addedSuccess": "Engadíronse {{count}} elementos a acceso rápido.",
+        "deniedMessage": "Denegaches o permiso necesario, polo que as configuracións non cambiaron. Se cambias de opinión, preme de novo e permite a autorización"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Amosar iconas de sitios web ao colapsar grupos",
@@ -406,6 +436,38 @@
         "downloadOnly": "Só descargar",
         "staySynchronized": "Manter sincronizado",
         "globaldisabledTips": "Debes activar a sincronización nos axustes globais para modificar este axuste."
+      }
+    },
+    "importAndExport": {
+      "title": "Importar/Exportar",
+      "description": "",
+      "options": {
+        "preferences": "Preferencias do usuario",
+        "preferencesInfo": "Inclúe configuracións xerais predeterminadas, preferencias de visualización e datos, e cambio de temas da interface de usuario.",
+        "quickAccess": "Acceso rápido",
+        "quickAccessWarning": "O icono dun sitio web non visitado pode mostrarse de forma anormal. Non te preocupes, mostrarase normalmente despois de visitar e reiniciar o navegador.",
+        "siteConfig": "Configuración do sitio",
+        "siteConfigInfo": "como descartable automaticamente, picture-in-picture ao cambiar de lapela, barra de progreso de lectura, barra de progreso de reprodución, etc.",
+        "recentlyTabs": "Lapelas pechadas recentemente"
+      },
+      "cancelBtn": "Cancelar",
+      "exportBtn": "Exportar",
+      "importBtn": "Importar",
+      "importing": "Importando...",
+      "fileError": "Erro ao analizar o ficheiro, por favor, carga o ficheiro de configuración JSON correcto",
+      "import": {
+        "label": "Importar desde ficheiro",
+        "description": "",
+        "formTips": "Selecciona os datos que queres importar",
+        "importSuccess": "Importación exitosa",
+        "importFailed": "Fallou a importación"
+      },
+      "export": {
+        "label": "Exportar a ficheiro",
+        "description": "",
+        "formTips": "Selecciona os datos que queres exportar",
+        "exportSuccess": "Exportación exitosa",
+        "exportFailed": "Fallou a exportación"
       }
     },
     "SyncToCloud": {

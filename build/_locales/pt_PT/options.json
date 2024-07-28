@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Mostrar barra de ferramentas",
-        "description": "Quando ativado, a barra de ferramentas é exibida"
+        "description": "Quando ativado, a barra de ferramentas é exibida",
+        "moreOptions": "Mais opções",
+        "moreOptionsDescription": "Você pode controlar quais ícones aparecem na barra de ferramentas.",
+        "moreOptionsHideLabel": "Ocultar rótulos dos ícones da barra de ferramentas",
+        "close": "Fechar",
+        "options": {
+          "toolbar_newtab": "Nova aba",
+          "toolbar_orderby": "Ordenar por",
+          "toolbar_showby": "Mostrar por",
+          "toolbar_view": "visualizar",
+          "toolbar_colorMode": "Modo de cor",
+          "toolbar_muteAllTabs": "Silenciar todas as abas com som",
+          "toolbar_scrollToActiveTab": "Rolar para a aba ativa"
+        }
       },
       "bottomNav": {
         "label": "Mostrar barra de navegação inferior",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Mostrar acesso rápido",
         "description": "Você pode definir uma aba para aparecer no Acesso rápido para que seja fácil de encontrar. Basta clicar com o botão direito (ou pressionar longamente) e selecionar Fixar no Acesso rápido. Desafixe quando não precisar mais dela clicando com o botão direito (ou pressionando longamente) e selecionando Excluir do Acesso rápido. A diferença das abas fixadas é que o Acesso Rápido salva o URL e abre uma nova aba toda vez que é clicado."
+      },
+      "selectFromHistory": {
+        "label": "Selecionar do histórico",
+        "description": "Se precisar selecionar do histórico, sua autorização é necessária",
+        "numberOfDays": "Número de dias",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecione itens para adicionar ao acesso rápido:",
+        "selectAll": "Selecionar tudo",
+        "addSelected": "Adicionar selecionados",
+        "addedSuccess": "Adicionado {{count}} itens ao acesso rápido.",
+        "deniedMessage": "Você negou a permissão necessária, então as configurações não foram alteradas. Se mudar de ideia, clique novamente e permita a autorização"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Mostrar ícones de sites ao colapsar grupos",
@@ -411,6 +437,81 @@
         "downloadOnly": "Apenas baixar",
         "staySynchronized": "Permanecer sincronizado",
         "globaldisabledTips": "Você deve ativar a sincronização nas Configurações Globais para modificar esta configuração."
+      }
+    },
+    "importAndExport": {
+      "title": "Importar/Exportar",
+      "description": "",
+      "options": {
+        "preferences": "Preferências do Usuário",
+        "preferencesInfo": "Inclui configurações gerais padrão, preferências de exibição e dados, e alternância de temas da interface do usuário.",
+        "quickAccess": "Acesso Rápido",
+        "quickAccessWarning": "O ícone de um site não visitado pode ser exibido de forma anormal. Não se preocupe, ele será exibido normalmente após você visitar e reiniciar o navegador.",
+        "siteConfig": "Configurações do Site",
+        "siteConfigInfo": "como descartável automaticamente, imagem-em-imagem ao alternar abas, barra de progresso de leitura, barra de progresso de reprodução, etc.",
+        "recentlyTabs": "Abas fechadas recentemente"
+      },
+      "cancelBtn": "Cancelar",
+      "exportBtn": "Exportar",
+      "importBtn": "Importar",
+      "importing": "Importando...",
+      "fileError": "Erro ao analisar o arquivo, por favor, carregue o arquivo de configuração JSON correto",
+      "import": {
+        "label": "Importar de arquivo",
+        "description": "",
+        "formTips": "Selecione os dados que deseja importar",
+        "importSuccess": "Importação bem-sucedida",
+        "importFailed": "Falha na importação"
+      },
+      "export": {
+        "label": "Exportar para arquivo",
+        "description": "",
+        "formTips": "Selecione os dados que deseja exportar",
+        "exportSuccess": "Exportação bem-sucedida",
+        "exportFailed": "Falha na exportação"
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronizar com a nuvem",
+      "SyncNow": "Sincronizar agora",
+      "SyncNowWithGoogleDrive": "Sincronizar agora com o Google Drive",
+      "SyncNowWithDropbox": "Sincronizar agora com o Dropbox",
+      "SyncNowWithOneDrive": "Sincronizar agora com o OneDrive",
+      "Synchronizing": "Sincronizando...",
+      "SyncedSuccessfully": "Sincronizado com sucesso",
+      "SyncFailed": "Falha na sincronização",
+      "LoginRequired": "Login necessário",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sincronizar configurações",
+        "description": "Escolha como sincronizar as configurações desta extensão.",
+        "disabled": "Desativado",
+        "uploadOnly": "Apenas enviar",
+        "downloadOnly": "Apenas baixar",
+        "staySynchronized": "Permanecer sincronizado"
+      },
+      "SyncTabs": {
+        "label": "Sincronizar abas",
+        "description": "Escolha como sincronizar os dados das abas, excluindo dados privados, como cookies e informações pessoais.",
+        "disabled": "Desativado",
+        "uploadOnly": "Apenas enviar",
+        "downloadOnly": "Apenas baixar",
+        "staySynchronized": "Permanecer sincronizado"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Abrir ou fechar abas simultaneamente",
+        "description": "Quando ativado, abrir ou fechar abas em diferentes navegadores será sincronizado. Isso só se aplica quando a opção 'permanecer sincronizado' está ativa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Se você fizer login na mesma conta em dois navegadores ao mesmo tempo e ativar esta opção, abrir ou fechar abas em um navegador realizará a mesma operação no outro navegador. Se o site proibir logins repetidos com a mesma conta, podem ocorrer exceções."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar dados privados",
+        "description": "Escolha como sincronizar dados privados, como cookies de sites, dados de armazenamento local de páginas da web, dados de SessionStorage, etc. Os dados serão criptografados antes da sincronização.",
+        "disabled": "Desativado",
+        "uploadOnly": "Apenas enviar",
+        "downloadOnly": "Apenas baixar",
+        "staySynchronized": "Permanecer sincronizado"
       }
     }
   }

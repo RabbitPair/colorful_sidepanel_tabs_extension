@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Taispeáin an toolbar",
-        "description": "Nuair a chumasfar é, taispeánfar an toolbar"
+        "description": "Nuair a chumasfar é, taispeánfar an toolbar",
+        "moreOptions": "Tuilleadh Roghanna",
+        "moreOptionsDescription": "Is féidir leat rialú a dhéanamh ar na deilbhíní a thaispeántar ar an mbarra uirlisí.",
+        "moreOptionsHideLabel": "Folaigh lipéid deilbhíní an bharra uirlisí",
+        "close": "Dún",
+        "options": {
+          "toolbar_newtab": "Cluaisín Nua",
+          "toolbar_orderby": "Ordú De réir",
+          "toolbar_showby": "Taispeáin De réir",
+          "toolbar_view": "féach",
+          "toolbar_colorMode": "Mód Datha",
+          "toolbar_muteAllTabs": "Múch Gach Cluaisín a Dhéanann Fuaim",
+          "toolbar_scrollToActiveTab": "Scrollaigh go dtí an Cluaisín Gníomhach"
+        }
       },
       "bottomNav": {
         "label": "Taispeáin an barra náváil bun",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Taispeáin cluaisíní ceangailte mar íomhánna",
         "description": "Nuair a chumasfar é, taispeánfar cluaisíní ceangailte mar íomhánna agus ní mar liosta iad"
+      },
+      "pinToQuickAccess": {
+        "label": "Taispeáin rochtain thapa",
+        "description": "Is féidir leat cluaisín a shocrú chun a bheith le feiceáil i Rochtain Thapa ionas go mbeidh sé éasca é a aimsiú. Cliceáil ar dheis (nó brúigh fada) air agus roghnaigh Pin to Quick access. Díphionnaigh é nuair nach bhfuil sé ag teastáil uait a thuilleadh trí chliceáil ar dheis (nó brú fada) air agus roghnaigh Delete from Quick access. Is é an difríocht idir cluaisíní ceangailte agus Rochtain Thapa ná go sábhálann Rochtain Thapa an URL agus osclaíonn sé cluaisín nua gach uair a chliceáiltear air."
+      },
+      "selectFromHistory": {
+        "label": "Roghnaigh ón stair",
+        "description": "Má theastaíonn uait roghnú ón stair, tá do údarú ag teastáil",
+        "numberOfDays": "Líon laethanta",
+        "numberOfUrls": "Líon URLanna",
+        "cancel": "Cealaigh",
+        "query": "Fiosrúchán",
+        "selectItemsToAddToQuickAccess": "Roghnaigh míreanna le cur le rochtain thapa:",
+        "selectAll": "Roghnaigh Gach Rud",
+        "addSelected": "Cuir Roghnaithe",
+        "addedSuccess": "Cuireadh {{count}} míreanna le rochtain thapa.",
+        "deniedMessage": "Tá tú tar éis an cead riachtanach a dhiúltú, mar sin níor athraíodh na socruithe. Má athraíonn tú d'intinn, cliceáil arís agus lig ceadúint"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Taispeáin íomhánna láithreán grúpaí a chuirtear i leataobh",
@@ -391,6 +421,38 @@
       "SyncPrivateData": {
         "label": "Sincronú sonraí príobháideacha",
         "description": "Roghnaigh conas sonraí príobháideacha a sincronú, cosúil le fianáin láithreáin gréasáin, sonraí áitiúla leabharstórais leathanach gréasáin, sonraí StóráilSeisiún, srl. Criptófar sonraí sula ndéanfar a sincronú."
+      }
+    },
+    "importAndExport": {
+      "title": "Iompórtáil/Easpórtáil",
+      "description": "",
+      "options": {
+        "preferences": "Roghanna Úsáideora",
+        "preferencesInfo": "Áirítear socruithe ginearálta réamhshocraithe, roghanna taispeána agus sonraí, agus téamaí comhéadan úsáideora a athrú.",
+        "quickAccess": "Rochtain Thapa",
+        "quickAccessWarning": "D’fhéadfadh go mbeadh deilbhín suíomh Gréasáin nach bhfuil cuairt tugtha air le feiceáil go neamhghnácha. Ná bí buartha, taispeánfaidh sé go gnáth tar éis duit cuairt a thabhairt agus an brabhsálaí a atosú.",
+        "siteConfig": "Socruithe Suímh",
+        "siteConfigInfo": "cosúil le díchur uathoibríoch, pictiúr-i-bhpic ar Athrú Cluaisín, barra dul chun cinn léitheoireachta, barra dul chun cinn ag seinm, srl.",
+        "recentlyTabs": "Cluaisíní dúnta le déanaí"
+      },
+      "cancelBtn": "Cealaigh",
+      "exportBtn": "Easpórtáil",
+      "importBtn": "Iompórtáil",
+      "importing": "Ag iompórtáil...",
+      "fileError": "Earráid pharsála comhaid, le do thoil uaslódáil an comhad cumraíochta JSON ceart",
+      "import": {
+        "label": "Iompórtáil ó chomhad",
+        "description": "",
+        "formTips": "Roghnaigh na sonraí is mian leat a iompórtáil",
+        "importSuccess": "Iompórtáil rathúil",
+        "importFailed": "Theip ar iompórtáil"
+      },
+      "export": {
+        "label": "Easpórtáil chuig comhad",
+        "description": "",
+        "formTips": "Roghnaigh na sonraí is mian leat a easpórtáil",
+        "exportSuccess": "Easpórtáil rathúil",
+        "exportFailed": "Theip ar easpórtáil"
       }
     },
     "SyncToCloud": {

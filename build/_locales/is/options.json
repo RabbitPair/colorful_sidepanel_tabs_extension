@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Sýna tækjastiku",
-        "description": "Þegar virkt, er tækjastika birt"
+        "description": "Þegar virkt, er tækjastika birt",
+        "moreOptions": "Fleiri valkostir",
+        "moreOptionsDescription": "Þú getur stjórnað hvaða tákn birtast á tækjastikunni.",
+        "moreOptionsHideLabel": "Fela merki tækjastiku tákna",
+        "close": "Loka",
+        "options": {
+          "toolbar_newtab": "Nýr flipi",
+          "toolbar_orderby": "Raða eftir",
+          "toolbar_showby": "Sýna eftir",
+          "toolbar_view": "skoða",
+          "toolbar_colorMode": "Litamóti",
+          "toolbar_muteAllTabs": "Þagga niður í öllum flipum sem gefa frá sér hljóð",
+          "toolbar_scrollToActiveTab": "Flettu að virkum flipa"
+        }
       },
       "bottomNav": {
         "label": "Sýna neðri siglingarstiku",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Sýna festaða flipa sem tákn",
         "description": "Þegar virkt, verða festaðir flipar sýndir sem tákn og ekki í lista"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Sýna flýtiaðgang",
+        "description": "Þú getur stillt flipa til að birtast í Flýtiaðgangi svo það verði auðvelt að finna. Hægri-smelltu (eða haltu inni) á flipanum og veldu Festa í Flýtiaðgang. Fjarlægðu hann þegar þú þarft ekki lengur á honum að halda með því að hægri-smella (eða halda inni) og velja Eyða úr Flýtiaðgangi. Munurinn á föstum flipum og Flýtiaðgangi er að Flýtiaðgangur geymir vefslóðina og opnar nýjan flipa í hvert skipti sem smellt er á hann."
+      },
+      "selectFromHistory": {
+        "label": "Velja úr sögu",
+        "description": "Ef þú þarft að velja úr sögunni, er þörf á heimild þinni",
+        "numberOfDays": "Fjöldi daga",
+        "numberOfUrls": "Fjöldi vefslóða",
+        "cancel": "Hætta við",
+        "query": "Fyrirspurn",
+        "selectItemsToAddToQuickAccess": "Veldu atriði til að bæta við flýtiaðgang:",
+        "selectAll": "Velja allt",
+        "addSelected": "Bæta við völdum",
+        "addedSuccess": "Bætt {{count}} atriðum við flýtiaðgang.",
+        "deniedMessage": "Þú hefur hafnað nauðsynlegu leyfi, svo stillingarnar hafa ekki breyst. Ef þú skiptir um skoðun, vinsamlegast smelltu aftur og leyfðu heimild"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Sýna vefsvæðatákn þegar hópar eru samþjappaðir",
@@ -406,6 +436,38 @@
         "downloadOnly": "Aðeins niðurhal",
         "staySynchronized": "Haltu samkeyrslu",
         "globaldisabledTips": "Þú verður að kveikja á samkeyrslu í almennum stillingum til að breyta þessari stillingu."
+      }
+    },
+    "importAndExport": {
+      "title": "Innflutningur/Útflutningur",
+      "description": "",
+      "options": {
+        "preferences": "Notendastillingar",
+        "preferencesInfo": "Inniheldur sjálfgefnar almennar stillingar, skjá- og gagnastillingar og skiptingu notendaviðmótsþema.",
+        "quickAccess": "Flýtiaðgangur",
+        "quickAccessWarning": "Táknmynd óheimsóttrar vefsíðu getur sýnt óeðlilega. Ekki hafa áhyggjur, það mun sýna eðlilega eftir að þú heimsækir og endurræsir vafrann.",
+        "siteConfig": "Stillingar vefsíðu",
+        "siteConfigInfo": "eins og sjálfvirk hending, mynd í mynd við flipaskipti, lesningarfremgangsstika, spilunarfremgangsstika, o.s.frv.",
+        "recentlyTabs": "Nýlega lokaðir flipar"
+      },
+      "cancelBtn": "Hætta við",
+      "exportBtn": "Útflutningur",
+      "importBtn": "Innflutningur",
+      "importing": "Að flytja inn...",
+      "fileError": "Villa við skráarúrvinnslu, vinsamlegast hlaðið upp réttri JSON stillingarskrá",
+      "import": {
+        "label": "Flytja inn frá skrá",
+        "description": "",
+        "formTips": "Veldu gögnin sem þú vilt flytja inn",
+        "importSuccess": "Innflutningur tókst",
+        "importFailed": "Innflutningur mistókst"
+      },
+      "export": {
+        "label": "Flytja út í skrá",
+        "description": "",
+        "formTips": "Veldu gögnin sem þú vilt flytja út",
+        "exportSuccess": "Útflutningur tókst",
+        "exportFailed": "Útflutningur mistókst"
       }
     },
     "SyncToCloud": {

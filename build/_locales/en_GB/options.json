@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Show toolbar",
-        "description": "When enabled, the toolbar is displayed"
+        "description": "When enabled, the toolbar is displayed",
+        "moreOptions": "More Options",
+        "moreOptionsDescription": "You can control which icons appear on the toolbar.",
+        "moreOptionsHideLabel": "Hide toolbar icon labels",
+        "close": "Close",
+        "options": {
+          "toolbar_newtab": "New Tab",
+          "toolbar_orderby": "Order By",
+          "toolbar_showby": "Show By",
+          "toolbar_view": "view",
+          "toolbar_colorMode": "Color mode",
+          "toolbar_muteAllTabs": "Mute All Tabs Making Sounds",
+          "toolbar_scrollToActiveTab": "Scroll to Active Tab"
+        }
       },
       "bottomNav": {
         "label": "Show bottom navigation bar",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Show quick access",
         "description": "You can set a tab to show up in Quick access so it'll be easy to find. Just right-click (or long-press) it and select Pin to Quick access. Unpin it when you don’t need it there anymore by right-clicking (or long-pressing) it and selecting Delete from Quick access.The difference from pinned tabs is that Quick Access saves the URL and opens a new tab every time it is clicked."
+      },
+      "selectFromHistory": {
+        "label": "Select from history",
+        "description": "If you need to select from the history, your authorization is required",
+        "numberOfDays": "Number of days",
+        "numberOfUrls": "Number of URLs",
+        "cancel": "Cancel",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Select items to add to quick access:",
+        "selectAll": "Select All",
+        "addSelected": "Add Selected",
+        "addedSuccess": "Added {{count}} items to quick access.",
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorization"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Show website icons when collapsing groups",
@@ -411,6 +437,38 @@
         "downloadOnly": "Download only",
         "staySynchronized": "Stay synchronized",
         "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Export",
+      "description": "",
+      "options": {
+        "preferences": "User Preferences",
+        "preferencesInfo": "Includes default general settings, display and data preferences, and switching user interface themes.",
+        "quickAccess": "Quick Access",
+        "quickAccessWarning": "The icon of an unvisited website may display abnormally. Don’t worry, it will display normally after you visit and restart the browser.",
+        "siteConfig": "Site Settings",
+        "siteConfigInfo": "such as auto discardable,picture-in-picture on Tab Switch, reading progress bar, playing progress bar, etc.",
+        "recentlyTabs": "Recently closed tabs"
+      },
+      "cancelBtn": "Cancel",
+      "exportBtn": "Export",
+      "importBtn": "Import",
+      "importing": "Importing...",
+      "fileError": "File parsing error, please upload the correct JSON configuration file",
+      "import": {
+        "label": "Import from file",
+        "description": "",
+        "formTips": "Select the data you want to import",
+        "importSuccess": "Import success",
+        "importFailed": "Import failed"
+      },
+      "export": {
+        "label": "Export to file",
+        "description": "",
+        "formTips": "Select the data you want to export",
+        "exportSuccess": "Export success",
+        "exportFailed": "Export failed"
       }
     },
     "SyncToCloud": {

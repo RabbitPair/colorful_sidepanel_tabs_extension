@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Onyesha upau wa zana",
-        "description": "Ukiwezeshwa, upau wa zana unaonyeshwa"
+        "description": "Ukiwezeshwa, upau wa zana unaonyeshwa",
+        "moreOptions": "Chaguzi Zaidi",
+        "moreOptionsDescription": "Unaweza kudhibiti ni ikoni zipi zinaonekana kwenye upau wa zana.",
+        "moreOptionsHideLabel": "Ficha lebo za ikoni za upau wa zana",
+        "close": "Funga",
+        "options": {
+          "toolbar_newtab": "Kichupo Kipya",
+          "toolbar_orderby": "Panga Kwa",
+          "toolbar_showby": "Onyesha Kwa",
+          "toolbar_view": "tazama",
+          "toolbar_colorMode": "Hali ya rangi",
+          "toolbar_muteAllTabs": "Nyamazisha Vichupo Vyote Vinavyotoa Sauti",
+          "toolbar_scrollToActiveTab": "Sogeza hadi Kichupo Kinachofanya Kazi"
+        }
       },
       "bottomNav": {
         "label": "Onyesha upau wa urambazaji wa chini",
@@ -171,6 +184,23 @@
       "pinedTabsAsIcons": {
         "label": "Onyesha vichupo vilivyofungwa kama ikoni",
         "description": "Ukiwezeshwa, vichupo vilivyofungwa vitaonyeshwa kama ikoni na sio kwenye orodha"
+      },
+      "pinToQuickAccess": {
+        "label": "Onyesha ufikiaji wa haraka",
+        "description": "Unaweza kuweka kichupo kuonekana katika Ufikiaji wa haraka ili iwe rahisi kupata. Bonyeza kulia (au bonyeza kwa muda mrefu) na uchague Pin to Quick access. Ondoa pale usipohitaji tena kwa kubonyeza kulia (au kubonyeza kwa muda mrefu) na kuchagua Futa kutoka kwa Ufikiaji wa haraka. Tofauti na vichupo vilivyowekwa pini ni kwamba Ufikiaji wa Haraka huokoa URL na kufungua kichupo kipya kila wakati kinapobonyezwa."
+      },
+      "selectFromHistory": {
+        "label": "Chagua kutoka historia",
+        "description": "Ikiwa unahitaji kuchagua kutoka historia, idhini yako inahitajika",
+        "numberOfDays": "Idadi ya siku",
+        "numberOfUrls": "Idadi ya URL",
+        "cancel": "Ghairi",
+        "query": "Utafutaji",
+        "selectItemsToAddToQuickAccess": "Chagua vitu vya kuongeza kwenye ufikiaji wa haraka:",
+        "selectAll": "Chagua Yote",
+        "addSelected": "Ongeza Vilivyochaguliwa",
+        "addedSuccess": "Imeongeza {{count}} vitu kwenye ufikiaji wa haraka.",
+        "deniedMessage": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Onyesha ikoni za wavuti wakati wa kufupisha vikundi",
@@ -405,6 +435,38 @@
         "downloadOnly": "Pakua tu",
         "staySynchronized": "Baki kusawazishwa",
         "globaldisabledTips": "Lazima uweze kusawazisha katika Mipangilio ya Jumla ili ubadilishe mipangilio hii."
+      }
+    },
+    "importAndExport": {
+      "title": "Ingiza/Hamisha",
+      "description": "",
+      "options": {
+        "preferences": "Mapendeleo ya Mtumiaji",
+        "preferencesInfo": "Inajumuisha mipangilio ya jumla ya chaguo-msingi, mapendeleo ya onyesho na data, na kubadilisha mandhari ya kiolesura cha mtumiaji.",
+        "quickAccess": "Ufikiaji wa Haraka",
+        "quickAccessWarning": "Ikoni ya tovuti ambayo haijatembelewa inaweza kuonekana isivyo kawaida. Usijali, itaonekana kawaida baada ya kutembelea na kuwasha tena kivinjari.",
+        "siteConfig": "Mipangilio ya Tovuti",
+        "siteConfigInfo": "kama vile kutupwa kiotomatiki, picha katika picha kwenye Kubadilisha Kichupo, mstari wa maendeleo ya kusoma, mstari wa maendeleo ya kucheza, n.k.",
+        "recentlyTabs": "Vichupo vilivyofungwa hivi karibuni"
+      },
+      "cancelBtn": "Ghairi",
+      "exportBtn": "Hamisha",
+      "importBtn": "Ingiza",
+      "importing": "Inaingiza...",
+      "fileError": "Hitilafu ya uchambuzi wa faili, tafadhali pakia faili sahihi ya usanidi wa JSON",
+      "import": {
+        "label": "Ingiza kutoka faili",
+        "description": "",
+        "formTips": "Chagua data unayotaka kuingiza",
+        "importSuccess": "Uingizaji umefanikiwa",
+        "importFailed": "Uingizaji umeshindikana"
+      },
+      "export": {
+        "label": "Hamisha kwa faili",
+        "description": "",
+        "formTips": "Chagua data unayotaka kuhamisha",
+        "exportSuccess": "Uhamishaji umefanikiwa",
+        "exportFailed": "Uhamishaji umeshindikana"
       }
     },
     "SyncToCloud": {

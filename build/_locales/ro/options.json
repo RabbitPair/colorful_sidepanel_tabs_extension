@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Afișați bara de instrumente",
-        "description": "Când este activat, bara de instrumente este afișată"
+        "description": "Când este activat, bara de instrumente este afișată",
+        "moreOptions": "Mai multe opțiuni",
+        "moreOptionsDescription": "Puteți controla ce pictograme apar pe bara de instrumente.",
+        "moreOptionsHideLabel": "Ascundeți etichetele pictogramelor din bara de instrumente",
+        "close": "Închide",
+        "options": {
+          "toolbar_newtab": "Filă nouă",
+          "toolbar_orderby": "Ordonează după",
+          "toolbar_showby": "Afișează după",
+          "toolbar_view": "vizualizare",
+          "toolbar_colorMode": "Mod de culoare",
+          "toolbar_muteAllTabs": "Dezactivează sunetul tuturor filelor care redau sunete",
+          "toolbar_scrollToActiveTab": "Derulează la fila activă"
+        }
       },
       "bottomNav": {
         "label": "Afișați bara de navigare inferioară",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Afișați accesul rapid",
         "description": "Puteți seta o filă să apară în Acces rapid pentru a fi ușor de găsit. Doar faceți clic dreapta (sau apăsați lung) pe ea și selectați Fixare în Acces rapid. Debifați-o când nu mai aveți nevoie de ea acolo, făcând clic dreapta (sau apăsând lung) pe ea și selectând Ștergere din Acces rapid. Diferența față de filele fixate este că Accesul rapid salvează URL-ul și deschide o filă nouă de fiecare dată când este clicată."
+      },
+      "selectFromHistory": {
+        "label": "Selectați din istoric",
+        "description": "Dacă trebuie să selectați din istoric, este necesară autorizarea dvs.",
+        "numberOfDays": "Număr de zile",
+        "numberOfUrls": "Număr de URL-uri",
+        "cancel": "Anulați",
+        "query": "Interogare",
+        "selectItemsToAddToQuickAccess": "Selectați elementele pentru a le adăuga la acces rapid:",
+        "selectAll": "Selectați tot",
+        "addSelected": "Adăugați selectate",
+        "addedSuccess": "Adăugat {{count}} elemente la acces rapid.",
+        "deniedMessage": "Ați refuzat permisiunea necesară, astfel încât setările nu s-au schimbat. Dacă vă răzgândiți, vă rugăm să faceți clic din nou și să permiteți autorizarea"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Afișați pictogramele site-ului când colapsați grupurile",
@@ -411,6 +437,38 @@
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat",
         "globaldisabledTips": "Trebuie să activați sincronizarea în setările globale pentru a modifica această setare."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Export",
+      "description": "",
+      "options": {
+        "preferences": "Preferințe utilizator",
+        "preferencesInfo": "Include setările generale implicite, preferințele de afișare și date și schimbarea temelor interfeței utilizatorului.",
+        "quickAccess": "Acces rapid",
+        "quickAccessWarning": "Pictograma unui site nevizitat poate fi afișată anormal. Nu vă faceți griji, se va afișa normal după ce vizitați și reporniți browserul.",
+        "siteConfig": "Setări site",
+        "siteConfigInfo": "cum ar fi renunțarea automată, imagine în imagine la comutarea filelor, bara de progres a citirii, bara de progres a redării, etc.",
+        "recentlyTabs": "File închise recent"
+      },
+      "cancelBtn": "Anulează",
+      "exportBtn": "Exportă",
+      "importBtn": "Importă",
+      "importing": "Se importă...",
+      "fileError": "Eroare la analizarea fișierului, vă rugăm să încărcați fișierul JSON corect de configurare",
+      "import": {
+        "label": "Importă din fișier",
+        "description": "",
+        "formTips": "Selectați datele pe care doriți să le importați",
+        "importSuccess": "Importare reușită",
+        "importFailed": "Importare eșuată"
+      },
+      "export": {
+        "label": "Exportă în fișier",
+        "description": "",
+        "formTips": "Selectați datele pe care doriți să le exportați",
+        "exportSuccess": "Exportare reușită",
+        "exportFailed": "Exportare eșuată"
       }
     },
     "SyncToCloud": {

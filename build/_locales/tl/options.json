@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Ipakita ang toolbar",
-        "description": "Kapag pinagana, ipapakita ang toolbar"
+        "description": "Kapag pinagana, ipapakita ang toolbar",
+        "moreOptions": "Maraming Opsyon",
+        "moreOptionsDescription": "Maaari mong kontrolin kung aling mga icon ang lalabas sa toolbar.",
+        "moreOptionsHideLabel": "Itago ang mga label ng icon ng toolbar",
+        "close": "Isara",
+        "options": {
+          "toolbar_newtab": "Bagong Tab",
+          "toolbar_orderby": "Ayusin Ayon Sa",
+          "toolbar_showby": "Ipakita Ayon Sa",
+          "toolbar_view": "tingnan",
+          "toolbar_colorMode": "Mode ng Kulay",
+          "toolbar_muteAllTabs": "I-mute ang Lahat ng Tab na Gumagawa ng Tunog",
+          "toolbar_scrollToActiveTab": "Mag-scroll sa Aktibong Tab"
+        }
       },
       "bottomNav": {
         "label": "Ipakita ang bar ng bottom navigation",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Ipakita ang mga pina-pindot na tab bilang mga icon",
         "description": "Kapag pinagana, ang mga pina-pindot na tab ay ipapakita bilang mga icon at hindi sa listahan"
+      },
+      "pinToQuickAccess": {
+        "label": "Ipakita ang mabilis na pag-access",
+        "description": "Maaari mong itakda ang isang tab upang lumitaw sa Mabilis na pag-access upang madali itong mahanap. I-right-click (o i-long-press) ito at piliin ang I-pin sa Mabilis na pag-access. I-unpin ito kapag hindi mo na ito kailangan doon sa pamamagitan ng pag-right-click (o pag-long-press) dito at pagpili ng Tanggalin mula sa Mabilis na pag-access. Ang pagkakaiba mula sa mga naka-pin na tab ay ang Mabilis na Pag-access ay nagse-save ng URL at nagbubukas ng bagong tab sa tuwing ito ay na-click."
+      },
+      "selectFromHistory": {
+        "label": "Pumili mula sa kasaysayan",
+        "description": "Kung kailangan mong pumili mula sa kasaysayan, kinakailangan ang iyong awtorisasyon",
+        "numberOfDays": "Bilang ng mga araw",
+        "numberOfUrls": "Bilang ng mga URL",
+        "cancel": "Kanselahin",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Pumili ng mga item upang idagdag sa mabilis na pag-access:",
+        "selectAll": "Piliin Lahat",
+        "addSelected": "Idagdag ang Napili",
+        "addedSuccess": "Nagdagdag ng {{count}} na mga item sa mabilis na pag-access.",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya hindi nagbago ang mga setting. Kung magbabago ang iyong isip, mangyaring mag-click muli at payagan ang awtorisasyon"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Ipakita ang mga icon ng website kapag nagko-collapse ng mga grupo",
@@ -406,6 +436,38 @@
         "downloadOnly": "I-download lamang",
         "staySynchronized": "Manatiling naka-sync",
         "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings para baguhin ang setting na ito."
+      }
+    },
+    "importAndExport": {
+      "title": "I-import/I-export",
+      "description": "",
+      "options": {
+        "preferences": "Mga Kagustuhan ng Gumagamit",
+        "preferencesInfo": "Kasama ang mga default na pangkalahatang setting, display at data preferences, at pagpapalit ng mga tema ng user interface.",
+        "quickAccess": "Mabilis na Pag-access",
+        "quickAccessWarning": "Ang icon ng isang hindi pa nabibisitang website ay maaaring magpakita ng abnormal. Huwag mag-alala, magpapakita ito ng normal pagkatapos mong bisitahin at i-restart ang browser.",
+        "siteConfig": "Mga Setting ng Site",
+        "siteConfigInfo": "tulad ng auto discardable, picture-in-picture sa Pag-switch ng Tab, bar ng pag-unlad sa pagbasa, bar ng pag-unlad sa pagpe-play, atbp.",
+        "recentlyTabs": "Kamakailang isinara na mga tab"
+      },
+      "cancelBtn": "Kanselahin",
+      "exportBtn": "I-export",
+      "importBtn": "I-import",
+      "importing": "Nag-i-import...",
+      "fileError": "Error sa pag-parse ng file, mangyaring i-upload ang tamang JSON configuration file",
+      "import": {
+        "label": "I-import mula sa file",
+        "description": "",
+        "formTips": "Piliin ang data na nais mong i-import",
+        "importSuccess": "Matagumpay na na-import",
+        "importFailed": "Nabigo ang pag-import"
+      },
+      "export": {
+        "label": "I-export sa file",
+        "description": "",
+        "formTips": "Piliin ang data na nais mong i-export",
+        "exportSuccess": "Matagumpay na na-export",
+        "exportFailed": "Nabigo ang pag-export"
       }
     },
     "SyncToCloud": {

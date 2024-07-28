@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Werkbalk weergeven",
-        "description": "Wanneer ingeschakeld, wordt de werkbalk weergegeven"
+        "description": "Wanneer ingeschakeld, wordt de werkbalk weergegeven",
+        "moreOptions": "Meer opties",
+        "moreOptionsDescription": "U kunt bepalen welke pictogrammen op de werkbalk verschijnen.",
+        "moreOptionsHideLabel": "Werkbalkpictogramlabels verbergen",
+        "close": "Sluiten",
+        "options": {
+          "toolbar_newtab": "Nieuw tabblad",
+          "toolbar_orderby": "Sorteren op",
+          "toolbar_showby": "Weergeven op",
+          "toolbar_view": "weergave",
+          "toolbar_colorMode": "Kleurmodus",
+          "toolbar_muteAllTabs": "Alle tabs dempen die geluid maken",
+          "toolbar_scrollToActiveTab": "Scroll naar actieve tab"
+        }
       },
       "bottomNav": {
         "label": "Navigatiebalk onderaan weergeven",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Snelle toegang weergeven",
         "description": "U kunt een tabblad instellen om weer te geven in Snelle toegang, zodat het gemakkelijk te vinden is. Klik er gewoon met de rechtermuisknop op (of houd het lang ingedrukt) en selecteer Vastzetten aan Snelle toegang. Maak het los wanneer u het daar niet meer nodig hebt door er met de rechtermuisknop op te klikken (of het lang ingedrukt te houden) en Verwijderen uit Snelle toegang te selecteren. Het verschil met vaste tabbladen is dat Snelle toegang de URL opslaat en elke keer dat erop wordt geklikt een nieuw tabblad opent."
+      },
+      "selectFromHistory": {
+        "label": "Selecteer uit geschiedenis",
+        "description": "Als u uit de geschiedenis wilt selecteren, is uw toestemming vereist",
+        "numberOfDays": "Aantal dagen",
+        "numberOfUrls": "Aantal URL's",
+        "cancel": "Annuleren",
+        "query": "Zoekopdracht",
+        "selectItemsToAddToQuickAccess": "Selecteer items om toe te voegen aan snelle toegang:",
+        "selectAll": "Alles selecteren",
+        "addSelected": "Geselecteerde toevoegen",
+        "addedSuccess": "{{count}} items toegevoegd aan snelle toegang.",
+        "deniedMessage": "U hebt de vereiste toestemming geweigerd, dus de instellingen zijn niet gewijzigd. Als u van gedachten verandert, klik dan opnieuw en sta autorisatie toe"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Websitepictogrammen weergeven bij het samenvouwen van groepen",
@@ -411,6 +437,38 @@
         "downloadOnly": "Alleen downloaden",
         "staySynchronized": "Gesynchroniseerd blijven",
         "globaldisabledTips": "U moet synchronisatie inschakelen in de globale instellingen om deze instelling te wijzigen."
+      }
+    },
+    "importAndExport": {
+      "title": "Importeren/Exporteren",
+      "description": "",
+      "options": {
+        "preferences": "Gebruikersvoorkeuren",
+        "preferencesInfo": "Inclusief standaard algemene instellingen, weergave- en gegevensvoorkeuren en het wisselen van gebruikersinterface-thema's.",
+        "quickAccess": "Snelle toegang",
+        "quickAccessWarning": "Het pictogram van een niet-bezochte website kan abnormaal worden weergegeven. Maak je geen zorgen, het wordt normaal weergegeven nadat je de website hebt bezocht en de browser opnieuw hebt opgestart.",
+        "siteConfig": "Site-instellingen",
+        "siteConfigInfo": "zoals automatisch verwijderbaar, picture-in-picture bij tabblad wisselen, leesvoortgangsbalk, afspelende voortgangsbalk, enz.",
+        "recentlyTabs": "Recent gesloten tabbladen"
+      },
+      "cancelBtn": "Annuleren",
+      "exportBtn": "Exporteren",
+      "importBtn": "Importeren",
+      "importing": "Bezig met importeren...",
+      "fileError": "Fout bij het parseren van bestand, upload het juiste JSON-configuratiebestand",
+      "import": {
+        "label": "Importeren vanuit bestand",
+        "description": "",
+        "formTips": "Selecteer de gegevens die u wilt importeren",
+        "importSuccess": "Importeren geslaagd",
+        "importFailed": "Importeren mislukt"
+      },
+      "export": {
+        "label": "Exporteren naar bestand",
+        "description": "",
+        "formTips": "Selecteer de gegevens die u wilt exporteren",
+        "exportSuccess": "Exporteren geslaagd",
+        "exportFailed": "Exporteren mislukt"
       }
     },
     "SyncToCloud": {

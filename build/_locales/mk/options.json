@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Прикажи алатник",
-        "description": "Кога е овозможено, алатникот ќе се прикажува"
+        "description": "Кога е овозможено, алатникот ќе се прикажува",
+        "moreOptions": "Повеќе опции",
+        "moreOptionsDescription": "Можете да контролирате кои икони се појавуваат на алатникот.",
+        "moreOptionsHideLabel": "Сокриј ги етикетите на иконите на алатникот",
+        "close": "Затвори",
+        "options": {
+          "toolbar_newtab": "Нова јазиче",
+          "toolbar_orderby": "Подреди по",
+          "toolbar_showby": "Прикажи по",
+          "toolbar_view": "поглед",
+          "toolbar_colorMode": "Режим на боја",
+          "toolbar_muteAllTabs": "Исклучи звук на сите јазичиња што прават звуци",
+          "toolbar_scrollToActiveTab": "Лизгај до активното јазиче"
+        }
       },
       "bottomNav": {
         "label": "Прикажи долна навигациска лента",
@@ -172,6 +185,22 @@
       "pinedTabsAsIcons": {
         "label": "Прикажи закачени табови како икони",
         "description": "Кога е овозможено, закачените табови ќе се прикажуваат како икони и не во листата"
+      },
+      "pinToQuickAccess": {
+        "label": "Прикажи брз пристап",
+        "description": "Можете да поставите јазиче во Брз пристап за лесно пронаоѓање. Само десен клик (или долго притискање) и изберете Прикачи во Брз пристап. Откачете го кога веќе не ви треба таму со десен клик (или долго притискање) и изберете Избриши од Брз пристап. Разликата од закачените табови е што Брз пристап го зачувува URL-то и отвора нов таб секој пат кога се кликне."
+      },
+      "selectFromHistory": {
+        "label": "Избери од историја",
+        "description": "Доколку треба да изберете од историјата, потребна е вашата авторизација",
+        "numberOfDays": "Број на денови",
+        "numberOfUrls": "Број на URL-ови",
+        "cancel": "Откажи",
+        "query": "Пребарување",
+        "selectItemsToAddToQuickAccess": "Изберете ставки за додавање во брз пристап:",
+        "selectAll": "Селектирај сè",
+        "addSelected": "Додадено {{count}} ставки во брз пристап.",
+        "deniedMessage": "Го одбивте потребното овластување, па поставките не се променети. Доколку се промените, ве молиме кликнете повторно и дозволете авторизација"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Прикажи икони на веб-страници при собирање групи",
@@ -344,68 +373,100 @@
       }
     },
     "site": {
-      "label": "Site settings",
-      "allSites": "All sites",
-      "sortBy": "Sort by",
-      "mostVisited": "Most visited",
-      "dataStored": "Data stored",
-      "name": "Name",
-      "deleteAllData": "Delete all data",
-      "totalStorageUsedBySites": "Total storage used by sites",
-      "totalCount": "Total count",
+      "label": "Поставки на сајт",
+      "allSites": "Сите сајтови",
+      "sortBy": "Сортирај според",
+      "mostVisited": "Најпосетени",
+      "dataStored": "Податоци зачувани",
+      "name": "Име",
+      "deleteAllData": "Избриши ги сите податоци",
+      "totalStorageUsedBySites": "Вкупно користен простор од сајтови",
+      "totalCount": "Вкупен број",
       "addNewSite": {
-        "label": "Add new site",
-        "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
-        "placeholder": "Website address, such as 'www.example.com'",
-        "add": "Add",
-        "cancel": "Cancel",
-        "invalidDomain": "Invalid website address"
+        "label": "Додади нов сајт",
+        "description": "Внесете нова веб-адреса, како 'www.example.com', и кликнете 'Додади'.",
+        "placeholder": "Веб-адреса, како 'www.example.com'",
+        "add": "Додади",
+        "cancel": "Откажи",
+        "invalidDomain": "Невалидна веб-адреса"
       },
       "browserSettings": {
-        "label": "Browser settings",
-        "description": "You can modify site settings, such as deleting data or changing site permissions.",
-        "goToBrowserSettings": "Go to browser settings"
+        "label": "Поставки на прелистувачот",
+        "description": "Можете да ги измените поставките на сајтови, како бришење на податоци или промена на дозволи за сајтови.",
+        "goToBrowserSettings": "Оди на поставките на прелистувачот"
       },
       "autoDiscardable": {
-        "label": "Auto discardable",
-        "description": "When enabled, the tab will be allowed to be discarded by the browser, and if you turn on performance and set the time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded"
+        "label": "Автоматски отфрлив",
+        "description": "Кога е овозможено, табот ќе биде дозволен да биде отфрлен од прелистувачот, и ако го вклучите перформансите и поставите време за отфрлување на неактивни табови, табот ќе биде отфрлен по наведеното време. Ако е оневозможено, табот нема да биде отфрлен"
       },
       "readingProgressBar": {
-        "label": "Reading progress bar",
-        "description": "When enabled, a reading progress bar will be displayed below the tab title bar.",
-        "globaldisabledTips": "You must turn on the reading progress bar in the global settings to modify this setting."
+        "label": "Лента за напредок при читање",
+        "description": "Кога е овозможено, лента за напредок при читање ќе се прикажува под насловната лента на табот.",
+        "globaldisabledTips": "Мора да го вклучите напредокот при читање во глобалните поставки за да го измените оваа поставка."
       },
       "playingProgressBar": {
-        "label": "Playing progress bar",
-        "description": "When enabled, a playing progress bar will be displayed below the tab title bar.",
-        "globaldisabledTips": "You must turn on the playing progress bar in the global settings to modify this setting."
+        "label": "Лента за напредок при репродукција",
+        "description": "Кога е овозможено, лента за напредок при репродукција ќе се прикажува под насловната лента на табот.",
+        "globaldisabledTips": "Мора да го вклучите напредокот при репродукција во глобалните поставки за да го измените оваа поставка."
       },
       "tabSwitchPip": {
-        "label": "PIP on Tab Switch",
-        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
-        "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
+        "label": "PIP при префрлање на таб",
+        "description": "Кога е овозможено, автоматски ќе влезете во слика-во-слика кога ќе префрлите табови со неисклучен видео.",
+        "globaldisabledTips": "Мора да го вклучите слика-во-слика во глобалните поставки за да го измените оваа поставка."
       },
       "clearHistoyAfterCLose": {
-        "label": "Clear history after close",
-        "description": "When enabled, the history will be cleared after closing the tab."
+        "label": "Избриши историја по затворање",
+        "description": "Кога е овозможено, историјата ќе биде избришана по затворање на табот."
       },
       "SyncTabs": {
-        "label": "Sync tabs",
-        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "Stay synchronized",
-        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+        "label": "Синхронизирај табови",
+        "description": "Изберете како да ги синхронизирате податоците на табови, без приватни податоци како колачиња и лични информации.",
+        "disabled": "Оневозможено",
+        "uploadOnly": "Само прикачување",
+        "downloadOnly": "Само преземање",
+        "staySynchronized": "Останете синхронизирани",
+        "globaldisabledTips": "Мора да го вклучите синхронизирањето во глобалните поставки за да го измените оваа поставка."
       },
       "SyncPrivateData": {
-        "label": "Sync private data",
-        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "Stay synchronized",
-        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+        "label": "Синхронизирај приватни податоци",
+        "description": "Изберете како да ги синхронизирате приватните податоци, како колачиња на веб-страници, податоци за локално складирање на веб-страници, податоци за сесија, итн. Податоците ќе бидат шифрирани пред синхронизација.",
+        "disabled": "Оневозможено",
+        "uploadOnly": "Само прикачување",
+        "downloadOnly": "Само преземање",
+        "staySynchronized": "Останете синхронизирани",
+        "globaldisabledTips": "Мора да го вклучите синхронизирањето во глобалните поставки за да го измените оваа поставка."
+      }
+    },
+    "importAndExport": {
+      "title": "Внес/Изнес",
+      "description": "",
+      "options": {
+        "preferences": "Поставки на корисникот",
+        "preferencesInfo": "Вклучува стандардни општи поставки, приказ и поставки на податоци, и префрлање на темите на корисничкиот интерфејс.",
+        "quickAccess": "Брз пристап",
+        "quickAccessWarning": "Иконата на непосетената веб-страница може да се прикаже аномално. Не се притеснувајте, ќе се прикаже нормално откако ќе ја посетите и рестартирате прелистувачот.",
+        "siteConfig": "Поставки на сајтот",
+        "siteConfigInfo": "како што се автоматскиот одбив, слика-во-слика на превклучување на картички, лента за напредок при читање, лента за напредок при репродукција итн.",
+        "recentlyTabs": "Неодамна затворени картички"
+      },
+      "cancelBtn": "Откажи",
+      "exportBtn": "Изнеси",
+      "importBtn": "Внеси",
+      "importing": "Внесување...",
+      "fileError": "Грешка во парсирањето на датотеката, ве молиме внесете ја точната JSON конфигурациона датотека",
+      "import": {
+        "label": "Внеси од датотека",
+        "description": "",
+        "formTips": "Изберете ги податоците кои сакате да ги внесете",
+        "importSuccess": "Внесувањето беше успешно",
+        "importFailed": "Внесувањето не успеа"
+      },
+      "export": {
+        "label": "Изнеси во датотека",
+        "description": "",
+        "formTips": "Изберете ги податоците кои сакате да ги изнесете",
+        "exportSuccess": "Изнесувањето беше успешно",
+        "exportFailed": "Изнесувањето не успеа"
       }
     },
     "SyncToCloud": {

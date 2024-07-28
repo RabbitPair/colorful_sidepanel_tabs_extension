@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "መሳሪያ አሞሌን አሳይ",
-        "description": "ሲነቃቃ መሳሪያ አሞሌ ይታያል"
+        "description": "ሲነቃቃ መሳሪያ አሞሌ ይታያል",
+        "moreOptions": "ተጨማሪ አማራጮች",
+        "moreOptionsDescription": "በመሳሪያ አሞሌ ላይ የሚታዩትን አይኮኖች ማቀናበር ይችላሉ።",
+        "moreOptionsHideLabel": "የመሳሪያ አሞሌ አይኮኖችን መለያየት ደብቅ",
+        "close": "ዝጋ",
+        "options": {
+          "toolbar_newtab": "አዲስ ትምባህ",
+          "toolbar_orderby": "በመስር",
+          "toolbar_showby": "በመሳየት",
+          "toolbar_view": "እይታ",
+          "toolbar_colorMode": "ቀለም ሁኔታ",
+          "toolbar_muteAllTabs": "ድምፅ ያላቸውን ሁሉንም ትምባህ ዝም አልቅ",
+          "toolbar_scrollToActiveTab": "ወደ እየሰራ ያለው ትምባህ እንቅስቃሴ አድርግ"
+        }
       },
       "bottomNav": {
         "label": "የታችኛውን አሰሳ አሞሌ አሳይ",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "የተሰካ ትሮችን እንደ አይኮኖች አሳይ",
         "description": "ሲነቃቃ የተሰኩ ትሮች እንደ አይኮኖች ይታያሉ እና በዝርዝር ውስጥ አይሆኑም"
+      },
+       "pinToQuickAccess": {
+        "label": "ፈጣን መዳረሻ አሳይ",
+        "description": "ትሮን በፈጣን መዳረሻ ላይ ለማሳየት ማስቀመጥ ትችላለህ ስለዚህ ማግኘት ቀላል ይሆናል። ቀኝ ጠቅ (ወይም ረጅም ጊዜ ጠቅ) በማድረግ እና እንደ ፈጣን መዳረሻ ማስቀመጥን በመምረጥ እንዲሁ አድርግ። እንደዚሁም ቀኝ ጠቅ (ወይም ረጅም ጊዜ ጠቅ) በማድረግ እና ከፈጣን መዳረሻ ማጥፋትን በመምረጥ እንደገና አስወግደው። ከተሰኩ ትሮች የሚለዩት ፈጣን መዳረሻ ዩአርኤልን ማስቀመጥ እና በየጊዜው አዲስ ትር መክፈት ነው በተጠቀሰ ጊዜ።"
+      },
+      "selectFromHistory": {
+        "label": "ከታሪክ ይምረጡ",
+        "description": "ከታሪክ ለመምረጥ እንዲሁ ፈቃድዎ ያስፈልጋል",
+        "numberOfDays": "የቀናት ብዛት",
+        "numberOfUrls": "የዩአርኤል ብዛት",
+        "cancel": "ሰርዝ",
+        "query": "ጥያቄ",
+        "selectItemsToAddToQuickAccess": "እባክዎን እቃዎችን ለፈጣን መዳረሻ ይምረጡ፡",
+        "selectAll": "ሁሉንም ይምረጡ",
+        "addSelected": "የተመረጡትን ያክሉ",
+        "addedSuccess": "{{count}} እቃዎችን ወደ ፈጣን መዳረሻ አክለዋል።",
+        "deniedMessage": "የሚያስፈልጉትን ፈቃድ እንደላቀቅን ስለሆነ ቅንብሮቹ አልተለወጡም። አስተሳሰብዎን ካስቀየሙ እባኮትን እንደገና ጠቅ ያድርጉ እና ፈቃድ ይፍቀዱ"
       },
       "collapsedGroupShowTabIcons": {
         "label": "ቡድኖችን ሲያንስ የድር ጣቢያ አይኮኖችን አሳይ",
@@ -406,6 +436,38 @@
         "downloadOnly": "በማለፍያ",
         "staySynchronized": "በትር ርዕስ ይችላሉ",
         "globaldisabledTips": "እንደትር ማስተካከል ከተጠቀሰ ጊዜ ለመቀየር ወይም ለመረጡ የግል መረጃዎችን ትንተና ይችላሉ።"
+      }
+    },
+    "importAndExport": {
+      "title": "አስመጣ/አስወጣ",
+      "description": "",
+      "options": {
+        "preferences": "የተጠቃሚ ቅንብሮች",
+        "preferencesInfo": "እንደ ነባሪ አጠቃላይ ቅንብሮች፣ እንደ አማራጭ እና የመረጃ ቅንብሮች፣ እንደ ተጠቃሚ ቅንብሮች ማስቀመጥ ይችላሉ።",
+        "quickAccess": "ፈጣን መዳረሻ",
+        "quickAccessWarning": "የማይጎበኙት ድህረ ገጽ አዶ በተለመደ ሁኔታ ሊታይ ይችላል። አትጨነቁ፣ እርስዎ ድህረ ገጹን ከጎበኙ እና አሳሽን ከመስራት በኋላ በተለመደ ሁኔታ ይታያል።",
+        "siteConfig": "የድህረ ገጽ ቅንብሮች",
+        "siteConfigInfo": "እንደ አቶ ማስቀመጥ የሚችል፣ እንደ ትር መቀየር ላይ ምስል በምስል፣ የንባብ አሞሌ፣ የመጫወቻ አሞሌ ወዘተ ይችላሉ።",
+        "recentlyTabs": "በቅርብ የተዘጉ ትር"
+      },
+      "cancelBtn": "ሰርዝ",
+      "exportBtn": "አስወጣ",
+      "importBtn": "አስመጣ",
+      "importing": "እየተመጣ...",
+      "fileError": "የፋይል መተርጎሚያ ስህተት፣ እባክዎ ትክክለኛውን የJSON ኮንፊግ ፋይል ያስገቡ",
+      "import": {
+        "label": "ከፋይል አስመጣ",
+        "description": "",
+        "formTips": "ምን ማስመጣት እንደሚፈልጉ ይምረጡ",
+        "importSuccess": "አስመጣ ተሳክቷል",
+        "importFailed": "አስመጣ አልተሳካም"
+      },
+      "export": {
+        "label": "ወደ ፋይል አስወጣ",
+        "description": "",
+        "formTips": "ምን ማስወጣት እንደሚፈልጉ ይምረጡ",
+        "exportSuccess": "አስወጣ ተሳክቷል",
+        "exportFailed": "አስወጣ አልተሳካም"
       }
     },
     "SyncToCloud": {

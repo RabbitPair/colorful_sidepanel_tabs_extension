@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Amostrar a barra d'heramientas",
-        "description": "Quan se habilita, a barra d'heramientas se mosotrará"
+        "description": "Quan se habilita, a barra d'heramientas se mosotrará",
+        "moreOptions": "Mas Opcions",
+        "moreOptionsDescription": "Puetz controlar qué iconas amostrarán en a barra d'heramientas.",
+        "moreOptionsHideLabel": "Amagar etiquetas d'iconas d'a barra d'heramientas",
+        "close": "Zarrar",
+        "options": {
+          "toolbar_newtab": "Nueva Pestaña",
+          "toolbar_orderby": "Ordenar Por",
+          "toolbar_showby": "Amostrar Por",
+          "toolbar_view": "vista",
+          "toolbar_colorMode": "Modo de color",
+          "toolbar_muteAllTabs": "Silenciar todas las pestañas que hacen ruido",
+          "toolbar_scrollToActiveTab": "Desplazar a la pestaña activa"
+        }
       },
       "bottomNav": {
         "label": "Amostrar a barra de navegación d'abaixo",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Amostrar as fuellas chinchetas como iconas",
         "description": "Quan se habilita, as fuellas chinchetas se mosotrarán como iconas y no en a lista"
+      },
+      "pinToQuickAccess": {
+        "label": "Amostrar acceso rápido",
+        "description": "Puedes configurar una pestaña para que aparezca en Acceso rápido y sea fácil de encontrar. Simplemente haz clic derecho (o mantén presionado) y selecciona Fijar en Acceso rápido. Desfíjala cuando ya no la necesites allí haciendo clic derecho (o manteniendo presionado) y seleccionando Eliminar de Acceso rápido. La diferencia con las pestañas fijadas es que Acceso rápido guarda la URL y abre una nueva pestaña cada vez que se hace clic."
+      },
+      "selectFromHistory": {
+        "label": "Seleccionar del historial",
+        "description": "Si necesitas seleccionar del historial, se requiere tu autorización",
+        "numberOfDays": "Número de días",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecciona elementos para agregar a acceso rápido:",
+        "selectAll": "Seleccionar todo",
+        "addSelected": "Agregar seleccionados",
+        "addedSuccess": "Se han agregado {{count}} elementos a acceso rápido.",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que la configuración no ha cambiado. Si cambias de opinión, por favor haz clic de nuevo y permite la autorización"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Amostrar iconas de pachina quan se colapsan os grupos",
@@ -406,6 +436,38 @@
         "downloadOnly": "Solo descargar",
         "staySynchronized": "Permanecer sincronizado",
         "globaldisabledTips": "Debe activar la sincronización en la configuración global para modificar esta configuración."
+      }
+    },
+    "importAndExport": {
+      "title": "Importar/Exportar",
+      "description": "",
+      "options": {
+        "preferences": "Preferencias del usuario",
+        "preferencesInfo": "Incluye configuraciones generales predeterminadas, preferencias de visualización y datos, y cambio de temas de la interfaz de usuario.",
+        "quickAccess": "Acceso rápido",
+        "quickAccessWarning": "El icono de un sitio web no visitado puede mostrarse de manera anormal. No se preocupe, se mostrará normalmente después de visitar y reiniciar el navegador.",
+        "siteConfig": "Configuración del sitio",
+        "siteConfigInfo": "como descartable automático, imagen en imagen al cambiar de pestaña, barra de progreso de lectura, barra de progreso de reproducción, etc.",
+        "recentlyTabs": "Pestañas cerradas recientemente"
+      },
+      "cancelBtn": "Cancelar",
+      "exportBtn": "Exportar",
+      "importBtn": "Importar",
+      "importing": "Importando...",
+      "fileError": "Error al analizar el archivo, por favor suba el archivo de configuración JSON correcto",
+      "import": {
+        "label": "Importar desde archivo",
+        "description": "",
+        "formTips": "Seleccione los datos que desea importar",
+        "importSuccess": "Importación exitosa",
+        "importFailed": "Importación fallida"
+      },
+      "export": {
+        "label": "Exportar a archivo",
+        "description": "",
+        "formTips": "Seleccione los datos que desea exportar",
+        "exportSuccess": "Exportación exitosa",
+        "exportFailed": "Exportación fallida"
       }
     },
     "SyncToCloud": {

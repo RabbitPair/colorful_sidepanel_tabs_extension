@@ -67,7 +67,20 @@
       },
       "toolbar": {
         "label": "Erakutsi tresna-barra",
-        "description": "Gaituta dagoenean, tresna-barra bistaratzen da"
+        "description": "Gaituta dagoenean, tresna-barra bistaratzen da",
+        "moreOptions": "Aukera gehiago",
+        "moreOptionsDescription": "Tresna-barran zein ikono agertzen diren kontrolatu dezakezu.",
+        "moreOptionsHideLabel": "Ezkutatu tresna-barra ikonoen etiketak",
+        "close": "Itxi",
+        "options": {
+          "toolbar_newtab": "Fitxa berria",
+          "toolbar_orderby": "Ordenatu arabera",
+          "toolbar_showby": "Erakutsi arabera",
+          "toolbar_view": "ikuspegi",
+          "toolbar_colorMode": "Kolore modua",
+          "toolbar_muteAllTabs": "Isildu soinua egiten duten fitxa guztiak",
+          "toolbar_scrollToActiveTab": "Joan aktibo dagoen fitxara"
+        }
       },
       "bottomNav": {
         "label": "Erakutsi beheko nabigazio-barra",
@@ -171,6 +184,23 @@
       "pinedTabsAsIcons": {
         "label": "Erakutsi lankidun fitxak ikono gisa",
         "description": "Gaituta dagoenean, lankidun fitxak ikono gisa eta ez zerrendan erakutsiko dira"
+      }, 
+      "pinToQuickAccess": {
+        "label": "Erakutsi sarbide azkarra",
+        "description": "Fitxa bat sarbide azkarrean agertzeko ezar dezakezu, erraz aurkitzeko. Egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu Pin to Quick access. Ezabatu behar ez duzunean, egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu Delete from Quick access. Fitxa finkatuen desberdintasuna da Quick Access-ek URLa gordetzen duela eta fitxa berri bat irekitzen duela klik egiten den bakoitzean."
+      },
+      "selectFromHistory": {
+        "label": "Hautatu historiatik",
+        "description": "Historiatik hautatu behar baduzu, zure baimena behar da",
+        "numberOfDays": "Egun kopurua",
+        "numberOfUrls": "URL kopurua",
+        "cancel": "Utzi",
+        "query": "Kontsulta",
+        "selectItemsToAddToQuickAccess": "Hautatu elementuak sarbide azkarrean gehitzeko:",
+        "selectAll": "Hautatu guztiak",
+        "addSelected": "Gehitu hautatuak",
+        "addedSuccess": "{{count}} elementu gehitu dira sarbide azkarrean.",
+        "deniedMessage": "Beharrezko baimena ukatu duzu, beraz ez dira ezarpenak aldatu. Aldatu nahi izanez gero, mesedez egin klik berriz eta baimenik eman"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Erakutsi webgunearen ikonoak taldeak kolapsatzean",
@@ -397,6 +427,38 @@
         "downloadOnly": "Deskargatu soilik",
         "staySynchronized": "Jarraitu sinkronizatuta",
         "globaldisabledTips": "Sinkronizatu ezarpenetan orokorrean gaitu behar duzu ezarpen hau aldatzeko."
+      }
+    },
+    "importAndExport": {
+      "title": "Inportatu/Esportatu",
+      "description": "",
+      "options": {
+        "preferences": "Erabiltzaile Hobespenak",
+        "preferencesInfo": "Barne hartzen ditu ezarpen orokor lehenetsiak, bistaratze eta datu hobespenak, eta erabiltzaile interfaze gaiak aldatzea.",
+        "quickAccess": "Sarbide Azkarra",
+        "quickAccessWarning": "Bisitatugabeko webgune baten ikonoa anormalki ager daiteke. Ez kezkatu, nabigatzailea bisitatu eta berrabiarazi ondoren normaltasunez agertuko da.",
+        "siteConfig": "Gune Ezarpenak",
+        "siteConfigInfo": "hala nola automatikoki baztergarria, fitxan aldatzean picture-in-picture, irakurketa aurrerapen barra, erreprodukzio aurrerapen barra, eta abar.",
+        "recentlyTabs": "Berriki itxitako fitxak"
+      },
+      "cancelBtn": "Utzi",
+      "exportBtn": "Esportatu",
+      "importBtn": "Inportatu",
+      "importing": "Inportatzen...",
+      "fileError": "Fitxategiaren parse errorea, mesedez igo JSON konfigurazio fitxategi zuzena",
+      "import": {
+        "label": "Inportatu fitxategitik",
+        "description": "",
+        "formTips": "Hautatu inportatu nahi dituzun datuak",
+        "importSuccess": "Inportazioa arrakastatsua",
+        "importFailed": "Inportazioak huts egin du"
+      },
+      "export": {
+        "label": "Esportatu fitxategira",
+        "description": "",
+        "formTips": "Hautatu esportatu nahi dituzun datuak",
+        "exportSuccess": "Esportazioa arrakastatsua",
+        "exportFailed": "Esportazioak huts egin du"
       }
     },
     "SyncToCloud": {

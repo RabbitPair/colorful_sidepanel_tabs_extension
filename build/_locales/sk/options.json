@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Zobraziť panel nástrojov",
-        "description": "Keď je povolené, panel nástrojov sa zobrazí"
+        "description": "Keď je povolené, panel nástrojov sa zobrazí",
+        "moreOptions": "Viac možností",
+        "moreOptionsDescription": "Môžete ovládať, ktoré ikony sa zobrazia na paneli nástrojov.",
+        "moreOptionsHideLabel": "Skryť popisky ikon na paneli nástrojov",
+        "close": "Zatvoriť",
+        "options": {
+          "toolbar_newtab": "Nová karta",
+          "toolbar_orderby": "Zoradiť podľa",
+          "toolbar_showby": "Zobraziť podľa",
+          "toolbar_view": "zobraziť",
+          "toolbar_colorMode": "Farebný režim",
+          "toolbar_muteAllTabs": "Stlmiť všetky karty, ktoré vydávajú zvuky",
+          "toolbar_scrollToActiveTab": "Posunúť na aktívnu kartu"
+        }
       },
       "bottomNav": {
         "label": "Zobraziť dolný navigačný panel",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Zobraziť rýchly prístup",
         "description": "Môžete nastaviť kartu, aby sa zobrazila v rýchlom prístupe, aby bola ľahko nájditeľná. Stačí na ňu kliknúť pravým tlačidlom myši (alebo dlhým stlačením) a vybrať Pripnúť na rýchly prístup. Odopnite ju, keď ju už nepotrebujete, kliknutím pravým tlačidlom myši (alebo dlhým stlačením) a výberom Odstrániť z rýchleho prístupu. Rozdiel oproti pripnutým kartám je, že rýchly prístup ukladá URL a otvára novú kartu zakaždým, keď na ňu kliknete."
+      },
+      "selectFromHistory": {
+        "label": "Vybrať z histórie",
+        "description": "Ak potrebujete vybrať z histórie, je potrebné vaše povolenie",
+        "numberOfDays": "Počet dní",
+        "numberOfUrls": "Počet URL",
+        "cancel": "Zrušiť",
+        "query": "Dopyt",
+        "selectItemsToAddToQuickAccess": "Vyberte položky na pridanie do rýchleho prístupu:",
+        "selectAll": "Vybrať všetko",
+        "addSelected": "Pridať vybrané",
+        "addedSuccess": "Pridaných {{count}} položiek do rýchleho prístupu.",
+        "deniedMessage": "Odmietli ste požadované povolenie, takže nastavenia sa nezmenili. Ak zmeníte názor, kliknite znova a povoľte autorizáciu"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Zobraziť ikony webových stránok pri zbalení skupín",
@@ -411,6 +437,38 @@
         "downloadOnly": "Iba sťahovanie",
         "staySynchronized": "Zostať synchronizované",
         "globaldisabledTips": "Musíte zapnúť synchronizáciu v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Export",
+      "description": "",
+      "options": {
+        "preferences": "Používateľské nastavenia",
+        "preferencesInfo": "Zahŕňa predvolené všeobecné nastavenia, preferencie zobrazenia a údajov a prepínanie tém používateľského rozhrania.",
+        "quickAccess": "Rýchly prístup",
+        "quickAccessWarning": "Ikona nenavštívenej webovej stránky sa môže zobrazovať abnormálne. Nebojte sa, po návšteve a reštartovaní prehliadača sa zobrazí normálne.",
+        "siteConfig": "Nastavenia stránky",
+        "siteConfigInfo": "ako napríklad automaticky zahoditeľné, obraz v obraze pri prepínaní kariet, ukazovateľ priebehu čítania, ukazovateľ priebehu prehrávania atď.",
+        "recentlyTabs": "Nedávno zatvorené karty"
+      },
+      "cancelBtn": "Zrušiť",
+      "exportBtn": "Exportovať",
+      "importBtn": "Importovať",
+      "importing": "Importovanie...",
+      "fileError": "Chyba pri spracovaní súboru, nahrajte správny konfiguračný súbor JSON",
+      "import": {
+        "label": "Importovať zo súboru",
+        "description": "",
+        "formTips": "Vyberte údaje, ktoré chcete importovať",
+        "importSuccess": "Import úspešný",
+        "importFailed": "Import zlyhal"
+      },
+      "export": {
+        "label": "Exportovať do súboru",
+        "description": "",
+        "formTips": "Vyberte údaje, ktoré chcete exportovať",
+        "exportSuccess": "Export úspešný",
+        "exportFailed": "Export zlyhal"
       }
     },
     "SyncToCloud": {

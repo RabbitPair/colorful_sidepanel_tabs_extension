@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Visa verktygsfält",
-        "description": "När aktiverat visas verktygsfältet"
+        "description": "När aktiverat visas verktygsfältet",
+        "moreOptions": "Fler alternativ",
+        "moreOptionsDescription": "Du kan kontrollera vilka ikoner som visas på verktygsfältet.",
+        "moreOptionsHideLabel": "Dölj verktygsfältsikoner etiketter",
+        "close": "Stäng",
+        "options": {
+          "toolbar_newtab": "Ny flik",
+          "toolbar_orderby": "Sortera efter",
+          "toolbar_showby": "Visa efter",
+          "toolbar_view": "vy",
+          "toolbar_colorMode": "Färgläge",
+          "toolbar_muteAllTabs": "Stäng av alla flikar som låter",
+          "toolbar_scrollToActiveTab": "Rulla till aktiv flik"
+        }
       },
       "bottomNav": {
         "label": "Visa bottennavigeringsfält",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Visa snabbåtkomst",
         "description": "Du kan ställa in en flik att visas i Snabbåtkomst så att den blir lätt att hitta. Högerklicka (eller långtryck) på den och välj Fäst till Snabbåtkomst. Ta bort den när du inte behöver den där längre genom att högerklicka (eller långtrycka) på den och välja Ta bort från Snabbåtkomst. Skillnaden från fästa flikar är att Snabbåtkomst sparar URL:en och öppnar en ny flik varje gång den klickas."
+      },
+      "selectFromHistory": {
+        "label": "Välj från historik",
+        "description": "Om du behöver välja från historiken krävs din auktorisering",
+        "numberOfDays": "Antal dagar",
+        "numberOfUrls": "Antal URL:er",
+        "cancel": "Avbryt",
+        "query": "Fråga",
+        "selectItemsToAddToQuickAccess": "Välj objekt att lägga till i snabbåtkomst:",
+        "selectAll": "Välj alla",
+        "addSelected": "Lägg till valda",
+        "addedSuccess": "Lade till {{count}} objekt till snabbåtkomst.",
+        "deniedMessage": "Du har nekat den nödvändiga behörigheten, så inställningarna har inte ändrats. Om du ändrar dig, vänligen klicka igen och tillåt auktorisering"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Visa webbplatsikoner när grupper kollapsar",
@@ -411,6 +437,38 @@
         "downloadOnly": "Endast nedladdning",
         "staySynchronized": "Förbli synkroniserad",
         "globaldisabledTips": "Du måste aktivera synkronisering i de globala inställningarna för att ändra denna inställning."
+      }
+    },
+    "importAndExport": {
+      "title": "Importera/Exportera",
+      "description": "",
+      "options": {
+        "preferences": "Användarinställningar",
+        "preferencesInfo": "Inkluderar standardinställningar, visnings- och datainställningar samt byte av användargränssnittsteman.",
+        "quickAccess": "Snabb åtkomst",
+        "quickAccessWarning": "Ikonen för en oöppnad webbplats kan visas onormalt. Oroa dig inte, den kommer att visas normalt efter att du har besökt och startat om webbläsaren.",
+        "siteConfig": "Webbplatsinställningar",
+        "siteConfigInfo": "såsom automatisk kassering, bild-i-bild vid flikbyte, läsframstegsfält, spelande framstegsfält, etc.",
+        "recentlyTabs": "Nyligen stängda flikar"
+      },
+      "cancelBtn": "Avbryt",
+      "exportBtn": "Exportera",
+      "importBtn": "Importera",
+      "importing": "Importerar...",
+      "fileError": "Filparsning fel, vänligen ladda upp rätt JSON-konfigurationsfil",
+      "import": {
+        "label": "Importera från fil",
+        "description": "",
+        "formTips": "Välj de data du vill importera",
+        "importSuccess": "Importering lyckades",
+        "importFailed": "Importering misslyckades"
+      },
+      "export": {
+        "label": "Exportera till fil",
+        "description": "",
+        "formTips": "Välj de data du vill exportera",
+        "exportSuccess": "Exportering lyckades",
+        "exportFailed": "Exportering misslyckades"
       }
     },
     "SyncToCloud": {

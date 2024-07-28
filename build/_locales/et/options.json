@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Kuva tööriistariba",
-        "description": "Kui lubatud, kuvatakse tööriistariba"
+        "description": "Kui lubatud, kuvatakse tööriistariba",
+        "moreOptions": "Rohkem valikuid",
+        "moreOptionsDescription": "Saate kontrollida, millised ikoonid tööriistaribal kuvatakse.",
+        "moreOptionsHideLabel": "Peida tööriistariba ikoonide sildid",
+        "close": "Sulge",
+        "options": {
+          "toolbar_newtab": "Uus vahekaart",
+          "toolbar_orderby": "Sorteeri",
+          "toolbar_showby": "Näita",
+          "toolbar_view": "vaade",
+          "toolbar_colorMode": "Värvirežiim",
+          "toolbar_muteAllTabs": "Vaigista kõik heli tekitavad vahekaardid",
+          "toolbar_scrollToActiveTab": "Kerige aktiivsele vahekaardile"
+        }
       },
       "bottomNav": {
         "label": "Kuva alumine navigeerimisriba",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Kuva kiirjuurdepääs",
         "description": "Saate määrata vahekaardi, et see kuvataks kiirjuurdepääsus, et seda oleks lihtne leida. Lihtsalt paremklõpsake (või vajutage pikalt) ja valige Kinnita kiirjuurdepääsuks. Eemaldage see, kui te seda enam ei vaja, paremklõpsates (või pikalt vajutades) ja valides Kustuta kiirjuurdepääsust. Erinevus kinnitatud vahekaartidest on see, et kiirjuurdepääs salvestab URL-i ja avab iga kord uue vahekaardi, kui seda klõpsatakse."
+      },
+      "selectFromHistory": {
+        "label": "Vali ajaloost",
+        "description": "Kui peate valima ajaloost, on vajalik teie autoriseerimine",
+        "numberOfDays": "Päevade arv",
+        "numberOfUrls": "URL-ide arv",
+        "cancel": "Tühista",
+        "query": "Päring",
+        "selectItemsToAddToQuickAccess": "Valige üksused, mida lisada kiirjuurdepääsu:",
+        "selectAll": "Vali kõik",
+        "addSelected": "Lisa valitud",
+        "addedSuccess": "Lisatud {{count}} üksust kiirjuurdepääsu.",
+        "deniedMessage": "Olete keeldunud vajalikust loast, seega seadeid ei muudetud. Kui muudate meelt, klõpsake uuesti ja lubage autoriseerimine"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Kuva veebisaidi ikoonid, kui grupid on kokku pandud",
@@ -411,6 +437,38 @@
         "downloadOnly": "Ainult allalaadimine",
         "staySynchronized": "Jää sünkroonituks",
         "globaldisabledTips": "Selle sätte muutmiseks peate lubama sünkroonimise globaalseadetes."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Eksport",
+      "description": "",
+      "options": {
+        "preferences": "Kasutaja eelistused",
+        "preferencesInfo": "Sisaldab vaikimisi üldseadeid, kuva- ja andmeeelistusi ning kasutajaliidese teemade vahetamist.",
+        "quickAccess": "Kiirjuurdepääs",
+        "quickAccessWarning": "Külastamata veebisaidi ikoon võib kuvada ebanormaalselt. Ärge muretsege, see kuvatakse normaalselt pärast külastamist ja brauseri taaskäivitamist.",
+        "siteConfig": "Saidi seaded",
+        "siteConfigInfo": "näiteks automaatne loobumine, pilt-pildis vahekaardi vahetamisel, lugemise edenemisriba, esitamise edenemisriba jne.",
+        "recentlyTabs": "Hiljuti suletud vahekaardid"
+      },
+      "cancelBtn": "Tühista",
+      "exportBtn": "Ekspordi",
+      "importBtn": "Impordi",
+      "importing": "Importimine...",
+      "fileError": "Faili parsingu viga, palun laadige üles õige JSON-konfiguratsioonifail",
+      "import": {
+        "label": "Impordi failist",
+        "description": "",
+        "formTips": "Valige andmed, mida soovite importida",
+        "importSuccess": "Import õnnestus",
+        "importFailed": "Import ebaõnnestus"
+      },
+      "export": {
+        "label": "Ekspordi faili",
+        "description": "",
+        "formTips": "Valige andmed, mida soovite eksportida",
+        "exportSuccess": "Eksport õnnestus",
+        "exportFailed": "Eksport ebaõnnestus"
       }
     },
     "SyncToCloud": {

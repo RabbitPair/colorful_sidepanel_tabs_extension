@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Mostra barra degli strumenti",
-        "description": "Quando abilitato, la barra degli strumenti viene visualizzata"
+        "description": "Quando abilitato, la barra degli strumenti viene visualizzata",
+        "moreOptions": "Altre opzioni",
+        "moreOptionsDescription": "Puoi controllare quali icone appaiono sulla barra degli strumenti.",
+        "moreOptionsHideLabel": "Nascondi etichette delle icone della barra degli strumenti",
+        "close": "Chiudi",
+        "options": {
+          "toolbar_newtab": "Nuova scheda",
+          "toolbar_orderby": "Ordina per",
+          "toolbar_showby": "Mostra per",
+          "toolbar_view": "vista",
+          "toolbar_colorMode": "Modalità colore",
+          "toolbar_muteAllTabs": "Disattiva tutte le schede che emettono suoni",
+          "toolbar_scrollToActiveTab": "Scorri alla scheda attiva"
+        }
       },
       "bottomNav": {
         "label": "Mostra barra di navigazione inferiore",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Mostra accesso rapido",
         "description": "Puoi impostare una scheda per apparire in Accesso rapido in modo che sia facile da trovare. Basta fare clic con il tasto destro (o premere a lungo) e selezionare Fissa a Accesso rapido. Sbloccalo quando non ne hai più bisogno facendo clic con il tasto destro (o premendo a lungo) e selezionando Elimina da Accesso rapido. La differenza rispetto alle schede bloccate è che Accesso rapido salva l'URL e apre una nuova scheda ogni volta che viene cliccato."
+      },
+      "selectFromHistory": {
+        "label": "Seleziona dalla cronologia",
+        "description": "Se hai bisogno di selezionare dalla cronologia, è necessaria la tua autorizzazione",
+        "numberOfDays": "Numero di giorni",
+        "numberOfUrls": "Numero di URL",
+        "cancel": "Annulla",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Seleziona elementi da aggiungere all'accesso rapido:",
+        "selectAll": "Seleziona tutto",
+        "addSelected": "Aggiungi selezionati",
+        "addedSuccess": "Aggiunti {{count}} elementi all'accesso rapido.",
+        "deniedMessage": "Hai negato il permesso richiesto, quindi le impostazioni non sono cambiate. Se cambi idea, fai clic di nuovo e consenti l'autorizzazione"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Mostra icone dei siti web quando si comprimono i gruppi",
@@ -411,6 +437,38 @@
         "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato",
         "globaldisabledTips": "Devi attivare la sincronizzazione nelle Impostazioni globali per modificare questa impostazione."
+      }
+    },
+    "importAndExport": {
+      "title": "Importa/Esporta",
+      "description": "",
+      "options": {
+        "preferences": "Preferenze utente",
+        "preferencesInfo": "Include le impostazioni generali predefinite, le preferenze di visualizzazione e dati, e il cambio dei temi dell'interfaccia utente.",
+        "quickAccess": "Accesso rapido",
+        "quickAccessWarning": "L'icona di un sito web non visitato potrebbe essere visualizzata in modo anomalo. Non preoccuparti, verrà visualizzata normalmente dopo aver visitato e riavviato il browser.",
+        "siteConfig": "Impostazioni del sito",
+        "siteConfigInfo": "come scartabile automaticamente, immagine nell'immagine al cambio di scheda, barra di progresso di lettura, barra di progresso di riproduzione, ecc.",
+        "recentlyTabs": "Schede chiuse di recente"
+      },
+      "cancelBtn": "Annulla",
+      "exportBtn": "Esporta",
+      "importBtn": "Importa",
+      "importing": "Importazione in corso...",
+      "fileError": "Errore di analisi del file, carica il file di configurazione JSON corretto",
+      "import": {
+        "label": "Importa da file",
+        "description": "",
+        "formTips": "Seleziona i dati che desideri importare",
+        "importSuccess": "Importazione riuscita",
+        "importFailed": "Importazione fallita"
+      },
+      "export": {
+        "label": "Esporta su file",
+        "description": "",
+        "formTips": "Seleziona i dati che desideri esportare",
+        "exportSuccess": "Esportazione riuscita",
+        "exportFailed": "Esportazione fallita"
       }
     },
     "SyncToCloud": {

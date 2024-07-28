@@ -69,11 +69,24 @@
       },
       "toolbar": {
         "label": "显示工具栏",
-        "description": "启用后，显示工具栏"
+        "description": "启用后，显示工具栏",
+        "moreOptions": "更多选项",
+        "moreOptionsDescription": "您可以控制工具栏上显示的图标。",
+        "moreOptionsHideLabel": "隐藏工具栏图标标签",
+        "close": "关闭",
+        "options": {
+          "toolbar_newtab": "新标签页",
+          "toolbar_orderby": "排序方式",
+          "toolbar_showby": "显示方式",
+          "toolbar_view": "视图",
+          "toolbar_colorMode": "颜色模式",
+          "toolbar_muteAllTabs": "静音所有发声标签页",
+          "toolbar_scrollToActiveTab": "滚动到活动标签页"
+        }
       },
       "bottomNav": {
         "label": "显示底部导航栏",
-        "description": "启用后，显示底部导航栏"
+        "description": "启用后，底部导航栏将显示"
       },
       "buttonPosition": {
         "label": "按钮位置",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "显示快速访问",
         "description": "您可以将标签页设置为显示在快速访问中，以便于查找。只需右键单击（或长按）它并选择固定到快速访问。当您不再需要它时，通过右键单击（或长按）它并选择从快速访问中删除来取消固定。与固定标签页的区别在于，快速访问保存URL并在每次点击时打开新标签页。"
+      },
+      "selectFromHistory": {
+        "label": "从历史记录中选择",
+        "description": "如果需要从历史记录中选择，您需要授权",
+        "numberOfDays": "天数",
+        "numberOfUrls": "URL数量",
+        "cancel": "取消",
+        "query": "查询",
+        "selectItemsToAddToQuickAccess": "选择要添加到快速访问的项目：",
+        "selectAll": "全选",
+        "addSelected": "添加选中项",
+        "addedSuccess": "已将 {{count}} 个项目添加到快速访问。",
+        "deniedMessage": "您已拒绝所需的权限，因此设置未更改。如果您改变主意，请再次点击并允许授权"
       },
       "collapsedGroupShowTabIcons": {
         "label": "折叠组时显示网站图标",
@@ -413,6 +439,38 @@
         "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       }
     },
+    "importAndExport": {
+      "title": "导入/导出",
+      "description": "",
+      "options": {
+        "preferences": "用户偏好",
+        "preferencesInfo": "包括默认的常规设置、显示和数据偏好，以及切换用户界面主题。",
+        "quickAccess": "快速访问",
+        "quickAccessWarning": "未访问网站的图标可能显示异常。别担心，访问并重启浏览器后会正常显示。",
+        "siteConfig": "站点设置",
+        "siteConfigInfo": "例如自动丢弃、标签切换时的画中画、阅读进度条、播放进度条等。",
+        "recentlyTabs": "最近关闭的标签页"
+      },
+      "cancelBtn": "取消",
+      "exportBtn": "导出",
+      "importBtn": "导入",
+      "importing": "正在导入...",
+      "fileError": "文件解析错误，请上传正确的JSON配置文件",
+      "import": {
+        "label": "从文件导入",
+        "description": "",
+        "formTips": "选择您要导入的数据",
+        "importSuccess": "导入成功",
+        "importFailed": "导入失败"
+      },
+      "export": {
+        "label": "导出到文件",
+        "description": "",
+        "formTips": "选择您要导出的数据",
+        "exportSuccess": "导出成功",
+        "exportFailed": "导出失败"
+      }
+    },
     "SyncToCloud": {
       "label": "同步到云端",
       "SyncNow": "立即同步",
@@ -453,7 +511,8 @@
         "disabled": "禁用",
         "uploadOnly": "仅上传",
         "downloadOnly": "仅下载",
-        "staySynchronized": "保持同步"
+        "staySynchronized": "保持同步",
+        "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       }
     }
   }

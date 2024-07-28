@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Vis værktøjslinje",
-        "description": "Når aktiveret, vises værktøjslinjen"
+        "description": "Når aktiveret, vises værktøjslinjen",
+        "moreOptions": "Flere muligheder",
+        "moreOptionsDescription": "Du kan kontrollere, hvilke ikoner der vises på værktøjslinjen.",
+        "moreOptionsHideLabel": "Skjul værktøjslinje ikonetiketter",
+        "close": "Luk",
+        "options": {
+          "toolbar_newtab": "Ny fane",
+          "toolbar_orderby": "Sorter efter",
+          "toolbar_showby": "Vis efter",
+          "toolbar_view": "visning",
+          "toolbar_colorMode": "Farvetilstand",
+          "toolbar_muteAllTabs": "Slå lyden fra på alle faner, der afspiller lyd",
+          "toolbar_scrollToActiveTab": "Rul til aktiv fane"
+        }
       },
       "bottomNav": {
         "label": "Vis bundnavigationslinje",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Vis hurtig adgang",
         "description": "Du kan indstille en fane til at blive vist i Hurtig adgang, så den er nem at finde. Højreklik (eller lang tryk) på den og vælg Fastgør til Hurtig adgang. Fjern fastgørelsen, når du ikke længere har brug for den der, ved at højreklikke (eller lang trykke) på den og vælge Slet fra Hurtig adgang. Forskellen fra fastgjorte faner er, at Hurtig adgang gemmer URL'en og åbner en ny fane hver gang den klikkes."
+      },
+      "selectFromHistory": {
+        "label": "Vælg fra historik",
+        "description": "Hvis du har brug for at vælge fra historikken, kræves din autorisation",
+        "numberOfDays": "Antal dage",
+        "numberOfUrls": "Antal URL'er",
+        "cancel": "Annuller",
+        "query": "Forespørgsel",
+        "selectItemsToAddToQuickAccess": "Vælg elementer til hurtig adgang:",
+        "selectAll": "Vælg alle",
+        "addSelected": "Tilføj valgte",
+        "addedSuccess": "Tilføjet {{count}} elementer til hurtig adgang.",
+        "deniedMessage": "Du har nægtet den nødvendige tilladelse, så indstillingerne er ikke ændret. Hvis du ændrer mening, skal du klikke igen og tillade autorisation"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Vis webstedsikoner ved sammenklappede grupper",
@@ -411,6 +437,38 @@
         "downloadOnly": "Kun download",
         "staySynchronized": "Forbliv synkroniseret",
         "globaldisabledTips": "Du skal aktivere synkronisering i de globale indstillinger for at ændre denne indstilling."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Eksport",
+      "description": "",
+      "options": {
+        "preferences": "Brugerindstillinger",
+        "preferencesInfo": "Inkluderer standard generelle indstillinger, visnings- og dataindstillinger og skift af brugergrænsefladetemaer.",
+        "quickAccess": "Hurtig adgang",
+        "quickAccessWarning": "Ikonet for et ikke-besøgt websted kan vises unormalt. Bare rolig, det vil blive vist normalt, efter du har besøgt og genstartet browseren.",
+        "siteConfig": "Webstedsindstillinger",
+        "siteConfigInfo": "såsom automatisk kassérbar, billede-i-billede ved faneskift, læsefremskridtslinje, afspilningsfremskridtslinje osv.",
+        "recentlyTabs": "Nyligt lukkede faner"
+      },
+      "cancelBtn": "Annuller",
+      "exportBtn": "Eksporter",
+      "importBtn": "Importer",
+      "importing": "Importerer...",
+      "fileError": "Filparsningsfejl, upload venligst den korrekte JSON-konfigurationsfil",
+      "import": {
+        "label": "Importer fra fil",
+        "description": "",
+        "formTips": "Vælg de data, du vil importere",
+        "importSuccess": "Import succes",
+        "importFailed": "Import mislykkedes"
+      },
+      "export": {
+        "label": "Eksporter til fil",
+        "description": "",
+        "formTips": "Vælg de data, du vil eksportere",
+        "exportSuccess": "Eksport succes",
+        "exportFailed": "Eksport mislykkedes"
       }
     },
     "SyncToCloud": {

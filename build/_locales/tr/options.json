@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Araç çubuğunu göster",
-        "description": "Etkinleştirildiğinde, araç çubuğu görüntülenir"
+        "description": "Etkinleştirildiğinde, araç çubuğu görüntülenir",
+        "moreOptions": "Daha Fazla Seçenek",
+        "moreOptionsDescription": "Araç çubuğunda hangi simgelerin görüneceğini kontrol edebilirsiniz.",
+        "moreOptionsHideLabel": "Araç çubuğu simge etiketlerini gizle",
+        "close": "Kapat",
+        "options": {
+          "toolbar_newtab": "Yeni Sekme",
+          "toolbar_orderby": "Sırala",
+          "toolbar_showby": "Göster",
+          "toolbar_view": "görünüm",
+          "toolbar_colorMode": "Renk modu",
+          "toolbar_muteAllTabs": "Ses Çıkaran Tüm Sekmeleri Sessize Al",
+          "toolbar_scrollToActiveTab": "Etkin Sekmeye Kaydır"
+        }
       },
       "bottomNav": {
         "label": "Alt gezinme çubuğunu göster",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Hızlı erişimi göster",
         "description": "Bir sekmeyi Hızlı erişimde gösterecek şekilde ayarlayabilirsiniz, böylece kolayca bulunabilir. Sağ tıklayın (veya uzun basın) ve Hızlı erişime sabitle'yi seçin. Artık orada olmasına gerek kalmadığında, sağ tıklayarak (veya uzun basarak) ve Hızlı erişimden sil'i seçerek sabitlemeyi kaldırın. Sabitlenmiş sekmelerden farkı, Hızlı Erişim'in URL'yi kaydetmesi ve her tıklamada yeni bir sekme açmasıdır."
+      },
+      "selectFromHistory": {
+        "label": "Geçmişten seç",
+        "description": "Geçmişten seçim yapmanız gerekiyorsa, yetkilendirmeniz gereklidir",
+        "numberOfDays": "Gün sayısı",
+        "numberOfUrls": "URL sayısı",
+        "cancel": "İptal",
+        "query": "Sorgu",
+        "selectItemsToAddToQuickAccess": "Hızlı erişime eklemek için öğeleri seçin:",
+        "selectAll": "Hepsini seç",
+        "addSelected": "Seçilenleri ekle",
+        "addedSuccess": "{{count}} öğe hızlı erişime eklendi.",
+        "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Gruplar daraltıldığında web sitesi simgelerini göster",
@@ -411,6 +437,38 @@
         "downloadOnly": "Yalnızca indir",
         "staySynchronized": "Senkronize kal",
         "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda senkronizasyonu açmalısınız."
+      }
+    },
+    "importAndExport": {
+      "title": "İçe/Dışa Aktar",
+      "description": "",
+      "options": {
+        "preferences": "Kullanıcı Tercihleri",
+        "preferencesInfo": "Varsayılan genel ayarları, görüntüleme ve veri tercihlerini ve kullanıcı arayüzü temalarını değiştirmeyi içerir.",
+        "quickAccess": "Hızlı Erişim",
+        "quickAccessWarning": "Ziyaret edilmemiş bir web sitesinin simgesi anormal görünebilir. Endişelenmeyin, ziyaret edip tarayıcıyı yeniden başlattıktan sonra normal görünecektir.",
+        "siteConfig": "Site Ayarları",
+        "siteConfigInfo": "otomatik atılabilir, Sekme Değiştirmede Resim içinde Resim, okuma ilerleme çubuğu, oynatma ilerleme çubuğu vb. gibi.",
+        "recentlyTabs": "Son kapatılan sekmeler"
+      },
+      "cancelBtn": "İptal",
+      "exportBtn": "Dışa Aktar",
+      "importBtn": "İçe Aktar",
+      "importing": "İçe aktarılıyor...",
+      "fileError": "Dosya ayrıştırma hatası, lütfen doğru JSON yapılandırma dosyasını yükleyin",
+      "import": {
+        "label": "Dosyadan içe aktar",
+        "description": "",
+        "formTips": "İçe aktarmak istediğiniz verileri seçin",
+        "importSuccess": "İçe aktarma başarılı",
+        "importFailed": "İçe aktarma başarısız"
+      },
+      "export": {
+        "label": "Dosyaya dışa aktar",
+        "description": "",
+        "formTips": "Dışa aktarmak istediğiniz verileri seçin",
+        "exportSuccess": "Dışa aktarma başarılı",
+        "exportFailed": "Dışa aktarma başarısız"
       }
     },
     "SyncToCloud": {

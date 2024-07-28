@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Seall an t-siostam-innse",
-        "description": "Nuair a chaidh a chumas, bidh an t-siostam-innse air an taisbeanadh"
+        "description": "Nuair a chaidh a chumas, bidh an t-siostam-innse air an taisbeanadh",
+        "moreOptions": "Barrachd Roghainnean",
+        "moreOptionsDescription": "Faodaidh tu smachd a chumail air dè na h-ìomhaighean a nochdas air a' bhàr-inneal.",
+        "moreOptionsHideLabel": "Falaich bileagan ìomhaigh a' bhàr-inneal",
+        "close": "Dùin",
+        "options": {
+          "toolbar_newtab": "Tab Ùr",
+          "toolbar_orderby": "Òrdaich Le",
+          "toolbar_showby": "Seall Le",
+          "toolbar_view": "sealladh",
+          "toolbar_colorMode": "Modh dath",
+          "toolbar_muteAllTabs": "Sàmhach a h-uile Tab a' Dèanamh Fuaim",
+          "toolbar_scrollToActiveTab": "Sgrolaich gu Tab Gnìomhach"
+        }
       },
       "bottomNav": {
         "label": "Seall an t-siostam-innse ìosal",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Seall taobhan pinnichte mar ioganan",
         "description": "Nuair a chaidh a chumas, bidh taobhan pinnichte air an taisbeanadh mar ioganan agus chan eil iad san liosta"
+      },
+      "pinToQuickAccess": {
+        "label": "Seall ruigsinneachd luath",
+        "description": "Faodaidh tu taba a shuidheachadh gus nochdadh ann an Ruigsinneachd Luath gus am bi e furasta a lorg. Dìreach briog deas (no brùth fada) air agus tagh Pin gu Ruigsinneachd Luath. Dì-phinn e nuair nach eil feum agad air tuilleadh le bhith a’ briogadh deas (no a’ brùthadh fada) air agus a’ taghadh Sguab às bho Ruigsinneachd Luath. Is e an diofar bho thabaichean pinnichte gu bheil Ruigsinneachd Luath a’ sàbhaladh an URL agus a’ fosgladh taba ùr gach uair a thèid briogadh air."
+      },
+      "selectFromHistory": {
+        "label": "Tagh bho eachdraidh",
+        "description": "Ma dh'fheumas tu taghadh bho eachdraidh, tha do cheadachadh riatanach",
+        "numberOfDays": "Àireamh de làithean",
+        "numberOfUrls": "Àireamh de URLs",
+        "cancel": "Sguir dheth",
+        "query": "Ceist",
+        "selectItemsToAddToQuickAccess": "Tagh nithean airson a chur ri ruigsinneachd luath:",
+        "selectAll": "Tagh Uile",
+        "addSelected": "Cuir ris na thaghadh",
+        "addedSuccess": "Chaidh {{count}} nithean a chur ri ruigsinneachd luath.",
+        "deniedMessage": "Tha thu air an cead riatanach a dhiùltadh, mar sin cha deach na roghainnean atharrachadh. Ma dh’atharraicheas tu d’ inntinn, cliog a-rithist agus leig le ceadachadh"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Seall ioganan làraich nuair a' briseadh còmhlanan",
@@ -398,6 +428,38 @@
       "SyncPrivateData": {
         "label": "Sinc dàta prìobhaideach",
         "description": "Tagh ciamar a sinnicheas dàta prìobhaideach, mar eisimpleir fianáin làraichean, dàta stòradh ionadail duilleige, dàta StòrasSeisiúin, srl. Criptear an dàta mus sinnicheas e."
+      }
+    },
+    "importAndExport": {
+      "title": "In-mhalairt/Às-mhalairt",
+      "description": "",
+      "options": {
+        "preferences": "Roghainnean Cleachdaiche",
+        "preferencesInfo": "A’ gabhail a-steach suidheachaidhean coitcheann bunaiteach, roghainnean taisbeanaidh agus dàta, agus cuspairean eadar-aghaidh cleachdaiche a thionndadh.",
+        "quickAccess": "Cothrom Luath",
+        "quickAccessWarning": "Dh’fhaodadh ìomhaigh làrach-lìn nach deach a thadhail air a bhith a’ taisbeanadh gu neo-àbhaisteach. Na gabh dragh, bidh e a’ taisbeanadh gu h-àbhaisteach às dèidh dhut tadhal agus am brabhsair ath-thòiseachadh.",
+        "siteConfig": "Suidheachaidhean Làraich",
+        "siteConfigInfo": "leithid fèin-dhì-chomasach, dealbh-ann-an-dealbh air Tabh Sgaoil, bàr staid leughaidh, bàr staid cluich, msaa.",
+        "recentlyTabs": "Taobhan dùinte o chionn ghoirid"
+      },
+      "cancelBtn": "Sguir dheth",
+      "exportBtn": "Às-mhalairt",
+      "importBtn": "In-mhalairt",
+      "importing": "A’ toirt a-steach...",
+      "fileError": "Mearachd ann am parsing faidhle, cuir a-steach am faidhle rèiteachaidh JSON ceart",
+      "import": {
+        "label": "In-mhalairt bho fhaidhle",
+        "description": "",
+        "formTips": "Tagh an dàta a tha thu airson a thoirt a-steach",
+        "importSuccess": "In-mhalairt soirbheachail",
+        "importFailed": "Dh'fhàillig in-mhalairt"
+      },
+      "export": {
+        "label": "Às-mhalairt gu faidhle",
+        "description": "",
+        "formTips": "Tagh an dàta a tha thu airson às-mhalairt",
+        "exportSuccess": "Às-mhalairt soirbheachail",
+        "exportFailed": "Dh'fhàillig às-mhalairt"
       }
     },
     "SyncToCloud": {

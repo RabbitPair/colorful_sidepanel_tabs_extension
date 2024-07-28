@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Montri ilobreton",
-        "description": "Kiam aktivigita, la ilobreto montriĝas"
+        "description": "Kiam aktivigita, la ilobreto montriĝas",
+        "moreOptions": "Pli da Opcioj",
+        "moreOptionsDescription": "Vi povas kontroli kiuj ikonoj aperas en la ilobreto.",
+        "moreOptionsHideLabel": "Kaŝi etikedojn de ilobreto ikonoj",
+        "close": "Fermi",
+        "options": {
+          "toolbar_newtab": "Nova Langeto",
+          "toolbar_orderby": "Ordigi Laŭ",
+          "toolbar_showby": "Montri Laŭ",
+          "toolbar_view": "vido",
+          "toolbar_colorMode": "Kolora modo",
+          "toolbar_muteAllTabs": "Silentigi Ĉiujn Langetojn Farantajn Bruon",
+          "toolbar_scrollToActiveTab": "Rulumi al Aktiva Langeto"
+        }
       },
       "bottomNav": {
         "label": "Montri malsupran navigadobreton",
@@ -172,6 +185,23 @@
       "pinedTabsAsIcons": {
         "label": "Montri pinglitajn lanĉetojn kiel ikonoj",
         "description": "Kiam aktivigita, pinglitaj lanĉetoj estos montritaj kiel ikonoj kaj ne en la listo"
+      },
+      "pinToQuickAccess": {
+        "label": "Montri rapidan aliron",
+        "description": "Vi povas agordi langeton por aperi en Rapida aliro por ke ĝi estu facile trovebla. Simple dekstre-klaku (aŭ longe-premu) ĝin kaj elektu Fiksi al Rapida aliro. Malfiksu ĝin kiam vi ne plu bezonas ĝin tie per dekstre-klakado (aŭ longe-premado) kaj elektante Forigi el Rapida aliro. La diferenco de fiksitaj langetoj estas, ke Rapida aliro konservas la URL-on kaj malfermas novan langeton ĉiufoje kiam ĝi estas klakita."
+      },
+      "selectFromHistory": {
+        "label": "Elekti el historio",
+        "description": "Se vi bezonas elekti el la historio, via aŭtorizo estas postulata",
+        "numberOfDays": "Nombro de tagoj",
+        "numberOfUrls": "Nombro de URL-oj",
+        "cancel": "Nuligi",
+        "query": "Demando",
+        "selectItemsToAddToQuickAccess": "Elekti erojn por aldoni al rapida aliro:",
+        "selectAll": "Elekti Ĉion",
+        "addSelected": "Aldoni Elektitajn",
+        "addedSuccess": "Aldonis {{count}} erojn al rapida aliro.",
+        "deniedMessage": "Vi malpermesis la necesan permeson, do la agordoj ne ŝanĝiĝis. Se vi ŝanĝos vian opinion, bonvolu klaki denove kaj permesi aŭtorizon"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Montri retejo-ikonojn kiam kollapsantaj grupoj",
@@ -406,6 +436,38 @@
         "downloadOnly": "Nur elŝuti",
         "staySynchronized": "Resti sinkronizita",
         "globaldisabledTips": "Vi devas aktivigi sinkronigon en la Ĝeneralaj Agordoj por modifi tiun ĉi agordon."
+      }
+    },
+    "importAndExport": {
+      "title": "Importi/Eksporti",
+      "description": "",
+      "options": {
+        "preferences": "Uzantaj Preferoj",
+        "preferencesInfo": "Inkluzivas defaŭltajn ĝeneralajn agordojn, ekranajn kaj datumajn preferojn, kaj ŝanĝadon de uzantinterfaco-temoj.",
+        "quickAccess": "Rapida Alirado",
+        "quickAccessWarning": "La ikono de nevizitita retejo povas montriĝi nenormale. Ne zorgu, ĝi montriĝos normale post kiam vi vizitos kaj rekomencos la retumilon.",
+        "siteConfig": "Retejaj Agordoj",
+        "siteConfigInfo": "kiel aŭtomate forigebla, bildo-en-bildo dum lanĉetŝanĝo, leganta progreslinio, ludanta progreslinio, ktp.",
+        "recentlyTabs": "Lastatempe fermitaj lanĉetoj"
+      },
+      "cancelBtn": "Nuligi",
+      "exportBtn": "Eksporti",
+      "importBtn": "Importi",
+      "importing": "Importante...",
+      "fileError": "Eraro dum dosiera analizo, bonvolu alŝuti la ĝustan JSON-agordan dosieron",
+      "import": {
+        "label": "Importi el dosiero",
+        "description": "",
+        "formTips": "Elektu la datumojn, kiujn vi volas importi",
+        "importSuccess": "Importo sukcesis",
+        "importFailed": "Importo malsukcesis"
+      },
+      "export": {
+        "label": "Eksporti al dosiero",
+        "description": "",
+        "formTips": "Elektu la datumojn, kiujn vi volas eksporti",
+        "exportSuccess": "Eksporto sukcesis",
+        "exportFailed": "Eksporto malsukcesis"
       }
     },
     "SyncToCloud": {

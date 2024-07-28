@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "ツールバーを表示",
-        "description": "有効にすると、ツールバーが表示されます"
+        "description": "有効にすると、ツールバーが表示されます",
+        "moreOptions": "その他のオプション",
+        "moreOptionsDescription": "ツールバーに表示されるアイコンを制御できます。",
+        "moreOptionsHideLabel": "ツールバーアイコンのラベルを非表示",
+        "close": "閉じる",
+        "options": {
+          "toolbar_newtab": "新しいタブ",
+          "toolbar_orderby": "並び替え",
+          "toolbar_showby": "表示方法",
+          "toolbar_view": "表示",
+          "toolbar_colorMode": "カラーモード",
+          "toolbar_muteAllTabs": "すべてのタブの音をミュート",
+          "toolbar_scrollToActiveTab": "アクティブなタブにスクロール"
+        }
       },
       "bottomNav": {
         "label": "下部ナビゲーションバーを表示",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "クイックアクセスを表示",
         "description": "タブをクイックアクセスに表示するように設定できます。これにより、簡単に見つけることができます。右クリック（または長押し）して「クイックアクセスにピン留め」を選択します。もう必要ない場合は、右クリック（または長押し）して「クイックアクセスから削除」を選択してピン留めを解除します。ピン留めされたタブとの違いは、クイックアクセスがURLを保存し、クリックするたびに新しいタブを開くことです。"
+      },
+      "selectFromHistory": {
+        "label": "履歴から選択",
+        "description": "履歴から選択するには、認証が必要です",
+        "numberOfDays": "日数",
+        "numberOfUrls": "URLの数",
+        "cancel": "キャンセル",
+        "query": "クエリ",
+        "selectItemsToAddToQuickAccess": "クイックアクセスに追加する項目を選択:",
+        "selectAll": "すべて選択",
+        "addSelected": "選択したものを追加",
+        "addedSuccess": "{{count}} 件の項目がクイックアクセスに追加されました。",
+        "deniedMessage": "必要な権限を拒否したため、設定は変更されませんでした。気が変わった場合は、もう一度クリックして認証を許可してください"
       },
       "collapsedGroupShowTabIcons": {
         "label": "グループを折りたたむときにウェブサイトのアイコンを表示",
@@ -411,6 +437,38 @@
         "downloadOnly": "ダウンロードのみ",
         "staySynchronized": "同期を維持",
         "globaldisabledTips": "この設定を変更するには、グローバル設定で同期をオンにする必要があります。"
+      }
+    },
+    "importAndExport": {
+      "title": "インポート/エクスポート",
+      "description": "",
+      "options": {
+        "preferences": "ユーザー設定",
+        "preferencesInfo": "デフォルトの一般設定、表示およびデータ設定、ユーザーインターフェーステーマの切り替えを含みます。",
+        "quickAccess": "クイックアクセス",
+        "quickAccessWarning": "未訪問のウェブサイトのアイコンが異常に表示される場合があります。心配しないでください、訪問してブラウザを再起動すると正常に表示されます。",
+        "siteConfig": "サイト設定",
+        "siteConfigInfo": "自動破棄可能、タブ切り替え時のピクチャー・イン・ピクチャー、読書進行状況バー、再生進行状況バーなど。",
+        "recentlyTabs": "最近閉じたタブ"
+      },
+      "cancelBtn": "キャンセル",
+      "exportBtn": "エクスポート",
+      "importBtn": "インポート",
+      "importing": "インポート中...",
+      "fileError": "ファイル解析エラー、正しいJSON設定ファイルをアップロードしてください",
+      "import": {
+        "label": "ファイルからインポート",
+        "description": "",
+        "formTips": "インポートしたいデータを選択してください",
+        "importSuccess": "インポート成功",
+        "importFailed": "インポート失敗"
+      },
+      "export": {
+        "label": "ファイルにエクスポート",
+        "description": "",
+        "formTips": "エクスポートしたいデータを選択してください",
+        "exportSuccess": "エクスポート成功",
+        "exportFailed": "エクスポート失敗"
       }
     },
     "SyncToCloud": {

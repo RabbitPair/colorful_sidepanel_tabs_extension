@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Pokaż pasek narzędzi",
-        "description": "Po włączeniu pasek narzędzi jest wyświetlany"
+        "description": "Po włączeniu pasek narzędzi jest wyświetlany",
+        "moreOptions": "Więcej opcji",
+        "moreOptionsDescription": "Możesz kontrolować, które ikony pojawiają się na pasku narzędzi.",
+        "moreOptionsHideLabel": "Ukryj etykiety ikon paska narzędzi",
+        "close": "Zamknij",
+        "options": {
+          "toolbar_newtab": "Nowa karta",
+          "toolbar_orderby": "Sortuj według",
+          "toolbar_showby": "Pokaż według",
+          "toolbar_view": "widok",
+          "toolbar_colorMode": "Tryb kolorów",
+          "toolbar_muteAllTabs": "Wycisz wszystkie karty emitujące dźwięki",
+          "toolbar_scrollToActiveTab": "Przewiń do aktywnej karty"
+        }
       },
       "bottomNav": {
         "label": "Pokaż dolny pasek nawigacyjny",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Pokaż szybki dostęp",
         "description": "Możesz ustawić kartę, aby pojawiała się w Szybkim dostępie, aby łatwo ją znaleźć. Po prostu kliknij prawym przyciskiem myszy (lub długim naciśnięciem) i wybierz Przypnij do Szybkiego dostępu. Odpinaj, gdy nie potrzebujesz jej tam więcej, klikając prawym przyciskiem myszy (lub długim naciśnięciem) i wybierając Usuń z Szybkiego dostępu. Różnica w stosunku do przypiętych kart polega na tym, że Szybki dostęp zapisuje URL i otwiera nową kartę za każdym razem, gdy jest kliknięty."
+      },
+      "selectFromHistory": {
+        "label": "Wybierz z historii",
+        "description": "Jeśli chcesz wybrać z historii, wymagana jest Twoja autoryzacja",
+        "numberOfDays": "Liczba dni",
+        "numberOfUrls": "Liczba URL",
+        "cancel": "Anuluj",
+        "query": "Zapytanie",
+        "selectItemsToAddToQuickAccess": "Wybierz elementy do dodania do szybkiego dostępu:",
+        "selectAll": "Wybierz wszystko",
+        "addSelected": "Dodaj wybrane",
+        "addedSuccess": "Dodano {{count}} elementów do szybkiego dostępu.",
+        "deniedMessage": "Odmówiłeś wymaganych uprawnień, więc ustawienia nie zostały zmienione. Jeśli zmienisz zdanie, kliknij ponownie i zezwól na autoryzację"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Pokaż ikony stron internetowych po złożeniu grup",
@@ -411,6 +437,38 @@
         "downloadOnly": "Tylko pobieranie",
         "staySynchronized": "Pozostań zsynchronizowany",
         "globaldisabledTips": "Musisz włączyć synchronizację w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Eksport",
+      "description": "",
+      "options": {
+        "preferences": "Preferencje użytkownika",
+        "preferencesInfo": "Zawiera domyślne ustawienia ogólne, preferencje wyświetlania i danych oraz przełączanie motywów interfejsu użytkownika.",
+        "quickAccess": "Szybki dostęp",
+        "quickAccessWarning": "Ikona nieodwiedzonej strony internetowej może wyświetlać się nieprawidłowo. Nie martw się, wyświetli się poprawnie po odwiedzeniu i ponownym uruchomieniu przeglądarki.",
+        "siteConfig": "Ustawienia strony",
+        "siteConfigInfo": "takie jak automatyczne odrzucanie, obraz w obrazie przy przełączaniu kart, pasek postępu czytania, pasek postępu odtwarzania itp.",
+        "recentlyTabs": "Ostatnio zamknięte karty"
+      },
+      "cancelBtn": "Anuluj",
+      "exportBtn": "Eksportuj",
+      "importBtn": "Importuj",
+      "importing": "Importowanie...",
+      "fileError": "Błąd parsowania pliku, proszę przesłać poprawny plik konfiguracyjny JSON",
+      "import": {
+        "label": "Importuj z pliku",
+        "description": "",
+        "formTips": "Wybierz dane, które chcesz zaimportować",
+        "importSuccess": "Importowanie zakończone sukcesem",
+        "importFailed": "Importowanie nie powiodło się"
+      },
+      "export": {
+        "label": "Eksportuj do pliku",
+        "description": "",
+        "formTips": "Wybierz dane, które chcesz wyeksportować",
+        "exportSuccess": "Eksportowanie zakończone sukcesem",
+        "exportFailed": "Eksportowanie nie powiodło się"
       }
     },
     "SyncToCloud": {

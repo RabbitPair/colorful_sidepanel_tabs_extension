@@ -68,7 +68,20 @@
       },
       "toolbar": {
         "label": "Dangos y bar offer",
-        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar offer yn cael ei dangos"
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar offer yn cael ei dangos",
+        "moreOptions": "Mwy o Opsiynau",
+        "moreOptionsDescription": "Gallwch reoli pa eiconau sy'n ymddangos ar y bar offer.",
+        "moreOptionsHideLabel": "Cuddio labeli eicon y bar offer",
+        "close": "Cau",
+        "options": {
+          "toolbar_newtab": "Tab Newydd",
+          "toolbar_orderby": "Trefnu Yn ôl",
+          "toolbar_showby": "Dangos Yn ôl",
+          "toolbar_view": "gweld",
+          "toolbar_colorMode": "Modd Lliw",
+          "toolbar_muteAllTabs": "Tawelu Pob Tab Sy'n Gwneud Sŵn",
+          "toolbar_scrollToActiveTab": "Sgroliwch i'r Tab Gweithredol"
+        }
       },
       "bottomNav": {
         "label": "Dangos y bar llywio gwaelod",
@@ -171,6 +184,23 @@
       "pinedTabsAsIcons": {
         "label": "Dangos tabiau pinio fel eiconau",
         "description": "Pan fydd hwn wedi'i alluogi, bydd tabiau pinio'n cael eu dangos fel eiconau ac nid yn y rhestr"
+      },
+      "pinToQuickAccess": {
+        "label": "Dangos mynediad cyflym",
+        "description": "Gallwch osod tab i ymddangos yn Mynediad Cyflym fel y bydd yn hawdd ei ddod o hyd iddo. Cliciwch-dde (neu pwyswch yn hir) arno a dewis Pin i Mynediad Cyflym. Dad-binnwch ef pan nad oes ei angen arnoch mwyach trwy glicio-dde (neu pwyswch yn hir) arno a dewis Dileu o Mynediad Cyflym. Y gwahaniaeth o dabiau wedi'u pinnio yw bod Mynediad Cyflym yn arbed y URL ac yn agor tab newydd bob tro y caiff ei glicio."
+      },
+      "selectFromHistory": {
+        "label": "Dewis o hanes",
+        "description": "Os oes angen i chi ddewis o'r hanes, mae angen eich awdurdodiad",
+        "numberOfDays": "Nifer y dyddiau",
+        "numberOfUrls": "Nifer y URLs",
+        "cancel": "Canslo",
+        "query": "Ymholiad",
+        "selectItemsToAddToQuickAccess": "Dewis eitemau i'w hychwanegu at fynediad cyflym:",
+        "selectAll": "Dewis Pob Un",
+        "addSelected": "Ychwanegu'r Dewis",
+        "addedSuccess": "Ychwanegwyd {{count}} eitem i fynediad cyflym.",
+        "deniedMessage": "Rydych wedi gwrthod y caniatâd angenrheidiol, felly ni newidiwyd y gosodiadau. Os byddwch yn newid eich meddwl, cliciwch eto a chaniatáu'r awdurdodi"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Dangos eiconau gwefan wrth gwympo grwpiau",
@@ -404,6 +434,38 @@
         "downloadOnly": "lawrlwytho'n unig",
         "staySynchronized": "Aros yn gyfatebol",
         "globaldisabledTips": "Rhaid i chi alluogi'r sync yn y Gosodiadau Cyffredinol i olygu'r gosodiad hwn."
+      }
+    },
+    "importAndExport": {
+      "title": "Mewnforio/Allforio",
+      "description": "",
+      "options": {
+        "preferences": "Dewisiadau Defnyddiwr",
+        "preferencesInfo": "Yn cynnwys gosodiadau cyffredinol diofyn, dewisiadau arddangos a data, a newid themâu rhyngwyneb defnyddiwr.",
+        "quickAccess": "Mynediad Cyflym",
+        "quickAccessWarning": "Gall eicon gwefan heb ei ymweld â hi arddangos yn annormal. Peidiwch â phoeni, bydd yn arddangos yn normal ar ôl i chi ymweld a ailgychwyn y porwr.",
+        "siteConfig": "Gosodiadau Safle",
+        "siteConfigInfo": "megis auto wrthodadwy, delwedd-mewn-delwedd wrth Droi Tab, bar cynnydd darllen, bar cynnydd chwarae, ac ati.",
+        "recentlyTabs": "Tabiau a gaewyd yn ddiweddar"
+      },
+      "cancelBtn": "Canslo",
+      "exportBtn": "Allforio",
+      "importBtn": "Mewnforio",
+      "importing": "Yn mewnforio...",
+      "fileError": "Gwall dadansoddi ffeil, os gwelwch yn dda llwythwch y ffeil ffurfweddu JSON cywir",
+      "import": {
+        "label": "Mewnforio o ffeil",
+        "description": "",
+        "formTips": "Dewiswch y data rydych chi am ei fewnforio",
+        "importSuccess": "Mewnforio llwyddiannus",
+        "importFailed": "Mewnforio wedi methu"
+      },
+      "export": {
+        "label": "Allforio i ffeil",
+        "description": "",
+        "formTips": "Dewiswch y data rydych chi am ei allforio",
+        "exportSuccess": "Allforio llwyddiannus",
+        "exportFailed": "Allforio wedi methu"
       }
     },
     "SyncToCloud": {

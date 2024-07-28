@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Afficher la barre d'outils",
-        "description": "Lorsqu'il est activé, la barre d'outils est affichée"
+        "description": "Lorsqu'il est activé, la barre d'outils est affichée",
+        "moreOptions": "Plus d'options",
+        "moreOptionsDescription": "Vous pouvez contrôler quelles icônes apparaissent sur la barre d'outils.",
+        "moreOptionsHideLabel": "Masquer les étiquettes des icônes de la barre d'outils",
+        "close": "Fermer",
+        "options": {
+          "toolbar_newtab": "Nouvel onglet",
+          "toolbar_orderby": "Trier par",
+          "toolbar_showby": "Afficher par",
+          "toolbar_view": "vue",
+          "toolbar_colorMode": "Mode de couleur",
+          "toolbar_muteAllTabs": "Couper le son de tous les onglets",
+          "toolbar_scrollToActiveTab": "Faire défiler jusqu'à l'onglet actif"
+        }
       },
       "bottomNav": {
         "label": "Afficher la barre de navigation inférieure",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Afficher l'accès rapide",
         "description": "Vous pouvez définir un onglet pour qu'il apparaisse dans l'accès rapide afin qu'il soit facile à trouver. Il suffit de faire un clic droit (ou un appui long) dessus et de sélectionner Épingler à l'accès rapide. Désépingler-le lorsque vous n'en avez plus besoin en faisant un clic droit (ou un appui long) dessus et en sélectionnant Supprimer de l'accès rapide. La différence avec les onglets épinglés est que l'accès rapide enregistre l'URL et ouvre un nouvel onglet à chaque fois qu'il est cliqué."
+      },
+      "selectFromHistory": {
+        "label": "Sélectionner de l'historique",
+        "description": "Si vous devez sélectionner de l'historique, votre autorisation est requise",
+        "numberOfDays": "Nombre de jours",
+        "numberOfUrls": "Nombre d'URLs",
+        "cancel": "Annuler",
+        "query": "Requête",
+        "selectItemsToAddToQuickAccess": "Sélectionner les éléments à ajouter à l'accès rapide :",
+        "selectAll": "Tout sélectionner",
+        "addSelected": "Ajouter les éléments sélectionnés",
+        "addedSuccess": "{{count}} éléments ajoutés à l'accès rapide.",
+        "deniedMessage": "Vous avez refusé l'autorisation requise, donc les paramètres n'ont pas été modifiés. Si vous changez d'avis, veuillez cliquer à nouveau et autoriser l'autorisation"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Afficher les icônes des sites lors de la réduction des groupes",
@@ -411,6 +437,38 @@
         "downloadOnly": "Télécharger uniquement",
         "staySynchronized": "Rester synchronisé",
         "globaldisabledTips": "Vous devez activer la synchronisation dans les paramètres globaux pour modifier ce paramètre."
+      }
+    },
+    "importAndExport": {
+      "title": "Importer/Exporter",
+      "description": "",
+      "options": {
+        "preferences": "Préférences utilisateur",
+        "preferencesInfo": "Comprend les paramètres généraux par défaut, les préférences d'affichage et de données, et le changement de thèmes de l'interface utilisateur.",
+        "quickAccess": "Accès rapide",
+        "quickAccessWarning": "L'icône d'un site Web non visité peut s'afficher de manière anormale. Ne vous inquiétez pas, elle s'affichera normalement après avoir visité et redémarré le navigateur.",
+        "siteConfig": "Paramètres du site",
+        "siteConfigInfo": "tels que l'abandon automatique, l'image dans l'image lors du changement d'onglet, la barre de progression de lecture, la barre de progression de lecture en cours, etc.",
+        "recentlyTabs": "Onglets récemment fermés"
+      },
+      "cancelBtn": "Annuler",
+      "exportBtn": "Exporter",
+      "importBtn": "Importer",
+      "importing": "Importation...",
+      "fileError": "Erreur d'analyse du fichier, veuillez télécharger le fichier de configuration JSON correct",
+      "import": {
+        "label": "Importer depuis un fichier",
+        "description": "",
+        "formTips": "Sélectionnez les données que vous souhaitez importer",
+        "importSuccess": "Importation réussie",
+        "importFailed": "Échec de l'importation"
+      },
+      "export": {
+        "label": "Exporter vers un fichier",
+        "description": "",
+        "formTips": "Sélectionnez les données que vous souhaitez exporter",
+        "exportSuccess": "Exportation réussie",
+        "exportFailed": "Échec de l'exportation"
       }
     },
     "SyncToCloud": {

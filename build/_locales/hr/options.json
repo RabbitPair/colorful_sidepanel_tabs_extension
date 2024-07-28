@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Prikaži alatnu traku",
-        "description": "Kada je omogućeno, alatna traka će biti prikazana"
+        "description": "Kada je omogućeno, alatna traka će biti prikazana",
+        "moreOptions": "Više opcija",
+        "moreOptionsDescription": "Možete kontrolirati koje će se ikone prikazivati na alatnoj traci.",
+        "moreOptionsHideLabel": "Sakrij oznake ikona alatne trake",
+        "close": "Zatvori",
+        "options": {
+          "toolbar_newtab": "Nova kartica",
+          "toolbar_orderby": "Poredaj po",
+          "toolbar_showby": "Prikaži po",
+          "toolbar_view": "pogled",
+          "toolbar_colorMode": "Način boja",
+          "toolbar_muteAllTabs": "Isključi zvuk svih kartica koje proizvode zvuk",
+          "toolbar_scrollToActiveTab": "Pomakni se do aktivne kartice"
+        }
       },
       "bottomNav": {
         "label": "Prikaži donju navigacijsku traku",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Prikaži brzi pristup",
         "description": "Možete postaviti karticu da se prikazuje u Brzom pristupu kako bi je bilo lako pronaći. Samo desni klik (ili dugi pritisak) i odaberite Prikvači za brzi pristup. Otkvačite je kada vam više ne treba tamo desnim klikom (ili dugim pritiskom) i odabirom Izbriši iz brzog pristupa. Razlika od prikvačenih kartica je u tome što Brzi pristup sprema URL i otvara novu karticu svaki put kada se klikne."
+      },
+      "selectFromHistory": {
+        "label": "Odaberi iz povijesti",
+        "description": "Ako trebate odabrati iz povijesti, potrebna je vaša autorizacija",
+        "numberOfDays": "Broj dana",
+        "numberOfUrls": "Broj URL-ova",
+        "cancel": "Odustani",
+        "query": "Upit",
+        "selectItemsToAddToQuickAccess": "Odaberite stavke za dodavanje u brzi pristup:",
+        "selectAll": "Odaberi sve",
+        "addSelected": "Dodaj odabrano",
+        "addedSuccess": "Dodano {{count}} stavki u brzi pristup.",
+        "deniedMessage": "Odbili ste potrebno dopuštenje, pa postavke nisu promijenjene. Ako se predomislite, kliknite ponovno i dopustite autorizaciju"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Prikaži ikone web stranica prilikom sažimanja grupa",

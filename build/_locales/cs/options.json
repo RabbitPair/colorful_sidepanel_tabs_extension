@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Zobrazit panel nástrojů",
-        "description": "Když je povoleno, zobrazí se panel nástrojů"
+        "description": "Když je povoleno, zobrazí se panel nástrojů",
+        "moreOptions": "Více možností",
+        "moreOptionsDescription": "Můžete ovládat, které ikony se zobrazí na panelu nástrojů.",
+        "moreOptionsHideLabel": "Skrýt popisky ikon na panelu nástrojů",
+        "close": "Zavřít",
+        "options": {
+          "toolbar_newtab": "Nová karta",
+          "toolbar_orderby": "Seřadit podle",
+          "toolbar_showby": "Zobrazit podle",
+          "toolbar_view": "zobrazení",
+          "toolbar_colorMode": "Barevný režim",
+          "toolbar_muteAllTabs": "Ztlumit všechny karty, které vydávají zvuky",
+          "toolbar_scrollToActiveTab": "Přejít na aktivní kartu"
+        }
       },
       "bottomNav": {
         "label": "Zobrazit spodní navigační panel",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Zobrazit rychlý přístup",
         "description": "Můžete nastavit kartu, aby se zobrazovala v Rychlém přístupu, takže ji bude snadné najít. Stačí na ni kliknout pravým tlačítkem (nebo dlouhým stiskem) a vybrat Připnout k rychlému přístupu. Odepněte ji, když ji tam už nepotřebujete, kliknutím pravým tlačítkem (nebo dlouhým stiskem) a výběrem Odstranit z rychlého přístupu. Rozdíl od připnutých karet je v tom, že Rychlý přístup ukládá URL a při každém kliknutí otevře novou kartu."
+      },
+      "selectFromHistory": {
+        "label": "Vybrat z historie",
+        "description": "Pokud potřebujete vybrat z historie, je vyžadováno vaše povolení",
+        "numberOfDays": "Počet dní",
+        "numberOfUrls": "Počet URL",
+        "cancel": "Zrušit",
+        "query": "Dotaz",
+        "selectItemsToAddToQuickAccess": "Vyberte položky k přidání do rychlého přístupu:",
+        "selectAll": "Vybrat vše",
+        "addSelected": "Přidat vybrané",
+        "addedSuccess": "Přidáno {{count}} položek do rychlého přístupu.",
+        "deniedMessage": "Odmítli jste požadované oprávnění, takže nastavení se nezměnilo. Pokud změníte názor, klikněte znovu a povolte autorizaci"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Zobrazit ikony webových stránek při sbalení skupin",
@@ -411,6 +437,38 @@
         "downloadOnly": "Pouze stáhnout",
         "staySynchronized": "Zůstat synchronizovaný",
         "globaldisabledTips": "Pro úpravu tohoto nastavení musíte zapnout synchronizaci v globálním nastavení."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Export",
+      "description": "",
+      "options": {
+        "preferences": "Uživatelské předvolby",
+        "preferencesInfo": "Zahrnuje výchozí obecná nastavení, předvolby zobrazení a dat a přepínání témat uživatelského rozhraní.",
+        "quickAccess": "Rychlý přístup",
+        "quickAccessWarning": "Ikona nenavštívené webové stránky se může zobrazit abnormálně. Nebojte se, po návštěvě a restartování prohlížeče se zobrazí normálně.",
+        "siteConfig": "Nastavení webu",
+        "siteConfigInfo": "například automaticky odložitelný, obraz v obraze při přepínání karet, ukazatel průběhu čtení, ukazatel průběhu přehrávání atd.",
+        "recentlyTabs": "Nedávno zavřené karty"
+      },
+      "cancelBtn": "Zrušit",
+      "exportBtn": "Exportovat",
+      "importBtn": "Importovat",
+      "importing": "Importování...",
+      "fileError": "Chyba při analýze souboru, nahrajte prosím správný konfigurační soubor JSON",
+      "import": {
+        "label": "Importovat ze souboru",
+        "description": "",
+        "formTips": "Vyberte data, která chcete importovat",
+        "importSuccess": "Import úspěšný",
+        "importFailed": "Import selhal"
+      },
+      "export": {
+        "label": "Exportovat do souboru",
+        "description": "",
+        "formTips": "Vyberte data, která chcete exportovat",
+        "exportSuccess": "Export úspěšný",
+        "exportFailed": "Export selhal"
       }
     },
     "SyncToCloud": {

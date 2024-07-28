@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Rādīt rīkjoslu",
-        "description": "Kad iespējots, rīkjosla tiek rādīta"
+        "description": "Kad iespējots, rīkjosla tiek rādīta",
+        "moreOptions": "Vairāk opciju",
+        "moreOptionsDescription": "Jūs varat kontrolēt, kuras ikonas parādās rīkjoslā.",
+        "moreOptionsHideLabel": "Paslēpt rīkjoslas ikonu etiķetes",
+        "close": "Aizvērt",
+        "options": {
+          "toolbar_newtab": "Jauna cilne",
+          "toolbar_orderby": "Kārtot pēc",
+          "toolbar_showby": "Rādīt pēc",
+          "toolbar_view": "skats",
+          "toolbar_colorMode": "Krāsu režīms",
+          "toolbar_muteAllTabs": "Izslēgt visu cilņu skaņu",
+          "toolbar_scrollToActiveTab": "Ritināt uz aktīvo cilni"
+        }
       },
       "bottomNav": {
         "label": "Rādīt apakšējo navigācijas joslu",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Rādīt ātro piekļuvi",
         "description": "Jūs varat iestatīt cilni, lai tā tiktu rādīta ātrajā piekļuvē, lai to būtu viegli atrast. Vienkārši noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties Piespraust ātrajai piekļuvei. Atspraudiet to, kad jums vairs nav nepieciešams, noklikšķinot ar peles labo pogu (vai ilgi nospiežot) un izvēloties Dzēst no ātrās piekļuves. Atšķirība no piespraustajām cilnēm ir tāda, ka ātrā piekļuve saglabā URL un katru reizi, kad to noklikšķina, atver jaunu cilni."
+      },
+      "selectFromHistory": {
+        "label": "Izvēlēties no vēstures",
+        "description": "Ja jums ir nepieciešams izvēlēties no vēstures, ir nepieciešama jūsu autorizācija",
+        "numberOfDays": "Dienu skaits",
+        "numberOfUrls": "URL skaits",
+        "cancel": "Atcelt",
+        "query": "Vaicājums",
+        "selectItemsToAddToQuickAccess": "Izvēlieties vienumus, ko pievienot ātrajai piekļuvei:",
+        "selectAll": "Izvēlēties visu",
+        "addSelected": "Pievienot izvēlētos",
+        "addedSuccess": "Pievienoti {{count}} vienumi ātrajai piekļuvei.",
+        "deniedMessage": "Jūs esat atteicis nepieciešamo atļauju, tāpēc iestatījumi nav mainīti. Ja maināt savu prātu, lūdzu, noklikšķiniet vēlreiz un atļaujiet autorizāciju"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Rādīt vietnes ikonas, kad grupas ir sakļautas",

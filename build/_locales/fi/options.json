@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Näytä työkalupalkki",
-        "description": "Kun käytössä, työkalupalkki näytetään"
+        "description": "Kun käytössä, työkalupalkki näytetään",
+        "moreOptions": "Lisää vaihtoehtoja",
+        "moreOptionsDescription": "Voit hallita, mitkä kuvakkeet näkyvät työkalupalkissa.",
+        "moreOptionsHideLabel": "Piilota työkalupalkin kuvakkeiden nimet",
+        "close": "Sulje",
+        "options": {
+          "toolbar_newtab": "Uusi välilehti",
+          "toolbar_orderby": "Järjestä",
+          "toolbar_showby": "Näytä",
+          "toolbar_view": "näkymä",
+          "toolbar_colorMode": "Väritila",
+          "toolbar_muteAllTabs": "Mykistä kaikki äänet välilehdillä",
+          "toolbar_scrollToActiveTab": "Vieritä aktiiviselle välilehdelle"
+        }
       },
       "bottomNav": {
         "label": "Näytä alavalikkopalkki",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Näytä pikalinkit",
         "description": "Voit asettaa välilehden näkyviin Pikalinkkeihin, jotta se on helppo löytää. Napsauta sitä hiiren kakkospainikkeella (tai pitkään painamalla) ja valitse Kiinnitä Pikalinkkeihin. Poista se, kun et enää tarvitse sitä siellä, napsauttamalla sitä hiiren kakkospainikkeella (tai pitkään painamalla) ja valitsemalla Poista Pikalinkeistä. Ero kiinnitettyihin välilehtiin on, että Pikalinkit tallentaa URL-osoitteen ja avaa uuden välilehden joka kerta, kun sitä napsautetaan."
+      },
+      "selectFromHistory": {
+        "label": "Valitse historiasta",
+        "description": "Jos sinun täytyy valita historiasta, valtuutuksesi vaaditaan",
+        "numberOfDays": "Päivien määrä",
+        "numberOfUrls": "URL-osoitteiden määrä",
+        "cancel": "Peruuta",
+        "query": "Kysely",
+        "selectItemsToAddToQuickAccess": "Valitse kohteet lisättäväksi pikalinkkeihin:",
+        "selectAll": "Valitse kaikki",
+        "addSelected": "Lisää valitut",
+        "addedSuccess": "Lisätty {{count}} kohdetta pikalinkkeihin.",
+        "deniedMessage": "Olet kieltänyt vaaditun luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli valtuutus"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Näytä verkkosivustojen kuvakkeet, kun ryhmät on kutistettu",
@@ -411,6 +437,38 @@
         "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna",
         "globaldisabledTips": "Sinun on otettava synkronointi käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
+      }
+    },
+    "importAndExport": {
+      "title": "Tuo/Vie",
+      "description": "",
+      "options": {
+        "preferences": "Käyttäjän asetukset",
+        "preferencesInfo": "Sisältää oletusarvoiset yleiset asetukset, näyttö- ja tietomieltymykset sekä käyttöliittymän teemojen vaihtamisen.",
+        "quickAccess": "Pikakäyttö",
+        "quickAccessWarning": "Käymättömän verkkosivuston kuvake saattaa näkyä epänormaalisti. Älä huoli, se näkyy normaalisti, kun vierailet sivustolla ja käynnistät selaimen uudelleen.",
+        "siteConfig": "Sivuston asetukset",
+        "siteConfigInfo": "kuten automaattisesti hylättävä, kuva kuvassa välilehden vaihdossa, lukemisen edistymispalkki, toiston edistymispalkki jne.",
+        "recentlyTabs": "Äskettäin suljetut välilehdet"
+      },
+      "cancelBtn": "Peruuta",
+      "exportBtn": "Vie",
+      "importBtn": "Tuo",
+      "importing": "Tuodaan...",
+      "fileError": "Tiedoston jäsennysvirhe, lataa oikea JSON-asetustiedosto",
+      "import": {
+        "label": "Tuo tiedostosta",
+        "description": "",
+        "formTips": "Valitse tiedot, jotka haluat tuoda",
+        "importSuccess": "Tuonti onnistui",
+        "importFailed": "Tuonti epäonnistui"
+      },
+      "export": {
+        "label": "Vie tiedostoon",
+        "description": "",
+        "formTips": "Valitse tiedot, jotka haluat viedä",
+        "exportSuccess": "Vienti onnistui",
+        "exportFailed": "Vienti epäonnistui"
       }
     },
     "SyncToCloud": {

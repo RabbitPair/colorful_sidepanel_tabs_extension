@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Prikaži orodno vrstico",
-        "description": "Ko je omogočeno, je prikazana orodna vrstica"
+        "description": "Ko je omogočeno, je prikazana orodna vrstica",
+        "moreOptions": "Več možnosti",
+        "moreOptionsDescription": "Lahko nadzirate, katere ikone se prikažejo na orodni vrstici.",
+        "moreOptionsHideLabel": "Skrij oznake ikon orodne vrstice",
+        "close": "Zapri",
+        "options": {
+          "toolbar_newtab": "Nov zavihek",
+          "toolbar_orderby": "Razvrsti po",
+          "toolbar_showby": "Prikaži po",
+          "toolbar_view": "pogled",
+          "toolbar_colorMode": "Barvni način",
+          "toolbar_muteAllTabs": "Utišaj vse zavihke, ki predvajajo zvok",
+          "toolbar_scrollToActiveTab": "Pomakni se na aktivni zavihek"
+        }
       },
       "bottomNav": {
         "label": "Prikaži spodnjo navigacijsko vrstico",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Prikaži hiter dostop",
         "description": "Lahko nastavite zavihek, da se prikaže v hitrem dostopu, da ga bo enostavno najti. Samo z desno tipko miške kliknite (ali dolgo pritisnite) in izberite Pripni v hiter dostop. Ko ga ne potrebujete več, ga odstranite iz hitrega dostopa z desnim klikom (ali dolgim pritiskom) in izbiro Izbriši iz hitrega dostopa. Razlika od pripetih zavihkov je, da hiter dostop shrani URL in odpre nov zavihek vsakič, ko ga kliknete."
+      },
+      "selectFromHistory": {
+        "label": "Izberi iz zgodovine",
+        "description": "Če morate izbrati iz zgodovine, je potrebna vaša avtorizacija",
+        "numberOfDays": "Število dni",
+        "numberOfUrls": "Število URL-jev",
+        "cancel": "Prekliči",
+        "query": "Poizvedba",
+        "selectItemsToAddToQuickAccess": "Izberite elemente za dodajanje v hiter dostop:",
+        "selectAll": "Izberi vse",
+        "addSelected": "Dodaj izbrane",
+        "addedSuccess": "Dodano {{count}} elementov v hiter dostop.",
+        "deniedMessage": "Zavrnili ste zahtevano dovoljenje, zato nastavitve niso bile spremenjene. Če si premislite, prosimo, kliknite znova in dovolite avtorizacijo"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Prikaži ikone spletnih mest pri strnjenih skupinah",

@@ -69,7 +69,20 @@
       },
       "toolbar": {
         "label": "Tunjukkan bar alat",
-        "description": "Apabila diaktifkan, bar alat akan dipaparkan"
+        "description": "Apabila diaktifkan, bar alat akan dipaparkan",
+        "moreOptions": "Pilihan Lanjut",
+        "moreOptionsDescription": "Anda boleh mengawal ikon mana yang muncul di bar alat.",
+        "moreOptionsHideLabel": "Sembunyikan label ikon bar alat",
+        "close": "Tutup",
+        "options": {
+          "toolbar_newtab": "Tab Baru",
+          "toolbar_orderby": "Susun Mengikut",
+          "toolbar_showby": "Tunjukkan Mengikut",
+          "toolbar_view": "paparan",
+          "toolbar_colorMode": "Mod warna",
+          "toolbar_muteAllTabs": "Senyapkan Semua Tab Yang Membuat Bunyi",
+          "toolbar_scrollToActiveTab": "Tatal ke Tab Aktif"
+        }
       },
       "bottomNav": {
         "label": "Tunjukkan bar navigasi bawah",
@@ -177,6 +190,19 @@
       "pinToQuickAccess": {
         "label": "Tunjukkan akses pantas",
         "description": "Anda boleh menetapkan tab untuk dipaparkan dalam Akses Pantas supaya ia mudah dicari. Hanya klik kanan (atau tekan lama) dan pilih Pin ke Akses Pantas. Nyahpin apabila anda tidak memerlukannya lagi dengan mengklik kanan (atau tekan lama) dan memilih Padam dari Akses Pantas. Perbezaan dari tab yang dipin adalah Akses Pantas menyimpan URL dan membuka tab baru setiap kali ia diklik."
+      },
+      "selectFromHistory": {
+        "label": "Pilih dari sejarah",
+        "description": "Jika anda perlu memilih dari sejarah, kebenaran anda diperlukan",
+        "numberOfDays": "Bilangan hari",
+        "numberOfUrls": "Bilangan URL",
+        "cancel": "Batal",
+        "query": "Pertanyaan",
+        "selectItemsToAddToQuickAccess": "Pilih item untuk ditambah ke akses pantas:",
+        "selectAll": "Pilih Semua",
+        "addSelected": "Tambah Dipilih",
+        "addedSuccess": "Ditambah {{count}} item ke akses pantas.",
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik lagi dan benarkan kebenaran"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Tunjukkan ikon laman web apabila mengumpulkan kumpulan",
@@ -411,6 +437,38 @@
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan",
         "globaldisabledTips": "Anda mesti menghidupkan penyegerakan dalam Tetapan Global untuk mengubah tetapan ini."
+      }
+    },
+    "importAndExport": {
+      "title": "Import/Eksport",
+      "description": "",
+      "options": {
+        "preferences": "Keutamaan Pengguna",
+        "preferencesInfo": "Termasuk tetapan umum lalai, keutamaan paparan dan data, dan menukar tema antara muka pengguna.",
+        "quickAccess": "Akses Pantas",
+        "quickAccessWarning": "Ikon laman web yang tidak dilawati mungkin dipaparkan secara tidak normal. Jangan risau, ia akan dipaparkan secara normal selepas anda melawat dan memulakan semula pelayar.",
+        "siteConfig": "Tetapan Laman",
+        "siteConfigInfo": "seperti auto boleh dibuang, gambar-dalam-gambar pada Tukar Tab, bar kemajuan bacaan, bar kemajuan main, dan lain-lain.",
+        "recentlyTabs": "Tab yang baru ditutup"
+      },
+      "cancelBtn": "Batal",
+      "exportBtn": "Eksport",
+      "importBtn": "Import",
+      "importing": "Mengimport...",
+      "fileError": "Ralat penguraian fail, sila muat naik fail konfigurasi JSON yang betul",
+      "import": {
+        "label": "Import dari fail",
+        "description": "",
+        "formTips": "Pilih data yang anda ingin import",
+        "importSuccess": "Import berjaya",
+        "importFailed": "Import gagal"
+      },
+      "export": {
+        "label": "Eksport ke fail",
+        "description": "",
+        "formTips": "Pilih data yang anda ingin eksport",
+        "exportSuccess": "Eksport berjaya",
+        "exportFailed": "Eksport gagal"
       }
     },
     "SyncToCloud": {
