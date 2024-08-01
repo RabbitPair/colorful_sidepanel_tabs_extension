@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "གདམ་ཁ་ཕྱོགས་ཀྱི་སྟེང་ལ་སྟོན་སྒྲིག་སྟངས།",
         "description": "གདམ་ཁ་ཕྱོགས་ཀྱི་སྟེང་ལ་སྟོན་སྒྲིག་སྒྲིག་བཀོད།",
-        "goToBrowserSettings": "Chrome སྒྲིག་སྟངས་ལ་འགྲོ།"
+        "goToBrowserSettings": "ཆོས་འཛིན་བཟོ།"
       },
       "searchBoxPosition": {
         "label": "འཚོལ་སྒྲིག་སྒྲིག་བཀོད།",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "རི་མོ་སྒྲིག་བཀོད་སྒྲིག་བཀོད།",
         "description": "Microsoft Fluent རི་མོ་སྒྲིག་བཀོད་སྒྲིག་བཀོད།",
-        "goToBrowserSettings": "Chrome སྒྲིག་སྟངས་ལ་འགྲོ།"
+        "goToBrowserSettings": "ཆོས་འཛིན་བཟོ།"
       }
     },
     "tabs": {
@@ -266,7 +266,7 @@
     },
     "shortcuts": {
       "alert": "ཤོག་ངོས་འདི་སྟོན་མི་དོན་དུ་ཡོད། མགྱོགས་ཚད་བསྒྱུར་བཅོས་བྱེད་དགོས་ན་སྒྲིག་སྟངས་ལ་ཕེབས། [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToBrowserSettings": "Chrome སྒྲིག་སྟངས་ལ་ཕེབས།",
+      "goToBrowserSettings": "ཆོས་འཛིན་བཟོ།",
       "_execute_action": "རྒྱུ་སྤྱོད་འདི་ལེན་འཐུ་བྱེད།",
       "openSidePanel": "གུང་སྟོང་སྒེའུ་ཁྱེར་ཁ་ཕྱེ།"
     },
@@ -408,7 +408,7 @@
       "browserSettings": {
         "label": "བཤུར་གཞི་སྒྲིག་སྟངས་",
         "description": "གནས་ཚུལ་སུབ་པའམ་ས་ཁོངས་ཆོག་མཆན་བསྒྱུར་བ་སོགས་ས་ཁོངས་སྒྲིག་སྟངས་བསྒྱུར་བ་ཐུབ་ཀྱི་རེད།",
-        "goToBrowserSettings": "བཤུར་གཞི་སྒྲིག་སྟངས་ལ་འགྲོ་པ།"
+        "goToBrowserSettings": "ཆོས་འཛིན་བཟོ།"
       },
       "autoDiscardable": {
         "label": "རང་བཞིན་གྱིས་སྤོང་ཐུབ་པ།",

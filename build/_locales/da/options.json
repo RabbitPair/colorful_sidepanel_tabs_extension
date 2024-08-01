@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Sidepanel position",
         "description": "Indstil om sidepanelet vises til venstre eller højre.",
-        "goToBrowserSettings": "Gå til Chrome-indstillinger"
+        "goToBrowserSettings": "Gå til indstillinger"
       },
       "searchBoxPosition": {
         "label": "Søgefelt position",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Flydende rullepaneler",
         "description": "Brug Microsoft Fluent design stil rullepaneler og overlejre dem på webindholdet",
-        "goToBrowserSettings": "Gå til Chrome-indstillinger"
+        "goToBrowserSettings": "Gå til indstillinger"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Denne side er kun til visning. For at ændre genveje, besøg venligst [Udvidelser]->[Administrer udvidelser]->[Tastaturgenveje]",
-      "goToBrowserSettings": "Gå til Chrome-indstillinger",
+      "goToBrowserSettings": "Gå til indstillinger",
       "_execute_action": "Aktiver denne udvidelse",
       "openSidePanel": "Åbn sidepanel"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Browserindstillinger",
         "description": "Du kan ændre webstedsindstillinger, såsom at slette data eller ændre webstedstilladelser.",
-        "goToBrowserSettings": "Gå til browserindstillinger"
+        "goToBrowserSettings": "Gå til indstillinger"
       },
       "autoDiscardable": {
         "label": "Automatisk kassérbar",

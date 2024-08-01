@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posición d'o panel lateral",
         "description": "Achusta si o panel lateral se mosotra a la izquierda u a dreita.",
-        "goToBrowserSettings": "Ir a las configuracions de Chrome"
+        "goToBrowserSettings": "Ir a configuración del navegador"
       },
       "searchBoxPosition": {
         "label": "Posición d'a caxeta de busca",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barras de desplazamiento fluidas",
         "description": "Usa o estilo de diseño Microsoft Fluent ta as barras de desplazamiento y superpón-los en o contenido web",
-        "goToBrowserSettings": "Ir a las configuracions de Chrome"
+        "goToBrowserSettings": "Ir a configuración del navegador"
       }
     },
     "tabs": {
@@ -266,7 +266,7 @@
     },
     "shortcuts": {
       "alert": "Ista pachina ye ta amostrar nomás. Ta modificar os atayos curtos, por favor visita [Estensiones]->[Gestión d'estensiones]->[Atayos de teclau]",
-      "goToBrowserSettings": "Ir a las configuracions de Chrome",
+      "goToBrowserSettings": "Ir a configuración del navegador",
       "_execute_action": "Activar ista estension",
       "openSidePanel": "Abrir o panel lateral"
     },
@@ -394,7 +394,7 @@
       "browserSettings": {
         "label": "Configuración del navegador",
         "description": "Puede modificar la configuración del sitio, como eliminar datos o cambiar permisos del sitio.",
-        "goToBrowserSettings": "Ir a la configuración del navegador"
+        "goToBrowserSettings": "Ir a configuración del navegador"
       },
       "autoDiscardable": {
         "label": "Descartable automático",

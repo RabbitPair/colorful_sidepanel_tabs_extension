@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Posició del panell lateral",
         "description": "Estableix si el panell lateral es mostra a l'esquerra o a la dreta.",
-        "goToBrowserSettings": "Anar a la configuració de Chrome"
+        "goToBrowserSettings": "Anar a la configuració del navegador"
       },
       "searchBoxPosition": {
         "label": "Posició del quadre de cerca",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barres de desplaçament fluides",
         "description": "Utilitza l'estil de disseny Fluent de Microsoft per a les barres de desplaçament i superposa-les al contingut web",
-        "goToBrowserSettings": "Anar a la configuració de Chrome"
+        "goToBrowserSettings": "Anar a la configuració del navegador"
       }
     },
     "tabs": {
@@ -249,7 +249,7 @@
     },
     "shortcuts": {
       "alert": "Aquesta pàgina és només per a visualització. Per modificar les dreceres, si us plau, visita [Extensions]->[Gestiona extensions]->[Dreceres de teclat]",
-      "goToBrowserSettings": "Anar a la configuració de Chrome",
+      "goToBrowserSettings": "Anar a la configuració del navegador",
       "_execute_action": "Activa aquesta extensió",
       "openSidePanel": "Obre el panell lateral"
     },

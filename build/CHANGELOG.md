@@ -1,9 +1,18 @@
+## v1.3.2
+
+### Bug Fixes
+
+-Fixed the issue of errors occurring when closing tabs in the middle with the mouse
+
 ## v1.3.1
+
 ### Improvements
+
 - Optimized the layout of quick access and added support for drag-and-drop sorting.
 - Improved the logic for expanding all groups and remembering their state.
 
 ### Bug Fixes
+
 - Fixed the issue where importing quick access data failed when the side panel was not open.
 - Fixed the issue where icons were misaligned in the group view.
 - Fixed other minor issues.

@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Pozisiwn y panel ochr",
         "description": "Gosodwch a ddangosir y panel ochr ar y chwith neu'r dde.",
-        "goToBrowserSettings": "Ewch i osodiadau Chrome"
+        "goToBrowserSettings": "Mynd i osodiadau"
       },
       "searchBoxPosition": {
         "label": "Pozisiwn blwch chwilio",
@@ -265,7 +265,7 @@
     },
     "shortcuts": {
       "alert": "Mae'r dudalen hon ar gyfer dangos yn unig. I newid llwybrau byr, ewch i [Estyniadau]->[Rheoli Estyniadau]->[Llychau Allweddol]",
-      "goToBrowserSettings": "Ewch i osodiadau Chrome",
+      "goToBrowserSettings": "Mynd i osodiadau",
       "_execute_action": "Gweithredu'r estyniad hwn",
       "openSidePanel": "Agorwch y panel ochr"
     },
@@ -393,7 +393,7 @@
       "browserSettings": {
         "label": "Gosodiadau porwr",
         "description": "Gallwch olygu gosodiadau safle, megis dileu data neu newid caniatâd safle.",
-        "goToBrowserSettings": "Ewch i osodiadau porwr"
+        "goToBrowserSettings": "Mynd i osodiadau"
       },
       "autoDiscardable": {
         "label": "Auto gael ei wrthod",

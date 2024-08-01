@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "موضع اللوحة الجانبية",
         "description": "تعيين ما إذا كانت اللوحة الجانبية تُعرض على اليسار أو اليمين.",
-        "goToBrowserSettings": "انتقل إلى إعدادات Chrome"
+        "goToBrowserSettings": "الانتقال إلى الإعدادات"
       },
       "searchBoxPosition": {
         "label": "موضع مربع البحث",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "أشرطة التمرير السلسة",
         "description": "استخدام أشرطة التمرير بأسلوب تصميم Microsoft Fluent وتراكبها على محتوى الويب",
-        "goToBrowserSettings": "انتقل إلى إعدادات Chrome"
+        "goToBrowserSettings": "الانتقال إلى الإعدادات"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "هذه الصفحة للعرض فقط. لتعديل الاختصارات، يرجى زيارة [الإضافات]->[إدارة الإضافات]->[اختصارات لوحة المفاتيح]",
-      "goToBrowserSettings": "انتقل إلى إعدادات Chrome",
+     "goToBrowserSettings": "الانتقال إلى الإعدادات",
       "_execute_action": "تفعيل هذه الإضافة",
       "openSidePanel": "افتح اللوحة الجانبية"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "إعدادات المتصفح",
         "description": "يمكنك تعديل إعدادات الموقع، مثل حذف البيانات أو تغيير أذونات الموقع.",
-        "goToBrowserSettings": "انتقل إلى إعدادات المتصفح"
+        "goToBrowserSettings": "الانتقال إلى الإعدادات"
       },
       "autoDiscardable": {
         "label": "التجاهل التلقائي",

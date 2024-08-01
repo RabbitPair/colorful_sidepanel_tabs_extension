@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Позиция на страничния панел",
         "description": "Задайте дали страничният панел да се показва отляво или отдясно.",
-        "goToBrowserSettings": "Отидете в настройките на Chrome"
+        "goToBrowserSettings": "Отиди в настройките"
       },
       "searchBoxPosition": {
         "label": "Позиция на полето за търсене",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Плавни ленти за превъртане",
         "description": "Използвайте ленти за превъртане в стил Microsoft Fluent и ги наслагвайте върху уеб съдържанието",
-        "goToBrowserSettings": "Отидете в настройките на Chrome"
+        "goToBrowserSettings": "Отиди в настройките"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Тази страница е само за показване. За да промените преките пътища, моля, посетете [Разширения]->[Управление на разширения]->[Клавишни комбинации]",
-      "goToBrowserSettings": "Отидете в настройките на Chrome",
+      "goToBrowserSettings": "Отиди в настройките",
       "_execute_action": "Активирай това разширение",
       "openSidePanel": "Отвори страничния панел"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Настройки на браузъра",
         "description": "Можете да промените настройките на сайта, като изтриете данни или промените разрешенията на сайта.",
-        "goToBrowserSettings": "Отидете в настройките на браузъра"
+        "goToBrowserSettings": "Отиди в настройките"
       },
       "autoDiscardable": {
         "label": "Автоматично отхвърляне",

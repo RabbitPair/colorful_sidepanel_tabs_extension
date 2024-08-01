@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "সাইড প্যানেলের অবস্থান",
         "description": "সাইড প্যানেলটি বাম বা ডানদিকে প্রদর্শিত হবে কিনা তা সেট করুন।",
-        "goToBrowserSettings": "ক্রোম সেটিংসে যান"
+        "goToBrowserSettings": "সেটিংসে যান"
       },
       "searchBoxPosition": {
         "label": "সার্চ বক্সের অবস্থান",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "ফ্লুয়েন্ট স্ক্রলবার",
         "description": "মাইক্রোসফ্ট ফ্লুয়েন্ট ডিজাইন স্টাইল স্ক্রলবার ব্যবহার করুন এবং ওয়েব সামগ্রীতে ওভারলে করুন",
-        "goToBrowserSettings": "ক্রোম সেটিংসে যান"
+        "goToBrowserSettings": "সেটিংসে যান"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "এই পৃষ্ঠা শুধুমাত্র প্রদর্শনের জন্য। শর্টকাটগুলি পরিবর্তন করতে, দয়া করে [এক্সটেনশন]->[এক্সটেনশন পরিচালনা করুন]->[কীবোর্ড শর্টকাট] দেখুন",
-      "goToBrowserSettings": "ক্রোম সেটিংসে যান",
+      "goToBrowserSettings": "সেটিংসে যান",
       "_execute_action": "এই এক্সটেনশন সক্রিয় করুন",
       "openSidePanel": "সাইড প্যানেল খুলুন"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "ব্রাউজার সেটিংস",
         "description": "আপনি সাইট সেটিংস পরিবর্তন করতে পারেন, যেমন ডেটা মুছে ফেলা বা সাইট অনুমতি পরিবর্তন করা।",
-        "goToBrowserSettings": "ব্রাউজার সেটিংসে যান"
+        "goToBrowserSettings": "সেটিংসে যান"
       },
       "autoDiscardable": {
         "label": "স্বয়ংক্রিয়ভাবে বাতিলযোগ্য",

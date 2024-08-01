@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Side panel position",
         "description": "Set whether the side panel is displayed on the left or right.",
-        "goToBrowserSettings": "Go to Browser settings"
+        "goToBrowserSettings": "Go to settings"
       },
       "searchBoxPosition": {
         "label": "Search box position",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Use Microsoft Fluent design style scrollbars and overlay them on the web content",
-        "goToBrowserSettings": "Go to Browser settings"
+        "goToBrowserSettings": "Go to settings"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "This page is for display only. To modify shortcuts, please visit [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToBrowserSettings": "Go to Browser settings",
+      "goToBrowserSettings": "Go to settings",
       "_execute_action": "Activate this extension",
       "openSidePanel": "Open side panel"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Browser settings",
         "description": "You can modify site settings, such as deleting data or changing site permissions.",
-        "goToBrowserSettings": "Go to browser settings"
+        "goToBrowserSettings": "Go to settings"
       },
       "autoDiscardable": {
         "label": "Auto discardable",

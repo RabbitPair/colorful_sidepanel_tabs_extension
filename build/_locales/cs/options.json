@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Pozice postranního panelu",
         "description": "Nastavit, zda se postranní panel zobrazí vlevo nebo vpravo.",
-        "goToBrowserSettings": "Přejít na nastavení Chrome"
+        "goToBrowserSettings": "Přejít do nastavení prohlížeče"
       },
       "searchBoxPosition": {
         "label": "Pozice vyhledávacího pole",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Plynulé posuvníky",
         "description": "Použijte posuvníky ve stylu Microsoft Fluent design a překryjte je na webový obsah",
-        "goToBrowserSettings": "Přejít na nastavení Chrome"
+        "goToBrowserSettings": "Přejít do nastavení prohlížeče"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Tato stránka je pouze pro zobrazení. Pro úpravu zkratek navštivte [Rozšíření]->[Spravovat rozšíření]->[Klávesové zkratky]",
-      "goToBrowserSettings": "Přejít na nastavení Chrome",
+      "goToBrowserSettings": "Přejít do nastavení prohlížeče",
       "_execute_action": "Aktivovat toto rozšíření",
       "openSidePanel": "Otevřít postranní panel"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Nastavení prohlížeče",
         "description": "Můžete upravit nastavení webu, například smazat data nebo změnit oprávnění webu.",
-        "goToBrowserSettings": "Přejít na nastavení prohlížeče"
+        "goToBrowserSettings": "Přejít do nastavení prohlížeče"
       },
       "autoDiscardable": {
         "label": "Automaticky odložitelný",

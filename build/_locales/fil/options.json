@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Posisyon ng side panel",
         "description": "Itakda kung ang side panel ay ipapakita sa kaliwa o kanan.",
-        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
+        "goToBrowserSettings": "Pumunta sa mga setting"
       },
       "searchBoxPosition": {
         "label": "Posisyon ng search box",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Gamitin ang Microsoft Fluent design style scrollbars at i-overlay ang mga ito sa web content",
-        "goToBrowserSettings": "Pumunta sa mga setting ng Chrome"
+        "goToBrowserSettings": "Pumunta sa mga setting"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Ang pahinang ito ay para lamang sa pagpapakita. Upang baguhin ang mga shortcut, mangyaring bisitahin ang [Mga Extension]->[Pamahalaan ang Mga Extension]->[Mga Shortcut sa Keyboard]",
-      "goToBrowserSettings": "Pumunta sa mga setting ng Chrome",
+      "goToBrowserSettings": "Pumunta sa mga setting",
       "_execute_action": "Isaaktibo ang extension na ito",
       "openSidePanel": "Buksan ang side panel"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Mga setting ng browser",
         "description": "Maaari mong baguhin ang mga setting ng site, tulad ng pagtanggal ng data o pagbabago ng mga pahintulot ng site.",
-        "goToBrowserSettings": "Pumunta sa mga setting ng browser"
+        "goToBrowserSettings": "Pumunta sa mga setting"
       },
       "autoDiscardable": {
         "label": "Awtomatikong na-discard",

@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "側邊欄位置",
         "description": "設置側邊欄顯示在左側或右側。",
-        "goToBrowserSettings": "前往Chrome設置"
+        "goToBrowserSettings": "前往設置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -100,7 +100,7 @@
       },
       "fullScreenHideSidePanel": {
         "label": "全屏時隱藏側邊欄",
-        "description": "啟用後，頁面全屏時側邊欄將自動隱藏。由於Chrome的限制，側邊欄無法自動重新打開。您需要手動重新打開側邊欄！"
+        "description": "啟用後，頁面全屏時側邊欄將自動隱藏。由於瀏覽器的限制，側邊欄無法自動重新打開。您需要手動重新打開側邊欄！"
       }
     },
     "beautify": {
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滾動條",
         "description": "使用 Microsoft Fluent 設計風格化滾動條並使其覆蓋在網頁內容上",
-        "goToBrowserSettings": "前往 Chrome 設置"
+        "goToBrowserSettings": "前往設置"
       }
     },
     "tabs": {
@@ -233,7 +233,7 @@
         "label": "數據源",
         "description": "選擇數據源",
         "recentlyClosedTabs": "最近關閉的標籤頁",
-        "chromeHistory": "Chrome歷史記錄",
+        "chromeHistory": "歷史記錄",
         "alert": "要搜索歷史記錄，需要您的授權啟用",
         "deniedMessage": "您已拒絕所需的權限，因此設置未更改。如果您改變主意，請再次點擊並允許授權"
       },
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "此頁面僅供顯示。要修改快捷鍵，請訪問[擴展程序]->[管理擴展程序]->[鍵盤快捷鍵]",
-      "goToBrowserSettings": "前往Chrome設置",
+      "goToBrowserSettings": "前往設置",
       "_execute_action": "激活此擴展",
       "openSidePanel": "打開側邊欄"
     },
@@ -299,10 +299,10 @@
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
         "label": "標籤組折疊行為",
-        "description": "修改Chrome瀏覽器標籤組折疊的行為",
+        "description": "修改瀏覽器標籤組折疊的行為",
         "option_collapse_others": "顯示當前組並折疊其他組",
         "option_disable": "展開所有組",
-        "option_auto": "使用Chrome默認設置"
+        "option_auto": "使用瀏覽器默認設置"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自動創建或加入同域名分組",
@@ -354,7 +354,7 @@
       "saveMemoryAction": {
         "label": "如何節省標籤頁內存",
         "description": "要節省標籤頁內存，您可以選擇關閉標籤頁或丟棄標籤頁。",
-        "discardTips": "丟棄的標籤頁不會消失。我們會將其終止，但它仍然在Chrome標籤欄中可見。如果您導航回到已丟棄的標籤頁，點擊時它會重新加載。表單內容、滾動位置等將以與前進/後退標籤導航相同的方式保存和恢復。",
+        "discardTips": "丟棄的標籤頁不會消失。我們會將其終止，但它仍然在瀏覽器標籤欄中可見。如果您導航回到已丟棄的標籤頁，點擊時它會重新加載。表單內容、滾動位置等將以與前進/後退標籤導航相同的方式保存和恢復。",
         "disabled": "禁用",
         "closeTabs": "關閉標籤頁",
         "discardTabs": "丟棄標籤頁"
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "瀏覽器設置",
         "description": "您可以修改站點設置，例如刪除數據或更改站點權限。",
-        "goToBrowserSettings": "前往瀏覽器設置"
+        "goToBrowserSettings": "前往設置"
       },
       "autoDiscardable": {
         "label": "自動丟棄",

@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Пазіцыя бакавай панэлі",
         "description": "Выберыце, дзе будзе адлюстроўвацца бакавая панэль, злева ці справа.",
-        "goToBrowserSettings": "Перайсці да налад Chrome"
+        "goToBrowserSettings": "Перайсці ў налады браўзэра"
       },
       "searchBoxPosition": {
         "label": "Пазіцыя палі пошуку",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "Плавныя паласы прокруткі",
         "description": "Выкарыстоўвайце стыль дызайну Microsoft Fluent для палас прокруткі і накладайце іх на змесціва вэб-старонкі",
-        "goToBrowserSettings": "Перайсці да налад Chrome"
+        "goToBrowserSettings": "Перайсці ў налады браўзэра"
       }
     },
     "tabs": {
@@ -248,7 +248,7 @@
     },
     "shortcuts": {
       "alert": "Гэтая старонка толькі для адлюстравання. Каб змяніць скарочаныя клавішы, калі ласка, наведайце [Пашырэнні]->[Кіраванне пашырэннямі]->[Скарочаныя клавішы]",
-      "goToBrowserSettings": "Перайсці да налад Chrome",
+      "goToBrowserSettings": "Перайсці ў налады браўзэра",
       "_execute_action": "Актываваць гэта пашырэнне",
       "openSidePanel": "Адкрыць бакавую панэль"
     },
@@ -376,7 +376,7 @@
       "browserSettings": {
         "label": "Налады браўзэра",
         "description": "Вы можаце змяніць налады сайту, такія як выдаленне дадзеных ці змена дазволаў сайту.",
-        "goToBrowserSettings": "Перайсці да налад браўзэра"
+        "goToBrowserSettings": "Перайсці ў налады браўзэра"
       },
       "autoDiscardable": {
         "label": "Аўтаматычна адхільная",

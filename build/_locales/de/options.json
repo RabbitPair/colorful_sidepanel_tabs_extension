@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Position der Seitenleiste",
         "description": "Legen Sie fest, ob die Seitenleiste links oder rechts angezeigt wird.",
-        "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
+        "goToBrowserSettings": "Zu den Einstellungen gehen"
       },
       "searchBoxPosition": {
         "label": "Position der Suchleiste",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fließende Bildlaufleisten",
         "description": "Verwenden Sie Microsoft Fluent Design-Stil Bildlaufleisten und überlagern Sie sie auf dem Webinhalt",
-        "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen"
+        "goToBrowserSettings": "Zu den Einstellungen gehen"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Diese Seite dient nur zur Anzeige. Um Tastenkombinationen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
-      "goToBrowserSettings": "Zu den Chrome-Einstellungen gehen",
+      "goToBrowserSettings": "Zu den Einstellungen gehen",
       "_execute_action": "Diese Erweiterung aktivieren",
       "openSidePanel": "Seitenleiste öffnen"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Browsereinstellungen",
         "description": "Sie können Seiteneinstellungen ändern, z. B. Daten löschen oder Site-Berechtigungen ändern.",
-        "goToBrowserSettings": "Zu den Browsereinstellungen gehen"
+        "goToBrowserSettings": "Zu den Einstellungen gehen"
       },
       "autoDiscardable": {
         "label": "Automatisch verwerfbar",

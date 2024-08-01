@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Posição do painel lateral",
         "description": "Defina se o painel lateral é exibido à esquerda ou à direita.",
-        "goToBrowserSettings": "Ir para as configurações do Chrome"
+        "goToBrowserSettings": "Ir para configurações do navegador"
       },
       "searchBoxPosition": {
         "label": "Posição da caixa de pesquisa",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barras de rolagem fluentes",
         "description": "Use barras de rolagem no estilo de design fluente da Microsoft e sobreponha-as no conteúdo da web",
-        "goToBrowserSettings": "Ir para as configurações do Chrome"
+        "goToBrowserSettings": "Ir para configurações do navegador"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Esta página é apenas para exibição. Para modificar atalhos, visite [Extensões]->[Gerenciar Extensões]->[Atalhos de Teclado]",
-      "goToBrowserSettings": "Ir para as configurações do Chrome",
+      "goToBrowserSettings": "Ir para configurações do navegador",
       "_execute_action": "Ativar esta extensão",
       "openSidePanel": "Abrir painel lateral"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "Configurações do navegador",
         "description": "Você pode modificar as configurações do site, como excluir dados ou alterar permissões do site.",
-        "goToBrowserSettings": "Ir para as configurações do navegador"
+        "goToBrowserSettings": "Ir para configurações do navegador"
       },
       "autoDiscardable": {
         "label": "Descartável automaticamente",

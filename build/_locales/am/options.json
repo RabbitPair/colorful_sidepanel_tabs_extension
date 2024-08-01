@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "የጎን ፓነል አቀማመጥ",
         "description": "ጎን ፓነል በግራ ወይም በቀኝ እንደሚታይ አቀናብር",
-        "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+       "goToBrowserSettings": "በተከታታይ ቦታ ላይ ይምረጡ"
       },
       "searchBoxPosition": {
         "label": "የፍለጋ ሳጥን አቀማመጥ",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "የሙሉ እንቅስቃሴ ስኮልባር",
         "description": "የሚንቀሳቀሱ እንቅስቃሴ ስኮልባሮችን ተጠቀምና በድር ይዘት ላይ አስተካክል",
-        "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ"
+        "goToBrowserSettings": "በተከታታይ ቦታ ላይ ይምረጡ"
       }
     },
     "tabs": {
@@ -266,7 +266,7 @@
     },
     "shortcuts": {
       "alert": "ይህ ገጽ ለማሳየት ብቻ ነው። አጭር መንገዶችን ለማስተካከል እባኮትን [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] ይጎብኙ",
-      "goToBrowserSettings": "ወደ ክሮም ቅንብሮች ሂድ",
+      "goToBrowserSettings": "በተከታታይ ቦታ ላይ ይምረጡ",
       "_execute_action": "ይህን ቅጥር አንቃ",
       "openSidePanel": "ጎን ስርጭት ክፈት"
     },
@@ -394,7 +394,7 @@
       "browserSettings": {
         "label": "በትር ማስተካከል",
         "description": "ድህረ ገጽ ቅንብሮችን ለማስቀመጥ ወይም ለመቀየር በትር ማስተካከል ይችላሉ።",
-        "goToBrowserSettings": "ወደ በትር ማስተካከል ሂደዋል"
+        "goToBrowserSettings": "በተከታታይ ቦታ ላይ ይምረጡ"
       },
       "autoDiscardable": {
         "label": "አቶ ማስቀመጥ የሚችል",

@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "サイドパネルの位置",
         "description": "サイドパネルが左または右に表示されるかを設定",
-        "goToBrowserSettings": "Chromeの設定に移動"
+        "goToBrowserSettings": "ブラウザの設定に移動"
       },
       "searchBoxPosition": {
         "label": "検索ボックスの位置",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "流暢なスクロールバー",
         "description": "Microsoft Fluentデザインスタイルのスクロールバーを使用し、ウェブコンテンツにオーバーレイします",
-        "goToBrowserSettings": "Chromeの設定に移動"
+        "goToBrowserSettings": "ブラウザの設定に移動"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "このページは表示専用です。ショートカットを変更するには、[拡張機能]->[拡張機能の管理]->[キーボードショートカット]にアクセスしてください",
-      "goToBrowserSettings": "Chromeの設定に移動",
+      "goToBrowserSettings": "ブラウザの設定に移動",
       "_execute_action": "この拡張機能を有効にする",
       "openSidePanel": "サイドパネルを開く"
     },
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "ブラウザ設定",
         "description": "データの削除やサイトの権限の変更など、サイト設定を変更できます。",
-        "goToBrowserSettings": "ブラウザ設定に移動"
+        "goToBrowserSettings": "ブラウザの設定に移動"
       },
       "autoDiscardable": {
         "label": "自動破棄可能",

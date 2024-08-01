@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Position du panneau latéral",
         "description": "Définir si le panneau latéral est affiché à gauche ou à droite.",
-        "goToBrowserSettings": "Aller aux paramètres de Chrome"
+        "goToBrowserSettings": "Aller aux paramètres du navigateur"
       },
       "searchBoxPosition": {
         "label": "Position de la boîte de recherche",
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barres de défilement Fluent",
         "description": "Utiliser les barres de défilement de style Microsoft Fluent et les superposer sur le contenu web",
-        "goToBrowserSettings": "Aller aux paramètres de Chrome"
+        "goToBrowserSettings": "Aller aux paramètres du navigateur"
       }
     },
     "tabs": {
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "Cette page est uniquement à titre d'affichage. Pour modifier les raccourcis, veuillez visiter [Extensions]->[Gérer les extensions]->[Raccourcis clavier]",
-      "goToBrowserSettings": "Aller aux paramètres de Chrome",
+      "goToBrowserSettings": "Aller aux paramètres du navigateur",
       "_execute_action": "Activer cette extension",
       "openSidePanel": "Ouvrir le panneau latéral"
     },

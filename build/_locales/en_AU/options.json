@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "Side panel position",
         "description": "Set whether the side panel is displayed on the left or right.",
-        "goToBrowserSettings": "Go to Chrome settings"
+        "goToBrowserSettings": "Go to settings"
       },
       "searchBoxPosition": {
         "label": "Search box position",
@@ -100,7 +100,7 @@
       },
       "fullScreenHideSidePanel": {
         "label": "Hide side panel in full screen",
-        "description": "When enabled, the side panel will automatically hide when the page is in full screen. Due to Chrome's limitations, the side panel cannot be automatically reopened. You need to manually reopen the side panel!"
+        "description": "When enabled, the side panel will automatically hide when the page is in full screen. Due to Browser's limitations, the side panel cannot be automatically reopened. You need to manually reopen the side panel!"
       }
     },
     "beautify": {
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent scrollbars",
         "description": "Use Microsoft Fluent design style scrollbars and overlay them on the web content",
-        "goToBrowserSettings": "Go to Chrome settings"
+        "goToBrowserSettings": "Go to settings"
       }
     },
     "tabs": {
@@ -233,7 +233,7 @@
         "label": "Data source",
         "description": "Select data source",
         "recentlyClosedTabs": "Recently closed tabs",
-        "chromeHistory": "Chrome history",
+        "chromeHistory": "History",
         "alert": "To search history records, you need your authorization to enable",
         "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorization"
       },
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "This page is for display only. To modify shortcuts, please visit [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToBrowserSettings": "Go to Chrome settings",
+      "goToBrowserSettings": "Go to settings",
       "_execute_action": "Activate this extension",
       "openSidePanel": "Open side panel"
     },
@@ -299,10 +299,10 @@
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
         "label": "Tab group collapse behavior",
-        "description": "Modify the behavior of Chrome browser tab group collapse",
+        "description": "Modify the behavior of the browser tab group collapse",
         "option_collapse_others": "Show current group and collapse others",
         "option_disable": "Expand all groups",
-        "option_auto": "Use Chrome default settings"
+        "option_auto": "Use Browser default settings"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto create or join same domain group",
@@ -354,7 +354,7 @@
       "saveMemoryAction": {
         "label": "How to save memory on tabs",
         "description": "To save memory on tabs, you can choose to close tabs or discard tabs.",
-        "discardTips": "A discarded tab doesn't go anywhere. We kill it but it's still visible on the Chrome tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
+        "discardTips": "A discarded tab doesn't go anywhere. We kill it but it's still visible on the browser tab strip. If you navigate back to a tab that's been discarded, it'll reload when clicked. Form content, scroll position and so on are saved and restored the same way they would be during forward/backward tab navigation.",
         "disabled": "Disabled",
         "closeTabs": "Close tabs",
         "discardTabs": "Discard tabs"

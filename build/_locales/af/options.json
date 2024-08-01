@@ -57,7 +57,7 @@
       "SidePanelPosition": {
         "label": "Sypaneel posisie",
         "description": "Stel in of die sypaneel aan die linkerkant of regs vertoon word.",
-        "goToBrowserSettings": "Gaan na Chrome-instellings"
+        "goToBrowserSettings": "Gaan na instellings"
       },
       "searchBoxPosition": {
         "label": "Soekboks posisie",
@@ -156,7 +156,7 @@
       "fluentOverlayScrollbars": {
         "label": "Vloeistofskuifbalke",
         "description": "Gebruik Microsoft Fluent-ontwerpstylskuifbalke en plaas hulle oor die webinhoud",
-        "goToBrowserSettings": "Gaan na Chrome-instellings"
+        "goToBrowserSettings": "Gaan na instellings"
       }
     },
     "tabs": {
@@ -185,7 +185,7 @@
       "pinedTabsAsIcons": {
         "label": "Wys vasgepen tabs as ikone",
         "description": "Wanneer geaktiveer, sal vasgepen tabs as ikone vertoon word en nie in die lys nie"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Wys vinnige toegang",
         "description": "Jy kan 'n oortjie stel om in Vinnige toegang te verskyn sodat dit maklik is om te vind. Regskliek (of druk lank) daarop en kies Pin na Vinnige toegang. Ontkoppel dit wanneer jy dit nie meer daar nodig het nie deur regskliek (of lank te druk) daarop en kies Verwyder van Vinnige toegang. Die verskil van vasgepende oortjies is dat Vinnige Toegang die URL stoor en 'n nuwe oortjie oopmaak elke keer as dit gekliek word."
@@ -266,7 +266,7 @@
     },
     "shortcuts": {
       "alert": "Hierdie bladsy is slegs vir vertoning. Om kortpaaie te wysig, besoek asseblief [Uitbreidings]->[Bestuur Uitbreidings]->[Sleutelbordkortpaaie]",
-      "goToBrowserSettings": "Gaan na Chrome-instellings",
+      "goToBrowserSettings": "Gaan na instellings",
       "_execute_action": "Aktiveer hierdie uitbreiding",
       "openSidePanel": "Maak sypaneel oop"
     },
@@ -394,7 +394,7 @@
       "browserSettings": {
         "label": "Blaaier instellings",
         "description": "Jy kan webwerf instellings wysig, soos data verwydering of webwerf toestemmings verander.",
-        "goToBrowserSettings": "Gaan na blaaier instellings"
+        "goToBrowserSettings": "Gaan na instellings"
       },
       "autoDiscardable": {
         "label": "Outomaties verwerpbaar",

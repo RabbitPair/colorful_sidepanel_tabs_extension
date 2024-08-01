@@ -58,7 +58,7 @@
       "SidePanelPosition": {
         "label": "侧边栏位置",
         "description": "设置侧边栏显示在左侧或右侧。",
-        "goToBrowserSettings": "前往Chrome设置"
+        "goToBrowserSettings": "前往设置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -100,7 +100,7 @@
       },
       "fullScreenHideSidePanel": {
         "label": "全屏时隐藏侧边栏",
-        "description": "启用后，页面全屏时侧边栏将自动隐藏。由于Chrome的限制，侧边栏无法自动重新打开。您需要手动重新打开侧边栏！"
+        "description": "启用后，页面全屏时侧边栏将自动隐藏。由于浏览器的限制，侧边栏无法自动重新打开。您需要手动重新打开侧边栏！"
       }
     },
     "beautify": {
@@ -157,7 +157,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滚动条",
         "description": "使用 Microsoft Fluent 设计风格化滚动条并使其覆盖在网页内容上",
-        "goToBrowserSettings": "前往 Chrome 设置"
+        "goToBrowserSettings": "前往设置"
       }
     },
     "tabs": {
@@ -233,7 +233,7 @@
         "label": "数据源",
         "description": "选择数据源",
         "recentlyClosedTabs": "最近关闭的标签页",
-        "chromeHistory": "Chrome历史记录",
+        "chromeHistory": "历史记录",
         "alert": "要搜索历史记录，需要您的授权启用",
         "deniedMessage": "您已拒绝所需的权限，因此设置未更改。如果您改变主意，请再次点击并允许授权"
       },
@@ -267,7 +267,7 @@
     },
     "shortcuts": {
       "alert": "此页面仅供显示。要修改快捷键，请访问[扩展程序]->[管理扩展程序]->[键盘快捷键]",
-      "goToBrowserSettings": "前往Chrome设置",
+      "goToBrowserSettings": "前往设置",
       "_execute_action": "激活此扩展",
       "openSidePanel": "打开侧边栏"
     },
@@ -299,10 +299,10 @@
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
         "label": "标签组折叠行为",
-        "description": "修改Chrome浏览器标签组折叠的行为",
+        "description": "修改浏览器标签组折叠的行为",
         "option_collapse_others": "显示当前组并折叠其他组",
         "option_disable": "展开所有组",
-        "option_auto": "使用Chrome默认设置"
+        "option_auto": "使用浏览器默认设置"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自动创建或加入同域名分组",
@@ -354,7 +354,7 @@
       "saveMemoryAction": {
         "label": "如何节省标签页内存",
         "description": "要节省标签页内存，您可以选择关闭标签页或丢弃标签页。",
-        "discardTips": "丢弃的标签页不会消失。我们会将其终止，但它仍然在Chrome标签栏中可见。如果您导航回到已丢弃的标签页，点击时它会重新加载。表单内容、滚动位置等将以与前进/后退标签导航相同的方式保存和恢复。",
+        "discardTips": "丢弃的标签页不会消失。我们会将其终止，但它仍然在浏览器标签栏中可见。如果您导航回到已丢弃的标签页，点击时它会重新加载。表单内容、滚动位置等将以与前进/后退标签导航相同的方式保存和恢复。",
         "disabled": "禁用",
         "closeTabs": "关闭标签页",
         "discardTabs": "丢弃标签页"
@@ -395,7 +395,7 @@
       "browserSettings": {
         "label": "浏览器设置",
         "description": "您可以修改站点设置，例如删除数据或更改站点权限。",
-        "goToBrowserSettings": "前往浏览器设置"
+        "goToBrowserSettings": "前往设置"
       },
       "autoDiscardable": {
         "label": "自动丢弃",

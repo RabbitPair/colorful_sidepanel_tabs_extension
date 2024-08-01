@@ -81,7 +81,7 @@
     "MoveToNewWindow": "移動到新窗口",
     "Ungroup": "取消分組",
     "DeleteGroup": "刪除組",
-    "AddTabsToChromeGroups": "將標籤頁添加到Chrome組",
+    "AddTabsToChromeGroups": "將標籤頁添加到組",
     "RemoveAllTabsFromGroup": "從組中移除所有標籤頁"
   },
   "Ungrouped": "未分組",
