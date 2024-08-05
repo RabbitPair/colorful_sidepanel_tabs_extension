@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kleurrijke Zijpaneel Tabs"
+    "message": "VertiTab - Verticale tabbladen in zijpaneel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Beheer browsertabbladen in het zijpaneel"
+    "message": "Beheer browsertabbladen in zijpaneel met configureerbare, verfraaiende en vele andere functies"
   },
   "openSidePanel": {
-    "message": "Open Zijpaneel"
+    "message": "Zijpaneel openen"
   }
 }

@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Alsó navigációs sáv megjelenítése",
-        "description": "Ha engedélyezve van, az alsó navigációs sáv megjelenik"
+        "description": "Az alsó navigációs sáv megjelenítése, ha engedélyezve van",
+        "configure": "beállítás",
+        "configureBottomNav": "Alsó navigáció beállítása",
+        "enabledNavs": "Engedélyezett navigációk",
+        "disabledNavs": "Letiltott navigációk (Elérhető)",
+        "showLabel": "Címke megjelenítése",
+        "close": "Bezárás",
+        "save": "Mentés",
+        "settings": "Beállítások",
+        "version": "Verzió",
+        "more": "Továbbiak",
+        "newTab": "Új lap",
+        "recentlyTabs": "Nemrég bezárt lapok",
+        "bookmarks": "Könyvjelzők",
+        "history": "Előzmények",
+        "readingList": "Olvasási lista",
+        "quickAccess": "Gyors elérés",
+        "search": "Keresés",
+        "createSnapshot": "Pillanatkép készítése",
+        "collapseAll": "Összes összecsukása",
+        "scrollToActiveTab": "Görgetés az aktív laphoz",
+        "muteAllTabs": "Összes lap némítása",
+        "themeModes": "Téma módok",
+        "viewModes": "Nézet módok",
+        "showBy": "Megjelenítés",
+        "sortBy": "Rendezés",
+        "createTabPanel": "Lap panel létrehozása",
+        "tabPanels": "Lap panelek",
+        "pinToToolbarReminder": "Kérjük, rögzítse a bővítményt az eszköztárhoz, mielőtt eltávolítaná ezt a navigációt."
       },
       "buttonPosition": {
         "label": "Gombok pozíciója",
@@ -437,6 +465,23 @@
         "downloadOnly": "Csak letöltés",
         "staySynchronized": "Maradjon szinkronizálva",
         "globaldisabledTips": "A szinkronizálást be kell kapcsolnia a globális beállításokban, hogy módosíthassa ezt a beállítást."
+      },
+      "linkSettings": {
+        "label": "Link beállítások",
+        "description": "Állítsa be, hogyan kezelje a linkeket ezen az oldalon.",
+        "configure": "Beállítás",
+        "listTips": "Húzza és ejtse a rendezéshez. A magasabb prioritású szabályok felülre kerülnek. Ha egy szabály illeszkedik, a következő szabályok nem kerülnek alkalmazásra.",
+        "linkMatchContent": "Link tartalom illesztése",
+        "linkMatchContentTips": "Támogatja a reguláris kifejezéseket. Például használja a '*' karaktert bármennyi karakter illesztéséhez és a '?' karaktert egyetlen karakter illesztéséhez.",
+        "linkOpenMethod": "Link megnyitási mód",
+        "edit": "Szerkesztés",
+        "delete": "Törlés",
+        "target_self": "Jelenlegi fül",
+        "target_blank": "Új fül",
+        "target_parent": "Szülő fül",
+        "target_top": "Legfelső fül",
+        "save": "Mentés",
+        "close": "Bezárás"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Egy nem látogatott weboldal ikonja rendellenesen jelenhet meg. Ne aggódjon, a böngésző újraindítása után normálisan fog megjelenni.",
         "siteConfig": "Webhely beállítások",
         "siteConfigInfo": "például automatikusan elvethető, kép a képben lapváltáskor, olvasási folyamatjelző sáv, lejátszási folyamatjelző sáv stb.",
-        "recentlyTabs": "Nemrég bezárt lapok"
+        "recentlyTabs": "Nemrég bezárt lapok",
+        "snapshots": "Pillanatképek"
       },
       "cancelBtn": "Mégse",
       "exportBtn": "Exportálás",
@@ -514,5 +560,28 @@
         "staySynchronized": "Maradjon szinkronizálva"
       }
     }
+  },
+  "snapshots": {
+    "title": "Pillanatképek Nézője",
+    "description": "Pillanatképek létrehozása és kezelése.",
+    "createSnapshot": "Pillanatkép létrehozása",
+    "exportSnapshot": "Pillanatkép exportálása",
+    "openAllWindows": "Összes ablak megnyitása",
+    "openSelectedInNewWindow": "Kiválasztottak megnyitása új ablakban",
+    "openSelectedInCurrentWindow": "Kiválasztottak megnyitása jelenlegi ablakban",
+    "windowCount": "{{count}} ablak",
+    "tabCount": "{{count}} fül",
+    "Window": "Ablak",
+    "OpenInCurrentWindow": "Megnyitás a jelenlegi ablakban",
+    "OpenInNewWindow": "Megnyitás új ablakban",
+    "ResetSelection": "Kiválasztás visszaállítása",
+    "snapshotCreatedSuccess": "Pillanatkép sikeresen létrehozva",
+    "snapshotCreatedFailed": "Pillanatkép létrehozása sikertelen",
+    "snapshotDeletedSuccess": "Pillanatkép sikeresen törölve",
+    "snapshotDeletedFailed": "Pillanatkép törlése sikertelen",
+    "importSnapshot": "Pillanatkép importálása",
+    "snapshotImportFailedDuplicate": "Pillanatkép importálása sikertelen, duplikált pillanatkép",
+    "snapshotImportedSuccess": "{{count}} pillanatkép sikeresen importálva",
+    "snapshotImportFailed": "{{count}} pillanatkép importálása sikertelen {{error}}"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Các Tab Bên Cạnh Đầy Màu Sắc"
+    "message": "VertiTab - Các tab dọc trong bảng điều khiển bên"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Quản lý các tab trình duyệt trong bảng điều khiển bên"
+    "message": "Quản lý các tab trình duyệt trong bảng điều khiển bên với các tính năng có thể cấu hình, làm đẹp và nhiều tính năng khác"
   },
   "openSidePanel": {
-    "message": "Mở Bảng Điều Khiển Bên"
+    "message": "Mở bảng điều khiển bên"
   }
 }

@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Värikkäät sivupaneelin välilehdet"
+    "message": "VertiTab - Pystysuorat välilehdet sivupaneelissa"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Hallitse selaimen välilehtiä sivupaneelissa"
+    "message": "Hallitse selaimen välilehtiä sivupaneelissa muokattavilla, kaunistavilla ja monilla muilla ominaisuuksilla"
   },
   "openSidePanel": {
     "message": "Avaa sivupaneeli"

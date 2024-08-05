@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Agorwch y panel ochr i weld y rhagolwg",
+  "OpenSidePanelToPreview": "Agorwch y panel ochr i weld y rhagolwg",
   "_execute_action": "Gweithredu'r estyniad hwn",
   "openSidePanel": "Agorwch y panel ochr",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Gweithrediad clicio ar eicon yr estyniad",
         "description": "Gosodwch y gweithrediad pan fyddwch yn clicio ar eicon yr estyniad",
         "openPopup": "Agorwch y bopeth",
-        "openSidePanel": "Agorwch y panel ochr"
+        "openSidePanel": "Agorwch y panel ochr",
+        "SmallWindowAlert": "Os yw'r panel ochr yn cymryd gormod o le, argymhellir defnyddio ffenestr naid"
       },
       "SidePanelPosition": {
         "label": "Pozisiwn y panel ochr",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Dangos y bar llywio gwaelod",
-        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar llywio gwaelod yn cael ei dangos"
+        "description": "Pan fydd hwn wedi'i alluogi, bydd y bar llywio gwaelod yn cael ei dangos",
+        "configure": "cyflunio",
+        "configureBottomNav": "Cyflunio Llywio Gwaelod",
+        "enabledNavs": "Llywio wedi'u Galluogi",
+        "disabledNavs": "Llywio wedi'u Analluogi (Ar Gael)",
+        "showLabel": "Dangos Label",
+        "close": "Cau",
+        "save": "Cadw",
+        "settings": "Gosodiadau",
+        "version": "Fersiwn",
+        "more": "Mwy",
+        "newTab": "Tab Newydd",
+        "recentlyTabs": "Tabiau a Gaewyd yn Ddiweddar",
+        "bookmarks": "Nodau Tudalen",
+        "history": "Hanes",
+        "readingList": "Rhestr Ddarllen",
+        "quickAccess": "Mynediad Cyflym",
+        "search": "Chwilio",
+        "createSnapshot": "Creu Llun Ciplun",
+        "collapseAll": "Cwympo Popeth",
+        "scrollToActiveTab": "Sgroliwch i'r Tab Gweithredol",
+        "muteAllTabs": "Tawelu Pob Tab",
+        "themeModes": "Moddau Thema",
+        "viewModes": "Moddau Gweld",
+        "showBy": "Dangos Yn ôl",
+        "sortBy": "Trefnu Yn ôl",
+        "createTabPanel": "Creu Panel Tab",
+        "tabPanels": "Paneli Tab",
+        "pinToToolbarReminder": "Rhowch y estyniad ar eich bar offer cyn tynnu'r llywio hwn."
       },
       "buttonPosition": {
         "label": "Pozisiwn y botymau",
@@ -155,7 +184,8 @@
       },
       "fluentOverlayScrollbars": {
         "label": "Barrau sgrolio llyfn",
-        "description": "Defnyddiwch arddull dylunio Microsoft Fluent ar y barrau sgrolio a'u gorlwytho ar gynnwys y we"
+        "description": "Defnyddiwch arddull dylunio Microsoft Fluent ar y barrau sgrolio a'u gorlwytho ar gynnwys y we",
+         "goToBrowserSettings": "Ewch i osodiadau'r porwr"
       }
     },
     "tabs": {
@@ -411,7 +441,9 @@
       },
       "tabSwitchPip": {
         "label": "PIP wrth Droi Tab",
-        "description": "Pan fydd wedi'i alluogi, bydd Mewnbynnu'n Ddelwedd mewn Delwedd yn awtomatig wrth droi tabiau gyda fideo heb eu sain."
+        "description": "Pan fydd wedi'i alluogi, bydd Mewnbynnu'n Ddelwedd mewn Delwedd yn awtomatig wrth droi tabiau gyda fideo heb eu sain.",
+        "globaldisabledTips": "Mae'n rhaid i chi alluogi'r nodwedd Delwedd-mewn-Delwedd yn y gosodiadau cyffredinol i newid y gosodiad hwn."
+     
       },
       "clearHistoyAfterCLose": {
         "label": "Clirio hanes ar ôl cau",
@@ -434,6 +466,23 @@
         "downloadOnly": "lawrlwytho'n unig",
         "staySynchronized": "Aros yn gyfatebol",
         "globaldisabledTips": "Rhaid i chi alluogi'r sync yn y Gosodiadau Cyffredinol i olygu'r gosodiad hwn."
+      },
+      "linkSettings": {
+        "label": "Gosodiadau Dolenni",
+        "description": "Ffurfweddwch sut y dylid trin dolenni ar y wefan hon.",
+        "configure": "Ffurfweddu",
+        "listTips": "Llusgwch a gollwng i drefnu. Mae rheolau â blaenoriaeth uwch wedi'u gosod ar y brig. Unwaith y bydd rheol yn cael ei chyfateb, ni fydd rheolau dilynol yn cael eu cymhwyso.",
+        "linkMatchContent": "Cynnwys Cyfateb Dolen",
+        "linkMatchContentTips": "Yn cefnogi mynegiadau rheolaidd. Er enghraifft, defnyddiwch '*' i gyfateb unrhyw nifer o gymeriadau a '?' i gyfateb un cymeriad.",
+        "linkOpenMethod": "Dull Agor Dolen",
+        "edit": "Golygu",
+        "delete": "Dileu",
+        "target_self": "Tab Cyfredol",
+        "target_blank": "Tab Newydd",
+        "target_parent": "Tab Rhiant",
+        "target_top": "Tab Uchaf",
+        "save": "Cadw",
+        "close": "Cau"
       }
     },
     "importAndExport": {
@@ -446,7 +495,8 @@
         "quickAccessWarning": "Gall eicon gwefan heb ei ymweld â hi arddangos yn annormal. Peidiwch â phoeni, bydd yn arddangos yn normal ar ôl i chi ymweld a ailgychwyn y porwr.",
         "siteConfig": "Gosodiadau Safle",
         "siteConfigInfo": "megis auto wrthodadwy, delwedd-mewn-delwedd wrth Droi Tab, bar cynnydd darllen, bar cynnydd chwarae, ac ati.",
-        "recentlyTabs": "Tabiau a gaewyd yn ddiweddar"
+        "recentlyTabs": "Tabiau a gaewyd yn ddiweddar",
+        "snapshots": "Lluniau Sgrin"
       },
       "cancelBtn": "Canslo",
       "exportBtn": "Allforio",
@@ -511,5 +561,28 @@
         "staySynchronized": "Aros yn gyfatebol"
       }
     }
+  },
+  "snapshots": {
+    "title": "Gweld Lluniau",
+    "description": "Creu a rheoli lluniau.",
+    "createSnapshot": "Creu Llun",
+    "exportSnapshot": "Allforio Llun",
+    "openAllWindows": "Agor Pob Ffenestr",
+    "openSelectedInNewWindow": "Agor y Dewis Mewn Ffenestr Newydd",
+    "openSelectedInCurrentWindow": "Agor y Dewis Mewn Ffenestr Bresennol",
+    "windowCount": "{{count}} Ffenestri",
+    "tabCount": "{{count}} Tabiau",
+    "Window": "Ffenestr",
+    "OpenInCurrentWindow": "Agor Mewn Ffenestr Bresennol",
+    "OpenInNewWindow": "Agor Mewn Ffenestr Newydd",
+    "ResetSelection": "Ailosod Dewis",
+    "snapshotCreatedSuccess": "Llun wedi'i greu'n llwyddiannus",
+    "snapshotCreatedFailed": "Methwyd creu llun",
+    "snapshotDeletedSuccess": "Llun wedi'i ddileu'n llwyddiannus",
+    "snapshotDeletedFailed": "Methwyd dileu llun",
+    "importSnapshot": "Mewnforio Llun",
+    "snapshotImportFailedDuplicate": "Methwyd mewnforio llun, llun dyblyg",
+    "snapshotImportedSuccess": "{{count}} Llun wedi'i fewnforio'n llwyddiannus",
+    "snapshotImportFailed": "{{count}} Methwyd mewnforio llun {{error}}"
   }
 }

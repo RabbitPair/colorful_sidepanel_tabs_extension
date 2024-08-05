@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Rodyti apatinę naršymo juostą",
-        "description": "Kai įjungta, rodoma apatinė naršymo juosta"
+        "description": "Kai įjungta, rodoma apatinė naršymo juosta",
+        "configure": "Konfigūruoti",
+        "configureBottomNav": "Konfigūruoti apatinę naršymo juostą",
+        "enabledNavs": "Įjungtos navigacijos",
+        "disabledNavs": "Išjungtos navigacijos (Galimos)",
+        "showLabel": "Rodyti etiketę",
+        "close": "Uždaryti",
+        "save": "Išsaugoti",
+        "settings": "Nustatymai",
+        "version": "Versija",
+        "more": "Daugiau",
+        "newTab": "Naujas skirtukas",
+        "recentlyTabs": "Neseniai uždaryti skirtukai",
+        "bookmarks": "Žymės",
+        "history": "Istorija",
+        "readingList": "Skaitymo sąrašas",
+        "quickAccess": "Greita prieiga",
+        "search": "Paieška",
+        "createSnapshot": "Sukurti momentinę nuotrauką",
+        "collapseAll": "Sutraukti viską",
+        "scrollToActiveTab": "Slinkti iki aktyvaus skirtuko",
+        "muteAllTabs": "Nutildyti visus skirtukus",
+        "themeModes": "Temos režimai",
+        "viewModes": "Peržiūros režimai",
+        "showBy": "Rodyti pagal",
+        "sortBy": "Rūšiuoti pagal",
+        "createTabPanel": "Sukurti skirtukų panelę",
+        "tabPanels": "Skirtukų panelės",
+        "pinToToolbarReminder": "Prisekite plėtinį prie įrankių juostos prieš pašalindami šią navigaciją."
       },
       "buttonPosition": {
         "label": "Mygtukų padėtis",
@@ -437,6 +465,23 @@
         "downloadOnly": "Tik atsisiųsti",
         "staySynchronized": "Išlikti sinchronizuotam",
         "globaldisabledTips": "Norėdami pakeisti šį nustatymą, turite įjungti sinchronizavimą globaliuose nustatymuose."
+      },
+      "linkSettings": {
+        "label": "Nuorodų nustatymai",
+        "description": "Nustatykite, kaip šiame puslapyje turi būti tvarkomos nuorodos.",
+        "configure": "Konfigūruoti",
+        "listTips": "Vilkite ir numeskite, kad surūšiuotumėte. Aukštesnio prioriteto taisyklės yra viršuje. Kai taisyklė atitinka, kitos taisyklės nebus taikomos.",
+        "linkMatchContent": "Nuorodų atitikimo turinys",
+        "linkMatchContentTips": "Palaiko reguliarias išraiškas. Pavyzdžiui, naudokite '*' bet kokiam simbolių skaičiui atitikti ir '?' vienam simboliui atitikti.",
+        "linkOpenMethod": "Nuorodų atidarymo būdas",
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "target_self": "Esamas skirtukas",
+        "target_blank": "Naujas skirtukas",
+        "target_parent": "Tėvinis skirtukas",
+        "target_top": "Aukščiausias skirtukas",
+        "save": "Išsaugoti",
+        "close": "Uždaryti"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Neaplankytos svetainės piktograma gali būti rodoma netinkamai. Nesijaudinkite, ji bus rodoma tinkamai po to, kai apsilankysite ir iš naujo paleisite naršyklę.",
         "siteConfig": "Svetainės nustatymai",
         "siteConfigInfo": "tokie kaip automatiškai atmestinas, vaizdas vaizde perjungiant skirtukus, skaitymo progreso juosta, grojimo progreso juosta ir kt.",
-        "recentlyTabs": "Neseniai uždaryti skirtukai"
+        "recentlyTabs": "Neseniai uždaryti skirtukai",
+        "snapshots": "Momentinės nuotraukos"
       },
       "cancelBtn": "Atšaukti",
       "exportBtn": "Eksportuoti",
@@ -514,5 +560,28 @@
         "staySynchronized": "Išlikti sinchronizuotam"
       }
     }
+  },
+  "snapshots": {
+    "title": "Momentinių kopijų peržiūra",
+    "description": "Kurti ir valdyti momentines kopijas.",
+    "createSnapshot": "Sukurti momentinę kopiją",
+    "exportSnapshot": "Eksportuoti momentinę kopiją",
+    "openAllWindows": "Atidaryti visus langus",
+    "openSelectedInNewWindow": "Atidaryti pasirinktus naujame lange",
+    "openSelectedInCurrentWindow": "Atidaryti pasirinktus dabartiniame lange",
+    "windowCount": "{{count}} langai",
+    "tabCount": "{{count}} skirtukai",
+    "Window": "Langas",
+    "OpenInCurrentWindow": "Atidaryti dabartiniame lange",
+    "OpenInNewWindow": "Atidaryti naujame lange",
+    "ResetSelection": "Atstatyti pasirinkimą",
+    "snapshotCreatedSuccess": "Momentinė kopija sėkmingai sukurta",
+    "snapshotCreatedFailed": "Nepavyko sukurti momentinės kopijos",
+    "snapshotDeletedSuccess": "Momentinė kopija sėkmingai ištrinta",
+    "snapshotDeletedFailed": "Nepavyko ištrinti momentinės kopijos",
+    "importSnapshot": "Importuoti momentinę kopiją",
+    "snapshotImportFailedDuplicate": "Importavimas nepavyko, momentinė kopija jau egzistuoja",
+    "snapshotImportedSuccess": "{{count}} momentinė kopija sėkmingai importuota",
+    "snapshotImportFailed": "{{count}} momentinės kopijos importavimas nepavyko {{error}}"
   }
 }

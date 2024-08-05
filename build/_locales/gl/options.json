@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Abrir panel lateral para previsualizar",
+  "OpenSidePanelToPreview": "Abrir panel lateral para previsualizar",
   "_execute_action": "Activar esta extensión",
   "openSidePanel": "Abrir panel lateral",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Acción ao facer clic no icono da extensión",
         "description": "Establecer a acción ao facer clic no icono da extensión",
         "openPopup": "Abrir o panel despregable",
-        "openSidePanel": "Abrir o panel lateral"
+        "openSidePanel": "Abrir o panel lateral",
+        "SmallWindowAlert": "Se o panel lateral ocupa demasiado espazo, recoméndase usar unha xanela emerxente"
       },
       "SidePanelPosition": {
         "label": "Posición do panel lateral",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Amosar a barra de navegación inferior",
-        "description": "Cando está habilitado, amósase a barra de navegación inferior"
+        "description": "Cando está activada, móstrase a barra de navegación inferior",
+        "configure": "configurar",
+        "configureBottomNav": "Configurar navegación inferior",
+        "enabledNavs": "Navegacións habilitadas",
+        "disabledNavs": "Navegacións deshabilitadas (dispoñibles)",
+        "showLabel": "Mostrar etiqueta",
+        "close": "Pechar",
+        "save": "Gardar",
+        "settings": "Configuración",
+        "version": "Versión",
+        "more": "Máis",
+        "newTab": "Nova lapela",
+        "recentlyTabs": "Lapelas pechadas recentemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "search": "Buscar",
+        "createSnapshot": "Crear instantánea",
+        "collapseAll": "Colapsar todo",
+        "scrollToActiveTab": "Desprazarse á lapela activa",
+        "muteAllTabs": "Silenciar todas as lapelas",
+        "themeModes": "Modos de tema",
+        "viewModes": "Modos de vista",
+        "showBy": "Mostrar por",
+        "sortBy": "Ordenar por",
+        "createTabPanel": "Crear panel de lapelas",
+        "tabPanels": "Paneis de lapelas",
+        "pinToToolbarReminder": "Lembra fixar a extensión na barra de ferramentas antes de eliminar esta navegación."
       },
       "buttonPosition": {
         "label": "Posición dos botóns",
@@ -436,6 +465,23 @@
         "downloadOnly": "Só descargar",
         "staySynchronized": "Manter sincronizado",
         "globaldisabledTips": "Debes activar a sincronización nos axustes globais para modificar este axuste."
+      },
+      "linkSettings": {
+        "label": "Configuración de ligazóns",
+        "description": "Axusta como deben ser manexadas as ligazóns neste sitio.",
+        "configure": "Configurar",
+        "listTips": "Arrastra e solta para ordenar. As regras de maior prioridade colócanse na parte superior. Unha vez que se cumpre unha regra, as seguintes non se aplicarán.",
+        "linkMatchContent": "Contido de coincidencia de ligazón",
+        "linkMatchContentTips": "Admite expresións regulares. Por exemplo, usa '*' para coincidir con calquera número de caracteres e '?' para coincidir cun só carácter.",
+        "linkOpenMethod": "Método de apertura de ligazón",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Lapela actual",
+        "target_blank": "Nova lapela",
+        "target_parent": "Lapela pai",
+        "target_top": "Lapela superior",
+        "save": "Gardar",
+        "close": "Pechar"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "O icono dun sitio web non visitado pode mostrarse de forma anormal. Non te preocupes, mostrarase normalmente despois de visitar e reiniciar o navegador.",
         "siteConfig": "Configuración do sitio",
         "siteConfigInfo": "como descartable automaticamente, picture-in-picture ao cambiar de lapela, barra de progreso de lectura, barra de progreso de reprodución, etc.",
-        "recentlyTabs": "Lapelas pechadas recentemente"
+        "recentlyTabs": "Lapelas pechadas recentemente",
+        "snapshots":"Capturas de pantalla"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -513,5 +560,28 @@
         "staySynchronized": "Manter sincronizado"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visor de Capturas",
+    "description": "Crea e xestiona capturas.",
+    "createSnapshot": "Crear Captura",
+    "exportSnapshot": "Exportar Captura",
+    "openAllWindows": "Abrir Todas as Xanelas",
+    "openSelectedInNewWindow": "Abrir Seleccionadas en Nova Xanela",
+    "openSelectedInCurrentWindow": "Abrir Seleccionadas na Xanela Actual",
+    "windowCount": "{{count}} Xanelas",
+    "tabCount": "{{count}} Lapelas",
+    "Window": "Xanela",
+    "OpenInCurrentWindow": "Abrir na Xanela Actual",
+    "OpenInNewWindow": "Abrir en Nova Xanela",
+    "ResetSelection": "Restablecer Selección",
+    "snapshotCreatedSuccess": "Captura creada con éxito",
+    "snapshotCreatedFailed": "Erro ao crear a captura",
+    "snapshotDeletedSuccess": "Captura eliminada con éxito",
+    "snapshotDeletedFailed": "Erro ao eliminar a captura",
+    "importSnapshot": "Importar Captura",
+    "snapshotImportFailedDuplicate": "Erro ao importar a captura, captura duplicada",
+    "snapshotImportedSuccess": "{{count}} Captura importada con éxito",
+    "snapshotImportFailed": "{{count}} Erro ao importar a captura {{error}}"
   }
 }

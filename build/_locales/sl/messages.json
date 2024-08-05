@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Barviti stranski zavihki"
+    "message": "VertiTab - Navpične zavihke v stranski plošči"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Upravljajte zavihek brskalnika v stranskem podoknu"
+    "message": "Upravljajte zavihke brskalnika v stranski plošči s prilagodljivimi, polepšanimi in mnogimi drugimi funkcijami"
   },
   "openSidePanel": {
-    "message": "Odpri stransko podokno"
+    "message": "Odpri stransko ploščo"
   }
 }

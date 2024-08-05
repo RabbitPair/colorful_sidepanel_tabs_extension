@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "ቀለም ያላቸው የጎን ፓነል ትሮች"
+    "message": "VertiTab - በጎን ሰሌዳ ላይ አንድ አቀማመጥ ትር ትር"
   },
   "appShortName": {
-    "message": "ራቢትፔር"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "የአሳሽ ትሮችን በጎን ፓነል ያቀናብሩ፣ እንደዚህ ያለ ውብ መሆን አይቻልም"
+    "message": "በጎን ሰሌዳ ላይ የአሳሽ ትር ትር ያቀማመጡ በተለዋዋጭ እና በተለዋዋጭ እና በሌሎች ብዙ ባህሪዎች ጋር"
   },
   "openSidePanel": {
-    "message": "ጎን ፓነልን ክፈት"
+    "message": "ጎን ሰሌዳ ክፈት"
   }
 }

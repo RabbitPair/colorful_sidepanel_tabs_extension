@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Afficher la barre de navigation inférieure",
-        "description": "Lorsqu'il est activé, la barre de navigation inférieure est affichée"
+        "description": "Lorsque cette option est activée, la barre de navigation inférieure s'affiche",
+        "configure": "Configurer",
+        "configureBottomNav": "Configurer la navigation inférieure",
+        "enabledNavs": "Navigations activées",
+        "disabledNavs": "Navigations désactivées (disponibles)",
+        "showLabel": "Afficher l'étiquette",
+        "close": "Fermer",
+        "save": "Enregistrer",
+        "settings": "Paramètres",
+        "version": "Version",
+        "more": "Plus",
+        "newTab": "Nouvel onglet",
+        "recentlyTabs": "Onglets récemment fermés",
+        "bookmarks": "Favoris",
+        "history": "Historique",
+        "readingList": "Liste de lecture",
+        "quickAccess": "Accès rapide",
+        "search": "Recherche",
+        "createSnapshot": "Créer une capture",
+        "collapseAll": "Tout réduire",
+        "scrollToActiveTab": "Faire défiler jusqu'à l'onglet actif",
+        "muteAllTabs": "Couper le son de tous les onglets",
+        "themeModes": "Modes de thème",
+        "viewModes": "Modes d'affichage",
+        "showBy": "Afficher par",
+        "sortBy": "Trier par",
+        "createTabPanel": "Créer un panneau d'onglets",
+        "tabPanels": "Panneaux d'onglets",
+        "pinToToolbarReminder": "Veuillez épingler l'extension à votre barre d'outils avant de supprimer cette navigation."
       },
       "buttonPosition": {
         "label": "Position des boutons",
@@ -437,6 +465,23 @@
         "downloadOnly": "Télécharger uniquement",
         "staySynchronized": "Rester synchronisé",
         "globaldisabledTips": "Vous devez activer la synchronisation dans les paramètres globaux pour modifier ce paramètre."
+      },
+      "linkSettings": {
+        "label": "Paramètres des liens",
+        "description": "Définissez comment les liens doivent être gérés sur ce site.",
+        "configure": "Configurer",
+        "listTips": "Faites glisser et déposez pour trier. Les règles de priorité supérieure sont placées en haut. Une fois qu'une règle est appliquée, les règles suivantes ne seront pas prises en compte.",
+        "linkMatchContent": "Contenu correspondant au lien",
+        "linkMatchContentTips": "Prend en charge les expressions régulières. Par exemple, utilisez '*' pour correspondre à n'importe quel nombre de caractères et '?' pour correspondre à un seul caractère.",
+        "linkOpenMethod": "Méthode d'ouverture des liens",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "target_self": "Onglet actuel",
+        "target_blank": "Nouvel onglet",
+        "target_parent": "Onglet parent",
+        "target_top": "Onglet principal",
+        "save": "Enregistrer",
+        "close": "Fermer"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "L'icône d'un site Web non visité peut s'afficher de manière anormale. Ne vous inquiétez pas, elle s'affichera normalement après avoir visité et redémarré le navigateur.",
         "siteConfig": "Paramètres du site",
         "siteConfigInfo": "tels que l'abandon automatique, l'image dans l'image lors du changement d'onglet, la barre de progression de lecture, la barre de progression de lecture en cours, etc.",
-        "recentlyTabs": "Onglets récemment fermés"
+        "recentlyTabs": "Onglets récemment fermés",
+        "snapshots":"Captures d'écran"
       },
       "cancelBtn": "Annuler",
       "exportBtn": "Exporter",
@@ -514,5 +560,28 @@
         "staySynchronized": "Rester synchronisé"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visionneuse de snapshots",
+    "description": "Créer et gérer des snapshots.",
+    "createSnapshot": "Créer un snapshot",
+    "exportSnapshot": "Exporter un snapshot",
+    "openAllWindows": "Ouvrir toutes les fenêtres",
+    "openSelectedInNewWindow": "Ouvrir la sélection dans une nouvelle fenêtre",
+    "openSelectedInCurrentWindow": "Ouvrir la sélection dans la fenêtre actuelle",
+    "windowCount": "{{count}} Fenêtres",
+    "tabCount": "{{count}} Onglets",
+    "Window": "Fenêtre",
+    "OpenInCurrentWindow": "Ouvrir dans la fenêtre actuelle",
+    "OpenInNewWindow": "Ouvrir dans une nouvelle fenêtre",
+    "ResetSelection": "Réinitialiser la sélection",
+    "snapshotCreatedSuccess": "Snapshot créé avec succès",
+    "snapshotCreatedFailed": "Échec de la création du snapshot",
+    "snapshotDeletedSuccess": "Snapshot supprimé avec succès",
+    "snapshotDeletedFailed": "Échec de la suppression du snapshot",
+    "importSnapshot": "Importer un snapshot",
+    "snapshotImportFailedDuplicate": "Échec de l'importation du snapshot, snapshot en double",
+    "snapshotImportedSuccess": "{{count}} Snapshot importé avec succès",
+    "snapshotImportFailed": "{{count}} Échec de l'importation du snapshot {{error}}"
   }
 }

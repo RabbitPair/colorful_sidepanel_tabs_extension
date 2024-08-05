@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "下部ナビゲーションバーを表示",
-        "description": "有効にすると、下部ナビゲーションバーが表示されます"
+        "description": "有効にすると、下部ナビゲーションバーが表示されます",
+        "configure": "設定",
+        "configureBottomNav": "下部ナビゲーションの設定",
+        "enabledNavs": "有効なナビゲーション",
+        "disabledNavs": "無効なナビゲーション（利用可能）",
+        "showLabel": "ラベルを表示",
+        "close": "閉じる",
+        "save": "保存",
+        "settings": "設定",
+        "version": "バージョン",
+        "more": "もっと見る",
+        "newTab": "新しいタブ",
+        "recentlyTabs": "最近閉じたタブ",
+        "bookmarks": "ブックマーク",
+        "history": "履歴",
+        "readingList": "リーディングリスト",
+        "quickAccess": "クイックアクセス",
+        "search": "検索",
+        "createSnapshot": "スナップショットを作成",
+        "collapseAll": "すべて折りたたむ",
+        "scrollToActiveTab": "アクティブなタブにスクロール",
+        "muteAllTabs": "すべてのタブをミュート",
+        "themeModes": "テーマモード",
+        "viewModes": "表示モード",
+        "showBy": "表示方法",
+        "sortBy": "並び替え",
+        "createTabPanel": "タブパネルを作成",
+        "tabPanels": "タブパネル",
+        "pinToToolbarReminder": "このナビゲーションを削除する前に、拡張機能をツールバーにピン留めしてください。"
       },
       "buttonPosition": {
         "label": "ボタンの位置",
@@ -437,6 +465,23 @@
         "downloadOnly": "ダウンロードのみ",
         "staySynchronized": "同期を維持",
         "globaldisabledTips": "この設定を変更するには、グローバル設定で同期をオンにする必要があります。"
+      },
+      "linkSettings": {
+        "label": "リンク設定",
+        "description": "このサイトでリンクをどのように処理するかを設定します。",
+        "configure": "設定",
+        "listTips": "ドラッグ＆ドロップで並べ替えます。優先度の高いルールは上に配置されます。一度ルールが一致すると、後続のルールは適用されません。",
+        "linkMatchContent": "リンク一致内容",
+        "linkMatchContentTips": "正規表現をサポートします。例えば、'*'を使用して任意の文字列に一致させたり、'?'を使用して単一の文字に一致させたりできます。",
+        "linkOpenMethod": "リンクの開き方",
+        "edit": "編集",
+        "delete": "削除",
+        "target_self": "現在のタブ",
+        "target_blank": "新しいタブ",
+        "target_parent": "親タブ",
+        "target_top": "最上位タブ",
+        "save": "保存",
+        "close": "閉じる"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "未訪問のウェブサイトのアイコンが異常に表示される場合があります。心配しないでください、訪問してブラウザを再起動すると正常に表示されます。",
         "siteConfig": "サイト設定",
         "siteConfigInfo": "自動破棄可能、タブ切り替え時のピクチャー・イン・ピクチャー、読書進行状況バー、再生進行状況バーなど。",
-        "recentlyTabs": "最近閉じたタブ"
+        "recentlyTabs": "最近閉じたタブ",
+        "snapshots":"スナップショット"
       },
       "cancelBtn": "キャンセル",
       "exportBtn": "エクスポート",
@@ -514,5 +560,28 @@
         "staySynchronized": "同期を維持"
       }
     }
+  },
+  "snapshots": {
+    "title": "スナップショットビューア",
+    "description": "スナップショットを作成および管理します。",
+    "createSnapshot": "スナップショットを作成",
+    "exportSnapshot": "スナップショットをエクスポート",
+    "openAllWindows": "すべてのウィンドウを開く",
+    "openSelectedInNewWindow": "選択したものを新しいウィンドウで開く",
+    "openSelectedInCurrentWindow": "選択したものを現在のウィンドウで開く",
+    "windowCount": "{{count}} 個のウィンドウ",
+    "tabCount": "{{count}} 個のタブ",
+    "Window": "ウィンドウ",
+    "OpenInCurrentWindow": "現在のウィンドウで開く",
+    "OpenInNewWindow": "新しいウィンドウで開く",
+    "ResetSelection": "選択をリセット",
+    "snapshotCreatedSuccess": "スナップショットが正常に作成されました",
+    "snapshotCreatedFailed": "スナップショットの作成に失敗しました",
+    "snapshotDeletedSuccess": "スナップショットが正常に削除されました",
+    "snapshotDeletedFailed": "スナップショットの削除に失敗しました",
+    "importSnapshot": "スナップショットをインポート",
+    "snapshotImportFailedDuplicate": "スナップショットのインポートに失敗しました。重複するスナップショットがあります",
+    "snapshotImportedSuccess": "{{count}} 個のスナップショットが正常にインポートされました",
+    "snapshotImportFailed": "{{count}} 個のスナップショットのインポートに失敗しました {{error}}"
   }
 }

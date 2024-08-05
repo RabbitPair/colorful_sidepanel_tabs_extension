@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Spalvingos šoninės panelės kortelės"
+    "message": "VertiTab - Vertikalūs skirtukai šoniniame skydelyje"
   },
   "appShortName": {
-    "message": "triušių pora"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Tvarkykite naršyklės korteles šoninėje panelėje"
+    "message": "Tvarkykite naršyklės skirtukus šoniniame skydelyje su konfigūruojamomis, gražinančiomis ir daugeliu kitų funkcijų"
   },
   "openSidePanel": {
-    "message": "Atidaryti šoninę panelę"
+    "message": "Atidaryti šoninį skydelį"
   }
 }

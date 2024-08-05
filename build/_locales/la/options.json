@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Aperi laterale tabulam ad praevideo",
+  "OpenSidePanelToPreview": "Aperi laterale tabulam ad praevideo",
   "_execute_action": "Activa hanc extensionem",
   "openSidePanel": "Aperi laterale tabulam",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Actio iconis extensionis",
         "description": "Constitue actionem cum iconem extensionis cliccas",
         "openPopup": "Aperi popup",
-        "openSidePanel": "Aperi laterale tabulam"
+        "openSidePanel": "Aperi laterale tabulam",
+        "SmallWindowAlert": "Si lateralis tabula nimium spatium occupat, commendatur ut fenestram popup utaris"
       },
       "SidePanelPosition": {
         "label": "Positio lateralis tabulae",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Monstra infima navigationis talea",
-        "description": "Cum activa, infima navigationis talea ostenditur"
+        "description": "Cum activa, infima navigatio ostenditur",
+        "configure": "configura",
+        "configureBottomNav": "Configura Navigationem Inferiorem",
+        "enabledNavs": "Navigationes Activae",
+        "disabledNavs": "Navigationes Inactivae (Disponibiles)",
+        "showLabel": "Monstra Titulum",
+        "close": "Claude",
+        "save": "Salva",
+        "settings": "Occasus",
+        "version": "Versio",
+        "more": "Plus",
+        "newTab": "Nova Tabula",
+        "recentlyTabs": "Tabulae Nuper Clausae",
+        "bookmarks": "Notae",
+        "history": "Historia",
+        "readingList": "Index Legendus",
+        "quickAccess": "Accessus Velox",
+        "search": "Quaere",
+        "createSnapshot": "Crea Snapshot",
+        "collapseAll": "Collapsa Omnia",
+        "scrollToActiveTab": "Volvunt ad Activam Tabulam",
+        "muteAllTabs": "Obmutesce Omnes Tabulas",
+        "themeModes": "Modi Thematis",
+        "viewModes": "Modi Visus",
+        "showBy": "Monstra Per",
+        "sortBy": "Ordina Per",
+        "createTabPanel": "Crea Tabulam Panel",
+        "tabPanels": "Tabulae Panel",
+        "pinToToolbarReminder": "Quaeso extensionem ad toolbar affige antequam hanc navigationem removes."
       },
       "buttonPosition": {
         "label": "Positio bullarum",
@@ -436,6 +465,23 @@
         "downloadOnly": "Solo scaricamento",
         "staySynchronized": "Rimani sincronizzato",
         "globaldisabledTips": "Devi attivare la sincronizzazione nelle Impostazioni globali per modificare questa impostazione."
+      },
+      "linkSettings": {
+        "label": "Impostazioni Link",
+        "description": "Configura come i link devono essere gestiti su questo sito.",
+        "configure": "Configura",
+        "listTips": "Trascina e rilascia per ordinare. Le regole con priorità più alta sono posizionate in cima. Una volta che una regola è soddisfatta, le regole successive non verranno applicate.",
+        "linkMatchContent": "Contenuto Corrispondenza Link",
+        "linkMatchContentTips": "Supporta le espressioni regolari. Ad esempio, usa '*' per corrispondere a qualsiasi numero di caratteri e '?' per corrispondere a un singolo carattere.",
+        "linkOpenMethod": "Metodo di Apertura Link",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "target_self": "Scheda Corrente",
+        "target_blank": "Nuova Scheda",
+        "target_parent": "Scheda Genitore",
+        "target_top": "Scheda Principale",
+        "save": "Salva",
+        "close": "Chiudi"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "L'icona di un sito web non visitato potrebbe essere visualizzata in modo anomalo. Non preoccuparti, verrà visualizzata normalmente dopo aver visitato e riavviato il browser.",
         "siteConfig": "Impostazioni del sito",
         "siteConfigInfo": "come auto scartabile, picture-in-picture su cambio scheda, barra di avanzamento lettura, barra di avanzamento riproduzione, ecc.",
-        "recentlyTabs": "Schede chiuse di recente"
+        "recentlyTabs": "Schede chiuse di recente",
+        "snapshots": "Istantanee"
       },
       "cancelBtn": "Annulla",
       "exportBtn": "Esporta",
@@ -513,5 +560,28 @@
         "staySynchronized": "Mantener sincronizado"
       }
     }
+  },
+  "snapshots": {
+    "title": "Gestore di Snapshot",
+    "description": "Crea e gestisci gli snapshot.",
+    "createSnapshot": "Crea Snapshot",
+    "exportSnapshot": "Esporta Snapshot",
+    "openAllWindows": "Apri Tutte le Finestre",
+    "openSelectedInNewWindow": "Apri Selezionati in Nuova Finestra",
+    "openSelectedInCurrentWindow": "Apri Selezionati nella Finestra Corrente",
+    "windowCount": "{{count}} Finestre",
+    "tabCount": "{{count}} Schede",
+    "Window": "Finestra",
+    "OpenInCurrentWindow": "Apri nella Finestra Corrente",
+    "OpenInNewWindow": "Apri in Nuova Finestra",
+    "ResetSelection": "Reimposta Selezione",
+    "snapshotCreatedSuccess": "Snapshot creato con successo",
+    "snapshotCreatedFailed": "Creazione snapshot fallita",
+    "snapshotDeletedSuccess": "Snapshot eliminato con successo",
+    "snapshotDeletedFailed": "Eliminazione snapshot fallita",
+    "importSnapshot": "Importa Snapshot",
+    "snapshotImportFailedDuplicate": "Importazione snapshot fallita, snapshot duplicato",
+    "snapshotImportedSuccess": "{{count}} Snapshot importato con successo",
+    "snapshotImportFailed": "{{count}} Importazione snapshot fallita {{error}}"
   }
 }

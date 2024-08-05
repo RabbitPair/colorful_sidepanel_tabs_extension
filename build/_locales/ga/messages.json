@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Bainistíocht Cluaisíní Barra Taobh Ildathach"
+    "message": "VertiTab - Cluaisíní Ingearacha sa Phainéal Taobh"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Bainistigh cluaisíní sa phainéal taobh, Ró-álainn le bheith chomh maith seo."
+    "message": "Bainistigh cluaisíní brabhsálaí sa phainéal taobh le gnéithe inúsáidte, áilleachtacha agus go leor eile"
   },
   "openSidePanel": {
     "message": "Oscail an Painéal Taobh"

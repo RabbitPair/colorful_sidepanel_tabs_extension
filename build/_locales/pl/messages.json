@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kolorowe Karty Panelu Bocznego"
+    "message": "VertiTab - Pionowe karty w panelu bocznym"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Zarządzaj kartami przeglądarki w panelu bocznym"
+    "message": "Zarządzaj kartami przeglądarki w panelu bocznym z konfigurowalnymi, upiększającymi i wieloma innymi funkcjami"
   },
   "openSidePanel": {
-    "message": "Otwórz Panel Boczny"
+    "message": "Otwórz panel boczny"
   }
 }

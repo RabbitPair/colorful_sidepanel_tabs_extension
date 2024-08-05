@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Fungura uruhande rwo kureba",
+  "OpenSidePanelToPreview": "Fungura uruhande rwo kureba",
   "_execute_action": "Shyira mu bikorwa iyi kongeraho",
   "openSidePanel": "Fungura uruhande",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Gukanda ku gikorwa cya ikoni y'inyongera",
         "description": "Shyiraho igikorwa iyo ukanda ku ikoni y'inyongera",
         "openPopup": "Fungura popup",
-        "openSidePanel": "Fungura uruhande"
+        "openSidePanel": "Fungura uruhande",
+        "SmallWindowAlert": "Niba uruhande rufata umwanya munini, birasabwa gukoresha idirishya rishya"
       },
       "SidePanelPosition": {
         "label": "Umwanya w'uruhande",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Erekana urubuga rwo hasi",
-        "description": "Iyo yemejwe, urubuga rwo hasi rurerekanwa"
+        "description": "Niba yemejwe, urubuga rwo hasi ruzagaragara",
+        "configure": "guhindura",
+        "configureBottomNav": "Guhindura Urubuga rwo Hasi",
+        "enabledNavs": "Navigasiyo zemejwe",
+        "disabledNavs": "Navigasiyo zidakora (Ziboneka)",
+        "showLabel": "Erekana Ikirangantego",
+        "close": "Funga",
+        "save": "Bika",
+        "settings": "Igenamiterere",
+        "version": "Icyiciro",
+        "more": "Byinshi",
+        "newTab": "Ikarita Nshya",
+        "recentlyTabs": "Amakarita aheruka gufungwa",
+        "bookmarks": "Ibirango",
+        "history": "Amateka",
+        "readingList": "Urutonde rwo Gusoma",
+        "quickAccess": "Kwinjira Vuba",
+        "search": "Shakisha",
+        "createSnapshot": "Fata Ifoto",
+        "collapseAll": "Funga Byose",
+        "scrollToActiveTab": "Zunguruka ku Ikarita Ikora",
+        "muteAllTabs": "Cecekesha Amakarita Yose",
+        "themeModes": "Imiterere y'Insanganyamatsiko",
+        "viewModes": "Imiterere y'Irebere",
+        "showBy": "Erekana Na",
+        "sortBy": "Kururutsa Na",
+        "createTabPanel": "Shyiraho Ikarita y'Urupapuro",
+        "tabPanels": "Amakarita y'Urupapuro",
+        "pinToToolbarReminder": "Nyamuneka shyira iyi extention kuri toolbar yawe mbere yo gukuraho iyi navigasiyo."
       },
       "buttonPosition": {
         "label": "Umwanya w'ibipimo",
@@ -436,6 +465,23 @@
         "downloadOnly": "Gukura gusa",
         "staySynchronized": "Kurangiza kugira ngo azasinzire",
         "globaldisabledTips": "Ibyo wakoresheje gusinzira mu byerekeye ibikoresho byose kugirango ushobore guhindura iyi settinga."
+      },
+      "linkSettings": {
+        "label": "Ibyo Guhuza",
+        "description": "Shyiraho uburyo links zigomba gufatwa kuri uru rubuga.",
+        "configure": "Shyiraho",
+        "listTips": "Kanda hanyuma ukure hasi cyangwa hejuru kugirango utegure. Amategeko afite agaciro kanini ashyirwa hejuru. Iyo itegeko rihuye, andi mategeko ntakoreshwa.",
+        "linkMatchContent": "Ibikubiye mu Link",
+        "linkMatchContentTips": "Byemera imvugo zikoreshwa kenshi. Urugero, ukoreshe '*' kugirango uhure n'inyuguti zose cyangwa '?' kugirango uhure n'inyuguti imwe.",
+        "linkOpenMethod": "Uburyo bwo Gufungura Link",
+        "edit": "Hindura",
+        "delete": "Siba",
+        "target_self": "Tab iriho",
+        "target_blank": "Tab nshya",
+        "target_parent": "Tab y'Umubyeyi",
+        "target_top": "Tab yo hejuru cyane",
+        "save": "Bika",
+        "close": "Funga"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Ikirangantego cy'urubuga rutari rwigeze gusurwa gishobora kugaragara nabi. Ntugire ikibazo, kizagaragara neza nyuma yo gusura no kongera gufungura umubrowiza.",
         "siteConfig": "Ibyo Urubuga Rukoresha",
         "siteConfigInfo": "nko kuba auto discardable, picture-in-picture kuri Tab Switch, umurongo w'ukurikira, umurongo w'ukurikira, n'ibindi.",
-        "recentlyTabs": "Amataburiya aherutse gufungwa"
+        "recentlyTabs": "Amataburiya aherutse gufungwa",
+        "snapshots":"Ifoto z'ibikubiye"
       },
       "cancelBtn": "Hagarika",
       "exportBtn": "Gusohora",
@@ -513,5 +560,28 @@
         "staySynchronized": "Kurangiza kugira ngo azasinzire"
       }
     }
+  },
+  "snapshots": {
+    "title": "Reba Snapshots",
+    "description": "Fungura kandi ugenzure snapshots.",
+    "createSnapshot": "Kora Snapshot",
+    "exportSnapshot": "Ohereza Snapshot",
+    "openAllWindows": "Fungura Windows zose",
+    "openSelectedInNewWindow": "Fungura Ibyatoranijwe muri Window nshya",
+    "openSelectedInCurrentWindow": "Fungura Ibyatoranijwe muri Window iriho",
+    "windowCount": "{{count}} Windows",
+    "tabCount": "{{count}} Tabs",
+    "Window": "Window",
+    "OpenInCurrentWindow": "Fungura muri Window iriho",
+    "OpenInNewWindow": "Fungura muri Window nshya",
+    "ResetSelection": "Subiramo Ibyatoranijwe",
+    "snapshotCreatedSuccess": "Snapshot yakozwe neza",
+    "snapshotCreatedFailed": "Snapshot yakozwe nabi",
+    "snapshotDeletedSuccess": "Snapshot yahanaguwe neza",
+    "snapshotDeletedFailed": "Snapshot yahanaguwe nabi",
+    "importSnapshot": "Injiza Snapshot",
+    "snapshotImportFailedDuplicate": "Injiza Snapshot yanze, Snapshot isanzwe ihari",
+    "snapshotImportedSuccess": "{{count}} Snapshot yinjiye neza",
+    "snapshotImportFailed": "{{count}} Snapshot yinjiye nabi {{error}}"
   }
 }

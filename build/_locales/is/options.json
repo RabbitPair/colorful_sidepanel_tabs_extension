@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Opnaðu hliðarpanel til að fyrirskoða",
+  "OpenSidePanelToPreview": "Opnaðu hliðarpanel til að fyrirskoða",
   "_execute_action": "Virkja þessa viðbót",
   "openSidePanel": "Opna hliðarpanel",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Aðgerð við smelltu viðbótartákn",
         "description": "Stilltu aðgerð þegar smellt er á viðbótartákn",
         "openPopup": "Opna popup",
-        "openSidePanel": "Opna hliðarpanel"
+        "openSidePanel": "Opna hliðarpanel",
+        "SmallWindowAlert": "Ef hliðarpanelinn tekur of mikið pláss, er mælt með að nota sprettiglugga"
       },
       "SidePanelPosition": {
         "label": "Staðsetning hliðarpanels",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Sýna neðri siglingarstiku",
-        "description": "Þegar virkt, er neðri siglingarstika birt"
+        "description": "Þegar þetta er virkjað, birtist neðri siglingarstikan",
+        "configure": "stilla",
+        "configureBottomNav": "Stilla neðri siglingu",
+        "enabledNavs": "Virkjar siglingar",
+        "disabledNavs": "Óvirkar siglingar (í boði)",
+        "showLabel": "Sýna merki",
+        "close": "Loka",
+        "save": "Vista",
+        "settings": "Stillingar",
+        "version": "Útgáfa",
+        "more": "Meira",
+        "newTab": "Nýr flipi",
+        "recentlyTabs": "Nýlega lokaðir flipar",
+        "bookmarks": "Bókamerki",
+        "history": "Saga",
+        "readingList": "Leslisti",
+        "quickAccess": "Flýtiaðgangur",
+        "search": "Leita",
+        "createSnapshot": "Búa til skjáskot",
+        "collapseAll": "Fella saman allt",
+        "scrollToActiveTab": "Flettu að virkum flipa",
+        "muteAllTabs": "Þagga niður í öllum flipum",
+        "themeModes": "Þemastillingar",
+        "viewModes": "Skoðunarstillingar",
+        "showBy": "Sýna eftir",
+        "sortBy": "Raða eftir",
+        "createTabPanel": "Búa til flipa panel",
+        "tabPanels": "Flipa panelar",
+        "pinToToolbarReminder": "Vinsamlegast festu viðbótina á tækjastikuna áður en þú fjarlægir þessa siglingu."
       },
       "buttonPosition": {
         "label": "Staðsetning hnappa",
@@ -436,6 +465,23 @@
         "downloadOnly": "Aðeins niðurhal",
         "staySynchronized": "Haltu samkeyrslu",
         "globaldisabledTips": "Þú verður að kveikja á samkeyrslu í almennum stillingum til að breyta þessari stillingu."
+      },
+      "linkSettings": {
+        "label": "Stillingar tengla",
+        "description": "Stilla hvernig tenglar eiga að vera meðhöndlaðir á þessari síðu.",
+        "configure": "Stilla",
+        "listTips": "Dragðu og slepptu til að raða. Reglur með hærri forgang eru settar efst. Þegar regla er uppfyllt, verða næstu reglur ekki notaðar.",
+        "linkMatchContent": "Innihald tengla",
+        "linkMatchContentTips": "Styður reglulegar tjáningar. Til dæmis, notaðu '*' til að passa við hvaða fjölda stafa sem er og '?' til að passa við einn staf.",
+        "linkOpenMethod": "Aðferð til að opna tengil",
+        "edit": "Breyta",
+        "delete": "Eyða",
+        "target_self": "Núverandi flipi",
+        "target_blank": "Nýr flipi",
+        "target_parent": "Yfirflipi",
+        "target_top": "Efsti flipi",
+        "save": "Vista",
+        "close": "Loka"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Táknmynd óheimsóttrar vefsíðu getur sýnt óeðlilega. Ekki hafa áhyggjur, það mun sýna eðlilega eftir að þú heimsækir og endurræsir vafrann.",
         "siteConfig": "Stillingar vefsíðu",
         "siteConfigInfo": "eins og sjálfvirk hending, mynd í mynd við flipaskipti, lesningarfremgangsstika, spilunarfremgangsstika, o.s.frv.",
-        "recentlyTabs": "Nýlega lokaðir flipar"
+        "recentlyTabs": "Nýlega lokaðir flipar",
+        "snapshots": "Skjámyndir"
       },
       "cancelBtn": "Hætta við",
       "exportBtn": "Útflutningur",
@@ -513,5 +560,28 @@
         "staySynchronized": "Haltu samkeyrslu"
       }
     }
+  },
+  "snapshots": {
+    "title": "Skjámyndaskoðari",
+    "description": "Búðu til og stjórnaðu skjámyndum.",
+    "createSnapshot": "Búa til skjámynd",
+    "exportSnapshot": "Flytja út skjámynd",
+    "openAllWindows": "Opna öll glugga",
+    "openSelectedInNewWindow": "Opna valda í nýjum glugga",
+    "openSelectedInCurrentWindow": "Opna valda í núverandi glugga",
+    "windowCount": "{{count}} Gluggar",
+    "tabCount": "{{count}} Flipar",
+    "Window": "Gluggi",
+    "OpenInCurrentWindow": "Opna í núverandi glugga",
+    "OpenInNewWindow": "Opna í nýjum glugga",
+    "ResetSelection": "Endurstilla val",
+    "snapshotCreatedSuccess": "Skjámynd búin til með góðum árangri",
+    "snapshotCreatedFailed": "Ekki tókst að búa til skjámynd",
+    "snapshotDeletedSuccess": "Skjámynd eytt með góðum árangri",
+    "snapshotDeletedFailed": "Ekki tókst að eyða skjámynd",
+    "importSnapshot": "Flytja inn skjámynd",
+    "snapshotImportFailedDuplicate": "Innflutningur skjámyndar mistókst, afrit skjámyndar",
+    "snapshotImportedSuccess": "{{count}} Skjámynd flutt inn með góðum árangri",
+    "snapshotImportFailed": "{{count}} Innflutningur skjámyndar mistókst {{error}}"
   }
 }

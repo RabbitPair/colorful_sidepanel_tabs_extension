@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Näytä alavalikkopalkki",
-        "description": "Kun käytössä, alavalikkopalkki näytetään"
+        "description": "Kun tämä asetus on käytössä, alavalikkopalkki tulee näkyviin",
+        "configure": "määritä",
+        "configureBottomNav": "Määritä alavalikkopalkki",
+        "enabledNavs": "Käytössä olevat navigoinnit",
+        "disabledNavs": "Poistetut navigoinnit (Saatavilla)",
+        "showLabel": "Näytä nimi",
+        "close": "Sulje",
+        "save": "Tallenna",
+        "settings": "Asetukset",
+        "version": "Versio",
+        "more": "Lisää",
+        "newTab": "Uusi välilehti",
+        "recentlyTabs": "Äskettäin suljetut välilehdet",
+        "bookmarks": "Kirjanmerkit",
+        "history": "Historia",
+        "readingList": "Lukulista",
+        "quickAccess": "Pikakäyttö",
+        "search": "Haku",
+        "createSnapshot": "Luo tilannekuva",
+        "collapseAll": "Tiivistä kaikki",
+        "scrollToActiveTab": "Vieritä aktiiviselle välilehdelle",
+        "muteAllTabs": "Mykistä kaikki välilehdet",
+        "themeModes": "Teematilat",
+        "viewModes": "Näkymätilat",
+        "showBy": "Näytä järjestyksessä",
+        "sortBy": "Lajittele",
+        "createTabPanel": "Luo välilehtipaneeli",
+        "tabPanels": "Välilehtipaneelit",
+        "pinToToolbarReminder": "Kiinnitä laajennus työkalupalkkiin ennen tämän navigoinnin poistamista."
       },
       "buttonPosition": {
         "label": "Painikkeiden sijainti",
@@ -437,6 +465,23 @@
         "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna",
         "globaldisabledTips": "Sinun on otettava synkronointi käyttöön yleisissä asetuksissa muokataksesi tätä asetusta."
+      },
+      "linkSettings": {
+        "label": "Linkkiasetukset",
+        "description": "Määritä, miten linkit käsitellään tällä sivustolla.",
+        "configure": "Määritä",
+        "listTips": "Lajittele vetämällä ja pudottamalla. Korkeamman prioriteetin säännöt sijoitetaan ylös. Kun sääntö täsmää, seuraavia sääntöjä ei sovelleta.",
+        "linkMatchContent": "Linkin täsmäyssisältö",
+        "linkMatchContentTips": "Tukee säännöllisiä lausekkeita. Esimerkiksi, käytä '*' vastaamaan mihin tahansa määrään merkkejä ja '?' vastaamaan yhteen merkkiin.",
+        "linkOpenMethod": "Linkin avausmenetelmä",
+        "edit": "Muokkaa",
+        "delete": "Poista",
+        "target_self": "Nykyinen välilehti",
+        "target_blank": "Uusi välilehti",
+        "target_parent": "Ylätason välilehti",
+        "target_top": "Päällimmäinen välilehti",
+        "save": "Tallenna",
+        "close": "Sulje"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Käymättömän verkkosivuston kuvake saattaa näkyä epänormaalisti. Älä huoli, se näkyy normaalisti, kun vierailet sivustolla ja käynnistät selaimen uudelleen.",
         "siteConfig": "Sivuston asetukset",
         "siteConfigInfo": "kuten automaattisesti hylättävä, kuva kuvassa välilehden vaihdossa, lukemisen edistymispalkki, toiston edistymispalkki jne.",
-        "recentlyTabs": "Äskettäin suljetut välilehdet"
+        "recentlyTabs": "Äskettäin suljetut välilehdet",
+        "snapshots": "Tilannevedokset"
       },
       "cancelBtn": "Peruuta",
       "exportBtn": "Vie",
@@ -514,5 +560,28 @@
         "staySynchronized": "Pysy synkronoituna"
       }
     }
+  },
+  "snapshots": {
+    "title": "Tilannekuvien katselu",
+    "description": "Luo ja hallitse tilannekuvia.",
+    "createSnapshot": "Luo tilannekuva",
+    "exportSnapshot": "Vie tilannekuva",
+    "openAllWindows": "Avaa kaikki ikkunat",
+    "openSelectedInNewWindow": "Avaa valitut uuteen ikkunaan",
+    "openSelectedInCurrentWindow": "Avaa valitut nykyiseen ikkunaan",
+    "windowCount": "{{count}} ikkunaa",
+    "tabCount": "{{count}} välilehteä",
+    "Window": "Ikkuna",
+    "OpenInCurrentWindow": "Avaa nykyisessä ikkunassa",
+    "OpenInNewWindow": "Avaa uudessa ikkunassa",
+    "ResetSelection": "Nollaa valinta",
+    "snapshotCreatedSuccess": "Tilannekuva luotiin onnistuneesti",
+    "snapshotCreatedFailed": "Tilannekuvan luonti epäonnistui",
+    "snapshotDeletedSuccess": "Tilannekuva poistettiin onnistuneesti",
+    "snapshotDeletedFailed": "Tilannekuvan poisto epäonnistui",
+    "importSnapshot": "Tuo tilannekuva",
+    "snapshotImportFailedDuplicate": "Tilannekuvan tuonti epäonnistui, tilannekuva on jo olemassa",
+    "snapshotImportedSuccess": "{{count}} tilannekuva tuotiin onnistuneesti",
+    "snapshotImportFailed": "{{count}} tilannekuvan tuonti epäonnistui {{error}}"
   }
 }

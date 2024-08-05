@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Rheoli Tabiau Ochr Lliwgar"
+    "message": "VertiTab - Tabiau Fertigol yn y Panel Ochr"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Rheoli tabiau yn y panel ochr, rhy brydferth i fod mor dda."
+    "message": "Rheoli tabiau porwr yn y panel ochr gyda nodweddion ffurfweddadwy, harddwch a llawer o nodweddion eraill"
   },
   "openSidePanel": {
     "message": "Agor Panel Ochr"

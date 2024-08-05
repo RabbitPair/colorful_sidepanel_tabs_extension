@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Litrikar hliðarstikustjórnun"
+    "message": "VertiTab - Lóðréttir flipar í hliðarstiku"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Stjórna flipum í hliðarstiku, Of fallegt til að vera svona gott."
+    "message": "Stjórnaðu vafraflipum í hliðarstiku með stillanlegum, fegrandi og mörgum öðrum eiginleikum"
   },
   "openSidePanel": {
     "message": "Opna hliðarstiku"

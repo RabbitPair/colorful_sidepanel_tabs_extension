@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kolora Flanka Stango-Etikeda Administrado"
+    "message": "VertiTab - Vertikalaj Langetoj en Flanka Panelo"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Administru langetojn en la flanka panelo, Tro bela por esti tiel bona."
+    "message": "Administru retumilajn langetojn en flanka panelo kun agordeblaj, beligaj kaj multaj aliaj funkcioj"
   },
   "openSidePanel": {
-    "message": "Malfermi Flankan Stangon"
+    "message": "Malfermu Flankan Panelon"
   }
 }

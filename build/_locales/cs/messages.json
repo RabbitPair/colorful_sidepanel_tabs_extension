@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Barevné postranní panely karet"
+    "message": "VertiTab - Vertikální karty v postranním panelu"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Spravujte karty prohlížeče v postranním panelu"
+    "message": "Spravujte karty prohlížeče v postranním panelu s konfigurovatelnými, zkrášlujícími a mnoha dalšími funkcemi"
   },
   "openSidePanel": {
     "message": "Otevřít postranní panel"

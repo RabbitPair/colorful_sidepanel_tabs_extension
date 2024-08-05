@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Visa bottennavigeringsfält",
-        "description": "När aktiverat visas bottennavigeringsfältet"
+        "description": "När aktiverat kommer bottennavigeringsfältet att visas",
+        "configure": "konfigurera",
+        "configureBottomNav": "Konfigurera bottennavigering",
+        "enabledNavs": "Aktiverade navigeringar",
+        "disabledNavs": "Inaktiverade navigeringar (tillgängliga)",
+        "showLabel": "Visa etikett",
+        "close": "Stäng",
+        "save": "Spara",
+        "settings": "Inställningar",
+        "version": "Version",
+        "more": "Mer",
+        "newTab": "Ny flik",
+        "recentlyTabs": "Nyligen stängda flikar",
+        "bookmarks": "Bokmärken",
+        "history": "Historik",
+        "readingList": "Läselista",
+        "quickAccess": "Snabb åtkomst",
+        "search": "Sök",
+        "createSnapshot": "Skapa ögonblicksbild",
+        "collapseAll": "Fäll ihop alla",
+        "scrollToActiveTab": "Rulla till aktiv flik",
+        "muteAllTabs": "Stäng av alla flikar",
+        "themeModes": "Temalägen",
+        "viewModes": "Visningslägen",
+        "showBy": "Visa efter",
+        "sortBy": "Sortera efter",
+        "createTabPanel": "Skapa flikpanel",
+        "tabPanels": "Flikpaneler",
+        "pinToToolbarReminder": "Fäst tillägget i verktygsfältet innan du tar bort denna navigering."
       },
       "buttonPosition": {
         "label": "Knappens position",
@@ -437,6 +465,23 @@
         "downloadOnly": "Endast nedladdning",
         "staySynchronized": "Förbli synkroniserad",
         "globaldisabledTips": "Du måste aktivera synkronisering i de globala inställningarna för att ändra denna inställning."
+      },
+      "linkSettings": {
+        "label": "Länkinställningar",
+        "description": "Anpassa hur länkar ska hanteras på denna webbplats.",
+        "configure": "Konfigurera",
+        "listTips": "Dra och släpp för att sortera. Regler med högre prioritet placeras överst. När en regel matchas, kommer efterföljande regler inte att tillämpas.",
+        "linkMatchContent": "Länkmatchningsinnehåll",
+        "linkMatchContentTips": "Stödjer reguljära uttryck. Till exempel, använd '*' för att matcha valfritt antal tecken och '?' för att matcha ett enskilt tecken.",
+        "linkOpenMethod": "Länköppningsmetod",
+        "edit": "Redigera",
+        "delete": "Radera",
+        "target_self": "Aktuell flik",
+        "target_blank": "Ny flik",
+        "target_parent": "Föräldraflik",
+        "target_top": "Översta flik",
+        "save": "Spara",
+        "close": "Stäng"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikonen för en oöppnad webbplats kan visas onormalt. Oroa dig inte, den kommer att visas normalt efter att du har besökt och startat om webbläsaren.",
         "siteConfig": "Webbplatsinställningar",
         "siteConfigInfo": "såsom automatisk kassering, bild-i-bild vid flikbyte, läsframstegsfält, spelande framstegsfält, etc.",
-        "recentlyTabs": "Nyligen stängda flikar"
+        "recentlyTabs": "Nyligen stängda flikar",
+        "snapshots": "Ögonblicksbilder"
       },
       "cancelBtn": "Avbryt",
       "exportBtn": "Exportera",
@@ -514,5 +560,28 @@
         "staySynchronized": "Förbli synkroniserad"
       }
     }
+  },
+  "snapshots": {
+    "title": "Ögonblicksbilder",
+    "description": "Skapa och hantera ögonblicksbilder.",
+    "createSnapshot": "Skapa ögonblicksbild",
+    "exportSnapshot": "Exportera ögonblicksbild",
+    "openAllWindows": "Öppna alla fönster",
+    "openSelectedInNewWindow": "Öppna valda i nytt fönster",
+    "openSelectedInCurrentWindow": "Öppna valda i aktuellt fönster",
+    "windowCount": "{{count}} fönster",
+    "tabCount": "{{count}} flikar",
+    "Window": "Fönster",
+    "OpenInCurrentWindow": "Öppna i aktuellt fönster",
+    "OpenInNewWindow": "Öppna i nytt fönster",
+    "ResetSelection": "Återställ val",
+    "snapshotCreatedSuccess": "Ögonblicksbild skapades framgångsrikt",
+    "snapshotCreatedFailed": "Misslyckades att skapa ögonblicksbild",
+    "snapshotDeletedSuccess": "Ögonblicksbild raderades framgångsrikt",
+    "snapshotDeletedFailed": "Misslyckades att radera ögonblicksbild",
+    "importSnapshot": "Importera ögonblicksbild",
+    "snapshotImportFailedDuplicate": "Import av ögonblicksbild misslyckades, duplicerad ögonblicksbild",
+    "snapshotImportedSuccess": "{{count}} ögonblicksbild importerades framgångsrikt",
+    "snapshotImportFailed": "{{count}} ögonblicksbild misslyckades att importera {{error}}"
   }
 }

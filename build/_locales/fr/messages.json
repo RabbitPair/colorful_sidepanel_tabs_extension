@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Onglets colorés du panneau latéral"
+    "message": "VertiTab - Onglets Verticaux dans le Panneau Latéral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gérer les onglets du navigateur dans le panneau latéral"
+    "message": "Gérez les onglets du navigateur dans le panneau latéral avec des fonctionnalités configurables, embellissantes et bien d'autres"
   },
   "openSidePanel": {
-    "message": "Ouvrir le panneau latéral"
+    "message": "Ouvrir le Panneau Latéral"
   }
 }

@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Prikaži donju navigacionu traku",
-        "description": "Kada je omogućeno, donja navigaciona traka je prikazana"
+        "description": "Kada je omogućeno, donja navigaciona traka će biti prikazana",
+        "configure": "podesi",
+        "configureBottomNav": "Podesi donju navigaciju",
+        "enabledNavs": "Omogućene navigacije",
+        "disabledNavs": "Onemogućene navigacije (Dostupne)",
+        "showLabel": "Prikaži oznaku",
+        "close": "Zatvori",
+        "save": "Sačuvaj",
+        "settings": "Podešavanja",
+        "version": "Verzija",
+        "more": "Više",
+        "newTab": "Nova kartica",
+        "recentlyTabs": "Nedavno zatvorene kartice",
+        "bookmarks": "Obeleživači",
+        "history": "Istorija",
+        "readingList": "Lista za čitanje",
+        "quickAccess": "Brzi pristup",
+        "search": "Pretraga",
+        "createSnapshot": "Kreiraj snimak",
+        "collapseAll": "Skupi sve",
+        "scrollToActiveTab": "Skroluj do aktivne kartice",
+        "muteAllTabs": "Isključi zvuk na svim karticama",
+        "themeModes": "Režimi teme",
+        "viewModes": "Režimi prikaza",
+        "showBy": "Prikaži po",
+        "sortBy": "Sortiraj po",
+        "createTabPanel": "Kreiraj panel kartica",
+        "tabPanels": "Paneli kartica",
+        "pinToToolbarReminder": "Pre nego što uklonite ovu navigaciju, zakačite ekstenziju na alatnu traku."
       },
       "buttonPosition": {
         "label": "Pozicija dugmeta",
@@ -437,6 +465,23 @@
         "downloadOnly": "Samo preuzimanje",
         "staySynchronized": "Ostani sinhronizovan",
         "globaldisabledTips": "Morate uključiti sinhronizaciju u globalnim podešavanjima da biste izmenili ovo podešavanje."
+      },
+      "linkSettings": {
+        "label": "Podešavanja linkova",
+        "description": "Podesite kako će linkovi biti obrađeni na ovom sajtu.",
+        "configure": "Podesi",
+        "listTips": "Prevucite i otpustite da biste sortirali. Pravila sa višim prioritetom su postavljena na vrh. Kada se jedno pravilo primeni, sledeća pravila neće biti primenjena.",
+        "linkMatchContent": "Sadržaj podudaranja linka",
+        "linkMatchContentTips": "Podržava regularne izraze. Na primer, koristite '*' da biste se podudarali sa bilo kojim brojem karaktera i '?' da biste se podudarali sa jednim karakterom.",
+        "linkOpenMethod": "Metod otvaranja linka",
+        "edit": "Izmeni",
+        "delete": "Obriši",
+        "target_self": "Trenutna kartica",
+        "target_blank": "Nova kartica",
+        "target_parent": "Roditeljska kartica",
+        "target_top": "Najviša kartica",
+        "save": "Sačuvaj",
+        "close": "Zatvori"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikona neposećenog sajta može se prikazati nenormalno. Ne brinite, prikazaće se normalno nakon što posetite sajt i ponovo pokrenete pregledač.",
         "siteConfig": "Podešavanja sajta",
         "siteConfigInfo": "kao što su automatsko odbacivanje, slika u slici pri prebacivanju kartica, traka napretka čitanja, traka napretka reprodukcije, itd.",
-        "recentlyTabs": "Nedavno zatvorene kartice"
+        "recentlyTabs": "Nedavno zatvorene kartice",
+        "snapshots": "Snimci ekrana"
       },
       "cancelBtn": "Otkaži",
       "exportBtn": "Izvezi",
@@ -514,5 +560,28 @@
         "staySynchronized": "Ostani sinhronizovan"
       }
     }
+  },
+  "snapshots": {
+    "title": "Preglednik snimaka",
+    "description": "Kreirajte i upravljajte snimcima.",
+    "createSnapshot": "Kreiraj snimak",
+    "exportSnapshot": "Izvezi snimak",
+    "openAllWindows": "Otvori sve prozore",
+    "openSelectedInNewWindow": "Otvori izabrano u novom prozoru",
+    "openSelectedInCurrentWindow": "Otvori izabrano u trenutnom prozoru",
+    "windowCount": "{{count}} prozora",
+    "tabCount": "{{count}} kartica",
+    "Window": "Prozor",
+    "OpenInCurrentWindow": "Otvori u trenutnom prozoru",
+    "OpenInNewWindow": "Otvori u novom prozoru",
+    "ResetSelection": "Poništi izbor",
+    "snapshotCreatedSuccess": "Snimak uspešno kreiran",
+    "snapshotCreatedFailed": "Kreiranje snimka nije uspelo",
+    "snapshotDeletedSuccess": "Snimak uspešno obrisan",
+    "snapshotDeletedFailed": "Brisanje snimka nije uspelo",
+    "importSnapshot": "Uvezi snimak",
+    "snapshotImportFailedDuplicate": "Uvoz snimka nije uspeo, duplikat snimka",
+    "snapshotImportedSuccess": "{{count}} snimak uspešno uvezen",
+    "snapshotImportFailed": "{{count}} uvoz snimka nije uspeo {{error}}"
   }
 }

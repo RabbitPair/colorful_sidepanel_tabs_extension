@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Afișați bara de navigare inferioară",
-        "description": "Când este activat, bara de navigare inferioară este afișată"
+        "description": "Când este activată, bara de navigare inferioară va fi afișată",
+        "configure": "configurează",
+        "configureBottomNav": "Configurează Bara de Navigare Inferioară",
+        "enabledNavs": "Navigări Activate",
+        "disabledNavs": "Navigări Dezactivate (Disponibile)",
+        "showLabel": "Afișează Eticheta",
+        "close": "Închide",
+        "save": "Salvează",
+        "settings": "Setări",
+        "version": "Versiune",
+        "more": "Mai multe",
+        "newTab": "Filă Nouă",
+        "recentlyTabs": "File Închise Recent",
+        "bookmarks": "Marcaje",
+        "history": "Istoric",
+        "readingList": "Listă de Citit",
+        "quickAccess": "Acces Rapid",
+        "search": "Căutare",
+        "createSnapshot": "Creează Captură",
+        "collapseAll": "Restrânge Tot",
+        "scrollToActiveTab": "Derulează la Fila Activă",
+        "muteAllTabs": "Dezactivează Sunetul Tuturor Filelor",
+        "themeModes": "Moduri de Temă",
+        "viewModes": "Moduri de Vizualizare",
+        "showBy": "Afișează După",
+        "sortBy": "Sortează După",
+        "createTabPanel": "Creează Panou de File",
+        "tabPanels": "Panouri de File",
+        "pinToToolbarReminder": "Vă rugăm să fixați extensia în bara de instrumente înainte de a elimina această navigare."
       },
       "buttonPosition": {
         "label": "Poziția butonului",
@@ -437,6 +465,23 @@
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat",
         "globaldisabledTips": "Trebuie să activați sincronizarea în setările globale pentru a modifica această setare."
+      },
+      "linkSettings": {
+        "label": "Setări link",
+        "description": "Configurați modul în care linkurile ar trebui gestionate pe acest site.",
+        "configure": "Configurează",
+        "listTips": "Trageți și plasați pentru a sorta. Regulile cu prioritate mai mare sunt plasate în partea de sus. Odată ce o regulă este potrivită, regulile ulterioare nu vor fi aplicate.",
+        "linkMatchContent": "Conținut potrivire link",
+        "linkMatchContentTips": "Acceptă expresii regulate. De exemplu, utilizați '*' pentru a potrivi orice număr de caractere și '?' pentru a potrivi un singur caracter.",
+        "linkOpenMethod": "Metodă deschidere link",
+        "edit": "Editează",
+        "delete": "Șterge",
+        "target_self": "Fila curentă",
+        "target_blank": "Filă nouă",
+        "target_parent": "Fila părinte",
+        "target_top": "Fila cea mai de sus",
+        "save": "Salvează",
+        "close": "Închide"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Pictograma unui site nevizitat poate fi afișată anormal. Nu vă faceți griji, se va afișa normal după ce vizitați și reporniți browserul.",
         "siteConfig": "Setări site",
         "siteConfigInfo": "cum ar fi renunțarea automată, imagine în imagine la comutarea filelor, bara de progres a citirii, bara de progres a redării, etc.",
-        "recentlyTabs": "File închise recent"
+        "recentlyTabs": "File închise recent",
+        "snapshots":"Instantanee"
       },
       "cancelBtn": "Anulează",
       "exportBtn": "Exportă",
@@ -514,5 +560,28 @@
         "staySynchronized": "Rămâneți sincronizat"
       }
     }
+  },
+  "snapshots": {
+    "title": "Vizualizator Snapshots",
+    "description": "Creați și gestionați instantanee.",
+    "createSnapshot": "Creați Instantaneu",
+    "exportSnapshot": "Exportați Instantaneu",
+    "openAllWindows": "Deschideți Toate Ferestrele",
+    "openSelectedInNewWindow": "Deschideți Selecția Într-o Fereastră Nouă",
+    "openSelectedInCurrentWindow": "Deschideți Selecția În Fereastra Curentă",
+    "windowCount": "{{count}} Ferestre",
+    "tabCount": "{{count}} File",
+    "Window": "Fereastră",
+    "OpenInCurrentWindow": "Deschideți În Fereastra Curentă",
+    "OpenInNewWindow": "Deschideți Într-o Fereastră Nouă",
+    "ResetSelection": "Resetați Selecția",
+    "snapshotCreatedSuccess": "Instantaneu creat cu succes",
+    "snapshotCreatedFailed": "Crearea instantaneului a eșuat",
+    "snapshotDeletedSuccess": "Instantaneu șters cu succes",
+    "snapshotDeletedFailed": "Ștergerea instantaneului a eșuat",
+    "importSnapshot": "Importați Instantaneu",
+    "snapshotImportFailedDuplicate": "Importul instantaneului a eșuat, instantaneu duplicat",
+    "snapshotImportedSuccess": "{{count}} Instantaneu importat cu succes",
+    "snapshotImportFailed": "{{count}} Importul instantaneului a eșuat {{error}}"
   }
 }

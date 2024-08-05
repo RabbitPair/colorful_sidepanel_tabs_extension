@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Malfermi flankan panelon por antaŭrigardi",
+  "OpenSidePanelToPreview": "Malfermi flankan panelon por antaŭrigardi",
   "_execute_action": "Aktivigi tiun ĉi kromprogramon",
   "openSidePanel": "Malfermi flankan panelon",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Klaki kromprograman ikonon agon",
         "description": "Agordi la agon kiam klakante la kromprograman ikonon",
         "openPopup": "Malfermi ŝprucfenestron",
-        "openSidePanel": "Malfermi flankan panelon"
+        "openSidePanel": "Malfermi flankan panelon",
+        "SmallWindowAlert": "Se la flanka panelo okupas tro da spaco, estas rekomendite uzi ŝprucfenestron"
       },
       "SidePanelPosition": {
         "label": "Flankan panelan pozicion",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Montri malsupran navigadobreton",
-        "description": "Kiam aktivigita, la malsupra navigadobreto montriĝas"
+        "description": "Kiam aktivigita, la malsupra navigadobreto aperas",
+        "configure": "Agordi",
+        "configureBottomNav": "Agordi Malsupran Navigadon",
+        "enabledNavs": "Aktivigitaj Navigadoj",
+        "disabledNavs": "Malaktivigitaj Navigadoj (Disponeblaj)",
+        "showLabel": "Montri Etikedon",
+        "close": "Fermi",
+        "save": "Konservi",
+        "settings": "Agordoj",
+        "version": "Versio",
+        "more": "Pli",
+        "newTab": "Nova Langeto",
+        "recentlyTabs": "Lastatempe Fermitaj Langetoj",
+        "bookmarks": "Legosignoj",
+        "history": "Historio",
+        "readingList": "Legolisto",
+        "quickAccess": "Rapida Alirado",
+        "search": "Serĉi",
+        "createSnapshot": "Krei Momentfoton",
+        "collapseAll": "Kunfaldi Ĉion",
+        "scrollToActiveTab": "Rulumi al Aktiva Langeto",
+        "muteAllTabs": "Silentigi Ĉiujn Langetojn",
+        "themeModes": "Temaj Modoj",
+        "viewModes": "Vidaj Modoj",
+        "showBy": "Montri Laŭ",
+        "sortBy": "Ordigi Laŭ",
+        "createTabPanel": "Krei Langetan Panelon",
+        "tabPanels": "Langetaj Paneloj",
+        "pinToToolbarReminder": "Bonvolu alfiksi la etendaĵon al via ilobreto antaŭ ol forigi ĉi tiun navigadon."
       },
       "buttonPosition": {
         "label": "Butonpozicio",
@@ -436,6 +465,23 @@
         "downloadOnly": "Nur elŝuti",
         "staySynchronized": "Resti sinkronizita",
         "globaldisabledTips": "Vi devas aktivigi sinkronigon en la Ĝeneralaj Agordoj por modifi tiun ĉi agordon."
+      },
+      "linkSettings": {
+        "label": "Ligilo Agordoj",
+        "description": "Agordi kiel ligiloj estu traktataj en ĉi tiu retejo.",
+        "configure": "Agordi",
+        "listTips": "Trenu kaj faligu por ordigi. Pli altprioritaj reguloj estas metitaj supre. Post kiam regulo estas kongrua, postaj reguloj ne estos aplikataj.",
+        "linkMatchContent": "Ligilo Kongrua Enhavo",
+        "linkMatchContentTips": "Subtenas regulajn esprimojn. Ekzemple, uzu '*' por kongrui kun ajna nombro da signoj kaj '?' por kongrui kun unuopa signo.",
+        "linkOpenMethod": "Ligilo Malferma Metodo",
+        "edit": "Redakti",
+        "delete": "Forigi",
+        "target_self": "Nuna Lanĉeto",
+        "target_blank": "Nova Lanĉeto",
+        "target_parent": "Patra Lanĉeto",
+        "target_top": "Plej Supra Lanĉeto",
+        "save": "Konservi",
+        "close": "Fermi"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "La ikono de nevizitita retejo povas montriĝi nenormale. Ne zorgu, ĝi montriĝos normale post kiam vi vizitos kaj rekomencos la retumilon.",
         "siteConfig": "Retejaj Agordoj",
         "siteConfigInfo": "kiel aŭtomate forigebla, bildo-en-bildo dum lanĉetŝanĝo, leganta progreslinio, ludanta progreslinio, ktp.",
-        "recentlyTabs": "Lastatempe fermitaj lanĉetoj"
+        "recentlyTabs": "Lastatempe fermitaj lanĉetoj",
+        "snapshots": "Bildoj"
       },
       "cancelBtn": "Nuligi",
       "exportBtn": "Eksporti",
@@ -513,5 +560,28 @@
         "staySynchronized": "Resti sinkronizita"
       }
     }
+  },
+  "snapshots": {
+    "title": "Momentfotoj Spektanto",
+    "description": "Krei kaj administri momentfotojn.",
+    "createSnapshot": "Krei Momentfoton",
+    "exportSnapshot": "Eksporti Momentfoton",
+    "openAllWindows": "Malfermi Ĉiujn Fenestrojn",
+    "openSelectedInNewWindow": "Malfermi Elektitajn en Nova Fenestro",
+    "openSelectedInCurrentWindow": "Malfermi Elektitajn en Nuna Fenestro",
+    "windowCount": "{{count}} Fenestroj",
+    "tabCount": "{{count}} Langetoj",
+    "Window": "Fenestro",
+    "OpenInCurrentWindow": "Malfermi en Nuna Fenestro",
+    "OpenInNewWindow": "Malfermi en Nova Fenestro",
+    "ResetSelection": "Restarigi Elekton",
+    "snapshotCreatedSuccess": "Momentfoto sukcese kreita",
+    "snapshotCreatedFailed": "Kreado de momentfoto malsukcesis",
+    "snapshotDeletedSuccess": "Momentfoto sukcese forigita",
+    "snapshotDeletedFailed": "Forigado de momentfoto malsukcesis",
+    "importSnapshot": "Importi Momentfoton",
+    "snapshotImportFailedDuplicate": "Importado de momentfoto malsukcesis, duplikata momentfoto",
+    "snapshotImportedSuccess": "{{count}} Momentfoto sukcese importita",
+    "snapshotImportFailed": "{{count}} Momentfoto importado malsukcesis {{error}}"
   }
 }

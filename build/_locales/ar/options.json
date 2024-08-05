@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "عرض شريط التنقل السفلي",
-        "description": "عند التمكين، يتم عرض شريط التنقل السفلي"
+        "description": "عند التمكين، سيتم عرض شريط التنقل السفلي",
+        "configure": "تكوين",
+        "configureBottomNav": "تكوين شريط التنقل السفلي",
+        "enabledNavs": "التنقلات المفعلة",
+        "disabledNavs": "التنقلات المعطلة (متاحة)",
+        "showLabel": "عرض التسمية",
+        "close": "إغلاق",
+        "save": "حفظ",
+        "settings": "الإعدادات",
+        "version": "الإصدار",
+        "more": "المزيد",
+        "newTab": "علامة تبويب جديدة",
+        "recentlyTabs": "علامات التبويب المغلقة مؤخرًا",
+        "bookmarks": "الإشارات المرجعية",
+        "history": "السجل",
+        "readingList": "قائمة القراءة",
+        "quickAccess": "الوصول السريع",
+        "search": "بحث",
+        "createSnapshot": "إنشاء لقطة",
+        "collapseAll": "طي الكل",
+        "scrollToActiveTab": "التمرير إلى علامة التبويب النشطة",
+        "muteAllTabs": "كتم جميع علامات التبويب",
+        "themeModes": "أنماط السمة",
+        "viewModes": "أنماط العرض",
+        "showBy": "عرض حسب",
+        "sortBy": "ترتيب حسب",
+        "createTabPanel": "إنشاء لوحة علامات التبويب",
+        "tabPanels": "لوحات علامات التبويب",
+        "pinToToolbarReminder": "يرجى تثبيت الإضافة في شريط الأدوات قبل إزالة هذا التنقل."
       },
       "buttonPosition": {
         "label": "موضع الأزرار",
@@ -437,6 +465,23 @@
         "downloadOnly": "تنزيل فقط",
         "staySynchronized": "البقاء متزامنًا",
         "globaldisabledTips": "يجب عليك تشغيل المزامنة في الإعدادات العامة لتعديل هذا الإعداد."
+      },
+      "linkSettings": {
+        "label": "إعدادات الروابط",
+        "description": "قم بتكوين كيفية التعامل مع الروابط على هذا الموقع.",
+        "configure": "تكوين",
+        "listTips": "اسحب وأفلت لترتيب. القواعد ذات الأولوية الأعلى توضع في الأعلى. بمجرد مطابقة قاعدة، لن يتم تطبيق القواعد اللاحقة.",
+        "linkMatchContent": "محتوى مطابقة الرابط",
+        "linkMatchContentTips": "يدعم التعبيرات العادية. على سبيل المثال، استخدم '*' لمطابقة أي عدد من الأحرف و'?' لمطابقة حرف واحد.",
+        "linkOpenMethod": "طريقة فتح الرابط",
+        "edit": "تحرير",
+        "delete": "حذف",
+        "target_self": "علامة التبويب الحالية",
+        "target_blank": "علامة تبويب جديدة",
+        "target_parent": "علامة التبويب الأصل",
+        "target_top": "أعلى علامة تبويب",
+        "save": "حفظ",
+        "close": "إغلاق"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "قد يظهر رمز موقع ويب غير مُزار بشكل غير طبيعي. لا تقلق، سيظهر بشكل طبيعي بعد زيارتك وإعادة تشغيل المتصفح.",
         "siteConfig": "إعدادات الموقع",
         "siteConfigInfo": "مثل التجاهل التلقائي، صورة داخل صورة عند تبديل علامات التبويب، شريط تقدم القراءة، شريط تقدم التشغيل، إلخ.",
-        "recentlyTabs": "علامات التبويب المغلقة مؤخرًا"
+        "recentlyTabs": "علامات التبويب المغلقة مؤخرًا",
+        "snapshots":"اللقطات"
       },
       "cancelBtn": "إلغاء",
       "exportBtn": "تصدير",
@@ -514,5 +560,28 @@
         "staySynchronized": "البقاء متزامنًا"
       }
     }
+  },
+  "snapshots": {
+    "title": "عارض اللقطات",
+    "description": "إنشاء وإدارة اللقطات.",
+    "createSnapshot": "إنشاء لقطة",
+    "exportSnapshot": "تصدير لقطة",
+    "openAllWindows": "فتح جميع النوافذ",
+    "openSelectedInNewWindow": "فتح المحدد في نافذة جديدة",
+    "openSelectedInCurrentWindow": "فتح المحدد في النافذة الحالية",
+    "windowCount": "{{count}} نافذة",
+    "tabCount": "{{count}} علامة تبويب",
+    "Window": "نافذة",
+    "OpenInCurrentWindow": "فتح في النافذة الحالية",
+    "OpenInNewWindow": "فتح في نافذة جديدة",
+    "ResetSelection": "إعادة تعيين التحديد",
+    "snapshotCreatedSuccess": "تم إنشاء اللقطة بنجاح",
+    "snapshotCreatedFailed": "فشل في إنشاء اللقطة",
+    "snapshotDeletedSuccess": "تم حذف اللقطة بنجاح",
+    "snapshotDeletedFailed": "فشل في حذف اللقطة",
+    "importSnapshot": "استيراد لقطة",
+    "snapshotImportFailedDuplicate": "فشل استيراد اللقطة، لقطة مكررة",
+    "snapshotImportedSuccess": "{{count}} لقطة تم استيرادها بنجاح",
+    "snapshotImportFailed": "{{count}} لقطة فشل استيرادها {{error}}"
   }
 }

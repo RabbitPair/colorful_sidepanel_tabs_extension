@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "カラフルなサイドパネルタブ"
+    "message": "VertiTab - サイドパネルの縦型タブ"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "サイドパネルでブラウザタブを管理する"
+    "message": "カスタマイズ可能で美しい縦型タブ。サイドパネルで効率的にブラウザタブを管理し、多彩な機能を活用"
   },
   "openSidePanel": {
     "message": "サイドパネルを開く"

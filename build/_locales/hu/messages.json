@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Színes Oldalsó Panel Fülek"
+    "message": "VertiTab - Függőleges lapok az oldalsó panelen"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Böngészőfülek kezelése az oldalsó panelen"
+    "message": "Böngésző lapok kezelése az oldalsó panelen konfigurálható, szépítő és sok más funkcióval"
   },
   "openSidePanel": {
-    "message": "Oldalsó Panel Megnyitása"
+    "message": "Oldalsó panel megnyitása"
   }
 }

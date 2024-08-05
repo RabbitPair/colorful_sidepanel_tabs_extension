@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Makukulay na Mga Tab ng Side Panel"
+    "message": "VertiTab - Mga Patayong Tab sa Side Panel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Pamahalaan ang mga tab ng browser sa side panel"
+    "message": "Pamahalaan ang mga tab ng browser sa side panel na may mga nako-configure, nagpapaganda at maraming iba pang mga tampok"
   },
   "openSidePanel": {
     "message": "Buksan ang Side Panel"

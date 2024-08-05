@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Hapni panelin anësor për të paraparë",
+  "OpenSidePanelToPreview": "Hapni panelin anësor për të paraparë",
   "_execute_action": "Aktivizoni këtë zgjerim",
   "openSidePanel": "Hapni panelin anësor",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Veprimi i ikonës së zgjerimit të klikuar",
         "description": "Vendosni veprimin kur klikohet ikona e zgjerimit",
         "openPopup": "Hapni dritaren modale",
-        "openSidePanel": "Hapni panelin anësor"
+        "openSidePanel": "Hapni panelin anësor",
+        "SmallWindowAlert": "Nëse paneli anësor zë shumë hapësirë, rekomandohet të përdorni një dritare modale"
       },
       "SidePanelPosition": {
         "label": "Pozicioni i panelit anësor",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Shfaqni shiritin e navigimit në fund",
-        "description": "Kur aktivizohet, shfaqet shiriti i navigimit në fund"
+        "description": "Kur aktivizohet, shfaqet shiriti i navigimit në fund",
+        "configure": "konfiguro",
+        "configureBottomNav": "Konfiguro Navigimin e Poshtëm",
+        "enabledNavs": "Navigimet e Aktivizuara",
+        "disabledNavs": "Navigimet e Çaktivizuara (Në dispozicion)",
+        "showLabel": "Shfaq Etiketën",
+        "close": "Mbyll",
+        "save": "Ruaj",
+        "settings": "Cilësimet",
+        "version": "Versioni",
+        "more": "Më shumë",
+        "newTab": "Skedë e Re",
+        "recentlyTabs": "Skedat e Mbyllura Së Fundmi",
+        "bookmarks": "Faqerojtësit",
+        "history": "Historia",
+        "readingList": "Lista e Leximit",
+        "quickAccess": "Qasje e Shpejtë",
+        "search": "Kërko",
+        "createSnapshot": "Krijo Pamje",
+        "collapseAll": "Mblidh Të Gjitha",
+        "scrollToActiveTab": "Rrotullohu te Skeda Aktive",
+        "muteAllTabs": "Fik Të Gjitha Skedat",
+        "themeModes": "Mënyrat e Temave",
+        "viewModes": "Mënyrat e Shikimit",
+        "showBy": "Shfaq Sipas",
+        "sortBy": "Rendit Sipas",
+        "createTabPanel": "Krijo Panelin e Skedave",
+        "tabPanels": "Panelet e Skedave",
+        "pinToToolbarReminder": "Ju lutemi ngjitni shtesën në shiritin e veglave përpara se të hiqni këtë navigim."
       },
       "buttonPosition": {
         "label": "Pozicioni i butonave",
@@ -436,6 +465,23 @@
         "downloadOnly": "Vetëm shkarkimi",
         "staySynchronized": "Qëndro sinkronizuar",
         "globaldisabledTips": "Duhet të aktivizoni sinkronizimin në cilësimet globale për të modifikuar këtë cilësim."
+      },
+      "linkSettings": {
+        "label": "Cilësimet e Lidhjeve",
+        "description": "Përcaktoni se si duhet të menaxhohen lidhjet në këtë faqe.",
+        "configure": "Konfiguro",
+        "listTips": "Tërhiq dhe lësho për të rregulluar renditjen. Rregullat me prioritet më të lartë vendosen në krye. Pasi një rregull të përputhet, rregullat e mëvonshme nuk do të zbatohen.",
+        "linkMatchContent": "Përmbajtja e Përputhjes së Lidhjeve",
+        "linkMatchContentTips": "Mbështet shprehjet e rregullta. Për shembull, përdorni '*' për të përputhur çdo numër karakteresh dhe '?' për të përputhur një karakter të vetëm.",
+        "linkOpenMethod": "Metoda e Hapjes së Lidhjeve",
+        "edit": "Modifiko",
+        "delete": "Fshij",
+        "target_self": "Skeda Aktual",
+        "target_blank": "Skeda e Re",
+        "target_parent": "Skeda Prind",
+        "target_top": "Skeda Kryesore",
+        "save": "Ruaj",
+        "close": "Mbyll"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Ikona e një faqeje të pa vizituar mund të shfaqet në mënyrë anormale. Mos u shqetësoni, do të shfaqet normalisht pasi ta vizitoni dhe të rifilloni shfletuesin.",
         "siteConfig": "Cilësimet e Faqes",
         "siteConfigInfo": "si auto-shpërndarë, imazh-në-imazh në ndërrimin e zavihkat, shiriti i progresit të leximit, shiriti i progresit të luajtjes, etj.",
-        "recentlyTabs": "Zavihkat e mbyllura së fundmi"
+        "recentlyTabs": "Zavihkat e mbyllura së fundmi",
+        "snapshots":"Pamje të Ruajtura"
       },
       "cancelBtn": "Anulo",
       "exportBtn": "Eksporto",
@@ -513,5 +560,28 @@
         "staySynchronized": "Qëndro sinkronizuar"
       }
     }
+  },
+  "snapshots": {
+    "title": "Shikuesi i Snapshots",
+    "description": "Krijo dhe menaxho snapshots.",
+    "createSnapshot": "Krijo Snapshot",
+    "exportSnapshot": "Eksporto Snapshot",
+    "openAllWindows": "Hap të gjitha dritaret",
+    "openSelectedInNewWindow": "Hap të zgjedhurat në një dritare të re",
+    "openSelectedInCurrentWindow": "Hap të zgjedhurat në dritaren aktuale",
+    "windowCount": "{{count}} Dritare",
+    "tabCount": "{{count}} Kartela",
+    "Window": "Dritare",
+    "OpenInCurrentWindow": "Hap në dritaren aktuale",
+    "OpenInNewWindow": "Hap në një dritare të re",
+    "ResetSelection": "Rivendos përzgjedhjen",
+    "snapshotCreatedSuccess": "Snapshot u krijua me sukses",
+    "snapshotCreatedFailed": "Krijimi i snapshot dështoi",
+    "snapshotDeletedSuccess": "Snapshot u fshi me sukses",
+    "snapshotDeletedFailed": "Fshirja e snapshot dështoi",
+    "importSnapshot": "Importo Snapshot",
+    "snapshotImportFailedDuplicate": "Importimi i snapshot dështoi, snapshot i dyfishtë",
+    "snapshotImportedSuccess": "{{count}} Snapshot u importua me sukses",
+    "snapshotImportFailed": "{{count}} Importimi i snapshot dështoi {{error}}"
   }
 }

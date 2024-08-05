@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Abas Coloridas no Painel Lateral"
+    "message": "VertiTab - Abas Verticais no Painel Lateral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gerir separadores no painel lateral, tão bonito que é bom"
+    "message": "Gerencie abas do navegador no painel lateral com recursos configuráveis, embelezadores e muitos outros"
   },
   "openSidePanel": {
     "message": "Abrir Painel Lateral"

@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Rianachd Clàran Taobh Dathach"
+    "message": "VertiTab - Tabaichean Sreathach anns a' Phannal Taobh"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Stiùirich tabaichean anns a’ phannal-taoibh, ro bhòidheach airson a bhith cho math seo."
+    "message": "Stiùirich tabaichean brabhsair anns a' phannal taobh le feartan rèiteachaidh, bòidhchead agus mòran eile"
   },
   "openSidePanel": {
     "message": "Fosgail am Pannal Taobh"

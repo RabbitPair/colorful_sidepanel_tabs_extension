@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "زبانه‌های رنگارنگ پنل جانبی"
+    "message": "VertiTab - زبانه‌های عمودی در پانل کناری"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "مدیریت زبانه‌های مرورگر در پنل جانبی"
+    "message": "مدیریت زبانه‌های مرورگر در پانل کناری با ویژگی‌های قابل تنظیم، زیباسازی و بسیاری دیگر"
   },
   "openSidePanel": {
-    "message": "باز کردن پنل جانبی"
+    "message": "باز کردن پانل کناری"
   }
 }

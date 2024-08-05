@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "แสดงแถบนำทางด้านล่าง",
-        "description": "เมื่อเปิดใช้งาน จะแสดงแถบนำทางด้านล่าง"
+        "description": "เมื่อเปิดใช้งาน จะแสดงแถบนำทางด้านล่าง",
+        "configure": "ตั้งค่า",
+        "configureBottomNav": "ตั้งค่าแถบนำทางด้านล่าง",
+        "enabledNavs": "การนำทางที่เปิดใช้งาน",
+        "disabledNavs": "การนำทางที่ปิดใช้งาน (พร้อมใช้งาน)",
+        "showLabel": "แสดงป้ายชื่อ",
+        "close": "ปิด",
+        "save": "บันทึก",
+        "settings": "การตั้งค่า",
+        "version": "เวอร์ชัน",
+        "more": "เพิ่มเติม",
+        "newTab": "แท็บใหม่",
+        "recentlyTabs": "แท็บที่ปิดล่าสุด",
+        "bookmarks": "บุ๊กมาร์ก",
+        "history": "ประวัติ",
+        "readingList": "รายการอ่าน",
+        "quickAccess": "การเข้าถึงด่วน",
+        "search": "ค้นหา",
+        "createSnapshot": "สร้างภาพรวม",
+        "collapseAll": "ยุบทั้งหมด",
+        "scrollToActiveTab": "เลื่อนไปยังแท็บที่ใช้งานอยู่",
+        "muteAllTabs": "ปิดเสียงแท็บทั้งหมด",
+        "themeModes": "โหมดธีม",
+        "viewModes": "โหมดมุมมอง",
+        "showBy": "แสดงตาม",
+        "sortBy": "เรียงตาม",
+        "createTabPanel": "สร้างแผงแท็บ",
+        "tabPanels": "แผงแท็บ",
+        "pinToToolbarReminder": "โปรดปักหมุดส่วนขยายนี้ไปที่แถบเครื่องมือของคุณก่อนที่จะลบการนำทางนี้"
       },
       "buttonPosition": {
         "label": "ตำแหน่งปุ่ม",
@@ -437,6 +465,23 @@
         "downloadOnly": "ดาวน์โหลดเท่านั้น",
         "staySynchronized": "คงการซิงค์",
         "globaldisabledTips": "คุณต้องเปิดการซิงค์ในการตั้งค่าทั่วโลกเพื่อปรับเปลี่ยนการตั้งค่านี้"
+      },
+      "linkSettings": {
+        "label": "การตั้งค่าลิงก์",
+        "description": "ปรับแต่งวิธีการจัดการลิงก์ในเว็บไซต์นี้",
+        "configure": "ตั้งค่า",
+        "listTips": "ลากและวางเพื่อจัดเรียง กฎที่มีความสำคัญสูงจะอยู่ด้านบน เมื่อมีกฎที่ตรงกัน กฎถัดไปจะไม่ถูกนำมาใช้",
+        "linkMatchContent": "เนื้อหาที่ตรงกับลิงก์",
+        "linkMatchContentTips": "รองรับการใช้ Regular Expressions เช่น ใช้ '*' เพื่อจับคู่ตัวอักษรใด ๆ และ '?' เพื่อจับคู่ตัวอักษรหนึ่งตัว",
+        "linkOpenMethod": "วิธีการเปิดลิงก์",
+        "edit": "แก้ไข",
+        "delete": "ลบ",
+        "target_self": "แท็บปัจจุบัน",
+        "target_blank": "แท็บใหม่",
+        "target_parent": "แท็บแม่",
+        "target_top": "แท็บบนสุด",
+        "save": "บันทึก",
+        "close": "ปิด"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "ไอคอนของเว็บไซต์ที่ยังไม่ได้เยี่ยมชมอาจแสดงผลผิดปกติ ไม่ต้องกังวล มันจะแสดงผลตามปกติหลังจากที่คุณเยี่ยมชมและรีสตาร์ทเบราว์เซอร์",
         "siteConfig": "การตั้งค่าเว็บไซต์",
         "siteConfigInfo": "เช่น การทิ้งอัตโนมัติ, ภาพซ้อนภาพเมื่อสลับแท็บ, แถบความคืบหน้าในการอ่าน, แถบความคืบหน้าในการเล่น เป็นต้น",
-        "recentlyTabs": "แท็บที่ปิดล่าสุด"
+        "recentlyTabs": "แท็บที่ปิดล่าสุด",
+        "snapshots":"ภาพรวม"
       },
       "cancelBtn": "ยกเลิก",
       "exportBtn": "ส่งออก",
@@ -514,5 +560,28 @@
         "staySynchronized": "คงการซิงค์"
       }
     }
+  },
+  "snapshots": {
+    "title": "ตัวดูภาพรวม",
+    "description": "สร้างและจัดการภาพรวม",
+    "createSnapshot": "สร้างภาพรวม",
+    "exportSnapshot": "ส่งออกภาพรวม",
+    "openAllWindows": "เปิดหน้าต่างทั้งหมด",
+    "openSelectedInNewWindow": "เปิดที่เลือกในหน้าต่างใหม่",
+    "openSelectedInCurrentWindow": "เปิดที่เลือกในหน้าต่างปัจจุบัน",
+    "windowCount": "{{count}} หน้าต่าง",
+    "tabCount": "{{count}} แท็บ",
+    "Window": "หน้าต่าง",
+    "OpenInCurrentWindow": "เปิดในหน้าต่างปัจจุบัน",
+    "OpenInNewWindow": "เปิดในหน้าต่างใหม่",
+    "ResetSelection": "รีเซ็ตการเลือก",
+    "snapshotCreatedSuccess": "สร้างภาพรวมสำเร็จ",
+    "snapshotCreatedFailed": "สร้างภาพรวมล้มเหลว",
+    "snapshotDeletedSuccess": "ลบภาพรวมสำเร็จ",
+    "snapshotDeletedFailed": "ลบภาพรวมล้มเหลว",
+    "importSnapshot": "นำเข้าภาพรวม",
+    "snapshotImportFailedDuplicate": "นำเข้าภาพรวมล้มเหลว, ภาพรวมซ้ำ",
+    "snapshotImportedSuccess": "นำเข้าภาพรวมสำเร็จ {{count}} รายการ",
+    "snapshotImportFailed": "นำเข้าภาพรวมล้มเหลว {{count}} รายการ {{error}}"
   }
 }

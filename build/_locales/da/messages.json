@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Farverige Sidepanel Faner"
+    "message": "VertiTab - Vertikale faner i sidepanelet"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Administrer browserfaner i sidepanelet"
+    "message": "Administrer browserfaner i sidepanelet med konfigurerbare, forskønnende og mange andre funktioner"
   },
   "openSidePanel": {
-    "message": "Åbn Sidepanel"
+    "message": "Åbn sidepanel"
   }
 }

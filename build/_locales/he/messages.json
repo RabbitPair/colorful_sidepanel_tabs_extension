@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "כרטיסיות צד צבעוניות"
+    "message": "VertiTab - כרטיסיות אנכיות בפאנל הצדדי"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "ניהול כרטיסיות דפדפן בפאנל הצד"
+    "message": "נהל כרטיסיות דפדפן בפאנל הצדדי עם תכונות ניתנות להתאמה, ייפוי ועוד רבות אחרות"
   },
   "openSidePanel": {
-    "message": "פתח פאנל צד"
+    "message": "פתח את פאנל הצד"
   }
 }

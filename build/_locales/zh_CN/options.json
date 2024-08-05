@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "显示底部导航栏",
-        "description": "启用后，底部导航栏将显示"
+        "description": "启用后，底部导航栏将会显示",
+        "configure": "配置",
+        "configureBottomNav": "配置底部导航栏",
+        "enabledNavs": "已启用的导航",
+        "disabledNavs": "可用的未启用导航",
+        "showLabel": "显示标签",
+        "close": "关闭",
+        "save": "保存",
+        "settings": "设置",
+        "version": "版本",
+        "more": "更多",
+        "newTab": "新标签页",
+        "recentlyTabs": "最近关闭的标签页",
+        "bookmarks": "书签",
+        "history": "历史记录",
+        "readingList": "阅读清单",
+        "quickAccess": "快速访问",
+        "search": "搜索",
+        "createSnapshot": "创建快照",
+        "collapseAll": "全部折叠",
+        "scrollToActiveTab": "滚动到活动标签页",
+        "muteAllTabs": "静音所有标签页",
+        "themeModes": "主题模式",
+        "viewModes": "视图模式",
+        "showBy": "显示方式",
+        "sortBy": "排序方式",
+        "createTabPanel": "创建标签面板",
+        "tabPanels": "标签面板",
+        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航。"
       },
       "buttonPosition": {
         "label": "按钮位置",
@@ -437,6 +465,23 @@
         "downloadOnly": "仅下载",
         "staySynchronized": "保持同步",
         "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
+      },
+      "linkSettings": {
+        "label": "链接设置",
+        "description": "配置如何处理此站点上的链接。",
+        "configure": "配置",
+        "listTips": "拖放以排序。优先级较高的规则放在顶部。一旦匹配到规则，后续规则将不再应用。",
+        "linkMatchContent": "链接匹配内容",
+        "linkMatchContentTips": "支持正则表达式。例如，使用'*'匹配任意数量的字符，使用'?'匹配单个字符。",
+        "linkOpenMethod": "链接打开方式",
+        "edit": "编辑",
+        "delete": "删除",
+        "target_self": "当前标签页",
+        "target_blank": "新标签页",
+        "target_parent": "父标签页",
+        "target_top": "最顶层标签页",
+        "save": "保存",
+        "close": "关闭"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "未访问网站的图标可能显示异常。别担心，访问并重启浏览器后会正常显示。",
         "siteConfig": "站点设置",
         "siteConfigInfo": "例如自动丢弃、标签切换时的画中画、阅读进度条、播放进度条等。",
-        "recentlyTabs": "最近关闭的标签页"
+        "recentlyTabs": "最近关闭的标签页",
+        "snapshots": "快照"
       },
       "cancelBtn": "取消",
       "exportBtn": "导出",
@@ -515,5 +561,28 @@
         "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       }
     }
+  },
+  "snapshots": {
+    "title": "快照查看器",
+    "description": "创建和管理快照。",
+    "createSnapshot": "创建快照",
+    "exportSnapshot": "导出快照",
+    "openAllWindows": "打开所有窗口",
+    "openSelectedInNewWindow": "在新窗口中打开选定项",
+    "openSelectedInCurrentWindow": "在当前窗口中打开选定项",
+    "windowCount": "{{count}} 个窗口",
+    "tabCount": "{{count}} 个标签页",
+    "Window": "窗口",
+    "OpenInCurrentWindow": "在当前窗口中打开",
+    "OpenInNewWindow": "在新窗口中打开",
+    "ResetSelection": "重置选择",
+    "snapshotCreatedSuccess": "快照创建成功",
+    "snapshotCreatedFailed": "快照创建失败",
+    "snapshotDeletedSuccess": "快照删除成功",
+    "snapshotDeletedFailed": "快照删除失败",
+    "importSnapshot": "导入快照",
+    "snapshotImportFailedDuplicate": "快照导入失败，存在重复快照",
+    "snapshotImportedSuccess": "{{count}} 快照导入成功",
+    "snapshotImportFailed": "{{count}} 快照导入失败 {{error}}"
   }
 }

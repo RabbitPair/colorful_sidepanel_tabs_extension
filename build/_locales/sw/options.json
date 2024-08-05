@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Fungua upau wa kando kwa hakikisho",
+  "OpenSidePanelToPreview": "Fungua upau wa kando kwa hakikisho",
   "_execute_action": "Tumia kipengele hiki",
   "openSidePanel": "Fungua upau wa kando",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Bonyeza kitendo cha ikoni ya nyongeza",
         "description": "Wekeza kitendo unapobonyeza ikoni ya nyongeza",
         "openPopup": "Fungua kidirisha kidogo",
-        "openSidePanel": "Fungua upau wa kando"
+        "openSidePanel": "Fungua upau wa kando",
+        "SmallWindowAlert": "Ikiwa upau wa kando unachukua nafasi nyingi, inashauriwa utumie dirisha dogo linalojitokeza"
       },
       "SidePanelPosition": {
         "label": "Nafasi ya upau wa kando",
@@ -62,9 +63,9 @@
       "searchBoxPosition": {
         "label": "Nafasi ya sanduku la utafutaji",
         "description": "Wekeza nafasi ya sanduku la utafutaji",
-        "juu": "Ju",
-        "chini": "Chini",
-        "ficha": "Ficha"
+        "top": "Juu",
+        "bottom": "Chini",
+        "hide": "Ficha"
       },
       "toolbar": {
         "label": "Onyesha upau wa zana",
@@ -85,13 +86,41 @@
       },
       "bottomNav": {
         "label": "Onyesha upau wa urambazaji wa chini",
-        "description": "Ukiwezeshwa, upau wa urambazaji wa chini unaonyeshwa"
+        "description": "Ikiwa imewezeshwa, upau wa urambazaji wa chini utaonekana",
+        "configure": "sanidi",
+        "configureBottomNav": "Sanidi Urambazaji wa Chini",
+        "enabledNavs": "Urambazaji Uliowezeshwa",
+        "disabledNavs": "Urambazaji Uliokataliwa (Inapatikana)",
+        "showLabel": "Onyesha Lebo",
+        "close": "Funga",
+        "save": "Hifadhi",
+        "settings": "Mipangilio",
+        "version": "Toleo",
+        "more": "Zaidi",
+        "newTab": "Kichupo Kipya",
+        "recentlyTabs": "Vichupo Vilivyofungwa Hivi Karibuni",
+        "bookmarks": "Alamisho",
+        "history": "Historia",
+        "readingList": "Orodha ya Kusoma",
+        "quickAccess": "Ufikiaji wa Haraka",
+        "search": "Tafuta",
+        "createSnapshot": "Unda Picha",
+        "collapseAll": "Punguza Yote",
+        "scrollToActiveTab": "Sogeza hadi Kichupo Kinachofanya Kazi",
+        "muteAllTabs": "Nyamazisha Vichupo Vyote",
+        "themeModes": "Njia za Mandhari",
+        "viewModes": "Njia za Kuangalia",
+        "showBy": "Onyesha Kwa",
+        "sortBy": "Panga Kwa",
+        "createTabPanel": "Unda Jopo la Vichupo",
+        "tabPanels": "Majopo ya Vichupo",
+        "pinToToolbarReminder": "Tafadhali weka kiendelezi kwenye upau wa zana kabla ya kuondoa urambazaji huu."
       },
       "buttonPosition": {
         "label": "Nafasi ya kitufe",
         "description": "Wekeza nafasi ya vitufe",
-        "kushoto": "Kushoto",
-        "kulia": "Kulia"
+         "left": "Kushoto",
+        "right": "Kulia"
       },
       "alwaysShowCloseButton": {
         "label": "Onyesha kitufe cha kufunga daima",
@@ -118,8 +147,8 @@
       "backgroundImageTransparency": {
         "label": "Uwazi wa picha",
         "description": "Wekeza uwazi wa picha",
-        "wazi": "Wazi",
-        "opaqu": "Opaqu"
+        "transparent": "Wazi",
+        "opaque": "Nene"
       },
       "backgroundImageBlur": {
         "label": "Ukungu",
@@ -132,25 +161,26 @@
       "listBackgroundStyle": {
         "label": "Mtindo wa mandhari ya orodha",
         "description": "Wekeza mtindo wa mandhari ya orodha",
-        "hakuna": "Hakuna",
-        "rahisi": "Rahisi",
-        "kielelezo": "Kielelezo",
-        "analogi": "Analogi",
-        "triadiki": "Triadiki",
-        "tetradiki": "Tetradiki"
+        "single": "Moja",
+        "none": "Hakuna",
+        "simple": "Rahisi",
+        "complementary": "Inayokamilisha",
+        "analogous": "Inayofanana",
+        "triadic": "Tatu",
+        "tetradic": "Nne"
       },
       "listBackgroundTransparency": {
         "label": "Uwazi wa mandhari ya orodha",
         "description": "Wekeza uwazi wa mandhari ya orodha",
-        "wazi": "Wazi",
-        "opaqu": "Opaqu"
+         "transparent": "Wazi",
+        "opaque": "Nene"
       },
       "listBottomBorder": {
         "label": "Mstari wa chini wa orodha",
         "description": "Wekeza mstari wa chini wa orodha",
-        "hakuna": "Hakuna",
-        "mchanganyiko": "Mchanganyiko",
-        "imara": "Imara"
+        "none": "Hakuna",
+        "dashed": "Mstari wa katikati",
+        "solid": "Mstari thabiti"
       },
       "fluentOverlayScrollbars": {
         "label": "Vidirisha vya kubadilika",
@@ -162,7 +192,7 @@
       "listView": {
         "label": "Onyesha orodha",
         "description": "Badilisha onyesho la orodha",
-        "kifupi": "Onyesho la kifupi",
+        "compact": "Mwonekano wa Kubana",
         "visual": "Onyesho la visual"
       },
       "showBy": {
@@ -213,13 +243,13 @@
       "previewWithThumbnail": {
         "label": "Onyesha picha ndogo katika hakiki",
         "description": "Ukiwezeshwa, hakiki zitaonyesha picha ndogo za vichupo",
-        "onyo": "Chukua eneo linaloonekana la kichupo kilicho wazi kwenye dirisha lililowekwa. Ili kuita njia hii, nyongeza inapaswa kuwa na ruhusa ya <all_urls> au ruhusa ya activeTab.",
-        "kataaUjumbe": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
+        "alert": "Shika eneo linaloonekana la kichupo kinachotumika kwa sasa katika dirisha maalum. Ili kutumia njia hii, kiendelezi lazima kiwe na ruhusa ya <all_urls> au ruhusa ya activeTab.",
+        "deniedMessage": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
       },
       "previewDelay": {
         "label": "Kuchelewesha hakiki",
-        "description": "Wekeza muda wa kuchelewesha kwa hakiki za vichupo unapobonyeza juu ya vichupo, n.k. (sekunde). Ikiwekwa kwa 0, hakutakuwa na kuchelewa",
-        "sekunde": "Sekunde"
+        "description": "Weka muda wa kuchelewa kwa hakiki za vichupo wakati wa kubonyeza juu ya vichupo, n.k. (sekunde). Ikiwa imewekwa kuwa 0, hakutakuwa na kuchelewa",
+        "seconds": "Sekunde"
       }
     },
     "history": {
@@ -230,44 +260,44 @@
       "dataSource": {
         "label": "Chanzo cha data",
         "description": "Chagua chanzo cha data",
-        "vichupoVilivyofungwaHiviKaribuni": "Vichupo vilivyofungwa hivi karibuni",
-        "historiaYaChrome": "Historia ya Chrome",
-        "onyo": "Ili kutafuta rekodi za historia, unahitaji idhini yako kuwezeshwa",
-        "kataaUjumbe": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
+        "recentlyClosedTabs": "Vichupo vilivyofungwa hivi karibuni",
+        "chromeHistory": "Historia ya kivinjari",
+        "alert": "Ili kutafuta rekodi za historia, unahitaji idhini yako ili kuwezesha",
+        "deniedMessage": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ikiwa utabadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini"
       },
       "showInSidePanel": {
-        "label": "Onyesha kwenye upau wa kando",
-        "description": "Ukiwezeshwa, onyesha kwenye upau wa kando"
+        "label": "Onyesha kwenye paneli ya kando",
+        "description": "Ukiwezeshwa, onyesha kwenye paneli ya kando"
       },
       "showInTabSearchResults": {
-        "label": "Onyesha historia katika matokeo ya utafutaji wa kichupo",
-        "description": "Ukiwezeshwa, rekodi za historia za hivi karibuni zitaonyeshwa katika matokeo ya utafutaji wa kichupo"
+        "label": "Onyesha historia katika matokeo ya utafutaji wa vichupo",
+        "description": "Ukiwezeshwa, rekodi za historia za hivi karibuni zitaonyeshwa katika matokeo ya utafutaji wa vichupo"
       },
       "limitSearchResults": {
-        "label": "Wekeza idadi ya rekodi za historia katika matokeo ya utafutaji wa kichupo",
-        "description": "Wekeza kikomo cha idadi ya rekodi za historia katika matokeo ya utafutaji wa kichupo. Rekodi za historia zinazozidi kikomo zitafutwa",
-        "onyo": "Rekodi nyingi zitaathiri kasi ya kupakia ukurasa"
+        "label": "Punguza idadi ya rekodi za historia katika matokeo ya utafutaji wa vichupo",
+        "description": "Weka kikomo cha idadi ya rekodi za historia katika matokeo ya utafutaji wa vichupo. Rekodi za historia zinazozidi kikomo zitachujwa",
+        "alert": "Rekodi nyingi sana zitaathiri kasi ya kupakia ukurasa"
       },
       "saveRecentlyTabsLimit": {
-        "label": "Idadi ya vichupo vilivyofungwa hivi karibuni kuhifadhi",
-        "description": "Wekeza idadi ya vichupo vilivyofungwa hivi karibuni kuhifadhi"
+        "label": "Idadi ya vichupo vilivyofungwa hivi karibuni vya kuhifadhi",
+        "description": "Weka idadi ya vichupo vilivyofungwa hivi karibuni vya kuhifadhi"
       },
       "keepDays": {
         "label": "Idadi ya siku za kuhifadhi vichupo vilivyofungwa hivi karibuni",
-        "description": "Wekeza idadi ya siku za kuhifadhi vichupo vilivyofungwa hivi karibuni. Data iliyomalizika itafutwa",
-        "siku": "Siku"
+        "description": "Weka idadi ya siku za kuhifadhi vichupo vilivyofungwa hivi karibuni. Data iliyokwisha muda wake itafutwa",
+        "days": "Siku"
       },
       "openDuration": {
         "label": "Muda wa kufungua",
-        "description": "Vichupo vyenye wakati mrefu wa kufunguliwa tu ndio vitahifadhiwa",
-        "sekunde": "Sekunde"
+        "description": "Ni vichupo vilivyofunguliwa kwa muda mrefu zaidi ya muda uliowekwa vitahifadhiwa",
+        "seconds": "Sekunde"
       }
     },
     "shortcuts": {
-      "onyo": "Ukurasa huu ni kwa kuonyesha tu. Ili kubadilisha vidokezo, tafadhali tembelea [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
-      "goToBrowserSettings": "Nenda kwa mipangilio ya Chrome",
-      "_execute_action": "Tumia kipengele hiki",
-      "openSidePanel": "Fungua upau wa kando"
+      "alert": "Ukurasa huu ni wa kuonyesha tu. Ili kubadilisha njia za mkato, tafadhali tembelea [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
+      "goToBrowserSettings": "Nenda kwenye mipangilio",
+      "_execute_action": "Washa kiendelezi hiki",
+      "openSidePanel": "Fungua paneli ya kando"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Picha kwa picha",
@@ -290,9 +320,9 @@
       "tips_2": "Hasa, uanzishaji unachochea matukio ya kuingiza kama vile:",
       "tips_3": "Angalizo: Kutumia mhimili wa gurudumu la panya au ishara ya kupiga mara mbili haitaanzisha!",
       "tips_4": "Ikiwa ungependa maelezo zaidi, tafadhali tembelea:",
-      "bonyeza": "Bonyeza",
-      "menyuYaKulia": "Menyu ya kulia",
-      "bonyezaMaraMbili": "Bonyeza mara mbili"
+      "click": "Bofya",
+      "contextmenu": "Menyu ya kubofya kulia",
+      "dblclick": "Bofya mara mbili"
     },
     "chromeTabGroupAdvanced": {
       "tabGroupCollapseBehavior": {
@@ -435,6 +465,23 @@
         "downloadOnly": "Pakua tu",
         "staySynchronized": "Baki kusawazishwa",
         "globaldisabledTips": "Lazima uweze kusawazisha katika Mipangilio ya Jumla ili ubadilishe mipangilio hii."
+      },
+      "linkSettings": {
+        "label": "Mipangilio ya Viungo",
+        "description": "Sanidi jinsi viungo vinavyopaswa kushughulikiwa kwenye tovuti hii.",
+        "configure": "Sanidi",
+        "listTips": "Buruta na uangushe kupanga. Sheria za kipaumbele cha juu huwekwa juu. Mara sheria inapolingana, sheria zinazofuata hazitatumika.",
+        "linkMatchContent": "Maudhui ya Ulinganifu wa Kiungo",
+        "linkMatchContentTips": "Inasaidia misemo ya kawaida. Kwa mfano, tumia '*' kulinganisha idadi yoyote ya herufi na '?' kulinganisha herufi moja.",
+        "linkOpenMethod": "Njia ya Kufungua Kiungo",
+        "edit": "Hariri",
+        "delete": "Futa",
+        "target_self": "Kichupo cha Sasa",
+        "target_blank": "Kichupo Kipya",
+        "target_parent": "Kichupo cha Mzazi",
+        "target_top": "Kichupo cha Juu Zaidi",
+        "save": "Hifadhi",
+        "close": "Funga"
       }
     },
     "importAndExport": {
@@ -447,7 +494,8 @@
         "quickAccessWarning": "Ikoni ya tovuti ambayo haijatembelewa inaweza kuonekana isivyo kawaida. Usijali, itaonekana kawaida baada ya kutembelea na kuwasha tena kivinjari.",
         "siteConfig": "Mipangilio ya Tovuti",
         "siteConfigInfo": "kama vile kutupwa kiotomatiki, picha katika picha kwenye Kubadilisha Kichupo, mstari wa maendeleo ya kusoma, mstari wa maendeleo ya kucheza, n.k.",
-        "recentlyTabs": "Vichupo vilivyofungwa hivi karibuni"
+        "recentlyTabs": "Vichupo vilivyofungwa hivi karibuni",
+        "snapshots":"Picha za Haraka"
       },
       "cancelBtn": "Ghairi",
       "exportBtn": "Hamisha",
@@ -512,5 +560,28 @@
         "staySynchronized": "Baki kusawazishwa"
       }
     }
+  },
+  "snapshots": {
+    "title": "Kionyeshi cha Picha za Haraka",
+    "description": "Unda na simamia picha za haraka.",
+    "createSnapshot": "Unda Picha ya Haraka",
+    "exportSnapshot": "Hamisha Picha ya Haraka",
+    "openAllWindows": "Fungua Dirisha Zote",
+    "openSelectedInNewWindow": "Fungua Zilizochaguliwa Katika Dirisha Jipya",
+    "openSelectedInCurrentWindow": "Fungua Zilizochaguliwa Katika Dirisha la Sasa",
+    "windowCount": "{{count}} Madirisha",
+    "tabCount": "{{count}} Vichupo",
+    "Window": "Dirisha",
+    "OpenInCurrentWindow": "Fungua Katika Dirisha la Sasa",
+    "OpenInNewWindow": "Fungua Katika Dirisha Jipya",
+    "ResetSelection": "Weka Upya Uchaguzi",
+    "snapshotCreatedSuccess": "Picha ya haraka imeundwa kwa mafanikio",
+    "snapshotCreatedFailed": "Uundaji wa picha ya haraka umeshindikana",
+    "snapshotDeletedSuccess": "Picha ya haraka imefutwa kwa mafanikio",
+    "snapshotDeletedFailed": "Ufutaji wa picha ya haraka umeshindikana",
+    "importSnapshot": "Ingiza Picha ya Haraka",
+    "snapshotImportFailedDuplicate": "Uingizaji wa picha ya haraka umeshindikana, picha ya haraka inajirudia",
+    "snapshotImportedSuccess": "{{count}} Picha ya haraka imeingizwa kwa mafanikio",
+    "snapshotImportFailed": "{{count}} Uingizaji wa picha ya haraka umeshindikana {{error}}"
   }
 }

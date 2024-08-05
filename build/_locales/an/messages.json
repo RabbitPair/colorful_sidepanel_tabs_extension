@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Xestión de pestanyas d'o panel lateral coloriu"
+    "message": "VertiTab - Plegas Verticals en Panel Lateral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Manchet los biguetas en o panel lateral, masiá billa pa estar tan buena."
+    "message": "Administra las plegas d'o navegador en o panel lateral con caracteristicas configurables, de embelliment y muchas atras"
   },
   "openSidePanel": {
-    "message": "Ubrir o panel lateral"
+    "message": "Ubrir Panel Lateral"
   }
 }

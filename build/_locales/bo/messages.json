@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "ཚོས་གཞི་ཅན་གྱི་ཕྱོགས་གཅོད་ཕྱོགས་བཀོད་ཤོག་ངོས།"
+    "message": "VertiTab - Vertical Tabs in Side Panel"
   },
   "appShortName": {
-    "message": "ར་བྱིའི་རིགས་གཉིས།"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "ཕྱོགས་སྟེང་སྒེའུ་ཁུང་ནང་གི་ཕྱོགས་ཕྲེང་ཚུ་དབྱེ་བ་རྒྱབ། དེ་སྙིང་རྗེ་མོ་འདི་དགའ་ཤོས་ཡིན།།"
+    "message": "Manage browser tabs in side panel with configurable, beautifying and many other features"
   },
   "openSidePanel": {
-    "message": "ཕྱོགས་གཅོད་ཕྱོགས་བཀོད་ཤོག་ངོས་ཁ་ཕྱེ།"
+    "message": "Open Side Panel"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kwinjiza ibaragiye kuri uburenganzira bw'umurwi"
+    "message": "VertiTab - Amapaji ahagaze muri Side Panel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Genzura amakarita mu gicece cy’uruhande, Nziza cyane kuburyo itaba nziza."
+    "message": "Genzura amapaji ya browser muri side panel hamwe n'ibishobora guhindurwa, byiza kandi n'ibindi byinshi"
   },
   "openSidePanel": {
-    "message": "Guhindura ibaragiye kuri uburenganzira"
+    "message": "Fungura Side Panel"
   }
 }

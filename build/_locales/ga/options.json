@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Oscail painéal taobh chun réamhamharc a dhéanamh",
+  "OpenSidePanelToPreview": "Oscail painéal taobh chun réamhamharc a dhéanamh",
   "_execute_action": "Gníomhú ar an bhfheidhmíocht seo",
   "openSidePanel": "Oscail painéal taobh",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Gníomh cliceáil ar íomhá an fhaisnéis",
         "description": "Socraigh an gníomh nuair a chliceálann tú ar íomhá an fhaisnéis",
         "openPopup": "Oscail bhoscaíochán",
-        "openSidePanel": "Oscail painéal taobh"
+        "openSidePanel": "Oscail painéal taobh",
+        "SmallWindowAlert": "Má ghlacann an painéal taobh an iomarca spáis, moltar fuinneog aníos a úsáid"
       },
       "SidePanelPosition": {
         "label": "Suíomh painéil taobh",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Taispeáin an barra náváil bun",
-        "description": "Nuair a chumasfar é, taispeánfar an barra náváil bun"
+        "description": "Nuair a chumasfar é, taispeánfar an barra nascleanúna bun",
+        "configure": "Cumraigh",
+        "configureBottomNav": "Cumraigh Barra Nascleanúna Bun",
+        "enabledNavs": "Nascleanúna Cumasaigh",
+        "disabledNavs": "Nascleanúna Díchumasaithe (Ar Fáil)",
+        "showLabel": "Taispeáin Lipéad",
+        "close": "Dún",
+        "save": "Sábháil",
+        "settings": "Socruithe",
+        "version": "Leagan",
+        "more": "Tuilleadh",
+        "newTab": "Cluaisín Nua",
+        "recentlyTabs": "Cluaisíní Dúnta le Déanaí",
+        "bookmarks": "Leabharmharcanna",
+        "history": "Stair",
+        "readingList": "Liosta Léitheoireachta",
+        "quickAccess": "Rochtain Thapa",
+        "search": "Cuardaigh",
+        "createSnapshot": "Cruthaigh Seat",
+        "collapseAll": "Fill Gach Rud",
+        "scrollToActiveTab": "Scrollaigh go dtí an Cluaisín Gníomhach",
+        "muteAllTabs": "Múch Gach Cluaisín",
+        "themeModes": "Móid Téama",
+        "viewModes": "Móid Amharc",
+        "showBy": "Taispeáin De réir",
+        "sortBy": "Sórtáil De réir",
+        "createTabPanel": "Cruthaigh Painéal Cluaisíní",
+        "tabPanels": "Painéil Cluaisíní",
+        "pinToToolbarReminder": "Déan an síneadh a phionáil ar do bharra uirlisí sula mbainfidh tú an nascleanúint seo."
       },
       "buttonPosition": {
         "label": "Suíomh an gcnaipe",
@@ -246,7 +275,8 @@
       },
       "limitSearchResults": {
         "label": "Teorainn líon taifid stair i dtorthaí cuardaigh cluaisíní",
-        "description": "Socraigh an teorainn líon taifid stair i dtorthaí cuardaigh cluaisíní. Scagfar taifid stair a bhfuil níos mó ná an teorainn orthu"
+        "description": "Socraigh an teorainn líon taifid stair i dtorthaí cuardaigh cluaisíní. Scagfar taifid stair a bhfuil níos mó ná an teorainn orthu",
+        "alert": "Má tá an iomarca taifead ann, d'fhéadfadh sé moill a chur ar luas luchtaithe an leathanaigh"
       },
       "saveRecentlyTabsLimit": {
         "label": "Líon cluaisíní dúnta le déanaí a choinneáil",
@@ -254,7 +284,8 @@
       },
       "keepDays": {
         "label": "Líon laethanta chun cluaisíní dúnta le déanaí a choinneáil",
-        "description": "Socraigh líon laethanta chun cluaisíní dúnta le déanaí a choinneáil. Scriosfar sonraí a bhfuil a dáta caite orthu"
+        "description": "Socraigh líon laethanta chun cluaisíní dúnta le déanaí a choinneáil. Scriosfar sonraí a bhfuil a dáta caite orthu",
+        "days": "Laethanta"
       },
       "openDuration": {
         "label": "Am oscailte",
@@ -272,7 +303,9 @@
       "Picture-in-picture": "Íomhá sa phíosa",
       "tabSwitch": {
         "label": "PIP ar athrú cluaisíní",
-        "description": "Iontráil PIP go huathoibríoch nuair a athraíonn tú cluaisíní le físeán gan fuaime"
+        "description": "Iontráil PIP go huathoibríoch nuair a athraíonn tú cluaisíní le físeán gan fuaime",
+         "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
       },
       "scrollSwitch": {
         "label": "Athraigh go dtí íomhá sa phíosa ag scrolláil",
@@ -408,7 +441,8 @@
       },
       "tabSwitchPip": {
         "label": "PIP ar Luasóg Taobh",
-        "description": "Nuair atá sé cumasaithe, cuirtear isteach Pictiúr-i-mhír nuair a chuireann tú isteach ar luasóg le físeán gan fuaime."
+        "description": "Nuair atá sé cumasaithe, cuirtear isteach Pictiúr-i-mhír nuair a chuireann tú isteach ar luasóg le físeán gan fuaime.",
+        "globaldisabledTips": "Ní mór duit an Picture-in-picture a chumasú sna socruithe domhanda chun an socrú seo a athrú."
       },
       "clearHistoyAfterCLose": {
         "label": "Glan stair tar éis dúnadh",
@@ -416,11 +450,38 @@
       },
       "SyncTabs": {
         "label": "Sincronú taobhán",
-        "description": "Roghnaigh conas sonraí taobhán a sincronú, gan sonraí príobháideacha cosúil le fianáin agus sonraí pearsanta."
+        "description": "Roghnaigh conas sonraí taobhán a sincronú, gan sonraí príobháideacha cosúil le fianáin agus sonraí pearsanta.",
+        "disabled": "Díchumasaithe",
+        "uploadOnly": "Uaslódáil amháin",
+        "downloadOnly": "Íoslódáil amháin",
+        "staySynchronized": "Fan i gcomhtháthú",
+        "globaldisabledTips": "Ní mór duit an tsioncronú a chumasú sna Socruithe Domhanda chun an socrú seo a athrú."
       },
       "SyncPrivateData": {
         "label": "Sincronú sonraí príobháideacha",
-        "description": "Roghnaigh conas sonraí príobháideacha a sincronú, cosúil le fianáin láithreáin gréasáin, sonraí áitiúla leabharstórais leathanach gréasáin, sonraí StóráilSeisiún, srl. Criptófar sonraí sula ndéanfar a sincronú."
+        "description": "Roghnaigh conas sonraí príobháideacha a sincronú, cosúil le fianáin láithreáin gréasáin, sonraí áitiúla leabharstórais leathanach gréasáin, sonraí StóráilSeisiún, srl. Criptófar sonraí sula ndéanfar a sincronú.",
+        "disabled": "Díchumasaithe",
+        "uploadOnly": "Uaslódáil amháin",
+        "downloadOnly": "Íoslódáil amháin",
+        "staySynchronized": "Fan i gcomhtháthú",
+        "globaldisabledTips": "Ní mór duit an tsioncronú a chumasú sna Socruithe Domhanda chun an socrú seo a athrú."
+      },
+      "linkSettings": {
+        "label": "Socruithe Nasc",
+        "description": "Cumraigh conas ba chóir naisc a láimhseáil ar an suíomh seo.",
+        "configure": "Cumraigh",
+        "listTips": "Tarraing agus scaoil chun sórtáil. Cuirtear rialacha le tosaíocht níos airde ar barr. Nuair a mheaitseálann riail, ní chuirfear rialacha ina dhiaidh sin i bhfeidhm.",
+        "linkMatchContent": "Ábhar Meaitseála Nasc",
+        "linkMatchContentTips": "Tacaíonn le rialacha rialta. Mar shampla, bain úsáid as '*' chun aon líon carachtair a mheaitseáil agus '?' chun carachtar aonair a mheaitseáil.",
+        "linkOpenMethod": "Modh Oscailte Nasc",
+        "edit": "Cuir in Eagar",
+        "delete": "Scrios",
+        "target_self": "Cluaisín Reatha",
+        "target_blank": "Cluaisín Nua",
+        "target_parent": "Cluaisín Tuismitheora",
+        "target_top": "Cluaisín is Airde",
+        "save": "Sábháil",
+        "close": "Dún"
       }
     },
     "importAndExport": {
@@ -433,7 +494,8 @@
         "quickAccessWarning": "D’fhéadfadh go mbeadh deilbhín suíomh Gréasáin nach bhfuil cuairt tugtha air le feiceáil go neamhghnácha. Ná bí buartha, taispeánfaidh sé go gnáth tar éis duit cuairt a thabhairt agus an brabhsálaí a atosú.",
         "siteConfig": "Socruithe Suímh",
         "siteConfigInfo": "cosúil le díchur uathoibríoch, pictiúr-i-bhpic ar Athrú Cluaisín, barra dul chun cinn léitheoireachta, barra dul chun cinn ag seinm, srl.",
-        "recentlyTabs": "Cluaisíní dúnta le déanaí"
+        "recentlyTabs": "Cluaisíní dúnta le déanaí",
+        "snapshots":"Gabhálacha Scáileáin"
       },
       "cancelBtn": "Cealaigh",
       "exportBtn": "Easpórtáil",
@@ -498,5 +560,28 @@
         "staySynchronized": "Fan síochrónaithe"
       }
     }
+  },
+  "snapshots": {
+    "title": "Amharcóir Snapshots",
+    "description": "Cruthaigh agus bainistigh snapshots.",
+    "createSnapshot": "Cruthaigh Snapshot",
+    "exportSnapshot": "Easpórtáil Snapshot",
+    "openAllWindows": "Oscail Gach Fuinneog",
+    "openSelectedInNewWindow": "Oscail Roghnaithe i bhFuinneog Nua",
+    "openSelectedInCurrentWindow": "Oscail Roghnaithe sa Fhuinneog Reatha",
+    "windowCount": "{{count}} Fuinneoga",
+    "tabCount": "{{count}} Cluaisíní",
+    "Window": "Fuinneog",
+    "OpenInCurrentWindow": "Oscail sa Fhuinneog Reatha",
+    "OpenInNewWindow": "Oscail i bhFuinneog Nua",
+    "ResetSelection": "Athshocraigh Roghnú",
+    "snapshotCreatedSuccess": "Snapshot cruthaithe go rathúil",
+    "snapshotCreatedFailed": "Theip ar chruthú snapshot",
+    "snapshotDeletedSuccess": "Snapshot scriosta go rathúil",
+    "snapshotDeletedFailed": "Theip ar scriosadh snapshot",
+    "importSnapshot": "Iompórtáil Snapshot",
+    "snapshotImportFailedDuplicate": "Theip ar iompórtáil snapshot, snapshot dúblach",
+    "snapshotImportedSuccess": "{{count}} Snapshot iompórtáilte go rathúil",
+    "snapshotImportFailed": "Theip ar iompórtáil {{count}} Snapshot {{error}}"
   }
 }

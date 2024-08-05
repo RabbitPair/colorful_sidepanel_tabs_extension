@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Gestió de pestanyes laterals acolorides"
+    "message": "VertiTab - Pestanyes verticals al panell lateral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gestiona pestanyes al panell lateral, massa bonic per ser tan bo."
+    "message": "Gestiona les pestanyes del navegador al panell lateral amb funcions configurables, embellidores i moltes altres"
   },
   "openSidePanel": {
-    "message": "Obre la barra lateral"
+    "message": "Obre el panell lateral"
   }
 }

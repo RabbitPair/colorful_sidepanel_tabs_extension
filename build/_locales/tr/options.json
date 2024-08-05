@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Alt gezinme çubuğunu göster",
-        "description": "Etkinleştirildiğinde, alt gezinme çubuğu görüntülenir"
+        "description": "Alt gezinme çubuğunu etkinleştirdiğinizde görünür",
+        "configure": "yapılandır",
+        "configureBottomNav": "Alt Gezinme Çubuğunu Yapılandır",
+        "enabledNavs": "Etkin Gezinmeler",
+        "disabledNavs": "Devre Dışı Gezinmeler (Mevcut)",
+        "showLabel": "Etiketi Göster",
+        "close": "Kapat",
+        "save": "Kaydet",
+        "settings": "Ayarlar",
+        "version": "Sürüm",
+        "more": "Daha Fazla",
+        "newTab": "Yeni Sekme",
+        "recentlyTabs": "Son Kapatılan Sekmeler",
+        "bookmarks": "Yer İmleri",
+        "history": "Geçmiş",
+        "readingList": "Okuma Listesi",
+        "quickAccess": "Hızlı Erişim",
+        "search": "Arama",
+        "createSnapshot": "Anlık Görüntü Oluştur",
+        "collapseAll": "Hepsini Daralt",
+        "scrollToActiveTab": "Etkin Sekmeye Git",
+        "muteAllTabs": "Tüm Sekmeleri Sessize Al",
+        "themeModes": "Tema Modları",
+        "viewModes": "Görünüm Modları",
+        "showBy": "Göster",
+        "sortBy": "Sırala",
+        "createTabPanel": "Sekme Paneli Oluştur",
+        "tabPanels": "Sekme Panelleri",
+        "pinToToolbarReminder": "Bu gezintiyi kaldırmadan önce uzantıyı araç çubuğunuza sabitleyin."
       },
       "buttonPosition": {
         "label": "Düğme konumu",
@@ -437,6 +465,23 @@
         "downloadOnly": "Yalnızca indir",
         "staySynchronized": "Senkronize kal",
         "globaldisabledTips": "Bu ayarı değiştirmek için küresel ayarlarda senkronizasyonu açmalısınız."
+      },
+      "linkSettings": {
+        "label": "Bağlantı Ayarları",
+        "description": "Bu sitede bağlantıların nasıl yönetileceğini yapılandırın.",
+        "configure": "Yapılandır",
+        "listTips": "Sıralamak için sürükleyip bırakın. Daha yüksek öncelikli kurallar en üstte yer alır. Bir kural eşleştiğinde, sonraki kurallar uygulanmaz.",
+        "linkMatchContent": "Bağlantı Eşleşme İçeriği",
+        "linkMatchContentTips": "Düzenli ifadeleri destekler. Örneğin, herhangi bir sayıda karakteri eşleştirmek için '*' ve tek bir karakteri eşleştirmek için '?' kullanın.",
+        "linkOpenMethod": "Bağlantı Açma Yöntemi",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "target_self": "Mevcut Sekme",
+        "target_blank": "Yeni Sekme",
+        "target_parent": "Üst Sekme",
+        "target_top": "En Üst Sekme",
+        "save": "Kaydet",
+        "close": "Kapat"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ziyaret edilmemiş bir web sitesinin simgesi anormal görünebilir. Endişelenmeyin, ziyaret edip tarayıcıyı yeniden başlattıktan sonra normal görünecektir.",
         "siteConfig": "Site Ayarları",
         "siteConfigInfo": "otomatik atılabilir, Sekme Değiştirmede Resim içinde Resim, okuma ilerleme çubuğu, oynatma ilerleme çubuğu vb. gibi.",
-        "recentlyTabs": "Son kapatılan sekmeler"
+        "recentlyTabs": "Son kapatılan sekmeler",
+        "snapshots": "Anlık Görüntüler"
       },
       "cancelBtn": "İptal",
       "exportBtn": "Dışa Aktar",
@@ -514,5 +560,28 @@
         "staySynchronized": "Senkronize kal"
       }
     }
+  },
+  "snapshots": {
+    "title": "Anlık Görüntü Görüntüleyici",
+    "description": "Anlık görüntüler oluşturun ve yönetin.",
+    "createSnapshot": "Anlık Görüntü Oluştur",
+    "exportSnapshot": "Anlık Görüntü Dışa Aktar",
+    "openAllWindows": "Tüm Pencereleri Aç",
+    "openSelectedInNewWindow": "Seçilenleri Yeni Pencerede Aç",
+    "openSelectedInCurrentWindow": "Seçilenleri Mevcut Pencerede Aç",
+    "windowCount": "{{count}} Pencere",
+    "tabCount": "{{count}} Sekme",
+    "Window": "Pencere",
+    "OpenInCurrentWindow": "Mevcut Pencerede Aç",
+    "OpenInNewWindow": "Yeni Pencerede Aç",
+    "ResetSelection": "Seçimi Sıfırla",
+    "snapshotCreatedSuccess": "Anlık görüntü başarıyla oluşturuldu",
+    "snapshotCreatedFailed": "Anlık görüntü oluşturma başarısız oldu",
+    "snapshotDeletedSuccess": "Anlık görüntü başarıyla silindi",
+    "snapshotDeletedFailed": "Anlık görüntü silme başarısız oldu",
+    "importSnapshot": "Anlık Görüntü İçe Aktar",
+    "snapshotImportFailedDuplicate": "Anlık görüntü içe aktarma başarısız oldu, yinelenen anlık görüntü",
+    "snapshotImportedSuccess": "{{count}} anlık görüntü başarıyla içe aktarıldı",
+    "snapshotImportFailed": "{{count}} anlık görüntü içe aktarma başarısız oldu {{error}}"
   }
 }

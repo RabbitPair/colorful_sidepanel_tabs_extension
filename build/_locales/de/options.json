@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Untere Navigationsleiste anzeigen",
-        "description": "Wenn aktiviert, wird die untere Navigationsleiste angezeigt"
+        "description": "Wenn aktiviert, wird die untere Navigationsleiste eingeblendet",
+        "configure": "Konfigurieren",
+        "configureBottomNav": "Untere Navigation konfigurieren",
+        "enabledNavs": "Aktivierte Navigationen",
+        "disabledNavs": "Deaktivierte Navigationen (Verfügbar)",
+        "showLabel": "Label anzeigen",
+        "close": "Schließen",
+        "save": "Speichern",
+        "settings": "Einstellungen",
+        "version": "Version",
+        "more": "Mehr",
+        "newTab": "Neuer Tab",
+        "recentlyTabs": "Kürzlich geschlossene Tabs",
+        "bookmarks": "Lesezeichen",
+        "history": "Verlauf",
+        "readingList": "Leseliste",
+        "quickAccess": "Schnellzugriff",
+        "search": "Suche",
+        "createSnapshot": "Schnappschuss erstellen",
+        "collapseAll": "Alle einklappen",
+        "scrollToActiveTab": "Zum aktiven Tab scrollen",
+        "muteAllTabs": "Alle Tabs stummschalten",
+        "themeModes": "Themenmodi",
+        "viewModes": "Ansichtsmodi",
+        "showBy": "Anzeigen nach",
+        "sortBy": "Sortieren nach",
+        "createTabPanel": "Tab-Panel erstellen",
+        "tabPanels": "Tab-Panels",
+        "pinToToolbarReminder": "Bitte heften Sie die Erweiterung an Ihre Symbolleiste, bevor Sie diese Navigation entfernen."
       },
       "buttonPosition": {
         "label": "Position der Schaltflächen",
@@ -437,6 +465,23 @@
         "downloadOnly": "Nur herunterladen",
         "staySynchronized": "Synchronisiert bleiben",
         "globaldisabledTips": "Sie müssen die Synchronisierung in den globalen Einstellungen aktivieren, um diese Einstellung zu ändern."
+      },
+      "linkSettings": {
+        "label": "Link-Einstellungen",
+        "description": "Legen Sie fest, wie Links auf dieser Seite behandelt werden sollen.",
+        "configure": "Konfigurieren",
+        "listTips": "Ziehen und ablegen, um zu sortieren. Höher priorisierte Regeln werden oben platziert. Sobald eine Regel übereinstimmt, werden nachfolgende Regeln nicht mehr angewendet.",
+        "linkMatchContent": "Link-Inhalt abgleichen",
+        "linkMatchContentTips": "Unterstützt reguläre Ausdrücke. Zum Beispiel, verwenden Sie '*' um eine beliebige Anzahl von Zeichen zu matchen und '?' um ein einzelnes Zeichen zu matchen.",
+        "linkOpenMethod": "Link-Öffnungsmethode",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "target_self": "Aktueller Tab",
+        "target_blank": "Neuer Tab",
+        "target_parent": "Übergeordneter Tab",
+        "target_top": "Oberster Tab",
+        "save": "Speichern",
+        "close": "Schließen"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Das Symbol einer unbesuchten Website kann abnormal angezeigt werden. Keine Sorge, es wird normal angezeigt, nachdem Sie die Website besucht und den Browser neu gestartet haben.",
         "siteConfig": "Website-Einstellungen",
         "siteConfigInfo": "wie z.B. automatisch verwerfbar, Bild-in-Bild beim Tab-Wechsel, Lesefortschrittsbalken, Abspielfortschrittsbalken usw.",
-        "recentlyTabs": "Kürzlich geschlossene Tabs"
+        "recentlyTabs": "Kürzlich geschlossene Tabs",
+        "snapshots":"Momentaufnahmen"
       },
       "cancelBtn": "Abbrechen",
       "exportBtn": "Exportieren",
@@ -514,5 +560,28 @@
         "staySynchronized": "Synchronisiert bleiben"
       }
     }
+  },
+  "snapshots": {
+    "title": "Snapshot-Ansicht",
+    "description": "Erstellen und verwalten Sie Snapshots.",
+    "createSnapshot": "Snapshot erstellen",
+    "exportSnapshot": "Snapshot exportieren",
+    "openAllWindows": "Alle Fenster öffnen",
+    "openSelectedInNewWindow": "Ausgewählte in neuem Fenster öffnen",
+    "openSelectedInCurrentWindow": "Ausgewählte im aktuellen Fenster öffnen",
+    "windowCount": "{{count}} Fenster",
+    "tabCount": "{{count}} Tabs",
+    "Window": "Fenster",
+    "OpenInCurrentWindow": "Im aktuellen Fenster öffnen",
+    "OpenInNewWindow": "In neuem Fenster öffnen",
+    "ResetSelection": "Auswahl zurücksetzen",
+    "snapshotCreatedSuccess": "Snapshot erfolgreich erstellt",
+    "snapshotCreatedFailed": "Snapshot-Erstellung fehlgeschlagen",
+    "snapshotDeletedSuccess": "Snapshot erfolgreich gelöscht",
+    "snapshotDeletedFailed": "Snapshot-Löschung fehlgeschlagen",
+    "importSnapshot": "Snapshot importieren",
+    "snapshotImportFailedDuplicate": "Snapshot-Import fehlgeschlagen, doppelter Snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshots erfolgreich importiert",
+    "snapshotImportFailed": "{{count}} Snapshot-Import fehlgeschlagen {{error}}"
   }
 }

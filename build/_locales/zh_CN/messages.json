@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "多彩侧边栏标签管理"
+    "message": "VertiTab - 侧边栏垂直标签页"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "在侧边栏管理浏览器标签页，漂亮得不像实力派"
+    "message": "在侧面板管理浏览器标签页，具有可配置、美化和许多其他功能"
   },
   "openSidePanel": {
     "message": "打开侧边栏"

@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Navigatiebalk onderaan weergeven",
-        "description": "Wanneer ingeschakeld, wordt de navigatiebalk onderaan weergegeven"
+        "description": "Als deze optie is ingeschakeld, wordt de navigatiebalk onderaan weergegeven",
+        "configure": "configureren",
+        "configureBottomNav": "Navigatiebalk onderaan instellen",
+        "enabledNavs": "Ingeschakelde navigaties",
+        "disabledNavs": "Uitgeschakelde navigaties (Beschikbaar)",
+        "showLabel": "Label weergeven",
+        "close": "Sluiten",
+        "save": "Opslaan",
+        "settings": "Instellingen",
+        "version": "Versie",
+        "more": "Meer",
+        "newTab": "Nieuw tabblad",
+        "recentlyTabs": "Recent gesloten tabbladen",
+        "bookmarks": "Bladwijzers",
+        "history": "Geschiedenis",
+        "readingList": "Leeslijst",
+        "quickAccess": "Snelle toegang",
+        "search": "Zoeken",
+        "createSnapshot": "Momentopname maken",
+        "collapseAll": "Alles samenvouwen",
+        "scrollToActiveTab": "Naar actieve tabblad scrollen",
+        "muteAllTabs": "Alle tabbladen dempen",
+        "themeModes": "Themamodi",
+        "viewModes": "Weergavemodi",
+        "showBy": "Weergeven op",
+        "sortBy": "Sorteren op",
+        "createTabPanel": "Tabbladpaneel maken",
+        "tabPanels": "Tabbladpanelen",
+        "pinToToolbarReminder": "Zet de extensie vast in uw werkbalk voordat u deze navigatie verwijdert."
       },
       "buttonPosition": {
         "label": "Positie knoppen",
@@ -437,6 +465,23 @@
         "downloadOnly": "Alleen downloaden",
         "staySynchronized": "Gesynchroniseerd blijven",
         "globaldisabledTips": "U moet synchronisatie inschakelen in de globale instellingen om deze instelling te wijzigen."
+      },
+      "linkSettings": {
+        "label": "Linkinstellingen",
+        "description": "Stel in hoe links op deze site moeten worden behandeld.",
+        "configure": "Instellen",
+        "listTips": "Sleep en zet neer om te sorteren. Regels met hogere prioriteit staan bovenaan. Zodra een regel overeenkomt, worden volgende regels niet toegepast.",
+        "linkMatchContent": "Linkinhoud Overeenkomst",
+        "linkMatchContentTips": "Ondersteunt reguliere expressies. Gebruik bijvoorbeeld '*' om een willekeurig aantal tekens te matchen en '?' om een enkel teken te matchen.",
+        "linkOpenMethod": "Link Open Methode",
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "target_self": "Huidig Tabblad",
+        "target_blank": "Nieuw Tabblad",
+        "target_parent": "Bovenliggend Tabblad",
+        "target_top": "Bovenste Tabblad",
+        "save": "Opslaan",
+        "close": "Sluiten"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Het pictogram van een niet-bezochte website kan abnormaal worden weergegeven. Maak je geen zorgen, het wordt normaal weergegeven nadat je de website hebt bezocht en de browser opnieuw hebt opgestart.",
         "siteConfig": "Site-instellingen",
         "siteConfigInfo": "zoals automatisch verwijderbaar, picture-in-picture bij tabblad wisselen, leesvoortgangsbalk, afspelende voortgangsbalk, enz.",
-        "recentlyTabs": "Recent gesloten tabbladen"
+        "recentlyTabs": "Recent gesloten tabbladen",
+        "snapshots":"Momentopnamen"
       },
       "cancelBtn": "Annuleren",
       "exportBtn": "Exporteren",
@@ -514,5 +560,28 @@
         "staySynchronized": "Gesynchroniseerd blijven"
       }
     }
+  },
+  "snapshots": {
+    "title": "Snapshots Viewer",
+    "description": "Create and manage snapshots.",
+    "createSnapshot": "Create Snapshot",
+    "exportSnapshot": "Export Snapshot",
+    "openAllWindows": "Open All Windows",
+    "openSelectedInNewWindow": "Open Selected In New Window",
+    "openSelectedInCurrentWindow": "Open Selected In Current Window",
+    "windowCount": "{{count}} Windows",
+    "tabCount": "{{count}} Tabs",
+    "Window": "Window",
+    "OpenInCurrentWindow": "Open In Current Window",
+    "OpenInNewWindow": "Open In New Window",
+    "ResetSelection": "Reset Selection",
+    "snapshotCreatedSuccess": "Snapshot created successfully",
+    "snapshotCreatedFailed": "Snapshot created failed",
+    "snapshotDeletedSuccess": "Snapshot deleted successfully",
+    "snapshotDeletedFailed": "Snapshot deleted failed",
+    "importSnapshot": "Import Snapshot",
+    "snapshotImportFailedDuplicate": "Snapshot import failed, duplicate snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshot imported successfully",
+    "snapshotImportFailed": "{{count}} Snapshot import failed {{error}}"
   }
 }

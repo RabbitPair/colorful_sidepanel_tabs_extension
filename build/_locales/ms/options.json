@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Tunjukkan bar navigasi bawah",
-        "description": "Apabila diaktifkan, bar navigasi bawah akan dipaparkan"
+        "description": "Apabila diaktifkan, bar navigasi bawah akan muncul",
+        "configure": "konfigurasi",
+        "configureBottomNav": "Konfigurasi Navigasi Bawah",
+        "enabledNavs": "Navigasi Diaktifkan",
+        "disabledNavs": "Navigasi Dinonaktifkan (Tersedia)",
+        "showLabel": "Tunjukkan Label",
+        "close": "Tutup",
+        "save": "Simpan",
+        "settings": "Tetapan",
+        "version": "Versi",
+        "more": "Lagi",
+        "newTab": "Tab Baru",
+        "recentlyTabs": "Tab Ditutup Baru-baru Ini",
+        "bookmarks": "Penanda Halaman",
+        "history": "Sejarah",
+        "readingList": "Senarai Bacaan",
+        "quickAccess": "Akses Pantas",
+        "search": "Cari",
+        "createSnapshot": "Buat Snapshot",
+        "collapseAll": "Runtuhkan Semua",
+        "scrollToActiveTab": "Tatal ke Tab Aktif",
+        "muteAllTabs": "Senyapkan Semua Tab",
+        "themeModes": "Mod Tema",
+        "viewModes": "Mod Paparan",
+        "showBy": "Tunjukkan Mengikut",
+        "sortBy": "Susun Mengikut",
+        "createTabPanel": "Buat Panel Tab",
+        "tabPanels": "Panel Tab",
+        "pinToToolbarReminder": "Sila pin sambungan ini ke bar alat anda sebelum mengalih keluar navigasi ini."
       },
       "buttonPosition": {
         "label": "Kedudukan butang",
@@ -437,6 +465,23 @@
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan",
         "globaldisabledTips": "Anda mesti menghidupkan penyegerakan dalam Tetapan Global untuk mengubah tetapan ini."
+      },
+      "linkSettings": {
+        "label": "Tetapan Pautan",
+        "description": "Tetapkan cara pautan harus dikendalikan di laman ini.",
+        "configure": "Konfigurasi",
+        "listTips": "Seret dan lepas untuk menyusun. Peraturan dengan keutamaan lebih tinggi diletakkan di atas. Setelah satu peraturan dipadankan, peraturan berikutnya tidak akan diterapkan.",
+        "linkMatchContent": "Padanan Kandungan Pautan",
+        "linkMatchContentTips": "Menyokong ungkapan biasa. Sebagai contoh, gunakan '*' untuk memadankan sebarang bilangan aksara dan '?' untuk memadankan satu aksara.",
+        "linkOpenMethod": "Kaedah Membuka Pautan",
+        "edit": "Sunting",
+        "delete": "Padam",
+        "target_self": "Tab Semasa",
+        "target_blank": "Tab Baru",
+        "target_parent": "Tab Induk",
+        "target_top": "Tab Paling Atas",
+        "save": "Simpan",
+        "close": "Tutup"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikon laman web yang tidak dilawati mungkin dipaparkan secara tidak normal. Jangan risau, ia akan dipaparkan secara normal selepas anda melawat dan memulakan semula pelayar.",
         "siteConfig": "Tetapan Laman",
         "siteConfigInfo": "seperti auto boleh dibuang, gambar-dalam-gambar pada Tukar Tab, bar kemajuan bacaan, bar kemajuan main, dan lain-lain.",
-        "recentlyTabs": "Tab yang baru ditutup"
+        "recentlyTabs": "Tab yang baru ditutup",
+        "snapshots":"Gambar Rajah"
       },
       "cancelBtn": "Batal",
       "exportBtn": "Eksport",
@@ -514,5 +560,28 @@
         "staySynchronized": "Kekal disegerakkan"
       }
     }
+  },
+  "snapshots": {
+    "title": "Paparan Snapshot",
+    "description": "Cipta dan urus snapshot.",
+    "createSnapshot": "Cipta Snapshot",
+    "exportSnapshot": "Eksport Snapshot",
+    "openAllWindows": "Buka Semua Tetingkap",
+    "openSelectedInNewWindow": "Buka Pilihan Dalam Tetingkap Baru",
+    "openSelectedInCurrentWindow": "Buka Pilihan Dalam Tetingkap Semasa",
+    "windowCount": "{{count}} Tetingkap",
+    "tabCount": "{{count}} Tab",
+    "Window": "Tetingkap",
+    "OpenInCurrentWindow": "Buka Dalam Tetingkap Semasa",
+    "OpenInNewWindow": "Buka Dalam Tetingkap Baru",
+    "ResetSelection": "Tetapkan Semula Pilihan",
+    "snapshotCreatedSuccess": "Snapshot berjaya dicipta",
+    "snapshotCreatedFailed": "Snapshot gagal dicipta",
+    "snapshotDeletedSuccess": "Snapshot berjaya dipadam",
+    "snapshotDeletedFailed": "Snapshot gagal dipadam",
+    "importSnapshot": "Import Snapshot",
+    "snapshotImportFailedDuplicate": "Import snapshot gagal, snapshot duplikat",
+    "snapshotImportedSuccess": "{{count}} Snapshot berjaya diimport",
+    "snapshotImportFailed": "{{count}} Snapshot gagal diimport {{error}}"
   }
 }

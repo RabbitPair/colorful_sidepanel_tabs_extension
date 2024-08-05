@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "نمایش نوار ناوبری پایین",
-        "description": "هنگامی که فعال شود، نوار ناوبری پایین نمایش داده می‌شود"
+        "description": "با فعال کردن این گزینه، نوار ناوبری پایین نمایش داده می‌شود",
+        "configure": "پیکربندی",
+        "configureBottomNav": "پیکربندی نوار ناوبری پایین",
+        "enabledNavs": "ناوبری‌های فعال",
+        "disabledNavs": "ناوبری‌های غیرفعال (در دسترس)",
+        "showLabel": "نمایش برچسب",
+        "close": "بستن",
+        "save": "ذخیره",
+        "settings": "تنظیمات",
+        "version": "نسخه",
+        "more": "بیشتر",
+        "newTab": "زبانه جدید",
+        "recentlyTabs": "زبانه‌های اخیراً بسته شده",
+        "bookmarks": "نشانک‌ها",
+        "history": "تاریخچه",
+        "readingList": "لیست خواندن",
+        "quickAccess": "دسترسی سریع",
+        "search": "جستجو",
+        "createSnapshot": "ایجاد عکس فوری",
+        "collapseAll": "جمع کردن همه",
+        "scrollToActiveTab": "اسکرول به زبانه فعال",
+        "muteAllTabs": "بی‌صدا کردن همه زبانه‌ها",
+        "themeModes": "حالت‌های تم",
+        "viewModes": "حالت‌های نمایش",
+        "showBy": "نمایش بر اساس",
+        "sortBy": "مرتب‌سازی بر اساس",
+        "createTabPanel": "ایجاد پانل زبانه",
+        "tabPanels": "پانل‌های زبانه",
+        "pinToToolbarReminder": "لطفاً قبل از حذف این ناوبری، افزونه را به نوار ابزار خود سنجاق کنید."
       },
       "buttonPosition": {
         "label": "موقعیت دکمه‌ها",
@@ -437,6 +465,23 @@
         "downloadOnly": "فقط دانلود",
         "staySynchronized": "همگام‌سازی مداوم",
         "globaldisabledTips": "برای تغییر این تنظیم، باید همگام‌سازی را در تنظیمات جهانی روشن کنید."
+      },
+      "linkSettings": {
+        "label": "تنظیمات لینک",
+        "description": "نحوه مدیریت لینک‌ها در این سایت را پیکربندی کنید.",
+        "configure": "پیکربندی",
+        "listTips": "برای مرتب‌سازی، بکشید و رها کنید. قوانین با اولویت بالاتر در بالا قرار می‌گیرند. پس از تطابق یک قانون، قوانین بعدی اعمال نخواهند شد.",
+        "linkMatchContent": "محتوای تطابق لینک",
+        "linkMatchContentTips": "از عبارات منظم پشتیبانی می‌کند. به عنوان مثال، از '*' برای تطابق با هر تعداد کاراکتر و از '?' برای تطابق با یک کاراکتر استفاده کنید.",
+        "linkOpenMethod": "روش باز کردن لینک",
+        "edit": "ویرایش",
+        "delete": "حذف",
+        "target_self": "زبانه فعلی",
+        "target_blank": "زبانه جدید",
+        "target_parent": "زبانه والد",
+        "target_top": "بالاترین زبانه",
+        "save": "ذخیره",
+        "close": "بستن"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "آیکون یک وب‌سایت بازدید نشده ممکن است به طور غیرعادی نمایش داده شود. نگران نباشید، پس از بازدید و راه‌اندازی مجدد مرورگر به طور عادی نمایش داده خواهد شد.",
         "siteConfig": "تنظیمات سایت",
         "siteConfigInfo": "مانند صرف‌نظر کردن خودکار، تصویر در تصویر در تغییر زبانه، نوار پیشرفت خواندن، نوار پیشرفت پخش و غیره.",
-        "recentlyTabs": "زبانه‌های اخیراً بسته شده"
+        "recentlyTabs": "زبانه‌های اخیراً بسته شده",
+        "snapshots":"عکس‌های فوری"
       },
       "cancelBtn": "لغو",
       "exportBtn": "صادر کردن",
@@ -514,5 +560,28 @@
         "staySynchronized": "همگام‌سازی مداوم"
       }
     }
+  },
+  "snapshots": {
+    "title": "نمایشگر عکس‌های فوری",
+    "description": "ایجاد و مدیریت عکس‌های فوری.",
+    "createSnapshot": "ایجاد عکس فوری",
+    "exportSnapshot": "صادر کردن عکس فوری",
+    "openAllWindows": "باز کردن همه پنجره‌ها",
+    "openSelectedInNewWindow": "باز کردن انتخاب شده‌ها در پنجره جدید",
+    "openSelectedInCurrentWindow": "باز کردن انتخاب شده‌ها در پنجره فعلی",
+    "windowCount": "{{count}} پنجره",
+    "tabCount": "{{count}} زبانه",
+    "Window": "پنجره",
+    "OpenInCurrentWindow": "باز کردن در پنجره فعلی",
+    "OpenInNewWindow": "باز کردن در پنجره جدید",
+    "ResetSelection": "بازنشانی انتخاب",
+    "snapshotCreatedSuccess": "عکس فوری با موفقیت ایجاد شد",
+    "snapshotCreatedFailed": "ایجاد عکس فوری ناموفق بود",
+    "snapshotDeletedSuccess": "عکس فوری با موفقیت حذف شد",
+    "snapshotDeletedFailed": "حذف عکس فوری ناموفق بود",
+    "importSnapshot": "وارد کردن عکس فوری",
+    "snapshotImportFailedDuplicate": "وارد کردن عکس فوری ناموفق بود، عکس فوری تکراری است",
+    "snapshotImportedSuccess": "{{count}} عکس فوری با موفقیت وارد شد",
+    "snapshotImportFailed": "{{count}} وارد کردن عکس فوری ناموفق بود {{error}}"
   }
 }

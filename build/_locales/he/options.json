@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "הצג סרגל ניווט תחתון",
-        "description": "כאשר מופעל, סרגל הניווט התחתון יוצג"
+        "description": "כאשר האפשרות מופעלת, סרגל הניווט התחתון יוצג",
+        "configure": "הגדר",
+        "configureBottomNav": "הגדר סרגל ניווט תחתון",
+        "enabledNavs": "ניווטים מופעלים",
+        "disabledNavs": "ניווטים מושבתים (זמינים)",
+        "showLabel": "הצג תווית",
+        "close": "סגור",
+        "save": "שמור",
+        "settings": "הגדרות",
+        "version": "גרסה",
+        "more": "עוד",
+        "newTab": "כרטיסייה חדשה",
+        "recentlyTabs": "כרטיסיות שנסגרו לאחרונה",
+        "bookmarks": "סימניות",
+        "history": "היסטוריה",
+        "readingList": "רשימת קריאה",
+        "quickAccess": "גישה מהירה",
+        "search": "חיפוש",
+        "createSnapshot": "צור תמונת מצב",
+        "collapseAll": "כווץ הכל",
+        "scrollToActiveTab": "גלול לכרטיסייה הפעילה",
+        "muteAllTabs": "השתק את כל הכרטיסיות",
+        "themeModes": "מצבי ערכת נושא",
+        "viewModes": "מצבי תצוגה",
+        "showBy": "הצג לפי",
+        "sortBy": "מיין לפי",
+        "createTabPanel": "צור פאנל כרטיסיות",
+        "tabPanels": "פאנלי כרטיסיות",
+        "pinToToolbarReminder": "אנא הצמד את התוסף לסרגל הכלים לפני הסרת הניווט הזה."
       },
       "buttonPosition": {
         "label": "מיקום כפתור",
@@ -437,6 +465,23 @@
         "downloadOnly": "הורד בלבד",
         "staySynchronized": "הישאר מסונכרן",
         "globaldisabledTips": "עליך להפעיל סנכרון בהגדרות הגלובליות כדי לשנות הגדרה זו."
+      },
+      "linkSettings": {
+        "label": "הגדרות קישורים",
+        "description": "הגדר כיצד יש לטפל בקישורים באתר זה.",
+        "configure": "הגדר",
+        "listTips": "גרור ושחרר כדי למיין. כללים בעלי עדיפות גבוהה יותר ימוקמו בראש. ברגע שכלל תואם, כללים עוקבים לא ייושמו.",
+        "linkMatchContent": "תוכן התאמת קישור",
+        "linkMatchContentTips": "תומך בביטויים רגולריים. לדוגמה, השתמש ב-* כדי להתאים לכל מספר של תווים וב-? כדי להתאים לתו בודד.",
+        "linkOpenMethod": "שיטת פתיחת קישור",
+        "edit": "ערוך",
+        "delete": "מחק",
+        "target_self": "כרטיסייה נוכחית",
+        "target_blank": "כרטיסייה חדשה",
+        "target_parent": "כרטיסיית הורה",
+        "target_top": "כרטיסייה עליונה ביותר",
+        "save": "שמור",
+        "close": "סגור"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "הסמל של אתר שלא ביקרו בו עשוי להופיע בצורה לא תקינה. אל דאגה, הוא יופיע בצורה תקינה לאחר שתבקרו ותפעילו מחדש את הדפדפן.",
         "siteConfig": "הגדרות אתר",
         "siteConfigInfo": "כגון ביטול אוטומטי, תמונה בתוך תמונה במעבר כרטיסיות, סרגל התקדמות קריאה, סרגל התקדמות ניגון, וכו'.",
-        "recentlyTabs": "כרטיסיות שנסגרו לאחרונה"
+        "recentlyTabs": "כרטיסיות שנסגרו לאחרונה",
+        "snapshots":"תמונות מצב"
       },
       "cancelBtn": "בטל",
       "exportBtn": "ייצא",
@@ -514,5 +560,28 @@
         "staySynchronized": "הישאר מסונכרן"
       }
     }
+  },
+  "snapshots": {
+    "title": "צופה בצילומי מסך",
+    "description": "צור ונהל צילומי מסך.",
+    "createSnapshot": "צור צילום מסך",
+    "exportSnapshot": "ייצא צילום מסך",
+    "openAllWindows": "פתח את כל החלונות",
+    "openSelectedInNewWindow": "פתח את הנבחר בחלון חדש",
+    "openSelectedInCurrentWindow": "פתח את הנבחר בחלון הנוכחי",
+    "windowCount": "{{count}} חלונות",
+    "tabCount": "{{count}} כרטיסיות",
+    "Window": "חלון",
+    "OpenInCurrentWindow": "פתח בחלון הנוכחי",
+    "OpenInNewWindow": "פתח בחלון חדש",
+    "ResetSelection": "אפס בחירה",
+    "snapshotCreatedSuccess": "צילום המסך נוצר בהצלחה",
+    "snapshotCreatedFailed": "יצירת צילום המסך נכשלה",
+    "snapshotDeletedSuccess": "צילום המסך נמחק בהצלחה",
+    "snapshotDeletedFailed": "מחיקת צילום המסך נכשלה",
+    "importSnapshot": "ייבא צילום מסך",
+    "snapshotImportFailedDuplicate": "ייבוא צילום המסך נכשל, צילום מסך כפול",
+    "snapshotImportedSuccess": "{{count}} צילומי מסך יובאו בהצלחה",
+    "snapshotImportFailed": "{{count}} ייבוא צילום מסך נכשל {{error}}"
   }
 }

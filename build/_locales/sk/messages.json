@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Farebné bočné panely kariet"
+    "message": "VertiTab - Vertikálne karty v bočnom paneli"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Spravujte karty prehliadača v bočnom paneli"
+    "message": "Spravujte karty prehliadača v bočnom paneli s konfigurovateľnými, skrášľujúcimi a mnohými ďalšími funkciami"
   },
   "openSidePanel": {
     "message": "Otvoriť bočný panel"

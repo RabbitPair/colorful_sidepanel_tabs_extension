@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Prikaži spodnjo navigacijsko vrstico",
-        "description": "Ko je omogočeno, je prikazana spodnja navigacijska vrstica"
+        "description": "Ko je omogočeno, se prikaže spodnja navigacijska vrstica",
+        "configure": "nastavi",
+        "configureBottomNav": "Nastavi spodnjo navigacijo",
+        "enabledNavs": "Omogočene navigacije",
+        "disabledNavs": "Onemogočene navigacije (na voljo)",
+        "showLabel": "Prikaži oznako",
+        "close": "Zapri",
+        "save": "Shrani",
+        "settings": "Nastavitve",
+        "version": "Različica",
+        "more": "Več",
+        "newTab": "Nov zavihek",
+        "recentlyTabs": "Nedavno zaprti zavihki",
+        "bookmarks": "Zaznamki",
+        "history": "Zgodovina",
+        "readingList": "Seznam za branje",
+        "quickAccess": "Hiter dostop",
+        "search": "Iskanje",
+        "createSnapshot": "Ustvari posnetek",
+        "collapseAll": "Strni vse",
+        "scrollToActiveTab": "Pomakni se na aktivni zavihek",
+        "muteAllTabs": "Utišaj vse zavihke",
+        "themeModes": "Načini teme",
+        "viewModes": "Načini pogleda",
+        "showBy": "Prikaži po",
+        "sortBy": "Razvrsti po",
+        "createTabPanel": "Ustvari ploščo z zavihki",
+        "tabPanels": "Plošče z zavihki",
+        "pinToToolbarReminder": "Pred odstranitvijo te navigacije pripnite razširitev na orodno vrstico."
       },
       "buttonPosition": {
         "label": "Položaj gumbov",
@@ -435,8 +463,125 @@
         "disabled": "Onemogočeno",
         "uploadOnly": "Samo nalaganje",
         "downloadOnly": "Samo prenos",
+        "staySynchronized": "Ostani sinhroniziran",
+        "globaldisabledTips": "Za spreminjanje te nastavitve morate vklopiti sinhronizacijo v globalnih nastavitvah."
+      },
+      "linkSettings": {
+        "label": "Nastavitve povezav",
+        "description": "Nastavite, kako naj se povezave upravljajo na tej strani.",
+        "configure": "Nastavi",
+        "listTips": "Povlecite in spustite za prerazporeditev. Pravila z višjo prioriteto so postavljena na vrh. Ko je pravilo ujemajoče, se naslednja pravila ignorirajo.",
+        "linkMatchContent": "Merila za ujemanje povezav",
+        "linkMatchContentTips": "Podpira regularne izraze. Na primer, uporabite '*' za ujemanje katere koli sekvence znakov in '?' za ujemanje enega znaka.",
+        "linkOpenMethod": "Metoda odpiranja povezav",
+        "edit": "Uredi",
+        "delete": "Izbriši",
+        "target_self": "Isti zavihek",
+        "target_blank": "Nov zavihek",
+        "target_parent": "Nadrejeni zavihek",
+        "target_top": "Najvišji zavihek",
+        "save": "Shrani",
+        "close": "Zapri"
+      }
+    },
+    "importAndExport": {
+      "title": "Uvoz/Izvoz",
+      "description": "",
+      "options": {
+        "preferences": "Uporabniške nastavitve",
+        "preferencesInfo": "Vključuje privzete splošne nastavitve, nastavitve prikaza in podatkov ter preklapljanje tem uporabniškega vmesnika.",
+        "quickAccess": "Hiter dostop",
+        "quickAccessWarning": "Ikona neobiskanega spletnega mesta se lahko prikaže nenavadno. Ne skrbite, po obisku in ponovnem zagonu brskalnika se bo prikazala pravilno.",
+        "siteConfig": "Nastavitve spletnega mesta",
+        "siteConfigInfo": "kot so samodejno odstranjevanje, slika v sliki pri preklopu zavihkov, vrstica napredka branja, vrstica napredka predvajanja itd.",
+        "recentlyTabs": "Nedavno zaprti zavihki",
+        "snapshots": "Posnetki zaslona"
+      },
+      "cancelBtn": "Prekliči",
+      "exportBtn": "Izvozi",
+      "importBtn": "Uvozi",
+      "importing": "Uvažanje...",
+      "fileError": "Napaka pri razčlenjevanju datoteke, prosimo naložite pravilno konfiguracijsko datoteko JSON",
+      "import": {
+        "label": "Uvozi iz datoteke",
+        "description": "",
+        "formTips": "Izberite podatke, ki jih želite uvoziti",
+        "importSuccess": "Uvoz uspešen",
+        "importFailed": "Uvoz neuspešen"
+      },
+      "export": {
+        "label": "Izvozi v datoteko",
+        "description": "",
+        "formTips": "Izberite podatke, ki jih želite izvoziti",
+        "exportSuccess": "Izvoz uspešen",
+        "exportFailed": "Izvoz neuspešen"
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinhroniziraj v oblak",
+      "SyncNow": "Sinhroniziraj zdaj",
+      "SyncNowWithGoogleDrive": "Sinhroniziraj zdaj z Google Drive",
+      "SyncNowWithDropbox": "Sinhroniziraj zdaj z Dropbox",
+      "SyncNowWithOneDrive": "Sinhroniziraj zdaj z OneDrive",
+      "Synchronizing": "Sinhroniziranje...",
+      "SyncedSuccessfully": "Sinhronizacija uspešna",
+      "SyncFailed": "Sinhronizacija neuspešna",
+      "LoginRequired": "Potrebna prijava",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinhroniziraj nastavitve",
+        "description": "Izberite, kako sinhronizirati nastavitve te razširitve.",
+        "disabled": "Onemogočeno",
+        "uploadOnly": "Samo nalaganje",
+        "downloadOnly": "Samo prenos",
+        "staySynchronized": "Ostani sinhroniziran"
+      },
+      "SyncTabs": {
+        "label": "Sinhroniziraj zavihke",
+        "description": "Izberite, kako sinhronizirati podatke zavihkov, brez zasebnih podatkov, kot so piškotki in osebni podatki.",
+        "disabled": "Onemogočeno",
+        "uploadOnly": "Samo nalaganje",
+        "downloadOnly": "Samo prenos",
+        "staySynchronized": "Ostani sinhroniziran"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Sinhroniziraj odpiranje ali zapiranje zavihkov",
+        "description": "Ko je omogočeno, bo odpiranje ali zapiranje zavihkov v različnih brskalnikih sinhronizirano. To velja samo, ko je aktivna možnost 'ostani sinhroniziran'.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Če se prijavite v isti račun v dveh brskalnikih hkrati in omogočite to možnost, bo odpiranje ali zapiranje zavihkov v enem brskalniku izvedlo enako dejanje v drugem brskalniku. Če spletno mesto prepoveduje ponovne prijave z istim računom, lahko pride do izjem."
+      },
+      "SyncPrivateData": {
+        "label": "Sinhroniziraj zasebne podatke",
+        "description": "Izberite, kako sinhronizirati zasebne podatke, kot so piškotki spletnih strani, podatki lokalnega shranjevanja spletnih strani, podatki SessionStorage itd. Podatki bodo pred sinhronizacijo šifrirani.",
+        "disabled": "Onemogočeno",
+        "uploadOnly": "Samo nalaganje",
+        "downloadOnly": "Samo prenos",
         "staySynchronized": "Ostani sinhroniziran"
       }
     }
+  },
+  "snapshots": {
+    "title": "Pregledovalnik posnetkov",
+    "description": "Ustvarite in upravljajte posnetke.",
+    "createSnapshot": "Ustvari posnetek",
+    "exportSnapshot": "Izvozi posnetek",
+    "openAllWindows": "Odpri vsa okna",
+    "openSelectedInNewWindow": "Odpri izbrano v novem oknu",
+    "openSelectedInCurrentWindow": "Odpri izbrano v trenutnem oknu",
+    "windowCount": "{{count}} oken",
+    "tabCount": "{{count}} zavihkov",
+    "Window": "Okno",
+    "OpenInCurrentWindow": "Odpri v trenutnem oknu",
+    "OpenInNewWindow": "Odpri v novem oknu",
+    "ResetSelection": "Ponastavi izbiro",
+    "snapshotCreatedSuccess": "Posnetek uspešno ustvarjen",
+    "snapshotCreatedFailed": "Ustvarjanje posnetka ni uspelo",
+    "snapshotDeletedSuccess": "Posnetek uspešno izbrisan",
+    "snapshotDeletedFailed": "Brisanje posnetka ni uspelo",
+    "importSnapshot": "Uvozi posnetek",
+    "snapshotImportFailedDuplicate": "Uvoz posnetka ni uspel, podvojen posnetek",
+    "snapshotImportedSuccess": "{{count}} posnetek uspešno uvožen",
+    "snapshotImportFailed": "{{count}} uvoz posnetka ni uspel {{error}}"
   }
 }

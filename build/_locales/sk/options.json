@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Zobraziť dolný navigačný panel",
-        "description": "Keď je povolené, dolný navigačný panel sa zobrazí"
+        "description": "Ak je povolené, dolný navigačný panel sa zobrazí",
+        "configure": "nastaviť",
+        "configureBottomNav": "Nastaviť dolnú navigáciu",
+        "enabledNavs": "Povolené navigácie",
+        "disabledNavs": "Zakázané navigácie (Dostupné)",
+        "showLabel": "Zobraziť popis",
+        "close": "Zatvoriť",
+        "save": "Uložiť",
+        "settings": "Nastavenia",
+        "version": "Verzia",
+        "more": "Viac",
+        "newTab": "Nová karta",
+        "recentlyTabs": "Nedávno zatvorené karty",
+        "bookmarks": "Záložky",
+        "history": "História",
+        "readingList": "Čítací zoznam",
+        "quickAccess": "Rýchly prístup",
+        "search": "Vyhľadávanie",
+        "createSnapshot": "Vytvoriť snímku",
+        "collapseAll": "Zbaliť všetko",
+        "scrollToActiveTab": "Posunúť na aktívnu kartu",
+        "muteAllTabs": "Stlmiť všetky karty",
+        "themeModes": "Režimy témy",
+        "viewModes": "Režimy zobrazenia",
+        "showBy": "Zobraziť podľa",
+        "sortBy": "Zoradiť podľa",
+        "createTabPanel": "Vytvoriť panel kariet",
+        "tabPanels": "Panely kariet",
+        "pinToToolbarReminder": "Pred odstránením tejto navigácie si prosím pripnite rozšírenie na panel nástrojov."
       },
       "buttonPosition": {
         "label": "Pozícia tlačidiel",
@@ -437,6 +465,23 @@
         "downloadOnly": "Iba sťahovanie",
         "staySynchronized": "Zostať synchronizované",
         "globaldisabledTips": "Musíte zapnúť synchronizáciu v globálnych nastaveniach, aby ste mohli upraviť toto nastavenie."
+      },
+      "linkSettings": {
+        "label": "Nastavenia odkazov",
+        "description": "Nastavte, ako sa majú odkazy na tejto stránke správať.",
+        "configure": "Nastaviť",
+        "listTips": "Presúvajte a usporiadajte pravidlá. Pravidlá s vyššou prioritou sú umiestnené na vrchu. Po zhodovaní pravidla sa ďalšie pravidlá neuplatnia.",
+        "linkMatchContent": "Obsah zhody odkazu",
+        "linkMatchContentTips": "Podporuje regulárne výrazy. Napríklad použite '*' na zhodu s ľubovoľným počtom znakov a '?' na zhodu s jedným znakom.",
+        "linkOpenMethod": "Spôsob otvorenia odkazu",
+        "edit": "Upraviť",
+        "delete": "Odstrániť",
+        "target_self": "Aktuálna karta",
+        "target_blank": "Nová karta",
+        "target_parent": "Nadradená karta",
+        "target_top": "Najvyššia karta",
+        "save": "Uložiť",
+        "close": "Zavrieť"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikona nenavštívenej webovej stránky sa môže zobrazovať abnormálne. Nebojte sa, po návšteve a reštartovaní prehliadača sa zobrazí normálne.",
         "siteConfig": "Nastavenia stránky",
         "siteConfigInfo": "ako napríklad automaticky zahoditeľné, obraz v obraze pri prepínaní kariet, ukazovateľ priebehu čítania, ukazovateľ priebehu prehrávania atď.",
-        "recentlyTabs": "Nedávno zatvorené karty"
+        "recentlyTabs": "Nedávno zatvorené karty",
+        "snapshots":"Snímky obrazovky"
       },
       "cancelBtn": "Zrušiť",
       "exportBtn": "Exportovať",
@@ -514,5 +560,28 @@
         "staySynchronized": "Zostať synchronizované"
       }
     }
+  },
+  "snapshots": {
+    "title": "Prehliadač snímok",
+    "description": "Vytvárajte a spravujte snímky.",
+    "createSnapshot": "Vytvoriť snímku",
+    "exportSnapshot": "Exportovať snímku",
+    "openAllWindows": "Otvoriť všetky okná",
+    "openSelectedInNewWindow": "Otvoriť vybrané v novom okne",
+    "openSelectedInCurrentWindow": "Otvoriť vybrané v aktuálnom okne",
+    "windowCount": "{{count}} okná",
+    "tabCount": "{{count}} karty",
+    "Window": "Okno",
+    "OpenInCurrentWindow": "Otvoriť v aktuálnom okne",
+    "OpenInNewWindow": "Otvoriť v novom okne",
+    "ResetSelection": "Obnoviť výber",
+    "snapshotCreatedSuccess": "Snímka bola úspešne vytvorená",
+    "snapshotCreatedFailed": "Vytvorenie snímky zlyhalo",
+    "snapshotDeletedSuccess": "Snímka bola úspešne odstránená",
+    "snapshotDeletedFailed": "Odstránenie snímky zlyhalo",
+    "importSnapshot": "Importovať snímku",
+    "snapshotImportFailedDuplicate": "Import snímky zlyhal, duplicitná snímka",
+    "snapshotImportedSuccess": "{{count}} snímka bola úspešne importovaná",
+    "snapshotImportFailed": "{{count}} import snímky zlyhal {{error}}"
   }
 }

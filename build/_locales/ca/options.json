@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Obre el panell lateral per previsualitzar",
+  "OpenSidePanelToPreview": "Obre el panell lateral per previsualitzar",
   "_execute_action": "Activa aquesta extensió",
   "openSidePanel": "Obre el panell lateral",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Acció en fer clic a la icona de l'extensió",
         "description": "Estableix l'acció en fer clic a la icona de l'extensió",
         "openPopup": "Obre el popup",
-        "openSidePanel": "Obre el panell lateral"
+        "openSidePanel": "Obre el panell lateral",
+        "SmallWindowAlert": "Si el panell lateral ocupa massa espai, es recomana utilitzar una finestra emergent"
       },
       "SidePanelPosition": {
         "label": "Posició del panell lateral",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Mostra la barra de navegació inferior",
-        "description": "Quan està habilitat, es mostra la barra de navegació inferior"
+        "description": "Quan està habilitat, es mostra la barra de navegació inferior",
+        "configure": "configura",
+        "configureBottomNav": "Configura la navegació inferior",
+        "enabledNavs": "Navegacions habilitades",
+        "disabledNavs": "Navegacions deshabilitades (disponibles)",
+        "showLabel": "Mostra l'etiqueta",
+        "close": "Tanca",
+        "save": "Desa",
+        "settings": "Configuració",
+        "version": "Versió",
+        "more": "Més",
+        "newTab": "Nova pestanya",
+        "recentlyTabs": "Pestanyes tancades recentment",
+        "bookmarks": "Adreces d'interès",
+        "history": "Historial",
+        "readingList": "Llista de lectura",
+        "quickAccess": "Accés ràpid",
+        "search": "Cerca",
+        "createSnapshot": "Crea una instantània",
+        "collapseAll": "Redueix-ho tot",
+        "scrollToActiveTab": "Desplaça't a la pestanya activa",
+        "muteAllTabs": "Silencia totes les pestanyes",
+        "themeModes": "Modes de tema",
+        "viewModes": "Modes de visualització",
+        "showBy": "Mostra per",
+        "sortBy": "Ordena per",
+        "createTabPanel": "Crea un panell de pestanyes",
+        "tabPanels": "Panells de pestanyes",
+        "pinToToolbarReminder": "Si us plau, fixa l'extensió a la barra d'eines abans d'eliminar aquesta navegació."
       },
       "buttonPosition": {
         "label": "Posició dels botons",
@@ -185,6 +214,23 @@
       "pinedTabsAsIcons": {
         "label": "Mostra les pestanyes fixades com a icones",
         "description": "Quan està habilitat, les pestanyes fixades es mostraran com a icones i no a la llista"
+      },
+      "pinToQuickAccess": {
+        "label": "Mostra accés ràpid",
+        "description": "Pots configurar una pestanya perquè aparegui a l'Accés ràpid per trobar-la fàcilment. Només cal fer clic dret (o una pressió llarga) i seleccionar 'Fixar a l'Accés ràpid'. Desfixa-la quan ja no la necessitis fent clic dret (o una pressió llarga) i seleccionant 'Eliminar de l'Accés ràpid'. La diferència amb les pestanyes fixades és que l'Accés ràpid desa la URL i obre una nova pestanya cada vegada que es fa clic."
+      },
+      "selectFromHistory": {
+        "label": "Selecciona de l'historial",
+        "description": "Si necessites seleccionar de l'historial, es requereix la teva autorització",
+        "numberOfDays": "Nombre de dies",
+        "numberOfUrls": "Nombre de URLs",
+        "cancel": "Cancel·la",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecciona elements per afegir a l'accés ràpid:",
+        "selectAll": "Selecciona-ho tot",
+        "addSelected": "Afegeix seleccionats",
+        "addedSuccess": "S'han afegit {{count}} elements a l'accés ràpid.",
+        "deniedMessage": "Has denegat el permís necessari, per tant, la configuració no ha canviat. Si canvies d'opinió, torna a fer clic i autoritza"
       },
       "collapsedGroupShowTabIcons": {
         "label": "Mostra icones de llocs web en col·lapsar grups",
@@ -419,6 +465,23 @@
         "downloadOnly": "Només baixar",
         "staySynchronized": "Mantenir sincronitzat",
         "globaldisabledTips": "Heu d'activar la sincronització a la configuració global per modificar aquesta configuració."
+      },
+      "linkSettings": {
+        "label": "Configuració d'enllaços",
+        "description": "Defineix com s'han de gestionar els enllaços en aquest lloc.",
+        "configure": "Configurar",
+        "listTips": "Arrossega i deixa anar per ordenar. Les regles amb més prioritat es col·loquen a la part superior. Un cop es compleixi una regla, les següents no s'aplicaran.",
+        "linkMatchContent": "Contingut de coincidència d'enllaç",
+        "linkMatchContentTips": "Admet expressions regulars. Per exemple, utilitza '*' per coincidir amb qualsevol nombre de caràcters i '?' per coincidir amb un sol caràcter.",
+        "linkOpenMethod": "Mètode d'obertura d'enllaç",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Pestanya actual",
+        "target_blank": "Nova pestanya",
+        "target_parent": "Pestanya pare",
+        "target_top": "Pestanya superior",
+        "save": "Desar",
+        "close": "Tancar"
       }
     },
     "importAndExport": {
@@ -431,7 +494,8 @@
         "quickAccessWarning": "La icona d'un lloc web no visitat pot mostrar-se de manera anormal. No et preocupis, es mostrarà normalment després de visitar-lo i reiniciar el navegador.",
         "siteConfig": "Configuració del lloc",
         "siteConfigInfo": "com ara descartable automàticament, picture-in-picture en canvi de pestanya, barra de progrés de lectura, barra de progrés de reproducció, etc.",
-        "recentlyTabs": "Pestanyes tancades recentment"
+        "recentlyTabs": "Pestanyes tancades recentment",
+        "snapshots":"Captures de pantalla"
       },
       "cancelBtn": "Cancel·la",
       "exportBtn": "Exportar",
@@ -496,5 +560,28 @@
         "staySynchronized": "Mantenir sincronitzat"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visualitzador de snapshots",
+    "description": "Crea i gestiona snapshots.",
+    "createSnapshot": "Crear snapshot",
+    "exportSnapshot": "Exportar snapshot",
+    "openAllWindows": "Obrir totes les finestres",
+    "openSelectedInNewWindow": "Obrir seleccionats en una nova finestra",
+    "openSelectedInCurrentWindow": "Obrir seleccionats en la finestra actual",
+    "windowCount": "{{count}} finestres",
+    "tabCount": "{{count}} pestanyes",
+    "Window": "Finestra",
+    "OpenInCurrentWindow": "Obrir en la finestra actual",
+    "OpenInNewWindow": "Obrir en una nova finestra",
+    "ResetSelection": "Restablir selecció",
+    "snapshotCreatedSuccess": "Snapshot creat correctament",
+    "snapshotCreatedFailed": "Error en crear el snapshot",
+    "snapshotDeletedSuccess": "Snapshot eliminat correctament",
+    "snapshotDeletedFailed": "Error en eliminar el snapshot",
+    "importSnapshot": "Importar snapshot",
+    "snapshotImportFailedDuplicate": "Error en importar el snapshot, snapshot duplicat",
+    "snapshotImportedSuccess": "{{count}} snapshot importat correctament",
+    "snapshotImportFailed": "{{count}} error en importar el snapshot {{error}}"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Färgglada Sidopanelflikar"
+    "message": "VertiTab - Vertikala flikar i sidopanelen"
   },
   "appShortName": {
-    "message": "kaninpar"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Hantera webbläsarflikar i sidopanelen"
+    "message": "Hantera webbläsarflikar i sidopanelen med konfigurerbara, förskönande och många andra funktioner"
   },
   "openSidePanel": {
-    "message": "Öppna Sidopanel"
+    "message": "Öppna sidopanelen"
   }
 }

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Schede del pannello laterale colorato"
+    "message": "VertiTab - Schede Verticali nel Pannello Laterale"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gestisci le schede del browser nel pannello laterale"
+    "message": "Gestisci le schede del browser nel pannello laterale con funzionalità configurabili, abbellimenti e molte altre caratteristiche"
   },
   "openSidePanel": {
-    "message": "Apri pannello laterale"
+    "message": "Apri Pannello Laterale"
   }
 }

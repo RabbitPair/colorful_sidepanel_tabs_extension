@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Šarene kartice bočne trake"
+    "message": "VertiTab - Vertikalne kartice u bočnom panelu"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Upravljajte karticama pregledača u bočnoj traci"
+    "message": "Upravljajte karticama pregledača u bočnom panelu sa podesivim, ulepšavajućim i mnogim drugim funkcijama"
   },
   "openSidePanel": {
-    "message": "Otvorite bočnu traku"
+    "message": "Otvorite bočni panel"
   }
 }

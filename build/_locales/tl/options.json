@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Buksan ang side panel upang ma-preview",
+  "OpenSidePanelToPreview": "Buksan ang side panel upang ma-preview",
   "_execute_action": "I-activate ang extension na ito",
   "openSidePanel": "Buksan ang side panel",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Aksyon kapag i-click ang icon ng extension",
         "description": "Itakda ang aksyon kapag i-click ang icon ng extension",
         "openPopup": "Buksan ang popup",
-        "openSidePanel": "Buksan ang side panel"
+        "openSidePanel": "Buksan ang side panel",
+        "SmallWindowAlert": "Kung masyadong malaki ang espasyo na kinukuha ng side panel, inirerekomenda na gumamit ka ng pop-up window"
       },
       "SidePanelPosition": {
         "label": "Posisyon ng side panel",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Ipakita ang bar ng bottom navigation",
-        "description": "Kapag pinagana, ipapakita ang bar ng bottom navigation"
+        "description": "Kapag pinagana, makikita ang bottom navigation bar",
+        "configure": "i-configure",
+        "configureBottomNav": "I-configure ang Bottom Navigation",
+        "enabledNavs": "Mga Aktibong Navigation",
+        "disabledNavs": "Mga Hindi Aktibong Navigation (Magagamit)",
+        "showLabel": "Ipakita ang Label",
+        "close": "Isara",
+        "save": "I-save",
+        "settings": "Mga Setting",
+        "version": "Bersyon",
+        "more": "Higit Pa",
+        "newTab": "Bagong Tab",
+        "recentlyTabs": "Kamakailang Isinara na Mga Tab",
+        "bookmarks": "Mga Bookmark",
+        "history": "Kasaysayan",
+        "readingList": "Listahan ng Babasahin",
+        "quickAccess": "Mabilis na Pag-access",
+        "search": "Maghanap",
+        "createSnapshot": "Gumawa ng Snapshot",
+        "collapseAll": "I-collapse Lahat",
+        "scrollToActiveTab": "Mag-scroll sa Aktibong Tab",
+        "muteAllTabs": "I-mute ang Lahat ng Tab",
+        "themeModes": "Mga Tema",
+        "viewModes": "Mga Mode ng Pagtingin",
+        "showBy": "Ipakita Ayon Sa",
+        "sortBy": "Ayusin Ayon Sa",
+        "createTabPanel": "Gumawa ng Tab Panel",
+        "tabPanels": "Mga Tab Panel",
+        "pinToToolbarReminder": "Pakipin ang extension sa iyong toolbar bago alisin ang navigation na ito."
       },
       "buttonPosition": {
         "label": "Posisyon ng button",
@@ -436,6 +465,23 @@
         "downloadOnly": "I-download lamang",
         "staySynchronized": "Manatiling naka-sync",
         "globaldisabledTips": "Kailangan mong i-on ang sync sa Global Settings para baguhin ang setting na ito."
+      },
+      "linkSettings": {
+        "label": "Mga Setting ng Link",
+        "description": "I-configure kung paano hahawakan ang mga link sa site na ito.",
+        "configure": "I-configure",
+        "listTips": "I-drag at i-drop upang ayusin. Ang mga patakaran na may mas mataas na priyoridad ay ilalagay sa itaas. Kapag may natugmang patakaran, ang mga susunod na patakaran ay hindi na ipapatupad.",
+        "linkMatchContent": "Nilalaman ng Pagtutugma ng Link",
+        "linkMatchContentTips": "Sumusuporta sa mga regular na ekspresyon. Halimbawa, gamitin ang '*' upang tumugma sa anumang bilang ng mga karakter at '?' upang tumugma sa isang karakter.",
+        "linkOpenMethod": "Paraan ng Pagbukas ng Link",
+        "edit": "I-edit",
+        "delete": "Tanggalin",
+        "target_self": "Kasalukuyang Tab",
+        "target_blank": "Bagong Tab",
+        "target_parent": "Parent Tab",
+        "target_top": "Pinaka-itaas na Tab",
+        "save": "I-save",
+        "close": "Isara"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Ang icon ng isang hindi pa nabibisitang website ay maaaring magpakita ng abnormal. Huwag mag-alala, magpapakita ito ng normal pagkatapos mong bisitahin at i-restart ang browser.",
         "siteConfig": "Mga Setting ng Site",
         "siteConfigInfo": "tulad ng auto discardable, picture-in-picture sa Pag-switch ng Tab, bar ng pag-unlad sa pagbasa, bar ng pag-unlad sa pagpe-play, atbp.",
-        "recentlyTabs": "Kamakailang isinara na mga tab"
+        "recentlyTabs": "Kamakailang isinara na mga tab",
+        "snapshots": "Mga Larawan ng Kasalukuyang Estado"
       },
       "cancelBtn": "Kanselahin",
       "exportBtn": "I-export",
@@ -513,5 +560,28 @@
         "staySynchronized": "Manatiling naka-synchronize"
       }
     }
+  },
+  "snapshots": {
+    "title": "Tagapagpakita ng mga Snapshot",
+    "description": "Lumikha at pamahalaan ang mga snapshot.",
+    "createSnapshot": "Lumikha ng Snapshot",
+    "exportSnapshot": "I-export ang Snapshot",
+    "openAllWindows": "Buksan ang Lahat ng Mga Bintana",
+    "openSelectedInNewWindow": "Buksan ang Napili sa Bagong Bintana",
+    "openSelectedInCurrentWindow": "Buksan ang Napili sa Kasalukuyang Bintana",
+    "windowCount": "{{count}} Mga Bintana",
+    "tabCount": "{{count}} Mga Tab",
+    "Window": "Bintana",
+    "OpenInCurrentWindow": "Buksan sa Kasalukuyang Bintana",
+    "OpenInNewWindow": "Buksan sa Bagong Bintana",
+    "ResetSelection": "I-reset ang Pagpili",
+    "snapshotCreatedSuccess": "Matagumpay na nalikha ang snapshot",
+    "snapshotCreatedFailed": "Nabigo ang paglikha ng snapshot",
+    "snapshotDeletedSuccess": "Matagumpay na natanggal ang snapshot",
+    "snapshotDeletedFailed": "Nabigo ang pagtanggal ng snapshot",
+    "importSnapshot": "I-import ang Snapshot",
+    "snapshotImportFailedDuplicate": "Nabigo ang pag-import ng snapshot, duplicate na snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshot matagumpay na na-import",
+    "snapshotImportFailed": "{{count}} Snapshot nabigo ang pag-import {{error}}"
   }
 }

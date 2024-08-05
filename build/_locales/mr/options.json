@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "पूर्वावलोकनासाठी साइड पॅनेल उघडा",
+  "OpenSidePanelToPreview": "पूर्वावलोकनासाठी साइड पॅनेल उघडा",
   "_execute_action": "हे विस्तार सक्रिय करा",
   "openSidePanel": "साइड पॅनेल उघडा",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "विस्तार चिन्ह क्रिया क्लिक करा",
         "description": "विस्तार चिन्ह क्लिक करताना क्रिया सेट करा",
         "openPopup": "पॉपअप उघडा",
-        "openSidePanel": "साइड पॅनेल उघडा"
+        "openSidePanel": "साइड पॅनेल उघडा",
+        "SmallWindowAlert": "जर साइड पॅनेल खूप जागा घेत असेल, तर पॉप-अप विंडो वापरण्याची शिफारस केली जाते"
       },
       "SidePanelPosition": {
         "label": "साइड पॅनेल स्थिती",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "तळाशी नेव्हिगेशन बार दर्शवा",
-        "description": "सक्षम केल्यावर, तळाशी नेव्हिगेशन बार प्रदर्शित होईल"
+        "description": "सक्षम केल्यावर, खालचा नेव्हिगेशन बार दिसेल",
+        "configure": "कॉन्फिगर",
+        "configureBottomNav": "खालचा नेव्हिगेशन कॉन्फिगर करा",
+        "enabledNavs": "सक्षम नेव्हिगेशन्स",
+        "disabledNavs": "अक्षम नेव्हिगेशन्स (उपलब्ध)",
+        "showLabel": "लेबल दाखवा",
+        "close": "बंद करा",
+        "save": "जतन करा",
+        "settings": "सेटिंग्ज",
+        "version": "आवृत्ती",
+        "more": "अधिक",
+        "newTab": "नवीन टॅब",
+        "recentlyTabs": "अलीकडे बंद केलेले टॅब",
+        "bookmarks": "बुकमार्क्स",
+        "history": "इतिहास",
+        "readingList": "वाचन सूची",
+        "quickAccess": "त्वरित प्रवेश",
+        "search": "शोधा",
+        "createSnapshot": "स्नॅपशॉट तयार करा",
+        "collapseAll": "सर्व संक्षिप्त करा",
+        "scrollToActiveTab": "सक्रिय टॅबवर स्क्रोल करा",
+        "muteAllTabs": "सर्व टॅब म्यूट करा",
+        "themeModes": "थीम मोड्स",
+        "viewModes": "दृश्य मोड्स",
+        "showBy": "दाखवा",
+        "sortBy": "क्रमानुसार लावा",
+        "createTabPanel": "टॅब पॅनेल तयार करा",
+        "tabPanels": "टॅब पॅनेल्स",
+        "pinToToolbarReminder": "कृपया हे नेव्हिगेशन काढण्यापूर्वी विस्तार आपल्या टूलबारवर पिन करा."
       },
       "buttonPosition": {
         "label": "बटण स्थिती",
@@ -436,6 +465,23 @@
         "downloadOnly": "फक्त डाउनलोड",
         "staySynchronized": "सिंकच्या स्थितीत राहा",
         "globaldisabledTips": "आपल्याला ग्लोबल सेटिंगमध्ये सिंक सक्षम करायची आहे ती बदलण्यासाठी."
+      },
+      "linkSettings": {
+        "label": "लिंक सेटिंग्ज",
+        "description": "या साइटवरील लिंक कशा हाताळायच्या ते कॉन्फिगर करा.",
+        "configure": "कॉन्फिगर करा",
+        "listTips": "क्रम लावण्यासाठी ड्रॅग आणि ड्रॉप करा. उच्च प्राधान्य नियम वर ठेवले जातात. एकदा नियम जुळल्यावर, पुढील नियम लागू केले जाणार नाहीत.",
+        "linkMatchContent": "लिंक सामग्री जुळवा",
+        "linkMatchContentTips": "नियमित अभिव्यक्तीला समर्थन देते. उदाहरणार्थ, कोणत्याही संख्येने वर्ण जुळवण्यासाठी '*' वापरा आणि एकच वर्ण जुळवण्यासाठी '?' वापरा.",
+        "linkOpenMethod": "लिंक उघडण्याची पद्धत",
+        "edit": "संपादित करा",
+        "delete": "हटवा",
+        "target_self": "सध्याचा टॅब",
+        "target_blank": "नवीन टॅब",
+        "target_parent": "पालक टॅब",
+        "target_top": "सर्वात वरचा टॅब",
+        "save": "जतन करा",
+        "close": "बंद करा"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "अभ्यागत नसलेल्या वेबसाइटचे चिन्ह असामान्यरित्या प्रदर्शित होऊ शकते. काळजी करू नका, आपण ब्राउझर पुन्हा सुरू केल्यानंतर ते सामान्यपणे प्रदर्शित होईल.",
         "siteConfig": "साइट सेटिंग्ज",
         "siteConfigInfo": "जसे की स्वयं ठेवण्यायोग्य, टॅब स्विचवर पिक्चर-इन-पिक्चर, वाचन प्रगती बार, खेळण्याची प्रगती बार इत्यादी.",
-        "recentlyTabs": "अलीकडे बंद केलेले टॅब"
+        "recentlyTabs": "अलीकडे बंद केलेले टॅब",
+        "snapshots": "स्नॅपशॉट्स"
       },
       "cancelBtn": "रद्द करा",
       "exportBtn": "निर्यात",
@@ -513,5 +560,28 @@
         "staySynchronized": "सिंकच्या स्थितीत राहा"
       }
     }
+  },
+  "snapshots": {
+    "title": "स्नॅपशॉट्स दर्शक",
+    "description": "स्नॅपशॉट्स तयार करा आणि व्यवस्थापित करा.",
+    "createSnapshot": "स्नॅपशॉट तयार करा",
+    "exportSnapshot": "स्नॅपशॉट निर्यात करा",
+    "openAllWindows": "सर्व विंडोज उघडा",
+    "openSelectedInNewWindow": "नवीन विंडोमध्ये निवडलेले उघडा",
+    "openSelectedInCurrentWindow": "सध्याच्या विंडोमध्ये निवडलेले उघडा",
+    "windowCount": "{{count}} विंडोज",
+    "tabCount": "{{count}} टॅब्स",
+    "Window": "विंडो",
+    "OpenInCurrentWindow": "सध्याच्या विंडोमध्ये उघडा",
+    "OpenInNewWindow": "नवीन विंडोमध्ये उघडा",
+    "ResetSelection": "निवड रीसेट करा",
+    "snapshotCreatedSuccess": "स्नॅपशॉट यशस्वीरित्या तयार केले",
+    "snapshotCreatedFailed": "स्नॅपशॉट तयार करण्यात अयशस्वी",
+    "snapshotDeletedSuccess": "स्नॅपशॉट यशस्वीरित्या हटवले",
+    "snapshotDeletedFailed": "स्नॅपशॉट हटवण्यात अयशस्वी",
+    "importSnapshot": "स्नॅपशॉट आयात करा",
+    "snapshotImportFailedDuplicate": "स्नॅपशॉट आयात अयशस्वी, डुप्लिकेट स्नॅपशॉट",
+    "snapshotImportedSuccess": "{{count}} स्नॅपशॉट यशस्वीरित्या आयात केले",
+    "snapshotImportFailed": "{{count}} स्नॅपशॉट आयात अयशस्वी {{error}}"
   }
 }

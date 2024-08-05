@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Ouvri bò kote panèl pou wè",
+  "OpenSidePanelToPreview": "Ouvri bò kote panèl pou wè",
   "_execute_action": "Aktive ekstansyon sa a",
   "openSidePanel": "Ouvri panèl bò kote",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Aksyon klike sou ikòn ekstansyon an",
         "description": "Chwazi aksyon lè klike sou ikòn ekstansyon an",
         "openPopup": "Ouvri popup",
-        "openSidePanel": "Ouvri panèl bò kote"
+        "openSidePanel": "Ouvri panèl bò kote",
+        "SmallWindowAlert": "Si panèl bò kote a okipe twòp espas, li rekòmande pou w itilize yon fenèt popup"
       },
       "SidePanelPosition": {
         "label": "Pozisyon panèl bò kote",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Montre baryè navigasyon anba",
-        "description": "Lè aktive, baryè navigasyon anba a afiche"
+        "description": "Lè aktive, ba navigasyon anba a ap parèt",
+        "configure": "konfigire",
+        "configureBottomNav": "Konfigire Navigasyon Anba",
+        "enabledNavs": "Navigasyon Aktive",
+        "disabledNavs": "Navigasyon Dezaktive (Disponib)",
+        "showLabel": "Montre Etikèt",
+        "close": "Fèmen",
+        "save": "Sove",
+        "settings": "Anviwònman",
+        "version": "Vèsyon",
+        "more": "Plis",
+        "newTab": "Nouvo Tab",
+        "recentlyTabs": "Tab Fèmen Resamman",
+        "bookmarks": "Makè",
+        "history": "Istwa",
+        "readingList": "Lis Lekti",
+        "quickAccess": "Aksè Rapid",
+        "search": "Chèche",
+        "createSnapshot": "Kreye Snapshot",
+        "collapseAll": "Kontrakte Tout",
+        "scrollToActiveTab": "Defile nan Tab Aktif la",
+        "muteAllTabs": "Fèmen Son Tout Tab yo",
+        "themeModes": "Mòd Tèm",
+        "viewModes": "Mòd Gade",
+        "showBy": "Montre Pa",
+        "sortBy": "Triye Pa",
+        "createTabPanel": "Kreye Panèl Tab",
+        "tabPanels": "Panèl Tab yo",
+        "pinToToolbarReminder": "Tanpri fikse ekstansyon an nan ba zouti ou anvan ou retire navigasyon sa a."
       },
       "buttonPosition": {
         "label": "Pozisyon bouton yo",
@@ -436,6 +465,23 @@
         "downloadOnly": "Sèlman Download",
         "staySynchronized": "Releve senkronize",
         "globaldisabledTips": "Ou dwe aktive senkronizasyon nan Anviwònman Global la pou modifye anviwònman sa a."
+      },
+      "linkSettings": {
+        "label": "Anviwònman Lyen",
+        "description": "Konfigire kijan pou jere lyen sou sit sa a.",
+        "configure": "Konfigire",
+        "listTips": "Trennen ak lage pou klase. Règ ki gen pi gwo priyorite yo mete nan tèt. Yon fwa yon règ matche, règ ki vin apre yo p'ap aplike.",
+        "linkMatchContent": "Kontni Matche Lyen",
+        "linkMatchContentTips": "Sipòte ekspresyon regilye. Pa egzanp, itilize '*' pou matche ak nenpòt kantite karaktè ak '?' pou matche ak yon sèl karaktè.",
+        "linkOpenMethod": "Metòd Ouvèti Lyen",
+        "edit": "Modifye",
+        "delete": "Efase",
+        "target_self": "Tab Kouran",
+        "target_blank": "Nouvo Tab",
+        "target_parent": "Tab Paran",
+        "target_top": "Tab Pi Wo",
+        "save": "Sove",
+        "close": "Fèmen"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Ikòn yon sit entènèt ou poko vizite ka parèt anòmal. Pa enkyete, li pral parèt nòmalman apre ou vizite epi rekòmanse navigatè a.",
         "siteConfig": "Anviwònman Sit",
         "siteConfigInfo": "tankou otomatik jete, imaj nan imaj sou Tab Switch, bar pwogrè lekti, bar pwogrè jwe, elatriye.",
-        "recentlyTabs": "Tab fèmen dènyèman"
+        "recentlyTabs": "Tab fèmen dènyèman",
+        "snapshots":"Ekran Konjelasyon"
       },
       "cancelBtn": "Anile",
       "exportBtn": "Eksportasyon",
@@ -513,5 +560,28 @@
         "staySynchronized": "Releve senkronize"
       }
     }
+  },
+  "snapshots": {
+    "title": "Vizyalizatè Snapshots",
+    "description": "Kreye ak jere snapshots.",
+    "createSnapshot": "Kreye Snapshot",
+    "exportSnapshot": "Ekspòte Snapshot",
+    "openAllWindows": "Louvri Tout Fenèt yo",
+    "openSelectedInNewWindow": "Louvri Seleksyon an nan Nouvo Fenèt",
+    "openSelectedInCurrentWindow": "Louvri Seleksyon an nan Fenèt Kouran",
+    "windowCount": "{{count}} Fenèt",
+    "tabCount": "{{count}} Onglè",
+    "Window": "Fenèt",
+    "OpenInCurrentWindow": "Louvri nan Fenèt Kouran",
+    "OpenInNewWindow": "Louvri nan Nouvo Fenèt",
+    "ResetSelection": "Reyajiste Seleksyon",
+    "snapshotCreatedSuccess": "Snapshot kreye avèk siksè",
+    "snapshotCreatedFailed": "Snapshot pa t kreye",
+    "snapshotDeletedSuccess": "Snapshot efase avèk siksè",
+    "snapshotDeletedFailed": "Snapshot pa t efase",
+    "importSnapshot": "Enpòte Snapshot",
+    "snapshotImportFailedDuplicate": "Enpòte snapshot echwe, snapshot deja egziste",
+    "snapshotImportedSuccess": "{{count}} Snapshot enpòte avèk siksè",
+    "snapshotImportFailed": "{{count}} Snapshot enpòte echwe {{error}}"
   }
 }

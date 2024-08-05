@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Värvilised külgpaneeli vahekaardid"
+    "message": "VertiTab - Vertikaalsed vahekaardid külgpaneelil"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Halda brauseri vahekaarte külgpaneelil"
+    "message": "Halda brauseri vahekaarte külgpaneelil koos konfigureeritavate, kaunistavate ja paljude teiste funktsioonidega"
   },
   "openSidePanel": {
     "message": "Ava külgpaneel"

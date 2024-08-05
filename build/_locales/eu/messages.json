@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kudeaketa fitxa koloretsua"
+    "message": "VertiTab - Fitxa bertikalak alboko panelean"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Kudeatu fitxak alboko panelean, oso ederra hain ona izateko."
+    "message": "Kudeatu nabigatzailearen fitxak alboko panelean, konfigura daitezkeen, edertzeko eta beste hainbat ezaugarrirekin"
   },
   "openSidePanel": {
-    "message": "Ireki alboko barra"
+    "message": "Ireki alboko panela"
   }
 }

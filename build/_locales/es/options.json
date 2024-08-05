@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Mostrar barra de navegación inferior",
-        "description": "Cuando está habilitado, se muestra la barra de navegación inferior"
+        "description": "Cuando está habilitado, se muestra la barra de navegación inferior",
+        "configure": "configurar",
+        "configureBottomNav": "Configurar barra de navegación inferior",
+        "enabledNavs": "Navegaciones habilitadas",
+        "disabledNavs": "Navegaciones deshabilitadas (disponibles)",
+        "showLabel": "Mostrar etiqueta",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "settings": "Configuraciones",
+        "version": "Versión",
+        "more": "Más",
+        "newTab": "Nueva pestaña",
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "search": "Buscar",
+        "createSnapshot": "Crear instantánea",
+        "collapseAll": "Colapsar todo",
+        "scrollToActiveTab": "Desplazarse a la pestaña activa",
+        "muteAllTabs": "Silenciar todas las pestañas",
+        "themeModes": "Modos de tema",
+        "viewModes": "Modos de vista",
+        "showBy": "Mostrar por",
+        "sortBy": "Ordenar por",
+        "createTabPanel": "Crear panel de pestañas",
+        "tabPanels": "Paneles de pestañas",
+        "pinToToolbarReminder": "Por favor, fija la extensión en tu barra de herramientas antes de eliminar esta navegación."
       },
       "buttonPosition": {
         "label": "Posición de los botones",
@@ -437,6 +465,23 @@
         "downloadOnly": "Solo descargar",
         "staySynchronized": "Mantener sincronizado",
         "globaldisabledTips": "Debe activar la sincronización en la configuración global para modificar esta configuración."
+      },
+      "linkSettings": {
+        "label": "Configuración de Enlaces",
+        "description": "Ajuste cómo se deben manejar los enlaces en este sitio.",
+        "configure": "Configurar",
+        "listTips": "Arrastre y suelte para ordenar. Las reglas con mayor prioridad se colocan en la parte superior. Una vez que se cumple una regla, las siguientes no se aplicarán.",
+        "linkMatchContent": "Contenido de Coincidencia de Enlaces",
+        "linkMatchContentTips": "Admite expresiones regulares. Por ejemplo, use '*' para coincidir con cualquier número de caracteres y '?' para coincidir con un solo carácter.",
+        "linkOpenMethod": "Método de Apertura de Enlaces",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Pestaña Actual",
+        "target_blank": "Nueva Pestaña",
+        "target_parent": "Pestaña Padre",
+        "target_top": "Pestaña Superior",
+        "save": "Guardar",
+        "close": "Cerrar"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "El icono de un sitio web no visitado puede mostrarse de manera anormal. No se preocupe, se mostrará normalmente después de que visite y reinicie el navegador.",
         "siteConfig": "Configuración del sitio",
         "siteConfigInfo": "como descarte automático, imagen en imagen al cambiar de pestaña, barra de progreso de lectura, barra de progreso de reproducción, etc.",
-        "recentlyTabs": "Pestañas cerradas recientemente"
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "snapshots":"Capturas de pantalla"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -514,5 +560,28 @@
         "staySynchronized": "Mantener sincronizado"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visor de Instantáneas",
+    "description": "Cree y gestione instantáneas.",
+    "createSnapshot": "Crear Instantánea",
+    "exportSnapshot": "Exportar Instantánea",
+    "openAllWindows": "Abrir Todas las Ventanas",
+    "openSelectedInNewWindow": "Abrir Seleccionadas en Nueva Ventana",
+    "openSelectedInCurrentWindow": "Abrir Seleccionadas en Ventana Actual",
+    "windowCount": "{{count}} Ventanas",
+    "tabCount": "{{count}} Pestañas",
+    "Window": "Ventana",
+    "OpenInCurrentWindow": "Abrir en Ventana Actual",
+    "OpenInNewWindow": "Abrir en Nueva Ventana",
+    "ResetSelection": "Restablecer Selección",
+    "snapshotCreatedSuccess": "Instantánea creada con éxito",
+    "snapshotCreatedFailed": "Error al crear la instantánea",
+    "snapshotDeletedSuccess": "Instantánea eliminada con éxito",
+    "snapshotDeletedFailed": "Error al eliminar la instantánea",
+    "importSnapshot": "Importar Instantánea",
+    "snapshotImportFailedDuplicate": "Error al importar la instantánea, instantánea duplicada",
+    "snapshotImportedSuccess": "{{count}} Instantánea importada con éxito",
+    "snapshotImportFailed": "{{count}} Error al importar la instantánea {{error}}"
   }
 }

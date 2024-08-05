@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Jesyon Onglet Bò Kote Kolore"
+    "message": "VertiTab - Onglèt Vètikal nan Panèl Bò"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Jere onglèt yo nan panèl bò a, Twò bèl pou yo ka bon konsa."
+    "message": "Jere onglèt navigatè nan panèl bò ak karakteristik konfigirab, bèl ak anpil lòt"
   },
   "openSidePanel": {
-    "message": "Ouvri Panèl Bò"
+    "message": "Louvri Panèl Bò"
   }
 }

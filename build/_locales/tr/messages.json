@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Renkli Yan Panel Sekmeleri"
+    "message": "VertiTab - Yan Panelde Dikey Sekmeler"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Tarayıcı sekmelerini yan panelde yönetin"
+    "message": "Yapılandırılabilir, güzelleştirici ve birçok diğer özellik ile tarayıcı sekmelerini yan panelde yönetin"
   },
   "openSidePanel": {
     "message": "Yan Paneli Aç"

@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "แท็บแถบด้านข้างที่มีสีสัน"
+    "message": "VertiTab - แท็บแนวตั้งในแผงด้านข้าง"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "จัดการแท็บเบราว์เซอร์ในแถบด้านข้าง"
+    "message": "จัดการแท็บเบราว์เซอร์ในแผงด้านข้างด้วยคุณสมบัติที่ปรับแต่งได้ สวยงาม และอื่น ๆ อีกมากมาย"
   },
   "openSidePanel": {
-    "message": "เปิดแถบด้านข้าง"
+    "message": "เปิดแผงด้านข้าง"
   }
 }

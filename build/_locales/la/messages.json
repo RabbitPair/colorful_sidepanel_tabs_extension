@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Administratio tabulæ lateralis coloratæ"
+    "message": "VertiTab - Tabulae Verticales in Tabulā Laterali"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Tabulas in latere gestas, nimis pulchrum ut tam bonum sit."
+    "message": "Dispone tabulas navigatrii in tabulā laterali cum configurabilibus, pulchris et multis aliis notis"
   },
   "openSidePanel": {
-    "message": "Aperi tabulam lateralem"
+    "message": "Aperi Tabulam Lateralem"
   }
 }

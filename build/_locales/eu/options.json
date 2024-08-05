@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Ireki alboko panela aurreikusteko",
+  "OpenSidePanelToPreview": "Ireki alboko panela aurreikusteko",
   "_execute_action": "Aktibatu luzapen hau",
   "openSidePanel": "Ireki alboko panela",
   "settings": {
@@ -52,11 +52,13 @@
         "label": "Klik egin luzapen ikonoari",
         "description": "Ezarri ekintza ikonoa klik egitean",
         "openPopup": "Ireki popup-a",
-        "openSidePanel": "Ireki alboko panela"
+        "openSidePanel": "Ireki alboko panela",
+        "SmallWindowAlert": "Alboko panela gehiegi zabaltzen bada, popup leiho bat erabiltzea gomendatzen da"
       },
       "SidePanelPosition": {
         "label": "Alboko panelaren posizioa",
-        "description": "Ezarri alboko panela ezkerrean edo eskuinean bistaratzen den"
+        "description": "Ezarri alboko panela ezkerrean edo eskuinean bistaratzen den",
+        "goToBrowserSettings": "Go to settings"
       },
       "searchBoxPosition": {
         "label": "Bilaketa-koadroaren posizioa",
@@ -84,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Erakutsi beheko nabigazio-barra",
-        "description": "Gaituta dagoenean, beheko nabigazio-barra bistaratzen da"
+        "description": "Aktibatuta dagoenean, beheko nabigazio-barra ikusgai egongo da",
+        "configure": "konfiguratu",
+        "configureBottomNav": "Konfiguratu Beheko Nabigazioa",
+        "enabledNavs": "Gaitutako Nabigazioak",
+        "disabledNavs": "Desgaitutako Nabigazioak (Eskuragarri)",
+        "showLabel": "Etiketa Erakutsi",
+        "close": "Itxi",
+        "save": "Gorde",
+        "settings": "Ezarpenak",
+        "version": "Bertsioa",
+        "more": "Gehiago",
+        "newTab": "Fitxa Berria",
+        "recentlyTabs": "Berriki Itxitako Fitxak",
+        "bookmarks": "Laster-markak",
+        "history": "Historia",
+        "readingList": "Irakurketa Zerrenda",
+        "quickAccess": "Sarbide Azkarra",
+        "search": "Bilatu",
+        "createSnapshot": "Sortu Argazkia",
+        "collapseAll": "Tolestu Guztiak",
+        "scrollToActiveTab": "Joan Aktibo Dagoen Fitxara",
+        "muteAllTabs": "Isildu Fitxa Guztiak",
+        "themeModes": "Gai Moduak",
+        "viewModes": "Ikuspegi Moduak",
+        "showBy": "Erakutsi Honela",
+        "sortBy": "Ordenatu Honela",
+        "createTabPanel": "Sortu Fitxa Panela",
+        "tabPanels": "Fitxa Panelak",
+        "pinToToolbarReminder": "Kendu aurretik, gehitu luzapena tresna-barran."
       },
       "buttonPosition": {
         "label": "Botoien posizioa",
@@ -218,7 +248,8 @@
       },
       "previewDelay": {
         "label": "Aurreikuspeneko atzerapena",
-        "description": "Ezarri fitxen gainean gurutzatzen denean edozerentzat aurreikuspenen atzerapena (segunduak). 0-ra ezarrita badago, ez da atzerik izango"
+        "description": "Ezarri fitxen gainean gurutzatzen denean edozerentzat aurreikuspenen atzerapena (segunduak). 0-ra ezarrita badago, ez da atzerik izango",
+        "seconds": "Seconds"
       }
     },
     "history": {
@@ -317,11 +348,15 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Gaitu irakurketa-irteera barra",
-        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean"
+        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
       },
       "readingProgressBar": {
         "label": "Irakurketa-irteera barra",
-        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean"
+        "description": "Gaituta dagoenean, irakurketa-irteera barra bistaratuko da fitxaren izenburu-barra behean",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
       },
       "scrollHeightRatio": {
         "label": "Gora-scrollaren altuera proportzioa",
@@ -331,7 +366,9 @@
       },
       "playingProgressBar": {
         "label": "Erreproduzitzen ari den irteera barra",
-        "description": "Gaituta dagoenean, erreproduzitzen ari den irteera barra bistaratuko da fitxaren izenburu-barra behean"
+        "description": "Gaituta dagoenean, erreproduzitzen ari den irteera barra bistaratuko da fitxaren izenburu-barra behean",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
       }
     },
     "floatBall": {
@@ -404,7 +441,8 @@
       },
       "tabSwitchPip": {
         "label": "PIP fitxan aldatzean",
-        "description": "Gaituta dagoenean, auto-sartu Picture-in-picture modura fitxak aldatzen direnean bideoa desgaitua duten fitxak."
+        "description": "Gaituta dagoenean, auto-sartu Picture-in-picture modura fitxak aldatzen direnean bideoa desgaitua duten fitxak.",
+         "globaldisabledTips": "Ezarpen hau aldatzeko, aktibatu Picture-in-picture ezarpen orokorretan."
       },
       "clearHistoyAfterCLose": {
         "label": "Garbitu historia itxi ondoren",
@@ -427,6 +465,23 @@
         "downloadOnly": "Deskargatu soilik",
         "staySynchronized": "Jarraitu sinkronizatuta",
         "globaldisabledTips": "Sinkronizatu ezarpenetan orokorrean gaitu behar duzu ezarpen hau aldatzeko."
+      },
+      "linkSettings": {
+        "label": "Esteken Ezarpenak",
+        "description": "Konfiguratu nola kudeatu behar diren estekak gune honetan.",
+        "configure": "Konfiguratu",
+        "listTips": "Arrastatu eta jaregin ordenatzeko. Lehentasun handiko arauak goian kokatzen dira. Arau bat bat datorrenean, ondorengo arauak ez dira aplikatuko.",
+        "linkMatchContent": "Esteken Eduki Bat etortzea",
+        "linkMatchContentTips": "Erregular adierazpenak onartzen ditu. Adibidez, erabili '*' edozein karaktere kopuru bat bat etortzeko eta '?' karaktere bakar bat bat etortzeko.",
+        "linkOpenMethod": "Estekak Irekitzeko Metodoa",
+        "edit": "Editatu",
+        "delete": "Ezabatu",
+        "target_self": "Uneko Fitxa",
+        "target_blank": "Fitxa Berria",
+        "target_parent": "Guraso Fitxa",
+        "target_top": "Goiko Fitxa",
+        "save": "Gorde",
+        "close": "Itxi"
       }
     },
     "importAndExport": {
@@ -439,7 +494,8 @@
         "quickAccessWarning": "Bisitatugabeko webgune baten ikonoa anormalki ager daiteke. Ez kezkatu, nabigatzailea bisitatu eta berrabiarazi ondoren normaltasunez agertuko da.",
         "siteConfig": "Gune Ezarpenak",
         "siteConfigInfo": "hala nola automatikoki baztergarria, fitxan aldatzean picture-in-picture, irakurketa aurrerapen barra, erreprodukzio aurrerapen barra, eta abar.",
-        "recentlyTabs": "Berriki itxitako fitxak"
+        "recentlyTabs": "Berriki itxitako fitxak",
+        "snapshots": "Argazkiak"
       },
       "cancelBtn": "Utzi",
       "exportBtn": "Esportatu",
@@ -504,5 +560,28 @@
         "staySynchronized": "Jarraitu sinkronizatuta"
       }
     }
+  },
+  "snapshots": {
+    "title": "Argazkiak Ikuslea",
+    "description": "Sortu eta kudeatu argazkiak.",
+    "createSnapshot": "Sortu Argazkia",
+    "exportSnapshot": "Esportatu Argazkia",
+    "openAllWindows": "Ireki Leiho Guztiak",
+    "openSelectedInNewWindow": "Ireki Hautatutakoak Leiho Berrian",
+    "openSelectedInCurrentWindow": "Ireki Hautatutakoak Uneko Leihoan",
+    "windowCount": "{{count}} Leiho",
+    "tabCount": "{{count}} Fitxa",
+    "Window": "Leihoa",
+    "OpenInCurrentWindow": "Ireki Uneko Leihoan",
+    "OpenInNewWindow": "Ireki Leiho Berrian",
+    "ResetSelection": "Berrezarri Hautapena",
+    "snapshotCreatedSuccess": "Argazkia ongi sortu da",
+    "snapshotCreatedFailed": "Argazkia sortzeak huts egin du",
+    "snapshotDeletedSuccess": "Argazkia ongi ezabatu da",
+    "snapshotDeletedFailed": "Argazkia ezabatzeak huts egin du",
+    "importSnapshot": "Inportatu Argazkia",
+    "snapshotImportFailedDuplicate": "Argazkia inportatzeak huts egin du, argazki bikoiztua",
+    "snapshotImportedSuccess": "{{count}} Argazki ongi inportatu da",
+    "snapshotImportFailed": "{{count}} Argazki inportatzeak huts egin du {{error}}"
   }
 }

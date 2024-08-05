@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "အတိုင်ပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
+  "OpenSidePanelToPreview": "အတိုင်ပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
   "_execute_action": "ဤပြည့်ကိုဖွင့်ပါ",
   "openSidePanel": "အပြင်အလွန်ဖွင့်ပါ",
   "settings": {
@@ -13,7 +13,8 @@
       "pip": "ပုံရိပ်အောက်တွင်ရှိပြီး",
       "chromeTabGroupAdvanced": "အဆိုပါအတိုင်းအသစ်များ",
       "progressBar": "တိုးတက်မှုဘား",
-      "floatBall": "ဖလော့ပေါ်အောက်တွင်ရှိပြီး"
+      "floatBall": "ဖလော့ပေါ်အောက်တွင်ရှိပြီး",
+      "experimentalFeatures": "စမ်းသပ်မှုအင်္ဂါရပ်များ"
     },
     "appearance": {
       "header": "ပြောင်းပြခြင်း",
@@ -51,7 +52,8 @@
         "label": "အဆိုပါအတိုင်းအသစ်အလုပ်လုပ်ပါပြီ",
         "description": "အဆိုပါအတိုင်းအသစ်အလုပ်လုပ်ပါပြီ",
         "openPopup": "ပေါ်ပြန်ပြီး",
-        "openSidePanel": "အပြင်အလွန်ဖွင့်ပါ"
+        "openSidePanel": "အပြင်အလွန်ဖွင့်ပါ",
+        "SmallWindowAlert": "ဘေးဘောင်အကန့်အသတ်များကြောင့်နေရာလုံလောက်မှုမရှိပါက၊ ပေါ်ပွားပေါက်ပေါက်ကိုအသုံးပြုရန်အကြံပြုပါသည်"
       },
       "SidePanelPosition": {
         "label": "အပြင်အလွန်ဖွင့်ပါပြီ",
@@ -84,7 +86,35 @@
       },
       "bottomNav": {
         "label": "အောက်အတွင်းလှပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
-        "description": "အောက်အတွင်းလှပြီးပြီးပြန်လည်သွင်းပြီးပြီး"
+        "description": "အောက်ခြေတွင်ရှိသော လမ်းညွှန်ဘားကို ပြင်ဆင်ပါ",
+        "configure": "ပြင်ဆင်ပါ",
+        "configureBottomNav": "အောက်ခြေ လမ်းညွှန်ဘားကို ပြင်ဆင်ပါ",
+        "enabledNavs": "ဖွင့်ထားသော လမ်းညွှန်များ",
+        "disabledNavs": "ပိတ်ထားသော လမ်းညွှန်များ (အသုံးပြုနိုင်သည်)",
+        "showLabel": "တံဆိပ်ပြပါ",
+        "close": "ပိတ်ပါ",
+        "save": "သိမ်းဆည်းပါ",
+        "settings": "ဆက်တင်များ",
+        "version": "ဗားရှင်း",
+        "more": "နောက်ထပ်",
+        "newTab": "အခြား Tab အသစ်",
+        "recentlyTabs": "မကြာသေးမီက ပိတ်ထားသော Tab များ",
+        "bookmarks": "စာအမှတ်အသားများ",
+        "history": "သမိုင်းကြောင်း",
+        "readingList": "ဖတ်ရှုစာရင်း",
+        "quickAccess": "အမြန်ဝင်ရောက်မှု",
+        "search": "ရှာဖွေပါ",
+        "createSnapshot": "SnapShot ဖန်တီးပါ",
+        "collapseAll": "အားလုံးကိုချုံ့ပါ",
+        "scrollToActiveTab": "လက်ရှိ Tab သို့လှိမ့်ပါ",
+        "muteAllTabs": "Tab များအားလုံးကိုတိတ်ဆိတ်စေပါ",
+        "themeModes": "အပြင်အဆင် မုဒ်များ",
+        "viewModes": "ကြည့်ရှုမုဒ်များ",
+        "showBy": "ပြသမှုအလိုက်",
+        "sortBy": "စီစဉ်မှုအလိုက်",
+        "createTabPanel": "Tab Panel ဖန်တီးပါ",
+        "tabPanels": "Tab Panel များ",
+        "pinToToolbarReminder": "ဤလမ်းညွှန်ကိုဖယ်ရှားမီ သင့် toolbar တွင် extension ကို pin လုပ်ပါ။"
       },
       "buttonPosition": {
         "label": "ခလုတ်အောက်တွင်ရှိပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
@@ -373,145 +403,185 @@
       }
     },
     "site": {
-      "label": "Site settings",
-      "allSites": "All sites",
-      "sortBy": "Sort by",
-      "mostVisited": "Most visited",
-      "dataStored": "Data stored",
-      "name": "Name",
-      "deleteAllData": "Delete all data",
-      "totalStorageUsedBySites": "Total storage used by sites",
-      "totalCount": "Total count",
+      "label": "ဆိုဒ်ဆက်တင်များ",
+      "allSites": "အားလုံးသောဆိုဒ်များ",
+      "sortBy": "စီစဉ်ရန်",
+      "mostVisited": "အများဆုံးလည်ပတ်ခဲ့သော",
+      "dataStored": "သိမ်းဆည်းထားသောဒေတာ",
+      "name": "နာမည်",
+      "deleteAllData": "ဒေတာအားလုံးကိုဖျက်ပါ",
+      "totalStorageUsedBySites": "ဆိုဒ်များမှအသုံးပြုထားသောစုစုပေါင်းသိုလှောင်မှု",
+      "totalCount": "စုစုပေါင်းအရေအတွက်",
       "addNewSite": {
-        "label": "Add new site",
-        "description": "Enter a new website address, such as 'www.example.com', and click 'Add'.",
-        "placeholder": "Website address, such as 'www.example.com'",
-        "add": "Add",
-        "cancel": "Cancel",
-        "invalidDomain": "Invalid website address"
+        "label": "ဆိုဒ်အသစ်ထည့်ပါ",
+        "description": "အသစ်သောဝဘ်ဆိုဒ်လိပ်စာကိုထည့်ပါ၊ ဥပမာ 'www.example.com' နှင့် 'ထည့်ပါ' ကိုနှိပ်ပါ။",
+        "placeholder": "ဝဘ်ဆိုဒ်လိပ်စာ၊ ဥပမာ 'www.example.com'",
+        "add": "ထည့်ပါ",
+        "cancel": "ပယ်ဖျက်ပါ",
+        "invalidDomain": "မမှန်ကန်သောဝဘ်ဆိုဒ်လိပ်စာ"
       },
       "browserSettings": {
-        "label": "Browser settings",
-        "description": "You can modify site settings, such as deleting data or changing site permissions.",
-        "goToBrowserSettings": "Go to browser settings"
+        "label": "ဘရောက်ဇာဆက်တင်များ",
+        "description": "ဆိုဒ်ဆက်တင်များကိုပြင်ဆင်နိုင်သည်၊ ဥပမာ ဒေတာဖျက်ခြင်း သို့မဟုတ် ဆိုဒ်ခွင့်ပြောင်းခြင်း။",
+        "goToBrowserSettings": "ဆက်တင်များသို့သွားပါ"
       },
       "autoDiscardable": {
-        "label": "Auto discardable",
-        "description": "When enabled, the tab will be allowed to be discarded by the browser, and if you turn on performance and set the time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded"
+        "label": "အလိုအလျောက်ဖျက်ခြင်း",
+        "description": "ဖွင့်ထားပါက၊ ဘရောက်ဇာမှတဘ်ကိုဖျက်ခွင့်ပြုမည်ဖြစ်ပြီး၊ စွမ်းဆောင်ရည်ကိုဖွင့်ပြီး မလုပ်ဆောင်သောတဘ်များကိုဖျက်ရန်အချိန်ကိုသတ်မှတ်ပါက၊ သတ်မှတ်ထားသောအချိန်အပြီးတွင်တဘ်ကိုဖျက်မည်ဖြစ်သည်။ ပိတ်ထားပါက၊ တဘ်ကိုမဖျက်ပါ။"
       },
       "readingProgressBar": {
-        "label": "Reading progress bar",
-        "description": "When enabled, a reading progress bar will be displayed below the tab title bar.",
-        "globaldisabledTips": "You must turn on the reading progress bar in the global settings to modify this setting."
+        "label": "ဖတ်ရှုမှုတိုးတက်မှုဘား",
+        "description": "ဖွင့်ထားပါက၊ ဖတ်ရှုမှုတိုးတက်မှုဘားကိုတဘ်ခေါင်းစီးဘားအောက်တွင်ပြသမည်။",
+        "globaldisabledTips": "ဤဆက်တင်ကိုပြင်ဆင်ရန်၊ ကမ္ဘာလုံးဆိုင်ရာဆက်တင်များတွင်ဖတ်ရှုမှုတိုးတက်မှုဘားကိုဖွင့်ရမည်။"
       },
       "playingProgressBar": {
-        "label": "Playing progress bar",
-        "description": "When enabled, a playing progress bar will be displayed below the tab title bar.",
-        "globaldisabledTips": "You must turn on the playing progress bar in the global settings to modify this setting."
+        "label": "ဖွင့်နေသောတိုးတက်မှုဘား",
+        "description": "ဖွင့်ထားပါက၊ ဖွင့်နေသောတိုးတက်မှုဘားကိုတဘ်ခေါင်းစီးဘားအောက်တွင်ပြသမည်။",
+        "globaldisabledTips": "ဤဆက်တင်ကိုပြင်ဆင်ရန်၊ ကမ္ဘာလုံးဆိုင်ရာဆက်တင်များတွင်ဖွင့်နေသောတိုးတက်မှုဘားကိုဖွင့်ရမည်။"
       },
       "tabSwitchPip": {
-        "label": "PIP on Tab Switch",
-        "description": "When enabled, auto-enter Picture-in-picture when switching tabs with an unmuted video.",
-        "globaldisabledTips": "You must turn on the Picture-in-picture in the global settings to modify this setting."
+        "label": "တဘ်ပြောင်းခြင်း PIP",
+        "description": "ဖွင့်ထားပါက၊ အသံမပိတ်ထားသောဗီဒီယိုဖြင့်တဘ်ပြောင်းခြင်းအခါတွင်အလိုအလျောက်ပုံရိပ်တွင်ပုံရိပ်သို့ဝင်မည်။",
+        "globaldisabledTips": "ဤဆက်တင်ကိုပြင်ဆင်ရန်၊ ကမ္ဘာလုံးဆိုင်ရာဆက်တင်များတွင်ပုံရိပ်တွင်ပုံရိပ်ကိုဖွင့်ရမည်။"
       },
       "clearHistoyAfterCLose": {
-        "label": "Clear history after close",
-        "description": "When enabled, the history will be cleared after closing the tab."
+        "label": "ပိတ်ပြီးနောက်မှတ်တမ်းရှင်းပါ",
+        "description": "ဖွင့်ထားပါက၊ တဘ်ပိတ်ပြီးနောက်မှတ်တမ်းကိုရှင်းလင်းမည်။"
       },
       "SyncTabs": {
-        "label": "Sync tabs",
-        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။",
-        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+        "label": "တဘ်များကိုအညီအမျှလုပ်ပါ",
+        "description": "ကွဲပြားသောဒေတာများကိုမပါဘဲ၊ တဘ်ဒေတာကိုမည်သို့အညီအမျှလုပ်မည်ကိုရွေးချယ်ပါ။",
+        "disabled": "ပိတ်ထားသည်",
+        "uploadOnly": "တင်ပါ",
+        "downloadOnly": "ဒေါင်းလုဒ်လုပ်ပါ",
+        "staySynchronized": "အညီအမျှထားပါ",
+        "globaldisabledTips": "ဤဆက်တင်ကိုပြင်ဆင်ရန်၊ ကမ္ဘာလုံးဆိုင်ရာဆက်တင်များတွင်အညီအမျှလုပ်ခြင်းကိုဖွင့်ရမည်။"
       },
       "SyncPrivateData": {
-        "label": "Sync private data",
-        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။",
-        "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+        "label": "ပုဂ္ဂလိကဒေတာကိုအညီအမျှလုပ်ပါ",
+        "description": "ဝဘ်ဆိုဒ်ကွတ်ကီးများ၊ ဝဘ်စာမျက်နှာဒေတာများ၊ SessionStorage ဒေတာများစသည့်ပုဂ္ဂလိကဒေတာကိုမည်သို့အညီအမျှလုပ်မည်ကိုရွေးချယ်ပါ။ ဒေတာကိုအညီအမျှလုပ်မီအရင်စစ်ဆေးပါမည်။",
+        "disabled": "ပိတ်ထားသည်",
+        "uploadOnly": "တင်ပါ",
+        "downloadOnly": "ဒေါင်းလုဒ်လုပ်ပါ",
+        "staySynchronized": "အညီအမျှထားပါ",
+        "globaldisabledTips": "ဤဆက်တင်ကိုပြင်ဆင်ရန်၊ ကမ္ဘာလုံးဆိုင်ရာဆက်တင်များတွင်အညီအမျှလုပ်ခြင်းကိုဖွင့်ရမည်။"
+      },
+      "linkSettings": {
+        "label": "လင့်ခ်ရွေးချယ်မှုများ",
+        "description": "ဤဆိုဒ်တွင်လင့်ခ်များကိုမည်သို့စီမံရမည်ကိုပြင်ဆင်ပါ။",
+        "configure": "ပြင်ဆင်ပါ",
+        "listTips": "စီစဉ်ရန်ဆွဲချပါ။ ပိုမိုအရေးကြီးသောစည်းမျဉ်းများကိုအပေါ်တွင်ထားပါ။ စည်းမျဉ်းတစ်ခုကိုကိုက်ညီလျှင်၊ နောက်ထပ်စည်းမျဉ်းများကိုမလွှဲမရှောင်ပါ။",
+        "linkMatchContent": "လင့်ခ်ကိုက်ညီမှုအခြေခံချက်",
+        "linkMatchContentTips": "ပုံမှန်ထုတ်ဖော်ချက်များကိုထောက်ပံ့သည်။ ဥပမာ၊ '*' ကိုအသုံးပြု၍ စာလုံးများစဉ်ကိုကိုက်ညီပါ၊ '?' ကိုအသုံးပြု၍ တစ်လုံးကိုကိုက်ညီပါ။",
+        "linkOpenMethod": "လင့်ခ်ဖွင့်ခြင်းနည်းလမ်း",
+        "edit": "ပြင်ဆင်ပါ",
+        "delete": "ဖျက်ပါ",
+        "target_self": "တစ်ခုတည်းသောတဘ်",
+        "target_blank": "အသစ်သောတဘ်",
+        "target_parent": "မိဘတဘ်",
+        "target_top": "အပေါ်ဆုံးတဘ်",
+        "save": "သိမ်းဆည်းပါ",
+        "close": "ပိတ်ပါ"
       }
     },
     "importAndExport": {
-      "title": "တင်သွင်း/တင်ပို့",
+      "title": "သွင်းယူ/တင်ပို့",
       "description": "",
       "options": {
         "preferences": "အသုံးပြုသူ အကြိုက်များ",
-        "preferencesInfo": "ပုံမှန် အထွေထွေ ဆက်တင်များ၊ ပြသမှုနှင့် ဒေတာ အကြိုက်များ၊ အသုံးပြုသူ အင်တာဖေ့စ် အပြောင်းအလဲများ ပါဝင်သည်။",
-        "quickAccess": "အမြန် ဝင်ရောက်မှု",
-        "quickAccessWarning": "မဝင်ရောက်ရသေးသော ဝဘ်ဆိုဒ်၏ အိုင်ကွန်သည် မမှန်ကန်စွာ ပြသနိုင်သည်။ စိတ်မပူပါနှင့်၊ သင် ဝင်ရောက်ပြီး ဘရောက်ဇာကို ပြန်စတင်ပါက သာမန်အတိုင်း ပြသပါလိမ့်မည်။",
-        "siteConfig": "ဆိုဒ် ဆက်တင်များ",
-        "siteConfigInfo": "အလိုအလျောက် ပယ်ဖျက်နိုင်မှု၊ တဘ်ပြောင်းလဲမှုတွင် ပစ်ချာအင်ပစ်ချာ၊ ဖတ်ရှုမှု တိုးတက်မှု ဘား၊ ဖွင့်လှစ်မှု တိုးတက်မှု ဘား စသည်တို့ ပါဝင်သည်။",
-        "recentlyTabs": "မကြာသေးမီက ပိတ်ထားသော တဘ်များ"
+        "preferencesInfo": "ပုံမှန်အထွေထွေဆက်တင်များ၊ ပြသမှုနှင့်ဒေတာဆက်တင်များ၊ အသုံးပြုသူအင်တာဖေ့စ်အပြောင်းအလဲများအပါအဝင်",
+        "quickAccess": "အမြန်ဝင်ရောက်မှု",
+        "quickAccessWarning": "မသွားရောက်ရသေးသောဝဘ်ဆိုဒ်၏အိုင်ကွန်သည်မှန်ကန်စွာမပြသနိုင်ပါ။ စိတ်မပူပါနှင့်၊ သင်ဝဘ်ဆိုဒ်သို့သွားပြီးဘရောက်ဇာကိုပြန်ဖွင့်ပါကမှန်ကန်စွာပြသမည်ဖြစ်သည်။",
+        "siteConfig": "ဆိုဒ်ဆက်တင်များ",
+        "siteConfigInfo": "အလိုအလျောက်ဖျက်ခြင်း၊ တဘ်ပြောင်းခြင်းအခါတွင်ပုံရိပ်တွင်ပုံရိပ်၊ ဖတ်ရှုတိုးတက်မှုဘား၊ ဖွင့်နေသောတိုးတက်မှုဘားစသည့်ဆက်တင်များ",
+        "recentlyTabs": "မကြာသေးမီကပိတ်ထားသောတဘ်များ",
+        "snapshots": "မှတ်တမ်းရုပ်ပုံများ"
       },
       "cancelBtn": "ပယ်ဖျက်ပါ",
       "exportBtn": "တင်ပို့ပါ",
-      "importBtn": "တင်သွင်းပါ",
-      "importing": "တင်သွင်းနေသည်...",
-      "fileError": "ဖိုင် အမှား၊ မှန်ကန်သော JSON ဖိုင်ကို တင်ပါ",
+      "importBtn": "သွင်းယူပါ",
+      "importing": "သွင်းယူနေသည်...",
+      "fileError": "ဖိုင်ဖတ်ရှုမှုအမှား၊ မှန်ကန်သော JSON ဖိုင်ကိုတင်ပါ",
       "import": {
-        "label": "ဖိုင်မှ တင်သွင်းပါ",
+        "label": "ဖိုင်မှသွင်းယူပါ",
         "description": "",
-        "formTips": "သင် တင်သွင်းလိုသော ဒေတာကို ရွေးပါ",
-        "importSuccess": "တင်သွင်းမှု အောင်မြင်သည်",
-        "importFailed": "တင်သွင်းမှု မအောင်မြင်ပါ"
+        "formTips": "သင်သွင်းယူလိုသောဒေတာကိုရွေးချယ်ပါ",
+        "importSuccess": "အောင်မြင်စွာသွင်းယူပြီး",
+        "importFailed": "သွင်းယူမှုမအောင်မြင်ပါ"
       },
       "export": {
-        "label": "ဖိုင်သို့ တင်ပို့ပါ",
+        "label": "ဖိုင်သို့တင်ပို့ပါ",
         "description": "",
-        "formTips": "သင် တင်ပို့လိုသော ဒေတာကို ရွေးပါ",
-        "exportSuccess": "တင်ပို့မှု အောင်မြင်သည်",
-        "exportFailed": "တင်ပို့မှု မအောင်မြင်ပါ"
+        "formTips": "သင်တင်ပို့လိုသောဒေတာကိုရွေးချယ်ပါ",
+        "exportSuccess": "အောင်မြင်စွာတင်ပို့ပြီး",
+        "exportFailed": "တင်ပို့မှုမအောင်မြင်ပါ"
       }
     },
     "SyncToCloud": {
-      "label": "Sync to cloud",
-      "SyncNow": "Sync Now",
-      "SyncNowWithGoogleDrive": "Sync Now with Google Drive",
-      "SyncNowWithDropbox": "Sync Now with Dropbox",
-      "SyncNowWithOneDrive": "Sync Now with OneDrive",
-      "Synchronizing": "Synchronizing...",
-      "SyncedSuccessfully": "Synchronized successfully",
-      "SyncFailed": "Synchronization failed",
-      "LoginRequired": "Login required",
+      "label": "ကလောင်သို့အညီအမျှလုပ်ပါ",
+      "SyncNow": "ယခုအညီအမျှလုပ်ပါ",
+      "SyncNowWithGoogleDrive": "Google Drive ဖြင့်ယခုအညီအမျှလုပ်ပါ",
+      "SyncNowWithDropbox": "Dropbox ဖြင့်ယခုအညီအမျှလုပ်ပါ",
+      "SyncNowWithOneDrive": "OneDrive ဖြင့်ယခုအညီအမျှလုပ်ပါ",
+      "Synchronizing": "အညီအမျှလုပ်နေသည်...",
+      "SyncedSuccessfully": "အောင်မြင်စွာအညီအမျှလုပ်ပြီး",
+      "SyncFailed": "အညီအမျှလုပ်မှုမအောင်မြင်ပါ",
+      "LoginRequired": "လော့ဂ်အင်လိုအပ်သည်",
       "GoogleDrive": "Google Drive",
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Sync configs",
-        "description": "Choose how to synchronize this extension's configurations.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+        "label": "အညီအမျှလုပ်ခြင်းဆက်တင်များ",
+        "description": "ဤ extension ၏ဆက်တင်များကိုမည်သို့အညီအမျှလုပ်မည်ကိုရွေးချယ်ပါ။",
+        "disabled": "ပိတ်ထားသည်",
+        "uploadOnly": "တင်ပါ",
+        "downloadOnly": "ဒေါင်းလုဒ်လုပ်ပါ",
+        "staySynchronized": "အညီအမျှထားပါ"
       },
       "SyncTabs": {
-        "label": "Sync tabs",
-        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+        "label": "တဘ်များကိုအညီအမျှလုပ်ပါ",
+        "description": "ပုဂ္ဂလိကဒေတာများကိုမပါဘဲ၊ တဘ်ဒေတာကိုမည်သို့အညီအမျှလုပ်မည်ကိုရွေးချယ်ပါ။",
+        "disabled": "ပိတ်ထားသည်",
+        "uploadOnly": "တင်ပါ",
+        "downloadOnly": "ဒေါင်းလုဒ်လုပ်ပါ",
+        "staySynchronized": "အညီအမျှထားပါ"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Open or close tabs synchronously",
-        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
-        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+        "label": "တဘ်များကိုအချိန်နှင့်တပြေးညီဖွင့်/ပိတ်ပါ",
+        "description": "ဖွင့်ထားပါက၊ ကွဲပြားသောဘရောက်ဇာများတွင်တဘ်ဖွင့်ခြင်း/ပိတ်ခြင်းကိုအချိန်နှင့်တပြေးညီအညီအမျှလုပ်မည်။ ဤအချက်သည် 'အညီအမျှထားပါ' ရွေးချယ်မှုကိုဖွင့်ထားသောအခါတွင်သာသက်ဆိုင်ပါသည်",
+        "OpenOrCloseTabsSynchronouslyWarning": "တစ်ချိန်တည်းတွင်ဘရောက်ဇာနှစ်ခုတွင်တူညီသောအကောင့်ဖြင့်လော့ဂ်အင်ဝင်ပြီးဤရွေးချယ်မှုကိုဖွင့်ထားပါက၊ တစ်ဘရောက်ဇာတွင်တဘ်ဖွင့်ခြင်း/ပိတ်ခြင်းသည်အခြားဘရောက်ဇာတွင်လည်းတူညီသောလုပ်ဆောင်ချက်ကိုပြုလုပ်မည်ဖြစ်သည်။ ဝဘ်ဆိုဒ်သည်တူညီသောအကောင့်ဖြင့်ထပ်မံလော့ဂ်အင်ဝင်ခြင်းကိုတားမြစ်ပါက၊ အထူးအခြေအနေများဖြစ်ပေါ်နိုင်ပါသည်။"
       },
       "SyncPrivateData": {
-        "label": "Sync private data",
-        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "တစ်ပြိုင်တည်းနေပါ။"
+        "label": "ပုဂ္ဂလိကဒေတာကိုအညီအမျှလုပ်ပါ",
+        "description": "ဝဘ်ဆိုဒ်ကွတ်ကီးများ၊ ဝဘ်စာမျက်နှာဒေတာများ၊ SessionStorage ဒေတာများစသည့်ပုဂ္ဂလိကဒေတာကိုမည်သို့အညီအမျှလုပ်မည်ကိုရွေးချယ်ပါ။ ဒေတာကိုအညီအမျှလုပ်မီအရင်စစ်ဆေးပါမည်။",
+        "disabled": "ပိတ်ထားသည်",
+        "uploadOnly": "တင်ပါ",
+        "downloadOnly": "ဒေါင်းလုဒ်လုပ်ပါ",
+        "staySynchronized": "အညီအမျှထားပါ"
       }
     }
-   
+  },
+  "snapshots": {
+    "title": "SnapShot ကြည့်ရှုသူ",
+    "description": "SnapShot များကိုဖန်တီးပြီးစီမံပါ။",
+    "createSnapshot": "SnapShot ဖန်တီးပါ",
+    "exportSnapshot": "SnapShot တင်ပို့ပါ",
+    "openAllWindows": "ပေါင်းစုံဝင်းဒိုးများကိုဖွင့်ပါ",
+    "openSelectedInNewWindow": "ရွေးချယ်ထားသည်ကိုအသစ်ဝင်းဒိုးတွင်ဖွင့်ပါ",
+    "openSelectedInCurrentWindow": "ရွေးချယ်ထားသည်ကိုလက်ရှိဝင်းဒိုးတွင်ဖွင့်ပါ",
+    "windowCount": "{{count}} ဝင်းဒိုးများ",
+    "tabCount": "{{count}} တဘ်များ",
+    "Window": "ဝင်းဒိုး",
+    "OpenInCurrentWindow": "လက်ရှိဝင်းဒိုးတွင်ဖွင့်ပါ",
+    "OpenInNewWindow": "အသစ်ဝင်းဒိုးတွင်ဖွင့်ပါ",
+    "ResetSelection": "ရွေးချယ်မှုကိုပြန်လည်သတ်မှတ်ပါ",
+    "snapshotCreatedSuccess": "SnapShot ကိုအောင်မြင်စွာဖန်တီးပြီး",
+    "snapshotCreatedFailed": "SnapShot ဖန်တီးမှုမအောင်မြင်ပါ",
+    "snapshotDeletedSuccess": "SnapShot ကိုအောင်မြင်စွာဖျက်ပြီး",
+    "snapshotDeletedFailed": "SnapShot ဖျက်မှုမအောင်မြင်ပါ",
+    "importSnapshot": "SnapShot တင်သွင်းပါ",
+    "snapshotImportFailedDuplicate": "SnapShot တင်သွင်းမှုမအောင်မြင်ပါ၊ ထပ်တူရှိသော SnapShot",
+    "snapshotImportedSuccess": "{{count}} SnapShot ကိုအောင်မြင်စွာတင်သွင်းပြီး",
+    "snapshotImportFailed": "{{count}} SnapShot တင်သွင်းမှုမအောင်မြင်ပါ {{error}}"
   }
 }

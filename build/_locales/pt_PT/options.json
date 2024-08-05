@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Mostrar barra de navegação inferior",
-        "description": "Quando ativado, a barra de navegação inferior é exibida"
+        "description": "Quando ativada, a barra de navegação inferior será exibida",
+        "configure": "configurar",
+        "configureBottomNav": "Configurar Navegação Inferior",
+        "enabledNavs": "Navegações Ativadas",
+        "disabledNavs": "Navegações Desativadas (Disponíveis)",
+        "showLabel": "Mostrar Rótulo",
+        "close": "Fechar",
+        "save": "Salvar",
+        "settings": "Configurações",
+        "version": "Versão",
+        "more": "Mais",
+        "newTab": "Nova Aba",
+        "recentlyTabs": "Abas Fechadas Recentemente",
+        "bookmarks": "Favoritos",
+        "history": "Histórico",
+        "readingList": "Lista de Leitura",
+        "quickAccess": "Acesso Rápido",
+        "search": "Pesquisar",
+        "createSnapshot": "Criar Captura",
+        "collapseAll": "Recolher Tudo",
+        "scrollToActiveTab": "Rolar para Aba Ativa",
+        "muteAllTabs": "Silenciar Todas as Abas",
+        "themeModes": "Modos de Tema",
+        "viewModes": "Modos de Visualização",
+        "showBy": "Mostrar Por",
+        "sortBy": "Ordenar Por",
+        "createTabPanel": "Criar Painel de Abas",
+        "tabPanels": "Painéis de Abas",
+        "pinToToolbarReminder": "Por favor, fixe a extensão na barra de ferramentas antes de remover esta navegação."
       },
       "buttonPosition": {
         "label": "Posição do botão",
@@ -437,6 +465,23 @@
         "downloadOnly": "Apenas baixar",
         "staySynchronized": "Permanecer sincronizado",
         "globaldisabledTips": "Você deve ativar a sincronização nas Configurações Globais para modificar esta configuração."
+      },
+      "linkSettings": {
+        "label": "Configurações de Links",
+        "description": "Defina como os links devem ser tratados neste site.",
+        "configure": "Configurar",
+        "listTips": "Arraste e solte para ordenar. Regras com maior prioridade são colocadas no topo. Uma vez que uma regra é correspondida, as regras subsequentes não serão aplicadas.",
+        "linkMatchContent": "Conteúdo de Correspondência de Links",
+        "linkMatchContentTips": "Suporta expressões regulares. Por exemplo, use '*' para corresponder a qualquer número de caracteres e '?' para corresponder a um único caractere.",
+        "linkOpenMethod": "Método de Abertura de Links",
+        "edit": "Editar",
+        "delete": "Excluir",
+        "target_self": "Aba Atual",
+        "target_blank": "Nova Aba",
+        "target_parent": "Aba Pai",
+        "target_top": "Aba Principal",
+        "save": "Salvar",
+        "close": "Fechar"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "O ícone de um site não visitado pode ser exibido de forma anormal. Não se preocupe, ele será exibido normalmente após você visitar e reiniciar o navegador.",
         "siteConfig": "Configurações do Site",
         "siteConfigInfo": "como descartável automaticamente, imagem-em-imagem ao alternar abas, barra de progresso de leitura, barra de progresso de reprodução, etc.",
-        "recentlyTabs": "Abas fechadas recentemente"
+        "recentlyTabs": "Abas fechadas recentemente",
+        "snapshots": "Capturas de Tela"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -514,5 +560,28 @@
         "staySynchronized": "Permanecer sincronizado"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visualizador de Snapshots",
+    "description": "Crie e gerencie snapshots.",
+    "createSnapshot": "Criar Snapshot",
+    "exportSnapshot": "Exportar Snapshot",
+    "openAllWindows": "Abrir Todas as Janelas",
+    "openSelectedInNewWindow": "Abrir Selecionados em Nova Janela",
+    "openSelectedInCurrentWindow": "Abrir Selecionados na Janela Atual",
+    "windowCount": "{{count}} Janelas",
+    "tabCount": "{{count}} Abas",
+    "Window": "Janela",
+    "OpenInCurrentWindow": "Abrir na Janela Atual",
+    "OpenInNewWindow": "Abrir em Nova Janela",
+    "ResetSelection": "Redefinir Seleção",
+    "snapshotCreatedSuccess": "Snapshot criado com sucesso",
+    "snapshotCreatedFailed": "Falha ao criar snapshot",
+    "snapshotDeletedSuccess": "Snapshot excluído com sucesso",
+    "snapshotDeletedFailed": "Falha ao excluir snapshot",
+    "importSnapshot": "Importar Snapshot",
+    "snapshotImportFailedDuplicate": "Falha na importação do snapshot, snapshot duplicado",
+    "snapshotImportedSuccess": "{{count}} Snapshot importado com sucesso",
+    "snapshotImportFailed": "{{count}} Falha na importação do snapshot {{error}}"
   }
 }

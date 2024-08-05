@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Menedżjar tal-Tagħrif tal-Pannell tas-Saħħa"
+    "message": "VertiTab - Tabs Vertikali fil-Panew tal-Ġenb"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Immaniġġja tabs fil-pannell laterali, Sabiħa wisq biex tkun daqshekk tajba."
+    "message": "Immaniġġja tabs tal-browser fil-panew tal-ġenb b'karatteristiċi konfigurabbli, li jtejbu d-dehra u ħafna oħrajn"
   },
   "openSidePanel": {
-    "message": "Iftaħ il-Pannell tas-Saħħa"
+    "message": "Iftaħ il-Panew tal-Ġenb"
   }
 }

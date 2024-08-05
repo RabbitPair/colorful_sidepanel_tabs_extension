@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Tab Panel Samping Berwarna"
+    "message": "VertiTab - Tab Vertikal di Panel Samping"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Kelola tab browser di panel samping"
+    "message": "Kelola tab browser di panel samping dengan fitur yang dapat dikonfigurasi, mempercantik, dan banyak fitur lainnya"
   },
   "openSidePanel": {
     "message": "Buka Panel Samping"

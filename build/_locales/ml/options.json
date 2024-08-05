@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "പ്രിവ്യൂ ചെയ്യാൻ സൈഡ് പാനൽ തുറക്കുക",
+  "OpenSidePanelToPreview": "പ്രിവ്യൂ ചെയ്യാൻ സൈഡ് പാനൽ തുറക്കുക",
   "_execute_action": "ഈ വിപുലീകരണം സജീവമാക്കുക",
   "openSidePanel": "സൈഡ് പാനൽ തുറക്കുക",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "വിപുലീകരണ ഐക്കൺ ക്ലിക്ക് പ്രവർത്തനം",
         "description": "വിപുലീകരണ ഐക്കൺ ക്ലിക്കുചെയ്യുമ്പോൾ പ്രവർത്തനം സജ്ജമാക്കുക",
         "openPopup": "പോപ്പ്‌അപ്പ് തുറക്കുക",
-        "openSidePanel": "സൈഡ് പാനൽ തുറക്കുക"
+        "openSidePanel": "സൈഡ് പാനൽ തുറക്കുക",
+        "SmallWindowAlert": "സൈഡ് പാനൽ കൂടുതൽ സ്ഥലം കൈവശപ്പെടുത്തുന്നുവെങ്കിൽ, പോപ്പ്-അപ്പ് വിൻഡോ ഉപയോഗിക്കുന്നത് ശുപാർശ ചെയ്യുന്നു"
       },
       "SidePanelPosition": {
         "label": "സൈഡ് പാനൽ സ്ഥാനം",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "താഴത്തെ നാവിഗേഷൻ ബാർ പ്രദർശിപ്പിക്കുക",
-        "description": "സജീവമാക്കിയാൽ, താഴത്തെ നാവിഗേഷൻ ബാർ പ്രദർശിപ്പിക്കും"
+        "description": "സജീവമാക്കിയാൽ, താഴത്തെ നാവിഗേഷൻ ബാർ കാണിക്കും",
+        "configure": "ക്രമീകരിക്കുക",
+        "configureBottomNav": "താഴത്തെ നാവിഗേഷൻ ക്രമീകരിക്കുക",
+        "enabledNavs": "സജീവമായ നാവിഗേഷനുകൾ",
+        "disabledNavs": "നിഷ്ക്രിയമായ നാവിഗേഷനുകൾ (ലഭ്യമാണ്)",
+        "showLabel": "ലേബൽ കാണിക്കുക",
+        "close": "അടയ്ക്കുക",
+        "save": "സംരക്ഷിക്കുക",
+        "settings": "ക്രമീകരണങ്ങൾ",
+        "version": "പതിപ്പ്",
+        "more": "കൂടുതൽ",
+        "newTab": "പുതിയ ടാബ്",
+        "recentlyTabs": "ഇപ്പോൾ അടച്ച ടാബുകൾ",
+        "bookmarks": "ബുക്ക്മാർക്കുകൾ",
+        "history": "ചരിത്രം",
+        "readingList": "വായനാ പട്ടിക",
+        "quickAccess": "വേഗത്തിലുള്ള ആക്സസ്",
+        "search": "തിരയുക",
+        "createSnapshot": "സ്നാപ്ഷോട്ട് സൃഷ്ടിക്കുക",
+        "collapseAll": "എല്ലാം ചുരുക്കുക",
+        "scrollToActiveTab": "സജീവമായ ടാബിലേക്ക് സ്ക്രോൾ ചെയ്യുക",
+        "muteAllTabs": "എല്ലാ ടാബുകളും മ്യൂട്ട് ചെയ്യുക",
+        "themeModes": "തീം മോഡുകൾ",
+        "viewModes": "കാഴ്ച മോഡുകൾ",
+        "showBy": "പ്രദർശിപ്പിക്കുക",
+        "sortBy": "ക്രമീകരിക്കുക",
+        "createTabPanel": "ടാബ് പാനൽ സൃഷ്ടിക്കുക",
+        "tabPanels": "ടാബ് പാനലുകൾ",
+        "pinToToolbarReminder": "ഈ നാവിഗേഷൻ നീക്കം ചെയ്യുന്നതിന് മുമ്പ് ദയവായി എക്സ്റ്റൻഷൻ നിങ്ങളുടെ ടൂൾബാറിൽ പിന് ചെയ്യുക."
       },
       "buttonPosition": {
         "label": "ബട്ടൺ സ്ഥാനം",
@@ -436,6 +465,23 @@
         "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
         "staySynchronized": "സമന്വയിപ്പിക്കുക",
         "globaldisabledTips": "ഈ ക്രമീകരണം മാറ്റാന്‍ നിങ്ങള്‍ക്ക് ഗ്ലോബല്‍ ക്രമീകരണം ഓണ്‍ ചെയ്യണം."
+      },
+      "linkSettings": {
+        "label": "ലിങ്ക് ക്രമീകരണങ്ങൾ",
+        "description": "ഈ സൈറ്റിൽ ലിങ്കുകൾ എങ്ങനെ കൈകാര്യം ചെയ്യണമെന്ന് ക്രമീകരിക്കുക.",
+        "configure": "ക്രമീകരിക്കുക",
+        "listTips": "ക്രമീകരിക്കാൻ വലിച്ചിടുക. ഉയർന്ന മുൻഗണനാ നിയമങ്ങൾ മുകളിൽ വയ്ക്കപ്പെടും. ഒരു നിയമം പൊരുത്തപ്പെടുമ്പോൾ, തുടർന്നുള്ള നിയമങ്ങൾ പ്രയോഗിക്കില്ല.",
+        "linkMatchContent": "ലിങ്ക് പൊരുത്തപ്പെടുന്ന ഉള്ളടക്കം",
+        "linkMatchContentTips": "നിയമിതമായ പ്രകടനങ്ങൾ പിന്തുണയ്ക്കുന്നു. ഉദാഹരണത്തിന്, ഏതെങ്കിലും എണ്ണം അക്ഷരങ്ങൾ പൊരുത്തപ്പെടാൻ '*' ഉപയോഗിക്കുക, ഒറ്റ അക്ഷരം പൊരുത്തപ്പെടാൻ '?' ഉപയോഗിക്കുക.",
+        "linkOpenMethod": "ലിങ്ക് തുറക്കുന്ന രീതി",
+        "edit": "തിരുത്തുക",
+        "delete": "ഇല്ലാതാക്കുക",
+        "target_self": "നിലവിലെ ടാബ്",
+        "target_blank": "പുതിയ ടാബ്",
+        "target_parent": "മാതൃ ടാബ്",
+        "target_top": "മുകളിലെ ടാബ്",
+        "save": "സംരക്ഷിക്കുക",
+        "close": "അടയ്ക്കുക"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "ഒരു അപ്രവേശിത വെബ്‌സൈറ്റിന്റെ ഐക്കൺ അസാധാരണമായി പ്രദർശിപ്പിക്കാനാകും. ചിന്തിക്കാതെ, നിങ്ങൾ സൈറ്റ് സന്ദർശിച്ച് ബ്രൌസർ റീസ്റ്റാർട്ട് ചെയ്യുമ്പോൾ അത് സാധാരണമായി പ്രദർശിപ്പിക്കും.",
         "siteConfig": "സൈറ്റ് ക്രമീകരണങ്ങൾ",
         "siteConfigInfo": "ഓട്ടോ അപകടകരമായ, ടാബ് സ്വിച്ച് ഓണ്‍ പിപി, വായന പുരോഗതി ബാർ, പ്ലേയിംഗ് പുരോഗതി ബാർ എന്നിവ പോലെ.",
-        "recentlyTabs": "ഇതിനു ശേഷം അടയ്ക്കിയ ടാബുകൾ"
+        "recentlyTabs": "ഇതിനു ശേഷം അടയ്ക്കിയ ടാബുകൾ",
+        "snapshots": "സ്നാപ്ഷോട്ടുകൾ"
       },
       "cancelBtn": "റദ്ദാക്കുക",
       "exportBtn": "എക്സ്പോർട്ട്",
@@ -484,34 +531,57 @@
       "Dropbox": "Dropbox",
       "OneDrive": "OneDrive",
       "SyncConfigs": {
-        "label": "Sync configs",
-        "description": "Choose how to synchronize this extension's configurations.",
+        "label": "സിങ്ക് ക്രമീകരണങ്ങൾ",
+        "description": "ഈ എക്സ്റ്റൻഷന്റെ ക്രമീകരണങ്ങൾ എങ്ങനെ സിങ്ക് ചെയ്യണമെന്ന് തിരഞ��ഞെടുക്കുക.",
         "disabled": "അക്ഷമമാക്കുക",
         "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
         "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
         "staySynchronized": "സമന്വയിപ്പിക്കുക"
       },
       "SyncTabs": {
-        "label": "Sync tabs",
-        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
-        "disabled": "അക്ഷമമാക്കുക",
-        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
-        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
-        "staySynchronized": "സമന്വയിപ്പിക്കുക"
+        "label": "ടാബുകൾ സിങ്ക് ചെയ്യുക",
+        "description": "കുക്കികൾ പോലുള്ള സ്വകാര്യ ഡാറ്റയും വ്യക്തിഗത വിവരങ്ങളും ഒഴികെ ടാബ് ഡാറ്റ എങ്ങനെ സിങ്ക് ചെയ്യണമെന്ന് തിരഞ്ഞെടുക്കുക.",
+        "disabled": "പ്രവർത്തനരഹിതമാക്കുക",
+        "uploadOnly": "മാത്രം അപ്‌ലോഡ് ചെയ്യുക",
+        "downloadOnly": "മാത്രം ഡൗൺലോഡ് ചെയ്യുക",
+        "staySynchronized": "സമന്വയിപ്പിച്ചിരിക്കുക"
       },
       "OpenOrCloseTabsSynchronously": {
-        "label": "Open or close tabs synchronously",
-        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
-        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+        "label": "ടാബുകൾ ഒരേ സമയം തുറക്കുക അല്ലെങ്കിൽ അടയ്ക്കുക",
+        "description": "പ്രവർത്തനക്ഷമമാക്കിയാൽ, വ്യത്യസ്ത ബ്രൗസറുകളിൽ ടാബുകൾ തുറക്കുന്നതും അടയ്ക്കുന്നതും സിങ്ക് ചെയ്യപ്പെടും. ഇത് 'സമന്വയിപ്പിച്ചിരിക്കുക' ഓപ്ഷൻ സജീവമായിരിക്കുമ്പോൾ മാത്രമേ ബാധകമാകൂ.",
+        "OpenOrCloseTabsSynchronouslyWarning": "രണ്ടു ബ്രൗസറുകളിൽ ഒരേ സമയം ഒരേ അക്കൗണ്ടിൽ ലോഗിൻ ചെയ്ത് ഈ ഓപ്ഷൻ ഓണാക്കിയാൽ, ഒരു ബ്രൗസറിൽ ടാബുകൾ തുറക്കുന്നതും അടയ്ക്കുന്നതും മറ്റൊരു ബ്രൗസറിൽ ഒരേ പ്രവർത്തനം നടത്തും. വെബ്സൈറ്റ് ഒരേ അക്കൗണ്ടിൽ പുനരാവർത്തിക്കുന്ന ലോഗിൻ നിരോധിച്ചാൽ, അപവാദങ്ങൾ സംഭവിക്കാം."
       },
       "SyncPrivateData": {
-        "label": "Sync private data",
-        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
-        "disabled": "അക്ഷമമാക്കുക",
-        "uploadOnly": "അപ്‌ലോഡ് മാത്രം",
-        "downloadOnly": "ഡൗൺ‌ലോഡ് മാത്രം",
-        "staySynchronized": "സമന്വയിപ്പിക്കുക"
+        "label": "സ്വകാര്യ ഡാറ്റ സിങ്ക് ചെയ്യുക",
+        "description": "വെബ്സൈറ്റ് കുക്കികൾ, വെബ് പേജ് ലോക്കൽസ്റ്റോറേജ് ഡാറ്റ, സെഷൻസ്റ്റോറേജ് ഡാറ്റ തുടങ്ങിയ സ്വകാര്യ ഡാറ്റ എങ്ങനെ സിങ്ക് ചെയ്യണമെന്ന് തിരഞ്ഞെടുക്കുക. ഡാറ്റ സിങ്ക് ചെയ്യുന്നതിന് മുമ്പ് എൻക്രിപ്റ്റ് ചെയ്യപ്പെടും.",
+        "disabled": "പ്രവർത്തനരഹിതമാക്കുക",
+        "uploadOnly": "മാത്രം അപ്‌ലോഡ് ചെയ്യുക",
+        "downloadOnly": "മാത്രം ഡൗൺലോഡ് ചെയ്യുക",
+        "staySynchronized": "സമന്വയിപ്പിച്ചിരിക്കുക"
       }
     }
+  },
+  "snapshots": {
+    "title": "സ്നാപ്ഷോട്ട് വ്യൂവർ",
+    "description": "സ്നാപ്ഷോട്ടുകൾ സൃഷ്ടിക്കുകയും മാനേജുചെയ്യുകയും ചെയ്യുക.",
+    "createSnapshot": "സ്നാപ്ഷോട്ട് സൃഷ്ടിക്കുക",
+    "exportSnapshot": "സ്നാപ്ഷോട്ട് എക്സ്പോർട്ട് ചെയ്യുക",
+    "openAllWindows": "എല്ലാ വിൻഡോകളും തുറക്കുക",
+    "openSelectedInNewWindow": "തിരഞ്ഞെടുത്തവ പുതിയ വിൻഡോയിൽ തുറക്കുക",
+    "openSelectedInCurrentWindow": "തിരഞ്ഞെടുത്തവ നിലവിലെ വിൻഡോയിൽ തുറക്കുക",
+    "windowCount": "{{count}} വിൻഡോകൾ",
+    "tabCount": "{{count}} ടാബുകൾ",
+    "Window": "വിൻഡോ",
+    "OpenInCurrentWindow": "നിലവിലെ വിൻഡോയിൽ തുറക്കുക",
+    "OpenInNewWindow": "പുതിയ വിൻഡോയിൽ തുറക്കുക",
+    "ResetSelection": "തിരഞ്ഞെടുപ്പ് പുനഃസജ്ജമാക്കുക",
+    "snapshotCreatedSuccess": "സ്നാപ്ഷോട്ട് വിജയകരമായി സൃഷ്ടിച്ചു",
+    "snapshotCreatedFailed": "സ്നാപ്ഷോട്ട് സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു",
+    "snapshotDeletedSuccess": "സ്നാപ്ഷോട്ട് വിജയകരമായി ഇല്ലാതാക്കി",
+    "snapshotDeletedFailed": "സ്നാപ്ഷോട്ട് ഇല്ലാതാക്കൽ പരാജയപ്പെട്ടു",
+    "importSnapshot": "സ്നാപ്ഷോട്ട് ഇമ്പോർട്ട് ചെയ്യുക",
+    "snapshotImportFailedDuplicate": "സ്നാപ്ഷോട്ട് ഇമ്പോർട്ട് പരാജയപ്പെട്ടു, ഡുപ്ലിക്കേറ്റ് സ്നാപ്ഷോട്ട്",
+    "snapshotImportedSuccess": "{{count}} സ്നാപ്ഷോട്ട് വിജയകരമായി ഇമ്പോർട്ട് ചെയ്തു",
+    "snapshotImportFailed": "{{count}} സ്നാപ്ഷോട്ട് ഇമ്പോർട്ട് പരാജയപ്പെട്ടു {{error}}"
   }
 }

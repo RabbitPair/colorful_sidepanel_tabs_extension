@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Iftaħ il-panel naħa biex tara",
+  "OpenSidePanelToPreview": "Iftaħ il-panel naħa biex tara",
   "_execute_action": "Attiva din l'estensjoni",
   "openSidePanel": "Iftaħ il-panel naħa",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Azzjoni tal-klikk fuq l-ikona tal-estensjoni",
         "description": "Istabli l-azzjoni meta tagħmel klikk fuq l-ikona tal-estensjoni",
         "openPopup": "Iftaħ il-popup",
-        "openSidePanel": "Iftaħ il-panel naħa"
+        "openSidePanel": "Iftaħ il-panel naħa",
+        "SmallWindowAlert": "Jekk il-panel naħa jieħu wisq spazju, huwa rakkomandat li tuża tieqa pop-up"
       },
       "SidePanelPosition": {
         "label": "Pozizzjoni tal-panel naħa",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Uri il-barraniżża ta 'navigazzjoni",
-        "description": "Meta jkun attivat, il-barraniżża ta 'navigazzjoni se jidher"
+        "description": "Meta tkun attivata, il-barra tan-navigazzjoni se tidher",
+        "configure": "ikkonfigura",
+        "configureBottomNav": "Ikkonfigura Navigazzjoni tal-Qiegħ",
+        "enabledNavs": "Navigazzjonijiet Attivati",
+        "disabledNavs": "Navigazzjonijiet Diżattivati (Disponibbli)",
+        "showLabel": "Uri Tikketta",
+        "close": "Agħlaq",
+        "save": "Issejvja",
+        "settings": "Settings",
+        "version": "Verżjoni",
+        "more": "Aktar",
+        "newTab": "Tab Ġdid",
+        "recentlyTabs": "Tabs Magħluqa Riċentement",
+        "bookmarks": "Bookmarks",
+        "history": "Storja",
+        "readingList": "Lista tal-Qari",
+        "quickAccess": "Aċċess Veloċi",
+        "search": "Fittex",
+        "createSnapshot": "Oħloq Snapshot",
+        "collapseAll": "Ikkollassa Kollox",
+        "scrollToActiveTab": "Skrollja għall-Tab Attiv",
+        "muteAllTabs": "Sikket il-Tabs Kollha",
+        "themeModes": "Modalitajiet tat-Tema",
+        "viewModes": "Modalitajiet tal-Vista",
+        "showBy": "Uri Skont",
+        "sortBy": "Ordna Skont",
+        "createTabPanel": "Oħloq Pannell tat-Tab",
+        "tabPanels": "Pannelli tat-Tab",
+        "pinToToolbarReminder": "Jekk jogħġbok pinna l-estensjoni mat-toolbar tiegħek qabel tneħħi din in-navigazzjoni."
       },
       "buttonPosition": {
         "label": "Pozizzjoni tal-buttuni",
@@ -130,15 +159,15 @@
         "description": "Istabli l-luminosità, rakkomandat biss għal modalità skura"
       },
       "listBackgroundStyle": {
-        "label": "Stil tas-sfond tal-lista",
-        "description": "Istabli l-istil tas-sfond tal-lista",
-        "single": "Waħda",
+        "label": "Stil tal-isfond tal-lista",
+        "description": "Agħżel l-istil tal-isfond tal-lista",
+        "single": "Uniku",
         "none": "Xejn",
-        "semplici": "Semplici",
-        "komplimentari": "Komplimentari",
-        "analogu": "Analogu",
-        "triadic": "Triadic",
-        "tetradic": "Tetradic"
+        "simple": "Sempliċi",
+        "complementary": "Komplementari",
+        "analogous": "Analoġiku",
+        "triadic": "Triadiku",
+        "tetradic": "Tetradiku"
       },
       "listBackgroundTransparency": {
         "label": "Trasparenza tas-sfond tal-lista",
@@ -219,7 +248,8 @@
       },
       "previewDelay": {
         "label": "Dilata tal-preżentazzjoni",
-        "description": "Istabli żmien id-dilata għall-preżentazzjonijiet tal-tab meta tħoss fuq it-tabs, eċċ. (sekondi). Jekk immarkat għal 0, ma jkunx hemm dilata"
+        "description": "Istabli żmien id-dilata għall-preżentazzjonijiet tal-tab meta tħoss fuq it-tabs, eċċ. (sekondi). Jekk immarkat għal 0, ma jkunx hemm dilata",
+        "seconds": "Sekondi"
       }
     },
     "history": {
@@ -273,7 +303,9 @@
       "Picture-in-picture": "Picture-in-picture",
       "tabSwitch": {
         "label": "PIP fuq Tab Switch",
-        "description": "Daxx auto PIP meta tibdel tabs b'video li mhumiex imxewwar"
+        "description": "Daxx auto PIP meta tibdel tabs b'video li mhumiex imxewwar",
+        "enabled": "Attivat",
+        "disabled": "Diżattivat"
       },
       "scrollSwitch": {
         "label": "Switch għal picture-in-picture meta tisrollja",
@@ -433,6 +465,23 @@
         "downloadOnly": "Niżżel biss",
         "staySynchronized": "Ibqa 'sinsronizzat",
         "globaldisabledTips": "Għandek bżonn li tiffaċċja l-sinsinkronizzazzjoni fil-Settings Globali biex timmodifika din l-istess."
+      },
+      "linkSettings": {
+        "label": "Settings tal-Link",
+        "description": "Ikkonfigura kif għandhom jiġu ttrattati l-links fuq dan is-sit.",
+        "configure": "Ikkonfigura",
+        "listTips": "Iġbed u qiegħed biex tordna. Ir-regoli b'priorità ogħla jitqiegħdu fil-quċċata. Ladarba regola tiġi mqabbla, ir-regoli sussegwenti ma jiġux applikati.",
+        "linkMatchContent": "Kontenut tal-Qabda tal-Link",
+        "linkMatchContentTips": "Jappoġġja espressjonijiet regolari. Pereżempju, uża '*' biex tqabbel kwalunkwe numru ta' karattri u '?' biex tqabbel karattru wieħed.",
+        "linkOpenMethod": "Metodu ta' Ftuħ tal-Link",
+        "edit": "Editja",
+        "delete": "Ħassar",
+        "target_self": "Tab Kurrenti",
+        "target_blank": "Tab Ġdid",
+        "target_parent": "Tab Ġenitur",
+        "target_top": "Tab Ewlieni",
+        "save": "Issejvja",
+        "close": "Agħlaq"
       }
     },
     "importAndExport": {
@@ -445,7 +494,8 @@
         "quickAccessWarning": "L-ikona ta' websajt li ma ġietx miżjura tista' tidher b'mod anormali. Tinkwetax, se tidher b'mod normali wara li żżurha u terġa' tibda l-browser.",
         "siteConfig": "Settings tas-Sit",
         "siteConfigInfo": "bħal auto discardable, picture-in-picture fuq Tab Switch, progress bar tal-qari, progress bar tal-logħba, eċċ.",
-        "recentlyTabs": "Tabs magħluqa reċentement"
+        "recentlyTabs": "Tabs magħluqa reċentement",
+        "snapshots": "Ritratti tal-Istatus"
       },
       "cancelBtn": "Ikkanċella",
       "exportBtn": "Esporta",
@@ -510,5 +560,28 @@
         "staySynchronized": "Ibqa 'sinsronizzat"
       }
     }
+  },
+  "snapshots": {
+    "title": "Viewer tal-Istantanji",
+    "description": "Oħloq u immaniġġja l-istantanji.",
+    "createSnapshot": "Oħloq Istantanja",
+    "exportSnapshot": "Esporta Istantanja",
+    "openAllWindows": "Iftaħ il-Windows Kollha",
+    "openSelectedInNewWindow": "Iftaħ l-Għażla f'Tieqa Ġdida",
+    "openSelectedInCurrentWindow": "Iftaħ l-Għażla fit-Tieqa Kurrenti",
+    "windowCount": "{{count}} Windows",
+    "tabCount": "{{count}} Tabs",
+    "Window": "Tieqa",
+    "OpenInCurrentWindow": "Iftaħ fit-Tieqa Kurrenti",
+    "OpenInNewWindow": "Iftaħ f'Tieqa Ġdida",
+    "ResetSelection": "Irrisettja l-Għażla",
+    "snapshotCreatedSuccess": "Istantanja maħluqa b'suċċess",
+    "snapshotCreatedFailed": "Ħolqien tal-istantanja fallew",
+    "snapshotDeletedSuccess": "Istantanja mħassra b'suċċess",
+    "snapshotDeletedFailed": "Ħassir tal-istantanja fallew",
+    "importSnapshot": "Importa Istantanja",
+    "snapshotImportFailedDuplicate": "Importazzjoni tal-istantanja fallew, istantanji duplikati",
+    "snapshotImportedSuccess": "{{count}} Istantanja importata b'suċċess",
+    "snapshotImportFailed": "{{count}} Importazzjoni tal-istantanja fallew {{error}}"
   }
 }

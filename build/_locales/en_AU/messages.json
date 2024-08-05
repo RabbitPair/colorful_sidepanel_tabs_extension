@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Colorful Side Panel Tabs"
+    "message": "VertiTab - Vertical Tabs in Side Panel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Manage browser tabs in the side panel"
+    "message": "Manage browser tabs in side panel with configurable, beautifying and many other features"
   },
   "openSidePanel": {
     "message": "Open Side Panel"

@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Open side panel to preview",
+  "OpenSidePanelToPreview": "Maak die sypaneel oop om te voorskou",
   "_execute_action": "Aktiveer hierdie uitbreiding",
   "openSidePanel": "Maak sypaneel oop",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Kliek opskakeling ikoon aksie",
         "description": "Stel die aksie in wanneer jy op die opskakeling ikoon klik",
         "openPopup": "Maak popup oop",
-        "openSidePanel": "Maak sypaneel oop"
+        "openSidePanel": "Open Sypaneel",
+        "SmallWindowAlert": "As die sypaneel te veel spasie inneem, word dit aanbeveel om 'n pop-up venster te gebruik"
       },
       "SidePanelPosition": {
         "label": "Sypaneel posisie",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Wys onderste navigasiebalk",
-        "description": "Wanneer geaktiveer, word die onderste navigasiebalk vertoon"
+        "description": "Wanneer hierdie opsie geaktiveer is, sal die onderste navigasiebalk verskyn",
+        "configure": "konfigureer",
+        "configureBottomNav": "Konfigureer Onderste Navigasie",
+        "enabledNavs": "Geaktiveerde Navigasies",
+        "disabledNavs": "Gedeaktiveerde Navigasies (Beskikbaar)",
+        "showLabel": "Wys Etiket",
+        "close": "Sluit",
+        "save": "Stoor",
+        "settings": "Instellings",
+        "version": "Weergawe",
+        "more": "Meer",
+        "newTab": "Nuwe Oortjie",
+        "recentlyTabs": "Onlangs Geslote Oortjies",
+        "bookmarks": "Boekmerke",
+        "history": "Geskiedenis",
+        "readingList": "Leeslys",
+        "quickAccess": "Vinnige Toegang",
+        "search": "Soek",
+        "createSnapshot": "Skep Momentopname",
+        "collapseAll": "Vou Alles Toe",
+        "scrollToActiveTab": "Rol na Aktiewe Oortjie",
+        "muteAllTabs": "Dem Al Die Oortjies",
+        "themeModes": "Temamodusse",
+        "viewModes": "Sieningsmodusse",
+        "showBy": "Wys Volgens",
+        "sortBy": "Sorteer Volgens",
+        "createTabPanel": "Skep Oortjiepaneel",
+        "tabPanels": "Oortjiepanele",
+        "pinToToolbarReminder": "Maak asseblief seker dat die uitbreiding aan jou nutsbalk vasgemaak is voordat jy hierdie navigasie verwyder."
       },
       "buttonPosition": {
         "label": "Knoppie posisie",
@@ -436,6 +465,23 @@
         "downloadOnly": "Net aflaai",
         "staySynchronized": "Bly gesinkroniseer",
         "globaldisabledTips": "Jy moet die sinkronisasie in Globale Instellings aanskakel om hierdie instelling te wysig."
+      },
+      "linkSettings": {
+        "label": "Skakel Instellings",
+        "description": "Stel in hoe skakels op hierdie webwerf hanteer moet word.",
+        "configure": "Stel in",
+        "listTips": "Sleep en los om te sorteer. Hoër prioriteit reëls word bo geplaas. Sodra 'n reël ooreenstem, sal daaropvolgende reëls nie toegepas word nie.",
+        "linkMatchContent": "Skakel Inhoud Ooreenstem",
+        "linkMatchContentTips": "Ondersteun gereelde uitdrukkings. Byvoorbeeld, gebruik '*' om enige aantal karakters te pas en '?' om 'n enkele karakter te pas.",
+        "linkOpenMethod": "Skakel Oop Metode",
+        "edit": "Wysig",
+        "delete": "Verwyder",
+        "target_self": "Huidige Tab",
+        "target_blank": "Nuwe Tab",
+        "target_parent": "Ouer Tab",
+        "target_top": "Bo Tab",
+        "save": "Stoor",
+        "close": "Maak toe"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "Die ikoon van 'n onbesoekte webwerf mag abnormaal vertoon. Moenie bekommerd wees nie, dit sal normaal vertoon nadat jy die webwerf besoek en die blaaier herbegin het.",
         "siteConfig": "Webwerf Instellings",
         "siteConfigInfo": "soos outomaties verwerpbaar, prent-in-prent op Tab Skakel, leesvorderingsbalk, speelvorderingsbalk, ens.",
-        "recentlyTabs": "Onlangs geslote oortjies"
+        "recentlyTabs": "Onlangs geslote oortjies",
+        "snapshots": "Momentopnames"
       },
       "cancelBtn": "Kanselleer",
       "exportBtn": "Uitvoer",
@@ -513,5 +560,28 @@
         "staySynchronized": "Bly gesinkroniseer"
       }
     }
+  },
+  "snapshots": {
+    "title": "Oorsig van Snapshots",
+    "description": "Skep en bestuur snapshots.",
+    "createSnapshot": "Skep Snapshot",
+    "exportSnapshot": "Voer Snapshot Uit",
+    "openAllWindows": "Maak Alle Vensters Oop",
+    "openSelectedInNewWindow": "Maak Geselekteerdes in Nuwe Venster Oop",
+    "openSelectedInCurrentWindow": "Maak Geselekteerdes in Huidige Venster Oop",
+    "windowCount": "{{count}} Vensters",
+    "tabCount": "{{count}} Oortjies",
+    "Window": "Venster",
+    "OpenInCurrentWindow": "Maak in Huidige Venster Oop",
+    "OpenInNewWindow": "Maak in Nuwe Venster Oop",
+    "ResetSelection": "Herstel Seleksie",
+    "snapshotCreatedSuccess": "Snapshot suksesvol geskep",
+    "snapshotCreatedFailed": "Kon nie snapshot skep nie",
+    "snapshotDeletedSuccess": "Snapshot suksesvol verwyder",
+    "snapshotDeletedFailed": "Kon nie snapshot verwyder nie",
+    "importSnapshot": "Voer Snapshot In",
+    "snapshotImportFailedDuplicate": "Snapshot invoer het misluk, duplikaat snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshot suksesvol ingevoer",
+    "snapshotImportFailed": "{{count}} Snapshot invoer het misluk {{error}}"
   }
 }

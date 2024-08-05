@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Xestión de Pestañas da Barra Lateral Colorida"
+    "message": "VertiTab - Pestañas Verticais no Panel Lateral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Xestiona as lapelas no panel lateral, demasiado bonito para ser tan bo."
+    "message": "Xestiona as pestanas do navegador no panel lateral con funcións configurables, embelecedoras e moitas outras características"
   },
   "openSidePanel": {
-    "message": "Abrir o Panel Lateral"
+    "message": "Abrir Panel Lateral"
   }
 }

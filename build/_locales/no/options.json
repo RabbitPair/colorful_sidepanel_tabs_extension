@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Vis bunnnavigasjonslinje",
-        "description": "Når aktivert, vises bunnnavigasjonslinjen"
+        "description": "Når aktivert, vil bunnnavigasjonslinjen vises",
+        "configure": "konfigurer",
+        "configureBottomNav": "Konfigurer bunnnavigasjon",
+        "enabledNavs": "Aktiverte navigasjoner",
+        "disabledNavs": "Deaktiverte navigasjoner (Tilgjengelige)",
+        "showLabel": "Vis etikett",
+        "close": "Lukk",
+        "save": "Lagre",
+        "settings": "Innstillinger",
+        "version": "Versjon",
+        "more": "Mer",
+        "newTab": "Ny fane",
+        "recentlyTabs": "Nylig lukkede faner",
+        "bookmarks": "Bokmerker",
+        "history": "Historikk",
+        "readingList": "Leseliste",
+        "quickAccess": "Hurtigtilgang",
+        "search": "Søk",
+        "createSnapshot": "Opprett øyeblikksbilde",
+        "collapseAll": "Skjul alle",
+        "scrollToActiveTab": "Rull til aktiv fane",
+        "muteAllTabs": "Demp alle faner",
+        "themeModes": "Temamoduser",
+        "viewModes": "Visningsmoduser",
+        "showBy": "Vis etter",
+        "sortBy": "Sorter etter",
+        "createTabPanel": "Opprett fanepanel",
+        "tabPanels": "Fanepaneler",
+        "pinToToolbarReminder": "Fest utvidelsen til verktøylinjen før du fjerner denne navigasjonen."
       },
       "buttonPosition": {
         "label": "Knappens posisjon",
@@ -437,6 +465,23 @@
         "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert",
         "globaldisabledTips": "Du må slå på synkronisering i de globale innstillingene for å endre denne innstillingen."
+      },
+      "linkSettings": {
+        "label": "Lenkeinnstillinger",
+        "description": "Tilpass hvordan lenker skal håndteres på dette nettstedet.",
+        "configure": "Konfigurer",
+        "listTips": "Dra og slipp for å sortere. Regler med høyere prioritet plasseres øverst. Når en regel er matchet, vil ikke påfølgende regler bli brukt.",
+        "linkMatchContent": "Lenkeinnholdsmatch",
+        "linkMatchContentTips": "Støtter regulære uttrykk. For eksempel, bruk '*' for å matche et hvilket som helst antall tegn og '?' for å matche et enkelt tegn.",
+        "linkOpenMethod": "Metode for å åpne lenker",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "target_self": "Gjeldende fane",
+        "target_blank": "Ny fane",
+        "target_parent": "Foreldrefane",
+        "target_top": "Øverste fane",
+        "save": "Lagre",
+        "close": "Lukk"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikonet til et ikke besøkt nettsted kan vises unormalt. Ikke bekymre deg, det vil vises normalt etter at du har besøkt og startet nettleseren på nytt.",
         "siteConfig": "Nettstedsinnstillinger",
         "siteConfigInfo": "slik som automatisk forkastbar, bilde-i-bilde ved faneveksling, leseprogresjonslinje, spilleprogresjonslinje, etc.",
-        "recentlyTabs": "Nylig lukkede faner"
+        "recentlyTabs": "Nylig lukkede faner",
+        "snapshots": "Øyeblikksbilder"
       },
       "cancelBtn": "Avbryt",
       "exportBtn": "Eksporter",
@@ -514,5 +560,28 @@
         "staySynchronized": "Forbli synkronisert"
       }
     }
+  },
+  "snapshots": {
+    "title": "Øyeblikksbildevisning",
+    "description": "Opprett og administrer øyeblikksbilder.",
+    "createSnapshot": "Opprett øyeblikksbilde",
+    "exportSnapshot": "Eksporter øyeblikksbilde",
+    "openAllWindows": "Åpne alle vinduer",
+    "openSelectedInNewWindow": "Åpne valgte i nytt vindu",
+    "openSelectedInCurrentWindow": "Åpne valgte i gjeldende vindu",
+    "windowCount": "{{count}} vinduer",
+    "tabCount": "{{count}} faner",
+    "Window": "Vindu",
+    "OpenInCurrentWindow": "Åpne i gjeldende vindu",
+    "OpenInNewWindow": "Åpne i nytt vindu",
+    "ResetSelection": "Tilbakestill valg",
+    "snapshotCreatedSuccess": "Øyeblikksbilde opprettet vellykket",
+    "snapshotCreatedFailed": "Kunne ikke opprette øyeblikksbilde",
+    "snapshotDeletedSuccess": "Øyeblikksbilde slettet vellykket",
+    "snapshotDeletedFailed": "Kunne ikke slette øyeblikksbilde",
+    "importSnapshot": "Importer øyeblikksbilde",
+    "snapshotImportFailedDuplicate": "Kunne ikke importere øyeblikksbilde, duplikat øyeblikksbilde",
+    "snapshotImportedSuccess": "{{count}} øyeblikksbilde importert vellykket",
+    "snapshotImportFailed": "{{count}} øyeblikksbilde import mislyktes {{error}}"
   }
 }

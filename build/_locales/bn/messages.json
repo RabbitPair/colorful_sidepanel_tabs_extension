@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "রঙিন সাইড প্যানেল ট্যাব"
+    "message": "VertiTab - সাইড প্যানেলে উল্লম্ব ট্যাব"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "সাইড প্যানেলে ব্রাউজার ট্যাবগুলি পরিচালনা করুন"
+    "message": "কনফিগারযোগ্য, সৌন্দর্যবর্ধক এবং আরও অনেক বৈশিষ্ট্য সহ সাইড প্যানেলে ব্রাউজার ট্যাবগুলি পরিচালনা করুন"
   },
   "openSidePanel": {
     "message": "সাইড প্যানেল খুলুন"

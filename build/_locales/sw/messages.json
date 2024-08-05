@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Usimamizi wa lebo za upau wa rangi"
+    "message": "VertiTab - Vichupo Wima katika Paneli ya Pembeni"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Dhibiti vichupo kwenye paneli ya pembeni, Nzuri sana kuwa hii nzuri."
+    "message": "Simamia vichupo vya kivinjari katika paneli ya pembeni na vipengele vinavyoweza kusanidiwa, vya kupendezesha na vingine vingi"
   },
   "openSidePanel": {
-    "message": "Fungua upau wa kando"
+    "message": "Fungua Paneli ya Pembeni"
   }
 }

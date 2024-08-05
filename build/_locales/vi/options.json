@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Hiển thị thanh điều hướng dưới cùng",
-        "description": "Khi được bật, thanh điều hướng dưới cùng sẽ được hiển thị"
+        "description": "Khi bật, thanh điều hướng dưới cùng sẽ xuất hiện",
+        "configure": "cấu hình",
+        "configureBottomNav": "Cấu hình Thanh Điều Hướng Dưới",
+        "enabledNavs": "Điều Hướng Đã Bật",
+        "disabledNavs": "Điều Hướng Đã Tắt (Có Sẵn)",
+        "showLabel": "Hiển Thị Nhãn",
+        "close": "Đóng",
+        "save": "Lưu",
+        "settings": "Cài Đặt",
+        "version": "Phiên Bản",
+        "more": "Thêm",
+        "newTab": "Thẻ Mới",
+        "recentlyTabs": "Thẻ Đã Đóng Gần Đây",
+        "bookmarks": "Dấu Trang",
+        "history": "Lịch Sử",
+        "readingList": "Danh Sách Đọc",
+        "quickAccess": "Truy Cập Nhanh",
+        "search": "Tìm Kiếm",
+        "createSnapshot": "Tạo Ảnh Chụp",
+        "collapseAll": "Thu Gọn Tất Cả",
+        "scrollToActiveTab": "Cuộn Đến Thẻ Đang Hoạt Động",
+        "muteAllTabs": "Tắt Âm Tất Cả Thẻ",
+        "themeModes": "Chế Độ Giao Diện",
+        "viewModes": "Chế Độ Xem",
+        "showBy": "Hiển Thị Theo",
+        "sortBy": "Sắp Xếp Theo",
+        "createTabPanel": "Tạo Bảng Thẻ",
+        "tabPanels": "Bảng Thẻ",
+        "pinToToolbarReminder": "Hãy ghim tiện ích vào thanh công cụ trước khi xóa điều hướng này."
       },
       "buttonPosition": {
         "label": "Vị trí nút",
@@ -437,6 +465,23 @@
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ",
         "globaldisabledTips": "Bạn phải bật đồng bộ trong cài đặt toàn cầu để thay đổi cài đặt này."
+      },
+      "linkSettings": {
+        "label": "Cài đặt liên kết",
+        "description": "Tùy chỉnh cách xử lý các liên kết trên trang web này.",
+        "configure": "Cấu hình",
+        "listTips": "Kéo và thả để sắp xếp. Quy tắc có độ ưu tiên cao hơn sẽ được đặt lên trên. Khi một quy tắc được áp dụng, các quy tắc sau sẽ không được áp dụng.",
+        "linkMatchContent": "Nội dung khớp liên kết",
+        "linkMatchContentTips": "Hỗ trợ biểu thức chính quy. Ví dụ, sử dụng '*' để khớp với bất kỳ số lượng ký tự nào và '?' để khớp với một ký tự duy nhất.",
+        "linkOpenMethod": "Phương thức mở liên kết",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "target_self": "Thẻ hiện tại",
+        "target_blank": "Thẻ mới",
+        "target_parent": "Thẻ cha",
+        "target_top": "Thẻ trên cùng",
+        "save": "Lưu",
+        "close": "Đóng"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Biểu tượng của một trang web chưa được truy cập có thể hiển thị không bình thường. Đừng lo lắng, nó sẽ hiển thị bình thường sau khi bạn truy cập và khởi động lại trình duyệt.",
         "siteConfig": "Cài đặt trang",
         "siteConfigInfo": "chẳng hạn như tự động bỏ, hình trong hình khi chuyển thẻ, thanh tiến trình đọc, thanh tiến trình phát, v.v.",
-        "recentlyTabs": "Các thẻ đã đóng gần đây"
+        "recentlyTabs": "Các thẻ đã đóng gần đây",
+        "snapshots": "Ảnh chụp nhanh"
       },
       "cancelBtn": "Hủy",
       "exportBtn": "Xuất",
@@ -514,5 +560,28 @@
         "staySynchronized": "Giữ đồng bộ"
       }
     }
-}
+  },
+  "snapshots": {
+    "title": "Trình xem ảnh chụp nhanh",
+    "description": "Tạo và quản lý ảnh chụp nhanh.",
+    "createSnapshot": "Tạo ảnh chụp nhanh",
+    "exportSnapshot": "Xuất ảnh chụp nhanh",
+    "openAllWindows": "Mở tất cả cửa sổ",
+    "openSelectedInNewWindow": "Mở mục đã chọn trong cửa sổ mới",
+    "openSelectedInCurrentWindow": "Mở mục đã chọn trong cửa sổ hiện tại",
+    "windowCount": "{{count}} Cửa sổ",
+    "tabCount": "{{count}} Thẻ",
+    "Window": "Cửa sổ",
+    "OpenInCurrentWindow": "Mở trong cửa sổ hiện tại",
+    "OpenInNewWindow": "Mở trong cửa sổ mới",
+    "ResetSelection": "Đặt lại lựa chọn",
+    "snapshotCreatedSuccess": "Tạo ảnh chụp nhanh thành công",
+    "snapshotCreatedFailed": "Tạo ảnh chụp nhanh thất bại",
+    "snapshotDeletedSuccess": "Xóa ảnh chụp nhanh thành công",
+    "snapshotDeletedFailed": "Xóa ảnh chụp nhanh thất bại",
+    "importSnapshot": "Nhập ảnh chụp nhanh",
+    "snapshotImportFailedDuplicate": "Nhập ảnh chụp nhanh thất bại, ảnh chụp nhanh trùng lặp",
+    "snapshotImportedSuccess": "{{count}} ảnh chụp nhanh đã được nhập thành công",
+    "snapshotImportFailed": "{{count}} ảnh chụp nhanh nhập thất bại {{error}}"
+  }
 }

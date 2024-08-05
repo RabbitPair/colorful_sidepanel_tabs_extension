@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Tampilkan bilah navigasi bawah",
-        "description": "Ketika diaktifkan, bilah navigasi bawah akan ditampilkan"
+        "description": "Jika diaktifkan, bilah navigasi bawah akan muncul",
+        "configure": "konfigurasi",
+        "configureBottomNav": "Konfigurasi Navigasi Bawah",
+        "enabledNavs": "Navigasi yang Diaktifkan",
+        "disabledNavs": "Navigasi yang Dinonaktifkan (Tersedia)",
+        "showLabel": "Tampilkan Label",
+        "close": "Tutup",
+        "save": "Simpan",
+        "settings": "Pengaturan",
+        "version": "Versi",
+        "more": "Lainnya",
+        "newTab": "Tab Baru",
+        "recentlyTabs": "Tab yang Baru Ditutup",
+        "bookmarks": "Bookmark",
+        "history": "Riwayat",
+        "readingList": "Daftar Bacaan",
+        "quickAccess": "Akses Cepat",
+        "search": "Pencarian",
+        "createSnapshot": "Buat Snapshot",
+        "collapseAll": "Tutup Semua",
+        "scrollToActiveTab": "Gulir ke Tab Aktif",
+        "muteAllTabs": "Bisukan Semua Tab",
+        "themeModes": "Mode Tema",
+        "viewModes": "Mode Tampilan",
+        "showBy": "Tampilkan Berdasarkan",
+        "sortBy": "Urutkan Berdasarkan",
+        "createTabPanel": "Buat Panel Tab",
+        "tabPanels": "Panel Tab",
+        "pinToToolbarReminder": "Harap sematkan ekstensi ke toolbar Anda sebelum menghapus navigasi ini."
       },
       "buttonPosition": {
         "label": "Posisi tombol",
@@ -437,6 +465,23 @@
         "downloadOnly": "Hanya unduh",
         "staySynchronized": "Tetap sinkron",
         "globaldisabledTips": "Anda harus mengaktifkan sinkronisasi di Pengaturan Global untuk mengubah pengaturan ini."
+      },
+      "linkSettings": {
+        "label": "Pengaturan Tautan",
+        "description": "Atur cara penanganan tautan di situs ini.",
+        "configure": "Konfigurasi",
+        "listTips": "Seret dan lepas untuk mengurutkan. Aturan dengan prioritas lebih tinggi ditempatkan di atas. Setelah aturan cocok, aturan berikutnya tidak akan diterapkan.",
+        "linkMatchContent": "Konten Kecocokan Tautan",
+        "linkMatchContentTips": "Mendukung ekspresi reguler. Misalnya, gunakan '*' untuk mencocokkan sejumlah karakter dan '?' untuk mencocokkan satu karakter.",
+        "linkOpenMethod": "Metode Pembukaan Tautan",
+        "edit": "Sunting",
+        "delete": "Hapus",
+        "target_self": "Tab Saat Ini",
+        "target_blank": "Tab Baru",
+        "target_parent": "Tab Induk",
+        "target_top": "Tab Paling Atas",
+        "save": "Simpan",
+        "close": "Tutup"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikon situs web yang belum dikunjungi mungkin ditampilkan secara tidak normal. Jangan khawatir, itu akan ditampilkan secara normal setelah Anda mengunjungi dan memulai ulang browser.",
         "siteConfig": "Pengaturan Situs",
         "siteConfigInfo": "seperti dapat dibuang secara otomatis, gambar-dalam-gambar pada Pergantian Tab, bilah kemajuan membaca, bilah kemajuan pemutaran, dll.",
-        "recentlyTabs": "Tab yang baru saja ditutup"
+        "recentlyTabs": "Tab yang baru saja ditutup",
+        "snapshots":"Cuplikan"
       },
       "cancelBtn": "Batal",
       "exportBtn": "Ekspor",
@@ -514,5 +560,28 @@
         "staySynchronized": "Tetap sinkron"
       }
     }
+  },
+  "snapshots": {
+    "title": "Penampil Snapshot",
+    "description": "Buat dan kelola snapshot.",
+    "createSnapshot": "Buat Snapshot",
+    "exportSnapshot": "Ekspor Snapshot",
+    "openAllWindows": "Buka Semua Jendela",
+    "openSelectedInNewWindow": "Buka yang Dipilih di Jendela Baru",
+    "openSelectedInCurrentWindow": "Buka yang Dipilih di Jendela Saat Ini",
+    "windowCount": "{{count}} Jendela",
+    "tabCount": "{{count}} Tab",
+    "Window": "Jendela",
+    "OpenInCurrentWindow": "Buka di Jendela Saat Ini",
+    "OpenInNewWindow": "Buka di Jendela Baru",
+    "ResetSelection": "Atur Ulang Pilihan",
+    "snapshotCreatedSuccess": "Snapshot berhasil dibuat",
+    "snapshotCreatedFailed": "Gagal membuat snapshot",
+    "snapshotDeletedSuccess": "Snapshot berhasil dihapus",
+    "snapshotDeletedFailed": "Gagal menghapus snapshot",
+    "importSnapshot": "Impor Snapshot",
+    "snapshotImportFailedDuplicate": "Gagal mengimpor snapshot, snapshot duplikat",
+    "snapshotImportedSuccess": "{{count}} Snapshot berhasil diimpor",
+    "snapshotImportFailed": "{{count}} Snapshot gagal diimpor {{error}}"
   }
 }

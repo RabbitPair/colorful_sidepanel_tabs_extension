@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Fosgail an taobh sainnsealadh gus am preasbheachadh",
+  "OpenSidePanelToPreview": "Fosgail an taobh sainnsealadh gus am preasbheachadh",
   "_execute_action": "Gnìomhachadh an leudachaidh seo",
   "openSidePanel": "Fosgail an taobh sainnsealadh",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Gnìomh nuair a chlikeas tu air an dealbh",
         "description": "Suidhich an gnìomh nuair a chlikeas tu air an dealbh",
         "openPopup": "Fosgail pop-up",
-        "openSidePanel": "Fosgail an taobh sainnsealadh"
+        "openSidePanel": "Fosgail an taobh sainnsealadh",
+        "SmallWindowAlert": "Ma tha am pannal-taobh a' gabhail cus àite, thathar a' moladh gun cleachd thu uinneag pop-up"
       },
       "SidePanelPosition": {
         "label": "Àite an taobh sainnsealadh",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Seall an t-siostam-innse ìosal",
-        "description": "Nuair a chaidh a chumas, bidh an t-siostam-innse ìosal air an taisbeanadh"
+        "description": "Nuair a tha e air a chomasachadh, bidh am bàr seòlaidh ìosal air a thaisbeanadh",
+        "configure": "Rèitich",
+        "configureBottomNav": "Rèitich Seòladh Ìosal",
+        "enabledNavs": "Seòlaidhean Comasach",
+        "disabledNavs": "Seòlaidhean Neo-chomasach (Ri fhaighinn)",
+        "showLabel": "Seall Bileag",
+        "close": "Dùin",
+        "save": "Sàbhail",
+        "settings": "Roghainnean",
+        "version": "Tionndadh",
+        "more": "Barrachd",
+        "newTab": "Tab Ùr",
+        "recentlyTabs": "Tabs Dùinte o Chionn Ghoirid",
+        "bookmarks": "Comharran-leabhair",
+        "history": "Eachdraidh",
+        "readingList": "Liosta Leughaidh",
+        "quickAccess": "Ruigsinneachd Luath",
+        "search": "Lorg",
+        "createSnapshot": "Cruthaich Dealbh-sgrìn",
+        "collapseAll": "Cùm a h-Uile",
+        "scrollToActiveTab": "Sgrolaich gu Tab Gnìomhach",
+        "muteAllTabs": "Sàmhach a h-Uile Tab",
+        "themeModes": "Modailean Cuspair",
+        "viewModes": "Modailean Seallaidh",
+        "showBy": "Seall Le",
+        "sortBy": "Òrdaich Le",
+        "createTabPanel": "Cruthaich Pannal Tab",
+        "tabPanels": "Pannalan Tab",
+        "pinToToolbarReminder": "Cuir am plugan ris a' bhàr-inneal agad mus cuir thu às an t-seòladh seo."
       },
       "buttonPosition": {
         "label": "Àite a' bhogsa",
@@ -219,7 +248,8 @@
       },
       "previewDelay": {
         "label": "Drochaid preasbheachadh",
-        "description": "Suidhich an ùine dìreach airson preasbheachadh taobhan nuair a' sùileachadh thairis air taobhan, agus mar sin air adhart. (dioghan). Ma suidhichte gu 0, cha bhi drochaid sam bith ann"
+        "description": "Suidhich an ùine dìreach airson preasbheachadh taobhan nuair a' sùileachadh thairis air taobhan, agus mar sin air adhart. (dioghan). Ma suidhichte gu 0, cha bhi drochaid sam bith ann",
+        "seconds": "Dioghan"
       }
     },
     "history": {
@@ -245,7 +275,8 @@
       },
       "limitSearchResults": {
         "label": "Meud taobhan eachdraidh anns na toraidhean lorg taobh",
-        "description": "Suidhich meud taobhan eachdraidh anns na toraidhean lorg taobh. Bidh taobhan eachdraidh a' fàgail an lìonadh a tha nas motha air an sgeadachadh"
+        "description": "Suidhich meud taobhan eachdraidh anns na toraidhean lorg taobh. Bidh taobhan eachdraidh a' fàgail an lìonadh a tha nas motha air an sgeadachadh",
+         "alert": "Cus chlàran a' toirt buaidh air astar luchdachadh na duilleige"
       },
       "saveRecentlyTabsLimit": {
         "label": "Àireamh taobhan a chaidh dùnadh fad 's a dh'fhalbh a sàbhail",
@@ -253,7 +284,8 @@
       },
       "keepDays": {
         "label": "Àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh",
-        "description": "Suidhich àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh. Bidh dàta dhùthichte a' faotainn sgrios"
+        "description": "Suidhich àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh. Bidh dàta dhùthichte a' faotainn sgrios",
+         "days": "Làithean"
       },
       "openDuration": {
         "label": "Am fosgailte",
@@ -427,7 +459,29 @@
       },
       "SyncPrivateData": {
         "label": "Sinc dàta prìobhaideach",
-        "description": "Tagh ciamar a sinnicheas dàta prìobhaideach, mar eisimpleir fianáin làraichean, dàta stòradh ionadail duilleige, dàta StòrasSeisiúin, srl. Criptear an dàta mus sinnicheas e."
+        "description": "Tagh ciamar a sinnicheas dàta prìobhaideach, mar eisimpleir fianáin làraichean, dàta stòradh ionadail duilleige, dàta StòrasSeisiúin, srl. Criptear an dàta mus sinnicheas e.",
+        "disabled": "Di-chomasach",
+        "uploadOnly": "Luchdaich suas a-mhàin",
+        "downloadOnly": "Luchdaich sìos a-mhàin",
+        "staySynchronized": "Fuirich co-shìnte",
+        "globaldisabledTips": "Feumaidh tu co-shioncronachadh a chomasachadh anns na Roghainnean Coitcheann gus an suidheachadh seo atharrachadh."
+      },
+      "linkSettings": {
+        "label": "Roghainnean Ceangail",
+        "description": "Suidhich mar a bu chòir ceanglaichean a làimhseachadh air an làrach seo.",
+        "configure": "Rèitich",
+        "listTips": "Tarraing is leig às gus òrdachadh. Tha riaghailtean le prìomhachas nas àirde air an cur aig a' mhullach. Aon uair 's gu bheil riaghailt air a mhaidseadh, cha tèid riaghailtean às dèidh sin a chur an gnìomh.",
+        "linkMatchContent": "Susbaint Maids Ceangail",
+        "linkMatchContentTips": "A' toirt taic do abairtean cunbhalach. Mar eisimpleir, cleachd '*' gus àireamh sam bith de charactaran a mhaidseadh agus '?' gus aon charactar a mhaidseadh.",
+        "linkOpenMethod": "Dòigh Fosglaidh Ceangail",
+        "edit": "Deasaich",
+        "delete": "Sguab às",
+        "target_self": "Tab Làithreach",
+        "target_blank": "Tab Ùr",
+        "target_parent": "Tab Phàrant",
+        "target_top": "Tab As Àirde",
+        "save": "Sàbhail",
+        "close": "Dùin"
       }
     },
     "importAndExport": {
@@ -440,7 +494,8 @@
         "quickAccessWarning": "Dh’fhaodadh ìomhaigh làrach-lìn nach deach a thadhail air a bhith a’ taisbeanadh gu neo-àbhaisteach. Na gabh dragh, bidh e a’ taisbeanadh gu h-àbhaisteach às dèidh dhut tadhal agus am brabhsair ath-thòiseachadh.",
         "siteConfig": "Suidheachaidhean Làraich",
         "siteConfigInfo": "leithid fèin-dhì-chomasach, dealbh-ann-an-dealbh air Tabh Sgaoil, bàr staid leughaidh, bàr staid cluich, msaa.",
-        "recentlyTabs": "Taobhan dùinte o chionn ghoirid"
+        "recentlyTabs": "Taobhan dùinte o chionn ghoirid",
+        "snapshots": "Dealbhan-sgrìn"
       },
       "cancelBtn": "Sguir dheth",
       "exportBtn": "Às-mhalairt",
@@ -505,5 +560,28 @@
         "staySynchronized": "Fan sínte"
       }
     }
+  },
+  "snapshots": {
+    "title": "Luchd-amhairc Snapshots",
+    "description": "Cruthaich agus stiùirich snapshots.",
+    "createSnapshot": "Cruthaich Snapshot",
+    "exportSnapshot": "Às-mhalairt Snapshot",
+    "openAllWindows": "Fosgail Uinneagan Uile",
+    "openSelectedInNewWindow": "Fosgail Taghte ann an Uinneag Ùr",
+    "openSelectedInCurrentWindow": "Fosgail Taghte ann an Uinneag Làithreach",
+    "windowCount": "{{count}} Uinneagan",
+    "tabCount": "{{count}} Tabaichean",
+    "Window": "Uinneag",
+    "OpenInCurrentWindow": "Fosgail ann an Uinneag Làithreach",
+    "OpenInNewWindow": "Fosgail ann an Uinneag Ùr",
+    "ResetSelection": "Ath-shuidhich Taghadh",
+    "snapshotCreatedSuccess": "Snapshot air a chruthachadh gu soirbheachail",
+    "snapshotCreatedFailed": "Dh'fhàillig cruthachadh snapshot",
+    "snapshotDeletedSuccess": "Snapshot air a sguabadh às gu soirbheachail",
+    "snapshotDeletedFailed": "Dh'fhàillig sguabadh às snapshot",
+    "importSnapshot": "In-mhalairt Snapshot",
+    "snapshotImportFailedDuplicate": "Dh'fhàillig in-mhalairt snapshot, snapshot dùblaichte",
+    "snapshotImportedSuccess": "{{count}} Snapshot air a thoirt a-steach gu soirbheachail",
+    "snapshotImportFailed": "{{count}} Dh'fhàillig in-mhalairt snapshot {{error}}"
   }
 }

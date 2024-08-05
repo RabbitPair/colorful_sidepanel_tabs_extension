@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Prikaži donju navigacijsku traku",
-        "description": "Kada je omogućeno, donja navigacijska traka će biti prikazana"
+        "description": "Kada je omogućeno, donja navigacijska traka će biti vidljiva",
+        "configure": "postavke",
+        "configureBottomNav": "Postavke donje navigacije",
+        "enabledNavs": "Omogućene navigacije",
+        "disabledNavs": "Onemogućene navigacije (dostupne)",
+        "showLabel": "Prikaži oznaku",
+        "close": "Zatvori",
+        "save": "Spremi",
+        "settings": "Postavke",
+        "version": "Verzija",
+        "more": "Više",
+        "newTab": "Nova kartica",
+        "recentlyTabs": "Nedavno zatvorene kartice",
+        "bookmarks": "Knjižne oznake",
+        "history": "Povijest",
+        "readingList": "Popis za čitanje",
+        "quickAccess": "Brzi pristup",
+        "search": "Pretraži",
+        "createSnapshot": "Stvori snimku",
+        "collapseAll": "Sažmi sve",
+        "scrollToActiveTab": "Pomakni se do aktivne kartice",
+        "muteAllTabs": "Isključi zvuk svih kartica",
+        "themeModes": "Načini teme",
+        "viewModes": "Načini prikaza",
+        "showBy": "Prikaži po",
+        "sortBy": "Poredaj po",
+        "createTabPanel": "Stvori panel kartica",
+        "tabPanels": "Paneli kartica",
+        "pinToToolbarReminder": "Prikvačite proširenje na alatnu traku prije nego što uklonite ovu navigaciju."
       },
       "buttonPosition": {
         "label": "Položaj gumba",
@@ -437,7 +465,123 @@
         "downloadOnly": "Samo preuzimanje",
         "staySynchronized": "Ostani sinkroniziran",
         "globaldisabledTips": "Morate uključiti sinkronizaciju u globalnim postavkama kako biste promijenili ovu postavku."
+      },
+      "linkSettings": {
+        "label": "Postavke poveznica",
+        "description": "Postavite kako će se poveznice ponašati na ovoj stranici.",
+        "configure": "Postavi",
+        "listTips": "Povucite i ispustite za sortiranje. Pravila s višim prioritetom su na vrhu. Kada se jedno pravilo podudara, ostala se ne primjenjuju.",
+        "linkMatchContent": "Sadržaj podudaranja poveznica",
+        "linkMatchContentTips": "Podržava regularne izraze. Na primjer, koristite '*' za podudaranje bilo kojeg broja znakova i '?' za podudaranje jednog znaka.",
+        "linkOpenMethod": "Metoda otvaranja poveznica",
+        "edit": "Uredi",
+        "delete": "Izbriši",
+        "target_self": "Trenutna kartica",
+        "target_blank": "Nova kartica",
+        "target_parent": "Nadređena kartica",
+        "target_top": "Najviša kartica",
+        "save": "Spremi",
+        "close": "Zatvori"
+      }
+    },
+    "importAndExport": {
+      "title": "Uvoz/Izvoz",
+      "description": "",
+      "options": {
+        "preferences": "Korisničke postavke",
+        "preferencesInfo": "Obuhvaća zadane opće postavke, postavke prikaza i podataka te promjenu tema korisničkog sučelja.",
+        "quickAccess": "Brzi pristup",
+        "quickAccessWarning": "Ikona neposjećenog web mjesta može se prikazati nenormalno. Ne brinite, prikazat će se normalno nakon što posjetite i ponovno pokrenete preglednik.",
+        "siteConfig": "Postavke web mjesta",
+        "siteConfigInfo": "kao što su automatsko odbacivanje, slika u slici pri prebacivanju kartica, traka napretka čitanja, traka napretka reprodukcije itd.",
+        "recentlyTabs": "Nedavno zatvorene kartice",
+        "snapshots": "Snimke zaslona"
+      },
+      "cancelBtn": "Odustani",
+      "exportBtn": "Izvezi",
+      "importBtn": "Uvezi",
+      "importing": "Uvoz...",
+      "fileError": "Pogreška pri parsiranju datoteke, molimo učitajte ispravnu JSON konfiguracijsku datoteku",
+      "import": {
+        "label": "Uvezi iz datoteke",
+        "description": "",
+        "formTips": "Odaberite podatke koje želite uvesti",
+        "importSuccess": "Uvoz uspješan",
+        "importFailed": "Uvoz nije uspio"
+      },
+      "export": {
+        "label": "Izvezi u datoteku",
+        "description": "",
+        "formTips": "Odaberite podatke koje želite izvesti",
+        "exportSuccess": "Izvoz uspješan",
+        "exportFailed": "Izvoz nije uspio"
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinkroniziraj s oblakom",
+      "SyncNow": "Sinkroniziraj sada",
+      "SyncNowWithGoogleDrive": "Sinkroniziraj sada s Google Driveom",
+      "SyncNowWithDropbox": "Sinkroniziraj sada s Dropboxom",
+      "SyncNowWithOneDrive": "Sinkroniziraj sada s OneDriveom",
+      "Synchronizing": "Sinkronizacija...",
+      "SyncedSuccessfully": "Uspješno sinkronizirano",
+      "SyncFailed": "Sinkronizacija nije uspjela",
+      "LoginRequired": "Potrebna prijava",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinkroniziraj konfiguracije",
+        "description": "Odaberite kako sinkronizirati konfiguracije ovog proširenja.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prijenos",
+        "downloadOnly": "Samo preuzimanje",
+        "staySynchronized": "Ostani sinkroniziran"
+      },
+      "SyncTabs": {
+        "label": "Sinkroniziraj kartice",
+        "description": "Odaberite kako sinkronizirati podatke kartica, isključujući privatne podatke kao što su kolačići i osobne informacije.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prijenos",
+        "downloadOnly": "Samo preuzimanje",
+        "staySynchronized": "Ostani sinkroniziran"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Sinkroniziraj otvaranje ili zatvaranje kartica",
+        "description": "Kada je omogućeno, otvaranje ili zatvaranje kartica u različitim preglednicima će biti sinkronizirano. Ovo se primjenjuje samo kada je opcija 'ostani sinkroniziran' aktivna",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ako se prijavite na isti račun u dva preglednika istovremeno i uključite ovu opciju, otvaranje ili zatvaranje kartica u jednom pregledniku će izvršiti istu radnju u drugom pregledniku. Ako web stranica zabranjuje ponovljene prijave s istim računom, mogu se pojaviti iznimke."
+      },
+      "SyncPrivateData": {
+        "label": "Sinkroniziraj privatne podatke",
+        "description": "Odaberite kako sinkronizirati privatne podatke, kao što su kolačići web stranica, podaci lokalne pohrane web stranica, podaci SessionStorage itd. Podaci će biti šifrirani prije sinkronizacije.",
+        "disabled": "Onemogućeno",
+        "uploadOnly": "Samo prijenos",
+        "downloadOnly": "Samo preuzimanje",
+        "staySynchronized": "Ostani sinkroniziran"
       }
     }
+  },
+  "snapshots": {
+    "title": "Preglednik snimki",
+    "description": "Kreirajte i upravljajte snimkama.",
+    "createSnapshot": "Kreiraj snimku",
+    "exportSnapshot": "Izvezi snimku",
+    "openAllWindows": "Otvori sve prozore",
+    "openSelectedInNewWindow": "Otvori odabrano u novom prozoru",
+    "openSelectedInCurrentWindow": "Otvori odabrano u trenutnom prozoru",
+    "windowCount": "{{count}} prozora",
+    "tabCount": "{{count}} kartica",
+    "Window": "Prozor",
+    "OpenInCurrentWindow": "Otvori u trenutnom prozoru",
+    "OpenInNewWindow": "Otvori u novom prozoru",
+    "ResetSelection": "Poništi odabir",
+    "snapshotCreatedSuccess": "Snimka uspješno kreirana",
+    "snapshotCreatedFailed": "Kreiranje snimke nije uspjelo",
+    "snapshotDeletedSuccess": "Snimka uspješno obrisana",
+    "snapshotDeletedFailed": "Brisanje snimke nije uspjelo",
+    "importSnapshot": "Uvezi snimku",
+    "snapshotImportFailedDuplicate": "Uvoz snimke nije uspio, duplicirana snimka",
+    "snapshotImportedSuccess": "{{count}} snimka uspješno uvezena",
+    "snapshotImportFailed": "{{count}} snimka nije uspjela {{error}}"
   }
 }

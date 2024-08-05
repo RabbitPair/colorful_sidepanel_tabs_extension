@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "नीचे नेविगेशन बार दिखाएं",
-        "description": "सक्षम होने पर, नीचे नेविगेशन बार प्रदर्शित होता है"
+        "description": "सक्षम होने पर, नीचे नेविगेशन बार दिखाई देगा",
+        "configure": "कॉन्फ़िगर करें",
+        "configureBottomNav": "नीचे नेविगेशन को कॉन्फ़िगर करें",
+        "enabledNavs": "सक्रिय नेविगेशन",
+        "disabledNavs": "निष्क्रिय नेविगेशन (उपलब्ध)",
+        "showLabel": "लेबल दिखाएं",
+        "close": "बंद करें",
+        "save": "सहेजें",
+        "settings": "सेटिंग्स",
+        "version": "संस्करण",
+        "more": "अधिक",
+        "newTab": "नया टैब",
+        "recentlyTabs": "हाल ही में बंद टैब",
+        "bookmarks": "बुकमार्क्स",
+        "history": "इतिहास",
+        "readingList": "पढ़ने की सूची",
+        "quickAccess": "त्वरित पहुँच",
+        "search": "खोजें",
+        "createSnapshot": "स्नैपशॉट बनाएं",
+        "collapseAll": "सभी संक्षिप्त करें",
+        "scrollToActiveTab": "सक्रिय टैब पर स्क्रॉल करें",
+        "muteAllTabs": "सभी टैब म्यूट करें",
+        "themeModes": "थीम मोड्स",
+        "viewModes": "दृश्य मोड्स",
+        "showBy": "दिखाएँ",
+        "sortBy": "क्रमबद्ध करें",
+        "createTabPanel": "टैब पैनल बनाएं",
+        "tabPanels": "टैब पैनल",
+        "pinToToolbarReminder": "इस नेविगेशन को हटाने से पहले कृपया एक्सटेंशन को अपने टूलबार में पिन करें।"
       },
       "buttonPosition": {
         "label": "बटन स्थिति",
@@ -437,6 +465,23 @@
         "downloadOnly": "केवल डाउनलोड करें",
         "staySynchronized": "सिंक्रनाइज़ रहें",
         "globaldisabledTips": "इस सेटिंग को संशोधित करने के लिए आपको वैश्विक सेटिंग्स में सिंक चालू करनी होगी।"
+      },
+      "linkSettings": {
+        "label": "लिंक सेटिंग्स",
+        "description": "इस साइट पर लिंक को कैसे संभालना है, इसे कॉन्फ़िगर करें।",
+        "configure": "कॉन्फ़िगर करें",
+        "listTips": "क्रमबद्ध करने के लिए खींचें और छोड़ें। उच्च प्राथमिकता वाले नियम शीर्ष पर रखे जाते हैं। एक बार जब कोई नियम मेल खाता है, तो बाद के नियम लागू नहीं होंगे।",
+        "linkMatchContent": "लिंक मिलान सामग्री",
+        "linkMatchContentTips": "नियमित अभिव्यक्तियों का समर्थन करता है। उदाहरण के लिए, किसी भी संख्या में वर्णों से मेल खाने के लिए '*' का उपयोग करें और एकल वर्ण से मेल खाने के लिए '?' का उपयोग करें।",
+        "linkOpenMethod": "लिंक खोलने की विधि",
+        "edit": "संपादित करें",
+        "delete": "हटाएं",
+        "target_self": "वर्तमान टैब",
+        "target_blank": "नया टैब",
+        "target_parent": "मूल टैब",
+        "target_top": "शीर्षmost टैब",
+        "save": "सहेजें",
+        "close": "बंद करें"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "एक अनदेखी वेबसाइट का आइकन असामान्य रूप से प्रदर्शित हो सकता है। चिंता न करें, यह आपके ब्राउज़र को पुनः आरंभ करने के बाद सामान्य रूप से प्रदर्शित होगा।",
         "siteConfig": "साइट सेटिंग्स",
         "siteConfigInfo": "जैसे कि स्वचालित त्याग योग्य, टैब स्विच पर पिक्चर-इन-पिक्चर, पढ़ने की प्रगति पट्टी, प्लेइंग प्रगति पट्टी, आदि।",
-        "recentlyTabs": "हाल ही में बंद किए गए टैब"
+        "recentlyTabs": "हाल ही में बंद किए गए टैब",
+        "snapshots": "स्क्रीनशॉट्स"
       },
       "cancelBtn": "रद्द करें",
       "exportBtn": "निर्यात",
@@ -514,5 +560,28 @@
         "staySynchronized": "सिंक्रनाइज़ रहें"
       }
     }
+  },
+  "snapshots": {
+    "title": "स्नैपशॉट्स व्यूअर",
+    "description": "स्नैपशॉट्स बनाएं और प्रबंधित करें।",
+    "createSnapshot": "स्नैपशॉट बनाएं",
+    "exportSnapshot": "स्नैपशॉट निर्यात करें",
+    "openAllWindows": "सभी विंडो खोलें",
+    "openSelectedInNewWindow": "चयनित को नई विंडो में खोलें",
+    "openSelectedInCurrentWindow": "चयनित को वर्तमान विंडो में खोलें",
+    "windowCount": "{{count}} विंडो",
+    "tabCount": "{{count}} टैब्स",
+    "Window": "विंडो",
+    "OpenInCurrentWindow": "वर्तमान विंडो में खोलें",
+    "OpenInNewWindow": "नई विंडो में खोलें",
+    "ResetSelection": "चयन रीसेट करें",
+    "snapshotCreatedSuccess": "स्नैपशॉट सफलतापूर्वक बनाया गया",
+    "snapshotCreatedFailed": "स्नैपशॉट बनाना विफल रहा",
+    "snapshotDeletedSuccess": "स्नैपशॉट सफलतापूर्वक हटाया गया",
+    "snapshotDeletedFailed": "स्नैपशॉट हटाना विफल रहा",
+    "importSnapshot": "स्नैपशॉट आयात करें",
+    "snapshotImportFailedDuplicate": "स्नैपशॉट आयात विफल, डुप्लिकेट स्नैपशॉट",
+    "snapshotImportedSuccess": "{{count}} स्नैपशॉट सफलतापूर्वक आयात किया गया",
+    "snapshotImportFailed": "{{count}} स्नैपशॉट आयात विफल {{error}}"
   }
 }

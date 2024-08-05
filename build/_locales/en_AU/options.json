@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Show bottom navigation bar",
-        "description": "When enabled, the bottom navigation bar is displayed"
+        "description": "When enabled, the bottom navigation bar is displayed",
+        "configure": "configure",
+        "configureBottomNav": "Configure Bottom Navigation",
+        "enabledNavs": "Enabled Navigations",
+        "disabledNavs": "Disabled Navigations (Available)",
+        "showLabel": "Show Label",
+        "close": "Close",
+        "save": "Save",
+        "settings": "Settings",
+        "version": "Version",
+        "more": "More",
+        "newTab": "New Tab",
+        "recentlyTabs": "Recently Closed Tabs",
+        "bookmarks": "Bookmarks",
+        "history": "History",
+        "readingList": "Reading List",
+        "quickAccess": "Quick Access",
+        "search": "Search",
+        "createSnapshot": "Create Snapshot",
+        "collapseAll": "Collapse All",
+        "scrollToActiveTab": "Scroll to Active Tab",
+        "muteAllTabs": "Mute All Tabs",
+        "themeModes": "Theme modes",
+        "viewModes": "View Modes",
+        "showBy": "Show By",
+        "sortBy": "Sort By",
+        "createTabPanel": "Create Tab Panel",
+        "tabPanels": "Tab Panels",
+        "pinToToolbarReminder": "Please pin the extension to your toolbar before removing this navigation."
       },
       "buttonPosition": {
         "label": "Button position",
@@ -437,6 +465,23 @@
         "downloadOnly": "Download only",
         "staySynchronized": "Stay synchronized",
         "globaldisabledTips": "You must turn on sync in Global Settings to modify this setting."
+      },
+      "linkSettings": {
+        "label": "Link Preferences",
+        "description": "Set up how links should be managed on this site.",
+        "configure": "Set Up",
+        "listTips": "Drag and drop to reorder. Rules with higher priority are placed at the top. Once a rule is matched, the following rules will be ignored.",
+        "linkMatchContent": "Link Matching Criteria",
+        "linkMatchContentTips": "Supports regular expressions. For instance, use '*' to match any sequence of characters and '?' to match a single character.",
+        "linkOpenMethod": "Link Opening Method",
+        "edit": "Modify",
+        "delete": "Remove",
+        "target_self": "Same Tab",
+        "target_blank": "New Tab",
+        "target_parent": "Parent Tab",
+        "target_top": "Topmost Tab",
+        "save": "Save",
+        "close": "Close"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "The icon of an unvisited website may display abnormally. Don’t worry, it will display normally after you visit and restart the browser.",
         "siteConfig": "Site Settings",
         "siteConfigInfo": "such as auto discardable,picture-in-picture on Tab Switch, reading progress bar, playing progress bar, etc.",
-        "recentlyTabs": "Recently closed tabs"
+        "recentlyTabs": "Recently closed tabs",
+        "snapshots":"Snapshots"
       },
       "cancelBtn": "Cancel",
       "exportBtn": "Export",
@@ -514,5 +560,28 @@
         "staySynchronized": "Stay synchronized"
       }
     }
+  },
+  "snapshots": {
+    "title": "Snapshots Viewer",
+    "description": "Create and manage snapshots.",
+    "createSnapshot": "Create Snapshot",
+    "exportSnapshot": "Export Snapshot",
+    "openAllWindows": "Open All Windows",
+    "openSelectedInNewWindow": "Open Selected In New Window",
+    "openSelectedInCurrentWindow": "Open Selected In Current Window",
+    "windowCount": "{{count}} Windows",
+    "tabCount": "{{count}} Tabs",
+    "Window": "Window",
+    "OpenInCurrentWindow": "Open In Current Window",
+    "OpenInNewWindow": "Open In New Window",
+    "ResetSelection": "Reset Selection",
+    "snapshotCreatedSuccess": "Snapshot created successfully",
+    "snapshotCreatedFailed": "Snapshot created failed",
+    "snapshotDeletedSuccess": "Snapshot deleted successfully",
+    "snapshotDeletedFailed": "Snapshot deleted failed",
+    "importSnapshot": "Import Snapshot",
+    "snapshotImportFailedDuplicate": "Snapshot import failed, duplicate snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshot imported successfully",
+    "snapshotImportFailed": "{{count}} Snapshot import failed {{error}}"
   }
 }

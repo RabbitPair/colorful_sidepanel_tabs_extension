@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "File colorate în panoul lateral"
+    "message": "VertiTab - File verticale în panoul lateral"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gestionează filele browserului în panoul lateral"
+    "message": "Gestionează filele browserului în panoul lateral cu funcții configurabile, de înfrumusețare și multe altele"
   },
   "openSidePanel": {
     "message": "Deschide panoul lateral"

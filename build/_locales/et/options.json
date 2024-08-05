@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Kuva alumine navigeerimisriba",
-        "description": "Kui lubatud, kuvatakse alumine navigeerimisriba"
+        "description": "Kui lubatud, kuvatakse alumine navigeerimisriba",
+        "configure": "seadista",
+        "configureBottomNav": "Seadista alumine navigeerimisriba",
+        "enabledNavs": "Lubatud navigeerimised",
+        "disabledNavs": "Keelatud navigeerimised (Saadaval)",
+        "showLabel": "Kuva silt",
+        "close": "Sulge",
+        "save": "Salvesta",
+        "settings": "Seaded",
+        "version": "Versioon",
+        "more": "Rohkem",
+        "newTab": "Uus vahekaart",
+        "recentlyTabs": "Hiljuti suletud vahekaardid",
+        "bookmarks": "Järjehoidjad",
+        "history": "Ajalugu",
+        "readingList": "Lugemisnimekiri",
+        "quickAccess": "Kiirjuurdepääs",
+        "search": "Otsi",
+        "createSnapshot": "Loo hetkepilt",
+        "collapseAll": "Ahenda kõik",
+        "scrollToActiveTab": "Kerige aktiivsele vahekaardile",
+        "muteAllTabs": "Vaigista kõik vahekaardid",
+        "themeModes": "Teemarežiimid",
+        "viewModes": "Vaaderežiimid",
+        "showBy": "Kuva järgi",
+        "sortBy": "Sorteeri järgi",
+        "createTabPanel": "Loo vahekaardipaneel",
+        "tabPanels": "Vahekaardipaneelid",
+        "pinToToolbarReminder": "Enne selle navigeerimise eemaldamist kinnitage laiendus oma tööriistaribale."
       },
       "buttonPosition": {
         "label": "Nuppude asukoht",
@@ -437,6 +465,23 @@
         "downloadOnly": "Ainult allalaadimine",
         "staySynchronized": "Jää sünkroonituks",
         "globaldisabledTips": "Selle sätte muutmiseks peate lubama sünkroonimise globaalseadetes."
+      },
+      "linkSettings": {
+        "label": "Lingiseaded",
+        "description": "Määrake, kuidas linke sellel saidil käsitletakse.",
+        "configure": "Seadista",
+        "listTips": "Lohistage ja sorteerige. Kõrgema prioriteediga reeglid on ülaosas. Kui reegel on leitud, ei rakendata järgnevaid reegleid.",
+        "linkMatchContent": "Lingisisu vastavus",
+        "linkMatchContentTips": "Toetab regulaaravaldisi. Näiteks kasutage '*' mis tahes arvu märkide sobitamiseks ja '?' ühe märgi sobitamiseks.",
+        "linkOpenMethod": "Lingi avamise meetod",
+        "edit": "Muuda",
+        "delete": "Kustuta",
+        "target_self": "Praegune vahekaart",
+        "target_blank": "Uus vahekaart",
+        "target_parent": "Vanem vahekaart",
+        "target_top": "Kõige ülemine vahekaart",
+        "save": "Salvesta",
+        "close": "Sulge"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Külastamata veebisaidi ikoon võib kuvada ebanormaalselt. Ärge muretsege, see kuvatakse normaalselt pärast külastamist ja brauseri taaskäivitamist.",
         "siteConfig": "Saidi seaded",
         "siteConfigInfo": "näiteks automaatne loobumine, pilt-pildis vahekaardi vahetamisel, lugemise edenemisriba, esitamise edenemisriba jne.",
-        "recentlyTabs": "Hiljuti suletud vahekaardid"
+        "recentlyTabs": "Hiljuti suletud vahekaardid",
+        "snapshots": "Hetktõmmised"
       },
       "cancelBtn": "Tühista",
       "exportBtn": "Ekspordi",
@@ -514,5 +560,28 @@
         "staySynchronized": "Jää sünkroonituks"
       }
     }
+  },
+  "snapshots": {
+    "title": "Hetktõmmiste vaataja",
+    "description": "Loo ja halda hetktõmmiseid.",
+    "createSnapshot": "Loo hetktõmmis",
+    "exportSnapshot": "Ekspordi hetktõmmis",
+    "openAllWindows": "Ava kõik aknad",
+    "openSelectedInNewWindow": "Ava valitud uues aknas",
+    "openSelectedInCurrentWindow": "Ava valitud praeguses aknas",
+    "windowCount": "{{count}} akent",
+    "tabCount": "{{count}} vahekaarti",
+    "Window": "Aken",
+    "OpenInCurrentWindow": "Ava praeguses aknas",
+    "OpenInNewWindow": "Ava uues aknas",
+    "ResetSelection": "Lähtesta valik",
+    "snapshotCreatedSuccess": "Hetktõmmis edukalt loodud",
+    "snapshotCreatedFailed": "Hetktõmmise loomine ebaõnnestus",
+    "snapshotDeletedSuccess": "Hetktõmmis edukalt kustutatud",
+    "snapshotDeletedFailed": "Hetktõmmise kustutamine ebaõnnestus",
+    "importSnapshot": "Impordi hetktõmmis",
+    "snapshotImportFailedDuplicate": "Hetktõmmise import ebaõnnestus, duplikaat hetktõmmis",
+    "snapshotImportedSuccess": "{{count}} hetktõmmis edukalt imporditud",
+    "snapshotImportFailed": "{{count}} hetktõmmise import ebaõnnestus {{error}}"
   }
 }

@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "多彩側邊欄標籤"
+    "message": "VertiTab - 側邊欄垂直標籤頁"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "在側邊欄管理瀏覽器標籤頁，漂亮得不像實力派"
+    "message": "在側面板管理瀏覽器標籤頁，具有可配置、美化和許多其他功能"
   },
   "openSidePanel": {
     "message": "打開側邊欄"

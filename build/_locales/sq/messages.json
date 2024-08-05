@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Menaxhimi i etiketave të anës së shiritit të ngjyrave"
+    "message": "VertiTab - Skeda Vertikale në Panelin Anësor"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Menaxhoni skedat në panelin anësor, Shumë e bukur për të qenë kaq e mirë."
+    "message": "Menaxho skedat e shfletuesit në panelin anësor me veçori të konfiguruara, zbukuruese dhe shumë të tjera"
   },
   "openSidePanel": {
-    "message": "Hapni panelin anësor"
+    "message": "Hap Panelin Anësor"
   }
 }

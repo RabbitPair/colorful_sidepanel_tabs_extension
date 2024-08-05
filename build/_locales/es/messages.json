@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "Pestañas Coloridas en el Panel Lateral"
+    "message": "VertiTab - Pestañas Verticales en el Panel Lateral"
   },
   "appShortName": {
-    "message": "parejarabbit"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gestiona las pestañas del navegador en el panel lateral, Demasiado bonito para ser tan bueno"
+    "message": "Administra las pestañas del navegador en el panel lateral con funciones configurables, embellecedoras y muchas otras características"
   },
   "openSidePanel": {
     "message": "Abrir Panel Lateral"

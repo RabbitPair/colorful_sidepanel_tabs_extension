@@ -1,8 +1,46 @@
+## VertiTab - Side Panel Vertical Tabs v2.0.0 Update
+
+Dear Users,
+
+We are excited to announce that our extension has officially been renamed from "Colorful Side Panel Tabs" to **"VertiTab - Side Panel Vertical Tabs"**, and the version has been updated to 2.0.0. Here are the main updates in this release:
+
+### 1. New Name, Same Great Experience!
+
+We have renamed it to "VertiTab - Side Panel Vertical Tabs" to better reflect the features and vision of the extension.
+
+### 2. Snapshots
+
+Added a one-click save browser tab snapshot feature. You can save snapshots before closing the browser and quickly restore them the next time you open it. Currently, up to 50 snapshots can be saved.
+
+### 3. Enhanced Bottom Navigation Bar
+
+You can now access more features from the bottom navigation bar, such as: bookmarks, history, recently closed tabs, reading list, quick access, open new tab, create snapshot, search, collapse groups, etc. For more details, please check the options page.
+
+### 4. Bug Fixes and Stability Improvements
+
+We have fixed many bugs and made stability improvements to provide you with a seamless experience.
+
+### 5. Updated Import/Export Functionality
+
+Improved import and export options to better manage tabs across devices.
+
+Thank you for your continued support and feedback. We hope you enjoy the newly improved VertiTab!
+
+Stay organized and work efficiently, starting with VertiTab!
+
+---
+
+## v1.3.3
+
+### New Features
+
+- **linkSettings**: Site settings now include a new option that allows you to add rules to control whether site links open in the current tab or a new tab.
+
 ## v1.3.2
 
 ### Bug Fixes
 
--Fixed the issue of errors occurring when closing tabs in the middle with the mouse
+- Fixed the issue that clicking the middle mouse button to close the tab did not work
 
 ## v1.3.1
 

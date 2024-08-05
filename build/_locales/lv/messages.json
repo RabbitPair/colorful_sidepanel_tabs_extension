@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Krāsainas Sānu Paneļa Cilnes"
+    "message": "VertiTab - Vertikālās cilnes sānu panelī"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Pārvaldiet pārlūkprogrammas cilnes sānu panelī"
+    "message": "Pārvaldiet pārlūka cilnes sānu panelī ar konfigurējamām, skaistinošām un daudzām citām funkcijām"
   },
   "openSidePanel": {
-    "message": "Atvērt Sānu Paneli"
+    "message": "Atvērt sānu paneli"
   }
 }

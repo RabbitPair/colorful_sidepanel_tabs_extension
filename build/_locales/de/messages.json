@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Bunte Seitenleisten-Tabs"
+    "message": "VertiTab - Vertikale Tabs im Seitenpanel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Verwalten Sie Browser-Tabs im Seitenbereich"
+    "message": "Verwalten Sie Browser-Tabs im Seitenpanel mit konfigurierbaren, verschönernden und vielen anderen Funktionen"
   },
   "openSidePanel": {
-    "message": "Seitenleiste öffnen"
+    "message": "Seitenpanel öffnen"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "OpenSideSanelToPreview": "Abrir o panel lateral ta previsualizar",
+  "OpenSidePanelToPreview": "Abrir o panel lateral ta previsualizar",
   "_execute_action": "Activar ista estension",
   "openSidePanel": "Abrir o panel lateral",
   "settings": {
@@ -52,7 +52,8 @@
         "label": "Aición d'a clicada en a icona d'a estension",
         "description": "Achusta a aición quan se clicca en a icona d'a estension",
         "openPopup": "Abrir a ventana emerchent",
-        "openSidePanel": "Abrir o panel lateral"
+        "openSidePanel": "Abrir o panel lateral",
+        "SmallWindowAlert": "Si o panel lateral ocupa mas espacio de l'esperato, se recomienda usar una ventana emergente"
       },
       "SidePanelPosition": {
         "label": "Posición d'o panel lateral",
@@ -85,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Amostrar a barra de navegación d'abaixo",
-        "description": "Quan se habilita, a barra de navegación d'abaixo se mosotrará"
+        "description": "Quan se habilita, a barra de navegación d'abaixo se mosotrará",
+        "configure": "configurar",
+        "configureBottomNav": "Configurar navegación inferior",
+        "enabledNavs": "Navegaciones habilitadas",
+        "disabledNavs": "Navegaciones deshabilitadas (disponibles)",
+        "showLabel": "Mostrar etiqueta",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "settings": "Configuraciones",
+        "version": "Versión",
+        "more": "Más",
+        "newTab": "Nueva pestaña",
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "search": "Buscar",
+        "createSnapshot": "Crear instantánea",
+        "collapseAll": "Colapsar todo",
+        "scrollToActiveTab": "Desplazar a la pestaña activa",
+        "muteAllTabs": "Silenciar todas las pestañas",
+        "themeModes": "Modos de tema",
+        "viewModes": "Modos de vista",
+        "showBy": "Mostrar por",
+        "sortBy": "Ordenar por",
+        "createTabPanel": "Crear panel de pestañas",
+        "tabPanels": "Paneles de pestañas",
+        "pinToToolbarReminder": "Para quitar esta navegación, primero fija la extensión en tu barra de herramientas."
       },
       "buttonPosition": {
         "label": "Posición d'os botons",
@@ -436,6 +465,23 @@
         "downloadOnly": "Solo descargar",
         "staySynchronized": "Permanecer sincronizado",
         "globaldisabledTips": "Debe activar la sincronización en la configuración global para modificar esta configuración."
+      },
+      "linkSettings": {
+        "label": "Configuración de Enlaces",
+        "description": "Ajusta cómo se deben manejar los enlaces en este sitio.",
+        "configure": "Configurar",
+        "listTips": "Arrastra y suelta para ordenar. Las reglas con mayor prioridad se colocan en la parte superior. Una vez que se cumple una regla, las siguientes no se aplicarán.",
+        "linkMatchContent": "Contenido de Coincidencia de Enlaces",
+        "linkMatchContentTips": "Admite expresiones regulares. Por ejemplo, usa '*' para coincidir con cualquier número de caracteres y '?' para coincidir con un solo carácter.",
+        "linkOpenMethod": "Método de Apertura de Enlaces",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Pestaña Actual",
+        "target_blank": "Nueva Pestaña",
+        "target_parent": "Pestaña Padre",
+        "target_top": "Pestaña Superior",
+        "save": "Guardar",
+        "close": "Cerrar"
       }
     },
     "importAndExport": {
@@ -448,7 +494,8 @@
         "quickAccessWarning": "El icono de un sitio web no visitado puede mostrarse de manera anormal. No se preocupe, se mostrará normalmente después de visitar y reiniciar el navegador.",
         "siteConfig": "Configuración del sitio",
         "siteConfigInfo": "como descartable automático, imagen en imagen al cambiar de pestaña, barra de progreso de lectura, barra de progreso de reproducción, etc.",
-        "recentlyTabs": "Pestañas cerradas recientemente"
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "snapshots": "Capturas de pantalla"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -513,5 +560,28 @@
         "staySynchronized": "Permanecer sincronizado"
       }
     }
+  },
+  "snapshots": {
+    "title": "Visor de Capturas",
+    "description": "Crear y gestionar capturas.",
+    "createSnapshot": "Crear Captura",
+    "exportSnapshot": "Exportar Captura",
+    "openAllWindows": "Abrir Todas las Ventanas",
+    "openSelectedInNewWindow": "Abrir Seleccionados en Nueva Ventana",
+    "openSelectedInCurrentWindow": "Abrir Seleccionados en Ventana Actual",
+    "windowCount": "{{count}} Ventanas",
+    "tabCount": "{{count}} Pestañas",
+    "Window": "Ventana",
+    "OpenInCurrentWindow": "Abrir en Ventana Actual",
+    "OpenInNewWindow": "Abrir en Nueva Ventana",
+    "ResetSelection": "Restablecer Selección",
+    "snapshotCreatedSuccess": "Captura creada con éxito",
+    "snapshotCreatedFailed": "Error al crear la captura",
+    "snapshotDeletedSuccess": "Captura eliminada con éxito",
+    "snapshotDeletedFailed": "Error al eliminar la captura",
+    "importSnapshot": "Importar Captura",
+    "snapshotImportFailedDuplicate": "Error al importar la captura, captura duplicada",
+    "snapshotImportedSuccess": "{{count}} Captura importada con éxito",
+    "snapshotImportFailed": "{{count}} Error al importar la captura {{error}}"
   }
 }

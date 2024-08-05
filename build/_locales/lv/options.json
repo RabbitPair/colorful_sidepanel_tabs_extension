@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Rādīt apakšējo navigācijas joslu",
-        "description": "Kad iespējots, apakšējā navigācijas josla tiek rādīta"
+        "description": "Kad šī opcija ir aktivizēta, apakšējā navigācijas josla būs redzama",
+        "configure": "konfigurēt",
+        "configureBottomNav": "Konfigurēt apakšējo navigāciju",
+        "enabledNavs": "Aktivizētās navigācijas",
+        "disabledNavs": "Deaktivizētās navigācijas (pieejamas)",
+        "showLabel": "Rādīt etiķeti",
+        "close": "Aizvērt",
+        "save": "Saglabāt",
+        "settings": "Iestatījumi",
+        "version": "Versija",
+        "more": "Vairāk",
+        "newTab": "Jauna cilne",
+        "recentlyTabs": "Nesen aizvērtās cilnes",
+        "bookmarks": "Grāmatzīmes",
+        "history": "Vēsture",
+        "readingList": "Lasīšanas saraksts",
+        "quickAccess": "Ātrā piekļuve",
+        "search": "Meklēt",
+        "createSnapshot": "Izveidot momentuzņēmumu",
+        "collapseAll": "Sakļaut visu",
+        "scrollToActiveTab": "Ritināt uz aktīvo cilni",
+        "muteAllTabs": "Izslēgt visu cilņu skaņu",
+        "themeModes": "Tēmas režīmi",
+        "viewModes": "Skata režīmi",
+        "showBy": "Rādīt pēc",
+        "sortBy": "Kārtot pēc",
+        "createTabPanel": "Izveidot cilnes paneli",
+        "tabPanels": "Cilņu paneļi",
+        "pinToToolbarReminder": "Lūdzu, piespraudiet paplašinājumu rīkjoslai, pirms noņemat šo navigāciju."
       },
       "buttonPosition": {
         "label": "Pogu pozīcija",
@@ -437,7 +465,123 @@
         "downloadOnly": "Tikai lejupielādēt",
         "staySynchronized": "Palikt sinhronizētam",
         "globaldisabledTips": "Lai mainītu šo iestatījumu, jums ir jāieslēdz sinhronizācija globālajos iestatījumos."
+      },
+      "linkSettings": {
+        "label": "Saites iestatījumi",
+        "description": "Konfigurējiet, kā šajā vietnē jāapstrādā saites.",
+        "configure": "Konfigurēt",
+        "listTips": "Velciet un nometiet, lai kārtotu. Augstākas prioritātes noteikumi tiek izvietoti augšpusē. Kad noteikums ir atbilstošs, turpmākie noteikumi netiks piemēroti.",
+        "linkMatchContent": "Saites satura atbilstība",
+        "linkMatchContentTips": "Atbalsta regulāras izteiksmes. Piemēram, izmantojiet '*' jebkura skaita rakstzīmju atbilstībai un '?' vienas rakstzīmes atbilstībai.",
+        "linkOpenMethod": "Saites atvēršanas metode",
+        "edit": "Rediģēt",
+        "delete": "Dzēst",
+        "target_self": "Pašreizējā cilne",
+        "target_blank": "Jauna cilne",
+        "target_parent": "Vecāku cilne",
+        "target_top": "Augstākā cilne",
+        "save": "Saglabāt",
+        "close": "Aizvērt"
+      }
+    },
+    "importAndExport": {
+      "title": "Importēt/Eksportēt",
+      "description": "",
+      "options": {
+        "preferences": "Lietotāja preferences",
+        "preferencesInfo": "Ietver noklusējuma vispārīgos iestatījumus, displeja un datu preferences, kā arī lietotāja saskarnes tēmu maiņu.",
+        "quickAccess": "Ātrā piekļuve",
+        "quickAccessWarning": "Neapmeklētas vietnes ikona var tikt parādīta nepareizi. Neuztraucieties, tā parādīsies pareizi pēc vietnes apmeklējuma un pārlūka restartēšanas.",
+        "siteConfig": "Vietnes iestatījumi",
+        "siteConfigInfo": "piemēram, automātiski atbrīvojams, attēls attēlā cilnes pārslēgšanā, lasīšanas progresa josla, atskaņošanas progresa josla utt.",
+        "recentlyTabs": "Nesen aizvērtās cilnes",
+        "snapshots": "Momentuzņēmumi"
+      },
+      "cancelBtn": "Atcelt",
+      "exportBtn": "Eksportēt",
+      "importBtn": "Importēt",
+      "importing": "Importē...",
+      "fileError": "Faila parsēšanas kļūda, lūdzu, augšupielādējiet pareizo JSON konfigurācijas failu",
+      "import": {
+        "label": "Importēt no faila",
+        "description": "",
+        "formTips": "Izvēlieties datus, kurus vēlaties importēt",
+        "importSuccess": "Importēšana veiksmīga",
+        "importFailed": "Importēšana neizdevās"
+      },
+      "export": {
+        "label": "Eksportēt uz failu",
+        "description": "",
+        "formTips": "Izvēlieties datus, kurus vēlaties eksportēt",
+        "exportSuccess": "Eksportēšana veiksmīga",
+        "exportFailed": "Eksportēšana neizdevās"
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sinhronizēt ar mākoni",
+      "SyncNow": "Sinhronizēt tagad",
+      "SyncNowWithGoogleDrive": "Sinhronizēt tagad ar Google Drive",
+      "SyncNowWithDropbox": "Sinhronizēt tagad ar Dropbox",
+      "SyncNowWithOneDrive": "Sinhronizēt tagad ar OneDrive",
+      "Synchronizing": "Sinhronizē...",
+      "SyncedSuccessfully": "Sinhronizēts veiksmīgi",
+      "SyncFailed": "Sinhronizācija neizdevās",
+      "LoginRequired": "Nepieciešama pieteikšanās",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sinhronizācijas konfigurācijas",
+        "description": "Izvēlieties, kā sinhronizēt šīs paplašinājuma konfigurācijas.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielādēt",
+        "downloadOnly": "Tikai lejupielādēt",
+        "staySynchronized": "Palikt sinhronizētam"
+      },
+      "SyncTabs": {
+        "label": "Sinhronizēt cilnes",
+        "description": "Izvēlieties, kā sinhronizēt cilnes datus, izņemot privātos datus, piemēram, sīkfailus un personisko informāciju.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielādēt",
+        "downloadOnly": "Tikai lejupielādēt",
+        "staySynchronized": "Palikt sinhronizētam"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Atvērt vai aizvērt cilnes sinhroni",
+        "description": "Kad iespējots, cilnes atvēršana vai aizvēršana dažādos pārlūkos tiks sinhronizēta. Tas attiecas tikai tad, ja ir aktīva opcija 'palikt sinhronizētam'.",
+        "OpenOrCloseTabsSynchronouslyWarning": "Ja vienlaikus piesakāties tajā pašā kontā divos pārlūkos un ieslēdzat šo opciju, cilnes atvēršana vai aizvēršana vienā pārlūkā veiks to pašu darbību otrā pārlūkā. Ja vietne aizliedz atkārtotu pieteikšanos ar to pašu kontu, var rasties izņēmumi."
+      },
+      "SyncPrivateData": {
+        "label": "Sinhronizēt privātos datus",
+        "description": "Izvēlieties, kā sinhronizēt privātos datus, piemēram, vietņu sīkfailus, tīmekļa lapas vietējos datus, sesijas datus utt. Dati tiks šifrēti pirms sinhronizācijas.",
+        "disabled": "Atspējots",
+        "uploadOnly": "Tikai augšupielādēt",
+        "downloadOnly": "Tikai lejupielādēt",
+        "staySynchronized": "Palikt sinhronizētam"
       }
     }
+  },
+  "snapshots": {
+    "title": "Momentuzņēmumu skatītājs",
+    "description": "Izveidojiet un pārvaldiet momentuzņēmumus.",
+    "createSnapshot": "Izveidot momentuzņēmumu",
+    "exportSnapshot": "Eksportēt momentuzņēmumu",
+    "openAllWindows": "Atvērt visus logus",
+    "openSelectedInNewWindow": "Atvērt atlasītos jaunā logā",
+    "openSelectedInCurrentWindow": "Atvērt atlasītos pašreizējā logā",
+    "windowCount": "{{count}} logi",
+    "tabCount": "{{count}} cilnes",
+    "Window": "Logs",
+    "OpenInCurrentWindow": "Atvērt pašreizējā logā",
+    "OpenInNewWindow": "Atvērt jaunā logā",
+    "ResetSelection": "Atiestatīt atlasi",
+    "snapshotCreatedSuccess": "Momentuzņēmums veiksmīgi izveidots",
+    "snapshotCreatedFailed": "Neizdevās izveidot momentuzņēmumu",
+    "snapshotDeletedSuccess": "Momentuzņēmums veiksmīgi izdzēsts",
+    "snapshotDeletedFailed": "Neizdevās izdzēst momentuzņēmumu",
+    "importSnapshot": "Importēt momentuzņēmumu",
+    "snapshotImportFailedDuplicate": "Neizdevās importēt momentuzņēmumu, jo tas jau pastāv",
+    "snapshotImportedSuccess": "{{count}} momentuzņēmums veiksmīgi importēts",
+    "snapshotImportFailed": "{{count}} momentuzņēmuma importēšana neizdevās {{error}}"
   }
 }

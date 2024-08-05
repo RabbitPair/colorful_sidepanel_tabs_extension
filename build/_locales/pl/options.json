@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Pokaż dolny pasek nawigacyjny",
-        "description": "Po włączeniu dolny pasek nawigacyjny jest wyświetlany"
+        "description": "Po włączeniu dolny pasek nawigacyjny będzie widoczny",
+        "configure": "konfiguruj",
+        "configureBottomNav": "Konfiguruj dolną nawigację",
+        "enabledNavs": "Włączone nawigacje",
+        "disabledNavs": "Wyłączone nawigacje (dostępne)",
+        "showLabel": "Pokaż etykietę",
+        "close": "Zamknij",
+        "save": "Zapisz",
+        "settings": "Ustawienia",
+        "version": "Wersja",
+        "more": "Więcej",
+        "newTab": "Nowa karta",
+        "recentlyTabs": "Ostatnio zamknięte karty",
+        "bookmarks": "Zakładki",
+        "history": "Historia",
+        "readingList": "Lista czytelnicza",
+        "quickAccess": "Szybki dostęp",
+        "search": "Szukaj",
+        "createSnapshot": "Utwórz migawkę",
+        "collapseAll": "Zwiń wszystko",
+        "scrollToActiveTab": "Przewiń do aktywnej karty",
+        "muteAllTabs": "Wycisz wszystkie karty",
+        "themeModes": "Tryby motywu",
+        "viewModes": "Tryby widoku",
+        "showBy": "Pokaż według",
+        "sortBy": "Sortuj według",
+        "createTabPanel": "Utwórz panel kart",
+        "tabPanels": "Panele kart",
+        "pinToToolbarReminder": "Przypnij rozszerzenie do paska narzędzi przed usunięciem tej nawigacji."
       },
       "buttonPosition": {
         "label": "Pozycja przycisków",
@@ -437,6 +465,23 @@
         "downloadOnly": "Tylko pobieranie",
         "staySynchronized": "Pozostań zsynchronizowany",
         "globaldisabledTips": "Musisz włączyć synchronizację w ustawieniach globalnych, aby zmodyfikować to ustawienie."
+      },
+      "linkSettings": {
+        "label": "Ustawienia linków",
+        "description": "Skonfiguruj sposób obsługi linków na tej stronie.",
+        "configure": "Konfiguruj",
+        "listTips": "Przeciągnij i upuść, aby posortować. Reguły o wyższym priorytecie są umieszczane na górze. Po dopasowaniu reguły, kolejne nie będą stosowane.",
+        "linkMatchContent": "Dopasowanie treści linku",
+        "linkMatchContentTips": "Obsługuje wyrażenia regularne. Na przykład, użyj '*' aby dopasować dowolną liczbę znaków i '?' aby dopasować pojedynczy znak.",
+        "linkOpenMethod": "Metoda otwierania linku",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "target_self": "Bieżąca karta",
+        "target_blank": "Nowa karta",
+        "target_parent": "Karta nadrzędna",
+        "target_top": "Najwyższa karta",
+        "save": "Zapisz",
+        "close": "Zamknij"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikona nieodwiedzonej strony internetowej może wyświetlać się nieprawidłowo. Nie martw się, wyświetli się poprawnie po odwiedzeniu i ponownym uruchomieniu przeglądarki.",
         "siteConfig": "Ustawienia strony",
         "siteConfigInfo": "takie jak automatyczne odrzucanie, obraz w obrazie przy przełączaniu kart, pasek postępu czytania, pasek postępu odtwarzania itp.",
-        "recentlyTabs": "Ostatnio zamknięte karty"
+        "recentlyTabs": "Ostatnio zamknięte karty",
+        "snapshots": "Migawki"
       },
       "cancelBtn": "Anuluj",
       "exportBtn": "Eksportuj",
@@ -514,5 +560,28 @@
         "staySynchronized": "Pozostań zsynchronizowany"
       }
     }
+  },
+  "snapshots": {
+    "title": "Przeglądarka migawkowa",
+    "description": "Twórz i zarządzaj migawkami.",
+    "createSnapshot": "Utwórz migawkę",
+    "exportSnapshot": "Eksportuj migawkę",
+    "openAllWindows": "Otwórz wszystkie okna",
+    "openSelectedInNewWindow": "Otwórz wybrane w nowym oknie",
+    "openSelectedInCurrentWindow": "Otwórz wybrane w bieżącym oknie",
+    "windowCount": "{{count}} okien",
+    "tabCount": "{{count}} kart",
+    "Window": "Okno",
+    "OpenInCurrentWindow": "Otwórz w bieżącym oknie",
+    "OpenInNewWindow": "Otwórz w nowym oknie",
+    "ResetSelection": "Zresetuj wybór",
+    "snapshotCreatedSuccess": "Migawka utworzona pomyślnie",
+    "snapshotCreatedFailed": "Nie udało się utworzyć migawki",
+    "snapshotDeletedSuccess": "Migawka usunięta pomyślnie",
+    "snapshotDeletedFailed": "Nie udało się usunąć migawki",
+    "importSnapshot": "Importuj migawkę",
+    "snapshotImportFailedDuplicate": "Import migawki nie powiódł się, zduplikowana migawka",
+    "snapshotImportedSuccess": "{{count}} migawka zaimportowana pomyślnie",
+    "snapshotImportFailed": "{{count}} import migawki nie powiódł się {{error}}"
   }
 }

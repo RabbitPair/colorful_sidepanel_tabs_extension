@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "顯示底部導航欄",
-        "description": "啟用後，顯示底部導航欄"
+        "description": "啟用後，底部導航欄將顯示",
+        "configure": "配置",
+        "configureBottomNav": "配置底部導航欄",
+        "enabledNavs": "已啟用的導航",
+        "disabledNavs": "可用的禁用導航",
+        "showLabel": "顯示標籤",
+        "close": "關閉",
+        "save": "保存",
+        "settings": "設置",
+        "version": "版本",
+        "more": "更多",
+        "newTab": "新標籤頁",
+        "recentlyTabs": "最近關閉的標籤頁",
+        "bookmarks": "書籤",
+        "history": "歷史記錄",
+        "readingList": "閱讀清單",
+        "quickAccess": "快速訪問",
+        "search": "搜索",
+        "createSnapshot": "創建快照",
+        "collapseAll": "全部折疊",
+        "scrollToActiveTab": "滾動到活動標籤頁",
+        "muteAllTabs": "靜音所有標籤頁",
+        "themeModes": "主題模式",
+        "viewModes": "視圖模式",
+        "showBy": "顯示方式",
+        "sortBy": "排序方式",
+        "createTabPanel": "創建標籤面板",
+        "tabPanels": "標籤面板",
+        "pinToToolbarReminder": "請將擴展程式固定到工具欄後再移除此導航。"
       },
       "buttonPosition": {
         "label": "按鈕位置",
@@ -437,6 +465,23 @@
         "downloadOnly": "僅下載",
         "staySynchronized": "保持同步",
         "globaldisabledTips": "您必須在全局設置中打開同步才能修改此設置。"
+      },
+      "linkSettings": {
+        "label": "連結設置",
+        "description": "配置如何處理此網站上的連結。",
+        "configure": "配置",
+        "listTips": "拖放以排序。優先級較高的規則將放置在頂部。一旦匹配到規則，後續規則將不再應用。",
+        "linkMatchContent": "連結匹配內容",
+        "linkMatchContentTips": "支持正則表達式。例如，使用 '*' 匹配任意數量的字符，使用 '?' 匹配單個字符。",
+        "linkOpenMethod": "連結打開方式",
+        "edit": "編輯",
+        "delete": "刪除",
+        "target_self": "當前標籤頁",
+        "target_blank": "新標籤頁",
+        "target_parent": "父標籤頁",
+        "target_top": "最頂層標籤頁",
+        "save": "保存",
+        "close": "關閉"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "未訪問網站的圖標可能顯示異常。別擔心，訪問並重新啟動瀏覽器後，它將正常顯示。",
         "siteConfig": "站點設置",
         "siteConfigInfo": "例如自動丟棄、標籤切換時的畫中畫、閱讀進度條、播放進度條等。",
-        "recentlyTabs": "最近關閉的標籤頁"
+        "recentlyTabs": "最近關閉的標籤頁",
+        "snapshots":"快照"
       },
       "cancelBtn": "取消",
       "exportBtn": "導出",
@@ -514,5 +560,28 @@
         "staySynchronized": "保持同步"
       }
     }
+  },
+  "snapshots": {
+    "title": "快照檢視器",
+    "description": "創建和管理快照。",
+    "createSnapshot": "創建快照",
+    "exportSnapshot": "匯出快照",
+    "openAllWindows": "打開所有視窗",
+    "openSelectedInNewWindow": "在新視窗中打開選定項目",
+    "openSelectedInCurrentWindow": "在當前視窗中打開選定項目",
+    "windowCount": "{{count}} 個視窗",
+    "tabCount": "{{count}} 個分頁",
+    "Window": "視窗",
+    "OpenInCurrentWindow": "在當前視窗中打開",
+    "OpenInNewWindow": "在新視窗中打開",
+    "ResetSelection": "重置選擇",
+    "snapshotCreatedSuccess": "快照創建成功",
+    "snapshotCreatedFailed": "快照創建失敗",
+    "snapshotDeletedSuccess": "快照刪除成功",
+    "snapshotDeletedFailed": "快照刪除失敗",
+    "importSnapshot": "匯入快照",
+    "snapshotImportFailedDuplicate": "快照匯入失敗，已存在重複快照",
+    "snapshotImportedSuccess": "{{count}} 快照匯入成功",
+    "snapshotImportFailed": "{{count}} 快照匯入失敗 {{error}}"
   }
 }

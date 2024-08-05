@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "Vis bundnavigationslinje",
-        "description": "Når aktiveret, vises bundnavigationslinjen"
+        "description": "Når aktiveret, vises bundnavigationslinjen",
+        "configure": "konfigurer",
+        "configureBottomNav": "Konfigurer bundnavigation",
+        "enabledNavs": "Aktiverede navigationer",
+        "disabledNavs": "Deaktiverede navigationer (tilgængelige)",
+        "showLabel": "Vis etiket",
+        "close": "Luk",
+        "save": "Gem",
+        "settings": "Indstillinger",
+        "version": "Version",
+        "more": "Mere",
+        "newTab": "Ny fane",
+        "recentlyTabs": "Senest lukkede faner",
+        "bookmarks": "Bogmærker",
+        "history": "Historik",
+        "readingList": "Læseliste",
+        "quickAccess": "Hurtig adgang",
+        "search": "Søg",
+        "createSnapshot": "Opret snapshot",
+        "collapseAll": "Skjul alle",
+        "scrollToActiveTab": "Rul til aktiv fane",
+        "muteAllTabs": "Slå lyden fra på alle faner",
+        "themeModes": "Tema tilstande",
+        "viewModes": "Visningstilstande",
+        "showBy": "Vis efter",
+        "sortBy": "Sorter efter",
+        "createTabPanel": "Opret fanepanel",
+        "tabPanels": "Fanepaneler",
+        "pinToToolbarReminder": "Husk at fastgøre udvidelsen til din værktøjslinje, før du fjerner denne navigation."
       },
       "buttonPosition": {
         "label": "Knap position",
@@ -437,6 +465,23 @@
         "downloadOnly": "Kun download",
         "staySynchronized": "Forbliv synkroniseret",
         "globaldisabledTips": "Du skal aktivere synkronisering i de globale indstillinger for at ændre denne indstilling."
+      },
+      "linkSettings": {
+        "label": "Linkindstillinger",
+        "description": "Indstil hvordan links skal håndteres på denne side.",
+        "configure": "Konfigurer",
+        "listTips": "Træk og slip for at sortere. Regler med højere prioritet placeres øverst. Når en regel er matchet, vil efterfølgende regler ikke blive anvendt.",
+        "linkMatchContent": "Linkindholdsmatch",
+        "linkMatchContentTips": "Understøtter regulære udtryk. For eksempel, brug '*' for at matche et vilkårligt antal tegn og '?' for at matche et enkelt tegn.",
+        "linkOpenMethod": "Linkåbningsmetode",
+        "edit": "Rediger",
+        "delete": "Slet",
+        "target_self": "Nuværende fane",
+        "target_blank": "Ny fane",
+        "target_parent": "Overordnet fane",
+        "target_top": "Øverste fane",
+        "save": "Gem",
+        "close": "Luk"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "Ikonet for et ikke-besøgt websted kan vises unormalt. Bare rolig, det vil blive vist normalt, efter du har besøgt og genstartet browseren.",
         "siteConfig": "Webstedsindstillinger",
         "siteConfigInfo": "såsom automatisk kassérbar, billede-i-billede ved faneskift, læsefremskridtslinje, afspilningsfremskridtslinje osv.",
-        "recentlyTabs": "Nyligt lukkede faner"
+        "recentlyTabs": "Nyligt lukkede faner",
+        "snapshots":"Øjebliksbilleder"
       },
       "cancelBtn": "Annuller",
       "exportBtn": "Eksporter",
@@ -514,5 +560,28 @@
         "staySynchronized": "Forbliv synkroniseret"
       }
     }
+  },
+  "snapshots": {
+    "title": "Snapshotfremviser",
+    "description": "Opret og administrer snapshots.",
+    "createSnapshot": "Opret Snapshot",
+    "exportSnapshot": "Eksporter Snapshot",
+    "openAllWindows": "Åbn Alle Vinduer",
+    "openSelectedInNewWindow": "Åbn Valgte i Nyt Vindue",
+    "openSelectedInCurrentWindow": "Åbn Valgte i Nuværende Vindue",
+    "windowCount": "{{count}} Vinduer",
+    "tabCount": "{{count}} Faner",
+    "Window": "Vindue",
+    "OpenInCurrentWindow": "Åbn i Nuværende Vindue",
+    "OpenInNewWindow": "Åbn i Nyt Vindue",
+    "ResetSelection": "Nulstil Valg",
+    "snapshotCreatedSuccess": "Snapshot oprettet med succes",
+    "snapshotCreatedFailed": "Snapshot oprettelse mislykkedes",
+    "snapshotDeletedSuccess": "Snapshot slettet med succes",
+    "snapshotDeletedFailed": "Snapshot sletning mislykkedes",
+    "importSnapshot": "Importer Snapshot",
+    "snapshotImportFailedDuplicate": "Snapshot import mislykkedes, duplikat snapshot",
+    "snapshotImportedSuccess": "{{count}} Snapshot importeret med succes",
+    "snapshotImportFailed": "{{count}} Snapshot import mislykkedes {{error}}"
   }
 }

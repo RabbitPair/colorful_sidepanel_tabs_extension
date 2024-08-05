@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Kleurvolle sybalk etiketbestuur"
+    "message": "VertiTab - Vertikale Oortjies in Sy Paneel"
   },
   "appShortName": {
-    "message": "rabbitpair"
+    "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Bestuur oortjies in die sy paneel, te mooi om so goed te wees."
+    "message": "Bestuur blaaieroortjies in die sy paneel met konfigureerbare, verfraaiende en baie ander funksies"
   },
   "openSidePanel": {
-    "message": "Maak sypaneel oop"
+    "message": "Maak Sy Paneel Oop"
   }
 }

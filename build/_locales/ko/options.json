@@ -86,7 +86,35 @@
       },
       "bottomNav": {
         "label": "하단 탐색 표시줄 표시",
-        "description": "활성화되면 하단 탐색 표시줄이 표시됩니다"
+        "description": "활성화되면 하단 탐색 표시줄이 나타납니다",
+        "configure": "설정",
+        "configureBottomNav": "하단 탐색 설정",
+        "enabledNavs": "활성화된 탐색",
+        "disabledNavs": "비활성화된 탐색 (사용 가능)",
+        "showLabel": "레이블 표시",
+        "close": "닫기",
+        "save": "저장",
+        "settings": "설정",
+        "version": "버전",
+        "more": "더보기",
+        "newTab": "새 탭",
+        "recentlyTabs": "최근 닫은 탭",
+        "bookmarks": "북마크",
+        "history": "기록",
+        "readingList": "읽기 목록",
+        "quickAccess": "빠른 접근",
+        "search": "검색",
+        "createSnapshot": "스냅샷 생성",
+        "collapseAll": "모두 접기",
+        "scrollToActiveTab": "활성 탭으로 스크롤",
+        "muteAllTabs": "모든 탭 음소거",
+        "themeModes": "테마 모드",
+        "viewModes": "보기 모드",
+        "showBy": "표시 기준",
+        "sortBy": "정렬 기준",
+        "createTabPanel": "탭 패널 생성",
+        "tabPanels": "탭 패널",
+        "pinToToolbarReminder": "이 탐색을 제거하기 전에 확장 프로그램을 도구 모음에 고정하세요."
       },
       "buttonPosition": {
         "label": "버튼 위치",
@@ -437,6 +465,23 @@
         "downloadOnly": "다운로드만",
         "staySynchronized": "동기화 유지",
         "globaldisabledTips": "이 설정을 수정하려면 전역 설정에서 동기화를 켜야 합니다."
+      },
+      "linkSettings": {
+        "label": "링크 설정",
+        "description": "이 사이트에서 링크를 처리하는 방법을 설정합니다.",
+        "configure": "설정",
+        "listTips": "드래그 앤 드롭으로 정렬하세요. 우선순위가 높은 규칙이 상단에 배치됩니다. 규칙이 일치하면 이후 규칙은 적용되지 않습니다.",
+        "linkMatchContent": "링크 일치 내용",
+        "linkMatchContentTips": "정규 표현식을 지원합니다. 예를 들어, '*'는 여러 문자를 일치시키고 '?'는 단일 문자를 일치시킵니다.",
+        "linkOpenMethod": "링크 열기 방법",
+        "edit": "편집",
+        "delete": "삭제",
+        "target_self": "현재 탭",
+        "target_blank": "새 탭",
+        "target_parent": "부모 탭",
+        "target_top": "최상위 탭",
+        "save": "저장",
+        "close": "닫기"
       }
     },
     "importAndExport": {
@@ -449,7 +494,8 @@
         "quickAccessWarning": "방문하지 않은 웹사이트의 아이콘이 비정상적으로 표시될 수 있습니다. 걱정하지 마세요, 방문 후 브라우저를 다시 시작하면 정상적으로 표시됩니다.",
         "siteConfig": "사이트 설정",
         "siteConfigInfo": "자동 버리기 가능, 탭 전환 시 PIP, 읽기 진행률 표시줄, 재생 진행률 표시줄 등.",
-        "recentlyTabs": "최근 닫은 탭"
+        "recentlyTabs": "최근 닫은 탭",
+        "snapshots": "스냅샷"
       },
       "cancelBtn": "취소",
       "exportBtn": "내보내기",
@@ -514,5 +560,28 @@
         "staySynchronized": "동기화 유지"
       }
     }
+  },
+  "snapshots": {
+    "title": "스냅샷 뷰어",
+    "description": "스냅샷을 생성하고 관리하세요.",
+    "createSnapshot": "스냅샷 생성",
+    "exportSnapshot": "스냅샷 내보내기",
+    "openAllWindows": "모든 창 열기",
+    "openSelectedInNewWindow": "선택 항목을 새 창에서 열기",
+    "openSelectedInCurrentWindow": "선택 항목을 현재 창에서 열기",
+    "windowCount": "{{count}}개의 창",
+    "tabCount": "{{count}}개의 탭",
+    "Window": "창",
+    "OpenInCurrentWindow": "현재 창에서 열기",
+    "OpenInNewWindow": "새 창에서 열기",
+    "ResetSelection": "선택 초기화",
+    "snapshotCreatedSuccess": "스냅샷이 성공적으로 생성되었습니다",
+    "snapshotCreatedFailed": "스냅샷 생성에 실패했습니다",
+    "snapshotDeletedSuccess": "스냅샷이 성공적으로 삭제되었습니다",
+    "snapshotDeletedFailed": "스냅샷 삭제에 실패했습니다",
+    "importSnapshot": "스냅샷 가져오기",
+    "snapshotImportFailedDuplicate": "스냅샷 가져오기에 실패했습니다, 중복된 스냅샷",
+    "snapshotImportedSuccess": "{{count}}개의 스냅샷이 성공적으로 가져와졌습니다",
+    "snapshotImportFailed": "{{count}}개의 스냅샷 가져오기에 실패했습니다 {{error}}"
   }
 }
