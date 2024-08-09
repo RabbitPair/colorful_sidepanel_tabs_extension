@@ -146,6 +146,7 @@
   "createSnapshot": "สร้างสแน็ปช็อต",
   "createSnapshotSuccess": "สร้างสแน็ปช็อตสำเร็จ",
   "createSnapshotFailed": "สร้างสแน็ปช็อตล้มเหลว",
+  "reopenSnapshotMessage": "คุณปิดหน้าต่าง {{windowCount}} หน้าต่างและแท็บ {{tabCount}} แท็บล่าสุด คลิกที่นี่เพื่อไปที่ **ตัวดูสแน็ปช็อต** เพื่อการกู้คืนอย่างรวดเร็ว",
   "showBy": "แสดงโดย",
   "sortBy": "เรียงตาม",
   "createTabPanel": "สร้างแผงแท็บ",

@@ -566,6 +566,7 @@
     "description": "スナップショットを作成および管理します。",
     "createSnapshot": "スナップショットを作成",
     "exportSnapshot": "スナップショットをエクスポート",
+    "restoreWindowSize":"ウィンドウの位置とサイズを復元",
     "openAllWindows": "すべてのウィンドウを開く",
     "openSelectedInNewWindow": "選択したものを新しいウィンドウで開く",
     "openSelectedInCurrentWindow": "選択したものを現在のウィンドウで開く",

@@ -133,6 +133,7 @@
   "createSnapshot": "സ്നാപ്ഷോട്ട് സൃഷ്ടിക്കുക",
   "createSnapshotSuccess": "സ്നാപ്ഷോട്ട് വിജയകരമായി സൃഷ്ടിച്ചു",
   "createSnapshotFailed": "സ്നാപ്ഷോട്ട് സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു",
+  "reopenSnapshotMessage": "നിങ്ങൾ അവസാനമായി അടച്ചത് {{windowCount}} വിൻഡോകളും {{tabCount}} ടാബുകളും ആണ്. വേഗത്തിൽ വീണ്ടെടുക്കാൻ **snapshot viewer**-ലേക്ക് പോകാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.",
   "showBy": "പ്രദർശിപ്പിക്കുക",
   "sortBy": "ക്രമീകരിക്കുക",
   "createTabPanel": "ടാബ് പാനൽ സൃഷ്ടിക്കുക",

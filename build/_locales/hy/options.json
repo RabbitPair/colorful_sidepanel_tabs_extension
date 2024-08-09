@@ -563,6 +563,7 @@
     "description": "Ստեղծեք և կառավարեք նկարահանումները։",
     "createSnapshot": "Ստեղծել նկարահանում",
     "exportSnapshot": "Արտահանել նկարահանումը",
+    "restoreWindowSize":"Վերականգնել պատուհանի դիրքը և չափը",
     "openAllWindows": "Բացել բոլոր պատուհանները",
     "openSelectedInNewWindow": "Բացել ընտրվածը նոր պատուհանում",
     "openSelectedInCurrentWindow": "Բացել ընտրվածը ընթացիկ պատուհանում",

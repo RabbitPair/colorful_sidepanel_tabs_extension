@@ -566,6 +566,7 @@
     "description": "Twórz i zarządzaj migawkami.",
     "createSnapshot": "Utwórz migawkę",
     "exportSnapshot": "Eksportuj migawkę",
+    "restoreWindowSize":"Przywróć pozycję i rozmiar okna",
     "openAllWindows": "Otwórz wszystkie okna",
     "openSelectedInNewWindow": "Otwórz wybrane w nowym oknie",
     "openSelectedInCurrentWindow": "Otwórz wybrane w bieżącym oknie",

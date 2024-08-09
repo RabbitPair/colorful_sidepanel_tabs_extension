@@ -133,6 +133,7 @@
   "createSnapshot": "Fata Ifoto y'Ububiko",
   "createSnapshotSuccess": "Ifoto y'Ububiko yafashwe neza",
   "createSnapshotFailed": "Ifoto y'Ububiko yananiwe gufatwa",
+  "reopenSnapshotMessage": "Uheruka gufunga amadirishya {{windowCount}} n'amakarita {{tabCount}}. Kanda hano kugirango ujye kuri **reba ifoto y'ububiko** kugirango ubashe kubisubizaho vuba.",
   "showBy": "Erekana By",
   "sortBy": "Tondeka By",
   "createTabPanel": "Shyiraho Ikarita y'Inyandiko",

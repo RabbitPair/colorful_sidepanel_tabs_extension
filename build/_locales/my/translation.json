@@ -133,6 +133,7 @@
   "createSnapshot": "SnapShot ဖန်တီးရန်",
   "createSnapshotSuccess": "SnapShot ဖန်တီးမှုအောင်မြင်ပါသည်",
   "createSnapshotFailed": "SnapShot ဖန်တီးမှုမအောင်မြင်ပါ",
+  "reopenSnapshotMessage": "သင်နောက်ဆုံးပိတ်ခဲ့သော {{windowCount}} ဝင်းဒိုးများနှင့် {{tabCount}} တဘ်များ။ အမြန်ပြန်လည်ရယူရန် **snapshot viewer** သို့သွားရန် ဤနေရာကိုနှိပ်ပါ။",
   "showBy": "ဖြင့်ပြရန်",
   "sortBy": "ဖြင့်စီရန်",
   "createTabPanel": "Tab Panel ဖန်တီးရန်",

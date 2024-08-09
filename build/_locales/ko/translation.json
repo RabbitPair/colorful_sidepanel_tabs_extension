@@ -136,6 +136,7 @@
   "createSnapshot": "스냅샷 생성",
   "createSnapshotSuccess": "스냅샷 생성 성공",
   "createSnapshotFailed": "스냅샷 생성 실패",
+  "reopenSnapshotMessage": "마지막으로 {{windowCount}}개의 창과 {{tabCount}}개의 탭을 닫았습니다. 빠른 복구를 위해 **스냅샷 뷰어**로 이동하려면 여기를 클릭하세요.",
   "showBy": "보기 기준",
   "sortBy": "정렬 기준",
   "createTabPanel": "탭 패널 생성",

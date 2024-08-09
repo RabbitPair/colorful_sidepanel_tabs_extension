@@ -566,6 +566,7 @@
     "description": "Kreye ak jere snapshots.",
     "createSnapshot": "Kreye Snapshot",
     "exportSnapshot": "Ekspòte Snapshot",
+    "restoreWindowSize":"Retabli pozisyon ak gwosè fenèt la",
     "openAllWindows": "Louvri Tout Fenèt yo",
     "openSelectedInNewWindow": "Louvri Seleksyon an nan Nouvo Fenèt",
     "openSelectedInCurrentWindow": "Louvri Seleksyon an nan Fenèt Kouran",

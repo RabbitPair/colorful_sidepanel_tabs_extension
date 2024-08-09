@@ -566,6 +566,7 @@
     "description": "Krijo dhe menaxho snapshots.",
     "createSnapshot": "Krijo Snapshot",
     "exportSnapshot": "Eksporto Snapshot",
+    "restoreWindowSize":"Rivendos pozicionin dhe madhësinë e dritares",
     "openAllWindows": "Hap të gjitha dritaret",
     "openSelectedInNewWindow": "Hap të zgjedhurat në një dritare të re",
     "openSelectedInCurrentWindow": "Hap të zgjedhurat në dritaren aktuale",

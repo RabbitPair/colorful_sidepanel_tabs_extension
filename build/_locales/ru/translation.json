@@ -146,6 +146,7 @@
   "createSnapshot": "Создать снимок",
   "createSnapshotSuccess": "Снимок успешно создан",
   "createSnapshotFailed": "Не удалось создать снимок",
+  "reopenSnapshotMessage": "Вы в последний раз закрыли {{windowCount}} окон и {{tabCount}} вкладок. Нажмите здесь, чтобы перейти к **просмотру снимков** для быстрой восстановления.",
   "showBy": "Показать по",
   "sortBy": "Сортировать по",
   "createTabPanel": "Создать панель вкладок",

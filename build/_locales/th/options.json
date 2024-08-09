@@ -566,6 +566,7 @@
     "description": "สร้างและจัดการภาพรวม",
     "createSnapshot": "สร้างภาพรวม",
     "exportSnapshot": "ส่งออกภาพรวม",
+    "restoreWindowSize":"คืนค่าตำแหน่งและขนาดหน้าต่าง",
     "openAllWindows": "เปิดหน้าต่างทั้งหมด",
     "openSelectedInNewWindow": "เปิดที่เลือกในหน้าต่างใหม่",
     "openSelectedInCurrentWindow": "เปิดที่เลือกในหน้าต่างปัจจุบัน",

@@ -566,6 +566,7 @@
     "description": "Kurti ir valdyti momentines kopijas.",
     "createSnapshot": "Sukurti momentinę kopiją",
     "exportSnapshot": "Eksportuoti momentinę kopiją",
+    "restoreWindowSize":"Atkurti lango padėtį ir dydį",
     "openAllWindows": "Atidaryti visus langus",
     "openSelectedInNewWindow": "Atidaryti pasirinktus naujame lange",
     "openSelectedInCurrentWindow": "Atidaryti pasirinktus dabartiniame lange",

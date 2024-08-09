@@ -566,6 +566,7 @@
     "description": "Izveidojiet un pārvaldiet momentuzņēmumus.",
     "createSnapshot": "Izveidot momentuzņēmumu",
     "exportSnapshot": "Eksportēt momentuzņēmumu",
+    "restoreWindowSize":"Atjaunot loga pozīciju un izmēru",
     "openAllWindows": "Atvērt visus logus",
     "openSelectedInNewWindow": "Atvērt atlasītos jaunā logā",
     "openSelectedInCurrentWindow": "Atvērt atlasītos pašreizējā logā",

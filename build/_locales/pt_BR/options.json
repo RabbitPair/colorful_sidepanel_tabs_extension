@@ -566,6 +566,7 @@
     "description": "Crie e gerencie snapshots.",
     "createSnapshot": "Criar Snapshot",
     "exportSnapshot": "Exportar Snapshot",
+    "restoreWindowSize":"Restaurar posição e tamanho da janela",
     "openAllWindows": "Abrir Todas as Janelas",
     "openSelectedInNewWindow": "Abrir Selecionados em Nova Janela",
     "openSelectedInCurrentWindow": "Abrir Selecionados na Janela Atual",

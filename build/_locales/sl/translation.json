@@ -133,6 +133,7 @@
   "createSnapshot": "Ustvari posnetek",
   "createSnapshotSuccess": "Posnetek uspešno ustvarjen",
   "createSnapshotFailed": "Ustvarjanje posnetka ni uspelo",
+  "reopenSnapshotMessage": "Nazadnje ste zaprli {{windowCount}} oken in {{tabCount}} zavihkov. Kliknite tukaj za hiter dostop do **pregledovalnika posnetkov** za hitro obnovitev.",
   "showBy": "Prikaži po",
   "sortBy": "Razvrsti po",
   "createTabPanel": "Ustvari ploščo z zavihki",

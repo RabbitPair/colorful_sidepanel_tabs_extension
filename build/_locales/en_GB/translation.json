@@ -146,6 +146,7 @@
   "createSnapshot": "Create Snapshot",
   "createSnapshotSuccess": "Create Snapshot Success",
   "createSnapshotFailed": "Create Snapshot Failed",
+  "reopenSnapshotMessage": "You last closed {{windowCount}} windows and {{tabCount}} tabs. Click here to go to the **snapshot viewer** for quick recovery.",
   "showBy": "Show By",
   "sortBy": "Sort By",
   "createTabPanel": "Create Tab Panel",

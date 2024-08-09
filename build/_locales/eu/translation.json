@@ -133,6 +133,7 @@
   "createSnapshot": "Sortu Argazkia",
   "createSnapshotSuccess": "Argazkia Arrakastaz Sortu",
   "createSnapshotFailed": "Argazkia Sortzeak huts egin du",
+  "reopenSnapshotMessage": "Azkenik {{windowCount}} leiho eta {{tabCount}} fitxa itxi dituzu. Klikatu hemen berreskurapen azkarra egiteko **argazki ikusleara** joateko.",
   "showBy": "Erakutsi Honen Arabera",
   "sortBy": "Ordenatu Honen Arabera",
   "createTabPanel": "Sortu Fitxa Panela",

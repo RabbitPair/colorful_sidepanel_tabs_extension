@@ -146,6 +146,7 @@
   "createSnapshot": "স্ন্যাপশট তৈরি করুন",
   "createSnapshotSuccess": "স্ন্যাপশট সফলভাবে তৈরি হয়েছে",
   "createSnapshotFailed": "স্ন্যাপশট তৈরি ব্যর্থ হয়েছে",
+  "reopenSnapshotMessage": "আপনি সর্বশেষ {{windowCount}}টি উইন্ডো এবং {{tabCount}}টি ট্যাব বন্ধ করেছেন। দ্রুত পুনরুদ্ধারের জন্য **স্ন্যাপশট ভিউয়ার** এ যেতে এখানে ক্লিক করুন।",
   "showBy": "দেখান",
   "sortBy": "সাজান",
   "createTabPanel": "ট্যাব প্যানেল তৈরি করুন",

@@ -566,6 +566,7 @@
     "description": "Cipta dan urus snapshot.",
     "createSnapshot": "Cipta Snapshot",
     "exportSnapshot": "Eksport Snapshot",
+    "restoreWindowSize":"Pulihkan kedudukan dan saiz tetingkap",
     "openAllWindows": "Buka Semua Tetingkap",
     "openSelectedInNewWindow": "Buka Pilihan Dalam Tetingkap Baru",
     "openSelectedInCurrentWindow": "Buka Pilihan Dalam Tetingkap Semasa",

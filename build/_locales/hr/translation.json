@@ -146,6 +146,7 @@
   "createSnapshot": "Stvori snimku",
   "createSnapshotSuccess": "Snimka uspješno stvorena",
   "createSnapshotFailed": "Stvaranje snimke nije uspjelo",
+  "reopenSnapshotMessage": "Zadnji put ste zatvorili {{windowCount}} prozora i {{tabCount}} kartica. Kliknite ovdje za brzi oporavak u **pregledniku snimki**.",
   "showBy": "Prikaži prema",
   "sortBy": "Sortiraj prema",
   "createTabPanel": "Stvori panel kartica",

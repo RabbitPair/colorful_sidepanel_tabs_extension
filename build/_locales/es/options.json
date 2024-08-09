@@ -566,6 +566,7 @@
     "description": "Cree y gestione instantáneas.",
     "createSnapshot": "Crear Instantánea",
     "exportSnapshot": "Exportar Instantánea",
+    "restoreWindowSize":"Restaurar posición y tamaño de la ventana",
     "openAllWindows": "Abrir Todas las Ventanas",
     "openSelectedInNewWindow": "Abrir Seleccionadas en Nueva Ventana",
     "openSelectedInCurrentWindow": "Abrir Seleccionadas en Ventana Actual",

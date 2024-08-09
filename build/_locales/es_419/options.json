@@ -1,0 +1,588 @@
+{
+  "OpenSidePanelToPreview": "Abrir panel lateral para previsualizar",
+  "_execute_action": "Activar esta extensión",
+  "openSidePanel": "Abrir panel lateral",
+  "settings": {
+    "resetCurrentPageSettings": "Restablecer configuraciones de la página actual",
+    "modules": {
+      "appearance": "Apariencia",
+      "beautify": "Embellecer",
+      "tabs": "Pestañas",
+      "history": "Historial",
+      "shortcuts": "Atajos",
+      "pip": "Picture-in-picture",
+      "chromeTabGroupAdvanced": "Grupos de pestañas avanzados",
+      "progressBar": "Barra de progreso",
+      "floatBall": "Bola flotante",
+      "experimentalFeatures": "Características experimentales"
+    },
+    "appearance": {
+      "header": "Apariencia",
+      "language": {
+        "label": "Idioma de la interfaz",
+        "description": "Establecer el idioma para la visualización de la interfaz"
+      },
+      "theme": {
+        "label": "Modo de color",
+        "description": "Elegir modo de color claro u oscuro"
+      },
+      "rtl": {
+        "label": "RTL",
+        "description": "Cuando está habilitado, la interfaz mostrará el texto de derecha a izquierda"
+      },
+      "fontSize": {
+        "label": "Tamaño de fuente",
+        "description": "Establecer el tamaño de la fuente",
+        "small": "Pequeño",
+        "large": "Grande"
+      },
+      "fontFamily": {
+        "label": "Familia de fuentes",
+        "description": "Establecer la familia de fuentes"
+      },
+      "fontColor": {
+        "label": "Color de fuente",
+        "description": "Establecer el color de la fuente"
+      },
+      "fontWeight": {
+        "label": "Peso de la fuente",
+        "description": "Establecer el peso de la fuente"
+      },
+      "extAction": {
+        "label": "Acción al hacer clic en el icono de la extensión",
+        "description": "Establecer la acción al hacer clic en el icono de la extensión",
+        "openPopup": "Abrir ventana emergente",
+        "openSidePanel": "Abrir panel lateral",
+        "SmallWindowAlert": "Si el panel lateral ocupa demasiado espacio, se recomienda usar una ventana emergente"
+      },
+      "SidePanelPosition": {
+        "label": "Posición del panel lateral",
+        "description": "Establecer si el panel lateral se muestra a la izquierda o a la derecha.",
+        "goToBrowserSettings": "Ir a configuraciones"
+      },
+      "searchBoxPosition": {
+        "label": "Posición del cuadro de búsqueda",
+        "description": "Establecer la posición del cuadro de búsqueda",
+        "top": "Arriba",
+        "bottom": "Abajo",
+        "hide": "Ocultar"
+      },
+      "toolbar": {
+        "label": "Mostrar barra de herramientas",
+        "description": "Cuando está habilitado, se muestra la barra de herramientas",
+        "moreOptions": "Más opciones",
+        "moreOptionsDescription": "Puedes controlar qué iconos aparecen en la barra de herramientas.",
+        "moreOptionsHideLabel": "Ocultar etiquetas de iconos de la barra de herramientas",
+        "close": "Cerrar",
+        "options": {
+          "toolbar_newtab": "Nueva pestaña",
+          "toolbar_orderby": "Ordenar por",
+          "toolbar_showby": "Mostrar por",
+          "toolbar_view": "vista",
+          "toolbar_colorMode": "Modo de color",
+          "toolbar_muteAllTabs": "Silenciar todas las pestañas con sonido",
+          "toolbar_scrollToActiveTab": "Desplazarse a la pestaña activa"
+        }
+      },
+      "bottomNav": {
+        "label": "Mostrar barra de navegación inferior",
+        "description": "Cuando está habilitado, se muestra la barra de navegación inferior",
+        "configure": "configurar",
+        "configureBottomNav": "Configurar navegación inferior",
+        "enabledNavs": "Navegaciones habilitadas",
+        "disabledNavs": "Navegaciones deshabilitadas (disponibles)",
+        "showLabel": "Mostrar etiqueta",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "settings": "Configuraciones",
+        "version": "Versión",
+        "more": "Más",
+        "newTab": "Nueva pestaña",
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "search": "Buscar",
+        "createSnapshot": "Crear instantánea",
+        "collapseAll": "Colapsar todo",
+        "scrollToActiveTab": "Desplazarse a la pestaña activa",
+        "muteAllTabs": "Silenciar todas las pestañas",
+        "themeModes": "Modos de tema",
+        "viewModes": "Modos de vista",
+        "showBy": "Mostrar por",
+        "sortBy": "Ordenar por",
+        "createTabPanel": "Crear panel de pestañas",
+        "tabPanels": "Paneles de pestañas",
+        "pinToToolbarReminder": "Por favor, fija la extensión a tu barra de herramientas antes de eliminar esta navegación."
+      },
+      "buttonPosition": {
+        "label": "Posición del botón",
+        "description": "Establecer la posición de los botones",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "alwaysShowCloseButton": {
+        "label": "Mostrar siempre el botón de cerrar",
+        "description": "Cuando está habilitado, el botón de cerrar siempre se mostrará; cuando está deshabilitado, el botón de cerrar solo se mostrará cuando el ratón esté sobre la pestaña"
+      },
+      "fullScreenHideSidePanel": {
+        "label": "Ocultar panel lateral en pantalla completa",
+        "description": "Cuando está habilitado, el panel lateral se ocultará automáticamente cuando la página esté en pantalla completa. Debido a las limitaciones del navegador, el panel lateral no se puede reabrir automáticamente. ¡Necesitas reabrir el panel lateral manualmente!"
+      }
+    },
+    "beautify": {
+      "coloredbackground": {
+        "label": "Fondo de color",
+        "description": "Cuando está habilitado, el panel lateral mostrará un fondo de color"
+      },
+      "backgroundPicture": {
+        "label": "Imagen de fondo",
+        "description": "Haz clic en [+] para agregar una imagen personalizada, haz clic en [-] para eliminar una imagen personalizada. Puedes encontrar tus imágenes favoritas en los siguientes sitios web.",
+        "dialogDescription": "Ingresar dirección de la imagen",
+        "OK": "Aceptar",
+        "Cancel": "Cancelar",
+        "invalidImage": "Dirección de imagen no válida"
+      },
+      "backgroundImageTransparency": {
+        "label": "Transparencia de la imagen",
+        "description": "Establecer la transparencia de la imagen",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "backgroundImageBlur": {
+        "label": "Intensidad del desenfoque",
+        "description": "Establecer la intensidad del desenfoque"
+      },
+      "backgroundImageBrightness": {
+        "label": "Brillo",
+        "description": "Establecer el brillo, recomendado solo para el modo oscuro"
+      },
+      "listBackgroundStyle": {
+        "label": "Estilo de fondo de la lista",
+        "description": "Establecer el estilo de fondo de la lista",
+        "single": "Único",
+        "none": "Ninguno",
+        "simple": "Simple",
+        "complementary": "Complementario",
+        "analogous": "Análogo",
+        "triadic": "Triádico",
+        "tetradic": "Tetrádico"
+      },
+      "listBackgroundTransparency": {
+        "label": "Transparencia del fondo de la lista",
+        "description": "Establecer la transparencia del fondo de la lista",
+        "transparent": "Transparente",
+        "opaque": "Opaco"
+      },
+      "listBottomBorder": {
+        "label": "Borde inferior de la lista",
+        "description": "Establecer el borde inferior de la lista",
+        "none": "Ninguno",
+        "dashed": "Punteado",
+        "solid": "Sólido"
+      },
+      "fluentOverlayScrollbars": {
+        "label": "Barras de desplazamiento fluidas",
+        "description": "Usar barras de desplazamiento con estilo de diseño fluido de Microsoft y superponerlas en el contenido web",
+        "goToBrowserSettings": "Ir a configuraciones"
+      }
+    },
+    "tabs": {
+      "listView": {
+        "label": "Vista de lista",
+        "description": "Cambiar vista de lista",
+        "compact": "Vista compacta",
+        "visual": "Vista visual"
+      },
+      "showBy": {
+        "label": "Mostrar por",
+        "description": "Cambiar mostrar por"
+      },
+      "sortBy": {
+        "label": "Ordenar por",
+        "description": "Cambiar ordenar por"
+      },
+      "showFullUrl": {
+        "label": "Mostrar URL completa",
+        "description": "Cuando está habilitado, se mostrará la URL completa debajo del título de la pestaña"
+      },
+      "currentWindowOnly": {
+        "label": "Solo ventana actual",
+        "description": "Mostrar solo las pestañas de la ventana actual. Si está deshabilitado, se mostrarán las pestañas de todas las ventanas"
+      },
+      "pinedTabsAsIcons": {
+        "label": "Mostrar pestañas fijadas como iconos",
+        "description": "Cuando está habilitado, las pestañas fijadas se mostrarán como iconos y no en la lista"
+      },
+      "pinToQuickAccess": {
+        "label": "Mostrar acceso rápido",
+        "description": "Puedes configurar una pestaña para que aparezca en Acceso rápido para que sea fácil de encontrar. Simplemente haz clic derecho (o mantén presionado) y selecciona Fijar en Acceso rápido. Desfíjala cuando ya no la necesites allí haciendo clic derecho (o manteniendo presionado) y seleccionando Eliminar de Acceso rápido. La diferencia con las pestañas fijadas es que Acceso rápido guarda la URL y abre una nueva pestaña cada vez que se hace clic."
+      },
+      "selectFromHistory": {
+        "label": "Seleccionar del historial",
+        "description": "Si necesitas seleccionar del historial, se requiere tu autorización",
+        "numberOfDays": "Número de días",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Seleccionar elementos para agregar a acceso rápido:",
+        "selectAll": "Seleccionar todo",
+        "addSelected": "Agregar seleccionados",
+        "addedSuccess": "Se agregaron {{count}} elementos a acceso rápido.",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que la configuración no se ha cambiado. Si cambias de opinión, por favor haz clic de nuevo y concede la autorización"
+      },
+      "collapsedGroupShowTabIcons": {
+        "label": "Mostrar iconos de sitios web al colapsar grupos",
+        "description": "Cuando está habilitado, los grupos colapsados mostrarán iconos de pestañas"
+      },
+      "hoverPreview": {
+        "label": "Vista previa al pasar el ratón",
+        "description": "Cuando está habilitado, al pasar el ratón sobre las pestañas se mostrarán vistas previas de las pestañas"
+      },
+      "previewWithThumbnail": {
+        "label": "Mostrar miniaturas en la vista previa",
+        "description": "Cuando está habilitado, las vistas previas mostrarán miniaturas de las pestañas",
+        "alert": "Captura el área visible de la pestaña activa actualmente en una ventana especificada. Para llamar a este método, la extensión debe tener permiso <all_urls> o permiso activeTab.",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que la configuración no se ha cambiado. Si cambias de opinión, por favor haz clic de nuevo y concede la autorización"
+      },
+      "previewDelay": {
+        "label": "Retraso de vista previa",
+        "description": "Establecer el tiempo de retraso para las vistas previas de pestañas al pasar el ratón sobre las pestañas, etc. (segundos). Si se establece en 0, no habrá retraso",
+        "seconds": "Segundos"
+      }
+    },
+    "history": {
+      "saveRecentlyTabs": {
+        "label": "Guardar pestañas cerradas recientemente",
+        "description": "Cuando está habilitado, guarda las pestañas cerradas recientemente"
+      },
+      "dataSource": {
+        "label": "Fuente de datos",
+        "description": "Seleccionar fuente de datos",
+        "recentlyClosedTabs": "Pestañas cerradas recientemente",
+        "chromeHistory": "Historial del navegador",
+        "alert": "Para buscar registros de historial, necesitas tu autorización para habilitar",
+        "deniedMessage": "Has denegado el permiso requerido, por lo que la configuración no se ha cambiado. Si cambias de opinión, por favor haz clic de nuevo y concede la autorización"
+      },
+      "showInSidePanel": {
+        "label": "Mostrar en el panel lateral",
+        "description": "Cuando está habilitado, mostrar en el panel lateral"
+      },
+      "showInTabSearchResults": {
+        "label": "Mostrar historial en los resultados de búsqueda de pestañas",
+        "description": "Cuando está habilitado, los registros de historial recientes se mostrarán en los resultados de búsqueda de pestañas"
+      },
+      "limitSearchResults": {
+        "label": "Limitar número de registros de historial en los resultados de búsqueda de pestañas",
+        "description": "Establecer el número límite de registros de historial en los resultados de búsqueda de pestañas. Los registros de historial que excedan el límite serán filtrados",
+        "alert": "Demasiados registros afectarán la velocidad de carga de la página"
+      },
+      "saveRecentlyTabsLimit": {
+        "label": "Número de pestañas cerradas recientemente a mantener",
+        "description": "Establecer el número de pestañas cerradas recientemente a mantener"
+      },
+      "keepDays": {
+        "label": "Número de días para mantener pestañas cerradas recientemente",
+        "description": "Establecer el número de días para mantener pestañas cerradas recientemente. Los datos expirados serán eliminados",
+        "days": "Días"
+      },
+      "openDuration": {
+        "label": "Duración de apertura",
+        "description": "Solo se guardarán las pestañas abiertas por más tiempo que el tiempo establecido",
+        "seconds": "Segundos"
+      }
+    },
+    "shortcuts": {
+      "alert": "Esta página es solo para visualización. Para modificar los atajos, por favor visita [Extensiones]->[Administrar Extensiones]->[Atajos de Teclado]",
+      "goToBrowserSettings": "Ir a configuraciones",
+      "_execute_action": "Activar esta extensión",
+      "openSidePanel": "Abrir panel lateral"
+    },
+    "picture_in_picture": {
+      "Picture-in-picture": "Picture-in-picture",
+      "tabSwitch": {
+        "label": "Picture-in-picture al cambiar de pestaña",
+        "description": "Entrar automáticamente en PIP al cambiar de pestañas con un video no silenciado",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "scrollSwitch": {
+        "label": "Cambiar a picture-in-picture al desplazarse",
+        "description": "Si la página actual está reproduciendo un video y el video no está silenciado y el video está fuera del rango visible al desplazarse, entrará en picture-in-picture.",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "userActivitionAlert": {
+      "title": "Se requiere activación del usuario",
+      "tips_1": "La activación del usuario significa que el usuario está interactuando actualmente con la página",
+      "tips_2": "Más específicamente, la activación desencadena eventos de entrada como:",
+      "tips_3": "Nota: ¡Usar la rueda del ratón o el gesto de deslizamiento no lo activará!",
+      "tips_4": "Si deseas más detalles, por favor visita:",
+      "click": "Clic",
+      "contextmenu": "Menú de clic derecho",
+      "dblclick": "Doble clic"
+    },
+    "chromeTabGroupAdvanced": {
+      "tabGroupCollapseBehavior": {
+        "label": "Comportamiento de colapso de grupo de pestañas",
+        "description": "Modificar el comportamiento de colapso de grupo de pestañas del navegador",
+        "option_collapse_others": "Mostrar grupo actual y colapsar otros",
+        "option_disable": "Expandir todos los grupos",
+        "option_auto": "Usar configuraciones predeterminadas del navegador"
+      },
+      "autoCreateOrJoinSameDomainGroup": {
+        "label": "Crear o unirse automáticamente al mismo grupo de dominio",
+        "description": "Cuando está habilitado, las pestañas recién abiertas se unirán automáticamente al mismo grupo de dominio. Si el grupo de dominio no existe, se creará un nuevo grupo de dominio",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "groupFilterOutPinnedTabs": {
+        "label": "Filtrar pestañas fijadas en grupos",
+        "description": "Cuando está habilitado, las pestañas fijadas no se agregarán a los grupos",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "progressBar": {
+      "enableProgressBar": {
+        "label": "Habilitar barra de progreso",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "scrollHeightRatio": {
+        "label": "Proporción de altura de desplazamiento",
+        "description": "La proporción de la altura de la ventana visible a la altura de la página. Se mostrará una barra de progreso cuando se exceda la proporción",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reproducción",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de reproducción debajo de la barra de título de la pestaña",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      }
+    },
+    "floatBall": {
+      "enableFloatBall": {
+        "label": "Habilitar bola flotante",
+        "description": "Cuando el panel lateral está cerrado, se mostrará una bola flotante en el lado derecho de la página, permitiendo abrir rápidamente el panel lateral."
+      }
+    },
+    "performance": {
+      "label": "Rendimiento",
+      "saveMemoryAction": {
+        "label": "Cómo ahorrar memoria en pestañas",
+        "description": "Para ahorrar memoria en pestañas, puedes elegir cerrar pestañas o descartar pestañas.",
+        "discardTips": "Una pestaña descartada no va a ninguna parte. La eliminamos pero sigue siendo visible en la barra de pestañas del navegador. Si navegas de nuevo a una pestaña que ha sido descartada, se recargará cuando se haga clic. El contenido del formulario, la posición de desplazamiento, etc., se guardan y restauran de la misma manera que durante la navegación hacia adelante/atrás de la pestaña.",
+        "disabled": "Deshabilitado",
+        "closeTabs": "Cerrar pestañas",
+        "discardTabs": "Descartar pestañas"
+      },
+      "discardInactiveTabsMinutes": {
+        "label": "Cuánto tiempo para descartar pestañas inactivas",
+        "description": "Cuando no hay audio o video reproduciéndose en la pestaña y el descarte automático no está prohibido, la pestaña se descartará después del tiempo especificado.",
+        "minutes": "Minutos"
+      },
+      "closeInactiveTabsMinutes": {
+        "label": "Cuánto tiempo para cerrar pestañas inactivas",
+        "description": "Cuando no hay audio o video reproduciéndose en la pestaña y el descarte automático no está prohibido, la pestaña se cerrará después del tiempo especificado.",
+        "minutes": "Minutos"
+      },
+      "disableAnimations": {
+        "label": "Deshabilitar animaciones",
+        "description": "Deshabilitar el efecto de ondulación y deshabilitar todas las transiciones"
+      }
+    },
+    "site": {
+      "label": "Configuraciones del sitio",
+      "allSites": "Todos los sitios",
+      "sortBy": "Ordenar por",
+      "mostVisited": "Más visitados",
+      "dataStored": "Datos almacenados",
+      "name": "Nombre",
+      "deleteAllData": "Eliminar todos los datos",
+      "totalStorageUsedBySites": "Almacenamiento total utilizado por los sitios",
+      "totalCount": "Recuento total",
+      "addNewSite": {
+        "label": "Agregar nuevo sitio",
+        "description": "Ingresa una nueva dirección de sitio web, como 'www.ejemplo.com', y haz clic en 'Agregar'.",
+        "placeholder": "Dirección del sitio web, como 'www.ejemplo.com'",
+        "add": "Agregar",
+        "cancel": "Cancelar",
+        "invalidDomain": "Dirección de sitio web no válida"
+      },
+      "browserSettings": {
+        "label": "Configuraciones del navegador",
+        "description": "Puedes modificar las configuraciones del sitio, como eliminar datos o cambiar permisos del sitio.",
+        "goToBrowserSettings": "Ir a configuraciones"
+      },
+      "autoDiscardable": {
+        "label": "Descarte automático",
+        "description": "Cuando está habilitado, se permitirá que la pestaña sea descartada por el navegador, y si activas el rendimiento y configuras el tiempo para descartar pestañas inactivas, la pestaña se descartará después del tiempo especificado. Si está deshabilitado, la pestaña no será descartada"
+      },
+      "readingProgressBar": {
+        "label": "Barra de progreso de lectura",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de lectura debajo de la barra de título de la pestaña.",
+        "globaldisabledTips": "Debes activar la barra de progreso de lectura en las configuraciones globales para modificar esta configuración."
+      },
+      "playingProgressBar": {
+        "label": "Barra de progreso de reproducción",
+        "description": "Cuando está habilitado, se mostrará una barra de progreso de reproducción debajo de la barra de título de la pestaña.",
+        "globaldisabledTips": "Debes activar la barra de progreso de reproducción en las configuraciones globales para modificar esta configuración."
+      },
+      "tabSwitchPip": {
+        "label": "PIP al cambiar de pestaña",
+        "description": "Cuando está habilitado, entrar automáticamente en Picture-in-picture al cambiar de pestañas con un video no silenciado.",
+        "globaldisabledTips": "Debes activar Picture-in-picture en las configuraciones globales para modificar esta configuración."
+      },
+      "clearHistoyAfterCLose": {
+        "label": "Borrar historial después de cerrar",
+        "description": "Cuando está habilitado, el historial se borrará después de cerrar la pestaña."
+      },
+      "SyncTabs": {
+        "label": "Sincronizar pestañas",
+        "description": "Elige cómo sincronizar los datos de las pestañas, excluyendo datos privados como cookies e información personal.",
+        "disabled": "Deshabilitado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Mantener sincronizado",
+        "globaldisabledTips": "Debes activar la sincronización en Configuraciones Globales para modificar esta configuración."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Elige cómo sincronizar los datos privados, como cookies de sitios web, datos de localstorage de páginas web, datos de SessionStorage, etc. Los datos serán encriptados antes de la sincronización.",
+        "disabled": "Deshabilitado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Mantener sincronizado",
+        "globaldisabledTips": "Debes activar la sincronización en Configuraciones Globales para modificar esta configuración."
+      },
+      "linkSettings": {
+        "label": "Preferencias de enlaces",
+        "description": "Configura cómo deben gestionarse los enlaces en este sitio.",
+        "configure": "Configurar",
+        "listTips": "Arrastra y suelta para reordenar. Las reglas con mayor prioridad se colocan en la parte superior. Una vez que se cumple una regla, las siguientes reglas serán ignoradas.",
+        "linkMatchContent": "Criterios de coincidencia de enlaces",
+        "linkMatchContentTips": "Soporta expresiones regulares. Por ejemplo, usa '*' para coincidir con cualquier secuencia de caracteres y '?' para coincidir con un solo carácter.",
+        "linkOpenMethod": "Método de apertura de enlaces",
+        "edit": "Modificar",
+        "delete": "Eliminar",
+        "target_self": "Misma pestaña",
+        "target_blank": "Nueva pestaña",
+        "target_parent": "Pestaña principal",
+        "target_top": "Pestaña superior",
+        "save": "Guardar",
+        "close": "Cerrar"
+      }
+    },
+    "importAndExport": {
+      "title": "Importar/Exportar",
+      "description": "",
+      "options": {
+        "preferences": "Preferencias del usuario",
+        "preferencesInfo": "Incluye configuraciones generales predeterminadas, preferencias de visualización y datos, y cambio de temas de la interfaz de usuario.",
+        "quickAccess": "Acceso rápido",
+        "quickAccessWarning": "El icono de un sitio web no visitado puede mostrarse de manera anormal. No te preocupes, se mostrará normalmente después de que lo visites y reinicies el navegador.",
+        "siteConfig": "Configuraciones del sitio",
+        "siteConfigInfo": "como descarte automático, picture-in-picture al cambiar de pestaña, barra de progreso de lectura, barra de progreso de reproducción, etc.",
+        "recentlyTabs": "Pestañas cerradas recientemente",
+        "snapshots": "Instantáneas"
+      },
+      "cancelBtn": "Cancelar",
+      "exportBtn": "Exportar",
+      "importBtn": "Importar",
+      "importing": "Importando...",
+      "fileError": "Error al analizar el archivo, por favor sube el archivo de configuración JSON correcto",
+      "import": {
+        "label": "Importar desde archivo",
+        "description": "",
+        "formTips": "Selecciona los datos que deseas importar",
+        "importSuccess": "Importación exitosa",
+        "importFailed": "Error en la importación"
+      },
+      "export": {
+        "label": "Exportar a archivo",
+        "description": "",
+        "formTips": "Selecciona los datos que deseas exportar",
+        "exportSuccess": "Exportación exitosa",
+        "exportFailed": "Error en la exportación"
+      }
+    },
+    "SyncToCloud": {
+      "label": "Sincronizar con la nube",
+      "SyncNow": "Sincronizar ahora",
+      "SyncNowWithGoogleDrive": "Sincronizar ahora con Google Drive",
+      "SyncNowWithDropbox": "Sincronizar ahora con Dropbox",
+      "SyncNowWithOneDrive": "Sincronizar ahora con OneDrive",
+      "Synchronizing": "Sincronizando...",
+      "SyncedSuccessfully": "Sincronizado con éxito",
+      "SyncFailed": "Sincronización fallida",
+      "LoginRequired": "Inicio de sesión requerido",
+      "GoogleDrive": "Google Drive",
+      "Dropbox": "Dropbox",
+      "OneDrive": "OneDrive",
+      "SyncConfigs": {
+        "label": "Sincronizar configuraciones",
+        "description": "Elige cómo sincronizar las configuraciones de esta extensión.",
+        "disabled": "Deshabilitado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Mantener sincronizado"
+      },
+      "SyncTabs": {
+        "label": "Sincronizar pestañas",
+        "description": "Elige cómo sincronizar los datos de las pestañas, excluyendo datos privados como cookies e información personal.",
+        "disabled": "Deshabilitado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Mantener sincronizado"
+      },
+      "OpenOrCloseTabsSynchronously": {
+        "label": "Abrir o cerrar pestañas sincrónicamente",
+        "description": "Cuando está habilitado, abrir o cerrar pestañas en diferentes navegadores se sincronizará. Esto solo se aplica cuando la opción 'mantener sincronizado' está activa",
+        "OpenOrCloseTabsSynchronouslyWarning": "Si inicias sesión en la misma cuenta en dos navegadores al mismo tiempo y activas esta opción, abrir o cerrar pestañas en un navegador realizará la misma operación en el otro navegador. Si el sitio web prohíbe inicios de sesión repetidos con la misma cuenta, pueden ocurrir excepciones."
+      },
+      "SyncPrivateData": {
+        "label": "Sincronizar datos privados",
+        "description": "Elige cómo sincronizar datos privados, como cookies de sitios web, datos de localstorage de páginas web, datos de SessionStorage, etc. Los datos se cifrarán antes de la sincronización.",
+        "disabled": "Deshabilitado",
+        "uploadOnly": "Solo subir",
+        "downloadOnly": "Solo descargar",
+        "staySynchronized": "Mantener sincronizado"
+      }
+    }
+  },
+  "snapshots": {
+    "title": "Visor de Snapshots",
+    "description": "Crear y gestionar snapshots.",
+    "createSnapshot": "Crear Snapshot",
+    "exportSnapshot": "Exportar Snapshot",
+    "restoreWindowSize":"Restaurar posición y tamaño de la ventana",
+    "openAllWindows": "Abrir Todas las Ventanas",
+    "openSelectedInNewWindow": "Abrir Seleccionados en Nueva Ventana",
+    "openSelectedInCurrentWindow": "Abrir Seleccionados en Ventana Actual",
+    "windowCount": "{{count}} Ventanas",
+    "tabCount": "{{count}} Pestañas",
+    "Window": "Ventana",
+    "OpenInCurrentWindow": "Abrir en Ventana Actual",
+    "OpenInNewWindow": "Abrir en Nueva Ventana",
+    "ResetSelection": "Restablecer Selección",
+    "snapshotCreatedSuccess": "Snapshot creado con éxito",
+    "snapshotCreatedFailed": "Error al crear snapshot",
+    "snapshotDeletedSuccess": "Snapshot eliminado con éxito",
+    "snapshotDeletedFailed": "Error al eliminar snapshot",
+    "importSnapshot": "Importar Snapshot",
+    "snapshotImportFailedDuplicate": "Error al importar snapshot, snapshot duplicado",
+    "snapshotImportedSuccess": "{{count}} Snapshot importado con éxito",
+    "snapshotImportFailed": "{{count}} Error al importar snapshot {{error}}"
+  }
+}

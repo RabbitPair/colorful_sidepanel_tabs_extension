@@ -146,6 +146,7 @@
   "createSnapshot": "創建快照",
   "createSnapshotSuccess": "快照創建成功",
   "createSnapshotFailed": "快照創建失敗",
+  "reopenSnapshotMessage": "您上次關閉了 {{windowCount}} 個窗口和 {{tabCount}} 個標籤頁。點擊此處進入**快照查看器**以快速恢復。",
   "showBy": "顯示方式",
   "sortBy": "排序方式",
   "createTabPanel": "創建標籤面板",

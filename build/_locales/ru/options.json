@@ -566,6 +566,7 @@
     "description": "Создавайте и управляйте снимками.",
     "createSnapshot": "Создать снимок",
     "exportSnapshot": "Экспортировать снимок",
+    "restoreWindowSize":"Восстановить положение и размер окна",
     "openAllWindows": "Открыть все окна",
     "openSelectedInNewWindow": "Открыть выбранное в новом окне",
     "openSelectedInCurrentWindow": "Открыть выбранное в текущем окне",

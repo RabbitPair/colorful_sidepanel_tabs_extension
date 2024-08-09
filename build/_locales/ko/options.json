@@ -566,6 +566,7 @@
     "description": "스냅샷을 생성하고 관리하세요.",
     "createSnapshot": "스냅샷 생성",
     "exportSnapshot": "스냅샷 내보내기",
+    "restoreWindowSize":"창 위치 및 크기 복원",
     "openAllWindows": "모든 창 열기",
     "openSelectedInNewWindow": "선택 항목을 새 창에서 열기",
     "openSelectedInCurrentWindow": "선택 항목을 현재 창에서 열기",

@@ -566,6 +566,7 @@
     "description": "Crear y gestionar capturas.",
     "createSnapshot": "Crear Captura",
     "exportSnapshot": "Exportar Captura",
+    "restoreWindowSize":"Restaurar la posición y el tamaño de la ventana",
     "openAllWindows": "Abrir Todas las Ventanas",
     "openSelectedInNewWindow": "Abrir Seleccionados en Nueva Ventana",
     "openSelectedInCurrentWindow": "Abrir Seleccionados en Ventana Actual",

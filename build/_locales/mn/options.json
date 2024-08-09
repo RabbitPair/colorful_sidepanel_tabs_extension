@@ -566,6 +566,7 @@
     "description": "Зураглалуудыг үүсгэж, удирдах.",
     "createSnapshot": "Зураглал үүсгэх",
     "exportSnapshot": "Зураглал экспортлох",
+    "restoreWindowSize":"Цонхны байрлал болон хэмжээг сэргээх",
     "openAllWindows": "Бүх цонхыг нээх",
     "openSelectedInNewWindow": "Сонгосон цонхыг шинэ цонхонд нээх",
     "openSelectedInCurrentWindow": "Сонгосон цонхыг одоогийн цонхонд нээх",

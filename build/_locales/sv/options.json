@@ -566,6 +566,7 @@
     "description": "Skapa och hantera ögonblicksbilder.",
     "createSnapshot": "Skapa ögonblicksbild",
     "exportSnapshot": "Exportera ögonblicksbild",
+    "restoreWindowSize":"Återställ fönsterposition och storlek",
     "openAllWindows": "Öppna alla fönster",
     "openSelectedInNewWindow": "Öppna valda i nytt fönster",
     "openSelectedInCurrentWindow": "Öppna valda i aktuellt fönster",

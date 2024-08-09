@@ -566,6 +566,7 @@
     "description": "Opprett og administrer øyeblikksbilder.",
     "createSnapshot": "Opprett øyeblikksbilde",
     "exportSnapshot": "Eksporter øyeblikksbilde",
+    "restoreWindowSize":"Gjenopprett vindusposisjon og størrelse",
     "openAllWindows": "Åpne alle vinduer",
     "openSelectedInNewWindow": "Åpne valgte i nytt vindu",
     "openSelectedInCurrentWindow": "Åpne valgte i gjeldende vindu",

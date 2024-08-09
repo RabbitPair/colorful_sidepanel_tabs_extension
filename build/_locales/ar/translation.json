@@ -146,6 +146,7 @@
   "createSnapshot": "إنشاء لقطة",
   "createSnapshotSuccess": "تم إنشاء اللقطة بنجاح",
   "createSnapshotFailed": "فشل في إنشاء اللقطة",
+  "reopenSnapshotMessage": "لقد أغلقت آخر مرة {{windowCount}} نافذة و {{tabCount}} علامة تبويب. انقر هنا للانتقال إلى **عارض اللقطات** لاستعادة سريعة.",
   "showBy": "عرض حسب",
   "sortBy": "ترتيب حسب",
   "createTabPanel": "إنشاء لوحة علامات التبويب",

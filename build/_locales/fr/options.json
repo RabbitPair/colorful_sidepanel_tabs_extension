@@ -566,6 +566,7 @@
     "description": "Créer et gérer des snapshots.",
     "createSnapshot": "Créer un snapshot",
     "exportSnapshot": "Exporter un snapshot",
+    "restoreWindowSize":"Restaurer la position et la taille de la fenêtre",
     "openAllWindows": "Ouvrir toutes les fenêtres",
     "openSelectedInNewWindow": "Ouvrir la sélection dans une nouvelle fenêtre",
     "openSelectedInCurrentWindow": "Ouvrir la sélection dans la fenêtre actuelle",

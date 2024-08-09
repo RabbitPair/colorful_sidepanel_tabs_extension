@@ -133,6 +133,7 @@
   "createSnapshot": "Skep Oomblikopname",
   "createSnapshotSuccess": "Oomblikopname Suksesvol Geskep",
   "createSnapshotFailed": "Oomblikopname Misluk",
+  "reopenSnapshotMessage": "Jy het laas {{windowCount}} vensters en {{tabCount}} oortjies gesluit. Klik hier om na die **oomblikopname kyker** te gaan vir vinnige herstel.",
   "showBy": "Wys Volgens",
   "sortBy": "Sorteer Volgens",
   "createTabPanel": "Skep Tab Paneel",

@@ -566,6 +566,7 @@
     "description": "Crea e xestiona capturas.",
     "createSnapshot": "Crear Captura",
     "exportSnapshot": "Exportar Captura",
+    "restoreWindowSize":"Restaurar posición e tamaño da xanela",
     "openAllWindows": "Abrir Todas as Xanelas",
     "openSelectedInNewWindow": "Abrir Seleccionadas en Nova Xanela",
     "openSelectedInCurrentWindow": "Abrir Seleccionadas na Xanela Actual",

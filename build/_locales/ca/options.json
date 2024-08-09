@@ -566,6 +566,7 @@
     "description": "Crea i gestiona snapshots.",
     "createSnapshot": "Crear snapshot",
     "exportSnapshot": "Exportar snapshot",
+    "restoreWindowSize":"Restaurar la posició i la mida de la finestra",
     "openAllWindows": "Obrir totes les finestres",
     "openSelectedInNewWindow": "Obrir seleccionats en una nova finestra",
     "openSelectedInCurrentWindow": "Obrir seleccionats en la finestra actual",

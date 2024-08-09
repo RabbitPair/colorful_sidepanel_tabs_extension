@@ -146,6 +146,7 @@
   "createSnapshot": "Tạo Ảnh Chụp",
   "createSnapshotSuccess": "Tạo Ảnh Chụp Thành Công",
   "createSnapshotFailed": "Tạo Ảnh Chụp Thất Bại",
+  "reopenSnapshotMessage": "Bạn đã đóng {{windowCount}} cửa sổ và {{tabCount}} thẻ lần cuối. Nhấp vào đây để đi đến **trình xem ảnh chụp** để khôi phục nhanh chóng.",
   "showBy": "Hiển Thị Theo",
   "sortBy": "Sắp Xếp Theo",
   "createTabPanel": "Tạo Bảng Thẻ",

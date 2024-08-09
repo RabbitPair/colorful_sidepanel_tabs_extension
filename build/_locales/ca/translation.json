@@ -133,6 +133,7 @@
   "createSnapshot": "Crea una instantània",
   "createSnapshotSuccess": "Instantània creada amb èxit",
   "createSnapshotFailed": "Error en crear la instantània",
+  "reopenSnapshotMessage": "Vas tancar {{windowCount}} finestres i {{tabCount}} pestanyes l'última vegada. Fes clic aquí per anar al **visor d'instantànies** per a una recuperació ràpida.",
   "showBy": "Mostra per",
   "sortBy": "Ordena per",
   "createTabPanel": "Crea un panell de pestanyes",

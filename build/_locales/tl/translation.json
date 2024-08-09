@@ -133,6 +133,7 @@
   "createSnapshot": "Gumawa ng Snapshot",
   "createSnapshotSuccess": "Matagumpay na Nalikha ang Snapshot",
   "createSnapshotFailed": "Nabigo ang Paglikha ng Snapshot",
+  "reopenSnapshotMessage": "Huli mong isinara ang {{windowCount}} na mga window at {{tabCount}} na mga tab. I-click dito upang pumunta sa **snapshot viewer** para sa mabilisang pagbawi.",
   "showBy": "Ipakita Ayon sa",
   "sortBy": "Ayusin Ayon sa",
   "createTabPanel": "Gumawa ng Panel ng Tab",

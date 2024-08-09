@@ -133,6 +133,7 @@
   "createSnapshot": "שאַפֿן סנאַפּשאָט",
   "createSnapshotSuccess": "סנאַפּשאָט שאַפֿן הצלחה",
   "createSnapshotFailed": "סנאַפּשאָט שאַפֿן דורכפאַל",
+  "reopenSnapshotMessage": "איר האָט לעצטנס פֿאַרמאַכט {{windowCount}} פֿענצטער און {{tabCount}} טאַבן. קליקט דאָ צו גיין צו די **סנאַפּשאָט ווײַזער** פֿאַר שנעל אָפּזוך.",
   "showBy": "ווייַזן דורך",
   "sortBy": "סאָרטירן דורך",
   "createTabPanel": "שאַפֿן טאַב פּאַנעל",

@@ -567,6 +567,7 @@
     "description": "创建和管理快照。",
     "createSnapshot": "创建快照",
     "exportSnapshot": "导出快照",
+    "restoreWindowSize":"恢复窗口位置和大小",
     "openAllWindows": "打开所有窗口",
     "openSelectedInNewWindow": "在新窗口中打开选定项",
     "openSelectedInCurrentWindow": "在当前窗口中打开选定项",

@@ -566,6 +566,7 @@
     "description": "Vytvárajte a spravujte snímky.",
     "createSnapshot": "Vytvoriť snímku",
     "exportSnapshot": "Exportovať snímku",
+    "restoreWindowSize":"Obnoviť polohu a veľkosť okna",
     "openAllWindows": "Otvoriť všetky okná",
     "openSelectedInNewWindow": "Otvoriť vybrané v novom okne",
     "openSelectedInCurrentWindow": "Otvoriť vybrané v aktuálnom okne",

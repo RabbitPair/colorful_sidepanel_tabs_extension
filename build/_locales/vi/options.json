@@ -566,6 +566,7 @@
     "description": "Tạo và quản lý ảnh chụp nhanh.",
     "createSnapshot": "Tạo ảnh chụp nhanh",
     "exportSnapshot": "Xuất ảnh chụp nhanh",
+    "restoreWindowSize":"Khôi phục vị trí và kích thước cửa sổ",
     "openAllWindows": "Mở tất cả cửa sổ",
     "openSelectedInNewWindow": "Mở mục đã chọn trong cửa sổ mới",
     "openSelectedInCurrentWindow": "Mở mục đã chọn trong cửa sổ hiện tại",

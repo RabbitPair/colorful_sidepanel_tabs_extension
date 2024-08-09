@@ -566,6 +566,7 @@
     "description": "Pillanatképek létrehozása és kezelése.",
     "createSnapshot": "Pillanatkép létrehozása",
     "exportSnapshot": "Pillanatkép exportálása",
+    "restoreWindowSize":"Ablak pozíciójának és méretének visszaállítása",
     "openAllWindows": "Összes ablak megnyitása",
     "openSelectedInNewWindow": "Kiválasztottak megnyitása új ablakban",
     "openSelectedInCurrentWindow": "Kiválasztottak megnyitása jelenlegi ablakban",

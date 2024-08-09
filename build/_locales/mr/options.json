@@ -566,6 +566,7 @@
     "description": "स्नॅपशॉट्स तयार करा आणि व्यवस्थापित करा.",
     "createSnapshot": "स्नॅपशॉट तयार करा",
     "exportSnapshot": "स्नॅपशॉट निर्यात करा",
+    "restoreWindowSize":"विंडो स्थिती आणि आकार पुनर्संचयित करा",
     "openAllWindows": "सर्व विंडोज उघडा",
     "openSelectedInNewWindow": "नवीन विंडोमध्ये निवडलेले उघडा",
     "openSelectedInCurrentWindow": "सध्याच्या विंडोमध्ये निवडलेले उघडा",

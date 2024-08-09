@@ -133,6 +133,7 @@
   "createSnapshot": "Креирај Снимка",
   "createSnapshotSuccess": "Снимката е успешно креирана",
   "createSnapshotFailed": "Креирањето на снимката не успеа",
+  "reopenSnapshotMessage": "Последно затворивте {{windowCount}} прозорци и {{tabCount}} картички. Кликнете тука за да одите на **прегледувачот на снимки** за брзо обновување.",
   "showBy": "Прикажи по",
   "sortBy": "Сортирај по",
   "createTabPanel": "Креирај Панел за Картички",

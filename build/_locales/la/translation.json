@@ -133,6 +133,7 @@
   "createSnapshot": "Crea Snapshot",
   "createSnapshotSuccess": "Snapshot Creato con Successo",
   "createSnapshotFailed": "Creazione Snapshot Fallita",
+  "reopenSnapshotMessage": "Ultime clausisti {{windowCount}} fenestras et {{tabCount}} tabulas. Clicca hic ut ad **visorem snapshot** pro celeri recuperatione.",
   "showBy": "Mostra Per",
   "sortBy": "Ordina Per",
   "createTabPanel": "Crea Pannello Schede",

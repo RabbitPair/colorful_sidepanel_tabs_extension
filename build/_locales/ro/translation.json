@@ -146,6 +146,7 @@
   "createSnapshot": "Creează instantaneu",
   "createSnapshotSuccess": "Instantaneu creat cu succes",
   "createSnapshotFailed": "Crearea instantaneului a eșuat",
+  "reopenSnapshotMessage": "Ați închis ultima dată {{windowCount}} ferestre și {{tabCount}} file. Faceți clic aici pentru a accesa **vizualizatorul de instantanee** pentru recuperare rapidă.",
   "showBy": "Afișează după",
   "sortBy": "Sortează după",
   "createTabPanel": "Creează panou de file",

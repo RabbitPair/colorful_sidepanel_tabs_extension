@@ -566,6 +566,7 @@
     "description": "צור ונהל צילומי מסך.",
     "createSnapshot": "צור צילום מסך",
     "exportSnapshot": "ייצא צילום מסך",
+    "restoreWindowSize":"שחזר מיקום וגודל חלון",
     "openAllWindows": "פתח את כל החלונות",
     "openSelectedInNewWindow": "פתח את הנבחר בחלון חדש",
     "openSelectedInCurrentWindow": "פתח את הנבחר בחלון הנוכחי",

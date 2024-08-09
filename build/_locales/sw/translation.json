@@ -133,6 +133,7 @@
   "createSnapshot": "Unda Picha",
   "createSnapshotSuccess": "Picha Imeundwa kwa Mafanikio",
   "createSnapshotFailed": "Uundaji wa Picha Umeshindikana",
+  "reopenSnapshotMessage": "Umefunga madirisha {{windowCount}} na vichupo {{tabCount}} mwisho. Bonyeza hapa kwenda kwa **kionyeshi cha picha** kwa urejeshaji wa haraka.",
   "showBy": "Onyesha Kwa",
   "sortBy": "Panga Kwa",
   "createTabPanel": "Unda Jopo la Vichupo",

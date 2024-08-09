@@ -566,6 +566,7 @@
     "description": "Buat dan kelola snapshot.",
     "createSnapshot": "Buat Snapshot",
     "exportSnapshot": "Ekspor Snapshot",
+    "restoreWindowSize":"Pulihkan posisi dan ukuran jendela",
     "openAllWindows": "Buka Semua Jendela",
     "openSelectedInNewWindow": "Buka yang Dipilih di Jendela Baru",
     "openSelectedInCurrentWindow": "Buka yang Dipilih di Jendela Saat Ini",

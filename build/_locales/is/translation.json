@@ -133,6 +133,7 @@
   "createSnapshot": "Búa til skjáskot",
   "createSnapshotSuccess": "Skjáskot búið til",
   "createSnapshotFailed": "Ekki tókst að búa til skjáskot",
+  "reopenSnapshotMessage": "Þú lokaðir síðast {{windowCount}} gluggum og {{tabCount}} flipum. Smelltu hér til að fara í **skjáskotsskoðara** til að endurheimta fljótt.",
   "showBy": "Sýna eftir",
   "sortBy": "Raða eftir",
   "createTabPanel": "Búa til flipa spjald",

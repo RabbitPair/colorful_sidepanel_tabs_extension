@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "VertiTab - સાઇડ પેનલમાં વર્ટિકલ ટેબ્સ"
+  },
+  "appShortName": {
+    "message": "VertiTab"
+  },
+  "appDescription": {
+    "message": "સાઇડ પેનલમાં બ્રાઉઝર ટેબ્સને વ્યવસ્થિત કરો, કન્ફિગરેબલ, સુંદર અને અન્ય ઘણા ફીચર્સ સાથે"
+  },
+  "openSidePanel": {
+    "message": "સાઇડ પેનલ ખોલો"
+  }
+}

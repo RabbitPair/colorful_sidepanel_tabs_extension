@@ -146,6 +146,7 @@
   "createSnapshot": "Luo tilannekuva",
   "createSnapshotSuccess": "Tilannekuva luotu onnistuneesti",
   "createSnapshotFailed": "Tilannekuvan luominen epäonnistui",
+  "reopenSnapshotMessage": "Suljit viimeksi {{windowCount}} ikkunaa ja {{tabCount}} välilehteä. Napsauta tästä siirtyäksesi **tilannekuvan katselijaan** nopeaa palautusta varten.",
   "showBy": "Näytä",
   "sortBy": "Lajittele",
   "createTabPanel": "Luo välilehtipaneeli",

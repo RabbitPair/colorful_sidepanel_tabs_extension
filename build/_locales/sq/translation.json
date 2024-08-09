@@ -133,6 +133,7 @@
   "createSnapshot": "Krijo Pamje",
   "createSnapshotSuccess": "Pamja u Krijua me Sukses",
   "createSnapshotFailed": "Krijimi i Pamjes Dështoi",
+  "reopenSnapshotMessage": "Ju mbyllët së fundmi {{windowCount}} dritare dhe {{tabCount}} faqe. Klikoni këtu për të shkuar te **shikuesi i pamjeve** për rikuperim të shpejtë.",
   "showBy": "Trego Sipas",
   "sortBy": "Rendit Sipas",
   "createTabPanel": "Krijo Panelin e Faqeve",

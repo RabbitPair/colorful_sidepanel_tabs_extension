@@ -146,6 +146,7 @@
   "createSnapshot": "ایجاد عکس فوری",
   "createSnapshotSuccess": "ایجاد عکس فوری با موفقیت انجام شد",
   "createSnapshotFailed": "ایجاد عکس فوری ناموفق بود",
+  "reopenSnapshotMessage": "شما آخرین بار {{windowCount}} پنجره و {{tabCount}} زبانه را بستید. برای بازیابی سریع، اینجا کلیک کنید تا به **نمایشگر عکس فوری** بروید.",
   "showBy": "نمایش بر اساس",
   "sortBy": "مرتب‌سازی بر اساس",
   "createTabPanel": "ایجاد پنل زبانه",

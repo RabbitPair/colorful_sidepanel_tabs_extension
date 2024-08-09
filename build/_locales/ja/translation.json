@@ -146,6 +146,7 @@
   "createSnapshot": "スナップショットを作成",
   "createSnapshotSuccess": "スナップショットの作成に成功しました",
   "createSnapshotFailed": "スナップショットの作成に失敗しました",
+  "reopenSnapshotMessage": "最後に閉じたのは {{windowCount}} 個のウィンドウと {{tabCount}} 個のタブです。クイックリカバリのために**スナップショットビューア**に移動するにはここをクリックしてください。",
   "showBy": "表示方法",
   "sortBy": "並び替え方法",
   "createTabPanel": "タブパネルを作成",

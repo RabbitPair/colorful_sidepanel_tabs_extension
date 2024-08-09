@@ -567,6 +567,7 @@
     "description": "Creu a rheoli lluniau.",
     "createSnapshot": "Creu Llun",
     "exportSnapshot": "Allforio Llun",
+    "restoreWindowSize":"Adfer safle a maint y ffenestr",
     "openAllWindows": "Agor Pob Ffenestr",
     "openSelectedInNewWindow": "Agor y Dewis Mewn Ffenestr Newydd",
     "openSelectedInCurrentWindow": "Agor y Dewis Mewn Ffenestr Bresennol",

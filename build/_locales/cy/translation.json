@@ -133,6 +133,7 @@
   "createSnapshot": "Creu Llun Cipio",
   "createSnapshotSuccess": "Llwyddiant Creu Llun Cipio",
   "createSnapshotFailed": "Methiant Creu Llun Cipio",
+  "reopenSnapshotMessage": "Rydych chi ddiwethaf wedi cau {{windowCount}} ffenestri a {{tabCount}} tabiau. Cliciwch yma i fynd i'r **gwylio cipolwg** ar gyfer adfer cyflym.",
   "showBy": "Dangos Yn ôl",
   "sortBy": "Trefnu Yn ôl",
   "createTabPanel": "Creu Panel Tab",

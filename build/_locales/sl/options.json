@@ -566,6 +566,7 @@
     "description": "Ustvarite in upravljajte posnetke.",
     "createSnapshot": "Ustvari posnetek",
     "exportSnapshot": "Izvozi posnetek",
+    "restoreWindowSize":"Obnovi položaj in velikost okna",
     "openAllWindows": "Odpri vsa okna",
     "openSelectedInNewWindow": "Odpri izbrano v novem oknu",
     "openSelectedInCurrentWindow": "Odpri izbrano v trenutnem oknu",

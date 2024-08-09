@@ -146,6 +146,7 @@
   "createSnapshot": "Crear Captura",
   "createSnapshotSuccess": "Captura Creada con Éxito",
   "createSnapshotFailed": "Error al Crear la Captura",
+  "reopenSnapshotMessage": "Cerraste por última vez {{windowCount}} ventanas y {{tabCount}} pestañas. Haz clic aquí para ir al **visor de capturas** para una recuperación rápida.",
   "showBy": "Mostrar Por",
   "sortBy": "Ordenar Por",
   "createTabPanel": "Crear Panel de Pestañas",

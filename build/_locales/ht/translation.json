@@ -133,6 +133,7 @@
   "createSnapshot": "Kreye Snapshot",
   "createSnapshotSuccess": "Snapshot Kreye avèk Siksè",
   "createSnapshotFailed": "Kreye Snapshot Echwe",
+  "reopenSnapshotMessage": "Ou fèmen {{windowCount}} fenèt ak {{tabCount}} tab dènye fwa. Klike isit la pou ale nan **gade snapshot** pou rekiperasyon rapid.",
   "showBy": "Montre Pa",
   "sortBy": "Triye Pa",
   "createTabPanel": "Kreye Panèl Tab",

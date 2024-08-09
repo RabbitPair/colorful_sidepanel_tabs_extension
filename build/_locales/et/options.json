@@ -566,6 +566,7 @@
     "description": "Loo ja halda hetktõmmiseid.",
     "createSnapshot": "Loo hetktõmmis",
     "exportSnapshot": "Ekspordi hetktõmmis",
+    "restoreWindowSize":"Taasta akna asend ja suurus",
     "openAllWindows": "Ava kõik aknad",
     "openSelectedInNewWindow": "Ava valitud uues aknas",
     "openSelectedInCurrentWindow": "Ava valitud praeguses aknas",

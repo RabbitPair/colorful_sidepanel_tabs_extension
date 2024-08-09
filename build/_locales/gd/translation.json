@@ -133,6 +133,7 @@
   "createSnapshot": "Cruthaich Dealbh-sgrìn",
   "createSnapshotSuccess": "Dealbh-sgrìn air a Chruthachadh gu Soirbheachail",
   "createSnapshotFailed": "Dh'fhàillig Cruthachadh Dealbh-sgrìn",
+  "reopenSnapshotMessage": "Dhùin thu mu dheireadh {{windowCount}} uinneagan agus {{tabCount}} tabaichean. Cliog an seo gus a dhol gu **sealladair snapshot** airson ath-bheothachadh luath.",
   "showBy": "Seall Le",
   "sortBy": "Sòrtaich Le",
   "createTabPanel": "Cruthaich Pannal Cluais",

@@ -146,6 +146,7 @@
   "createSnapshot": "Loo hetktõmmis",
   "createSnapshotSuccess": "Hetktõmmis loodud",
   "createSnapshotFailed": "Hetktõmmise loomine ebaõnnestus",
+  "reopenSnapshotMessage": "Sulgesid viimati {{windowCount}} akent ja {{tabCount}} vahekaarti. Kiireks taastamiseks klõpsa siin, et minna **hetktõmmise vaataja** juurde.",
   "showBy": "Näita järgi",
   "sortBy": "Sorteeri järgi",
   "createTabPanel": "Loo vahekaardipaneel",

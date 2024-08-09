@@ -146,6 +146,7 @@
   "createSnapshot": "Sukurti momentinę nuotrauką",
   "createSnapshotSuccess": "Momentinė nuotrauka sėkmingai sukurta",
   "createSnapshotFailed": "Nepavyko sukurti momentinės nuotraukos",
+  "reopenSnapshotMessage": "Jūs paskutinį kartą uždarėte {{windowCount}} langus ir {{tabCount}} skirtukus. Spustelėkite čia, kad pereitumėte į **momentinių nuotraukų peržiūros programą** greitam atkūrimui.",
   "showBy": "Rodyti pagal",
   "sortBy": "Rūšiuoti pagal",
   "createTabPanel": "Sukurti skirtukų skydelį",

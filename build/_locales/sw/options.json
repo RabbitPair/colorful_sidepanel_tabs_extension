@@ -566,6 +566,7 @@
     "description": "Unda na simamia picha za haraka.",
     "createSnapshot": "Unda Picha ya Haraka",
     "exportSnapshot": "Hamisha Picha ya Haraka",
+    "restoreWindowSize":"Rejesha nafasi na ukubwa wa dirisha",
     "openAllWindows": "Fungua Dirisha Zote",
     "openSelectedInNewWindow": "Fungua Zilizochaguliwa Katika Dirisha Jipya",
     "openSelectedInCurrentWindow": "Fungua Zilizochaguliwa Katika Dirisha la Sasa",

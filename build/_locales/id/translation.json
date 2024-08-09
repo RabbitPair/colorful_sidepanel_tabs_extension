@@ -146,6 +146,7 @@
   "createSnapshot": "Buat Snapshot",
   "createSnapshotSuccess": "Snapshot Berhasil Dibuat",
   "createSnapshotFailed": "Gagal Membuat Snapshot",
+  "reopenSnapshotMessage": "Anda terakhir menutup {{windowCount}} jendela dan {{tabCount}} tab. Klik di sini untuk pergi ke **penampil snapshot** untuk pemulihan cepat.",
   "showBy": "Tampilkan Berdasarkan",
   "sortBy": "Urutkan Berdasarkan",
   "createTabPanel": "Buat Panel Tab",

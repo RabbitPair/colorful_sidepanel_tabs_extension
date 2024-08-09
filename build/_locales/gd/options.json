@@ -566,6 +566,7 @@
     "description": "Cruthaich agus stiùirich snapshots.",
     "createSnapshot": "Cruthaich Snapshot",
     "exportSnapshot": "Às-mhalairt Snapshot",
+    "restoreWindowSize":"Ath-shuidhich suidheachadh agus meud na h-uinneige",
     "openAllWindows": "Fosgail Uinneagan Uile",
     "openSelectedInNewWindow": "Fosgail Taghte ann an Uinneag Ùr",
     "openSelectedInCurrentWindow": "Fosgail Taghte ann an Uinneag Làithreach",

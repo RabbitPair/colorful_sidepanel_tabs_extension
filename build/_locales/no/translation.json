@@ -146,6 +146,7 @@
   "createSnapshot": "Opprett Øyeblikksbilde",
   "createSnapshotSuccess": "Øyeblikksbilde Opprettet",
   "createSnapshotFailed": "Opprettelse av Øyeblikksbilde Feilet",
+  "reopenSnapshotMessage": "Du lukket sist {{windowCount}} vinduer og {{tabCount}} faner. Klikk her for å gå til **øyeblikksbildeviseren** for rask gjenoppretting.",
   "showBy": "Vis Etter",
   "sortBy": "Sorter Etter",
   "createTabPanel": "Opprett Fane Panel",

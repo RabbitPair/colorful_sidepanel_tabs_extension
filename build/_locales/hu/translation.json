@@ -146,6 +146,7 @@
   "createSnapshot": "Pillanatkép létrehozása",
   "createSnapshotSuccess": "Pillanatkép sikeresen létrehozva",
   "createSnapshotFailed": "Pillanatkép létrehozása sikertelen",
+  "reopenSnapshotMessage": "Legutóbb {{windowCount}} ablakot és {{tabCount}} lapot zárt be. Kattintson ide a gyors visszaállításhoz a **pillanatkép nézőben**.",
   "showBy": "Megjelenítés",
   "sortBy": "Rendezés",
   "createTabPanel": "Fül panel létrehozása",

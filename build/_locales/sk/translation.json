@@ -146,6 +146,7 @@
   "createSnapshot": "Vytvoriť snímku",
   "createSnapshotSuccess": "Snímka úspešne vytvorená",
   "createSnapshotFailed": "Vytvorenie snímky zlyhalo",
+  "reopenSnapshotMessage": "Naposledy ste zatvorili {{windowCount}} okien a {{tabCount}} kariet. Kliknite sem pre rýchle obnovenie v **prehliadači snímok**.",
   "showBy": "Zobraziť podľa",
   "sortBy": "Zoradiť podľa",
   "createTabPanel": "Vytvoriť panel kariet",

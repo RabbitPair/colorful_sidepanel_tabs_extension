@@ -133,6 +133,7 @@
   "createSnapshot": "Cruthaigh Seat",
   "createSnapshotSuccess": "Cruthaíodh Seat go rathúil",
   "createSnapshotFailed": "Theip ar Chruthú an tSeata",
+  "reopenSnapshotMessage": "Dhún tú {{windowCount}} fuinneoga agus {{tabCount}} cluaisíní an uair dheireanach. Cliceáil anseo chun dul go dtí an **féachana seat** le haghaidh aisghabhála tapa.",
   "showBy": "Taispeáin De réir",
   "sortBy": "Sórtáil De réir",
   "createTabPanel": "Cruthaigh Painéal Cluaisín",

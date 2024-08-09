@@ -133,6 +133,7 @@
   "createSnapshot": "Стварыць здымак",
   "createSnapshotSuccess": "Здымак паспяхова створаны",
   "createSnapshotFailed": "Не ўдалося стварыць здымак",
+  "reopenSnapshotMessage": "Вы апошні раз закрылі {{windowCount}} вокнаў і {{tabCount}} укладак. Націсніце тут, каб перайсці да **праглядальніка здымкаў** для хуткага аднаўлення.",
   "showBy": "Паказаць па",
   "sortBy": "Сартаваць па",
   "createTabPanel": "Стварыць панэль укладак",

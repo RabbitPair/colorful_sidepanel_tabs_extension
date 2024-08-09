@@ -566,6 +566,7 @@
     "description": "Búðu til og stjórnaðu skjámyndum.",
     "createSnapshot": "Búa til skjámynd",
     "exportSnapshot": "Flytja út skjámynd",
+    "restoreWindowSize":"Endurheimta gluggastöðu og stærð",
     "openAllWindows": "Opna öll glugga",
     "openSelectedInNewWindow": "Opna valda í nýjum glugga",
     "openSelectedInCurrentWindow": "Opna valda í núverandi glugga",

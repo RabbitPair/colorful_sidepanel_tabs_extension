@@ -146,6 +146,7 @@
   "createSnapshot": "Crea istantanea",
   "createSnapshotSuccess": "Istantanea creata con successo",
   "createSnapshotFailed": "Creazione istantanea fallita",
+  "reopenSnapshotMessage": "Hai chiuso per ultimo {{windowCount}} finestre e {{tabCount}} schede. Clicca qui per andare al **visualizzatore di istantanee** per un rapido recupero.",
   "showBy": "Mostra per",
   "sortBy": "Ordina per",
   "createTabPanel": "Crea pannello schede",

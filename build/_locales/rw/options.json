@@ -566,6 +566,7 @@
     "description": "Fungura kandi ugenzure snapshots.",
     "createSnapshot": "Kora Snapshot",
     "exportSnapshot": "Ohereza Snapshot",
+    "restoreWindowSize":"Subiza umwanya n'ubunini bwa Window",
     "openAllWindows": "Fungura Windows zose",
     "openSelectedInNewWindow": "Fungura Ibyatoranijwe muri Window nshya",
     "openSelectedInCurrentWindow": "Fungura Ibyatoranijwe muri Window iriho",

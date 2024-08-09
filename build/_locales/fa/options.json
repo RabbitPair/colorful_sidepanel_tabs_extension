@@ -566,6 +566,7 @@
     "description": "ایجاد و مدیریت عکس‌های فوری.",
     "createSnapshot": "ایجاد عکس فوری",
     "exportSnapshot": "صادر کردن عکس فوری",
+    "restoreWindowSize":"بازیابی موقعیت و اندازه پنجره",
     "openAllWindows": "باز کردن همه پنجره‌ها",
     "openSelectedInNewWindow": "باز کردن انتخاب شده‌ها در پنجره جدید",
     "openSelectedInCurrentWindow": "باز کردن انتخاب شده‌ها در پنجره فعلی",

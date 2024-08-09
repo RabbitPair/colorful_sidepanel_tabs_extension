@@ -566,6 +566,7 @@
     "description": "Cruthaigh agus bainistigh snapshots.",
     "createSnapshot": "Cruthaigh Snapshot",
     "exportSnapshot": "Easpórtáil Snapshot",
+    "restoreWindowSize":"Athchóirigh suíomh agus méid na fuinneoige",
     "openAllWindows": "Oscail Gach Fuinneog",
     "openSelectedInNewWindow": "Oscail Roghnaithe i bhFuinneog Nua",
     "openSelectedInCurrentWindow": "Oscail Roghnaithe sa Fhuinneog Reatha",

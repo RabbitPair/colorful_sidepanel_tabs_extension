@@ -133,6 +133,7 @@
   "createSnapshot": "እይታ እንደገና አንሳ",
   "createSnapshotSuccess": "እይታ እንደገና አንሳ ተሳክቷል",
   "createSnapshotFailed": "እይታ እንደገና አንሳ አልተሳካም",
+  "reopenSnapshotMessage": "በመጨረሻ ያዘጉት {{windowCount}} መስኮቶችንና {{tabCount}} ትሮችን ነበር። ፈጣን ማገልገያ ለማግኘት እዚህ ጠቅ ያድርጉ እንዲሁም ወደ **እይታ እንደገና አንሳ** ይሂዱ።",
   "showBy": "በ... አሳይ",
   "sortBy": "በ... ደርድር",
   "createTabPanel": "የትር ሰሌዳ ፍጠር",

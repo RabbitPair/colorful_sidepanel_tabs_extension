@@ -146,6 +146,7 @@
   "createSnapshot": "Cipta Snapshot",
   "createSnapshotSuccess": "Snapshot Berjaya Dicipta",
   "createSnapshotFailed": "Snapshot Gagal Dicipta",
+  "reopenSnapshotMessage": "Anda kali terakhir menutup {{windowCount}} tetingkap dan {{tabCount}} tab. Klik di sini untuk pergi ke **penonton snapshot** untuk pemulihan cepat.",
   "showBy": "Tunjukkan Mengikut",
   "sortBy": "Susun Mengikut",
   "createTabPanel": "Cipta Panel Tab",

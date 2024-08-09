@@ -566,6 +566,7 @@
     "description": "ስንጥቆችን ይፍጠሩ እና ያቀናብሩ።",
     "createSnapshot": "ስንጥቆ ፍጠር",
     "exportSnapshot": "ስንጥቆ አስወጣ",
+    "restoreWindowSize":"መስኮት አቀማመጥና መጠን እንደገና አቀናብር",
     "openAllWindows": "ሁሉንም መስኮቶች ክፈት",
     "openSelectedInNewWindow": "የተመረጡትን በአዲስ መስኮት ክፈት",
     "openSelectedInCurrentWindow": "የተመረጡትን በአሁኑ መስኮት ክፈት",

@@ -133,6 +133,7 @@
   "createSnapshot": "Зураг авах",
   "createSnapshotSuccess": "Зураг амжилттай авсан",
   "createSnapshotFailed": "Зураг авахад алдаа гарлаа",
+  "reopenSnapshotMessage": "Та хамгийн сүүлд {{windowCount}} цонх болон {{tabCount}} табуудыг хаасан байна. Түргэн сэргээхэд **зураг үзүүлэгч** рүү орохын тулд энд дарна уу.",
   "showBy": "Үзүүлэх",
   "sortBy": "Эрэмбэлэх",
   "createTabPanel": "Таб самбар үүсгэх",

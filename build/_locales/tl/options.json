@@ -566,6 +566,7 @@
     "description": "Lumikha at pamahalaan ang mga snapshot.",
     "createSnapshot": "Lumikha ng Snapshot",
     "exportSnapshot": "I-export ang Snapshot",
+    "restoreWindowSize":"Ibalik ang posisyon at laki ng bintana",
     "openAllWindows": "Buksan ang Lahat ng Mga Bintana",
     "openSelectedInNewWindow": "Buksan ang Napili sa Bagong Bintana",
     "openSelectedInCurrentWindow": "Buksan ang Napili sa Kasalukuyang Bintana",

@@ -146,6 +146,7 @@
   "createSnapshot": "Schnappschuss erstellen",
   "createSnapshotSuccess": "Schnappschuss erfolgreich erstellt",
   "createSnapshotFailed": "Schnappschuss konnte nicht erstellt werden",
+  "reopenSnapshotMessage": "Sie haben zuletzt {{windowCount}} Fenster und {{tabCount}} Tabs geschlossen. Klicken Sie hier, um zum **Schnappschuss-Viewer** zu gelangen und eine schnelle Wiederherstellung durchzuführen.",
   "showBy": "Anzeigen nach",
   "sortBy": "Sortieren nach",
   "createTabPanel": "Tab-Panel erstellen",

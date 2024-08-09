@@ -566,6 +566,7 @@
     "description": "Oħloq u immaniġġja l-istantanji.",
     "createSnapshot": "Oħloq Istantanja",
     "exportSnapshot": "Esporta Istantanja",
+    "restoreWindowSize":"Irrestawra l-pożizzjoni u d-daqs tat-tieqa",
     "openAllWindows": "Iftaħ il-Windows Kollha",
     "openSelectedInNewWindow": "Iftaħ l-Għażla f'Tieqa Ġdida",
     "openSelectedInCurrentWindow": "Iftaħ l-Għażla fit-Tieqa Kurrenti",

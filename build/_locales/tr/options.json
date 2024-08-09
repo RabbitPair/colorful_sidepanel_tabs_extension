@@ -566,6 +566,7 @@
     "description": "Anlık görüntüler oluşturun ve yönetin.",
     "createSnapshot": "Anlık Görüntü Oluştur",
     "exportSnapshot": "Anlık Görüntü Dışa Aktar",
+    "restoreWindowSize":"Pencere konumunu ve boyutunu geri yükle",
     "openAllWindows": "Tüm Pencereleri Aç",
     "openSelectedInNewWindow": "Seçilenleri Yeni Pencerede Aç",
     "openSelectedInCurrentWindow": "Seçilenleri Mevcut Pencerede Aç",

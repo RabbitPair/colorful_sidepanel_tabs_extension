@@ -133,6 +133,7 @@
   "createSnapshot": "Krei Momentfoton",
   "createSnapshotSuccess": "Momentfoto Sukcese Kreita",
   "createSnapshotFailed": "Krei Momentfoton Malsukcesis",
+  "reopenSnapshotMessage": "Vi laste fermis {{windowCount}} fenestrojn kaj {{tabCount}} langetojn. Klaku ĉi tie por iri al la **momentfoto spektanto** por rapida reakiro.",
   "showBy": "Montri Laŭ",
   "sortBy": "Ordigi Laŭ",
   "createTabPanel": "Krei Langetan Panelon",

@@ -146,6 +146,7 @@
   "createSnapshot": "Anlık Görüntü Oluştur",
   "createSnapshotSuccess": "Anlık Görüntü Başarıyla Oluşturuldu",
   "createSnapshotFailed": "Anlık Görüntü Oluşturma Başarısız",
+  "reopenSnapshotMessage": "Son olarak {{windowCount}} pencere ve {{tabCount}} sekme kapattınız. Hızlı kurtarma için **anlık görüntü görüntüleyicisine** gitmek için buraya tıklayın.",
   "showBy": "Göster",
   "sortBy": "Sırala",
   "createTabPanel": "Sekme Paneli Oluştur",

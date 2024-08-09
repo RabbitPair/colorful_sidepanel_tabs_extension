@@ -566,6 +566,7 @@
     "description": "Креирајте и управувајте со снимки.",
     "createSnapshot": "Креирај снимка",
     "exportSnapshot": "Изнеси снимка",
+    "restoreWindowSize":"Врати ја позицијата и големината на прозорецот",
     "openAllWindows": "Отвори ги сите прозорци",
     "openSelectedInNewWindow": "Отвори ги избраните во нов прозорец",
     "openSelectedInCurrentWindow": "Отвори ги избраните во тековниот прозорец",

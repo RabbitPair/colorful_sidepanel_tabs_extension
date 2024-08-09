@@ -133,6 +133,7 @@
   "createSnapshot": "Oħloq Snapshot",
   "createSnapshotSuccess": "Snapshot Maħluq b'Suċċess",
   "createSnapshotFailed": "Snapshot Maħluq Fallut",
+  "reopenSnapshotMessage": "Int għalaqt l-aħħar {{windowCount}} twieqi u {{tabCount}} tabs. Ikklikkja hawn biex tmur għall-**snapshot viewer** għal rkupru mgħaġġel.",
   "showBy": "Uri Skont",
   "sortBy": "Ordna Skont",
   "createTabPanel": "Oħloq Pannell tat-Tab",

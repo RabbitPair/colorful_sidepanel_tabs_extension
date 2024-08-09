@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "VertiTab - Pestañas Verticales en el Panel Lateral"
+  },
+  "appShortName": {
+    "message": "VertiTab"
+  },
+  "appDescription": {
+    "message": "Gestiona las pestañas del navegador en el panel lateral con características configurables, embellecedoras y muchas otras"
+  },
+  "openSidePanel": {
+    "message": "Abrir Panel Lateral"
+  }
+}

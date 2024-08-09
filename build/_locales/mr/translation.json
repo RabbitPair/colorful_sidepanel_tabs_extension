@@ -133,6 +133,7 @@
   "createSnapshot": "स्नॅपशॉट तयार करा",
   "createSnapshotSuccess": "स्नॅपशॉट यशस्वीरित्या तयार केले",
   "createSnapshotFailed": "स्नॅपशॉट तयार करण्यात अयशस्वी",
+  "reopenSnapshotMessage": "तुम्ही शेवटचे {{windowCount}} विंडोज आणि {{tabCount}} टॅब बंद केले. जलद पुनर्प्राप्तीसाठी **स्नॅपशॉट दर्शक** वर जाण्यासाठी येथे क्लिक करा.",
   "showBy": "द्वारे दाखवा",
   "sortBy": "द्वारे क्रमवारी लावा",
   "createTabPanel": "टॅब पॅनेल तयार करा",

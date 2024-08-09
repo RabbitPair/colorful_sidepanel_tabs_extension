@@ -146,6 +146,7 @@
   "createSnapshot": "Skapa ögonblicksbild",
   "createSnapshotSuccess": "Ögonblicksbild skapad framgångsrikt",
   "createSnapshotFailed": "Misslyckades med att skapa ögonblicksbild",
+  "reopenSnapshotMessage": "Du stängde senast {{windowCount}} fönster och {{tabCount}} flikar. Klicka här för att gå till **ögonblicksbildsvisaren** för snabb återställning.",
   "showBy": "Visa efter",
   "sortBy": "Sortera efter",
   "createTabPanel": "Skapa flikpanel",

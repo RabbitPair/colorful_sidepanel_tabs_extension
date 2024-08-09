@@ -566,6 +566,7 @@
     "description": "Skep en bestuur snapshots.",
     "createSnapshot": "Skep Snapshot",
     "exportSnapshot": "Voer Snapshot Uit",
+    "restoreWindowSize":"Herstel vensterposisie en grootte",
     "openAllWindows": "Maak Alle Vensters Oop",
     "openSelectedInNewWindow": "Maak Geselekteerdes in Nuwe Venster Oop",
     "openSelectedInCurrentWindow": "Maak Geselekteerdes in Huidige Venster Oop",

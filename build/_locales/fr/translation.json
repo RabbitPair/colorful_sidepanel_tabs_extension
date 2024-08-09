@@ -146,6 +146,7 @@
   "createSnapshot": "Créer un instantané",
   "createSnapshotSuccess": "Instantané créé avec succès",
   "createSnapshotFailed": "Échec de la création de l'instantané",
+  "reopenSnapshotMessage": "Vous avez fermé {{windowCount}} fenêtres et {{tabCount}} onglets. Cliquez ici pour accéder au **visualiseur d'instantanés** pour une récupération rapide.",
   "showBy": "Afficher par",
   "sortBy": "Trier par",
   "createTabPanel": "Créer un panneau d'onglets",

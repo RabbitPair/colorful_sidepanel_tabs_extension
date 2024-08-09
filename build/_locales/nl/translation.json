@@ -146,6 +146,7 @@
   "createSnapshot": "Momentopname maken",
   "createSnapshotSuccess": "Momentopname succesvol gemaakt",
   "createSnapshotFailed": "Momentopname maken mislukt",
+  "reopenSnapshotMessage": "Je hebt laatst {{windowCount}} vensters en {{tabCount}} tabbladen gesloten. Klik hier om naar de **momentopname viewer** te gaan voor snelle herstel.",
   "showBy": "Weergeven op",
   "sortBy": "Sorteren op",
   "createTabPanel": "Tabbladpaneel maken",

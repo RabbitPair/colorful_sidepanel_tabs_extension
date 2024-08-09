@@ -146,6 +146,7 @@
   "createSnapshot": "צור תמונת מצב",
   "createSnapshotSuccess": "תמונת מצב נוצרה בהצלחה",
   "createSnapshotFailed": "יצירת תמונת מצב נכשלה",
+  "reopenSnapshotMessage": "סגרת לאחרונה {{windowCount}} חלונות ו-{{tabCount}} כרטיסיות. לחץ כאן כדי לעבור ל**צופה תמונות מצב** לשחזור מהיר.",
   "showBy": "הצג לפי",
   "sortBy": "מיין לפי",
   "createTabPanel": "צור לוח כרטיסיות",

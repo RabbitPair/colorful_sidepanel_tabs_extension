@@ -566,6 +566,7 @@
     "description": "Creați și gestionați instantanee.",
     "createSnapshot": "Creați Instantaneu",
     "exportSnapshot": "Exportați Instantaneu",
+    "restoreWindowSize":"Restabiliți poziția și dimensiunea ferestrei",
     "openAllWindows": "Deschideți Toate Ferestrele",
     "openSelectedInNewWindow": "Deschideți Selecția Într-o Fereastră Nouă",
     "openSelectedInCurrentWindow": "Deschideți Selecția În Fereastra Curentă",

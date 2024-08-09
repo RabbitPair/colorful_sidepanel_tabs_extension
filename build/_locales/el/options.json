@@ -566,6 +566,7 @@
     "description": "Δημιουργήστε και διαχειριστείτε στιγμιότυπα.",
     "createSnapshot": "Δημιουργία Στιγμιοτύπου",
     "exportSnapshot": "Εξαγωγή Στιγμιοτύπου",
+    "restoreWindowSize":"Επαναφορά θέσης και μεγέθους παραθύρου",
     "openAllWindows": "Άνοιγμα Όλων των Παραθύρων",
     "openSelectedInNewWindow": "Άνοιγμα Επιλεγμένων σε Νέο Παράθυρο",
     "openSelectedInCurrentWindow": "Άνοιγμα Επιλεγμένων στο Τρέχον Παράθυρο",

@@ -566,6 +566,7 @@
     "description": "Opret og administrer snapshots.",
     "createSnapshot": "Opret Snapshot",
     "exportSnapshot": "Eksporter Snapshot",
+    "restoreWindowSize":"Gendan vinduets position og størrelse",
     "openAllWindows": "Åbn Alle Vinduer",
     "openSelectedInNewWindow": "Åbn Valgte i Nyt Vindue",
     "openSelectedInCurrentWindow": "Åbn Valgte i Nuværende Vindue",

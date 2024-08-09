@@ -566,6 +566,7 @@
     "description": "Luo ja hallitse tilannekuvia.",
     "createSnapshot": "Luo tilannekuva",
     "exportSnapshot": "Vie tilannekuva",
+    "restoreWindowSize":"Palauta ikkunan sijainti ja koko",
     "openAllWindows": "Avaa kaikki ikkunat",
     "openSelectedInNewWindow": "Avaa valitut uuteen ikkunaan",
     "openSelectedInCurrentWindow": "Avaa valitut nykyiseen ikkunaan",

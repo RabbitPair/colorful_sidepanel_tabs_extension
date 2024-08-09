@@ -1,6 +1,27 @@
-## VertiTab - Side Panel Vertical Tabs v2.0.0 Update
+## v2.1.0
 
-Dear Users,
+### Improvements
+
+- Automatically save window, group, and tab snapshots. After restarting the browser, if only one window is open and fewer than 5 new tabs are opened, a toast will prompt to restore the last saved window and tab information when the sidebar is opened.
+- Optimized the storage data for quick access to speed up access time.
+
+### Bug Fixes
+
+- Fixed other minor issues.
+
+----
+
+## v2.0.1
+
+### Bug Fixes
+
+- Fixed the message format for successful snapshot import.
+- Fixed the issue where duplicate imports caused repeated quick access entries.
+
+
+---
+
+## VertiTab - Side Panel Vertical Tabs v2.0.0 Update
 
 We are excited to announce that our extension has officially been renamed from "Colorful Side Panel Tabs" to **"VertiTab - Side Panel Vertical Tabs"**, and the version has been updated to 2.0.0. Here are the main updates in this release:
 

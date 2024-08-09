@@ -146,6 +146,7 @@
   "createSnapshot": "Izveidot momentuzņēmumu",
   "createSnapshotSuccess": "Momentuzņēmums veiksmīgi izveidots",
   "createSnapshotFailed": "Neizdevās izveidot momentuzņēmumu",
+  "reopenSnapshotMessage": "Jūs pēdējo reizi aizvērāt {{windowCount}} logus un {{tabCount}} cilnes. Noklikšķiniet šeit, lai dotos uz **momentuzņēmumu skatītāju** ātrai atkopšanai.",
   "showBy": "Rādīt pēc",
   "sortBy": "Kārtot pēc",
   "createTabPanel": "Izveidot cilnes paneli",

@@ -566,6 +566,7 @@
     "description": "SnapShot များကိုဖန်တီးပြီးစီမံပါ။",
     "createSnapshot": "SnapShot ဖန်တီးပါ",
     "exportSnapshot": "SnapShot တင်ပို့ပါ",
+    "restoreWindowSize":"ဝင်းဒိုးအနေအထားနှင့်အရွယ်အစားကိုပြန်လည်သတ်မှတ်ပါ",
     "openAllWindows": "ပေါင်းစုံဝင်းဒိုးများကိုဖွင့်ပါ",
     "openSelectedInNewWindow": "ရွေးချယ်ထားသည်ကိုအသစ်ဝင်းဒိုးတွင်ဖွင့်ပါ",
     "openSelectedInCurrentWindow": "ရွေးချယ်ထားသည်ကိုလက်ရှိဝင်းဒိုးတွင်ဖွင့်ပါ",

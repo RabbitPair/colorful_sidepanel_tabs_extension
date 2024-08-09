@@ -566,6 +566,7 @@
     "description": "স্ন্যাপশট তৈরি এবং পরিচালনা করুন।",
     "createSnapshot": "স্ন্যাপশট তৈরি করুন",
     "exportSnapshot": "স্ন্যাপশট রপ্তানি করুন",
+    "restoreWindowSize":"উইন্ডোর অবস্থান এবং আকার পুনরুদ্ধার করুন",
     "openAllWindows": "সমস্ত উইন্ডো খুলুন",
     "openSelectedInNewWindow": "নির্বাচিতটি নতুন উইন্ডোতে খুলুন",
     "openSelectedInCurrentWindow": "নির্বাচিতটি বর্তমান উইন্ডোতে খুলুন",

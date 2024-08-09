@@ -566,6 +566,7 @@
     "description": "שאַפֿן און פירן צוזאמענפאסונגען.",
     "createSnapshot": "שאַפֿן צוזאמענפאסונג",
     "exportSnapshot": "עקספּאָרטירן צוזאמענפאסונג",
+    "restoreWindowSize":"אומקערן פֿענצטער שטעלע און גרייס",
     "openAllWindows": "עפֿענען אַלע פֿענצטער",
     "openSelectedInNewWindow": "עפֿענען אויסגעקליבן אין נײַעם פֿענצטער",
     "openSelectedInCurrentWindow": "עפֿענען אויסגעקליבן אין איצטיקן פֿענצטער",

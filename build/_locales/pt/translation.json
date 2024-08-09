@@ -146,6 +146,7 @@
   "createSnapshot": "Criar Snapshot",
   "createSnapshotSuccess": "Snapshot Criado com Sucesso",
   "createSnapshotFailed": "Falha ao Criar Snapshot",
+  "reopenSnapshotMessage": "Você fechou {{windowCount}} janelas e {{tabCount}} abas recentemente. Clique aqui para ir ao **visualizador de snapshot** para recuperação rápida.",
   "showBy": "Mostrar Por",
   "sortBy": "Ordenar Por",
   "createTabPanel": "Criar Painel de Abas",

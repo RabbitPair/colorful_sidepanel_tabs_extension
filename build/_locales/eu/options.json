@@ -566,6 +566,7 @@
     "description": "Sortu eta kudeatu argazkiak.",
     "createSnapshot": "Sortu Argazkia",
     "exportSnapshot": "Esportatu Argazkia",
+    "restoreWindowSize":"Leihoaren posizioa eta tamaina berreskuratu",
     "openAllWindows": "Ireki Leiho Guztiak",
     "openSelectedInNewWindow": "Ireki Hautatutakoak Leiho Berrian",
     "openSelectedInCurrentWindow": "Ireki Hautatutakoak Uneko Leihoan",

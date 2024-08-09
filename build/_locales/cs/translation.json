@@ -146,6 +146,7 @@
   "createSnapshot": "Vytvořit snímek",
   "createSnapshotSuccess": "Snímek úspěšně vytvořen",
   "createSnapshotFailed": "Vytvoření snímku selhalo",
+  "reopenSnapshotMessage": "Naposledy jste zavřeli {{windowCount}} oken a {{tabCount}} karet. Klikněte zde pro přechod na **prohlížeč snímků** pro rychlé obnovení.",
   "showBy": "Zobrazit podle",
   "sortBy": "Seřadit podle",
   "createTabPanel": "Vytvořit panel karet",

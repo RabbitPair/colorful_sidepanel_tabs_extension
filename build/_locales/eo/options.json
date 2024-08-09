@@ -566,6 +566,7 @@
     "description": "Krei kaj administri momentfotojn.",
     "createSnapshot": "Krei Momentfoton",
     "exportSnapshot": "Eksporti Momentfoton",
+    "restoreWindowSize":"Restarigi fenestran pozicion kaj grandecon",
     "openAllWindows": "Malfermi Ĉiujn Fenestrojn",
     "openSelectedInNewWindow": "Malfermi Elektitajn en Nova Fenestro",
     "openSelectedInCurrentWindow": "Malfermi Elektitajn en Nuna Fenestro",

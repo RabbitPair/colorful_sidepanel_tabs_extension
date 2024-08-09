@@ -146,6 +146,7 @@
   "createSnapshot": "Opret øjebliksbillede",
   "createSnapshotSuccess": "Øjebliksbillede oprettet",
   "createSnapshotFailed": "Oprettelse af øjebliksbillede mislykkedes",
+  "reopenSnapshotMessage": "Du lukkede sidst {{windowCount}} vinduer og {{tabCount}} faner. Klik her for at gå til **snapshot viewer** for hurtig gendannelse.",
   "showBy": "Vis efter",
   "sortBy": "Sorter efter",
   "createTabPanel": "Opret fane panel",

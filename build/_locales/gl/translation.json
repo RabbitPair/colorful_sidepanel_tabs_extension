@@ -133,6 +133,7 @@
   "createSnapshot": "Crear Captura",
   "createSnapshotSuccess": "Captura Creada con Éxito",
   "createSnapshotFailed": "Erro ao Crear a Captura",
+  "reopenSnapshotMessage": "Pechaches por última vez {{windowCount}} xanelas e {{tabCount}} lapelas. Fai clic aquí para ir ao **visor de instantáneas** para unha recuperación rápida.",
   "showBy": "Mostrar Por",
   "sortBy": "Ordenar Por",
   "createTabPanel": "Crear Panel de Lapelas",

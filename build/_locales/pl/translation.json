@@ -146,6 +146,7 @@
   "createSnapshot": "Utwórz Migawkę",
   "createSnapshotSuccess": "Migawka Utworzona Pomyślnie",
   "createSnapshotFailed": "Nie Udało Się Utworzyć Migawki",
+  "reopenSnapshotMessage": "Ostatnio zamknąłeś {{windowCount}} okien i {{tabCount}} kart. Kliknij tutaj, aby przejść do **przeglądarki migawek** w celu szybkiego odzyskania.",
   "showBy": "Pokaż Według",
   "sortBy": "Sortuj Według",
   "createTabPanel": "Utwórz Panel Kart",

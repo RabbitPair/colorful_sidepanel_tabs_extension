@@ -566,6 +566,7 @@
     "description": "إنشاء وإدارة اللقطات.",
     "createSnapshot": "إنشاء لقطة",
     "exportSnapshot": "تصدير لقطة",
+    "restoreWindowSize":"استعادة موضع وحجم النافذة",
     "openAllWindows": "فتح جميع النوافذ",
     "openSelectedInNewWindow": "فتح المحدد في نافذة جديدة",
     "openSelectedInCurrentWindow": "فتح المحدد في النافذة الحالية",
