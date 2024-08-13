@@ -13,7 +13,7 @@
   "LightMode": "Modalità chiara",
   "ExpandAll": "Espandi tutto",
   "CollapseAll": "Comprimi tutto",
-  "Open SidePanel": "Apri pannello laterale",
+  "openSidePanel": "Apri pannello laterale",
   "SortBy": {
     "SortBy": "Ordina per",
     "Latest": "Più recente",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Ripristina schede",
     "DiscardTab": "Scarta scheda",
     "DiscardTabDesc": "Scarta la scheda per liberare memoria, le schede scartate rimangono visibili nella barra delle schede e vengono ripristinate quando selezionate.",
+    "KeepTabActive": "Mantieni scheda attiva",
+    "KeepTabActiveDesc": "Mantieni questa scheda attiva in modo che non venga automaticamente scartata",
     "ReplicateTab": "Replica scheda",
     "PinTab": "Fissa scheda",
     "UnpinTab": "Sblocca scheda",

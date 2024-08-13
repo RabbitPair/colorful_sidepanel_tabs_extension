@@ -13,7 +13,7 @@
   "LightMode": "ብርሃን ሁኔታ",
   "ExpandAll": "ሁሉንም አስፋ",
   "CollapseAll": "ሁሉንም አቅን",
-  "Open SidePanel": "ጎን ፓነልን ክፈት",
+  "openSidePanel": "ጎን ፓነልን ክፈት",
   "SortBy": {
     "SortBy": "በምን አደርግ",
     "Latest": "በቅርቡ",
@@ -48,6 +48,8 @@
     "RestoreTabs": "ትሮችን እንደገና አቀምጥ",
     "DiscardTab": "ትር አስወግድ",
     "DiscardTabDesc": "ትርን አስወግድ እና ማህደርን አስቀምጥ፣ የተወጉ ትሮች በትር አሞሌ ውስጥ ይቀራሉ እና ሲመለከቱ ይመለሳሉ።",
+    "KeepTabActive": "ትርን አንቀሳቅስ",
+    "KeepTabActiveDesc": "ይህን ትር እንዳይተወግድ እንዲቀጥል አንቀሳቅስ",
     "ReplicateTab": "ትር እንደገና አቀምጥ",
     "PinTab": "ትር አስራ",
     "UnpinTab": "ትር አልቅ",

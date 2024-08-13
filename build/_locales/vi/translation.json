@@ -13,7 +13,7 @@
   "LightMode": "Chế Độ Sáng",
   "ExpandAll": "Mở Rộng Tất Cả",
   "CollapseAll": "Thu Gọn Tất Cả",
-  "Open SidePanel": "Mở Bảng Điều Khiển Bên",
+  "openSidePanel": "Mở Bảng Điều Khiển Bên",
   "SortBy": {
     "SortBy": "Sắp Xếp Theo",
     "Latest": "Mới Nhất",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Khôi Phục Thẻ",
     "DiscardTab": "Bỏ Thẻ",
     "DiscardTabDesc": "Bỏ thẻ để giải phóng bộ nhớ, các thẻ bị bỏ vẫn hiển thị trên thanh thẻ và sẽ được khôi phục khi được chọn.",
+    "KeepTabActive": "Giữ Thẻ Hoạt Động",
+    "KeepTabActiveDesc": "Giữ thẻ này hoạt động để nó không bị tự động bỏ",
     "ReplicateTab": "Nhân Bản Thẻ",
     "PinTab": "Ghim Thẻ",
     "UnpinTab": "Bỏ Ghim Thẻ",

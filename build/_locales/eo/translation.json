@@ -13,7 +13,7 @@
   "LightMode": "Luma Modo",
   "ExpandAll": "Ekspluati ĉion",
   "CollapseAll": "Kunfaldi ĉion",
-  "Open SidePanel": "Malfermi Flankan Panelon",
+  "openSidePanel": "Malfermi Flankan Panelon",
   "SortBy": {
     "SortBy": "Ordigi Laŭ",
     "Latest": "Lastatempa",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restarigi Langetojn",
     "DiscardTab": "Forĵeti Langeton",
     "DiscardTabDesc": "Forĵetu langeton por liberigi memoron, forĵetitaj langetoj restas videblaj en la langeta breto kaj estas restarigitaj kiam elektitaj.",
+    "KeepTabActive": "Konservi Langeton Aktiva",
+    "KeepTabActiveDesc": "Konservu ĉi tiun langeton aktiva por ke ĝi ne estu aŭtomate forĵetita",
     "ReplicateTab": "Duobligi Langeton",
     "PinTab": "Pingi Langeton",
     "UnpinTab": "Malspingi Langeton",

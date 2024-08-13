@@ -13,7 +13,7 @@
   "LightMode": "Hali ya Mwanga",
   "ExpandAll": "Fungua Yote",
   "CollapseAll": "Funga Yote",
-  "Open SidePanel": "Fungua Kando ya Jopo",
+  "openSidePanel": "Fungua Kando ya Jopo",
   "SortBy": {
     "SortBy": "Panga Kwa",
     "Latest": "Mpya zaidi",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Rejesha Vichupo",
     "DiscardTab": "Tupa Kichupo",
     "DiscardTabDesc": "Tupa kichupo ili kuachilia kumbukumbu, vichupo vilivyotupwa vinaonekana kwenye upau wa kichupo na hurudishwa unapochagua.",
+    "KeepTabActive": "Weka Kichupo Kikiwa Hai",
+    "KeepTabActiveDesc": "Weka kichupo hiki kikiwa hai ili kisitupwe kiotomatiki",
     "ReplicateTab": "Nakili Kichupo",
     "PinTab": "Bana Kichupo",
     "UnpinTab": "Acha Kubana Kichupo",

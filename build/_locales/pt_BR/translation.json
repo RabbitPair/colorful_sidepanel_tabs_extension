@@ -13,7 +13,7 @@
   "LightMode": "Modo Claro",
   "ExpandAll": "Expandir Tudo",
   "CollapseAll": "Recolher Tudo",
-  "Open SidePanel": "Abrir Painel Lateral",
+  "openSidePanel": "Abrir Painel Lateral",
   "SortBy": {
     "SortBy": "Ordenar Por",
     "Latest": "Mais Recentes",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurar Abas",
     "DiscardTab": "Descartar Aba",
     "DiscardTabDesc": "Descartar aba para liberar memória, abas descartadas permanecem visíveis na barra de abas e são restauradas quando selecionadas.",
+    "KeepTabActive": "Manter Aba Ativa",
+    "KeepTabActiveDesc": "Mantenha esta aba ativa para que não seja descartada automaticamente",
     "ReplicateTab": "Replicar Aba",
     "PinTab": "Fixar Aba",
     "UnpinTab": "Desafixar Aba",

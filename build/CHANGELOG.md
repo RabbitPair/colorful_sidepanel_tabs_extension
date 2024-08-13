@@ -1,3 +1,9 @@
+## v2.2.0
+### Improvements
+
+- add a new tab menu **Keep Tab Active** : Keep the tab active so it won't be automatically discarded
+- Optimized performance and reduced bundle size
+
 ## v2.1.0
 
 ### Improvements

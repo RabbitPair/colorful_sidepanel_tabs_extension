@@ -13,7 +13,7 @@
   "LightMode": "Maliwanag na Mode",
   "ExpandAll": "Palawakin Lahat",
   "CollapseAll": "I-collapse Lahat",
-  "Open SidePanel": "Buksan ang Side Panel",
+  "openSidePanel": "Buksan ang Side Panel",
   "SortBy": {
     "SortBy": "Pag-uri-uriin Ayon sa",
     "Latest": "Pinakabago",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Ibalik ang Mga Tab",
     "DiscardTab": "Itapon ang Tab",
     "DiscardTabDesc": "Itapon ang tab upang magbakante ng memorya, ang mga itinapong tab ay mananatiling nakikita sa tab bar at ibabalik kapag napili.",
+    "KeepTabActive": "Panatilihing Aktibo ang Tab",
+    "KeepTabActiveDesc": "Panatilihing aktibo ang tab na ito upang hindi ito awtomatikong maitapon",
     "ReplicateTab": "Kopyahin ang Tab",
     "PinTab": "I-pin ang Tab",
     "UnpinTab": "I-unpin ang Tab",

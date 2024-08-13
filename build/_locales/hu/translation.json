@@ -13,7 +13,7 @@
   "LightMode": "Világos mód",
   "ExpandAll": "Összes kibontása",
   "CollapseAll": "Összes összecsukása",
-  "Open SidePanel": "Oldalsó panel megnyitása",
+  "openSidePanel": "Oldalsó panel megnyitása",
   "SortBy": {
     "SortBy": "Rendezés",
     "Latest": "Legújabb",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Lapok visszaállítása",
     "DiscardTab": "Lap elvetése",
     "DiscardTabDesc": "Lap elvetése a memória felszabadításához, az elvetett lapok láthatóak maradnak a lap sávban és kiválasztáskor visszaállnak.",
+    "KeepTabActive": "Lap aktív tartása",
+    "KeepTabActiveDesc": "Tartsa ezt a lapot aktívan, így nem kerül automatikusan elvetésre",
     "ReplicateTab": "Lap másolása",
     "PinTab": "Lap rögzítése",
     "UnpinTab": "Lap rögzítésének feloldása",

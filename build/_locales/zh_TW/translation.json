@@ -13,7 +13,7 @@
   "LightMode": "淺色模式",
   "ExpandAll": "全部展開",
   "CollapseAll": "全部摺疊",
-  "Open SidePanel": "打開側邊欄",
+  "openSidePanel": "打開側邊欄",
   "SortBy": {
     "SortBy": "排序依據",
     "Latest": "最新",
@@ -48,6 +48,8 @@
     "RestoreTabs": "恢復標籤頁",
     "DiscardTab": "丟棄標籤頁",
     "DiscardTabDesc": "丟棄標籤頁以釋放內存，丟棄的標籤頁仍然在標籤欄中可見，選擇時會恢復。",
+    "KeepTabActive": "保持標籤頁活躍",
+    "KeepTabActiveDesc": "保持此標籤頁活躍，這樣它就不會被自動丟棄",
     "ReplicateTab": "複製標籤頁",
     "PinTab": "固定標籤頁",
     "UnpinTab": "取消固定標籤頁",

@@ -13,7 +13,7 @@
   "LightMode": "Mod luminos",
   "ExpandAll": "Extinde tot",
   "CollapseAll": "Restrânge tot",
-  "Open SidePanel": "Deschide panoul lateral",
+  "openSidePanel": "Deschide panoul lateral",
   "SortBy": {
     "SortBy": "Sortează după",
     "Latest": "Cele mai recente",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurează filele",
     "DiscardTab": "Renunță la filă",
     "DiscardTabDesc": "Renunță la filă pentru a elibera memorie, filele renunțate rămân vizibile în bara de file și sunt restaurate când sunt selectate.",
+    "KeepTabActive": "Păstrează fila activă",
+    "KeepTabActiveDesc": "Păstrează această filă activă pentru a nu fi renunțată automat",
     "ReplicateTab": "Replică filă",
     "PinTab": "Fixează filă",
     "UnpinTab": "Anulează fixarea filei",

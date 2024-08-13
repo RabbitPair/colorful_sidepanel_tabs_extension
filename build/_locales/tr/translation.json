@@ -13,7 +13,7 @@
   "LightMode": "Aydınlık Mod",
   "ExpandAll": "Hepsini Genişlet",
   "CollapseAll": "Hepsini Daralt",
-  "Open SidePanel": "Yan Paneli Aç",
+  "openSidePanel": "Yan Paneli Aç",
   "SortBy": {
     "SortBy": "Sırala",
     "Latest": "En Son",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Sekmeleri Geri Yükle",
     "DiscardTab": "Sekmeyi At",
     "DiscardTabDesc": "Belleği boşaltmak için sekmeyi atın, atılan sekmeler sekme çubuğunda görünmeye devam eder ve seçildiğinde geri yüklenir.",
+    "KeepTabActive": "Sekmeyi Aktif Tut",
+    "KeepTabActiveDesc": "Bu sekmeyi aktif tutun, böylece otomatik olarak atılmaz",
     "ReplicateTab": "Sekmeyi Kopyala",
     "PinTab": "Sekmeyi Sabitle",
     "UnpinTab": "Sekmeyi Sabitlemeyi Kaldır",

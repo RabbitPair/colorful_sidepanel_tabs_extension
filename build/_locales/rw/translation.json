@@ -13,7 +13,7 @@
   "LightMode": "Uburyo bw'amanywa",
   "ExpandAll": "Gura byose",
   "CollapseAll": "Funga byose",
-  "Open SidePanel": "Fungura Akabari k'uruhande",
+  "openSidePanel": "Fungura Akabari k'uruhande",
   "SortBy": {
     "SortBy": "Gena",
     "Latest": "Bishya",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Garura Amakarita",
     "DiscardTab": "Jugunya Ikarita",
     "DiscardTabDesc": "Jugunya ikarita kugirango ubike umwanya, amakarita yajugunywe aracyagaragara mu kabari k'amakarita kandi agarurwa iyo ahiswemo.",
+    "KeepTabActive": "Gumana Ikarita Ikora",
+    "KeepTabActiveDesc": "Gumana iyi karita ikora kugirango itazajugunywa mu buryo bwikora",
     "ReplicateTab": "Gukora kopi y'ikarita",
     "PinTab": "Shyira Ikarita ku mwanya",
     "UnpinTab": "Kuraho Ikarita ku mwanya",

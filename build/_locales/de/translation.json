@@ -13,7 +13,7 @@
   "LightMode": "Hellmodus",
   "ExpandAll": "Alle erweitern",
   "CollapseAll": "Alle reduzieren",
-  "Open SidePanel": "Seitenleiste öffnen",
+  "openSidePanel": "Seitenleiste öffnen",
   "SortBy": {
     "SortBy": "Sortieren nach",
     "Latest": "Neueste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Tabs wiederherstellen",
     "DiscardTab": "Tab verwerfen",
     "DiscardTabDesc": "Tab verwerfen, um Speicher freizugeben. Verwarfene Tabs bleiben in der Tableiste sichtbar und werden beim Auswählen wiederhergestellt.",
+    "KeepTabActive": "Tab aktiv halten",
+    "KeepTabActiveDesc": "Diesen Tab aktiv halten, damit er nicht automatisch verworfen wird",
     "ReplicateTab": "Tab duplizieren",
     "PinTab": "Tab anheften",
     "UnpinTab": "Tab lösen",

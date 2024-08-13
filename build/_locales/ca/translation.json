@@ -13,7 +13,7 @@
   "LightMode": "Mode clar",
   "ExpandAll": "Expandeix-ho tot",
   "CollapseAll": "Col·lapsa-ho tot",
-  "Open SidePanel": "Obre el panell lateral",
+  "openSidePanel": "Obre el panell lateral",
   "SortBy": {
     "SortBy": "Ordena per",
     "Latest": "Més recent",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaura les pestanyes",
     "DiscardTab": "Descarta la pestanya",
     "DiscardTabDesc": "Descarta la pestanya per alliberar memòria, les pestanyes descartades romanen visibles a la barra de pestanyes i es restauraran quan es seleccionin.",
+    "KeepTabActive": "Mantén la pestanya activa",
+    "KeepTabActiveDesc": "Mantén aquesta pestanya activa perquè no es descarti automàticament",
     "ReplicateTab": "Replica la pestanya",
     "PinTab": "Ancora la pestanya",
     "UnpinTab": "Desancora la pestanya",

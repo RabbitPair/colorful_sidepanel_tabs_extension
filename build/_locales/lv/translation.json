@@ -13,7 +13,7 @@
   "LightMode": "Gaišais režīms",
   "ExpandAll": "Izvērst visu",
   "CollapseAll": "Sakļaut visu",
-  "Open SidePanel": "Atvērt sānu paneli",
+  "openSidePanel": "Atvērt sānu paneli",
   "SortBy": {
     "SortBy": "Kārtot pēc",
     "Latest": "Jaunākie",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Atjaunot cilnes",
     "DiscardTab": "Atmest cilni",
     "DiscardTabDesc": "Atmest cilni, lai atbrīvotu atmiņu, atmestās cilnes paliek redzamas cilnes joslā un tiek atjaunotas, kad tās tiek atlasītas.",
+    "KeepTabActive": "Saglabāt cilni aktīvu",
+    "KeepTabActiveDesc": "Saglabājiet šo cilni aktīvu, lai tā netiktu automātiski atmesta",
     "ReplicateTab": "Dublēt cilni",
     "PinTab": "Piespraust cilni",
     "UnpinTab": "Atspraust cilni",

@@ -13,7 +13,7 @@
   "LightMode": "Mënyra e Dritë",
   "ExpandAll": "Zmadho të Gjitha",
   "CollapseAll": "Zvogëlo të Gjitha",
-  "Open SidePanel": "Hap Panelin anash",
+  "openSidePanel": "Hap Panelin anash",
   "SortBy": {
     "SortBy": "Rendit Sipas",
     "Latest": "Më i Fundit",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Rikthe Faqet",
     "DiscardTab": "Hidh Faqen",
     "DiscardTabDesc": "Hidh faqen për të liruar memorien, faqet e hedhura mbeten të dukshme në shiritin e faqeve dhe rikthehen kur zgjidhen.",
+    "KeepTabActive": "Mbaj Faqen Aktive",
+    "KeepTabActiveDesc": "Mbaj këtë faqe aktive që të mos hidhet automatikisht",
     "ReplicateTab": "Përsëris Faqen",
     "PinTab": "Fik Faqen",
     "UnpinTab": "Zhbllo Faqen",

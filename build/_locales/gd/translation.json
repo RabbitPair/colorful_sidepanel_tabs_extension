@@ -13,7 +13,7 @@
   "LightMode": "Modh Solais",
   "ExpandAll": "Leudaich gach",
   "CollapseAll": "Coisich gach",
-  "Open SidePanel": "Fosgail Paighinn an Taobh",
+  "openSidePanel": "Fosgail Paighinn an Taobh",
   "SortBy": {
     "SortBy": "Sòrt le",
     "Latest": "Ùr",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Ath-shuidhich Taobhan",
     "DiscardTab": "Cuir às Taobh",
     "DiscardTabDesc": "Cuir às taobh gus saoradh a chur air mhuinntir, bidh taobhan air an cur às fhathast coltach sa bhàr taobh agus bidh iad air ath-shuidheachadh nuair a thaghas tu iad.",
+    "KeepTabActive": "Cùm Taobh Gnìomhach",
+    "KeepTabActiveDesc": "Cùm an taobh seo gnìomhach gus nach tèid a chur às gu fèin-obrachail",
     "ReplicateTab": "Ath-dhealbh Taobh",
     "PinTab": "Sguab Taobh",
     "UnpinTab": "Sguab Taobh às",

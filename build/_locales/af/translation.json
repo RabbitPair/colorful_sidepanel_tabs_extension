@@ -13,7 +13,7 @@
   "LightMode": "Ligte Modus",
   "ExpandAll": "Brei Alles Uit",
   "CollapseAll": "Vou Alles Saam",
-  "Open SidePanel": "Maak Sypaneel Oop",
+  "openSidePanel": "Maak Sypaneel Oop",
   "SortBy": {
     "SortBy": "Sorteer Op",
     "Latest": "Nuutste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Herstel Tabs",
     "DiscardTab": "Verwerp Tab",
     "DiscardTabDesc": "Verwerp tab om geheue vry te maak, verworpe tabs bly sigbaar in die tabbalk en word herstel wanneer gekies.",
+    "KeepTabActive": "Hou Tab Aktief",
+    "KeepTabActiveDesc": "Hou hierdie tab aktief sodat dit nie outomaties verwerp word nie",
     "ReplicateTab": "Dupliseer Tab",
     "PinTab": "Pen Tab",
     "UnpinTab": "Ontpen Tab",

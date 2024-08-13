@@ -13,7 +13,7 @@
   "LightMode": "Mod Klè",
   "ExpandAll": "Elaji Tout",
   "CollapseAll": "Redui Tout",
-  "Open SidePanel": "Ouvè Panyèl Bò Kote",
+  "openSidePanel": "Ouvè Panyèl Bò Kote",
   "SortBy": {
     "SortBy": "Triye Pa",
     "Latest": "Dènye",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Retabli Tab",
     "DiscardTab": "Jete Tab",
     "DiscardTabDesc": "Jete tab la pou libere memorize a, tab yo ki jete yo rete vizib nan tab la ak yo retabli lè yo chwazi yo.",
+    "KeepTabActive": "Kenbe Tab Aktif",
+    "KeepTabActiveDesc": "Kenbe tab sa a aktif pou li pa otomatikman jete",
     "ReplicateTab": "Replike Tab",
     "PinTab": "Fikse Tab",
     "UnpinTab": "Defikse Tab",

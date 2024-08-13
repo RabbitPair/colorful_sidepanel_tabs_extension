@@ -13,7 +13,7 @@
   "LightMode": "Mod Terang",
   "ExpandAll": "Kembangkan Semua",
   "CollapseAll": "Runtuhkan Semua",
-  "Open SidePanel": "Buka Panel Sisi",
+  "openSidePanel": "Buka Panel Sisi",
   "SortBy": {
     "SortBy": "Susun Mengikut",
     "Latest": "Terbaru",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Pulihkan Tab",
     "DiscardTab": "Buang Tab",
     "DiscardTabDesc": "Buang tab untuk membebaskan memori, tab yang dibuang kekal kelihatan dalam bar tab dan dipulihkan apabila dipilih.",
+    "KeepTabActive": "Kekalkan Tab Aktif",
+    "KeepTabActiveDesc": "Kekalkan tab ini aktif supaya ia tidak akan dibuang secara automatik",
     "ReplicateTab": "Gandakan Tab",
     "PinTab": "Pin Tab",
     "UnpinTab": "Nyahpin Tab",

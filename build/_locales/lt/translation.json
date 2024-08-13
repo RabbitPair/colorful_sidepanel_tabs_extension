@@ -13,7 +13,7 @@
   "LightMode": "Šviesus režimas",
   "ExpandAll": "Išplėsti viską",
   "CollapseAll": "Sutraukti viską",
-  "Open SidePanel": "Atidaryti šoninę panelę",
+  "openSidePanel": "Atidaryti šoninę panelę",
   "SortBy": {
     "SortBy": "Rūšiuoti pagal",
     "Latest": "Naujausi",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Atkurti skirtukus",
     "DiscardTab": "Atmesti skirtuką",
     "DiscardTabDesc": "Atmesti skirtuką, kad atlaisvintumėte atmintį, atmesti skirtukai lieka matomi skirtukų juostoje ir atkuriami, kai pasirenkami.",
+    "KeepTabActive": "Laikyti skirtuką aktyvų",
+    "KeepTabActiveDesc": "Laikykite šį skirtuką aktyvų, kad jis nebūtų automatiškai atmestas",
     "ReplicateTab": "Kopijuoti skirtuką",
     "PinTab": "Prisegti skirtuką",
     "UnpinTab": "Atsegti skirtuką",

@@ -13,7 +13,7 @@
   "LightMode": "Modo claro",
   "ExpandAll": "Espandir totz",
   "CollapseAll": "Colapsar totz",
-  "Open SidePanel": "Abrir panel lateral",
+  "openSidePanel": "Abrir panel lateral",
   "SortBy": {
     "SortBy": "Ordenar por",
     "Latest": "Lo más nuevo",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurar pestanyas",
     "DiscardTab": "Descartar pestanya",
     "DiscardTabDesc": "Descartar pestanya ta librar memoria, as pestanyas descartadas siguen visibles en a barra de pestanyas y se restauran cuando se seleccionan.",
+    "KeepTabActive": "Mantener pestanya activa",
+    "KeepTabActiveDesc": "Mantener esta pestanya activa para que no se descarte automáticamente",
     "ReplicateTab": "Replicar pestanya",
     "PinTab": "Anclar pestanya",
     "UnpinTab": "Desanclar pestanya",

@@ -13,7 +13,7 @@
   "LightMode": "ライトモード",
   "ExpandAll": "すべて展開",
   "CollapseAll": "すべて折りたたむ",
-  "Open SidePanel": "サイドパネルを開く",
+  "openSidePanel": "サイドパネルを開く",
   "SortBy": {
     "SortBy": "並び替え",
     "Latest": "最新",
@@ -48,6 +48,8 @@
     "RestoreTabs": "タブを復元",
     "DiscardTab": "タブを破棄",
     "DiscardTabDesc": "メモリを解放するためにタブを破棄します。破棄されたタブはタブバーに表示されたままで、選択すると復元されます。",
+    "KeepTabActive": "タブをアクティブに保つ",
+    "KeepTabActiveDesc": "このタブをアクティブに保ち、自動的に破棄されないようにします",
     "ReplicateTab": "タブを複製",
     "PinTab": "タブをピン留め",
     "UnpinTab": "タブのピン留めを解除",

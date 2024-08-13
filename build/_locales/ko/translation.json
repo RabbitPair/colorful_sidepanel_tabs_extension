@@ -13,7 +13,7 @@
   "LightMode": "라이트 모드",
   "ExpandAll": "모두 확장",
   "CollapseAll": "모두 축소",
-  "Open SidePanel": "사이드 패널 열기",
+  "openSidePanel": "사이드 패널 열기",
   "SortBy": {
     "SortBy": "정렬 기준",
     "Latest": "최신",
@@ -48,6 +48,8 @@
     "RestoreTabs": "탭 복원",
     "DiscardTab": "탭 버리기",
     "DiscardTabDesc": "탭을 버려 메모리를 확보합니다. 버려진 탭은 탭 바에 표시되며 선택하면 복원됩니다.",
+    "KeepTabActive": "탭 활성 유지",
+    "KeepTabActiveDesc": "이 탭을 활성 상태로 유지하여 자동으로 버려지지 않도록 합니다",
     "ReplicateTab": "탭 복제",
     "PinTab": "탭 고정",
     "UnpinTab": "탭 고정 해제",

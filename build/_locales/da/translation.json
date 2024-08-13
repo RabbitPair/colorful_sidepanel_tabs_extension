@@ -13,7 +13,7 @@
   "LightMode": "Lys tilstand",
   "ExpandAll": "Udvid alle",
   "CollapseAll": "Skjul alle",
-  "Open SidePanel": "Åbn sidepanel",
+  "openSidePanel": "Åbn sidepanel",
   "SortBy": {
     "SortBy": "Sorter efter",
     "Latest": "Seneste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Gendan faner",
     "DiscardTab": "Kassér fane",
     "DiscardTabDesc": "Kassér fane for at frigøre hukommelse, kasserede faner forbliver synlige i fanebjælken og gendannes, når de vælges.",
+    "KeepTabActive": "Hold fane aktiv",
+    "KeepTabActiveDesc": "Hold denne fane aktiv, så den ikke automatisk kasseres",
     "ReplicateTab": "Replikér fane",
     "PinTab": "Fastgør fane",
     "UnpinTab": "Frigør fane",

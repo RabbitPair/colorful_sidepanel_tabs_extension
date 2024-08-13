@@ -13,7 +13,7 @@
   "LightMode": "Light Mode",
   "ExpandAll": "Expand All",
   "CollapseAll": "Collapse All",
-  "Open SidePanel": "Open Side Panel",
+  "openSidePanel": "Open Side Panel",
   "SortBy": {
     "SortBy": "Sort By",
     "Latest": "Latest",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restore Tabs",
     "DiscardTab": "Discard Tab",
     "DiscardTabDesc": "Discard tab to free up memory, discarded tabs remain visible in the tab bar and are restored when selected.",
+    "KeepTabActive": "Keep Tab Active",
+    "KeepTabActiveDesc": "Keep this tab active so it won't be automatically discarded",
     "ReplicateTab": "Replicate Tab",
     "PinTab": "Pin Tab",
     "UnpinTab": "Unpin Tab",

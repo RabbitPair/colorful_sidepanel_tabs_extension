@@ -13,7 +13,7 @@
   "LightMode": "Modo Claro",
   "ExpandAll": "Expandir Todo",
   "CollapseAll": "Colapsar Todo",
-  "Open SidePanel": "Abrir Panel Lateral",
+  "openSidePanel": "Abrir Panel Lateral",
   "SortBy": {
     "SortBy": "Ordenar Por",
     "Latest": "Más Reciente",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurar Pestañas",
     "DiscardTab": "Descartar Pestaña",
     "DiscardTabDesc": "Descartar pestaña para liberar memoria, las pestañas descartadas permanecen visibles en la barra de pestañas y se restauran cuando se seleccionan.",
+    "KeepTabActive": "Mantener Pestaña Activa",
+    "KeepTabActiveDesc": "Mantenga esta pestaña activa para que no se descarte automáticamente",
     "ReplicateTab": "Replicar Pestaña",
     "PinTab": "Fijar Pestaña",
     "UnpinTab": "Desfijar Pestaña",

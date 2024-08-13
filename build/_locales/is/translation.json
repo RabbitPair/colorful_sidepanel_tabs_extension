@@ -13,7 +13,7 @@
   "LightMode": "Ljóst útlit",
   "ExpandAll": "Opna öll",
   "CollapseAll": "Loka öllum",
-  "Open SidePanel": "Opna hliðarborð",
+  "openSidePanel": "Opna hliðarborð",
   "SortBy": {
     "SortBy": "Raða eftir",
     "Latest": "Nýjasta",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Endurheimta flipa",
     "DiscardTab": "Henda flipa",
     "DiscardTabDesc": "Henda flipa til að losa minni, hentir flipar eru enn sýnilegir í flipastikunni og endurheimtir þegar valdir.",
+    "KeepTabActive": "Halda flipa virkum",
+    "KeepTabActiveDesc": "Halda þessum flipa virkum svo hann verði ekki sjálfkrafa hent",
     "ReplicateTab": "Afrita flipa",
     "PinTab": "Festa flipa",
     "UnpinTab": "Losa flipa",

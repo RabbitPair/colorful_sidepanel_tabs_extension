@@ -13,7 +13,7 @@
   "LightMode": "浅色模式",
   "ExpandAll": "全部展开",
   "CollapseAll": "全部折叠",
-  "Open SidePanel": "打开侧边栏",
+  "openSidePanel": "打开侧边栏",
   "SortBy": {
     "SortBy": "排序依据",
     "Latest": "最新",
@@ -48,6 +48,8 @@
     "RestoreTabs": "恢复标签页",
     "DiscardTab": "丢弃标签页",
     "DiscardTabDesc": "丢弃标签页以释放内存，丢弃的标签页仍然在标签栏中可见，选择时会恢复。",
+    "KeepTabActive": "保持标签页活跃",
+    "KeepTabActiveDesc": "保持此标签页活跃，这样它就不会被自动丢弃",
     "ReplicateTab": "复制标签页",
     "PinTab": "固定标签页",
     "UnpinTab": "取消固定标签页",

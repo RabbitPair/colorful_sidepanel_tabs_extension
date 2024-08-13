@@ -13,7 +13,7 @@
   "LightMode": "Mode clair",
   "ExpandAll": "Tout développer",
   "CollapseAll": "Tout réduire",
-  "Open SidePanel": "Ouvrir le panneau latéral",
+  "openSidePanel": "Ouvrir le panneau latéral",
   "SortBy": {
     "SortBy": "Trier par",
     "Latest": "Le plus récent",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurer les onglets",
     "DiscardTab": "Abandonner l'onglet",
     "DiscardTabDesc": "Abandonner l'onglet pour libérer de la mémoire, les onglets abandonnés restent visibles dans la barre d'onglets et sont restaurés lorsqu'ils sont sélectionnés.",
+    "KeepTabActive": "Garder l'onglet actif",
+    "KeepTabActiveDesc": "Garder cet onglet actif pour qu'il ne soit pas automatiquement abandonné",
     "ReplicateTab": "Répliquer l'onglet",
     "PinTab": "Épingler l'onglet",
     "UnpinTab": "Désépingler l'onglet",

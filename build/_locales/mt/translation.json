@@ -13,7 +13,7 @@
   "LightMode": "Modalità Iż-Żgħira",
   "ExpandAll": "Espandi Kollha",
   "CollapseAll": "Kollassa Kollha",
-  "Open SidePanel": "Iftaħ il-Pannel tas-Sewwi",
+  "openSidePanel": "Iftaħ il-Pannel tas-Sewwi",
   "SortBy": {
     "SortBy": "Sort By",
     "Latest": "Latest",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Irrestawra Tabs",
     "DiscardTab": "Neħħi Tab",
     "DiscardTabDesc": "Neħħi tab biex tisfrutta l-memorja, it-tabs imneħħija jibqgħu viżibbli fil-barra tal-tabs u jiġu irrestawrati meta jintgħażlu.",
+    "KeepTabActive": "Żomm Tab Attiv",
+    "KeepTabActiveDesc": "Żomm dan it-tab attiv sabiex ma jiġix awtomatikament imneħħi",
     "ReplicateTab": "Replica Tab",
     "PinTab": "Pin Tab",
     "UnpinTab": "Neħħi Pin Tab",

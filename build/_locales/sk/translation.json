@@ -13,7 +13,7 @@
   "LightMode": "Svetlý režim",
   "ExpandAll": "Rozbaliť všetko",
   "CollapseAll": "Zbaliť všetko",
-  "Open SidePanel": "Otvoriť bočný panel",
+  "openSidePanel": "Otvoriť bočný panel",
   "SortBy": {
     "SortBy": "Zoradiť podľa",
     "Latest": "Najnovšie",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Obnoviť karty",
     "DiscardTab": "Zahodiť kartu",
     "DiscardTabDesc": "Zahodiť kartu na uvoľnenie pamäte, zahodené karty zostanú viditeľné na paneli kariet a obnovia sa po výbere.",
+    "KeepTabActive": "Udržať kartu aktívnu",
+    "KeepTabActiveDesc": "Udržať túto kartu aktívnu, aby nebola automaticky zahodená",
     "ReplicateTab": "Replikovať kartu",
     "PinTab": "Pripnúť kartu",
     "UnpinTab": "Odopnúť kartu",

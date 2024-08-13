@@ -13,7 +13,7 @@
   "LightMode": "Vaalea tila",
   "ExpandAll": "Laajenna kaikki",
   "CollapseAll": "Tiivistä kaikki",
-  "Open SidePanel": "Avaa sivupaneeli",
+  "openSidePanel": "Avaa sivupaneeli",
   "SortBy": {
     "SortBy": "Lajittele",
     "Latest": "Uusin",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Palauta välilehdet",
     "DiscardTab": "Hylkää välilehti",
     "DiscardTabDesc": "Hylkää välilehti vapauttaaksesi muistia, hylätyt välilehdet pysyvät näkyvissä välilehtipalkissa ja palautetaan, kun ne valitaan.",
+    "KeepTabActive": "Pidä välilehti aktiivisena",
+    "KeepTabActiveDesc": "Pidä tämä välilehti aktiivisena, jotta sitä ei hylätä automaattisesti",
     "ReplicateTab": "Kopioi välilehti",
     "PinTab": "Kiinnitä välilehti",
     "UnpinTab": "Poista välilehden kiinnitys",

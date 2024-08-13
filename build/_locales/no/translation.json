@@ -13,7 +13,7 @@
   "LightMode": "Lys Modus",
   "ExpandAll": "Utvid Alle",
   "CollapseAll": "Skjul Alle",
-  "Open SidePanel": "Åpne Sidepanel",
+  "openSidePanel": "Åpne Sidepanel",
   "SortBy": {
     "SortBy": "Sorter Etter",
     "Latest": "Siste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Gjenopprett Faner",
     "DiscardTab": "Forkast Fane",
     "DiscardTabDesc": "Forkast fane for å frigjøre minne, forkastede faner forblir synlige i fanefeltet og gjenopprettes når de velges.",
+    "KeepTabActive": "Hold Fane Aktiv",
+    "KeepTabActiveDesc": "Hold denne fanen aktiv slik at den ikke blir automatisk forkastet",
     "ReplicateTab": "Repliker Fane",
     "PinTab": "Fest Fane",
     "UnpinTab": "Løsne Fane",

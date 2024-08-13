@@ -13,7 +13,7 @@
   "LightMode": "Modd Golau",
   "ExpandAll": "Ehangu'r holl",
   "CollapseAll": "Cwympo'r holl",
-  "Open SidePanel": "Agor Panel Ochr",
+  "openSidePanel": "Agor Panel Ochr",
   "SortBy": {
     "SortBy": "Trefnu yn ôl",
     "Latest": "Diweddaraf",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Adfer Tabiau",
     "DiscardTab": "Tynnu Tab",
     "DiscardTabDesc": "Tynnu tab i ryddhau cof, mae tabiau a ddisgynir yn aros yn weladwy yn y bar tab ac yn cael eu hadfer pan eu dewisir.",
+    "KeepTabActive": "Cadw Tab yn Weithgar",
+    "KeepTabActiveDesc": "Cadwch y tab hwn yn weithgar fel na chaiff ei daflu'n awtomatig",
     "ReplicateTab": "Dyblygu Tab",
     "PinTab": "Pinio Tab",
     "UnpinTab": "Dad-pinio Tab",

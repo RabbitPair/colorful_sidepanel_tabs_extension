@@ -13,7 +13,7 @@
   "LightMode": "Modus Lucidus",
   "ExpandAll": "Expande Omnia",
   "CollapseAll": "Collapsa Omnia",
-  "Open SidePanel": "Aperi Laterale Tabulam",
+  "openSidePanel": "Aperi Laterale Tabulam",
   "SortBy": {
     "SortBy": "Ordina Per",
     "Latest": "Recentissima",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restitue Tabulas",
     "DiscardTab": "Repudia Tabulam",
     "DiscardTabDesc": "Repudia tabulam ad liberandam memoriam, repudiatae tabulae manent visibiles in barra tabulae et restauratur cum selectae sunt.",
+    "KeepTabActive": "Tabulam Activam Tene",
+    "KeepTabActiveDesc": "Tabulam hanc activam tene ut automatice non repudiatur",
     "ReplicateTab": "Replica Tabulam",
     "PinTab": "Pin Tabulam",
     "UnpinTab": "Exime Pin Tabulam",

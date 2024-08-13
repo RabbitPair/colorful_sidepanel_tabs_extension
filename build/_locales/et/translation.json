@@ -13,7 +13,7 @@
   "LightMode": "Hele režiim",
   "ExpandAll": "Laienda kõik",
   "CollapseAll": "Ahenda kõik",
-  "Open SidePanel": "Ava külgpaneel",
+  "openSidePanel": "Ava külgpaneel",
   "SortBy": {
     "SortBy": "Sorteeri",
     "Latest": "Viimased",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Taasta vahekaardid",
     "DiscardTab": "Loobu vahekaardist",
     "DiscardTabDesc": "Loobu vahekaardist, et vabastada mälu, loobutud vahekaardid jäävad vahekaardiribale nähtavaks ja taastatakse valimisel.",
+    "KeepTabActive": "Hoia vahekaart aktiivsena",
+    "KeepTabActiveDesc": "Hoia see vahekaart aktiivsena, et seda automaatselt ei loobutaks",
     "ReplicateTab": "Kopeeri vahekaart",
     "PinTab": "Kinnita vahekaart",
     "UnpinTab": "Eemalda vahekaardi kinnitus",

@@ -13,7 +13,7 @@
   "LightMode": "Svetli način",
   "ExpandAll": "Razširi vse",
   "CollapseAll": "Strni vse",
-  "Open SidePanel": "Odpri stransko ploščo",
+  "openSidePanel": "Odpri stransko ploščo",
   "SortBy": {
     "SortBy": "Razvrsti po",
     "Latest": "Najnovejše",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Obnovi zavihke",
     "DiscardTab": "Zavrzi zavihek",
     "DiscardTabDesc": "Zavrzi zavihek za sprostitev pomnilnika, zavrženi zavihki ostanejo vidni na vrstici zavihkov in se ob izbiri obnovijo.",
+    "KeepTabActive": "Ohrani zavihek aktiven",
+    "KeepTabActiveDesc": "Ohrani ta zavihek aktiven, da ne bo samodejno zavržen",
     "ReplicateTab": "Podvoji zavihek",
     "PinTab": "Pripni zavihek",
     "UnpinTab": "Odpni zavihek",

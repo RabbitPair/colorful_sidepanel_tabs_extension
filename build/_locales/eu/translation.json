@@ -13,7 +13,7 @@
   "LightMode": "Modu Argia",
   "ExpandAll": "Zabaldu dena",
   "CollapseAll": "Kontrajauzi dena",
-  "Open SidePanel": "Ireki Alboko Panela",
+  "openSidePanel": "Ireki Alboko Panela",
   "SortBy": {
     "SortBy": "Ordenatu",
     "Latest": "Azkenak",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Leheneratu Fitxak",
     "DiscardTab": "Ezabatu Fitxa",
     "DiscardTabDesc": "Ezabatu fitxa memoria askatu ahal izateko, ezabatutako fitxak ikusgai egongo dira fitxen barnean eta hautatzerakoan leheneratuko dira.",
+    "KeepTabActive": "Mantendu Fitxa Aktibo",
+    "KeepTabActiveDesc": "Mantendu fitxa hau aktibo automatikoki ezabatu ez dadin",
     "ReplicateTab": "Errepikatu Fitxa",
     "PinTab": "Zintzilikatu Fitxa",
     "UnpinTab": "Deszintzilikatu Fitxa",

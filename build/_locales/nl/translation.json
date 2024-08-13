@@ -13,7 +13,7 @@
   "LightMode": "Lichte Modus",
   "ExpandAll": "Alles Uitvouwen",
   "CollapseAll": "Alles Samenvouwen",
-  "Open SidePanel": "Zijpaneel Openen",
+  "openSidePanel": "Zijpaneel Openen",
   "SortBy": {
     "SortBy": "Sorteren Op",
     "Latest": "Nieuwste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Tabbladen Herstellen",
     "DiscardTab": "Tabblad Verwijderen",
     "DiscardTabDesc": "Tabblad verwijderen om geheugen vrij te maken, verwijderde tabbladen blijven zichtbaar in de tabbladenbalk en worden hersteld wanneer geselecteerd.",
+    "KeepTabActive": "Tabblad Actief Houden",
+    "KeepTabActiveDesc": "Houd dit tabblad actief zodat het niet automatisch wordt verwijderd",
     "ReplicateTab": "Tabblad Repliceren",
     "PinTab": "Tabblad Vastzetten",
     "UnpinTab": "Tabblad Losmaken",

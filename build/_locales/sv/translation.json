@@ -13,7 +13,7 @@
   "LightMode": "Ljust läge",
   "ExpandAll": "Expandera alla",
   "CollapseAll": "Kollapsa alla",
-  "Open SidePanel": "Öppna sidopanel",
+  "openSidePanel": "Öppna sidopanel",
   "SortBy": {
     "SortBy": "Sortera efter",
     "Latest": "Senaste",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Återställ flikar",
     "DiscardTab": "Kassera flik",
     "DiscardTabDesc": "Kassera flik för att frigöra minne, kasserade flikar förblir synliga i flikfältet och återställs när de väljs.",
+    "KeepTabActive": "Håll fliken aktiv",
+    "KeepTabActiveDesc": "Håll denna flik aktiv så att den inte automatiskt kasseras",
     "ReplicateTab": "Replikera flik",
     "PinTab": "Fäst flik",
     "UnpinTab": "Lossa flik",

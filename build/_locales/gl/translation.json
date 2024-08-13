@@ -13,7 +13,7 @@
   "LightMode": "Modo claro",
   "ExpandAll": "Expandir todo",
   "CollapseAll": "Colapsar todo",
-  "Open SidePanel": "Abrir panel lateral",
+  "openSidePanel": "Abrir panel lateral",
   "SortBy": {
     "SortBy": "Ordenar por",
     "Latest": "Máis recente",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Restaurar lapelas",
     "DiscardTab": "Descartar lapela",
     "DiscardTabDesc": "Descartar lapela para liberar memoria, as lapelas descartadas permanecen visibles na barra de lapelas e restauraranse cando se seleccionen.",
+    "KeepTabActive": "Manter lapela activa",
+    "KeepTabActiveDesc": "Manter esta lapela activa para que non sexa descartada automaticamente",
     "ReplicateTab": "Replicar lapela",
     "PinTab": "Fixar lapela",
     "UnpinTab": "Desafixar lapela",

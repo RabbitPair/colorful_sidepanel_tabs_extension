@@ -13,7 +13,7 @@
   "LightMode": "Svetli režim",
   "ExpandAll": "Proširi sve",
   "CollapseAll": "Skupi sve",
-  "Open SidePanel": "Otvorite bočnu traku",
+  "openSidePanel": "Otvorite bočnu traku",
   "SortBy": {
     "SortBy": "Sortiraj po",
     "Latest": "Najnovije",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Vrati kartice",
     "DiscardTab": "Odbaci karticu",
     "DiscardTabDesc": "Odbaci karticu da oslobodiš memoriju, odbačene kartice ostaju vidljive u traci kartica i vraćaju se kada se izaberu.",
+    "KeepTabActive": "Održi karticu aktivnom",
+    "KeepTabActiveDesc": "Održi ovu karticu aktivnom kako ne bi bila automatski odbačena",
     "ReplicateTab": "Kopiraj karticu",
     "PinTab": "Zakači karticu",
     "UnpinTab": "Otkači karticu",

@@ -13,7 +13,7 @@
   "LightMode": "Modh Soiléir",
   "ExpandAll": "Leathnaigh Gach",
   "CollapseAll": "Cuir ina gceann",
-  "Open SidePanel": "Oscail Painéal Taobh",
+  "openSidePanel": "Oscail Painéal Taobh",
   "SortBy": {
     "SortBy": "Sórtáil De réir",
     "Latest": "Is déanaí",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Athraigh Cluaisíní",
     "DiscardTab": "Cealaigh Cluaisín",
     "DiscardTabDesc": "Cealaigh an cluaisín chun saoráid a fháil, fanfaidh na cluaisíní cealaithe ar taispeáint sa bharr cluaisín agus athréitear iad nuair a roghnaítear iad.",
+    "KeepTabActive": "Coinnigh an Cluaisín Gníomhach",
+    "KeepTabActiveDesc": "Coinnigh an cluaisín seo gníomhach ionas nach ndéanfar é a chur ar ceal go huathoibríoch",
     "ReplicateTab": "Athdhéan Cluaisín",
     "PinTab": "Ceangail Cluaisín",
     "UnpinTab": "Scaradh Cluaisín",

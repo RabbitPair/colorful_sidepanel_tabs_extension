@@ -13,7 +13,7 @@
   "LightMode": "Tryb Jasny",
   "ExpandAll": "Rozwiń Wszystko",
   "CollapseAll": "Zwiń Wszystko",
-  "Open SidePanel": "Otwórz Panel Boczny",
+  "openSidePanel": "Otwórz Panel Boczny",
   "SortBy": {
     "SortBy": "Sortuj według",
     "Latest": "Najnowsze",
@@ -48,6 +48,8 @@
     "RestoreTabs": "Przywróć Karty",
     "DiscardTab": "Odrzuć Kartę",
     "DiscardTabDesc": "Odrzuć kartę, aby zwolnić pamięć, odrzucone karty pozostają widoczne na pasku kart i są przywracane po wybraniu.",
+    "KeepTabActive": "Utrzymuj Kartę Aktywną",
+    "KeepTabActiveDesc": "Utrzymuj tę kartę aktywną, aby nie została automatycznie odrzucona",
     "ReplicateTab": "Powiel Kartę",
     "PinTab": "Przypnij Kartę",
     "UnpinTab": "Odepnij Kartę",
