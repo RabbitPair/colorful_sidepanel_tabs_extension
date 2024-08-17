@@ -276,7 +276,7 @@
       "limitSearchResults": {
         "label": "Meud taobhan eachdraidh anns na toraidhean lorg taobh",
         "description": "Suidhich meud taobhan eachdraidh anns na toraidhean lorg taobh. Bidh taobhan eachdraidh a' fàgail an lìonadh a tha nas motha air an sgeadachadh",
-         "alert": "Cus chlàran a' toirt buaidh air astar luchdachadh na duilleige"
+        "alert": "Cus chlàran a' toirt buaidh air astar luchdachadh na duilleige"
       },
       "saveRecentlyTabsLimit": {
         "label": "Àireamh taobhan a chaidh dùnadh fad 's a dh'fhalbh a sàbhail",
@@ -285,7 +285,7 @@
       "keepDays": {
         "label": "Àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh",
         "description": "Suidhich àireamh làithean a chumail taobhan a chaidh dùnadh fad 's a dh'fhalbh. Bidh dàta dhùthichte a' faotainn sgrios",
-         "days": "Làithean"
+        "days": "Làithean"
       },
       "openDuration": {
         "label": "Am fosgailte",
@@ -559,6 +559,38 @@
         "downloadOnly": "Íoslódáil amháin",
         "staySynchronized": "Fan sínte"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Tha sinn air a lorg gu bheil an rùn sgrion làithreach agad a’ toirt buaidh air an eòlas agad leis a’ phannal-taobh. Air sgàth chuingealachaidhean brabhsair, is e 360 piogsail an leud as ìsle den phannal-taobh. Aig an rùn làithreach agad, dh’fhaodadh am pannal-taobh {{percent}}% den sgrion agad a ghabhail.\n\nGus an t-eòlas agad a leasachadh, smaoinich air an rùn sgrion agad atharrachadh. Seo stiùiridhean gus do chuideachadh:\n\n- Do luchd-cleachdaidh Windows: [Atharraich an rùn sgrion agad ann an Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Do luchd-cleachdaidh Mac: [Atharraich rùn taisbeanaidh do Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAtharraich a-mhàin ma tha e riatanach airson do chomhfhurtachd agus cleachdadh.",
+        "scaleWarningMessage": "Tha an sgèile taisbeanaidh làithreach agad air a shuidheachadh aig {{scale}}%. Bidh sgèile nas àirde a’ dèanamh eileamaidean eadar-aghaidh nas motha ach a’ lughdachadh an àite a tha ri fhaighinn. Bidh lùghdachadh na sgèile a’ sealltainn barrachd susbaint ach a’ lughdachadh meud nan eileamaidean. Tagh suidheachadh a tha freagarrach airson do chomhfhurtachd leughaidh agus feumalachdan sruth-obrach."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Pannal-taobh na Duilleige",
+      "description": "Leigidh am feart pannal-taobh na duilleige leat pannal-taobh a chur ri duilleagan-lìn gun a bhith a’ fosgladh pannal-taobh togte a’ bhrabhsair. Tha seo gu sònraichte feumail dha luchd-cleachdaidh le sgrionaichean nas lugha a tha a’ faighinn pannal-taobh a’ bhrabhsair ro leathan no do-chruthaichte. Ged a tha am pannal-taobh na duilleige a’ tabhann comas-gnìomh cuibhrichte air sgàth chuingealachaidhean sònraichte, tha e a’ toirt seachad roghainn nas teann. Nuair a tha e air a chomasachadh, faodaidh tu faighinn chun phannal-taobh le bhith a’ gluasad do luchag thairis air oir na h-uinneige.",
+      "usageRestrictions": "Cuingealachaidhean Cleachdaidh",
+      "sidebarEnabled": {
+        "label": "Cuir an comas Pannal-taobh",
+        "description": "Atharraich gus pannal-taobh na duilleige a ghnìomhachadh no a chur dheth"
+      },
+      "sidebarPosition": {
+        "label": "Suidheachadh Pannal-taobh",
+        "description": "Tagh far a bheil am pannal-taobh a’ nochdadh air an duilleag",
+        "left": "Clì",
+        "right": "Deas"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Teorainnean Sgriobt Susbaint",
+        "warningMessage": "Tha sgriobtaichean susbaint nan prògraman beaga a leasaicheas duilleagan-lìn le feartan a bharrachd. Ach, air sgàth chuingealachaidhean tèarainteachd agus prìobhaideachd, chan urrainn na sgriobtaichean sin ruith air seòrsaichean sònraichte de dhuilleagan. Mar thoradh air an sin, is dòcha nach nochd am pannal-taobh air na leanas:",
+        "webStore": "Bùthan leudachadh brabhsair (m.e., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Duilleagan a-staigh brabhsair (a’ tòiseachadh le chrome://, edge://, no about://)",
+        "fileUrls": "Faidhlichean ionadail air do choimpiutair (a’ tòiseachadh le file://)",
+        "extensionsPages": "Duilleagan bho leudachain brabhsair eile (a’ tòiseachadh le chrome-extension:// no extension:// no coltach)",
+        "protectedPages": "Làraichean-lìn le Poileasaidhean Tèarainteachd Susbaint teann",
+        "pdfViewer": "Duilleagan sealladair PDF togte",
+        "newTabPage": "Duilleagan Tab Ùr (a’ tòiseachadh le chrome://newtab/ no edge://newtab/ no coltach)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Cruthaich agus stiùirich snapshots.",
     "createSnapshot": "Cruthaich Snapshot",
     "exportSnapshot": "Às-mhalairt Snapshot",
-    "restoreWindowSize":"Ath-shuidhich suidheachadh agus meud na h-uinneige",
+    "restoreWindowSize": "Ath-shuidhich suidheachadh agus meud na h-uinneige",
     "openAllWindows": "Fosgail Uinneagan Uile",
     "openSelectedInNewWindow": "Fosgail Taghte ann an Uinneag Ùr",
     "openSelectedInCurrentWindow": "Fosgail Taghte ann an Uinneag Làithreach",

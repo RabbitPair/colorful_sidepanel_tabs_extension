@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Zijpaneel openen"
+  },
+  "closeSidebar": {
+    "message": "Sluit zijbalk"
+  },
+  "disableSidebar": {
+    "message": "Zet zijbalk uit"
+  },
+  "disableSidebarAlert": {
+    "message": "Weet u zeker dat u de zijbalk op alle pagina's wilt uitschakelen? Ga naar de instellingenpagina om opnieuw in te schakelen."
+  },
+  "toggleSidebarPosition": {
+    "message": "Zijbalkpositie wisselen"
   }
 }

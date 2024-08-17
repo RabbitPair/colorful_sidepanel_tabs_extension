@@ -559,6 +559,38 @@
         "downloadOnly": "Samo preuzimanje",
         "staySynchronized": "Ostani sinkroniziran"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Otkrili smo da vaša trenutna razlučivost zaslona može utjecati na vaše iskustvo s bočnom pločom. Zbog ograničenja preglednika, minimalna širina bočne ploče je 360 piksela. Na vašoj trenutnoj razlučivosti, bočna ploča može zauzeti {{percent}}% vašeg zaslona.\n\nKako biste poboljšali svoje iskustvo, razmislite o prilagodbi razlučivosti zaslona. Evo vodiča koji vam mogu pomoći:\n\n- Za korisnike Windowsa: [Promijenite razlučivost zaslona u Windowsu](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Za korisnike Maca: [Promijenite razlučivost zaslona na Macu](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPrilagodite samo ako je potrebno za vašu udobnost i upotrebu.",
+        "scaleWarningMessage": "Vaša trenutna skala prikaza postavljena je na {{scale}}%. Veća skala čini elemente sučelja većima, ali smanjuje raspoloživi prostor. Smanjenje skale prikazat će više sadržaja, ali će smanjiti veličinu elemenata. Odaberite postavku koja najbolje odgovara vašoj udobnosti čitanja i potrebama radnog tijeka."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bočna traka stranice",
+      "description": "Značajka bočne trake stranice omogućuje vam dodavanje bočne trake na web stranice bez otvaranja ugrađene bočne trake preglednika. Ovo je posebno korisno za korisnike s manjim zaslonima koji smatraju da je bočna traka preglednika preširoka ili nefleksibilna. Iako bočna traka stranice nudi ograničenu funkcionalnost zbog određenih ograničenja, pruža kompaktniju alternativu. Kada je omogućena, možete pristupiti bočnoj traci pomicanjem miša preko ruba prozora.",
+      "usageRestrictions": "Ograničenja upotrebe",
+      "sidebarEnabled": {
+        "label": "Omogući bočnu traku",
+        "description": "Prebacite za aktiviranje ili deaktiviranje bočne trake stranice"
+      },
+      "sidebarPosition": {
+        "label": "Položaj bočne trake",
+        "description": "Odaberite gdje se bočna traka pojavljuje na stranici",
+        "left": "Lijevo",
+        "right": "Desno"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Ograničenja skripti sadržaja",
+        "warningMessage": "Skripte sadržaja su mali programi koji poboljšavaju web stranice dodatnim značajkama. Međutim, zbog sigurnosnih i privatnih ograničenja, ove skripte ne mogu raditi na određenim vrstama stranica. Kao rezultat toga, bočna traka se možda neće pojaviti na sljedećim stranicama:",
+        "webStore": "Trgovine proširenja preglednika (npr. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Internetske stranice preglednika (koje počinju s chrome://, edge:// ili about://)",
+        "fileUrls": "Lokalne datoteke na vašem računalu (koje počinju s file://)",
+        "extensionsPages": "Stranice drugih proširenja preglednika (koje počinju s chrome-extension:// ili extension:// ili slično)",
+        "protectedPages": "Web stranice sa strogim pravilima sigurnosti sadržaja",
+        "pdfViewer": "Ugrađene stranice preglednika PDF-a",
+        "newTabPage": "Stranice nove kartice (koje počinju s chrome://newtab/ ili edge://newtab/ ili slično)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Kreirajte i upravljajte snimkama.",
     "createSnapshot": "Kreiraj snimku",
     "exportSnapshot": "Izvezi snimku",
-    "restoreWindowSize":"Vrati položaj i veličinu prozora",
+    "restoreWindowSize": "Vrati položaj i veličinu prozora",
     "openAllWindows": "Otvori sve prozore",
     "openSelectedInNewWindow": "Otvori odabrano u novom prozoru",
     "openSelectedInCurrentWindow": "Otvori odabrano u trenutnom prozoru",

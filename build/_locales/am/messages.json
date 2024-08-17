@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "ጎን ሰሌዳ ክፈት"
+  },
+  "closeSidebar": {
+    "message": "ጎን ሰሌዳ ዝጋ"
+  },
+  "disableSidebar": {
+    "message": "ጎን ሰሌዳ አሰናክል"
+  },
+  "disableSidebarAlert": {
+    "message": "ጎን ሰሌዳን በሁሉም ገጾች ላይ ማሰናከል እንደምትፈልጉ እርግጠኛ ነዎት? እንደገና ለማንቃት፣ እባክዎን ወደ ቅንብሮች ገጽ ይሂዱ።"
+  },
+  "toggleSidebarPosition": {
+    "message": "የጎን ሰሌዳ አቀማመጥ ቀይር"
   }
 }

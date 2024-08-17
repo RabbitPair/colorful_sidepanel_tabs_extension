@@ -559,6 +559,38 @@
         "downloadOnly": "Ainult allalaadimine",
         "staySynchronized": "Jää sünkroonituks"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Oleme tuvastanud, et teie praegune ekraani eraldusvõime võib mõjutada teie kogemust külgpaneeliga. Brauseri piirangute tõttu on külgpaneeli minimaalne laius 360 pikslit. Teie praeguse eraldusvõime juures võib külgpaneel hõivata {{percent}}% teie ekraanist.\n\nKogemuse parandamiseks kaaluge ekraani eraldusvõime kohandamist. Siin on juhised, mis aitavad teid:\n\n- Windowsi kasutajatele: [Muutke oma ekraani eraldusvõimet Windowsis](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Maci kasutajatele: [Muutke oma Maci ekraani eraldusvõimet](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nKohandage ainult siis, kui see on vajalik teie mugavuse ja kasutamise jaoks.",
+        "scaleWarningMessage": "Teie praegune ekraani skaala on seatud {{scale}}%. Suurem skaala muudab liidese elemendid suuremaks, kuid vähendab saadaolevat ruumi. Skaala vähendamine näitab rohkem sisu, kuid vähendab elementide suurust. Palun valige seade, mis sobib kõige paremini teie lugemismugavuse ja töövoo vajadustega."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Lehe külgpaneel",
+      "description": "Lehe külgpaneeli funktsioon võimaldab teil lisada veebilehtedele külgpaneeli ilma brauseri sisseehitatud külgpaneeli avamata. See on eriti kasulik väiksemate ekraanidega kasutajatele, kes leiavad, et brauseri külgpaneel on liiga lai või paindumatu. Kuigi lehe külgpaneel pakub piiratud funktsionaalsust teatud piirangute tõttu, pakub see kompaktsemat alternatiivi. Kui see on lubatud, pääsete külgpaneelile juurde, viies hiire akna servale.",
+      "usageRestrictions": "Kasutuspiirangud",
+      "sidebarEnabled": {
+        "label": "Luba külgpaneel",
+        "description": "Lülitage lehe külgpaneeli aktiveerimiseks või deaktiveerimiseks"
+      },
+      "sidebarPosition": {
+        "label": "Külgpaneeli asukoht",
+        "description": "Valige, kus külgpaneel lehel kuvatakse",
+        "left": "Vasakul",
+        "right": "Paremal"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Sisu skriptide piirangud",
+        "warningMessage": "Sisu skriptid on väikesed programmid, mis täiustavad veebilehti täiendavate funktsioonidega. Kuid turva- ja privaatsuspiirangute tõttu ei saa need skriptid teatud tüüpi lehtedel töötada. Selle tulemusena ei pruugi külgpaneel ilmuda järgmistel lehtedel:",
+        "webStore": "Brauseri laienduste poed (nt Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Brauseri sisemised lehed (algavad chrome://, edge:// või about://)",
+        "fileUrls": "Kohalikud failid teie arvutis (algavad file://)",
+        "extensionsPages": "Muude brauserilaienduste lehed (algavad chrome-extension:// või extension:// või sarnased)",
+        "protectedPages": "Veebisaidid, millel on ranged sisu turvapoliitikad",
+        "pdfViewer": "Sisseehitatud PDF-vaaturi lehed",
+        "newTabPage": "Uue vahekaardi lehed (algavad chrome://newtab/ või edge://newtab/ või sarnased)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Loo ja halda hetktõmmiseid.",
     "createSnapshot": "Loo hetktõmmis",
     "exportSnapshot": "Ekspordi hetktõmmis",
-    "restoreWindowSize":"Taasta akna asend ja suurus",
+    "restoreWindowSize": "Taasta akna asend ja suurus",
     "openAllWindows": "Ava kõik aknad",
     "openSelectedInNewWindow": "Ava valitud uues aknas",
     "openSelectedInCurrentWindow": "Ava valitud praeguses aknas",

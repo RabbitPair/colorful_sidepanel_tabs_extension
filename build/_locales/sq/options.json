@@ -495,7 +495,7 @@
         "siteConfig": "Cilësimet e Faqes",
         "siteConfigInfo": "si auto-shpërndarë, imazh-në-imazh në ndërrimin e zavihkat, shiriti i progresit të leximit, shiriti i progresit të luajtjes, etj.",
         "recentlyTabs": "Zavihkat e mbyllura së fundmi",
-        "snapshots":"Pamje të Ruajtura"
+        "snapshots": "Pamje të Ruajtura"
       },
       "cancelBtn": "Anulo",
       "exportBtn": "Eksporto",
@@ -559,6 +559,38 @@
         "downloadOnly": "Vetëm shkarkimi",
         "staySynchronized": "Qëndro sinkronizuar"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Ne kemi zbuluar se rezolucioni aktual i ekranit tuaj mund të ndikojë në përvojën tuaj me panelin anësor. Për shkak të kufizimeve të shfletuesit, gjerësia minimale e panelit anësor është 360 pikselë. Në rezolucionin tuaj aktual, paneli anësor mund të zërë {{percent}}% të ekranit tuaj.\n\nPër të përmirësuar përvojën tuaj, konsideroni rregullimin e rezolucionit të ekranit tuaj. Këtu janë udhëzuesit për t'ju ndihmuar:\n\n- Për përdoruesit e Windows: [Ndryshoni rezolucionin e ekranit tuaj në Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Për përdoruesit e Mac: [Ndryshoni rezolucionin e ekranit tuaj në Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJu lutemi rregulloni vetëm nëse është e nevojshme për komoditetin dhe përdorimin tuaj.",
+        "scaleWarningMessage": "Shkalla juaj aktuale e ekranit është vendosur në {{scale}}%. Një shkallë më e lartë bën që elementet e ndërfaqes të jenë më të mëdha, por zvogëlon hapësirën e disponueshme. Ulja e shkallës do të tregojë më shumë përmbajtje, por do të zvogëlojë madhësinë e elementeve. Ju lutemi zgjidhni një cilësim që i përshtatet më së miri komoditetit tuaj të leximit dhe nevojave të rrjedhës së punës."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Paneli Anësor i Faqes",
+      "description": "Funksioni i panelit anësor të faqes ju lejon të shtoni një panel anësor në faqet e internetit pa hapur panelin anësor të integruar të shfletuesit. Kjo është veçanërisht e dobishme për përdoruesit me ekrane më të vogla që e gjejnë panelin anësor të shfletuesit shumë të gjerë ose të ngurtë. Ndërsa paneli anësor i faqes ofron funksionalitet të kufizuar për shkak të disa kufizimeve, ai ofron një alternativë më kompakte. Kur është e aktivizuar, mund të hyni në panelin anësor duke lëvizur miun mbi skajin e dritares.",
+      "usageRestrictions": "Kufizimet e Përdorimit",
+      "sidebarEnabled": {
+        "label": "Aktivizo Panelin Anësor",
+        "description": "Ndërroni për të aktivizuar ose çaktivizuar panelin anësor të faqes"
+      },
+      "sidebarPosition": {
+        "label": "Pozicioni i Panelit Anësor",
+        "description": "Zgjidhni se ku shfaqet paneli anësor në faqe",
+        "left": "Majtas",
+        "right": "Djathtas"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Kufizimet e Skripteve të Përmbajtjes",
+        "warningMessage": "Skriptet e përmbajtjes janë programe të vogla që përmirësojnë faqet e internetit me veçori shtesë. Megjithatë, për shkak të kufizimeve të sigurisë dhe privatësisë, këto skripte nuk mund të funksionojnë në lloje të caktuara faqesh. Si rezultat, paneli anësor mund të mos shfaqet në faqet e mëposhtme:",
+        "webStore": "Dyqanet e zgjerimeve të shfletuesit (p.sh., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Faqet e brendshme të shfletuesit (duke filluar me chrome://, edge://, ose about://)",
+        "fileUrls": "Skedarët lokalë në kompjuterin tuaj (duke filluar me file://)",
+        "extensionsPages": "Faqet nga zgjerimet e tjera të shfletuesit (duke filluar me chrome-extension:// ose extension:// ose të ngjashme)",
+        "protectedPages": "Faqet e internetit me Politika të Rrepta të Sigurisë së Përmbajtjes",
+        "pdfViewer": "Faqet e shikuesit të integruar të PDF",
+        "newTabPage": "Faqet e reja të skedës (duke filluar me chrome://newtab/ ose edge://newtab/ ose të ngjashme)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Krijo dhe menaxho snapshots.",
     "createSnapshot": "Krijo Snapshot",
     "exportSnapshot": "Eksporto Snapshot",
-    "restoreWindowSize":"Rivendos pozicionin dhe madhësinë e dritares",
+    "restoreWindowSize": "Rivendos pozicionin dhe madhësinë e dritares",
     "openAllWindows": "Hap të gjitha dritaret",
     "openSelectedInNewWindow": "Hap të zgjedhurat në një dritare të re",
     "openSelectedInCurrentWindow": "Hap të zgjedhurat në dritaren aktuale",

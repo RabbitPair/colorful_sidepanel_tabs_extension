@@ -559,6 +559,38 @@
         "downloadOnly": "Yalnızca indir",
         "staySynchronized": "Senkronize kal"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Mevcut ekran çözünürlüğünüzün yan panel ile deneyiminizi etkileyebileceğini tespit ettik. Tarayıcı sınırlamaları nedeniyle, yan panelin minimum genişliği 360 pikseldir. Mevcut çözünürlüğünüzde, yan panel ekranınızın {{percent}}%'ini kaplayabilir.\n\nDeneyiminizi geliştirmek için, ekran çözünürlüğünüzü ayarlamayı düşünün. İşte size yardımcı olacak kılavuzlar:\n\n- Windows kullanıcıları için: [Windows'ta ekran çözünürlüğünüzü değiştirin](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac kullanıcıları için: [Mac ekranınızın çözünürlüğünü değiştirin](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nLütfen yalnızca gerekli olduğunda konforunuz ve kullanımınız için ayarlayın.",
+        "scaleWarningMessage": "Mevcut ekran ölçeğiniz {{scale}}% olarak ayarlanmış. Daha yüksek bir ölçek, arayüz öğelerini daha büyük yapar ancak kullanılabilir alanı azaltır. Ölçeği düşürmek daha fazla içerik gösterir ancak öğe boyutunu küçültür. Lütfen okuma konforunuza ve iş akışı ihtiyaçlarınıza en uygun ayarı seçin."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sayfa Yan Paneli",
+      "description": "Sayfa yan paneli özelliği, tarayıcının yerleşik yan panelini açmadan web sayfalarına bir yan panel eklemenize olanak tanır. Bu, tarayıcı yan panelini çok geniş veya esnek bulmayan küçük ekranlı kullanıcılar için özellikle yararlıdır. Sayfa yan paneli belirli kısıtlamalar nedeniyle sınırlı işlevsellik sunsa da, daha kompakt bir alternatif sağlar. Etkinleştirildiğinde, pencerenin kenarına fareyle gelerek yan panele erişebilirsiniz.",
+      "usageRestrictions": "Kullanım Sınırlamaları",
+      "sidebarEnabled": {
+        "label": "Yan Paneli Etkinleştir",
+        "description": "Sayfa yan panelini etkinleştirmek veya devre dışı bırakmak için geçiş yapın"
+      },
+      "sidebarPosition": {
+        "label": "Yan Panel Konumu",
+        "description": "Sayfada yan panelin nerede görüneceğini seçin",
+        "left": "Sol",
+        "right": "Sağ"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "İçerik Scripti Sınırlamaları",
+        "warningMessage": "İçerik scriptleri, web sayfalarını ek özelliklerle geliştiren küçük programlardır. Ancak, güvenlik ve gizlilik kısıtlamaları nedeniyle, bu scriptler belirli türdeki sayfalarda çalışamaz. Sonuç olarak, yan panel aşağıdaki sayfalarda görünmeyebilir:",
+        "webStore": "Tarayıcı uzantı mağazaları (örneğin, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Tarayıcı iç sayfaları (chrome://, edge:// veya about:// ile başlayan)",
+        "fileUrls": "Bilgisayarınızdaki yerel dosyalar (file:// ile başlayan)",
+        "extensionsPages": "Diğer tarayıcı uzantılarından sayfalar (chrome-extension:// veya extension:// veya benzerleri ile başlayan)",
+        "protectedPages": "Katı İçerik Güvenliği Politikalarına sahip web siteleri",
+        "pdfViewer": "Yerleşik PDF görüntüleyici sayfaları",
+        "newTabPage": "Yeni Sekme sayfaları (chrome://newtab/ veya edge://newtab/ veya benzerleri ile başlayan)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Anlık görüntüler oluşturun ve yönetin.",
     "createSnapshot": "Anlık Görüntü Oluştur",
     "exportSnapshot": "Anlık Görüntü Dışa Aktar",
-    "restoreWindowSize":"Pencere konumunu ve boyutunu geri yükle",
+    "restoreWindowSize": "Pencere konumunu ve boyutunu geri yükle",
     "openAllWindows": "Tüm Pencereleri Aç",
     "openSelectedInNewWindow": "Seçilenleri Yeni Pencerede Aç",
     "openSelectedInCurrentWindow": "Seçilenleri Mevcut Pencerede Aç",

@@ -559,6 +559,38 @@
         "downloadOnly": "Download only",
         "staySynchronized": "Stay synchronized"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "We've detected that your current screen resolution may affect your experience with the side panel. Due to browser limitations, the minimum width of the side panel is 360 pixels. At your current resolution, the side panel may occupy {{percent}}% of your screen.\n\nTo enhance your experience, consider adjusting your screen resolution. Here are guides to help you:\n\n- For Windows users: [Change your screen resolution in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac users: [Change your Mac display’s resolution](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPlease adjust only if necessary for your comfort and usage.",
+        "scaleWarningMessage": "Your current display scale is set to {{scale}}%. A higher scale makes interface elements larger but reduces available space. Lowering the scale will show more content but decrease element size. Please choose a setting that best suits your reading comfort and workflow needs."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Page Sidebar",
+      "description": "The page sidebar feature allows you to add a sidebar to web pages without opening the browser's built-in sidebar. This is particularly useful for users with smaller screens who find the browser sidebar too wide or inflexible. While the page sidebar offers limited functionality due to certain restrictions, it provides a more compact alternative. When enabled, you can access the sidebar by hovering your mouse over the edge of the window.",
+      "usageRestrictions": "Usage Limitations",
+      "sidebarEnabled": {
+        "label": "Enable Sidebar",
+        "description": "Toggle to activate or deactivate the page sidebar"
+      },
+      "sidebarPosition": {
+        "label": "Sidebar Position",
+        "description": "Select where the sidebar appears on the page",
+        "left": "Left",
+        "right": "Right"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Content Script Limitations",
+        "warningMessage": "Content scripts are small programs that enhance web pages with additional features. However, due to security and privacy restrictions, these scripts cannot run on certain types of pages. As a result, the sidebar may not appear on the following:",
+        "webStore": "Browser extension stores (e.g., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Browser internal pages (starting with chrome://, edge://, or about://)",
+        "fileUrls": "Local files on your computer (starting with file://)",
+        "extensionsPages": "Pages from other browser extensions (starting with chrome-extension:// or extension:// or similar)",
+        "protectedPages": "Websites with strict Content Security Policies",
+        "pdfViewer": "Built-in PDF viewer pages",
+        "newTabPage": "New Tab pages (starting with chrome://newtab/ or edge://newtab/ or similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Create and manage snapshots.",
     "createSnapshot": "Create Snapshot",
     "exportSnapshot": "Export Snapshot",
-    "restoreWindowSize":"Restore window position and size",
+    "restoreWindowSize": "Restore window position and size",
     "openAllWindows": "Open All Windows",
     "openSelectedInNewWindow": "Open Selected In New Window",
     "openSelectedInCurrentWindow": "Open Selected In Current Window",

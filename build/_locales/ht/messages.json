@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Louvri Panèl Bò"
+  },
+  "closeSidebar": {
+    "message": "Fèmen ba bò"
+  },
+  "disableSidebar": {
+    "message": "Dezaktive ba bò"
+  },
+  "disableSidebarAlert": {
+    "message": "Èske ou sèten ou vle dezaktive ba bò a sou tout paj yo? Pou reaktive li, tanpri ale nan paj anviwònman yo."
+  },
+  "toggleSidebarPosition": {
+    "message": "Chanje pozisyon ba bò"
   }
 }

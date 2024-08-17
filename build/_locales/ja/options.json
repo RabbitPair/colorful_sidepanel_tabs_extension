@@ -495,7 +495,7 @@
         "siteConfig": "サイト設定",
         "siteConfigInfo": "自動破棄可能、タブ切り替え時のピクチャー・イン・ピクチャー、読書進行状況バー、再生進行状況バーなど。",
         "recentlyTabs": "最近閉じたタブ",
-        "snapshots":"スナップショット"
+        "snapshots": "スナップショット"
       },
       "cancelBtn": "キャンセル",
       "exportBtn": "エクスポート",
@@ -559,6 +559,38 @@
         "downloadOnly": "ダウンロードのみ",
         "staySynchronized": "同期を維持"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "現在の画面解像度がサイドパネルの使用に影響を与える可能性があります。ブラウザの制限により、サイドパネルの最小幅は360ピクセルです。現在の解像度では、サイドパネルが画面の{{percent}}%を占める可能性があります。\n\n使用感を向上させるために、画面解像度を調整することを検討してください。以下のガイドが役立ちます:\n\n- Windowsユーザー向け: [Windowsで画面解像度を変更する](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Macユーザー向け: [Macのディスプレイ解像度を変更する](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n必要に応じてのみ調整してください。",
+        "scaleWarningMessage": "現在のディスプレイスケールは{{scale}}%に設定されています。スケールが高いとインターフェース要素が大きくなりますが、利用可能なスペースが減少します。スケールを下げると、より多くのコンテンツが表示されますが、要素のサイズが小さくなります。読みやすさと作業効率に最適な設定を選択してください。"
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "ページサイドバー",
+      "description": "ページサイドバー機能を使用すると、ブラウザの組み込みサイドバーを開かずにウェブページにサイドバーを追加できます。これは、ブラウザのサイドバーが広すぎるまたは柔軟性がないと感じる小さな画面のユーザーに特に便利です。ページサイドバーは特定の制限により機能が制限されていますが、よりコンパクトな代替手段を提供します。有効にすると、ウィンドウの端にマウスをホバーすることでサイドバーにアクセスできます。",
+      "usageRestrictions": "使用制限",
+      "sidebarEnabled": {
+        "label": "サイドバーを有効にする",
+        "description": "ページサイドバーを有効または無効にするためのトグル"
+      },
+      "sidebarPosition": {
+        "label": "サイドバーの位置",
+        "description": "ページ上でサイドバーが表示される位置を選択します",
+        "left": "左",
+        "right": "右"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "コンテンツスクリプトの制限",
+        "warningMessage": "コンテンツスクリプトは、追加機能でウェブページを強化する小さなプログラムです。ただし、セキュリティおよびプライバシーの制限により、これらのスクリプトは特定の種類のページで実行できません。その結果、サイドバーは次のページに表示されない場合があります:",
+        "webStore": "ブラウザ拡張機能ストア（例: Chrome Web Store、Microsoft Edge Add-ons）",
+        "internalPages": "ブラウザの内部ページ（chrome://、edge://、またはabout://で始まるページ）",
+        "fileUrls": "コンピュータ上のローカルファイル（file://で始まるファイル）",
+        "extensionsPages": "他のブラウザ拡張機能のページ（chrome-extension://またはextension://で始まるページなど）",
+        "protectedPages": "厳格なコンテンツセキュリティポリシーを持つウェブサイト",
+        "pdfViewer": "組み込みPDFビューアのページ",
+        "newTabPage": "新しいタブページ（chrome://newtab/またはedge://newtab/で始まるページなど）"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "スナップショットを作成および管理します。",
     "createSnapshot": "スナップショットを作成",
     "exportSnapshot": "スナップショットをエクスポート",
-    "restoreWindowSize":"ウィンドウの位置とサイズを復元",
+    "restoreWindowSize": "ウィンドウの位置とサイズを復元",
     "openAllWindows": "すべてのウィンドウを開く",
     "openSelectedInNewWindow": "選択したものを新しいウィンドウで開く",
     "openSelectedInCurrentWindow": "選択したものを現在のウィンドウで開く",

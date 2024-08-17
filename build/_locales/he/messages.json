@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "פתח את פאנל הצד"
+  },
+  "closeSidebar": {
+    "message": "סגור את סרגל הצד"
+  },
+  "disableSidebar": {
+    "message": "השבת את סרגל הצד"
+  },
+  "disableSidebarAlert": {
+    "message": "האם אתה בטוח שברצונך להשבית את סרגל הצד בכל הדפים? כדי להפעיל מחדש, אנא עבור לדף ההגדרות."
+  },
+  "toggleSidebarPosition": {
+    "message": "החלף את מיקום סרגל הצד"
   }
 }

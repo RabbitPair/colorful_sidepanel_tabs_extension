@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Ireki alboko panela"
+  },
+  "closeSidebar": {
+    "message": "Itxi alboko barra"
+  },
+  "disableSidebar": {
+    "message": "Desgaitu alboko barra"
+  },
+  "disableSidebarAlert": {
+    "message": "Ziur zaude alboko barra orrialde guztietan desgaitu nahi duzula? Berriro gaitzeko, joan ezarpenen orrira."
+  },
+  "toggleSidebarPosition": {
+    "message": "Aldatu alboko barraren posizioa"
   }
 }

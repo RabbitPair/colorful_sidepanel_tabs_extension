@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Otevřít postranní panel"
+  },
+  "closeSidebar": {
+    "message": "Zavřít postranní panel"
+  },
+  "disableSidebar": {
+    "message": "Zakázat postranní panel"
+  },
+  "disableSidebarAlert": {
+    "message": "Jste si jisti, že chcete zakázat postranní panel na všech stránkách? Pro znovu povolení přejděte na stránku nastavení."
+  },
+  "toggleSidebarPosition": {
+    "message": "Přepnout pozici postranního panelu"
   }
 }

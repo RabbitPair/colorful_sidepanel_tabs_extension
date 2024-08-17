@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Oscail an Painéal Taobh"
+  },
+  "closeSidebar": {
+    "message": "Dún an barra taobh"
+  },
+  "disableSidebar": {
+    "message": "Díchumasaigh an barra taobh"
+  },
+  "disableSidebarAlert": {
+    "message": "An bhfuil tú cinnte gur mhaith leat an barra taobh a dhíchumasú ar gach leathanach? Chun é a athchumasú, téigh chuig an leathanach socruithe le do thoil."
+  },
+  "toggleSidebarPosition": {
+    "message": "Athraigh suíomh an bharra taobh"
   }
 }

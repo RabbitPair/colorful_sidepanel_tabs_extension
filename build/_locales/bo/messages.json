@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Open Side Panel"
+  },
+  "closeSidebar": {
+    "message": "གུང་སེལ་རྒྱབ"
+  },
+  "disableSidebar": {
+    "message": "གུང་སེལ་བཀོད་སྒྲིག་བཀོལ་མི་ཆོག"
+  },
+  "disableSidebarAlert": {
+    "message": "གུང་སེལ་བཀོད་སྒྲིག་གང་རུང་གི་ཤོག་ངོས་ནས་བཀོལ་མི་ཆོག་གཏན་འཁེལ་བྱེད་དགོས་ཡོད་དམ། བསྐྱར་བཀོལ་བྱེད་དགོས་ན་སྒྲིག་སྟངས་ཤོག་ངོས་ལ་འགྲོ་དགོས།"
+  },
+  "toggleSidebarPosition": {
+    "message": "གུང་སེལ་གནས་སྒྲིག་བརྗེ་བ"
   }
 }

@@ -495,7 +495,7 @@
         "siteConfig": "Tetapan Laman",
         "siteConfigInfo": "seperti auto boleh dibuang, gambar-dalam-gambar pada Tukar Tab, bar kemajuan bacaan, bar kemajuan main, dan lain-lain.",
         "recentlyTabs": "Tab yang baru ditutup",
-        "snapshots":"Gambar Rajah"
+        "snapshots": "Gambar Rajah"
       },
       "cancelBtn": "Batal",
       "exportBtn": "Eksport",
@@ -559,6 +559,38 @@
         "downloadOnly": "Muat turun sahaja",
         "staySynchronized": "Kekal disegerakkan"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Kami telah mengesan bahawa resolusi skrin semasa anda mungkin menjejaskan pengalaman anda dengan panel sisi. Disebabkan oleh had pelayar, lebar minimum panel sisi adalah 360 piksel. Pada resolusi semasa anda, panel sisi mungkin menduduki {{percent}}% daripada skrin anda.\n\nUntuk meningkatkan pengalaman anda, pertimbangkan untuk melaraskan resolusi skrin anda. Berikut adalah panduan untuk membantu anda:\n\n- Untuk pengguna Windows: [Tukar resolusi skrin anda dalam Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Untuk pengguna Mac: [Tukar resolusi paparan Mac anda](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSila laraskan hanya jika perlu untuk keselesaan dan penggunaan anda.",
+        "scaleWarningMessage": "Skala paparan semasa anda ditetapkan kepada {{scale}}%. Skala yang lebih tinggi menjadikan elemen antara muka lebih besar tetapi mengurangkan ruang yang tersedia. Menurunkan skala akan menunjukkan lebih banyak kandungan tetapi mengurangkan saiz elemen. Sila pilih tetapan yang paling sesuai dengan keselesaan membaca dan keperluan aliran kerja anda."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bar Sisi Halaman",
+      "description": "Ciri bar sisi halaman membolehkan anda menambah bar sisi pada halaman web tanpa membuka bar sisi terbina dalam pelayar. Ini amat berguna untuk pengguna dengan skrin yang lebih kecil yang mendapati bar sisi pelayar terlalu lebar atau tidak fleksibel. Walaupun bar sisi halaman menawarkan fungsi terhad disebabkan oleh sekatan tertentu, ia menyediakan alternatif yang lebih padat. Apabila diaktifkan, anda boleh mengakses bar sisi dengan menggerakkan tetikus anda ke tepi tetingkap.",
+      "usageRestrictions": "Had Penggunaan",
+      "sidebarEnabled": {
+        "label": "Aktifkan Bar Sisi",
+        "description": "Togol untuk mengaktifkan atau menyahaktifkan bar sisi halaman"
+      },
+      "sidebarPosition": {
+        "label": "Kedudukan Bar Sisi",
+        "description": "Pilih di mana bar sisi muncul pada halaman",
+        "left": "Kiri",
+        "right": "Kanan"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Had Skrip Kandungan",
+        "warningMessage": "Skrip kandungan adalah program kecil yang meningkatkan halaman web dengan ciri tambahan. Walau bagaimanapun, disebabkan oleh sekatan keselamatan dan privasi, skrip ini tidak boleh dijalankan pada jenis halaman tertentu. Akibatnya, bar sisi mungkin tidak muncul pada yang berikut:",
+        "webStore": "Kedai sambungan pelayar (contohnya, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Halaman dalaman pelayar (bermula dengan chrome://, edge://, atau about://)",
+        "fileUrls": "Fail tempatan pada komputer anda (bermula dengan file://)",
+        "extensionsPages": "Halaman daripada sambungan pelayar lain (bermula dengan chrome-extension:// atau extension:// atau serupa)",
+        "protectedPages": "Laman web dengan Dasar Keselamatan Kandungan yang ketat",
+        "pdfViewer": "Halaman penonton PDF terbina dalam",
+        "newTabPage": "Halaman Tab Baru (bermula dengan chrome://newtab/ atau edge://newtab/ atau serupa)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Cipta dan urus snapshot.",
     "createSnapshot": "Cipta Snapshot",
     "exportSnapshot": "Eksport Snapshot",
-    "restoreWindowSize":"Pulihkan kedudukan dan saiz tetingkap",
+    "restoreWindowSize": "Pulihkan kedudukan dan saiz tetingkap",
     "openAllWindows": "Buka Semua Tetingkap",
     "openSelectedInNewWindow": "Buka Pilihan Dalam Tetingkap Baru",
     "openSelectedInCurrentWindow": "Buka Pilihan Dalam Tetingkap Semasa",

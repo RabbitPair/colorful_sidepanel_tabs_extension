@@ -559,6 +559,38 @@
         "downloadOnly": "Niżżel biss",
         "staySynchronized": "Ibqa 'sinsronizzat"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Aħna skoprejna li r-riżoluzzjoni attwali tal-iskrin tiegħek tista' taffettwa l-esperjenza tiegħek mal-panel tal-ġenb. Minħabba limitazzjonijiet tal-browser, il-wisa' minima tal-panel tal-ġenb hija ta' 360 pixels. Bir-riżoluzzjoni attwali tiegħek, il-panel tal-ġenb jista' jokkupa {{percent}}% tal-iskrin tiegħek.\n\nBiex ittejjeb l-esperjenza tiegħek, ikkunsidra li taġġusta r-riżoluzzjoni tal-iskrin tiegħek. Hawn huma gwidi biex jgħinuk:\n\n- Għal utenti ta' Windows: [Ibdel ir-riżoluzzjoni tal-iskrin tiegħek f'Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Għal utenti ta' Mac: [Ibdel ir-riżoluzzjoni tal-wiri tal-Mac tiegħek](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJekk jogħġbok aġġusta biss jekk meħtieġ għall-kumdità u l-użu tiegħek.",
+        "scaleWarningMessage": "L-iskala attwali tal-wiri tiegħek hija stabbilita għal {{scale}}%. Skala ogħla tagħmel l-elementi tal-interface akbar iżda tnaqqas l-ispazju disponibbli. Tnaqqis fl-iskala se juri aktar kontenut iżda jnaqqas id-daqs tal-elementi. Jekk jogħġbok agħżel issettjar li l-aħjar jaqbel mal-kumdità tal-qari tiegħek u l-ħtiġijiet tax-xogħol."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sidebar tal-Paġna",
+      "description": "Il-karatteristika tal-sidebar tal-paġna tippermettilek iżżid sidebar mal-paġni tal-web mingħajr ma tiftaħ il-sidebar mibni fil-browser. Dan huwa partikolarment utli għal utenti b'iskrins iżgħar li jsibu l-sidebar tal-browser wisq wiesa' jew inflessibbli. Filwaqt li l-sidebar tal-paġna joffri funzjonalità limitata minħabba ċerti restrizzjonijiet, jipprovdi alternattiva aktar kompatta. Meta tkun attivata, tista' taċċessa l-sidebar billi tgħaddi l-maws fuq it-tarf tat-tieqa.",
+      "usageRestrictions": "Limitazzjonijiet tal-Użu",
+      "sidebarEnabled": {
+        "label": "Attiva Sidebar",
+        "description": "Toggle biex tattiva jew tiddiżattiva l-sidebar tal-paġna"
+      },
+      "sidebarPosition": {
+        "label": "Pożizzjoni tal-Sidebar",
+        "description": "Agħżel fejn jidher il-sidebar fuq il-paġna",
+        "left": "Xellug",
+        "right": "Lemin"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitazzjonijiet tal-Iskripts tal-Kontenut",
+        "warningMessage": "L-iskripts tal-kontenut huma programmi żgħar li jtejbu l-paġni tal-web b'karatteristiċi addizzjonali. Madankollu, minħabba restrizzjonijiet ta' sigurtà u privatezza, dawn l-iskripts ma jistgħux jaħdmu fuq ċerti tipi ta' paġni. Bħala riżultat, il-sidebar jista' ma jidhirx fuq dawn li ġejjin:",
+        "webStore": "Ħwienet tal-estensjonijiet tal-browser (eż., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Paġni interni tal-browser (li jibdew b'chrome://, edge://, jew about://)",
+        "fileUrls": "Fajls lokali fuq il-kompjuter tiegħek (li jibdew b'file://)",
+        "extensionsPages": "Paġni minn estensjonijiet oħra tal-browser (li jibdew b'chrome-extension:// jew extension:// jew simili)",
+        "protectedPages": "Websajts b'Politiki ta' Sigurtà tal-Kontenut stretti",
+        "pdfViewer": "Paġni tal-viewer PDF mibnija",
+        "newTabPage": "Paġni tat-Tab Ġdid (li jibdew b'chrome://newtab/ jew edge://newtab/ jew simili)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Oħloq u immaniġġja l-istantanji.",
     "createSnapshot": "Oħloq Istantanja",
     "exportSnapshot": "Esporta Istantanja",
-    "restoreWindowSize":"Irrestawra l-pożizzjoni u d-daqs tat-tieqa",
+    "restoreWindowSize": "Irrestawra l-pożizzjoni u d-daqs tat-tieqa",
     "openAllWindows": "Iftaħ il-Windows Kollha",
     "openSelectedInNewWindow": "Iftaħ l-Għażla f'Tieqa Ġdida",
     "openSelectedInCurrentWindow": "Iftaħ l-Għażla fit-Tieqa Kurrenti",

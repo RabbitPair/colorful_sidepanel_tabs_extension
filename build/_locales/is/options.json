@@ -214,7 +214,7 @@
       "pinedTabsAsIcons": {
         "label": "Sýna festaða flipa sem tákn",
         "description": "Þegar virkt, verða festaðir flipar sýndir sem tákn og ekki í lista"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Sýna flýtiaðgang",
         "description": "Þú getur stillt flipa til að birtast í Flýtiaðgangi svo það verði auðvelt að finna. Hægri-smelltu (eða haltu inni) á flipanum og veldu Festa í Flýtiaðgang. Fjarlægðu hann þegar þú þarft ekki lengur á honum að halda með því að hægri-smella (eða halda inni) og velja Eyða úr Flýtiaðgangi. Munurinn á föstum flipum og Flýtiaðgangi er að Flýtiaðgangur geymir vefslóðina og opnar nýjan flipa í hvert skipti sem smellt er á hann."
@@ -559,6 +559,38 @@
         "downloadOnly": "Aðeins niðurhal",
         "staySynchronized": "Haltu samkeyrslu"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Við höfum greint að núverandi skjáupplausn þín gæti haft áhrif á upplifun þína með hliðarspjaldinu. Vegna takmarkana vafrans er lágmarksbreidd hliðarspjaldsins 360 pixlar. Við núverandi upplausn gæti hliðarspjaldið tekið {{percent}}% af skjánum þínum.\n\nTil að bæta upplifun þína, íhugaðu að stilla skjáupplausnina þína. Hér eru leiðbeiningar til að hjálpa þér:\n\n- Fyrir Windows notendur: [Breyta skjáupplausn í Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Fyrir Mac notendur: [Breyta upplausn skjásins á Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVinsamlegast stilltu aðeins ef nauðsynlegt er fyrir þægindi þín og notkun.",
+        "scaleWarningMessage": "Núverandi skjástærð þín er stillt á {{scale}}%. Hærri stærð gerir viðmótseiningar stærri en minnkar tiltækt rými. Að lækka stærðina mun sýna meira efni en minnka stærð eininga. Vinsamlegast veldu stillingu sem hentar best lestrarþægindum þínum og vinnuflæði."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Síðu hliðarspjald",
+      "description": "Síðu hliðarspjaldseiginleikinn gerir þér kleift að bæta hliðarspjaldi við vefsíður án þess að opna innbyggt hliðarspjald vafrans. Þetta er sérstaklega gagnlegt fyrir notendur með minni skjái sem finna hliðarspjald vafrans of breitt eða óþjált. Þó að síðu hliðarspjaldið bjóði upp á takmarkaða virkni vegna ákveðinna takmarkana, veitir það þéttari valkost. Þegar virkt er, geturðu nálgast hliðarspjaldið með því að sveima músinni yfir brún gluggans.",
+      "usageRestrictions": "Notkunartakmarkanir",
+      "sidebarEnabled": {
+        "label": "Virkja hliðarspjald",
+        "description": "Skipta til að virkja eða slökkva á síðu hliðarspjaldinu"
+      },
+      "sidebarPosition": {
+        "label": "Staðsetning hliðarspjalds",
+        "description": "Veldu hvar hliðarspjaldið birtist á síðunni",
+        "left": "Vinstri",
+        "right": "Hægri"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Takmarkanir efnisforrita",
+        "warningMessage": "Efnisforrit eru lítil forrit sem bæta vefsíður með viðbótareiginleikum. Hins vegar, vegna öryggis- og persónuverndartakmarkana, geta þessi forrit ekki keyrt á ákveðnum tegundum síðna. Þess vegna gæti hliðarspjaldið ekki birst á eftirfarandi:",
+        "webStore": "Vafraviðbótaverslanir (t.d. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Innri síður vafrans (byrja á chrome://, edge://, eða about://)",
+        "fileUrls": "Staðbundnar skrár á tölvunni þinni (byrja á file://)",
+        "extensionsPages": "Síður frá öðrum vafraviðbótum (byrja á chrome-extension:// eða extension:// eða svipað)",
+        "protectedPages": "Vefsíður með ströngum öryggisstefnum",
+        "pdfViewer": "Innbyggðar PDF skoðunarsíður",
+        "newTabPage": "Nýjar flipasíður (byrja á chrome://newtab/ eða edge://newtab/ eða svipað)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Búðu til og stjórnaðu skjámyndum.",
     "createSnapshot": "Búa til skjámynd",
     "exportSnapshot": "Flytja út skjámynd",
-    "restoreWindowSize":"Endurheimta gluggastöðu og stærð",
+    "restoreWindowSize": "Endurheimta gluggastöðu og stærð",
     "openAllWindows": "Opna öll glugga",
     "openSelectedInNewWindow": "Opna valda í nýjum glugga",
     "openSelectedInCurrentWindow": "Opna valda í núverandi glugga",

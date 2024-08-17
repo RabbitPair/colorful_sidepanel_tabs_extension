@@ -559,6 +559,38 @@
         "downloadOnly": "Vain lataus",
         "staySynchronized": "Pysy synkronoituna"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Olemme havainneet, että nykyinen näytön resoluutio saattaa vaikuttaa kokemukseesi sivupaneelin kanssa. Selaimen rajoitusten vuoksi sivupaneelin vähimmäisleveys on 360 pikseliä. Nykyisellä resoluutiollasi sivupaneeli voi viedä {{percent}}% näytöstäsi.\n\nParantaaksesi käyttökokemustasi harkitse näytön resoluution säätämistä. Tässä on oppaita, jotka auttavat sinua:\n\n- Windows-käyttäjille: [Muuta näytön resoluutiota Windowsissa](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac-käyttäjille: [Muuta Macin näytön resoluutiota](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSäädä vain, jos se on tarpeen mukavuuden ja käytön kannalta.",
+        "scaleWarningMessage": "Nykyinen näytön skaalaus on asetettu {{scale}}%. Suurempi skaalaus tekee käyttöliittymän elementeistä suurempia, mutta vähentää käytettävissä olevaa tilaa. Skaalauksen pienentäminen näyttää enemmän sisältöä, mutta pienentää elementtien kokoa. Valitse asetus, joka parhaiten sopii lukumukavuuteesi ja työnkulun tarpeisiisi."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sivupaneeli sivuilla",
+      "description": "Sivupaneeli-sivutoiminnon avulla voit lisätä sivupaneelin verkkosivuille avaamatta selaimen sisäänrakennettua sivupaneelia. Tämä on erityisen hyödyllistä käyttäjille, joilla on pienemmät näytöt ja jotka pitävät selaimen sivupaneelia liian leveänä tai joustamattomana. Vaikka sivupaneeli tarjoaa rajoitetun toiminnallisuuden tiettyjen rajoitusten vuoksi, se tarjoaa kompaktimman vaihtoehdon. Kun se on käytössä, voit käyttää sivupaneelia viemällä hiiren ikkunan reunan yli.",
+      "usageRestrictions": "Käyttörajoitukset",
+      "sidebarEnabled": {
+        "label": "Ota sivupaneeli käyttöön",
+        "description": "Vaihda sivupaneelin aktivoimiseksi tai deaktivoinniksi"
+      },
+      "sidebarPosition": {
+        "label": "Sivupaneelin sijainti",
+        "description": "Valitse, missä sivupaneeli näkyy sivulla",
+        "left": "Vasemmalla",
+        "right": "Oikealla"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Sisältöskriptien rajoitukset",
+        "warningMessage": "Sisältöskriptit ovat pieniä ohjelmia, jotka parantavat verkkosivuja lisäominaisuuksilla. Turvallisuus- ja yksityisyysrajoitusten vuoksi nämä skriptit eivät kuitenkaan voi toimia tietyntyyppisillä sivuilla. Tämän seurauksena sivupaneeli ei välttämättä näy seuraavilla sivuilla:",
+        "webStore": "Selaimen laajennuskaupat (esim. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Selaimen sisäiset sivut (alkaen chrome://, edge:// tai about://)",
+        "fileUrls": "Paikalliset tiedostot tietokoneellasi (alkaen file://)",
+        "extensionsPages": "Muiden selaimen laajennusten sivut (alkaen chrome-extension:// tai extension:// tai vastaavat)",
+        "protectedPages": "Verkkosivustot, joilla on tiukat sisältöturvakäytännöt",
+        "pdfViewer": "Sisäänrakennetun PDF-katseluohjelman sivut",
+        "newTabPage": "Uuden välilehden sivut (alkaen chrome://newtab/ tai edge://newtab/ tai vastaavat)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Luo ja hallitse tilannekuvia.",
     "createSnapshot": "Luo tilannekuva",
     "exportSnapshot": "Vie tilannekuva",
-    "restoreWindowSize":"Palauta ikkunan sijainti ja koko",
+    "restoreWindowSize": "Palauta ikkunan sijainti ja koko",
     "openAllWindows": "Avaa kaikki ikkunat",
     "openSelectedInNewWindow": "Avaa valitut uuteen ikkunaan",
     "openSelectedInCurrentWindow": "Avaa valitut nykyiseen ikkunaan",

@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "사이드 패널 열기"
+  },
+  "closeSidebar": {
+    "message": "사이드바 닫기"
+  },
+  "disableSidebar": {
+    "message": "사이드바 비활성화"
+  },
+  "disableSidebarAlert": {
+    "message": "모든 페이지에서 사이드바를 비활성화하시겠습니까? 다시 활성화하려면 설정 페이지로 이동하세요."
+  },
+  "toggleSidebarPosition": {
+    "message": "사이드바 위치 전환"
   }
 }

@@ -185,7 +185,7 @@
       "fluentOverlayScrollbars": {
         "label": "Barrau sgrolio llyfn",
         "description": "Defnyddiwch arddull dylunio Microsoft Fluent ar y barrau sgrolio a'u gorlwytho ar gynnwys y we",
-         "goToBrowserSettings": "Ewch i osodiadau'r porwr"
+        "goToBrowserSettings": "Ewch i osodiadau'r porwr"
       }
     },
     "tabs": {
@@ -443,7 +443,6 @@
         "label": "PIP wrth Droi Tab",
         "description": "Pan fydd wedi'i alluogi, bydd Mewnbynnu'n Ddelwedd mewn Delwedd yn awtomatig wrth droi tabiau gyda fideo heb eu sain.",
         "globaldisabledTips": "Mae'n rhaid i chi alluogi'r nodwedd Delwedd-mewn-Delwedd yn y gosodiadau cyffredinol i newid y gosodiad hwn."
-     
       },
       "clearHistoyAfterCLose": {
         "label": "Clirio hanes ar ôl cau",
@@ -560,6 +559,38 @@
         "downloadOnly": "lawrlwytho'n unig",
         "staySynchronized": "Aros yn gyfatebol"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Rydym wedi canfod y gall eich penderfyniad sgrin gyfredol effeithio ar eich profiad gyda'r panel ochr. Oherwydd cyfyngiadau porwr, lled lleiaf y panel ochr yw 360 picsel. Ar eich penderfyniad cyfredol, gall y panel ochr feddiannu {{percent}}% o'ch sgrin.\n\nI wella eich profiad, ystyriwch addasu eich penderfyniad sgrin. Dyma ganllawiau i'ch helpu:\n\n- Ar gyfer defnyddwyr Windows: [Newid eich penderfyniad sgrin yn Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Ar gyfer defnyddwyr Mac: [Newid penderfyniad arddangos eich Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAddaswch yn unig os oes angen ar gyfer eich cysur a'ch defnydd.",
+        "scaleWarningMessage": "Mae eich graddfa arddangos gyfredol wedi'i gosod i {{scale}}%. Mae graddfa uwch yn gwneud elfennau rhyngwyneb yn fwy ond yn lleihau'r gofod sydd ar gael. Bydd lleihau'r raddfa yn dangos mwy o gynnwys ond yn lleihau maint yr elfennau. Dewiswch osodiad sy'n gweddu orau i'ch cysur darllen a'ch anghenion llif gwaith."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bar Ochr Tudalen",
+      "description": "Mae'r nodwedd bar ochr tudalen yn caniatáu ichi ychwanegu bar ochr at dudalennau gwe heb agor bar ochr adeiledig y porwr. Mae hyn yn arbennig o ddefnyddiol i ddefnyddwyr gyda sgriniau llai sy'n canfod bod bar ochr y porwr yn rhy lydan neu'n anhyblyg. Er bod y bar ochr tudalen yn cynnig ymarferoldeb cyfyngedig oherwydd cyfyngiadau penodol, mae'n darparu dewis arall mwy cryno. Pan fydd wedi'i alluogi, gallwch gael mynediad at y bar ochr trwy hofran eich llygoden dros ymyl y ffenestr.",
+      "usageRestrictions": "Cyfyngiadau Defnydd",
+      "sidebarEnabled": {
+        "label": "Galluogi Bar Ochr",
+        "description": "Toglo i actifadu neu ddadactifadu'r bar ochr tudalen"
+      },
+      "sidebarPosition": {
+        "label": "Safle Bar Ochr",
+        "description": "Dewiswch ble mae'r bar ochr yn ymddangos ar y dudalen",
+        "left": "Chwith",
+        "right": "Dde"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Cyfyngiadau Sgript Cynnwys",
+        "warningMessage": "Mae sgriptiau cynnwys yn rhaglenni bach sy'n gwella tudalennau gwe gyda nodweddion ychwanegol. Fodd bynnag, oherwydd cyfyngiadau diogelwch a phreifatrwydd, ni all y sgriptiau hyn redeg ar rai mathau o dudalennau. O ganlyniad, efallai na fydd y bar ochr yn ymddangos ar y canlynol:",
+        "webStore": "Siopau estyniadau porwr (e.e., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Tudalennau mewnol porwr (yn dechrau gyda chrome://, edge://, neu about://)",
+        "fileUrls": "Ffeiliau lleol ar eich cyfrifiadur (yn dechrau gyda file://)",
+        "extensionsPages": "Tudalennau o estyniadau porwr eraill (yn dechrau gyda chrome-extension:// neu extension:// neu debyg)",
+        "protectedPages": "Gwefannau gyda Pholisïau Diogelwch Cynnwys llym",
+        "pdfViewer": "Tudalennau gwylio PDF adeiledig",
+        "newTabPage": "Tudalennau Tab Newydd (yn dechrau gyda chrome://newtab/ neu edge://newtab/ neu debyg)"
+      }
     }
   },
   "snapshots": {
@@ -567,7 +598,7 @@
     "description": "Creu a rheoli lluniau.",
     "createSnapshot": "Creu Llun",
     "exportSnapshot": "Allforio Llun",
-    "restoreWindowSize":"Adfer safle a maint y ffenestr",
+    "restoreWindowSize": "Adfer safle a maint y ffenestr",
     "openAllWindows": "Agor Pob Ffenestr",
     "openSelectedInNewWindow": "Agor y Dewis Mewn Ffenestr Newydd",
     "openSelectedInCurrentWindow": "Agor y Dewis Mewn Ffenestr Bresennol",

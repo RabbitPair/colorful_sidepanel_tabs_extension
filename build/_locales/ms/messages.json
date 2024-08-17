@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Buka Panel Sisi"
+  },
+  "closeSidebar": {
+    "message": "Tutup sidebar"
+  },
+  "disableSidebar": {
+    "message": "Nyahdayakan sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Adakah anda pasti mahu menyahdayakan sidebar pada semua halaman? Untuk mengaktifkan semula, sila pergi ke halaman tetapan."
+  },
+  "toggleSidebarPosition": {
+    "message": "Togol kedudukan sidebar"
   }
 }

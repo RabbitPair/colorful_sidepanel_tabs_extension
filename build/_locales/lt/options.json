@@ -559,6 +559,38 @@
         "downloadOnly": "Tik atsisiųsti",
         "staySynchronized": "Išlikti sinchronizuotam"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Aptikome, kad jūsų dabartinė ekrano raiška gali paveikti jūsų patirtį su šonine juosta. Dėl naršyklės apribojimų, minimalus šoninės juostos plotis yra 360 pikselių. Esant dabartinei raiškai, šoninė juosta gali užimti {{percent}}% jūsų ekrano.\n\nNorėdami pagerinti savo patirtį, apsvarstykite galimybę pakeisti ekrano raišką. Štai keletas vadovų, kurie gali padėti:\n\n- Windows naudotojams: [Keisti ekrano raišką Windows sistemoje](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac naudotojams: [Keisti Mac ekrano raišką](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPrašome reguliuoti tik jei būtina jūsų patogumui ir naudojimui.",
+        "scaleWarningMessage": "Jūsų dabartinis ekrano mastelis nustatytas į {{scale}}%. Didesnis mastelis padidina sąsajos elementus, bet sumažina turimą vietą. Sumažinus mastelį, bus rodomas daugiau turinio, bet sumažės elementų dydis. Prašome pasirinkti nustatymą, kuris geriausiai atitinka jūsų skaitymo patogumą ir darbo eigą."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Puslapio šoninė juosta",
+      "description": "Puslapio šoninės juostos funkcija leidžia pridėti šoninę juostą prie tinklalapių neatidarant naršyklės įmontuotos šoninės juostos. Tai ypač naudinga naudotojams su mažesniais ekranais, kurie mano, kad naršyklės šoninė juosta yra per plati arba nelanksti. Nors puslapio šoninė juosta siūlo ribotą funkcionalumą dėl tam tikrų apribojimų, ji suteikia kompaktiškesnę alternatyvą. Kai įjungta, galite pasiekti šoninę juostą užvedę pelę ant lango krašto.",
+      "usageRestrictions": "Naudojimo apribojimai",
+      "sidebarEnabled": {
+        "label": "Įjungti šoninę juostą",
+        "description": "Perjungti, kad įjungtumėte arba išjungtumėte puslapio šoninę juostą"
+      },
+      "sidebarPosition": {
+        "label": "Šoninės juostos padėtis",
+        "description": "Pasirinkite, kur puslapyje rodoma šoninė juosta",
+        "left": "Kairėje",
+        "right": "Dešinėje"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Turinio scenarijų apribojimai",
+        "warningMessage": "Turinio scenarijai yra maži programos, kurios praturtina tinklalapius papildomomis funkcijomis. Tačiau dėl saugumo ir privatumo apribojimų šie scenarijai negali veikti tam tikrų tipų puslapiuose. Dėl to šoninė juosta gali nerodyti šiuose puslapiuose:",
+        "webStore": "Naršyklės plėtinių parduotuvės (pvz., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Naršyklės vidiniai puslapiai (prasidedantys chrome://, edge:// arba about://)",
+        "fileUrls": "Vietiniai failai jūsų kompiuteryje (prasidedantys file://)",
+        "extensionsPages": "Kitų naršyklės plėtinių puslapiai (prasidedantys chrome-extension:// arba extension:// arba panašiai)",
+        "protectedPages": "Tinklalapiai su griežtomis turinio saugumo politikomis",
+        "pdfViewer": "Įmontuoti PDF peržiūros puslapiai",
+        "newTabPage": "Naujo skirtuko puslapiai (prasidedantys chrome://newtab/ arba edge://newtab/ arba panašiai)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Kurti ir valdyti momentines kopijas.",
     "createSnapshot": "Sukurti momentinę kopiją",
     "exportSnapshot": "Eksportuoti momentinę kopiją",
-    "restoreWindowSize":"Atkurti lango padėtį ir dydį",
+    "restoreWindowSize": "Atkurti lango padėtį ir dydį",
     "openAllWindows": "Atidaryti visus langus",
     "openSelectedInNewWindow": "Atidaryti pasirinktus naujame lange",
     "openSelectedInCurrentWindow": "Atidaryti pasirinktus dabartiniame lange",

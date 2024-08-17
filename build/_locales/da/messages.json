@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Åbn sidepanel"
+  },
+  "closeSidebar": {
+    "message": "Luk sidebjælke"
+  },
+  "disableSidebar": {
+    "message": "Deaktiver sidebjælke"
+  },
+  "disableSidebarAlert": {
+    "message": "Er du sikker på, at du vil deaktivere sidebjælken på alle sider? For at genaktivere, gå venligst til indstillingssiden."
+  },
+  "toggleSidebarPosition": {
+    "message": "Skift sidebjælkens position"
   }
 }

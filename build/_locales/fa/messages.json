@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "باز کردن پانل کناری"
+  },
+  "closeSidebar": {
+    "message": "بستن پانل کناری"
+  },
+  "disableSidebar": {
+    "message": "غیرفعال کردن پانل کناری"
+  },
+  "disableSidebarAlert": {
+    "message": "آیا مطمئن هستید که می‌خواهید پانل کناری را در همه صفحات غیرفعال کنید؟ برای فعال‌سازی مجدد، لطفاً به صفحه تنظیمات بروید."
+  },
+  "toggleSidebarPosition": {
+    "message": "تغییر موقعیت پانل کناری"
   }
 }

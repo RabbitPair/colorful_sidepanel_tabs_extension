@@ -495,7 +495,7 @@
         "siteConfig": "Pengaturan Situs",
         "siteConfigInfo": "seperti dapat dibuang secara otomatis, gambar-dalam-gambar pada Pergantian Tab, bilah kemajuan membaca, bilah kemajuan pemutaran, dll.",
         "recentlyTabs": "Tab yang baru saja ditutup",
-        "snapshots":"Cuplikan"
+        "snapshots": "Cuplikan"
       },
       "cancelBtn": "Batal",
       "exportBtn": "Ekspor",
@@ -559,6 +559,38 @@
         "downloadOnly": "Hanya unduh",
         "staySynchronized": "Tetap sinkron"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Kami mendeteksi bahwa resolusi layar Anda saat ini dapat memengaruhi pengalaman Anda dengan panel samping. Karena keterbatasan browser, lebar minimum panel samping adalah 360 piksel. Pada resolusi Anda saat ini, panel samping dapat menempati {{percent}}% dari layar Anda.\n\nUntuk meningkatkan pengalaman Anda, pertimbangkan untuk menyesuaikan resolusi layar Anda. Berikut adalah panduan untuk membantu Anda:\n\n- Untuk pengguna Windows: [Ubah resolusi layar Anda di Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Untuk pengguna Mac: [Ubah resolusi tampilan Mac Anda](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSilakan sesuaikan hanya jika diperlukan untuk kenyamanan dan penggunaan Anda.",
+        "scaleWarningMessage": "Skala tampilan Anda saat ini diatur ke {{scale}}%. Skala yang lebih tinggi membuat elemen antarmuka lebih besar tetapi mengurangi ruang yang tersedia. Menurunkan skala akan menampilkan lebih banyak konten tetapi mengurangi ukuran elemen. Silakan pilih pengaturan yang paling sesuai dengan kenyamanan membaca dan kebutuhan alur kerja Anda."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Panel Samping Halaman",
+      "description": "Fitur panel samping halaman memungkinkan Anda menambahkan panel samping ke halaman web tanpa membuka panel samping bawaan browser. Ini sangat berguna bagi pengguna dengan layar yang lebih kecil yang merasa panel samping browser terlalu lebar atau tidak fleksibel. Meskipun panel samping halaman menawarkan fungsionalitas terbatas karena beberapa batasan, ini memberikan alternatif yang lebih ringkas. Ketika diaktifkan, Anda dapat mengakses panel samping dengan mengarahkan mouse Anda ke tepi jendela.",
+      "usageRestrictions": "Batasan Penggunaan",
+      "sidebarEnabled": {
+        "label": "Aktifkan Panel Samping",
+        "description": "Alihkan untuk mengaktifkan atau menonaktifkan panel samping halaman"
+      },
+      "sidebarPosition": {
+        "label": "Posisi Panel Samping",
+        "description": "Pilih di mana panel samping muncul di halaman",
+        "left": "Kiri",
+        "right": "Kanan"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Batasan Skrip Konten",
+        "warningMessage": "Skrip konten adalah program kecil yang meningkatkan halaman web dengan fitur tambahan. Namun, karena batasan keamanan dan privasi, skrip ini tidak dapat berjalan di jenis halaman tertentu. Akibatnya, panel samping mungkin tidak muncul di halaman berikut:",
+        "webStore": "Toko ekstensi browser (misalnya, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Halaman internal browser (dimulai dengan chrome://, edge://, atau about://)",
+        "fileUrls": "File lokal di komputer Anda (dimulai dengan file://)",
+        "extensionsPages": "Halaman dari ekstensi browser lain (dimulai dengan chrome-extension:// atau extension:// atau serupa)",
+        "protectedPages": "Situs web dengan Kebijakan Keamanan Konten yang ketat",
+        "pdfViewer": "Halaman penampil PDF bawaan",
+        "newTabPage": "Halaman Tab Baru (dimulai dengan chrome://newtab/ atau edge://newtab/ atau serupa)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Buat dan kelola snapshot.",
     "createSnapshot": "Buat Snapshot",
     "exportSnapshot": "Ekspor Snapshot",
-    "restoreWindowSize":"Pulihkan posisi dan ukuran jendela",
+    "restoreWindowSize": "Pulihkan posisi dan ukuran jendela",
     "openAllWindows": "Buka Semua Jendela",
     "openSelectedInNewWindow": "Buka yang Dipilih di Jendela Baru",
     "openSelectedInCurrentWindow": "Buka yang Dipilih di Jendela Saat Ini",

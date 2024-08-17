@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Otvoriť bočný panel"
+  },
+  "closeSidebar": {
+    "message": "Zatvoriť bočný panel"
+  },
+  "disableSidebar": {
+    "message": "Zakázať bočný panel"
+  },
+  "disableSidebarAlert": {
+    "message": "Ste si istí, že chcete zakázať bočný panel na všetkých stránkach? Ak ho chcete znova povoliť, prejdite na stránku nastavení."
+  },
+  "toggleSidebarPosition": {
+    "message": "Prepnúť polohu bočného panela"
   }
 }

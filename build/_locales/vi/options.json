@@ -559,6 +559,38 @@
         "downloadOnly": "Chỉ tải xuống",
         "staySynchronized": "Giữ đồng bộ"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Chúng tôi đã phát hiện rằng độ phân giải màn hình hiện tại của bạn có thể ảnh hưởng đến trải nghiệm của bạn với bảng điều khiển bên. Do hạn chế của trình duyệt, chiều rộng tối thiểu của bảng điều khiển bên là 360 pixel. Ở độ phân giải hiện tại của bạn, bảng điều khiển bên có thể chiếm {{percent}}% màn hình của bạn.\n\nĐể cải thiện trải nghiệm của bạn, hãy cân nhắc điều chỉnh độ phân giải màn hình của bạn. Dưới đây là các hướng dẫn để giúp bạn:\n\n- Đối với người dùng Windows: [Thay đổi độ phân giải màn hình trong Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Đối với người dùng Mac: [Thay đổi độ phân giải màn hình Mac của bạn](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVui lòng chỉ điều chỉnh nếu cần thiết cho sự thoải mái và sử dụng của bạn.",
+        "scaleWarningMessage": "Tỷ lệ hiển thị hiện tại của bạn được đặt thành {{scale}}%. Tỷ lệ cao hơn làm cho các yếu tố giao diện lớn hơn nhưng giảm không gian có sẵn. Giảm tỷ lệ sẽ hiển thị nhiều nội dung hơn nhưng giảm kích thước yếu tố. Vui lòng chọn cài đặt phù hợp nhất với sự thoải mái khi đọc và nhu cầu làm việc của bạn."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Thanh bên trang",
+      "description": "Tính năng thanh bên trang cho phép bạn thêm thanh bên vào các trang web mà không cần mở thanh bên tích hợp của trình duyệt. Điều này đặc biệt hữu ích cho người dùng có màn hình nhỏ hơn thấy thanh bên của trình duyệt quá rộng hoặc không linh hoạt. Mặc dù thanh bên trang cung cấp chức năng hạn chế do một số hạn chế nhất định, nó cung cấp một giải pháp thay thế nhỏ gọn hơn. Khi được bật, bạn có thể truy cập thanh bên bằng cách di chuột qua cạnh của cửa sổ.",
+      "usageRestrictions": "Hạn chế sử dụng",
+      "sidebarEnabled": {
+        "label": "Bật thanh bên",
+        "description": "Chuyển đổi để kích hoạt hoặc hủy kích hoạt thanh bên trang"
+      },
+      "sidebarPosition": {
+        "label": "Vị trí thanh bên",
+        "description": "Chọn nơi thanh bên xuất hiện trên trang",
+        "left": "Trái",
+        "right": "Phải"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Hạn chế của Script nội dung",
+        "warningMessage": "Các script nội dung là các chương trình nhỏ tăng cường các trang web với các tính năng bổ sung. Tuy nhiên, do các hạn chế về bảo mật và quyền riêng tư, các script này không thể chạy trên một số loại trang nhất định. Do đó, thanh bên có thể không xuất hiện trên các trang sau:",
+        "webStore": "Cửa hàng tiện ích mở rộng của trình duyệt (ví dụ: Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Các trang nội bộ của trình duyệt (bắt đầu bằng chrome://, edge://, hoặc about://)",
+        "fileUrls": "Các tệp cục bộ trên máy tính của bạn (bắt đầu bằng file://)",
+        "extensionsPages": "Các trang từ các tiện ích mở rộng khác của trình duyệt (bắt đầu bằng chrome-extension:// hoặc extension:// hoặc tương tự)",
+        "protectedPages": "Các trang web có Chính sách Bảo mật Nội dung nghiêm ngặt",
+        "pdfViewer": "Các trang trình xem PDF tích hợp",
+        "newTabPage": "Các trang Tab mới (bắt đầu bằng chrome://newtab/ hoặc edge://newtab/ hoặc tương tự)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Tạo và quản lý ảnh chụp nhanh.",
     "createSnapshot": "Tạo ảnh chụp nhanh",
     "exportSnapshot": "Xuất ảnh chụp nhanh",
-    "restoreWindowSize":"Khôi phục vị trí và kích thước cửa sổ",
+    "restoreWindowSize": "Khôi phục vị trí và kích thước cửa sổ",
     "openAllWindows": "Mở tất cả cửa sổ",
     "openSelectedInNewWindow": "Mở mục đã chọn trong cửa sổ mới",
     "openSelectedInCurrentWindow": "Mở mục đã chọn trong cửa sổ hiện tại",

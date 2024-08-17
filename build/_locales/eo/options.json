@@ -559,6 +559,38 @@
         "downloadOnly": "Nur elŝuti",
         "staySynchronized": "Resti sinkronizita"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Ni detektis, ke via nuna ekrana rezolucio povas influi vian sperton kun la flanka panelo. Pro retumilaj limigoj, la minimuma larĝo de la flanka panelo estas 360 pikseloj. Kun via nuna rezolucio, la flanka panelo povas okupi {{percent}}% de via ekrano.\n\nPor plibonigi vian sperton, konsideru ĝustigi vian ekranan rezolucion. Jen gvidiloj por helpi vin:\n\n- Por Windows-uzantoj: [Ŝanĝi vian ekranan rezolucion en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Por Mac-uzantoj: [Ŝanĝi vian Mac-ekranan rezolucion](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nBonvolu ĝustigi nur se necese por via komforto kaj uzo.",
+        "scaleWarningMessage": "Via nuna ekrana skalo estas agordita al {{scale}}%. Pli alta skalo faras interfaca elementoj pli grandaj sed reduktas disponeblan spacon. Malaltigi la skalon montros pli da enhavo sed malpliigos elementan grandecon. Bonvolu elekti agordon, kiu plej taŭgas por via legokomforto kaj laborkvanto."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Paĝa Flanka Panelo",
+      "description": "La paĝa flanka panelo permesas al vi aldoni flankpanelon al retpaĝoj sen malfermi la enkonstruitan flankpanelon de la retumilo. Ĉi tio estas precipe utila por uzantoj kun pli malgrandaj ekranoj, kiuj trovas la retumilan flankpanelon tro larĝa aŭ nefleksebla. Dum la paĝa flankpanelo ofertas limigitan funkciecon pro certaj restriktoj, ĝi provizas pli kompakta alternativo. Kiam aktivigita, vi povas aliri la flankpanelon per movi vian muson super la rando de la fenestro.",
+      "usageRestrictions": "Uzaj Limigoj",
+      "sidebarEnabled": {
+        "label": "Aktivigi Flankpanelon",
+        "description": "Ŝaltilo por aktivigi aŭ malaktivigi la paĝan flankpanelon"
+      },
+      "sidebarPosition": {
+        "label": "Flankpanelo Pozicio",
+        "description": "Elektu kie la flankpanelo aperas sur la paĝo",
+        "left": "Maldekstre",
+        "right": "Dekstre"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Enhava Skripto Limigoj",
+        "warningMessage": "Enhavaj skriptoj estas malgrandaj programoj, kiuj plibonigas retpaĝojn per aldonaj funkcioj. Tamen, pro sekurecaj kaj privatecaj restriktoj, ĉi tiuj skriptoj ne povas funkcii sur certaj specoj de paĝoj. Kiel rezulto, la flankpanelo eble ne aperos en la sekvaj:",
+        "webStore": "Retumilaj etendaĵaj vendejoj (ekz., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Retumilaj internaj paĝoj (komencantaj per chrome://, edge://, aŭ about://)",
+        "fileUrls": "Lokaj dosieroj en via komputilo (komencantaj per file://)",
+        "extensionsPages": "Paĝoj de aliaj retumilaj etendaĵoj (komencantaj per chrome-extension:// aŭ extension:// aŭ simile)",
+        "protectedPages": "Retejoj kun striktaj Enhavaj Sekurecaj Politikoj",
+        "pdfViewer": "Enkonstruitaj PDF-videilaj paĝoj",
+        "newTabPage": "Novaj Langetaj paĝoj (komencantaj per chrome://newtab/ aŭ edge://newtab/ aŭ simile)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Krei kaj administri momentfotojn.",
     "createSnapshot": "Krei Momentfoton",
     "exportSnapshot": "Eksporti Momentfoton",
-    "restoreWindowSize":"Restarigi fenestran pozicion kaj grandecon",
+    "restoreWindowSize": "Restarigi fenestran pozicion kaj grandecon",
     "openAllWindows": "Malfermi Ĉiujn Fenestrojn",
     "openSelectedInNewWindow": "Malfermi Elektitajn en Nova Fenestro",
     "openSelectedInCurrentWindow": "Malfermi Elektitajn en Nuna Fenestro",

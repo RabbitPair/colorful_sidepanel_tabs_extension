@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Oldalsó panel megnyitása"
+  },
+  "closeSidebar": {
+    "message": "Oldalsó sáv bezárása"
+  },
+  "disableSidebar": {
+    "message": "Oldalsó sáv letiltása"
+  },
+  "disableSidebarAlert": {
+    "message": "Biztosan le szeretné tiltani az oldalsó sávot az összes oldalon? Az újbóli engedélyezéshez kérjük, menjen a beállítások oldalra."
+  },
+  "toggleSidebarPosition": {
+    "message": "Oldalsó sáv pozíciójának váltása"
   }
 }

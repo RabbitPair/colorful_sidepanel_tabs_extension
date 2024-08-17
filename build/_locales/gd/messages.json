@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Fosgail am Pannal Taobh"
+  },
+  "closeSidebar": {
+    "message": "Dùin am bàr-taobh"
+  },
+  "disableSidebar": {
+    "message": "Cuir à comas am bàr-taobh"
+  },
+  "disableSidebarAlert": {
+    "message": "A bheil thu cinnteach gu bheil thu airson am bàr-taobh a chur à comas air gach duilleag? Gus ath-chomasachadh, rachaibh gu duilleag nan roghainnean."
+  },
+  "toggleSidebarPosition": {
+    "message": "Atharraich suidheachadh a' bhàr-taobh"
   }
 }

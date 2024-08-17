@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Yan Paneli Aç"
+  },
+  "closeSidebar": {
+    "message": "Yan Paneli Kapat"
+  },
+  "disableSidebar": {
+    "message": "Yan Paneli Devre Dışı Bırak"
+  },
+  "disableSidebarAlert": {
+    "message": "Yan paneli tüm sayfalarda devre dışı bırakmak istediğinizden emin misiniz? Yeniden etkinleştirmek için lütfen ayarlar sayfasına gidin."
+  },
+  "toggleSidebarPosition": {
+    "message": "Yan Panelin Konumunu Değiştir"
   }
 }

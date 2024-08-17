@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Buka Panel Samping"
+  },
+  "closeSidebar": {
+    "message": "Tutup sidebar"
+  },
+  "disableSidebar": {
+    "message": "Nonaktifkan sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Apakah Anda yakin ingin menonaktifkan sidebar di semua halaman? Untuk mengaktifkan kembali, silakan pergi ke halaman pengaturan."
+  },
+  "toggleSidebarPosition": {
+    "message": "Alihkan posisi sidebar"
   }
 }

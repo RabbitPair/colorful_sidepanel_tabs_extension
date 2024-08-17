@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Fungura Side Panel"
+  },
+  "closeSidebar": {
+    "message": "Funga sidebar"
+  },
+  "disableSidebar": {
+    "message": "Hagarika sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Urashaka koko guhagarika sidebar ku mapaji yose? Kugira ngo wongere uyifungure, jya ku ipaji y'ibikoresho."
+  },
+  "toggleSidebarPosition": {
+    "message": "Hindura umwanya wa sidebar"
   }
 }

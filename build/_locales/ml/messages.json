@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "സൈഡ് പാനൽ തുറക്കുക"
+  },
+  "closeSidebar": {
+    "message": "സൈഡ്ബാർ അടയ്ക്കുക"
+  },
+  "disableSidebar": {
+    "message": "സൈഡ്ബാർ അപ്രാപ്തമാക്കുക"
+  },
+  "disableSidebarAlert": {
+    "message": "എല്ലാ പേജുകളിലും സൈഡ്ബാർ അപ്രാപ്തമാക്കാൻ നിങ്ങൾക്ക് ഉറപ്പാണോ? വീണ്ടും പ്രാപ്തമാക്കാൻ, ക്രമീകരണ പേജിലേക്ക് പോകുക."
+  },
+  "toggleSidebarPosition": {
+    "message": "സൈഡ്ബാർ സ്ഥാനം മാറ്റുക"
   }
 }

@@ -559,6 +559,38 @@
         "downloadOnly": "I-download lamang",
         "staySynchronized": "Manatiling naka-sync"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Nakita namin na ang iyong kasalukuyang resolusyon ng screen ay maaaring makaapekto sa iyong karanasan sa side panel. Dahil sa mga limitasyon ng browser, ang minimum na lapad ng side panel ay 360 pixels. Sa iyong kasalukuyang resolusyon, maaaring sakupin ng side panel ang {{percent}}% ng iyong screen.\n\nUpang mapahusay ang iyong karanasan, isaalang-alang ang pag-aayos ng iyong resolusyon ng screen. Narito ang mga gabay upang matulungan ka:\n\n- Para sa mga gumagamit ng Windows: [Baguhin ang iyong resolusyon ng screen sa Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para sa mga gumagamit ng Mac: [Baguhin ang resolusyon ng display ng iyong Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMangyaring ayusin lamang kung kinakailangan para sa iyong kaginhawaan at paggamit.",
+        "scaleWarningMessage": "Ang kasalukuyang sukat ng iyong display ay nakatakda sa {{scale}}%. Ang mas mataas na sukat ay nagpapalaki ng mga elemento ng interface ngunit binabawasan ang magagamit na espasyo. Ang pagpapababa ng sukat ay magpapakita ng mas maraming nilalaman ngunit magpapaliit ng laki ng mga elemento. Mangyaring pumili ng setting na pinakaangkop sa iyong kaginhawaan sa pagbabasa at mga pangangailangan sa trabaho."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sidebar ng Pahina",
+      "description": "Ang tampok na sidebar ng pahina ay nagbibigay-daan sa iyo na magdagdag ng sidebar sa mga web page nang hindi binubuksan ang built-in na sidebar ng browser. Ito ay partikular na kapaki-pakinabang para sa mga gumagamit na may mas maliit na mga screen na natagpuan ang sidebar ng browser na masyadong malawak o hindi nababaluktot. Habang ang sidebar ng pahina ay nag-aalok ng limitadong pag-andar dahil sa ilang mga paghihigpit, nagbibigay ito ng mas compact na alternatibo. Kapag pinagana, maaari mong ma-access ang sidebar sa pamamagitan ng pag-hover ng iyong mouse sa gilid ng window.",
+      "usageRestrictions": "Mga Limitasyon sa Paggamit",
+      "sidebarEnabled": {
+        "label": "Paganahin ang Sidebar",
+        "description": "I-toggle upang i-activate o i-deactivate ang sidebar ng pahina"
+      },
+      "sidebarPosition": {
+        "label": "Posisyon ng Sidebar",
+        "description": "Piliin kung saan lilitaw ang sidebar sa pahina",
+        "left": "Kaliwa",
+        "right": "Kanan"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Mga Limitasyon ng Content Script",
+        "warningMessage": "Ang mga content script ay maliliit na programa na nagpapahusay sa mga web page na may karagdagang mga tampok. Gayunpaman, dahil sa mga paghihigpit sa seguridad at privacy, ang mga script na ito ay hindi maaaring tumakbo sa ilang uri ng mga pahina. Bilang resulta, maaaring hindi lumitaw ang sidebar sa mga sumusunod:",
+        "webStore": "Mga tindahan ng extension ng browser (hal., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Mga panloob na pahina ng browser (nagsisimula sa chrome://, edge://, o about://)",
+        "fileUrls": "Mga lokal na file sa iyong computer (nagsisimula sa file://)",
+        "extensionsPages": "Mga pahina mula sa iba pang mga extension ng browser (nagsisimula sa chrome-extension:// o extension:// o katulad)",
+        "protectedPages": "Mga website na may mahigpit na Mga Patakaran sa Seguridad ng Nilalaman",
+        "pdfViewer": "Mga built-in na pahina ng PDF viewer",
+        "newTabPage": "Mga pahina ng Bagong Tab (nagsisimula sa chrome://newtab/ o edge://newtab/ o katulad)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Gumawa at pamahalaan ang mga snapshot.",
     "createSnapshot": "Gumawa ng Snapshot",
     "exportSnapshot": "I-export ang Snapshot",
-    "restoreWindowSize":"Ibalik ang posisyon at laki ng bintana",
+    "restoreWindowSize": "Ibalik ang posisyon at laki ng bintana",
     "openAllWindows": "Buksan ang Lahat ng Mga Bintana",
     "openSelectedInNewWindow": "Buksan ang Napili sa Bagong Bintana",
     "openSelectedInCurrentWindow": "Buksan ang Napili sa Kasalukuyang Bintana",

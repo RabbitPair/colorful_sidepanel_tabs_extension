@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Buksan ang Side Panel"
+  },
+  "closeSidebar": {
+    "message": "Isara ang sidebar"
+  },
+  "disableSidebar": {
+    "message": "I-disable ang sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Sigurado ka bang gusto mong i-disable ang sidebar sa lahat ng mga pahina? Para muling paganahin, mangyaring pumunta sa pahina ng mga setting."
+  },
+  "toggleSidebarPosition": {
+    "message": "I-toggle ang posisyon ng sidebar"
   }
 }

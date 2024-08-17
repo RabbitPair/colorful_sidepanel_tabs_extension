@@ -214,7 +214,7 @@
       "pinedTabsAsIcons": {
         "label": "Erakutsi lankidun fitxak ikono gisa",
         "description": "Gaituta dagoenean, lankidun fitxak ikono gisa eta ez zerrendan erakutsiko dira"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Erakutsi sarbide azkarra",
         "description": "Fitxa bat sarbide azkarrean agertzeko ezar dezakezu, erraz aurkitzeko. Egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu Pin to Quick access. Ezabatu behar ez duzunean, egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu Delete from Quick access. Fitxa finkatuen desberdintasuna da Quick Access-ek URLa gordetzen duela eta fitxa berri bat irekitzen duela klik egiten den bakoitzean."
@@ -442,7 +442,7 @@
       "tabSwitchPip": {
         "label": "PIP fitxan aldatzean",
         "description": "Gaituta dagoenean, auto-sartu Picture-in-picture modura fitxak aldatzen direnean bideoa desgaitua duten fitxak.",
-         "globaldisabledTips": "Ezarpen hau aldatzeko, aktibatu Picture-in-picture ezarpen orokorretan."
+        "globaldisabledTips": "Ezarpen hau aldatzeko, aktibatu Picture-in-picture ezarpen orokorretan."
       },
       "clearHistoyAfterCLose": {
         "label": "Garbitu historia itxi ondoren",
@@ -559,6 +559,38 @@
         "downloadOnly": "Deskargatu soilik",
         "staySynchronized": "Jarraitu sinkronizatuta"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Zure egungo pantailaren bereizmenak alboko panelarekin izandako esperientzian eragina izan dezakeela detektatu dugu. Nabigatzailearen murrizketak direla eta, alboko panelaren gutxieneko zabalera 360 pixel da. Zure egungo bereizmenean, alboko panelak zure pantailaren {{percent}}% har dezake.\n\nZure esperientzia hobetzeko, kontuan hartu pantailaren bereizmena doitzea. Hona hemen lagungarri izan daitezkeen gidak:\n\n- Windows erabiltzaileentzat: [Aldatu zure pantailaren bereizmena Windowsean](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac erabiltzaileentzat: [Aldatu zure Mac pantailaren bereizmena](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMesedez, doitu beharrezkoa denean zure erosotasunerako eta erabilerarako.",
+        "scaleWarningMessage": "Zure egungo pantailaren eskala {{scale}}%-ra ezarrita dago. Eskala handiago batek interfaze elementuak handiagoak egiten ditu baina eskuragarri dagoen espazioa murrizten du. Eskala murrizteak eduki gehiago erakutsiko du baina elementuen tamaina murriztuko du. Mesedez, aukeratu zure irakurketa erosotasunerako eta lan-fluxuaren beharretarako egokiena den ezarpena."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Orriaren Alboko Panela",
+      "description": "Orriaren alboko panelaren funtzioak web orriei alboko panela gehitzeko aukera ematen dizu nabigatzailearen barneko alboko panela ireki gabe. Hau bereziki erabilgarria da pantaila txikiagoak dituzten erabiltzaileentzat, nabigatzailearen alboko panela zabalegia edo malgua ez dela iruditzen zaienentzat. Orriaren alboko panelak funtzionalitate mugatua eskaintzen duen arren murrizketa jakin batzuengatik, alternatiba trinkoagoa eskaintzen du. Aktibatuta dagoenean, alboko panelera sar zaitezke leihoaren ertzean saguarekin pasatuz.",
+      "usageRestrictions": "Erabilera Murrizketak",
+      "sidebarEnabled": {
+        "label": "Alboko Panela Gaitu",
+        "description": "Aldatu orriaren alboko panela aktibatzeko edo desaktibatzeko"
+      },
+      "sidebarPosition": {
+        "label": "Alboko Panelaren Posizioa",
+        "description": "Hautatu non agertuko den alboko panela orrian",
+        "left": "Ezkerrean",
+        "right": "Eskuinean"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Edukien Scripten Murrizketak",
+        "warningMessage": "Edukien scriptak web orriak ezaugarri gehigarriekin hobetzen dituzten programa txikiak dira. Hala ere, segurtasun eta pribatutasun murrizketak direla eta, script hauek ezin dira mota jakin batzuetako orrietan exekutatu. Ondorioz, alboko panela ez da agertuko honako hauetan:",
+        "webStore": "Nabigatzaileen luzapenen dendak (adibidez, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Nabigatzailearen barne orriak (chrome://, edge:// edo about:// hasten direnak)",
+        "fileUrls": "Zure ordenagailuko fitxategi lokalak (file:// hasten direnak)",
+        "extensionsPages": "Beste nabigatzaile luzapen batzuen orriak (chrome-extension:// edo extension:// edo antzekoak hasten direnak)",
+        "protectedPages": "Edukien Segurtasun Politika zorrotzak dituzten webguneak",
+        "pdfViewer": "Barneko PDF ikuslearen orriak",
+        "newTabPage": "Fitxa Berriaren orriak (chrome://newtab/ edo edge://newtab/ edo antzekoak hasten direnak)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Sortu eta kudeatu argazkiak.",
     "createSnapshot": "Sortu Argazkia",
     "exportSnapshot": "Esportatu Argazkia",
-    "restoreWindowSize":"Leihoaren posizioa eta tamaina berreskuratu",
+    "restoreWindowSize": "Leihoaren posizioa eta tamaina berreskuratu",
     "openAllWindows": "Ireki Leiho Guztiak",
     "openSelectedInNewWindow": "Ireki Hautatutakoak Leiho Berrian",
     "openSelectedInCurrentWindow": "Ireki Hautatutakoak Uneko Leihoan",

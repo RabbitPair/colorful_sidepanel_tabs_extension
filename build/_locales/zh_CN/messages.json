@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "打开侧边栏"
+  },
+  "closeSidebar": {
+    "message": "关闭侧边栏"
+  },
+  "disableSidebar": {
+    "message": "禁用侧边栏"
+  },
+  "disableSidebarAlert": {
+    "message": "您确定要禁用所有页面上的侧边栏吗？要重新启用，请转到设置页面。"
+  },
+  "toggleSidebarPosition": {
+    "message": "切换侧边栏位置"
   }
 }

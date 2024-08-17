@@ -559,6 +559,38 @@
         "downloadOnly": "Csak letöltés",
         "staySynchronized": "Maradjon szinkronizálva"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Észrevettük, hogy a jelenlegi képernyőfelbontás befolyásolhatja az oldalsó panel használatát. A böngésző korlátai miatt az oldalsó panel minimális szélessége 360 pixel. A jelenlegi felbontásnál az oldalsó panel a képernyő {{percent}}%-át foglalhatja el.\n\nA jobb felhasználói élmény érdekében fontolja meg a képernyőfelbontás módosítását. Az alábbi útmutatók segíthetnek:\n\n- Windows felhasználóknak: [Képernyőfelbontás módosítása Windowsban](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac felhasználóknak: [Mac kijelző felbontásának módosítása](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nKérjük, csak akkor módosítson, ha szükséges a kényelem és a használat érdekében.",
+        "scaleWarningMessage": "A jelenlegi kijelző méretezése {{scale}}%-ra van állítva. A nagyobb méretezés nagyobbá teszi a felület elemeit, de csökkenti a rendelkezésre álló helyet. A méretezés csökkentése több tartalmat jelenít meg, de csökkenti az elemek méretét. Kérjük, válasszon olyan beállítást, amely a legjobban megfelel az olvasási kényelemnek és a munkafolyamat igényeinek."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Oldalsó panel az oldalakon",
+      "description": "Az oldalsó panel funkció lehetővé teszi, hogy oldalsó panelt adjon a weboldalakhoz anélkül, hogy megnyitná a böngésző beépített oldalsó paneljét. Ez különösen hasznos a kisebb képernyővel rendelkező felhasználók számára, akik túl szélesnek vagy rugalmatlannak találják a böngésző oldalsó paneljét. Bár az oldalsó panel korlátozott funkcionalitást kínál bizonyos korlátozások miatt, kompaktabb alternatívát nyújt. Ha engedélyezve van, az oldalsó panelhez az egér ablak szélére húzásával férhet hozzá.",
+      "usageRestrictions": "Használati korlátozások",
+      "sidebarEnabled": {
+        "label": "Oldalsó panel engedélyezése",
+        "description": "Kapcsolja be vagy ki az oldalsó panelt"
+      },
+      "sidebarPosition": {
+        "label": "Oldalsó panel pozíciója",
+        "description": "Válassza ki, hol jelenjen meg az oldalsó panel az oldalon",
+        "left": "Bal",
+        "right": "Jobb"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Tartalmi szkriptek korlátozásai",
+        "warningMessage": "A tartalmi szkriptek kis programok, amelyek további funkciókkal bővítik a weboldalakat. Azonban a biztonsági és adatvédelmi korlátozások miatt ezek a szkriptek nem futtathatók bizonyos típusú oldalakon. Ennek eredményeként az oldalsó panel nem jelenhet meg a következő esetekben:",
+        "webStore": "Böngésző bővítmény áruházak (pl. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Böngésző belső oldalak (chrome://, edge:// vagy about:// kezdetűek)",
+        "fileUrls": "Helyi fájlok a számítógépen (file:// kezdetűek)",
+        "extensionsPages": "Más böngésző bővítmények oldalai (chrome-extension:// vagy extension:// kezdetűek vagy hasonlók)",
+        "protectedPages": "Weboldalak szigorú tartalombiztonsági szabályokkal",
+        "pdfViewer": "Beépített PDF megjelenítő oldalak",
+        "newTabPage": "Új lap oldalak (chrome://newtab/ vagy edge://newtab/ kezdetűek vagy hasonlók)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Pillanatképek létrehozása és kezelése.",
     "createSnapshot": "Pillanatkép létrehozása",
     "exportSnapshot": "Pillanatkép exportálása",
-    "restoreWindowSize":"Ablak pozíciójának és méretének visszaállítása",
+    "restoreWindowSize": "Ablak pozíciójának és méretének visszaállítása",
     "openAllWindows": "Összes ablak megnyitása",
     "openSelectedInNewWindow": "Kiválasztottak megnyitása új ablakban",
     "openSelectedInCurrentWindow": "Kiválasztottak megnyitása jelenlegi ablakban",

@@ -560,6 +560,38 @@
         "staySynchronized": "保持同步",
         "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "我们注意到您当前的屏幕分辨率可能会影响您使用侧边栏的体验。由于浏览器限制，侧边栏的最小宽度为360像素。在您当前的屏幕分辨率下，侧边栏可能会占用屏幕的 {{percent}}% 空间。\n为了改善使用体验，您可以考虑调整屏幕分辨率。以下是相关操作指南：\n - Windows用户：- [在 Windows 中更改屏幕分辨率](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n - Mac用户：[更改 Mac 显示器的分辨率](https://support.apple.com/guide/mac-help/mchl86d72b76)\n请根据您的实际需求决定是否进行调整。",
+        "scaleWarningMessage": "您当前的显示缩放比例为 {{scale}}%。较高的比例会使界面元素变大，侧边栏占用更多空间。降低比例可显示更多内容，但会使元素变小。请根据您的阅读舒适度选择合适的设置。"
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "网页侧边栏",
+      "description": "网页侧边栏功能让您无需打开浏览器自带的侧边栏，即可在网页中添加一个侧边栏。对于屏幕较小或觉得浏览器侧边栏过宽、不够灵活的用户来说，这个功能特别有用。虽然由于某些限制，网页侧边栏的功能相对有限，但它提供了一个更紧凑的替代选择。启用后，只需将鼠标悬停在窗口边缘即可呼出侧边栏。",
+      "usageRestrictions": "使用限制",
+      "sidebarEnabled": {
+        "label": "启用侧边栏",
+        "description": "开启或关闭网页侧边栏功能"
+      },
+      "sidebarPosition": {
+        "label": "侧边栏位置",
+        "description": "选择侧边栏在页面上的显示位置",
+        "left": "左侧",
+        "right": "右侧"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "内容脚本限制",
+        "warningMessage": "内容脚本是用于增强网页功能的小程序。但出于安全和隐私考虑，这些脚本无法在某些类型的页面上运行。因此，侧边栏可能无法在以下页面显示：",
+        "webStore": "浏览器扩展商店（如Chrome网上应用店、Microsoft Edge 应用商店）",
+        "internalPages": "浏览器内部页面（网址以chrome://、edge://或about://开头）",
+        "fileUrls": "本地文件（网址以file://开头）",
+        "extensionsPages": "其他浏览器扩展的页面（网址以chrome-extension://、extension://或类似格式开头）",
+        "protectedPages": "具有严格内容安全策略的网站",
+        "pdfViewer": "浏览器内置的PDF查看器页面",
+        "newTabPage": "新标签页（网址以chrome://newtab/、edge://newtab/或类似格式开头）"
+      }
     }
   },
   "snapshots": {
@@ -567,7 +599,7 @@
     "description": "创建和管理快照。",
     "createSnapshot": "创建快照",
     "exportSnapshot": "导出快照",
-    "restoreWindowSize":"恢复窗口位置和大小",
+    "restoreWindowSize": "恢复窗口位置和大小",
     "openAllWindows": "打开所有窗口",
     "openSelectedInNewWindow": "在新窗口中打开选定项",
     "openSelectedInCurrentWindow": "在当前窗口中打开选定项",

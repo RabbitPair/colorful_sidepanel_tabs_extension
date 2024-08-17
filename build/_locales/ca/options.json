@@ -495,7 +495,7 @@
         "siteConfig": "Configuració del lloc",
         "siteConfigInfo": "com ara descartable automàticament, picture-in-picture en canvi de pestanya, barra de progrés de lectura, barra de progrés de reproducció, etc.",
         "recentlyTabs": "Pestanyes tancades recentment",
-        "snapshots":"Captures de pantalla"
+        "snapshots": "Captures de pantalla"
       },
       "cancelBtn": "Cancel·la",
       "exportBtn": "Exportar",
@@ -559,6 +559,38 @@
         "downloadOnly": "Només baixar",
         "staySynchronized": "Mantenir sincronitzat"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Hem detectat que la resolució de pantalla actual pot afectar la teva experiència amb el panell lateral. A causa de les limitacions del navegador, l'amplada mínima del panell lateral és de 360 píxels. Amb la resolució actual, el panell lateral pot ocupar el {{percent}}% de la teva pantalla.\n\nPer millorar la teva experiència, considera ajustar la resolució de la pantalla. Aquí tens algunes guies per ajudar-te:\n\n- Per a usuaris de Windows: [Canvia la resolució de la pantalla a Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Per a usuaris de Mac: [Canvia la resolució de la pantalla del Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjusta només si és necessari per a la teva comoditat i ús.",
+        "scaleWarningMessage": "L'escala de visualització actual està configurada al {{scale}}%. Una escala més alta fa que els elements de la interfície siguin més grans però redueix l'espai disponible. Reduir l'escala mostrarà més contingut però disminuirà la mida dels elements. Tria una configuració que s'adapti millor a la teva comoditat de lectura i necessitats de treball."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barra lateral de la pàgina",
+      "description": "La funció de la barra lateral de la pàgina et permet afegir una barra lateral a les pàgines web sense obrir la barra lateral integrada del navegador. Això és especialment útil per als usuaris amb pantalles més petites que troben la barra lateral del navegador massa ampla o inflexible. Tot i que la barra lateral de la pàgina ofereix una funcionalitat limitada a causa de certes restriccions, proporciona una alternativa més compacta. Quan està habilitada, pots accedir a la barra lateral passant el ratolí per sobre de la vora de la finestra.",
+      "usageRestrictions": "Limitacions d'ús",
+      "sidebarEnabled": {
+        "label": "Habilitar la barra lateral",
+        "description": "Activa o desactiva la barra lateral de la pàgina"
+      },
+      "sidebarPosition": {
+        "label": "Posició de la barra lateral",
+        "description": "Selecciona on apareix la barra lateral a la pàgina",
+        "left": "Esquerra",
+        "right": "Dreta"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitacions dels scripts de contingut",
+        "warningMessage": "Els scripts de contingut són petits programes que milloren les pàgines web amb funcions addicionals. No obstant això, a causa de les restriccions de seguretat i privadesa, aquests scripts no poden executar-se en certs tipus de pàgines. Com a resultat, la barra lateral pot no aparèixer en les següents pàgines:",
+        "webStore": "Botigues d'extensions del navegador (per exemple, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Pàgines internes del navegador (que comencen amb chrome://, edge:// o about://)",
+        "fileUrls": "Fitxers locals al teu ordinador (que comencen amb file://)",
+        "extensionsPages": "Pàgines d'altres extensions del navegador (que comencen amb chrome-extension:// o extension:// o similar)",
+        "protectedPages": "Llocs web amb polítiques estrictes de seguretat de contingut",
+        "pdfViewer": "Pàgines del visor de PDF integrat",
+        "newTabPage": "Pàgines de nova pestanya (que comencen amb chrome://newtab/ o edge://newtab/ o similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Crea i gestiona snapshots.",
     "createSnapshot": "Crear snapshot",
     "exportSnapshot": "Exportar snapshot",
-    "restoreWindowSize":"Restaurar la posició i la mida de la finestra",
+    "restoreWindowSize": "Restaurar la posició i la mida de la finestra",
     "openAllWindows": "Obrir totes les finestres",
     "openSelectedInNewWindow": "Obrir seleccionats en una nova finestra",
     "openSelectedInCurrentWindow": "Obrir seleccionats en la finestra actual",

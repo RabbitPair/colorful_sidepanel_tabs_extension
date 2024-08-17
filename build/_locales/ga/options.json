@@ -304,7 +304,7 @@
       "tabSwitch": {
         "label": "PIP ar athrú cluaisíní",
         "description": "Iontráil PIP go huathoibríoch nuair a athraíonn tú cluaisíní le físeán gan fuaime",
-         "enabled": "Cumasaithe",
+        "enabled": "Cumasaithe",
         "disabled": "Díchumasaithe"
       },
       "scrollSwitch": {
@@ -495,7 +495,7 @@
         "siteConfig": "Socruithe Suímh",
         "siteConfigInfo": "cosúil le díchur uathoibríoch, pictiúr-i-bhpic ar Athrú Cluaisín, barra dul chun cinn léitheoireachta, barra dul chun cinn ag seinm, srl.",
         "recentlyTabs": "Cluaisíní dúnta le déanaí",
-        "snapshots":"Gabhálacha Scáileáin"
+        "snapshots": "Gabhálacha Scáileáin"
       },
       "cancelBtn": "Cealaigh",
       "exportBtn": "Easpórtáil",
@@ -559,6 +559,38 @@
         "downloadOnly": "Íoslódáil amháin",
         "staySynchronized": "Fan síochrónaithe"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Táimid tar éis a bhrath go bhféadfadh do rún scáileáin reatha dul i bhfeidhm ar do thaithí leis an bpainéal taobh. Mar gheall ar theorainneacha brabhsálaí, is é 360 picteilín leithead íosta an phainéil taobh. Ag do rún reatha, d'fhéadfadh an painéal taobh {{percent}}% de do scáileán a áitiú.\n\nChun do thaithí a fheabhsú, smaoinigh ar do rún scáileáin a choigeartú. Seo treoracha chun cabhrú leat:\n\n- Do úsáideoirí Windows: [Athraigh do rún scáileáin i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Do úsáideoirí Mac: [Athraigh rún do thaispeántais Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nCoigeartaigh ach amháin má tá sé riachtanach do do chompord agus úsáid.",
+        "scaleWarningMessage": "Tá do scála taispeána reatha socraithe ag {{scale}}%. Déanann scála níos airde eilimintí comhéadan níos mó ach laghdaíonn sé an spás atá ar fáil. Taispeánfaidh laghdú ar an scála níos mó ábhar ach laghdóidh sé méid na n-eilimintí. Roghnaigh socrú a oireann do do chompord léitheoireachta agus riachtanais sreafa oibre."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Painéal Taobh an Leathanaigh",
+      "description": "Ligeann an ghné painéil taobh an leathanaigh duit painéal taobh a chur le leathanaigh ghréasáin gan an painéal taobh ionsuite sa bhrabhsálaí a oscailt. Tá sé seo úsáideach go háirithe d'úsáideoirí le scáileáin níos lú a fhaigheann an painéal taobh brabhsálaí ró-leathan nó docht. Cé go dtugann an painéal taobh an leathanaigh feidhmiúlacht teoranta mar gheall ar shrianta áirithe, soláthraíonn sé rogha níos dlúithe. Nuair a bhíonn sé cumasaithe, is féidir leat rochtain a fháil ar an bpainéal taobh trí do luch a choinneáil thar imeall an fhuinneog.",
+      "usageRestrictions": "Teorainneacha Úsáide",
+      "sidebarEnabled": {
+        "label": "Cumasaigh Painéal Taobh",
+        "description": "Athraigh chun an painéal taobh an leathanaigh a ghníomhachtú nó a dhíghníomhachtú"
+      },
+      "sidebarPosition": {
+        "label": "Seasamh an Phainéil Taobh",
+        "description": "Roghnaigh cá háit a bhfuil an painéal taobh le feiceáil ar an leathanach",
+        "left": "Clé",
+        "right": "Deas"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Teorainneacha Script Ábhair",
+        "warningMessage": "Is cláir bheaga iad scripteanna ábhair a fheabhsaíonn leathanaigh ghréasáin le gnéithe breise. Mar sin féin, mar gheall ar shrianta slándála agus príobháideachta, ní féidir leis na scripteanna seo rith ar chineálacha áirithe leathanaigh. Mar thoradh air sin, b'fhéidir nach mbeidh an painéal taobh le feiceáil ar na rudaí seo a leanas:",
+        "webStore": "Siopaí síneadh brabhsálaí (m.sh., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Leathanaigh inmheánacha brabhsálaí (ag tosú le chrome://, edge://, nó about://)",
+        "fileUrls": "Comhaid áitiúla ar do ríomhaire (ag tosú le file://)",
+        "extensionsPages": "Leathanaigh ó shíntí brabhsálaí eile (ag tosú le chrome-extension:// nó extension:// nó a leithéid)",
+        "protectedPages": "Láithreáin ghréasáin le Polasaithe Slándála Ábhair dian",
+        "pdfViewer": "Leathanaigh féachana PDF ionsuite",
+        "newTabPage": "Leathanaigh Cluaisín Nua (ag tosú le chrome://newtab/ nó edge://newtab/ nó a leithéid)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Cruthaigh agus bainistigh snapshots.",
     "createSnapshot": "Cruthaigh Snapshot",
     "exportSnapshot": "Easpórtáil Snapshot",
-    "restoreWindowSize":"Athchóirigh suíomh agus méid na fuinneoige",
+    "restoreWindowSize": "Athchóirigh suíomh agus méid na fuinneoige",
     "openAllWindows": "Oscail Gach Fuinneog",
     "openSelectedInNewWindow": "Oscail Roghnaithe i bhFuinneog Nua",
     "openSelectedInCurrentWindow": "Oscail Roghnaithe sa Fhuinneog Reatha",

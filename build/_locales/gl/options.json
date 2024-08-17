@@ -214,7 +214,7 @@
       "pinedTabsAsIcons": {
         "label": "Amosar as lapas fixadas como iconas",
         "description": "Cando está habilitado, as lapas fixadas amosaranse como iconas e non na lista"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Amosar acceso rápido",
         "description": "Podes configurar unha lapela para que apareza en Acceso rápido para que sexa fácil de atopar. Simplemente fai clic dereito (ou mantén premido) e selecciona Fixar en Acceso rápido. Desfixa cando non o necesites máis facendo clic dereito (ou mantén premido) e selecciona Eliminar de Acceso rápido. A diferenza das lapelas fixadas é que Acceso rápido garda a URL e abre unha nova lapela cada vez que se fai clic."
@@ -495,7 +495,7 @@
         "siteConfig": "Configuración do sitio",
         "siteConfigInfo": "como descartable automaticamente, picture-in-picture ao cambiar de lapela, barra de progreso de lectura, barra de progreso de reprodución, etc.",
         "recentlyTabs": "Lapelas pechadas recentemente",
-        "snapshots":"Capturas de pantalla"
+        "snapshots": "Capturas de pantalla"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -559,6 +559,38 @@
         "downloadOnly": "Só descargar",
         "staySynchronized": "Manter sincronizado"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Detectamos que a túa resolución de pantalla actual pode afectar a túa experiencia co panel lateral. Debido ás limitacións do navegador, o ancho mínimo do panel lateral é de 360 píxeles. Coa túa resolución actual, o panel lateral pode ocupar o {{percent}}% da túa pantalla.\n\nPara mellorar a túa experiencia, considera axustar a túa resolución de pantalla. Aquí tes guías para axudarte:\n\n- Para usuarios de Windows: [Cambia a túa resolución de pantalla en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuarios de Mac: [Cambia a resolución da pantalla do teu Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAxusta só se é necesario para a túa comodidade e uso.",
+        "scaleWarningMessage": "A escala de visualización actual está configurada en {{scale}}%. Unha escala maior fai que os elementos da interface sexan máis grandes pero reduce o espazo dispoñible. Reducir a escala mostrará máis contido pero diminuirá o tamaño dos elementos. Escolle unha configuración que mellor se adapte á túa comodidade de lectura e ás túas necesidades de fluxo de traballo."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Panel Lateral da Páxina",
+      "description": "A función de panel lateral da páxina permíteche engadir un panel lateral ás páxinas web sen abrir o panel lateral integrado do navegador. Isto é especialmente útil para usuarios con pantallas máis pequenas que atopan o panel lateral do navegador demasiado ancho ou inflexible. Aínda que o panel lateral da páxina ofrece funcionalidade limitada debido a certas restricións, proporciona unha alternativa máis compacta. Cando está activado, podes acceder ao panel lateral pasando o rato sobre o bordo da xanela.",
+      "usageRestrictions": "Limitacións de Uso",
+      "sidebarEnabled": {
+        "label": "Activar Panel Lateral",
+        "description": "Alternar para activar ou desactivar o panel lateral da páxina"
+      },
+      "sidebarPosition": {
+        "label": "Posición do Panel Lateral",
+        "description": "Selecciona onde aparece o panel lateral na páxina",
+        "left": "Esquerda",
+        "right": "Dereita"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitacións dos Scripts de Contido",
+        "warningMessage": "Os scripts de contido son pequenos programas que melloran as páxinas web con funcións adicionais. Non obstante, debido a restricións de seguridade e privacidade, estes scripts non poden executarse en certos tipos de páxinas. Como resultado, o panel lateral pode non aparecer nos seguintes casos:",
+        "webStore": "Tendas de extensións do navegador (por exemplo, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Páxinas internas do navegador (comezando con chrome://, edge://, ou about://)",
+        "fileUrls": "Arquivos locais no teu ordenador (comezando con file://)",
+        "extensionsPages": "Páxinas doutras extensións do navegador (comezando con chrome-extension:// ou extension:// ou similar)",
+        "protectedPages": "Sitios web con Políticas de Seguridade de Contido estritas",
+        "pdfViewer": "Páxinas do visor de PDF integrado",
+        "newTabPage": "Páxinas de Nova Lapela (comezando con chrome://newtab/ ou edge://newtab/ ou similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Crea e xestiona capturas.",
     "createSnapshot": "Crear Captura",
     "exportSnapshot": "Exportar Captura",
-    "restoreWindowSize":"Restaurar posición e tamaño da xanela",
+    "restoreWindowSize": "Restaurar posición e tamaño da xanela",
     "openAllWindows": "Abrir Todas as Xanelas",
     "openSelectedInNewWindow": "Abrir Seleccionadas en Nova Xanela",
     "openSelectedInCurrentWindow": "Abrir Seleccionadas na Xanela Actual",

@@ -559,6 +559,38 @@
         "downloadOnly": "Endast nedladdning",
         "staySynchronized": "Förbli synkroniserad"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Vi har upptäckt att din nuvarande skärmupplösning kan påverka din upplevelse med sidopanelen. På grund av webbläsarens begränsningar är den minsta bredden på sidopanelen 360 pixlar. Vid din nuvarande upplösning kan sidopanelen uppta {{percent}}% av din skärm.\n\nFör att förbättra din upplevelse, överväg att justera din skärmupplösning. Här är guider som kan hjälpa dig:\n\n- För Windows-användare: [Ändra din skärmupplösning i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- För Mac-användare: [Ändra din Macs skärmupplösning](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJustera endast om det är nödvändigt för din komfort och användning.",
+        "scaleWarningMessage": "Din nuvarande skärmförstoring är inställd på {{scale}}%. En högre skala gör gränssnittselement större men minskar tillgängligt utrymme. Att sänka skalan visar mer innehåll men minskar elementens storlek. Välj en inställning som bäst passar din läskomfort och arbetsflödesbehov."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sidopanel på sidor",
+      "description": "Funktionen sidopanel på sidor låter dig lägga till en sidopanel på webbsidor utan att öppna webbläsarens inbyggda sidopanel. Detta är särskilt användbart för användare med mindre skärmar som tycker att webbläsarens sidopanel är för bred eller oflexibel. Även om sidopanelen på sidor erbjuder begränsad funktionalitet på grund av vissa begränsningar, ger den ett mer kompakt alternativ. När den är aktiverad kan du komma åt sidopanelen genom att hovra musen över fönstrets kant.",
+      "usageRestrictions": "Användningsbegränsningar",
+      "sidebarEnabled": {
+        "label": "Aktivera sidopanel",
+        "description": "Växla för att aktivera eller inaktivera sidopanelen på sidor"
+      },
+      "sidebarPosition": {
+        "label": "Sidopanelens position",
+        "description": "Välj var sidopanelen visas på sidan",
+        "left": "Vänster",
+        "right": "Höger"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Begränsningar för innehållsskript",
+        "warningMessage": "Innehållsskript är små program som förbättrar webbsidor med ytterligare funktioner. På grund av säkerhets- och sekretessbegränsningar kan dessa skript dock inte köras på vissa typer av sidor. Som ett resultat kan sidopanelen inte visas på följande sidor:",
+        "webStore": "Webbläsarens tilläggsbutiker (t.ex. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Webbläsarens interna sidor (som börjar med chrome://, edge:// eller about://)",
+        "fileUrls": "Lokala filer på din dator (som börjar med file://)",
+        "extensionsPages": "Sidor från andra webbläsartillägg (som börjar med chrome-extension:// eller extension:// eller liknande)",
+        "protectedPages": "Webbplatser med strikta innehållssäkerhetspolicyer",
+        "pdfViewer": "Inbyggda PDF-visarsidor",
+        "newTabPage": "Nya fliksidor (som börjar med chrome://newtab/ eller edge://newtab/ eller liknande)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Skapa och hantera ögonblicksbilder.",
     "createSnapshot": "Skapa ögonblicksbild",
     "exportSnapshot": "Exportera ögonblicksbild",
-    "restoreWindowSize":"Återställ fönsterposition och storlek",
+    "restoreWindowSize": "Återställ fönsterposition och storlek",
     "openAllWindows": "Öppna alla fönster",
     "openSelectedInNewWindow": "Öppna valda i nytt fönster",
     "openSelectedInCurrentWindow": "Öppna valda i aktuellt fönster",

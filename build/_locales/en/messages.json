@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Open Side Panel"
+  },
+  "closeSidebar": {
+    "message": "Close sidebar"
+  },
+  "disableSidebar": {
+    "message": "Disable sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Are you sure you want to disable the sidebar on all pages? To re-enable, please go to the settings page."
+  },
+  "toggleSidebarPosition": {
+    "message": "Toggle sidebar position"
   }
 }

@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Åpne sidepanelet"
+  },
+  "closeSidebar": {
+    "message": "Lukk sidepanelet"
+  },
+  "disableSidebar": {
+    "message": "Deaktiver sidepanelet"
+  },
+  "disableSidebarAlert": {
+    "message": "Er du sikker på at du vil deaktivere sidepanelet på alle sider? For å aktivere det igjen, gå til innstillingssiden."
+  },
+  "toggleSidebarPosition": {
+    "message": "Bytt sidepanelposisjon"
   }
 }

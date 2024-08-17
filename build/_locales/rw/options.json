@@ -495,7 +495,7 @@
         "siteConfig": "Ibyo Urubuga Rukoresha",
         "siteConfigInfo": "nko kuba auto discardable, picture-in-picture kuri Tab Switch, umurongo w'ukurikira, umurongo w'ukurikira, n'ibindi.",
         "recentlyTabs": "Amataburiya aherutse gufungwa",
-        "snapshots":"Ifoto z'ibikubiye"
+        "snapshots": "Ifoto z'ibikubiye"
       },
       "cancelBtn": "Hagarika",
       "exportBtn": "Gusohora",
@@ -559,6 +559,38 @@
         "downloadOnly": "Gukura gusa",
         "staySynchronized": "Kurangiza kugira ngo azasinzire"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Twabonye ko umwanzuro wa ecran yawe ushobora kugira ingaruka ku buryo ukoresha paneli y'uruhande. Kubera imipaka ya browser, ubugari buke bwa paneli y'uruhande ni 360 pixels. Ku mwanzuro wawe w'ubu, paneli y'uruhande ishobora gufata {{percent}}% ya ecran yawe.\n\nKugira ngo wongere uburyo ukoresha, tekereza guhindura umwanzuro wa ecran yawe. Dore inzira zishobora kugufasha:\n\n- Kubakoresha Windows: [Hindura umwanzuro wa ecran muri Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Kubakoresha Mac: [Hindura umwanzuro wa ecran ya Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nNyamuneka hindura gusa niba ari ngombwa ku bw'uburyo ukoresha.",
+        "scaleWarningMessage": "Igipimo cyawe cya ecran kiri kuri {{scale}}%. Igipimo kinini gituma ibice bya interface biba binini ariko kigabanya umwanya uboneka. Kugabanya igipimo bizerekana ibikubiyemo byinshi ariko bigabanye ubunini bw'ibice. Nyamuneka hitamo igipimo kibereye uburyo bwo gusoma no gukoresha."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Paneli y'uruhande ku rupapuro",
+      "description": "Ibiranga paneli y'uruhande ku rupapuro bigufasha kongera paneli y'uruhande ku mbuga za web utarinze gufungura paneli y'uruhande y'imbere muri browser. Ibi birafasha cyane abakoresha bafite ecrans ntoya basanga paneli y'uruhande ya browser ari nini cyane cyangwa idahinduka. Nubwo paneli y'uruhande ku rupapuro itanga imikorere mike kubera imipaka runaka, itanga ubundi buryo buto. Iyo yemejwe, ushobora kugera kuri paneli y'uruhande unyuze ku nkengero za ecran.",
+      "usageRestrictions": "Imipaka yo gukoresha",
+      "sidebarEnabled": {
+        "label": "Emeza Paneli y'uruhande",
+        "description": "Hindura kugira ngo wemeze cyangwa uhagarike paneli y'uruhande ku rupapuro"
+      },
+      "sidebarPosition": {
+        "label": "Umwanya wa Paneli y'uruhande",
+        "description": "Hitamo aho paneli y'uruhande igaragara ku rupapuro",
+        "left": "Ibumoso",
+        "right": "Iburyo"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Imipaka ya Script y'ibikubiyemo",
+        "warningMessage": "Scripts y'ibikubiyemo ni porogaramu ntoya zongerera imbuga za web imikorere y'inyongera. Ariko, kubera imipaka y'umutekano n'ubuzima bwite, izi scripts ntizishobora gukora ku bwoko runaka bw'amaso. Kubera iyo mpamvu, paneli y'uruhande ishobora kutagaragara kuri ibi bikurikira:",
+        "webStore": "Amasoko ya browser y'inyongera (urugero, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Amaso y'imbere muri browser (atangira na chrome://, edge://, cyangwa about://)",
+        "fileUrls": "Amadosiye y'imbere muri mudasobwa yawe (atangira na file://)",
+        "extensionsPages": "Amaso y'inyongera za browser (atangira na chrome-extension:// cyangwa extension:// cyangwa bisa)",
+        "protectedPages": "Imbuga za web zifite Politiki y'umutekano w'ibikubiyemo ikomeye",
+        "pdfViewer": "Amaso y'imbere ya PDF viewer",
+        "newTabPage": "Amaso ya New Tab (atangira na chrome://newtab/ cyangwa edge://newtab/ cyangwa bisa)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Fungura kandi ugenzure snapshots.",
     "createSnapshot": "Kora Snapshot",
     "exportSnapshot": "Ohereza Snapshot",
-    "restoreWindowSize":"Subiza umwanya n'ubunini bwa Window",
+    "restoreWindowSize": "Subiza umwanya n'ubunini bwa Window",
     "openAllWindows": "Fungura Windows zose",
     "openSelectedInNewWindow": "Fungura Ibyatoranijwe muri Window nshya",
     "openSelectedInCurrentWindow": "Fungura Ibyatoranijwe muri Window iriho",

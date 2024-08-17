@@ -559,6 +559,38 @@
         "downloadOnly": "Last ned bare",
         "staySynchronized": "Forbli synkronisert"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Vi har oppdaget at din nåværende skjermoppløsning kan påvirke opplevelsen din med sidepanelet. På grunn av nettleserbegrensninger er minimumsbredden på sidepanelet 360 piksler. Ved din nåværende oppløsning kan sidepanelet oppta {{percent}}% av skjermen din.\n\nFor å forbedre opplevelsen din, vurder å justere skjermoppløsningen. Her er guider som kan hjelpe deg:\n\n- For Windows-brukere: [Endre skjermoppløsningen i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac-brukere: [Endre oppløsningen på Mac-skjermen](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJuster bare hvis det er nødvendig for din komfort og bruk.",
+        "scaleWarningMessage": "Din nåværende skjermskala er satt til {{scale}}%. En høyere skala gjør grensesnittelementer større, men reduserer tilgjengelig plass. Å senke skalaen vil vise mer innhold, men redusere elementstørrelsen. Vennligst velg en innstilling som passer best for din lesekomfort og arbeidsflytbehov."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sidefelt på siden",
+      "description": "Sidefeltfunksjonen på siden lar deg legge til et sidefelt på nettsider uten å åpne nettleserens innebygde sidefelt. Dette er spesielt nyttig for brukere med mindre skjermer som synes nettleserens sidefelt er for bredt eller ufleksibelt. Selv om sidefeltet på siden tilbyr begrenset funksjonalitet på grunn av visse restriksjoner, gir det et mer kompakt alternativ. Når det er aktivert, kan du få tilgang til sidefeltet ved å holde musen over kanten av vinduet.",
+      "usageRestrictions": "Bruksbegrensninger",
+      "sidebarEnabled": {
+        "label": "Aktiver sidefelt",
+        "description": "Veksle for å aktivere eller deaktivere sidefeltet på siden"
+      },
+      "sidebarPosition": {
+        "label": "Sidefeltposisjon",
+        "description": "Velg hvor sidefeltet vises på siden",
+        "left": "Venstre",
+        "right": "Høyre"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Begrensninger for innholdsskript",
+        "warningMessage": "Innholdsskript er små programmer som forbedrer nettsider med ekstra funksjoner. På grunn av sikkerhets- og personvernsrestriksjoner kan imidlertid disse skriptene ikke kjøre på visse typer sider. Som et resultat kan sidefeltet ikke vises på følgende:",
+        "webStore": "Nettleserutvidelsesbutikker (f.eks. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Nettleserens interne sider (som starter med chrome://, edge://, eller about://)",
+        "fileUrls": "Lokale filer på datamaskinen din (som starter med file://)",
+        "extensionsPages": "Sider fra andre nettleserutvidelser (som starter med chrome-extension:// eller extension:// eller lignende)",
+        "protectedPages": "Nettsteder med strenge innholdsikkerhetspolicyer",
+        "pdfViewer": "Innebygde PDF-visningssider",
+        "newTabPage": "Nye fanesider (som starter med chrome://newtab/ eller edge://newtab/ eller lignende)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Opprett og administrer øyeblikksbilder.",
     "createSnapshot": "Opprett øyeblikksbilde",
     "exportSnapshot": "Eksporter øyeblikksbilde",
-    "restoreWindowSize":"Gjenopprett vindusposisjon og størrelse",
+    "restoreWindowSize": "Gjenopprett vindusposisjon og størrelse",
     "openAllWindows": "Åpne alle vinduer",
     "openSelectedInNewWindow": "Åpne valgte i nytt vindu",
     "openSelectedInCurrentWindow": "Åpne valgte i gjeldende vindu",

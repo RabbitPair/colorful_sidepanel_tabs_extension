@@ -559,6 +559,38 @@
         "downloadOnly": "Net aflaai",
         "staySynchronized": "Bly gesinkroniseer"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Ons het opgemerk dat jou huidige skermresolusie jou ervaring met die sybalk kan beïnvloed. As gevolg van blaaierbeperkings is die minimum breedte van die sybalk 360 pixels. By jou huidige resolusie kan die sybalk {{percent}}% van jou skerm beslaan.\n\nOm jou ervaring te verbeter, oorweeg dit om jou skermresolusie aan te pas. Hier is gidse om jou te help:\n\n- Vir Windows-gebruikers: [Verander jou skermresolusie in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Vir Mac-gebruikers: [Verander jou Mac-skerm se resolusie](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPas asseblief net aan indien nodig vir jou gemak en gebruik.",
+        "scaleWarningMessage": "Jou huidige skaal van die vertoning is ingestel op {{scale}}%. 'n Hoër skaal maak koppelvlakelemente groter, maar verminder beskikbare spasie. Om die skaal te verlaag sal meer inhoud wys, maar die elementgrootte verminder. Kies asseblief 'n instelling wat die beste by jou leesgemak en werkvloei behoeftes pas."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bladsy Sybalk",
+      "description": "Die bladsy sybalk-funksie laat jou toe om 'n sybalk by webblaaie te voeg sonder om die blaaier se ingeboude sybalk oop te maak. Dit is veral nuttig vir gebruikers met kleiner skerms wat die blaaier se sybalk te breed of onbuigsaam vind. Alhoewel die bladsy sybalk beperkte funksionaliteit bied as gevolg van sekere beperkings, bied dit 'n meer kompakte alternatief. Wanneer geaktiveer, kan jy toegang tot die sybalk kry deur jou muis oor die rand van die venster te beweeg.",
+      "usageRestrictions": "Gebruikbeperkings",
+      "sidebarEnabled": {
+        "label": "Aktiveer Sybalk",
+        "description": "Skakel om die bladsy sybalk te aktiveer of deaktiveer"
+      },
+      "sidebarPosition": {
+        "label": "Sybalkposisie",
+        "description": "Kies waar die sybalk op die bladsy verskyn",
+        "left": "Links",
+        "right": "Regs"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Beperkings van Inhoudskripte",
+        "warningMessage": "Inhoudskripte is klein programme wat webblaaie met bykomende funksies verbeter. As gevolg van sekuriteit- en privaatheidsbeperkings, kan hierdie skripte egter nie op sekere tipes bladsye loop nie. Gevolglik mag die sybalk nie op die volgende verskyn nie:",
+        "webStore": "Blaaieruitbreidingswinkels (bv. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Blaaier interne bladsye (begin met chrome://, edge://, of about://)",
+        "fileUrls": "Plaaslike lêers op jou rekenaar (begin met file://)",
+        "extensionsPages": "Bladsye van ander blaaieruitbreidings (begin met chrome-extension:// of extension:// of soortgelyk)",
+        "protectedPages": "Webwerwe met streng Inhoud Sekuriteitsbeleide",
+        "pdfViewer": "Ingeboude PDF-kyker bladsye",
+        "newTabPage": "Nuwe Oortjie bladsye (begin met chrome://newtab/ of edge://newtab/ of soortgelyk)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Skep en bestuur snapshots.",
     "createSnapshot": "Skep Snapshot",
     "exportSnapshot": "Voer Snapshot Uit",
-    "restoreWindowSize":"Herstel vensterposisie en grootte",
+    "restoreWindowSize": "Herstel vensterposisie en grootte",
     "openAllWindows": "Maak Alle Vensters Oop",
     "openSelectedInNewWindow": "Maak Geselekteerdes in Nuwe Venster Oop",
     "openSelectedInCurrentWindow": "Maak Geselekteerdes in Huidige Venster Oop",

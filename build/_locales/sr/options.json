@@ -559,6 +559,38 @@
         "downloadOnly": "Samo preuzimanje",
         "staySynchronized": "Ostani sinhronizovan"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Otkrili smo da vaša trenutna rezolucija ekrana može uticati na vaše iskustvo sa bočnim panelom. Zbog ograničenja pregledača, minimalna širina bočnog panela je 360 piksela. Na vašoj trenutnoj rezoluciji, bočni panel može zauzeti {{percent}}% vašeg ekrana.\n\nDa biste poboljšali svoje iskustvo, razmislite o podešavanju rezolucije ekrana. Evo vodiča koji vam mogu pomoći:\n\n- Za korisnike Windows-a: [Promenite rezoluciju ekrana u Windows-u](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Za korisnike Mac-a: [Promenite rezoluciju ekrana na Mac-u](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMolimo vas da prilagodite samo ako je potrebno za vašu udobnost i upotrebu.",
+        "scaleWarningMessage": "Vaša trenutna skala prikaza je postavljena na {{scale}}%. Veća skala čini elemente interfejsa većim, ali smanjuje raspoloživi prostor. Smanjenje skale će prikazati više sadržaja, ali će smanjiti veličinu elemenata. Molimo vas da odaberete postavku koja najbolje odgovara vašoj udobnosti pri čitanju i potrebama radnog toka."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bočni panel stranice",
+      "description": "Funkcija bočnog panela stranice omogućava vam da dodate bočni panel na web stranice bez otvaranja ugrađenog bočnog panela pregledača. Ovo je posebno korisno za korisnike sa manjim ekranima koji smatraju da je bočni panel pregledača preširok ili nefleksibilan. Iako bočni panel stranice nudi ograničenu funkcionalnost zbog određenih ograničenja, pruža kompaktniju alternativu. Kada je omogućeno, možete pristupiti bočnom panelu tako što ćete preći mišem preko ivice prozora.",
+      "usageRestrictions": "Ograničenja upotrebe",
+      "sidebarEnabled": {
+        "label": "Omogući bočni panel",
+        "description": "Prekidač za aktiviranje ili deaktiviranje bočnog panela stranice"
+      },
+      "sidebarPosition": {
+        "label": "Pozicija bočnog panela",
+        "description": "Izaberite gde se bočni panel pojavljuje na stranici",
+        "left": "Levo",
+        "right": "Desno"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Ograničenja skripti sadržaja",
+        "warningMessage": "Skripte sadržaja su mali programi koji poboljšavaju web stranice dodatnim funkcijama. Međutim, zbog sigurnosnih i privatnih ograničenja, ove skripte ne mogu raditi na određenim vrstama stranica. Kao rezultat toga, bočni panel se možda neće pojaviti na sledećim stranicama:",
+        "webStore": "Prodavnice ekstenzija pregledača (npr. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Interna stranice pregledača (počinju sa chrome://, edge://, ili about://)",
+        "fileUrls": "Lokalne datoteke na vašem računaru (počinju sa file://)",
+        "extensionsPages": "Stranice drugih ekstenzija pregledača (počinju sa chrome-extension:// ili extension:// ili slično)",
+        "protectedPages": "Web stranice sa strogim politikama sigurnosti sadržaja",
+        "pdfViewer": "Ugrađene stranice pregledača PDF-a",
+        "newTabPage": "Stranice nove kartice (počinju sa chrome://newtab/ ili edge://newtab/ ili slično)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Kreirajte i upravljajte snimcima.",
     "createSnapshot": "Kreiraj snimak",
     "exportSnapshot": "Izvezi snimak",
-    "restoreWindowSize":"Vrati poziciju i veličinu prozora",
+    "restoreWindowSize": "Vrati poziciju i veličinu prozora",
     "openAllWindows": "Otvori sve prozore",
     "openSelectedInNewWindow": "Otvori izabrano u novom prozoru",
     "openSelectedInCurrentWindow": "Otvori izabrano u trenutnom prozoru",

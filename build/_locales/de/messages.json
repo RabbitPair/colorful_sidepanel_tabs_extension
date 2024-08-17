@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Seitenpanel öffnen"
+  },
+  "closeSidebar": {
+    "message": "Seitenleiste schließen"
+  },
+  "disableSidebar": {
+    "message": "Seitenleiste deaktivieren"
+  },
+  "disableSidebarAlert": {
+    "message": "Sind Sie sicher, dass Sie die Seitenleiste auf allen Seiten deaktivieren möchten? Um sie wieder zu aktivieren, gehen Sie bitte zur Einstellungsseite."
+  },
+  "toggleSidebarPosition": {
+    "message": "Seitenleistenposition umschalten"
   }
 }

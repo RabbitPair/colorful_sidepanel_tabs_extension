@@ -559,6 +559,38 @@
         "downloadOnly": "Tylko pobieranie",
         "staySynchronized": "Pozostań zsynchronizowany"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Wykryliśmy, że Twoja obecna rozdzielczość ekranu może wpływać na Twoje doświadczenie z panelem bocznym. Ze względu na ograniczenia przeglądarki minimalna szerokość panelu bocznego wynosi 360 pikseli. Przy Twojej obecnej rozdzielczości panel boczny może zajmować {{percent}}% ekranu.\n\nAby poprawić swoje doświadczenie, rozważ dostosowanie rozdzielczości ekranu. Oto przewodniki, które mogą Ci pomóc:\n\n- Dla użytkowników Windows: [Zmień rozdzielczość ekranu w Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Dla użytkowników Mac: [Zmień rozdzielczość wyświetlacza Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nProszę dostosować tylko wtedy, gdy jest to konieczne dla Twojego komfortu i użytkowania.",
+        "scaleWarningMessage": "Twoja obecna skala wyświetlania jest ustawiona na {{scale}}%. Wyższa skala sprawia, że elementy interfejsu są większe, ale zmniejsza dostępną przestrzeń. Obniżenie skali pokaże więcej treści, ale zmniejszy rozmiar elementów. Proszę wybrać ustawienie, które najlepiej odpowiada Twojemu komfortowi czytania i potrzebom pracy."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Pasek boczny strony",
+      "description": "Funkcja paska bocznego strony pozwala dodać pasek boczny do stron internetowych bez otwierania wbudowanego paska bocznego przeglądarki. Jest to szczególnie przydatne dla użytkowników z mniejszymi ekranami, którzy uważają, że pasek boczny przeglądarki jest zbyt szeroki lub nieelastyczny. Chociaż pasek boczny strony oferuje ograniczoną funkcjonalność ze względu na pewne ograniczenia, zapewnia bardziej kompaktową alternatywę. Po włączeniu możesz uzyskać dostęp do paska bocznego, przesuwając mysz nad krawędzią okna.",
+      "usageRestrictions": "Ograniczenia użytkowania",
+      "sidebarEnabled": {
+        "label": "Włącz pasek boczny",
+        "description": "Przełącz, aby aktywować lub dezaktywować pasek boczny strony"
+      },
+      "sidebarPosition": {
+        "label": "Pozycja paska bocznego",
+        "description": "Wybierz, gdzie pasek boczny pojawia się na stronie",
+        "left": "Lewo",
+        "right": "Prawo"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Ograniczenia skryptów treści",
+        "warningMessage": "Skrypty treści to małe programy, które wzbogacają strony internetowe o dodatkowe funkcje. Jednak ze względu na ograniczenia dotyczące bezpieczeństwa i prywatności, te skrypty nie mogą działać na niektórych typach stron. W rezultacie pasek boczny może nie pojawić się na następujących stronach:",
+        "webStore": "Sklepy z rozszerzeniami przeglądarki (np. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Strony wewnętrzne przeglądarki (zaczynające się od chrome://, edge:// lub about://)",
+        "fileUrls": "Pliki lokalne na Twoim komputerze (zaczynające się od file://)",
+        "extensionsPages": "Strony z innych rozszerzeń przeglądarki (zaczynające się od chrome-extension:// lub extension:// lub podobne)",
+        "protectedPages": "Strony internetowe z rygorystycznymi zasadami bezpieczeństwa treści",
+        "pdfViewer": "Wbudowane strony przeglądarki PDF",
+        "newTabPage": "Strony nowej karty (zaczynające się od chrome://newtab/ lub edge://newtab/ lub podobne)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Twórz i zarządzaj migawkami.",
     "createSnapshot": "Utwórz migawkę",
     "exportSnapshot": "Eksportuj migawkę",
-    "restoreWindowSize":"Przywróć pozycję i rozmiar okna",
+    "restoreWindowSize": "Przywróć pozycję i rozmiar okna",
     "openAllWindows": "Otwórz wszystkie okna",
     "openSelectedInNewWindow": "Otwórz wybrane w nowym oknie",
     "openSelectedInCurrentWindow": "Otwórz wybrane w bieżącym oknie",

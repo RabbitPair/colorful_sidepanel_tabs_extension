@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Opna hliðarstiku"
+  },
+  "closeSidebar": {
+    "message": "Loka hliðarstiku"
+  },
+  "disableSidebar": {
+    "message": "Afvirkja hliðarstiku"
+  },
+  "disableSidebarAlert": {
+    "message": "Ertu viss um að þú viljir afvirkja hliðarstikuna á öllum síðum? Til að virkja aftur, vinsamlegast farðu á stillingasíðuna."
+  },
+  "toggleSidebarPosition": {
+    "message": "Skipta um stöðu hliðarstiku"
   }
 }

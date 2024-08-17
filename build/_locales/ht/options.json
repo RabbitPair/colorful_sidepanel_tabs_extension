@@ -218,7 +218,7 @@
       "collapsedGroupShowTabIcons": {
         "label": "Montre ikòn sit entènèt lè kòlapse gwoup yo",
         "description": "Lè aktive, gwoup kòlapse yo pral montre ikòn tab yo"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Montre aksè rapid",
         "description": "Ou ka mete yon tab pou montre nan Aksè rapid pou li fasil pou jwenn. Jis klike-dwa (oswa peze long) li epi chwazi Fikse nan Aksè rapid. Retire li lè ou pa bezwen li la ankò pa klike-dwa (oswa peze long) li epi chwazi Efase nan Aksè rapid. Diferans lan ak tab fikse se ke Aksè rapid sove URL la epi louvri yon nouvo tab chak fwa li klike."
@@ -495,7 +495,7 @@
         "siteConfig": "Anviwònman Sit",
         "siteConfigInfo": "tankou otomatik jete, imaj nan imaj sou Tab Switch, bar pwogrè lekti, bar pwogrè jwe, elatriye.",
         "recentlyTabs": "Tab fèmen dènyèman",
-        "snapshots":"Ekran Konjelasyon"
+        "snapshots": "Ekran Konjelasyon"
       },
       "cancelBtn": "Anile",
       "exportBtn": "Eksportasyon",
@@ -559,6 +559,38 @@
         "downloadOnly": "Sèlman Download",
         "staySynchronized": "Releve senkronize"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Nou te detekte ke rezolisyon aktyèl ekran ou a ka afekte eksperyans ou ak panèl bò a. Akòz limit navigatè yo, lajè minimòm panèl bò a se 360 piksèl. Nan rezolisyon aktyèl ou, panèl bò a ka okipe {{percent}}% nan ekran ou.\n\nPou amelyore eksperyans ou, konsidere ajiste rezolisyon ekran ou. Men gid pou ede ou:\n\n- Pou itilizatè Windows: [Chanje rezolisyon ekran ou nan Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pou itilizatè Mac: [Chanje rezolisyon ekspozisyon Mac ou](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nTanpri ajiste sèlman si sa nesesè pou konfò ak itilizasyon ou.",
+        "scaleWarningMessage": "Echèl ekspozisyon aktyèl ou mete sou {{scale}}%. Yon echèl pi wo fè eleman entèfas yo pi gwo men diminye espas ki disponib. Diminye echèl la ap montre plis kontni men ap diminye gwosè eleman yo. Tanpri chwazi yon anviwònman ki pi byen adapte ak konfò lekti ou ak bezwen workflow ou."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Panèl Bò Paj",
+      "description": "Karakteristik panèl bò paj la pèmèt ou ajoute yon panèl bò nan paj wèb san ou pa louvri panèl bò entegre navigatè a. Sa a se patikilyèman itil pou itilizatè ki gen ekran ki pi piti ki jwenn panèl bò navigatè a twò laj oswa enfleksib. Pandan ke panèl bò paj la ofri fonksyonalite limite akòz sèten restriksyon, li bay yon altènativ ki pi konpak. Lè aktive, ou ka jwenn aksè nan panèl bò a lè w pase sourit ou sou kwen fenèt la.",
+      "usageRestrictions": "Limitasyon Itilizasyon",
+      "sidebarEnabled": {
+        "label": "Pèmèt Panèl Bò",
+        "description": "Chanje pou aktive oswa dezaktive panèl bò paj la"
+      },
+      "sidebarPosition": {
+        "label": "Pozisyon Panèl Bò",
+        "description": "Chwazi kote panèl bò a parèt sou paj la",
+        "left": "Gòch",
+        "right": "Dwat"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitasyon Script Kontni",
+        "warningMessage": "Script kontni yo se ti pwogram ki amelyore paj wèb ak karakteristik adisyonèl. Sepandan, akòz restriksyon sekirite ak vi prive, script sa yo pa ka kouri sou sèten kalite paj. Kòm yon rezilta, panèl bò a ka pa parèt sou sa ki annapre yo:",
+        "webStore": "Magazen ekstansyon navigatè (egzanp, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Paj entèn navigatè (kòmanse ak chrome://, edge://, oswa about://)",
+        "fileUrls": "Fichye lokal sou òdinatè ou (kòmanse ak file://)",
+        "extensionsPages": "Paj ki soti nan lòt ekstansyon navigatè (kòmanse ak chrome-extension:// oswa extension:// oswa menm jan an)",
+        "protectedPages": "Sitou entènèt ak règleman sekirite kontni strik",
+        "pdfViewer": "Paj gade PDF entegre",
+        "newTabPage": "Paj Nouvo Tab (kòmanse ak chrome://newtab/ oswa edge://newtab/ oswa menm jan an)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Kreye ak jere snapshots.",
     "createSnapshot": "Kreye Snapshot",
     "exportSnapshot": "Ekspòte Snapshot",
-    "restoreWindowSize":"Retabli pozisyon ak gwosè fenèt la",
+    "restoreWindowSize": "Retabli pozisyon ak gwosè fenèt la",
     "openAllWindows": "Louvri Tout Fenèt yo",
     "openSelectedInNewWindow": "Louvri Seleksyon an nan Nouvo Fenèt",
     "openSelectedInCurrentWindow": "Louvri Seleksyon an nan Fenèt Kouran",

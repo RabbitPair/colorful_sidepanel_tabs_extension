@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Atidaryti šoninį skydelį"
+  },
+  "closeSidebar": {
+    "message": "Uždaryti šoninį skydelį"
+  },
+  "disableSidebar": {
+    "message": "Išjungti šoninį skydelį"
+  },
+  "disableSidebarAlert": {
+    "message": "Ar tikrai norite išjungti šoninį skydelį visuose puslapiuose? Norėdami vėl įjungti, eikite į nustatymų puslapį."
+  },
+  "toggleSidebarPosition": {
+    "message": "Perjungti šoninio skydelio padėtį"
   }
 }

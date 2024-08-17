@@ -495,7 +495,7 @@
         "siteConfig": "Configuración del sitio",
         "siteConfigInfo": "como descarte automático, imagen en imagen al cambiar de pestaña, barra de progreso de lectura, barra de progreso de reproducción, etc.",
         "recentlyTabs": "Pestañas cerradas recientemente",
-        "snapshots":"Capturas de pantalla"
+        "snapshots": "Capturas de pantalla"
       },
       "cancelBtn": "Cancelar",
       "exportBtn": "Exportar",
@@ -559,6 +559,38 @@
         "downloadOnly": "Solo descargar",
         "staySynchronized": "Mantener sincronizado"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Hemos detectado que la resolución de su pantalla actual puede afectar su experiencia con el panel lateral. Debido a las limitaciones del navegador, el ancho mínimo del panel lateral es de 360 píxeles. Con su resolución actual, el panel lateral puede ocupar el {{percent}}% de su pantalla.\n\nPara mejorar su experiencia, considere ajustar la resolución de su pantalla. Aquí hay guías para ayudarle:\n\n- Para usuarios de Windows: [Cambiar la resolución de pantalla en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuarios de Mac: [Cambiar la resolución de la pantalla de su Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjuste solo si es necesario para su comodidad y uso.",
+        "scaleWarningMessage": "La escala de visualización actual está configurada en {{scale}}%. Una escala más alta hace que los elementos de la interfaz sean más grandes pero reduce el espacio disponible. Reducir la escala mostrará más contenido pero disminuirá el tamaño de los elementos. Por favor, elija una configuración que se adapte mejor a su comodidad de lectura y necesidades de trabajo."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barra Lateral de la Página",
+      "description": "La función de barra lateral de la página le permite agregar una barra lateral a las páginas web sin abrir la barra lateral incorporada del navegador. Esto es particularmente útil para los usuarios con pantallas más pequeñas que encuentran la barra lateral del navegador demasiado ancha o inflexible. Aunque la barra lateral de la página ofrece funcionalidad limitada debido a ciertas restricciones, proporciona una alternativa más compacta. Cuando está habilitada, puede acceder a la barra lateral pasando el ratón sobre el borde de la ventana.",
+      "usageRestrictions": "Limitaciones de Uso",
+      "sidebarEnabled": {
+        "label": "Habilitar Barra Lateral",
+        "description": "Alternar para activar o desactivar la barra lateral de la página"
+      },
+      "sidebarPosition": {
+        "label": "Posición de la Barra Lateral",
+        "description": "Seleccione dónde aparece la barra lateral en la página",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitaciones de los Scripts de Contenido",
+        "warningMessage": "Los scripts de contenido son pequeños programas que mejoran las páginas web con características adicionales. Sin embargo, debido a restricciones de seguridad y privacidad, estos scripts no pueden ejecutarse en ciertos tipos de páginas. Como resultado, la barra lateral puede no aparecer en los siguientes casos:",
+        "webStore": "Tiendas de extensiones del navegador (por ejemplo, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Páginas internas del navegador (que comienzan con chrome://, edge://, o about://)",
+        "fileUrls": "Archivos locales en su computadora (que comienzan con file://)",
+        "extensionsPages": "Páginas de otras extensiones del navegador (que comienzan con chrome-extension:// o extension:// o similar)",
+        "protectedPages": "Sitios web con Políticas de Seguridad de Contenido estrictas",
+        "pdfViewer": "Páginas del visor de PDF incorporado",
+        "newTabPage": "Páginas de Nueva Pestaña (que comienzan con chrome://newtab/ o edge://newtab/ o similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Cree y gestione instantáneas.",
     "createSnapshot": "Crear Instantánea",
     "exportSnapshot": "Exportar Instantánea",
-    "restoreWindowSize":"Restaurar posición y tamaño de la ventana",
+    "restoreWindowSize": "Restaurar posición y tamaño de la ventana",
     "openAllWindows": "Abrir Todas las Ventanas",
     "openSelectedInNewWindow": "Abrir Seleccionadas en Nueva Ventana",
     "openSelectedInCurrentWindow": "Abrir Seleccionadas en Ventana Actual",

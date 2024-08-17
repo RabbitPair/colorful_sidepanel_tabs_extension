@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "साइड पॅनेल उघडा"
+  },
+  "closeSidebar": {
+    "message": "साइडबार बंद करा"
+  },
+  "disableSidebar": {
+    "message": "साइडबार अक्षम करा"
+  },
+  "disableSidebarAlert": {
+    "message": "आपण सर्व पृष्ठांवर साइडबार अक्षम करू इच्छिता? पुन्हा सक्षम करण्यासाठी, कृपया सेटिंग्ज पृष्ठावर जा."
+  },
+  "toggleSidebarPosition": {
+    "message": "साइडबार स्थिती टॉगल करा"
   }
 }

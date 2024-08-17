@@ -495,7 +495,7 @@
         "siteConfig": "Setări site",
         "siteConfigInfo": "cum ar fi renunțarea automată, imagine în imagine la comutarea filelor, bara de progres a citirii, bara de progres a redării, etc.",
         "recentlyTabs": "File închise recent",
-        "snapshots":"Instantanee"
+        "snapshots": "Instantanee"
       },
       "cancelBtn": "Anulează",
       "exportBtn": "Exportă",
@@ -559,6 +559,38 @@
         "downloadOnly": "Doar descărcare",
         "staySynchronized": "Rămâneți sincronizat"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Am detectat că rezoluția curentă a ecranului dvs. poate afecta experiența dvs. cu panoul lateral. Datorită limitărilor browserului, lățimea minimă a panoului lateral este de 360 de pixeli. La rezoluția dvs. curentă, panoul lateral poate ocupa {{percent}}% din ecranul dvs.\n\nPentru a vă îmbunătăți experiența, luați în considerare ajustarea rezoluției ecranului. Iată ghiduri care vă pot ajuta:\n\n- Pentru utilizatorii Windows: [Schimbați rezoluția ecranului în Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pentru utilizatorii Mac: [Schimbați rezoluția afișajului Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVă rugăm să ajustați doar dacă este necesar pentru confortul și utilizarea dvs.",
+        "scaleWarningMessage": "Scara de afișare curentă este setată la {{scale}}%. O scară mai mare face ca elementele interfeței să fie mai mari, dar reduce spațiul disponibil. Reducerea scalei va afișa mai mult conținut, dar va micșora dimensiunea elementelor. Vă rugăm să alegeți o setare care să se potrivească cel mai bine confortului dvs. de citire și nevoilor de lucru."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Panou lateral pe pagină",
+      "description": "Funcția de panou lateral pe pagină vă permite să adăugați un panou lateral la paginile web fără a deschide panoul lateral încorporat al browserului. Acest lucru este deosebit de util pentru utilizatorii cu ecrane mai mici care consideră că panoul lateral al browserului este prea lat sau inflexibil. Deși panoul lateral pe pagină oferă funcționalitate limitată din cauza anumitor restricții, oferă o alternativă mai compactă. Când este activat, puteți accesa panoul lateral trecând cu mouse-ul peste marginea ferestrei.",
+      "usageRestrictions": "Limitări de utilizare",
+      "sidebarEnabled": {
+        "label": "Activați panoul lateral",
+        "description": "Comutați pentru a activa sau dezactiva panoul lateral pe pagină"
+      },
+      "sidebarPosition": {
+        "label": "Poziția panoului lateral",
+        "description": "Selectați unde apare panoul lateral pe pagină",
+        "left": "Stânga",
+        "right": "Dreapta"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitări ale scripturilor de conținut",
+        "warningMessage": "Scripturile de conținut sunt programe mici care îmbunătățesc paginile web cu funcții suplimentare. Cu toate acestea, din cauza restricțiilor de securitate și confidențialitate, aceste scripturi nu pot rula pe anumite tipuri de pagini. Ca urmare, panoul lateral poate să nu apară pe următoarele:",
+        "webStore": "Magazine de extensii pentru browser (de exemplu, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Pagini interne ale browserului (începând cu chrome://, edge:// sau about://)",
+        "fileUrls": "Fișiere locale de pe computerul dvs. (începând cu file://)",
+        "extensionsPages": "Pagini de la alte extensii de browser (începând cu chrome-extension:// sau extension:// sau similar)",
+        "protectedPages": "Site-uri web cu politici stricte de securitate a conținutului",
+        "pdfViewer": "Pagini ale vizualizatorului PDF încorporat",
+        "newTabPage": "Pagini de tip New Tab (începând cu chrome://newtab/ sau edge://newtab/ sau similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Creați și gestionați instantanee.",
     "createSnapshot": "Creați Instantaneu",
     "exportSnapshot": "Exportați Instantaneu",
-    "restoreWindowSize":"Restabiliți poziția și dimensiunea ferestrei",
+    "restoreWindowSize": "Restabiliți poziția și dimensiunea ferestrei",
     "openAllWindows": "Deschideți Toate Ferestrele",
     "openSelectedInNewWindow": "Deschideți Selecția Într-o Fereastră Nouă",
     "openSelectedInCurrentWindow": "Deschideți Selecția În Fereastra Curentă",

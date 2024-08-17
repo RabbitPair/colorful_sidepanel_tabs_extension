@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Avaa sivupaneeli"
+  },
+  "closeSidebar": {
+    "message": "Sulje sivupalkki"
+  },
+  "disableSidebar": {
+    "message": "Poista sivupalkki käytöstä"
+  },
+  "disableSidebarAlert": {
+    "message": "Oletko varma, että haluat poistaa sivupalkin käytöstä kaikilla sivuilla? Ota se uudelleen käyttöön siirtymällä asetussivulle."
+  },
+  "toggleSidebarPosition": {
+    "message": "Vaihda sivupalkin sijaintia"
   }
 }

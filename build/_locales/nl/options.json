@@ -495,7 +495,7 @@
         "siteConfig": "Site-instellingen",
         "siteConfigInfo": "zoals automatisch verwijderbaar, picture-in-picture bij tabblad wisselen, leesvoortgangsbalk, afspelende voortgangsbalk, enz.",
         "recentlyTabs": "Recent gesloten tabbladen",
-        "snapshots":"Momentopnamen"
+        "snapshots": "Momentopnamen"
       },
       "cancelBtn": "Annuleren",
       "exportBtn": "Exporteren",
@@ -559,6 +559,38 @@
         "downloadOnly": "Alleen downloaden",
         "staySynchronized": "Gesynchroniseerd blijven"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "We hebben gedetecteerd dat uw huidige schermresolutie uw ervaring met het zijpaneel kan beïnvloeden. Vanwege browserbeperkingen is de minimale breedte van het zijpaneel 360 pixels. Bij uw huidige resolutie kan het zijpaneel {{percent}}% van uw scherm in beslag nemen.\n\nOm uw ervaring te verbeteren, overweeg om uw schermresolutie aan te passen. Hier zijn gidsen om u te helpen:\n\n- Voor Windows-gebruikers: [Uw schermresolutie wijzigen in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Voor Mac-gebruikers: [De resolutie van uw Mac-scherm wijzigen](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPas alleen aan indien nodig voor uw comfort en gebruik.",
+        "scaleWarningMessage": "Uw huidige weergaveschaal is ingesteld op {{scale}}%. Een hogere schaal maakt interface-elementen groter, maar vermindert de beschikbare ruimte. Het verlagen van de schaal toont meer inhoud, maar verkleint de elementen. Kies een instelling die het beste past bij uw leescomfort en werkbehoeften."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Pagina Zijbalk",
+      "description": "Met de functie voor de pagina-zijbalk kunt u een zijbalk toevoegen aan webpagina's zonder de ingebouwde zijbalk van de browser te openen. Dit is vooral handig voor gebruikers met kleinere schermen die de zijbalk van de browser te breed of inflexibel vinden. Hoewel de pagina-zijbalk beperkte functionaliteit biedt vanwege bepaalde beperkingen, biedt het een compacter alternatief. Wanneer ingeschakeld, kunt u toegang krijgen tot de zijbalk door uw muis over de rand van het venster te bewegen.",
+      "usageRestrictions": "Gebruiksbeperkingen",
+      "sidebarEnabled": {
+        "label": "Zijbalk inschakelen",
+        "description": "Schakel om de pagina-zijbalk in of uit te schakelen"
+      },
+      "sidebarPosition": {
+        "label": "Zijbalkpositie",
+        "description": "Selecteer waar de zijbalk op de pagina verschijnt",
+        "left": "Links",
+        "right": "Rechts"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Beperkingen van inhoudsscripts",
+        "warningMessage": "Inhoudsscripts zijn kleine programma's die webpagina's verbeteren met extra functies. Vanwege beveiligings- en privacybeperkingen kunnen deze scripts echter niet op bepaalde soorten pagina's worden uitgevoerd. Als gevolg hiervan kan de zijbalk mogelijk niet verschijnen op de volgende pagina's:",
+        "webStore": "Browser-extensiewinkels (bijv. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Interne browserpagina's (beginnend met chrome://, edge://, of about://)",
+        "fileUrls": "Lokale bestanden op uw computer (beginnend met file://)",
+        "extensionsPages": "Pagina's van andere browserextensies (beginnend met chrome-extension:// of extension:// of vergelijkbaar)",
+        "protectedPages": "Websites met strikte Content Security Policies",
+        "pdfViewer": "Ingebouwde PDF-viewerpagina's",
+        "newTabPage": "Nieuwe tabbladpagina's (beginnend met chrome://newtab/ of edge://newtab/ of vergelijkbaar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Create and manage snapshots.",
     "createSnapshot": "Create Snapshot",
     "exportSnapshot": "Export Snapshot",
-    "restoreWindowSize":"Herstel vensterpositie en -grootte",
+    "restoreWindowSize": "Herstel vensterpositie en -grootte",
     "openAllWindows": "Open All Windows",
     "openSelectedInNewWindow": "Open Selected In New Window",
     "openSelectedInCurrentWindow": "Open Selected In Current Window",

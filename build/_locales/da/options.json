@@ -495,7 +495,7 @@
         "siteConfig": "Webstedsindstillinger",
         "siteConfigInfo": "såsom automatisk kassérbar, billede-i-billede ved faneskift, læsefremskridtslinje, afspilningsfremskridtslinje osv.",
         "recentlyTabs": "Nyligt lukkede faner",
-        "snapshots":"Øjebliksbilleder"
+        "snapshots": "Øjebliksbilleder"
       },
       "cancelBtn": "Annuller",
       "exportBtn": "Eksporter",
@@ -559,6 +559,38 @@
         "downloadOnly": "Kun download",
         "staySynchronized": "Forbliv synkroniseret"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Vi har opdaget, at din nuværende skærmopløsning kan påvirke din oplevelse med sidepanelet. På grund af browserbegrænsninger er den minimale bredde på sidepanelet 360 pixels. Ved din nuværende opløsning kan sidepanelet optage {{percent}}% af din skærm.\n\nFor at forbedre din oplevelse, overvej at justere din skærmopløsning. Her er vejledninger til at hjælpe dig:\n\n- For Windows-brugere: [Ændre din skærmopløsning i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac-brugere: [Ændre din Macs skærmopløsning](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJuster kun hvis nødvendigt for din komfort og brug.",
+        "scaleWarningMessage": "Din nuværende skærmskalering er indstillet til {{scale}}%. En højere skalering gør grænsefladeelementer større, men reducerer tilgængelig plads. Sænkning af skaleringen vil vise mere indhold, men mindske elementstørrelsen. Vælg venligst en indstilling, der bedst passer til din læsekomfort og arbejdsbehov."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Sidebjælke på sider",
+      "description": "Funktionen sidebjælke på sider giver dig mulighed for at tilføje en sidebjælke til websider uden at åbne browserens indbyggede sidebjælke. Dette er særligt nyttigt for brugere med mindre skærme, der finder browserens sidebjælke for bred eller ufleksibel. Selvom sidebjælken på sider tilbyder begrænset funktionalitet på grund af visse begrænsninger, giver den et mere kompakt alternativ. Når den er aktiveret, kan du få adgang til sidebjælken ved at svæve med musen over kanten af vinduet.",
+      "usageRestrictions": "Brugsbegrænsninger",
+      "sidebarEnabled": {
+        "label": "Aktiver sidebjælke",
+        "description": "Skift for at aktivere eller deaktivere sidebjælken på sider"
+      },
+      "sidebarPosition": {
+        "label": "Sidebjælkens position",
+        "description": "Vælg hvor sidebjælken vises på siden",
+        "left": "Venstre",
+        "right": "Højre"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Begrænsninger for indholdsskripter",
+        "warningMessage": "Indholdsskripter er små programmer, der forbedrer websider med yderligere funktioner. På grund af sikkerheds- og privatlivsbegrænsninger kan disse skripter dog ikke køre på visse typer sider. Som et resultat kan sidebjælken muligvis ikke vises på følgende:",
+        "webStore": "Browserudvidelsesbutikker (f.eks. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Browserens interne sider (starter med chrome://, edge:// eller about://)",
+        "fileUrls": "Lokale filer på din computer (starter med file://)",
+        "extensionsPages": "Sider fra andre browserudvidelser (starter med chrome-extension:// eller extension:// eller lignende)",
+        "protectedPages": "Websteder med strenge indholdsikkerhedspolitikker",
+        "pdfViewer": "Indbyggede PDF-fremvisersider",
+        "newTabPage": "Ny fane-sider (starter med chrome://newtab/ eller edge://newtab/ eller lignende)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Opret og administrer snapshots.",
     "createSnapshot": "Opret Snapshot",
     "exportSnapshot": "Eksporter Snapshot",
-    "restoreWindowSize":"Gendan vinduets position og størrelse",
+    "restoreWindowSize": "Gendan vinduets position og størrelse",
     "openAllWindows": "Åbn Alle Vinduer",
     "openSelectedInNewWindow": "Åbn Valgte i Nyt Vindue",
     "openSelectedInCurrentWindow": "Åbn Valgte i Nuværende Vindue",

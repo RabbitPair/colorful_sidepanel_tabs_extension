@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Ava külgpaneel"
+  },
+  "closeSidebar": {
+    "message": "Sulge külgriba"
+  },
+  "disableSidebar": {
+    "message": "Keela külgriba"
+  },
+  "disableSidebarAlert": {
+    "message": "Kas olete kindel, et soovite keelata külgriba kõigil lehtedel? Taasaktiveerimiseks minge palun seadete lehele."
+  },
+  "toggleSidebarPosition": {
+    "message": "Vaheta külgriba asukohta"
   }
 }

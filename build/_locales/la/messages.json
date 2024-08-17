@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Aperi Tabulam Lateralem"
+  },
+  "closeSidebar": {
+    "message": "Claude tabulam lateralem"
+  },
+  "disableSidebar": {
+    "message": "Deactiva tabulam lateralem"
+  },
+  "disableSidebarAlert": {
+    "message": "Certus es te velle tabulam lateralem in omnibus paginis deactivare? Ad reactiva, quaeso ad paginam configurationis vade."
+  },
+  "toggleSidebarPosition": {
+    "message": "Permuta positionem tabulae lateralis"
   }
 }

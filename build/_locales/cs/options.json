@@ -495,7 +495,7 @@
         "siteConfig": "Nastavení webu",
         "siteConfigInfo": "například automaticky odložitelný, obraz v obraze při přepínání karet, ukazatel průběhu čtení, ukazatel průběhu přehrávání atd.",
         "recentlyTabs": "Nedávno zavřené karty",
-        "snapshots":"Snímky"
+        "snapshots": "Snímky"
       },
       "cancelBtn": "Zrušit",
       "exportBtn": "Exportovat",
@@ -559,6 +559,38 @@
         "downloadOnly": "Pouze stáhnout",
         "staySynchronized": "Zůstat synchronizovaný"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Zjistili jsme, že vaše aktuální rozlišení obrazovky může ovlivnit váš zážitek s bočním panelem. Kvůli omezením prohlížeče je minimální šířka bočního panelu 360 pixelů. Při vašem aktuálním rozlišení může boční panel zabírat {{percent}}% vaší obrazovky.\n\nPro zlepšení vašeho zážitku zvažte úpravu rozlišení obrazovky. Zde jsou průvodci, kteří vám mohou pomoci:\n\n- Pro uživatele Windows: [Změna rozlišení obrazovky ve Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pro uživatele Mac: [Změna rozlišení displeje Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nUpravte pouze v případě potřeby pro vaše pohodlí a použití.",
+        "scaleWarningMessage": "Vaše aktuální měřítko zobrazení je nastaveno na {{scale}}%. Vyšší měřítko zvětšuje prvky rozhraní, ale snižuje dostupný prostor. Snížení měřítka zobrazí více obsahu, ale zmenší velikost prvků. Vyberte nastavení, které nejlépe vyhovuje vašemu pohodlí při čtení a potřebám pracovního postupu."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Boční panel stránky",
+      "description": "Funkce bočního panelu stránky vám umožňuje přidat boční panel na webové stránky bez otevření vestavěného bočního panelu prohlížeče. To je zvláště užitečné pro uživatele s menšími obrazovkami, kteří považují boční panel prohlížeče za příliš široký nebo nepružný. I když boční panel stránky nabízí omezenou funkčnost kvůli určitým omezením, poskytuje kompaktnější alternativu. Když je povoleno, můžete přistupovat k bočnímu panelu přejetím myší přes okraj okna.",
+      "usageRestrictions": "Omezení použití",
+      "sidebarEnabled": {
+        "label": "Povolit boční panel",
+        "description": "Přepnout pro aktivaci nebo deaktivaci bočního panelu stránky"
+      },
+      "sidebarPosition": {
+        "label": "Pozice bočního panelu",
+        "description": "Vyberte, kde se boční panel objeví na stránce",
+        "left": "Vlevo",
+        "right": "Vpravo"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Omezení skriptů obsahu",
+        "warningMessage": "Skripty obsahu jsou malé programy, které vylepšují webové stránky o další funkce. Kvůli bezpečnostním a soukromým omezením však tyto skripty nemohou běžet na určitých typech stránek. Výsledkem je, že boční panel se nemusí objevit na následujících stránkách:",
+        "webStore": "Obchody s rozšířeními prohlížeče (např. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Interní stránky prohlížeče (začínající chrome://, edge:// nebo about://)",
+        "fileUrls": "Místní soubory na vašem počítači (začínající file://)",
+        "extensionsPages": "Stránky z jiných rozšíření prohlížeče (začínající chrome-extension:// nebo extension:// nebo podobně)",
+        "protectedPages": "Webové stránky s přísnými zásadami zabezpečení obsahu",
+        "pdfViewer": "Stránky vestavěného prohlížeče PDF",
+        "newTabPage": "Stránky Nové karty (začínající chrome://newtab/ nebo edge://newtab/ nebo podobně)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Vytvářejte a spravujte snímky.",
     "createSnapshot": "Vytvořit snímek",
     "exportSnapshot": "Exportovat snímek",
-    "restoreWindowSize":"Obnovit polohu a velikost okna",
+    "restoreWindowSize": "Obnovit polohu a velikost okna",
     "openAllWindows": "Otevřít všechna okna",
     "openSelectedInNewWindow": "Otevřít vybrané v novém okně",
     "openSelectedInCurrentWindow": "Otevřít vybrané v aktuálním okně",

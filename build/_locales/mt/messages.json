@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Iftaħ il-Panew tal-Ġenb"
+  },
+  "closeSidebar": {
+    "message": "Agħlaq il-sidebar"
+  },
+  "disableSidebar": {
+    "message": "Itfi l-sidebar"
+  },
+  "disableSidebarAlert": {
+    "message": "Int żgur li trid tiddiżattiva l-sidebar fuq il-paġni kollha? Biex terġa' tattiva, jekk jogħġbok mur fil-paġna tas-settings."
+  },
+  "toggleSidebarPosition": {
+    "message": "Biddel il-pożizzjoni tal-sidebar"
   }
 }

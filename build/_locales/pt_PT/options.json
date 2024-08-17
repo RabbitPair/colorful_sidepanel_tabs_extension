@@ -559,6 +559,38 @@
         "downloadOnly": "Apenas baixar",
         "staySynchronized": "Permanecer sincronizado"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Detectamos que a resolução atual da sua tela pode afetar sua experiência com o painel lateral. Devido a limitações do navegador, a largura mínima do painel lateral é de 360 pixels. Na sua resolução atual, o painel lateral pode ocupar {{percent}}% da sua tela.\n\nPara melhorar sua experiência, considere ajustar a resolução da sua tela. Aqui estão guias para ajudá-lo:\n\n- Para usuários do Windows: [Alterar a resolução da tela no Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuários do Mac: [Alterar a resolução da tela do Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjuste apenas se necessário para seu conforto e uso.",
+        "scaleWarningMessage": "A escala de exibição atual está definida para {{scale}}%. Uma escala maior torna os elementos da interface maiores, mas reduz o espaço disponível. Reduzir a escala mostrará mais conteúdo, mas diminuirá o tamanho dos elementos. Escolha uma configuração que melhor se adapte ao seu conforto de leitura e necessidades de fluxo de trabalho."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barra Lateral da Página",
+      "description": "O recurso de barra lateral da página permite adicionar uma barra lateral às páginas da web sem abrir a barra lateral embutida do navegador. Isso é particularmente útil para usuários com telas menores que acham a barra lateral do navegador muito larga ou inflexível. Embora a barra lateral da página ofereça funcionalidade limitada devido a certas restrições, ela fornece uma alternativa mais compacta. Quando ativado, você pode acessar a barra lateral passando o mouse sobre a borda da janela.",
+      "usageRestrictions": "Limitações de Uso",
+      "sidebarEnabled": {
+        "label": "Ativar Barra Lateral",
+        "description": "Alternar para ativar ou desativar a barra lateral da página"
+      },
+      "sidebarPosition": {
+        "label": "Posição da Barra Lateral",
+        "description": "Selecione onde a barra lateral aparece na página",
+        "left": "Esquerda",
+        "right": "Direita"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitações do Script de Conteúdo",
+        "warningMessage": "Scripts de conteúdo são pequenos programas que aprimoram páginas da web com recursos adicionais. No entanto, devido a restrições de segurança e privacidade, esses scripts não podem ser executados em certos tipos de páginas. Como resultado, a barra lateral pode não aparecer nos seguintes casos:",
+        "webStore": "Lojas de extensões do navegador (por exemplo, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Páginas internas do navegador (começando com chrome://, edge:// ou about://)",
+        "fileUrls": "Arquivos locais no seu computador (começando com file://)",
+        "extensionsPages": "Páginas de outras extensões do navegador (começando com chrome-extension:// ou extension:// ou similar)",
+        "protectedPages": "Sites com Políticas de Segurança de Conteúdo rigorosas",
+        "pdfViewer": "Páginas do visualizador de PDF embutido",
+        "newTabPage": "Páginas de Nova Guia (começando com chrome://newtab/ ou edge://newtab/ ou similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Crie e gerencie snapshots.",
     "createSnapshot": "Criar Snapshot",
     "exportSnapshot": "Exportar Snapshot",
-    "restoreWindowSize":"Restaurar posição e tamanho da janela",
+    "restoreWindowSize": "Restaurar posição e tamanho da janela",
     "openAllWindows": "Abrir Todas as Janelas",
     "openSelectedInNewWindow": "Abrir Selecionados em Nova Janela",
     "openSelectedInCurrentWindow": "Abrir Selecionados na Janela Atual",

@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Ouvrir le Panneau Latéral"
+  },
+  "closeSidebar": {
+    "message": "Fermer la barre latérale"
+  },
+  "disableSidebar": {
+    "message": "Désactiver la barre latérale"
+  },
+  "disableSidebarAlert": {
+    "message": "Êtes-vous sûr de vouloir désactiver la barre latérale sur toutes les pages ? Pour la réactiver, veuillez aller à la page des paramètres."
+  },
+  "toggleSidebarPosition": {
+    "message": "Changer la position de la barre latérale"
   }
 }

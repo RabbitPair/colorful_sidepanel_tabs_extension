@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Otwórz panel boczny"
+  },
+  "closeSidebar": {
+    "message": "Zamknij panel boczny"
+  },
+  "disableSidebar": {
+    "message": "Wyłącz panel boczny"
+  },
+  "disableSidebarAlert": {
+    "message": "Czy na pewno chcesz wyłączyć panel boczny na wszystkich stronach? Aby ponownie włączyć, przejdź do strony ustawień."
+  },
+  "toggleSidebarPosition": {
+    "message": "Przełącz pozycję panelu bocznego"
   }
 }

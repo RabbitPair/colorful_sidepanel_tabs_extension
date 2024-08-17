@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Odpri stransko ploščo"
+  },
+  "closeSidebar": {
+    "message": "Zapri stransko ploščo"
+  },
+  "disableSidebar": {
+    "message": "Onemogoči stransko ploščo"
+  },
+  "disableSidebarAlert": {
+    "message": "Ali ste prepričani, da želite onemogočiti stransko ploščo na vseh straneh? Če jo želite znova omogočiti, pojdite na stran z nastavitvami."
+  },
+  "toggleSidebarPosition": {
+    "message": "Preklopi položaj stranske plošče"
   }
 }

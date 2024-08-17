@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "打開側邊欄"
+  },
+  "closeSidebar": {
+    "message": "關閉側邊欄"
+  },
+  "disableSidebar": {
+    "message": "禁用側邊欄"
+  },
+  "disableSidebarAlert": {
+    "message": "您確定要禁用所有頁面上的側邊欄嗎？要重新啟用，請轉到設置頁面。"
+  },
+  "toggleSidebarPosition": {
+    "message": "切換側邊欄位置"
   }
 }

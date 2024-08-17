@@ -495,7 +495,7 @@
         "siteConfig": "站點設置",
         "siteConfigInfo": "例如自動丟棄、標籤切換時的畫中畫、閱讀進度條、播放進度條等。",
         "recentlyTabs": "最近關閉的標籤頁",
-        "snapshots":"快照"
+        "snapshots": "快照"
       },
       "cancelBtn": "取消",
       "exportBtn": "導出",
@@ -559,6 +559,38 @@
         "downloadOnly": "僅下載",
         "staySynchronized": "保持同步"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "我們檢測到您當前的屏幕分辨率可能會影響您使用側邊欄的體驗。由於瀏覽器的限制，側邊欄的最小寬度為360像素。在您當前的分辨率下，側邊欄可能會佔據您屏幕的{{percent}}%。\n\n為了提升您的體驗，請考慮調整您的屏幕分辨率。以下是一些幫助您的指南：\n\n- 對於Windows用戶：[在Windows中更改屏幕分辨率](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- 對於Mac用戶：[更改Mac顯示器的分辨率](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n請僅在必要時進行調整以適應您的舒適度和使用需求。",
+        "scaleWarningMessage": "您當前的顯示比例設置為{{scale}}%。較高的比例會使界面元素變大，但可用空間減少。降低比例會顯示更多內容，但元素尺寸會減小。請選擇最適合您閱讀舒適度和工作流程需求的設置。"
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "頁面側邊欄",
+      "description": "頁面側邊欄功能允許您在不打開瀏覽器內置側邊欄的情況下向網頁添加側邊欄。這對於那些覺得瀏覽器側邊欄過寬或不靈活的小屏幕用戶特別有用。雖然頁面側邊欄由於某些限制功能有限，但它提供了一個更緊湊的替代方案。啟用後，您可以通過將鼠標懸停在窗口邊緣來訪問側邊欄。",
+      "usageRestrictions": "使用限制",
+      "sidebarEnabled": {
+        "label": "啟用側邊欄",
+        "description": "切換以激活或停用頁面側邊欄"
+      },
+      "sidebarPosition": {
+        "label": "側邊欄位置",
+        "description": "選擇側邊欄在頁面上的顯示位置",
+        "left": "左側",
+        "right": "右側"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "內容腳本限制",
+        "warningMessage": "內容腳本是增強網頁功能的小程序。然而，由於安全和隱私限制，這些腳本無法在某些類型的頁面上運行。因此，側邊欄可能不會出現在以下頁面上：",
+        "webStore": "瀏覽器擴展商店（例如，Chrome Web Store，Microsoft Edge Add-ons）",
+        "internalPages": "瀏覽器內部頁面（以chrome://，edge://或about://開頭）",
+        "fileUrls": "您計算機上的本地文件（以file://開頭）",
+        "extensionsPages": "其他瀏覽器擴展的頁面（以chrome-extension://或extension://或類似開頭）",
+        "protectedPages": "具有嚴格內容安全策略的網站",
+        "pdfViewer": "內置PDF查看器頁面",
+        "newTabPage": "新標籤頁（以chrome://newtab/或edge://newtab/或類似開頭）"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "創建和管理快照。",
     "createSnapshot": "創建快照",
     "exportSnapshot": "匯出快照",
-    "restoreWindowSize":"恢復視窗位置和大小",
+    "restoreWindowSize": "恢復視窗位置和大小",
     "openAllWindows": "打開所有視窗",
     "openSelectedInNewWindow": "在新視窗中打開選定項目",
     "openSelectedInCurrentWindow": "在當前視窗中打開選定項目",

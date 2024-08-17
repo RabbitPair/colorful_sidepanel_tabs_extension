@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Atvērt sānu paneli"
+  },
+  "closeSidebar": {
+    "message": "Aizvērt sānu paneli"
+  },
+  "disableSidebar": {
+    "message": "Atspējot sānu paneli"
+  },
+  "disableSidebarAlert": {
+    "message": "Vai tiešām vēlaties atspējot sānu paneli visās lapās? Lai to atkārtoti iespējotu, lūdzu, dodieties uz iestatījumu lapu."
+  },
+  "toggleSidebarPosition": {
+    "message": "Pārslēgt sānu paneļa pozīciju"
   }
 }

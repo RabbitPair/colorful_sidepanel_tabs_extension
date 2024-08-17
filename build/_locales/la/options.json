@@ -214,7 +214,7 @@
       "pinedTabsAsIcons": {
         "label": "Monstra tabulas pined ut icones",
         "description": "Cum activa, tabulae pined ut icones ostendentur et non in indice"
-      }, 
+      },
       "pinToQuickAccess": {
         "label": "Monstra celerem accessum",
         "description": "Potes tabulam constituere ut in Celeri accessu appareat ut facile invenias. Ius-click (vel diu-urge) eam et elige 'Pin ad Celerem accessum'. Depinge eam cum non amplius opus est ibi per ius-click (vel diu-urge) eam et elige 'Delete ex Celeri accessu'. Differentia a tabulis pined est quod Celer Accessus URL servat et novam tabulam omni tempore aperit cum cliccatur."
@@ -559,6 +559,38 @@
         "downloadOnly": "Solo descargar",
         "staySynchronized": "Mantener sincronizado"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Hemos detectado que la resolución de tu pantalla actual puede afectar tu experiencia con el panel lateral. Debido a las limitaciones del navegador, el ancho mínimo del panel lateral es de 360 píxeles. Con tu resolución actual, el panel lateral puede ocupar el {{percent}}% de tu pantalla.\n\nPara mejorar tu experiencia, considera ajustar la resolución de tu pantalla. Aquí hay guías para ayudarte:\n\n- Para usuarios de Windows: [Cambiar la resolución de pantalla en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuarios de Mac: [Cambiar la resolución de la pantalla de tu Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjusta solo si es necesario para tu comodidad y uso.",
+        "scaleWarningMessage": "La escala de tu pantalla actual está configurada en {{scale}}%. Una escala más alta hace que los elementos de la interfaz sean más grandes pero reduce el espacio disponible. Reducir la escala mostrará más contenido pero disminuirá el tamaño de los elementos. Elige una configuración que se adapte mejor a tu comodidad de lectura y necesidades de trabajo."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barra Lateral de la Página",
+      "description": "La función de la barra lateral de la página te permite agregar una barra lateral a las páginas web sin abrir la barra lateral incorporada del navegador. Esto es particularmente útil para los usuarios con pantallas más pequeñas que encuentran la barra lateral del navegador demasiado ancha o inflexible. Aunque la barra lateral de la página ofrece funcionalidad limitada debido a ciertas restricciones, proporciona una alternativa más compacta. Cuando está habilitada, puedes acceder a la barra lateral pasando el ratón sobre el borde de la ventana.",
+      "usageRestrictions": "Limitaciones de Uso",
+      "sidebarEnabled": {
+        "label": "Habilitar Barra Lateral",
+        "description": "Alternar para activar o desactivar la barra lateral de la página"
+      },
+      "sidebarPosition": {
+        "label": "Posición de la Barra Lateral",
+        "description": "Selecciona dónde aparece la barra lateral en la página",
+        "left": "Izquierda",
+        "right": "Derecha"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitaciones del Script de Contenido",
+        "warningMessage": "Los scripts de contenido son pequeños programas que mejoran las páginas web con funciones adicionales. Sin embargo, debido a restricciones de seguridad y privacidad, estos scripts no pueden ejecutarse en ciertos tipos de páginas. Como resultado, la barra lateral puede no aparecer en los siguientes casos:",
+        "webStore": "Tiendas de extensiones del navegador (por ejemplo, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Páginas internas del navegador (que comienzan con chrome://, edge://, o about://)",
+        "fileUrls": "Archivos locales en tu computadora (que comienzan con file://)",
+        "extensionsPages": "Páginas de otras extensiones del navegador (que comienzan con chrome-extension:// o extension:// o similar)",
+        "protectedPages": "Sitios web con Políticas de Seguridad de Contenido estrictas",
+        "pdfViewer": "Páginas del visor de PDF incorporado",
+        "newTabPage": "Páginas de Nueva Pestaña (que comienzan con chrome://newtab/ o edge://newtab/ o similar)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Crea e gestisci gli snapshot.",
     "createSnapshot": "Crea Snapshot",
     "exportSnapshot": "Esporta Snapshot",
-    "restoreWindowSize":"Restaurar posición y tamaño de la ventana",
+    "restoreWindowSize": "Restaurar posición y tamaño de la ventana",
     "openAllWindows": "Apri Tutte le Finestre",
     "openSelectedInNewWindow": "Apri Selezionati in Nuova Finestra",
     "openSelectedInCurrentWindow": "Apri Selezionati nella Finestra Corrente",

@@ -119,7 +119,7 @@
       "buttonPosition": {
         "label": "Nafasi ya kitufe",
         "description": "Wekeza nafasi ya vitufe",
-         "left": "Kushoto",
+        "left": "Kushoto",
         "right": "Kulia"
       },
       "alwaysShowCloseButton": {
@@ -172,7 +172,7 @@
       "listBackgroundTransparency": {
         "label": "Uwazi wa mandhari ya orodha",
         "description": "Wekeza uwazi wa mandhari ya orodha",
-         "transparent": "Wazi",
+        "transparent": "Wazi",
         "opaque": "Nene"
       },
       "listBottomBorder": {
@@ -495,7 +495,7 @@
         "siteConfig": "Mipangilio ya Tovuti",
         "siteConfigInfo": "kama vile kutupwa kiotomatiki, picha katika picha kwenye Kubadilisha Kichupo, mstari wa maendeleo ya kusoma, mstari wa maendeleo ya kucheza, n.k.",
         "recentlyTabs": "Vichupo vilivyofungwa hivi karibuni",
-        "snapshots":"Picha za Haraka"
+        "snapshots": "Picha za Haraka"
       },
       "cancelBtn": "Ghairi",
       "exportBtn": "Hamisha",
@@ -559,6 +559,38 @@
         "downloadOnly": "Pakua tu",
         "staySynchronized": "Baki kusawazishwa"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Tumegundua kuwa azimio la skrini yako ya sasa linaweza kuathiri uzoefu wako na paneli ya kando. Kwa sababu ya vikwazo vya kivinjari, upana wa chini wa paneli ya kando ni pikseli 360. Kwa azimio lako la sasa, paneli ya kando inaweza kuchukua {{percent}}% ya skrini yako.\n\nIli kuboresha uzoefu wako, fikiria kurekebisha azimio la skrini yako. Hapa kuna miongozo ya kukusaidia:\n\n- Kwa watumiaji wa Windows: [Badilisha azimio la skrini yako katika Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Kwa watumiaji wa Mac: [Badilisha azimio la onyesho la Mac yako](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nTafadhali rekebisha tu ikiwa ni muhimu kwa faraja yako na matumizi.",
+        "scaleWarningMessage": "Kiwango chako cha kuonyesha cha sasa kimewekwa kwa {{scale}}%. Kiwango cha juu hufanya vipengele vya interface kuwa vikubwa lakini hupunguza nafasi inayopatikana. Kupunguza kiwango kutaonyesha maudhui zaidi lakini kupunguza ukubwa wa kipengele. Tafadhali chagua mpangilio unaofaa zaidi faraja yako ya kusoma na mahitaji ya kazi."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Paneli ya Kando ya Ukurasa",
+      "description": "Kipengele cha paneli ya kando ya ukurasa hukuruhusu kuongeza paneli ya kando kwenye kurasa za wavuti bila kufungua paneli ya kando iliyojengwa ndani ya kivinjari. Hii ni muhimu hasa kwa watumiaji wenye skrini ndogo ambao wanapata paneli ya kando ya kivinjari kuwa pana sana au isiyobadilika. Ingawa paneli ya kando ya ukurasa inatoa utendaji mdogo kutokana na vizuizi fulani, inatoa mbadala wa kompakt zaidi. Ikiwezeshwa, unaweza kufikia paneli ya kando kwa kupeleka kipanya chako kwenye ukingo wa dirisha.",
+      "usageRestrictions": "Vikwazo vya Matumizi",
+      "sidebarEnabled": {
+        "label": "Wezesha Paneli ya Kando",
+        "description": "Badilisha ili kuwasha au kuzima paneli ya kando ya ukurasa"
+      },
+      "sidebarPosition": {
+        "label": "Nafasi ya Paneli ya Kando",
+        "description": "Chagua mahali ambapo paneli ya kando inaonekana kwenye ukurasa",
+        "left": "Kushoto",
+        "right": "Kulia"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Vikwazo vya Script ya Maudhui",
+        "warningMessage": "Script za maudhui ni programu ndogo ambazo huboresha kurasa za wavuti na vipengele vya ziada. Hata hivyo, kutokana na vizuizi vya usalama na faragha, script hizi haziwezi kuendeshwa kwenye aina fulani za kurasa. Kwa hivyo, paneli ya kando inaweza isionekane kwenye zifuatazo:",
+        "webStore": "Maduka ya viendelezi vya kivinjari (mfano, Duka la Chrome, Microsoft Edge Add-ons)",
+        "internalPages": "Kurasa za ndani za kivinjari (zinazoanza na chrome://, edge://, au about://)",
+        "fileUrls": "Faili za ndani kwenye kompyuta yako (zinazoanza na file://)",
+        "extensionsPages": "Kurasa kutoka kwa viendelezi vingine vya kivinjari (zinazoanza na chrome-extension:// au extension:// au sawa na hizo)",
+        "protectedPages": "Tovuti zilizo na Sera za Usalama wa Maudhui kali",
+        "pdfViewer": "Kurasa za kionyeshi cha PDF kilichojengwa ndani",
+        "newTabPage": "Kurasa za Kichupo Kipya (zinazoanza na chrome://newtab/ au edge://newtab/ au sawa na hizo)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Unda na simamia picha za haraka.",
     "createSnapshot": "Unda Picha ya Haraka",
     "exportSnapshot": "Hamisha Picha ya Haraka",
-    "restoreWindowSize":"Rejesha nafasi na ukubwa wa dirisha",
+    "restoreWindowSize": "Rejesha nafasi na ukubwa wa dirisha",
     "openAllWindows": "Fungua Dirisha Zote",
     "openSelectedInNewWindow": "Fungua Zilizochaguliwa Katika Dirisha Jipya",
     "openSelectedInCurrentWindow": "Fungua Zilizochaguliwa Katika Dirisha la Sasa",

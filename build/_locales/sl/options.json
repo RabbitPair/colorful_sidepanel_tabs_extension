@@ -559,6 +559,38 @@
         "downloadOnly": "Samo prenos",
         "staySynchronized": "Ostani sinhroniziran"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Zaznali smo, da lahko vaša trenutna ločljivost zaslona vpliva na vašo izkušnjo s stranskim podoknom. Zaradi omejitev brskalnika je minimalna širina stranskega podokna 360 slikovnih pik. Pri vaši trenutni ločljivosti lahko stransko podokno zavzame {{percent}}% vašega zaslona.\n\nZa izboljšanje vaše izkušnje razmislite o prilagoditvi ločljivosti zaslona. Tukaj so vodniki, ki vam lahko pomagajo:\n\n- Za uporabnike sistema Windows: [Spremenite ločljivost zaslona v sistemu Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Za uporabnike Maca: [Spremenite ločljivost zaslona na Macu](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPrilagodite le, če je to potrebno za vašo udobje in uporabo.",
+        "scaleWarningMessage": "Vaša trenutna nastavitev povečave zaslona je {{scale}}%. Višja povečava naredi elemente vmesnika večje, vendar zmanjša razpoložljiv prostor. Znižanje povečave bo prikazalo več vsebine, vendar zmanjšalo velikost elementov. Prosimo, izberite nastavitev, ki najbolj ustreza vašemu bralnemu udobju in potrebam delovnega toka."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Stranska vrstica strani",
+      "description": "Funkcija stranske vrstice strani vam omogoča dodajanje stranske vrstice na spletne strani brez odpiranja vgrajene stranske vrstice brskalnika. To je še posebej uporabno za uporabnike z manjšimi zasloni, ki se jim zdi stranska vrstica brskalnika preširoka ali neprilagodljiva. Medtem ko stranska vrstica strani ponuja omejeno funkcionalnost zaradi določenih omejitev, zagotavlja bolj kompaktno alternativo. Ko je omogočena, lahko dostopate do stranske vrstice tako, da z miško premaknete čez rob okna.",
+      "usageRestrictions": "Omejitve uporabe",
+      "sidebarEnabled": {
+        "label": "Omogoči stransko vrstico",
+        "description": "Preklopite za aktiviranje ali deaktiviranje stranske vrstice strani"
+      },
+      "sidebarPosition": {
+        "label": "Položaj stranske vrstice",
+        "description": "Izberite, kje se stranska vrstica pojavi na strani",
+        "left": "Levo",
+        "right": "Desno"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Omejitve skript vsebine",
+        "warningMessage": "Skripti vsebine so majhni programi, ki izboljšajo spletne strani z dodatnimi funkcijami. Vendar pa zaradi varnostnih in zasebnostnih omejitev ti skripti ne morejo delovati na določenih vrstah strani. Posledično se stranska vrstica morda ne bo pojavila na naslednjih straneh:",
+        "webStore": "Trgovine z razširitvami brskalnika (npr. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Notranje strani brskalnika (začnejo se s chrome://, edge:// ali about://)",
+        "fileUrls": "Lokalne datoteke na vašem računalniku (začnejo se s file://)",
+        "extensionsPages": "Strani iz drugih razširitev brskalnika (začnejo se s chrome-extension:// ali extension:// ali podobno)",
+        "protectedPages": "Spletna mesta s strogimi politikami varnosti vsebine",
+        "pdfViewer": "Vgrajene strani pregledovalnika PDF",
+        "newTabPage": "Strani novega zavihka (začnejo se s chrome://newtab/ ali edge://newtab/ ali podobno)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Ustvarite in upravljajte posnetke.",
     "createSnapshot": "Ustvari posnetek",
     "exportSnapshot": "Izvozi posnetek",
-    "restoreWindowSize":"Obnovi položaj in velikost okna",
+    "restoreWindowSize": "Obnovi položaj in velikost okna",
     "openAllWindows": "Odpri vsa okna",
     "openSelectedInNewWindow": "Odpri izbrano v novem oknu",
     "openSelectedInCurrentWindow": "Odpri izbrano v trenutnem oknu",

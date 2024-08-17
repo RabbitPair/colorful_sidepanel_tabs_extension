@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Maak Sy Paneel Oop"
+  },
+  "closeSidebar": {
+    "message": "Maak sybalk toe"
+  },
+  "disableSidebar": {
+    "message": "Deaktiveer sybalk"
+  },
+  "disableSidebarAlert": {
+    "message": "Is jy seker jy wil die sybalk op alle bladsye deaktiveer? Om weer te aktiveer, gaan asseblief na die instellingsbladsy."
+  },
+  "toggleSidebarPosition": {
+    "message": "Wissel sybalkposisie"
   }
 }

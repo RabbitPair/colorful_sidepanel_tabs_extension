@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Otvori bočnu ploču"
+  },
+  "closeSidebar": {
+    "message": "Zatvori bočnu ploču"
+  },
+  "disableSidebar": {
+    "message": "Onemogući bočnu ploču"
+  },
+  "disableSidebarAlert": {
+    "message": "Jeste li sigurni da želite onemogućiti bočnu ploču na svim stranicama? Da biste je ponovno omogućili, idite na stranicu s postavkama."
+  },
+  "toggleSidebarPosition": {
+    "message": "Prebaci položaj bočne ploče"
   }
 }

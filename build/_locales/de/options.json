@@ -495,7 +495,7 @@
         "siteConfig": "Website-Einstellungen",
         "siteConfigInfo": "wie z.B. automatisch verwerfbar, Bild-in-Bild beim Tab-Wechsel, Lesefortschrittsbalken, Abspielfortschrittsbalken usw.",
         "recentlyTabs": "Kürzlich geschlossene Tabs",
-        "snapshots":"Momentaufnahmen"
+        "snapshots": "Momentaufnahmen"
       },
       "cancelBtn": "Abbrechen",
       "exportBtn": "Exportieren",
@@ -559,6 +559,38 @@
         "downloadOnly": "Nur herunterladen",
         "staySynchronized": "Synchronisiert bleiben"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Wir haben festgestellt, dass Ihre aktuelle Bildschirmauflösung Ihre Erfahrung mit dem Seitenbereich beeinträchtigen kann. Aufgrund von Browser-Einschränkungen beträgt die Mindestbreite des Seitenbereichs 360 Pixel. Bei Ihrer aktuellen Auflösung kann der Seitenbereich {{percent}}% Ihres Bildschirms einnehmen.\n\nUm Ihre Erfahrung zu verbessern, sollten Sie Ihre Bildschirmauflösung anpassen. Hier sind Anleitungen, die Ihnen helfen können:\n\n- Für Windows-Benutzer: [Ändern Sie Ihre Bildschirmauflösung in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Für Mac-Benutzer: [Ändern Sie die Auflösung Ihres Mac-Displays](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nBitte passen Sie die Einstellungen nur an, wenn dies für Ihren Komfort und Ihre Nutzung erforderlich ist.",
+        "scaleWarningMessage": "Ihre aktuelle Anzeige-Skalierung ist auf {{scale}}% eingestellt. Eine höhere Skalierung vergrößert die Schnittstellenelemente, verringert jedoch den verfügbaren Platz. Eine niedrigere Skalierung zeigt mehr Inhalt, verkleinert jedoch die Elemente. Bitte wählen Sie eine Einstellung, die am besten zu Ihrem Lesekomfort und Ihren Arbeitsabläufen passt."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Seitenleiste auf Seiten",
+      "description": "Mit der Seitenleistenfunktion können Sie eine Seitenleiste zu Webseiten hinzufügen, ohne die eingebaute Seitenleiste des Browsers zu öffnen. Dies ist besonders nützlich für Benutzer mit kleineren Bildschirmen, die die Browser-Seitenleiste als zu breit oder unflexibel empfinden. Während die Seitenleiste aufgrund bestimmter Einschränkungen nur begrenzte Funktionalität bietet, stellt sie eine kompaktere Alternative dar. Wenn aktiviert, können Sie auf die Seitenleiste zugreifen, indem Sie den Mauszeiger über den Rand des Fensters bewegen.",
+      "usageRestrictions": "Nutzungsbeschränkungen",
+      "sidebarEnabled": {
+        "label": "Seitenleiste aktivieren",
+        "description": "Schalten Sie die Seitenleiste ein oder aus"
+      },
+      "sidebarPosition": {
+        "label": "Position der Seitenleiste",
+        "description": "Wählen Sie, wo die Seitenleiste auf der Seite erscheint",
+        "left": "Links",
+        "right": "Rechts"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Einschränkungen von Inhalts-Skripten",
+        "warningMessage": "Inhalts-Skripte sind kleine Programme, die Webseiten mit zusätzlichen Funktionen erweitern. Aufgrund von Sicherheits- und Datenschutzbeschränkungen können diese Skripte jedoch nicht auf bestimmten Seitentypen ausgeführt werden. Daher kann die Seitenleiste auf den folgenden Seiten nicht erscheinen:",
+        "webStore": "Browser-Erweiterungsgeschäfte (z. B. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Interne Browser-Seiten (beginnend mit chrome://, edge:// oder about://)",
+        "fileUrls": "Lokale Dateien auf Ihrem Computer (beginnend mit file://)",
+        "extensionsPages": "Seiten von anderen Browser-Erweiterungen (beginnend mit chrome-extension:// oder extension:// oder ähnlich)",
+        "protectedPages": "Websites mit strengen Content-Security-Richtlinien",
+        "pdfViewer": "Eingebaute PDF-Viewer-Seiten",
+        "newTabPage": "Neue Tab-Seiten (beginnend mit chrome://newtab/ oder edge://newtab/ oder ähnlich)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Erstellen und verwalten Sie Snapshots.",
     "createSnapshot": "Snapshot erstellen",
     "exportSnapshot": "Snapshot exportieren",
-    "restoreWindowSize":"Fensterposition und -größe wiederherstellen",
+    "restoreWindowSize": "Fensterposition und -größe wiederherstellen",
     "openAllWindows": "Alle Fenster öffnen",
     "openSelectedInNewWindow": "Ausgewählte in neuem Fenster öffnen",
     "openSelectedInCurrentWindow": "Ausgewählte im aktuellen Fenster öffnen",

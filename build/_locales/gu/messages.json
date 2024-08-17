@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "સાઇડ પેનલ ખોલો"
+  },
+  "closeSidebar": {
+    "message": "સાઇડબાર બંધ કરો"
+  },
+  "disableSidebar": {
+    "message": "સાઇડબાર અક્ષમ કરો"
+  },
+  "disableSidebarAlert": {
+    "message": "શું તમે ખરેખર તમામ પૃષ્ઠો પર સાઇડબાર અક્ષમ કરવા માંગો છો? ફરીથી સક્ષમ કરવા માટે, કૃપા કરીને સેટિંગ્સ પૃષ્ઠ પર જાઓ."
+  },
+  "toggleSidebarPosition": {
+    "message": "સાઇડબાર સ્થિતિ બદલો"
   }
 }

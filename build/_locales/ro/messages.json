@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Deschide panoul lateral"
+  },
+  "closeSidebar": {
+    "message": "Închide panoul lateral"
+  },
+  "disableSidebar": {
+    "message": "Dezactivează panoul lateral"
+  },
+  "disableSidebarAlert": {
+    "message": "Ești sigur că vrei să dezactivezi panoul lateral pe toate paginile? Pentru a-l reactiva, te rugăm să accesezi pagina de setări."
+  },
+  "toggleSidebarPosition": {
+    "message": "Comută poziția panoului lateral"
   }
 }

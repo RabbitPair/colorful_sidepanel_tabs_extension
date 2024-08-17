@@ -495,7 +495,7 @@
         "siteConfig": "Impostazioni del sito",
         "siteConfigInfo": "come scartabile automaticamente, immagine nell'immagine al cambio di scheda, barra di progresso di lettura, barra di progresso di riproduzione, ecc.",
         "recentlyTabs": "Schede chiuse di recente",
-        "snapshots":"Istantanee"
+        "snapshots": "Istantanee"
       },
       "cancelBtn": "Annulla",
       "exportBtn": "Esporta",
@@ -559,6 +559,38 @@
         "downloadOnly": "Solo download",
         "staySynchronized": "Rimani sincronizzato"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Abbiamo rilevato che la risoluzione attuale dello schermo potrebbe influire sulla tua esperienza con il pannello laterale. A causa delle limitazioni del browser, la larghezza minima del pannello laterale è di 360 pixel. Alla risoluzione attuale, il pannello laterale potrebbe occupare il {{percent}}% dello schermo.\n\nPer migliorare la tua esperienza, considera di regolare la risoluzione dello schermo. Ecco delle guide per aiutarti:\n\n- Per utenti Windows: [Cambia la risoluzione dello schermo in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Per utenti Mac: [Cambia la risoluzione del display del Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nRegola solo se necessario per il tuo comfort e utilizzo.",
+        "scaleWarningMessage": "La scala del display attuale è impostata su {{scale}}%. Una scala più alta rende gli elementi dell'interfaccia più grandi ma riduce lo spazio disponibile. Abbassare la scala mostrerà più contenuti ma ridurrà la dimensione degli elementi. Scegli un'impostazione che meglio si adatta al tuo comfort di lettura e alle esigenze del flusso di lavoro."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barra Laterale della Pagina",
+      "description": "La funzione della barra laterale della pagina consente di aggiungere una barra laterale alle pagine web senza aprire la barra laterale integrata del browser. Questo è particolarmente utile per gli utenti con schermi più piccoli che trovano la barra laterale del browser troppo larga o inflessibile. Sebbene la barra laterale della pagina offra funzionalità limitate a causa di alcune restrizioni, fornisce un'alternativa più compatta. Quando abilitata, puoi accedere alla barra laterale passando il mouse sul bordo della finestra.",
+      "usageRestrictions": "Limitazioni d'Uso",
+      "sidebarEnabled": {
+        "label": "Abilita Barra Laterale",
+        "description": "Attiva o disattiva la barra laterale della pagina"
+      },
+      "sidebarPosition": {
+        "label": "Posizione della Barra Laterale",
+        "description": "Seleziona dove appare la barra laterale sulla pagina",
+        "left": "Sinistra",
+        "right": "Destra"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitazioni degli Script di Contenuto",
+        "warningMessage": "Gli script di contenuto sono piccoli programmi che migliorano le pagine web con funzionalità aggiuntive. Tuttavia, a causa di restrizioni di sicurezza e privacy, questi script non possono essere eseguiti su determinati tipi di pagine. Di conseguenza, la barra laterale potrebbe non apparire sui seguenti:",
+        "webStore": "Negozi di estensioni del browser (ad es., Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Pagine interne del browser (che iniziano con chrome://, edge://, o about://)",
+        "fileUrls": "File locali sul tuo computer (che iniziano con file://)",
+        "extensionsPages": "Pagine di altre estensioni del browser (che iniziano con chrome-extension:// o extension:// o simili)",
+        "protectedPages": "Siti web con politiche di sicurezza dei contenuti rigorose",
+        "pdfViewer": "Pagine del visualizzatore PDF integrato",
+        "newTabPage": "Pagine Nuova Scheda (che iniziano con chrome://newtab/ o edge://newtab/ o simili)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Crea e gestisci gli snapshot.",
     "createSnapshot": "Crea Snapshot",
     "exportSnapshot": "Esporta Snapshot",
-    "restoreWindowSize":"Ripristina posizione e dimensione della finestra",
+    "restoreWindowSize": "Ripristina posizione e dimensione della finestra",
     "openAllWindows": "Apri Tutte le Finestre",
     "openSelectedInNewWindow": "Apri Selezionati in Nuova Finestra",
     "openSelectedInCurrentWindow": "Apri Selezionati nella Finestra Corrente",

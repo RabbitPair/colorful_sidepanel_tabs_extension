@@ -559,6 +559,38 @@
         "downloadOnly": "Tikai lejupielādēt",
         "staySynchronized": "Palikt sinhronizētam"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Mēs esam konstatējuši, ka jūsu pašreizējā ekrāna izšķirtspēja var ietekmēt jūsu pieredzi ar sānu paneli. Pārlūkprogrammas ierobežojumu dēļ sānu paneļa minimālais platums ir 360 pikseļi. Pie jūsu pašreizējās izšķirtspējas sānu panelis var aizņemt {{percent}}% no jūsu ekrāna.\n\nLai uzlabotu jūsu pieredzi, apsveriet iespēju pielāgot ekrāna izšķirtspēju. Šeit ir ceļveži, kas var palīdzēt:\n\n- Windows lietotājiem: [Mainiet ekrāna izšķirtspēju Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac lietotājiem: [Mainiet Mac displeja izšķirtspēju](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nLūdzu, pielāgojiet tikai tad, ja tas ir nepieciešams jūsu komfortam un lietošanai.",
+        "scaleWarningMessage": "Jūsu pašreizējais displeja mērogs ir iestatīts uz {{scale}}%. Augstāks mērogs padara interfeisa elementus lielākus, bet samazina pieejamo vietu. Samazinot mērogu, tiks parādīts vairāk satura, bet samazināsies elementu izmērs. Lūdzu, izvēlieties iestatījumu, kas vislabāk atbilst jūsu lasīšanas komfortam un darba plūsmas vajadzībām."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Lapas sānu panelis",
+      "description": "Lapas sānu paneļa funkcija ļauj pievienot sānu paneli tīmekļa lapām, neatverot pārlūkprogrammas iebūvēto sānu paneli. Tas ir īpaši noderīgi lietotājiem ar mazākiem ekrāniem, kuri uzskata, ka pārlūkprogrammas sānu panelis ir pārāk plats vai neelastīgs. Lai gan lapas sānu panelis piedāvā ierobežotu funkcionalitāti noteiktu ierobežojumu dēļ, tas nodrošina kompaktāku alternatīvu. Kad tas ir iespējots, jūs varat piekļūt sānu panelim, pārvietojot peli virs loga malas.",
+      "usageRestrictions": "Lietošanas ierobežojumi",
+      "sidebarEnabled": {
+        "label": "Iespējot sānu paneli",
+        "description": "Pārslēdziet, lai aktivizētu vai deaktivizētu lapas sānu paneli"
+      },
+      "sidebarPosition": {
+        "label": "Sānu paneļa pozīcija",
+        "description": "Izvēlieties, kur lapā parādās sānu panelis",
+        "left": "Pa kreisi",
+        "right": "Pa labi"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Satura skriptu ierobežojumi",
+        "warningMessage": "Satura skripti ir mazas programmas, kas uzlabo tīmekļa lapas ar papildu funkcijām. Tomēr drošības un privātuma ierobežojumu dēļ šie skripti nevar darboties noteikta veida lapās. Rezultātā sānu panelis var neparādīties šādās lapās:",
+        "webStore": "Pārlūkprogrammas paplašinājumu veikali (piemēram, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Pārlūkprogrammas iekšējās lapas (sākas ar chrome://, edge:// vai about://)",
+        "fileUrls": "Vietējie faili jūsu datorā (sākas ar file://)",
+        "extensionsPages": "Citu pārlūkprogrammas paplašinājumu lapas (sākas ar chrome-extension:// vai extension:// vai līdzīgi)",
+        "protectedPages": "Tīmekļa vietnes ar stingrām satura drošības politikām",
+        "pdfViewer": "Iebūvētās PDF skatītāja lapas",
+        "newTabPage": "Jaunas cilnes lapas (sākas ar chrome://newtab/ vai edge://newtab/ vai līdzīgi)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Izveidojiet un pārvaldiet momentuzņēmumus.",
     "createSnapshot": "Izveidot momentuzņēmumu",
     "exportSnapshot": "Eksportēt momentuzņēmumu",
-    "restoreWindowSize":"Atjaunot loga pozīciju un izmēru",
+    "restoreWindowSize": "Atjaunot loga pozīciju un izmēru",
     "openAllWindows": "Atvērt visus logus",
     "openSelectedInNewWindow": "Atvērt atlasītos jaunā logā",
     "openSelectedInCurrentWindow": "Atvērt atlasītos pašreizējā logā",

@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Abrir Panel Lateral"
+  },
+  "closeSidebar": {
+    "message": "Pechar a barra lateral"
+  },
+  "disableSidebar": {
+    "message": "Desactivar a barra lateral"
+  },
+  "disableSidebarAlert": {
+    "message": "Estás seguro de que queres desactivar a barra lateral en todas as páxinas? Para volver activala, vai á páxina de configuración."
+  },
+  "toggleSidebarPosition": {
+    "message": "Alternar a posición da barra lateral"
   }
 }

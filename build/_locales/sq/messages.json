@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Hap Panelin Anësor"
+  },
+  "closeSidebar": {
+    "message": "Mbyll panelin anësor"
+  },
+  "disableSidebar": {
+    "message": "Çaktivizo panelin anësor"
+  },
+  "disableSidebarAlert": {
+    "message": "A jeni i sigurt që dëshironi të çaktivizoni panelin anësor në të gjitha faqet? Për ta riaktivizuar, ju lutemi shkoni te faqja e cilësimeve."
+  },
+  "toggleSidebarPosition": {
+    "message": "Ndrysho pozicionin e panelit anësor"
   }
 }

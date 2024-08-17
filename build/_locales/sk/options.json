@@ -495,7 +495,7 @@
         "siteConfig": "Nastavenia stránky",
         "siteConfigInfo": "ako napríklad automaticky zahoditeľné, obraz v obraze pri prepínaní kariet, ukazovateľ priebehu čítania, ukazovateľ priebehu prehrávania atď.",
         "recentlyTabs": "Nedávno zatvorené karty",
-        "snapshots":"Snímky obrazovky"
+        "snapshots": "Snímky obrazovky"
       },
       "cancelBtn": "Zrušiť",
       "exportBtn": "Exportovať",
@@ -559,6 +559,38 @@
         "downloadOnly": "Iba sťahovanie",
         "staySynchronized": "Zostať synchronizované"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Zistili sme, že vaše aktuálne rozlíšenie obrazovky môže ovplyvniť váš zážitok s bočným panelom. V dôsledku obmedzení prehliadača je minimálna šírka bočného panela 360 pixelov. Pri vašom aktuálnom rozlíšení môže bočný panel zaberať {{percent}}% vašej obrazovky.\n\nNa zlepšenie vášho zážitku zvážte úpravu rozlíšenia obrazovky. Tu sú návody, ktoré vám pomôžu:\n\n- Pre používateľov Windows: [Zmeniť rozlíšenie obrazovky vo Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pre používateľov Mac: [Zmeniť rozlíšenie displeja Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nUpravte iba v prípade potreby pre vaše pohodlie a použitie.",
+        "scaleWarningMessage": "Vaša aktuálna mierka zobrazenia je nastavená na {{scale}}%. Vyššia mierka zväčšuje prvky rozhrania, ale znižuje dostupný priestor. Zníženie mierky zobrazí viac obsahu, ale zmenší veľkosť prvkov. Vyberte si nastavenie, ktoré najlepšie vyhovuje vášmu pohodliu pri čítaní a potrebám pracovného postupu."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Bočný panel stránky",
+      "description": "Funkcia bočného panela stránky vám umožňuje pridať bočný panel na webové stránky bez otvorenia vstavaného bočného panela prehliadača. To je obzvlášť užitočné pre používateľov s menšími obrazovkami, ktorí považujú bočný panel prehliadača za príliš široký alebo nepružný. Hoci bočný panel stránky ponúka obmedzenú funkčnosť kvôli určitým obmedzeniam, poskytuje kompaktnejšiu alternatívu. Keď je povolený, môžete k bočnému panelu pristupovať pohybom myši nad okrajom okna.",
+      "usageRestrictions": "Obmedzenia používania",
+      "sidebarEnabled": {
+        "label": "Povoliť bočný panel",
+        "description": "Prepnite na aktiváciu alebo deaktiváciu bočného panela stránky"
+      },
+      "sidebarPosition": {
+        "label": "Pozícia bočného panela",
+        "description": "Vyberte, kde sa bočný panel zobrazí na stránke",
+        "left": "Vľavo",
+        "right": "Vpravo"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Obmedzenia skriptov obsahu",
+        "warningMessage": "Skripty obsahu sú malé programy, ktoré vylepšujú webové stránky ďalšími funkciami. Avšak kvôli bezpečnostným a súkromným obmedzeniam tieto skripty nemôžu bežať na určitých typoch stránok. V dôsledku toho sa bočný panel nemusí zobraziť na nasledujúcich stránkach:",
+        "webStore": "Obchody s rozšíreniami prehliadača (napr. Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Interné stránky prehliadača (začínajúce na chrome://, edge:// alebo about://)",
+        "fileUrls": "Lokálne súbory na vašom počítači (začínajúce na file://)",
+        "extensionsPages": "Stránky z iných rozšírení prehliadača (začínajúce na chrome-extension:// alebo extension:// alebo podobne)",
+        "protectedPages": "Webové stránky s prísnymi politikami zabezpečenia obsahu",
+        "pdfViewer": "Stránky vstavaného prehliadača PDF",
+        "newTabPage": "Stránky novej karty (začínajúce na chrome://newtab/ alebo edge://newtab/ alebo podobne)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Vytvárajte a spravujte snímky.",
     "createSnapshot": "Vytvoriť snímku",
     "exportSnapshot": "Exportovať snímku",
-    "restoreWindowSize":"Obnoviť polohu a veľkosť okna",
+    "restoreWindowSize": "Obnoviť polohu a veľkosť okna",
     "openAllWindows": "Otvoriť všetky okná",
     "openSelectedInNewWindow": "Otvoriť vybrané v novom okne",
     "openSelectedInCurrentWindow": "Otvoriť vybrané v aktuálnom okne",

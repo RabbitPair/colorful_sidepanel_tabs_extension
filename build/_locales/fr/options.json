@@ -495,7 +495,7 @@
         "siteConfig": "Paramètres du site",
         "siteConfigInfo": "tels que l'abandon automatique, l'image dans l'image lors du changement d'onglet, la barre de progression de lecture, la barre de progression de lecture en cours, etc.",
         "recentlyTabs": "Onglets récemment fermés",
-        "snapshots":"Captures d'écran"
+        "snapshots": "Captures d'écran"
       },
       "cancelBtn": "Annuler",
       "exportBtn": "Exporter",
@@ -559,6 +559,38 @@
         "downloadOnly": "Télécharger uniquement",
         "staySynchronized": "Rester synchronisé"
       }
+    },
+    "alerts": {
+      "screenSizeTips": {
+        "screenSizeWarningMessage": "Nous avons détecté que la résolution actuelle de votre écran peut affecter votre expérience avec le panneau latéral. En raison des limitations du navigateur, la largeur minimale du panneau latéral est de 360 pixels. À votre résolution actuelle, le panneau latéral peut occuper {{percent}}% de votre écran.\n\nPour améliorer votre expérience, envisagez de régler la résolution de votre écran. Voici des guides pour vous aider :\n\n- Pour les utilisateurs de Windows : [Modifier la résolution de votre écran sous Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pour les utilisateurs de Mac : [Modifier la résolution de l'affichage de votre Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVeuillez ajuster uniquement si nécessaire pour votre confort et votre utilisation.",
+        "scaleWarningMessage": "L'échelle actuelle de votre affichage est réglée sur {{scale}}%. Une échelle plus élevée rend les éléments de l'interface plus grands mais réduit l'espace disponible. Réduire l'échelle affichera plus de contenu mais diminuera la taille des éléments. Veuillez choisir un réglage qui convient le mieux à votre confort de lecture et à vos besoins de flux de travail."
+      }
+    },
+    "tabSidebarOnPages": {
+      "title": "Barre latérale de la page",
+      "description": "La fonctionnalité de barre latérale de la page vous permet d'ajouter une barre latérale aux pages Web sans ouvrir la barre latérale intégrée du navigateur. Cela est particulièrement utile pour les utilisateurs ayant des écrans plus petits qui trouvent la barre latérale du navigateur trop large ou inflexible. Bien que la barre latérale de la page offre une fonctionnalité limitée en raison de certaines restrictions, elle fournit une alternative plus compacte. Lorsqu'elle est activée, vous pouvez accéder à la barre latérale en survolant le bord de la fenêtre avec votre souris.",
+      "usageRestrictions": "Limitations d'utilisation",
+      "sidebarEnabled": {
+        "label": "Activer la barre latérale",
+        "description": "Basculer pour activer ou désactiver la barre latérale de la page"
+      },
+      "sidebarPosition": {
+        "label": "Position de la barre latérale",
+        "description": "Sélectionnez où la barre latérale apparaît sur la page",
+        "left": "Gauche",
+        "right": "Droite"
+      },
+      "contentScriptWarning": {
+        "warningTitle": "Limitations des scripts de contenu",
+        "warningMessage": "Les scripts de contenu sont de petits programmes qui améliorent les pages Web avec des fonctionnalités supplémentaires. Cependant, en raison des restrictions de sécurité et de confidentialité, ces scripts ne peuvent pas s'exécuter sur certains types de pages. En conséquence, la barre latérale peut ne pas apparaître sur les éléments suivants :",
+        "webStore": "Magasins d'extensions de navigateur (par exemple, Chrome Web Store, Microsoft Edge Add-ons)",
+        "internalPages": "Pages internes du navigateur (commençant par chrome://, edge:// ou about://)",
+        "fileUrls": "Fichiers locaux sur votre ordinateur (commençant par file://)",
+        "extensionsPages": "Pages d'autres extensions de navigateur (commençant par chrome-extension:// ou extension:// ou similaire)",
+        "protectedPages": "Sites Web avec des politiques de sécurité de contenu strictes",
+        "pdfViewer": "Pages du visualiseur PDF intégré",
+        "newTabPage": "Pages de nouvel onglet (commençant par chrome://newtab/ ou edge://newtab/ ou similaire)"
+      }
     }
   },
   "snapshots": {
@@ -566,7 +598,7 @@
     "description": "Créer et gérer des snapshots.",
     "createSnapshot": "Créer un snapshot",
     "exportSnapshot": "Exporter un snapshot",
-    "restoreWindowSize":"Restaurer la position et la taille de la fenêtre",
+    "restoreWindowSize": "Restaurer la position et la taille de la fenêtre",
     "openAllWindows": "Ouvrir toutes les fenêtres",
     "openSelectedInNewWindow": "Ouvrir la sélection dans une nouvelle fenêtre",
     "openSelectedInCurrentWindow": "Ouvrir la sélection dans la fenêtre actuelle",

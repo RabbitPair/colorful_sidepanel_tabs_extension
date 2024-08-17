@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Malfermu Flankan Panelon"
+  },
+  "closeSidebar": {
+    "message": "Fermu flankpanelon"
+  },
+  "disableSidebar": {
+    "message": "Malŝalti flankpanelon"
+  },
+  "disableSidebarAlert": {
+    "message": "Ĉu vi certas, ke vi volas malŝalti la flankpanelon en ĉiuj paĝoj? Por reŝalti, bonvolu iri al la agorda paĝo."
+  },
+  "toggleSidebarPosition": {
+    "message": "Ŝanĝi flankpanelan pozicion"
   }
 }

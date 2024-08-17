@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Mở bảng điều khiển bên"
+  },
+  "closeSidebar": {
+    "message": "Đóng bảng điều khiển bên"
+  },
+  "disableSidebar": {
+    "message": "Vô hiệu hóa bảng điều khiển bên"
+  },
+  "disableSidebarAlert": {
+    "message": "Bạn có chắc chắn muốn vô hiệu hóa bảng điều khiển bên trên tất cả các trang không? Để kích hoạt lại, vui lòng vào trang cài đặt."
+  },
+  "toggleSidebarPosition": {
+    "message": "Chuyển đổi vị trí bảng điều khiển bên"
   }
 }

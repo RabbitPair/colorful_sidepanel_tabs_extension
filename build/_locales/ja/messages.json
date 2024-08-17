@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "サイドパネルを開く"
+  },
+  "closeSidebar": {
+    "message": "サイドバーを閉じる"
+  },
+  "disableSidebar": {
+    "message": "サイドバーを無効にする"
+  },
+  "disableSidebarAlert": {
+    "message": "すべてのページでサイドバーを無効にしてもよろしいですか？再度有効にするには、設定ページに移動してください。"
+  },
+  "toggleSidebarPosition": {
+    "message": "サイドバーの位置を切り替える"
   }
 }

@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Agor Panel Ochr"
+  },
+  "closeSidebar": {
+    "message": "Cau'r bar ochr"
+  },
+  "disableSidebar": {
+    "message": "Analluogi'r bar ochr"
+  },
+  "disableSidebarAlert": {
+    "message": "Ydych chi'n siŵr eich bod chi eisiau analluogi'r bar ochr ar bob tudalen? I ail-alluogi, ewch i'r dudalen gosodiadau."
+  },
+  "toggleSidebarPosition": {
+    "message": "Toglo safle'r bar ochr"
   }
 }

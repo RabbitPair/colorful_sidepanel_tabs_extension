@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "Fungua Paneli ya Pembeni"
+  },
+  "closeSidebar": {
+    "message": "Funga paneli ya pembeni"
+  },
+  "disableSidebar": {
+    "message": "Zima paneli ya pembeni"
+  },
+  "disableSidebarAlert": {
+    "message": "Je, una uhakika unataka kuzima paneli ya pembeni kwenye kurasa zote? Ili kuiwasha tena, tafadhali nenda kwenye ukurasa wa mipangilio."
+  },
+  "toggleSidebarPosition": {
+    "message": "Badilisha nafasi ya paneli ya pembeni"
   }
 }

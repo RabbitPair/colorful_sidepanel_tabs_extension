@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "افتح اللوحة الجانبية"
+  },
+  "closeSidebar": {
+    "message": "أغلق الشريط الجانبي"
+  },
+  "disableSidebar": {
+    "message": "تعطيل الشريط الجانبي"
+  },
+  "disableSidebarAlert": {
+    "message": "هل أنت متأكد أنك تريد تعطيل الشريط الجانبي في جميع الصفحات؟ لإعادة التمكين، يرجى الذهاب إلى صفحة الإعدادات."
+  },
+  "toggleSidebarPosition": {
+    "message": "تبديل موضع الشريط الجانبي"
   }
 }

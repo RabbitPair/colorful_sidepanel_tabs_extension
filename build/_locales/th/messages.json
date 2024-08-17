@@ -10,5 +10,17 @@
   },
   "openSidePanel": {
     "message": "เปิดแผงด้านข้าง"
+  },
+  "closeSidebar": {
+    "message": "ปิดแผงด้านข้าง"
+  },
+  "disableSidebar": {
+    "message": "ปิดใช้งานแผงด้านข้าง"
+  },
+  "disableSidebarAlert": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งานแผงด้านข้างในทุกหน้า? หากต้องการเปิดใช้งานอีกครั้ง โปรดไปที่หน้าการตั้งค่า"
+  },
+  "toggleSidebarPosition": {
+    "message": "สลับตำแหน่งแผงด้านข้าง"
   }
 }
