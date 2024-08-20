@@ -142,7 +142,23 @@
         "dialogDescription": "Sisestage pildi aadress",
         "OK": "OK",
         "Cancel": "Tühista",
-        "invalidImage": "Kehtetu pildi aadress"
+        "invalidImage": "Kehtetu pildi aadress",
+        "dragImageHere": "Lohistage pilt siia",
+        "addBackgroundPicture": "Lisa taustapilt",
+        "uploadImage": "Laadi pilt üles",
+        "or": "VÕI",
+        "pasteImageLink": "Kleebi pildi link"
+      },
+      "backgroundColor": {
+        "label": "Taustavärv",
+        "description": "Valige oma liidesele taustavärv.",
+        "backgroundImageConfigured": "Taustapilt on juba seadistatud.",
+        "random": "Juhuslik",
+        "clear": "Eemalda"
+      },
+      "backgroundGradient": {
+        "label": "Taustagradient",
+        "description": "Kui lubatud, kasutatakse praegust taustavärvi gradientefekti jaoks. Saate ka liuguri abil reguleerida gradienti nurka."
       },
       "backgroundImageTransparency": {
         "label": "Pildi läbipaistvus",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Suurepärane uudis! Oleme tutvustanud uut 'Lehe külgpaneeli' funktsiooni, mis võimaldab lisada veebilehtedele külgpaneeli ilma brauseri sisseehitatud külgpaneeli kasutamata. Kui see on lubatud, viige lihtsalt hiir akna servale, et külgpaneel ilmuks. [Vaata seadeid](/options.html#/tabSidebarOnPages)",
+        "showLess": "Näita vähem",
+        "showMore": "Näita rohkem",
         "screenSizeWarningMessage": "Oleme tuvastanud, et teie praegune ekraani eraldusvõime võib mõjutada teie kogemust külgpaneeliga. Brauseri piirangute tõttu on külgpaneeli minimaalne laius 360 pikslit. Teie praeguse eraldusvõime juures võib külgpaneel hõivata {{percent}}% teie ekraanist.\n\nKogemuse parandamiseks kaaluge ekraani eraldusvõime kohandamist. Siin on juhised, mis aitavad teid:\n\n- Windowsi kasutajatele: [Muutke oma ekraani eraldusvõimet Windowsis](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Maci kasutajatele: [Muutke oma Maci ekraani eraldusvõimet](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nKohandage ainult siis, kui see on vajalik teie mugavuse ja kasutamise jaoks.",
         "scaleWarningMessage": "Teie praegune ekraani skaala on seatud {{scale}}%. Suurem skaala muudab liidese elemendid suuremaks, kuid vähendab saadaolevat ruumi. Skaala vähendamine näitab rohkem sisu, kuid vähendab elementide suurust. Palun valige seade, mis sobib kõige paremini teie lugemismugavuse ja töövoo vajadustega."
       }

@@ -142,7 +142,23 @@
         "dialogDescription": "Antre adrès imaj la",
         "OK": "OK",
         "Cancel": "Anile",
-        "invalidImage": "Adrès imaj envalid"
+        "invalidImage": "Adrès imaj envalid",
+        "dragImageHere": "Trennen yon imaj isit la",
+        "addBackgroundPicture": "Ajoute yon imaj fon",
+        "uploadImage": "Telechaje Imaj",
+        "or": "OSWA",
+        "pasteImageLink": "Kole lyen imaj la"
+      },
+      "backgroundColor": {
+        "label": "Koulè Fon",
+        "description": "Chwazi yon koulè fon pou entèfas ou.",
+        "backgroundImageConfigured": "Imaj fon an deja configuré.",
+        "random": "O aza",
+        "clear": "Efase"
+      },
+      "backgroundGradient": {
+        "label": "Degrade Fon",
+        "description": "Lè aktive, koulè fon aktyèl la pral itilize pou yon efè degrade. Ou ka ajiste ang degrade a ak glisè a."
       },
       "backgroundImageTransparency": {
         "label": "Transparans imaj",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Bon nouvèl! Nou te entwodui yon nouvo karakteristik 'Panèl Bò Paj' ki pèmèt ou ajoute yon panèl bò nan paj wèb san ou pa itilize panèl bò entegre navigatè a. Yon fwa aktive, senpleman pase sourit ou sou kwen fenèt la pou montre panèl bò a. [Gade Anviwònman](/options.html#/tabSidebarOnPages)",
+        "showLess": "Montre mwens",
+        "showMore": "Montre plis",
         "screenSizeWarningMessage": "Nou te detekte ke rezolisyon aktyèl ekran ou a ka afekte eksperyans ou ak panèl bò a. Akòz limit navigatè yo, lajè minimòm panèl bò a se 360 piksèl. Nan rezolisyon aktyèl ou, panèl bò a ka okipe {{percent}}% nan ekran ou.\n\nPou amelyore eksperyans ou, konsidere ajiste rezolisyon ekran ou. Men gid pou ede ou:\n\n- Pou itilizatè Windows: [Chanje rezolisyon ekran ou nan Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pou itilizatè Mac: [Chanje rezolisyon ekspozisyon Mac ou](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nTanpri ajiste sèlman si sa nesesè pou konfò ak itilizasyon ou.",
         "scaleWarningMessage": "Echèl ekspozisyon aktyèl ou mete sou {{scale}}%. Yon echèl pi wo fè eleman entèfas yo pi gwo men diminye espas ki disponib. Diminye echèl la ap montre plis kontni men ap diminye gwosè eleman yo. Tanpri chwazi yon anviwònman ki pi byen adapte ak konfò lekti ou ak bezwen workflow ou."
       }

@@ -142,7 +142,23 @@
         "dialogDescription": "输入图片地址",
         "OK": "确定",
         "Cancel": "取消",
-        "invalidImage": "无效的图片地址"
+        "invalidImage": "无效的图片地址",
+        "dragImageHere": "拖动图片到这里",
+        "addBackgroundPicture": "添加背景图片",
+        "uploadImage": "上传图片",
+        "or": "或",
+        "pasteImageLink": "粘贴图片链接"
+      },
+      "backgroundColor": {
+        "label": "背景颜色",
+        "description": "选择界面的背景颜色。",
+        "backgroundImageConfigured": "已配置背景图片。",
+        "random": "随机",
+        "clear": "清除"
+      },
+      "backgroundGradient": {
+        "label": "背景渐变",
+        "description": "启用后，当前背景颜色将用于渐变效果。您还可以使用滑块调整渐变角度。"
       },
       "backgroundImageTransparency": {
         "label": "图片透明度",
@@ -563,6 +579,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "好消息！我们全新推出了“网页侧边栏”功能，让您无需使用浏览器自带的侧边栏即可在网页中添加一个侧边栏。启用后，只需将鼠标悬停在窗口边缘即可呼出侧边栏。[查看设置](/options.html#/tabSidebarOnPages)",
+        "showLess": "显示较少",
+        "showMore": "显示更多",
         "screenSizeWarningMessage": "我们注意到您当前的屏幕分辨率可能会影响您使用侧边栏的体验。由于浏览器限制，侧边栏的最小宽度为360像素。在您当前的屏幕分辨率下，侧边栏可能会占用屏幕的 {{percent}}% 空间。\n为了改善使用体验，您可以考虑调整屏幕分辨率。以下是相关操作指南：\n - Windows用户：- [在 Windows 中更改屏幕分辨率](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n - Mac用户：[更改 Mac 显示器的分辨率](https://support.apple.com/guide/mac-help/mchl86d72b76)\n请根据您的实际需求决定是否进行调整。",
         "scaleWarningMessage": "您当前的显示缩放比例为 {{scale}}%。较高的比例会使界面元素变大，侧边栏占用更多空间。降低比例可显示更多内容，但会使元素变小。请根据您的阅读舒适度选择合适的设置。"
       }

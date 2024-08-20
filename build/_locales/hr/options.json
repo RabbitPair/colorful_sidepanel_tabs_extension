@@ -142,7 +142,23 @@
         "dialogDescription": "Unesite adresu slike",
         "OK": "U redu",
         "Cancel": "Otkaži",
-        "invalidImage": "Nevažeća adresa slike"
+        "invalidImage": "Nevažeća adresa slike",
+        "dragImageHere": "Povucite sliku ovdje",
+        "addBackgroundPicture": "Dodajte pozadinsku sliku",
+        "uploadImage": "Učitaj sliku",
+        "or": "ILI",
+        "pasteImageLink": "Zalijepite poveznicu slike"
+      },
+      "backgroundColor": {
+        "label": "Boja pozadine",
+        "description": "Odaberite boju pozadine za svoje sučelje.",
+        "backgroundImageConfigured": "Pozadinska slika je već postavljena.",
+        "random": "Nasumično",
+        "clear": "Očisti"
+      },
+      "backgroundGradient": {
+        "label": "Gradijent pozadine",
+        "description": "Kada je omogućeno, trenutna boja pozadine će se koristiti za gradijent efekt. Također možete prilagoditi kut gradijenta pomoću klizača."
       },
       "backgroundImageTransparency": {
         "label": "Prozirnost slike",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Sjajne vijesti! Uveli smo novu značajku 'Bočna traka stranice' koja vam omogućuje dodavanje bočne trake na web stranice bez korištenja ugrađene bočne trake preglednika. Kada je omogućena, jednostavno pomaknite miš preko ruba prozora kako biste prikazali bočnu traku. [Pogledajte postavke](/options.html#/tabSidebarOnPages)",
+        "showLess": "Prikaži manje",
+        "showMore": "Prikaži više",
         "screenSizeWarningMessage": "Otkrili smo da vaša trenutna razlučivost zaslona može utjecati na vaše iskustvo s bočnom pločom. Zbog ograničenja preglednika, minimalna širina bočne ploče je 360 piksela. Na vašoj trenutnoj razlučivosti, bočna ploča može zauzeti {{percent}}% vašeg zaslona.\n\nKako biste poboljšali svoje iskustvo, razmislite o prilagodbi razlučivosti zaslona. Evo vodiča koji vam mogu pomoći:\n\n- Za korisnike Windowsa: [Promijenite razlučivost zaslona u Windowsu](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Za korisnike Maca: [Promijenite razlučivost zaslona na Macu](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPrilagodite samo ako je potrebno za vašu udobnost i upotrebu.",
         "scaleWarningMessage": "Vaša trenutna skala prikaza postavljena je na {{scale}}%. Veća skala čini elemente sučelja većima, ali smanjuje raspoloživi prostor. Smanjenje skale prikazat će više sadržaja, ali će smanjiti veličinu elemenata. Odaberite postavku koja najbolje odgovara vašoj udobnosti čitanja i potrebama radnog tijeka."
       }

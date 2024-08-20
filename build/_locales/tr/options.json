@@ -142,7 +142,23 @@
         "dialogDescription": "Resim adresini girin",
         "OK": "Tamam",
         "Cancel": "İptal",
-        "invalidImage": "Geçersiz resim adresi"
+        "invalidImage": "Geçersiz resim adresi",
+        "dragImageHere": "Bir resmi buraya sürükleyin",
+        "addBackgroundPicture": "Arka plan resmi ekleyin",
+        "uploadImage": "Resim Yükle",
+        "or": "VEYA",
+        "pasteImageLink": "Resim bağlantısını yapıştırın"
+      },
+      "backgroundColor": {
+        "label": "Arka Plan Rengi",
+        "description": "Arayüzünüz için bir arka plan rengi seçin.",
+        "backgroundImageConfigured": "Arka plan resmi zaten ayarlandı.",
+        "random": "Rastgele",
+        "clear": "Temizle"
+      },
+      "backgroundGradient": {
+        "label": "Arka Plan Gradyanı",
+        "description": "Etkinleştirildiğinde, mevcut arka plan rengi bir gradyan efekti için kullanılacak. Ayrıca kaydırıcıyı kullanarak gradyan açısını ayarlayabilirsiniz."
       },
       "backgroundImageTransparency": {
         "label": "Resim şeffaflığı",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Harika haber! Tarayıcının yerleşik yan panelini kullanmadan web sayfalarına bir yan panel eklemenizi sağlayan yeni 'Sayfa Yan Paneli' özelliğini tanıttık. Etkinleştirildiğinde, yan paneli açmak için fareyi pencerenin kenarına getirin. [Ayarları Görüntüle](/options.html#/tabSidebarOnPages)",
+        "showLess": "Daha az göster",
+        "showMore": "Daha fazla göster",
         "screenSizeWarningMessage": "Mevcut ekran çözünürlüğünüzün yan panel ile deneyiminizi etkileyebileceğini tespit ettik. Tarayıcı sınırlamaları nedeniyle, yan panelin minimum genişliği 360 pikseldir. Mevcut çözünürlüğünüzde, yan panel ekranınızın {{percent}}%'ini kaplayabilir.\n\nDeneyiminizi geliştirmek için, ekran çözünürlüğünüzü ayarlamayı düşünün. İşte size yardımcı olacak kılavuzlar:\n\n- Windows kullanıcıları için: [Windows'ta ekran çözünürlüğünüzü değiştirin](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac kullanıcıları için: [Mac ekranınızın çözünürlüğünü değiştirin](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nLütfen yalnızca gerekli olduğunda konforunuz ve kullanımınız için ayarlayın.",
         "scaleWarningMessage": "Mevcut ekran ölçeğiniz {{scale}}% olarak ayarlanmış. Daha yüksek bir ölçek, arayüz öğelerini daha büyük yapar ancak kullanılabilir alanı azaltır. Ölçeği düşürmek daha fazla içerik gösterir ancak öğe boyutunu küçültür. Lütfen okuma konforunuza ve iş akışı ihtiyaçlarınıza en uygun ayarı seçin."
       }

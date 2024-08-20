@@ -142,7 +142,23 @@
         "dialogDescription": "Voer het afbeeldingsadres in",
         "OK": "OK",
         "Cancel": "Annuleren",
-        "invalidImage": "Ongeldig afbeeldingsadres"
+        "invalidImage": "Ongeldig afbeeldingsadres",
+        "dragImageHere": "Sleep een afbeelding hierheen",
+        "addBackgroundPicture": "Voeg een achtergrondafbeelding toe",
+        "uploadImage": "Afbeelding uploaden",
+        "or": "OF",
+        "pasteImageLink": "Plak afbeeldingslink"
+      },
+      "backgroundColor": {
+        "label": "Achtergrondkleur",
+        "description": "Kies een kleur voor de achtergrond van je interface.",
+        "backgroundImageConfigured": "Achtergrondafbeelding is al ingesteld.",
+        "random": "Willekeurig",
+        "clear": "Wissen"
+      },
+      "backgroundGradient": {
+        "label": "Achtergrondverloop",
+        "description": "Als deze optie is ingeschakeld, wordt de huidige achtergrondkleur gebruikt voor een verloop. Je kunt ook de hoek van het verloop aanpassen met de schuifregelaar."
       },
       "backgroundImageTransparency": {
         "label": "Afbeeldingstransparantie",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Goed nieuws! We hebben een nieuwe functie 'Pagina Zijbalk' geïntroduceerd waarmee u een zijbalk aan webpagina's kunt toevoegen zonder de ingebouwde zijbalk van de browser te gebruiken. Zodra deze is ingeschakeld, beweegt u eenvoudig uw muis over de rand van het venster om de zijbalk te openen. [Bekijk instellingen](/options.html#/tabSidebarOnPages)",
+        "showLess": "Minder weergeven",
+        "showMore": "Meer weergeven",
         "screenSizeWarningMessage": "We hebben gedetecteerd dat uw huidige schermresolutie uw ervaring met het zijpaneel kan beïnvloeden. Vanwege browserbeperkingen is de minimale breedte van het zijpaneel 360 pixels. Bij uw huidige resolutie kan het zijpaneel {{percent}}% van uw scherm in beslag nemen.\n\nOm uw ervaring te verbeteren, overweeg om uw schermresolutie aan te passen. Hier zijn gidsen om u te helpen:\n\n- Voor Windows-gebruikers: [Uw schermresolutie wijzigen in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Voor Mac-gebruikers: [De resolutie van uw Mac-scherm wijzigen](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPas alleen aan indien nodig voor uw comfort en gebruik.",
         "scaleWarningMessage": "Uw huidige weergaveschaal is ingesteld op {{scale}}%. Een hogere schaal maakt interface-elementen groter, maar vermindert de beschikbare ruimte. Het verlagen van de schaal toont meer inhoud, maar verkleint de elementen. Kies een instelling die het beste past bij uw leescomfort en werkbehoeften."
       }

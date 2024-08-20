@@ -142,7 +142,23 @@
         "dialogDescription": "Introduceți adresa imaginii",
         "OK": "OK",
         "Cancel": "Anulează",
-        "invalidImage": "Adresă de imagine nevalidă"
+        "invalidImage": "Adresă de imagine nevalidă",
+        "dragImageHere": "Trageți o imagine aici",
+        "addBackgroundPicture": "Adăugați o imagine de fundal",
+        "uploadImage": "Încărcați imaginea",
+        "or": "SAU",
+        "pasteImageLink": "Lipiți linkul imaginii"
+      },
+      "backgroundColor": {
+        "label": "Culoare de fundal",
+        "description": "Alegeți o culoare de fundal pentru interfața dvs.",
+        "backgroundImageConfigured": "Imaginea de fundal este deja configurată.",
+        "random": "Aleatoriu",
+        "clear": "Șterge"
+      },
+      "backgroundGradient": {
+        "label": "Gradient de fundal",
+        "description": "Când este activat, culoarea de fundal curentă va fi utilizată pentru un efect de gradient. Puteți ajusta unghiul gradientului folosind cursorul."
       },
       "backgroundImageTransparency": {
         "label": "Transparența imaginii",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Vești bune! Am introdus o nouă funcție 'Panou lateral pe pagină' care vă permite să adăugați un panou lateral la paginile web fără a folosi panoul lateral încorporat al browserului. Odată activat, treceți cu mouse-ul peste marginea ferestrei pentru a aduce în prim-plan panoul lateral. [Vizualizați Setările](/options.html#/tabSidebarOnPages)",
+        "showLess": "Arată mai puțin",
+        "showMore": "Arată mai mult",
         "screenSizeWarningMessage": "Am detectat că rezoluția curentă a ecranului dvs. poate afecta experiența dvs. cu panoul lateral. Datorită limitărilor browserului, lățimea minimă a panoului lateral este de 360 de pixeli. La rezoluția dvs. curentă, panoul lateral poate ocupa {{percent}}% din ecranul dvs.\n\nPentru a vă îmbunătăți experiența, luați în considerare ajustarea rezoluției ecranului. Iată ghiduri care vă pot ajuta:\n\n- Pentru utilizatorii Windows: [Schimbați rezoluția ecranului în Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pentru utilizatorii Mac: [Schimbați rezoluția afișajului Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVă rugăm să ajustați doar dacă este necesar pentru confortul și utilizarea dvs.",
         "scaleWarningMessage": "Scara de afișare curentă este setată la {{scale}}%. O scară mai mare face ca elementele interfeței să fie mai mari, dar reduce spațiul disponibil. Reducerea scalei va afișa mai mult conținut, dar va micșora dimensiunea elementelor. Vă rugăm să alegeți o setare care să se potrivească cel mai bine confortului dvs. de citire și nevoilor de lucru."
       }

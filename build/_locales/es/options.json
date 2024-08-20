@@ -142,7 +142,23 @@
         "dialogDescription": "Ingrese la dirección de la imagen",
         "OK": "Aceptar",
         "Cancel": "Cancelar",
-        "invalidImage": "Dirección de imagen no válida"
+        "invalidImage": "Dirección de imagen no válida",
+        "dragImageHere": "Arrastra una imagen aquí",
+        "addBackgroundPicture": "Agregar una imagen de fondo",
+        "uploadImage": "Subir imagen",
+        "or": "O",
+        "pasteImageLink": "Pegar enlace de imagen"
+      },
+      "backgroundColor": {
+        "label": "Color de fondo",
+        "description": "Elige un color de fondo para tu interfaz.",
+        "backgroundImageConfigured": "La imagen de fondo ya está configurada.",
+        "random": "Aleatorio",
+        "clear": "Limpiar"
+      },
+      "backgroundGradient": {
+        "label": "Degradado de fondo",
+        "description": "Cuando está habilitado, el color de fondo actual se usará para un efecto degradado. También puedes ajustar el ángulo del degradado usando el control deslizante."
       },
       "backgroundImageTransparency": {
         "label": "Transparencia de la imagen",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "¡Buenas noticias! Hemos introducido una nueva función de 'Barra Lateral de la Página' que le permite agregar una barra lateral a las páginas web sin usar la barra lateral incorporada del navegador. Una vez habilitada, simplemente pase el ratón sobre el borde de la ventana para mostrar la barra lateral. [Ver Configuración](/options.html#/tabSidebarOnPages)",
+        "showLess": "Mostrar menos",
+        "showMore": "Mostrar más",
         "screenSizeWarningMessage": "Hemos detectado que la resolución de su pantalla actual puede afectar su experiencia con el panel lateral. Debido a las limitaciones del navegador, el ancho mínimo del panel lateral es de 360 píxeles. Con su resolución actual, el panel lateral puede ocupar el {{percent}}% de su pantalla.\n\nPara mejorar su experiencia, considere ajustar la resolución de su pantalla. Aquí hay guías para ayudarle:\n\n- Para usuarios de Windows: [Cambiar la resolución de pantalla en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuarios de Mac: [Cambiar la resolución de la pantalla de su Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjuste solo si es necesario para su comodidad y uso.",
         "scaleWarningMessage": "La escala de visualización actual está configurada en {{scale}}%. Una escala más alta hace que los elementos de la interfaz sean más grandes pero reduce el espacio disponible. Reducir la escala mostrará más contenido pero disminuirá el tamaño de los elementos. Por favor, elija una configuración que se adapte mejor a su comodidad de lectura y necesidades de trabajo."
       }

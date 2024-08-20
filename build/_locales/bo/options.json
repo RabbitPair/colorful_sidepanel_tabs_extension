@@ -137,12 +137,28 @@
         "description": "མཛེས་སྣང་བཟོ་སྒྲིག་བཀོད།"
       },
       "backgroundPicture": {
-        "label": "མཛེས་སྣང་བཟོ་སྒྲིག་བཀོད།",
-        "description": "[+] གཏན་འཁེལ་བཟོ་སྒྲིག་བཀོད། [-] གཏན་འཁེལ་བཟོ་སྒྲིག་བཀོད་སྐབས་མཛེས་སྣང་བཟོ་སྒྲིག་བཀོད།",
-        "dialogDescription": "རི་མོ་སྒྲིག་བཀོད།",
+        "label": "རྒྱབ་རོལ་རི་མོ།",
+        "description": "[+] གཏན་འཁེལ་རི་མོ་ཁ་སྐོང་བརྐྱབས། [-] གཏན་འཁེལ་རི་མོ་བཏོན་གཏང་། ཁྱོད་ཀྱི་དགའ་ཤོས་རི་མོ་འདི་ཚུ་འབྲེལ་ལམ་འདི་ནས་རྙེད་ཐུབ།",
+        "dialogDescription": "རི་མོའི་དྲི་བ་བྱིན།",
         "OK": "ངེས་འབྱུང་།",
         "Cancel": "ཆ་མེད།",
-        "invalidImage": "རི་མོ་སྒྲིག་བཀོད་མ་འོང་།"
+        "invalidImage": "རི་མོའི་དྲི་བ་མ་འོང་།",
+        "dragImageHere": "རི་མོ་འདི་ནང་འདྲེན།",
+        "addBackgroundPicture": "རྒྱབ་རོལ་རི་མོ་ཁ་སྐོང་བརྐྱབས།",
+        "uploadImage": "རི་མོ་ཡར་འཇུག",
+        "or": "ཡང་ན་",
+        "pasteImageLink": "རི་མོའི་འབྲེལ་ལམ་བཙུགས།"
+      },
+      "backgroundColor": {
+        "label": "རྒྱབ་རོལ་ཚོས་གཞི།",
+        "description": "ཁྱོད་ཀྱི་དཀར་ཆག་ལ་རྒྱབ་རོལ་ཚོས་གཞི་གདམ་ཁ།",
+        "backgroundImageConfigured": "རྒྱབ་རོལ་རི་མོ་སྒྲིག་བཀོད་ཡོད།",
+        "random": "རང་འགུལ།",
+        "clear": "གཏན་འཁེལ།"
+      },
+      "backgroundGradient": {
+        "label": "རྒྱབ་རོལ་ཚོས་གཞི་སྒྲིག་སྟངས།",
+        "description": "འདི་བཀོད་སྒྲིག་བྱས་ནས་ད་ལྟའི་རྒྱབ་རོལ་ཚོས་གཞི་སྒྲིག་སྟངས་སྒྲིག་བཀོད་འབད་དགོས། ཁྱོད་ཀྱིས་སྒྲིག་སྟངས་སྒྲིག་བཀོད་འདི་གི་རྒྱབ་རོལ་ཚོས་གཞི་སྒྲིག་སྟངས་སྒྲིག་བཀོད་འབད་ཐུབ།"
       },
       "backgroundImageTransparency": {
         "label": "རི་མོ་སྒྲིག་བཀོད་སྒྲིག་བཀོད།",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "དགའ་བསུ་བརྒྱུད་དུས་ཡོད། ང་ཚོས་ 'ཤོག་ངོས་ཀྱི་གུ་ཐུག' གཞི་རྟེན་གསར་བརྗེད་ཡོད། འདི་གིས་ཁྱེད་ཀྱིས་དྲ་ངོས་ནང་གུ་ཐུག་ཁ་ཕྱེ་མི་དོན་ལུ་སྤྱོད་ཆས་ཀྱི་གུ་ཐུག་མི་བརྒྱུད་ནས་ཁ་ཕྱེ་ཆོག་གི་རེད། འདི་བཀག་འགོག་བྱས་ཡོད་ན་ཁྱེད་ཀྱིས་སྒེའུ་ཁུང་གི་མཐའ་འཁོར་ལ་ཁྱེད་ཀྱི་མུ་ཌི་འཁོར་བརྒྱུད་ནས་གུ་ཐུག་ཁ་ཕྱེ་ཆོག་གི་རེད། [སྒྲིག་སྟངས་ལྟ་བཤེར](/options.html#/tabSidebarOnPages)",
+        "showLess": "ཉུང་བ་སྟོན།",
+        "showMore": "མང་བ་སྟོན།",
         "screenSizeWarningMessage": "We've detected that your current screen resolution may affect your experience with the side panel. Due to browser limitations, the minimum width of the side panel is 360 pixels. At your current resolution, the side panel may occupy {{percent}}% of your screen.\n\nTo enhance your experience, consider adjusting your screen resolution. Here are guides to help you:\n\n- For Windows users: [Change your screen resolution in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac users: [Change your Mac display’s resolution](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPlease adjust only if necessary for your comfort and usage.",
         "scaleWarningMessage": "Your current display scale is set to {{scale}}%. A higher scale makes interface elements larger but reduces available space. Lowering the scale will show more content but decrease element size. Please choose a setting that best suits your reading comfort and workflow needs."
       }

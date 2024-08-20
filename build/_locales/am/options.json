@@ -142,7 +142,23 @@
         "dialogDescription": "የምስል አድራሻ አስገባ",
         "OK": "እሺ",
         "Cancel": "ሰርዝ",
-        "invalidImage": "ልክ ያልሆነ የምስል አድራሻ"
+        "invalidImage": "ልክ ያልሆነ የምስል አድራሻ",
+        "dragImageHere": "ምስል እዚህ ጋር ጎትተው ያስገቡ",
+        "addBackgroundPicture": "የጀርባ ምስል አክል",
+        "uploadImage": "ምስል አስገባ",
+        "or": "ወይም",
+        "pasteImageLink": "የምስል አገናኝ አስገባ"
+      },
+      "backgroundColor": {
+        "label": "የጀርባ ቀለም",
+        "description": "ለቅጥ የጀርባ ቀለም ይምረጡ።",
+        "backgroundImageConfigured": "የጀርባ ምስል ተቀኝቷል።",
+        "random": "የተደራሽ",
+        "clear": "አጽዳ"
+      },
+      "backgroundGradient": {
+        "label": "የጀርባ መሻሻል",
+        "description": "ሲነቃቃ የጀርባ ቀለም ለመሻሻል ይጠቀማል። እንዲሁም የመሻሻል አንግልን በስላይደር ማስተካከል ይችላሉ።"
       },
       "backgroundImageTransparency": {
         "label": "የምስል ግልጽነት",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "መልካም ዜና! አዲስ የ'ገጽ ጎን አማራጭ' ባህሪን አቀርብንላችሁ ፣ ይህም የአሳሽ ጎን አማራጭን ሳይጠቀሙ በገጾች ላይ ጎን አማራጭ እንዲጨምሩ ይፈቅዳል። እንደተነሳ ሲሆን እንደ መስኮት ጠርዝ ላይ አይጠብቁ በማለፍ እንዲያገኙት ይችላሉ። [ቅንብሮችን ይመልከቱ](/options.html#/tabSidebarOnPages)",
+        "showLess": "በትንሽ አሳይ",
+        "showMore": "በበለጠ አሳይ",
         "screenSizeWarningMessage": "እ.ኤ.አ እንደምናውቀው እርስዎ ያለው የአሁኑ የስክሪን መጠን ምርጫ በጎን አማራጭ ላይ ተፅኖ ሊያደርግ ይችላል። በአሳማኝ ገደብ ውስጥ የስክሪን መጠን ቢያንስ 360 ፒክሰል ነው። በአሁኑ የስክሪን መጠን ምርጫ ላይ ገና እርስዎ ያለው የገጽ አማራጭ እንደ {{percent}}% ሊያደርግ ይችላል።\n\nለምርጫዎ ምርጫዎን ለማሻሻል የስክሪን መጠን ምርጫዎን ይቀንሱ። እነሆ አጋዥ መመሪያዎች ናቸው:\n\n- ለ Windows ተጠቃሚዎች: [በ Windows ውስጥ የስክሪን መጠን ምርጫዎን ይቀንሱ](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- ለ Mac ተጠቃሚዎች: [የ Mac አማራጭ መጠን ምርጫዎን ይቀንሱ](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nእባክዎን ለእርስዎ ምቹ እና ምቹ ምርጫ ብቻ ይቀንሱ።",
         "scaleWarningMessage": "እርስዎ ያለው የአሁኑ የስክሪን መጠን ምርጫ እንደ {{scale}}% ተቀንሷል። ከፍተኛ መጠን የበለጠ አካባቢ ያለውን እንዲታይ ያደርጋል። የተቀነሰ መጠን የበለጠ ይዘት ያሳያል ነገር ግን የአካባቢ መጠን ያነሰ። እባክዎን ለእርስዎ የሚሻል ምርጫ ይምረጡ።"
       }

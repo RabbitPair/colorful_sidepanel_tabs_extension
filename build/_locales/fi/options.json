@@ -142,7 +142,23 @@
         "dialogDescription": "Anna kuvan osoite",
         "OK": "OK",
         "Cancel": "Peruuta",
-        "invalidImage": "Virheellinen kuvan osoite"
+        "invalidImage": "Virheellinen kuvan osoite",
+        "dragImageHere": "Vedä kuva tähän",
+        "addBackgroundPicture": "Lisää taustakuva",
+        "uploadImage": "Lataa kuva",
+        "or": "TAI",
+        "pasteImageLink": "Liitä kuvan linkki"
+      },
+      "backgroundColor": {
+        "label": "Taustaväri",
+        "description": "Valitse käyttöliittymän taustaväri.",
+        "backgroundImageConfigured": "Taustakuva on jo asetettu.",
+        "random": "Satunnainen",
+        "clear": "Tyhjennä"
+      },
+      "backgroundGradient": {
+        "label": "Taustagradientti",
+        "description": "Kun tämä on käytössä, nykyistä taustaväriä käytetään gradienttiefektiin. Voit myös säätää gradientin kulmaa liukusäätimellä."
       },
       "backgroundImageTransparency": {
         "label": "Kuvan läpinäkyvyys",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Hyviä uutisia! Olemme ottaneet käyttöön uuden 'Sivupaneeli' -ominaisuuden, jonka avulla voit lisätä sivupaneelin verkkosivuille ilman selaimen sisäänrakennettua sivupaneelia. Kun se on käytössä, vie hiiri ikkunan reunan yli tuodaksesi sivupaneelin esiin. [Näytä asetukset](/options.html#/tabSidebarOnPages)",
+        "showLess": "Näytä vähemmän",
+        "showMore": "Näytä lisää",
         "screenSizeWarningMessage": "Olemme havainneet, että nykyinen näytön resoluutio saattaa vaikuttaa kokemukseesi sivupaneelin kanssa. Selaimen rajoitusten vuoksi sivupaneelin vähimmäisleveys on 360 pikseliä. Nykyisellä resoluutiollasi sivupaneeli voi viedä {{percent}}% näytöstäsi.\n\nParantaaksesi käyttökokemustasi harkitse näytön resoluution säätämistä. Tässä on oppaita, jotka auttavat sinua:\n\n- Windows-käyttäjille: [Muuta näytön resoluutiota Windowsissa](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac-käyttäjille: [Muuta Macin näytön resoluutiota](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSäädä vain, jos se on tarpeen mukavuuden ja käytön kannalta.",
         "scaleWarningMessage": "Nykyinen näytön skaalaus on asetettu {{scale}}%. Suurempi skaalaus tekee käyttöliittymän elementeistä suurempia, mutta vähentää käytettävissä olevaa tilaa. Skaalauksen pienentäminen näyttää enemmän sisältöä, mutta pienentää elementtien kokoa. Valitse asetus, joka parhaiten sopii lukumukavuuteesi ja työnkulun tarpeisiisi."
       }

@@ -142,7 +142,23 @@
         "dialogDescription": "Unesite adresu slike",
         "OK": "U redu",
         "Cancel": "Otkaži",
-        "invalidImage": "Nevažeća adresa slike"
+        "invalidImage": "Nevažeća adresa slike",
+        "dragImageHere": "Prevucite sliku ovde",
+        "addBackgroundPicture": "Dodajte pozadinsku sliku",
+        "uploadImage": "Otpremi sliku",
+        "or": "ILI",
+        "pasteImageLink": "Nalepite link slike"
+      },
+      "backgroundColor": {
+        "label": "Boja pozadine",
+        "description": "Izaberite boju pozadine za vaš interfejs.",
+        "backgroundImageConfigured": "Pozadinska slika je već podešena.",
+        "random": "Nasumično",
+        "clear": "Obriši"
+      },
+      "backgroundGradient": {
+        "label": "Gradijent pozadine",
+        "description": "Kada je omogućeno, trenutna boja pozadine će se koristiti za gradijent efekat. Takođe možete podesiti ugao gradijenta pomoću klizača."
       },
       "backgroundImageTransparency": {
         "label": "Prozirnost slike",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Sjajne vesti! Uveli smo novu funkciju 'Bočni panel stranice' koja vam omogućava da dodate bočni panel na web stranice bez korišćenja ugrađenog bočnog panela pregledača. Kada je omogućeno, jednostavno pređite mišem preko ivice prozora da biste prikazali bočni panel. [Pogledajte postavke](/options.html#/tabSidebarOnPages)",
+        "showLess": "Prikaži manje",
+        "showMore": "Prikaži više",
         "screenSizeWarningMessage": "Otkrili smo da vaša trenutna rezolucija ekrana može uticati na vaše iskustvo sa bočnim panelom. Zbog ograničenja pregledača, minimalna širina bočnog panela je 360 piksela. Na vašoj trenutnoj rezoluciji, bočni panel može zauzeti {{percent}}% vašeg ekrana.\n\nDa biste poboljšali svoje iskustvo, razmislite o podešavanju rezolucije ekrana. Evo vodiča koji vam mogu pomoći:\n\n- Za korisnike Windows-a: [Promenite rezoluciju ekrana u Windows-u](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Za korisnike Mac-a: [Promenite rezoluciju ekrana na Mac-u](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMolimo vas da prilagodite samo ako je potrebno za vašu udobnost i upotrebu.",
         "scaleWarningMessage": "Vaša trenutna skala prikaza je postavljena na {{scale}}%. Veća skala čini elemente interfejsa većim, ali smanjuje raspoloživi prostor. Smanjenje skale će prikazati više sadržaja, ali će smanjiti veličinu elemenata. Molimo vas da odaberete postavku koja najbolje odgovara vašoj udobnosti pri čitanju i potrebama radnog toka."
       }

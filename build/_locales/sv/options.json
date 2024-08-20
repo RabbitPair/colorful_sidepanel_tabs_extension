@@ -142,7 +142,23 @@
         "dialogDescription": "Ange bildadress",
         "OK": "OK",
         "Cancel": "Avbryt",
-        "invalidImage": "Ogiltig bildadress"
+        "invalidImage": "Ogiltig bildadress",
+        "dragImageHere": "Dra en bild hit",
+        "addBackgroundPicture": "Lägg till en bakgrundsbild",
+        "uploadImage": "Ladda upp bild",
+        "or": "ELLER",
+        "pasteImageLink": "Klistra in bildlänk"
+      },
+      "backgroundColor": {
+        "label": "Bakgrundsfärg",
+        "description": "Välj en bakgrundsfärg för gränssnittet.",
+        "backgroundImageConfigured": "Bakgrundsbilden är redan konfigurerad.",
+        "random": "Slumpmässig",
+        "clear": "Rensa"
+      },
+      "backgroundGradient": {
+        "label": "Bakgrundsgradient",
+        "description": "När aktiverat används den aktuella bakgrundsfärgen för en gradienteffekt. Du kan också justera gradientvinkeln med hjälp av reglaget."
       },
       "backgroundImageTransparency": {
         "label": "Bildens transparens",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "God nyhet! Vi har introducerat en ny funktion 'Sidopanel på sidor' som låter dig lägga till en sidopanel på webbsidor utan att använda webbläsarens inbyggda sidopanel. När den är aktiverad, hovra bara musen över fönstrets kant för att visa sidopanelen. [Visa inställningar](/options.html#/tabSidebarOnPages)",
+        "showLess": "Visa mindre",
+        "showMore": "Visa mer",
         "screenSizeWarningMessage": "Vi har upptäckt att din nuvarande skärmupplösning kan påverka din upplevelse med sidopanelen. På grund av webbläsarens begränsningar är den minsta bredden på sidopanelen 360 pixlar. Vid din nuvarande upplösning kan sidopanelen uppta {{percent}}% av din skärm.\n\nFör att förbättra din upplevelse, överväg att justera din skärmupplösning. Här är guider som kan hjälpa dig:\n\n- För Windows-användare: [Ändra din skärmupplösning i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- För Mac-användare: [Ändra din Macs skärmupplösning](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJustera endast om det är nödvändigt för din komfort och användning.",
         "scaleWarningMessage": "Din nuvarande skärmförstoring är inställd på {{scale}}%. En högre skala gör gränssnittselement större men minskar tillgängligt utrymme. Att sänka skalan visar mer innehåll men minskar elementens storlek. Välj en inställning som bäst passar din läskomfort och arbetsflödesbehov."
       }

@@ -142,7 +142,23 @@
         "dialogDescription": "Masukkan alamat gambar",
         "OK": "OK",
         "Cancel": "Batal",
-        "invalidImage": "Alamat gambar tidak valid"
+        "invalidImage": "Alamat gambar tidak valid",
+        "dragImageHere": "Seret gambar ke sini",
+        "addBackgroundPicture": "Tambahkan gambar latar belakang",
+        "uploadImage": "Unggah Gambar",
+        "or": "ATAU",
+        "pasteImageLink": "Tempel tautan gambar"
+      },
+      "backgroundColor": {
+        "label": "Warna Latar Belakang",
+        "description": "Pilih warna latar belakang untuk antarmuka Anda.",
+        "backgroundImageConfigured": "Gambar latar belakang sudah diatur.",
+        "random": "Acak",
+        "clear": "Bersihkan"
+      },
+      "backgroundGradient": {
+        "label": "Gradasi Latar Belakang",
+        "description": "Jika diaktifkan, warna latar belakang saat ini akan digunakan untuk efek gradasi. Anda juga dapat menyesuaikan sudut gradasi menggunakan slider."
       },
       "backgroundImageTransparency": {
         "label": "Transparansi gambar",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Berita bagus! Kami telah memperkenalkan fitur baru 'Panel Samping Halaman' yang memungkinkan Anda menambahkan panel samping ke halaman web tanpa menggunakan panel samping bawaan browser. Setelah diaktifkan, cukup arahkan mouse Anda ke tepi jendela untuk menampilkan panel samping. [Lihat Pengaturan](/options.html#/tabSidebarOnPages)",
+        "showLess": "Tampilkan lebih sedikit",
+        "showMore": "Tampilkan lebih banyak",
         "screenSizeWarningMessage": "Kami mendeteksi bahwa resolusi layar Anda saat ini dapat memengaruhi pengalaman Anda dengan panel samping. Karena keterbatasan browser, lebar minimum panel samping adalah 360 piksel. Pada resolusi Anda saat ini, panel samping dapat menempati {{percent}}% dari layar Anda.\n\nUntuk meningkatkan pengalaman Anda, pertimbangkan untuk menyesuaikan resolusi layar Anda. Berikut adalah panduan untuk membantu Anda:\n\n- Untuk pengguna Windows: [Ubah resolusi layar Anda di Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Untuk pengguna Mac: [Ubah resolusi tampilan Mac Anda](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSilakan sesuaikan hanya jika diperlukan untuk kenyamanan dan penggunaan Anda.",
         "scaleWarningMessage": "Skala tampilan Anda saat ini diatur ke {{scale}}%. Skala yang lebih tinggi membuat elemen antarmuka lebih besar tetapi mengurangi ruang yang tersedia. Menurunkan skala akan menampilkan lebih banyak konten tetapi mengurangi ukuran elemen. Silakan pilih pengaturan yang paling sesuai dengan kenyamanan membaca dan kebutuhan alur kerja Anda."
       }

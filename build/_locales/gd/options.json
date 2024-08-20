@@ -142,7 +142,23 @@
         "dialogDescription": "Cuir a-steach seòrsa dealbh",
         "OK": "Ceart",
         "Cancel": "Sguir dheth",
-        "invalidImage": "Seòrsa dealbh neamh-chruthach"
+        "invalidImage": "Seòrsa dealbh neamh-chruthach",
+        "dragImageHere": "Tarraing dealbh an-seo",
+        "addBackgroundPicture": "Cuir dealbh cùlaiche ris",
+        "uploadImage": "Luchdaich suas dealbh",
+        "or": "NO",
+        "pasteImageLink": "Cuir a-steach ceangal dealbh"
+      },
+      "backgroundColor": {
+        "label": "Dath Cùlaibh",
+        "description": "Tagh dath cùlaibh airson an eadar-aghaidh agad.",
+        "backgroundImageConfigured": "Tha dealbh cùlaibh air a shuidheachadh mu thràth.",
+        "random": "Air thuaiream",
+        "clear": "Soilleir"
+      },
+      "backgroundGradient": {
+        "label": "Gradient Cùlaibh",
+        "description": "Nuair a thèid a chomasachadh, bidh an dath cùlaibh gnàthach air a chleachdadh airson buaidh gradient. Faodaidh tu cuideachd ceàrn an gradient atharrachadh le bhith a’ cleachdadh an sleamhnachan."
       },
       "backgroundImageTransparency": {
         "label": "Tras-phrìomh dealbh",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Naidheachd mhath! Tha sinn air feart ùr 'Pannal-taobh na Duilleige' a thoirt a-steach a leigeas leat pannal-taobh a chur ri duilleagan-lìn gun a bhith a' cleachdadh pannal-taobh togte a' bhrabhsair. Aon uair 's gu bheil e air a chomasachadh, dìreach gluais do luchag thairis air oir na h-uinneige gus am pannal-taobh a thoirt suas. [Faic Roghainnean](/options.html#/tabSidebarOnPages)",
+        "showLess": "Seall nas lugha",
+        "showMore": "Seall barrachd",
         "screenSizeWarningMessage": "Tha sinn air a lorg gu bheil an rùn sgrion làithreach agad a’ toirt buaidh air an eòlas agad leis a’ phannal-taobh. Air sgàth chuingealachaidhean brabhsair, is e 360 piogsail an leud as ìsle den phannal-taobh. Aig an rùn làithreach agad, dh’fhaodadh am pannal-taobh {{percent}}% den sgrion agad a ghabhail.\n\nGus an t-eòlas agad a leasachadh, smaoinich air an rùn sgrion agad atharrachadh. Seo stiùiridhean gus do chuideachadh:\n\n- Do luchd-cleachdaidh Windows: [Atharraich an rùn sgrion agad ann an Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Do luchd-cleachdaidh Mac: [Atharraich rùn taisbeanaidh do Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAtharraich a-mhàin ma tha e riatanach airson do chomhfhurtachd agus cleachdadh.",
         "scaleWarningMessage": "Tha an sgèile taisbeanaidh làithreach agad air a shuidheachadh aig {{scale}}%. Bidh sgèile nas àirde a’ dèanamh eileamaidean eadar-aghaidh nas motha ach a’ lughdachadh an àite a tha ri fhaighinn. Bidh lùghdachadh na sgèile a’ sealltainn barrachd susbaint ach a’ lughdachadh meud nan eileamaidean. Tagh suidheachadh a tha freagarrach airson do chomhfhurtachd leughaidh agus feumalachdan sruth-obrach."
       }

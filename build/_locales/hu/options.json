@@ -142,7 +142,23 @@
         "dialogDescription": "Adja meg a kép címét",
         "OK": "OK",
         "Cancel": "Mégse",
-        "invalidImage": "Érvénytelen kép cím"
+        "invalidImage": "Érvénytelen kép cím",
+        "dragImageHere": "Húzza ide a képet",
+        "addBackgroundPicture": "Háttérkép hozzáadása",
+        "uploadImage": "Kép feltöltése",
+        "or": "VAGY",
+        "pasteImageLink": "Kép link beillesztése"
+      },
+      "backgroundColor": {
+        "label": "Háttérszín",
+        "description": "Válasszon egy háttérszínt a felületéhez.",
+        "backgroundImageConfigured": "A háttérkép már be van állítva.",
+        "random": "Véletlenszerű",
+        "clear": "Törlés"
+      },
+      "backgroundGradient": {
+        "label": "Háttér gradiens",
+        "description": "Ha engedélyezve van, a jelenlegi háttérszín gradiens hatásként lesz használva. A gradiens szögét a csúszkával is beállíthatja."
       },
       "backgroundImageTransparency": {
         "label": "Kép átlátszósága",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Nagyszerű hír! Bevezettünk egy új 'Oldalsó panel' funkciót, amely lehetővé teszi, hogy oldalsó panelt adjon a weboldalakhoz a böngésző beépített oldalsó paneljének használata nélkül. Ha engedélyezve van, egyszerűen vigye az egeret az ablak szélére az oldalsó panel megjelenítéséhez. [Beállítások megtekintése](/options.html#/tabSidebarOnPages)",
+        "showLess": "Kevesebb megjelenítése",
+        "showMore": "Több megjelenítése",
         "screenSizeWarningMessage": "Észrevettük, hogy a jelenlegi képernyőfelbontás befolyásolhatja az oldalsó panel használatát. A böngésző korlátai miatt az oldalsó panel minimális szélessége 360 pixel. A jelenlegi felbontásnál az oldalsó panel a képernyő {{percent}}%-át foglalhatja el.\n\nA jobb felhasználói élmény érdekében fontolja meg a képernyőfelbontás módosítását. Az alábbi útmutatók segíthetnek:\n\n- Windows felhasználóknak: [Képernyőfelbontás módosítása Windowsban](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac felhasználóknak: [Mac kijelző felbontásának módosítása](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nKérjük, csak akkor módosítson, ha szükséges a kényelem és a használat érdekében.",
         "scaleWarningMessage": "A jelenlegi kijelző méretezése {{scale}}%-ra van állítva. A nagyobb méretezés nagyobbá teszi a felület elemeit, de csökkenti a rendelkezésre álló helyet. A méretezés csökkentése több tartalmat jelenít meg, de csökkenti az elemek méretét. Kérjük, válasszon olyan beállítást, amely a legjobban megfelel az olvasási kényelemnek és a munkafolyamat igényeinek."
       }

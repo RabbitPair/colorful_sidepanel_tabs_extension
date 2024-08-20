@@ -142,7 +142,23 @@
         "dialogDescription": "画像アドレスを入力",
         "OK": "OK",
         "Cancel": "キャンセル",
-        "invalidImage": "無効な画像アドレス"
+        "invalidImage": "無効な画像アドレス",
+        "dragImageHere": "画像をここにドラッグ",
+        "addBackgroundPicture": "背景画像を追加",
+        "uploadImage": "画像をアップロード",
+        "or": "または",
+        "pasteImageLink": "画像リンクを貼り付け"
+      },
+      "backgroundColor": {
+        "label": "背景色",
+        "description": "インターフェースの背景色を選択してください。",
+        "backgroundImageConfigured": "背景画像はすでに設定されています。",
+        "random": "ランダム",
+        "clear": "クリア"
+      },
+      "backgroundGradient": {
+        "label": "背景グラデーション",
+        "description": "有効にすると、現在の背景色がグラデーション効果に使用されます。スライダーでグラデーションの角度を調整することもできます。"
       },
       "backgroundImageTransparency": {
         "label": "画像の透明度",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "素晴らしいニュースです！ブラウザの組み込みサイドバーを使用せずにウェブページにサイドバーを追加できる新しい「ページサイドバー」機能を導入しました。有効にすると、ウィンドウの端にマウスをホバーするだけでサイドバーが表示されます。[設定を表示](/options.html#/tabSidebarOnPages)",
+        "showLess": "表示を減らす",
+        "showMore": "もっと表示",
         "screenSizeWarningMessage": "現在の画面解像度がサイドパネルの使用に影響を与える可能性があります。ブラウザの制限により、サイドパネルの最小幅は360ピクセルです。現在の解像度では、サイドパネルが画面の{{percent}}%を占める可能性があります。\n\n使用感を向上させるために、画面解像度を調整することを検討してください。以下のガイドが役立ちます:\n\n- Windowsユーザー向け: [Windowsで画面解像度を変更する](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Macユーザー向け: [Macのディスプレイ解像度を変更する](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n必要に応じてのみ調整してください。",
         "scaleWarningMessage": "現在のディスプレイスケールは{{scale}}%に設定されています。スケールが高いとインターフェース要素が大きくなりますが、利用可能なスペースが減少します。スケールを下げると、より多くのコンテンツが表示されますが、要素のサイズが小さくなります。読みやすさと作業効率に最適な設定を選択してください。"
       }

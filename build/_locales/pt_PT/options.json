@@ -142,7 +142,23 @@
         "dialogDescription": "Insira o endereço da imagem",
         "OK": "OK",
         "Cancel": "Cancelar",
-        "invalidImage": "Endereço de imagem inválido"
+        "invalidImage": "Endereço de imagem inválido",
+        "dragImageHere": "Arraste uma imagem aqui",
+        "addBackgroundPicture": "Adicionar uma imagem de fundo",
+        "uploadImage": "Carregar imagem",
+        "or": "OU",
+        "pasteImageLink": "Colar link da imagem"
+      },
+      "backgroundColor": {
+        "label": "Cor de Fundo",
+        "description": "Escolha uma cor de fundo para a interface.",
+        "backgroundImageConfigured": "Imagem de fundo já configurada.",
+        "random": "Aleatório",
+        "clear": "Limpar"
+      },
+      "backgroundGradient": {
+        "label": "Gradiente de Fundo",
+        "description": "Quando ativado, a cor de fundo atual será usada para criar um efeito de gradiente. Você também pode ajustar o ângulo do gradiente usando o controle deslizante."
       },
       "backgroundImageTransparency": {
         "label": "Transparência da imagem",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Ótima notícia! Introduzimos um novo recurso 'Barra Lateral da Página' que permite adicionar uma barra lateral às páginas da web sem usar a barra lateral integrada do navegador. Uma vez ativado, basta passar o mouse sobre a borda da janela para exibir a barra lateral. [Ver Configurações](/options.html#/tabSidebarOnPages)",
+        "showLess": "Mostrar menos",
+        "showMore": "Mostrar mais",
         "screenSizeWarningMessage": "Detectamos que a resolução atual da sua tela pode afetar sua experiência com o painel lateral. Devido a limitações do navegador, a largura mínima do painel lateral é de 360 pixels. Na sua resolução atual, o painel lateral pode ocupar {{percent}}% da sua tela.\n\nPara melhorar sua experiência, considere ajustar a resolução da sua tela. Aqui estão guias para ajudá-lo:\n\n- Para usuários do Windows: [Alterar a resolução da tela no Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para usuários do Mac: [Alterar a resolução da tela do Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjuste apenas se necessário para seu conforto e uso.",
         "scaleWarningMessage": "A escala de exibição atual está definida para {{scale}}%. Uma escala maior torna os elementos da interface maiores, mas reduz o espaço disponível. Reduzir a escala mostrará mais conteúdo, mas diminuirá o tamanho dos elementos. Escolha uma configuração que melhor se adapte ao seu conforto de leitura e necessidades de fluxo de trabalho."
       }

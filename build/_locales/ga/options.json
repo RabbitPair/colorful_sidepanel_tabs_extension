@@ -138,11 +138,27 @@
       },
       "backgroundPicture": {
         "label": "Íomhá cúlra",
-        "description": "Cliceáil [+] chun íomhá a chur leis an gcostas, cliceáil [-] chun íomhá a scriosadh. Is féidir leat do ghrianghraif is fearr a fháil ar na suíomhanna seo a leanas.",
+        "description": "Cliceáil [+] chun íomhá saincheaptha a chur leis, cliceáil [-] chun íomhá saincheaptha a scriosadh. Is féidir leat do ghrianghraif is fearr a fháil ar na suíomhanna seo a leanas.",
         "dialogDescription": "Cuir isteach seoladh íomhá",
         "OK": "OK",
         "Cancel": "Cealaigh",
-        "invalidImage": "Seoladh íomhá neamhbhailí"
+        "invalidImage": "Seoladh íomhá neamhbhailí",
+        "dragImageHere": "Tarraing íomhá anseo",
+        "addBackgroundPicture": "Cuir íomhá cúlra leis",
+        "uploadImage": "Uaslódáil Íomhá",
+        "or": "NÓ",
+        "pasteImageLink": "Greamaigh nasc íomhá"
+      },
+      "backgroundColor": {
+        "label": "Dath Cúlra",
+        "description": "Roghnaigh dath cúlra don chomhéadan.",
+        "backgroundImageConfigured": "Tá íomhá cúlra socraithe cheana féin.",
+        "random": "Randamach",
+        "clear": "Glan"
+      },
+      "backgroundGradient": {
+        "label": "Grádán Cúlra",
+        "description": "Nuair a chumasfar é, úsáidfear an dath cúlra reatha le haghaidh éifeacht grádáin. Is féidir leat uillinn an ghrádáin a choigeartú leis an sleamhnán."
       },
       "backgroundImageTransparency": {
         "label": "Trédhearcacht íomhá",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Nuacht iontach! Tá gné nua 'Painéal Taobh an Leathanaigh' tugtha isteach againn a ligeann duit painéal taobh a chur le leathanaigh ghréasáin gan úsáid a bhaint as an bpainéal taobh ionsuite sa bhrabhsálaí. Nuair a bheidh sé cumasaithe, ní gá ach do luch a choinneáil thar imeall an fhuinneog chun an painéal taobh a thaispeáint. [Féach Socruithe](/options.html#/tabSidebarOnPages)",
+        "showLess": "Taispeáin níos lú",
+        "showMore": "Taispeáin níos mó",
         "screenSizeWarningMessage": "Táimid tar éis a bhrath go bhféadfadh do rún scáileáin reatha dul i bhfeidhm ar do thaithí leis an bpainéal taobh. Mar gheall ar theorainneacha brabhsálaí, is é 360 picteilín leithead íosta an phainéil taobh. Ag do rún reatha, d'fhéadfadh an painéal taobh {{percent}}% de do scáileán a áitiú.\n\nChun do thaithí a fheabhsú, smaoinigh ar do rún scáileáin a choigeartú. Seo treoracha chun cabhrú leat:\n\n- Do úsáideoirí Windows: [Athraigh do rún scáileáin i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Do úsáideoirí Mac: [Athraigh rún do thaispeántais Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nCoigeartaigh ach amháin má tá sé riachtanach do do chompord agus úsáid.",
         "scaleWarningMessage": "Tá do scála taispeána reatha socraithe ag {{scale}}%. Déanann scála níos airde eilimintí comhéadan níos mó ach laghdaíonn sé an spás atá ar fáil. Taispeánfaidh laghdú ar an scála níos mó ábhar ach laghdóidh sé méid na n-eilimintí. Roghnaigh socrú a oireann do do chompord léitheoireachta agus riachtanais sreafa oibre."
       }

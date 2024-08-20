@@ -142,7 +142,23 @@
         "dialogDescription": "Masukkan alamat imej",
         "OK": "OK",
         "Cancel": "Batal",
-        "invalidImage": "Alamat imej tidak sah"
+        "invalidImage": "Alamat imej tidak sah",
+        "dragImageHere": "Seret imej di sini",
+        "addBackgroundPicture": "Tambah gambar latar belakang",
+        "uploadImage": "Muat Naik Imej",
+        "or": "ATAU",
+        "pasteImageLink": "Tampal pautan imej"
+      },
+      "backgroundColor": {
+        "label": "Warna Latar Belakang",
+        "description": "Pilih warna latar belakang untuk antaramuka anda.",
+        "backgroundImageConfigured": "Imej latar belakang telah dikonfigurasikan.",
+        "random": "Rawak",
+        "clear": "Kosongkan"
+      },
+      "backgroundGradient": {
+        "label": "Kecerunan Latar Belakang",
+        "description": "Apabila diaktifkan, warna latar belakang semasa akan digunakan untuk kesan kecerunan. Anda juga boleh melaraskan sudut kecerunan menggunakan peluncur."
       },
       "backgroundImageTransparency": {
         "label": "Ketelusan imej",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Berita baik! Kami telah memperkenalkan ciri 'Bar Sisi Halaman' baharu yang membolehkan anda menambah bar sisi pada halaman web tanpa menggunakan bar sisi terbina dalam pelayar. Setelah diaktifkan, hanya gerakkan tetikus anda ke tepi tetingkap untuk memaparkan bar sisi. [Lihat Tetapan](/options.html#/tabSidebarOnPages)",
+        "showLess": "Tunjukkan kurang",
+        "showMore": "Tunjukkan lebih",
         "screenSizeWarningMessage": "Kami telah mengesan bahawa resolusi skrin semasa anda mungkin menjejaskan pengalaman anda dengan panel sisi. Disebabkan oleh had pelayar, lebar minimum panel sisi adalah 360 piksel. Pada resolusi semasa anda, panel sisi mungkin menduduki {{percent}}% daripada skrin anda.\n\nUntuk meningkatkan pengalaman anda, pertimbangkan untuk melaraskan resolusi skrin anda. Berikut adalah panduan untuk membantu anda:\n\n- Untuk pengguna Windows: [Tukar resolusi skrin anda dalam Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Untuk pengguna Mac: [Tukar resolusi paparan Mac anda](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nSila laraskan hanya jika perlu untuk keselesaan dan penggunaan anda.",
         "scaleWarningMessage": "Skala paparan semasa anda ditetapkan kepada {{scale}}%. Skala yang lebih tinggi menjadikan elemen antara muka lebih besar tetapi mengurangkan ruang yang tersedia. Menurunkan skala akan menunjukkan lebih banyak kandungan tetapi mengurangkan saiz elemen. Sila pilih tetapan yang paling sesuai dengan keselesaan membaca dan keperluan aliran kerja anda."
       }

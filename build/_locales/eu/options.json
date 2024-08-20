@@ -142,7 +142,23 @@
         "dialogDescription": "Sartu irudiaren helbidea",
         "OK": "Ados",
         "Cancel": "Utzi",
-        "invalidImage": "Irudiaren helbide baliogabea"
+        "invalidImage": "Irudiaren helbide baliogabea",
+        "dragImageHere": "Arrastatu irudia hona",
+        "addBackgroundPicture": "Gehitu atzeko irudia",
+        "uploadImage": "Igo irudia",
+        "or": "EDO",
+        "pasteImageLink": "Itsatsi irudiaren esteka"
+      },
+      "backgroundColor": {
+        "label": "Atzeko Kolorea",
+        "description": "Hautatu zure interfazerako atzeko kolorea.",
+        "backgroundImageConfigured": "Atzeko irudia dagoeneko konfiguratuta dago.",
+        "random": "Ausazkoa",
+        "clear": "Garbitu"
+      },
+      "backgroundGradient": {
+        "label": "Atzeko Gradientea",
+        "description": "Gaituta dagoenean, uneko atzeko kolorea gradiente efekturako erabiliko da. Gainera, graduazioaren angelua doitu dezakezu irristailuarekin."
       },
       "backgroundImageTransparency": {
         "label": "Irudiaren gardentasuna",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Albiste bikainak! 'Orriaren Alboko Panela' izeneko funtzio berri bat sartu dugu, nabigatzailearen barneko alboko panela erabili gabe web orriei alboko panela gehitzeko aukera ematen dizuna. Aktibatuta dagoenean, leihoaren ertzean saguarekin pasatuz alboko panela agertuko da. [Ikusi Ezarpenak](/options.html#/tabSidebarOnPages)",
+        "showLess": "Erakutsi gutxiago",
+        "showMore": "Erakutsi gehiago",
         "screenSizeWarningMessage": "Zure egungo pantailaren bereizmenak alboko panelarekin izandako esperientzian eragina izan dezakeela detektatu dugu. Nabigatzailearen murrizketak direla eta, alboko panelaren gutxieneko zabalera 360 pixel da. Zure egungo bereizmenean, alboko panelak zure pantailaren {{percent}}% har dezake.\n\nZure esperientzia hobetzeko, kontuan hartu pantailaren bereizmena doitzea. Hona hemen lagungarri izan daitezkeen gidak:\n\n- Windows erabiltzaileentzat: [Aldatu zure pantailaren bereizmena Windowsean](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac erabiltzaileentzat: [Aldatu zure Mac pantailaren bereizmena](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMesedez, doitu beharrezkoa denean zure erosotasunerako eta erabilerarako.",
         "scaleWarningMessage": "Zure egungo pantailaren eskala {{scale}}%-ra ezarrita dago. Eskala handiago batek interfaze elementuak handiagoak egiten ditu baina eskuragarri dagoen espazioa murrizten du. Eskala murrizteak eduki gehiago erakutsiko du baina elementuen tamaina murriztuko du. Mesedez, aukeratu zure irakurketa erosotasunerako eta lan-fluxuaren beharretarako egokiena den ezarpena."
       }

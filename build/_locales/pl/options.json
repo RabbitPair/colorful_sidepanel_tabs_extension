@@ -142,7 +142,23 @@
         "dialogDescription": "Wprowadź adres obrazu",
         "OK": "OK",
         "Cancel": "Anuluj",
-        "invalidImage": "Nieprawidłowy adres obrazu"
+        "invalidImage": "Nieprawidłowy adres obrazu",
+        "dragImageHere": "Przeciągnij obraz tutaj",
+        "addBackgroundPicture": "Dodaj obraz tła",
+        "uploadImage": "Prześlij obraz",
+        "or": "LUB",
+        "pasteImageLink": "Wklej link do obrazu"
+      },
+      "backgroundColor": {
+        "label": "Kolor tła",
+        "description": "Wybierz kolor tła dla swojego interfejsu.",
+        "backgroundImageConfigured": "Obraz tła jest już skonfigurowany.",
+        "random": "Losowy",
+        "clear": "Wyczyść"
+      },
+      "backgroundGradient": {
+        "label": "Gradient tła",
+        "description": "Po włączeniu, bieżący kolor tła będzie używany do efektu gradientu. Możesz również dostosować kąt gradientu za pomocą suwaka."
       },
       "backgroundImageTransparency": {
         "label": "Przezroczystość obrazu",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Świetna wiadomość! Wprowadziliśmy nową funkcję 'Pasek boczny strony', która pozwala dodać pasek boczny do stron internetowych bez użycia wbudowanego paska bocznego przeglądarki. Po włączeniu, wystarczy najechać myszką na krawędź okna, aby wywołać pasek boczny. [Zobacz ustawienia](/options.html#/tabSidebarOnPages)",
+        "showLess": "Pokaż mniej",
+        "showMore": "Pokaż więcej",
         "screenSizeWarningMessage": "Wykryliśmy, że Twoja obecna rozdzielczość ekranu może wpływać na Twoje doświadczenie z panelem bocznym. Ze względu na ograniczenia przeglądarki minimalna szerokość panelu bocznego wynosi 360 pikseli. Przy Twojej obecnej rozdzielczości panel boczny może zajmować {{percent}}% ekranu.\n\nAby poprawić swoje doświadczenie, rozważ dostosowanie rozdzielczości ekranu. Oto przewodniki, które mogą Ci pomóc:\n\n- Dla użytkowników Windows: [Zmień rozdzielczość ekranu w Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Dla użytkowników Mac: [Zmień rozdzielczość wyświetlacza Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nProszę dostosować tylko wtedy, gdy jest to konieczne dla Twojego komfortu i użytkowania.",
         "scaleWarningMessage": "Twoja obecna skala wyświetlania jest ustawiona na {{scale}}%. Wyższa skala sprawia, że elementy interfejsu są większe, ale zmniejsza dostępną przestrzeń. Obniżenie skali pokaże więcej treści, ale zmniejszy rozmiar elementów. Proszę wybrać ustawienie, które najlepiej odpowiada Twojemu komfortowi czytania i potrzebom pracy."
       }

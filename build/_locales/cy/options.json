@@ -142,7 +142,23 @@
         "dialogDescription": "Rhowch gyfeiriad llun",
         "OK": "Iawn",
         "Cancel": "Canslo",
-        "invalidImage": "Cyfeiriad llun annilys"
+        "invalidImage": "Cyfeiriad llun annilys",
+        "dragImageHere": "Llusgwch y llun yma",
+        "addBackgroundPicture": "Ychwanegu llun cefndir",
+        "uploadImage": "Llwytho llun i fyny",
+        "or": "Neu",
+        "pasteImageLink": "Gludo dolen llun"
+      },
+      "backgroundColor": {
+        "label": "Lliw Cefndir",
+        "description": "Dewiswch liw cefndir ar gyfer eich rhyngwyneb.",
+        "backgroundImageConfigured": "Mae'r ddelwedd gefndir eisoes wedi'i ffurfweddu.",
+        "random": "Ar hap",
+        "clear": "Clirio"
+      },
+      "backgroundGradient": {
+        "label": "Graddiant Cefndir",
+        "description": "Pan fydd wedi'i alluogi, bydd y lliw cefndir presennol yn cael ei ddefnyddio ar gyfer effaith graddiant. Gallwch hefyd addasu ongl y graddiant gan ddefnyddio'r llithrydd."
       },
       "backgroundImageTransparency": {
         "label": "Tryloywder delwedd",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Newyddion gwych! Rydym wedi cyflwyno nodwedd newydd 'Bar Ochr Tudalen' sy'n caniatáu ichi ychwanegu bar ochr at dudalennau gwe heb ddefnyddio bar ochr adeiledig y porwr. Unwaith y bydd wedi'i alluogi, hofranwch eich llygoden dros ymyl y ffenestr i ddod â'r bar ochr i fyny. [Gweld Gosodiadau](/options.html#/tabSidebarOnPages)",
+        "showLess": "Dangos llai",
+        "showMore": "Dangos mwy",
         "screenSizeWarningMessage": "Rydym wedi canfod y gall eich penderfyniad sgrin gyfredol effeithio ar eich profiad gyda'r panel ochr. Oherwydd cyfyngiadau porwr, lled lleiaf y panel ochr yw 360 picsel. Ar eich penderfyniad cyfredol, gall y panel ochr feddiannu {{percent}}% o'ch sgrin.\n\nI wella eich profiad, ystyriwch addasu eich penderfyniad sgrin. Dyma ganllawiau i'ch helpu:\n\n- Ar gyfer defnyddwyr Windows: [Newid eich penderfyniad sgrin yn Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Ar gyfer defnyddwyr Mac: [Newid penderfyniad arddangos eich Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAddaswch yn unig os oes angen ar gyfer eich cysur a'ch defnydd.",
         "scaleWarningMessage": "Mae eich graddfa arddangos gyfredol wedi'i gosod i {{scale}}%. Mae graddfa uwch yn gwneud elfennau rhyngwyneb yn fwy ond yn lleihau'r gofod sydd ar gael. Bydd lleihau'r raddfa yn dangos mwy o gynnwys ond yn lleihau maint yr elfennau. Dewiswch osodiad sy'n gweddu orau i'ch cysur darllen a'ch anghenion llif gwaith."
       }

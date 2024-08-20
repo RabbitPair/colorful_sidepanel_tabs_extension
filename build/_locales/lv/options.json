@@ -142,7 +142,23 @@
         "dialogDescription": "Ievadiet attēla adresi",
         "OK": "Labi",
         "Cancel": "Atcelt",
-        "invalidImage": "Nederīga attēla adrese"
+        "invalidImage": "Nederīga attēla adrese",
+        "dragImageHere": "Velciet attēlu šeit",
+        "addBackgroundPicture": "Pievienot fona attēlu",
+        "uploadImage": "Augšupielādēt attēlu",
+        "or": "VAI",
+        "pasteImageLink": "Ielīmēt attēla saiti"
+      },
+      "backgroundColor": {
+        "label": "Fona krāsa",
+        "description": "Izvēlieties fona krāsu jūsu saskarnei.",
+        "backgroundImageConfigured": "Fona attēls jau ir iestatīts.",
+        "random": "Nejauša",
+        "clear": "Notīrīt"
+      },
+      "backgroundGradient": {
+        "label": "Fona gradients",
+        "description": "Kad iespējots, pašreizējā fona krāsa tiks izmantota gradienta efektam. Varat arī pielāgot gradienta leņķi, izmantojot slīdni."
       },
       "backgroundImageTransparency": {
         "label": "Attēla caurspīdīgums",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Lieliskas ziņas! Mēs esam ieviesuši jaunu 'Lapas sānu paneļa' funkciju, kas ļauj pievienot sānu paneli tīmekļa lapām, neizmantojot pārlūkprogrammas iebūvēto sānu paneli. Kad tas ir iespējots, vienkārši pārvietojiet peli virs loga malas, lai parādītu sānu paneli. [Skatīt iestatījumus](/options.html#/tabSidebarOnPages)",
+        "showLess": "Rādīt mazāk",
+        "showMore": "Rādīt vairāk",
         "screenSizeWarningMessage": "Mēs esam konstatējuši, ka jūsu pašreizējā ekrāna izšķirtspēja var ietekmēt jūsu pieredzi ar sānu paneli. Pārlūkprogrammas ierobežojumu dēļ sānu paneļa minimālais platums ir 360 pikseļi. Pie jūsu pašreizējās izšķirtspējas sānu panelis var aizņemt {{percent}}% no jūsu ekrāna.\n\nLai uzlabotu jūsu pieredzi, apsveriet iespēju pielāgot ekrāna izšķirtspēju. Šeit ir ceļveži, kas var palīdzēt:\n\n- Windows lietotājiem: [Mainiet ekrāna izšķirtspēju Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac lietotājiem: [Mainiet Mac displeja izšķirtspēju](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nLūdzu, pielāgojiet tikai tad, ja tas ir nepieciešams jūsu komfortam un lietošanai.",
         "scaleWarningMessage": "Jūsu pašreizējais displeja mērogs ir iestatīts uz {{scale}}%. Augstāks mērogs padara interfeisa elementus lielākus, bet samazina pieejamo vietu. Samazinot mērogu, tiks parādīts vairāk satura, bet samazināsies elementu izmērs. Lūdzu, izvēlieties iestatījumu, kas vislabāk atbilst jūsu lasīšanas komfortam un darba plūsmas vajadzībām."
       }

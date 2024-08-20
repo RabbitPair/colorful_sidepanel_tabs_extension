@@ -142,7 +142,23 @@
         "dialogDescription": "Enter image address",
         "OK": "OK",
         "Cancel": "Cancel",
-        "invalidImage": "Invalid image address"
+        "invalidImage": "Invalid image address",
+        "dragImageHere": "Drag an image here",
+        "addBackgroundPicture": "Add a background picture",
+        "uploadImage": "Upload Image",
+        "or": "OR",
+        "pasteImageLink": "Paste image link"
+      },
+      "backgroundColor": {
+        "label": "Background Color",
+        "description": "Select a background color for your interface.",
+        "backgroundImageConfigured": "Background image is already configured.",
+        "random": "Random",
+        "clear": "Clear"
+      },
+      "backgroundGradient": {
+        "label": "Background Gradient",
+        "description": "When enabled, the current background color will be used for a gradient effect. You can also adjust the gradient angle using the slider."
       },
       "backgroundImageTransparency": {
         "label": "Image transparency",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Great news! We've introduced a new 'Page Sidebar' feature that allows you to add a sidebar to web pages without using the browser's built-in sidebar. Once enabled, simply hover your mouse over the edge of the window to bring up the sidebar. [View Settings](/options.html#/tabSidebarOnPages)",
+        "showLess": "Show less",
+        "showMore": "Show more",
         "screenSizeWarningMessage": "We've detected that your current screen resolution may affect your experience with the side panel. Due to browser limitations, the minimum width of the side panel is 360 pixels. At your current resolution, the side panel may occupy {{percent}}% of your screen.\n\nTo enhance your experience, consider adjusting your screen resolution. Here are guides to help you:\n\n- For Windows users: [Change your screen resolution in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac users: [Change your Mac display’s resolution](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPlease adjust only if necessary for your comfort and usage.",
         "scaleWarningMessage": "Your current display scale is set to {{scale}}%. A higher scale makes interface elements larger but reduces available space. Lowering the scale will show more content but decrease element size. Please choose a setting that best suits your reading comfort and workflow needs."
       }

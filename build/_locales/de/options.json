@@ -142,7 +142,23 @@
         "dialogDescription": "Bildadresse eingeben",
         "OK": "OK",
         "Cancel": "Abbrechen",
-        "invalidImage": "Ungültige Bildadresse"
+        "invalidImage": "Ungültige Bildadresse",
+        "dragImageHere": "Ziehen Sie ein Bild hierher",
+        "addBackgroundPicture": "Hintergrundbild hinzufügen",
+        "uploadImage": "Bild hochladen",
+        "or": "ODER",
+        "pasteImageLink": "Bildlink einfügen"
+      },
+      "backgroundColor": {
+        "label": "Hintergrundfarbe",
+        "description": "Wählen Sie eine Hintergrundfarbe für Ihre Benutzeroberfläche.",
+        "backgroundImageConfigured": "Hintergrundbild ist bereits konfiguriert.",
+        "random": "Zufällig",
+        "clear": "Löschen"
+      },
+      "backgroundGradient": {
+        "label": "Hintergrundverlauf",
+        "description": "Wenn aktiviert, wird die aktuelle Hintergrundfarbe für einen Verlaufseffekt verwendet. Sie können auch den Winkel des Verlaufs mit dem Schieberegler anpassen."
       },
       "backgroundImageTransparency": {
         "label": "Bildtransparenz",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Großartige Neuigkeiten! Wir haben eine neue Funktion 'Seitenleiste' eingeführt, mit der Sie eine Seitenleiste zu Webseiten hinzufügen können, ohne die eingebaute Seitenleiste des Browsers zu verwenden. Sobald sie aktiviert ist, bewegen Sie einfach die Maus über den Rand des Fensters, um die Seitenleiste anzuzeigen. [Einstellungen anzeigen](/options.html#/tabSidebarOnPages)",
+        "showLess": "Weniger anzeigen",
+        "showMore": "Mehr anzeigen",
         "screenSizeWarningMessage": "Wir haben festgestellt, dass Ihre aktuelle Bildschirmauflösung Ihre Erfahrung mit dem Seitenbereich beeinträchtigen kann. Aufgrund von Browser-Einschränkungen beträgt die Mindestbreite des Seitenbereichs 360 Pixel. Bei Ihrer aktuellen Auflösung kann der Seitenbereich {{percent}}% Ihres Bildschirms einnehmen.\n\nUm Ihre Erfahrung zu verbessern, sollten Sie Ihre Bildschirmauflösung anpassen. Hier sind Anleitungen, die Ihnen helfen können:\n\n- Für Windows-Benutzer: [Ändern Sie Ihre Bildschirmauflösung in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Für Mac-Benutzer: [Ändern Sie die Auflösung Ihres Mac-Displays](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nBitte passen Sie die Einstellungen nur an, wenn dies für Ihren Komfort und Ihre Nutzung erforderlich ist.",
         "scaleWarningMessage": "Ihre aktuelle Anzeige-Skalierung ist auf {{scale}}% eingestellt. Eine höhere Skalierung vergrößert die Schnittstellenelemente, verringert jedoch den verfügbaren Platz. Eine niedrigere Skalierung zeigt mehr Inhalt, verkleinert jedoch die Elemente. Bitte wählen Sie eine Einstellung, die am besten zu Ihrem Lesekomfort und Ihren Arbeitsabläufen passt."
       }

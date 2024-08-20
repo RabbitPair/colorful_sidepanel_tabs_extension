@@ -142,7 +142,23 @@
         "dialogDescription": "Zadajte adresu obrázka",
         "OK": "OK",
         "Cancel": "Zrušiť",
-        "invalidImage": "Neplatná adresa obrázka"
+        "invalidImage": "Neplatná adresa obrázka",
+        "dragImageHere": "Presuňte sem obrázok",
+        "addBackgroundPicture": "Pridať obrázok na pozadí",
+        "uploadImage": "Nahrať obrázok",
+        "or": "ALEBO",
+        "pasteImageLink": "Vložiť odkaz na obrázok"
+      },
+      "backgroundColor": {
+        "label": "Farba pozadia",
+        "description": "Vyberte farbu pozadia pre svoje rozhranie.",
+        "backgroundImageConfigured": "Obrázok na pozadí je už nastavený.",
+        "random": "Náhodné",
+        "clear": "Vymazať"
+      },
+      "backgroundGradient": {
+        "label": "Prechod pozadia",
+        "description": "Keď je povolené, aktuálna farba pozadia sa použije na vytvorenie prechodového efektu. Uhol prechodu môžete upraviť pomocou posúvača."
       },
       "backgroundImageTransparency": {
         "label": "Priehľadnosť obrázka",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Skvelá správa! Zaviedli sme novú funkciu 'Bočný panel stránky', ktorá vám umožňuje pridať bočný panel na webové stránky bez použitia vstavaného bočného panela prehliadača. Po povolení jednoducho prejdite myšou nad okraj okna, aby sa bočný panel zobrazil. [Zobraziť nastavenia](/options.html#/tabSidebarOnPages)",
+        "showLess": "Zobraziť menej",
+        "showMore": "Zobraziť viac",
         "screenSizeWarningMessage": "Zistili sme, že vaše aktuálne rozlíšenie obrazovky môže ovplyvniť váš zážitok s bočným panelom. V dôsledku obmedzení prehliadača je minimálna šírka bočného panela 360 pixelov. Pri vašom aktuálnom rozlíšení môže bočný panel zaberať {{percent}}% vašej obrazovky.\n\nNa zlepšenie vášho zážitku zvážte úpravu rozlíšenia obrazovky. Tu sú návody, ktoré vám pomôžu:\n\n- Pre používateľov Windows: [Zmeniť rozlíšenie obrazovky vo Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pre používateľov Mac: [Zmeniť rozlíšenie displeja Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nUpravte iba v prípade potreby pre vaše pohodlie a použitie.",
         "scaleWarningMessage": "Vaša aktuálna mierka zobrazenia je nastavená na {{scale}}%. Vyššia mierka zväčšuje prvky rozhrania, ale znižuje dostupný priestor. Zníženie mierky zobrazí viac obsahu, ale zmenší veľkosť prvkov. Vyberte si nastavenie, ktoré najlepšie vyhovuje vášmu pohodliu pri čítaní a potrebám pracovného postupu."
       }

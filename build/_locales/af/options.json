@@ -142,7 +142,23 @@
         "dialogDescription": "Voer beeldadres in",
         "OK": "OK",
         "Cancel": "Kanselleer",
-        "invalidImage": "Ongeldige beeldadres"
+        "invalidImage": "Ongeldige beeldadres",
+        "dragImageHere": "Sleep 'n prent hierheen",
+        "addBackgroundPicture": "Voeg 'n agtergrondprent by",
+        "uploadImage": "Laai prent op",
+        "or": "OF",
+        "pasteImageLink": "Plak prentskakel"
+      },
+      "backgroundColor": {
+        "label": "Agtergrondkleur",
+        "description": "Kies 'n agtergrondkleur vir jou koppelvlak.",
+        "backgroundImageConfigured": "Agtergrondprent is reeds ingestel.",
+        "random": "Lukraak",
+        "clear": "Vee uit"
+      },
+      "backgroundGradient": {
+        "label": "Agtergrondgradiënt",
+        "description": "Wanneer geaktiveer, sal die huidige agtergrondkleur gebruik word vir 'n gradiënt effek. Jy kan ook die gradiënt hoek aanpas met die skuifbalk."
       },
       "backgroundImageTransparency": {
         "label": "Beelddeursigtigheid",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Goeie nuus! Ons het 'n nuwe 'Bladsy Sybalk' funksie bekendgestel wat jou toelaat om 'n sybalk by webblaaie te voeg sonder om die blaaier se ingeboude sybalk te gebruik. Sodra dit geaktiveer is, beweeg eenvoudig jou muis oor die rand van die venster om die sybalk op te roep. [Sien Instellings](/options.html#/tabSidebarOnPages)",
+        "showLess": "Wys minder",
+        "showMore": "Wys meer",
         "screenSizeWarningMessage": "Ons het opgemerk dat jou huidige skermresolusie jou ervaring met die sybalk kan beïnvloed. As gevolg van blaaierbeperkings is die minimum breedte van die sybalk 360 pixels. By jou huidige resolusie kan die sybalk {{percent}}% van jou skerm beslaan.\n\nOm jou ervaring te verbeter, oorweeg dit om jou skermresolusie aan te pas. Hier is gidse om jou te help:\n\n- Vir Windows-gebruikers: [Verander jou skermresolusie in Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Vir Mac-gebruikers: [Verander jou Mac-skerm se resolusie](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPas asseblief net aan indien nodig vir jou gemak en gebruik.",
         "scaleWarningMessage": "Jou huidige skaal van die vertoning is ingestel op {{scale}}%. 'n Hoër skaal maak koppelvlakelemente groter, maar verminder beskikbare spasie. Om die skaal te verlaag sal meer inhoud wys, maar die elementgrootte verminder. Kies asseblief 'n instelling wat die beste by jou leesgemak en werkvloei behoeftes pas."
       }

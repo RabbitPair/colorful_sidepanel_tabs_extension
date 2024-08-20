@@ -142,7 +142,23 @@
         "dialogDescription": "Nhập địa chỉ hình ảnh",
         "OK": "OK",
         "Cancel": "Hủy",
-        "invalidImage": "Địa chỉ hình ảnh không hợp lệ"
+        "invalidImage": "Địa chỉ hình ảnh không hợp lệ",
+        "dragImageHere": "Kéo hình ảnh vào đây",
+        "addBackgroundPicture": "Thêm hình nền",
+        "uploadImage": "Tải lên hình ảnh",
+        "or": "HOẶC",
+        "pasteImageLink": "Dán liên kết hình ảnh"
+      },
+      "backgroundColor": {
+        "label": "Màu nền",
+        "description": "Chọn màu nền cho giao diện của bạn.",
+        "backgroundImageConfigured": "Hình nền đã được cấu hình.",
+        "random": "Ngẫu nhiên",
+        "clear": "Xóa"
+      },
+      "backgroundGradient": {
+        "label": "Chuyển màu nền",
+        "description": "Khi bật, màu nền hiện tại sẽ được sử dụng cho hiệu ứng chuyển màu. Bạn cũng có thể điều chỉnh góc chuyển màu bằng cách sử dụng thanh trượt."
       },
       "backgroundImageTransparency": {
         "label": "Độ trong suốt của hình ảnh",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Tin tuyệt vời! Chúng tôi đã giới thiệu tính năng 'Thanh bên trang' mới cho phép bạn thêm thanh bên vào các trang web mà không cần sử dụng thanh bên tích hợp của trình duyệt. Khi được bật, chỉ cần di chuột qua cạnh cửa sổ để hiển thị thanh bên. [Xem Cài đặt](/options.html#/tabSidebarOnPages)",
+        "showLess": "Hiển thị ít hơn",
+        "showMore": "Hiển thị thêm",
         "screenSizeWarningMessage": "Chúng tôi đã phát hiện rằng độ phân giải màn hình hiện tại của bạn có thể ảnh hưởng đến trải nghiệm của bạn với bảng điều khiển bên. Do hạn chế của trình duyệt, chiều rộng tối thiểu của bảng điều khiển bên là 360 pixel. Ở độ phân giải hiện tại của bạn, bảng điều khiển bên có thể chiếm {{percent}}% màn hình của bạn.\n\nĐể cải thiện trải nghiệm của bạn, hãy cân nhắc điều chỉnh độ phân giải màn hình của bạn. Dưới đây là các hướng dẫn để giúp bạn:\n\n- Đối với người dùng Windows: [Thay đổi độ phân giải màn hình trong Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Đối với người dùng Mac: [Thay đổi độ phân giải màn hình Mac của bạn](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVui lòng chỉ điều chỉnh nếu cần thiết cho sự thoải mái và sử dụng của bạn.",
         "scaleWarningMessage": "Tỷ lệ hiển thị hiện tại của bạn được đặt thành {{scale}}%. Tỷ lệ cao hơn làm cho các yếu tố giao diện lớn hơn nhưng giảm không gian có sẵn. Giảm tỷ lệ sẽ hiển thị nhiều nội dung hơn nhưng giảm kích thước yếu tố. Vui lòng chọn cài đặt phù hợp nhất với sự thoải mái khi đọc và nhu cầu làm việc của bạn."
       }

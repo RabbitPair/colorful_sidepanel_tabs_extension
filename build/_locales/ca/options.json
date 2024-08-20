@@ -142,7 +142,23 @@
         "dialogDescription": "Introdueix l'adreça de la imatge",
         "OK": "D'acord",
         "Cancel": "Cancel·la",
-        "invalidImage": "Adreça de la imatge no vàlida"
+        "invalidImage": "Adreça de la imatge no vàlida",
+        "dragImageHere": "Arrossega la imatge aquí",
+        "addBackgroundPicture": "Afegeix una imatge de fons",
+        "uploadImage": "Carrega una imatge",
+        "or": "O",
+        "pasteImageLink": "Enganxa l'enllaç de la imatge"
+      },
+      "backgroundColor": {
+        "label": "Color de fons",
+        "description": "Tria un color de fons per a la teva interfície.",
+        "backgroundImageConfigured": "La imatge de fons ja està configurada.",
+        "random": "Aleatori",
+        "clear": "Neteja"
+      },
+      "backgroundGradient": {
+        "label": "Degradat de fons",
+        "description": "Quan està habilitat, el color de fons actual s'utilitzarà per a un efecte de degradat. També pots ajustar l'angle del degradat amb el control lliscant."
       },
       "backgroundImageTransparency": {
         "label": "Transparència de la imatge",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Bones notícies! Hem introduït una nova funció de 'Barra Lateral de la Pàgina' que et permet afegir una barra lateral a les pàgines web sense utilitzar la barra lateral integrada del navegador. Un cop habilitada, simplement passa el ratolí per sobre de la vora de la finestra per mostrar la barra lateral. [Veure Configuració](/options.html#/tabSidebarOnPages)",
+        "showLess": "Mostrar menys",
+        "showMore": "Mostrar més",
         "screenSizeWarningMessage": "Hem detectat que la resolució de pantalla actual pot afectar la teva experiència amb el panell lateral. A causa de les limitacions del navegador, l'amplada mínima del panell lateral és de 360 píxels. Amb la resolució actual, el panell lateral pot ocupar el {{percent}}% de la teva pantalla.\n\nPer millorar la teva experiència, considera ajustar la resolució de la pantalla. Aquí tens algunes guies per ajudar-te:\n\n- Per a usuaris de Windows: [Canvia la resolució de la pantalla a Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Per a usuaris de Mac: [Canvia la resolució de la pantalla del Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nAjusta només si és necessari per a la teva comoditat i ús.",
         "scaleWarningMessage": "L'escala de visualització actual està configurada al {{scale}}%. Una escala més alta fa que els elements de la interfície siguin més grans però redueix l'espai disponible. Reduir l'escala mostrarà més contingut però disminuirà la mida dels elements. Tria una configuració que s'adapti millor a la teva comoditat de lectura i necessitats de treball."
       }

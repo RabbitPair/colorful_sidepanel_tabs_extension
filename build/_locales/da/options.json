@@ -142,7 +142,23 @@
         "dialogDescription": "Indtast billedadresse",
         "OK": "OK",
         "Cancel": "Annuller",
-        "invalidImage": "Ugyldig billedadresse"
+        "invalidImage": "Ugyldig billedadresse",
+        "dragImageHere": "Træk et billede her",
+        "addBackgroundPicture": "Tilføj et baggrundsbillede",
+        "uploadImage": "Upload billede",
+        "or": "ELLER",
+        "pasteImageLink": "Indsæt billedlink"
+      },
+      "backgroundColor": {
+        "label": "Baggrundsfarve",
+        "description": "Vælg en baggrundsfarve til din grænseflade.",
+        "backgroundImageConfigured": "Baggrundsbilledet er allerede konfigureret.",
+        "random": "Tilfældig",
+        "clear": "Ryd"
+      },
+      "backgroundGradient": {
+        "label": "Baggrundsgradient",
+        "description": "Når aktiveret, vil den nuværende baggrundsfarve blive brugt til en gradienteffekt. Du kan også justere gradientens vinkel ved hjælp af skyderen."
       },
       "backgroundImageTransparency": {
         "label": "Billedgennemsigtighed",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Fantastiske nyheder! Vi har introduceret en ny 'Sidebjælke' funktion, der giver dig mulighed for at tilføje en sidebjælke til websider uden at bruge browserens indbyggede sidebjælke. Når den er aktiveret, skal du blot svæve med musen over kanten af vinduet for at få sidebjælken frem. [Se indstillinger](/options.html#/tabSidebarOnPages)",
+        "showLess": "Vis mindre",
+        "showMore": "Vis mere",
         "screenSizeWarningMessage": "Vi har opdaget, at din nuværende skærmopløsning kan påvirke din oplevelse med sidepanelet. På grund af browserbegrænsninger er den minimale bredde på sidepanelet 360 pixels. Ved din nuværende opløsning kan sidepanelet optage {{percent}}% af din skærm.\n\nFor at forbedre din oplevelse, overvej at justere din skærmopløsning. Her er vejledninger til at hjælpe dig:\n\n- For Windows-brugere: [Ændre din skærmopløsning i Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- For Mac-brugere: [Ændre din Macs skærmopløsning](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJuster kun hvis nødvendigt for din komfort og brug.",
         "scaleWarningMessage": "Din nuværende skærmskalering er indstillet til {{scale}}%. En højere skalering gør grænsefladeelementer større, men reducerer tilgængelig plads. Sænkning af skaleringen vil vise mere indhold, men mindske elementstørrelsen. Vælg venligst en indstilling, der bedst passer til din læsekomfort og arbejdsbehov."
       }

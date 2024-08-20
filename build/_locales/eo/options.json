@@ -142,7 +142,23 @@
         "dialogDescription": "Enmeti bildadreson",
         "OK": "Bone",
         "Cancel": "Nuligi",
-        "invalidImage": "Nevalida bildadreso"
+        "invalidImage": "Nevalida bildadreso",
+        "dragImageHere": "Trenu bildon ĉi tien",
+        "addBackgroundPicture": "Aldoni fona bildon",
+        "uploadImage": "Alŝuti Bildon",
+        "or": "AŬ",
+        "pasteImageLink": "Alglui bildan ligilon"
+      },
+      "backgroundColor": {
+        "label": "Fona Koloro",
+        "description": "Elektu fonan koloron por via interfaco.",
+        "backgroundImageConfigured": "Fona bildo jam estas agordita.",
+        "random": "Hazarda",
+        "clear": "Forigi"
+      },
+      "backgroundGradient": {
+        "label": "Fona Gradiento",
+        "description": "Kiam aktivigita, la nuna fona koloro estos uzata por gradiento-efekto. Vi ankaŭ povas ĝustigi la gradientan angulon per la glitilo."
       },
       "backgroundImageTransparency": {
         "label": "Bilda transparenceco",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Bonega novaĵo! Ni enkondukis novan funkcion 'Paĝa Flankpanelo', kiu permesas al vi aldoni flankpanelon al retpaĝoj sen uzi la enkonstruitan flankpanelon de la retumilo. Kiam aktivigita, simple movu vian muson super la randon de la fenestro por alporti la flankpanelon. [Vidi Agordojn](/options.html#/tabSidebarOnPages)",
+        "showLess": "Montri malpli",
+        "showMore": "Montri pli",
         "screenSizeWarningMessage": "Ni detektis, ke via nuna ekrana rezolucio povas influi vian sperton kun la flanka panelo. Pro retumilaj limigoj, la minimuma larĝo de la flanka panelo estas 360 pikseloj. Kun via nuna rezolucio, la flanka panelo povas okupi {{percent}}% de via ekrano.\n\nPor plibonigi vian sperton, konsideru ĝustigi vian ekranan rezolucion. Jen gvidiloj por helpi vin:\n\n- Por Windows-uzantoj: [Ŝanĝi vian ekranan rezolucion en Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Por Mac-uzantoj: [Ŝanĝi vian Mac-ekranan rezolucion](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nBonvolu ĝustigi nur se necese por via komforto kaj uzo.",
         "scaleWarningMessage": "Via nuna ekrana skalo estas agordita al {{scale}}%. Pli alta skalo faras interfaca elementoj pli grandaj sed reduktas disponeblan spacon. Malaltigi la skalon montros pli da enhavo sed malpliigos elementan grandecon. Bonvolu elekti agordon, kiu plej taŭgas por via legokomforto kaj laborkvanto."
       }

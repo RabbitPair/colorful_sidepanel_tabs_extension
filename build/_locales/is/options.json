@@ -142,7 +142,23 @@
         "dialogDescription": "Sláðu inn vefslóð myndar",
         "OK": "Í lagi",
         "Cancel": "Hætta við",
-        "invalidImage": "Ógild vefslóð myndar"
+        "invalidImage": "Ógild vefslóð myndar",
+        "dragImageHere": "Dragðu mynd hingað",
+        "addBackgroundPicture": "Bæta við bakgrunnsmynd",
+        "uploadImage": "Hlaða upp mynd",
+        "or": "EÐA",
+        "pasteImageLink": "Líma myndatengil"
+      },
+      "backgroundColor": {
+        "label": "Bakgrunnslitur",
+        "description": "Veldu lit fyrir bakgrunninn á viðmótinu þínu.",
+        "backgroundImageConfigured": "Bakgrunnsmynd er þegar stillt.",
+        "random": "Handahófskennt",
+        "clear": "Hreinsa"
+      },
+      "backgroundGradient": {
+        "label": "Bakgrunnsgráða",
+        "description": "Þegar virkt, verður núverandi bakgrunnslitur notaður fyrir gráðuáhrif. Þú getur einnig stillt gráðuhornið með sleðanum."
       },
       "backgroundImageTransparency": {
         "label": "Myndargegnsæi",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Frábærar fréttir! Við höfum kynnt nýjan 'Síðu hliðarspjald' eiginleika sem gerir þér kleift að bæta hliðarspjaldi við vefsíður án þess að nota innbyggt hliðarspjald vafrans. Þegar virkt er, sveimaðu músinni yfir brún gluggans til að kalla fram hliðarspjaldið. [Skoða stillingar](/options.html#/tabSidebarOnPages)",
+        "showLess": "Sýna minna",
+        "showMore": "Sýna meira",
         "screenSizeWarningMessage": "Við höfum greint að núverandi skjáupplausn þín gæti haft áhrif á upplifun þína með hliðarspjaldinu. Vegna takmarkana vafrans er lágmarksbreidd hliðarspjaldsins 360 pixlar. Við núverandi upplausn gæti hliðarspjaldið tekið {{percent}}% af skjánum þínum.\n\nTil að bæta upplifun þína, íhugaðu að stilla skjáupplausnina þína. Hér eru leiðbeiningar til að hjálpa þér:\n\n- Fyrir Windows notendur: [Breyta skjáupplausn í Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Fyrir Mac notendur: [Breyta upplausn skjásins á Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVinsamlegast stilltu aðeins ef nauðsynlegt er fyrir þægindi þín og notkun.",
         "scaleWarningMessage": "Núverandi skjástærð þín er stillt á {{scale}}%. Hærri stærð gerir viðmótseiningar stærri en minnkar tiltækt rými. Að lækka stærðina mun sýna meira efni en minnka stærð eininga. Vinsamlegast veldu stillingu sem hentar best lestrarþægindum þínum og vinnuflæði."
       }

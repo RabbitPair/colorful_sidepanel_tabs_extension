@@ -142,7 +142,23 @@
         "dialogDescription": "輸入圖片地址",
         "OK": "確定",
         "Cancel": "取消",
-        "invalidImage": "無效的圖片地址"
+        "invalidImage": "無效的圖片地址",
+        "dragImageHere": "拖放圖片到此處",
+        "addBackgroundPicture": "添加背景圖片",
+        "uploadImage": "上傳圖片",
+        "or": "或",
+        "pasteImageLink": "粘貼圖片鏈接"
+      },
+      "backgroundColor": {
+        "label": "背景顏色",
+        "description": "選擇介面的背景顏色。",
+        "backgroundImageConfigured": "背景圖片已設置。",
+        "random": "隨機",
+        "clear": "清除"
+      },
+      "backgroundGradient": {
+        "label": "背景漸變",
+        "description": "啟用後，當前的背景顏色將用於漸變效果。您還可以使用滑塊調整漸變角度。"
       },
       "backgroundImageTransparency": {
         "label": "圖片透明度",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "好消息！我們推出了一個新的“頁面側邊欄”功能，允許您在不使用瀏覽器內置側邊欄的情況下向網頁添加側邊欄。啟用後，只需將鼠標懸停在窗口邊緣即可調出側邊欄。[查看設置](/options.html#/tabSidebarOnPages)",
+        "showLess": "顯示較少",
+        "showMore": "顯示更多",
         "screenSizeWarningMessage": "我們檢測到您當前的屏幕分辨率可能會影響您使用側邊欄的體驗。由於瀏覽器的限制，側邊欄的最小寬度為360像素。在您當前的分辨率下，側邊欄可能會佔據您屏幕的{{percent}}%。\n\n為了提升您的體驗，請考慮調整您的屏幕分辨率。以下是一些幫助您的指南：\n\n- 對於Windows用戶：[在Windows中更改屏幕分辨率](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- 對於Mac用戶：[更改Mac顯示器的分辨率](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n請僅在必要時進行調整以適應您的舒適度和使用需求。",
         "scaleWarningMessage": "您當前的顯示比例設置為{{scale}}%。較高的比例會使界面元素變大，但可用空間減少。降低比例會顯示更多內容，但元素尺寸會減小。請選擇最適合您閱讀舒適度和工作流程需求的設置。"
       }

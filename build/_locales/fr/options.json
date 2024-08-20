@@ -142,7 +142,23 @@
         "dialogDescription": "Entrer l'adresse de l'image",
         "OK": "OK",
         "Cancel": "Annuler",
-        "invalidImage": "Adresse de l'image invalide"
+        "invalidImage": "Adresse de l'image invalide",
+        "dragImageHere": "Faites glisser une image ici",
+        "addBackgroundPicture": "Ajouter une image de fond",
+        "uploadImage": "Télécharger l'image",
+        "or": "OU",
+        "pasteImageLink": "Coller le lien de l'image"
+      },
+      "backgroundColor": {
+        "label": "Couleur de fond",
+        "description": "Choisissez une couleur de fond pour votre interface.",
+        "backgroundImageConfigured": "Une image de fond est déjà configurée.",
+        "random": "Aléatoire",
+        "clear": "Effacer"
+      },
+      "backgroundGradient": {
+        "label": "Dégradé de fond",
+        "description": "Lorsqu'il est activé, la couleur de fond actuelle sera utilisée pour un effet de dégradé. Vous pouvez également ajuster l'angle du dégradé avec le curseur."
       },
       "backgroundImageTransparency": {
         "label": "Transparence de l'image",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Bonne nouvelle ! Nous avons introduit une nouvelle fonctionnalité 'Barre latérale de la page' qui vous permet d'ajouter une barre latérale aux pages Web sans utiliser la barre latérale intégrée du navigateur. Une fois activée, il suffit de survoler le bord de la fenêtre avec votre souris pour faire apparaître la barre latérale. [Voir les paramètres](/options.html#/tabSidebarOnPages)",
+        "showLess": "Afficher moins",
+        "showMore": "Afficher plus",
         "screenSizeWarningMessage": "Nous avons détecté que la résolution actuelle de votre écran peut affecter votre expérience avec le panneau latéral. En raison des limitations du navigateur, la largeur minimale du panneau latéral est de 360 pixels. À votre résolution actuelle, le panneau latéral peut occuper {{percent}}% de votre écran.\n\nPour améliorer votre expérience, envisagez de régler la résolution de votre écran. Voici des guides pour vous aider :\n\n- Pour les utilisateurs de Windows : [Modifier la résolution de votre écran sous Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Pour les utilisateurs de Mac : [Modifier la résolution de l'affichage de votre Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nVeuillez ajuster uniquement si nécessaire pour votre confort et votre utilisation.",
         "scaleWarningMessage": "L'échelle actuelle de votre affichage est réglée sur {{scale}}%. Une échelle plus élevée rend les éléments de l'interface plus grands mais réduit l'espace disponible. Réduire l'échelle affichera plus de contenu mais diminuera la taille des éléments. Veuillez choisir un réglage qui convient le mieux à votre confort de lecture et à vos besoins de flux de travail."
       }

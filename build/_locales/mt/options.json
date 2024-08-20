@@ -142,7 +142,23 @@
         "dialogDescription": "Daħħal indirizz tal-immaġni",
         "OK": "OK",
         "Cancel": "Ikkanċella",
-        "invalidImage": "Indirizz tal-immaġni invalidu"
+        "invalidImage": "Indirizz tal-immaġni invalidu",
+        "dragImageHere": "Iġbed immaġni hawn",
+        "addBackgroundPicture": "Żid ritratt tas-sfond",
+        "uploadImage": "Ittella' Immaġni",
+        "or": "JEW",
+        "pasteImageLink": "Ikkopja link tal-immaġni"
+      },
+      "backgroundColor": {
+        "label": "Kulur tal-Isfond",
+        "description": "Agħżel kulur tal-isfond għall-interface tiegħek.",
+        "backgroundImageConfigured": "L-immaġni tal-isfond diġà hija konfigurata.",
+        "random": "Kull tant żmien",
+        "clear": "Ħassar"
+      },
+      "backgroundGradient": {
+        "label": "Gradjent tal-Isfond",
+        "description": "Meta tkun attivata, il-kulur tal-isfond attwali se jintuża għal effett ta' gradjent. Tista' wkoll taġġusta l-angolu tal-gradjent bl-użu tas-slider."
       },
       "backgroundImageTransparency": {
         "label": "Trasparenza tal-immaġni",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Aħbarijiet kbar! Introduċejna karatteristika ġdida 'Sidebar tal-Paġna' li tippermettilek iżżid sidebar mal-paġni tal-web mingħajr ma tuża l-sidebar mibni fil-browser. Ladarba tkun attivata, sempliċement għaddi l-maws tiegħek fuq it-tarf tat-tieqa biex iġġib il-sidebar. [Ara s-Settings](/options.html#/tabSidebarOnPages)",
+        "showLess": "Uri inqas",
+        "showMore": "Uri aktar",
         "screenSizeWarningMessage": "Aħna skoprejna li r-riżoluzzjoni attwali tal-iskrin tiegħek tista' taffettwa l-esperjenza tiegħek mal-panel tal-ġenb. Minħabba limitazzjonijiet tal-browser, il-wisa' minima tal-panel tal-ġenb hija ta' 360 pixels. Bir-riżoluzzjoni attwali tiegħek, il-panel tal-ġenb jista' jokkupa {{percent}}% tal-iskrin tiegħek.\n\nBiex ittejjeb l-esperjenza tiegħek, ikkunsidra li taġġusta r-riżoluzzjoni tal-iskrin tiegħek. Hawn huma gwidi biex jgħinuk:\n\n- Għal utenti ta' Windows: [Ibdel ir-riżoluzzjoni tal-iskrin tiegħek f'Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Għal utenti ta' Mac: [Ibdel ir-riżoluzzjoni tal-wiri tal-Mac tiegħek](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJekk jogħġbok aġġusta biss jekk meħtieġ għall-kumdità u l-użu tiegħek.",
         "scaleWarningMessage": "L-iskala attwali tal-wiri tiegħek hija stabbilita għal {{scale}}%. Skala ogħla tagħmel l-elementi tal-interface akbar iżda tnaqqas l-ispazju disponibbli. Tnaqqis fl-iskala se juri aktar kontenut iżda jnaqqas id-daqs tal-elementi. Jekk jogħġbok agħżel issettjar li l-aħjar jaqbel mal-kumdità tal-qari tiegħek u l-ħtiġijiet tax-xogħol."
       }

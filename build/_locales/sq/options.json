@@ -142,7 +142,23 @@
         "dialogDescription": "Vendosni adresën e imazhit",
         "OK": "OK",
         "Cancel": "Anulo",
-        "invalidImage": "Adresa e pavlefshme e imazhit"
+        "invalidImage": "Adresa e pavlefshme e imazhit",
+        "dragImageHere": "Zvarrit një imazh këtu",
+        "addBackgroundPicture": "Shto një imazh sfondi",
+        "uploadImage": "Ngarko Imazh",
+        "or": "OSE",
+        "pasteImageLink": "Ngjit lidhjen e imazhit"
+      },
+      "backgroundColor": {
+        "label": "Ngjyra e Sfondit",
+        "description": "Zgjidhni një ngjyrë sfondi për ndërfaqen tuaj.",
+        "backgroundImageConfigured": "Imazhi i sfondit është konfiguruar tashmë.",
+        "random": "Rastësisht",
+        "clear": "Pastro"
+      },
+      "backgroundGradient": {
+        "label": "Gradienti i Sfondit",
+        "description": "Kur aktivizohet, ngjyra aktuale e sfondit do të përdoret për një efekt gradienti. Ju gjithashtu mund të rregulloni këndin e gradientit duke përdorur rrëshqitësin."
       },
       "backgroundImageTransparency": {
         "label": "Transparenca e imazhit",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Lajm i mirë! Kemi prezantuar një veçori të re 'Paneli Anësor i Faqes' që ju lejon të shtoni një panel anësor në faqet e internetit pa përdorur panelin anësor të integruar të shfletuesit. Pasi të aktivizohet, thjesht lëvizni miun mbi skajin e dritares për të sjellë panelin anësor. [Shiko Cilësimet](/options.html#/tabSidebarOnPages)",
+        "showLess": "Trego më pak",
+        "showMore": "Trego më shumë",
         "screenSizeWarningMessage": "Ne kemi zbuluar se rezolucioni aktual i ekranit tuaj mund të ndikojë në përvojën tuaj me panelin anësor. Për shkak të kufizimeve të shfletuesit, gjerësia minimale e panelit anësor është 360 pikselë. Në rezolucionin tuaj aktual, paneli anësor mund të zërë {{percent}}% të ekranit tuaj.\n\nPër të përmirësuar përvojën tuaj, konsideroni rregullimin e rezolucionit të ekranit tuaj. Këtu janë udhëzuesit për t'ju ndihmuar:\n\n- Për përdoruesit e Windows: [Ndryshoni rezolucionin e ekranit tuaj në Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Për përdoruesit e Mac: [Ndryshoni rezolucionin e ekranit tuaj në Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nJu lutemi rregulloni vetëm nëse është e nevojshme për komoditetin dhe përdorimin tuaj.",
         "scaleWarningMessage": "Shkalla juaj aktuale e ekranit është vendosur në {{scale}}%. Një shkallë më e lartë bën që elementet e ndërfaqes të jenë më të mëdha, por zvogëlon hapësirën e disponueshme. Ulja e shkallës do të tregojë më shumë përmbajtje, por do të zvogëlojë madhësinë e elementeve. Ju lutemi zgjidhni një cilësim që i përshtatet më së miri komoditetit tuaj të leximit dhe nevojave të rrjedhës së punës."
       }

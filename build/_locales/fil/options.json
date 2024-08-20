@@ -142,7 +142,23 @@
         "dialogDescription": "Ilagay ang address ng larawan",
         "OK": "OK",
         "Cancel": "Kanselahin",
-        "invalidImage": "Hindi wastong address ng larawan"
+        "invalidImage": "Hindi wastong address ng larawan",
+        "dragImageHere": "Drag an image here",
+        "addBackgroundPicture": "Add a background picture",
+        "uploadImage": "Upload Image",
+        "or": "OR",
+        "pasteImageLink": "Paste image link"
+      },
+      "backgroundColor": {
+        "label": "Kulay ng Background",
+        "description": "Pumili ng kulay ng background para sa iyong interface.",
+        "backgroundImageConfigured": "Naka-configure na ang larawan sa background.",
+        "random": "Random na Kulay",
+        "clear": "Burahin"
+      },
+      "backgroundGradient": {
+        "label": "Gradient ng Background",
+        "description": "Kapag pinagana, ang kasalukuyang kulay ng background ay gagamitin para sa gradient effect. Maaari mo ring ayusin ang anggulo ng gradient gamit ang slider."
       },
       "backgroundImageTransparency": {
         "label": "Transparency ng larawan",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Magandang balita! Nagpakilala kami ng bagong tampok na 'Page Sidebar' na nagbibigay-daan sa iyo na magdagdag ng sidebar sa mga web page nang hindi ginagamit ang built-in na sidebar ng browser. Kapag pinagana, i-hover lamang ang iyong mouse sa gilid ng window upang ilabas ang sidebar. [Tingnan ang Mga Setting](/options.html#/tabSidebarOnPages)",
+        "showLess": "Ipakita ng mas kaunti",
+        "showMore": "Ipakita ng mas marami",
         "screenSizeWarningMessage": "Nakita namin na ang iyong kasalukuyang resolusyon ng screen ay maaaring makaapekto sa iyong karanasan sa side panel. Dahil sa mga limitasyon ng browser, ang minimum na lapad ng side panel ay 360 pixels. Sa iyong kasalukuyang resolusyon, maaaring sakupin ng side panel ang {{percent}}% ng iyong screen.\n\nUpang mapahusay ang iyong karanasan, isaalang-alang ang pag-aayos ng iyong resolusyon ng screen. Narito ang mga gabay upang matulungan ka:\n\n- Para sa mga gumagamit ng Windows: [Baguhin ang iyong resolusyon ng screen sa Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Para sa mga gumagamit ng Mac: [Baguhin ang resolusyon ng display ng iyong Mac](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nMangyaring ayusin lamang kung kinakailangan para sa iyong kaginhawaan at paggamit.",
         "scaleWarningMessage": "Ang kasalukuyang sukat ng iyong display ay nakatakda sa {{scale}}%. Ang mas mataas na sukat ay nagpapalaki ng mga elemento ng interface ngunit binabawasan ang magagamit na espasyo. Ang pagpapababa ng sukat ay magpapakita ng mas maraming nilalaman ngunit magpapaliit ng laki ng mga elemento. Mangyaring pumili ng setting na pinakaangkop sa iyong kaginhawaan sa pagbabasa at mga pangangailangan sa trabaho."
       }

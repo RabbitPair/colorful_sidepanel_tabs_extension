@@ -6,6 +6,24 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+
+## [2.4.0] - 2024-08-19
+
+### Added
+- add **Upload Background Image**: You can upload an image from your local device to use as a background.
+- add **Custom Background Color**: Now supports custom background colors, and you can also choose a color to generate a beautiful gradient
+
+### Changed
+- **font color**: The font color will automatically change to black or white based on the dominant color of the background or background image. If the image is large, it may take some time to apply the background, which is normal.
+
+### Fixed
+- Fixed the issue where some areas did not change after changing the font color
+
+### Deprecated
+- **List background style**: This feature sets the background style for each list, with some built-in gradient colors. However, with the release of custom background colors, its mission has been completed and it will be removed soon.
+
+---
+
 ## [2.3.0] - 2024-08-16
 
 ### Added

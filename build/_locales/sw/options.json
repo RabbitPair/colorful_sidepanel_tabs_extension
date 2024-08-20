@@ -142,7 +142,23 @@
         "dialogDescription": "Ingiza anwani ya picha",
         "OK": "SAWA",
         "Cancel": "Ghairi",
-        "invalidImage": "Anwani batili ya picha"
+        "invalidImage": "Anwani batili ya picha",
+        "dragImageHere": "Buruta picha hapa",
+        "addBackgroundPicture": "Ongeza picha ya mandhari",
+        "uploadImage": "Pakia Picha",
+        "or": "AU",
+        "pasteImageLink": "Bandika kiungo cha picha"
+      },
+      "backgroundColor": {
+        "label": "Rangi ya Mandhari",
+        "description": "Chagua rangi ya mandhari kwa kiolesura chako.",
+        "backgroundImageConfigured": "Picha ya mandhari tayari imewekwa.",
+        "random": "Nasibu",
+        "clear": "Futa"
+      },
+      "backgroundGradient": {
+        "label": "Mwelekeo wa Mandhari",
+        "description": "Ikifaa, rangi ya mandhari ya sasa itatumika kwa athari ya mwelekeo. Unaweza pia kurekebisha pembe ya mwelekeo kwa kutumia kitelezi."
       },
       "backgroundImageTransparency": {
         "label": "Uwazi wa picha",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Habari njema! Tumeanzisha kipengele kipya cha 'Paneli ya Kando ya Ukurasa' ambacho kinakuruhusu kuongeza paneli ya kando kwenye kurasa za wavuti bila kutumia paneli ya kando iliyojengwa ndani ya kivinjari. Mara baada ya kuwezeshwa, peleka kipanya chako kwenye ukingo wa dirisha ili kuleta paneli ya kando. [Tazama Mipangilio](/options.html#/tabSidebarOnPages)",
+        "showLess": "Onyesha kidogo",
+        "showMore": "Onyesha zaidi",
         "screenSizeWarningMessage": "Tumegundua kuwa azimio la skrini yako ya sasa linaweza kuathiri uzoefu wako na paneli ya kando. Kwa sababu ya vikwazo vya kivinjari, upana wa chini wa paneli ya kando ni pikseli 360. Kwa azimio lako la sasa, paneli ya kando inaweza kuchukua {{percent}}% ya skrini yako.\n\nIli kuboresha uzoefu wako, fikiria kurekebisha azimio la skrini yako. Hapa kuna miongozo ya kukusaidia:\n\n- Kwa watumiaji wa Windows: [Badilisha azimio la skrini yako katika Windows](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Kwa watumiaji wa Mac: [Badilisha azimio la onyesho la Mac yako](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nTafadhali rekebisha tu ikiwa ni muhimu kwa faraja yako na matumizi.",
         "scaleWarningMessage": "Kiwango chako cha kuonyesha cha sasa kimewekwa kwa {{scale}}%. Kiwango cha juu hufanya vipengele vya interface kuwa vikubwa lakini hupunguza nafasi inayopatikana. Kupunguza kiwango kutaonyesha maudhui zaidi lakini kupunguza ukubwa wa kipengele. Tafadhali chagua mpangilio unaofaa zaidi faraja yako ya kusoma na mahitaji ya kazi."
       }

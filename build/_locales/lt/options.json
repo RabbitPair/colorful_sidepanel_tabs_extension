@@ -142,7 +142,23 @@
         "dialogDescription": "Įveskite paveikslėlio adresą",
         "OK": "Gerai",
         "Cancel": "Atšaukti",
-        "invalidImage": "Neteisingas paveikslėlio adresas"
+        "invalidImage": "Neteisingas paveikslėlio adresas",
+        "dragImageHere": "Vilkite paveikslėlį čia",
+        "addBackgroundPicture": "Pridėti fono paveikslėlį",
+        "uploadImage": "Įkelti paveikslėlį",
+        "or": "ARBA",
+        "pasteImageLink": "Įklijuoti paveikslėlio nuorodą"
+      },
+      "backgroundColor": {
+        "label": "Fono spalva",
+        "description": "Pasirinkite fono spalvą savo sąsajai.",
+        "backgroundImageConfigured": "Fono paveikslėlis jau nustatytas.",
+        "random": "Atsitiktinė",
+        "clear": "Išvalyti"
+      },
+      "backgroundGradient": {
+        "label": "Fono gradientas",
+        "description": "Kai įjungta, dabartinė fono spalva bus naudojama gradientiniam efektui. Taip pat galite reguliuoti gradiento kampą naudodami slankiklį."
       },
       "backgroundImageTransparency": {
         "label": "Paveikslėlio skaidrumas",
@@ -562,6 +578,9 @@
     },
     "alerts": {
       "screenSizeTips": {
+        "pageSidebarRelase": "Puikios naujienos! Pristatėme naują 'Puslapio šoninės juostos' funkciją, kuri leidžia pridėti šoninę juostą prie tinklalapių nenaudojant naršyklės įmontuotos šoninės juostos. Įjungus, tiesiog užveskite pelę ant lango krašto, kad iškviestumėte šoninę juostą. [Peržiūrėti nustatymus](/options.html#/tabSidebarOnPages)",
+        "showLess": "Rodyti mažiau",
+        "showMore": "Rodyti daugiau",
         "screenSizeWarningMessage": "Aptikome, kad jūsų dabartinė ekrano raiška gali paveikti jūsų patirtį su šonine juosta. Dėl naršyklės apribojimų, minimalus šoninės juostos plotis yra 360 pikselių. Esant dabartinei raiškai, šoninė juosta gali užimti {{percent}}% jūsų ekrano.\n\nNorėdami pagerinti savo patirtį, apsvarstykite galimybę pakeisti ekrano raišką. Štai keletas vadovų, kurie gali padėti:\n\n- Windows naudotojams: [Keisti ekrano raišką Windows sistemoje](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- Mac naudotojams: [Keisti Mac ekrano raišką](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\nPrašome reguliuoti tik jei būtina jūsų patogumui ir naudojimui.",
         "scaleWarningMessage": "Jūsų dabartinis ekrano mastelis nustatytas į {{scale}}%. Didesnis mastelis padidina sąsajos elementus, bet sumažina turimą vietą. Sumažinus mastelį, bus rodomas daugiau turinio, bet sumažės elementų dydis. Prašome pasirinkti nustatymą, kuris geriausiai atitinka jūsų skaitymo patogumą ir darbo eigą."
       }
