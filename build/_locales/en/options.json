@@ -498,6 +498,14 @@
         "target_top": "Topmost Tab",
         "save": "Save",
         "close": "Close"
+      },
+      "zoom": {
+        "label": "Zoom",
+        "description": "Set the zoom level for the website. This zoom level will be automatically applied when the website is opened."
+      },
+      "rememberSiteZoom": {
+        "label": "Remember Site Zoom",
+        "description": "Remember the zoom level when zooming a website. This zoom level will be automatically used when re-entering the same website."
       }
     },
     "importAndExport": {

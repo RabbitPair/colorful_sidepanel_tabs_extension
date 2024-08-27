@@ -498,6 +498,14 @@
         "target_top": "最顶层标签页",
         "save": "保存",
         "close": "关闭"
+      },
+      "zoom": {
+        "label": "缩放",
+        "description": "设置网站的缩放级别。此缩放级别将在打开网站时自动应用。"
+      },
+      "rememberSiteZoom": {
+        "label": "记住网站缩放",
+        "description": "记住网站缩放时的缩放级别。重新进入同一网站时将自动使用此缩放级别。"
       }
     },
     "importAndExport": {

@@ -6,6 +6,16 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2.5.2] - 2024-08-27
+
+### Fixed
+
+- Fixed the issue where saved background images were lost after restarting the application
+- Fixed the issue where closing all tabs from the same site in all windows failed
+- Fixed crash when disabling DnD
+
+------
+
 ## [2.5.0] - 2024-08-25
 
 ### Added
