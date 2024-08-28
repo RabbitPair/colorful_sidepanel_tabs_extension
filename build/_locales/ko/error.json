@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "저장된 그룹은 편집할 수 없습니다",
+    "ungroupingError": "모든 탭의 그룹 해제에 실패했습니다: {{error}}"
+}

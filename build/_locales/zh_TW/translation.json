@@ -161,5 +161,8 @@
   "create": "創建",
   "edit": "編輯",
   "delete": "刪除",
-  "cancel": "取消"
+  "cancel": "取消",
+  "fullscreen": "全屏",
+  "exitFullscreen": "退出全屏",
+  "zoom": "縮放"
 }

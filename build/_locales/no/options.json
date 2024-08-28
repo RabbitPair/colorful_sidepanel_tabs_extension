@@ -500,6 +500,26 @@
         "close": "Lukk"
       }
     },
+    "quickAccess": {
+      "title": "Hurtigtilgang",
+      "enableQuickAccess": {
+        "label": "Vis Hurtigtilgang",
+        "description": "Du kan sette en fane til å vises i Hurtigtilgang for enkel tilgang. Bare høyreklikk (eller langtrykk) på den og velg 'Fest til Hurtigtilgang'. For å fjerne den, høyreklikk (eller langtrykk) på den og velg 'Slett fra Hurtigtilgang'. I motsetning til festede faner, lagrer Hurtigtilgang URL-en og åpner en ny fane hver gang den klikkes."
+      },
+      "selectFromHistory": {
+        "label": "Velg fra Historikk",
+        "description": "Autorisasjon er nødvendig for å velge fra historikken.",
+        "numberOfDays": "Antall Dager",
+        "numberOfUrls": "Antall URL-er",
+        "cancel": "Avbryt",
+        "query": "Spørring",
+        "selectItemsToAddToQuickAccess": "Velg elementer for å legge til i Hurtigtilgang:",
+        "selectAll": "Velg Alle",
+        "addSelected": "Legg til Valgte",
+        "addedSuccess": "Lagt til {{count}} elementer i Hurtigtilgang.",
+        "deniedMessage": "Du har nektet den nødvendige tillatelsen, så innstillingene har ikke blitt endret. Hvis du ombestemmer deg, vennligst klikk igjen og tillat autorisasjon."
+      }
+    },
     "importAndExport": {
       "title": "Import/Eksport",
       "description": "",

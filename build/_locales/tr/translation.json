@@ -161,5 +161,8 @@
   "create": "Oluştur",
   "edit": "Düzenle",
   "delete": "Sil",
-  "cancel": "İptal"
+  "cancel": "İptal",
+  "fullscreen": "Tam Ekran",
+  "exitFullscreen": "Tam Ekrandan Çık",
+  "zoom": "Yakınlaştır"
 }

@@ -500,6 +500,26 @@
         "close": "Zapri"
       }
     },
+    "quickAccess": {
+      "title": "Hiter dostop",
+      "enableQuickAccess": {
+        "label": "Prikaži hiter dostop",
+        "description": "Zavihek lahko nastavite, da se prikaže v hitrem dostopu za lažji dostop. Preprosto kliknite z desno tipko miške (ali dolgo pritisnite) in izberite 'Pripni na hiter dostop'. Če ga želite odstraniti, kliknite z desno tipko miške (ali dolgo pritisnite) in izberite 'Izbriši iz hitrega dostopa'. Za razliko od pripetih zavihkov hiter dostop shrani URL in odpre nov zavihek vsakič, ko je kliknjen."
+      },
+      "selectFromHistory": {
+        "label": "Izberi iz zgodovine",
+        "description": "Za izbiro iz zgodovine je potrebna avtorizacija.",
+        "numberOfDays": "Število dni",
+        "numberOfUrls": "Število URL-jev",
+        "cancel": "Prekliči",
+        "query": "Poizvedba",
+        "selectItemsToAddToQuickAccess": "Izberite elemente za dodajanje v hiter dostop:",
+        "selectAll": "Izberi vse",
+        "addSelected": "Dodaj izbrano",
+        "addedSuccess": "Dodano {{count}} elementov v hiter dostop.",
+        "deniedMessage": "Zavrnili ste zahtevano dovoljenje, zato nastavitve niso bile spremenjene. Če si premislite, prosimo, ponovno kliknite in omogočite avtorizacijo."
+      }
+    },
     "importAndExport": {
       "title": "Uvoz/Izvoz",
       "description": "",

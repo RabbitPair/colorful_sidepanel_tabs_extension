@@ -500,6 +500,26 @@
         "close": "Dùin"
       }
     },
+    "quickAccess": {
+      "title": "Cothrom Luath",
+      "enableQuickAccess": {
+        "label": "Seall Cothrom Luath",
+        "description": "Faodaidh tu tab a shuidheachadh gus nochdadh ann an Cothrom Luath airson cothrom furasta. Dìreach briog deas (no brùth fada) air agus tagh 'Prìne gu Cothrom Luath'. Gus a thoirt air falbh, briog deas (no brùth fada) air agus tagh 'Sguab às bho Chothrom Luath'. Eu-coltach ri tabaichean prìne, bidh Cothrom Luath a' sàbhaladh an URL agus a' fosgladh tab ùr gach uair a thèid a bhriogadh."
+      },
+      "selectFromHistory": {
+        "label": "Tagh bho Eachdraidh",
+        "description": "Tha feum air ùghdarras gus taghadh bhon eachdraidh.",
+        "numberOfDays": "Àireamh de Làithean",
+        "numberOfUrls": "Àireamh de URLs",
+        "cancel": "Sguir dheth",
+        "query": "Ceist",
+        "selectItemsToAddToQuickAccess": "Tagh nithean airson a chur ri Cothrom Luath:",
+        "selectAll": "Tagh Uile",
+        "addSelected": "Cuir ris na Taghte",
+        "addedSuccess": "Cuirte ris {{count}} nithean ri Cothrom Luath.",
+        "deniedMessage": "Tha thu air an cead riatanach a dhiùltadh, mar sin cha deach na suidheachaidhean atharrachadh. Ma dh'atharraicheas tu d' inntinn, briog a-rithist agus ceadaich ùghdarras."
+      }
+    },
     "importAndExport": {
       "title": "In-mhalairt/Às-mhalairt",
       "description": "",

@@ -500,6 +500,26 @@
         "close": "Fermer"
       }
     },
+    "quickAccess": {
+      "title": "Accès rapide",
+      "enableQuickAccess": {
+        "label": "Afficher l'accès rapide",
+        "description": "Vous pouvez définir un onglet pour qu'il apparaisse dans l'accès rapide pour un accès facile. Il suffit de faire un clic droit (ou un appui long) dessus et de sélectionner 'Épingler à l'accès rapide'. Pour le supprimer, faites un clic droit (ou un appui long) dessus et sélectionnez 'Supprimer de l'accès rapide'. Contrairement aux onglets épinglés, l'accès rapide enregistre l'URL et ouvre un nouvel onglet à chaque fois que vous cliquez dessus."
+      },
+      "selectFromHistory": {
+        "label": "Sélectionner dans l'historique",
+        "description": "Une autorisation est requise pour sélectionner dans l'historique.",
+        "numberOfDays": "Nombre de jours",
+        "numberOfUrls": "Nombre d'URLs",
+        "cancel": "Annuler",
+        "query": "Requête",
+        "selectItemsToAddToQuickAccess": "Sélectionnez les éléments à ajouter à l'accès rapide :",
+        "selectAll": "Tout sélectionner",
+        "addSelected": "Ajouter les éléments sélectionnés",
+        "addedSuccess": "{{count}} éléments ajoutés à l'accès rapide.",
+        "deniedMessage": "Vous avez refusé l'autorisation requise, donc les paramètres n'ont pas été modifiés. Si vous changez d'avis, veuillez cliquer à nouveau et autoriser l'autorisation."
+      }
+    },
     "importAndExport": {
       "title": "Importer/Exporter",
       "description": "",

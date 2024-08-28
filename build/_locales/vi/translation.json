@@ -161,5 +161,8 @@
   "create": "Tạo",
   "edit": "Chỉnh Sửa",
   "delete": "Xóa",
-  "cancel": "Hủy"
+  "cancel": "Hủy",
+  "fullscreen": "Toàn Màn Hình",
+  "exitFullscreen": "Thoát Toàn Màn Hình",
+  "zoom": "Phóng To"
 }

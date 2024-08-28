@@ -6,6 +6,26 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+
+## [2.6.0] - 2024-08-20
+### Added
+- Added **Tab Menu Zoom**: A zoom feature has been added to the tab menu, allowing you to freely adjust the zoom level from 1% to 1000%.
+
+### Changed
+- Quick Access has been moved to a separate menu item.
+- Optimized drag-and-drop sorting
+
+### Fixed
+- Fixed an issue where some areas did not change after altering the font color.
+
+### Deprecated
+- **Quick Access in Tabs Menu**: Quick Access has been moved to a separate menu item. The option in the tab menu will be deprecated soon (the functionality remains the same).
+
+### Removed
+- Removed the zoom option from site settings because adjusting the zoom in the menu did not provide an intuitive preview of the changes. The zoom feature has been moved to the tab menu for real-time preview.
+
+---
+
 ## [2.5.2] - 2024-08-27
 
 ### Fixed

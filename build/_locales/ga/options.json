@@ -500,6 +500,26 @@
         "close": "Dún"
       }
     },
+    "quickAccess": {
+      "title": "Rochtain Thapa",
+      "enableQuickAccess": {
+        "label": "Taispeáin Rochtain Thapa",
+        "description": "Is féidir leat cluaisín a shocrú chun le feiceáil i Rochtain Thapa le haghaidh rochtain éasca. Cliceáil ar dheis (nó brúigh fada) air agus roghnaigh 'Pin to Quick Access'. Chun é a bhaint, cliceáil ar dheis (nó brúigh fada) air agus roghnaigh 'Scrios ó Rochtain Thapa'. Murab ionann agus cluaisíní pinnte, sábhálann Rochtain Thapa an URL agus osclaíonn sé cluaisín nua gach uair a chliceáiltear air."
+      },
+      "selectFromHistory": {
+        "label": "Roghnaigh ón Stair",
+        "description": "Tá údarú ag teastáil chun roghnú ón stair.",
+        "numberOfDays": "Líon na Laethanta",
+        "numberOfUrls": "Líon na URLanna",
+        "cancel": "Cealaigh",
+        "query": "Ceist",
+        "selectItemsToAddToQuickAccess": "Roghnaigh míreanna le cur le Rochtain Thapa:",
+        "selectAll": "Roghnaigh Uile",
+        "addSelected": "Cuir leis na Roghnaithe",
+        "addedSuccess": "Cuireadh {{count}} míreanna le Rochtain Thapa.",
+        "deniedMessage": "Tá an cead riachtanach diúltaithe agat, mar sin níor athraíodh na socruithe. Má athraíonn tú d'intinn, cliceáil arís agus ceadaigh údarú."
+      }
+    },
     "importAndExport": {
       "title": "Iompórtáil/Easpórtáil",
       "description": "",

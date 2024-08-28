@@ -498,14 +498,26 @@
         "target_top": "最顶层标签页",
         "save": "保存",
         "close": "关闭"
+      }
+    },
+    "quickAccess": {
+      "title": "快速访问",
+      "enableQuickAccess": {
+        "label": "显示快速访问",
+        "description": "您可以将标签页设置为显示在快速访问中，以便于查找。只需右键单击（或长按）它并选择“固定到快速访问”。要删除它，请右键单击（或长按）它并选择“从快速访问中删除”。与固定标签页不同，快速访问保存URL并在每次点击时打开新标签页。"
       },
-      "zoom": {
-        "label": "缩放",
-        "description": "设置网站的缩放级别。此缩放级别将在打开网站时自动应用。"
-      },
-      "rememberSiteZoom": {
-        "label": "记住网站缩放",
-        "description": "记住网站缩放时的缩放级别。重新进入同一网站时将自动使用此缩放级别。"
+      "selectFromHistory": {
+        "label": "从历史记录中选择",
+        "description": "需要授权才能从历史记录中选择。",
+        "numberOfDays": "天数",
+        "numberOfUrls": "URL数量",
+        "cancel": "取消",
+        "query": "查询",
+        "selectItemsToAddToQuickAccess": "选择要添加到快速访问的项目：",
+        "selectAll": "全选",
+        "addSelected": "添加选中项",
+        "addedSuccess": "已将 {{count}} 个项目添加到快速访问。",
+        "deniedMessage": "您已拒绝所需的权限，因此设置未更改。如果您改变主意，请再次点击并允许授权。"
       }
     },
     "importAndExport": {

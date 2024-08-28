@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "Les groupes enregistrés ne sont pas modifiables",
+    "ungroupingError": "Échec du désassemblage de tous les onglets : {{error}}"
+}

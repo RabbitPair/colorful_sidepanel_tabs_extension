@@ -500,6 +500,26 @@
         "close": "Fechar"
       }
     },
+    "quickAccess": {
+      "title": "Acesso Rápido",
+      "enableQuickAccess": {
+        "label": "Mostrar Acesso Rápido",
+        "description": "Você pode definir uma aba para aparecer no Acesso Rápido para fácil acesso. Basta clicar com o botão direito (ou pressionar e segurar) e selecionar 'Fixar no Acesso Rápido'. Para removê-la, clique com o botão direito (ou pressione e segure) e selecione 'Excluir do Acesso Rápido'. Ao contrário das abas fixadas, o Acesso Rápido salva o URL e abre uma nova aba cada vez que é clicado."
+      },
+      "selectFromHistory": {
+        "label": "Selecionar do Histórico",
+        "description": "É necessária autorização para selecionar do histórico.",
+        "numberOfDays": "Número de Dias",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecione itens para adicionar ao Acesso Rápido:",
+        "selectAll": "Selecionar Todos",
+        "addSelected": "Adicionar Selecionados",
+        "addedSuccess": "Adicionado {{count}} itens ao Acesso Rápido.",
+        "deniedMessage": "Você negou a permissão necessária, então as configurações não foram alteradas. Se mudar de ideia, clique novamente e permita a autorização."
+      }
+    },
     "importAndExport": {
       "title": "Importar/Exportar",
       "description": "",

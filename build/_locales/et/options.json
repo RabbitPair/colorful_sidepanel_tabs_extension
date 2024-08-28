@@ -500,6 +500,26 @@
         "close": "Sulge"
       }
     },
+    "quickAccess": {
+      "title": "Kiirjuurdepääs",
+      "enableQuickAccess": {
+        "label": "Näita kiirjuurdepääsu",
+        "description": "Saate määrata vahekaardi, mis kuvatakse kiirjuurdepääsus hõlpsaks juurdepääsuks. Lihtsalt paremklõpsake (või vajutage pikalt) ja valige 'Kinnita kiirjuurdepääsu'. Eemaldamiseks paremklõpsake (või vajutage pikalt) ja valige 'Kustuta kiirjuurdepääsust'. Erinevalt kinnitatud vahekaartidest salvestab kiirjuurdepääs URL-i ja avab iga kord uue vahekaardi, kui seda klõpsatakse."
+      },
+      "selectFromHistory": {
+        "label": "Vali ajaloost",
+        "description": "Ajaloo valimiseks on vaja luba.",
+        "numberOfDays": "Päevade arv",
+        "numberOfUrls": "URL-ide arv",
+        "cancel": "Tühista",
+        "query": "Päring",
+        "selectItemsToAddToQuickAccess": "Valige üksused, mida lisada kiirjuurdepääsu:",
+        "selectAll": "Vali kõik",
+        "addSelected": "Lisa valitud",
+        "addedSuccess": "Lisatud {{count}} üksust kiirjuurdepääsu.",
+        "deniedMessage": "Olete nõutud loa keelanud, seega seadeid ei muudetud. Kui muudate meelt, klõpsake uuesti ja lubage luba."
+      }
+    },
     "importAndExport": {
       "title": "Import/Eksport",
       "description": "",

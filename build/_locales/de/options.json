@@ -500,6 +500,26 @@
         "close": "Schließen"
       }
     },
+    "quickAccess": {
+      "title": "Schnellzugriff",
+      "enableQuickAccess": {
+        "label": "Schnellzugriff anzeigen",
+        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff für einfachen Zugriff angezeigt wird. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'An Schnellzugriff anheften'. Um es zu entfernen, klicken Sie mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'Aus Schnellzugriff löschen'. Im Gegensatz zu angehefteten Tabs speichert Schnellzugriff die URL und öffnet jedes Mal einen neuen Tab, wenn darauf geklickt wird."
+      },
+      "selectFromHistory": {
+        "label": "Aus Verlauf auswählen",
+        "description": "Eine Autorisierung ist erforderlich, um aus dem Verlauf auszuwählen.",
+        "numberOfDays": "Anzahl der Tage",
+        "numberOfUrls": "Anzahl der URLs",
+        "cancel": "Abbrechen",
+        "query": "Abfrage",
+        "selectItemsToAddToQuickAccess": "Elemente auswählen, die dem Schnellzugriff hinzugefügt werden sollen:",
+        "selectAll": "Alles auswählen",
+        "addSelected": "Ausgewählte hinzufügen",
+        "addedSuccess": "{{count}} Elemente zum Schnellzugriff hinzugefügt.",
+        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung."
+      }
+    },
     "importAndExport": {
       "title": "Importieren/Exportieren",
       "description": "",

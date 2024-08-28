@@ -500,6 +500,26 @@
         "close": "Loka"
       }
     },
+    "quickAccess": {
+      "title": "Flýtiaðgangur",
+      "enableQuickAccess": {
+        "label": "Sýna flýtiaðgang",
+        "description": "Þú getur stillt flipa til að birtast í flýtiaðgangi fyrir auðveldan aðgang. Hægri-smelltu (eða haltu inni) og veldu 'Festa í flýtiaðgang'. Til að fjarlægja, hægri-smelltu (eða haltu inni) og veldu 'Eyða úr flýtiaðgangi'. Ólíkt föstum flipum, geymir flýtiaðgangur slóðina og opnar nýjan flipa í hvert sinn sem smellt er á."
+      },
+      "selectFromHistory": {
+        "label": "Velja úr sögu",
+        "description": "Heimild er nauðsynleg til að velja úr sögunni.",
+        "numberOfDays": "Fjöldi daga",
+        "numberOfUrls": "Fjöldi slóða",
+        "cancel": "Hætta við",
+        "query": "Fyrirspurn",
+        "selectItemsToAddToQuickAccess": "Veldu atriði til að bæta við flýtiaðgang:",
+        "selectAll": "Velja allt",
+        "addSelected": "Bæta við völdum",
+        "addedSuccess": "Bætt {{count}} atriðum við flýtiaðgang.",
+        "deniedMessage": "Þú hefur hafnað nauðsynlegri heimild, svo stillingarnar hafa ekki breyst. Ef þú skiptir um skoðun, vinsamlegast smelltu aftur og leyfðu heimild."
+      }
+    },
     "importAndExport": {
       "title": "Innflutningur/Útflutningur",
       "description": "",

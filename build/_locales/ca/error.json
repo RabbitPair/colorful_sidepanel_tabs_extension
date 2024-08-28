@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "Els grups desats no es poden editar",
+    "ungroupingError": "No s'ha pogut desagrupar totes les pestanyes: {{error}}"
+}

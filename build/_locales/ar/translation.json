@@ -161,5 +161,8 @@
   "create": "إنشاء",
   "edit": "تحرير",
   "delete": "حذف",
-  "cancel": "إلغاء"
+  "cancel": "إلغاء",
+  "fullscreen": "ملء الشاشة",
+  "exitFullscreen": "الخروج من ملء الشاشة",
+  "zoom": "تكبير"
 }

@@ -161,5 +161,8 @@
   "create": "Cipta",
   "edit": "Sunting",
   "delete": "Padam",
-  "cancel": "Batal"
+  "cancel": "Batal",
+  "fullscreen": "Skrin Penuh",
+  "exitFullscreen": "Keluar Skrin Penuh",
+  "zoom": "Zum"
 }

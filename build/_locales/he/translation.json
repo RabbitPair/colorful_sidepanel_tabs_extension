@@ -161,5 +161,8 @@
   "create": "צור",
   "edit": "ערוך",
   "delete": "מחק",
-  "cancel": "בטל"
+  "cancel": "בטל",
+  "fullscreen": "מסך מלא",
+  "exitFullscreen": "צא ממסך מלא",
+  "zoom": "התקרב"
 }

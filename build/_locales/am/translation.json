@@ -148,5 +148,8 @@
   "create": "ፍጠር",
   "edit": "አርትዕ",
   "delete": "ሰርዝ",
-  "cancel": "አቋርጥ"
+  "cancel": "አቋርጥ",
+  "fullscreen": "ሙሉ ማያ",
+  "exitFullscreen": "ከሙሉ ማያ ውጣ",
+  "zoom": "እስቲ አታትም"
 }

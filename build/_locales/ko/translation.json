@@ -151,5 +151,8 @@
   "create": "생성",
   "edit": "편집",
   "delete": "삭제",
-  "cancel": "취소"
+  "cancel": "취소",
+  "fullscreen": "전체 화면",
+  "exitFullscreen": "전체 화면 종료",
+  "zoom": "확대"
 }

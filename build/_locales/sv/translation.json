@@ -161,5 +161,8 @@
   "create": "Skapa",
   "edit": "Redigera",
   "delete": "Radera",
-  "cancel": "Avbryt"
+  "cancel": "Avbryt",
+  "fullscreen": "Helskärm",
+  "exitFullscreen": "Avsluta helskärm",
+  "zoom": "Zooma"
 }

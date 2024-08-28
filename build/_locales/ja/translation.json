@@ -161,5 +161,8 @@
   "create": "作成",
   "edit": "編集",
   "delete": "削除",
-  "cancel": "キャンセル"
+  "cancel": "キャンセル",
+  "fullscreen": "全画面表示",
+  "exitFullscreen": "全画面表示を終了",
+  "zoom": "ズーム"
 }

@@ -161,5 +161,8 @@
   "create": "Sukurti",
   "edit": "Redaguoti",
   "delete": "Ištrinti",
-  "cancel": "Atšaukti"
+  "cancel": "Atšaukti",
+  "fullscreen": "Visas ekranas",
+  "exitFullscreen": "Išeiti iš viso ekrano",
+  "zoom": "Priartinti"
 }

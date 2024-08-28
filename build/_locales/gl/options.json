@@ -500,6 +500,26 @@
         "close": "Pechar"
       }
     },
+    "quickAccess": {
+      "title": "Acceso Rápido",
+      "enableQuickAccess": {
+        "label": "Mostrar Acceso Rápido",
+        "description": "Podes configurar unha lapela para que apareza en Acceso Rápido para un acceso doado. Simplemente fai clic dereito (ou mantén presionado) e selecciona 'Fixar en Acceso Rápido'. Para eliminalo, fai clic dereito (ou mantén presionado) e selecciona 'Eliminar de Acceso Rápido'. A diferenza das lapelas fixadas, Acceso Rápido garda a URL e abre unha nova lapela cada vez que se fai clic."
+      },
+      "selectFromHistory": {
+        "label": "Seleccionar do Historial",
+        "description": "Requírese autorización para seleccionar do historial.",
+        "numberOfDays": "Número de Días",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Selecciona elementos para engadir a Acceso Rápido:",
+        "selectAll": "Seleccionar Todo",
+        "addSelected": "Engadir Seleccionados",
+        "addedSuccess": "Engadíronse {{count}} elementos a Acceso Rápido.",
+        "deniedMessage": "Rechaches o permiso necesario, polo que os axustes non cambiaron. Se cambias de opinión, fai clic de novo e permite a autorización."
+      }
+    },
     "importAndExport": {
       "title": "Importar/Exportar",
       "description": "",

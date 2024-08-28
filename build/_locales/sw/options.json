@@ -500,6 +500,26 @@
         "close": "Funga"
       }
     },
+    "quickAccess": {
+      "title": "Ufikiaji wa Haraka",
+      "enableQuickAccess": {
+        "label": "Onyesha Ufikiaji wa Haraka",
+        "description": "Unaweza kuweka kichupo kuonekana katika Ufikiaji wa Haraka kwa ufikiaji rahisi. Bonyeza kulia (au bonyeza kwa muda mrefu) na uchague 'Pin to Quick Access'. Ili kuondoa, bonyeza kulia (au bonyeza kwa muda mrefu) na uchague 'Futa kutoka Ufikiaji wa Haraka'. Tofauti na vichupo vilivyowekwa pini, Ufikiaji wa Haraka huokoa URL na kufungua kichupo kipya kila wakati kinapobonyezwa."
+      },
+      "selectFromHistory": {
+        "label": "Chagua kutoka Historia",
+        "description": "Idhini inahitajika kuchagua kutoka historia.",
+        "numberOfDays": "Idadi ya Siku",
+        "numberOfUrls": "Idadi ya URL",
+        "cancel": "Ghairi",
+        "query": "Utafutaji",
+        "selectItemsToAddToQuickAccess": "Chagua vitu vya kuongeza kwenye Ufikiaji wa Haraka:",
+        "selectAll": "Chagua Zote",
+        "addSelected": "Ongeza Zilizochaguliwa",
+        "addedSuccess": "Imeongeza {{count}} vitu kwenye Ufikiaji wa Haraka.",
+        "deniedMessage": "Umezuia ruhusa inayohitajika, kwa hivyo mipangilio haijabadilika. Ukibadilisha mawazo yako, tafadhali bonyeza tena na ruhusu idhini."
+      }
+    },
     "importAndExport": {
       "title": "Ingiza/Hamisha",
       "description": "",

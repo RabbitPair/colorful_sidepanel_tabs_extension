@@ -148,5 +148,8 @@
   "create": "Креирај",
   "edit": "Уреди",
   "delete": "Избриши",
-  "cancel": "Откажи"
+  "cancel": "Откажи",
+  "fullscreen": "Цел Екран",
+  "exitFullscreen": "Исклучи Цел Екран",
+  "zoom": "Зумирај"
 }

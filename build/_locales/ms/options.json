@@ -500,6 +500,26 @@
         "close": "Tutup"
       }
     },
+    "quickAccess": {
+      "title": "Akses Pantas",
+      "enableQuickAccess": {
+        "label": "Tunjukkan Akses Pantas",
+        "description": "Anda boleh menetapkan tab untuk muncul dalam Akses Pantas untuk akses mudah. Cuma klik kanan (atau tekan lama) dan pilih 'Pin ke Akses Pantas'. Untuk mengeluarkannya, klik kanan (atau tekan lama) dan pilih 'Padam dari Akses Pantas'. Tidak seperti tab yang dipin, Akses Pantas menyimpan URL dan membuka tab baru setiap kali ia diklik."
+      },
+      "selectFromHistory": {
+        "label": "Pilih dari Sejarah",
+        "description": "Kebenaran diperlukan untuk memilih dari sejarah.",
+        "numberOfDays": "Bilangan Hari",
+        "numberOfUrls": "Bilangan URL",
+        "cancel": "Batal",
+        "query": "Pertanyaan",
+        "selectItemsToAddToQuickAccess": "Pilih item untuk ditambah ke Akses Pantas:",
+        "selectAll": "Pilih Semua",
+        "addSelected": "Tambah Dipilih",
+        "addedSuccess": "Ditambah {{count}} item ke Akses Pantas.",
+        "deniedMessage": "Anda telah menolak kebenaran yang diperlukan, jadi tetapan tidak berubah. Jika anda berubah fikiran, sila klik lagi dan benarkan kebenaran."
+      }
+    },
     "importAndExport": {
       "title": "Import/Eksport",
       "description": "",

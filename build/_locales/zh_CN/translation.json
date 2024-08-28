@@ -161,5 +161,8 @@
   "create": "创建",
   "edit": "编辑",
   "delete": "删除",
-  "cancel": "取消"
+  "cancel": "取消",
+  "fullscreen": "全屏",
+  "exitFullscreen": "退出全屏",
+  "zoom": "缩放"
 }

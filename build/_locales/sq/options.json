@@ -500,6 +500,26 @@
         "close": "Mbyll"
       }
     },
+    "quickAccess": {
+      "title": "Qasje e Shpejtë",
+      "enableQuickAccess": {
+        "label": "Shfaq Qasje të Shpejtë",
+        "description": "Mund të vendosni një skedë që të shfaqet në Qasje të Shpejtë për qasje të lehtë. Thjesht klikoni me të djathtën (ose shtypni gjatë) dhe zgjidhni 'Ngjit në Qasje të Shpejtë'. Për ta hequr, klikoni me të djathtën (ose shtypni gjatë) dhe zgjidhni 'Fshij nga Qasje të Shpejtë'. Ndryshe nga skedat e ngjitura, Qasje e Shpejtë ruan URL-në dhe hap një skedë të re sa herë që klikohet."
+      },
+      "selectFromHistory": {
+        "label": "Zgjidh nga Historia",
+        "description": "Kërkohet autorizim për të zgjedhur nga historia.",
+        "numberOfDays": "Numri i Ditëve",
+        "numberOfUrls": "Numri i URL-ve",
+        "cancel": "Anulo",
+        "query": "Kërko",
+        "selectItemsToAddToQuickAccess": "Zgjidhni artikujt për t'i shtuar në Qasje të Shpejtë:",
+        "selectAll": "Zgjidh të Gjitha",
+        "addSelected": "Shto të Zgjedhurat",
+        "addedSuccess": "Shtuar {{count}} artikuj në Qasje të Shpejtë.",
+        "deniedMessage": "Ju keni refuzuar lejen e kërkuar, kështu që cilësimet nuk janë ndryshuar. Nëse ndryshoni mendje, ju lutemi klikoni përsëri dhe lejoni autorizimin."
+      }
+    },
     "importAndExport": {
       "title": "Importo/Eksporto",
       "description": "",

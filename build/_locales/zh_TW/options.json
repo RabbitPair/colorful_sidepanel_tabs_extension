@@ -500,6 +500,26 @@
         "close": "關閉"
       }
     },
+    "quickAccess": {
+      "title": "快速訪問",
+      "enableQuickAccess": {
+        "label": "顯示快速訪問",
+        "description": "您可以將標籤頁設置為顯示在快速訪問中以便於訪問。只需右鍵單擊（或長按）它並選擇“固定到快速訪問”。要刪除它，請右鍵單擊（或長按）它並選擇“從快速訪問中刪除”。與固定標籤頁不同，快速訪問保存URL並在每次點擊時打開新標籤頁。"
+      },
+      "selectFromHistory": {
+        "label": "從歷史記錄中選擇",
+        "description": "需要授權才能從歷史記錄中選擇。",
+        "numberOfDays": "天數",
+        "numberOfUrls": "URL數量",
+        "cancel": "取消",
+        "query": "查詢",
+        "selectItemsToAddToQuickAccess": "選擇要添加到快速訪問的項目：",
+        "selectAll": "全選",
+        "addSelected": "添加選中項",
+        "addedSuccess": "已將 {{count}} 個項目添加到快速訪問。",
+        "deniedMessage": "您已拒絕所需的權限，因此設置未更改。如果您改變主意，請再次點擊並允許授權。"
+      }
+    },
     "importAndExport": {
       "title": "導入/導出",
       "description": "",

@@ -500,6 +500,26 @@
         "close": "Close"
       }
     },
+    "quickAccess": {
+      "title": "Quick Access",
+      "enableQuickAccess": {
+        "label": "Show Quick Access",
+        "description": "You can set a tab to appear in Quick Access for easy access. Just right-click (or long-press) it and select 'Pin to Quick Access'. To remove it, right-click (or long-press) it and select 'Delete from Quick Access'. Unlike pinned tabs, Quick Access saves the URL and opens a new tab each time it is clicked."
+      },
+      "selectFromHistory": {
+        "label": "Select from History",
+        "description": "Authorization is required to select from the history.",
+        "numberOfDays": "Number of Days",
+        "numberOfUrls": "Number of URLs",
+        "cancel": "Cancel",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Select items to add to Quick Access:",
+        "selectAll": "Select All",
+        "addSelected": "Add Selected",
+        "addedSuccess": "Added {{count}} items to Quick Access.",
+        "deniedMessage": "You have denied the required permission, so the settings have not changed. If you change your mind, please click again and allow authorization."
+      }
+    },
     "importAndExport": {
       "title": "Import/Export",
       "description": "",

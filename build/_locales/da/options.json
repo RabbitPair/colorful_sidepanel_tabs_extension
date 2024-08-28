@@ -500,6 +500,26 @@
         "close": "Luk"
       }
     },
+    "quickAccess": {
+      "title": "Hurtig adgang",
+      "enableQuickAccess": {
+        "label": "Vis hurtig adgang",
+        "description": "Du kan indstille en fane til at vises i hurtig adgang for nem adgang. Højreklik (eller lang tryk) på den og vælg 'Fastgør til hurtig adgang'. For at fjerne den, højreklik (eller lang tryk) på den og vælg 'Slet fra hurtig adgang'. I modsætning til fastgjorte faner gemmer hurtig adgang URL'en og åbner en ny fane hver gang den klikkes."
+      },
+      "selectFromHistory": {
+        "label": "Vælg fra historik",
+        "description": "Autorisation er påkrævet for at vælge fra historikken.",
+        "numberOfDays": "Antal dage",
+        "numberOfUrls": "Antal URL'er",
+        "cancel": "Annuller",
+        "query": "Forespørgsel",
+        "selectItemsToAddToQuickAccess": "Vælg elementer til at tilføje til hurtig adgang:",
+        "selectAll": "Vælg alle",
+        "addSelected": "Tilføj valgte",
+        "addedSuccess": "Tilføjet {{count}} elementer til hurtig adgang.",
+        "deniedMessage": "Du har nægtet den nødvendige tilladelse, så indstillingerne er ikke ændret. Hvis du ændrer mening, skal du klikke igen og tillade autorisation."
+      }
+    },
     "importAndExport": {
       "title": "Import/Eksport",
       "description": "",

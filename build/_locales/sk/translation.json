@@ -161,5 +161,8 @@
   "create": "Vytvoriť",
   "edit": "Upraviť",
   "delete": "Vymazať",
-  "cancel": "Zrušiť"
+  "cancel": "Zrušiť",
+  "fullscreen": "Celá obrazovka",
+  "exitFullscreen": "Ukončiť celú obrazovku",
+  "zoom": "Priblíženie"
 }

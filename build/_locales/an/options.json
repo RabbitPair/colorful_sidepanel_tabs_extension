@@ -500,6 +500,26 @@
         "close": "Cerrar"
       }
     },
+    "quickAccess": {
+      "title": "Acceso Rápido",
+      "enableQuickAccess": {
+        "label": "Mostrar Acceso Rápido",
+        "description": "Puede configurar una pestaña para que aparezca en Acceso Rápido para un acceso fácil. Simplemente haga clic derecho (o mantenga presionado) y seleccione 'Fijar en Acceso Rápido'. Para eliminarlo, haga clic derecho (o mantenga presionado) y seleccione 'Eliminar de Acceso Rápido'. A diferencia de las pestañas fijadas, Acceso Rápido guarda la URL y abre una nueva pestaña cada vez que se hace clic."
+      },
+      "selectFromHistory": {
+        "label": "Seleccionar del Historial",
+        "description": "Se requiere autorización para seleccionar del historial.",
+        "numberOfDays": "Número de Días",
+        "numberOfUrls": "Número de URLs",
+        "cancel": "Cancelar",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Seleccione elementos para agregar a Acceso Rápido:",
+        "selectAll": "Seleccionar Todo",
+        "addSelected": "Agregar Seleccionados",
+        "addedSuccess": "Se han agregado {{count}} elementos a Acceso Rápido.",
+        "deniedMessage": "Ha denegado el permiso requerido, por lo que la configuración no ha cambiado. Si cambia de opinión, haga clic nuevamente y permita la autorización."
+      }
+    },
     "importAndExport": {
       "title": "Importar/Exportar",
       "description": "",

@@ -500,6 +500,26 @@
         "close": "Đóng"
       }
     },
+    "quickAccess": {
+      "title": "Truy cập nhanh",
+      "enableQuickAccess": {
+        "label": "Hiển thị Truy cập nhanh",
+        "description": "Bạn có thể đặt một thẻ xuất hiện trong Truy cập nhanh để dễ dàng truy cập. Chỉ cần nhấp chuột phải (hoặc nhấn giữ) và chọn 'Ghim vào Truy cập nhanh'. Để xóa nó, nhấp chuột phải (hoặc nhấn giữ) và chọn 'Xóa khỏi Truy cập nhanh'. Không giống như các thẻ được ghim, Truy cập nhanh lưu URL và mở một thẻ mới mỗi khi được nhấp vào."
+      },
+      "selectFromHistory": {
+        "label": "Chọn từ Lịch sử",
+        "description": "Yêu cầu ủy quyền để chọn từ lịch sử.",
+        "numberOfDays": "Số ngày",
+        "numberOfUrls": "Số lượng URL",
+        "cancel": "Hủy",
+        "query": "Truy vấn",
+        "selectItemsToAddToQuickAccess": "Chọn các mục để thêm vào Truy cập nhanh:",
+        "selectAll": "Chọn tất cả",
+        "addSelected": "Thêm đã chọn",
+        "addedSuccess": "Đã thêm {{count}} mục vào Truy cập nhanh.",
+        "deniedMessage": "Bạn đã từ chối quyền cần thiết, vì vậy các cài đặt không thay đổi. Nếu bạn thay đổi ý định, vui lòng nhấp lại và cho phép ủy quyền."
+      }
+    },
     "importAndExport": {
       "title": "Nhập/Xuất",
       "description": "",

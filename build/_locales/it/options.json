@@ -500,6 +500,26 @@
         "close": "Chiudi"
       }
     },
+    "quickAccess": {
+      "title": "Accesso rapido",
+      "enableQuickAccess": {
+        "label": "Mostra Accesso rapido",
+        "description": "Puoi impostare una scheda per apparire in Accesso rapido per un facile accesso. Basta fare clic con il pulsante destro del mouse (o premere a lungo) e selezionare 'Aggiungi a Accesso rapido'. Per rimuoverla, fai clic con il pulsante destro del mouse (o premi a lungo) e seleziona 'Elimina da Accesso rapido'. A differenza delle schede bloccate, Accesso rapido salva l'URL e apre una nuova scheda ogni volta che viene cliccato."
+      },
+      "selectFromHistory": {
+        "label": "Seleziona dalla cronologia",
+        "description": "È necessaria l'autorizzazione per selezionare dalla cronologia.",
+        "numberOfDays": "Numero di giorni",
+        "numberOfUrls": "Numero di URL",
+        "cancel": "Annulla",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Seleziona gli elementi da aggiungere a Accesso rapido:",
+        "selectAll": "Seleziona tutto",
+        "addSelected": "Aggiungi selezionati",
+        "addedSuccess": "Aggiunti {{count}} elementi a Accesso rapido.",
+        "deniedMessage": "Hai negato l'autorizzazione richiesta, quindi le impostazioni non sono cambiate. Se cambi idea, fai di nuovo clic e consenti l'autorizzazione."
+      }
+    },
     "importAndExport": {
       "title": "Importa/Esporta",
       "description": "",

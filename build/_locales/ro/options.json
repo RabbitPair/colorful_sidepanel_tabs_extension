@@ -500,6 +500,26 @@
         "close": "Închide"
       }
     },
+    "quickAccess": {
+      "title": "Acces rapid",
+      "enableQuickAccess": {
+        "label": "Afișează Acces rapid",
+        "description": "Puteți seta o filă să apară în Acces rapid pentru acces ușor. Doar faceți clic dreapta (sau apăsați lung) pe ea și selectați 'Fixează în Acces rapid'. Pentru a o elimina, faceți clic dreapta (sau apăsați lung) pe ea și selectați 'Șterge din Acces rapid'. Spre deosebire de filele fixate, Acces rapid salvează URL-ul și deschide o filă nouă de fiecare dată când este accesat."
+      },
+      "selectFromHistory": {
+        "label": "Selectați din Istoric",
+        "description": "Este necesară autorizarea pentru a selecta din istoric.",
+        "numberOfDays": "Număr de zile",
+        "numberOfUrls": "Număr de URL-uri",
+        "cancel": "Anulează",
+        "query": "Interogare",
+        "selectItemsToAddToQuickAccess": "Selectați elementele pentru a le adăuga la Acces rapid:",
+        "selectAll": "Selectează tot",
+        "addSelected": "Adaugă selectate",
+        "addedSuccess": "Adăugat {{count}} elemente la Acces rapid.",
+        "deniedMessage": "Ați refuzat permisiunea necesară, astfel încât setările nu s-au schimbat. Dacă vă răzgândiți, vă rugăm să faceți clic din nou și să permiteți autorizarea."
+      }
+    },
     "importAndExport": {
       "title": "Import/Export",
       "description": "",

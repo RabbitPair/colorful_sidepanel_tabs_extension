@@ -148,5 +148,8 @@
   "create": "Skep",
   "edit": "Wysig",
   "delete": "Verwyder",
-  "cancel": "Kanselleer"
+  "cancel": "Kanselleer",
+  "fullscreen": "Volskerm",
+  "exitFullscreen": "Verlaat Volskerm",
+  "zoom": "Soem"
 }

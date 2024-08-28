@@ -500,6 +500,26 @@
         "close": "Aizvērt"
       }
     },
+    "quickAccess": {
+      "title": "Ātrā piekļuve",
+      "enableQuickAccess": {
+        "label": "Rādīt ātro piekļuvi",
+        "description": "Jūs varat iestatīt cilni, lai tā parādītos ātrajā piekļuvē ērtai piekļuvei. Vienkārši noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties 'Piespraust ātrajai piekļuvei'. Lai to noņemtu, noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties 'Dzēst no ātrās piekļuves'. Atšķirībā no piespraustajām cilnēm, ātrā piekļuve saglabā URL un katru reizi, kad uz tās noklikšķina, atver jaunu cilni."
+      },
+      "selectFromHistory": {
+        "label": "Izvēlēties no vēstures",
+        "description": "Lai izvēlētos no vēstures, ir nepieciešama autorizācija.",
+        "numberOfDays": "Dienu skaits",
+        "numberOfUrls": "URL skaits",
+        "cancel": "Atcelt",
+        "query": "Vaicājums",
+        "selectItemsToAddToQuickAccess": "Izvēlieties vienumus, ko pievienot ātrajai piekļuvei:",
+        "selectAll": "Izvēlēties visu",
+        "addSelected": "Pievienot izvēlētos",
+        "addedSuccess": "Pievienoti {{count}} vienumi ātrajai piekļuvei.",
+        "deniedMessage": "Jūs esat atteicis nepieciešamo atļauju, tāpēc iestatījumi nav mainīti. Ja mainīsiet savu lēmumu, lūdzu, noklikšķiniet vēlreiz un atļaujiet autorizāciju."
+      }
+    },
     "importAndExport": {
       "title": "Importēt/Eksportēt",
       "description": "",

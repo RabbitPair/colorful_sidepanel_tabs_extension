@@ -500,6 +500,26 @@
         "close": "Tancar"
       }
     },
+    "quickAccess": {
+      "title": "Accés Ràpid",
+      "enableQuickAccess": {
+        "label": "Mostra Accés Ràpid",
+        "description": "Podeu configurar una pestanya perquè aparegui a l'Accés Ràpid per a un accés fàcil. Només cal fer clic dret (o mantenir premut) i seleccionar 'Fixar a l'Accés Ràpid'. Per eliminar-la, feu clic dret (o manteniu premut) i seleccioneu 'Eliminar de l'Accés Ràpid'. A diferència de les pestanyes fixades, l'Accés Ràpid desa l'URL i obre una pestanya nova cada vegada que es fa clic."
+      },
+      "selectFromHistory": {
+        "label": "Selecciona de l'Historial",
+        "description": "Es requereix autorització per seleccionar de l'historial.",
+        "numberOfDays": "Nombre de Dies",
+        "numberOfUrls": "Nombre d'URLs",
+        "cancel": "Cancel·la",
+        "query": "Consulta",
+        "selectItemsToAddToQuickAccess": "Seleccioneu elements per afegir a l'Accés Ràpid:",
+        "selectAll": "Selecciona-ho Tot",
+        "addSelected": "Afegeix Seleccionats",
+        "addedSuccess": "S'han afegit {{count}} elements a l'Accés Ràpid.",
+        "deniedMessage": "Heu denegat el permís requerit, per tant, la configuració no ha canviat. Si canvieu d'opinió, feu clic de nou i permeteu l'autorització."
+      }
+    },
     "importAndExport": {
       "title": "Importar/Exportar",
       "description": "",

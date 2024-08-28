@@ -500,6 +500,26 @@
         "close": "닫기"
       }
     },
+    "quickAccess": {
+      "title": "빠른 접근",
+      "enableQuickAccess": {
+        "label": "빠른 접근 표시",
+        "description": "탭을 빠른 접근에 표시하여 쉽게 접근할 수 있습니다. 탭을 마우스 오른쪽 버튼으로 클릭(또는 길게 누름)하고 '빠른 접근에 고정'을 선택하세요. 제거하려면 마우스 오른쪽 버튼으로 클릭(또는 길게 누름)하고 '빠른 접근에서 삭제'를 선택하세요. 고정된 탭과 달리, 빠른 접근은 URL을 저장하고 클릭할 때마다 새 탭을 엽니다."
+      },
+      "selectFromHistory": {
+        "label": "기록에서 선택",
+        "description": "기록에서 선택하려면 권한이 필요합니다.",
+        "numberOfDays": "일 수",
+        "numberOfUrls": "URL 수",
+        "cancel": "취소",
+        "query": "쿼리",
+        "selectItemsToAddToQuickAccess": "빠른 접근에 추가할 항목을 선택하세요:",
+        "selectAll": "모두 선택",
+        "addSelected": "선택 항목 추가",
+        "addedSuccess": "빠른 접근에 {{count}}개의 항목이 추가되었습니다.",
+        "deniedMessage": "필요한 권한을 거부하여 설정이 변경되지 않았습니다. 마음이 바뀌면 다시 클릭하고 권한을 허용하세요."
+      }
+    },
     "importAndExport": {
       "title": "가져오기/내보내기",
       "description": "",

@@ -500,6 +500,26 @@
         "close": "Tutup"
       }
     },
+    "quickAccess": {
+      "title": "Akses Cepat",
+      "enableQuickAccess": {
+        "label": "Tampilkan Akses Cepat",
+        "description": "Anda dapat mengatur tab untuk muncul di Akses Cepat untuk akses mudah. Cukup klik kanan (atau tekan lama) dan pilih 'Sematkan ke Akses Cepat'. Untuk menghapusnya, klik kanan (atau tekan lama) dan pilih 'Hapus dari Akses Cepat'. Tidak seperti tab yang disematkan, Akses Cepat menyimpan URL dan membuka tab baru setiap kali diklik."
+      },
+      "selectFromHistory": {
+        "label": "Pilih dari Riwayat",
+        "description": "Otorisasi diperlukan untuk memilih dari riwayat.",
+        "numberOfDays": "Jumlah Hari",
+        "numberOfUrls": "Jumlah URL",
+        "cancel": "Batal",
+        "query": "Kueri",
+        "selectItemsToAddToQuickAccess": "Pilih item untuk ditambahkan ke Akses Cepat:",
+        "selectAll": "Pilih Semua",
+        "addSelected": "Tambahkan yang Dipilih",
+        "addedSuccess": "Menambahkan {{count}} item ke Akses Cepat.",
+        "deniedMessage": "Anda telah menolak izin yang diperlukan, sehingga pengaturan tidak berubah. Jika Anda berubah pikiran, silakan klik lagi dan izinkan otorisasi."
+      }
+    },
     "importAndExport": {
       "title": "Impor/Ekspor",
       "description": "",

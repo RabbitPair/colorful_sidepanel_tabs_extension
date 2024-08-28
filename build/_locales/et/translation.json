@@ -161,5 +161,8 @@
   "create": "Loo",
   "edit": "Muuda",
   "delete": "Kustuta",
-  "cancel": "Tühista"
+  "cancel": "Tühista",
+  "fullscreen": "Täisekraan",
+  "exitFullscreen": "Välju täisekraanist",
+  "zoom": "Suumi"
 }

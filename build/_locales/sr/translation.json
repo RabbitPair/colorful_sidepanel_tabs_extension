@@ -161,5 +161,8 @@
   "create": "Kreiraj",
   "edit": "Uredi",
   "delete": "Obriši",
-  "cancel": "Otkaži"
+  "cancel": "Otkaži",
+  "fullscreen": "Ceo ekran",
+  "exitFullscreen": "Izađi iz celog ekrana",
+  "zoom": "Zumiranje"
 }

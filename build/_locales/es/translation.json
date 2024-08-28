@@ -161,5 +161,8 @@
   "create": "Crear",
   "edit": "Editar",
   "delete": "Eliminar",
-  "cancel": "Cancelar"
+  "cancel": "Cancelar",
+  "fullscreen": "Pantalla Completa",
+  "exitFullscreen": "Salir de Pantalla Completa",
+  "zoom": "Ampliar"
 }

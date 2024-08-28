@@ -500,6 +500,26 @@
         "close": "閉じる"
       }
     },
+    "quickAccess": {
+      "title": "クイックアクセス",
+      "enableQuickAccess": {
+        "label": "クイックアクセスを表示",
+        "description": "タブをクイックアクセスに表示して簡単にアクセスできるように設定できます。タブを右クリック（または長押し）して「クイックアクセスにピン留め」を選択します。削除するには、右クリック（または長押し）して「クイックアクセスから削除」を選択します。ピン留めされたタブとは異なり、クイックアクセスはURLを保存し、クリックするたびに新しいタブを開きます。"
+      },
+      "selectFromHistory": {
+        "label": "履歴から選択",
+        "description": "履歴から選択するには、認証が必要です。",
+        "numberOfDays": "日数",
+        "numberOfUrls": "URLの数",
+        "cancel": "キャンセル",
+        "query": "クエリ",
+        "selectItemsToAddToQuickAccess": "クイックアクセスに追加する項目を選択:",
+        "selectAll": "すべて選択",
+        "addSelected": "選択したものを追加",
+        "addedSuccess": "{{count}} 件の項目がクイックアクセスに追加されました。",
+        "deniedMessage": "必要な権限を拒否したため、設定は変更されませんでした。気が変わった場合は、もう一度クリックして認証を許可してください。"
+      }
+    },
     "importAndExport": {
       "title": "インポート/エクスポート",
       "description": "",

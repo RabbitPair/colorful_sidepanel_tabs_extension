@@ -500,6 +500,26 @@
         "close": "Isara"
       }
     },
+    "quickAccess": {
+      "title": "Mabilis na Pag-access",
+      "enableQuickAccess": {
+        "label": "Ipakita ang Mabilis na Pag-access",
+        "description": "Maaari mong itakda ang isang tab upang lumitaw sa Mabilis na Pag-access para sa madaling pag-access. I-right-click (o i-long-press) ito at piliin ang 'I-pin sa Mabilis na Pag-access'. Upang alisin ito, i-right-click (o i-long-press) ito at piliin ang 'Tanggalin mula sa Mabilis na Pag-access'. Hindi tulad ng mga naka-pin na tab, ang Mabilis na Pag-access ay nagse-save ng URL at nagbubukas ng bagong tab sa bawat pag-click."
+      },
+      "selectFromHistory": {
+        "label": "Pumili mula sa Kasaysayan",
+        "description": "Kinakailangan ang awtorisasyon upang pumili mula sa kasaysayan.",
+        "numberOfDays": "Bilang ng mga Araw",
+        "numberOfUrls": "Bilang ng mga URL",
+        "cancel": "Kanselahin",
+        "query": "Query",
+        "selectItemsToAddToQuickAccess": "Pumili ng mga item upang idagdag sa Mabilis na Pag-access:",
+        "selectAll": "Piliin Lahat",
+        "addSelected": "Idagdag ang Napili",
+        "addedSuccess": "Idinagdag ang {{count}} na mga item sa Mabilis na Pag-access.",
+        "deniedMessage": "Tinanggihan mo ang kinakailangang pahintulot, kaya't ang mga setting ay hindi nagbago. Kung magbago ang iyong isip, mangyaring i-click muli at payagan ang awtorisasyon."
+      }
+    },
     "importAndExport": {
       "title": "I-import/I-export",
       "description": "",

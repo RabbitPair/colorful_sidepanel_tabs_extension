@@ -500,6 +500,26 @@
         "close": "Stäng"
       }
     },
+    "quickAccess": {
+      "title": "Snabb åtkomst",
+      "enableQuickAccess": {
+        "label": "Visa Snabb åtkomst",
+        "description": "Du kan ställa in en flik att visas i Snabb åtkomst för enkel åtkomst. Högerklicka (eller långtryck) på den och välj 'Fäst till Snabb åtkomst'. För att ta bort den, högerklicka (eller långtryck) på den och välj 'Ta bort från Snabb åtkomst'. Till skillnad från fästa flikar sparar Snabb åtkomst URL:en och öppnar en ny flik varje gång den klickas."
+      },
+      "selectFromHistory": {
+        "label": "Välj från historik",
+        "description": "Behörighet krävs för att välja från historiken.",
+        "numberOfDays": "Antal dagar",
+        "numberOfUrls": "Antal URL:er",
+        "cancel": "Avbryt",
+        "query": "Sök",
+        "selectItemsToAddToQuickAccess": "Välj objekt att lägga till i Snabb åtkomst:",
+        "selectAll": "Välj alla",
+        "addSelected": "Lägg till valda",
+        "addedSuccess": "Lade till {{count}} objekt till Snabb åtkomst.",
+        "deniedMessage": "Du har nekat den nödvändiga behörigheten, så inställningarna har inte ändrats. Om du ändrar dig, vänligen klicka igen och tillåt behörighet."
+      }
+    },
     "importAndExport": {
       "title": "Importera/Exportera",
       "description": "",

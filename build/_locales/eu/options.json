@@ -500,6 +500,26 @@
         "close": "Itxi"
       }
     },
+    "quickAccess": {
+      "title": "Sarbide Azkarra",
+      "enableQuickAccess": {
+        "label": "Erakutsi Sarbide Azkarra",
+        "description": "Fitxa bat Sarbide Azkarrean agertzeko ezar dezakezu erraz sartzeko. Egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu 'Pin to Quick Access'. Kendu nahi baduzu, egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu 'Delete from Quick Access'. Fitxa finkatuekin ez bezala, Sarbide Azkarrak URLa gordetzen du eta fitxa berri bat irekitzen du klik egiten den bakoitzean."
+      },
+      "selectFromHistory": {
+        "label": "Hautatu Historiatik",
+        "description": "Baimena behar da historiatik hautatzeko.",
+        "numberOfDays": "Egun Kopurua",
+        "numberOfUrls": "URL Kopurua",
+        "cancel": "Utzi",
+        "query": "Kontsulta",
+        "selectItemsToAddToQuickAccess": "Hautatu Sarbide Azkarrera gehitzeko elementuak:",
+        "selectAll": "Hautatu Guztiak",
+        "addSelected": "Gehitu Hautatuak",
+        "addedSuccess": "{{count}} elementu gehitu dira Sarbide Azkarrera.",
+        "deniedMessage": "Beharrezko baimena ukatu duzu, beraz, ezarpenak ez dira aldatu. Irizpidea aldatzen baduzu, egin klik berriro eta baimena eman."
+      }
+    },
     "importAndExport": {
       "title": "Inportatu/Esportatu",
       "description": "",

@@ -161,5 +161,8 @@
   "create": "Létrehozás",
   "edit": "Szerkesztés",
   "delete": "Törlés",
-  "cancel": "Mégse"
+  "cancel": "Mégse",
+  "fullscreen": "Teljes képernyő",
+  "exitFullscreen": "Kilépés a teljes képernyőből",
+  "zoom": "Nagyítás"
 }

@@ -161,5 +161,8 @@
   "create": "Creează",
   "edit": "Editează",
   "delete": "Șterge",
-  "cancel": "Anulează"
+  "cancel": "Anulează",
+  "fullscreen": "Ecran complet",
+  "exitFullscreen": "Ieși din ecran complet",
+  "zoom": "Mărire"
 }

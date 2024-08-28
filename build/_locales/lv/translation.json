@@ -161,5 +161,8 @@
   "create": "Izveidot",
   "edit": "Rediģēt",
   "delete": "Dzēst",
-  "cancel": "Atcelt"
+  "cancel": "Atcelt",
+  "fullscreen": "Pilnekrāna režīms",
+  "exitFullscreen": "Iziet no pilnekrāna režīma",
+  "zoom": "Tālummaiņa"
 }

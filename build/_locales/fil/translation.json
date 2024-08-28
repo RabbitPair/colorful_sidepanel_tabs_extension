@@ -161,5 +161,8 @@
   "create": "Lumikha",
   "edit": "I-edit",
   "delete": "Tanggalin",
-  "cancel": "Kanselahin"
+  "cancel": "Kanselahin",
+  "fullscreen": "Buong Screen",
+  "exitFullscreen": "Lumabas sa Buong Screen",
+  "zoom": "Mag-zoom"
 }

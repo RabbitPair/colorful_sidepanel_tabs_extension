@@ -500,6 +500,26 @@
         "close": "Sluiten"
       }
     },
+    "quickAccess": {
+      "title": "Snelle Toegang",
+      "enableQuickAccess": {
+        "label": "Toon Snelle Toegang",
+        "description": "U kunt een tabblad instellen om in Snelle Toegang te verschijnen voor gemakkelijke toegang. Klik er gewoon met de rechtermuisknop op (of houd ingedrukt) en selecteer 'Vastzetten in Snelle Toegang'. Om het te verwijderen, klikt u met de rechtermuisknop (of houdt u ingedrukt) en selecteert u 'Verwijderen uit Snelle Toegang'. In tegenstelling tot vastgezette tabbladen slaat Snelle Toegang de URL op en opent elke keer een nieuw tabblad wanneer erop wordt geklikt."
+      },
+      "selectFromHistory": {
+        "label": "Selecteer uit Geschiedenis",
+        "description": "Autorisatie is vereist om uit de geschiedenis te selecteren.",
+        "numberOfDays": "Aantal Dagen",
+        "numberOfUrls": "Aantal URL's",
+        "cancel": "Annuleren",
+        "query": "Zoekopdracht",
+        "selectItemsToAddToQuickAccess": "Selecteer items om toe te voegen aan Snelle Toegang:",
+        "selectAll": "Selecteer Alles",
+        "addSelected": "Geselecteerde Toevoegen",
+        "addedSuccess": "{{count}} items toegevoegd aan Snelle Toegang.",
+        "deniedMessage": "U heeft de vereiste toestemming geweigerd, dus de instellingen zijn niet gewijzigd. Als u van gedachten verandert, klik dan opnieuw en sta autorisatie toe."
+      }
+    },
     "importAndExport": {
       "title": "Importeren/Exporteren",
       "description": "",

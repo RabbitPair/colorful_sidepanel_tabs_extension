@@ -500,6 +500,26 @@
         "close": "Fèmen"
       }
     },
+    "quickAccess": {
+      "title": "Aksè Rapid",
+      "enableQuickAccess": {
+        "label": "Montre Aksè Rapid",
+        "description": "Ou ka mete yon tab pou parèt nan Aksè Rapid pou aksè fasil. Jis klike-dwa (oswa peze long) sou li epi chwazi 'Fikse nan Aksè Rapid'. Pou retire li, klike-dwa (oswa peze long) sou li epi chwazi 'Efase nan Aksè Rapid'. Kontrèman ak tab fikse, Aksè Rapid sove URL la epi louvri yon nouvo tab chak fwa li klike."
+      },
+      "selectFromHistory": {
+        "label": "Chwazi nan Istwa",
+        "description": "Otorizasyon nesesè pou chwazi nan istwa a.",
+        "numberOfDays": "Kantite Jou",
+        "numberOfUrls": "Kantite URL",
+        "cancel": "Anile",
+        "query": "Rechèch",
+        "selectItemsToAddToQuickAccess": "Chwazi atik pou ajoute nan Aksè Rapid:",
+        "selectAll": "Chwazi Tout",
+        "addSelected": "Ajoute Seleksyon",
+        "addedSuccess": "Ajoute {{count}} atik nan Aksè Rapid.",
+        "deniedMessage": "Ou te refize pèmisyon ki nesesè a, kidonk anviwònman yo pa chanje. Si ou chanje lide, tanpri klike ankò epi pèmèt otorizasyon."
+      }
+    },
     "importAndExport": {
       "title": "Enpòte/Eksportasyon",
       "description": "",

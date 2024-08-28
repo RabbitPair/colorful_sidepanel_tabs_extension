@@ -500,6 +500,26 @@
         "close": "Zamknij"
       }
     },
+    "quickAccess": {
+      "title": "Szybki dostęp",
+      "enableQuickAccess": {
+        "label": "Pokaż szybki dostęp",
+        "description": "Możesz ustawić kartę, aby pojawiała się w Szybkim Dostępie dla łatwego dostępu. Wystarczy kliknąć prawym przyciskiem myszy (lub przytrzymać) i wybrać 'Przypnij do Szybkiego Dostępu'. Aby usunąć, kliknij prawym przyciskiem myszy (lub przytrzymaj) i wybierz 'Usuń z Szybkiego Dostępu'. W przeciwieństwie do przypiętych kart, Szybki Dostęp zapisuje URL i otwiera nową kartę za każdym razem, gdy jest kliknięty."
+      },
+      "selectFromHistory": {
+        "label": "Wybierz z historii",
+        "description": "Wymagana jest autoryzacja, aby wybrać z historii.",
+        "numberOfDays": "Liczba dni",
+        "numberOfUrls": "Liczba URL",
+        "cancel": "Anuluj",
+        "query": "Zapytanie",
+        "selectItemsToAddToQuickAccess": "Wybierz elementy do dodania do Szybkiego Dostępu:",
+        "selectAll": "Wybierz wszystkie",
+        "addSelected": "Dodaj wybrane",
+        "addedSuccess": "Dodano {{count}} elementów do Szybkiego Dostępu.",
+        "deniedMessage": "Odmówiłeś wymaganego uprawnienia, więc ustawienia nie zostały zmienione. Jeśli zmienisz zdanie, kliknij ponownie i zezwól na autoryzację."
+      }
+    },
     "importAndExport": {
       "title": "Import/Eksport",
       "description": "",

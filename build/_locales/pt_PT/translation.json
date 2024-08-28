@@ -161,5 +161,8 @@
   "create": "Criar",
   "edit": "Editar",
   "delete": "Excluir",
-  "cancel": "Cancelar"
+  "cancel": "Cancelar",
+  "fullscreen": "Tela Cheia",
+  "exitFullscreen": "Sair da Tela Cheia",
+  "zoom": "Zoom"
 }

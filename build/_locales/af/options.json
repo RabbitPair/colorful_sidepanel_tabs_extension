@@ -500,6 +500,26 @@
         "close": "Maak toe"
       }
     },
+    "quickAccess": {
+      "title": "Vinnige Toegang",
+      "enableQuickAccess": {
+        "label": "Wys Vinnige Toegang",
+        "description": "Jy kan 'n oortjie stel om in Vinnige Toegang te verskyn vir maklike toegang. Regskliek (of langdruk) net daarop en kies 'Vaspen aan Vinnige Toegang'. Om dit te verwyder, regskliek (of langdruk) daarop en kies 'Verwyder van Vinnige Toegang'. Anders as vasgepende oortjies, stoor Vinnige Toegang die URL en maak 'n nuwe oortjie oop elke keer as dit gekliek word."
+      },
+      "selectFromHistory": {
+        "label": "Kies uit Geskiedenis",
+        "description": "Magtiging is nodig om uit die geskiedenis te kies.",
+        "numberOfDays": "Aantal Dae",
+        "numberOfUrls": "Aantal URL's",
+        "cancel": "Kanselleer",
+        "query": "Navraag",
+        "selectItemsToAddToQuickAccess": "Kies items om by Vinnige Toegang te voeg:",
+        "selectAll": "Kies Alles",
+        "addSelected": "Voeg Gekose By",
+        "addedSuccess": "{{count}} items by Vinnige Toegang gevoeg.",
+        "deniedMessage": "Jy het die vereiste toestemming geweier, so die instellings het nie verander nie. As jy van plan verander, klik asseblief weer en gee toestemming."
+      }
+    },
     "importAndExport": {
       "title": "Invoer/Uitvoer",
       "description": "",

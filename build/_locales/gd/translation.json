@@ -148,5 +148,8 @@
   "create": "Cruthaich",
   "edit": "Deasaich",
   "delete": "Sguab às",
-  "cancel": "Sguir dheth"
+  "cancel": "Sguir dheth",
+  "fullscreen": "Làn-sgrìn",
+  "exitFullscreen": "Fàg Làn-sgrìn",
+  "zoom": "Sùm"
 }

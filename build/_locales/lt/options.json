@@ -500,6 +500,26 @@
         "close": "Uždaryti"
       }
     },
+    "quickAccess": {
+      "title": "Greita prieiga",
+      "enableQuickAccess": {
+        "label": "Rodyti greitą prieigą",
+        "description": "Galite nustatyti, kad skirtukas būtų rodomas greitoje prieigoje, kad būtų lengva pasiekti. Tiesiog dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite 'Prisegti prie greitos prieigos'. Norėdami jį pašalinti, dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite 'Ištrinti iš greitos prieigos'. Skirtingai nuo prisegtų skirtukų, greita prieiga išsaugo URL ir kiekvieną kartą spustelėjus atidaro naują skirtuką."
+      },
+      "selectFromHistory": {
+        "label": "Pasirinkti iš istorijos",
+        "description": "Norint pasirinkti iš istorijos, reikalingas leidimas.",
+        "numberOfDays": "Dienų skaičius",
+        "numberOfUrls": "URL skaičius",
+        "cancel": "Atšaukti",
+        "query": "Užklausa",
+        "selectItemsToAddToQuickAccess": "Pasirinkite elementus, kuriuos norite pridėti prie greitos prieigos:",
+        "selectAll": "Pasirinkti viską",
+        "addSelected": "Pridėti pasirinktus",
+        "addedSuccess": "Pridėta {{count}} elementų prie greitos prieigos.",
+        "deniedMessage": "Jūs atsisakėte reikiamo leidimo, todėl nustatymai nebuvo pakeisti. Jei persigalvosite, spustelėkite dar kartą ir leiskite leidimą."
+      }
+    },
     "importAndExport": {
       "title": "Importuoti/Eksportuoti",
       "description": "",

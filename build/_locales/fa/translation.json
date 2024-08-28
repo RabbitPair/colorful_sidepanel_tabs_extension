@@ -161,5 +161,8 @@
   "create": "ایجاد",
   "edit": "ویرایش",
   "delete": "حذف",
-  "cancel": "لغو"
+  "cancel": "لغو",
+  "fullscreen": "تمام صفحه",
+  "exitFullscreen": "خروج از تمام صفحه",
+  "zoom": "بزرگنمایی"
 }

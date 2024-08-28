@@ -161,5 +161,8 @@
   "create": "Luo",
   "edit": "Muokkaa",
   "delete": "Poista",
-  "cancel": "Peruuta"
+  "cancel": "Peruuta",
+  "fullscreen": "Koko näyttö",
+  "exitFullscreen": "Poistu koko näytöstä",
+  "zoom": "Zoomaa"
 }

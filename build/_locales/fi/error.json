@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "Tallennettuja ryhmiä ei voi muokata",
+    "ungroupingError": "Kaikkien välilehtien ryhmittelyn purkaminen epäonnistui: {{error}}"
+}

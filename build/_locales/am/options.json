@@ -500,6 +500,26 @@
         "close": "ዝጋ"
       }
     },
+    "quickAccess": {
+      "title": "ፈጣን መዳረሻ",
+      "enableQuickAccess": {
+        "label": "ፈጣን መዳረሻን አሳይ",
+        "description": "ትርን በፈጣን መዳረሻ ላይ ለቀላል መዳረሻ ማሳየት ትችላላችሁ። ቀኝ ጠቅ ያድርጉ (ወይም ረጅም ጊዜ ይጫኑ) እና 'በፈጣን መዳረሻ ላይ አስራጭ' ይምረጡ። ለማስወገድ ቀኝ ጠቅ ያድርጉ (ወይም ረጅም ጊዜ ይጫኑ) እና 'ከፈጣን መዳረሻ ላይ አስወግድ' ይምረጡ። እንደ ተሰሩ ትር ተለይቶ ፈጣን መዳረሻ የURLን ያስቀምጣል እና በየጊዜው አዲስ ትር ይከፈታል።"
+      },
+      "selectFromHistory": {
+        "label": "ከታሪክ ይምረጡ",
+        "description": "ከታሪክ ለመምረጥ ፈቃድ ያስፈልጋል።",
+        "numberOfDays": "የቀናት ብዛት",
+        "numberOfUrls": "የURL ብዛት",
+        "cancel": "ሰርዝ",
+        "query": "ጥያቄ",
+        "selectItemsToAddToQuickAccess": "ወደ ፈጣን መዳረሻ ለማስገባት እቃዎችን ይምረጡ፦",
+        "selectAll": "ሁሉንም ይምረጡ",
+        "addSelected": "የተመረጡትን አክል",
+        "addedSuccess": "{{count}} እቃዎች ወደ ፈጣን መዳረሻ ታክለዋል።",
+        "deniedMessage": "ያስፈለገውን ፈቃድ አልተሰጠም፣ ስለዚህ ቅንብሮቹ አልተቀየሩም። አስተሳሰቦን ካሳለፉ እባኮትን እንደገና ጠቅ ያድርጉ እና ፈቃድ ይሰጡ።"
+      }
+    },
     "importAndExport": {
       "title": "አስመጣ/አስወጣ",
       "description": "",

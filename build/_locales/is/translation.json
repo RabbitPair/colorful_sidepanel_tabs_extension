@@ -148,5 +148,8 @@
   "create": "Búa til",
   "edit": "Breyta",
   "delete": "Eyða",
-  "cancel": "Hætta við"
+  "cancel": "Hætta við",
+  "fullscreen": "Fylla skjá",
+  "exitFullscreen": "Hætta við fyllingu skjás",
+  "zoom": "Aðdráttur"
 }

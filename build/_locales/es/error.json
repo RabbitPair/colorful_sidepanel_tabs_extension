@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "Los grupos guardados no son editables",
+    "ungroupingError": "Error al desagrupar todas las pestañas: {{error}}"
+}

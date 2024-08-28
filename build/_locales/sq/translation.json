@@ -148,5 +148,8 @@
   "create": "Krijo",
   "edit": "Redakto",
   "delete": "Fshi",
-  "cancel": "Anulo"
+  "cancel": "Anulo",
+  "fullscreen": "Ekran i Plotë",
+  "exitFullscreen": "Dil nga Ekrani i Plotë",
+  "zoom": "Zmadho"
 }

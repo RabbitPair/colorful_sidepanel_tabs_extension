@@ -500,6 +500,26 @@
         "close": "Agħlaq"
       }
     },
+    "quickAccess": {
+      "title": "Aċċess Rapidu",
+      "enableQuickAccess": {
+        "label": "Uri Aċċess Rapidu",
+        "description": "Tista' tissettja tab biex tidher fl-Aċċess Rapidu għal aċċess faċli. Sempliċement ikklikkja bil-lemin (jew agħfas fit-tul) u agħżel 'Pin għall-Aċċess Rapidu'. Biex tneħħiha, ikklikkja bil-lemin (jew agħfas fit-tul) u agħżel 'Ħassar mill-Aċċess Rapidu'. B'differenza mit-tabs pinned, l-Aċċess Rapidu jiffranka l-URL u jiftaħ tab ġdid kull darba li tikklikkja."
+      },
+      "selectFromHistory": {
+        "label": "Agħżel mill-Istorja",
+        "description": "Huwa meħtieġ awtorizzazzjoni biex tagħżel mill-istorja.",
+        "numberOfDays": "Numru ta' Ġranet",
+        "numberOfUrls": "Numru ta' URLs",
+        "cancel": "Ikkanċella",
+        "query": "Mistoqsija",
+        "selectItemsToAddToQuickAccess": "Agħżel oġġetti biex iżżid mal-Aċċess Rapidu:",
+        "selectAll": "Agħżel Kollox",
+        "addSelected": "Żid Magħżula",
+        "addedSuccess": "Żdiedu {{count}} oġġetti fl-Aċċess Rapidu.",
+        "deniedMessage": "Ir-rikjesta meħtieġa ġiet miċħuda, għalhekk is-settings ma nbidlux. Jekk tbiddel fehmtek, jekk jogħġbok ikklikkja mill-ġdid u ppermetti l-awtorizzazzjoni."
+      }
+    },
     "importAndExport": {
       "title": "Importa/Esporta",
       "description": "",

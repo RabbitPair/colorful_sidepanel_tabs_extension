@@ -500,6 +500,26 @@
         "close": "Zatvori"
       }
     },
+    "quickAccess": {
+      "title": "Brzi pristup",
+      "enableQuickAccess": {
+        "label": "Prikaži brzi pristup",
+        "description": "Možete postaviti karticu da se pojavljuje u brzom pristupu radi lakšeg pristupa. Samo kliknite desnim tasterom miša (ili dugo pritisnite) i izaberite 'Zakači za brzi pristup'. Da biste je uklonili, kliknite desnim tasterom miša (ili dugo pritisnite) i izaberite 'Obriši iz brzog pristupa'. Za razliku od zakačenih kartica, brzi pristup čuva URL i otvara novu karticu svaki put kada se klikne."
+      },
+      "selectFromHistory": {
+        "label": "Izaberi iz istorije",
+        "description": "Potrebna je autorizacija za izbor iz istorije.",
+        "numberOfDays": "Broj dana",
+        "numberOfUrls": "Broj URL-ova",
+        "cancel": "Otkaži",
+        "query": "Upit",
+        "selectItemsToAddToQuickAccess": "Izaberite stavke za dodavanje u brzi pristup:",
+        "selectAll": "Izaberi sve",
+        "addSelected": "Dodaj izabrano",
+        "addedSuccess": "Dodato {{count}} stavki u brzi pristup.",
+        "deniedMessage": "Odbili ste potrebnu dozvolu, tako da podešavanja nisu promenjena. Ako promenite mišljenje, molimo vas da ponovo kliknete i omogućite autorizaciju."
+      }
+    },
     "importAndExport": {
       "title": "Uvoz/Izvoz",
       "description": "",

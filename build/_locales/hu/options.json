@@ -500,6 +500,26 @@
         "close": "Bezárás"
       }
     },
+    "quickAccess": {
+      "title": "Gyors hozzáférés",
+      "enableQuickAccess": {
+        "label": "Gyors hozzáférés megjelenítése",
+        "description": "Beállíthat egy lapot, hogy megjelenjen a Gyors hozzáférésben a könnyű elérés érdekében. Csak kattintson jobb gombbal (vagy nyomja meg hosszan), és válassza a 'Rögzítés a Gyors hozzáféréshez' lehetőséget. Az eltávolításhoz kattintson jobb gombbal (vagy nyomja meg hosszan), és válassza a 'Törlés a Gyors hozzáférésből' lehetőséget. A rögzített lapoktól eltérően a Gyors hozzáférés menti az URL-t, és minden kattintáskor új lapot nyit meg."
+      },
+      "selectFromHistory": {
+        "label": "Kiválasztás az előzményekből",
+        "description": "Az előzményekből való kiválasztáshoz engedély szükséges.",
+        "numberOfDays": "Napok száma",
+        "numberOfUrls": "URL-ek száma",
+        "cancel": "Mégse",
+        "query": "Lekérdezés",
+        "selectItemsToAddToQuickAccess": "Válassza ki a Gyors hozzáféréshez hozzáadni kívánt elemeket:",
+        "selectAll": "Összes kiválasztása",
+        "addSelected": "Kiválasztottak hozzáadása",
+        "addedSuccess": "{{count}} elem hozzáadva a Gyors hozzáféréshez.",
+        "deniedMessage": "Megtagadta a szükséges engedélyt, így a beállítások nem változtak. Ha meggondolja magát, kattintson újra, és engedélyezze az engedélyt."
+      }
+    },
     "importAndExport": {
       "title": "Importálás/Exportálás",
       "description": "",

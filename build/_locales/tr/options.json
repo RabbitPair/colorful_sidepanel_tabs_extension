@@ -500,6 +500,26 @@
         "close": "Kapat"
       }
     },
+    "quickAccess": {
+      "title": "Hızlı Erişim",
+      "enableQuickAccess": {
+        "label": "Hızlı Erişimi Göster",
+        "description": "Kolay erişim için bir sekmenin Hızlı Erişim'de görünmesini ayarlayabilirsiniz. Sadece sağ tıklayın (veya uzun basın) ve 'Hızlı Erişim'e Sabitle'yi seçin. Kaldırmak için, sağ tıklayın (veya uzun basın) ve 'Hızlı Erişim'den Sil'yi seçin. Sabitlenmiş sekmelerden farklı olarak, Hızlı Erişim URL'yi kaydeder ve her tıklandığında yeni bir sekme açar."
+      },
+      "selectFromHistory": {
+        "label": "Geçmişten Seç",
+        "description": "Geçmişten seçim yapmak için yetkilendirme gereklidir.",
+        "numberOfDays": "Gün Sayısı",
+        "numberOfUrls": "URL Sayısı",
+        "cancel": "İptal",
+        "query": "Sorgu",
+        "selectItemsToAddToQuickAccess": "Hızlı Erişim'e eklemek için öğeleri seçin:",
+        "selectAll": "Hepsini Seç",
+        "addSelected": "Seçilenleri Ekle",
+        "addedSuccess": "{{count}} öğe Hızlı Erişim'e eklendi.",
+        "deniedMessage": "Gerekli izni reddettiniz, bu nedenle ayarlar değişmedi. Fikrinizi değiştirirseniz, lütfen tekrar tıklayın ve yetkilendirmeye izin verin."
+      }
+    },
     "importAndExport": {
       "title": "İçe/Dışa Aktar",
       "description": "",

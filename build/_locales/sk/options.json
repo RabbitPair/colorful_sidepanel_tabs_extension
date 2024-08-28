@@ -500,6 +500,26 @@
         "close": "Zavrieť"
       }
     },
+    "quickAccess": {
+      "title": "Rýchly prístup",
+      "enableQuickAccess": {
+        "label": "Zobraziť rýchly prístup",
+        "description": "Môžete nastaviť kartu, aby sa zobrazovala v Rýchlom prístupe pre jednoduchý prístup. Stačí kliknúť pravým tlačidlom myši (alebo dlho stlačiť) a vybrať 'Pripnúť do Rýchleho prístupu'. Pre odstránenie kliknite pravým tlačidlom myši (alebo dlho stlačte) a vyberte 'Odstrániť z Rýchleho prístupu'. Na rozdiel od pripnutých kariet, Rýchly prístup ukladá URL adresu a otvára novú kartu pri každom kliknutí."
+      },
+      "selectFromHistory": {
+        "label": "Vybrať z histórie",
+        "description": "Na výber z histórie je potrebná autorizácia.",
+        "numberOfDays": "Počet dní",
+        "numberOfUrls": "Počet URL adries",
+        "cancel": "Zrušiť",
+        "query": "Vyhľadávanie",
+        "selectItemsToAddToQuickAccess": "Vyberte položky na pridanie do Rýchleho prístupu:",
+        "selectAll": "Vybrať všetko",
+        "addSelected": "Pridať vybrané",
+        "addedSuccess": "Pridaných {{count}} položiek do Rýchleho prístupu.",
+        "deniedMessage": "Odmietli ste požadované povolenie, takže nastavenia sa nezmenili. Ak si to rozmyslíte, kliknite znova a povoľte autorizáciu."
+      }
+    },
     "importAndExport": {
       "title": "Import/Export",
       "description": "",

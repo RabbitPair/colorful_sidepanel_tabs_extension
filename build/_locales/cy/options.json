@@ -500,6 +500,26 @@
         "close": "Cau"
       }
     },
+    "quickAccess": {
+      "title": "Mynediad Cyflym",
+      "enableQuickAccess": {
+        "label": "Dangos Mynediad Cyflym",
+        "description": "Gallwch osod tab i ymddangos yn Mynediad Cyflym ar gyfer mynediad hawdd. Cliciwch-dde (neu pwyswch yn hir) arno a dewiswch 'Pin i Mynediad Cyflym'. I'w dynnu, cliciwch-dde (neu pwyswch yn hir) arno a dewiswch 'Dileu o Mynediad Cyflym'. Yn wahanol i dabiau wedi'u pinio, mae Mynediad Cyflym yn cadw'r URL ac yn agor tab newydd bob tro y caiff ei glicio."
+      },
+      "selectFromHistory": {
+        "label": "Dewis o'r Hanes",
+        "description": "Mae angen awdurdodiad i ddewis o'r hanes.",
+        "numberOfDays": "Nifer y Dyddiau",
+        "numberOfUrls": "Nifer yr URLau",
+        "cancel": "Canslo",
+        "query": "Ymholiad",
+        "selectItemsToAddToQuickAccess": "Dewiswch eitemau i'w hychwanegu at Mynediad Cyflym:",
+        "selectAll": "Dewis Pob Un",
+        "addSelected": "Ychwanegu'r Dewiswyd",
+        "addedSuccess": "Ychwanegwyd {{count}} eitemau i Mynediad Cyflym.",
+        "deniedMessage": "Rydych wedi gwrthod y caniatâd angenrheidiol, felly nid yw'r gosodiadau wedi newid. Os byddwch yn newid eich meddwl, cliciwch eto a chaniatáu awdurdodiad."
+      }
+    },
     "importAndExport": {
       "title": "Mewnforio/Allforio",
       "description": "",

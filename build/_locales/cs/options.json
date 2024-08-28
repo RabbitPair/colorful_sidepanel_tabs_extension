@@ -500,6 +500,26 @@
         "close": "Zavřít"
       }
     },
+    "quickAccess": {
+      "title": "Rychlý přístup",
+      "enableQuickAccess": {
+        "label": "Zobrazit rychlý přístup",
+        "description": "Můžete nastavit kartu, aby se zobrazovala v rychlém přístupu pro snadný přístup. Stačí na ni kliknout pravým tlačítkem (nebo dlouze stisknout) a vybrat 'Připnout do rychlého přístupu'. Chcete-li ji odstranit, klikněte na ni pravým tlačítkem (nebo dlouze stiskněte) a vyberte 'Odstranit z rychlého přístupu'. Na rozdíl od připnutých karet, rychlý přístup ukládá URL a při každém kliknutí otevře novou kartu."
+      },
+      "selectFromHistory": {
+        "label": "Vybrat z historie",
+        "description": "Pro výběr z historie je vyžadováno povolení.",
+        "numberOfDays": "Počet dní",
+        "numberOfUrls": "Počet URL",
+        "cancel": "Zrušit",
+        "query": "Dotaz",
+        "selectItemsToAddToQuickAccess": "Vyberte položky, které chcete přidat do rychlého přístupu:",
+        "selectAll": "Vybrat vše",
+        "addSelected": "Přidat vybrané",
+        "addedSuccess": "Přidáno {{count}} položek do rychlého přístupu.",
+        "deniedMessage": "Odmítli jste požadované povolení, takže nastavení nebylo změněno. Pokud změníte názor, klikněte znovu a povolte autorizaci."
+      }
+    },
     "importAndExport": {
       "title": "Import/Export",
       "description": "",

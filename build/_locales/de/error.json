@@ -1,0 +1,4 @@
+{
+    "savedGroupsNotEditable": "Gespeicherte Gruppen sind nicht bearbeitbar",
+    "ungroupingError": "Fehler beim Aufheben der Gruppierung aller Tabs: {{error}}"
+}

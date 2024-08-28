@@ -500,6 +500,26 @@
         "close": "Funga"
       }
     },
+    "quickAccess": {
+      "title": "Kwinjira Vuba",
+      "enableQuickAccess": {
+        "label": "Erekana Kwinjira Vuba",
+        "description": "Urashobora gushyiraho tab kugirango igaragare muri Kwinjira Vuba kugirango byorohe kugeraho. Kanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo 'Shyira muri Kwinjira Vuba'. Kugirango ubikureho, kanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo 'Siba muri Kwinjira Vuba'. Bitandukanye na tab zashyizweho, Kwinjira Vuba ibika URL kandi ifungura tab nshya buri gihe uyikandagiyeho."
+      },
+      "selectFromHistory": {
+        "label": "Hitamo mu Mateka",
+        "description": "Uburenganzira burakenewe kugirango uhitemo mu mateka.",
+        "numberOfDays": "Umubare w'Iminsi",
+        "numberOfUrls": "Umubare wa URLs",
+        "cancel": "Hagarika",
+        "query": "Shakisha",
+        "selectItemsToAddToQuickAccess": "Hitamo ibintu byo kongera muri Kwinjira Vuba:",
+        "selectAll": "Hitamo Byose",
+        "addSelected": "Ongeraho Byatoranijwe",
+        "addedSuccess": "Byongerewe {{count}} ibintu muri Kwinjira Vuba.",
+        "deniedMessage": "Wanze uburenganzira bukenewe, bityo settinga ntizahindutse. Niba uhinduye ibitekerezo, nyamuneka kanda ukundi kandi wemere uburenganzira."
+      }
+    },
     "importAndExport": {
       "title": "Kwinjiza/Gusohora",
       "description": "",

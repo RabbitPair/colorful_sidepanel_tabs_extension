@@ -161,5 +161,8 @@
   "create": "Maken",
   "edit": "Bewerken",
   "delete": "Verwijderen",
-  "cancel": "Annuleren"
+  "cancel": "Annuleren",
+  "fullscreen": "Volledig scherm",
+  "exitFullscreen": "Volledig scherm afsluiten",
+  "zoom": "Inzoomen"
 }

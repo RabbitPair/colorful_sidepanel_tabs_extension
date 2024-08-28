@@ -500,6 +500,26 @@
         "close": "Sulje"
       }
     },
+    "quickAccess": {
+      "title": "Pikakäyttö",
+      "enableQuickAccess": {
+        "label": "Näytä pikakäyttö",
+        "description": "Voit asettaa välilehden näkyviin pikakäyttöön helppoa käyttöä varten. Napsauta sitä hiiren kakkospainikkeella (tai paina pitkään) ja valitse 'Kiinnitä pikakäyttöön'. Poistaaksesi sen, napsauta sitä hiiren kakkospainikkeella (tai paina pitkään) ja valitse 'Poista pikakäytöstä'. Toisin kuin kiinnitetyt välilehdet, pikakäyttö tallentaa URL-osoitteen ja avaa uuden välilehden joka kerta, kun sitä napsautetaan."
+      },
+      "selectFromHistory": {
+        "label": "Valitse historiasta",
+        "description": "Historiasta valitseminen vaatii luvan.",
+        "numberOfDays": "Päivien lukumäärä",
+        "numberOfUrls": "URL-osoitteiden lukumäärä",
+        "cancel": "Peruuta",
+        "query": "Kysely",
+        "selectItemsToAddToQuickAccess": "Valitse kohteet lisättäväksi pikakäyttöön:",
+        "selectAll": "Valitse kaikki",
+        "addSelected": "Lisää valitut",
+        "addedSuccess": "Lisätty {{count}} kohdetta pikakäyttöön.",
+        "deniedMessage": "Olet evännyt vaaditun luvan, joten asetuksia ei ole muutettu. Jos muutat mieltäsi, napsauta uudelleen ja salli lupa."
+      }
+    },
     "importAndExport": {
       "title": "Tuo/Vie",
       "description": "",

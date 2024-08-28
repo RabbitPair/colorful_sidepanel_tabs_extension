@@ -500,6 +500,26 @@
         "close": "Fermi"
       }
     },
+    "quickAccess": {
+      "title": "Rapida Alirado",
+      "enableQuickAccess": {
+        "label": "Montri Rapidan Aliradon",
+        "description": "Vi povas agordi lanĉeton por aperi en Rapida Alirado por facila aliro. Simple dekstre alklaku (aŭ longe premu) ĝin kaj elektu 'Alpingli al Rapida Alirado'. Por forigi ĝin, dekstre alklaku (aŭ longe premu) ĝin kaj elektu 'Forigi el Rapida Alirado'. Male al alpinglitaj lanĉetoj, Rapida Alirado konservas la URL-on kaj malfermas novan lanĉeton ĉiufoje kiam ĝi estas alklakita."
+      },
+      "selectFromHistory": {
+        "label": "Elekti el Historio",
+        "description": "Aŭtorizo estas postulata por elekti el la historio.",
+        "numberOfDays": "Nombro de Tagoj",
+        "numberOfUrls": "Nombro de URL-oj",
+        "cancel": "Nuligi",
+        "query": "Demando",
+        "selectItemsToAddToQuickAccess": "Elektu erojn por aldoni al Rapida Alirado:",
+        "selectAll": "Elekti Ĉion",
+        "addSelected": "Aldoni Elektitajn",
+        "addedSuccess": "Aldonis {{count}} erojn al Rapida Alirado.",
+        "deniedMessage": "Vi malakceptis la postulatan permeson, do la agordoj ne ŝanĝiĝis. Se vi ŝanĝas vian opinion, bonvolu alklaki denove kaj permesi aŭtorizon."
+      }
+    },
     "importAndExport": {
       "title": "Importi/Eksporti",
       "description": "",

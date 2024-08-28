@@ -161,5 +161,8 @@
   "create": "Buat",
   "edit": "Edit",
   "delete": "Hapus",
-  "cancel": "Batal"
+  "cancel": "Batal",
+  "fullscreen": "Layar Penuh",
+  "exitFullscreen": "Keluar Layar Penuh",
+  "zoom": "Perbesar"
 }
