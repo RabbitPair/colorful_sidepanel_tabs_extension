@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Ang mga na-save na grupo ay hindi nababago",
+    "Saved groups are not editable.": "Ang mga na-save na grupo ay hindi nababago",
     "ungroupingError": "Nabigong i-ungroup ang lahat ng mga tab: {{error}}"
 }

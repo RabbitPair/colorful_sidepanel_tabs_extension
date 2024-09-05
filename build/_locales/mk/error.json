@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Зачуваните групи не можат да се уредуваат",
+    "Saved groups are not editable.": "Зачуваните групи не можат да се уредуваат",
     "ungroupingError": "Не успеа да ги раздружи сите јазичиња: {{error}}"
 }

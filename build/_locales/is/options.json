@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Flettu að virkum flipa"
         }
       },
+      "tabNav": {
+        "label": "Sýna flipa siglingarstiku",
+        "description": "Þegar þetta er virkjað, birtist flipa siglingarstikan",
+        "configure": "stilla",
+        "configureTabNav": "Stilla flipa siglingu",
+        "enabledNavs": "Virkjar siglingar",
+        "disabledNavs": "Óvirkar siglingar (í boði)",
+        "showLabel": "Sýna merki",
+        "showCount": "Sýna fjölda",
+        "days": "Dagar",
+        "close": "Loka",
+        "save": "Vista",
+        "settings": "Stillingar",
+        "OpenTabs": "Opið flipar",
+        "RecentlyTabs": "Nýlega lokaðir flipar",
+        "bookmarks": "Bókamerki",
+        "history": "Saga",
+        "readingList": "Leslisti",
+        "quickAccess": "Flýtiaðgangur",
+        "pinToToolbarReminder": "Vinsamlegast festu viðbótina á tækjastikuna áður en þú fjarlægir þessa siglingu."
+      },
       "bottomNav": {
         "label": "Sýna neðri siglingarstiku",
         "description": "Þegar þetta er virkjað, birtist neðri siglingarstikan",

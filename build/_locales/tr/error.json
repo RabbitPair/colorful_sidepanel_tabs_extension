@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Kaydedilen gruplar düzenlenemez",
+    "Saved groups are not editable.": "Kaydedilen gruplar düzenlenemez",
     "ungroupingError": "Tüm sekmelerin grubu kaldırılamadı: {{error}}"
 }

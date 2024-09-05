@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Kuzunguruka ku ikarita ikora"
         }
       },
+      "tabNav": {
+        "label": "Erekana urubuga rw'ikarita",
+        "description": "Iyo yemejwe, urubuga rw'ikarita ruzerekanwa",
+        "configure": "guhindura",
+        "configureTabNav": "Guhindura Urubuga rw'Ikarita",
+        "enabledNavs": "Navigasiyo zemejwe",
+        "disabledNavs": "Navigasiyo zidakora (Ziboneka)",
+        "showLabel": "Erekana Ikirangantego",
+        "showCount": "Erekana Umubare",
+        "days": "Iminsi",
+        "close": "Funga",
+        "save": "Bika",
+        "settings": "Igenamiterere",
+        "OpenTabs": "Amakarita Afunguye",
+        "RecentlyTabs": "Amakarita Aheruka Gufungwa",
+        "bookmarks": "Ibirango",
+        "history": "Amateka",
+        "readingList": "Urutonde rwo Gusoma",
+        "quickAccess": "Kwinjira Vuba",
+        "pinToToolbarReminder": "Nyamuneka shyira iyi extention kuri toolbar yawe mbere yo gukuraho iyi navigasiyo."
+      },
       "bottomNav": {
         "label": "Erekana urubuga rwo hasi",
         "description": "Niba yemejwe, urubuga rwo hasi ruzagaragara",

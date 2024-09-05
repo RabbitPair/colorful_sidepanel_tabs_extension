@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "已保存的组不可编辑",
+    "Saved groups are not editable.": "已保存的组不可编辑",
     "ungroupingError": "无法取消分组所有标签页: {{error}}"
 }

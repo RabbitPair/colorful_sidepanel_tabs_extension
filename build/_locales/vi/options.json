@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Cuộn đến thẻ đang hoạt động"
         }
       },
+      "tabNav": {
+        "label": "Hiển thị thanh điều hướng thẻ",
+        "description": "Khi bật, thanh điều hướng thẻ sẽ được hiển thị",
+        "configure": "cấu hình",
+        "configureTabNav": "Cấu hình Thanh Điều Hướng Thẻ",
+        "enabledNavs": "Điều Hướng Đã Bật",
+        "disabledNavs": "Điều Hướng Đã Tắt (Có Sẵn)",
+        "showLabel": "Hiển Thị Nhãn",
+        "showCount": "Hiển Thị Số Lượng",
+        "days": "Ngày",
+        "close": "Đóng",
+        "save": "Lưu",
+        "settings": "Cài Đặt",
+        "OpenTabs": "Thẻ Đang Mở",
+        "RecentlyTabs": "Thẻ Đã Đóng Gần Đây",
+        "bookmarks": "Dấu Trang",
+        "history": "Lịch Sử",
+        "readingList": "Danh Sách Đọc",
+        "quickAccess": "Truy Cập Nhanh",
+        "pinToToolbarReminder": "Hãy ghim tiện ích vào thanh công cụ trước khi xóa điều hướng này."
+      },
       "bottomNav": {
         "label": "Hiển thị thanh điều hướng dưới cùng",
         "description": "Khi bật, thanh điều hướng dưới cùng sẽ xuất hiện",

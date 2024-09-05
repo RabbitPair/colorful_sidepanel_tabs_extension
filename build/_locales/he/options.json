@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "גלול לכרטיסייה הפעילה"
         }
       },
+      "tabNav": {
+        "label": "הצג סרגל ניווט כרטיסיות",
+        "description": "כאשר האפשרות מופעלת, סרגל הניווט של הכרטיסיות יוצג",
+        "configure": "הגדר",
+        "configureTabNav": "הגדר סרגל ניווט כרטיסיות",
+        "enabledNavs": "ניווטים מופעלים",
+        "disabledNavs": "ניווטים מושבתים (זמינים)",
+        "showLabel": "הצג תווית",
+        "showCount": "הצג ספירה",
+        "days": "ימים",
+        "close": "סגור",
+        "save": "שמור",
+        "settings": "הגדרות",
+        "OpenTabs": "כרטיסיות פתוחות",
+        "RecentlyTabs": "כרטיסיות שנסגרו לאחרונה",
+        "bookmarks": "סימניות",
+        "history": "היסטוריה",
+        "readingList": "רשימת קריאה",
+        "quickAccess": "גישה מהירה",
+        "pinToToolbarReminder": "אנא הצמד את התוסף לסרגל הכלים לפני הסרת הניווט הזה."
+      },
       "bottomNav": {
         "label": "הצג סרגל ניווט תחתון",
         "description": "כאשר האפשרות מופעלת, סרגל הניווט התחתון יוצג",

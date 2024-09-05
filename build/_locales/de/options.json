@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Zum aktiven Tab scrollen"
         }
       },
+      "tabNav": {
+        "label": "Tab-Navigationsleiste anzeigen",
+        "description": "Wenn aktiviert, wird die Tab-Navigationsleiste angezeigt",
+        "configure": "konfigurieren",
+        "configureTabNav": "Tab-Navigation konfigurieren",
+        "enabledNavs": "Aktivierte Navigationen",
+        "disabledNavs": "Deaktivierte Navigationen (Verfügbar)",
+        "showLabel": "Label anzeigen",
+        "showCount": "Anzahl anzeigen",
+        "days": "Tage",
+        "close": "Schließen",
+        "save": "Speichern",
+        "settings": "Einstellungen",
+        "OpenTabs": "Offene Tabs",
+        "RecentlyTabs": "Kürzlich geschlossene Tabs",
+        "bookmarks": "Lesezeichen",
+        "history": "Verlauf",
+        "readingList": "Leseliste",
+        "quickAccess": "Schnellzugriff",
+        "pinToToolbarReminder": "Bitte heften Sie die Erweiterung an Ihre Symbolleiste, bevor Sie diese Navigation entfernen."
+      },
       "bottomNav": {
         "label": "Untere Navigationsleiste anzeigen",
         "description": "Wenn aktiviert, wird die untere Navigationsleiste eingeblendet",

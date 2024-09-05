@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "A mentett csoportok nem szerkeszthetők",
+    "Saved groups are not editable.": "A mentett csoportok nem szerkeszthetők",
     "ungroupingError": "Nem sikerült az összes lapot csoportbontani: {{error}}"
 }

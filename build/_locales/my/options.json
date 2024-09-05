@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "လက်ရှိ Tab သို့လှိမ့်ပါ"
         }
       },
+      "tabNav": {
+        "label": "Tab လမ်းညွှန်ဘားကို ပြပါ",
+        "description": "ဖွင့်ထားပါက Tab လမ်းညွှန်ဘားကို ပြသပါသည်",
+        "configure": "ပြင်ဆင်ပါ",
+        "configureTabNav": "Tab လမ်းညွှန်ကို ပြင်ဆင်ပါ",
+        "enabledNavs": "ဖွင့်ထားသော လမ်းညွှန်များ",
+        "disabledNavs": "ပိတ်ထားသော လမ်းညွှန်များ (အသုံးပြုနိုင်သည်)",
+        "showLabel": "တံဆိပ်ပြပါ",
+        "showCount": "အရေအတွက်ပြပါ",
+        "days": "ရက်များ",
+        "close": "ပိတ်ပါ",
+        "save": "သိမ်းဆည်းပါ",
+        "settings": "ဆက်တင်များ",
+        "OpenTabs": "ဖွင့်ထားသော Tab များ",
+        "RecentlyTabs": "မကြာသေးမီက ပိတ်ထားသော Tab များ",
+        "bookmarks": "စာအမှတ်အသားများ",
+        "history": "သမိုင်းကြောင်း",
+        "readingList": "ဖတ်ရှုစာရင်း",
+        "quickAccess": "အမြန်ဝင်ရောက်မှု",
+        "pinToToolbarReminder": "ဤလမ်းညွှန်ကိုဖယ်ရှားမီ သင့် toolbar တွင် extension ကို pin လုပ်ပါ။"
+      },
       "bottomNav": {
         "label": "အောက်အတွင်းလှပြီးပြီးပြန်လည်သွင်းပြီးပြီး",
         "description": "အောက်ခြေတွင်ရှိသော လမ်းညွှန်ဘားကို ပြင်ဆင်ပါ",

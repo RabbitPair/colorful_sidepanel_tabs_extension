@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "സംരക്ഷിച്ച ഗ്രൂപ്പുകൾ തിരുത്താനാവില്ല",
+    "Saved groups are not editable.": "സംരക്ഷിച്ച ഗ്രൂപ്പുകൾ തിരുത്താനാവില്ല",
     "ungroupingError": "എല്ലാ ടാബുകളും ഗ്രൂപ്പുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു: {{error}}"
 }

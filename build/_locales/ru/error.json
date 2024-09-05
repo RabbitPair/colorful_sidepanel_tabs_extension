@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Сохраненные группы нельзя редактировать",
+    "Saved groups are not editable.": "Сохраненные группы нельзя редактировать",
     "ungroupingError": "Не удалось разъединить все вкладки: {{error}}"
 }

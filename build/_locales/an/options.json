@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Desplazar a la pestaña activa"
         }
       },
+      "tabNav": {
+        "label": "Amostrar a barra de navegación de pestanyas",
+        "description": "Quan se habilita, a barra de navegación de pestanyas se mosotrará",
+        "configure": "configurar",
+        "configureTabNav": "Configurar navegación de pestanyas",
+        "enabledNavs": "Navegaciones habilitadas",
+        "disabledNavs": "Navegaciones deshabilitadas (disponibles)",
+        "showLabel": "Amostrar etiqueta",
+        "showCount": "Amostrar cuenta",
+        "days": "Días",
+        "close": "Zarrar",
+        "save": "Guardar",
+        "settings": "Configuraciones",
+        "OpenTabs": "Pestanyas abiertas",
+        "RecentlyTabs": "Pestanyas zarradas recientement",
+        "bookmarks": "Marcadors",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "pinToToolbarReminder": "Para quitar esta navegación, primero fija la extensión en tu barra de herramientas."
+      },
       "bottomNav": {
         "label": "Amostrar a barra de navegación d'abaixo",
         "description": "Quan se habilita, a barra de navegación d'abaixo se mosotrará",

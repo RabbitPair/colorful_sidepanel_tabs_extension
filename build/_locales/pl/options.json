@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Przewiń do aktywnej karty"
         }
       },
+      "tabNav": {
+        "label": "Pokaż pasek nawigacji kart",
+        "description": "Po włączeniu pasek nawigacji kart jest wyświetlany",
+        "configure": "konfiguruj",
+        "configureTabNav": "Konfiguruj nawigację kart",
+        "enabledNavs": "Włączone nawigacje",
+        "disabledNavs": "Wyłączone nawigacje (dostępne)",
+        "showLabel": "Pokaż etykietę",
+        "showCount": "Pokaż liczbę",
+        "days": "Dni",
+        "close": "Zamknij",
+        "save": "Zapisz",
+        "settings": "Ustawienia",
+        "OpenTabs": "Otwarte karty",
+        "RecentlyTabs": "Ostatnio zamknięte karty",
+        "bookmarks": "Zakładki",
+        "history": "Historia",
+        "readingList": "Lista czytelnicza",
+        "quickAccess": "Szybki dostęp",
+        "pinToToolbarReminder": "Przypnij rozszerzenie do paska narzędzi przed usunięciem tej nawigacji."
+      },
       "bottomNav": {
         "label": "Pokaż dolny pasek nawigacyjny",
         "description": "Po włączeniu dolny pasek nawigacyjny będzie widoczny",

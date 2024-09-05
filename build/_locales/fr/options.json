@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Faire défiler jusqu'à l'onglet actif"
         }
       },
+      "tabNav": {
+        "label": "Afficher la barre de navigation des onglets",
+        "description": "Lorsque cette option est activée, la barre de navigation des onglets est affichée",
+        "configure": "Configurer",
+        "configureTabNav": "Configurer la navigation des onglets",
+        "enabledNavs": "Navigations activées",
+        "disabledNavs": "Navigations désactivées (disponibles)",
+        "showLabel": "Afficher l'étiquette",
+        "showCount": "Afficher le nombre",
+        "days": "Jours",
+        "close": "Fermer",
+        "save": "Enregistrer",
+        "settings": "Paramètres",
+        "OpenTabs": "Onglets ouverts",
+        "RecentlyTabs": "Onglets récemment fermés",
+        "bookmarks": "Favoris",
+        "history": "Historique",
+        "readingList": "Liste de lecture",
+        "quickAccess": "Accès rapide",
+        "pinToToolbarReminder": "Veuillez épingler l'extension à votre barre d'outils avant de supprimer cette navigation."
+      },
       "bottomNav": {
         "label": "Afficher la barre de navigation inférieure",
         "description": "Lorsque cette option est activée, la barre de navigation inférieure s'affiche",

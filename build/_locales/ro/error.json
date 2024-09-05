@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Grupurile salvate nu pot fi editate",
+    "Saved groups are not editable.": "Grupurile salvate nu pot fi editate",
     "ungroupingError": "Nu s-a reușit anularea grupării tuturor filelor: {{error}}"
 }

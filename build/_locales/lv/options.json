@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Ritināt uz aktīvo cilni"
         }
       },
+      "tabNav": {
+        "label": "Rādīt cilnes navigācijas joslu",
+        "description": "Kad iespējots, tiek rādīta cilnes navigācijas josla",
+        "configure": "konfigurēt",
+        "configureTabNav": "Konfigurēt cilnes navigāciju",
+        "enabledNavs": "Aktivizētās navigācijas",
+        "disabledNavs": "Deaktivizētās navigācijas (pieejamas)",
+        "showLabel": "Rādīt etiķeti",
+        "showCount": "Rādīt skaitu",
+        "days": "Dienas",
+        "close": "Aizvērt",
+        "save": "Saglabāt",
+        "settings": "Iestatījumi",
+        "OpenTabs": "Atvērtās cilnes",
+        "RecentlyTabs": "Nesen aizvērtās cilnes",
+        "bookmarks": "Grāmatzīmes",
+        "history": "Vēsture",
+        "readingList": "Lasīšanas saraksts",
+        "quickAccess": "Ātrā piekļuve",
+        "pinToToolbarReminder": "Lūdzu, piespraudiet paplašinājumu rīkjoslai, pirms noņemat šo navigāciju."
+      },
       "bottomNav": {
         "label": "Rādīt apakšējo navigācijas joslu",
         "description": "Kad šī opcija ir aktivizēta, apakšējā navigācijas josla būs redzama",

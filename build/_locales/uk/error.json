@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Збережені групи не можна редагувати",
+    "Saved groups are not editable.": "Збережені групи не можна редагувати",
     "ungroupingError": "Не вдалося розгрупувати всі вкладки: {{error}}"
 }

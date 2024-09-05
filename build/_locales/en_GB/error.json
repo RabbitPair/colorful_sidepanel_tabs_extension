@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Saved groups are not editable",
+    "Saved groups are not editable.": "Saved groups are not editable",
     "ungroupingError": "Failed to ungroup all tabs: {{error}}"
 }

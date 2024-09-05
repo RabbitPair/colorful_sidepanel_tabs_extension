@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rull til aktiv fane"
         }
       },
+      "tabNav": {
+        "label": "Vis fane navigasjonslinje",
+        "description": "Når aktivert, vises fane navigasjonslinjen",
+        "configure": "konfigurer",
+        "configureTabNav": "Konfigurer fane navigasjon",
+        "enabledNavs": "Aktiverte navigasjoner",
+        "disabledNavs": "Deaktiverte navigasjoner (Tilgjengelige)",
+        "showLabel": "Vis etikett",
+        "showCount": "Vis antall",
+        "days": "Dager",
+        "close": "Lukk",
+        "save": "Lagre",
+        "settings": "Innstillinger",
+        "OpenTabs": "Åpne faner",
+        "RecentlyTabs": "Nylig lukkede faner",
+        "bookmarks": "Bokmerker",
+        "history": "Historikk",
+        "readingList": "Leseliste",
+        "quickAccess": "Hurtigtilgang",
+        "pinToToolbarReminder": "Fest utvidelsen til verktøylinjen før du fjerner denne navigasjonen."
+      },
       "bottomNav": {
         "label": "Vis bunnnavigasjonslinje",
         "description": "Når aktivert, vil bunnnavigasjonslinjen vises",

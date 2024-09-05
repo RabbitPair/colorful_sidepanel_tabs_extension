@@ -5,9 +5,30 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+### Added
+- Added **bookmark management**: Added full-featured bookmark management functionality
+- Added **Tab navigation bar**: options in appearance, displaying: tabs, bookmarks, history, recently closed tabs, reading list, and quick access on the side panel
+- Added **Add tab to group** menu: add tabs to a new group or an existing group
+- Added search keyword highlighting
+- Added Premium Edition reservation
+### Changed
+- Adjusted Cookie, ReadingList, and bookmarks permissions to optional permissions, requiring user authorization for use
+### Deprecated
+- **Options Page - History - Show in side panel**: This option has been replaced by *Tab navigation bar* and will be deprecated soon
+
+### Fixed
+- Fixed the issue where the expand group button would not appear when first clicking the sidebar
+- Fixed the issue where reopening the browser and clicking the extension icon required reselecting between popup or sidebar
+- Fixed the issue where the pinned tab icon and quick access icon sizes were inconsistent
+
+## [2.6.1] - 2024-08-30
+
+### Changed
+- Optimized menu display method, improved error prompts
+- Added more compatibility for  Chromium-based browsers
 
 
-## [2.6.0] - 2024-08-20
+## [2.6.0] - 2024-08-28
 ### Added
 - Added **Tab Menu Zoom**: A zoom feature has been added to the tab menu, allowing you to freely adjust the zoom level from 1% to 1000%.
 

@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Opgeslagen groepen zijn niet bewerkbaar",
+    "Saved groups are not editable.": "Opgeslagen groepen zijn niet bewerkbaar",
     "ungroupingError": "Kan alle tabbladen niet groeperen: {{error}}"
 }

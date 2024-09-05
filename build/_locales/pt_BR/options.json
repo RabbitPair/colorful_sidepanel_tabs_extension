@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rolar para a aba ativa"
         }
       },
+      "tabNav": {
+        "label": "Mostrar barra de navegação de abas",
+        "description": "Quando ativada, a barra de navegação de abas é exibida",
+        "configure": "configurar",
+        "configureTabNav": "Configurar Navegação de Abas",
+        "enabledNavs": "Navegações Ativadas",
+        "disabledNavs": "Navegações Desativadas (Disponíveis)",
+        "showLabel": "Mostrar Rótulo",
+        "showCount": "Mostrar Contagem",
+        "days": "Dias",
+        "close": "Fechar",
+        "save": "Salvar",
+        "settings": "Configurações",
+        "OpenTabs": "Abas Abertas",
+        "RecentlyTabs": "Abas Fechadas Recentemente",
+        "bookmarks": "Favoritos",
+        "history": "Histórico",
+        "readingList": "Lista de Leitura",
+        "quickAccess": "Acesso Rápido",
+        "pinToToolbarReminder": "Por favor, fixe a extensão na barra de ferramentas antes de remover esta navegação."
+      },
       "bottomNav": {
         "label": "Mostrar barra de navegação inferior",
         "description": "Quando ativada, a barra de navegação inferior será exibida",

@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "保存されたグループは編集できません",
+    "Saved groups are not editable.": "保存されたグループは編集できません",
     "ungroupingError": "すべてのタブのグループ解除に失敗しました: {{error}}"
 }

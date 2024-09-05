@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Saglabātās grupas nav rediģējamas",
+    "Saved groups are not editable.": "Saglabātās grupas nav rediģējamas",
     "ungroupingError": "Neizdevās atgrupēt visas cilnes: {{error}}"
 }

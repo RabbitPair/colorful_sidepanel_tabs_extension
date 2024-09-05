@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rulla till aktiv flik"
         }
       },
+      "tabNav": {
+        "label": "Visa fliknavigeringsfält",
+        "description": "När aktiverat visas fliknavigeringsfältet",
+        "configure": "konfigurera",
+        "configureTabNav": "Konfigurera fliknavigering",
+        "enabledNavs": "Aktiverade navigeringar",
+        "disabledNavs": "Inaktiverade navigeringar (tillgängliga)",
+        "showLabel": "Visa etikett",
+        "showCount": "Visa antal",
+        "days": "Dagar",
+        "close": "Stäng",
+        "save": "Spara",
+        "settings": "Inställningar",
+        "OpenTabs": "Öppna flikar",
+        "RecentlyTabs": "Nyligen stängda flikar",
+        "bookmarks": "Bokmärken",
+        "history": "Historik",
+        "readingList": "Läselista",
+        "quickAccess": "Snabb åtkomst",
+        "pinToToolbarReminder": "Fäst tillägget i verktygsfältet innan du tar bort denna navigering."
+      },
       "bottomNav": {
         "label": "Visa bottennavigeringsfält",
         "description": "När aktiverat kommer bottennavigeringsfältet att visas",

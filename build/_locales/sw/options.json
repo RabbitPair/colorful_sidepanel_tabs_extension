@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Sogeza hadi Kichupo Kinachofanya Kazi"
         }
       },
+      "tabNav": {
+        "label": "Onyesha upau wa urambazaji wa Vichupo",
+        "description": "Ikiwa imewezeshwa, upau wa urambazaji wa Vichupo utaonyeshwa",
+        "configure": "sanidi",
+        "configureTabNav": "Sanidi Urambazaji wa Vichupo",
+        "enabledNavs": "Urambazaji Uliowezeshwa",
+        "disabledNavs": "Urambazaji Uliokataliwa (Inapatikana)",
+        "showLabel": "Onyesha Lebo",
+        "showCount": "Onyesha Hesabu",
+        "days": "Siku",
+        "close": "Funga",
+        "save": "Hifadhi",
+        "settings": "Mipangilio",
+        "OpenTabs": "Vichupo Vilivyofunguliwa",
+        "RecentlyTabs": "Vichupo Vilivyofungwa Hivi Karibuni",
+        "bookmarks": "Alamisho",
+        "history": "Historia",
+        "readingList": "Orodha ya Kusoma",
+        "quickAccess": "Ufikiaji wa Haraka",
+        "pinToToolbarReminder": "Tafadhali weka kiendelezi kwenye upau wa zana kabla ya kuondoa urambazaji huu."
+      },
       "bottomNav": {
         "label": "Onyesha upau wa urambazaji wa chini",
         "description": "Ikiwa imewezeshwa, upau wa urambazaji wa chini utaonekana",

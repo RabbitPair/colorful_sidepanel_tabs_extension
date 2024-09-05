@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "已儲存的群組無法編輯",
+    "Saved groups are not editable.": "已儲存的群組無法編輯",
     "ungroupingError": "無法取消分組所有標籤頁: {{error}}"
 }

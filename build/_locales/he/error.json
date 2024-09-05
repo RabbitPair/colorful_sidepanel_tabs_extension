@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "קבוצות שמורות אינן ניתנות לעריכה",
+    "Saved groups are not editable.": "קבוצות שמורות אינן ניתנות לעריכה",
     "ungroupingError": "נכשל בניסיון לבטל קיבוץ כל הכרטיסיות: {{error}}"
 }

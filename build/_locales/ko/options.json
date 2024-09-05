@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "활성 탭으로 스크롤"
         }
       },
+      "tabNav": {
+        "label": "탭 탐색 표시줄 표시",
+        "description": "활성화되면 탭 탐색 표시줄이 나타납니다",
+        "configure": "설정",
+        "configureTabNav": "탭 탐색 설정",
+        "enabledNavs": "활성화된 탐색",
+        "disabledNavs": "비활성화된 탐색 (사용 가능)",
+        "showLabel": "레이블 표시",
+        "showCount": "개수 표시",
+        "days": "일",
+        "close": "닫기",
+        "save": "저장",
+        "settings": "설정",
+        "OpenTabs": "열린 탭",
+        "RecentlyTabs": "최근 닫은 탭",
+        "bookmarks": "북마크",
+        "history": "기록",
+        "readingList": "읽기 목록",
+        "quickAccess": "빠른 접근",
+        "pinToToolbarReminder": "이 탐색을 제거하기 전에 확장 프로그램을 도구 모음에 고정하세요."
+      },
       "bottomNav": {
         "label": "하단 탐색 표시줄 표시",
         "description": "활성화되면 하단 탐색 표시줄이 나타납니다",

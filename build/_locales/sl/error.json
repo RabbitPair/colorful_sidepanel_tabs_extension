@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Shranjene skupine ni mogoče urejati",
+    "Saved groups are not editable.": "Shranjene skupine ni mogoče urejati",
     "ungroupingError": "Ni uspelo razdružiti vseh zavihkov: {{error}}"
 }

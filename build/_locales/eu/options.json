@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Joan aktibo dagoen fitxara"
         }
       },
+      "tabNav": {
+        "label": "Erakutsi fitxa nabigazio-barra",
+        "description": "Gaituta dagoenean, fitxa nabigazio-barra bistaratzen da",
+        "configure": "konfiguratu",
+        "configureTabNav": "Konfiguratu fitxa nabigazioa",
+        "enabledNavs": "Gaitutako nabigazioak",
+        "disabledNavs": "Desgaitutako nabigazioak (Eskuragarri)",
+        "showLabel": "Erakutsi etiketa",
+        "showCount": "Erakutsi zenbakia",
+        "days": "Egunak",
+        "close": "Itxi",
+        "save": "Gorde",
+        "settings": "Ezarpenak",
+        "OpenTabs": "Irekitako fitxak",
+        "RecentlyTabs": "Berriki itxitako fitxak",
+        "bookmarks": "Laster-markak",
+        "history": "Historia",
+        "readingList": "Irakurketa zerrenda",
+        "quickAccess": "Sarbide azkarra",
+        "pinToToolbarReminder": "Kendu aurretik, gehitu luzapena tresna-barran."
+      },
       "bottomNav": {
         "label": "Erakutsi beheko nabigazio-barra",
         "description": "Aktibatuta dagoenean, beheko nabigazio-barra ikusgai egongo da",

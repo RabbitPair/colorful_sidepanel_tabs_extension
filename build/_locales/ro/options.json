@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Derulează la fila activă"
         }
       },
+      "tabNav": {
+        "label": "Afișați bara de navigare a filelor",
+        "description": "Când este activată, bara de navigare a filelor va fi afișată",
+        "configure": "configurează",
+        "configureTabNav": "Configurează Bara de Navigare a Filelor",
+        "enabledNavs": "Navigări Activate",
+        "disabledNavs": "Navigări Dezactivate (Disponibile)",
+        "showLabel": "Afișează Eticheta",
+        "showCount": "Afișează Numărul",
+        "days": "Zile",
+        "close": "Închide",
+        "save": "Salvează",
+        "settings": "Setări",
+        "OpenTabs": "File Deschise",
+        "RecentlyTabs": "File Închise Recent",
+        "bookmarks": "Marcaje",
+        "history": "Istoric",
+        "readingList": "Listă de Citit",
+        "quickAccess": "Acces Rapid",
+        "pinToToolbarReminder": "Vă rugăm să fixați extensia în bara de instrumente înainte de a elimina această navigare."
+      },
       "bottomNav": {
         "label": "Afișați bara de navigare inferioară",
         "description": "Când este activată, bara de navigare inferioară va fi afișată",

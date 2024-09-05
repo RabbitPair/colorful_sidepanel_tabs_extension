@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rulumi al Aktiva Langeto"
         }
       },
+      "tabNav": {
+        "label": "Montri langetan navigadobreton",
+        "description": "Kiam aktivigita, la langeta navigadobreto montriĝas",
+        "configure": "Agordi",
+        "configureTabNav": "Agordi Langetan Navigadon",
+        "enabledNavs": "Aktivigitaj Navigadoj",
+        "disabledNavs": "Malaktivigitaj Navigadoj (Disponeblaj)",
+        "showLabel": "Montri Etikedon",
+        "showCount": "Montri Kalkulon",
+        "days": "Tagoj",
+        "close": "Fermi",
+        "save": "Konservi",
+        "settings": "Agordoj",
+        "OpenTabs": "Malfermitaj Langetoj",
+        "RecentlyTabs": "Lastatempe Fermitaj Langetoj",
+        "bookmarks": "Legosignoj",
+        "history": "Historio",
+        "readingList": "Legolisto",
+        "quickAccess": "Rapida Alirado",
+        "pinToToolbarReminder": "Bonvolu alfiksi la etendaĵon al via ilobreto antaŭ ol forigi ĉi tiun navigadon."
+      },
       "bottomNav": {
         "label": "Montri malsupran navigadobreton",
         "description": "Kiam aktivigita, la malsupra navigadobreto aperas",

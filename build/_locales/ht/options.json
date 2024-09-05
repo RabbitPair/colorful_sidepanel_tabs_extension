@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Defile nan Tab Aktif la"
         }
       },
+      "tabNav": {
+        "label": "Montre ba navigasyon Tab",
+        "description": "Lè aktive, ba navigasyon Tab la ap parèt",
+        "configure": "konfigire",
+        "configureTabNav": "Konfigire Navigasyon Tab",
+        "enabledNavs": "Navigasyon Aktive",
+        "disabledNavs": "Navigasyon Dezaktive (Disponib)",
+        "showLabel": "Montre Etikèt",
+        "showCount": "Montre Kantite",
+        "days": "Jou",
+        "close": "Fèmen",
+        "save": "Sove",
+        "settings": "Anviwònman",
+        "OpenTabs": "Tab Ouvè",
+        "RecentlyTabs": "Tab Fèmen Resamman",
+        "bookmarks": "Makè",
+        "history": "Istwa",
+        "readingList": "Lis Lekti",
+        "quickAccess": "Aksè Rapid",
+        "pinToToolbarReminder": "Tanpri fikse ekstansyon an nan ba zouti ou anvan ou retire navigasyon sa a."
+      },
       "bottomNav": {
         "label": "Montre baryè navigasyon anba",
         "description": "Lè aktive, ba navigasyon anba a ap parèt",

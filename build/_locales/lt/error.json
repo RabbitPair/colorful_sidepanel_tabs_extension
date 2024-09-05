@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Išsaugotos grupės negali būti redaguojamos",
+    "Saved groups are not editable.": "Išsaugotos grupės negali būti redaguojamos",
     "ungroupingError": "Nepavyko atgrupuoti visų skirtukų: {{error}}"
 }

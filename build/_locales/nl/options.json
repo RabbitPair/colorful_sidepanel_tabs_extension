@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Scroll naar actieve tab"
         }
       },
+      "tabNav": {
+        "label": "Tabnavigatiebalk weergeven",
+        "description": "Wanneer ingeschakeld, wordt de tabnavigatiebalk weergegeven",
+        "configure": "configureren",
+        "configureTabNav": "Tabnavigatie instellen",
+        "enabledNavs": "Ingeschakelde navigaties",
+        "disabledNavs": "Uitgeschakelde navigaties (Beschikbaar)",
+        "showLabel": "Label weergeven",
+        "showCount": "Aantal weergeven",
+        "days": "Dagen",
+        "close": "Sluiten",
+        "save": "Opslaan",
+        "settings": "Instellingen",
+        "OpenTabs": "Open tabbladen",
+        "RecentlyTabs": "Recent gesloten tabbladen",
+        "bookmarks": "Bladwijzers",
+        "history": "Geschiedenis",
+        "readingList": "Leeslijst",
+        "quickAccess": "Snelle toegang",
+        "pinToToolbarReminder": "Zet de extensie vast in uw werkbalk voordat u deze navigatie verwijdert."
+      },
       "bottomNav": {
         "label": "Navigatiebalk onderaan weergeven",
         "description": "Als deze optie is ingeschakeld, wordt de navigatiebalk onderaan weergegeven",

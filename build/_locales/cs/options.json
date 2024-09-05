@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Přejít na aktivní kartu"
         }
       },
+      "tabNav": {
+        "label": "Zobrazit panel navigace karet",
+        "description": "Když je povoleno, zobrazí se panel navigace karet",
+        "configure": "nastavit",
+        "configureTabNav": "Nastavit navigaci karet",
+        "enabledNavs": "Povolené navigace",
+        "disabledNavs": "Zakázané navigace (dostupné)",
+        "showLabel": "Zobrazit popisek",
+        "showCount": "Zobrazit počet",
+        "days": "Dny",
+        "close": "Zavřít",
+        "save": "Uložit",
+        "settings": "Nastavení",
+        "OpenTabs": "Otevřené karty",
+        "RecentlyTabs": "Nedávno zavřené karty",
+        "bookmarks": "Záložky",
+        "history": "Historie",
+        "readingList": "Seznam četby",
+        "quickAccess": "Rychlý přístup",
+        "pinToToolbarReminder": "Připněte prosím rozšíření na panel nástrojů, než odstraníte tuto navigaci."
+      },
       "bottomNav": {
         "label": "Zobrazit spodní navigační panel",
         "description": "Když je povoleno, zobrazí se spodní navigační panel",

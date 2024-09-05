@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Sgrolaich gu Tab Gnìomhach"
         }
       },
+      "tabNav": {
+        "label": "Seall bàr seòlaidh Tab",
+        "description": "Nuair a tha e air a chomasachadh, bidh am bàr seòlaidh Tab air a thaisbeanadh",
+        "configure": "rèitich",
+        "configureTabNav": "Rèitich Seòladh Tab",
+        "enabledNavs": "Seòlaidhean Comasach",
+        "disabledNavs": "Seòlaidhean Neo-chomasach (Ri fhaighinn)",
+        "showLabel": "Seall Bileag",
+        "showCount": "Seall Cunntas",
+        "days": "Làithean",
+        "close": "Dùin",
+        "save": "Sàbhail",
+        "settings": "Roghainnean",
+        "OpenTabs": "Tabs Fosgailte",
+        "RecentlyTabs": "Tabs Dùinte o Chionn Ghoirid",
+        "bookmarks": "Comharran-leabhair",
+        "history": "Eachdraidh",
+        "readingList": "Liosta Leughaidh",
+        "quickAccess": "Ruigsinneachd Luath",
+        "pinToToolbarReminder": "Cuir am plugan ris a' bhàr-inneal agad mus cuir thu às an t-seòladh seo."
+      },
       "bottomNav": {
         "label": "Seall an t-siostam-innse ìosal",
         "description": "Nuair a tha e air a chomasachadh, bidh am bàr seòlaidh ìosal air a thaisbeanadh",

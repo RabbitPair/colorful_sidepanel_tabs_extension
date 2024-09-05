@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "ወደ እየሰራ ያለው ትምባህ እንቅስቃሴ አድርግ"
         }
       },
+      "tabNav": {
+        "label": "ትምባህ አሰሳ አሞሌን አሳይ",
+        "description": "ሲነቃቃ ትምባህ አሰሳ አሞሌ ይታያል",
+        "configure": "አስተካክል",
+        "configureTabNav": "ትምባህ አሰሳን አስተካክል",
+        "enabledNavs": "እየሰሩ ያሉ አሰሳዎች",
+        "disabledNavs": "እየተዘጉ ያሉ አሰሳዎች (የሚገኙ)",
+        "showLabel": "መለያ አሳይ",
+        "showCount": "ብዛት አሳይ",
+        "days": "ቀናት",
+        "close": "ዝጋ",
+        "save": "አስቀምጥ",
+        "settings": "ቅንብሮች",
+        "OpenTabs": "እየተከፈቱ ያሉ ትምባሃት",
+        "RecentlyTabs": "በቅርቡ የተዘጉ ትምባሃት",
+        "bookmarks": "የተመረጡ ገጾች",
+        "history": "ታሪክ",
+        "readingList": "የንባብ ዝርዝር",
+        "quickAccess": "ፈጣን መድረሻ",
+        "pinToToolbarReminder": "እባክዎ እንደ ገና እንዲሰራ ለማድረግ ቅርብ እንዲሆን በመሳሪያ አሞሌዎ ላይ እንዲታይ አስቀምጡ።"
+      },
       "bottomNav": {
         "label": "የታችኛውን አሰሳ አሞሌ አሳይ",
         "description": "ሲነቃቃ የታችኛው አሰሳ አሞሌ ይታያል",

@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Desprazarse á lapela activa"
         }
       },
+      "tabNav": {
+        "label": "Amosar a barra de navegación de lapelas",
+        "description": "Cando está habilitado, móstrase a barra de navegación de lapelas",
+        "configure": "configurar",
+        "configureTabNav": "Configurar navegación de lapelas",
+        "enabledNavs": "Navegacións habilitadas",
+        "disabledNavs": "Navegacións deshabilitadas (dispoñibles)",
+        "showLabel": "Mostrar etiqueta",
+        "showCount": "Mostrar conta",
+        "days": "Días",
+        "close": "Pechar",
+        "save": "Gardar",
+        "settings": "Configuración",
+        "OpenTabs": "Lapelas abertas",
+        "RecentlyTabs": "Lapelas pechadas recentemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "pinToToolbarReminder": "Lembra fixar a extensión na barra de ferramentas antes de eliminar esta navegación."
+      },
       "bottomNav": {
         "label": "Amosar a barra de navegación inferior",
         "description": "Cando está activada, móstrase a barra de navegación inferior",

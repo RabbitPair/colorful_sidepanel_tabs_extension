@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Salvestatud gruppe ei saa redigeerida",
+    "Saved groups are not editable.": "Salvestatud gruppe ei saa redigeerida",
     "ungroupingError": "Kõigi vahekaartide rühmitamine ebaõnnestus: {{error}}"
 }

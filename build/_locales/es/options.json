@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Desplazarse a la pestaña activa"
         }
       },
+      "tabNav": {
+        "label": "Mostrar barra de navegación de pestañas",
+        "description": "Cuando está habilitado, se muestra la barra de navegación de pestañas",
+        "configure": "configurar",
+        "configureTabNav": "Configurar navegación de pestañas",
+        "enabledNavs": "Navegaciones habilitadas",
+        "disabledNavs": "Navegaciones deshabilitadas (disponibles)",
+        "showLabel": "Mostrar etiqueta",
+        "showCount": "Mostrar conteo",
+        "days": "Días",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "settings": "Configuraciones",
+        "OpenTabs": "Pestañas abiertas",
+        "RecentlyTabs": "Pestañas cerradas recientemente",
+        "bookmarks": "Marcadores",
+        "history": "Historial",
+        "readingList": "Lista de lectura",
+        "quickAccess": "Acceso rápido",
+        "pinToToolbarReminder": "Por favor, fija la extensión en tu barra de herramientas antes de eliminar esta navegación."
+      },
       "bottomNav": {
         "label": "Mostrar barra de navegación inferior",
         "description": "Cuando está habilitado, se muestra la barra de navegación inferior",

@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Pomakni se na aktivni zavihek"
         }
       },
+      "tabNav": {
+        "label": "Prikaži vrstico za krmarjenje po zavihkih",
+        "description": "Ko je omogočeno, je prikazana vrstica za krmarjenje po zavihkih",
+        "configure": "nastavi",
+        "configureTabNav": "Nastavi krmarjenje po zavihkih",
+        "enabledNavs": "Omogočene navigacije",
+        "disabledNavs": "Onemogočene navigacije (na voljo)",
+        "showLabel": "Prikaži oznako",
+        "showCount": "Prikaži število",
+        "days": "Dnevi",
+        "close": "Zapri",
+        "save": "Shrani",
+        "settings": "Nastavitve",
+        "OpenTabs": "Odprti zavihki",
+        "RecentlyTabs": "Nedavno zaprti zavihki",
+        "bookmarks": "Zaznamki",
+        "history": "Zgodovina",
+        "readingList": "Seznam za branje",
+        "quickAccess": "Hiter dostop",
+        "pinToToolbarReminder": "Pred odstranitvijo te navigacije pripnite razširitev na orodno vrstico."
+      },
       "bottomNav": {
         "label": "Prikaži spodnjo navigacijsko vrstico",
         "description": "Ko je omogočeno, se prikaže spodnja navigacijska vrstica",

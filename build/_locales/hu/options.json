@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Görgetés az aktív laphoz"
         }
       },
+      "tabNav": {
+        "label": "Fül navigációs sáv megjelenítése",
+        "description": "Ha engedélyezve van, a fül navigációs sáv megjelenik",
+        "configure": "beállítás",
+        "configureTabNav": "Fül navigáció beállítása",
+        "enabledNavs": "Engedélyezett navigációk",
+        "disabledNavs": "Letiltott navigációk (Elérhető)",
+        "showLabel": "Címke megjelenítése",
+        "showCount": "Szám megjelenítése",
+        "days": "Napok",
+        "close": "Bezárás",
+        "save": "Mentés",
+        "settings": "Beállítások",
+        "OpenTabs": "Megnyitott fülek",
+        "RecentlyTabs": "Nemrég bezárt fülek",
+        "bookmarks": "Könyvjelzők",
+        "history": "Előzmények",
+        "readingList": "Olvasási lista",
+        "quickAccess": "Gyors elérés",
+        "pinToToolbarReminder": "Kérjük, rögzítse a bővítményt az eszköztárhoz, mielőtt eltávolítaná ezt a navigációt."
+      },
       "bottomNav": {
         "label": "Alsó navigációs sáv megjelenítése",
         "description": "Az alsó navigációs sáv megjelenítése, ha engedélyezve van",

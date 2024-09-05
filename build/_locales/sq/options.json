@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rrotullohu te skeda aktive"
         }
       },
+      "tabNav": {
+        "label": "Shfaq shiritin e navigimit të skedave",
+        "description": "Kur aktivizohet, shfaqet shiriti i navigimit të skedave",
+        "configure": "konfiguro",
+        "configureTabNav": "Konfiguro Navigimin e Skedave",
+        "enabledNavs": "Navigimet e Aktivizuara",
+        "disabledNavs": "Navigimet e Çaktivizuara (Në dispozicion)",
+        "showLabel": "Shfaq Etiketën",
+        "showCount": "Shfaq Numrin",
+        "days": "Ditët",
+        "close": "Mbyll",
+        "save": "Ruaj",
+        "settings": "Cilësimet",
+        "OpenTabs": "Skedat e Hapura",
+        "RecentlyTabs": "Skedat e Mbyllura Së Fundmi",
+        "bookmarks": "Faqerojtësit",
+        "history": "Historia",
+        "readingList": "Lista e Leximit",
+        "quickAccess": "Qasje e Shpejtë",
+        "pinToToolbarReminder": "Ju lutemi ngjitni shtesën në shiritin e veglave përpara se të hiqni këtë navigim."
+      },
       "bottomNav": {
         "label": "Shfaqni shiritin e navigimit në fund",
         "description": "Kur aktivizohet, shfaqet shiriti i navigimit në fund",

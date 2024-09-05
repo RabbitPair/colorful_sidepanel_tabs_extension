@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "滚动到活动标签页"
         }
       },
+      "tabNav": {
+        "label": "显示标签导航栏",
+        "description": "启用后，标签导航栏将会显示",
+        "configure": "配置",
+        "configureTabNav": "配置标签导航",
+        "enabledNavs": "已启用的导航",
+        "disabledNavs": "可用的未启用导航",
+        "showLabel": "显示标签",
+        "showCount": "显示计数",
+        "days": "天",
+        "close": "关闭",
+        "save": "保存",
+        "settings": "设置",
+        "OpenTabs": "打开的标签页",
+        "RecentlyTabs": "最近关闭的标签页",
+        "bookmarks": "书签",
+        "history": "历史记录",
+        "readingList": "阅读清单",
+        "quickAccess": "快速访问",
+        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航。"
+      },
       "bottomNav": {
         "label": "显示底部导航栏",
         "description": "启用后，底部导航栏将会显示",

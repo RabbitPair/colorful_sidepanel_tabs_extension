@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Запазените групи не могат да се редактират",
+    "Saved groups are not editable.": "Запазените групи не могат да се редактират",
     "ungroupingError": "Неуспешно разделяне на всички раздели: {{error}}"
 }

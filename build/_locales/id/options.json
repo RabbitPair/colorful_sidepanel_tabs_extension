@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Gulir ke Tab Aktif"
         }
       },
+      "tabNav": {
+        "label": "Tampilkan bilah navigasi Tab",
+        "description": "Jika diaktifkan, bilah navigasi Tab akan ditampilkan",
+        "configure": "konfigurasi",
+        "configureTabNav": "Konfigurasi Navigasi Tab",
+        "enabledNavs": "Navigasi yang Diaktifkan",
+        "disabledNavs": "Navigasi yang Dinonaktifkan (Tersedia)",
+        "showLabel": "Tampilkan Label",
+        "showCount": "Tampilkan Jumlah",
+        "days": "Hari",
+        "close": "Tutup",
+        "save": "Simpan",
+        "settings": "Pengaturan",
+        "OpenTabs": "Tab Terbuka",
+        "RecentlyTabs": "Tab yang Baru Ditutup",
+        "bookmarks": "Bookmark",
+        "history": "Riwayat",
+        "readingList": "Daftar Bacaan",
+        "quickAccess": "Akses Cepat",
+        "pinToToolbarReminder": "Harap sematkan ekstensi ke toolbar Anda sebelum menghapus navigasi ini."
+      },
       "bottomNav": {
         "label": "Tampilkan bilah navigasi bawah",
         "description": "Jika diaktifkan, bilah navigasi bawah akan muncul",

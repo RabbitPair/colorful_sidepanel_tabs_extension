@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Slinkti iki aktyvaus skirtuko"
         }
       },
+      "tabNav": {
+        "label": "Rodyti skirtukų naršymo juostą",
+        "description": "Kai įjungta, rodoma skirtukų naršymo juosta",
+        "configure": "konfigūruoti",
+        "configureTabNav": "Konfigūruoti skirtukų naršymą",
+        "enabledNavs": "Įjungtos navigacijos",
+        "disabledNavs": "Išjungtos navigacijos (Galimos)",
+        "showLabel": "Rodyti etiketę",
+        "showCount": "Rodyti skaičių",
+        "days": "Dienos",
+        "close": "Uždaryti",
+        "save": "Išsaugoti",
+        "settings": "Nustatymai",
+        "OpenTabs": "Atidaryti skirtukai",
+        "RecentlyTabs": "Neseniai uždaryti skirtukai",
+        "bookmarks": "Žymės",
+        "history": "Istorija",
+        "readingList": "Skaitymo sąrašas",
+        "quickAccess": "Greita prieiga",
+        "pinToToolbarReminder": "Prisekite plėtinį prie įrankių juostos prieš pašalindami šią navigaciją."
+      },
       "bottomNav": {
         "label": "Rodyti apatinę naršymo juostą",
         "description": "Kai įjungta, rodoma apatinė naršymo juosta",

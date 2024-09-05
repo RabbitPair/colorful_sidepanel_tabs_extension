@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Grupet e ruajtura nuk janë të redaktueshme",
+    "Saved groups are not editable.": "Grupet e ruajtura nuk janë të redaktueshme",
     "ungroupingError": "Dështoi çgrupimi i të gjitha skedave: {{error}}"
 }

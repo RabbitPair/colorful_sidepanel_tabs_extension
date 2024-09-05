@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Pomakni se do aktivne kartice"
         }
       },
+      "tabNav": {
+        "label": "Prikaži traku za navigaciju karticama",
+        "description": "Kada je omogućeno, traka za navigaciju karticama je prikazana",
+        "configure": "postavke",
+        "configureTabNav": "Postavke navigacije karticama",
+        "enabledNavs": "Omogućene navigacije",
+        "disabledNavs": "Onemogućene navigacije (dostupne)",
+        "showLabel": "Prikaži oznaku",
+        "showCount": "Prikaži broj",
+        "days": "Dani",
+        "close": "Zatvori",
+        "save": "Spremi",
+        "settings": "Postavke",
+        "OpenTabs": "Otvorene kartice",
+        "RecentlyTabs": "Nedavno zatvorene kartice",
+        "bookmarks": "Knjižne oznake",
+        "history": "Povijest",
+        "readingList": "Popis za čitanje",
+        "quickAccess": "Brzi pristup",
+        "pinToToolbarReminder": "Prikvačite proširenje na alatnu traku prije nego što uklonite ovu navigaciju."
+      },
       "bottomNav": {
         "label": "Prikaži donju navigacijsku traku",
         "description": "Kada je omogućeno, donja navigacijska traka će biti vidljiva",

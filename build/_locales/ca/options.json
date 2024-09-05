@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Desplaça't a la pestanya activa"
         }
       },
+      "tabNav": {
+        "label": "Mostra la barra de navegació de pestanyes",
+        "description": "Quan està habilitat, es mostra la barra de navegació de pestanyes",
+        "configure": "configura",
+        "configureTabNav": "Configura la navegació de pestanyes",
+        "enabledNavs": "Navegacions habilitades",
+        "disabledNavs": "Navegacions deshabilitades (disponibles)",
+        "showLabel": "Mostra l'etiqueta",
+        "showCount": "Mostra el recompte",
+        "days": "Dies",
+        "close": "Tanca",
+        "save": "Desa",
+        "settings": "Configuració",
+        "OpenTabs": "Pestanyes obertes",
+        "RecentlyTabs": "Pestanyes tancades recentment",
+        "bookmarks": "Adreces d'interès",
+        "history": "Historial",
+        "readingList": "Llista de lectura",
+        "quickAccess": "Accés ràpid",
+        "pinToToolbarReminder": "Si us plau, fixa l'extensió a la barra d'eines abans d'eliminar aquesta navegació."
+      },
       "bottomNav": {
         "label": "Mostra la barra de navegació inferior",
         "description": "Quan està habilitat, es mostra la barra de navegació inferior",

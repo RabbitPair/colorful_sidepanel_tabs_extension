@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "滾動到活動標籤頁"
         }
       },
+      "tabNav": {
+        "label": "顯示標籤導航欄",
+        "description": "啟用後，標籤導航欄將顯示",
+        "configure": "配置",
+        "configureTabNav": "配置標籤導航",
+        "enabledNavs": "已啟用的導航",
+        "disabledNavs": "可用的禁用導航",
+        "showLabel": "顯示標籤",
+        "showCount": "顯示計數",
+        "days": "天",
+        "close": "關閉",
+        "save": "保存",
+        "settings": "設置",
+        "OpenTabs": "打開的標籤頁",
+        "RecentlyTabs": "最近關閉的標籤頁",
+        "bookmarks": "書籤",
+        "history": "歷史記錄",
+        "readingList": "閱讀清單",
+        "quickAccess": "快速訪問",
+        "pinToToolbarReminder": "請將擴展程式固定到工具欄後再移除此導航。"
+      },
       "bottomNav": {
         "label": "顯示底部導航欄",
         "description": "啟用後，底部導航欄將顯示",

@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rol na Aktiewe Oortjie"
         }
       },
+      "tabNav": {
+        "label": "Wys oortjie navigasiebalk",
+        "description": "Wanneer geaktiveer, word die oortjie navigasiebalk vertoon",
+        "configure": "konfigureer",
+        "configureTabNav": "Konfigureer oortjie navigasie",
+        "enabledNavs": "Geaktiveerde navigasies",
+        "disabledNavs": "Gedeaktiveerde navigasies (beskikbaar)",
+        "showLabel": "Wys etiket",
+        "showCount": "Wys telling",
+        "days": "Dae",
+        "close": "Sluit",
+        "save": "Stoor",
+        "settings": "Instellings",
+        "OpenTabs": "Oop oortjies",
+        "RecentlyTabs": "Onlangs geslote oortjies",
+        "bookmarks": "Boekmerke",
+        "history": "Geskiedenis",
+        "readingList": "Leeslys",
+        "quickAccess": "Vinnige toegang",
+        "pinToToolbarReminder": "Maak asseblief seker dat die uitbreiding aan jou nutsbalk vasgemaak is voordat jy hierdie navigasie verwyder."
+      },
       "bottomNav": {
         "label": "Wys onderste navigasiebalk",
         "description": "Wanneer hierdie opsie geaktiveer is, sal die onderste navigasiebalk verskyn",

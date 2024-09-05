@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Ni ellir golygu grwpiau wedi'u cadw",
+    "Saved groups are not editable.": "Ni ellir golygu grwpiau wedi'u cadw",
     "ungroupingError": "Methwyd dadgrwpio pob tab: {{error}}"
 }

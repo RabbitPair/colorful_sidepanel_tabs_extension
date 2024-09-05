@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Хадгалсан бүлгүүдийг засах боломжгүй",
+    "Saved groups are not editable.": "Хадгалсан бүлгүүдийг засах боломжгүй",
     "ungroupingError": "Бүх табуудыг бүлгээс гаргах амжилтгүй боллоо: {{error}}"
 }

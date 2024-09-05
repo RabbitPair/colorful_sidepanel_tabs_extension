@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Kerige aktiivsele vahekaardile"
         }
       },
+      "tabNav": {
+        "label": "Kuva vahekaartide navigeerimisriba",
+        "description": "Kui lubatud, kuvatakse vahekaartide navigeerimisriba",
+        "configure": "seadista",
+        "configureTabNav": "Seadista vahekaartide navigeerimine",
+        "enabledNavs": "Lubatud navigeerimised",
+        "disabledNavs": "Keelatud navigeerimised (Saadaval)",
+        "showLabel": "Kuva silt",
+        "showCount": "Kuva arv",
+        "days": "Päevad",
+        "close": "Sulge",
+        "save": "Salvesta",
+        "settings": "Seaded",
+        "OpenTabs": "Avatud vahekaardid",
+        "RecentlyTabs": "Hiljuti suletud vahekaardid",
+        "bookmarks": "Järjehoidjad",
+        "history": "Ajalugu",
+        "readingList": "Lugemisnimekiri",
+        "quickAccess": "Kiirjuurdepääs",
+        "pinToToolbarReminder": "Enne selle navigeerimise eemaldamist kinnitage laiendus oma tööriistaribale."
+      },
       "bottomNav": {
         "label": "Kuva alumine navigeerimisriba",
         "description": "Kui lubatud, kuvatakse alumine navigeerimisriba",

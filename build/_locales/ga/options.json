@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Scrollaigh go dtí an Cluaisín Gníomhach"
         }
       },
+      "tabNav": {
+        "label": "Taispeáin barra nascleanúna cluaisíní",
+        "description": "Nuair a chumasfar é, taispeánfar an barra nascleanúna cluaisíní",
+        "configure": "cumraigh",
+        "configureTabNav": "Cumraigh Nascleanúint Cluaisíní",
+        "enabledNavs": "Nascleanúna Cumasaigh",
+        "disabledNavs": "Nascleanúna Díchumasaithe (Ar Fáil)",
+        "showLabel": "Taispeáin Lipéad",
+        "showCount": "Taispeáin Líon",
+        "days": "Laethanta",
+        "close": "Dún",
+        "save": "Sábháil",
+        "settings": "Socruithe",
+        "OpenTabs": "Cluaisíní Oscailte",
+        "RecentlyTabs": "Cluaisíní Dúnta le Déanaí",
+        "bookmarks": "Leabharmharcanna",
+        "history": "Stair",
+        "readingList": "Liosta Léitheoireachta",
+        "quickAccess": "Rochtain Thapa",
+        "pinToToolbarReminder": "Déan an síneadh a phionáil ar do bharra uirlisí sula mbainfidh tú an nascleanúint seo."
+      },
       "bottomNav": {
         "label": "Taispeáin an barra náváil bun",
         "description": "Nuair a chumasfar é, taispeánfar an barra nascleanúna bun",

@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "I gruppi salvati non sono modificabili",
+    "Saved groups are not editable.": "I gruppi salvati non sono modificabili",
     "ungroupingError": "Impossibile separare tutte le schede: {{error}}"
 }

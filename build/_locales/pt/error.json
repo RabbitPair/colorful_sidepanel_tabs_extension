@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Grupos salvos não são editáveis",
+    "Saved groups are not editable.": "Grupos salvos não são editáveis",
     "ungroupingError": "Falha ao desagrupar todas as abas: {{error}}"
 }

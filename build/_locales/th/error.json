@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "กลุ่มที่บันทึกไว้ไม่สามารถแก้ไขได้",
+    "Saved groups are not editable.": "กลุ่มที่บันทึกไว้ไม่สามารถแก้ไขได้",
     "ungroupingError": "ไม่สามารถยกเลิกการจัดกลุ่มแท็บทั้งหมด: {{error}}"
 }

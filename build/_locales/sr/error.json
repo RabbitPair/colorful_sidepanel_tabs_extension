@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Sačuvane grupe nisu moguće za uređivanje",
+    "Saved groups are not editable.": "Sačuvane grupe nisu moguće za uređivanje",
     "ungroupingError": "Neuspešno razgrupisavanje svih kartica: {{error}}"
 }

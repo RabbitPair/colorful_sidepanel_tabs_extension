@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "アクティブなタブにスクロール"
         }
       },
+      "tabNav": {
+        "label": "タブナビゲーションバーを表示",
+        "description": "有効にすると、タブナビゲーションバーが表示されます",
+        "configure": "設定",
+        "configureTabNav": "タブナビゲーションの設定",
+        "enabledNavs": "有効なナビゲーション",
+        "disabledNavs": "無効なナビゲーション（利用可能）",
+        "showLabel": "ラベルを表示",
+        "showCount": "カウントを表示",
+        "days": "日",
+        "close": "閉じる",
+        "save": "保存",
+        "settings": "設定",
+        "OpenTabs": "開いているタブ",
+        "RecentlyTabs": "最近閉じたタブ",
+        "bookmarks": "ブックマーク",
+        "history": "履歴",
+        "readingList": "リーディングリスト",
+        "quickAccess": "クイックアクセス",
+        "pinToToolbarReminder": "このナビゲーションを削除する前に、拡張機能をツールバーにピン留めしてください。"
+      },
       "bottomNav": {
         "label": "下部ナビゲーションバーを表示",
         "description": "有効にすると、下部ナビゲーションバーが表示されます",

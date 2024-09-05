@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Etkin Sekmeye Kaydır"
         }
       },
+      "tabNav": {
+        "label": "Sekme gezinme çubuğunu göster",
+        "description": "Etkinleştirildiğinde, sekme gezinme çubuğu görüntülenir",
+        "configure": "yapılandır",
+        "configureTabNav": "Sekme Gezinmesini Yapılandır",
+        "enabledNavs": "Etkin Gezinmeler",
+        "disabledNavs": "Devre Dışı Gezinmeler (Mevcut)",
+        "showLabel": "Etiketi Göster",
+        "showCount": "Sayımı Göster",
+        "days": "Günler",
+        "close": "Kapat",
+        "save": "Kaydet",
+        "settings": "Ayarlar",
+        "OpenTabs": "Açık Sekmeler",
+        "RecentlyTabs": "Son Kapatılan Sekmeler",
+        "bookmarks": "Yer İmleri",
+        "history": "Geçmiş",
+        "readingList": "Okuma Listesi",
+        "quickAccess": "Hızlı Erişim",
+        "pinToToolbarReminder": "Bu gezintiyi kaldırmadan önce uzantıyı araç çubuğunuza sabitleyin."
+      },
       "bottomNav": {
         "label": "Alt gezinme çubuğunu göster",
         "description": "Alt gezinme çubuğunu etkinleştirdiğinizde görünür",

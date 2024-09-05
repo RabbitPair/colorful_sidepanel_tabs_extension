@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Skrollja għall-Tab Attiv"
         }
       },
+      "tabNav": {
+        "label": "Uri l-bar tan-navigazzjoni tat-Tab",
+        "description": "Meta tkun attivata, il-bar tan-navigazzjoni tat-Tab jidher",
+        "configure": "ikkonfigura",
+        "configureTabNav": "Ikkonfigura Navigazzjoni tat-Tab",
+        "enabledNavs": "Navigazzjonijiet Attivati",
+        "disabledNavs": "Navigazzjonijiet Diżattivati (Disponibbli)",
+        "showLabel": "Uri Tikketta",
+        "showCount": "Uri Għadd",
+        "days": "Jiem",
+        "close": "Agħlaq",
+        "save": "Issejvja",
+        "settings": "Settings",
+        "OpenTabs": "Tabs Miftuħa",
+        "RecentlyTabs": "Tabs Magħluqa Riċentement",
+        "bookmarks": "Bookmarks",
+        "history": "Storja",
+        "readingList": "Lista tal-Qari",
+        "quickAccess": "Aċċess Veloċi",
+        "pinToToolbarReminder": "Jekk jogħġbok pinna l-estensjoni mat-toolbar tiegħek qabel tneħħi din in-navigazzjoni."
+      },
       "bottomNav": {
         "label": "Uri il-barraniżża ta 'navigazzjoni",
         "description": "Meta tkun attivata, il-barra tan-navigazzjoni se tidher",

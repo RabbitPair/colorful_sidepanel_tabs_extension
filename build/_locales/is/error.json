@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Vistaðir hópar eru ekki breytanlegir",
+    "Saved groups are not editable.": "Vistaðir hópar eru ekki breytanlegir",
     "ungroupingError": "Mistókst að afhópa alla flipa: {{error}}"
 }

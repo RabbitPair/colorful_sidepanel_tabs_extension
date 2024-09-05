@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Mag-scroll sa Aktibong Tab"
         }
       },
+      "tabNav": {
+        "label": "Ipakita ang tab navigation bar",
+        "description": "Kapag pinagana, makikita ang tab navigation bar",
+        "configure": "i-configure",
+        "configureTabNav": "I-configure ang Tab Navigation",
+        "enabledNavs": "Mga Aktibong Navigation",
+        "disabledNavs": "Mga Hindi Aktibong Navigation (Magagamit)",
+        "showLabel": "Ipakita ang Label",
+        "showCount": "Ipakita ang Bilang",
+        "days": "Mga Araw",
+        "close": "Isara",
+        "save": "I-save",
+        "settings": "Mga Setting",
+        "OpenTabs": "Mga Bukas na Tab",
+        "RecentlyTabs": "Kamakailang Isinara na Mga Tab",
+        "bookmarks": "Mga Bookmark",
+        "history": "Kasaysayan",
+        "readingList": "Listahan ng Babasahin",
+        "quickAccess": "Mabilis na Pag-access",
+        "pinToToolbarReminder": "Pakipin ang extension sa iyong toolbar bago alisin ang navigation na ito."
+      },
       "bottomNav": {
         "label": "Ipakita ang bar ng bottom navigation",
         "description": "Kapag pinagana, makikita ang bottom navigation bar",

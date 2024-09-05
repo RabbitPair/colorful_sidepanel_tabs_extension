@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Volvunt ad Activam Tabulam"
         }
       },
+      "tabNav": {
+        "label": "Monstra tabulam navigationis",
+        "description": "Cum activa, tabula navigationis ostenditur",
+        "configure": "configura",
+        "configureTabNav": "Configura Tabulam Navigationis",
+        "enabledNavs": "Navigationes Activae",
+        "disabledNavs": "Navigationes Inactivae (Disponibiles)",
+        "showLabel": "Monstra Titulum",
+        "showCount": "Monstra Numerum",
+        "days": "Dies",
+        "close": "Claude",
+        "save": "Salva",
+        "settings": "Occasus",
+        "OpenTabs": "Tabulae Apertae",
+        "RecentlyTabs": "Tabulae Nuper Clausae",
+        "bookmarks": "Notae",
+        "history": "Historia",
+        "readingList": "Index Legendus",
+        "quickAccess": "Accessus Velox",
+        "pinToToolbarReminder": "Quaeso extensionem ad toolbar affige antequam hanc navigationem removes."
+      },
       "bottomNav": {
         "label": "Monstra infima navigationis talea",
         "description": "Cum activa, infima navigatio ostenditur",

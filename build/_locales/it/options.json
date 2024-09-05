@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Scorri alla scheda attiva"
         }
       },
+      "tabNav": {
+        "label": "Mostra barra di navigazione delle schede",
+        "description": "Quando abilitata, la barra di navigazione delle schede viene visualizzata",
+        "configure": "configura",
+        "configureTabNav": "Configura Navigazione Schede",
+        "enabledNavs": "Navigazioni Abilitate",
+        "disabledNavs": "Navigazioni Disabilitate (Disponibili)",
+        "showLabel": "Mostra Etichetta",
+        "showCount": "Mostra Conteggio",
+        "days": "Giorni",
+        "close": "Chiudi",
+        "save": "Salva",
+        "settings": "Impostazioni",
+        "OpenTabs": "Schede Aperte",
+        "RecentlyTabs": "Schede Chiuse di Recente",
+        "bookmarks": "Segnalibri",
+        "history": "Cronologia",
+        "readingList": "Elenco di Lettura",
+        "quickAccess": "Accesso Rapido",
+        "pinToToolbarReminder": "Per favore, aggiungi l'estensione alla barra degli strumenti prima di rimuovere questa navigazione."
+      },
       "bottomNav": {
         "label": "Mostra barra di navigazione inferiore",
         "description": "Quando attivata, la barra di navigazione inferiore sarà visibile",

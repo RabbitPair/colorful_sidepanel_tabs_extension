@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Scroll to Active Tab"
         }
       },
+      "tabNav": {
+        "label": "Show Tab navigation bar",
+        "description": "When enabled, the Tab navigation bar is displayed",
+        "configure": "configure",
+        "configureTabNav": "Configure Tab Navigation",
+        "enabledNavs": "Enabled Navigations",
+        "disabledNavs": "Disabled Navigations (Available)",
+        "showLabel": "Show Label",
+        "showCount": "Show Count",
+        "days": "Days",
+        "close": "Close",
+        "save": "Save",
+        "settings": "Settings",
+        "OpenTabs": "Open Tabs",
+        "RecentlyTabs": "Recently Closed Tabs",
+        "bookmarks": "Bookmarks",
+        "history": "History",
+        "readingList": "Reading List",
+        "quickAccess": "Quick Access",
+        "pinToToolbarReminder": "Please pin the extension to your toolbar before removing this navigation."
+      },
       "bottomNav": {
         "label": "Show bottom navigation bar",
         "description": "When enabled, the bottom navigation bar is displayed",

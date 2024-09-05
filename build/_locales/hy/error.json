@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Պահված խմբերը խմբագրելի չեն",
+    "Saved groups are not editable.": "Պահված խմբերը խմբագրելի չեն",
     "ungroupingError": "Բոլոր ներդիրները խմբավորելը ձախողվեց: {{error}}"
 }

@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Uložené skupiny nelze upravovat",
+    "Saved groups are not editable.": "Uložené skupiny nelze upravovat",
     "ungroupingError": "Nepodařilo se zrušit seskupení všech karet: {{error}}"
 }

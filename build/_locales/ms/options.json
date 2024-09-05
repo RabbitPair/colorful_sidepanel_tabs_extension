@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Tatal ke Tab Aktif"
         }
       },
+      "tabNav": {
+        "label": "Tunjukkan bar navigasi Tab",
+        "description": "Apabila diaktifkan, bar navigasi Tab akan dipaparkan",
+        "configure": "konfigurasi",
+        "configureTabNav": "Konfigurasi Navigasi Tab",
+        "enabledNavs": "Navigasi Diaktifkan",
+        "disabledNavs": "Navigasi Dinonaktifkan (Tersedia)",
+        "showLabel": "Tunjukkan Label",
+        "showCount": "Tunjukkan Kiraan",
+        "days": "Hari",
+        "close": "Tutup",
+        "save": "Simpan",
+        "settings": "Tetapan",
+        "OpenTabs": "Tab Terbuka",
+        "RecentlyTabs": "Tab Ditutup Baru-baru Ini",
+        "bookmarks": "Penanda Halaman",
+        "history": "Sejarah",
+        "readingList": "Senarai Bacaan",
+        "quickAccess": "Akses Pantas",
+        "pinToToolbarReminder": "Sila pin sambungan ini ke bar alat anda sebelum mengalih keluar navigasi ini."
+      },
       "bottomNav": {
         "label": "Tunjukkan bar navigasi bawah",
         "description": "Apabila diaktifkan, bar navigasi bawah akan muncul",

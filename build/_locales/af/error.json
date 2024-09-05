@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Gestoorde groepe is nie wysigbaar nie",
+    "Saved groups are not editable.": "Gestoorde groepe is nie wysigbaar nie",
     "ungroupingError": "Kon nie al die oortjies groepeer nie: {{error}}"
 }

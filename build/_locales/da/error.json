@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Gemte grupper kan ikke redigeres",
+    "Saved groups are not editable.": "Gemte grupper kan ikke redigeres",
     "ungroupingError": "Kunne ikke fjerne grupperingen af alle faner: {{error}}"
 }

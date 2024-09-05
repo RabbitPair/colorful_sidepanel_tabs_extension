@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Rul til aktiv fane"
         }
       },
+      "tabNav": {
+        "label": "Vis fanenavigationslinje",
+        "description": "Når aktiveret, vises fanenavigationslinjen",
+        "configure": "konfigurer",
+        "configureTabNav": "Konfigurer fanenavigation",
+        "enabledNavs": "Aktiverede navigationer",
+        "disabledNavs": "Deaktiverede navigationer (tilgængelige)",
+        "showLabel": "Vis etiket",
+        "showCount": "Vis antal",
+        "days": "Dage",
+        "close": "Luk",
+        "save": "Gem",
+        "settings": "Indstillinger",
+        "OpenTabs": "Åbne faner",
+        "RecentlyTabs": "Senest lukkede faner",
+        "bookmarks": "Bogmærker",
+        "history": "Historik",
+        "readingList": "Læseliste",
+        "quickAccess": "Hurtig adgang",
+        "pinToToolbarReminder": "Husk at fastgøre udvidelsen til din værktøjslinje, før du fjerner denne navigation."
+      },
       "bottomNav": {
         "label": "Vis bundnavigationslinje",
         "description": "Når aktiveret, vises bundnavigationslinjen",

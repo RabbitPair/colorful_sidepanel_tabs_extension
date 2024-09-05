@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Grup yang disimpan tidak dapat diedit",
+    "Saved groups are not editable.": "Grup yang disimpan tidak dapat diedit",
     "ungroupingError": "Gagal untuk melepaskan semua tab: {{error}}"
 }

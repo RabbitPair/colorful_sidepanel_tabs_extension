@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Gordetako taldeak ezin dira editatu",
+    "Saved groups are not editable.": "Gordetako taldeak ezin dira editatu",
     "ungroupingError": "Ezin izan dira fitxa guztiak desegin: {{error}}"
 }

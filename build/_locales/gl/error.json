@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Os grupos gardados non se poden editar",
+    "Saved groups are not editable.": "Os grupos gardados non se poden editar",
     "ungroupingError": "Non se puideron desagrupar todas as pestanas: {{error}}"
 }

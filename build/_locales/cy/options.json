@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Sgroliwch i'r Tab Gweithredol"
         }
       },
+      "tabNav": {
+        "label": "Dangos bar llywio Tab",
+        "description": "Pan fydd wedi'i alluogi, mae'r bar llywio Tab yn cael ei ddangos",
+        "configure": "cyflunio",
+        "configureTabNav": "Cyflunio Llywio Tab",
+        "enabledNavs": "Llywio wedi'u Galluogi",
+        "disabledNavs": "Llywio wedi'u Analluogi (Ar Gael)",
+        "showLabel": "Dangos Label",
+        "showCount": "Dangos Cyfrif",
+        "days": "Dyddiau",
+        "close": "Cau",
+        "save": "Cadw",
+        "settings": "Gosodiadau",
+        "OpenTabs": "Tabiau Agored",
+        "RecentlyTabs": "Tabiau a Gaewyd yn Ddiweddar",
+        "bookmarks": "Nodau Tudalen",
+        "history": "Hanes",
+        "readingList": "Rhestr Ddarllen",
+        "quickAccess": "Mynediad Cyflym",
+        "pinToToolbarReminder": "Rhowch y estyniad ar eich bar offer cyn tynnu'r llywio hwn."
+      },
       "bottomNav": {
         "label": "Dangos y bar llywio gwaelod",
         "description": "Pan fydd hwn wedi'i alluogi, bydd y bar llywio gwaelod yn cael ei dangos",

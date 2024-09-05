@@ -1,4 +1,4 @@
 {
-    "savedGroupsNotEditable": "Zapisane grupy nie są edytowalne",
+    "Saved groups are not editable.": "Zapisane grupy nie są edytowalne",
     "ungroupingError": "Nie udało się rozgrupować wszystkich kart: {{error}}"
 }

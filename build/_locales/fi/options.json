@@ -84,6 +84,27 @@
           "toolbar_scrollToActiveTab": "Vieritä aktiiviselle välilehdelle"
         }
       },
+      "tabNav": {
+        "label": "Näytä välilehtien navigointipalkki",
+        "description": "Kun käytössä, välilehtien navigointipalkki näytetään",
+        "configure": "määritä",
+        "configureTabNav": "Määritä välilehtien navigointi",
+        "enabledNavs": "Käytössä olevat navigoinnit",
+        "disabledNavs": "Poistetut navigoinnit (Saatavilla)",
+        "showLabel": "Näytä nimi",
+        "showCount": "Näytä määrä",
+        "days": "Päivät",
+        "close": "Sulje",
+        "save": "Tallenna",
+        "settings": "Asetukset",
+        "OpenTabs": "Avoimet välilehdet",
+        "RecentlyTabs": "Äskettäin suljetut välilehdet",
+        "bookmarks": "Kirjanmerkit",
+        "history": "Historia",
+        "readingList": "Lukulista",
+        "quickAccess": "Pikakäyttö",
+        "pinToToolbarReminder": "Kiinnitä laajennus työkalupalkkiin ennen tämän navigoinnin poistamista."
+      },
       "bottomNav": {
         "label": "Näytä alavalikkopalkki",
         "description": "Kun tämä asetus on käytössä, alavalikkopalkki tulee näkyviin",
