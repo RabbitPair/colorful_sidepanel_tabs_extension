@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Picture-in-Picture Avançado",
   "APIAccess": "Acesso à API",
   "customizeMenu": "Personalizar Menu",
-  "Automation": "Automação"
+  "Automation": "Automação",
+  "tabIndexTips": "Pressione CMD/Ctrl + {{index}} para alternar para esta aba",
+  "expandTabHistories": "Expandir históricos de abas",
+  "collapseTabHistories": "Recolher históricos de abas",
+  "deleteTabHistory": "Excluir este histórico de aba",
+  "deleteTabHistories": "Excluir todos os históricos desta aba",
+  "clickToGoBack": "Clique para voltar",
+  "clickToGoForward": "Clique para avançar",
+  "loading": "Carregando",
+  "updateBookmarkUrl": "Atualizar URL do favorito",
+  "oldUrl": "URL antiga",
+  "newUrl": "URL nova",
+  "accessible": "Acessível",
+  "foundUrlRedirect": "Redirecionamento de URL encontrado, você quer atualizar?"
 }

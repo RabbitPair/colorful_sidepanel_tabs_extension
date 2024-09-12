@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Atharraich suidheachadh a' bhàr-taobh"
+  },
+  "group_newsInformation": {
+    "message": "Naidheachdan & Fiosrachadh"
+  },
+  "group_videoMovies": {
+    "message": "Bhideothan & Filmean"
+  },
+  "group_liveStreaming": {
+    "message": "Beò & Sruthadh"
+  },
+  "group_entertainmentGames": {
+    "message": "Geamannan & Fèisteas"
+  },
+  "group_musicWebsites": {
+    "message": "Làraichean Ciùil"
+  },
+  "group_literatureNovels": {
+    "message": "Litreachas & Nobhailean"
+  },
+  "group_animeWebsites": {
+    "message": "Làraichean Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-malairt & Bùthan"
+  },
+  "group_technologyDigital": {
+    "message": "Teicneòlas & Didseatach"
+  },
+  "group_sportsFitness": {
+    "message": "Spòrs & Fallaineachd"
+  },
+  "group_medicalHealth": {
+    "message": "Meidigeach & Slàinte"
+  },
+  "group_educationTraining": {
+    "message": "Foghlam & Trèanadh"
+  },
+  "group_skillTraining": {
+    "message": "Trèanadh Sgilean"
+  },
+  "group_financialInvestment": {
+    "message": "Ionmhasail & Tasgadh"
+  },
+  "group_transportationTravel": {
+    "message": "Còmhdhail & Siubhal"
+  },
+  "group_cookingGourmet": {
+    "message": "Còcaireachd & Gourmè"
+  },
+  "group_petCare": {
+    "message": "Cùram Peata"
+  },
+  "group_legalConsultation": {
+    "message": "Co-chomhairle Laghail"
+  },
+  "group_artCulture": {
+    "message": "Ealain & Cultar"
+  },
+  "group_communityForums": {
+    "message": "Fòraman Coimhearsnachd"
+  },
+  "group_chatSocial": {
+    "message": "Cabadaich & Sòisealta"
+  },
+  "group_commonQueries": {
+    "message": "Ceistean Cumanta"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Farsaing & Eile"
+  },
+  "group_jobRecruitment": {
+    "message": "Fastadh Obrach"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Fastadh & Lorg Obrach"
+  },
+  "group_motherBaby": {
+    "message": "Màthair & Leanabh"
+  },
+  "group_tutorialsGuides": {
+    "message": "Oideachadh & Stiùiridhean"
+  },
+  "group_goodSitesCollection": {
+    "message": "Cruinneachadh Làraichean Matha"
+  },
+  "group_blogArticles": {
+    "message": "Artaigilean Bloga"
+  },
+  "group_onlineTools": {
+    "message": "Innealan Air-loidhne"
+  },
+  "group_freeResources": {
+    "message": "Goireasan an-asgaidh"
+  },
+  "group_materialResources": {
+    "message": "Goireasan Stuthan"
+  },
+  "group_photography": {
+    "message": "Dealbhan"
+  },
+  "group_gamblingWebsites": {
+    "message": "Làraichean Gambling"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Siostaman Taobh a-staigh"
   }
 }

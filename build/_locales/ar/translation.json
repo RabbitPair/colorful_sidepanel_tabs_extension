@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "صورة داخل صورة متقدمة",
   "APIAccess": "الوصول إلى API",
   "customizeMenu": "تخصيص القائمة",
-  "Automation": "الأتمتة"
+  "Automation": "الأتمتة",
+  "tabIndexTips": "اضغط CMD/Ctrl + {{index}} للتبديل إلى هذه العلامة",
+  "expandTabHistories": "توسيع تواريخ علامات التبويب",
+  "collapseTabHistories": "طي تواريخ علامات التبويب",
+  "deleteTabHistory": "حذف تاريخ هذه العلامة",
+  "deleteTabHistories": "حذف جميع تواريخ هذه العلامة",
+  "clickToGoBack": "انقر للعودة",
+  "clickToGoForward": "انقر للمتابعة",
+  "loading": "جار التحميل",
+  "updateBookmarkUrl": "تحديث رابط الإشارة المرجعية",
+  "oldUrl": "الرابط القديم",
+  "newUrl": "الرابط الجديد",
+  "accessible": "يمكن الوصول إليه",
+  "foundUrlRedirect": "تم العثور على إعادة توجيه للرابط، هل تريد التحديث؟"
 }

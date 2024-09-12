@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "གུང་སེལ་གནས་སྒྲིག་བརྗེ་བ"
+  },
+  "group_newsInformation": {
+    "message": "གསར་འགོད་དང་ཆོས་འབྱུང་།"
+  },
+  "group_videoMovies": {
+    "message": "བརྙན་འཕྲིན་དང་གློག་བརྙན།"
+  },
+  "group_liveStreaming": {
+    "message": "གཟའ་འཁོར་དང་སྤྱི་སྒྲིལ།"
+  },
+  "group_entertainmentGames": {
+    "message": "རོལ་དར་དང་རྩེད་མོ།"
+  },
+  "group_musicWebsites": {
+    "message": "གླུ་དབྱིབས་ཐོག་ལས།"
+  },
+  "group_literatureNovels": {
+    "message": "ཡིག་རིག་དང་དེབ་རྩོམ།"
+  },
+  "group_animeWebsites": {
+    "message": "རི་བོ་ཐོག་ལས།"
+  },
+  "group_ecommerceShopping": {
+    "message": "དངུལ་འབྲེལ་དང་ཉོ་ཆ་བརྒྱུད།"
+  },
+  "group_technologyDigital": {
+    "message": "གནད་དོན་དང་གློག་ཀླད།"
+  },
+  "group_sportsFitness": {
+    "message": "རྩེད་མོ་དང་སྦྱོང་བརྡར།"
+  },
+  "group_medicalHealth": {
+    "message": "གསོ་བའི་དོན་དང་བདེ་སྐྱིད།"
+  },
+  "group_educationTraining": {
+    "message": "ཡིག་རིག་དང་སློབ་སྦྱོང་།"
+  },
+  "group_skillTraining": {
+    "message": "ལས་རིག་སྦྱོང་བ།"
+  },
+  "group_financialInvestment": {
+    "message": "དངུལ་འབྲེལ་དང་བརྩོན་འགྲུས།"
+  },
+  "group_transportationTravel": {
+    "message": "འཛིན་སྐྱོང་དང་འགྲུལ་སྐྱོད།"
+  },
+  "group_cookingGourmet": {
+    "message": "བཟས་ཆས་དང་བཟས་རིགས།"
+  },
+  "group_petCare": {
+    "message": "དགའ་རོགས་གསོ་སྐྱོང་།"
+  },
+  "group_legalConsultation": {
+    "message": "ཁྲིམས་དོན་བསྟེན་འབྲེལ།"
+  },
+  "group_artCulture": {
+    "message": "རི་གནས་དང་རིག་གནས།"
+  },
+  "group_communityForums": {
+    "message": "སྤྱི་ཚོགས་གྲོས་ཚོགས།"
+  },
+  "group_chatSocial": {
+    "message": "གླེང་མོལ་དང་སྤྱི་ཚོགས།"
+  },
+  "group_commonQueries": {
+    "message": "དོན་དམ་འདྲི་བ།"
+  },
+  "group_comprehensiveOthers": {
+    "message": "རྒྱས་བསྡུས་དང་གཞན་དག"
+  },
+  "group_jobRecruitment": {
+    "message": "ལས་འགན་དང་ལས་འགན་འཚོལ་བ།"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "ལས་འགན་དང་ལས་འགན་འཚོལ་བ།"
+  },
+  "group_motherBaby": {
+    "message": "མེ་རྒྱུད་དང་ཕྲུ་གུ།"
+  },
+  "group_tutorialsGuides": {
+    "message": "ཁྲིད་ཡིག་དང་ཁྲིད་ཡིག།"
+  },
+  "group_goodSitesCollection": {
+    "message": "གནས་གཅིག་གི་བསྡུས་འབྲི།"
+  },
+  "group_blogArticles": {
+    "message": "དྲ་བ་རྩོམ་རིགས།"
+  },
+  "group_onlineTools": {
+    "message": "དྲ་ཐོག་ལས་ལག་ཆ།"
+  },
+  "group_freeResources": {
+    "message": "རིགས་ཆེན་སྤྱི་སྒྲིལ།"
+  },
+  "group_materialResources": {
+    "message": "རིགས་ཆེན་སྤྱི་སྒྲིལ།"
+  },
+  "group_photography": {
+    "message": "རི་མོ་བྲིས་རིགས།"
+  },
+  "group_gamblingWebsites": {
+    "message": "རྩེད་མོ་ཐོག་ལས།"
+  },
+  "group_nsfw": {
+    "message": "མི་འདུག་བརྗེད།"
+  },
+  "group_internalSystems": {
+    "message": "ནང་གི་སྒྲིག་སྟངས།"
   }
 }

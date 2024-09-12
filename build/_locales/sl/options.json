@@ -3,6 +3,7 @@
   "_execute_action": "Aktiviraj to razširitev",
   "openSidePanel": "Odpri stransko ploščo",
   "settings": {
+    "premiumEditionOnly": "Samo v premium izdaji",
     "resetCurrentPageSettings": "Ponastavi nastavitve trenutne strani",
     "modules": {
       "appearance": "Videz",
@@ -287,6 +288,44 @@
         "label": "Zakasnitev predogleda",
         "description": "Nastavi čas zakasnitve za predoglede zavihkov pri lebdenju nad zavihki itd. (sekunde). Če je nastavljeno na 0, ne bo zakasnitve",
         "seconds": "Sekunde"
+      },
+      "showTabIndex": {
+        "label": "Prikaži indeks zavihka",
+        "description": "Ko je omogočeno, bo indeks zavihka prikazan poleg naslova, kar omogoča enostavno aktiviranje zavihka z uporabo [Ctrl+številka] na Windows ali [cmd+številka] na Mac. Primer: 1. stackoverflow.com 2. youtube, tako da je enostavno uporabiti Ctrl + 2 na Windows ali cmd + 2 na Mac za prehod na youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Zgodovina zavihkov",
+        "description": "Ko je omogočeno, bo prikazana zgodovina spletnih mest, odprtih v istem zavihku."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Prikaži zgodovino zavihkov samo na aktivnem zavihku",
+        "description": "Ko je omogočeno, prikaži zgodovino zavihkov samo na aktivnem zavihku, sicer prikaži zgodovino zavihkov na vseh zavihkih."
+      },
+      "tabHistoryExpand": {
+        "label": "Razširi zgodovino zavihkov privzeto",
+        "description": "Ko je omogočeno, bo zgodovina zavihkov privzeto razširjena."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Prikaži gumb za razširitev zgodovine zavihkov na seznamu",
+        "description": "Ko je omogočeno, bo v seznamu zavihkov prikazan gumb, ki ga lahko kliknete za razširitev ali strnitev zgodovine zavihkov. Če je onemogočeno, lahko za razširitev ali strnitev zgodovine zavihkov uporabite samo meni z desnim klikom"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Prikaži URL zgodovine zavihkov",
+        "description": "Ko je omogočeno, bo prikazan URL zgodovine zavihkov, sicer bo prikazan samo naslov"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Prikaži ikono, ko je zgodovina zavihkov strnjena",
+        "description": "Ko je omogočeno, prikaži ikono zgodovine zavihkov, ko je seznam strnjen"
+      },
+      "tabHistorySortBy": {
+        "label": "Vrstni red razvrščanja zgodovine zavihkov",
+        "description": "Izberite vrstni red razvrščanja zgodovine zavihkov",
+        "lastAccessed": "Zadnji dostop",
+        "createdAt": "Čas ustvarjanja"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Število vnosov zgodovine zavihkov za prikaz",
+        "description": "Omejite največje število vnosov zgodovine zavihkov za prikaz. Vnosi, ki presegajo omejitev, bodo skriti"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dvojni klik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Napredne skupine zavihkov",
+      "customGroupNames": {
+        "label": "Imena prilagojenih skupin",
+        "description": "Tukaj lahko dodate nekaj vnaprej določenih skupin, da jih lahko hitro izberete, ko morate dodati zavihke v skupino. Nekatera imena skupin smo že nastavili, ki jih lahko po potrebi spremenite ali izbrišete.",
+        "ManageGroupNames": "Upravljaj imena skupin",
+        "CustomGroupNames": "Prilagojena imena skupin",
+        "ConfirmDelete": "Potrdi brisanje",
+        "ConfirmDeleteMsg": "Ali ste prepričani, da želite izbrisati to ime?",
+        "AddNewName": "Dodaj novo ime",
+        "Cancel": "Prekliči",
+        "Delete": "Izbriši",
+        "Close": "Zapri"
+      },
+      "customGroupRemember": {
+        "label": "Zapomni si razvrstitev strani",
+        "description": "Ko je omogočeno, bo spletno mesto, ki je dodano v prilagojeno skupino, samodejno uporabilo to skupino ob naslednjem odprtju strani"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Obnašanje strnitve skupine zavihkov",
         "description": "Spremenite obnašanje strnitve skupine zavihkov v brskalniku Chrome",
         "option_collapse_others": "Prikaži trenutno skupino in strni ostale",
         "option_disable": "Razširi vse skupine",
         "option_auto": "Uporabi privzete nastavitve Chroma"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Uporabi ime mape z zaznamki kot ime skupine",
+        "description": "Samodejno uporabi ime mape z zaznamki kot ime skupine, če je odprti URL v zaznamkih",
+        "enabled": "Omogočeno",
+        "disabled": "Onemogočeno"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Izberite raven mape z zaznamki",
+        "description": "Izberite raven mape z zaznamki, ki jo želite uporabiti kot ime skupine",
+        "top": "Najvišja raven",
+        "parent": "Nadrejena raven",
+        "full": "Polna pot"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Samodejno ustvari ali se pridruži skupini iste domene",
@@ -519,6 +588,16 @@
         "target_top": "Najvišji zavihek",
         "save": "Shrani",
         "close": "Zapri"
+      },
+      "backgroundColor": {
+        "label": "Barva ozadja",
+        "description": "Izberite barvo ozadja za to spletno mesto.",
+        "random": "Naključno",
+        "clear": "Počisti"
+      },
+      "fontColor": {
+        "label": "Barva pisave",
+        "description": "Nastavite barvo pisave za to spletno mesto."
       }
     },
     "quickAccess": {

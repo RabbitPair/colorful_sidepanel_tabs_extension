@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Avancerad Bild-i-Bild",
   "APIAccess": "API-åtkomst",
   "customizeMenu": "Anpassa meny",
-  "Automation": "Automation"
+  "Automation": "Automation",
+  "tabIndexTips": "Tryck CMD/Ctrl + {{index}} för att byta till denna flik",
+  "expandTabHistories": "Expandera flikhistorik",
+  "collapseTabHistories": "Minimera flikhistorik",
+  "deleteTabHistory": "Radera denna flikhistorik",
+  "deleteTabHistories": "Radera all historik för denna flik",
+  "clickToGoBack": "Klicka för att gå tillbaka",
+  "clickToGoForward": "Klicka för att gå framåt",
+  "loading": "Laddar",
+  "updateBookmarkUrl": "Uppdatera bokmärkes-URL",
+  "oldUrl": "Gammal URL",
+  "newUrl": "Ny URL",
+  "accessible": "Tillgänglig",
+  "foundUrlRedirect": "Hittade URL-omdirigering, vill du uppdatera?"
 }

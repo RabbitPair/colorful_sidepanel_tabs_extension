@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Delwedd Uwch mewn Delwedd",
   "APIAccess": "Mynediad API",
   "customizeMenu": "Addasu'r Dewislen",
-  "Automation": "Awtomeiddio"
+  "Automation": "Awtomeiddio",
+  "tabIndexTips": "Pwyswch CMD/Ctrl + {{index}} i newid i'r tab hwn",
+  "expandTabHistories": "Ehangu hanesion tab",
+  "collapseTabHistories": "Cwympo hanesion tab",
+  "deleteTabHistory": "Dileu'r hanes tab hwn",
+  "deleteTabHistories": "Dileu pob hanes o'r tab hwn",
+  "clickToGoBack": "Cliciwch i fynd yn ôl",
+  "clickToGoForward": "Cliciwch i fynd ymlaen",
+  "loading": "Llwytho",
+  "updateBookmarkUrl": "Diweddaru URL Nod Tudalen",
+  "oldUrl": "Hen URL",
+  "newUrl": "URL Newydd",
+  "accessible": "Hygyrch",
+  "foundUrlRedirect": "Canfuwyd ailgyfeirio URL, ydych chi eisiau diweddaru?"
 }

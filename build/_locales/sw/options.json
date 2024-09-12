@@ -3,6 +3,7 @@
   "_execute_action": "Tumia kipengele hiki",
   "openSidePanel": "Fungua upau wa kando",
   "settings": {
+    "premiumEditionOnly": "Tofauti ya Edisheni ya Malipo",
     "resetCurrentPageSettings": "Weka upya mipangilio ya ukurasa wa sasa",
     "modules": {
       "appearance": "Muonekano",
@@ -287,6 +288,44 @@
         "label": "Kuchelewesha hakiki",
         "description": "Weka muda wa kuchelewa kwa hakiki za vichupo wakati wa kubonyeza juu ya vichupo, n.k. (sekunde). Ikiwa imewekwa kuwa 0, hakutakuwa na kuchelewa",
         "seconds": "Sekunde"
+      },
+      "showTabIndex": {
+        "label": "Onyesha faharasa ya kichupo",
+        "description": "Ukiwezeshwa, faharasa ya kichupo itaonyeshwa karibu na kichwa, na kufanya iwe rahisi kuamsha kichupo kwa kutumia [Ctrl+number] kwenye Windows au [cmd+number] kwenye Mac. Mfano: 1. stackoverflow.com 2. youtube, ili iwe rahisi kufanya Ctrl + 2 kwenye Windows au cmd + 2 kwenye Mac kwenda youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historia ya vichupo",
+        "description": "Ukiwezeshwa, historia ya tovuti zilizofunguliwa kwenye kichupo kimoja itaonyeshwa."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Onyesha historia ya vichupo kwenye kichupo kinachotumika pekee",
+        "description": "Ukiwezeshwa, onyesha historia ya vichupo kwenye kichupo kinachotumika pekee, vinginevyo onyesha historia ya vichupo kwenye vichupo vyote."
+      },
+      "tabHistoryExpand": {
+        "label": "Panua historia ya vichupo kwa chaguo-msingi",
+        "description": "Ukiwezeshwa, historia ya vichupo itapanuliwa kwa chaguo-msingi."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Onyesha kitufe cha kupanua historia ya vichupo kwenye orodha",
+        "description": "Ukiwezeshwa, kitufe kitaonyeshwa kwenye orodha ya vichupo ambacho unaweza kubofya kupanua au kufupisha historia ya vichupo. Ikiwa imelemazwa, unaweza kutumia menyu ya kubofya kulia pekee kupanua au kufupisha historia ya vichupo"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Onyesha URL ya historia ya vichupo",
+        "description": "Ukiwezeshwa, URL ya historia ya vichupo itaonyeshwa, vinginevyo kichwa pekee kitaonyeshwa"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Onyesha ikoni wakati historia ya vichupo imefupishwa",
+        "description": "Ukiwezeshwa, onyesha ikoni ya historia ya vichupo wakati orodha imefupishwa"
+      },
+      "tabHistorySortBy": {
+        "label": "Mpangilio wa historia ya vichupo",
+        "description": "Chagua mpangilio wa historia ya vichupo",
+        "lastAccessed": "Iliyotembelewa mwisho",
+        "createdAt": "Wakati wa kuundwa"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Idadi ya historia ya vichupo kuonyesha",
+        "description": "Weka kikomo cha idadi ya historia ya vichupo kuonyesha. Kumbukumbu zinazozidi kikomo zitafichwa"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Bofya mara mbili"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Vikundi vya vichupo vya hali ya juu",
+      "customGroupNames": {
+        "label": "Majina ya vikundi maalum",
+        "description": "Unaweza kuongeza vikundi vilivyotangulia hapa, ili uweze kuvichagua haraka unapohitaji kuongeza vichupo kwenye kikundi. Tayari tumeweka majina ya vikundi, ambayo unaweza kubadilisha au kufuta kulingana na mahitaji yako.",
+        "ManageGroupNames": "Dhibiti Majina ya Vikundi",
+        "CustomGroupNames": "Majina ya Vikundi Maalum",
+        "ConfirmDelete": "Thibitisha Kufuta",
+        "ConfirmDeleteMsg": "Je, una uhakika unataka kufuta jina hili?",
+        "AddNewName": "Ongeza jina jipya",
+        "Cancel": "Ghairi",
+        "Delete": "Futa",
+        "Close": "Funga"
+      },
+      "customGroupRemember": {
+        "label": "Kumbuka kikundi cha tovuti",
+        "description": "Ikiwa imewezeshwa, ikiwa tovuti itaongezwa kwenye kikundi maalum, itatumia kikundi hiki moja kwa moja wakati tovuti itakapofunguliwa tena"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tabia ya Kufupisha Kikundi cha Vichupo",
         "description": "Badilisha tabia ya kufupisha kikundi cha vichupo cha kivinjari cha Chrome",
         "option_collapse_others": "Onyesha kikundi cha sasa na kufupisha vingine",
         "option_disable": "Fungua vikundi vyote",
         "option_auto": "Tumia mipangilio ya msingi ya Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Tumia jina la folda ya alamisho kama jina la kikundi",
+        "description": "Tumia moja kwa moja jina la folda ya alamisho kama jina la kikundi ikiwa URL iliyofunguliwa iko kwenye alamisho",
+        "enabled": "Imewezeshwa",
+        "disabled": "Imelemazwa"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Chagua Kiwango cha Folda ya Alamisho",
+        "description": "Chagua kiwango cha folda ya alamisho kutumia kama jina la kikundi",
+        "top": "Kiwango cha Juu",
+        "parent": "Kiwango cha Mzazi",
+        "full": "Njia Kamili"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Tumia moja kwa moja au jiunge na kikundi cha kikoa sawa",
@@ -519,6 +588,16 @@
         "target_top": "Kichupo cha Juu Zaidi",
         "save": "Hifadhi",
         "close": "Funga"
+      },
+      "backgroundColor": {
+        "label": "Mandhari ya Nyuma",
+        "description": "Chagua rangi ya mandhari kwa tovuti hii.",
+        "random": "Random",
+        "clear": "Clear"
+      },
+      "fontColor": {
+        "label": "Rangi ya Fonti",
+        "description": "Weka rangi ya fonti kwa tovuti hii."
       }
     },
     "quickAccess": {

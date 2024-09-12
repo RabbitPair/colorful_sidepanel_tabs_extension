@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Napredna slika u slici",
   "APIAccess": "API pristup",
   "customizeMenu": "Prilagodi izbornik",
-  "Automation": "Automatizacija"
+  "Automation": "Automatizacija",
+  "tabIndexTips": "Pritisnite CMD/Ctrl + {{index}} za prebacivanje na ovu karticu",
+  "expandTabHistories": "Proširi povijesti kartica",
+  "collapseTabHistories": "Sažmi povijesti kartica",
+  "deleteTabHistory": "Izbriši ovu povijest kartice",
+  "deleteTabHistories": "Izbriši sve povijesti ove kartice",
+  "clickToGoBack": "Kliknite za povratak",
+  "clickToGoForward": "Kliknite za naprijed",
+  "loading": "Učitavanje",
+  "updateBookmarkUrl": "Ažuriraj URL oznake",
+  "oldUrl": "Stari URL",
+  "newUrl": "Novi URL",
+  "accessible": "Dostupno",
+  "foundUrlRedirect": "Pronađeno preusmjeravanje URL-a, želite li ažurirati?"
 }

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "የተሻሻለ ምስል በምስል",
   "APIAccess": "API መዳረሻ",
   "customizeMenu": "ምናሌን አርትዕ",
-  "Automation": "ራስ-ሰር ማድረግ"
+  "Automation": "ራስ-ሰር ማድረግ",
+  "tabIndexTips": "CMD/Ctrl + {{index}} በመጫን ወደዚህ ትር ተቀይር",
+  "expandTabHistories": "የትሮችን ታሪኮች አስፋፊ",
+  "collapseTabHistories": "የትሮችን ታሪኮች አቅንቅ",
+  "deleteTabHistory": "ይህን የትር ታሪክ ሰርዝ",
+  "deleteTabHistories": "የዚህን ትር ሁሉንም ታሪኮች ሰርዝ",
+  "clickToGoBack": "ለመመለስ ጠቅ ያድርጉ",
+  "clickToGoForward": "ለመቀጠል ጠቅ ያድርጉ",
+  "loading": "በመጫን ላይ",
+  "updateBookmarkUrl": "የተመረጠ ገጽ አድራሻ አዘምን",
+  "oldUrl": "የቀደሙት አድራሻ",
+  "newUrl": "አዲስ አድራሻ",
+  "accessible": "ሊደረስበት የሚችል",
+  "foundUrlRedirect": "የአድራሻ መላኪያ ተገኝቷል፣ ማዘመን ትፈልጋለህ?"
 }

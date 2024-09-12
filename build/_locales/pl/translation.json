@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Zaawansowany obraz w obrazie",
   "APIAccess": "Dostęp do API",
   "customizeMenu": "Dostosuj menu",
-  "Automation": "Automatyzacja"
+  "Automation": "Automatyzacja",
+  "tabIndexTips": "Naciśnij CMD/Ctrl + {{index}}, aby przełączyć się na tę kartę",
+  "expandTabHistories": "Rozwiń historię kart",
+  "collapseTabHistories": "Zwiń historię kart",
+  "deleteTabHistory": "Usuń tę historię karty",
+  "deleteTabHistories": "Usuń wszystkie historie tej karty",
+  "clickToGoBack": "Kliknij, aby wrócić",
+  "clickToGoForward": "Kliknij, aby przejść dalej",
+  "loading": "Ładowanie",
+  "updateBookmarkUrl": "Zaktualizuj URL zakładki",
+  "oldUrl": "Stary URL",
+  "newUrl": "Nowy URL",
+  "accessible": "Dostępny",
+  "foundUrlRedirect": "Znaleziono przekierowanie URL, czy chcesz zaktualizować?"
 }

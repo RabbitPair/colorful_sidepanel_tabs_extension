@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Перемкнути положення бічної панелі"
+  },
+  "group_newsInformation": {
+    "message": "Новини та інформація"
+  },
+  "group_videoMovies": {
+    "message": "Відео та фільми"
+  },
+  "group_liveStreaming": {
+    "message": "Прямі трансляції"
+  },
+  "group_entertainmentGames": {
+    "message": "Ігри та розваги"
+  },
+  "group_musicWebsites": {
+    "message": "Музичні сайти"
+  },
+  "group_literatureNovels": {
+    "message": "Література та романи"
+  },
+  "group_animeWebsites": {
+    "message": "Аніме сайти"
+  },
+  "group_ecommerceShopping": {
+    "message": "Електронна комерція та покупки"
+  },
+  "group_technologyDigital": {
+    "message": "Технології та цифрові"
+  },
+  "group_sportsFitness": {
+    "message": "Спорт та фітнес"
+  },
+  "group_medicalHealth": {
+    "message": "Медицина та здоров'я"
+  },
+  "group_educationTraining": {
+    "message": "Освіта та навчання"
+  },
+  "group_skillTraining": {
+    "message": "Навчання навичкам"
+  },
+  "group_financialInvestment": {
+    "message": "Фінанси та інвестиції"
+  },
+  "group_transportationTravel": {
+    "message": "Транспорт та подорожі"
+  },
+  "group_cookingGourmet": {
+    "message": "Кулінарія та гурман"
+  },
+  "group_petCare": {
+    "message": "Догляд за домашніми тваринами"
+  },
+  "group_legalConsultation": {
+    "message": "Юридична консультація"
+  },
+  "group_artCulture": {
+    "message": "Мистецтво та культура"
+  },
+  "group_communityForums": {
+    "message": "Форуми спільноти"
+  },
+  "group_chatSocial": {
+    "message": "Чат та соціальні мережі"
+  },
+  "group_commonQueries": {
+    "message": "Поширені запити"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Всеохоплюючі та інші"
+  },
+  "group_jobRecruitment": {
+    "message": "Рекрутинг"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Рекрутинг та пошук роботи"
+  },
+  "group_motherBaby": {
+    "message": "Мати та дитина"
+  },
+  "group_tutorialsGuides": {
+    "message": "Посібники та керівництва"
+  },
+  "group_goodSitesCollection": {
+    "message": "Колекція хороших сайтів"
+  },
+  "group_blogArticles": {
+    "message": "Блог статті"
+  },
+  "group_onlineTools": {
+    "message": "Онлайн інструменти"
+  },
+  "group_freeResources": {
+    "message": "Безкоштовні ресурси"
+  },
+  "group_materialResources": {
+    "message": "Матеріальні ресурси"
+  },
+  "group_photography": {
+    "message": "Фотографія"
+  },
+  "group_gamblingWebsites": {
+    "message": "Сайти азартних ігор"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Внутрішні системи"
   }
 }

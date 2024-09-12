@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Vaheta külgriba asukohta"
+  },
+  "group_newsInformation": {
+    "message": "Uudised ja teave"
+  },
+  "group_videoMovies": {
+    "message": "Videod ja filmid"
+  },
+  "group_liveStreaming": {
+    "message": "Otseülekanne ja voogesitus"
+  },
+  "group_entertainmentGames": {
+    "message": "Mängud ja meelelahutus"
+  },
+  "group_musicWebsites": {
+    "message": "Muusika veebisaidid"
+  },
+  "group_literatureNovels": {
+    "message": "Kirjandus ja romaanid"
+  },
+  "group_animeWebsites": {
+    "message": "Anime veebisaidid"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-kaubandus ja ostlemine"
+  },
+  "group_technologyDigital": {
+    "message": "Tehnoloogia ja digitaalne"
+  },
+  "group_sportsFitness": {
+    "message": "Sport ja fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Meditsiin ja tervis"
+  },
+  "group_educationTraining": {
+    "message": "Haridus ja koolitus"
+  },
+  "group_skillTraining": {
+    "message": "Oskuste koolitus"
+  },
+  "group_financialInvestment": {
+    "message": "Finants ja investeeringud"
+  },
+  "group_transportationTravel": {
+    "message": "Transport ja reisimine"
+  },
+  "group_cookingGourmet": {
+    "message": "Kokandus ja gurmee"
+  },
+  "group_petCare": {
+    "message": "Lemmikloomade hooldus"
+  },
+  "group_legalConsultation": {
+    "message": "Õigusnõustamine"
+  },
+  "group_artCulture": {
+    "message": "Kunst ja kultuur"
+  },
+  "group_communityForums": {
+    "message": "Kogukonna foorumid"
+  },
+  "group_chatSocial": {
+    "message": "Vestlus ja sotsiaalne"
+  },
+  "group_commonQueries": {
+    "message": "Levinud küsimused"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Põhjalik ja muu"
+  },
+  "group_jobRecruitment": {
+    "message": "Töölevõtmine"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Töölevõtmine ja tööotsimine"
+  },
+  "group_motherBaby": {
+    "message": "Ema ja beebi"
+  },
+  "group_tutorialsGuides": {
+    "message": "Õpetused ja juhendid"
+  },
+  "group_goodSitesCollection": {
+    "message": "Heade saitide kogu"
+  },
+  "group_blogArticles": {
+    "message": "Blogi artiklid"
+  },
+  "group_onlineTools": {
+    "message": "Veebitööriistad"
+  },
+  "group_freeResources": {
+    "message": "Tasuta ressursid"
+  },
+  "group_materialResources": {
+    "message": "Materjalid"
+  },
+  "group_photography": {
+    "message": "Fotograafia"
+  },
+  "group_gamblingWebsites": {
+    "message": "Hasartmängude veebisaidid"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sisesüsteemid"
   }
 }

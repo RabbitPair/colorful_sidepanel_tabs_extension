@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Edistynyt kuva kuvassa",
   "APIAccess": "API-käyttö",
   "customizeMenu": "Mukauta valikko",
-  "Automation": "Automaatio"
+  "Automation": "Automaatio",
+  "tabIndexTips": "Paina CMD/Ctrl + {{index}} vaihtaaksesi tähän välilehteen",
+  "expandTabHistories": "Laajenna välilehtihistoriat",
+  "collapseTabHistories": "Tiivistä välilehtihistoriat",
+  "deleteTabHistory": "Poista tämä välilehtihistoria",
+  "deleteTabHistories": "Poista kaikki tämän välilehden historiat",
+  "clickToGoBack": "Napsauta palataksesi takaisin",
+  "clickToGoForward": "Napsauta siirtyäksesi eteenpäin",
+  "loading": "Ladataan",
+  "updateBookmarkUrl": "Päivitä kirjanmerkin URL",
+  "oldUrl": "Vanha URL",
+  "newUrl": "Uusi URL",
+  "accessible": "Saavutettava",
+  "foundUrlRedirect": "Löydetty URL-uudelleenohjaus, haluatko päivittää?"
 }

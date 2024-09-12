@@ -3,6 +3,7 @@
   "_execute_action": "激活此擴展",
   "openSidePanel": "打開側邊欄",
   "settings": {
+    "premiumEditionOnly": "僅限高級版",
     "resetCurrentPageSettings": "重置當前頁面設置",
     "modules": {
       "appearance": "外觀",
@@ -287,6 +288,44 @@
         "label": "預覽延遲",
         "description": "設置懸停在標籤頁上等時標籤頁預覽的延遲時間（秒）。如果設置為0，則沒有延遲",
         "seconds": "秒"
+      },
+      "showTabIndex": {
+        "label": "顯示標籤頁索引",
+        "description": "啟用後，標籤頁索引將顯示在標題旁邊，使其易於使用[Ctrl+數字]在Windows上或[cmd+數字]在Mac上激活標籤頁。例如：1. stackoverflow.com 2. youtube，因此在Windows上按Ctrl + 2或在Mac上按cmd + 2即可轉到youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "標籤頁歷史",
+        "description": "啟用後，將顯示在同一標籤頁中打開的網站歷史記錄。"
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "僅在活動標籤頁上顯示標籤頁歷史",
+        "description": "啟用後，僅在活動標籤頁上顯示標籤頁歷史，否則在所有標籤頁上顯示標籤頁歷史。"
+      },
+      "tabHistoryExpand": {
+        "label": "默認展開標籤頁歷史",
+        "description": "啟用後，標籤頁歷史將默認展開。"
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "在列表中顯示展開標籤頁歷史按鈕",
+        "description": "啟用後，標籤頁列表中將顯示一個按鈕，您可以單擊該按鈕來展開或折疊標籤頁歷史。如果禁用，您只能使用右鍵菜單來展開或折疊標籤頁歷史"
+      },
+      "tabHistoryShowUrl": {
+        "label": "顯示標籤頁歷史URL",
+        "description": "啟用後，將顯示標籤頁歷史URL，否則僅顯示標題"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "標籤頁歷史折疊時顯示圖標",
+        "description": "啟用後，當列表折疊時顯示標籤頁歷史圖標"
+      },
+      "tabHistorySortBy": {
+        "label": "標籤頁歷史排序順序",
+        "description": "選擇標籤頁歷史的排序順序",
+        "lastAccessed": "最後訪問",
+        "createdAt": "創建時間"
+      },
+      "tabHistoryKeepCount": {
+        "label": "顯示的標籤頁歷史條目數量",
+        "description": "限制顯示的標籤頁歷史條目的最大數量。超出限制的條目將被隱藏"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "雙擊"
     },
     "chromeTabGroupAdvanced": {
+      "label": "進階標籤組",
+      "customGroupNames": {
+        "label": "自訂組名",
+        "description": "您可以在此處添加一些預定義的組，以便在需要將標籤頁添加到組時快速選擇它們。我們已經預設了一些組名，您可以根據需要修改或刪除它們。",
+        "ManageGroupNames": "管理組名",
+        "CustomGroupNames": "自訂組名",
+        "ConfirmDelete": "確認刪除",
+        "ConfirmDeleteMsg": "您確定要刪除此名稱嗎？",
+        "AddNewName": "添加新名稱",
+        "Cancel": "取消",
+        "Delete": "刪除",
+        "Close": "關閉"
+      },
+      "customGroupRemember": {
+        "label": "記住網站分組",
+        "description": "啟用後，如果將網站添加到自訂組，下次打開該網站時將自動使用此組"
+      },
       "tabGroupCollapseBehavior": {
         "label": "標籤組折疊行為",
         "description": "修改瀏覽器標籤組折疊的行為",
         "option_collapse_others": "顯示當前組並折疊其他組",
         "option_disable": "展開所有組",
         "option_auto": "使用瀏覽器默認設置"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "將書籤文件夾名稱用作組名",
+        "description": "如果打開的 URL 在書籤中，則自動將書籤文件夾名稱用作組名",
+        "enabled": "已啟用",
+        "disabled": "已禁用"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "選擇書籤文件夾級別",
+        "description": "選擇要用作組名的書籤文件夾級別",
+        "top": "頂級",
+        "parent": "父級",
+        "full": "完整路徑"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自動創建或加入同域名分組",
@@ -519,6 +588,16 @@
         "target_top": "最頂層標籤頁",
         "save": "保存",
         "close": "關閉"
+      },
+      "backgroundColor": {
+        "label": "背景顏色",
+        "description": "為此網站選擇一種背景顏色。",
+        "random": "隨機",
+        "clear": "清除"
+      },
+      "fontColor": {
+        "label": "字體顏色",
+        "description": "設置此網站的字體顏色。"
       }
     },
     "quickAccess": {

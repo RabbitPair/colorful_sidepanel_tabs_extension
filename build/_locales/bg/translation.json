@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Разширен режим картина в картина",
   "APIAccess": "Достъп до API",
   "customizeMenu": "Персонализиране на менюто",
-  "Automation": "Автоматизация"
+  "Automation": "Автоматизация",
+  "tabIndexTips": "Натиснете CMD/Ctrl + {{index}}, за да превключите към този раздел",
+  "expandTabHistories": "Разширяване на историята на разделите",
+  "collapseTabHistories": "Свиване на историята на разделите",
+  "deleteTabHistory": "Изтриване на историята на този раздел",
+  "deleteTabHistories": "Изтриване на всички истории на този раздел",
+  "clickToGoBack": "Кликнете, за да се върнете назад",
+  "clickToGoForward": "Кликнете, за да продължите напред",
+  "loading": "Зареждане",
+  "updateBookmarkUrl": "Актуализиране на URL на отметката",
+  "oldUrl": "Стар URL",
+  "newUrl": "Нов URL",
+  "accessible": "Достъпен",
+  "foundUrlRedirect": "Намерен е пренасочен URL, искате ли да го актуализирате?"
 }

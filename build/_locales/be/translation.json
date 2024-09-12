@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Пашыраны рэжым карцінка ў карцінцы",
   "APIAccess": "Доступ да API",
   "customizeMenu": "Наладзіць меню",
-  "Automation": "Аўтаматызацыя"
+  "Automation": "Аўтаматызацыя",
+  "tabIndexTips": "Націсніце CMD/Ctrl + {{index}}, каб пераключыцца на гэтую ўкладку",
+  "expandTabHistories": "Разгарнуць гісторыі ўкладак",
+  "collapseTabHistories": "Згарнуць гісторыі ўкладак",
+  "deleteTabHistory": "Выдаліць гісторыю гэтай укладкі",
+  "deleteTabHistories": "Выдаліць усе гісторыі гэтай укладкі",
+  "clickToGoBack": "Націсніце, каб вярнуцца назад",
+  "clickToGoForward": "Націсніце, каб працягнуць",
+  "loading": "Загрузка",
+  "updateBookmarkUrl": "Абнавіць URL закладкі",
+  "oldUrl": "Стары URL",
+  "newUrl": "Новы URL",
+  "accessible": "Даступны",
+  "foundUrlRedirect": "Знойдзена перанакіраванне URL, абнавіць?"
 }

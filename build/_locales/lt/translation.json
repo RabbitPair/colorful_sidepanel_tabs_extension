@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Pažangus vaizdas vaizde",
   "APIAccess": "API prieiga",
   "customizeMenu": "Tinkinti meniu",
-  "Automation": "Automatizavimas"
+  "Automation": "Automatizavimas",
+  "tabIndexTips": "Paspauskite CMD/Ctrl + {{index}}, kad pereitumėte į šį skirtuką",
+  "expandTabHistories": "Išplėsti skirtukų istorijas",
+  "collapseTabHistories": "Sutraukti skirtukų istorijas",
+  "deleteTabHistory": "Ištrinti šio skirtuko istoriją",
+  "deleteTabHistories": "Ištrinti visas šio skirtuko istorijas",
+  "clickToGoBack": "Spustelėkite, kad grįžtumėte atgal",
+  "clickToGoForward": "Spustelėkite, kad eitumėte pirmyn",
+  "loading": "Įkeliama",
+  "updateBookmarkUrl": "Atnaujinti žymės URL",
+  "oldUrl": "Senas URL",
+  "newUrl": "Naujas URL",
+  "accessible": "Prieinama",
+  "foundUrlRedirect": "Rasta URL peradresavimas, ar norite atnaujinti?"
 }

@@ -3,6 +3,7 @@
   "_execute_action": "Isaaktibo ang extension na ito",
   "openSidePanel": "Buksan ang side panel",
   "settings": {
+    "premiumEditionOnly": "Tanging premium edition",
     "resetCurrentPageSettings": "I-reset ang mga setting ng kasalukuyang pahina",
     "modules": {
       "appearance": "Hitsura",
@@ -287,6 +288,44 @@
         "label": "Pagkaantala ng preview",
         "description": "Itakda ang oras ng pagkaantala para sa mga preview ng tab kapag nag-hover sa mga tab, atbp. (segundo). Kung itatakda sa 0, walang pagkaantala",
         "seconds": "Segundo"
+      },
+      "showTabIndex": {
+        "label": "Ipakita ang index ng tab",
+        "description": "Kapag pinagana, ang index ng tab ay ipapakita sa tabi ng pamagat, na ginagawang madali ang pag-activate ng tab gamit ang [Ctrl+number] sa Windows o [cmd+number] sa Mac. Halimbawa: 1. stackoverflow.com 2. youtube, upang madali itong gawin Ctrl + 2 sa Windows o cmd + 2 sa Mac upang pumunta sa youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Kasaysayan ng tab",
+        "description": "Kapag pinagana, ang kasaysayan ng mga website na binuksan sa parehong tab ay ipapakita."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Ipakita ang kasaysayan ng tab sa aktibong tab lamang",
+        "description": "Kapag pinagana, ipakita ang kasaysayan ng tab sa aktibong tab lamang, kung hindi ipakita ang kasaysayan ng tab sa lahat ng mga tab."
+      },
+      "tabHistoryExpand": {
+        "label": "Palawakin ang kasaysayan ng tab bilang default",
+        "description": "Kapag pinagana, ang kasaysayan ng tab ay palalawakin bilang default."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Ipakita ang pindutan ng palawakin ang kasaysayan ng tab sa listahan",
+        "description": "Kapag pinagana, isang pindutan ang ipapakita sa listahan ng tab na maaari mong i-click upang palawakin o i-collapse ang kasaysayan ng tab. Kung hindi pinagana, maaari mo lamang gamitin ang menu ng pag-right-click upang palawakin o i-collapse ang kasaysayan ng tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Ipakita ang URL ng kasaysayan ng tab",
+        "description": "Kapag pinagana, ang URL ng kasaysayan ng tab ay ipapakita, kung hindi tanging ang pamagat lamang ang ipapakita"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Ipakita ang icon kapag naka-collapse ang kasaysayan ng tab",
+        "description": "Kapag pinagana, ipakita ang icon ng kasaysayan ng tab kapag ang listahan ay naka-collapse"
+      },
+      "tabHistorySortBy": {
+        "label": "Pagkakasunud-sunod ng kasaysayan ng tab",
+        "description": "Piliin ang pagkakasunud-sunod ng kasaysayan ng tab",
+        "lastAccessed": "Huling na-access",
+        "createdAt": "Oras ng paglikha"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Bilang ng mga entry ng kasaysayan ng tab na ipapakita",
+        "description": "Limitahan ang maximum na bilang ng mga entry ng kasaysayan ng tab na ipapakita. Ang mga entry na lumampas sa limitasyon ay itatago"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Double-click"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Advanced na mga grupo ng tab",
+      "customGroupNames": {
+        "label": "Mga custom na pangalan ng grupo",
+        "description": "Maaari kang magdagdag ng ilang mga pre-defined na grupo dito, upang mabilis mong mapili ang mga ito kapag kailangan mong magdagdag ng mga tab sa isang grupo. Na-preset na namin ang ilang mga pangalan ng grupo, na maaari mong baguhin o tanggalin ayon sa iyong mga pangangailangan.",
+        "ManageGroupNames": "Pamahalaan ang Mga Pangalan ng Grupo",
+        "CustomGroupNames": "Mga Custom na Pangalan ng Grupo",
+        "ConfirmDelete": "Kumpirmahin ang Pagtanggal",
+        "ConfirmDeleteMsg": "Sigurado ka bang gusto mong tanggalin ang pangalang ito?",
+        "AddNewName": "Magdagdag ng bagong pangalan",
+        "Cancel": "Kanselahin",
+        "Delete": "Tanggalin",
+        "Close": "Isara"
+      },
+      "customGroupRemember": {
+        "label": "Tandaan ang pag-grupo ng site",
+        "description": "Kapag pinagana, kung ang isang site ay idinagdag sa isang custom na grupo, awtomatiko nitong gagamitin ang grupong ito sa susunod na buksan ang site"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Pag-uugali ng pag-collapse ng tab group",
         "description": "Baguhin ang pag-uugali ng pag-collapse ng tab group sa Chrome browser",
         "option_collapse_others": "Ipakita ang kasalukuyang grupo at i-collapse ang iba",
         "option_disable": "I-expand ang lahat ng grupo",
         "option_auto": "Gamitin ang default na mga setting ng Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Gamitin ang pangalan ng folder ng bookmark bilang pangalan ng grupo",
+        "description": "Awtomatikong gamitin ang pangalan ng folder ng bookmark bilang pangalan ng grupo kung ang binuksang URL ay nasa mga bookmark",
+        "enabled": "Pinagana",
+        "disabled": "Hindi pinagana"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Piliin ang Antas ng Folder ng Bookmark",
+        "description": "Piliin ang antas ng folder ng bookmark na gagamitin bilang pangalan ng grupo",
+        "top": "Nangungunang Antas",
+        "parent": "Antas ng Magulang",
+        "full": "Buong Landas"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Awtomatikong lumikha o sumali sa parehong domain group",
@@ -519,6 +588,16 @@
         "target_top": "Pinaka-nakakataas na Tab",
         "save": "I-save",
         "close": "Isara"
+      },
+      "backgroundColor": {
+        "label": "Kulay ng Background",
+        "description": "Pumili ng kulay ng background para sa site na ito.",
+        "random": "Random",
+        "clear": "Linawin"
+      },
+      "fontColor": {
+        "label": "Kulay ng Font",
+        "description": "Itakda ang kulay ng font para sa site na ito."
       }
     },
     "quickAccess": {

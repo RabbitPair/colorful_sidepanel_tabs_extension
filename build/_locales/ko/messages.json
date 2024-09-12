@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "사이드바 위치 전환"
+  },
+  "group_newsInformation": {
+    "message": "뉴스 및 정보"
+  },
+  "group_videoMovies": {
+    "message": "비디오 및 영화"
+  },
+  "group_liveStreaming": {
+    "message": "라이브 및 스트리밍"
+  },
+  "group_entertainmentGames": {
+    "message": "게임 및 엔터테인먼트"
+  },
+  "group_musicWebsites": {
+    "message": "음악 웹사이트"
+  },
+  "group_literatureNovels": {
+    "message": "문학 및 소설"
+  },
+  "group_animeWebsites": {
+    "message": "애니메이션 웹사이트"
+  },
+  "group_ecommerceShopping": {
+    "message": "전자 상거래 및 쇼핑"
+  },
+  "group_technologyDigital": {
+    "message": "기술 및 디지털"
+  },
+  "group_sportsFitness": {
+    "message": "스포츠 및 피트니스"
+  },
+  "group_medicalHealth": {
+    "message": "의료 및 건강"
+  },
+  "group_educationTraining": {
+    "message": "교육 및 훈련"
+  },
+  "group_skillTraining": {
+    "message": "기술 훈련"
+  },
+  "group_financialInvestment": {
+    "message": "재정 및 투자"
+  },
+  "group_transportationTravel": {
+    "message": "교통 및 여행"
+  },
+  "group_cookingGourmet": {
+    "message": "요리 및 미식"
+  },
+  "group_petCare": {
+    "message": "애완동물 관리"
+  },
+  "group_legalConsultation": {
+    "message": "법률 상담"
+  },
+  "group_artCulture": {
+    "message": "예술 및 문화"
+  },
+  "group_communityForums": {
+    "message": "커뮤니티 포럼"
+  },
+  "group_chatSocial": {
+    "message": "채팅 및 소셜"
+  },
+  "group_commonQueries": {
+    "message": "일반 문의"
+  },
+  "group_comprehensiveOthers": {
+    "message": "종합 및 기타"
+  },
+  "group_jobRecruitment": {
+    "message": "구인"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "채용 및 구직"
+  },
+  "group_motherBaby": {
+    "message": "엄마와 아기"
+  },
+  "group_tutorialsGuides": {
+    "message": "튜토리얼 및 가이드"
+  },
+  "group_goodSitesCollection": {
+    "message": "좋은 사이트 모음"
+  },
+  "group_blogArticles": {
+    "message": "블로그 기사"
+  },
+  "group_onlineTools": {
+    "message": "온라인 도구"
+  },
+  "group_freeResources": {
+    "message": "무료 자료"
+  },
+  "group_materialResources": {
+    "message": "자료"
+  },
+  "group_photography": {
+    "message": "사진"
+  },
+  "group_gamblingWebsites": {
+    "message": "도박 웹사이트"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "내부 시스템"
   }
 }

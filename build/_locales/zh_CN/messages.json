@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "切换侧边栏位置"
+  },
+  "group_newsInformation": {
+    "message": "新闻资讯"
+  },
+  "group_videoMovies": {
+    "message": "视频电影"
+  },
+  "group_liveStreaming": {
+    "message": "直播与流媒体"
+  },
+  "group_entertainmentGames": {
+    "message": "游戏娱乐"
+  },
+  "group_musicWebsites": {
+    "message": "音乐网站"
+  },
+  "group_literatureNovels": {
+    "message": "文学小说"
+  },
+  "group_animeWebsites": {
+    "message": "动漫网站"
+  },
+  "group_ecommerceShopping": {
+    "message": "电商购物"
+  },
+  "group_technologyDigital": {
+    "message": "科技数码"
+  },
+  "group_sportsFitness": {
+    "message": "体育运动"
+  },
+  "group_medicalHealth": {
+    "message": "健康医疗"
+  },
+  "group_educationTraining": {
+    "message": "教育培训"
+  },
+  "group_skillTraining": {
+    "message": "技能培训"
+  },
+  "group_financialInvestment": {
+    "message": "理财投资"
+  },
+  "group_transportationTravel": {
+    "message": "旅游出行"
+  },
+  "group_cookingGourmet": {
+    "message": "烹饪美食"
+  },
+  "group_petCare": {
+    "message": "宠物护理"
+  },
+  "group_legalConsultation": {
+    "message": "法律咨询"
+  },
+  "group_artCulture": {
+    "message": "艺术文化"
+  },
+  "group_communityForums": {
+    "message": "社区论坛"
+  },
+  "group_chatSocial": {
+    "message": "交友聊天"
+  },
+  "group_commonQueries": {
+    "message": "常用查询"
+  },
+  "group_comprehensiveOthers": {
+    "message": "综合其他"
+  },
+  "group_jobRecruitment": {
+    "message": "工作招聘"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "招聘求职"
+  },
+  "group_motherBaby": {
+    "message": "母婴孕产"
+  },
+  "group_tutorialsGuides": {
+    "message": "教程指南"
+  },
+  "group_goodSitesCollection": {
+    "message": "好站收藏"
+  },
+  "group_blogArticles": {
+    "message": "博客文章"
+  },
+  "group_onlineTools": {
+    "message": "在线工具"
+  },
+  "group_freeResources": {
+    "message": "免费资源"
+  },
+  "group_materialResources": {
+    "message": "素材资源"
+  },
+  "group_photography": {
+    "message": "摄影图片"
+  },
+  "group_gamblingWebsites": {
+    "message": "博彩网站"
+  },
+  "group_nsfw": {
+    "message": "不宜公开"
+  },
+  "group_internalSystems": {
+    "message": "内部系统"
   }
 }

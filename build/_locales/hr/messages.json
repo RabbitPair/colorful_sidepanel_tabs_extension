@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Prebaci položaj bočne ploče"
+  },
+  "group_newsInformation": {
+    "message": "Vijesti i informacije"
+  },
+  "group_videoMovies": {
+    "message": "Videozapisi i filmovi"
+  },
+  "group_liveStreaming": {
+    "message": "Uživo i streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Igre i zabava"
+  },
+  "group_musicWebsites": {
+    "message": "Glazbene web stranice"
+  },
+  "group_literatureNovels": {
+    "message": "Književnost i romani"
+  },
+  "group_animeWebsites": {
+    "message": "Anime web stranice"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-trgovina i kupovina"
+  },
+  "group_technologyDigital": {
+    "message": "Tehnologija i digitalno"
+  },
+  "group_sportsFitness": {
+    "message": "Sport i fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medicina i zdravlje"
+  },
+  "group_educationTraining": {
+    "message": "Obrazovanje i obuka"
+  },
+  "group_skillTraining": {
+    "message": "Obuka vještina"
+  },
+  "group_financialInvestment": {
+    "message": "Financije i ulaganja"
+  },
+  "group_transportationTravel": {
+    "message": "Prijevoz i putovanja"
+  },
+  "group_cookingGourmet": {
+    "message": "Kuhanje i gurmanska hrana"
+  },
+  "group_petCare": {
+    "message": "Briga o kućnim ljubimcima"
+  },
+  "group_legalConsultation": {
+    "message": "Pravna konzultacija"
+  },
+  "group_artCulture": {
+    "message": "Umjetnost i kultura"
+  },
+  "group_communityForums": {
+    "message": "Zajednički forumi"
+  },
+  "group_chatSocial": {
+    "message": "Čavrljanje i društveno"
+  },
+  "group_commonQueries": {
+    "message": "Uobičajeni upiti"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Sveobuhvatno i ostalo"
+  },
+  "group_jobRecruitment": {
+    "message": "Zapošljavanje"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Zapošljavanje i traženje posla"
+  },
+  "group_motherBaby": {
+    "message": "Majka i beba"
+  },
+  "group_tutorialsGuides": {
+    "message": "Vodiči i upute"
+  },
+  "group_goodSitesCollection": {
+    "message": "Zbirka dobrih stranica"
+  },
+  "group_blogArticles": {
+    "message": "Blog članci"
+  },
+  "group_onlineTools": {
+    "message": "Online alati"
+  },
+  "group_freeResources": {
+    "message": "Besplatni resursi"
+  },
+  "group_materialResources": {
+    "message": "Materijalni resursi"
+  },
+  "group_photography": {
+    "message": "Fotografija"
+  },
+  "group_gamblingWebsites": {
+    "message": "Kockarske web stranice"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interni sustavi"
   }
 }

@@ -3,6 +3,7 @@
   "_execute_action": "激活此扩展",
   "openSidePanel": "打开侧边栏",
   "settings": {
+    "premiumEditionOnly": "仅限高级版",
     "resetCurrentPageSettings": "重置当前页面设置",
     "modules": {
       "appearance": "外观",
@@ -287,6 +288,44 @@
         "label": "预览延迟",
         "description": "设置悬停在标签页上等时标签页预览的延迟时间（秒）。如果设置为0，则没有延迟",
         "seconds": "秒"
+      },
+      "showTabIndex": {
+        "label": "显示标签页索引",
+        "description": "启用后，标签页索引将显示在标题旁边，使其易于使用[Ctrl+数字]在Windows上或[cmd+数字]在Mac上激活标签页。例如：1. stackoverflow.com 2. youtube，这样在Windows上按Ctrl + 2或在Mac上按cmd + 2即可转到youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "标签页历史",
+        "description": "启用后，将显示在同一标签页中打开的网站历史记录。"
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "仅在活动标签页上显示标签页历史",
+        "description": "启用后，仅在活动标签页上显示标签页历史，否则在所有标签页上显示标签页历史。"
+      },
+      "tabHistoryExpand": {
+        "label": "默认展开标签页历史",
+        "description": "启用后，标签页历史将默认展开。"
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "在列表中显示展开标签页历史按钮",
+        "description": "启用后，将在标签页列表中显示一个按钮，您可以点击该按钮展开或折叠标签页历史。如果禁用，您只能使用右键菜单展开或折叠标签页历史"
+      },
+      "tabHistoryShowUrl": {
+        "label": "显示标签页历史URL",
+        "description": "启用后，将显示标签页历史URL，否则只显示标题"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "标签页历史折叠时显示图标",
+        "description": "启用后，当列表折叠时显示标签页历史图标"
+      },
+      "tabHistorySortBy": {
+        "label": "标签页历史排序顺序",
+        "description": "选择标签页历史的排序顺序",
+        "lastAccessed": "最后访问",
+        "createdAt": "创建时间"
+      },
+      "tabHistoryKeepCount": {
+        "label": "显示的标签页历史条目数",
+        "description": "限制显示的标签页历史条目数。超过限制的条目将被隐藏"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "双击"
     },
     "chromeTabGroupAdvanced": {
+      "label": "高级标签组",
+      "customGroupNames": {
+        "label": "自定义组名",
+        "description": "您可以在此处添加一些预定义的组，以便在需要将标签页添加到组时快速选择它们。我们已经预设了一些组名，您可以根据需要进行修改或删除。",
+        "ManageGroupNames": "管理组名",
+        "CustomGroupNames": "自定义组名",
+        "ConfirmDelete": "确认删除",
+        "ConfirmDeleteMsg": "您确定要删除此名称吗？",
+        "AddNewName": "添加新名称",
+        "Cancel": "取消",
+        "Delete": "删除",
+        "Close": "关闭"
+      },
+      "customGroupRemember": {
+        "label": "记住站点分组",
+        "description": "启用后，如果将站点添加到自定义组，下次打开该站点时将自动使用此组"
+      },
       "tabGroupCollapseBehavior": {
         "label": "标签组折叠行为",
         "description": "修改浏览器标签组折叠的行为",
         "option_collapse_others": "显示当前组并折叠其他组",
         "option_disable": "展开所有组",
         "option_auto": "使用浏览器默认设置"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "使用书签文件夹名称作为组名",
+        "description": "如果打开的URL在书签中，自动使用书签文件夹名称作为组名",
+        "enabled": "启用",
+        "disabled": "禁用"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "选择书签文件夹级别",
+        "description": "选择用作组名的书签文件夹级别",
+        "top": "顶级文件夹",
+        "parent": "父级文件夹",
+        "full": "完整路径"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自动创建或加入同域名分组",
@@ -519,6 +588,16 @@
         "target_top": "最顶层标签页",
         "save": "保存",
         "close": "关闭"
+      },
+      "backgroundColor": {
+        "label": "背景颜色",
+        "description": "为该站点选择一个背景颜色。",
+        "random": "随机",
+        "clear": "清除"
+      },
+      "fontColor": {
+        "label": "字体颜色",
+        "description": "设置该站点的字体颜色。"
       }
     },
     "quickAccess": {

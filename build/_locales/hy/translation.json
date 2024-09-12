@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Առաջադեմ պատկեր պատկերի մեջ",
   "APIAccess": "API մուտք",
   "customizeMenu": "Անհատականացնել մենյուն",
-  "Automation": "Ավտոմատացում"
+  "Automation": "Ավտոմատացում",
+  "tabIndexTips": "Սեղմեք CMD/Ctrl + {{index}}՝ այս ներդիրին անցնելու համար",
+  "expandTabHistories": "Ընդլայնել ներդիրների պատմությունները",
+  "collapseTabHistories": "Կրճատել ներդիրների պատմությունները",
+  "deleteTabHistory": "Ջնջել այս ներդիրի պատմությունը",
+  "deleteTabHistories": "Ջնջել այս ներդիրի բոլոր պատմությունները",
+  "clickToGoBack": "Սեղմեք՝ հետ գնալու համար",
+  "clickToGoForward": "Սեղմեք՝ առաջ գնալու համար",
+  "loading": "Բեռնվում է",
+  "updateBookmarkUrl": "Թարմացնել էջանիշի URL-ը",
+  "oldUrl": "Հին URL",
+  "newUrl": "Նոր URL",
+  "accessible": "Մատչելի",
+  "foundUrlRedirect": "Հայտնաբերվել է URL-ի վերահղում, արդյո՞ք ցանկանում եք թարմացնել"
 }

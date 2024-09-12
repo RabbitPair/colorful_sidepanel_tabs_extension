@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "సైడ్ ప్యానెల్ స్థానం మార్చు"
+  },
+  "group_newsInformation": {
+    "message": "సమాచారం & వార్తలు"
+  },
+  "group_videoMovies": {
+    "message": "వీడియోలు & సినిమాలు"
+  },
+  "group_liveStreaming": {
+    "message": "ప్రత్యక్ష ప్రసారం & స్ట్రీమింగ్"
+  },
+  "group_entertainmentGames": {
+    "message": "గేమ్స్ & వినోదం"
+  },
+  "group_musicWebsites": {
+    "message": "సంగీత వెబ్‌సైట్లు"
+  },
+  "group_literatureNovels": {
+    "message": "సాహిత్యం & నవలలు"
+  },
+  "group_animeWebsites": {
+    "message": "అనిమే వెబ్‌సైట్లు"
+  },
+  "group_ecommerceShopping": {
+    "message": "ఇ-కామర్స్ & షాపింగ్"
+  },
+  "group_technologyDigital": {
+    "message": "సాంకేతికత & డిజిటల్"
+  },
+  "group_sportsFitness": {
+    "message": "క్రీడలు & ఫిట్‌నెస్"
+  },
+  "group_medicalHealth": {
+    "message": "వైద్యం & ఆరోగ్యం"
+  },
+  "group_educationTraining": {
+    "message": "విద్య & శిక్షణ"
+  },
+  "group_skillTraining": {
+    "message": "నైపుణ్య శిక్షణ"
+  },
+  "group_financialInvestment": {
+    "message": "ఆర్థిక & పెట్టుబడి"
+  },
+  "group_transportationTravel": {
+    "message": "రవాణా & ప్రయాణం"
+  },
+  "group_cookingGourmet": {
+    "message": "వంట & గౌర్మెట్"
+  },
+  "group_petCare": {
+    "message": "పెంపుడు జంతువుల సంరక్షణ"
+  },
+  "group_legalConsultation": {
+    "message": "చట్టపరమైన సలహా"
+  },
+  "group_artCulture": {
+    "message": "కళ & సంస్కృతి"
+  },
+  "group_communityForums": {
+    "message": "సముదాయ ఫోరమ్‌లు"
+  },
+  "group_chatSocial": {
+    "message": "చాట్ & సామాజిక"
+  },
+  "group_commonQueries": {
+    "message": "సాధారణ ప్రశ్నలు"
+  },
+  "group_comprehensiveOthers": {
+    "message": "సమగ్ర & ఇతరులు"
+  },
+  "group_jobRecruitment": {
+    "message": "ఉద్యోగ నియామకం"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "నియామకం & ఉద్యోగ అన్వేషణ"
+  },
+  "group_motherBaby": {
+    "message": "తల్లి & శిశువు"
+  },
+  "group_tutorialsGuides": {
+    "message": "ట్యుటోరియల్స్ & గైడ్స్"
+  },
+  "group_goodSitesCollection": {
+    "message": "మంచి సైట్ల సేకరణ"
+  },
+  "group_blogArticles": {
+    "message": "బ్లాగ్ వ్యాసాలు"
+  },
+  "group_onlineTools": {
+    "message": "ఆన్‌లైన్ టూల్స్"
+  },
+  "group_freeResources": {
+    "message": "ఉచిత వనరులు"
+  },
+  "group_materialResources": {
+    "message": "పదార్థ వనరులు"
+  },
+  "group_photography": {
+    "message": "ఫోటోగ్రఫీ"
+  },
+  "group_gamblingWebsites": {
+    "message": "జూదం వెబ్‌సైట్లు"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "అంతర్గత వ్యవస్థలు"
   }
 }

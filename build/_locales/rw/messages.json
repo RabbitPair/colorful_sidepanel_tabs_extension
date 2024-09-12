@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Hindura umwanya wa sidebar"
+  },
+  "group_newsInformation": {
+    "message": "Amakuru & Amakuru"
+  },
+  "group_videoMovies": {
+    "message": "Amashusho & Filime"
+  },
+  "group_liveStreaming": {
+    "message": "Kureba Live & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Imikino & Imyidagaduro"
+  },
+  "group_musicWebsites": {
+    "message": "Imbuga za Muzika"
+  },
+  "group_literatureNovels": {
+    "message": "Ibitabo & Novels"
+  },
+  "group_animeWebsites": {
+    "message": "Imbuga za Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Ubucuruzi & Guhaha"
+  },
+  "group_technologyDigital": {
+    "message": "Ikoranabuhanga & Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Imikino & Imyitozo ngororamubiri"
+  },
+  "group_medicalHealth": {
+    "message": "Ubuvuzi & Ubuzima"
+  },
+  "group_educationTraining": {
+    "message": "Uburezi & Amahugurwa"
+  },
+  "group_skillTraining": {
+    "message": "Amahugurwa y'Ubumenyi"
+  },
+  "group_financialInvestment": {
+    "message": "Imari & Ishoramari"
+  },
+  "group_transportationTravel": {
+    "message": "Ubwikorezi & Ingendo"
+  },
+  "group_cookingGourmet": {
+    "message": "Gutekinika & Gourmet"
+  },
+  "group_petCare": {
+    "message": "Kwita ku Nyamaswa"
+  },
+  "group_legalConsultation": {
+    "message": "Inama z'Amategeko"
+  },
+  "group_artCulture": {
+    "message": "Ubugeni & Umuco"
+  },
+  "group_communityForums": {
+    "message": "Amatangazo y'Umuryango"
+  },
+  "group_chatSocial": {
+    "message": "Kuganira & Imbuga nkoranyambaga"
+  },
+  "group_commonQueries": {
+    "message": "Ibibazo bisanzwe"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Byuzuye & Ibindi"
+  },
+  "group_jobRecruitment": {
+    "message": "Gushaka Akazi"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Gushaka Akazi & Abakozi"
+  },
+  "group_motherBaby": {
+    "message": "Ababyeyi & Abana"
+  },
+  "group_tutorialsGuides": {
+    "message": "Amasomo & Inyigisho"
+  },
+  "group_goodSitesCollection": {
+    "message": "Urutonde rw'Imbuga Nziza"
+  },
+  "group_blogArticles": {
+    "message": "Inyandiko za Blog"
+  },
+  "group_onlineTools": {
+    "message": "Ibikoresho byo kuri Internet"
+  },
+  "group_freeResources": {
+    "message": "Ibikoresho by'Ubuntu"
+  },
+  "group_materialResources": {
+    "message": "Ibikoresho by'Ibikoresho"
+  },
+  "group_photography": {
+    "message": "Ifoto"
+  },
+  "group_gamblingWebsites": {
+    "message": "Imbuga zo Gutega"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sisitemu z'imbere"
   }
 }

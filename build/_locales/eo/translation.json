@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Altnivela Bildo-en-Bildo",
   "APIAccess": "API Aliro",
   "customizeMenu": "Agordi Menuon",
-  "Automation": "Aŭtomatigo"
+  "Automation": "Aŭtomatigo",
+  "tabIndexTips": "Premu CMD/Ctrl + {{index}} por ŝanĝi al ĉi tiu langeto",
+  "expandTabHistories": "Etendi langetajn historiojn",
+  "collapseTabHistories": "Kunfaldi langetajn historiojn",
+  "deleteTabHistory": "Forigi ĉi tiun langetan historion",
+  "deleteTabHistories": "Forigi ĉiujn historiojn de ĉi tiu langeto",
+  "clickToGoBack": "Klaku por iri reen",
+  "clickToGoForward": "Klaku por iri antaŭen",
+  "loading": "Ŝarĝante",
+  "updateBookmarkUrl": "Ĝisdatigi legosignon URL",
+  "oldUrl": "Malnova URL",
+  "newUrl": "Nova URL",
+  "accessible": "Alirebla",
+  "foundUrlRedirect": "Trovita URL-aliro, ĉu vi volas ĝisdatigi?"
 }

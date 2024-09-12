@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "טאָגל זייַט פּאַנעל שטעלע"
+  },
+  "group_newsInformation": {
+    "message": "נייַעס און אינפֿאָרמאַציע"
+  },
+  "group_videoMovies": {
+    "message": "ווידיאס און פילמען"
+  },
+  "group_liveStreaming": {
+    "message": "לעבעדיק און סטרימינג"
+  },
+  "group_entertainmentGames": {
+    "message": "שפּילן און פאַרווייַלונג"
+  },
+  "group_musicWebsites": {
+    "message": "מוזיק וועבסיטעס"
+  },
+  "group_literatureNovels": {
+    "message": "ליטעראַטור און ראָמאַנז"
+  },
+  "group_animeWebsites": {
+    "message": "אַנימע וועבסיטעס"
+  },
+  "group_ecommerceShopping": {
+    "message": "E- האַנדל און שאַפּינג"
+  },
+  "group_technologyDigital": {
+    "message": "טעכנאָלאָגיע און דיגיטאַל"
+  },
+  "group_sportsFitness": {
+    "message": "ספּאָרט און פֿיטנעס"
+  },
+  "group_medicalHealth": {
+    "message": "מעדיציניש און געזונט"
+  },
+  "group_educationTraining": {
+    "message": "בילדונג און טריינינג"
+  },
+  "group_skillTraining": {
+    "message": "סקיל טריינינג"
+  },
+  "group_financialInvestment": {
+    "message": "פינאַנציעל און ינוועסטמענט"
+  },
+  "group_transportationTravel": {
+    "message": "טראַנספּערטיישאַן און רייזע"
+  },
+  "group_cookingGourmet": {
+    "message": "קאָכן און גאָורמעט"
+  },
+  "group_petCare": {
+    "message": "פּעט זאָרגן"
+  },
+  "group_legalConsultation": {
+    "message": "לעגאַל קאָנסולטאַציע"
+  },
+  "group_artCulture": {
+    "message": "קונסט און קולטור"
+  },
+  "group_communityForums": {
+    "message": "קהילה פאָרומס"
+  },
+  "group_chatSocial": {
+    "message": "שמועסן און סאציאל"
+  },
+  "group_commonQueries": {
+    "message": "געמיינזאַם פֿראגן"
+  },
+  "group_comprehensiveOthers": {
+    "message": "פאַרנעמיק און אנדערע"
+  },
+  "group_jobRecruitment": {
+    "message": "אַרבעט רעקרוטמענט"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "רעקרוטמענט און אַרבעט זוכן"
+  },
+  "group_motherBaby": {
+    "message": "מוטער און בעיבי"
+  },
+  "group_tutorialsGuides": {
+    "message": "הנחיות און גוידעס"
+  },
+  "group_goodSitesCollection": {
+    "message": "געזונט וועבסיטעס זאַמלונג"
+  },
+  "group_blogArticles": {
+    "message": "בלאָג אַרטיקלען"
+  },
+  "group_onlineTools": {
+    "message": "אָנליין מכשירים"
+  },
+  "group_freeResources": {
+    "message": "פריי רעסורסן"
+  },
+  "group_materialResources": {
+    "message": "מאַטעריאַל רעסורסן"
+  },
+  "group_photography": {
+    "message": "פאָטאָגראַפיע"
+  },
+  "group_gamblingWebsites": {
+    "message": "גאַמבלינג וועבסיטעס"
+  },
+  "group_nsfw": {
+    "message": "נישט זיכער פֿאַר אַרבעט"
+  },
+  "group_internalSystems": {
+    "message": "ינערלעך סיסטעמען"
   }
 }

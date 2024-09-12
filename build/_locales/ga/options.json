@@ -5,6 +5,7 @@
   "settings": {
     "resetCurrentPageSettings": "Athshocraigh socruithe an leathanaigh reatha",
     "modules": {
+      "premiumEditionOnly": "Leagan Préimhe Amháin",
       "appearance": "Ceamaraíocht",
       "beautify": "Áilleacht",
       "tabs": "Cluaisíní",
@@ -287,6 +288,44 @@
         "label": "Moill réamhamharc",
         "description": "Socraigh an t-am moille do réamhamharc cluaisíní nuair a bhíonn tú ag trasnán thar cluaisíní, srl. (soicind). Má socraítear ar 0, ní bheidh aon moill ann",
         "seconds": "Soicind"
+      },
+      "showTabIndex": {
+        "label": "Taispeáin innéacs cluaisín",
+        "description": "Nuair a chumasfar é, taispeánfar an t-innéacs cluaisín in aice leis an teideal, rud a fhágann go bhfuil sé éasca cluaisín a ghníomhachtú ag úsáid [Ctrl+uimhir] ar Windows nó [cmd+uimhir] ar Mac. Sampla: 1. stackoverflow.com 2. youtube, ionas go mbeidh sé éasca Ctrl + 2 a dhéanamh ar Windows nó cmd + 2 ar Mac chun dul chuig youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Stair cluaisín",
+        "description": "Nuair a chumasfar é, taispeánfar stair na suíomhanna Gréasáin a osclaíodh sa chluaisín céanna."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Taispeáin stair cluaisín ach amháin ar an gcluaisín gníomhach",
+        "description": "Nuair a chumasfar é, taispeáin stair cluaisín ach amháin ar an gcluaisín gníomhach, ar shlí eile taispeáin stair cluaisín ar gach cluaisín."
+      },
+      "tabHistoryExpand": {
+        "label": "Leathnaigh stair cluaisín de réir réamhshocraithe",
+        "description": "Nuair a chumasfar é, beidh stair cluaisín leathnaithe de réir réamhshocraithe."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Taispeáin cnaipe leathnaithe stair cluaisín sa liosta",
+        "description": "Nuair a chumasfar é, taispeánfar cnaipe sa liosta cluaisíní ar féidir leat cliceáil chun stair cluaisín a leathnú nó a chrapadh. Má dhíchumasaítear é, is féidir leat an roghchlár cliceáil ar dheis a úsáid chun stair cluaisín a leathnú nó a chrapadh"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Taispeáin URL stair cluaisín",
+        "description": "Nuair a chumasfar é, taispeánfar an URL stair cluaisín, ar shlí eile ní thaispeánfar ach an teideal"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Taispeáin deilbhín nuair a bhíonn stair cluaisín craptha",
+        "description": "Nuair a chumasfar é, taispeáin deilbhín stair cluaisín nuair a bhíonn an liosta craptha"
+      },
+      "tabHistorySortBy": {
+        "label": "Ord sórtála stair cluaisín",
+        "description": "Roghnaigh an t-ord sórtála do stair cluaisín",
+        "lastAccessed": "Rochtain dheireanach",
+        "createdAt": "Am cruthaithe"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Líon na n-iontrálacha stair cluaisín le taispeáint",
+        "description": "Teorainn a chur leis an líon uasta iontrálacha stair cluaisín le taispeáint. Beidh iontrálacha a sháraíonn an teorainn ceilte"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dúbailcliceáil"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grúpaí cluaisíní ardleibhéil",
+      "customGroupNames": {
+        "label": "Ainmneacha grúpa saincheaptha",
+        "description": "Is féidir leat roinnt grúpaí réamhshainithe a chur leis anseo, ionas gur féidir leat iad a roghnú go tapa nuair is gá duit cluaisíní a chur le grúpa. Tá roinnt ainmneacha grúpa réamhshocraithe againn cheana féin, ar féidir leat a mhodhnú nó a scriosadh de réir do riachtanas.",
+        "ManageGroupNames": "Bainistigh Ainmneacha Grúpa",
+        "CustomGroupNames": "Ainmneacha Grúpa Saincheaptha",
+        "ConfirmDelete": "Deimhnigh Scriosadh",
+        "ConfirmDeleteMsg": "An bhfuil tú cinnte gur mhaith leat an t-ainm seo a scriosadh?",
+        "AddNewName": "Cuir ainm nua leis",
+        "Cancel": "Cealaigh",
+        "Delete": "Scrios",
+        "Close": "Dún"
+      },
+      "customGroupRemember": {
+        "label": "Cuimhnigh ar ghrúpáil láithreán",
+        "description": "Nuair a chumasfar é, má chuirtear suíomh le grúpa saincheaptha, úsáidfidh sé an grúpa seo go huathoibríoch an chéad uair eile a osclaítear an suíomh"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Feidhmíocht dúnadh grúpaí tapaí",
         "description": "Athraigh feidhmíocht dúnadh grúpaí tapaí brabhsála Chrome",
         "option_collapse_others": "Taispeáin an grúpa reatha agus dún gach ceann eile",
         "option_disable": "Leathnaigh gach grúpa",
         "option_auto": "Úsáid socruithe réamhshocraithe Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Úsáid ainm fillteán leabharmharc mar ainm grúpa",
+        "description": "Úsáidfidh sé go huathoibríoch ainm an fhillteáin leabharmharc mar ainm an ghrúpa má tá an URL oscailte sna leabharmharcanna",
+        "enabled": "Cumasaithe",
+        "disabled": "Díchumasaithe"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Roghnaigh Leibhéal Fillteán Leabharmharc",
+        "description": "Roghnaigh an leibhéal den fhillteán leabharmharc le húsáid mar ainm an ghrúpa",
+        "top": "Leibhéal Barr",
+        "parent": "Leibhéal Tuismitheora",
+        "full": "Cosán Iomlán"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Cruthaigh nó bain grúpa den teanga céanna go huathoibríoch",
@@ -519,6 +588,16 @@
         "target_top": "Cluaisín is Airde",
         "save": "Sábháil",
         "close": "Dún"
+      },
+      "backgroundColor": {
+        "label": "Dath Cúlra",
+        "description": "Roghnaigh dath cúlra don suíomh seo.",
+        "random": "Randamach",
+        "clear": "Glan"
+      },
+      "fontColor": {
+        "label": "Dath an Fhoclóra",
+        "description": "Socraigh dath an fhoclóra don suíomh seo."
       }
     },
     "quickAccess": {

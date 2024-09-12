@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Perjungti šoninio skydelio padėtį"
+  },
+  "group_newsInformation": {
+    "message": "Naujienos ir informacija"
+  },
+  "group_videoMovies": {
+    "message": "Vaizdo įrašai ir filmai"
+  },
+  "group_liveStreaming": {
+    "message": "Tiesioginės transliacijos"
+  },
+  "group_entertainmentGames": {
+    "message": "Žaidimai ir pramogos"
+  },
+  "group_musicWebsites": {
+    "message": "Muzikos svetainės"
+  },
+  "group_literatureNovels": {
+    "message": "Literatūra ir romanai"
+  },
+  "group_animeWebsites": {
+    "message": "Anime svetainės"
+  },
+  "group_ecommerceShopping": {
+    "message": "Elektroninė prekyba ir apsipirkimas"
+  },
+  "group_technologyDigital": {
+    "message": "Technologijos ir skaitmeninės"
+  },
+  "group_sportsFitness": {
+    "message": "Sportas ir fitnesas"
+  },
+  "group_medicalHealth": {
+    "message": "Medicina ir sveikata"
+  },
+  "group_educationTraining": {
+    "message": "Švietimas ir mokymai"
+  },
+  "group_skillTraining": {
+    "message": "Įgūdžių mokymai"
+  },
+  "group_financialInvestment": {
+    "message": "Finansai ir investicijos"
+  },
+  "group_transportationTravel": {
+    "message": "Transportas ir kelionės"
+  },
+  "group_cookingGourmet": {
+    "message": "Maisto gaminimas ir gurmanai"
+  },
+  "group_petCare": {
+    "message": "Naminių gyvūnų priežiūra"
+  },
+  "group_legalConsultation": {
+    "message": "Teisinės konsultacijos"
+  },
+  "group_artCulture": {
+    "message": "Menas ir kultūra"
+  },
+  "group_communityForums": {
+    "message": "Bendruomenės forumai"
+  },
+  "group_chatSocial": {
+    "message": "Pokalbiai ir socialiniai tinklai"
+  },
+  "group_commonQueries": {
+    "message": "Dažniausiai užduodami klausimai"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Išsamūs ir kiti"
+  },
+  "group_jobRecruitment": {
+    "message": "Darbo paieška"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Įdarbinimas ir darbo paieška"
+  },
+  "group_motherBaby": {
+    "message": "Mama ir kūdikis"
+  },
+  "group_tutorialsGuides": {
+    "message": "Pamokos ir vadovai"
+  },
+  "group_goodSitesCollection": {
+    "message": "Geros svetainės"
+  },
+  "group_blogArticles": {
+    "message": "Tinklaraščio straipsniai"
+  },
+  "group_onlineTools": {
+    "message": "Internetiniai įrankiai"
+  },
+  "group_freeResources": {
+    "message": "Nemokami ištekliai"
+  },
+  "group_materialResources": {
+    "message": "Medžiagos ištekliai"
+  },
+  "group_photography": {
+    "message": "Fotografija"
+  },
+  "group_gamblingWebsites": {
+    "message": "Lošimų svetainės"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Vidinės sistemos"
   }
 }

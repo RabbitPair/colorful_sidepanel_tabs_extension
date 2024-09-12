@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Advanced na Picture-in-Picture",
   "APIAccess": "API Access",
   "customizeMenu": "I-customize ang Menu",
-  "Automation": "Automation"
+  "Automation": "Automation",
+  "tabIndexTips": "Pindutin ang CMD/Ctrl + {{index}} upang lumipat sa tab na ito",
+  "expandTabHistories": "Palawakin ang mga kasaysayan ng tab",
+  "collapseTabHistories": "I-collapse ang mga kasaysayan ng tab",
+  "deleteTabHistory": "Burahin ang kasaysayan ng tab na ito",
+  "deleteTabHistories": "Burahin ang lahat ng kasaysayan ng tab na ito",
+  "clickToGoBack": "I-click upang bumalik",
+  "clickToGoForward": "I-click upang magpatuloy",
+  "loading": "Naglo-load",
+  "updateBookmarkUrl": "I-update ang URL ng Bookmark",
+  "oldUrl": "Lumang URL",
+  "newUrl": "Bagong URL",
+  "accessible": "Naa-access",
+  "foundUrlRedirect": "Natagpuan ang pag-redirect ng URL, nais mo bang i-update?"
 }

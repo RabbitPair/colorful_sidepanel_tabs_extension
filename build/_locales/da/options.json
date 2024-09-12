@@ -3,6 +3,7 @@
   "_execute_action": "Aktiver denne udvidelse",
   "openSidePanel": "Åbn sidepanel",
   "settings": {
+    "premiumEditionOnly": "kun premiumudgave",
     "resetCurrentPageSettings": "Nulstil nuværende sides indstillinger",
     "modules": {
       "appearance": "Udseende",
@@ -287,6 +288,44 @@
         "label": "Forhåndsvisningsforsinkelse",
         "description": "Indstil forsinkelsestiden for faneforhåndsvisninger ved svævning over faner osv. (sekunder). Hvis indstillet til 0, vil der ikke være nogen forsinkelse",
         "seconds": "Sekunder"
+      },
+      "showTabIndex": {
+        "label": "Vis faneindeks",
+        "description": "Når aktiveret, vil faneindekset blive vist ved siden af titlen, hvilket gør det nemt at aktivere fanen ved hjælp af [Ctrl+nummer] på Windows eller [cmd+nummer] på Mac. Eksempel: 1. stackoverflow.com 2. youtube, så det er nemt at gøre Ctrl + 2 på Windows eller cmd + 2 på Mac for at gå til youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Fanehistorik",
+        "description": "Når aktiveret, vil historikken over websteder åbnet i den samme fane blive vist."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Vis kun fanehistorik på aktiv fane",
+        "description": "Når aktiveret, vis kun fanehistorik på den aktive fane, ellers vis fanehistorik på alle faner."
+      },
+      "tabHistoryExpand": {
+        "label": "Udvid fanehistorik som standard",
+        "description": "Når aktiveret, vil fanehistorikken være udvidet som standard."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Vis udvid fanehistorik knap i liste",
+        "description": "Når aktiveret, vil en knap blive vist i fanelisten, som du kan klikke på for at udvide eller skjule fanehistorikken. Hvis deaktiveret, kan du kun bruge højreklikmenuen til at udvide eller skjule fanehistorikken"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Vis fanehistorik URL",
+        "description": "Når aktiveret, vil fanehistorik URL'en blive vist, ellers vil kun titlen blive vist"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Vis ikon når fanehistorik er skjult",
+        "description": "Når aktiveret, vis fanehistorik ikon når listen er skjult"
+      },
+      "tabHistorySortBy": {
+        "label": "Sorteringsrækkefølge for fanehistorik",
+        "description": "Vælg sorteringsrækkefølge for fanehistorik",
+        "lastAccessed": "Sidst tilgået",
+        "createdAt": "Oprettelsestid"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Antal fanehistorik poster at vise",
+        "description": "Begræns det maksimale antal fanehistorik poster at vise. Poster, der overstiger grænsen, vil blive skjult"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dobbeltklik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Avancerede fanegrupper",
+      "customGroupNames": {
+        "label": "Brugerdefinerede gruppenavne",
+        "description": "Du kan tilføje nogle foruddefinerede grupper her, så du hurtigt kan vælge dem, når du skal tilføje faner til en gruppe. Vi har allerede forudindstillet nogle gruppenavne, som du kan ændre eller slette efter dine behov.",
+        "ManageGroupNames": "Administrer gruppenavne",
+        "CustomGroupNames": "Brugerdefinerede gruppenavne",
+        "ConfirmDelete": "Bekræft sletning",
+        "ConfirmDeleteMsg": "Er du sikker på, at du vil slette dette navn?",
+        "AddNewName": "Tilføj nyt navn",
+        "Cancel": "Annuller",
+        "Delete": "Slet",
+        "Close": "Luk"
+      },
+      "customGroupRemember": {
+        "label": "Husk sidegruppering",
+        "description": "Når aktiveret, hvis et websted tilføjes til en brugerdefineret gruppe, vil det automatisk bruge denne gruppe næste gang webstedet åbnes"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Fanegruppe sammenklapningsadfærd",
         "description": "Ændre adfærden for Chrome browser fanegruppe sammenklapning",
         "option_collapse_others": "Vis nuværende gruppe og sammenklap andre",
         "option_disable": "Udvid alle grupper",
         "option_auto": "Brug Chrome standardindstillinger"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Brug bogmærkemappenavn som gruppenavn",
+        "description": "Brug automatisk bogmærkemappenavnet som gruppenavn, hvis den åbnede URL er i bogmærkerne",
+        "enabled": "Aktiveret",
+        "disabled": "Deaktiveret"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Vælg bogmærkemappeniveau",
+        "description": "Vælg niveauet af bogmærkemappen, der skal bruges som gruppenavn",
+        "top": "Topniveau",
+        "parent": "Overordnet niveau",
+        "full": "Fuld sti"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto opret eller tilslut samme domænegruppe",
@@ -519,6 +588,16 @@
         "target_top": "Øverste fane",
         "save": "Gem",
         "close": "Luk"
+      },
+      "backgroundColor": {
+        "label": "Baggrundsfarve",
+        "description": "Vælg en baggrundsfarve for dette websted.",
+        "random": "Tilfældig",
+        "clear": "Ryd"
+      },
+      "fontColor": {
+        "label": "Skriftfarve",
+        "description": "Indstil skriftfarven for dette websted."
       }
     },
     "quickAccess": {

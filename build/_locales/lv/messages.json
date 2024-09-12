@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Pārslēgt sānu paneļa pozīciju"
+  },
+  "group_newsInformation": {
+    "message": "Ziņas un informācija"
+  },
+  "group_videoMovies": {
+    "message": "Video un filmas"
+  },
+  "group_liveStreaming": {
+    "message": "Tiešraide un straumēšana"
+  },
+  "group_entertainmentGames": {
+    "message": "Spēles un izklaide"
+  },
+  "group_musicWebsites": {
+    "message": "Mūzikas vietnes"
+  },
+  "group_literatureNovels": {
+    "message": "Literatūra un romāni"
+  },
+  "group_animeWebsites": {
+    "message": "Anime vietnes"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-komercija un iepirkšanās"
+  },
+  "group_technologyDigital": {
+    "message": "Tehnoloģijas un digitālais"
+  },
+  "group_sportsFitness": {
+    "message": "Sports un fitnesa"
+  },
+  "group_medicalHealth": {
+    "message": "Medicīna un veselība"
+  },
+  "group_educationTraining": {
+    "message": "Izglītība un apmācība"
+  },
+  "group_skillTraining": {
+    "message": "Prasmju apmācība"
+  },
+  "group_financialInvestment": {
+    "message": "Finanses un investīcijas"
+  },
+  "group_transportationTravel": {
+    "message": "Transports un ceļojumi"
+  },
+  "group_cookingGourmet": {
+    "message": "Ēdienu gatavošana un gardēži"
+  },
+  "group_petCare": {
+    "message": "Mājdzīvnieku aprūpe"
+  },
+  "group_legalConsultation": {
+    "message": "Juridiskās konsultācijas"
+  },
+  "group_artCulture": {
+    "message": "Māksla un kultūra"
+  },
+  "group_communityForums": {
+    "message": "Kopienas forumi"
+  },
+  "group_chatSocial": {
+    "message": "Čats un sociālais"
+  },
+  "group_commonQueries": {
+    "message": "Bieži uzdotie jautājumi"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Visaptverošs un citi"
+  },
+  "group_jobRecruitment": {
+    "message": "Darba pieņemšana"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Pieņemšana darbā un darba meklēšana"
+  },
+  "group_motherBaby": {
+    "message": "Māte un bērns"
+  },
+  "group_tutorialsGuides": {
+    "message": "Pamācības un ceļveži"
+  },
+  "group_goodSitesCollection": {
+    "message": "Labo vietņu kolekcija"
+  },
+  "group_blogArticles": {
+    "message": "Emuāru raksti"
+  },
+  "group_onlineTools": {
+    "message": "Tiešsaistes rīki"
+  },
+  "group_freeResources": {
+    "message": "Bezmaksas resursi"
+  },
+  "group_materialResources": {
+    "message": "Materiālie resursi"
+  },
+  "group_photography": {
+    "message": "Fotogrāfija"
+  },
+  "group_gamblingWebsites": {
+    "message": "Azartspēļu vietnes"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Iekšējās sistēmas"
   }
 }

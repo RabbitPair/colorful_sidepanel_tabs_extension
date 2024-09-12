@@ -3,6 +3,7 @@
   "_execute_action": "ይህን ኤክስቴንሽን አንቀሳቅስ",
   "openSidePanel": "ጎን ፓነልን ክፈት",
   "settings": {
+    "premiumEditionOnly": "ብቸኛው የፕሪሚየም እትም",
     "resetCurrentPageSettings": "የአሁኑን ገጽ ቅንብሮች እንደገና አድስ",
     "modules": {
       "appearance": "እንቅስቃሴ",
@@ -287,6 +288,44 @@
         "label": "የቅድመ እይታ መዘግያ",
         "description": "በትሮች ላይ ሲነቃቃ የቅድመ እይታ ጊዜ ያቀናብር (ሰከንዶች)። በ0 ተቀመጠ ከሆነ መዘግያ አይኖርም",
         "seconds": "ሰከንዶች"
+      },
+      "showTabIndex": {
+        "label": "የትር መለያ አሳይ",
+        "description": "ሲነቃቃ የትር መለያ ከርዕስ ጋር አብሮ ይታያል። በዚህም በ [Ctrl+number] በዊንዶውስ ወይም [cmd+number] በማክ በመጠቀም ትር በቀላሉ ማንቃት ይቻላል። ምሳሌ: 1. stackoverflow.com 2. youtube, ስለዚህ በዊንዶውስ Ctrl + 2 ወይም በማክ cmd + 2 በማድረግ ወደ youtube መሄድ ቀላል ይሆናል።"
+      },
+      "tabHistoryEnable": {
+        "label": "የትሮች ታሪክ",
+        "description": "ሲነቃቃ በተመረጠው ትር ውስጥ የተከፈቱ ድር ጣቢያዎች ታሪክ ይታያል።"
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "በተንቀሳቃሽ ትር ላይ ብቻ የትሮች ታሪክ አሳይ",
+        "description": "ሲነቃቃ በተንቀሳቃሽ ትር ላይ ብቻ የትሮች ታሪክ አሳይ፣ ካልተነቃቀ በሁሉም ትሮች ላይ የትሮች ታሪክ አሳይ።"
+      },
+      "tabHistoryExpand": {
+        "label": "የትሮች ታሪክን እንደ መደበቂያ አሳይ",
+        "description": "ሲነቃቃ የትሮች ታሪክ እንደ መደበቂያ ይታያል።"
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "በዝርዝር ውስጥ የትሮች ታሪክን አሳይ አዝራር አሳይ",
+        "description": "ሲነቃቃ በትሮች ዝርዝር ውስጥ ታሪክን ለማሳየት ወይም ለማሰባሰብ የሚጠቀም አዝራር ይታያል። ካልተነቃቀ በቀኝ ጠቅ ማድረግ ብቻ ታሪክን ማሳየት ወይም ማሰባሰብ ይቻላል።"
+      },
+      "tabHistoryShowUrl": {
+        "label": "የትሮች ታሪክ ዩአርኤል አሳይ",
+        "description": "ሲነቃቃ የትሮች ታሪክ ዩአርኤል ይታያል፣ ካልተነቃቀ ርዕስ ብቻ ይታያል።"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "ታሪክ ሲነካከር አይኮን አሳይ",
+        "description": "ሲነቃቃ ታሪክ ሲነካከር የትሮች ታሪክ አይኮን ይታያል።"
+      },
+      "tabHistorySortBy": {
+        "label": "የትሮች ታሪክ የመደበቂያ ቅደም ተከተል",
+        "description": "የትሮች ታሪክ የመደበቂያ ቅደም ተከተል ይምረጡ",
+        "lastAccessed": "መጨረሻ የተጠቀሙበት",
+        "createdAt": "የተፈጠረበት ጊዜ"
+      },
+      "tabHistoryKeepCount": {
+        "label": "ለማሳየት የትሮች ታሪክ ቁጥር",
+        "description": "ለማሳየት የትሮች ታሪክ ቁጥር አቀናብር። ከተቀመጠ ገደብ በላይ ያሉ መዝገቦች ይሰወራሉ።"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "እግር ጠቅ"
     },
     "chromeTabGroupAdvanced": {
+      "label": "የላቀ ትር ቡድኖች",
+      "customGroupNames": {
+        "label": "ብጁ የቡድን ስሞች",
+        "description": "እዚህ አንዳንድ ቅድሚያ የተዘጋጀ ቡድኖችን መጨመር ይችላሉ፣ ስለዚህ ትሮችን ወደ ቡድን ለመጨመር ሲፈልጉ በፍጥነት መምረጥ ይችላሉ። እኛ አስቀድሞ አንዳንድ የቡድን ስሞችን አስቀመጥናል፣ እነዚህን መቀየር ወይም መሰረዝ በፍላጎትዎ መሠረት ይችላሉ።",
+        "ManageGroupNames": "የቡድን ስሞችን አስተካክል",
+        "CustomGroupNames": "ብጁ የቡድን ስሞች",
+        "ConfirmDelete": "ማጥፋትን አረጋግጥ",
+        "ConfirmDeleteMsg": "ይህን ስም ማጥፋት መፈለግዎን እርግጠኛ ነዎት?",
+        "AddNewName": "አዲስ ስም አክል",
+        "Cancel": "ሰርዝ",
+        "Delete": "ሰርዝ",
+        "Close": "ዝጋ"
+      },
+      "customGroupRemember": {
+        "label": "የጣቢያ ቡድን አስታውስ",
+        "description": "ሲነቃቃ አንድ ጣቢያ ወደ ብጁ ቡድን ተጨመር ከሆነ፣ ቀጣዩን ጊዜ ጣቢያው ሲከፈት በራስ ሰር ይጠቀማል"
+      },
       "tabGroupCollapseBehavior": {
         "label": "የትር ቡድን መንቀሳቀስ ባህሪ",
         "description": "የክሮም አሳሽ ትር ቡድን መንቀሳቀስ ባህሪ ያቀናብር",
         "option_collapse_others": "አሁኑን ቡድን አሳይ እና ሌሎችን አንስ",
         "option_disable": "ሁሉንም ቡድኖች አስፋፊ",
         "option_auto": "የክሮም ነቅቷ ቅንብሮችን ተጠቀም"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "የበቅሎች ፎልድም ስምን በትሮ ማጥፋት",
+        "description": "ከበቅሎች ውስጥ ታይቷን በትሮ ስም በትሮ ማጥፋት ይችላሉ",
+        "enabled": "አብራሪ",
+        "disabled": "አብርሃም"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "በበቅሎች ፎልድም ውስጥ ሁኔታ ምረጥ",
+        "description": "በበቅሎች ፎልድም ውስጥ ሁኔታውን በትሮ ስም ምረጥ ይችላሉ",
+        "top": "አባላት ውስጥ",
+        "parent": "አባለው ውስጥ",
+        "full": "ሙሉ መንገድ"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "ተሳሳቢ ወይም ተመሳሳይ የድር ቡድን አንድ አድርግ",
@@ -519,6 +588,16 @@
         "target_top": "ከፍተኛ ትር",
         "save": "አስቀምጥ",
         "close": "ዝጋ"
+      },
+      "backgroundColor": {
+        "label": "የዋና ቀለም",
+        "description": "ይህን ዋና ቀለም ለዚህ ድህረ ገጽ ይምረጡ።",
+        "random": "ምልክት",
+        "clear": "አጥፋ"
+      },
+      "fontColor": {
+        "label": "ፋንታ ቀለም",
+        "description": "ይህን ፋንታ ቀለም ለዚህ ድህረ ገጽ ይምረጡ።"
       }
     },
     "quickAccess": {

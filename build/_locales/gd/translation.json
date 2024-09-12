@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Dealbh ann an Dealbh Adhartach",
   "APIAccess": "Cothrom API",
   "customizeMenu": "Gnàthaich Clàr-taice",
-  "Automation": "Fèin-ghluasad"
+  "Automation": "Fèin-ghluasad",
+  "tabIndexTips": "Brùth CMD/Ctrl + {{index}} gus atharrachadh gu seo tab",
+  "expandTabHistories": "Leudaich eachdraidh tab",
+  "collapseTabHistories": "Cùm eachdraidh tab",
+  "deleteTabHistory": "Sguab às an eachdraidh tab seo",
+  "deleteTabHistories": "Sguab às a h-uile eachdraidh den tab seo",
+  "clickToGoBack": "Cliog gus a dhol air ais",
+  "clickToGoForward": "Cliog gus a dhol air adhart",
+  "loading": "A' luchdachadh",
+  "updateBookmarkUrl": "Ùraich URL a' chomharradh-leabhair",
+  "oldUrl": "Seann URL",
+  "newUrl": "URL ùr",
+  "accessible": "Ruigsinneach",
+  "foundUrlRedirect": "Lorg ath-stiùireadh URL, a bheil thu airson ùrachadh?"
 }

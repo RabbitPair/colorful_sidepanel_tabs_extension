@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "সাইডবার অবস্থান পরিবর্তন করুন"
+  },
+  "group_newsInformation": {
+    "message": "সংবাদ এবং তথ্য"
+  },
+  "group_videoMovies": {
+    "message": "ভিডিও এবং সিনেমা"
+  },
+  "group_liveStreaming": {
+    "message": "লাইভ এবং স্ট্রিমিং"
+  },
+  "group_entertainmentGames": {
+    "message": "গেমস এবং বিনোদন"
+  },
+  "group_musicWebsites": {
+    "message": "সঙ্গীত ওয়েবসাইট"
+  },
+  "group_literatureNovels": {
+    "message": "সাহিত্য এবং উপন্যাস"
+  },
+  "group_animeWebsites": {
+    "message": "অ্যানিমে ওয়েবসাইট"
+  },
+  "group_ecommerceShopping": {
+    "message": "ই-কমার্স এবং কেনাকাটা"
+  },
+  "group_technologyDigital": {
+    "message": "প্রযুক্তি এবং ডিজিটাল"
+  },
+  "group_sportsFitness": {
+    "message": "খেলাধুলা এবং ফিটনেস"
+  },
+  "group_medicalHealth": {
+    "message": "চিকিৎসা এবং স্বাস্থ্য"
+  },
+  "group_educationTraining": {
+    "message": "শিক্ষা এবং প্রশিক্ষণ"
+  },
+  "group_skillTraining": {
+    "message": "দক্ষতা প্রশিক্ষণ"
+  },
+  "group_financialInvestment": {
+    "message": "আর্থিক এবং বিনিয়োগ"
+  },
+  "group_transportationTravel": {
+    "message": "পরিবহন এবং ভ্রমণ"
+  },
+  "group_cookingGourmet": {
+    "message": "রান্না এবং গুরমেট"
+  },
+  "group_petCare": {
+    "message": "পোষা প্রাণীর যত্ন"
+  },
+  "group_legalConsultation": {
+    "message": "আইনি পরামর্শ"
+  },
+  "group_artCulture": {
+    "message": "শিল্প এবং সংস্কৃতি"
+  },
+  "group_communityForums": {
+    "message": "সম্প্রদায় ফোরাম"
+  },
+  "group_chatSocial": {
+    "message": "চ্যাট এবং সামাজিক"
+  },
+  "group_commonQueries": {
+    "message": "সাধারণ প্রশ্ন"
+  },
+  "group_comprehensiveOthers": {
+    "message": "বিস্তৃত এবং অন্যান্য"
+  },
+  "group_jobRecruitment": {
+    "message": "চাকরি নিয়োগ"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "নিয়োগ এবং চাকরি খোঁজা"
+  },
+  "group_motherBaby": {
+    "message": "মা এবং শিশু"
+  },
+  "group_tutorialsGuides": {
+    "message": "টিউটোরিয়াল এবং গাইড"
+  },
+  "group_goodSitesCollection": {
+    "message": "ভাল সাইট সংগ্রহ"
+  },
+  "group_blogArticles": {
+    "message": "ব্লগ নিবন্ধ"
+  },
+  "group_onlineTools": {
+    "message": "অনলাইন সরঞ্জাম"
+  },
+  "group_freeResources": {
+    "message": "বিনামূল্যে সম্পদ"
+  },
+  "group_materialResources": {
+    "message": "উপাদান সম্পদ"
+  },
+  "group_photography": {
+    "message": "ফটোগ্রাফি"
+  },
+  "group_gamblingWebsites": {
+    "message": "জুয়া ওয়েবসাইট"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "অভ্যন্তরীণ সিস্টেম"
   }
 }

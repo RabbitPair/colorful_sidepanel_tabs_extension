@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Canvia la posició de la barra lateral"
+  },
+  "group_newsInformation": {
+    "message": "Notícies i Informació"
+  },
+  "group_videoMovies": {
+    "message": "Vídeos i Pel·lícules"
+  },
+  "group_liveStreaming": {
+    "message": "En Directe i Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Jocs i Entreteniment"
+  },
+  "group_musicWebsites": {
+    "message": "Llocs de Música"
+  },
+  "group_literatureNovels": {
+    "message": "Literatura i Novel·les"
+  },
+  "group_animeWebsites": {
+    "message": "Llocs d'Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Comerç Electrònic i Compres"
+  },
+  "group_technologyDigital": {
+    "message": "Tecnologia i Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Esports i Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Mèdic i Salut"
+  },
+  "group_educationTraining": {
+    "message": "Educació i Formació"
+  },
+  "group_skillTraining": {
+    "message": "Formació d'Habilitats"
+  },
+  "group_financialInvestment": {
+    "message": "Finances i Inversions"
+  },
+  "group_transportationTravel": {
+    "message": "Transport i Viatges"
+  },
+  "group_cookingGourmet": {
+    "message": "Cuina i Gourmet"
+  },
+  "group_petCare": {
+    "message": "Cura de Mascotes"
+  },
+  "group_legalConsultation": {
+    "message": "Consultoria Legal"
+  },
+  "group_artCulture": {
+    "message": "Art i Cultura"
+  },
+  "group_communityForums": {
+    "message": "Fòrums Comunitaris"
+  },
+  "group_chatSocial": {
+    "message": "Xat i Social"
+  },
+  "group_commonQueries": {
+    "message": "Consultes Comunes"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Complets i Altres"
+  },
+  "group_jobRecruitment": {
+    "message": "Reclutament de Feina"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Reclutament i Cerca de Feina"
+  },
+  "group_motherBaby": {
+    "message": "Mare i Nadó"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorials i Guies"
+  },
+  "group_goodSitesCollection": {
+    "message": "Col·lecció de Bons Llocs"
+  },
+  "group_blogArticles": {
+    "message": "Articles de Blog"
+  },
+  "group_onlineTools": {
+    "message": "Eines en Línia"
+  },
+  "group_freeResources": {
+    "message": "Recursos Gratuïts"
+  },
+  "group_materialResources": {
+    "message": "Recursos Materials"
+  },
+  "group_photography": {
+    "message": "Fotografia"
+  },
+  "group_gamblingWebsites": {
+    "message": "Llocs de Jocs d'Apostes"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistemes Interns"
   }
 }

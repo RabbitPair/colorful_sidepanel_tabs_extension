@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Växla sidopanelens position"
+  },
+  "group_newsInformation": {
+    "message": "Nyheter & Information"
+  },
+  "group_videoMovies": {
+    "message": "Videor & Filmer"
+  },
+  "group_liveStreaming": {
+    "message": "Live & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Spel & Underhållning"
+  },
+  "group_musicWebsites": {
+    "message": "Musikwebbplatser"
+  },
+  "group_literatureNovels": {
+    "message": "Litteratur & Romaner"
+  },
+  "group_animeWebsites": {
+    "message": "Animewebbplatser"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-handel & Shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologi & Digitalt"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medicin & Hälsa"
+  },
+  "group_educationTraining": {
+    "message": "Utbildning & Träning"
+  },
+  "group_skillTraining": {
+    "message": "Färdighetsträning"
+  },
+  "group_financialInvestment": {
+    "message": "Finans & Investering"
+  },
+  "group_transportationTravel": {
+    "message": "Transport & Resor"
+  },
+  "group_cookingGourmet": {
+    "message": "Matlagning & Gourmet"
+  },
+  "group_petCare": {
+    "message": "Husdjursskötsel"
+  },
+  "group_legalConsultation": {
+    "message": "Juridisk Rådgivning"
+  },
+  "group_artCulture": {
+    "message": "Konst & Kultur"
+  },
+  "group_communityForums": {
+    "message": "Communityforum"
+  },
+  "group_chatSocial": {
+    "message": "Chatt & Socialt"
+  },
+  "group_commonQueries": {
+    "message": "Vanliga Frågor"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Omfattande & Andra"
+  },
+  "group_jobRecruitment": {
+    "message": "Jobbrekrytering"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrytering & Jobbsökning"
+  },
+  "group_motherBaby": {
+    "message": "Mamma & Baby"
+  },
+  "group_tutorialsGuides": {
+    "message": "Handledning & Guider"
+  },
+  "group_goodSitesCollection": {
+    "message": "Bra Webbplatssamling"
+  },
+  "group_blogArticles": {
+    "message": "Bloggartiklar"
+  },
+  "group_onlineTools": {
+    "message": "Onlinverktyg"
+  },
+  "group_freeResources": {
+    "message": "Gratis Resurser"
+  },
+  "group_materialResources": {
+    "message": "Materialresurser"
+  },
+  "group_photography": {
+    "message": "Fotografi"
+  },
+  "group_gamblingWebsites": {
+    "message": "Spelwebbplatser"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interna System"
   }
 }

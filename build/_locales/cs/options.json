@@ -5,6 +5,7 @@
   "settings": {
     "resetCurrentPageSettings": "Obnovit nastavení aktuální stránky",
     "modules": {
+      "premiumEditionOnly": "Pouze v prémiové edici",
       "appearance": "Vzhled",
       "beautify": "Zkrášlit",
       "tabs": "Karty",
@@ -287,6 +288,44 @@
         "label": "Zpoždění náhledu",
         "description": "Nastavit dobu zpoždění pro náhledy karet při najetí myší na karty atd. (sekundy). Pokud je nastaveno na 0, nebude žádné zpoždění",
         "seconds": "Sekundy"
+      },
+      "showTabIndex": {
+        "label": "Zobrazit index karty",
+        "description": "Když je povoleno, index karty se zobrazí vedle názvu, což usnadňuje aktivaci karty pomocí [Ctrl+číslo] na Windows nebo [cmd+číslo] na Macu. Příklad: 1. stackoverflow.com 2. youtube, takže je snadné použít Ctrl + 2 na Windows nebo cmd + 2 na Macu pro přechod na youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historie karet",
+        "description": "Když je povoleno, zobrazí se historie webových stránek otevřených ve stejné kartě."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Zobrazit historii karet pouze na aktivní kartě",
+        "description": "Když je povoleno, zobrazí se historie karet pouze na aktivní kartě, jinak se zobrazí historie karet na všech kartách."
+      },
+      "tabHistoryExpand": {
+        "label": "Rozbalit historii karet ve výchozím nastavení",
+        "description": "Když je povoleno, historie karet bude ve výchozím nastavení rozbalena."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Zobrazit tlačítko pro rozbalení historie karet v seznamu",
+        "description": "Když je povoleno, v seznamu karet se zobrazí tlačítko, na které můžete kliknout pro rozbalení nebo sbalení historie karet. Pokud je zakázáno, můžete historii karet rozbalit nebo sbalit pouze pomocí kontextového menu."
+      },
+      "tabHistoryShowUrl": {
+        "label": "Zobrazit URL historie karet",
+        "description": "Když je povoleno, zobrazí se URL historie karet, jinak se zobrazí pouze název"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Zobrazit ikonu, když je historie karet sbalena",
+        "description": "Když je povoleno, zobrazí se ikona historie karet, když je seznam sbalen"
+      },
+      "tabHistorySortBy": {
+        "label": "Řazení historie karet",
+        "description": "Vyberte pořadí řazení historie karet",
+        "lastAccessed": "Naposledy přístupné",
+        "createdAt": "Čas vytvoření"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Počet položek historie karet k zobrazení",
+        "description": "Omezte maximální počet položek historie karet k zobrazení. Položky přesahující limit budou skryty"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dvojité kliknutí"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Pokročilé skupiny karet",
+      "customGroupNames": {
+        "label": "Vlastní názvy skupin",
+        "description": "Zde můžete přidat některé předdefinované skupiny, abyste je mohli rychle vybrat, když potřebujete přidat karty do skupiny. Již jsme přednastavili některé názvy skupin, které můžete upravit nebo smazat podle svých potřeb.",
+        "ManageGroupNames": "Spravovat názvy skupin",
+        "CustomGroupNames": "Vlastní názvy skupin",
+        "ConfirmDelete": "Potvrdit smazání",
+        "ConfirmDeleteMsg": "Opravdu chcete tento název smazat?",
+        "AddNewName": "Přidat nový název",
+        "Cancel": "Zrušit",
+        "Delete": "Smazat",
+        "Close": "Zavřít"
+      },
+      "customGroupRemember": {
+        "label": "Zapamatovat si seskupení stránek",
+        "description": "Když je povoleno, pokud je stránka přidána do vlastní skupiny, při příštím otevření stránky se automaticky použije tato skupina"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Chování při sbalení skupiny karet",
         "description": "Upravit chování sbalení skupiny karet v prohlížeči Chrome",
         "option_collapse_others": "Zobrazit aktuální skupinu a sbalit ostatní",
         "option_disable": "Rozbalit všechny skupiny",
         "option_auto": "Použít výchozí nastavení Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Použít název složky záložek jako název skupiny",
+        "description": "Automaticky použít název složky záložek jako název skupiny, pokud je otevřená URL v záložkách",
+        "enabled": "Povoleno",
+        "disabled": "Zakázáno"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Vybrat úroveň složky záložek",
+        "description": "Vyberte úroveň složky záložek, kterou chcete použít jako název skupiny",
+        "top": "Nejvyšší úroveň",
+        "parent": "Nadřazená úroveň",
+        "full": "Plná cesta"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automaticky vytvořit nebo připojit ke stejné doménové skupině",
@@ -519,6 +588,16 @@
         "target_top": "Nejvyšší karta",
         "save": "Uložit",
         "close": "Zavřít"
+      },
+      "backgroundColor": {
+        "label": "Barva pozadí",
+        "description": "Vyberte barvu pozadí pro tuto stránku.",
+        "random": "Náhodná",
+        "clear": "Vymazat"
+      },
+      "fontColor": {
+        "label": "Barva písma",
+        "description": "Nastavte barvu písma pro tuto stránku."
       }
     },
     "quickAccess": {

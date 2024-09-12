@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Gevorderde Prent-in-Prent",
   "APIAccess": "API Toegang",
   "customizeMenu": "Pas Spyskaart Aan",
-  "Automation": "Outomatisering"
+  "Automation": "Outomatisering",
+  "tabIndexTips": "Druk CMD/Ctrl + {{index}} om na hierdie oortjie oor te skakel",
+  "expandTabHistories": "Brei oortjie geskiedenisse uit",
+  "collapseTabHistories": "Vou oortjie geskiedenisse in",
+  "deleteTabHistory": "Verwyder hierdie oortjie geskiedenis",
+  "deleteTabHistories": "Verwyder alle geskiedenisse van hierdie oortjie",
+  "clickToGoBack": "Klik om terug te gaan",
+  "clickToGoForward": "Klik om vorentoe te gaan",
+  "loading": "Laai",
+  "updateBookmarkUrl": "Werk boekmerk URL op",
+  "oldUrl": "Ou URL",
+  "newUrl": "Nuwe URL",
+  "accessible": "Toeganklik",
+  "foundUrlRedirect": "Gevind URL herleiding, wil jy opdateer?"
 }

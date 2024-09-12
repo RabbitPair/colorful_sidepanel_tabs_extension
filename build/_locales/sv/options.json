@@ -3,6 +3,7 @@
   "_execute_action": "Aktivera denna tillägg",
   "openSidePanel": "Öppna sidopanel",
   "settings": {
+    "premiumEditionOnly": "Endast premiumutgåva",
     "resetCurrentPageSettings": "Återställ nuvarande sidinställningar",
     "modules": {
       "appearance": "Utseende",
@@ -287,6 +288,44 @@
         "label": "Förhandsgranskningsfördröjning",
         "description": "Ställ in fördröjningstiden för flikförhandsgranskningar när du hovrar över flikar, etc. (sekunder). Om inställt på 0 kommer det inte att vara någon fördröjning",
         "seconds": "Sekunder"
+      },
+      "showTabIndex": {
+        "label": "Visa flikindex",
+        "description": "När aktiverat kommer flikindex att visas bredvid titeln, vilket gör det enkelt att aktivera fliken med [Ctrl+nummer] på Windows eller [cmd+nummer] på Mac. Exempel: 1. stackoverflow.com 2. youtube, så att det är enkelt att göra Ctrl + 2 på Windows eller cmd + 2 på Mac för att gå till youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Flikhistorik",
+        "description": "När aktiverat kommer historiken över webbplatser som öppnats i samma flik att visas."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Visa flikhistorik endast på aktiv flik",
+        "description": "När aktiverat, visa flikhistorik endast på den aktiva fliken, annars visa flikhistorik på alla flikar."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandera flikhistorik som standard",
+        "description": "När aktiverat kommer flikhistoriken att vara expanderad som standard."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Visa expandera flikhistorik-knapp i listan",
+        "description": "När aktiverat kommer en knapp att visas i fliklistan som du kan klicka på för att expandera eller kollapsa flikhistoriken. Om inaktiverat kan du endast använda högerklicksmenyn för att expandera eller kollapsa flikhistoriken"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Visa flikhistorik-URL",
+        "description": "När aktiverat kommer flikhistorik-URL:en att visas, annars visas endast titeln"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Visa ikon när flikhistoriken är kollapsad",
+        "description": "När aktiverat, visa flikhistorik-ikonen när listan är kollapsad"
+      },
+      "tabHistorySortBy": {
+        "label": "Sorteringsordning för flikhistorik",
+        "description": "Välj sorteringsordning för flikhistorik",
+        "lastAccessed": "Senast åtkomna",
+        "createdAt": "Skapad tid"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Antal flikhistorikposter att visa",
+        "description": "Begränsa det maximala antalet flikhistorikposter att visa. Poster som överstiger gränsen kommer att döljas"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dubbelklick"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Avancerade flikgrupper",
+      "customGroupNames": {
+        "label": "Anpassade gruppnamn",
+        "description": "Du kan lägga till några fördefinierade grupper här, så att du snabbt kan välja dem när du behöver lägga till flikar i en grupp. Vi har redan förinställt några gruppnamn, som du kan ändra eller ta bort efter dina behov.",
+        "ManageGroupNames": "Hantera gruppnamn",
+        "CustomGroupNames": "Anpassade gruppnamn",
+        "ConfirmDelete": "Bekräfta radering",
+        "ConfirmDeleteMsg": "Är du säker på att du vill radera detta namn?",
+        "AddNewName": "Lägg till nytt namn",
+        "Cancel": "Avbryt",
+        "Delete": "Radera",
+        "Close": "Stäng"
+      },
+      "customGroupRemember": {
+        "label": "Kom ihåg webbplatsgruppering",
+        "description": "När aktiverat, om en webbplats läggs till i en anpassad grupp, kommer den automatiskt att använda denna grupp nästa gång webbplatsen öppnas"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Flikgruppens kollapsbeteende",
         "description": "Ändra beteendet för Chrome-webbläsarens flikgruppskollaps",
         "option_collapse_others": "Visa aktuell grupp och kollapsa andra",
         "option_disable": "Expandera alla grupper",
         "option_auto": "Använd Chromes standardinställningar"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Använd bokmärkesmappens namn som gruppnamn",
+        "description": "Använd automatiskt bokmärkesmappens namn som gruppnamn om den öppnade URL:en finns i bokmärkena",
+        "enabled": "Aktiverad",
+        "disabled": "Inaktiverad"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Välj bokmärkesmappnivå",
+        "description": "Välj nivån på bokmärkesmappen att använda som gruppnamn",
+        "top": "Topnivå",
+        "parent": "Föräldernivå",
+        "full": "Fullständig sökväg"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Skapa eller gå med i samma domängrupp automatiskt",
@@ -519,6 +588,16 @@
         "target_top": "Översta flik",
         "save": "Spara",
         "close": "Stäng"
+      },
+      "backgroundColor": {
+        "label": "Bakgrundsfärg",
+        "description": "Välj en bakgrundsfärg för denna webbplats.",
+        "random": "Slumpmässig",
+        "clear": "Rensa"
+      },
+      "fontColor": {
+        "label": "Textfärg",
+        "description": "Ange textfärgen för denna webbplats."
       }
     },
     "quickAccess": {

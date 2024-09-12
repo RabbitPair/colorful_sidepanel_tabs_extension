@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "ಅಧಿಕೃತ ಚಿತ್ರ-ಇನ್-ಚಿತ್ರ",
   "APIAccess": "API ಪ್ರವೇಶ",
   "customizeMenu": "ಮೆನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ",
-  "Automation": "ಸ್ವಯಂಚಾಲಿತ"
+  "Automation": "ಸ್ವಯಂಚಾಲಿತ",
+  "tabIndexTips": "ಈ ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸಲು CMD/Ctrl + {{index}} ಒತ್ತಿ",
+  "expandTabHistories": "ಟ್ಯಾಬ್ ಇತಿಹಾಸಗಳನ್ನು ವಿಸ್ತರಿಸಿ",
+  "collapseTabHistories": "ಟ್ಯಾಬ್ ಇತಿಹಾಸಗಳನ್ನು ಕುಗ್ಗಿಸಿ",
+  "deleteTabHistory": "ಈ ಟ್ಯಾಬ್ ಇತಿಹಾಸವನ್ನು ಅಳಿಸಿ",
+  "deleteTabHistories": "ಈ ಟ್ಯಾಬ್‌ನ ಎಲ್ಲಾ ಇತಿಹಾಸಗಳನ್ನು ಅಳಿಸಿ",
+  "clickToGoBack": "ಹಿಂದೆ ಹೋಗಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+  "clickToGoForward": "ಮುಂದೆ ಹೋಗಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+  "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+  "updateBookmarkUrl": "ಬುಕ್‌ಮಾರ್ಕ್ URL ಅನ್ನು ನವೀಕರಿಸಿ",
+  "oldUrl": "ಹಳೆಯ URL",
+  "newUrl": "ಹೊಸ URL",
+  "accessible": "ಪ್ರವೇಶಿಸಬಹುದಾದ",
+  "foundUrlRedirect": "URL ಮರುನಿರ್ದೇಶನ ಕಂಡುಬಂದಿದೆ, ನೀವು ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?"
 }

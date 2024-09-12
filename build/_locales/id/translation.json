@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Gambar-dalam-Gambar Lanjutan",
   "APIAccess": "Akses API",
   "customizeMenu": "Sesuaikan Menu",
-  "Automation": "Otomatisasi"
+  "Automation": "Otomatisasi",
+  "tabIndexTips": "Tekan CMD/Ctrl + {{index}} untuk beralih ke tab ini",
+  "expandTabHistories": "Perluas riwayat tab",
+  "collapseTabHistories": "Ciutkan riwayat tab",
+  "deleteTabHistory": "Hapus riwayat tab ini",
+  "deleteTabHistories": "Hapus semua riwayat tab ini",
+  "clickToGoBack": "Klik untuk kembali",
+  "clickToGoForward": "Klik untuk maju",
+  "loading": "Memuat",
+  "updateBookmarkUrl": "Perbarui URL Penanda",
+  "oldUrl": "URL Lama",
+  "newUrl": "URL Baru",
+  "accessible": "Dapat diakses",
+  "foundUrlRedirect": "Ditemukan pengalihan URL, apakah Anda ingin memperbarui?"
 }

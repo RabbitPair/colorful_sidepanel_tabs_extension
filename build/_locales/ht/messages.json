@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Chanje pozisyon ba bò"
+  },
+  "group_newsInformation": {
+    "message": "Nouvèl & Enfòmasyon"
+  },
+  "group_videoMovies": {
+    "message": "Videyo & Sinema"
+  },
+  "group_liveStreaming": {
+    "message": "Dirèk & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Jwèt & Divètisman"
+  },
+  "group_musicWebsites": {
+    "message": "Sit Mizik"
+  },
+  "group_literatureNovels": {
+    "message": "Literati & Woman"
+  },
+  "group_animeWebsites": {
+    "message": "Sit Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce & Acha"
+  },
+  "group_technologyDigital": {
+    "message": "Teknoloji & Dijital"
+  },
+  "group_sportsFitness": {
+    "message": "Espò & Fòm"
+  },
+  "group_medicalHealth": {
+    "message": "Medikal & Sante"
+  },
+  "group_educationTraining": {
+    "message": "Edikasyon & Fòmasyon"
+  },
+  "group_skillTraining": {
+    "message": "Fòmasyon Konpetans"
+  },
+  "group_financialInvestment": {
+    "message": "Finans & Envestisman"
+  },
+  "group_transportationTravel": {
+    "message": "Transpò & Vwayaj"
+  },
+  "group_cookingGourmet": {
+    "message": "Kwit manje & Goumè"
+  },
+  "group_petCare": {
+    "message": "Swen Bèt Kay"
+  },
+  "group_legalConsultation": {
+    "message": "Konsiltasyon Legal"
+  },
+  "group_artCulture": {
+    "message": "Atizay & Kilti"
+  },
+  "group_communityForums": {
+    "message": "Fowòm Kominotè"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Sosyal"
+  },
+  "group_commonQueries": {
+    "message": "Kesyon Komen"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Konplè & Lòt"
+  },
+  "group_jobRecruitment": {
+    "message": "Rekritman Travay"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekritman & Chèche Travay"
+  },
+  "group_motherBaby": {
+    "message": "Manman & Bebe"
+  },
+  "group_tutorialsGuides": {
+    "message": "Leson patikilye & Gid"
+  },
+  "group_goodSitesCollection": {
+    "message": "Koleksyon Bon Sit"
+  },
+  "group_blogArticles": {
+    "message": "Atik Blog"
+  },
+  "group_onlineTools": {
+    "message": "Zouti Sou Entènèt"
+  },
+  "group_freeResources": {
+    "message": "Resous Gratis"
+  },
+  "group_materialResources": {
+    "message": "Resous Materyèl"
+  },
+  "group_photography": {
+    "message": "Fotografi"
+  },
+  "group_gamblingWebsites": {
+    "message": "Sit Jwèt aza"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistèm Entèn"
   }
 }

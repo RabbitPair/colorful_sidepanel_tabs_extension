@@ -3,6 +3,7 @@
   "_execute_action": "Aktivizoni këtë zgjerim",
   "openSidePanel": "Hapni panelin anësor",
   "settings": {
+    "premiumEditionOnly": "Vetëm edicioni premium",
     "resetCurrentPageSettings": "Rivendosni cilësimet e faqes aktuale",
     "modules": {
       "appearance": "Pamja",
@@ -287,6 +288,44 @@
         "label": "Vonë parashikimi",
         "description": "Vendosni kohën e vonë për parashikimet e zavihkat kur shkelni mbi zavihkat, etj. (sekonda). Nëse vendoset në 0, nuk do të ketë vonë",
         "seconds": "Sekonda"
+      },
+      "showTabIndex": {
+        "label": "Shfaq indeksin e zavihkat",
+        "description": "Kur aktivizohet, indeksi i zavihkat do të shfaqet pranë titullit, duke e bërë të lehtë aktivizimin e zavihkat duke përdorur [Ctrl+numër] në Windows ose [cmd+numër] në Mac. Shembull: 1. stackoverflow.com 2. youtube, kështu që është e lehtë të bëni Ctrl + 2 në Windows ose cmd + 2 në Mac për të shkuar te youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historia e zavihkat",
+        "description": "Kur aktivizohet, historia e faqeve të hapura në të njëjtën zavihkat do të shfaqet."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Shfaq historinë e zavihkat vetëm në zavihkat aktive",
+        "description": "Kur aktivizohet, shfaq historinë e zavihkat vetëm në zavihkat aktive, përndryshe shfaq historinë e zavihkat në të gjitha zavihkat."
+      },
+      "tabHistoryExpand": {
+        "label": "Zgjero historinë e zavihkat si parazgjedhje",
+        "description": "Kur aktivizohet, historia e zavihkat do të zgjerohet si parazgjedhje."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Shfaq butonin e zgjerimit të historisë së zavihkat në listë",
+        "description": "Kur aktivizohet, një buton do të shfaqet në listën e zavihkat që mund të klikoni për të zgjeruar ose tkurrur historinë e zavihkat. Nëse çaktivizohet, mund të përdorni vetëm menunë e klikimit të djathtë për të zgjeruar ose tkurrur historinë e zavihkat"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Shfaq URL-në e historisë së zavihkat",
+        "description": "Kur aktivizohet, URL-ja e historisë së zavihkat do të shfaqet, përndryshe vetëm titulli do të shfaqet"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Shfaq ikonën kur historia e zavihkat është e tkurrur",
+        "description": "Kur aktivizohet, shfaq ikonën e historisë së zavihkat kur lista është e tkurrur"
+      },
+      "tabHistorySortBy": {
+        "label": "Renditja e historisë së zavihkat",
+        "description": "Zgjidh renditjen për historinë e zavihkat",
+        "lastAccessed": "E fundit e aksesuar",
+        "createdAt": "Koha e krijimit"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Numri i hyrjeve të historisë së zavihkat për të shfaqur",
+        "description": "Kufizo numrin maksimal të hyrjeve të historisë së zavihkat për të shfaqur. Hyrjet që kalojnë kufirin do të fshihen"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Klikimi dyfish"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupet e avancuara të zavihkat",
+      "customGroupNames": {
+        "label": "Emrat e grupeve të personalizuara",
+        "description": "Ju mund të shtoni disa grupe të paracaktuara këtu, kështu që mund t'i zgjidhni shpejt kur të keni nevojë të shtoni zavihkat në një grup. Ne kemi paracaktuar disa emra grupesh, të cilat mund t'i modifikoni ose fshini sipas nevojave tuaja.",
+        "ManageGroupNames": "Menaxho Emrat e Grupeve",
+        "CustomGroupNames": "Emrat e Grupeve të Personalizuara",
+        "ConfirmDelete": "Konfirmo Fshirjen",
+        "ConfirmDeleteMsg": "A jeni të sigurt që dëshironi të fshini këtë emër?",
+        "AddNewName": "Shto emër të ri",
+        "Cancel": "Anulo",
+        "Delete": "Fshi",
+        "Close": "Mbyll"
+      },
+      "customGroupRemember": {
+        "label": "Mbaj mend grupimin e faqes",
+        "description": "Kur aktivizohet, nëse një faqe shtohet në një grup të personalizuar, ajo do të përdorë automatikisht këtë grup herën tjetër kur faqja të hapet"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Djegia e sjelljes së grupit të zavihkat të Chrome",
         "description": "Modifikoni sjelljen e grumbullimit të grupit të zavihkat të shfletuesit Chrome",
         "option_collapse_others": "Shfaq grupin aktual dhe grumbullo të tjerët",
         "option_disable": "Zmadho të gjitha grupet",
         "option_auto": "Përdorni cilësimet parazgjedhur të Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Përdorni emrin e dosjes së faqeshënimeve si emër grupi",
+        "description": "Përdorni automatikisht emrin e dosjes së faqeshënimeve si emër grupi nëse URL-ja e hapur është në faqeshënime",
+        "enabled": "Aktivizuar",
+        "disabled": "Çaktivizuar"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Zgjidhni Nivelin e Dosjes së Faqeshënimeve",
+        "description": "Zgjidhni nivelin e dosjes së faqeshënimeve për ta përdorur si emër grupi",
+        "top": "Niveli i Lartë",
+        "parent": "Niveli Prind",
+        "full": "Rruga e Plotë"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Krijo automatikisht ose bashkohu me grupin e të njëjtit domain automatikisht",
@@ -519,6 +588,16 @@
         "target_top": "Skeda Kryesore",
         "save": "Ruaj",
         "close": "Mbyll"
+      },
+      "backgroundColor": {
+        "label": "Ngjyra e Prapavijës",
+        "description": "Zgjidhni një ngjyrë prapavije për këtë faqe.",
+        "random": "E rastësishme",
+        "clear": "Pastro"
+      },
+      "fontColor": {
+        "label": "Ngjyra e Shkronjave",
+        "description": "Vendosni ngjyrën e shkronjave për këtë faqe."
       }
     },
     "quickAccess": {

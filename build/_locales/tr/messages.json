@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Yan Panelin Konumunu Değiştir"
+  },
+  "group_newsInformation": {
+    "message": "Haberler ve Bilgi"
+  },
+  "group_videoMovies": {
+    "message": "Videolar ve Filmler"
+  },
+  "group_liveStreaming": {
+    "message": "Canlı ve Yayın"
+  },
+  "group_entertainmentGames": {
+    "message": "Oyunlar ve Eğlence"
+  },
+  "group_musicWebsites": {
+    "message": "Müzik Siteleri"
+  },
+  "group_literatureNovels": {
+    "message": "Edebiyat ve Romanlar"
+  },
+  "group_animeWebsites": {
+    "message": "Anime Siteleri"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-ticaret ve Alışveriş"
+  },
+  "group_technologyDigital": {
+    "message": "Teknoloji ve Dijital"
+  },
+  "group_sportsFitness": {
+    "message": "Spor ve Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Tıbbi ve Sağlık"
+  },
+  "group_educationTraining": {
+    "message": "Eğitim ve Öğretim"
+  },
+  "group_skillTraining": {
+    "message": "Beceri Eğitimi"
+  },
+  "group_financialInvestment": {
+    "message": "Finans ve Yatırım"
+  },
+  "group_transportationTravel": {
+    "message": "Ulaşım ve Seyahat"
+  },
+  "group_cookingGourmet": {
+    "message": "Yemek ve Gurme"
+  },
+  "group_petCare": {
+    "message": "Evcil Hayvan Bakımı"
+  },
+  "group_legalConsultation": {
+    "message": "Hukuki Danışmanlık"
+  },
+  "group_artCulture": {
+    "message": "Sanat ve Kültür"
+  },
+  "group_communityForums": {
+    "message": "Topluluk Forumları"
+  },
+  "group_chatSocial": {
+    "message": "Sohbet ve Sosyal"
+  },
+  "group_commonQueries": {
+    "message": "Yaygın Sorular"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Kapsamlı ve Diğerleri"
+  },
+  "group_jobRecruitment": {
+    "message": "İşe Alım"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "İşe Alım ve İş Arama"
+  },
+  "group_motherBaby": {
+    "message": "Anne ve Bebek"
+  },
+  "group_tutorialsGuides": {
+    "message": "Eğitimler ve Kılavuzlar"
+  },
+  "group_goodSitesCollection": {
+    "message": "İyi Siteler Koleksiyonu"
+  },
+  "group_blogArticles": {
+    "message": "Blog Makaleleri"
+  },
+  "group_onlineTools": {
+    "message": "Çevrimiçi Araçlar"
+  },
+  "group_freeResources": {
+    "message": "Ücretsiz Kaynaklar"
+  },
+  "group_materialResources": {
+    "message": "Malzeme Kaynakları"
+  },
+  "group_photography": {
+    "message": "Fotoğrafçılık"
+  },
+  "group_gamblingWebsites": {
+    "message": "Kumar Siteleri"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Dahili Sistemler"
   }
 }

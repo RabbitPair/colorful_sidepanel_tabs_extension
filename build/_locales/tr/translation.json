@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Gelişmiş Resim İçinde Resim",
   "APIAccess": "API Erişimi",
   "customizeMenu": "Menüyü Özelleştir",
-  "Automation": "Otomasyon"
+  "Automation": "Otomasyon",
+  "tabIndexTips": "Bu sekmeye geçmek için CMD/Ctrl + {{index}} tuşlarına basın",
+  "expandTabHistories": "Sekme geçmişlerini genişlet",
+  "collapseTabHistories": "Sekme geçmişlerini daralt",
+  "deleteTabHistory": "Bu sekme geçmişini sil",
+  "deleteTabHistories": "Bu sekmenin tüm geçmişlerini sil",
+  "clickToGoBack": "Geri gitmek için tıklayın",
+  "clickToGoForward": "İleri gitmek için tıklayın",
+  "loading": "Yükleniyor",
+  "updateBookmarkUrl": "Yer İmi URL'sini Güncelle",
+  "oldUrl": "Eski URL",
+  "newUrl": "Yeni URL",
+  "accessible": "Erişilebilir",
+  "foundUrlRedirect": "URL yönlendirmesi bulundu, güncellemek istiyor musunuz?"
 }

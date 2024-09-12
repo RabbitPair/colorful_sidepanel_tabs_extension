@@ -3,6 +3,7 @@
   "_execute_action": "Gnìomhachadh an leudachaidh seo",
   "openSidePanel": "Fosgail an taobh sainnsealadh",
   "settings": {
+    "premiumEditionOnly": "Aon Cheannach Préimhe Amháin",
     "resetCurrentPageSettings": "Ath-shuidhich sèitichean an duilleag làithreach",
     "modules": {
       "appearance": "Coltas",
@@ -287,6 +288,44 @@
         "label": "Drochaid preasbheachadh",
         "description": "Suidhich an ùine dìreach airson preasbheachadh taobhan nuair a' sùileachadh thairis air taobhan, agus mar sin air adhart. (dioghan). Ma suidhichte gu 0, cha bhi drochaid sam bith ann",
         "seconds": "Dioghan"
+      },
+      "showTabIndex": {
+        "label": "Seall clàr-taice taba",
+        "description": "Nuair a chaidh a chumas, bidh clàr-taice an taba air a thaisbeanadh ri taobh an tiotail, ga dhèanamh furasta taba gnìomhach a chleachdadh le [Ctrl+àireamh] air Windows no [cmd+àireamh] air Mac. Eisimpleir: 1. stackoverflow.com 2. youtube, gus am bi e furasta Ctrl + 2 a dhèanamh air Windows no cmd + 2 air Mac gus a dhol gu youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Eachdraidh taba",
+        "description": "Nuair a chaidh a chumas, bidh eachdraidh làraich-lìn a chaidh fhosgladh anns an aon taba air a thaisbeanadh."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Seall eachdraidh taba a-mhàin air an taba gnìomhach",
+        "description": "Nuair a chaidh a chumas, seall eachdraidh taba a-mhàin air an taba gnìomhach, air neo seall eachdraidh taba air gach taba."
+      },
+      "tabHistoryExpand": {
+        "label": "Leudaich eachdraidh taba gu bunaiteach",
+        "description": "Nuair a chaidh a chumas, bidh eachdraidh taba air a leudachadh gu bunaiteach."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Seall putan leudachadh eachdraidh taba anns an liosta",
+        "description": "Nuair a chaidh a chumas, bidh putan air a thaisbeanadh anns an liosta taba a dh'fhaodas tu briogadh gus eachdraidh taba a leudachadh no a bhriseadh. Ma tha e ciorramach, faodaidh tu a-mhàin am menu briogadh deas a chleachdadh gus eachdraidh taba a leudachadh no a bhriseadh"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Seall URL eachdraidh taba",
+        "description": "Nuair a chaidh a chumas, bidh URL eachdraidh an taba air a thaisbeanadh, air neo cha tèid ach an tiotal a shealltainn"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Seall ìomhaigh nuair a tha eachdraidh taba briste",
+        "description": "Nuair a chaidh a chumas, seall ìomhaigh eachdraidh taba nuair a tha an liosta briste"
+      },
+      "tabHistorySortBy": {
+        "label": "Òrdugh seòrsachaidh eachdraidh taba",
+        "description": "Tagh an òrdugh seòrsachaidh airson eachdraidh taba",
+        "lastAccessed": "Air a chleachdadh mu dheireadh",
+        "createdAt": "Ùine cruthachaidh"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Àireamh de chlàran eachdraidh taba ri shealltainn",
+        "description": "Cuir crìoch air an àireamh as motha de chlàran eachdraidh taba ri shealltainn. Bidh clàran a tha a' dol thairis air a' chrìoch air an fhalach"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dùbailte-briog"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Buidhnean taba adhartach",
+      "customGroupNames": {
+        "label": "Ainmean buidhnean àbhaisteach",
+        "description": "Faodaidh tu cuid de bhuidhnean ro-mhìnichte a chur ris an seo, gus an urrainn dhut an taghadh gu sgiobalta nuair a dh'fheumas tu tabaichean a chur ri buidheann. Tha sinn air cuid de dh'ainmean buidhne a shuidheachadh mu thràth, as urrainn dhut atharrachadh no sguabadh às a rèir do fheumalachdan.",
+        "ManageGroupNames": "Stiùirich Ainmean Buidhne",
+        "CustomGroupNames": "Ainmean Buidhne Àbhaisteach",
+        "ConfirmDelete": "Dearbhaich Sguabadh às",
+        "ConfirmDeleteMsg": "A bheil thu cinnteach gu bheil thu airson an t-ainm seo a sguabadh às?",
+        "AddNewName": "Cuir ainm ùr ris",
+        "Cancel": "Sguir dheth",
+        "Delete": "Sguab às",
+        "Close": "Dùin"
+      },
+      "customGroupRemember": {
+        "label": "Cuimhnich buidheann làraich",
+        "description": "Nuair a tha e comasach, ma thèid làrach a chur ri buidheann àbhaisteach, cleachdaidh e an aon bhuidheann an ath thuras a thèid an làrach fhosgladh gu fèin-obrachail"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Iomairt tabaich gruop",
         "description": "Atharraich iomairt tabaich gruop brabhsair Chrome",
         "option_collapse_others": "Seall an gruop làithreach agus iomairt gruopan eile",
         "option_disable": "Leudaich gach gruop",
         "option_auto": "Cleachdadh roghainnean àbhaisteach Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Cleachd ainm pasgan comharra-leabhair mar ainm buidhne",
+        "description": "Cleachd ainm pasgan comharra-leabhair gu fèin-obrachail mar ainm buidhne ma tha an URL fosgailte anns na comharran-leabhair",
+        "enabled": "Cumasach",
+        "disabled": "Di-chumasach"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Tagh Ìre Pasgan Comharra-leabhair",
+        "description": "Tagh an ìre de phasgan comharra-leabhair ri chleachdadh mar ainm buidhne",
+        "top": "Ìre Àrd",
+        "parent": "Ìre Phàrant",
+        "full": "Slighe Làn"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Cruthaich neo thaghadh gruop an aon dòigh-dhòmhainn",
@@ -519,6 +588,16 @@
         "target_top": "Tab As Àirde",
         "save": "Sàbhail",
         "close": "Dùin"
+      },
+      "backgroundColor": {
+        "label": "Dath Cùlaibh",
+        "description": "Tagh dath cùlaibh airson an làraich seo.",
+        "random": "Rannsachadh",
+        "clear": "Falamh"
+      },
+      "fontColor": {
+        "label": "Dath Litreach",
+        "description": "Suidhich dath litreach airson an làraich seo."
       }
     },
     "quickAccess": {

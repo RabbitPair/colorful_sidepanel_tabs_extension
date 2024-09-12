@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Розширений режим «Картинка в картинці»",
   "APIAccess": "Доступ до API",
   "customizeMenu": "Налаштувати меню",
-  "Automation": "Автоматизація"
+  "Automation": "Автоматизація",
+  "tabIndexTips": "Натисніть CMD/Ctrl + {{index}}, щоб переключитися на цю вкладку",
+  "expandTabHistories": "Розгорнути історії вкладок",
+  "collapseTabHistories": "Згорнути історії вкладок",
+  "deleteTabHistory": "Видалити історію цієї вкладки",
+  "deleteTabHistories": "Видалити всі історії цієї вкладки",
+  "clickToGoBack": "Натисніть, щоб повернутися назад",
+  "clickToGoForward": "Натисніть, щоб перейти вперед",
+  "loading": "Завантаження",
+  "updateBookmarkUrl": "Оновити URL закладки",
+  "oldUrl": "Старий URL",
+  "newUrl": "Новий URL",
+  "accessible": "Доступний",
+  "foundUrlRedirect": "Знайдено перенаправлення URL, бажаєте оновити?"
 }

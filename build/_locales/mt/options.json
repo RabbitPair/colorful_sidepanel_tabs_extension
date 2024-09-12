@@ -3,6 +3,7 @@
   "_execute_action": "Attiva din l'estensjoni",
   "openSidePanel": "Iftaħ il-panel naħa",
   "settings": {
+    "premiumEditionOnly": "Edizzjoni Premium biss",
     "resetCurrentPageSettings": "Irriżetta l-impostazzjonijiet tal-paġna attwali",
     "modules": {
       "appearance": "Ħaġa",
@@ -287,6 +288,44 @@
         "label": "Dilata tal-preżentazzjoni",
         "description": "Istabli żmien id-dilata għall-preżentazzjonijiet tal-tab meta tħoss fuq it-tabs, eċċ. (sekondi). Jekk immarkat għal 0, ma jkunx hemm dilata",
         "seconds": "Sekondi"
+      },
+      "showTabIndex": {
+        "label": "Uri l-indiċi tat-tab",
+        "description": "Meta jkun attivat, l-indiċi tat-tab se jintwera ħdejn it-titlu, u jagħmilha faċli biex tattiva tab billi tuża [Ctrl+number] fuq Windows jew [cmd+number] fuq Mac. Eżempju: 1. stackoverflow.com 2. youtube, sabiex ikun faċli li tagħmel Ctrl + 2 fuq Windows jew cmd + 2 fuq Mac biex tmur fuq youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Storja tat-tab",
+        "description": "Meta jkun attivat, l-istorja tal-websajts miftuħa fl-istess tab se tintwera."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Uri l-istorja tat-tab biss fuq it-tab attiv",
+        "description": "Meta jkun attivat, uri l-istorja tat-tab biss fuq it-tab attiv, inkella uri l-istorja tat-tab fuq it-tabs kollha."
+      },
+      "tabHistoryExpand": {
+        "label": "Espandi l-istorja tat-tab awtomatikament",
+        "description": "Meta jkun attivat, l-istorja tat-tab se tkun estiża awtomatikament."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Uri buttuna biex tespandi l-istorja tat-tab fil-lista",
+        "description": "Meta jkun attivat, buttuna se tintwera fil-lista tat-tab li tista' tikklikkja biex tespandi jew tiċkien l-istorja tat-tab. Jekk tkun diżattivata, tista' tuża biss il-menu tal-klikks tal-lemin biex tespandi jew tiċkien l-istorja tat-tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Uri l-URL tal-istorja tat-tab",
+        "description": "Meta jkun attivat, l-URL tal-istorja tat-tab se jintwera, inkella jintwera biss it-titlu"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Uri l-ikona meta l-istorja tat-tab tkun miċkena",
+        "description": "Meta jkun attivat, uri l-ikona tal-istorja tat-tab meta l-lista tkun miċkena"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordni ta' sortjar tal-istorja tat-tab",
+        "description": "Agħżel l-ordni ta' sortjar għall-istorja tat-tab",
+        "lastAccessed": "Aċċessat l-aħħar",
+        "createdAt": "Ħin tal-ħolqien"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Numru ta' entrati tal-istorja tat-tab biex jintwerew",
+        "description": "Illimita n-numru massimu ta' entrati tal-istorja tat-tab biex jintwerew. Entrati li jaqbżu l-limitu se jkunu moħbija"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doppju klikk"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Gruppi ta 'tabs avvanzati",
+      "customGroupNames": {
+        "label": "Ismijiet ta 'grupp personalizzati",
+        "description": "Tista 'żżid xi gruppi predefiniti hawn, sabiex tkun tista' tagħżilhom malajr meta jkollok bżonn iżżid tabs ma 'grupp. Diġà ppreżentajna xi ismijiet ta 'grupp, li tista' timmodifika jew tħassar skont il-bżonnijiet tiegħek.",
+        "ManageGroupNames": "Immaniġġja l-Ismijiet tal-Grupp",
+        "CustomGroupNames": "Ismijiet ta 'Grupp Personalizzati",
+        "ConfirmDelete": "Ikkonferma t-Tħassir",
+        "ConfirmDeleteMsg": "Żgur li trid tħassar dan l-isem?",
+        "AddNewName": "Żid isem ġdid",
+        "Cancel": "Ikkanċella",
+        "Delete": "Ħassar",
+        "Close": "Agħlaq"
+      },
+      "customGroupRemember": {
+        "label": "Ftakar il-grupp tas-sit",
+        "description": "Meta tkun attivata, jekk sit jiżdied ma 'grupp personalizzat, awtomatikament juża dan il-grupp id-darba li jmiss li jinfetaħ is-sit"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ħsieb ta 'kollaps ta 'grupp ta' tabs",
         "description": "Ibdel il-mod kif it-tabijiet tal-grupp ta 'tabs tal-browser Chrome jikollapsaw",
         "option_collapse_others": "Uri l-grupp attwali u kollapsa l-oħrajn",
         "option_disable": "Espandi l-gruppi kollha",
         "option_auto": "Uża l-impostazzjonijiet default tal-Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Uża l-isem tal-folder tal-bookmark bħala l-isem tal-grupp",
+        "description": "Uża awtomatikament l-isem tal-folder tal-bookmark bħala l-isem tal-grupp jekk l-URL miftuħ ikun fil-bookmarks",
+        "enabled": "Attivat",
+        "disabled": "Diżattivat"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Agħżel il-Livell tal-Folder tal-Bookmark",
+        "description": "Agħżel il-livell tal-folder tal-bookmark biex tużah bħala l-isem tal-grupp",
+        "top": "Livell ta' Fuq",
+        "parent": "Livell tal-Ġenitur",
+        "full": "Path Sħiħ"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto joħol jew jiġu mħabbra fil-grupp tas-sit stess",
@@ -519,6 +588,16 @@
         "target_top": "Tab Ewlieni",
         "save": "Issejvja",
         "close": "Agħlaq"
+      },
+      "backgroundColor": {
+        "label": "Kulur tal-Fundu",
+        "description": "Agħżel kulur tal-fundu għal dan is-sit.",
+        "random": "Raġel",
+        "clear": "Ċar"
+      },
+      "fontColor": {
+        "label": "Kulur tal-Font",
+        "description": "Istabli kulur tal-font għal dan is-sit."
       }
     },
     "quickAccess": {

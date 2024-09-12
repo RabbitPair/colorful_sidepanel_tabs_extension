@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Seitenleistenposition umschalten"
+  },
+  "group_newsInformation": {
+    "message": "Nachrichten & Informationen"
+  },
+  "group_videoMovies": {
+    "message": "Videos & Filme"
+  },
+  "group_liveStreaming": {
+    "message": "Live & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Spiele & Unterhaltung"
+  },
+  "group_musicWebsites": {
+    "message": "Musik-Websites"
+  },
+  "group_literatureNovels": {
+    "message": "Literatur & Romane"
+  },
+  "group_animeWebsites": {
+    "message": "Anime-Websites"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-Commerce & Shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Technologie & Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medizin & Gesundheit"
+  },
+  "group_educationTraining": {
+    "message": "Bildung & Ausbildung"
+  },
+  "group_skillTraining": {
+    "message": "Fähigkeitstraining"
+  },
+  "group_financialInvestment": {
+    "message": "Finanzen & Investitionen"
+  },
+  "group_transportationTravel": {
+    "message": "Transport & Reisen"
+  },
+  "group_cookingGourmet": {
+    "message": "Kochen & Gourmet"
+  },
+  "group_petCare": {
+    "message": "Haustierpflege"
+  },
+  "group_legalConsultation": {
+    "message": "Rechtsberatung"
+  },
+  "group_artCulture": {
+    "message": "Kunst & Kultur"
+  },
+  "group_communityForums": {
+    "message": "Community-Foren"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Soziales"
+  },
+  "group_commonQueries": {
+    "message": "Häufige Anfragen"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Umfassend & Sonstiges"
+  },
+  "group_jobRecruitment": {
+    "message": "Job-Rekrutierung"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrutierung & Jobsuche"
+  },
+  "group_motherBaby": {
+    "message": "Mutter & Baby"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorials & Anleitungen"
+  },
+  "group_goodSitesCollection": {
+    "message": "Gute Websites-Sammlung"
+  },
+  "group_blogArticles": {
+    "message": "Blog-Artikel"
+  },
+  "group_onlineTools": {
+    "message": "Online-Tools"
+  },
+  "group_freeResources": {
+    "message": "Kostenlose Ressourcen"
+  },
+  "group_materialResources": {
+    "message": "Materialressourcen"
+  },
+  "group_photography": {
+    "message": "Fotografie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Glücksspiel-Websites"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interne Systeme"
   }
 }

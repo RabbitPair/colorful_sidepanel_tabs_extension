@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Advanced Picture-in-Picture",
   "APIAccess": "API Access",
   "customizeMenu": "Customize Menu",
-  "Automation": "Automation"
+  "Automation": "Automation",
+  "tabIndexTips": "Press CMD/Ctrl + {{index}} to switch to this tab",
+  "expandTabHistories": "Expand tab histories",
+  "collapseTabHistories": "Collapse tab histories",
+  "deleteTabHistory": "Delete this tab history",
+  "deleteTabHistories": "Delete all histories of this tab",
+  "clickToGoBack": "Click to go back",
+  "clickToGoForward": "Click To Go forward",
+  "loading": "Loading",
+  "updateBookmarkUrl": "Update Bookmark URL",
+  "oldUrl": "Old URL",
+  "newUrl": "New URL",
+  "accessible": "Accessible",
+  "foundUrlRedirect": "Found URL redirect, do you want to update?"
 }

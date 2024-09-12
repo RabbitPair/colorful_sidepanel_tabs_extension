@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Превключете позицията на страничния панел"
+  },
+  "group_newsInformation": {
+    "message": "Новини и информация"
+  },
+  "group_videoMovies": {
+    "message": "Видеоклипове и филми"
+  },
+  "group_liveStreaming": {
+    "message": "На живо и стрийминг"
+  },
+  "group_entertainmentGames": {
+    "message": "Игри и забавления"
+  },
+  "group_musicWebsites": {
+    "message": "Музикални уебсайтове"
+  },
+  "group_literatureNovels": {
+    "message": "Литература и романи"
+  },
+  "group_animeWebsites": {
+    "message": "Аниме уебсайтове"
+  },
+  "group_ecommerceShopping": {
+    "message": "Електронна търговия и пазаруване"
+  },
+  "group_technologyDigital": {
+    "message": "Технологии и дигитални"
+  },
+  "group_sportsFitness": {
+    "message": "Спорт и фитнес"
+  },
+  "group_medicalHealth": {
+    "message": "Медицина и здраве"
+  },
+  "group_educationTraining": {
+    "message": "Образование и обучение"
+  },
+  "group_skillTraining": {
+    "message": "Обучение на умения"
+  },
+  "group_financialInvestment": {
+    "message": "Финанси и инвестиции"
+  },
+  "group_transportationTravel": {
+    "message": "Транспорт и пътувания"
+  },
+  "group_cookingGourmet": {
+    "message": "Готвене и гурме"
+  },
+  "group_petCare": {
+    "message": "Грижа за домашни любимци"
+  },
+  "group_legalConsultation": {
+    "message": "Правни консултации"
+  },
+  "group_artCulture": {
+    "message": "Изкуство и култура"
+  },
+  "group_communityForums": {
+    "message": "Общностни форуми"
+  },
+  "group_chatSocial": {
+    "message": "Чат и социални"
+  },
+  "group_commonQueries": {
+    "message": "Често задавани въпроси"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Обширни и други"
+  },
+  "group_jobRecruitment": {
+    "message": "Работа и набиране на персонал"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Набиране на персонал и търсене на работа"
+  },
+  "group_motherBaby": {
+    "message": "Майка и бебе"
+  },
+  "group_tutorialsGuides": {
+    "message": "Уроци и ръководства"
+  },
+  "group_goodSitesCollection": {
+    "message": "Колекция от добри сайтове"
+  },
+  "group_blogArticles": {
+    "message": "Блог статии"
+  },
+  "group_onlineTools": {
+    "message": "Онлайн инструменти"
+  },
+  "group_freeResources": {
+    "message": "Безплатни ресурси"
+  },
+  "group_materialResources": {
+    "message": "Материални ресурси"
+  },
+  "group_photography": {
+    "message": "Фотография"
+  },
+  "group_gamblingWebsites": {
+    "message": "Хазартни уебсайтове"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Вътрешни системи"
   }
 }

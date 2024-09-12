@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "تبديل موضع الشريط الجانبي"
+  },
+  "group_newsInformation": {
+    "message": "الأخبار والمعلومات"
+  },
+  "group_videoMovies": {
+    "message": "الفيديوهات والأفلام"
+  },
+  "group_liveStreaming": {
+    "message": "البث المباشر"
+  },
+  "group_entertainmentGames": {
+    "message": "الألعاب والترفيه"
+  },
+  "group_musicWebsites": {
+    "message": "مواقع الموسيقى"
+  },
+  "group_literatureNovels": {
+    "message": "الأدب والروايات"
+  },
+  "group_animeWebsites": {
+    "message": "مواقع الأنمي"
+  },
+  "group_ecommerceShopping": {
+    "message": "التجارة الإلكترونية والتسوق"
+  },
+  "group_technologyDigital": {
+    "message": "التكنولوجيا والرقمية"
+  },
+  "group_sportsFitness": {
+    "message": "الرياضة واللياقة البدنية"
+  },
+  "group_medicalHealth": {
+    "message": "الطب والصحة"
+  },
+  "group_educationTraining": {
+    "message": "التعليم والتدريب"
+  },
+  "group_skillTraining": {
+    "message": "تدريب المهارات"
+  },
+  "group_financialInvestment": {
+    "message": "المالية والاستثمار"
+  },
+  "group_transportationTravel": {
+    "message": "النقل والسفر"
+  },
+  "group_cookingGourmet": {
+    "message": "الطبخ والطعام الفاخر"
+  },
+  "group_petCare": {
+    "message": "رعاية الحيوانات الأليفة"
+  },
+  "group_legalConsultation": {
+    "message": "الاستشارات القانونية"
+  },
+  "group_artCulture": {
+    "message": "الفن والثقافة"
+  },
+  "group_communityForums": {
+    "message": "المنتديات المجتمعية"
+  },
+  "group_chatSocial": {
+    "message": "الدردشة والشبكات الاجتماعية"
+  },
+  "group_commonQueries": {
+    "message": "الاستفسارات الشائعة"
+  },
+  "group_comprehensiveOthers": {
+    "message": "الشاملة والأخرى"
+  },
+  "group_jobRecruitment": {
+    "message": "التوظيف"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "التوظيف والبحث عن عمل"
+  },
+  "group_motherBaby": {
+    "message": "الأم والطفل"
+  },
+  "group_tutorialsGuides": {
+    "message": "الدروس والإرشادات"
+  },
+  "group_goodSitesCollection": {
+    "message": "مجموعة المواقع الجيدة"
+  },
+  "group_blogArticles": {
+    "message": "مقالات المدونة"
+  },
+  "group_onlineTools": {
+    "message": "الأدوات عبر الإنترنت"
+  },
+  "group_freeResources": {
+    "message": "الموارد المجانية"
+  },
+  "group_materialResources": {
+    "message": "الموارد المادية"
+  },
+  "group_photography": {
+    "message": "التصوير الفوتوغرافي"
+  },
+  "group_gamblingWebsites": {
+    "message": "مواقع القمار"
+  },
+  "group_nsfw": {
+    "message": "للبالغين فقط"
+  },
+  "group_internalSystems": {
+    "message": "الأنظمة الداخلية"
   }
 }

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Irudi-irudi Aurreratua",
   "APIAccess": "API Sarbidea",
   "customizeMenu": "Menua Pertsonalizatu",
-  "Automation": "Automatizazioa"
+  "Automation": "Automatizazioa",
+  "tabIndexTips": "Sakatu CMD/Ctrl + {{index}} fitxa honetara aldatzeko",
+  "expandTabHistories": "Zabaldu fitxen historiak",
+  "collapseTabHistories": "Tolestu fitxen historiak",
+  "deleteTabHistory": "Ezabatu fitxa honen historia",
+  "deleteTabHistories": "Ezabatu fitxa honen historia guztiak",
+  "clickToGoBack": "Klik egin atzera joateko",
+  "clickToGoForward": "Klik egin aurrera joateko",
+  "loading": "Kargatzen",
+  "updateBookmarkUrl": "Eguneratu laster-markaren URLa",
+  "oldUrl": "URL zaharra",
+  "newUrl": "URL berria",
+  "accessible": "Eskuragarria",
+  "foundUrlRedirect": "URL birbideratzea aurkitu da, eguneratu nahi duzu?"
 }

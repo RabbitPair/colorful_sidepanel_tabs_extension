@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Geavanceerde Picture-in-Picture",
   "APIAccess": "API-toegang",
   "customizeMenu": "Menu aanpassen",
-  "Automation": "Automatisering"
+  "Automation": "Automatisering",
+  "tabIndexTips": "Druk op CMD/Ctrl + {{index}} om naar dit tabblad te schakelen",
+  "expandTabHistories": "Tabbladgeschiedenissen uitvouwen",
+  "collapseTabHistories": "Tabbladgeschiedenissen samenvouwen",
+  "deleteTabHistory": "Verwijder deze tabbladgeschiedenis",
+  "deleteTabHistories": "Verwijder alle geschiedenissen van dit tabblad",
+  "clickToGoBack": "Klik om terug te gaan",
+  "clickToGoForward": "Klik om vooruit te gaan",
+  "loading": "Laden",
+  "updateBookmarkUrl": "Bladwijzer-URL bijwerken",
+  "oldUrl": "Oude URL",
+  "newUrl": "Nieuwe URL",
+  "accessible": "Toegankelijk",
+  "foundUrlRedirect": "URL-omleiding gevonden, wilt u bijwerken?"
 }

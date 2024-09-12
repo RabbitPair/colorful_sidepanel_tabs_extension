@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "高度なピクチャーインピクチャー",
   "APIAccess": "APIアクセス",
   "customizeMenu": "メニューをカスタマイズ",
-  "Automation": "自動化"
+  "Automation": "自動化",
+  "tabIndexTips": "CMD/Ctrl + {{index}} を押してこのタブに切り替えます",
+  "expandTabHistories": "タブ履歴を展開",
+  "collapseTabHistories": "タブ履歴を折りたたむ",
+  "deleteTabHistory": "このタブ履歴を削除",
+  "deleteTabHistories": "このタブのすべての履歴を削除",
+  "clickToGoBack": "クリックして戻る",
+  "clickToGoForward": "クリックして進む",
+  "loading": "読み込み中",
+  "updateBookmarkUrl": "ブックマークURLを更新",
+  "oldUrl": "古いURL",
+  "newUrl": "新しいURL",
+  "accessible": "アクセス可能",
+  "foundUrlRedirect": "URLリダイレクトが見つかりました。更新しますか？"
 }

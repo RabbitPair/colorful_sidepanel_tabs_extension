@@ -3,6 +3,7 @@
   "_execute_action": "Activer cette extension",
   "openSidePanel": "Ouvrir le panneau latéral",
   "settings": {
+    "premiumEditionOnly": "Uniquement l'édition premium",
     "resetCurrentPageSettings": "Réinitialiser les paramètres de la page actuelle",
     "modules": {
       "appearance": "Apparence",
@@ -287,6 +288,44 @@
         "label": "Délai d'aperçu",
         "description": "Définir le délai pour les aperçus des onglets lors du survol des onglets, etc. (secondes). Si réglé sur 0, il n'y aura pas de délai",
         "seconds": "Secondes"
+      },
+      "showTabIndex": {
+        "label": "Afficher l'index des onglets",
+        "description": "Lorsqu'il est activé, l'index des onglets sera affiché à côté du titre, ce qui facilite l'activation de l'onglet en utilisant [Ctrl+numéro] sur Windows ou [cmd+numéro] sur Mac. Exemple : 1. stackoverflow.com 2. youtube, de sorte qu'il soit facile de faire Ctrl + 2 sur Windows ou cmd + 2 sur Mac pour aller sur youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historique des onglets",
+        "description": "Lorsqu'il est activé, l'historique des sites web ouverts dans le même onglet sera affiché."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Afficher l'historique des onglets uniquement sur l'onglet actif",
+        "description": "Lorsqu'il est activé, afficher l'historique des onglets uniquement sur l'onglet actif, sinon afficher l'historique des onglets sur tous les onglets."
+      },
+      "tabHistoryExpand": {
+        "label": "Développer l'historique des onglets par défaut",
+        "description": "Lorsqu'il est activé, l'historique des onglets sera développé par défaut."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Afficher le bouton de développement de l'historique des onglets dans la liste",
+        "description": "Lorsqu'il est activé, un bouton sera affiché dans la liste des onglets que vous pouvez cliquer pour développer ou réduire l'historique des onglets. Si désactivé, vous ne pouvez utiliser que le menu contextuel pour développer ou réduire l'historique des onglets"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Afficher l'URL de l'historique des onglets",
+        "description": "Lorsqu'il est activé, l'URL de l'historique des onglets sera affichée, sinon seul le titre sera affiché"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Afficher l'icône lorsque l'historique des onglets est réduit",
+        "description": "Lorsqu'il est activé, afficher l'icône de l'historique des onglets lorsque la liste est réduite"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordre de tri de l'historique des onglets",
+        "description": "Sélectionner l'ordre de tri pour l'historique des onglets",
+        "lastAccessed": "Dernier accès",
+        "createdAt": "Date de création"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Nombre d'entrées d'historique des onglets à afficher",
+        "description": "Limiter le nombre maximum d'entrées d'historique des onglets à afficher. Les entrées dépassant la limite seront cachées"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Double-cliquez"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Groupes d'onglets avancés",
+      "customGroupNames": {
+        "label": "Noms de groupes personnalisés",
+        "description": "Vous pouvez ajouter des groupes prédéfinis ici, afin de pouvoir les sélectionner rapidement lorsque vous devez ajouter des onglets à un groupe. Nous avons déjà prédéfini certains noms de groupes, que vous pouvez modifier ou supprimer selon vos besoins.",
+        "ManageGroupNames": "Gérer les noms de groupes",
+        "CustomGroupNames": "Noms de groupes personnalisés",
+        "ConfirmDelete": "Confirmer la suppression",
+        "ConfirmDeleteMsg": "Êtes-vous sûr de vouloir supprimer ce nom ?",
+        "AddNewName": "Ajouter un nouveau nom",
+        "Cancel": "Annuler",
+        "Delete": "Supprimer",
+        "Close": "Fermer"
+      },
+      "customGroupRemember": {
+        "label": "Se souvenir du regroupement de sites",
+        "description": "Lorsqu'il est activé, si un site est ajouté à un groupe personnalisé, il utilisera automatiquement ce groupe la prochaine fois que le site sera ouvert"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportement de réduction du groupe d'onglets",
         "description": "Modifier le comportement de réduction du groupe d'onglets du navigateur Chrome",
         "option_collapse_others": "Afficher le groupe actuel et réduire les autres",
         "option_disable": "Développer tous les groupes",
         "option_auto": "Utiliser les paramètres par défaut de Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Utiliser le nom du dossier de favoris comme nom de groupe",
+        "description": "Utiliser automatiquement le nom du dossier de favoris comme nom de groupe si l'URL ouverte est dans les favoris",
+        "enabled": "Activé",
+        "disabled": "Désactivé"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Sélectionner le niveau du dossier de favoris",
+        "description": "Choisissez le niveau du dossier de favoris à utiliser comme nom de groupe",
+        "top": "Niveau supérieur",
+        "parent": "Niveau parent",
+        "full": "Chemin complet"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Créer ou rejoindre automatiquement le même groupe de domaine",
@@ -519,6 +588,16 @@
         "target_top": "Onglet principal",
         "save": "Enregistrer",
         "close": "Fermer"
+      },
+      "backgroundColor": {
+        "label": "Couleur de fond",
+        "description": "Sélectionnez une couleur de fond pour ce site.",
+        "random": "Aléatoire",
+        "clear": "Effacer"
+      },
+      "fontColor": {
+        "label": "Couleur de police",
+        "description": "Définissez la couleur de police pour ce site."
       }
     },
     "quickAccess": {

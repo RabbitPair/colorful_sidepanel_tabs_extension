@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "উন্নত পিকচার-ইন-পিকচার",
   "APIAccess": "API অ্যাক্সেস",
   "customizeMenu": "মেনু কাস্টমাইজ করুন",
-  "Automation": "স্বয়ংক্রিয়করণ"
+  "Automation": "স্বয়ংক্রিয়করণ",
+  "tabIndexTips": "এই ট্যাবে যেতে CMD/Ctrl + {{index}} চাপুন",
+  "expandTabHistories": "ট্যাব ইতিহাস প্রসারিত করুন",
+  "collapseTabHistories": "ট্যাব ইতিহাস সংকুচিত করুন",
+  "deleteTabHistory": "এই ট্যাব ইতিহাস মুছুন",
+  "deleteTabHistories": "এই ট্যাবের সমস্ত ইতিহাস মুছুন",
+  "clickToGoBack": "ফিরে যেতে ক্লিক করুন",
+  "clickToGoForward": "এগিয়ে যেতে ক্লিক করুন",
+  "loading": "লোড হচ্ছে",
+  "updateBookmarkUrl": "বুকমার্ক URL আপডেট করুন",
+  "oldUrl": "পুরানো URL",
+  "newUrl": "নতুন URL",
+  "accessible": "অ্যাক্সেসযোগ্য",
+  "foundUrlRedirect": "URL পুনঃনির্দেশ পাওয়া গেছে, আপনি কি আপডেট করতে চান?"
 }

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "အဆင့်မြင့်ပုံအတွင်းပုံ",
   "APIAccess": "API Access",
   "customizeMenu": "မီနူးကိုစိတ်ကြိုက်ပြင်ဆင်ရန်",
-  "Automation": "အလိုအလျောက်လုပ်ဆောင်မှု"
+  "Automation": "အလိုအလျောက်လုပ်ဆောင်မှု",
+  "tabIndexTips": "CMD/Ctrl + {{index}} ကိုနှိပ်၍ဤတဘ်သို့ပြောင်းပါ",
+  "expandTabHistories": "တဘ်မှတ်တမ်းများကိုချဲ့ရန်",
+  "collapseTabHistories": "တဘ်မှတ်တမ်းများကိုကျုံ့ရန်",
+  "deleteTabHistory": "ဤတဘ်မှတ်တမ်းကိုဖျက်ရန်",
+  "deleteTabHistories": "ဤတဘ်၏မှတ်တမ်းအားလုံးကိုဖျက်ရန်",
+  "clickToGoBack": "နောက်သို့သွားရန်နှိပ်ပါ",
+  "clickToGoForward": "ရှေ့သို့သွားရန်နှိပ်ပါ",
+  "loading": "ဖွင့်နေသည်",
+  "updateBookmarkUrl": "စာအမှတ် URL ကိုအသစ်ပြင်ရန်",
+  "oldUrl": "ဟောင်း URL",
+  "newUrl": "အသစ် URL",
+  "accessible": "ဝင်ရောက်နိုင်သည်",
+  "foundUrlRedirect": "URL redirect ကိုတွေ့ပါသည်၊ update လုပ်လိုပါသလား?"
 }

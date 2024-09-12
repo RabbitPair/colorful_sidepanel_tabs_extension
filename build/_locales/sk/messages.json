@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Prepnúť polohu bočného panela"
+  },
+  "group_newsInformation": {
+    "message": "Správy a informácie"
+  },
+  "group_videoMovies": {
+    "message": "Videá a filmy"
+  },
+  "group_liveStreaming": {
+    "message": "Živé vysielanie"
+  },
+  "group_entertainmentGames": {
+    "message": "Hry a zábava"
+  },
+  "group_musicWebsites": {
+    "message": "Hudobné weby"
+  },
+  "group_literatureNovels": {
+    "message": "Literatúra a romány"
+  },
+  "group_animeWebsites": {
+    "message": "Anime weby"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce a nakupovanie"
+  },
+  "group_technologyDigital": {
+    "message": "Technológie a digitál"
+  },
+  "group_sportsFitness": {
+    "message": "Šport a fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Zdravotníctvo a zdravie"
+  },
+  "group_educationTraining": {
+    "message": "Vzdelávanie a školenie"
+  },
+  "group_skillTraining": {
+    "message": "Tréning zručností"
+  },
+  "group_financialInvestment": {
+    "message": "Financie a investície"
+  },
+  "group_transportationTravel": {
+    "message": "Doprava a cestovanie"
+  },
+  "group_cookingGourmet": {
+    "message": "Varenie a gurmánstvo"
+  },
+  "group_petCare": {
+    "message": "Starostlivosť o domáce zvieratá"
+  },
+  "group_legalConsultation": {
+    "message": "Právne poradenstvo"
+  },
+  "group_artCulture": {
+    "message": "Umenie a kultúra"
+  },
+  "group_communityForums": {
+    "message": "Komunitné fóra"
+  },
+  "group_chatSocial": {
+    "message": "Chat a sociálne siete"
+  },
+  "group_commonQueries": {
+    "message": "Bežné otázky"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komplexné a iné"
+  },
+  "group_jobRecruitment": {
+    "message": "Nábor pracovných miest"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Nábor a hľadanie práce"
+  },
+  "group_motherBaby": {
+    "message": "Matka a dieťa"
+  },
+  "group_tutorialsGuides": {
+    "message": "Návody a príručky"
+  },
+  "group_goodSitesCollection": {
+    "message": "Zbierka dobrých stránok"
+  },
+  "group_blogArticles": {
+    "message": "Blogové články"
+  },
+  "group_onlineTools": {
+    "message": "Online nástroje"
+  },
+  "group_freeResources": {
+    "message": "Bezplatné zdroje"
+  },
+  "group_materialResources": {
+    "message": "Materiálne zdroje"
+  },
+  "group_photography": {
+    "message": "Fotografia"
+  },
+  "group_gamblingWebsites": {
+    "message": "Hazardné weby"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interné systémy"
   }
 }

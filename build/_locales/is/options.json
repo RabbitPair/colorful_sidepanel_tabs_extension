@@ -3,6 +3,7 @@
   "_execute_action": "Virkja þessa viðbót",
   "openSidePanel": "Opna hliðarpanel",
   "settings": {
+    "premiumEditionOnly": "Aðeins fyrir prémíum útgáfu",
     "resetCurrentPageSettings": "Endurstilla núverandi síðustillingar",
     "modules": {
       "appearance": "Útlit",
@@ -287,6 +288,44 @@
         "label": "Flettingartími",
         "description": "Stilltu biðtímann fyrir flettingar þegar flettir yfir flipa, o.s.frv. (sekúndur). Ef stillt á 0, verður enginn biðtími",
         "seconds": "Sekúndur"
+      },
+      "showTabIndex": {
+        "label": "Sýna flipanúmer",
+        "description": "Þegar virkt, verður flipanúmerið sýnt við hliðina á titlinum, sem gerir það auðvelt að virkja flipa með [Ctrl+number] á Windows eða [cmd+number] á Mac. Dæmi: 1. stackoverflow.com 2. youtube, svo það er auðvelt að gera Ctrl + 2 á Windows eða cmd + 2 á Mac til að fara á youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Flipasaga",
+        "description": "Þegar virkt, verður sagan af vefsíðum sem opnaðar eru í sama flipa sýnd."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Sýna aðeins flipasögu á virkum flipa",
+        "description": "Þegar virkt, sýna aðeins flipasögu á virkum flipa, annars sýna flipasögu á öllum flipum."
+      },
+      "tabHistoryExpand": {
+        "label": "Stækka flipasögu sjálfgefið",
+        "description": "Þegar virkt, verður flipasaga stækkuð sjálfgefið."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Sýna stækkunarhnapp fyrir flipasögu í lista",
+        "description": "Þegar virkt, verður hnappur sýndur í flipalistanum sem þú getur smellt á til að stækka eða fella saman flipasögu. Ef óvirkt, geturðu aðeins notað hægri-smelltu valmyndina til að stækka eða fella saman flipasögu"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Sýna vefslóð flipasögu",
+        "description": "Þegar virkt, verður vefslóð flipasögu sýnd, annars verður aðeins titillinn sýndur"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Sýna tákn þegar flipasaga er felld saman",
+        "description": "Þegar virkt, sýna tákn flipasögu þegar listinn er felldur saman"
+      },
+      "tabHistorySortBy": {
+        "label": "Röðun flipasögu",
+        "description": "Veldu röðun fyrir flipasögu",
+        "lastAccessed": "Síðast opnað",
+        "createdAt": "Búið til"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Fjöldi flipasöguatriða til að sýna",
+        "description": "Takmarkaðu hámarksfjölda flipasöguatriða til að sýna. Atriði sem fara yfir takmarkið verða falin"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Tvísmelltu"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Ítarlegir flipahópar",
+      "customGroupNames": {
+        "label": "Sérsniðin hópanöfn",
+        "description": "Þú getur bætt við nokkrum fyrirfram skilgreindum hópum hér, svo þú getur fljótt valið þá þegar þú þarft að bæta flipum við hóp. Við höfum þegar forstillt nokkur hópanöfn, sem þú getur breytt eða eytt eftir þörfum.",
+        "ManageGroupNames": "Stjórna hópanöfnum",
+        "CustomGroupNames": "Sérsniðin hópanöfn",
+        "ConfirmDelete": "Staðfesta eyðingu",
+        "ConfirmDeleteMsg": "Ertu viss um að þú viljir eyða þessu nafni?",
+        "AddNewName": "Bæta við nýju nafni",
+        "Cancel": "Hætta við",
+        "Delete": "Eyða",
+        "Close": "Loka"
+      },
+      "customGroupRemember": {
+        "label": "Muna hópaskiptingu vefsvæða",
+        "description": "Þegar virkt, ef vefsvæði er bætt við sérsniðinn hóp, mun það sjálfkrafa nota þennan hóp næst þegar vefsvæðið er opnað"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Hvattur hópur flipa til að hreinsa hegðun",
         "description": "Breyttu hegðun hóps samanfellingar Chrome vafraflipa",
         "option_collapse_others": "Sýna núverandi hóp og hreinsa aðra",
         "option_disable": "Opna öll hópa",
         "option_auto": "Nota sjálfgefnar stillingar Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Nota bókamerkjamöppu nafn sem hópanafn",
+        "description": "Nota sjálfkrafa bókamerkjamöppu nafnið sem hópanafn ef opnaða vefslóðin er í bókamerkjunum",
+        "enabled": "Virkjað",
+        "disabled": "Óvirkjað"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Veldu bókamerkjamöppu stig",
+        "description": "Veldu stig bókamerkjamöppunnar til að nota sem hópanafn",
+        "top": "Efsta stig",
+        "parent": "Foreldra stig",
+        "full": "Fullt slóð"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Sjálfvirk skapa eða sameina hóp með sama lén",
@@ -519,6 +588,16 @@
         "target_top": "Efsti flipi",
         "save": "Vista",
         "close": "Loka"
+      },
+      "backgroundColor": {
+        "label": "Bakgrunnslitur",
+        "description": "Veldu bakgrunnslit fyrir þessa síðu.",
+        "random": "Handahófskenndur",
+        "clear": "Hreinsa"
+      },
+      "fontColor": {
+        "label": "Leturlitur",
+        "description": "Stilla leturlit fyrir þessa síðu."
       }
     },
     "quickAccess": {

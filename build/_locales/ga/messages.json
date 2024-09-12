@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Athraigh suíomh an bharra taobh"
+  },
+  "group_newsInformation": {
+    "message": "Nuacht & Eolas"
+  },
+  "group_videoMovies": {
+    "message": "Físeáin & Scannáin"
+  },
+  "group_liveStreaming": {
+    "message": "Beo & Sruthú"
+  },
+  "group_entertainmentGames": {
+    "message": "Cluichí & Siamsaíocht"
+  },
+  "group_musicWebsites": {
+    "message": "Láithreáin Ghréasáin Ceoil"
+  },
+  "group_literatureNovels": {
+    "message": "Litríocht & Úrscéalta"
+  },
+  "group_animeWebsites": {
+    "message": "Láithreáin Ghréasáin Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Ríomhthráchtáil & Siopadóireacht"
+  },
+  "group_technologyDigital": {
+    "message": "Teicneolaíocht & Digiteach"
+  },
+  "group_sportsFitness": {
+    "message": "Spóirt & Aclaíocht"
+  },
+  "group_medicalHealth": {
+    "message": "Leighis & Sláinte"
+  },
+  "group_educationTraining": {
+    "message": "Oideachas & Oiliúint"
+  },
+  "group_skillTraining": {
+    "message": "Oiliúint Scileanna"
+  },
+  "group_financialInvestment": {
+    "message": "Airgeadas & Infheistíocht"
+  },
+  "group_transportationTravel": {
+    "message": "Iompar & Taisteal"
+  },
+  "group_cookingGourmet": {
+    "message": "Cócaireacht & Bia Fíneáil"
+  },
+  "group_petCare": {
+    "message": "Cúram Peataí"
+  },
+  "group_legalConsultation": {
+    "message": "Comhairliúchán Dlí"
+  },
+  "group_artCulture": {
+    "message": "Ealaín & Cultúr"
+  },
+  "group_communityForums": {
+    "message": "Fóraim Phobail"
+  },
+  "group_chatSocial": {
+    "message": "Comhrá & Sóisialta"
+  },
+  "group_commonQueries": {
+    "message": "Fiosrúcháin Choitianta"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Cuimsitheach & Eile"
+  },
+  "group_jobRecruitment": {
+    "message": "Earcaíocht Poist"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Earcaíocht & Lorg Poist"
+  },
+  "group_motherBaby": {
+    "message": "Máthair & Leanbh"
+  },
+  "group_tutorialsGuides": {
+    "message": "Teagaisc & Treoracha"
+  },
+  "group_goodSitesCollection": {
+    "message": "Bailiúchán Suíomhanna Maith"
+  },
+  "group_blogArticles": {
+    "message": "Ailt Bhlag"
+  },
+  "group_onlineTools": {
+    "message": "Uirlisí Ar Líne"
+  },
+  "group_freeResources": {
+    "message": "Acmhainní Saor in Aisce"
+  },
+  "group_materialResources": {
+    "message": "Acmhainní Ábhartha"
+  },
+  "group_photography": {
+    "message": "Grianghrafadóireacht"
+  },
+  "group_gamblingWebsites": {
+    "message": "Láithreáin Ghréasáin Cearrbhachais"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Córais Inmheánacha"
   }
 }

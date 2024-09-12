@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Háþróað mynd í mynd",
   "APIAccess": "API aðgangur",
   "customizeMenu": "Sérsníða valmynd",
-  "Automation": "Sjálfvirkni"
+  "Automation": "Sjálfvirkni",
+  "tabIndexTips": "Ýttu á CMD/Ctrl + {{index}} til að skipta yfir í þennan flipa",
+  "expandTabHistories": "Stækka flipasögur",
+  "collapseTabHistories": "Fella saman flipasögur",
+  "deleteTabHistory": "Eyða þessari flipasögu",
+  "deleteTabHistories": "Eyða öllum sögum þessa flipa",
+  "clickToGoBack": "Smelltu til að fara til baka",
+  "clickToGoForward": "Smelltu til að fara áfram",
+  "loading": "Hleð",
+  "updateBookmarkUrl": "Uppfæra vefslóð bókamerkis",
+  "oldUrl": "Gömul vefslóð",
+  "newUrl": "Ný vefslóð",
+  "accessible": "Aðgengilegt",
+  "foundUrlRedirect": "Fann vefslóðatilvísun, viltu uppfæra?"
 }

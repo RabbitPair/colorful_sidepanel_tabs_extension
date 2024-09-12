@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "ภาพในภาพขั้นสูง",
   "APIAccess": "การเข้าถึง API",
   "customizeMenu": "ปรับแต่งเมนู",
-  "Automation": "ระบบอัตโนมัติ"
+  "Automation": "ระบบอัตโนมัติ",
+  "tabIndexTips": "กด CMD/Ctrl + {{index}} เพื่อสลับไปยังแท็บนี้",
+  "expandTabHistories": "ขยายประวัติแท็บ",
+  "collapseTabHistories": "ยุบประวัติแท็บ",
+  "deleteTabHistory": "ลบประวัติแท็บนี้",
+  "deleteTabHistories": "ลบประวัติทั้งหมดของแท็บนี้",
+  "clickToGoBack": "คลิกเพื่อย้อนกลับ",
+  "clickToGoForward": "คลิกเพื่อไปข้างหน้า",
+  "loading": "กำลังโหลด",
+  "updateBookmarkUrl": "อัปเดต URL บุ๊กมาร์ก",
+  "oldUrl": "URL เก่า",
+  "newUrl": "URL ใหม่",
+  "accessible": "เข้าถึงได้",
+  "foundUrlRedirect": "พบการเปลี่ยนเส้นทาง URL คุณต้องการอัปเดตหรือไม่?"
 }

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Imaxe en Imaxe avanzada",
   "APIAccess": "Acceso API",
   "customizeMenu": "Personalizar menú",
-  "Automation": "Automatización"
+  "Automation": "Automatización",
+  "tabIndexTips": "Preme CMD/Ctrl + {{index}} para cambiar a esta lapela",
+  "expandTabHistories": "Expandir historiais de lapelas",
+  "collapseTabHistories": "Colapsar historiais de lapelas",
+  "deleteTabHistory": "Eliminar este historial de lapela",
+  "deleteTabHistories": "Eliminar todos os historiais desta lapela",
+  "clickToGoBack": "Preme para volver atrás",
+  "clickToGoForward": "Preme para avanzar",
+  "loading": "Cargando",
+  "updateBookmarkUrl": "Actualizar URL do marcador",
+  "oldUrl": "URL antiga",
+  "newUrl": "URL nova",
+  "accessible": "Accesible",
+  "foundUrlRedirect": "Atopouse redirección de URL, queres actualizala?"
 }

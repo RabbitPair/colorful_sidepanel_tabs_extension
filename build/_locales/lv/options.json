@@ -3,6 +3,7 @@
   "_execute_action": "Aktivizēt šo paplašinājumu",
   "openSidePanel": "Atvērt sānu paneli",
   "settings": {
+    "premiumEditionOnly": "tik premium izdevums",
     "resetCurrentPageSettings": "Atiestatīt pašreizējās lapas iestatījumus",
     "modules": {
       "appearance": "Izskats",
@@ -287,6 +288,44 @@
         "label": "Priekšskatījuma aizkave",
         "description": "Iestatīt priekšskatījuma aizkaves laiku, pārlūkojot cilnes utt. (sekundes). Ja iestatīts uz 0, aizkaves nebūs",
         "seconds": "Sekundes"
+      },
+      "showTabIndex": {
+        "label": "Rādīt cilnes indeksu",
+        "description": "Kad iespējots, cilnes indekss tiks rādīts blakus nosaukumam, padarot to viegli aktivizējamu, izmantojot [Ctrl+number] operētājsistēmā Windows vai [cmd+number] operētājsistēmā Mac. Piemērs: 1. stackoverflow.com 2. youtube, lai būtu viegli izmantot Ctrl + 2 operētājsistēmā Windows vai cmd + 2 operētājsistēmā Mac, lai pārietu uz youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Cilnes vēsture",
+        "description": "Kad iespējots, tiks rādīta to vietņu vēsture, kas atvērtas tajā pašā cilnē."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Rādīt cilnes vēsturi tikai aktīvajā cilnē",
+        "description": "Kad iespējots, rādīt cilnes vēsturi tikai aktīvajā cilnē, pretējā gadījumā rādīt cilnes vēsturi visās cilnēs."
+      },
+      "tabHistoryExpand": {
+        "label": "Izvērst cilnes vēsturi pēc noklusējuma",
+        "description": "Kad iespējots, cilnes vēsture tiks izvērsta pēc noklusējuma."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Rādīt cilnes vēstures izvēršanas pogu sarakstā",
+        "description": "Kad iespējots, cilņu sarakstā tiks rādīta poga, uz kuras var noklikšķināt, lai izvērstu vai sakļautu cilnes vēsturi. Ja atspējots, cilnes vēsturi var izvērst vai sakļaut tikai, izmantojot labo klikšķi uz izvēlnes"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Rādīt cilnes vēstures URL",
+        "description": "Kad iespējots, tiks rādīts cilnes vēstures URL, pretējā gadījumā tiks rādīts tikai nosaukums"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Rādīt ikonu, kad cilnes vēsture ir sakļauta",
+        "description": "Kad iespējots, rādīt cilnes vēstures ikonu, kad saraksts ir sakļauts"
+      },
+      "tabHistorySortBy": {
+        "label": "Cilnes vēstures kārtošanas secība",
+        "description": "Izvēlieties cilnes vēstures kārtošanas secību",
+        "lastAccessed": "Pēdējoreiz piekļūts",
+        "createdAt": "Izveidošanas laiks"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Rādāmo cilnes vēstures ierakstu skaits",
+        "description": "Ierobežot maksimālo rādāmo cilnes vēstures ierakstu skaitu. Ieraksti, kas pārsniedz ierobežojumu, tiks paslēpti"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dubultklikšķis"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Paplašinātas cilņu grupas",
+      "customGroupNames": {
+        "label": "Pielāgoti grupu nosaukumi",
+        "description": "Šeit varat pievienot dažas iepriekš definētas grupas, lai ātri izvēlētos tās, kad nepieciešams pievienot cilnes grupai. Mēs jau esam iestatījuši dažus grupu nosaukumus, kurus varat modificēt vai dzēst atbilstoši savām vajadzībām.",
+        "ManageGroupNames": "Pārvaldīt grupu nosaukumus",
+        "CustomGroupNames": "Pielāgoti grupu nosaukumi",
+        "ConfirmDelete": "Apstiprināt dzēšanu",
+        "ConfirmDeleteMsg": "Vai tiešām vēlaties dzēst šo nosaukumu?",
+        "AddNewName": "Pievienot jaunu nosaukumu",
+        "Cancel": "Atcelt",
+        "Delete": "Dzēst",
+        "Close": "Aizvērt"
+      },
+      "customGroupRemember": {
+        "label": "Atcerēties vietnes grupēšanu",
+        "description": "Kad iespējots, ja vietne tiek pievienota pielāgotai grupai, tā automātiski izmantos šo grupu nākamreiz, kad vietne tiks atvērta"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Cilnes grupas sabrukšanas uzvedība",
         "description": "Mainīt Chrome pārlūka cilnes grupas sabrukšanas uzvedību",
         "option_collapse_others": "Rādīt pašreizējo grupu un sabrukt citus",
         "option_disable": "Izvērst visas grupas",
         "option_auto": "Izmantot Chrome noklusējuma iestatījumus"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Izmantot grāmatzīmes mapes nosaukumu kā grupas nosaukumu",
+        "description": "Automātiski izmantot grāmatzīmes mapes nosaukumu kā grupas nosaukumu, ja atvērtā URL adrese ir grāmatzīmēs",
+        "enabled": "Iespējots",
+        "disabled": "Atspējots"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Izvēlēties grāmatzīmes mapes līmeni",
+        "description": "Izvēlieties grāmatzīmes mapes līmeni, ko izmantot kā grupas nosaukumu",
+        "top": "Augšējais līmenis",
+        "parent": "Vecāku līmenis",
+        "full": "Pilns ceļš"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automātiski izveidot vai pievienoties tai pašai domēna grupai",
@@ -519,6 +588,16 @@
         "target_top": "Augstākā cilne",
         "save": "Saglabāt",
         "close": "Aizvērt"
+      },
+      "backgroundColor": {
+        "label": "Fona krāsa",
+        "description": "Izvēlieties fona krāsu šai vietnei.",
+        "random": "Gadījuma secībā",
+        "clear": "Notīrīt"
+      },
+      "fontColor": {
+        "label": "Fonta krāsa",
+        "description": "Iestatiet fonta krāsu šai vietnei."
       }
     },
     "quickAccess": {

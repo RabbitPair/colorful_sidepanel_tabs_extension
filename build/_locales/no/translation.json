@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Avansert bilde-i-bilde",
   "APIAccess": "API-tilgang",
   "customizeMenu": "Tilpass meny",
-  "Automation": "Automatisering"
+  "Automation": "Automatisering",
+  "tabIndexTips": "Trykk CMD/Ctrl + {{index}} for å bytte til denne fanen",
+  "expandTabHistories": "Utvid fanehistorikk",
+  "collapseTabHistories": "Skjul fanehistorikk",
+  "deleteTabHistory": "Slett denne fanehistorikken",
+  "deleteTabHistories": "Slett all historikk for denne fanen",
+  "clickToGoBack": "Klikk for å gå tilbake",
+  "clickToGoForward": "Klikk for å gå fremover",
+  "loading": "Laster",
+  "updateBookmarkUrl": "Oppdater bokmerke-URL",
+  "oldUrl": "Gammel URL",
+  "newUrl": "Ny URL",
+  "accessible": "Tilgjengelig",
+  "foundUrlRedirect": "Fant URL-omdirigering, vil du oppdatere?"
 }

@@ -3,6 +3,7 @@
   "_execute_action": "Aktivigi tiun ĉi kromprogramon",
   "openSidePanel": "Malfermi flankan panelon",
   "settings": {
+    "premiumEditionOnly": "Nur Premium-Eldono",
     "resetCurrentPageSettings": "Rekomenci aktualajn paĝajn agordojn",
     "modules": {
       "appearance": "Aspekto",
@@ -287,6 +288,44 @@
         "label": "Antaŭrigardo prokrasto",
         "description": "Agordi la prokrastotempon por lanĉeto-antaŭrigardoj kiam surhovante super lanĉetoj, ktp. (sekundoj). Se agordita al 0, ne estos prokrasto",
         "seconds": "Sekundoj"
+      },
+      "showTabIndex": {
+        "label": "Montri lanĉetindekson",
+        "description": "Kiam aktivigita, la lanĉetindekso estos montrita apud la titolo, faciligante aktivigi lanĉeton uzante [Ctrl+nombro] en Vindozo aŭ [cmd+nombro] en Mac. Ekzemplo: 1. stackoverflow.com 2. youtube, tiel ke estas facile fari Ctrl + 2 en Vindozo aŭ cmd + 2 en Mac por iri al youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Lanĉethistorio",
+        "description": "Kiam aktivigita, la historio de retejoj malfermitaj en la sama lanĉeto estos montrita."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Montri lanĉethistorion nur en aktiva lanĉeto",
+        "description": "Kiam aktivigita, montri lanĉethistorion nur en la aktiva lanĉeto, alie montri lanĉethistorion en ĉiuj lanĉetoj."
+      },
+      "tabHistoryExpand": {
+        "label": "Etendi lanĉethistorion defaŭlte",
+        "description": "Kiam aktivigita, lanĉethistorio estos etendita defaŭlte."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Montri butonon por etendi lanĉethistorion en listo",
+        "description": "Kiam aktivigita, butono estos montrita en la lanĉetlisto, kiun vi povas klaki por etendi aŭ kolapsi lanĉethistorion. Se malebligita, vi povas nur uzi la dekstre-klakan menuon por etendi aŭ kolapsi lanĉethistorion"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Montri lanĉethistorion URL",
+        "description": "Kiam aktivigita, la lanĉethistorio URL estos montrita, alie nur la titolo estos montrita"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Montri ikonon kiam lanĉethistorio estas kolapsita",
+        "description": "Kiam aktivigita, montri lanĉethistorion ikonon kiam la listo estas kolapsita"
+      },
+      "tabHistorySortBy": {
+        "label": "Lanĉethistorio ordiga ordo",
+        "description": "Elekti la ordigan ordon por lanĉethistorio",
+        "lastAccessed": "Laste alirita",
+        "createdAt": "Kreita tempo"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Nombro de lanĉethistoriaj eroj por montri",
+        "description": "Limigi la maksimuman nombron de lanĉethistoriaj eroj por montri. Eroj superantaj la limon estos kaŝitaj"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Duobla klako"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Altnivelaj lanĉetgrupoj",
+      "customGroupNames": {
+        "label": "Propraj grupnomoj",
+        "description": "Vi povas aldoni kelkajn antaŭdifinitajn grupojn ĉi tie, por ke vi rapide elektu ilin kiam vi bezonas aldoni lanĉetojn al grupo. Ni jam antaŭdifinis kelkajn grupnomojn, kiujn vi povas modifi aŭ forigi laŭ viaj bezonoj.",
+        "ManageGroupNames": "Administri Grupnomojn",
+        "CustomGroupNames": "Propraj Grupnomoj",
+        "ConfirmDelete": "Konfirmi Forigon",
+        "ConfirmDeleteMsg": "Ĉu vi certas, ke vi volas forigi ĉi tiun nomon?",
+        "AddNewName": "Aldoni novan nomon",
+        "Cancel": "Nuligi",
+        "Delete": "Forigi",
+        "Close": "Fermi"
+      },
+      "customGroupRemember": {
+        "label": "Memori retejan grupigon",
+        "description": "Kiam aktivigita, se retejo estas aldonita al propra grupo, ĝi aŭtomate uzos ĉi tiun grupon la sekvan fojon kiam la retejo estos malfermita"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Lanĉetgrupo kollapsa konduto",
         "description": "Modifi la konduton de Chrome-retumilo lanĉetgrupo kollapso",
         "option_collapse_others": "Montri aktualan grupon kaj kollapsi aliajn",
         "option_disable": "Eksplodi ĉiujn grupojn",
         "option_auto": "Uzi Chrome-implicitajn agordojn"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Uzi la nomon de la dosierujo de legosignoj kiel nomon de grupo",
+        "description": "Aŭtomate uzi la nomon de la dosierujo de legosignoj kiel la nomon de la grupo se la malfermita URL estas en la legosignoj",
+        "enabled": "Aktivigita",
+        "disabled": "Malebligita"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Elekti Nivelon de Dosierujo de Legosignoj",
+        "description": "Elekti la nivelon de la dosierujo de legosignoj por uzi kiel la nomon de la grupo",
+        "top": "Pinta Nivelo",
+        "parent": "Patra Nivelo",
+        "full": "Plena Vojo"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Aŭtomate krei aŭ aliĝi al sama domajna grupo",
@@ -519,6 +588,16 @@
         "target_top": "Plej Supra Lanĉeto",
         "save": "Konservi",
         "close": "Fermi"
+      },
+      "backgroundColor": {
+        "label": "Fona Koloro",
+        "description": "Elektu fona koloron por ĉi tiu retejo.",
+        "random": "Hazarde",
+        "clear": "Forigi"
+      },
+      "fontColor": {
+        "label": "Literkoloro",
+        "description": "Agordi la literkoloron por ĉi tiu retejo."
       }
     },
     "quickAccess": {

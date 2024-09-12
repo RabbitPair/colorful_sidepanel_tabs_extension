@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Pokročilý režim obraz v obraze",
   "APIAccess": "Přístup k API",
   "customizeMenu": "Přizpůsobit menu",
-  "Automation": "Automatizace"
+  "Automation": "Automatizace",
+  "tabIndexTips": "Stiskněte CMD/Ctrl + {{index}} pro přepnutí na tuto kartu",
+  "expandTabHistories": "Rozbalit historii karet",
+  "collapseTabHistories": "Sbalit historii karet",
+  "deleteTabHistory": "Smazat tuto historii karty",
+  "deleteTabHistories": "Smazat všechny historie této karty",
+  "clickToGoBack": "Klikněte pro návrat zpět",
+  "clickToGoForward": "Klikněte pro přechod vpřed",
+  "loading": "Načítání",
+  "updateBookmarkUrl": "Aktualizovat URL záložky",
+  "oldUrl": "Stará URL",
+  "newUrl": "Nová URL",
+  "accessible": "Přístupné",
+  "foundUrlRedirect": "Nalezena přesměrování URL, chcete ji aktualizovat?"
 }

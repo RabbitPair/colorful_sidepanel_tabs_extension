@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "གསར་འགོད་སྤྱོད།",
   "APIAccess": "གསར་འགོད་སྤྱོད།",
   "customizeMenu": "གསར་འགོད་སྤྱོད།",
-  "Automation": "གསར་འགོད་སྤྱོད།"
+  "Automation": "གསར་འགོད་སྤྱོད།",
+  "tabIndexTips": "CMD/Ctrl + {{index}} བཏོན་ནས་དེ་ལུ་སྒྱུར་བཅོས།",
+  "expandTabHistories": "དུས་མཐོང་ཡིག་སྣོད་ཡར་རྒྱས།",
+  "collapseTabHistories": "དུས་མཐོང་ཡིག་སྣོད་སྒོ་སྒྲིག",
+  "deleteTabHistory": "དུས་མཐོང་ཡིག་སྣོད་འདི་བཏོན།",
+  "deleteTabHistories": "དུས་མཐོང་ཡིག་སྣོད་ཚུ་བཏོན།",
+  "clickToGoBack": "ལོག་ནས་འགྲོ་བཅོས།",
+  "clickToGoForward": "མདུན་ནས་འགྲོ་བཅོས།",
+  "loading": "འདྲེན་བཞིན་ཡོད།",
+  "updateBookmarkUrl": "དཔེ་ཆ་སྒྲིག་སྤྱོད་འབྲེལ་ལམ་བསྒྱུར་བཅོས།",
+  "oldUrl": "འབྲེལ་ལམ་རྙིང་།",
+  "newUrl": "འབྲེལ་ལམ་གསར་།",
+  "accessible": "འཛུལ་སྤྱོད་ཆོག",
+  "foundUrlRedirect": "འབྲེལ་ལམ་སྒྲིག་སྤྱོད་བསྒྱུར་བཅོས་དགོས་ཡིན་ནམ།"
 }

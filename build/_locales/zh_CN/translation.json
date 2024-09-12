@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "高级画中画",
   "APIAccess": "API访问",
   "customizeMenu": "自定义菜单",
-  "Automation": "自动化"
+  "Automation": "自动化",
+  "tabIndexTips": "按 CMD/Ctrl + {{index}} 切换到此标签",
+  "expandTabHistories": "展开标签历史",
+  "collapseTabHistories": "折叠标签历史",
+  "deleteTabHistory": "删除此标签历史",
+  "deleteTabHistories": "删除此标签的所有历史记录",
+  "clickToGoBack": "点击返回",
+  "clickToGoForward": "点击前进",
+  "loading": "加载中",
+  "updateBookmarkUrl": "更新书签网址",
+  "oldUrl": "旧网址",
+  "newUrl": "新网址",
+  "accessible": "可访问",
+  "foundUrlRedirect": "发现网址重定向，是否更新？"
 }

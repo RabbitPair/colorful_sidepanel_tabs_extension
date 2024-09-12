@@ -3,6 +3,7 @@
   "_execute_action": "Aktiveeri see laiendus",
   "openSidePanel": "Ava külgpaneel",
   "settings": {
+    "premiumEditionOnly": "ainult premium väljaanne",
     "resetCurrentPageSettings": "Lähtesta praeguse lehe seaded",
     "modules": {
       "appearance": "Välimus",
@@ -287,6 +288,44 @@
         "label": "Eelvaate viivitus",
         "description": "Määra vahekaardi eelvaadete viivitusaeg, kui hõljutad vahekaarte jne. (sekundid). Kui määratud on 0, siis viivitust ei ole",
         "seconds": "Sekundid"
+      },
+      "showTabIndex": {
+        "label": "Näita vahekaardi indeksit",
+        "description": "Kui lubatud, kuvatakse vahekaardi indeks pealkirja kõrval, muutes selle hõlpsaks aktiveerimiseks [Ctrl+number] Windowsis või [cmd+number] Macis. Näide: 1. stackoverflow.com 2. youtube, nii et on lihtne teha Ctrl + 2 Windowsis või cmd + 2 Macis, et minna youtube'i"
+      },
+      "tabHistoryEnable": {
+        "label": "Vahekaardi ajalugu",
+        "description": "Kui lubatud, kuvatakse samas vahekaardis avatud veebisaitide ajalugu."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Näita vahekaardi ajalugu ainult aktiivsel vahekaardil",
+        "description": "Kui lubatud, kuvatakse vahekaardi ajalugu ainult aktiivsel vahekaardil, vastasel juhul kuvatakse vahekaardi ajalugu kõigil vahekaartidel."
+      },
+      "tabHistoryExpand": {
+        "label": "Laienda vahekaardi ajalugu vaikimisi",
+        "description": "Kui lubatud, laiendatakse vahekaardi ajalugu vaikimisi."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Näita vahekaardi ajaloo laiendamise nuppu loendis",
+        "description": "Kui lubatud, kuvatakse vahekaartide loendis nupp, millele klõpsates saab vahekaardi ajalugu laiendada või kokku tõmmata. Kui keelatud, saab vahekaardi ajalugu laiendada või kokku tõmmata ainult paremklõpsu menüü abil"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Näita vahekaardi ajaloo URL-i",
+        "description": "Kui lubatud, kuvatakse vahekaardi ajaloo URL, vastasel juhul kuvatakse ainult pealkiri"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Näita ikooni, kui vahekaardi ajalugu on kokku tõmmatud",
+        "description": "Kui lubatud, kuvatakse vahekaardi ajaloo ikoon, kui loend on kokku tõmmatud"
+      },
+      "tabHistorySortBy": {
+        "label": "Vahekaardi ajaloo sorteerimisjärjestus",
+        "description": "Vali vahekaardi ajaloo sorteerimisjärjestus",
+        "lastAccessed": "Viimati kasutatud",
+        "createdAt": "Loomise aeg"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Vahekaardi ajaloo kirjete arv, mida näidata",
+        "description": "Piira kuvatavate vahekaardi ajaloo kirjete maksimaalset arvu. Piirangut ületavad kirjed peidetakse"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Topeltklõps"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Täpsemad vahekaardigrupid",
+      "customGroupNames": {
+        "label": "Kohandatud grupi nimed",
+        "description": "Siin saate lisada mõned eelmääratud grupid, et saaksite need kiiresti valida, kui peate vahekaarte gruppi lisama. Oleme juba määranud mõned grupi nimed, mida saate vastavalt oma vajadustele muuta või kustutada.",
+        "ManageGroupNames": "Halda grupi nimesid",
+        "CustomGroupNames": "Kohandatud grupi nimed",
+        "ConfirmDelete": "Kinnita kustutamine",
+        "ConfirmDeleteMsg": "Kas olete kindel, et soovite selle nime kustutada?",
+        "AddNewName": "Lisa uus nimi",
+        "Cancel": "Tühista",
+        "Delete": "Kustuta",
+        "Close": "Sulge"
+      },
+      "customGroupRemember": {
+        "label": "Mäleta saidi rühmitust",
+        "description": "Kui lubatud, siis kui sait lisatakse kohandatud gruppi, kasutab see järgmisel korral, kui sait avatakse, automaatselt seda gruppi"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Vahekaardigrupi kokkuvarisemise käitumine",
         "description": "Muutke Chrome'i brauseri vahekaardigrupi kokkuvarisemise käitumist",
         "option_collapse_others": "Kuva praegune grupp ja varja teised",
         "option_disable": "Laienda kõik grupid",
         "option_auto": "Kasuta Chrome'i vaike seadeid"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Kasuta järjehoidja kausta nime grupi nimena",
+        "description": "Kui avatud URL on järjehoidjates, kasutatakse automaatselt järjehoidja kausta nime grupi nimena",
+        "enabled": "Lubatud",
+        "disabled": "Keelatud"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Vali järjehoidja kausta tase",
+        "description": "Vali järjehoidja kausta tase, mida kasutada grupi nimena",
+        "top": "Kõrgeim tase",
+        "parent": "Vanemtase",
+        "full": "Täielik tee"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Loo automaatselt või liitu sama domeeni grupiga",
@@ -519,6 +588,16 @@
         "target_top": "Kõige ülemine vahekaart",
         "save": "Salvesta",
         "close": "Sulge"
+      },
+      "backgroundColor": {
+        "label": "Taustavärv",
+        "description": "Valige sellele saidile taustavärv.",
+        "random": "Juhuslik",
+        "clear": "Kustuta"
+      },
+      "fontColor": {
+        "label": "Fondi värv",
+        "description": "Määrake sellele saidile fondi värv."
       }
     },
     "quickAccess": {

@@ -3,6 +3,7 @@
   "_execute_action": "Activa hanc extensionem",
   "openSidePanel": "Aperi laterale tabulam",
   "settings": {
+    "premiumEditionOnly": "Solum in editione premium",
     "resetCurrentPageSettings": "Reconfirma paginae currentes occasus",
     "modules": {
       "appearance": "Species",
@@ -287,6 +288,44 @@
         "label": "Praevideo mora",
         "description": "Constitue mora temporis pro praevideo tabularum cum supervolare, etc. (secundis). Si ponitur ad 0, mora non erit",
         "seconds": "Secundae"
+      },
+      "showTabIndex": {
+        "label": "Monstra indicem tabulae",
+        "description": "Cum activa, index tabulae iuxta titulum ostendetur, faciens facilem tabulam activam uti [Ctrl+numerus] in Fenestra vel [cmd+numerus] in Mac. Exemplum: 1. stackoverflow.com 2. youtube, ut facile sit facere Ctrl + 2 in Fenestra vel cmd + 2 in Mac ad youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historia tabulae",
+        "description": "Cum activa, historia paginarum in eadem tabula aperta ostendetur."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Monstra historiam tabulae solum in tabula activa",
+        "description": "Cum activa, monstra historiam tabulae solum in tabula activa, alioquin monstra historiam tabulae in omnibus tabulis."
+      },
+      "tabHistoryExpand": {
+        "label": "Expande historiam tabulae per defaltam",
+        "description": "Cum activa, historia tabulae per defaltam expandetur."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Monstra puga expansionis historiae tabulae in indice",
+        "description": "Cum activa, puga in indice tabulae ostendetur quam premere potes ad expandendam vel collapsendam historiam tabulae. Si deactivatur, solum uti potes menu ius-click ad expandendam vel collapsendam historiam tabulae"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Monstra URL historiae tabulae",
+        "description": "Cum activa, URL historiae tabulae ostendetur, alioquin solum titulus ostendetur"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Monstra iconem cum historia tabulae collapsa est",
+        "description": "Cum activa, monstra iconem historiae tabulae cum index collapsus est"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordo historiae tabulae",
+        "description": "Selige ordinem historiae tabulae",
+        "lastAccessed": "Ultima accessa",
+        "createdAt": "Tempus creatum"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Numerus historiarum tabulae ad ostendendum",
+        "description": "Limita numerum maximum historiarum tabulae ad ostendendum. Historiae excedentes limitem occultabuntur"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Duplex-clicca"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Tabulae coetus provectae",
+      "customGroupNames": {
+        "label": "Nomina coetus consuetudinis",
+        "description": "Hic potes addere aliquos coetus prae-definitos, ut celeriter eos seligere possis cum opus est tabulas ad coetum addere. Iam prae-definivimus aliqua nomina coetus, quae secundum necessitates tuas mutare vel delere potes.",
+        "ManageGroupNames": "Gere Nomina Coetus",
+        "CustomGroupNames": "Nomina Coetus Consuetudinis",
+        "ConfirmDelete": "Confirma Deletionem",
+        "ConfirmDeleteMsg": "Certe vis hoc nomen delere?",
+        "AddNewName": "Addere novum nomen",
+        "Cancel": "Cancellare",
+        "Delete": "Delere",
+        "Close": "Claudere"
+      },
+      "customGroupRemember": {
+        "label": "Memorare coetum situs",
+        "description": "Cum activum, si situs ad coetum consuetudinis additur, hoc coetum automatice utetur proxima vice cum situs aperitur"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Behavior collapsionis coetus tabularum",
         "description": "Muta behavior Chrome tabularum collapsionis coetus",
         "option_collapse_others": "Monstra coetum currentem et collapsa alios",
         "option_disable": "Expande omnes coetus",
         "option_auto": "Utere Chrome occasus defaltos"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Utere nomine folderis bookmark ut nomine coetus",
+        "description": "Automatice utere nomine folderis bookmark ut nomine coetus si URL apertum est in bookmarks",
+        "enabled": "Activum",
+        "disabled": "Deactivum"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Selige Gradum Folderis Bookmark",
+        "description": "Elige gradum folderis bookmark ut nomine coetus",
+        "top": "Summus Gradus",
+        "parent": "Gradus Parens",
+        "full": "Plenus Iter"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto crea vel iunge eundem coetum dominii",
@@ -519,6 +588,16 @@
         "target_top": "Scheda Principale",
         "save": "Salva",
         "close": "Chiudi"
+      },
+      "backgroundColor": {
+        "label": "Colore di sfondo",
+        "description": "Seleziona un colore di sfondo per questo sito.",
+        "random": "Casuale",
+        "clear": "Cancella"
+      },
+      "fontColor": {
+        "label": "Colore del carattere",
+        "description": "Imposta il colore del carattere per questo sito."
       }
     },
     "quickAccess": {

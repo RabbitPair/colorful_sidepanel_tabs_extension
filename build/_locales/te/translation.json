@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "అధునాతన పిక్చర్-ఇన్-పిక్చర్",
   "APIAccess": "API ప్రాప్యత",
   "customizeMenu": "మెను అనుకూలీకరించు",
-  "Automation": "ఆటోమేషన్"
+  "Automation": "ఆటోమేషన్",
+  "tabIndexTips": "ఈ ట్యాబ్‌కు మారడానికి CMD/Ctrl + {{index}} నొక్కండి",
+  "expandTabHistories": "ట్యాబ్ చరిత్రలను విస్తరించు",
+  "collapseTabHistories": "ట్యాబ్ చరిత్రలను కుదించు",
+  "deleteTabHistory": "ఈ ట్యాబ్ చరిత్రను తొలగించు",
+  "deleteTabHistories": "ఈ ట్యాబ్ యొక్క అన్ని చరిత్రలను తొలగించు",
+  "clickToGoBack": "వెనక్కి వెళ్లడానికి క్లిక్ చేయండి",
+  "clickToGoForward": "ముందుకు వెళ్లడానికి క్లిక్ చేయండి",
+  "loading": "లోడ్ అవుతోంది",
+  "updateBookmarkUrl": "బుక్‌మార్క్ URLను నవీకరించు",
+  "oldUrl": "పాత URL",
+  "newUrl": "కొత్త URL",
+  "accessible": "అందుబాటులో ఉంది",
+  "foundUrlRedirect": "URL రీడైరెక్ట్ కనుగొనబడింది, మీరు నవీకరించాలనుకుంటున్నారా?"
 }

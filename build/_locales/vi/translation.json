@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Hình trong hình nâng cao",
   "APIAccess": "Truy cập API",
   "customizeMenu": "Tùy chỉnh menu",
-  "Automation": "Tự động hóa"
+  "Automation": "Tự động hóa",
+  "tabIndexTips": "Nhấn CMD/Ctrl + {{index}} để chuyển sang thẻ này",
+  "expandTabHistories": "Mở rộng lịch sử thẻ",
+  "collapseTabHistories": "Thu gọn lịch sử thẻ",
+  "deleteTabHistory": "Xóa lịch sử thẻ này",
+  "deleteTabHistories": "Xóa tất cả lịch sử của thẻ này",
+  "clickToGoBack": "Nhấp để quay lại",
+  "clickToGoForward": "Nhấp để đi tiếp",
+  "loading": "Đang tải",
+  "updateBookmarkUrl": "Cập nhật URL dấu trang",
+  "oldUrl": "URL cũ",
+  "newUrl": "URL mới",
+  "accessible": "Có thể truy cập",
+  "foundUrlRedirect": "Tìm thấy chuyển hướng URL, bạn có muốn cập nhật không?"
 }

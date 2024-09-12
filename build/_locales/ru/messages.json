@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Переключить положение боковой панели"
+  },
+  "group_newsInformation": {
+    "message": "Новости и информация"
+  },
+  "group_videoMovies": {
+    "message": "Видео и фильмы"
+  },
+  "group_liveStreaming": {
+    "message": "Прямые трансляции"
+  },
+  "group_entertainmentGames": {
+    "message": "Игры и развлечения"
+  },
+  "group_musicWebsites": {
+    "message": "Музыкальные сайты"
+  },
+  "group_literatureNovels": {
+    "message": "Литература и романы"
+  },
+  "group_animeWebsites": {
+    "message": "Аниме сайты"
+  },
+  "group_ecommerceShopping": {
+    "message": "Электронная коммерция и покупки"
+  },
+  "group_technologyDigital": {
+    "message": "Технологии и цифровые"
+  },
+  "group_sportsFitness": {
+    "message": "Спорт и фитнес"
+  },
+  "group_medicalHealth": {
+    "message": "Медицина и здоровье"
+  },
+  "group_educationTraining": {
+    "message": "Образование и обучение"
+  },
+  "group_skillTraining": {
+    "message": "Навыки и тренировки"
+  },
+  "group_financialInvestment": {
+    "message": "Финансы и инвестиции"
+  },
+  "group_transportationTravel": {
+    "message": "Транспорт и путешествия"
+  },
+  "group_cookingGourmet": {
+    "message": "Кулинария и гурман"
+  },
+  "group_petCare": {
+    "message": "Уход за питомцами"
+  },
+  "group_legalConsultation": {
+    "message": "Юридическая консультация"
+  },
+  "group_artCulture": {
+    "message": "Искусство и культура"
+  },
+  "group_communityForums": {
+    "message": "Сообщества и форумы"
+  },
+  "group_chatSocial": {
+    "message": "Чаты и социальные сети"
+  },
+  "group_commonQueries": {
+    "message": "Общие запросы"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Всеобъемлющие и другие"
+  },
+  "group_jobRecruitment": {
+    "message": "Работа и набор"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Набор и поиск работы"
+  },
+  "group_motherBaby": {
+    "message": "Мать и ребенок"
+  },
+  "group_tutorialsGuides": {
+    "message": "Учебники и руководства"
+  },
+  "group_goodSitesCollection": {
+    "message": "Коллекция хороших сайтов"
+  },
+  "group_blogArticles": {
+    "message": "Блог статьи"
+  },
+  "group_onlineTools": {
+    "message": "Онлайн инструменты"
+  },
+  "group_freeResources": {
+    "message": "Бесплатные ресурсы"
+  },
+  "group_materialResources": {
+    "message": "Материальные ресурсы"
+  },
+  "group_photography": {
+    "message": "Фотография"
+  },
+  "group_gamblingWebsites": {
+    "message": "Сайты азартных игр"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Внутренние системы"
   }
 }

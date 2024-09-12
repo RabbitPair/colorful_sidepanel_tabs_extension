@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Alihkan posisi sidebar"
+  },
+  "group_newsInformation": {
+    "message": "Berita & Informasi"
+  },
+  "group_videoMovies": {
+    "message": "Video & Film"
+  },
+  "group_liveStreaming": {
+    "message": "Langsung & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Permainan & Hiburan"
+  },
+  "group_musicWebsites": {
+    "message": "Situs Musik"
+  },
+  "group_literatureNovels": {
+    "message": "Sastra & Novel"
+  },
+  "group_animeWebsites": {
+    "message": "Situs Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce & Belanja"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologi & Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Olahraga & Kebugaran"
+  },
+  "group_medicalHealth": {
+    "message": "Medis & Kesehatan"
+  },
+  "group_educationTraining": {
+    "message": "Pendidikan & Pelatihan"
+  },
+  "group_skillTraining": {
+    "message": "Pelatihan Keterampilan"
+  },
+  "group_financialInvestment": {
+    "message": "Keuangan & Investasi"
+  },
+  "group_transportationTravel": {
+    "message": "Transportasi & Perjalanan"
+  },
+  "group_cookingGourmet": {
+    "message": "Memasak & Kuliner"
+  },
+  "group_petCare": {
+    "message": "Perawatan Hewan Peliharaan"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultasi Hukum"
+  },
+  "group_artCulture": {
+    "message": "Seni & Budaya"
+  },
+  "group_communityForums": {
+    "message": "Forum Komunitas"
+  },
+  "group_chatSocial": {
+    "message": "Obrolan & Sosial"
+  },
+  "group_commonQueries": {
+    "message": "Pertanyaan Umum"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komprehensif & Lainnya"
+  },
+  "group_jobRecruitment": {
+    "message": "Rekrutmen Pekerjaan"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrutmen & Pencarian Kerja"
+  },
+  "group_motherBaby": {
+    "message": "Ibu & Bayi"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorial & Panduan"
+  },
+  "group_goodSitesCollection": {
+    "message": "Koleksi Situs Bagus"
+  },
+  "group_blogArticles": {
+    "message": "Artikel Blog"
+  },
+  "group_onlineTools": {
+    "message": "Alat Daring"
+  },
+  "group_freeResources": {
+    "message": "Sumber Daya Gratis"
+  },
+  "group_materialResources": {
+    "message": "Sumber Daya Material"
+  },
+  "group_photography": {
+    "message": "Fotografi"
+  },
+  "group_gamblingWebsites": {
+    "message": "Situs Judi"
+  },
+  "group_nsfw": {
+    "message": "Tidak Aman untuk Dilihat"
+  },
+  "group_internalSystems": {
+    "message": "Sistem Internal"
   }
 }

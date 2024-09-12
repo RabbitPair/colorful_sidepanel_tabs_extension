@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Fejlett kép a képben",
   "APIAccess": "API hozzáférés",
   "customizeMenu": "Menü testreszabása",
-  "Automation": "Automatizálás"
+  "Automation": "Automatizálás",
+  "tabIndexTips": "Nyomja meg a CMD/Ctrl + {{index}} billentyűt a fülre váltáshoz",
+  "expandTabHistories": "Fül előzmények kibontása",
+  "collapseTabHistories": "Fül előzmények összecsukása",
+  "deleteTabHistory": "Fül előzmény törlése",
+  "deleteTabHistories": "Az összes fül előzmény törlése",
+  "clickToGoBack": "Kattintson a visszalépéshez",
+  "clickToGoForward": "Kattintson az előrelépéshez",
+  "loading": "Betöltés",
+  "updateBookmarkUrl": "Könyvjelző URL frissítése",
+  "oldUrl": "Régi URL",
+  "newUrl": "Új URL",
+  "accessible": "Elérhető",
+  "foundUrlRedirect": "URL átirányítás található, frissíteni szeretné?"
 }

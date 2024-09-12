@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Skift sidebjælkens position"
+  },
+  "group_newsInformation": {
+    "message": "Nyheder & Information"
+  },
+  "group_videoMovies": {
+    "message": "Videoer & Film"
+  },
+  "group_liveStreaming": {
+    "message": "Live & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Spil & Underholdning"
+  },
+  "group_musicWebsites": {
+    "message": "Musikwebsteder"
+  },
+  "group_literatureNovels": {
+    "message": "Litteratur & Romaner"
+  },
+  "group_animeWebsites": {
+    "message": "Anime-websteder"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-handel & Shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologi & Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medicinsk & Sundhed"
+  },
+  "group_educationTraining": {
+    "message": "Uddannelse & Træning"
+  },
+  "group_skillTraining": {
+    "message": "Færdighedstræning"
+  },
+  "group_financialInvestment": {
+    "message": "Finans & Investering"
+  },
+  "group_transportationTravel": {
+    "message": "Transport & Rejser"
+  },
+  "group_cookingGourmet": {
+    "message": "Madlavning & Gourmet"
+  },
+  "group_petCare": {
+    "message": "Kæledyrspleje"
+  },
+  "group_legalConsultation": {
+    "message": "Juridisk Rådgivning"
+  },
+  "group_artCulture": {
+    "message": "Kunst & Kultur"
+  },
+  "group_communityForums": {
+    "message": "Fællesskabsfora"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Social"
+  },
+  "group_commonQueries": {
+    "message": "Almindelige Forespørgsler"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Omfattende & Andet"
+  },
+  "group_jobRecruitment": {
+    "message": "Jobrekruttering"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekruttering & Jobsøgning"
+  },
+  "group_motherBaby": {
+    "message": "Mor & Baby"
+  },
+  "group_tutorialsGuides": {
+    "message": "Vejledninger & Guides"
+  },
+  "group_goodSitesCollection": {
+    "message": "Samling af Gode Websteder"
+  },
+  "group_blogArticles": {
+    "message": "Blogartikler"
+  },
+  "group_onlineTools": {
+    "message": "Online Værktøjer"
+  },
+  "group_freeResources": {
+    "message": "Gratis Ressourcer"
+  },
+  "group_materialResources": {
+    "message": "Materielle Ressourcer"
+  },
+  "group_photography": {
+    "message": "Fotografering"
+  },
+  "group_gamblingWebsites": {
+    "message": "Spilwebsteder"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interne Systemer"
   }
 }

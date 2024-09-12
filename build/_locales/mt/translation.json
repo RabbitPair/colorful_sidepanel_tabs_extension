@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Picture-in-Picture Avvanzat",
   "APIAccess": "Aċċess għall-API",
   "customizeMenu": "Ippersonalizza l-Menù",
-  "Automation": "Awtomazzjoni"
+  "Automation": "Awtomazzjoni",
+  "tabIndexTips": "Agħfas CMD/Ctrl + {{index}} biex taqleb għal din it-tab",
+  "expandTabHistories": "Espandi l-istorja tat-tabs",
+  "collapseTabHistories": "Ikkollassa l-istorja tat-tabs",
+  "deleteTabHistory": "Ħassar din l-istorja tat-tab",
+  "deleteTabHistories": "Ħassar l-istorja kollha ta' din it-tab",
+  "clickToGoBack": "Ikklikkja biex tmur lura",
+  "clickToGoForward": "Ikklikkja biex tmur 'il quddiem",
+  "loading": "Tagħbija",
+  "updateBookmarkUrl": "Aġġorna l-URL tal-Bookmark",
+  "oldUrl": "URL Qadim",
+  "newUrl": "URL Ġdid",
+  "accessible": "Aċċessibbli",
+  "foundUrlRedirect": "Instab reindirizzament tal-URL, trid taġġorna?"
 }

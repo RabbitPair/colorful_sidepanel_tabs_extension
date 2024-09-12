@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "تغییر موقعیت پانل کناری"
+  },
+  "group_newsInformation": {
+    "message": "اخبار و اطلاعات"
+  },
+  "group_videoMovies": {
+    "message": "ویدیوها و فیلم‌ها"
+  },
+  "group_liveStreaming": {
+    "message": "پخش زنده"
+  },
+  "group_entertainmentGames": {
+    "message": "بازی‌ها و سرگرمی"
+  },
+  "group_musicWebsites": {
+    "message": "وب‌سایت‌های موسیقی"
+  },
+  "group_literatureNovels": {
+    "message": "ادبیات و رمان‌ها"
+  },
+  "group_animeWebsites": {
+    "message": "وب‌سایت‌های انیمه"
+  },
+  "group_ecommerceShopping": {
+    "message": "تجارت الکترونیک و خرید"
+  },
+  "group_technologyDigital": {
+    "message": "فناوری و دیجیتال"
+  },
+  "group_sportsFitness": {
+    "message": "ورزش و تناسب اندام"
+  },
+  "group_medicalHealth": {
+    "message": "پزشکی و سلامت"
+  },
+  "group_educationTraining": {
+    "message": "آموزش و تربیت"
+  },
+  "group_skillTraining": {
+    "message": "آموزش مهارت"
+  },
+  "group_financialInvestment": {
+    "message": "مالی و سرمایه‌گذاری"
+  },
+  "group_transportationTravel": {
+    "message": "حمل و نقل و سفر"
+  },
+  "group_cookingGourmet": {
+    "message": "آشپزی و خوراک‌شناسی"
+  },
+  "group_petCare": {
+    "message": "مراقبت از حیوانات خانگی"
+  },
+  "group_legalConsultation": {
+    "message": "مشاوره حقوقی"
+  },
+  "group_artCulture": {
+    "message": "هنر و فرهنگ"
+  },
+  "group_communityForums": {
+    "message": "انجمن‌های اجتماعی"
+  },
+  "group_chatSocial": {
+    "message": "چت و اجتماعی"
+  },
+  "group_commonQueries": {
+    "message": "پرسش‌های متداول"
+  },
+  "group_comprehensiveOthers": {
+    "message": "جامع و دیگران"
+  },
+  "group_jobRecruitment": {
+    "message": "استخدام"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "استخدام و جستجوی کار"
+  },
+  "group_motherBaby": {
+    "message": "مادر و کودک"
+  },
+  "group_tutorialsGuides": {
+    "message": "آموزش‌ها و راهنماها"
+  },
+  "group_goodSitesCollection": {
+    "message": "مجموعه سایت‌های خوب"
+  },
+  "group_blogArticles": {
+    "message": "مقالات وبلاگ"
+  },
+  "group_onlineTools": {
+    "message": "ابزارهای آنلاین"
+  },
+  "group_freeResources": {
+    "message": "منابع رایگان"
+  },
+  "group_materialResources": {
+    "message": "منابع مادی"
+  },
+  "group_photography": {
+    "message": "عکاسی"
+  },
+  "group_gamblingWebsites": {
+    "message": "وب‌سایت‌های قمار"
+  },
+  "group_nsfw": {
+    "message": "مناسب بزرگسالان"
+  },
+  "group_internalSystems": {
+    "message": "سیستم‌های داخلی"
   }
 }

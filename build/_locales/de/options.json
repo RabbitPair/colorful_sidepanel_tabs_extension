@@ -3,6 +3,7 @@
   "_execute_action": "Diese Erweiterung aktivieren",
   "openSidePanel": "Seitenleiste öffnen",
   "settings": {
+    "premiumEditionOnly": "Nur Premium-Edition",
     "resetCurrentPageSettings": "Aktuelle Seiteneinstellungen zurücksetzen",
     "modules": {
       "appearance": "Aussehen",
@@ -287,6 +288,44 @@
         "label": "Vorschauverzögerung",
         "description": "Legen Sie die Verzögerungszeit für Tab-Vorschauen beim Überfahren von Tabs usw. fest (Sekunden). Wenn auf 0 gesetzt, gibt es keine Verzögerung",
         "seconds": "Sekunden"
+      },
+      "showTabIndex": {
+        "label": "Registerkarte anzeigen",
+        "description": "Wenn aktiviert, wird der Registerkartenindex neben dem Titel angezeigt, sodass die Registerkarte leicht mit [Strg+Nummer] unter Windows oder [cmd+Nummer] auf dem Mac aktiviert werden kann. Beispiel: 1. stackoverflow.com 2. youtube, damit es einfach ist, Strg + 2 unter Windows oder cmd + 2 auf dem Mac zu youtube zu wechseln"
+      },
+      "tabHistoryEnable": {
+        "label": "Tab-Verlauf",
+        "description": "Wenn aktiviert, wird der Verlauf der in derselben Registerkarte geöffneten Websites angezeigt."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Nur Tab-Verlauf auf aktiver Registerkarte anzeigen",
+        "description": "Wenn aktiviert, wird der Tab-Verlauf nur auf der aktiven Registerkarte angezeigt, sonst wird der Tab-Verlauf auf allen Registerkarten angezeigt."
+      },
+      "tabHistoryExpand": {
+        "label": "Tab-Verlauf standardmäßig erweitern",
+        "description": "Wenn aktiviert, wird der Tab-Verlauf standardmäßig erweitert."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Schaltfläche zum Erweitern des Tab-Verlaufs in der Liste anzeigen",
+        "description": "Wenn aktiviert, wird in der Registerkartenliste eine Schaltfläche angezeigt, auf die Sie klicken können, um den Tab-Verlauf zu erweitern oder zu reduzieren. Wenn deaktiviert, können Sie den Tab-Verlauf nur über das Kontextmenü erweitern oder reduzieren"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Tab-Verlaufs-URL anzeigen",
+        "description": "Wenn aktiviert, wird die Tab-Verlaufs-URL angezeigt, ansonsten wird nur der Titel angezeigt"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Symbol anzeigen, wenn der Tab-Verlauf zusammengeklappt ist",
+        "description": "Wenn aktiviert, wird das Tab-Verlaufssymbol angezeigt, wenn die Liste zusammengeklappt ist"
+      },
+      "tabHistorySortBy": {
+        "label": "Sortierreihenfolge des Tab-Verlaufs",
+        "description": "Wählen Sie die Sortierreihenfolge für den Tab-Verlauf aus",
+        "lastAccessed": "Zuletzt zugegriffen",
+        "createdAt": "Erstellungszeit"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Anzahl der anzuzeigenden Tab-Verlaufsdatensätze",
+        "description": "Begrenzen Sie die maximale Anzahl der anzuzeigenden Tab-Verlaufsdatensätze. Einträge, die die Grenze überschreiten, werden ausgeblendet"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doppelklick"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Erweiterte Tab-Gruppen",
+      "customGroupNames": {
+        "label": "Benutzerdefinierte Gruppennamen",
+        "description": "Sie können hier einige vordefinierte Gruppen hinzufügen, sodass Sie diese schnell auswählen können, wenn Sie Tabs zu einer Gruppe hinzufügen müssen. Wir haben bereits einige Gruppennamen voreingestellt, die Sie nach Bedarf ändern oder löschen können.",
+        "ManageGroupNames": "Gruppennamen verwalten",
+        "CustomGroupNames": "Benutzerdefinierte Gruppennamen",
+        "ConfirmDelete": "Löschen bestätigen",
+        "ConfirmDeleteMsg": "Sind Sie sicher, dass Sie diesen Namen löschen möchten?",
+        "AddNewName": "Neuen Namen hinzufügen",
+        "Cancel": "Abbrechen",
+        "Delete": "Löschen",
+        "Close": "Schließen"
+      },
+      "customGroupRemember": {
+        "label": "Seiten-Gruppierung merken",
+        "description": "Wenn aktiviert, wird eine Seite, die zu einer benutzerdefinierten Gruppe hinzugefügt wurde, beim nächsten Öffnen der Seite automatisch diese Gruppe verwenden"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Verhalten beim Einklappen von Tab-Gruppen",
         "description": "Ändern Sie das Verhalten des Einklappens von Tab-Gruppen im Chrome-Browser",
         "option_collapse_others": "Aktuelle Gruppe anzeigen und andere einklappen",
         "option_disable": "Alle Gruppen erweitern",
         "option_auto": "Chrome-Standardeinstellungen verwenden"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Lesezeichen-Ordnername als Gruppenname verwenden",
+        "description": "Verwenden Sie automatisch den Lesezeichen-Ordnernamen als Gruppennamen, wenn die geöffnete URL in den Lesezeichen enthalten ist",
+        "enabled": "Aktiviert",
+        "disabled": "Deaktiviert"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Lesezeichen-Ordner-Ebene auswählen",
+        "description": "Wählen Sie die Ebene des Lesezeichen-Ordners, die als Gruppenname verwendet werden soll",
+        "top": "Oberste Ebene",
+        "parent": "Elternebene",
+        "full": "Vollständiger Pfad"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatisch gleiche Domain-Gruppe erstellen oder beitreten",
@@ -519,6 +588,16 @@
         "target_top": "Oberster Tab",
         "save": "Speichern",
         "close": "Schließen"
+      },
+      "backgroundColor": {
+        "label": "Hintergrundfarbe",
+        "description": "Wählen Sie eine Hintergrundfarbe für diese Seite aus.",
+        "random": "Zufällig",
+        "clear": "Löschen"
+      },
+      "fontColor": {
+        "label": "Schriftfarbe",
+        "description": "Legen Sie die Schriftfarbe für diese Seite fest."
       }
     },
     "quickAccess": {

@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Προηγμένο Picture-in-Picture",
   "APIAccess": "Πρόσβαση API",
   "customizeMenu": "Προσαρμογή μενού",
-  "Automation": "Αυτοματοποίηση"
+  "Automation": "Αυτοματοποίηση",
+  "tabIndexTips": "Πατήστε CMD/Ctrl + {{index}} για να μεταβείτε σε αυτήν την καρτέλα",
+  "expandTabHistories": "Ανάπτυξη ιστορικών καρτελών",
+  "collapseTabHistories": "Σύμπτυξη ιστορικών καρτελών",
+  "deleteTabHistory": "Διαγραφή αυτού του ιστορικού καρτέλας",
+  "deleteTabHistories": "Διαγραφή όλων των ιστορικών αυτής της καρτέλας",
+  "clickToGoBack": "Κάντε κλικ για να επιστρέψετε",
+  "clickToGoForward": "Κάντε κλικ για να προχωρήσετε",
+  "loading": "Φόρτωση",
+  "updateBookmarkUrl": "Ενημέρωση URL σελιδοδείκτη",
+  "oldUrl": "Παλιά URL",
+  "newUrl": "Νέα URL",
+  "accessible": "Προσβάσιμο",
+  "foundUrlRedirect": "Βρέθηκε ανακατεύθυνση URL, θέλετε να ενημερώσετε;"
 }

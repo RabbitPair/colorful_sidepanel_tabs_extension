@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Comută poziția panoului lateral"
+  },
+  "group_newsInformation": {
+    "message": "Știri și Informații"
+  },
+  "group_videoMovies": {
+    "message": "Videoclipuri și Filme"
+  },
+  "group_liveStreaming": {
+    "message": "Live și Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Jocuri și Divertisment"
+  },
+  "group_musicWebsites": {
+    "message": "Site-uri de Muzică"
+  },
+  "group_literatureNovels": {
+    "message": "Literatură și Romane"
+  },
+  "group_animeWebsites": {
+    "message": "Site-uri de Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce și Cumpărături"
+  },
+  "group_technologyDigital": {
+    "message": "Tehnologie și Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Sport și Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medical și Sănătate"
+  },
+  "group_educationTraining": {
+    "message": "Educație și Instruire"
+  },
+  "group_skillTraining": {
+    "message": "Instruire de Abilități"
+  },
+  "group_financialInvestment": {
+    "message": "Financiar și Investiții"
+  },
+  "group_transportationTravel": {
+    "message": "Transport și Călătorii"
+  },
+  "group_cookingGourmet": {
+    "message": "Gătit și Gourmet"
+  },
+  "group_petCare": {
+    "message": "Îngrijirea Animalelor"
+  },
+  "group_legalConsultation": {
+    "message": "Consultanță Juridică"
+  },
+  "group_artCulture": {
+    "message": "Artă și Cultură"
+  },
+  "group_communityForums": {
+    "message": "Forumuri Comunitare"
+  },
+  "group_chatSocial": {
+    "message": "Chat și Social"
+  },
+  "group_commonQueries": {
+    "message": "Întrebări Comune"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Cuprinzător și Altele"
+  },
+  "group_jobRecruitment": {
+    "message": "Recrutare de Locuri de Muncă"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Recrutare și Căutare de Locuri de Muncă"
+  },
+  "group_motherBaby": {
+    "message": "Mamă și Bebeluș"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutoriale și Ghiduri"
+  },
+  "group_goodSitesCollection": {
+    "message": "Colecție de Site-uri Bune"
+  },
+  "group_blogArticles": {
+    "message": "Articole de Blog"
+  },
+  "group_onlineTools": {
+    "message": "Instrumente Online"
+  },
+  "group_freeResources": {
+    "message": "Resurse Gratuite"
+  },
+  "group_materialResources": {
+    "message": "Resurse Materiale"
+  },
+  "group_photography": {
+    "message": "Fotografie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Site-uri de Jocuri de Noroc"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sisteme Interne"
   }
 }

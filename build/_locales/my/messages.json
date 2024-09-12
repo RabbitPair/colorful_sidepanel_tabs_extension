@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "ထောင့်စပ်ဘား၏ တည်နေရာကို ပြောင်းပါ"
+  },
+  "group_newsInformation": {
+    "message": "သတင်းနှင့် အချက်အလက်"
+  },
+  "group_videoMovies": {
+    "message": "ဗီဒီယိုများနှင့် ရုပ်ရှင်များ"
+  },
+  "group_liveStreaming": {
+    "message": "တိုက်ရိုက်နှင့် စီးရီး"
+  },
+  "group_entertainmentGames": {
+    "message": "ဂိမ်းများနှင့် ဖျော်ဖြေရေး"
+  },
+  "group_musicWebsites": {
+    "message": "ဂီတဝက်ဘ်ဆိုက်များ"
+  },
+  "group_literatureNovels": {
+    "message": "စာပေနှင့် ဝတ္ထုများ"
+  },
+  "group_animeWebsites": {
+    "message": "အနီမေးဝက်ဘ်ဆိုက်များ"
+  },
+  "group_ecommerceShopping": {
+    "message": "အီလက်ထရောနစ် ကုန်သွယ်ရေးနှင့် စျေးဝယ်ခြင်း"
+  },
+  "group_technologyDigital": {
+    "message": "နည်းပညာနှင့် ဒစ်ဂျစ်တယ်"
+  },
+  "group_sportsFitness": {
+    "message": "အားကစားနှင့် ကျန်းမာရေး"
+  },
+  "group_medicalHealth": {
+    "message": "ဆေးဘက်နှင့် ကျန်းမာရေး"
+  },
+  "group_educationTraining": {
+    "message": "ပညာရေးနှင့် လေ့ကျင့်ရေး"
+  },
+  "group_skillTraining": {
+    "message": "ကျွမ်းကျင်မှု လေ့ကျင့်ရေး"
+  },
+  "group_financialInvestment": {
+    "message": "ဘဏ္ဍာရေးနှင့် ရင်းနှီးမြှုပ်နှံမှု"
+  },
+  "group_transportationTravel": {
+    "message": "ပို့ဆောင်ရေးနှင့် ခရီးသွား"
+  },
+  "group_cookingGourmet": {
+    "message": "ချက်ပြုတ်ခြင်းနှင့် အထူးအစားအစာ"
+  },
+  "group_petCare": {
+    "message": "အိမ်မွေးတိရစ္ဆာန် စောင့်ရှောက်မှု"
+  },
+  "group_legalConsultation": {
+    "message": "ဥပဒေ အကြံပေးခြင်း"
+  },
+  "group_artCulture": {
+    "message": "အနုပညာနှင့် ယဉ်ကျေးမှု"
+  },
+  "group_communityForums": {
+    "message": "အသိုင်းအဝိုင်း ဖိုရမ်များ"
+  },
+  "group_chatSocial": {
+    "message": "စကားပြောခြင်းနှင့် လူမှုရေး"
+  },
+  "group_commonQueries": {
+    "message": "အထွေထွေ မေးခွန်းများ"
+  },
+  "group_comprehensiveOthers": {
+    "message": "အပြည့်အစုံနှင့် အခြား"
+  },
+  "group_jobRecruitment": {
+    "message": "အလုပ်ခန့်အပ်ခြင်း"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "အလုပ်ခန့်အပ်ခြင်းနှင့် အလုပ်ရှာဖွေခြင်း"
+  },
+  "group_motherBaby": {
+    "message": "မိခင်နှင့် ကလေး"
+  },
+  "group_tutorialsGuides": {
+    "message": "သင်ခန်းစာများနှင့် လမ်းညွှန်ချက်များ"
+  },
+  "group_goodSitesCollection": {
+    "message": "ကောင်းသော ဝက်ဘ်ဆိုက်များ စုစည်းမှု"
+  },
+  "group_blogArticles": {
+    "message": "ဘလော့ဂ် ဆောင်းပါးများ"
+  },
+  "group_onlineTools": {
+    "message": "အွန်လိုင်း ကိရိယာများ"
+  },
+  "group_freeResources": {
+    "message": "အခမဲ့ အရင်းအမြစ်များ"
+  },
+  "group_materialResources": {
+    "message": "ပစ္စည်း အရင်းအမြစ်များ"
+  },
+  "group_photography": {
+    "message": "ဓာတ်ပုံရိုက်ခြင်း"
+  },
+  "group_gamblingWebsites": {
+    "message": "လောင်းကစား ဝက်ဘ်ဆိုက်များ"
+  },
+  "group_nsfw": {
+    "message": "အလုပ်သုံးရန် မသင့်တော်သော"
+  },
+  "group_internalSystems": {
+    "message": "အတွင်းရေး စနစ်များ"
   }
 }

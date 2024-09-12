@@ -3,6 +3,7 @@
   "_execute_action": "Activa aquesta extensió",
   "openSidePanel": "Obre el panell lateral",
   "settings": {
+    "premiumEditionOnly": "Només edició premium",
     "resetCurrentPageSettings": "Restableix la configuració de la pàgina actual",
     "modules": {
       "appearance": "Aparença",
@@ -287,6 +288,44 @@
         "label": "Retard de la previsualització",
         "description": "Estableix el temps de retard per a les previsualitzacions de les pestanyes en passar el ratolí per sobre de les pestanyes, etc. (segons). Si s'estableix a 0, no hi haurà cap retard",
         "seconds": "Segons"
+      },
+      "showTabIndex": {
+        "label": "Mostra l'índex de pestanyes",
+        "description": "Quan està habilitat, l'índex de pestanyes es mostrarà al costat del títol, facilitant l'activació de la pestanya utilitzant [Ctrl+número] a Windows o [cmd+número] a Mac. Exemple: 1. stackoverflow.com 2. youtube, de manera que és fàcil fer Ctrl + 2 a Windows o cmd + 2 a Mac per anar a youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historial de pestanyes",
+        "description": "Quan està habilitat, es mostrarà l'historial de llocs web oberts a la mateixa pestanya."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Mostra l'historial de pestanyes només a la pestanya activa",
+        "description": "Quan està habilitat, mostra l'historial de pestanyes només a la pestanya activa, en cas contrari mostra l'historial de pestanyes a totes les pestanyes."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandeix l'historial de pestanyes per defecte",
+        "description": "Quan està habilitat, l'historial de pestanyes s'expandirà per defecte."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Mostra el botó d'expansió de l'historial de pestanyes a la llista",
+        "description": "Quan està habilitat, es mostrarà un botó a la llista de pestanyes que pots fer clic per expandir o col·lapsar l'historial de pestanyes. Si està deshabilitat, només pots utilitzar el menú de clic dret per expandir o col·lapsar l'historial de pestanyes"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Mostra la URL de l'historial de pestanyes",
+        "description": "Quan està habilitat, es mostrarà la URL de l'historial de pestanyes, en cas contrari només es mostrarà el títol"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Mostra la icona quan l'historial de pestanyes està col·lapsat",
+        "description": "Quan està habilitat, mostra la icona de l'historial de pestanyes quan la llista està col·lapsada"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordre de classificació de l'historial de pestanyes",
+        "description": "Selecciona l'ordre de classificació per a l'historial de pestanyes",
+        "lastAccessed": "Últim accés",
+        "createdAt": "Hora de creació"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Nombre d'entrades de l'historial de pestanyes a mostrar",
+        "description": "Limita el nombre màxim d'entrades de l'historial de pestanyes a mostrar. Les entrades que superin el límit es ocultaran"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doble clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grups de pestanyes avançats",
+      "customGroupNames": {
+        "label": "Noms de grups personalitzats",
+        "description": "Pots afegir alguns grups predefinits aquí, de manera que els puguis seleccionar ràpidament quan necessitis afegir pestanyes a un grup. Ja hem predefinit alguns noms de grups, que pots modificar o eliminar segons les teves necessitats.",
+        "ManageGroupNames": "Gestiona noms de grups",
+        "CustomGroupNames": "Noms de grups personalitzats",
+        "ConfirmDelete": "Confirma l'eliminació",
+        "ConfirmDeleteMsg": "Estàs segur que vols eliminar aquest nom?",
+        "AddNewName": "Afegeix un nom nou",
+        "Cancel": "Cancel·la",
+        "Delete": "Elimina",
+        "Close": "Tanca"
+      },
+      "customGroupRemember": {
+        "label": "Recorda la agrupació del lloc",
+        "description": "Quan està habilitat, si un lloc s'afegeix a un grup personalitzat, utilitzarà automàticament aquest grup la propera vegada que s'obri el lloc"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportament de col·lapse del grup de pestanyes",
         "description": "Modifica el comportament del col·lapse del grup de pestanyes del navegador Chrome",
         "option_collapse_others": "Mostra el grup actual i col·lapsa els altres",
         "option_disable": "Expandeix tots els grups",
         "option_auto": "Utilitza la configuració per defecte de Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Utilitza el nom de la carpeta de marcadors com a nom del grup",
+        "description": "Utilitza automàticament el nom de la carpeta de marcadors com a nom del grup si l'URL obert està als marcadors",
+        "enabled": "Habilitat",
+        "disabled": "Deshabilitat"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Selecciona el nivell de la carpeta de marcadors",
+        "description": "Tria el nivell de la carpeta de marcadors per utilitzar com a nom del grup",
+        "top": "Nivell superior",
+        "parent": "Nivell pare",
+        "full": "Ruta completa"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Crea o uneix automàticament el mateix grup de domini",
@@ -519,6 +588,16 @@
         "target_top": "Pestanya superior",
         "save": "Desar",
         "close": "Tancar"
+      },
+      "backgroundColor": {
+        "label": "Color de fons",
+        "description": "Seleccioneu un color de fons per a aquest lloc.",
+        "random": "Aleatori",
+        "clear": "Netejar"
+      },
+      "fontColor": {
+        "label": "Color de la font",
+        "description": "Establiu el color de la font per a aquest lloc."
       }
     },
     "quickAccess": {

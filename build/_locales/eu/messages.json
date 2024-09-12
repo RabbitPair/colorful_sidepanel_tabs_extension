@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Aldatu alboko barraren posizioa"
+  },
+  "group_newsInformation": {
+    "message": "Berriak eta Informazioa"
+  },
+  "group_videoMovies": {
+    "message": "Bideoak eta Filmak"
+  },
+  "group_liveStreaming": {
+    "message": "Zuzeneko eta Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Jokoak eta Aisia"
+  },
+  "group_musicWebsites": {
+    "message": "Musika Webguneak"
+  },
+  "group_literatureNovels": {
+    "message": "Literatura eta Nobela"
+  },
+  "group_animeWebsites": {
+    "message": "Anime Webguneak"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce eta Erosketak"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologia eta Digitala"
+  },
+  "group_sportsFitness": {
+    "message": "Kirolak eta Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medikuntza eta Osasuna"
+  },
+  "group_educationTraining": {
+    "message": "Hezkuntza eta Prestakuntza"
+  },
+  "group_skillTraining": {
+    "message": "Trebetasun Prestakuntza"
+  },
+  "group_financialInvestment": {
+    "message": "Finantza eta Inbertsioa"
+  },
+  "group_transportationTravel": {
+    "message": "Garraioa eta Bidaiak"
+  },
+  "group_cookingGourmet": {
+    "message": "Sukaldaritza eta Gourmet"
+  },
+  "group_petCare": {
+    "message": "Maskoten Zaintza"
+  },
+  "group_legalConsultation": {
+    "message": "Aholkularitza Juridikoa"
+  },
+  "group_artCulture": {
+    "message": "Artea eta Kultura"
+  },
+  "group_communityForums": {
+    "message": "Komunitate Foroak"
+  },
+  "group_chatSocial": {
+    "message": "Txata eta Soziala"
+  },
+  "group_commonQueries": {
+    "message": "Ohiko Galderak"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Orokorra eta Besteak"
+  },
+  "group_jobRecruitment": {
+    "message": "Lan Eskaintza"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Lan Eskaintza eta Bilaketa"
+  },
+  "group_motherBaby": {
+    "message": "Ama eta Haurra"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorialak eta Gidak"
+  },
+  "group_goodSitesCollection": {
+    "message": "Webgune Onen Bilduma"
+  },
+  "group_blogArticles": {
+    "message": "Blog Artikuluak"
+  },
+  "group_onlineTools": {
+    "message": "Lineako Tresnak"
+  },
+  "group_freeResources": {
+    "message": "Doako Baliabideak"
+  },
+  "group_materialResources": {
+    "message": "Material Baliabideak"
+  },
+  "group_photography": {
+    "message": "Argazkilaritza"
+  },
+  "group_gamblingWebsites": {
+    "message": "Apostu Webguneak"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Barne Sistemak"
   }
 }

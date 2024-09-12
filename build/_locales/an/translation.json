@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Imagen en imagen avanzada",
   "APIAccess": "Acceso API",
   "customizeMenu": "Personalizar menú",
-  "Automation": "Automatización"
+  "Automation": "Automatización",
+  "tabIndexTips": "Presiona CMD/Ctrl + {{index}} para cambiar a esta pestaña",
+  "expandTabHistories": "Expandir historiales de pestañas",
+  "collapseTabHistories": "Colapsar historiales de pestañas",
+  "deleteTabHistory": "Eliminar este historial de pestañas",
+  "deleteTabHistories": "Eliminar todos los historiales de esta pestaña",
+  "clickToGoBack": "Haz clic para regresar",
+  "clickToGoForward": "Haz clic para avanzar",
+  "loading": "Cargando",
+  "updateBookmarkUrl": "Actualizar URL del marcador",
+  "oldUrl": "URL antigua",
+  "newUrl": "URL nueva",
+  "accessible": "Accesible",
+  "foundUrlRedirect": "Se encontró una redirección de URL, ¿quieres actualizar?"
 }

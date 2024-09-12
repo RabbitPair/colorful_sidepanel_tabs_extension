@@ -3,6 +3,7 @@
   "_execute_action": "Gweithredu'r estyniad hwn",
   "openSidePanel": "Agorwch y panel ochr",
   "settings": {
+    "premiumEditionOnly": "Dim ond ar gyfer y fersiwn prif",
     "resetCurrentPageSettings": "Ailosod gosodiadau'r dudalen gyfredol",
     "modules": {
       "appearance": "Ymddangosiad",
@@ -287,6 +288,44 @@
         "label": "Oedi rhagolwg",
         "description": "Gosodwch amser yr oedi ar gyfer rhagolwg tabiau wrth ysgwyd drosddynt, ac ati. (eiliadau). Os byddwch wedi'i osod i 0, ni fydd unrhyw oedi",
         "seconds": "Eiliad"
+      },
+      "showTabIndex": {
+        "label": "Dangos mynegai tab",
+        "description": "Pan fydd wedi'i alluogi, bydd y mynegai tab yn cael ei ddangos wrth ymyl y teitl, gan ei gwneud yn hawdd actifadu tab gan ddefnyddio [Ctrl+rhif] ar Windows neu [cmd+rhif] ar Mac. Enghraifft: 1. stackoverflow.com 2. youtube, fel ei bod yn hawdd gwneud Ctrl + 2 ar Windows neu cmd + 2 ar Mac i fynd i youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Hanes tab",
+        "description": "Pan fydd wedi'i alluogi, bydd hanes y gwefannau a agorwyd yn yr un tab yn cael ei ddangos."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Dangos hanes tab dim ond ar y tab gweithredol",
+        "description": "Pan fydd wedi'i alluogi, dangos hanes tab dim ond ar y tab gweithredol, fel arall dangos hanes tab ar bob tab."
+      },
+      "tabHistoryExpand": {
+        "label": "Ehangu hanes tab yn ddiofyn",
+        "description": "Pan fydd wedi'i alluogi, bydd hanes tab yn cael ei ehangu yn ddiofyn."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Dangos botwm ehangu hanes tab yn y rhestr",
+        "description": "Pan fydd wedi'i alluogi, bydd botwm yn cael ei ddangos yn y rhestr tab y gallwch glicio arno i ehangu neu gwympo hanes tab. Os yw wedi'i analluogi, gallwch ond ddefnyddio'r ddewislen clicio-dde i ehangu neu gwympo hanes tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Dangos URL hanes tab",
+        "description": "Pan fydd wedi'i alluogi, bydd URL hanes tab yn cael ei ddangos, fel arall dim ond y teitl fydd yn cael ei ddangos"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Dangos eicon pan fydd hanes tab wedi'i gwympo",
+        "description": "Pan fydd wedi'i alluogi, dangos eicon hanes tab pan fydd y rhestr wedi'i gwympo"
+      },
+      "tabHistorySortBy": {
+        "label": "Trefn didoli hanes tab",
+        "description": "Dewiswch y drefn didoli ar gyfer hanes tab",
+        "lastAccessed": "Mynediad diwethaf",
+        "createdAt": "Amser creu"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Nifer yr eitemau hanes tab i'w dangos",
+        "description": "Cyfyngu ar y nifer mwyaf o eitemau hanes tab i'w dangos. Bydd eitemau sy'n fwy na'r terfyn yn cael eu cuddio"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dau glic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grwpiau tabiau uwch",
+      "customGroupNames": {
+        "label": "Enwau grŵp personol",
+        "description": "Gallwch ychwanegu rhai grwpiau wedi'u diffinio ymlaen llaw yma, fel y gallwch eu dewis yn gyflym pan fydd angen ychwanegu tabiau at grŵp. Rydym eisoes wedi gosod rhai enwau grŵp, y gallwch eu haddasu neu eu dileu yn ôl eich anghenion.",
+        "ManageGroupNames": "Rheoli Enwau Grŵp",
+        "CustomGroupNames": "Enwau Grŵp Personol",
+        "ConfirmDelete": "Cadarnhau Dileu",
+        "ConfirmDeleteMsg": "Ydych chi'n siŵr eich bod am ddileu'r enw hwn?",
+        "AddNewName": "Ychwanegu enw newydd",
+        "Cancel": "Canslo",
+        "Delete": "Dileu",
+        "Close": "Cau"
+      },
+      "customGroupRemember": {
+        "label": "Cofio grwpio safle",
+        "description": "Pan fydd wedi'i alluogi, os ychwanegir safle at grŵp personol, bydd yn defnyddio'r grŵp hwn yn awtomatig y tro nesaf y bydd y safle'n cael ei agor"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ymddygiad grwp tabiau wrth gwympo",
         "description": "Addasu ymddygiad gwymp grwp tabiau porwr Chrome",
         "option_collapse_others": "Dangos y grŵp presennol a gwympo eraill",
         "option_disable": "Ehangu'r holl grwpiau",
         "option_auto": "Defnyddio gosodiadau diofyn Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Defnyddio enw ffolder nod tudalen fel enw grŵp",
+        "description": "Defnyddio enw ffolder nod tudalen yn awtomatig fel enw'r grŵp os yw'r URL agored yn y nodau tudalen",
+        "enabled": "Wedi'i alluogi",
+        "disabled": "Wedi'i analluogi"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Dewiswch Lefel Ffolder Nod Tudalen",
+        "description": "Dewiswch lefel y ffolder nod tudalen i'w ddefnyddio fel enw'r grŵp",
+        "top": "Lefel Uchaf",
+        "parent": "Lefel Rhiant",
+        "full": "Llwybr Llawn"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Awtomatig greu neu ymuno â grŵp un domain",
@@ -519,6 +588,16 @@
         "target_top": "Tab Uchaf",
         "save": "Cadw",
         "close": "Cau"
+      },
+      "backgroundColor": {
+        "label": "Lliw Cefndir",
+        "description": "Dewiswch liw cefndir ar gyfer y safle hwn.",
+        "random": "Ar hap",
+        "clear": "Clir"
+      },
+      "fontColor": {
+        "label": "Lliw Ffont",
+        "description": "Gosodwch liw ffont ar gyfer y safle hwn."
       }
     },
     "quickAccess": {

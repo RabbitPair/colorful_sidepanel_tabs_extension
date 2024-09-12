@@ -3,6 +3,7 @@
   "_execute_action": "Aktiviraj ovo proširenje",
   "openSidePanel": "Otvori bočnu ploču",
   "settings": {
+    "premiumEditionOnly": "Samo premium izdanje",
     "resetCurrentPageSettings": "Resetiraj postavke trenutne stranice",
     "modules": {
       "appearance": "Izgled",
@@ -287,6 +288,44 @@
         "label": "Kašnjenje pregleda",
         "description": "Postavite vrijeme kašnjenja za preglede kartica prilikom prelaska mišem preko kartica, itd. (sekunde). Ako je postavljeno na 0, neće biti kašnjenja",
         "seconds": "Sekunde"
+      },
+      "showTabIndex": {
+        "label": "Prikaži indeks kartice",
+        "description": "Kada je omogućeno, indeks kartice će biti prikazan pored naslova, što olakšava aktiviranje kartice pomoću [Ctrl+broj] na Windowsu ili [cmd+broj] na Macu. Primjer: 1. stackoverflow.com 2. youtube, tako da je lako pritisnuti Ctrl + 2 na Windowsu ili cmd + 2 na Macu za odlazak na youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Povijest kartica",
+        "description": "Kada je omogućeno, povijest web stranica otvorenih u istoj kartici će biti prikazana."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Prikaži povijest kartica samo na aktivnoj kartici",
+        "description": "Kada je omogućeno, prikaži povijest kartica samo na aktivnoj kartici, inače prikaži povijest kartica na svim karticama."
+      },
+      "tabHistoryExpand": {
+        "label": "Proširi povijest kartica prema zadanim postavkama",
+        "description": "Kada je omogućeno, povijest kartica će biti proširena prema zadanim postavkama."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Prikaži gumb za proširenje povijesti kartica na popisu",
+        "description": "Kada je omogućeno, gumb će biti prikazan na popisu kartica koji možete kliknuti za proširenje ili sažimanje povijesti kartica. Ako je onemogućeno, možete koristiti samo izbornik desnog klika za proširenje ili sažimanje povijesti kartica"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Prikaži URL povijesti kartica",
+        "description": "Kada je omogućeno, URL povijesti kartica će biti prikazan, inače će biti prikazan samo naslov"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Prikaži ikonu kada je povijest kartica sažeta",
+        "description": "Kada je omogućeno, prikaži ikonu povijesti kartica kada je popis sažet"
+      },
+      "tabHistorySortBy": {
+        "label": "Redoslijed sortiranja povijesti kartica",
+        "description": "Odaberite redoslijed sortiranja povijesti kartica",
+        "lastAccessed": "Posljednji pristup",
+        "createdAt": "Vrijeme stvaranja"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Broj unosa povijesti kartica za prikaz",
+        "description": "Ograničite maksimalan broj unosa povijesti kartica za prikaz. Unosi koji premašuju ograničenje će biti skriveni"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dvostruki klik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Napredne grupe kartica",
+      "customGroupNames": {
+        "label": "Prilagođeni nazivi grupa",
+        "description": "Ovdje možete dodati unaprijed definirane grupe kako biste ih brzo odabrali kada trebate dodati kartice u grupu. Već smo unaprijed postavili neke nazive grupa koje možete izmijeniti ili izbrisati prema vašim potrebama.",
+        "ManageGroupNames": "Upravljanje nazivima grupa",
+        "CustomGroupNames": "Prilagođeni nazivi grupa",
+        "ConfirmDelete": "Potvrdi brisanje",
+        "ConfirmDeleteMsg": "Jeste li sigurni da želite izbrisati ovaj naziv?",
+        "AddNewName": "Dodaj novi naziv",
+        "Cancel": "Odustani",
+        "Delete": "Izbriši",
+        "Close": "Zatvori"
+      },
+      "customGroupRemember": {
+        "label": "Zapamti grupiranje stranica",
+        "description": "Kada je omogućeno, ako je stranica dodana u prilagođenu grupu, automatski će koristiti ovu grupu sljedeći put kada se stranica otvori"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ponašanje grupiranja kartica",
         "description": "Promijenite ponašanje grupiranja kartica u Chrome pregledniku",
         "option_collapse_others": "Prikaži trenutnu grupu i sažmi ostale",
         "option_disable": "Proširi sve grupe",
         "option_auto": "Koristi zadane postavke Chromea"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Koristi naziv mape oznaka kao naziv grupe",
+        "description": "Automatski koristi naziv mape oznaka kao naziv grupe ako je otvoreni URL u oznakama",
+        "enabled": "Omogućeno",
+        "disabled": "Onemogućeno"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Odaberi razinu mape oznaka",
+        "description": "Odaberite razinu mape oznaka koju ćete koristiti kao naziv grupe",
+        "top": "Najviša razina",
+        "parent": "Nadređena razina",
+        "full": "Cijela putanja"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatski stvori ili pridruži grupi iste domene",
@@ -519,6 +588,16 @@
         "target_top": "Najviša kartica",
         "save": "Spremi",
         "close": "Zatvori"
+      },
+      "backgroundColor": {
+        "label": "Boja pozadine",
+        "description": "Odaberite boju pozadine za ovu stranicu.",
+        "random": "Slučajno",
+        "clear": "Očisti"
+      },
+      "fontColor": {
+        "label": "Boja fonta",
+        "description": "Postavite boju fonta za ovu stranicu."
       }
     },
     "quickAccess": {

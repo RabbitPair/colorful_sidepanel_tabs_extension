@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Oldalsó sáv pozíciójának váltása"
+  },
+  "group_newsInformation": {
+    "message": "Hírek és információk"
+  },
+  "group_videoMovies": {
+    "message": "Videók és filmek"
+  },
+  "group_liveStreaming": {
+    "message": "Élő közvetítés"
+  },
+  "group_entertainmentGames": {
+    "message": "Játékok és szórakozás"
+  },
+  "group_musicWebsites": {
+    "message": "Zenei weboldalak"
+  },
+  "group_literatureNovels": {
+    "message": "Irodalom és regények"
+  },
+  "group_animeWebsites": {
+    "message": "Anime weboldalak"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-kereskedelem és vásárlás"
+  },
+  "group_technologyDigital": {
+    "message": "Technológia és digitális"
+  },
+  "group_sportsFitness": {
+    "message": "Sport és fitnesz"
+  },
+  "group_medicalHealth": {
+    "message": "Orvosi és egészség"
+  },
+  "group_educationTraining": {
+    "message": "Oktatás és képzés"
+  },
+  "group_skillTraining": {
+    "message": "Készségfejlesztés"
+  },
+  "group_financialInvestment": {
+    "message": "Pénzügy és befektetés"
+  },
+  "group_transportationTravel": {
+    "message": "Közlekedés és utazás"
+  },
+  "group_cookingGourmet": {
+    "message": "Főzés és ínyencség"
+  },
+  "group_petCare": {
+    "message": "Kisállat gondozás"
+  },
+  "group_legalConsultation": {
+    "message": "Jogi tanácsadás"
+  },
+  "group_artCulture": {
+    "message": "Művészet és kultúra"
+  },
+  "group_communityForums": {
+    "message": "Közösségi fórumok"
+  },
+  "group_chatSocial": {
+    "message": "Csevegés és közösségi"
+  },
+  "group_commonQueries": {
+    "message": "Gyakori kérdések"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Átfogó és egyéb"
+  },
+  "group_jobRecruitment": {
+    "message": "Állás toborzás"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Toborzás és álláskeresés"
+  },
+  "group_motherBaby": {
+    "message": "Anya és baba"
+  },
+  "group_tutorialsGuides": {
+    "message": "Oktatóanyagok és útmutatók"
+  },
+  "group_goodSitesCollection": {
+    "message": "Jó webhelyek gyűjteménye"
+  },
+  "group_blogArticles": {
+    "message": "Blog cikkek"
+  },
+  "group_onlineTools": {
+    "message": "Online eszközök"
+  },
+  "group_freeResources": {
+    "message": "Ingyenes források"
+  },
+  "group_materialResources": {
+    "message": "Anyagi források"
+  },
+  "group_photography": {
+    "message": "Fotózás"
+  },
+  "group_gamblingWebsites": {
+    "message": "Szerencsejáték weboldalak"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Belső rendszerek"
   }
 }

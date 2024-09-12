@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Permuta positionem tabulae lateralis"
+  },
+  "group_newsInformation": {
+    "message": "Nuntii et Informationes"
+  },
+  "group_videoMovies": {
+    "message": "Videos et Pelliculae"
+  },
+  "group_liveStreaming": {
+    "message": "Viva et Fluitantia"
+  },
+  "group_entertainmentGames": {
+    "message": "Ludi et Oblectamenta"
+  },
+  "group_musicWebsites": {
+    "message": "Musica Situs"
+  },
+  "group_literatureNovels": {
+    "message": "Litterae et Novae"
+  },
+  "group_animeWebsites": {
+    "message": "Anime Situs"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce et Shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Technologia et Digitalis"
+  },
+  "group_sportsFitness": {
+    "message": "Ludi et Valetudo"
+  },
+  "group_medicalHealth": {
+    "message": "Medicina et Sanitas"
+  },
+  "group_educationTraining": {
+    "message": "Educatio et Institutio"
+  },
+  "group_skillTraining": {
+    "message": "Ars Institutio"
+  },
+  "group_financialInvestment": {
+    "message": "Pecuniaria et Investment"
+  },
+  "group_transportationTravel": {
+    "message": "Transportatio et Iter"
+  },
+  "group_cookingGourmet": {
+    "message": "Coquendo et Gourmet"
+  },
+  "group_petCare": {
+    "message": "Cura Animalium"
+  },
+  "group_legalConsultation": {
+    "message": "Consultatio Iuridica"
+  },
+  "group_artCulture": {
+    "message": "Ars et Cultura"
+  },
+  "group_communityForums": {
+    "message": "Communitas Fora"
+  },
+  "group_chatSocial": {
+    "message": "Sermo et Socialis"
+  },
+  "group_commonQueries": {
+    "message": "Communes Quaestiones"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Comprehensiva et Alia"
+  },
+  "group_jobRecruitment": {
+    "message": "Officium Recruitment"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Recruitment et Officium Quaerens"
+  },
+  "group_motherBaby": {
+    "message": "Mater et Infans"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorials et Ductores"
+  },
+  "group_goodSitesCollection": {
+    "message": "Bona Situs Collectio"
+  },
+  "group_blogArticles": {
+    "message": "Blog Articuli"
+  },
+  "group_onlineTools": {
+    "message": "Instrumenta Online"
+  },
+  "group_freeResources": {
+    "message": "Liberi Resources"
+  },
+  "group_materialResources": {
+    "message": "Materialia Resources"
+  },
+  "group_photography": {
+    "message": "Photographia"
+  },
+  "group_gamblingWebsites": {
+    "message": "Alea Situs"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interna Systemata"
   }
 }

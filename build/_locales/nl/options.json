@@ -3,6 +3,7 @@
   "_execute_action": "Activeer deze extensie",
   "openSidePanel": "Zijpaneel openen",
   "settings": {
+    "premiumEditionOnly": "Alleen premium editie",
     "resetCurrentPageSettings": "Huidige pagina-instellingen resetten",
     "modules": {
       "appearance": "Uiterlijk",
@@ -287,6 +288,44 @@
         "label": "Voorbeeldvertraging",
         "description": "Stel de vertragingstijd in voor tabbladvoorbeelden bij het zweven over tabbladen, enz. (seconden). Als ingesteld op 0, is er geen vertraging",
         "seconds": "Seconden"
+      },
+      "showTabIndex": {
+        "label": "Tabbladindex weergeven",
+        "description": "Wanneer ingeschakeld, wordt de tabbladindex naast de titel weergegeven, waardoor het gemakkelijk is om het tabblad te activeren met [Ctrl+nummer] op Windows of [cmd+nummer] op Mac. Voorbeeld: 1. stackoverflow.com 2. youtube, zodat het gemakkelijk is om Ctrl + 2 op Windows of cmd + 2 op Mac te doen om naar youtube te gaan"
+      },
+      "tabHistoryEnable": {
+        "label": "Tabbladgeschiedenis",
+        "description": "Wanneer ingeschakeld, wordt de geschiedenis van websites die in hetzelfde tabblad zijn geopend weergegeven."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Tabbladgeschiedenis alleen weergeven op actief tabblad",
+        "description": "Wanneer ingeschakeld, wordt de tabbladgeschiedenis alleen op het actieve tabblad weergegeven, anders wordt de tabbladgeschiedenis op alle tabbladen weergegeven."
+      },
+      "tabHistoryExpand": {
+        "label": "Tabbladgeschiedenis standaard uitvouwen",
+        "description": "Wanneer ingeschakeld, wordt de tabbladgeschiedenis standaard uitgevouwen."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Uitvouwknop voor tabbladgeschiedenis weergeven in lijst",
+        "description": "Wanneer ingeschakeld, wordt er een knop weergegeven in de tabbladenlijst die u kunt klikken om de tabbladgeschiedenis uit te vouwen of samen te vouwen. Als uitgeschakeld, kunt u alleen het rechtermuisklikmenu gebruiken om de tabbladgeschiedenis uit te vouwen of samen te vouwen"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Tabbladgeschiedenis URL weergeven",
+        "description": "Wanneer ingeschakeld, wordt de URL van de tabbladgeschiedenis weergegeven, anders wordt alleen de titel weergegeven"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Pictogram weergeven wanneer tabbladgeschiedenis is samengevouwen",
+        "description": "Wanneer ingeschakeld, wordt het pictogram van de tabbladgeschiedenis weergegeven wanneer de lijst is samengevouwen"
+      },
+      "tabHistorySortBy": {
+        "label": "Sorteervolgorde tabbladgeschiedenis",
+        "description": "Selecteer de sorteervolgorde voor tabbladgeschiedenis",
+        "lastAccessed": "Laatst geopend",
+        "createdAt": "Aangemaakt tijdstip"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Aantal tabbladgeschiedenisvermeldingen om weer te geven",
+        "description": "Beperk het maximale aantal tabbladgeschiedenisvermeldingen om weer te geven. Vermeldingen die de limiet overschrijden, worden verborgen"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dubbelklik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Geavanceerde tabbladgroepen",
+      "customGroupNames": {
+        "label": "Aangepaste groepsnamen",
+        "description": "U kunt hier enkele vooraf gedefinieerde groepen toevoegen, zodat u ze snel kunt selecteren wanneer u tabbladen aan een groep wilt toevoegen. We hebben al enkele groepsnamen vooraf ingesteld, die u naar wens kunt wijzigen of verwijderen.",
+        "ManageGroupNames": "Groepsnamen beheren",
+        "CustomGroupNames": "Aangepaste groepsnamen",
+        "ConfirmDelete": "Verwijderen bevestigen",
+        "ConfirmDeleteMsg": "Weet u zeker dat u deze naam wilt verwijderen?",
+        "AddNewName": "Nieuwe naam toevoegen",
+        "Cancel": "Annuleren",
+        "Delete": "Verwijderen",
+        "Close": "Sluiten"
+      },
+      "customGroupRemember": {
+        "label": "Sitegroepering onthouden",
+        "description": "Wanneer ingeschakeld, zal een site die aan een aangepaste groep is toegevoegd, deze groep automatisch gebruiken de volgende keer dat de site wordt geopend"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Gedrag bij het samenvouwen van tabbladgroepen",
         "description": "Wijzig het gedrag van het samenvouwen van tabbladgroepen in de Chrome-browser",
         "option_collapse_others": "Toon huidige groep en vouw anderen samen",
         "option_disable": "Alle groepen uitvouwen",
         "option_auto": "Gebruik Chrome standaardinstellingen"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Gebruik bladwijzermapnaam als groepsnaam",
+        "description": "Gebruik automatisch de naam van de bladwijzermap als de groepsnaam als de geopende URL in de bladwijzers staat",
+        "enabled": "Ingeschakeld",
+        "disabled": "Uitgeschakeld"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Selecteer bladwijzermapniveau",
+        "description": "Kies het niveau van de bladwijzermap om te gebruiken als de groepsnaam",
+        "top": "Bovenste niveau",
+        "parent": "Ouder niveau",
+        "full": "Volledig pad"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatisch maken of deelnemen aan dezelfde domeingroep",
@@ -519,6 +588,16 @@
         "target_top": "Bovenste Tabblad",
         "save": "Opslaan",
         "close": "Sluiten"
+      },
+      "backgroundColor": {
+        "label": "Achtergrondkleur",
+        "description": "Selecteer een achtergrondkleur voor deze site.",
+        "random": "Willekeurig",
+        "clear": "Wissen"
+      },
+      "fontColor": {
+        "label": "Tekstkleur",
+        "description": "Stel de tekstkleur in voor deze site."
       }
     },
     "quickAccess": {

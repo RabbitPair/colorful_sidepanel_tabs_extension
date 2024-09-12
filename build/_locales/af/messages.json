@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Wissel sybalkposisie"
+  },
+  "group_newsInformation": {
+    "message": "Nuus & Inligting"
+  },
+  "group_videoMovies": {
+    "message": "Videos & Flieks"
+  },
+  "group_liveStreaming": {
+    "message": "Regstreekse & Stroom"
+  },
+  "group_entertainmentGames": {
+    "message": "Speletjies & Vermaak"
+  },
+  "group_musicWebsites": {
+    "message": "Musiekwebwerwe"
+  },
+  "group_literatureNovels": {
+    "message": "Literatuur & Romans"
+  },
+  "group_animeWebsites": {
+    "message": "Anime-webwerwe"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-handel & Inkopies"
+  },
+  "group_technologyDigital": {
+    "message": "Tegnologie & Digitale"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fiksheid"
+  },
+  "group_medicalHealth": {
+    "message": "Medies & Gesondheid"
+  },
+  "group_educationTraining": {
+    "message": "Onderwys & Opleiding"
+  },
+  "group_skillTraining": {
+    "message": "Vaardigheidsopleiding"
+  },
+  "group_financialInvestment": {
+    "message": "Finansies & Belegging"
+  },
+  "group_transportationTravel": {
+    "message": "Vervoer & Reis"
+  },
+  "group_cookingGourmet": {
+    "message": "Kook & Fynproewer"
+  },
+  "group_petCare": {
+    "message": "Troeteldier Sorg"
+  },
+  "group_legalConsultation": {
+    "message": "Regskonsultasie"
+  },
+  "group_artCulture": {
+    "message": "Kuns & Kultuur"
+  },
+  "group_communityForums": {
+    "message": "Gemeenskapsforums"
+  },
+  "group_chatSocial": {
+    "message": "Klets & Sosiaal"
+  },
+  "group_commonQueries": {
+    "message": "Algemene Navrae"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Omvattend & Ander"
+  },
+  "group_jobRecruitment": {
+    "message": "Werwings"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Werwing & Werksoek"
+  },
+  "group_motherBaby": {
+    "message": "Moeder & Baba"
+  },
+  "group_tutorialsGuides": {
+    "message": "Handleidings & Gidse"
+  },
+  "group_goodSitesCollection": {
+    "message": "Goeie Webwerwe Versameling"
+  },
+  "group_blogArticles": {
+    "message": "Blog Artikels"
+  },
+  "group_onlineTools": {
+    "message": "Aanlyn Gereedskap"
+  },
+  "group_freeResources": {
+    "message": "Gratis Hulpbronne"
+  },
+  "group_materialResources": {
+    "message": "Materiaal Hulpbronne"
+  },
+  "group_photography": {
+    "message": "Fotografie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Dobbelwebwerwe"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interne Stelsels"
   }
 }

@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "மேம்பட்ட படம்-இன்-படம்",
   "APIAccess": "API அணுகல்",
   "customizeMenu": "மெனுவை தனிப்பயனாக்கவும்",
-  "Automation": "தானியங்கி"
+  "Automation": "தானியங்கி",
+  "tabIndexTips": "இந்த தாவலை மாற்ற CMD/Ctrl + {{index}} அழுத்தவும்",
+  "expandTabHistories": "தாவல் வரலாறுகளை விரிவாக்கவும்",
+  "collapseTabHistories": "தாவல் வரலாறுகளை சுருக்கவும்",
+  "deleteTabHistory": "இந்த தாவல் வரலாற்றை நீக்கவும்",
+  "deleteTabHistories": "இந்த தாவலின் அனைத்து வரலாறுகளையும் நீக்கவும்",
+  "clickToGoBack": "மீண்டும் செல்ல கிளிக் செய்யவும்",
+  "clickToGoForward": "முன்னே செல்ல கிளிக் செய்யவும்",
+  "loading": "ஏற்றுகிறது",
+  "updateBookmarkUrl": "புத்தகக்குறி URLஐ புதுப்பிக்கவும்",
+  "oldUrl": "பழைய URL",
+  "newUrl": "புதிய URL",
+  "accessible": "அணுகக்கூடியது",
+  "foundUrlRedirect": "URL மறைமுகத்தை கண்டறிந்தது, புதுப்பிக்க விரும்புகிறீர்களா?"
 }

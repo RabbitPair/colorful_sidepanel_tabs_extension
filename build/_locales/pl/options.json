@@ -3,6 +3,7 @@
   "_execute_action": "Aktywuj to rozszerzenie",
   "openSidePanel": "Otwórz panel boczny",
   "settings": {
+    "premiumEditionOnly": "Tylko wersja premium",
     "resetCurrentPageSettings": "Resetuj ustawienia bieżącej strony",
     "modules": {
       "appearance": "Wygląd",
@@ -287,6 +288,44 @@
         "label": "Opóźnienie podglądu",
         "description": "Ustaw czas opóźnienia dla podglądów kart po najechaniu na karty itp. (sekundy). Jeśli ustawione na 0, nie będzie opóźnienia",
         "seconds": "Sekundy"
+      },
+      "showTabIndex": {
+        "label": "Pokaż indeks karty",
+        "description": "Po włączeniu indeks karty będzie wyświetlany obok tytułu, co ułatwi aktywację karty za pomocą [Ctrl+numer] w systemie Windows lub [cmd+numer] na Macu. Przykład: 1. stackoverflow.com 2. youtube, dzięki czemu łatwo jest użyć Ctrl + 2 w systemie Windows lub cmd + 2 na Macu, aby przejść do youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historia kart",
+        "description": "Po włączeniu wyświetlana będzie historia stron internetowych otwieranych w tej samej karcie."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Pokaż historię kart tylko na aktywnej karcie",
+        "description": "Po włączeniu wyświetlaj historię kart tylko na aktywnej karcie, w przeciwnym razie wyświetlaj historię kart na wszystkich kartach."
+      },
+      "tabHistoryExpand": {
+        "label": "Rozwiń historię kart domyślnie",
+        "description": "Po włączeniu historia kart będzie domyślnie rozwinięta."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Pokaż przycisk rozwijania historii kart na liście",
+        "description": "Po włączeniu na liście kart będzie wyświetlany przycisk, który można kliknąć, aby rozwinąć lub zwinąć historię kart. Jeśli wyłączone, można użyć tylko menu kontekstowego, aby rozwinąć lub zwinąć historię kart"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Pokaż URL historii kart",
+        "description": "Po włączeniu wyświetlany będzie URL historii kart, w przeciwnym razie wyświetlany będzie tylko tytuł"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Pokaż ikonę, gdy historia kart jest zwinięta",
+        "description": "Po włączeniu wyświetlaj ikonę historii kart, gdy lista jest zwinięta"
+      },
+      "tabHistorySortBy": {
+        "label": "Kolejność sortowania historii kart",
+        "description": "Wybierz kolejność sortowania historii kart",
+        "lastAccessed": "Ostatnio otwarte",
+        "createdAt": "Czas utworzenia"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Liczba wpisów historii kart do wyświetlenia",
+        "description": "Ogranicz maksymalną liczbę wpisów historii kart do wyświetlenia. Wpisy przekraczające limit będą ukryte"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Podwójne kliknięcie"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Zaawansowane grupy kart",
+      "customGroupNames": {
+        "label": "Niestandardowe nazwy grup",
+        "description": "Możesz dodać tutaj kilka predefiniowanych grup, aby szybko je wybrać, gdy będziesz musiał dodać karty do grupy. Już ustawiliśmy kilka nazw grup, które możesz modyfikować lub usuwać według własnych potrzeb.",
+        "ManageGroupNames": "Zarządzaj nazwami grup",
+        "CustomGroupNames": "Niestandardowe nazwy grup",
+        "ConfirmDelete": "Potwierdź usunięcie",
+        "ConfirmDeleteMsg": "Czy na pewno chcesz usunąć tę nazwę?",
+        "AddNewName": "Dodaj nową nazwę",
+        "Cancel": "Anuluj",
+        "Delete": "Usuń",
+        "Close": "Zamknij"
+      },
+      "customGroupRemember": {
+        "label": "Zapamiętaj grupowanie stron",
+        "description": "Po włączeniu, jeśli strona zostanie dodana do niestandardowej grupy, automatycznie użyje tej grupy przy następnym otwarciu strony"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Zachowanie grupy kart przy zwijaniu",
         "description": "Zmodyfikuj zachowanie zwijania grup kart w przeglądarce Chrome",
         "option_collapse_others": "Pokaż bieżącą grupę i zwiń pozostałe",
         "option_disable": "Rozwiń wszystkie grupy",
         "option_auto": "Użyj domyślnych ustawień Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Użyj nazwy folderu zakładek jako nazwy grupy",
+        "description": "Automatycznie użyj nazwy folderu zakładek jako nazwy grupy, jeśli otwarty URL znajduje się w zakładkach",
+        "enabled": "Włączone",
+        "disabled": "Wyłączone"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Wybierz poziom folderu zakładek",
+        "description": "Wybierz poziom folderu zakładek, który ma być używany jako nazwa grupy",
+        "top": "Najwyższy poziom",
+        "parent": "Poziom nadrzędny",
+        "full": "Pełna ścieżka"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatyczne tworzenie lub dołączanie do grupy tej samej domeny",
@@ -519,6 +588,16 @@
         "target_top": "Najwyższa karta",
         "save": "Zapisz",
         "close": "Zamknij"
+      },
+      "backgroundColor": {
+        "label": "Kolor tła",
+        "description": "Wybierz kolor tła dla tej strony.",
+        "random": "Losowy",
+        "clear": "Wyczyść"
+      },
+      "fontColor": {
+        "label": "Kolor czcionki",
+        "description": "Ustaw kolor czcionki dla tej strony."
       }
     },
     "quickAccess": {

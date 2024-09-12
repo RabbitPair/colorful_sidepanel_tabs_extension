@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Напредна слика во слика",
   "APIAccess": "Пристап до API",
   "customizeMenu": "Прилагоди мени",
-  "Automation": "Автоматизација"
+  "Automation": "Автоматизација",
+  "tabIndexTips": "Притиснете CMD/Ctrl + {{index}} за да се префрлите на оваа картичка",
+  "expandTabHistories": "Прошири историја на картички",
+  "collapseTabHistories": "Собери историја на картички",
+  "deleteTabHistory": "Избриши ја историјата на оваа картичка",
+  "deleteTabHistories": "Избриши ги сите истории на оваа картичка",
+  "clickToGoBack": "Кликнете за да се вратите назад",
+  "clickToGoForward": "Кликнете за да одите напред",
+  "loading": "Вчитување",
+  "updateBookmarkUrl": "Ажурирај URL на обележувач",
+  "oldUrl": "Стар URL",
+  "newUrl": "Нов URL",
+  "accessible": "Достапно",
+  "foundUrlRedirect": "Пронајдено пренасочување на URL, дали сакате да ажурирате?"
 }

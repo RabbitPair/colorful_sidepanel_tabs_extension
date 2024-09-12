@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Napredna slika v sliki",
   "APIAccess": "Dostop do API-ja",
   "customizeMenu": "Prilagodi meni",
-  "Automation": "Avtomatizacija"
+  "Automation": "Avtomatizacija",
+  "tabIndexTips": "Pritisnite CMD/Ctrl + {{index}} za preklop na ta zavihek",
+  "expandTabHistories": "Razširi zgodovino zavihkov",
+  "collapseTabHistories": "Strni zgodovino zavihkov",
+  "deleteTabHistory": "Izbriši to zgodovino zavihka",
+  "deleteTabHistories": "Izbriši vse zgodovine tega zavihka",
+  "clickToGoBack": "Kliknite za nazaj",
+  "clickToGoForward": "Kliknite za naprej",
+  "loading": "Nalaganje",
+  "updateBookmarkUrl": "Posodobi URL zaznamka",
+  "oldUrl": "Stari URL",
+  "newUrl": "Novi URL",
+  "accessible": "Dostopno",
+  "foundUrlRedirect": "Najden preusmeritev URL-ja, želite posodobiti?"
 }

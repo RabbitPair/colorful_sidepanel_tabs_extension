@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Badilisha nafasi ya paneli ya pembeni"
+  },
+  "group_newsInformation": {
+    "message": "Habari na Taarifa"
+  },
+  "group_videoMovies": {
+    "message": "Video na Sinema"
+  },
+  "group_liveStreaming": {
+    "message": "Moja kwa Moja na Utiririshaji"
+  },
+  "group_entertainmentGames": {
+    "message": "Michezo na Burudani"
+  },
+  "group_musicWebsites": {
+    "message": "Tovuti za Muziki"
+  },
+  "group_literatureNovels": {
+    "message": "Fasihi na Riwaya"
+  },
+  "group_animeWebsites": {
+    "message": "Tovuti za Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Biashara Mtandaoni na Ununuzi"
+  },
+  "group_technologyDigital": {
+    "message": "Teknolojia na Kidijitali"
+  },
+  "group_sportsFitness": {
+    "message": "Michezo na Mazoezi"
+  },
+  "group_medicalHealth": {
+    "message": "Matibabu na Afya"
+  },
+  "group_educationTraining": {
+    "message": "Elimu na Mafunzo"
+  },
+  "group_skillTraining": {
+    "message": "Mafunzo ya Ujuzi"
+  },
+  "group_financialInvestment": {
+    "message": "Fedha na Uwekezaji"
+  },
+  "group_transportationTravel": {
+    "message": "Usafiri na Safari"
+  },
+  "group_cookingGourmet": {
+    "message": "Kupika na Chakula Bora"
+  },
+  "group_petCare": {
+    "message": "Utunzaji wa Wanyama"
+  },
+  "group_legalConsultation": {
+    "message": "Ushauri wa Kisheria"
+  },
+  "group_artCulture": {
+    "message": "Sanaa na Utamaduni"
+  },
+  "group_communityForums": {
+    "message": "Mijadala ya Jamii"
+  },
+  "group_chatSocial": {
+    "message": "Mazungumzo na Mitandao ya Kijamii"
+  },
+  "group_commonQueries": {
+    "message": "Maswali ya Kawaida"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Kila Kitu na Mengineyo"
+  },
+  "group_jobRecruitment": {
+    "message": "Ajira na Uajiri"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Uajiri na Kutafuta Kazi"
+  },
+  "group_motherBaby": {
+    "message": "Mama na Mtoto"
+  },
+  "group_tutorialsGuides": {
+    "message": "Mafunzo na Miongozo"
+  },
+  "group_goodSitesCollection": {
+    "message": "Mkusanyiko wa Tovuti Nzuri"
+  },
+  "group_blogArticles": {
+    "message": "Makala za Blogu"
+  },
+  "group_onlineTools": {
+    "message": "Zana za Mtandaoni"
+  },
+  "group_freeResources": {
+    "message": "Rasilimali za Bure"
+  },
+  "group_materialResources": {
+    "message": "Rasilimali za Vifaa"
+  },
+  "group_photography": {
+    "message": "Upigaji Picha"
+  },
+  "group_gamblingWebsites": {
+    "message": "Tovuti za Kamari"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Mifumo ya Ndani"
   }
 }

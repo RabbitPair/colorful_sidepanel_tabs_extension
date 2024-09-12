@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "切換側邊欄位置"
+  },
+  "group_newsInformation": {
+    "message": "新聞與資訊"
+  },
+  "group_videoMovies": {
+    "message": "視頻與電影"
+  },
+  "group_liveStreaming": {
+    "message": "直播與流媒體"
+  },
+  "group_entertainmentGames": {
+    "message": "遊戲與娛樂"
+  },
+  "group_musicWebsites": {
+    "message": "音樂網站"
+  },
+  "group_literatureNovels": {
+    "message": "文學與小說"
+  },
+  "group_animeWebsites": {
+    "message": "動漫網站"
+  },
+  "group_ecommerceShopping": {
+    "message": "電子商務與購物"
+  },
+  "group_technologyDigital": {
+    "message": "科技與數碼"
+  },
+  "group_sportsFitness": {
+    "message": "運動與健身"
+  },
+  "group_medicalHealth": {
+    "message": "醫療與健康"
+  },
+  "group_educationTraining": {
+    "message": "教育與培訓"
+  },
+  "group_skillTraining": {
+    "message": "技能培訓"
+  },
+  "group_financialInvestment": {
+    "message": "金融與投資"
+  },
+  "group_transportationTravel": {
+    "message": "交通與旅行"
+  },
+  "group_cookingGourmet": {
+    "message": "烹飪與美食"
+  },
+  "group_petCare": {
+    "message": "寵物護理"
+  },
+  "group_legalConsultation": {
+    "message": "法律諮詢"
+  },
+  "group_artCulture": {
+    "message": "藝術與文化"
+  },
+  "group_communityForums": {
+    "message": "社區論壇"
+  },
+  "group_chatSocial": {
+    "message": "聊天與社交"
+  },
+  "group_commonQueries": {
+    "message": "常見問題"
+  },
+  "group_comprehensiveOthers": {
+    "message": "綜合與其他"
+  },
+  "group_jobRecruitment": {
+    "message": "工作招聘"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "招聘與求職"
+  },
+  "group_motherBaby": {
+    "message": "母嬰"
+  },
+  "group_tutorialsGuides": {
+    "message": "教程與指南"
+  },
+  "group_goodSitesCollection": {
+    "message": "好站收藏"
+  },
+  "group_blogArticles": {
+    "message": "博客文章"
+  },
+  "group_onlineTools": {
+    "message": "在線工具"
+  },
+  "group_freeResources": {
+    "message": "免費資源"
+  },
+  "group_materialResources": {
+    "message": "素材資源"
+  },
+  "group_photography": {
+    "message": "攝影"
+  },
+  "group_gamblingWebsites": {
+    "message": "賭博網站"
+  },
+  "group_nsfw": {
+    "message": "不適合工作場合"
+  },
+  "group_internalSystems": {
+    "message": "內部系統"
   }
 }

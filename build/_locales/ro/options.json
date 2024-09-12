@@ -3,6 +3,7 @@
   "_execute_action": "Activați această extensie",
   "openSidePanel": "Deschideți panoul lateral",
   "settings": {
+    "premiumEditionOnly": "Doar ediție premium",
     "resetCurrentPageSettings": "Resetați setările paginii curente",
     "modules": {
       "appearance": "Aspect",
@@ -287,6 +288,44 @@
         "label": "Întârziere previzualizare",
         "description": "Setați timpul de întârziere pentru previzualizările filelor la trecerea cu mouse-ul peste file, etc. (secunde). Dacă este setat la 0, nu va exista nicio întârziere",
         "seconds": "Secunde"
+      },
+      "showTabIndex": {
+        "label": "Afișați indexul filei",
+        "description": "Când este activat, indexul filei va fi afișat lângă titlu, făcând ușor activarea filei folosind [Ctrl+număr] pe Windows sau [cmd+număr] pe Mac. Exemplu: 1. stackoverflow.com 2. youtube, astfel încât să fie ușor să faceți Ctrl + 2 pe Windows sau cmd + 2 pe Mac pentru a merge la youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Istoricul filelor",
+        "description": "Când este activat, istoricul site-urilor web deschise în aceeași filă va fi afișat."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Afișați istoricul filelor doar pe fila activă",
+        "description": "Când este activat, afișați istoricul filelor doar pe fila activă, altfel afișați istoricul filelor pe toate filele."
+      },
+      "tabHistoryExpand": {
+        "label": "Extindeți istoricul filelor în mod implicit",
+        "description": "Când este activat, istoricul filelor va fi extins în mod implicit."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Afișați butonul de extindere a istoricului filelor în listă",
+        "description": "Când este activat, un buton va fi afișat în lista de file pe care puteți face clic pentru a extinde sau colapsa istoricul filelor. Dacă este dezactivat, puteți folosi doar meniul clic dreapta pentru a extinde sau colapsa istoricul filelor"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Afișați URL-ul istoricului filelor",
+        "description": "Când este activat, URL-ul istoricului filelor va fi afișat, altfel va fi afișat doar titlul"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Afișați pictograma când istoricul filelor este colapsat",
+        "description": "Când este activat, afișați pictograma istoricului filelor când lista este colapsată"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordinea de sortare a istoricului filelor",
+        "description": "Selectați ordinea de sortare pentru istoricul filelor",
+        "lastAccessed": "Ultima accesare",
+        "createdAt": "Timpul de creare"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Numărul de intrări din istoricul filelor de afișat",
+        "description": "Limitați numărul maxim de intrări din istoricul filelor de afișat. Intrările care depășesc limita vor fi ascunse"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dublu clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupuri de file avansate",
+      "customGroupNames": {
+        "label": "Nume de grupuri personalizate",
+        "description": "Puteți adăuga aici câteva grupuri predefinite, astfel încât să le puteți selecta rapid atunci când trebuie să adăugați file într-un grup. Am presetat deja câteva nume de grupuri, pe care le puteți modifica sau șterge în funcție de nevoile dvs.",
+        "ManageGroupNames": "Gestionați numele grupurilor",
+        "CustomGroupNames": "Nume de grupuri personalizate",
+        "ConfirmDelete": "Confirmați ștergerea",
+        "ConfirmDeleteMsg": "Sigur doriți să ștergeți acest nume?",
+        "AddNewName": "Adăugați un nume nou",
+        "Cancel": "Anulați",
+        "Delete": "Ștergeți",
+        "Close": "Închideți"
+      },
+      "customGroupRemember": {
+        "label": "Amintiți-vă gruparea site-urilor",
+        "description": "Când este activat, dacă un site este adăugat la un grup personalizat, acesta va folosi automat acest grup data viitoare când site-ul este deschis"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamentul de restrângere a grupului de file",
         "description": "Modificați comportamentul de restrângere a grupului de file din browserul Chrome",
         "option_collapse_others": "Afișați grupul curent și restrângeți celelalte",
         "option_disable": "Extindeți toate grupurile",
         "option_auto": "Utilizați setările implicite ale Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Utilizați numele folderului de marcaje ca nume de grup",
+        "description": "Utilizați automat numele folderului de marcaje ca nume de grup dacă URL-ul deschis este în marcaje",
+        "enabled": "Activat",
+        "disabled": "Dezactivat"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Selectați nivelul folderului de marcaje",
+        "description": "Alegeți nivelul folderului de marcaje pentru a-l utiliza ca nume de grup",
+        "top": "Nivel superior",
+        "parent": "Nivel părinte",
+        "full": "Cale completă"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Creați sau alăturați-vă automat aceluiași grup de domenii",
@@ -519,6 +588,16 @@
         "target_top": "Fila cea mai de sus",
         "save": "Salvează",
         "close": "Închide"
+      },
+      "backgroundColor": {
+        "label": "Culoare de fundal",
+        "description": "Selectați o culoare de fundal pentru acest site.",
+        "random": "Aleatoriu",
+        "clear": "Șterge"
+      },
+      "fontColor": {
+        "label": "Culoare font",
+        "description": "Setați culoarea fontului pentru acest site."
       }
     },
     "quickAccess": {

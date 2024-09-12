@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "สลับตำแหน่งแผงด้านข้าง"
+  },
+  "group_newsInformation": {
+    "message": "ข่าวและข้อมูล"
+  },
+  "group_videoMovies": {
+    "message": "วิดีโอและภาพยนตร์"
+  },
+  "group_liveStreaming": {
+    "message": "ถ่ายทอดสดและสตรีมมิ่ง"
+  },
+  "group_entertainmentGames": {
+    "message": "เกมและความบันเทิง"
+  },
+  "group_musicWebsites": {
+    "message": "เว็บไซต์เพลง"
+  },
+  "group_literatureNovels": {
+    "message": "วรรณกรรมและนวนิยาย"
+  },
+  "group_animeWebsites": {
+    "message": "เว็บไซต์อนิเมะ"
+  },
+  "group_ecommerceShopping": {
+    "message": "อีคอมเมิร์ซและช้อปปิ้ง"
+  },
+  "group_technologyDigital": {
+    "message": "เทคโนโลยีและดิจิทัล"
+  },
+  "group_sportsFitness": {
+    "message": "กีฬาและฟิตเนส"
+  },
+  "group_medicalHealth": {
+    "message": "การแพทย์และสุขภาพ"
+  },
+  "group_educationTraining": {
+    "message": "การศึกษาและการฝึกอบรม"
+  },
+  "group_skillTraining": {
+    "message": "การฝึกทักษะ"
+  },
+  "group_financialInvestment": {
+    "message": "การเงินและการลงทุน"
+  },
+  "group_transportationTravel": {
+    "message": "การขนส่งและการเดินทาง"
+  },
+  "group_cookingGourmet": {
+    "message": "การทำอาหารและอาหารรสเลิศ"
+  },
+  "group_petCare": {
+    "message": "การดูแลสัตว์เลี้ยง"
+  },
+  "group_legalConsultation": {
+    "message": "การให้คำปรึกษาทางกฎหมาย"
+  },
+  "group_artCulture": {
+    "message": "ศิลปะและวัฒนธรรม"
+  },
+  "group_communityForums": {
+    "message": "ฟอรัมชุมชน"
+  },
+  "group_chatSocial": {
+    "message": "แชทและสังคม"
+  },
+  "group_commonQueries": {
+    "message": "คำถามทั่วไป"
+  },
+  "group_comprehensiveOthers": {
+    "message": "ครอบคลุมและอื่น ๆ"
+  },
+  "group_jobRecruitment": {
+    "message": "การสรรหางาน"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "การสรรหาและการหางาน"
+  },
+  "group_motherBaby": {
+    "message": "แม่และเด็ก"
+  },
+  "group_tutorialsGuides": {
+    "message": "บทเรียนและคู่มือ"
+  },
+  "group_goodSitesCollection": {
+    "message": "คอลเลกชันเว็บไซต์ดี ๆ"
+  },
+  "group_blogArticles": {
+    "message": "บทความบล็อก"
+  },
+  "group_onlineTools": {
+    "message": "เครื่องมือออนไลน์"
+  },
+  "group_freeResources": {
+    "message": "ทรัพยากรฟรี"
+  },
+  "group_materialResources": {
+    "message": "ทรัพยากรวัสดุ"
+  },
+  "group_photography": {
+    "message": "การถ่ายภาพ"
+  },
+  "group_gamblingWebsites": {
+    "message": "เว็บไซต์การพนัน"
+  },
+  "group_nsfw": {
+    "message": "ไม่ปลอดภัยสำหรับการทำงาน"
+  },
+  "group_internalSystems": {
+    "message": "ระบบภายใน"
   }
 }

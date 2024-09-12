@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Avanse PIP",
   "APIAccess": "Aksè API",
   "customizeMenu": "Pèsonalize meni",
-  "Automation": "Otomatizasyon"
+  "Automation": "Otomatizasyon",
+  "tabIndexTips": "Peze CMD/Ctrl + {{index}} pou chanje nan tab sa a",
+  "expandTabHistories": "Elaji istwa tab yo",
+  "collapseTabHistories": "Kontrakte istwa tab yo",
+  "deleteTabHistory": "Efase istwa tab sa a",
+  "deleteTabHistories": "Efase tout istwa tab sa a",
+  "clickToGoBack": "Klike pou retounen",
+  "clickToGoForward": "Klike pou avanse",
+  "loading": "Chaje",
+  "updateBookmarkUrl": "Mizajou URL makè",
+  "oldUrl": "Ansyen URL",
+  "newUrl": "Nouvo URL",
+  "accessible": "Aksè",
+  "foundUrlRedirect": "Jwenn redireksyon URL, èske ou vle mete ajou?"
 }

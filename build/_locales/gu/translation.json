@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "અદ્યતન પિક્ચર-ઇન-પિક્ચર",
   "APIAccess": "API ઍક્સેસ",
   "customizeMenu": "મેનુ કસ્ટમાઇઝ કરો",
-  "Automation": "ઓટોમેશન"
+  "Automation": "ઓટોમેશન",
+  "tabIndexTips": "આ ટેબ પર સ્વિચ કરવા માટે CMD/Ctrl + {{index}} દબાવો",
+  "expandTabHistories": "ટેબ ઇતિહાસ વિસ્તારો",
+  "collapseTabHistories": "ટેબ ઇતિહાસ સંકોચો",
+  "deleteTabHistory": "આ ટેબ ઇતિહાસ કાઢી નાખો",
+  "deleteTabHistories": "આ ટેબના બધા ઇતિહાસ કાઢી નાખો",
+  "clickToGoBack": "પાછા જવા માટે ક્લિક કરો",
+  "clickToGoForward": "આગળ જવા માટે ક્લિક કરો",
+  "loading": "લોડ કરી રહ્યું છે",
+  "updateBookmarkUrl": "બુકમાર્ક URL અપડેટ કરો",
+  "oldUrl": "જૂનો URL",
+  "newUrl": "નવો URL",
+  "accessible": "ઍક્સેસિબલ",
+  "foundUrlRedirect": "URL રીડાયરેક્ટ મળ્યો, શું તમે અપડેટ કરવા માંગો છો?"
 }

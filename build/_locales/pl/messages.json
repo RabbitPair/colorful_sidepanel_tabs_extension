@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Przełącz pozycję panelu bocznego"
+  },
+  "group_newsInformation": {
+    "message": "Wiadomości i informacje"
+  },
+  "group_videoMovies": {
+    "message": "Filmy i wideo"
+  },
+  "group_liveStreaming": {
+    "message": "Na żywo i transmisje"
+  },
+  "group_entertainmentGames": {
+    "message": "Gry i rozrywka"
+  },
+  "group_musicWebsites": {
+    "message": "Strony muzyczne"
+  },
+  "group_literatureNovels": {
+    "message": "Literatura i powieści"
+  },
+  "group_animeWebsites": {
+    "message": "Strony anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce i zakupy"
+  },
+  "group_technologyDigital": {
+    "message": "Technologia i cyfrowe"
+  },
+  "group_sportsFitness": {
+    "message": "Sport i fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medycyna i zdrowie"
+  },
+  "group_educationTraining": {
+    "message": "Edukacja i szkolenia"
+  },
+  "group_skillTraining": {
+    "message": "Szkolenie umiejętności"
+  },
+  "group_financialInvestment": {
+    "message": "Finanse i inwestycje"
+  },
+  "group_transportationTravel": {
+    "message": "Transport i podróże"
+  },
+  "group_cookingGourmet": {
+    "message": "Gotowanie i gourmet"
+  },
+  "group_petCare": {
+    "message": "Opieka nad zwierzętami"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultacje prawne"
+  },
+  "group_artCulture": {
+    "message": "Sztuka i kultura"
+  },
+  "group_communityForums": {
+    "message": "Fora społecznościowe"
+  },
+  "group_chatSocial": {
+    "message": "Czat i społeczności"
+  },
+  "group_commonQueries": {
+    "message": "Częste pytania"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Kompleksowe i inne"
+  },
+  "group_jobRecruitment": {
+    "message": "Rekrutacja do pracy"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrutacja i poszukiwanie pracy"
+  },
+  "group_motherBaby": {
+    "message": "Matka i dziecko"
+  },
+  "group_tutorialsGuides": {
+    "message": "Samouczki i przewodniki"
+  },
+  "group_goodSitesCollection": {
+    "message": "Kolekcja dobrych stron"
+  },
+  "group_blogArticles": {
+    "message": "Artykuły na blogu"
+  },
+  "group_onlineTools": {
+    "message": "Narzędzia online"
+  },
+  "group_freeResources": {
+    "message": "Darmowe zasoby"
+  },
+  "group_materialResources": {
+    "message": "Zasoby materiałowe"
+  },
+  "group_photography": {
+    "message": "Fotografia"
+  },
+  "group_gamblingWebsites": {
+    "message": "Strony hazardowe"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Systemy wewnętrzne"
   }
 }

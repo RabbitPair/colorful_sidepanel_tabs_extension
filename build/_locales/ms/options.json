@@ -3,6 +3,7 @@
   "_execute_action": "Aktifkan sambungan ini",
   "openSidePanel": "Buka panel sisi",
   "settings": {
+    "premiumEditionOnly": "Edisi premium sahaja",
     "resetCurrentPageSettings": "Tetapkan semula tetapan halaman semasa",
     "modules": {
       "appearance": "Penampilan",
@@ -287,6 +288,44 @@
         "label": "Kelewatan pratonton",
         "description": "Tetapkan masa kelewatan untuk pratonton tab apabila melayang di atas tab, dsb. (saat). Jika ditetapkan kepada 0, tiada kelewatan",
         "seconds": "Saat"
+      },
+      "showTabIndex": {
+        "label": "Tunjukkan indeks tab",
+        "description": "Apabila diaktifkan, indeks tab akan dipaparkan di sebelah tajuk, memudahkan untuk mengaktifkan tab menggunakan [Ctrl+number] pada Windows atau [cmd+number] pada Mac. Contoh: 1. stackoverflow.com 2. youtube, jadi mudah untuk melakukan Ctrl + 2 pada Windows atau cmd + 2 pada Mac untuk pergi ke youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Sejarah tab",
+        "description": "Apabila diaktifkan, sejarah laman web yang dibuka dalam tab yang sama akan dipaparkan."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Tunjukkan sejarah tab hanya pada tab aktif",
+        "description": "Apabila diaktifkan, tunjukkan sejarah tab hanya pada tab aktif, jika tidak tunjukkan sejarah tab pada semua tab."
+      },
+      "tabHistoryExpand": {
+        "label": "Kembangkan sejarah tab secara lalai",
+        "description": "Apabila diaktifkan, sejarah tab akan dikembangkan secara lalai."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Tunjukkan butang kembangkan sejarah tab dalam senarai",
+        "description": "Apabila diaktifkan, butang akan dipaparkan dalam senarai tab yang boleh anda klik untuk mengembangkan atau mengecilkan sejarah tab. Jika dinyahaktifkan, anda hanya boleh menggunakan menu klik kanan untuk mengembangkan atau mengecilkan sejarah tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Tunjukkan URL sejarah tab",
+        "description": "Apabila diaktifkan, URL sejarah tab akan dipaparkan, jika tidak hanya tajuk akan dipaparkan"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Tunjukkan ikon apabila sejarah tab dikecilkan",
+        "description": "Apabila diaktifkan, tunjukkan ikon sejarah tab apabila senarai dikecilkan"
+      },
+      "tabHistorySortBy": {
+        "label": "Susunan sejarah tab",
+        "description": "Pilih susunan untuk sejarah tab",
+        "lastAccessed": "Akses terakhir",
+        "createdAt": "Masa dicipta"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Bilangan entri sejarah tab untuk dipaparkan",
+        "description": "Hadkan bilangan maksimum entri sejarah tab untuk dipaparkan. Entri yang melebihi had akan disembunyikan"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Klik dua kali"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Kumpulan tab lanjutan",
+      "customGroupNames": {
+        "label": "Nama kumpulan tersuai",
+        "description": "Anda boleh menambah beberapa kumpulan yang telah ditetapkan di sini, supaya anda boleh memilihnya dengan cepat apabila anda perlu menambah tab ke dalam kumpulan. Kami telah menetapkan beberapa nama kumpulan, yang anda boleh ubah atau padam mengikut keperluan anda.",
+        "ManageGroupNames": "Urus Nama Kumpulan",
+        "CustomGroupNames": "Nama Kumpulan Tersuai",
+        "ConfirmDelete": "Sahkan Padam",
+        "ConfirmDeleteMsg": "Adakah anda pasti mahu memadamkan nama ini?",
+        "AddNewName": "Tambah nama baru",
+        "Cancel": "Batal",
+        "Delete": "Padam",
+        "Close": "Tutup"
+      },
+      "customGroupRemember": {
+        "label": "Ingat pengelompokan tapak",
+        "description": "Apabila diaktifkan, jika tapak ditambah ke dalam kumpulan tersuai, ia akan menggunakan kumpulan ini secara automatik pada kali seterusnya tapak dibuka"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tingkah laku kumpulan tab runtuh",
         "description": "Ubah tingkah laku runtuhan kumpulan tab pelayar Chrome",
         "option_collapse_others": "Tunjukkan kumpulan semasa dan runtuhkan yang lain",
         "option_disable": "Kembangkan semua kumpulan",
         "option_auto": "Gunakan tetapan lalai Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Gunakan nama folder penanda buku sebagai nama kumpulan",
+        "description": "Gunakan nama folder penanda buku secara automatik sebagai nama kumpulan jika URL yang dibuka ada dalam penanda buku",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinonaktifkan"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Pilih Tahap Folder Penanda Buku",
+        "description": "Pilih tahap folder penanda buku untuk digunakan sebagai nama kumpulan",
+        "top": "Tahap Atas",
+        "parent": "Tahap Induk",
+        "full": "Laluan Penuh"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto buat atau sertai kumpulan domain yang sama",
@@ -519,6 +588,16 @@
         "target_top": "Tab Paling Atas",
         "save": "Simpan",
         "close": "Tutup"
+      },
+      "backgroundColor": {
+        "label": "Warna Latar Belakang",
+        "description": "Pilih warna latar belakang untuk laman ini.",
+        "random": "Rawak",
+        "clear": "Kosongkan"
+      },
+      "fontColor": {
+        "label": "Warna Fon",
+        "description": "Tetapkan warna fon untuk laman ini."
       }
     },
     "quickAccess": {

@@ -3,6 +3,7 @@
   "_execute_action": "Aktyvuoti šį plėtinį",
   "openSidePanel": "Atidaryti šoninę panelę",
   "settings": {
+    "premiumEditionOnly": "Tik premium leidimas",
     "resetCurrentPageSettings": "Atstatyti dabartinio puslapio nustatymus",
     "modules": {
       "appearance": "Išvaizda",
@@ -287,6 +288,44 @@
         "label": "Peržiūros delsimas",
         "description": "Nustatyti skirtukų peržiūros delsimo laiką užvedus pelės žymeklį ant skirtukų ir pan. (sekundėmis). Jei nustatyta 0, delsimo nebus",
         "seconds": "Sekundės"
+      },
+      "showTabIndex": {
+        "label": "Rodyti skirtuko indeksą",
+        "description": "Kai įjungta, šalia pavadinimo bus rodomas skirtuko indeksas, todėl lengva aktyvuoti skirtuką naudojant [Ctrl+number] Windows sistemoje arba [cmd+number] Mac sistemoje. Pavyzdys: 1. stackoverflow.com 2. youtube, todėl lengva naudoti Ctrl + 2 Windows sistemoje arba cmd + 2 Mac sistemoje, kad pereitumėte į youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Skirtukų istorija",
+        "description": "Kai įjungta, bus rodoma svetainių istorija, atidaryta tame pačiame skirtuke."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Rodyti skirtukų istoriją tik aktyviame skirtuke",
+        "description": "Kai įjungta, rodyti skirtukų istoriją tik aktyviame skirtuke, kitaip rodyti skirtukų istoriją visuose skirtukuose."
+      },
+      "tabHistoryExpand": {
+        "label": "Išplėsti skirtukų istoriją pagal numatytuosius nustatymus",
+        "description": "Kai įjungta, skirtukų istorija bus išplėsta pagal numatytuosius nustatymus."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Rodyti mygtuką skirtukų istorijai išplėsti sąraše",
+        "description": "Kai įjungta, skirtukų sąraše bus rodomas mygtukas, kurį galite spustelėti, kad išplėstumėte arba suskleistumėte skirtukų istoriją. Jei išjungta, galite naudoti tik dešiniojo pelės mygtuko meniu, kad išplėstumėte arba suskleistumėte skirtukų istoriją"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Rodyti skirtukų istorijos URL",
+        "description": "Kai įjungta, bus rodomas skirtukų istorijos URL, kitaip bus rodomas tik pavadinimas"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Rodyti piktogramą, kai skirtukų istorija yra suskleista",
+        "description": "Kai įjungta, rodyti skirtukų istorijos piktogramą, kai sąrašas yra suskleistas"
+      },
+      "tabHistorySortBy": {
+        "label": "Skirtukų istorijos rūšiavimo tvarka",
+        "description": "Pasirinkite skirtukų istorijos rūšiavimo tvarką",
+        "lastAccessed": "Paskutinį kartą pasiekta",
+        "createdAt": "Sukūrimo laikas"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Skirtukų istorijos įrašų skaičius, kurį reikia rodyti",
+        "description": "Apriboti maksimalų skirtukų istorijos įrašų skaičių, kurį reikia rodyti. Įrašai, viršijantys limitą, bus paslėpti"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dvigubas spustelėjimas"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Išplėstinės skirtukų grupės",
+      "customGroupNames": {
+        "label": "Pasirinktiniai grupių pavadinimai",
+        "description": "Čia galite pridėti iš anksto apibrėžtas grupes, kad galėtumėte greitai jas pasirinkti, kai reikia pridėti skirtukus į grupę. Mes jau nustatėme keletą grupių pavadinimų, kuriuos galite modifikuoti arba ištrinti pagal savo poreikius.",
+        "ManageGroupNames": "Tvarkyti grupių pavadinimus",
+        "CustomGroupNames": "Pasirinktiniai grupių pavadinimai",
+        "ConfirmDelete": "Patvirtinti ištrynimą",
+        "ConfirmDeleteMsg": "Ar tikrai norite ištrinti šį pavadinimą?",
+        "AddNewName": "Pridėti naują pavadinimą",
+        "Cancel": "Atšaukti",
+        "Delete": "Ištrinti",
+        "Close": "Uždaryti"
+      },
+      "customGroupRemember": {
+        "label": "Prisiminti svetainės grupavimą",
+        "description": "Kai įjungta, jei svetainė pridedama į pasirinktą grupę, kitą kartą atidarius svetainę ji automatiškai naudos šią grupę"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Skirtukų grupės suskleidimo elgsena",
         "description": "Keisti Chrome naršyklės skirtukų grupės suskleidimo elgseną",
         "option_collapse_others": "Rodyti dabartinę grupę ir suskleisti kitas",
         "option_disable": "Išplėsti visas grupes",
         "option_auto": "Naudoti numatytuosius Chrome nustatymus"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Naudoti žymų aplanko pavadinimą kaip grupės pavadinimą",
+        "description": "Automatiškai naudoti žymų aplanko pavadinimą kaip grupės pavadinimą, jei atidarytas URL yra žymose",
+        "enabled": "Įjungta",
+        "disabled": "Išjungta"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Pasirinkti žymų aplanko lygį",
+        "description": "Pasirinkite žymų aplanko lygį, kurį norite naudoti kaip grupės pavadinimą",
+        "top": "Aukščiausias lygis",
+        "parent": "Tėvų lygis",
+        "full": "Pilnas kelias"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatiškai sukurti arba prisijungti prie tos pačios domeno grupės",
@@ -519,6 +588,16 @@
         "target_top": "Aukščiausias skirtukas",
         "save": "Išsaugoti",
         "close": "Uždaryti"
+      },
+      "backgroundColor": {
+        "label": "Fono spalva",
+        "description": "Pasirinkite fono spalvą šiai svetainei.",
+        "random": "Atsitiktinė",
+        "clear": "Išvalyti"
+      },
+      "fontColor": {
+        "label": "Šrifto spalva",
+        "description": "Nustatykite šrifto spalvą šiai svetainei."
       }
     },
     "quickAccess": {

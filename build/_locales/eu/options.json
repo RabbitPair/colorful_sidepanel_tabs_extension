@@ -3,6 +3,7 @@
   "_execute_action": "Aktibatu luzapen hau",
   "openSidePanel": "Ireki alboko panela",
   "settings": {
+    "premiumEditionOnly": "Soilik premium edizioa",
     "resetCurrentPageSettings": "Berrezarri orrialdeko ezarpenak",
     "modules": {
       "appearance": "Itxura",
@@ -287,6 +288,44 @@
         "label": "Aurreikuspeneko atzerapena",
         "description": "Ezarri fitxen gainean gurutzatzen denean edozerentzat aurreikuspenen atzerapena (segunduak). 0-ra ezarrita badago, ez da atzerik izango",
         "seconds": "Seconds"
+      },
+      "showTabIndex": {
+        "label": "Erakutsi fitxen indizea",
+        "description": "Gaituta dagoenean, fitxen indizea izenburuaren ondoan erakutsiko da, fitxa aktibatzea erraza izan dadin [Ctrl+zenbakia] erabiliz Windows-en edo [cmd+zenbakia] Mac-en. Adibidez: 1. stackoverflow.com 2. youtube, beraz, erraza da Ctrl + 2 Windows-en edo cmd + 2 Mac-en youtube-ra joateko"
+      },
+      "tabHistoryEnable": {
+        "label": "Fitxen historia",
+        "description": "Gaituta dagoenean, fitxa berean irekitako webguneen historia erakutsiko da."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Erakutsi fitxen historia soilik fitxa aktiboan",
+        "description": "Gaituta dagoenean, fitxen historia soilik fitxa aktiboan erakutsiko da, bestela fitxa guztietan erakutsiko da."
+      },
+      "tabHistoryExpand": {
+        "label": "Zabaldu fitxen historia lehenespenez",
+        "description": "Gaituta dagoenean, fitxen historia lehenespenez zabalduko da."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Erakutsi fitxen historia zabaltzeko botoia zerrendan",
+        "description": "Gaituta dagoenean, botoi bat erakutsiko da fitxen zerrendan, fitxen historia zabaltzeko edo kolapsatzeko klik egin dezakezu. Desgaituta badago, eskuineko botoiaren menua soilik erabil dezakezu fitxen historia zabaltzeko edo kolapsatzeko"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Erakutsi fitxen historiaren URLa",
+        "description": "Gaituta dagoenean, fitxen historiaren URLa erakutsiko da, bestela izenburua bakarrik erakutsiko da"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Erakutsi ikonoa fitxen historia kolapsatuta dagoenean",
+        "description": "Gaituta dagoenean, fitxen historiaren ikonoa erakutsiko da zerrenda kolapsatuta dagoenean"
+      },
+      "tabHistorySortBy": {
+        "label": "Fitxen historiaren ordena",
+        "description": "Hautatu fitxen historiaren ordena",
+        "lastAccessed": "Azken sarbidea",
+        "createdAt": "Sortze data"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Erakutsi fitxen historiaren sarrera kopurua",
+        "description": "Mugatu fitxen historiaren sarrera kopuru maximoa erakusteko. Muga gainditzen duten sarrerak ezkutatuko dira"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Bikoitzeko-klik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Fitxa-talde aurreratuak",
+      "customGroupNames": {
+        "label": "Talde izen pertsonalizatuak",
+        "description": "Hemen aurrez definitutako talde batzuk gehi ditzakezu, fitxak talde batera gehitu behar dituzunean azkar hautatzeko. Talde izen batzuk aurrez ezarri ditugu, zure beharretara egokitu edo ezabatu ditzakezun.",
+        "ManageGroupNames": "Kudeatu Talde Izenak",
+        "CustomGroupNames": "Talde Izen Pertsonalizatuak",
+        "ConfirmDelete": "Ezabatu Berretsi",
+        "ConfirmDeleteMsg": "Ziur zaude izen hau ezabatu nahi duzula?",
+        "AddNewName": "Gehitu izen berria",
+        "Cancel": "Utzi",
+        "Delete": "Ezabatu",
+        "Close": "Itxi"
+      },
+      "customGroupRemember": {
+        "label": "Gogoratu guneen taldea",
+        "description": "Gaituta dagoenean, gune bat talde pertsonalizatu batera gehitzen bada, hurrengoan gunea irekitzen denean automatikoki talde hau erabiliko du"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Fitxategi-taldearen kolapsua",
         "description": "Aldatu Chrome nabigatzailearen fitxategi-taldeen kolapsuaren jokabidea",
         "option_collapse_others": "Erakutsi uneko taldea eta kolapsatu besteak",
         "option_disable": "Zabaldu talde guztiak",
         "option_auto": "Erabili Chrome-ren lehenetsitako ezarpenak"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Erabili laster-marken karpetaren izena talde izen gisa",
+        "description": "Irekitako URLa laster-marka bada, automatikoki erabili laster-marken karpetaren izena talde izen gisa",
+        "enabled": "Gaituta",
+        "disabled": "Desgaituta"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Hautatu laster-marken karpetaren maila",
+        "description": "Hautatu laster-marken karpetaren maila talde izen gisa erabiltzeko",
+        "top": "Goiko Maila",
+        "parent": "Guraso Maila",
+        "full": "Bide Osoa"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatikoki sortu edo batu domeinu bereko taldea",
@@ -519,6 +588,16 @@
         "target_top": "Goiko Fitxa",
         "save": "Gorde",
         "close": "Itxi"
+      },
+      "backgroundColor": {
+        "label": "Atzeko Kolorea",
+        "description": "Hautatu atzeko kolorea gune honetarako.",
+        "random": "Aleatorioa",
+        "clear": "Garbitu"
+      },
+      "fontColor": {
+        "label": "Letra kolorea",
+        "description": "Ezarri letra kolorea gune honetarako."
       }
     },
     "quickAccess": {

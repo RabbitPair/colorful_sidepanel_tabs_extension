@@ -3,6 +3,7 @@
   "_execute_action": "Shyira mu bikorwa iyi kongeraho",
   "openSidePanel": "Fungura uruhande",
   "settings": {
+    "premiumEditionOnly": "Igihe cy'ikimenyetso cy'umukino",
     "resetCurrentPageSettings": "Subiramo igenamiterere ry'urupapuro ruriho",
     "modules": {
       "appearance": "Imiterere",
@@ -287,6 +288,44 @@
         "label": "Gusubika kureba",
         "description": "Shyiraho igihe cyo gusubika kureba amapaji mu gihe utembera hejuru y'amapaji, n'ibindi. (amasegonda). Niba byashyizwe kuri 0, nta gusubika bizabaho",
         "seconds": "Amasegonda"
+      },
+      "showTabIndex": {
+        "label": "Erekana urutonde rwa tab",
+        "description": "Iyo yemejwe, urutonde rwa tab ruzerekanwa iruhande rw'izina, bigatuma byoroha guhitamo tab ukoresheje [Ctrl+number] kuri Windows cyangwa [cmd+number] kuri Mac. Urugero: 1. stackoverflow.com 2. youtube, bityo byoroheye gukora Ctrl + 2 kuri Windows cyangwa cmd + 2 kuri Mac kugirango ujye kuri youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Amateka ya tab",
+        "description": "Iyo yemejwe, amateka y'imbuga zafunguwe muri tab imwe azerekanwa."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Erekana amateka ya tab gusa kuri tab ikora",
+        "description": "Iyo yemejwe, erekana amateka ya tab gusa kuri tab ikora, ubundi erekana amateka ya tab kuri tab zose."
+      },
+      "tabHistoryExpand": {
+        "label": "Gura amateka ya tab by default",
+        "description": "Iyo yemejwe, amateka ya tab azagurwa by default."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Erekana buto yo kugura amateka ya tab mu rutonde",
+        "description": "Iyo yemejwe, buto izerekanwa mu rutonde rwa tab ushobora gukanda kugirango ugure cyangwa ugabanye amateka ya tab. Niba bidakora, ushobora gukoresha gusa menu yo gukanda iburyo kugirango ugure cyangwa ugabanye amateka ya tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Erekana URL y'amateka ya tab",
+        "description": "Iyo yemejwe, URL y'amateka ya tab izerekanwa, ubundi izina gusa rizerekanwa"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Erekana ikimenyetso igihe amateka ya tab yegeranye",
+        "description": "Iyo yemejwe, erekana ikimenyetso cy'amateka ya tab igihe urutonde rwegereye"
+      },
+      "tabHistorySortBy": {
+        "label": "Urutonde rw'amateka ya tab",
+        "description": "Hitamo urutonde rw'amateka ya tab",
+        "lastAccessed": "Igihe cya nyuma cy'ukoreshwa",
+        "createdAt": "Igihe cyo kurema"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Umubare w'ibyinjijwe mu mateka ya tab bigomba kwerekanwa",
+        "description": "Gena umubare ntarengwa w'ibyinjijwe mu mateka ya tab bigomba kwerekanwa. Ibyinjijwe birengeje umubare ntarengwa bizahishwa"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Kanda kabiri"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Amapaji y'itsinda ryateye imbere",
+      "customGroupNames": {
+        "label": "Amazina y'itsinda ryihariye",
+        "description": "Urashobora kongeramo amatsinda yateguwe hano, kugirango ubashe kuyahitamo vuba igihe ukeneye kongeramo amapaji mu itsinda. Twamaze gushyiramo amazina y'amatsinda, ushobora kuyahindura cyangwa kuyasiba ukurikije ibyo ukeneye.",
+        "ManageGroupNames": "Shyira mu bikorwa amazina y'amatsinda",
+        "CustomGroupNames": "Amazina y'itsinda ryihariye",
+        "ConfirmDelete": "Emeza gusiba",
+        "ConfirmDeleteMsg": "Urashaka koko gusiba iri zina?",
+        "AddNewName": "Ongeraho izina rishya",
+        "Cancel": "Hagarika",
+        "Delete": "Siba",
+        "Close": "Funga"
+      },
+      "customGroupRemember": {
+        "label": "Ibuka itsinda ry'urubuga",
+        "description": "Iyo yemejwe, niba urubuga rwongerewe mu itsinda ryihariye, ruzahita rukoresha iri tsinda ubutaha urubuga rufunguwe"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Imyitwarire yo kugabanya itsinda ry'amapaji",
         "description": "Hindura imyitwarire yo kugabanya itsinda ry'amapaji ya Chrome",
         "option_collapse_others": "Erekana itsinda ririho kandi ugabanye ayandi",
         "option_disable": "Gura amatsinda yose",
         "option_auto": "Koresha igenamiterere rya Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Koresha izina rya dosiye y'ibimenyetso nk'izina ry'itsinda",
+        "description": "Koresha izina rya dosiye y'ibimenyetso nk'izina ry'itsinda mu buryo bwikora niba URL ifunguwe iri mu bimenyetso",
+        "enabled": "Yemejwe",
+        "disabled": "Yahagaritswe"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Hitamo Urwego rwa Dosiye y'ibimenyetso",
+        "description": "Hitamo urwego rwa dosiye y'ibimenyetso rwo gukoresha nk'izina ry'itsinda",
+        "top": "Urwego rwo hejuru",
+        "parent": "Urwego rw'umubyeyi",
+        "full": "Inzira yose"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Kwihutira gukora cyangwa kwinjira mu itsinda rimwe",
@@ -519,6 +588,16 @@
         "target_top": "Tab yo hejuru cyane",
         "save": "Bika",
         "close": "Funga"
+      },
+      "backgroundColor": {
+        "label": "Icyiciro cy'Umurongo",
+        "description": "Hitamo icyiciro cy'umurongo kuri uru rubuga.",
+        "random": "Random",
+        "clear": "Siba"
+      },
+      "fontColor": {
+        "label": "Icyiciro cy'Umurongo",
+        "description": "Hitamo icyiciro cy'umurongo kuri uru rubuga."
       }
     },
     "quickAccess": {

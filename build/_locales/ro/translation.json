@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Picture-in-Picture avansat",
   "APIAccess": "Acces API",
   "customizeMenu": "Personalizează meniul",
-  "Automation": "Automatizare"
+  "Automation": "Automatizare",
+  "tabIndexTips": "Apăsați CMD/Ctrl + {{index}} pentru a comuta la acest tab",
+  "expandTabHistories": "Extinde istoricul tab-urilor",
+  "collapseTabHistories": "Restrânge istoricul tab-urilor",
+  "deleteTabHistory": "Șterge acest istoric de tab",
+  "deleteTabHistories": "Șterge toate istoricele acestui tab",
+  "clickToGoBack": "Click pentru a merge înapoi",
+  "clickToGoForward": "Click pentru a merge înainte",
+  "loading": "Se încarcă",
+  "updateBookmarkUrl": "Actualizează URL-ul semnului de carte",
+  "oldUrl": "URL vechi",
+  "newUrl": "URL nou",
+  "accessible": "Accesibil",
+  "foundUrlRedirect": "S-a găsit redirecționare URL, doriți să actualizați?"
 }

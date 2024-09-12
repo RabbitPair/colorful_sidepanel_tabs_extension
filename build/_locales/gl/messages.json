@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Alternar a posición da barra lateral"
+  },
+  "group_newsInformation": {
+    "message": "Novas e Información"
+  },
+  "group_videoMovies": {
+    "message": "Vídeos e Películas"
+  },
+  "group_liveStreaming": {
+    "message": "En Directo e Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Xogos e Entretenemento"
+  },
+  "group_musicWebsites": {
+    "message": "Sitios Web de Música"
+  },
+  "group_literatureNovels": {
+    "message": "Literatura e Novelas"
+  },
+  "group_animeWebsites": {
+    "message": "Sitios Web de Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Comercio Electrónico e Compras"
+  },
+  "group_technologyDigital": {
+    "message": "Tecnoloxía e Dixital"
+  },
+  "group_sportsFitness": {
+    "message": "Deportes e Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medicina e Saúde"
+  },
+  "group_educationTraining": {
+    "message": "Educación e Formación"
+  },
+  "group_skillTraining": {
+    "message": "Adestramento de Habilidades"
+  },
+  "group_financialInvestment": {
+    "message": "Finanzas e Investimentos"
+  },
+  "group_transportationTravel": {
+    "message": "Transporte e Viaxes"
+  },
+  "group_cookingGourmet": {
+    "message": "Cociña e Gourmet"
+  },
+  "group_petCare": {
+    "message": "Coidado de Mascotas"
+  },
+  "group_legalConsultation": {
+    "message": "Consulta Legal"
+  },
+  "group_artCulture": {
+    "message": "Arte e Cultura"
+  },
+  "group_communityForums": {
+    "message": "Foros Comunitarios"
+  },
+  "group_chatSocial": {
+    "message": "Chat e Social"
+  },
+  "group_commonQueries": {
+    "message": "Consultas Comúns"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Abrangue e Outros"
+  },
+  "group_jobRecruitment": {
+    "message": "Recrutamento de Emprego"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Recrutamento e Busca de Emprego"
+  },
+  "group_motherBaby": {
+    "message": "Nai e Bebé"
+  },
+  "group_tutorialsGuides": {
+    "message": "Titoriais e Guías"
+  },
+  "group_goodSitesCollection": {
+    "message": "Colección de Bos Sitios"
+  },
+  "group_blogArticles": {
+    "message": "Artigos de Blog"
+  },
+  "group_onlineTools": {
+    "message": "Ferramentas en Liña"
+  },
+  "group_freeResources": {
+    "message": "Recursos Gratuítos"
+  },
+  "group_materialResources": {
+    "message": "Recursos Materiais"
+  },
+  "group_photography": {
+    "message": "Fotografía"
+  },
+  "group_gamblingWebsites": {
+    "message": "Sitios Web de Xogos de Azar"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistemas Internos"
   }
 }

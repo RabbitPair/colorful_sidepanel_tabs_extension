@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Erweitertes Bild-in-Bild",
   "APIAccess": "API-Zugang",
   "customizeMenu": "Menü anpassen",
-  "Automation": "Automatisierung"
+  "Automation": "Automatisierung",
+  "tabIndexTips": "Drücken Sie CMD/Ctrl + {{index}}, um zu diesem Tab zu wechseln",
+  "expandTabHistories": "Tab-Verläufe erweitern",
+  "collapseTabHistories": "Tab-Verläufe reduzieren",
+  "deleteTabHistory": "Diesen Tab-Verlauf löschen",
+  "deleteTabHistories": "Alle Verläufe dieses Tabs löschen",
+  "clickToGoBack": "Klicken Sie, um zurückzugehen",
+  "clickToGoForward": "Klicken Sie, um vorwärts zu gehen",
+  "loading": "Wird geladen",
+  "updateBookmarkUrl": "Lesezeichen-URL aktualisieren",
+  "oldUrl": "Alte URL",
+  "newUrl": "Neue URL",
+  "accessible": "Zugänglich",
+  "foundUrlRedirect": "Gefundene URL-Weiterleitung, möchten Sie aktualisieren?"
 }

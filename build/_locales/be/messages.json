@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Пераключыць пазіцыю бакавой панэлі"
+  },
+  "group_newsInformation": {
+    "message": "Навіны і інфармацыя"
+  },
+  "group_videoMovies": {
+    "message": "Відэа і фільмы"
+  },
+  "group_liveStreaming": {
+    "message": "Жывая трансляцыя"
+  },
+  "group_entertainmentGames": {
+    "message": "Гульні і забаўкі"
+  },
+  "group_musicWebsites": {
+    "message": "Музычныя сайты"
+  },
+  "group_literatureNovels": {
+    "message": "Літаратура і раманы"
+  },
+  "group_animeWebsites": {
+    "message": "Анімэ сайты"
+  },
+  "group_ecommerceShopping": {
+    "message": "Электронная камерцыя і пакупкі"
+  },
+  "group_technologyDigital": {
+    "message": "Тэхналогіі і лічбавае"
+  },
+  "group_sportsFitness": {
+    "message": "Спорт і фітнес"
+  },
+  "group_medicalHealth": {
+    "message": "Медыцына і здароўе"
+  },
+  "group_educationTraining": {
+    "message": "Адукацыя і навучанне"
+  },
+  "group_skillTraining": {
+    "message": "Навучанне навыкам"
+  },
+  "group_financialInvestment": {
+    "message": "Фінансы і інвестыцыі"
+  },
+  "group_transportationTravel": {
+    "message": "Транспарт і падарожжы"
+  },
+  "group_cookingGourmet": {
+    "message": "Кулінарыя і гурман"
+  },
+  "group_petCare": {
+    "message": "Догляд за хатнімі жывёламі"
+  },
+  "group_legalConsultation": {
+    "message": "Юрыдычная кансультацыя"
+  },
+  "group_artCulture": {
+    "message": "Мастацтва і культура"
+  },
+  "group_communityForums": {
+    "message": "Супольныя форумы"
+  },
+  "group_chatSocial": {
+    "message": "Чат і сацыяльныя сеткі"
+  },
+  "group_commonQueries": {
+    "message": "Агульныя запыты"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Комплексныя і іншыя"
+  },
+  "group_jobRecruitment": {
+    "message": "Прыём на працу"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Прыём і пошук працы"
+  },
+  "group_motherBaby": {
+    "message": "Маці і дзіця"
+  },
+  "group_tutorialsGuides": {
+    "message": "Кіраўніцтва і інструкцыі"
+  },
+  "group_goodSitesCollection": {
+    "message": "Калекцыя добрых сайтаў"
+  },
+  "group_blogArticles": {
+    "message": "Блог артыкулаў"
+  },
+  "group_onlineTools": {
+    "message": "Інтэрнэт-інструменты"
+  },
+  "group_freeResources": {
+    "message": "Бясплатныя рэсурсы"
+  },
+  "group_materialResources": {
+    "message": "Матэрыяльныя рэсурсы"
+  },
+  "group_photography": {
+    "message": "Фатаграфія"
+  },
+  "group_gamblingWebsites": {
+    "message": "Сайты азартных гульняў"
+  },
+  "group_nsfw": {
+    "message": "Толькі для дарослых"
+  },
+  "group_internalSystems": {
+    "message": "Унутраныя сістэмы"
   }
 }

@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Расширенный режим «Картинка в картинке»",
   "APIAccess": "Доступ к API",
   "customizeMenu": "Настроить меню",
-  "Automation": "Автоматизация"
+  "Automation": "Автоматизация",
+  "tabIndexTips": "Нажмите CMD/Ctrl + {{index}}, чтобы переключиться на эту вкладку",
+  "expandTabHistories": "Развернуть историю вкладок",
+  "collapseTabHistories": "Свернуть историю вкладок",
+  "deleteTabHistory": "Удалить историю этой вкладки",
+  "deleteTabHistories": "Удалить всю историю этой вкладки",
+  "clickToGoBack": "Нажмите, чтобы вернуться назад",
+  "clickToGoForward": "Нажмите, чтобы перейти вперед",
+  "loading": "Загрузка",
+  "updateBookmarkUrl": "Обновить URL закладки",
+  "oldUrl": "Старый URL",
+  "newUrl": "Новый URL",
+  "accessible": "Доступно",
+  "foundUrlRedirect": "Обнаружен перенаправление URL, хотите обновить?"
 }

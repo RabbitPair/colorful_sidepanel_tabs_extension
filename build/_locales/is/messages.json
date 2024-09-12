@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Skipta um stöðu hliðarstiku"
+  },
+  "group_newsInformation": {
+    "message": "Fréttir og upplýsingar"
+  },
+  "group_videoMovies": {
+    "message": "Myndbönd og kvikmyndir"
+  },
+  "group_liveStreaming": {
+    "message": "Bein útsending og streymi"
+  },
+  "group_entertainmentGames": {
+    "message": "Leikir og skemmtun"
+  },
+  "group_musicWebsites": {
+    "message": "Tónlistarvefsíður"
+  },
+  "group_literatureNovels": {
+    "message": "Bókmenntir og skáldsögur"
+  },
+  "group_animeWebsites": {
+    "message": "Anime vefsíður"
+  },
+  "group_ecommerceShopping": {
+    "message": "Rafrænt viðskipti og verslun"
+  },
+  "group_technologyDigital": {
+    "message": "Tækni og stafrænt"
+  },
+  "group_sportsFitness": {
+    "message": "Íþróttir og líkamsrækt"
+  },
+  "group_medicalHealth": {
+    "message": "Læknisfræði og heilsa"
+  },
+  "group_educationTraining": {
+    "message": "Menntun og þjálfun"
+  },
+  "group_skillTraining": {
+    "message": "Hæfniþjálfun"
+  },
+  "group_financialInvestment": {
+    "message": "Fjármál og fjárfesting"
+  },
+  "group_transportationTravel": {
+    "message": "Samgöngur og ferðalög"
+  },
+  "group_cookingGourmet": {
+    "message": "Matargerð og sælkeri"
+  },
+  "group_petCare": {
+    "message": "Gæludýraumsjón"
+  },
+  "group_legalConsultation": {
+    "message": "Lögfræðiráðgjöf"
+  },
+  "group_artCulture": {
+    "message": "Listir og menning"
+  },
+  "group_communityForums": {
+    "message": "Samfélagsvettvangar"
+  },
+  "group_chatSocial": {
+    "message": "Spjall og félagslíf"
+  },
+  "group_commonQueries": {
+    "message": "Algengar fyrirspurnir"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Alhliða og annað"
+  },
+  "group_jobRecruitment": {
+    "message": "Starfsráðningar"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Ráðningar og atvinnuleit"
+  },
+  "group_motherBaby": {
+    "message": "Móðir og barn"
+  },
+  "group_tutorialsGuides": {
+    "message": "Kennsluefni og leiðbeiningar"
+  },
+  "group_goodSitesCollection": {
+    "message": "Góðar vefsíður"
+  },
+  "group_blogArticles": {
+    "message": "Blogggreinar"
+  },
+  "group_onlineTools": {
+    "message": "Netverkfæri"
+  },
+  "group_freeResources": {
+    "message": "Ókeypis auðlindir"
+  },
+  "group_materialResources": {
+    "message": "Efnislegar auðlindir"
+  },
+  "group_photography": {
+    "message": "Ljósmyndun"
+  },
+  "group_gamblingWebsites": {
+    "message": "Veðmálasíður"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Innri kerfi"
   }
 }

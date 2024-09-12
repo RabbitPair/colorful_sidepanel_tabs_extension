@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "प्रगत चित्र-इन-चित्र",
   "APIAccess": "API प्रवेश",
   "customizeMenu": "मेनू सानुकूलित करा",
-  "Automation": "स्वयंचलन"
+  "Automation": "स्वयंचलन",
+  "tabIndexTips": "या टॅबवर स्विच करण्यासाठी CMD/Ctrl + {{index}} दाबा",
+  "expandTabHistories": "टॅब इतिहास विस्तृत करा",
+  "collapseTabHistories": "टॅब इतिहास संक्षिप्त करा",
+  "deleteTabHistory": "हा टॅब इतिहास हटवा",
+  "deleteTabHistories": "या टॅबचे सर्व इतिहास हटवा",
+  "clickToGoBack": "मागे जाण्यासाठी क्लिक करा",
+  "clickToGoForward": "पुढे जाण्यासाठी क्लिक करा",
+  "loading": "लोड करत आहे",
+  "updateBookmarkUrl": "बुकमार्क URL अद्यतनित करा",
+  "oldUrl": "जुना URL",
+  "newUrl": "नवीन URL",
+  "accessible": "प्रवेशयोग्य",
+  "foundUrlRedirect": "URL पुनर्निर्देश सापडला, आपण अद्यतनित करू इच्छिता?"
 }

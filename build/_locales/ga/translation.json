@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Pictiúr i bPictiúr Ardleibhéil",
   "APIAccess": "Rochtain API",
   "customizeMenu": "Saincheap Roghchlár",
-  "Automation": "Uathoibriú"
+  "Automation": "Uathoibriú",
+  "tabIndexTips": "Brúigh CMD/Ctrl + {{index}} chun athrú go dtí an cluaisín seo",
+  "expandTabHistories": "Leathnaigh stair cluaisíní",
+  "collapseTabHistories": "Crap stair cluaisíní",
+  "deleteTabHistory": "Scrios an stair cluaisín seo",
+  "deleteTabHistories": "Scrios gach stair den chluaisín seo",
+  "clickToGoBack": "Cliceáil chun dul ar ais",
+  "clickToGoForward": "Cliceáil chun dul ar aghaidh",
+  "loading": "Ag luchtú",
+  "updateBookmarkUrl": "Nuashonraigh URL Leabharmharc",
+  "oldUrl": "Sean-URL",
+  "newUrl": "Nua-URL",
+  "accessible": "Inrochtana",
+  "foundUrlRedirect": "Aimsíodh atreorú URL, ar mhaith leat nuashonrú?"
 }

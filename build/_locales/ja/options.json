@@ -3,6 +3,7 @@
   "_execute_action": "この拡張機能を有効にする",
   "openSidePanel": "サイドパネルを開く",
   "settings": {
+    "premiumEditionOnly": "プレミアムエディションのみ",
     "resetCurrentPageSettings": "現在のページ設定をリセット",
     "modules": {
       "appearance": "外観",
@@ -287,6 +288,44 @@
         "label": "プレビュー遅延",
         "description": "タブにホバーするなどのときにタブのプレビューの遅延時間を設定（秒）。0に設定すると、遅延はありません",
         "seconds": "秒"
+      },
+      "showTabIndex": {
+        "label": "タブインデックスを表示",
+        "description": "有効にすると、タブインデックスがタイトルの横に表示され、Windowsでは[Ctrl+番号]、Macでは[cmd+番号]を使用してタブを簡単にアクティブにできます。例: 1. stackoverflow.com 2. youtube、これにより、WindowsではCtrl + 2、Macではcmd + 2でyoutubeに移動できます"
+      },
+      "tabHistoryEnable": {
+        "label": "タブ履歴",
+        "description": "有効にすると、同じタブで開いたウェブサイトの履歴が表示されます。"
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "アクティブなタブのみタブ履歴を表示",
+        "description": "有効にすると、アクティブなタブのみタブ履歴が表示され、それ以外の場合はすべてのタブにタブ履歴が表示されます。"
+      },
+      "tabHistoryExpand": {
+        "label": "デフォルトでタブ履歴を展開",
+        "description": "有効にすると、タブ履歴がデフォルトで展開されます。"
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "リストにタブ履歴展開ボタンを表示",
+        "description": "有効にすると、タブリストにボタンが表示され、クリックしてタブ履歴を展開または折りたたむことができます。無効にすると、右クリックメニューのみを使用してタブ履歴を展開または折りたたむことができます"
+      },
+      "tabHistoryShowUrl": {
+        "label": "タブ履歴URLを表示",
+        "description": "有効にすると、タブ履歴のURLが表示され、それ以外の場合はタイトルのみが表示されます"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "タブ履歴が折りたたまれたときにアイコンを表示",
+        "description": "有効にすると、リストが折りたたまれたときにタブ履歴アイコンが表示されます"
+      },
+      "tabHistorySortBy": {
+        "label": "タブ履歴の並び替え順序",
+        "description": "タブ履歴の並び替え順序を選択",
+        "lastAccessed": "最後にアクセスした",
+        "createdAt": "作成時間"
+      },
+      "tabHistoryKeepCount": {
+        "label": "表示するタブ履歴エントリの数",
+        "description": "表示するタブ履歴エントリの最大数を制限します。制限を超えるエントリは非表示になります"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "ダブルクリック"
     },
     "chromeTabGroupAdvanced": {
+      "label": "高度なタブグループ",
+      "customGroupNames": {
+        "label": "カスタムグループ名",
+        "description": "ここに事前定義されたグループを追加することができます。タブをグループに追加する必要があるときにすぐに選択できます。いくつかのグループ名はすでにプリセットされていますが、必要に応じて変更または削除できます。",
+        "ManageGroupNames": "グループ名の管理",
+        "CustomGroupNames": "カスタムグループ名",
+        "ConfirmDelete": "削除の確認",
+        "ConfirmDeleteMsg": "この名前を削除してもよろしいですか？",
+        "AddNewName": "新しい名前を追加",
+        "Cancel": "キャンセル",
+        "Delete": "削除",
+        "Close": "閉じる"
+      },
+      "customGroupRemember": {
+        "label": "サイトのグループ化を記憶",
+        "description": "有効にすると、サイトがカスタムグループに追加された場合、次回そのサイトを開いたときに自動的にこのグループが使用されます"
+      },
       "tabGroupCollapseBehavior": {
         "label": "タブグループの折りたたみ動作",
         "description": "Chromeブラウザのタブグループの折りたたみ動作を変更します",
         "option_collapse_others": "現在のグループを表示し、他のグループを折りたたむ",
         "option_disable": "すべてのグループを展開",
         "option_auto": "Chromeのデフォルト設定を使用"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "ブックマークフォルダ名をグループ名として使用",
+        "description": "開いたURLがブックマークにある場合、自動的にブックマークフォルダ名をグループ名として使用します",
+        "enabled": "有効",
+        "disabled": "無効"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "ブックマークフォルダのレベルを選択",
+        "description": "グループ名として使用するブックマークフォルダのレベルを選択します",
+        "top": "最上位レベル",
+        "parent": "親レベル",
+        "full": "フルパス"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "同じドメイングループを自動作成または参加",
@@ -519,6 +588,16 @@
         "target_top": "最上位タブ",
         "save": "保存",
         "close": "閉じる"
+      },
+      "backgroundColor": {
+        "label": "背景色",
+        "description": "このサイトの背景色を選択します。",
+        "random": "ランダム",
+        "clear": "クリア"
+      },
+      "fontColor": {
+        "label": "フォントカラー",
+        "description": "このサイトのフォントカラーを設定します。"
       }
     },
     "quickAccess": {

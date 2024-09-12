@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Хажуугийн самбарын байрлалыг өөрчлөх"
+  },
+  "group_newsInformation": {
+    "message": "Мэдээ ба мэдээлэл"
+  },
+  "group_videoMovies": {
+    "message": "Видео ба кино"
+  },
+  "group_liveStreaming": {
+    "message": "Шууд дамжуулалт"
+  },
+  "group_entertainmentGames": {
+    "message": "Тоглоом ба зугаа цэнгэл"
+  },
+  "group_musicWebsites": {
+    "message": "Хөгжмийн вэбсайтууд"
+  },
+  "group_literatureNovels": {
+    "message": "Уран зохиол ба роман"
+  },
+  "group_animeWebsites": {
+    "message": "Анимэ вэбсайтууд"
+  },
+  "group_ecommerceShopping": {
+    "message": "Цахим худалдаа ба дэлгүүр хэсэх"
+  },
+  "group_technologyDigital": {
+    "message": "Технологи ба дижитал"
+  },
+  "group_sportsFitness": {
+    "message": "Спорт ба фитнесс"
+  },
+  "group_medicalHealth": {
+    "message": "Эрүүл мэнд ба эмнэлэг"
+  },
+  "group_educationTraining": {
+    "message": "Боловсрол ба сургалт"
+  },
+  "group_skillTraining": {
+    "message": "Ур чадварын сургалт"
+  },
+  "group_financialInvestment": {
+    "message": "Санхүү ба хөрөнгө оруулалт"
+  },
+  "group_transportationTravel": {
+    "message": "Тээвэр ба аялал"
+  },
+  "group_cookingGourmet": {
+    "message": "Хоол хийх ба амттан"
+  },
+  "group_petCare": {
+    "message": "Тэжээвэр амьтдын арчилгаа"
+  },
+  "group_legalConsultation": {
+    "message": "Хууль зүйн зөвлөгөө"
+  },
+  "group_artCulture": {
+    "message": "Урлаг ба соёл"
+  },
+  "group_communityForums": {
+    "message": "Нийгмийн форумууд"
+  },
+  "group_chatSocial": {
+    "message": "Чат ба нийгмийн"
+  },
+  "group_commonQueries": {
+    "message": "Нийтлэг асуултууд"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Цогц ба бусад"
+  },
+  "group_jobRecruitment": {
+    "message": "Ажлын байрны элсэлт"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Элсэлт ба ажлын байр хайх"
+  },
+  "group_motherBaby": {
+    "message": "Ээж ба хүүхэд"
+  },
+  "group_tutorialsGuides": {
+    "message": "Хичээл ба гарын авлага"
+  },
+  "group_goodSitesCollection": {
+    "message": "Сайн сайтуудын цуглуулга"
+  },
+  "group_blogArticles": {
+    "message": "Блог нийтлэлүүд"
+  },
+  "group_onlineTools": {
+    "message": "Онлайн хэрэгслүүд"
+  },
+  "group_freeResources": {
+    "message": "Үнэгүй нөөцүүд"
+  },
+  "group_materialResources": {
+    "message": "Материалын нөөцүүд"
+  },
+  "group_photography": {
+    "message": "Гэрэл зураг"
+  },
+  "group_gamblingWebsites": {
+    "message": "Мөрийтэй тоглоомын вэбсайтууд"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Дотоод системүүд"
   }
 }

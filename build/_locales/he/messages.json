@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "החלף את מיקום סרגל הצד"
+  },
+  "group_newsInformation": {
+    "message": "חדשות ומידע"
+  },
+  "group_videoMovies": {
+    "message": "סרטונים וסרטים"
+  },
+  "group_liveStreaming": {
+    "message": "שידור חי"
+  },
+  "group_entertainmentGames": {
+    "message": "משחקים ובידור"
+  },
+  "group_musicWebsites": {
+    "message": "אתרי מוזיקה"
+  },
+  "group_literatureNovels": {
+    "message": "ספרות ורומנים"
+  },
+  "group_animeWebsites": {
+    "message": "אתרי אנימה"
+  },
+  "group_ecommerceShopping": {
+    "message": "מסחר אלקטרוני וקניות"
+  },
+  "group_technologyDigital": {
+    "message": "טכנולוגיה ודיגיטל"
+  },
+  "group_sportsFitness": {
+    "message": "ספורט וכושר"
+  },
+  "group_medicalHealth": {
+    "message": "רפואה ובריאות"
+  },
+  "group_educationTraining": {
+    "message": "חינוך והכשרה"
+  },
+  "group_skillTraining": {
+    "message": "הכשרת מיומנויות"
+  },
+  "group_financialInvestment": {
+    "message": "פיננסים והשקעות"
+  },
+  "group_transportationTravel": {
+    "message": "תחבורה ונסיעות"
+  },
+  "group_cookingGourmet": {
+    "message": "בישול וגורמה"
+  },
+  "group_petCare": {
+    "message": "טיפול בחיות מחמד"
+  },
+  "group_legalConsultation": {
+    "message": "ייעוץ משפטי"
+  },
+  "group_artCulture": {
+    "message": "אמנות ותרבות"
+  },
+  "group_communityForums": {
+    "message": "פורומים קהילתיים"
+  },
+  "group_chatSocial": {
+    "message": "צ'אט ורשתות חברתיות"
+  },
+  "group_commonQueries": {
+    "message": "שאילתות נפוצות"
+  },
+  "group_comprehensiveOthers": {
+    "message": "כולל ואחרים"
+  },
+  "group_jobRecruitment": {
+    "message": "גיוס עבודה"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "גיוס וחיפוש עבודה"
+  },
+  "group_motherBaby": {
+    "message": "אמא ותינוק"
+  },
+  "group_tutorialsGuides": {
+    "message": "מדריכים והדרכות"
+  },
+  "group_goodSitesCollection": {
+    "message": "אוסף אתרים טובים"
+  },
+  "group_blogArticles": {
+    "message": "מאמרי בלוג"
+  },
+  "group_onlineTools": {
+    "message": "כלים מקוונים"
+  },
+  "group_freeResources": {
+    "message": "משאבים חינמיים"
+  },
+  "group_materialResources": {
+    "message": "משאבים חומריים"
+  },
+  "group_photography": {
+    "message": "צילום"
+  },
+  "group_gamblingWebsites": {
+    "message": "אתרי הימורים"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "מערכות פנימיות"
   }
 }

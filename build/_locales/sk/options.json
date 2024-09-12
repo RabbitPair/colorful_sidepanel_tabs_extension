@@ -3,6 +3,7 @@
   "_execute_action": "Aktivovať toto rozšírenie",
   "openSidePanel": "Otvoriť bočný panel",
   "settings": {
+    "premiumEditionOnly": "Iba prémiové vydanie",
     "resetCurrentPageSettings": "Obnoviť nastavenia aktuálnej stránky",
     "modules": {
       "appearance": "Vzhľad",
@@ -287,6 +288,44 @@
         "label": "Oneskorenie náhľadu",
         "description": "Nastavte čas oneskorenia pre náhľady kariet pri prechode myšou nad kartami atď. (sekundy). Ak je nastavené na 0, nebude žiadne oneskorenie",
         "seconds": "Sekundy"
+      },
+      "showTabIndex": {
+        "label": "Zobraziť index karty",
+        "description": "Keď je povolené, index karty sa zobrazí vedľa názvu, čo uľahčuje aktiváciu karty pomocou [Ctrl+číslo] na Windows alebo [cmd+číslo] na Mac. Príklad: 1. stackoverflow.com 2. youtube, takže je ľahké použiť Ctrl + 2 na Windows alebo cmd + 2 na Mac prejsť na youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "História kariet",
+        "description": "Keď je povolené, zobrazí sa história webových stránok otvorených v rovnakej karte."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Zobraziť históriu kariet iba na aktívnej karte",
+        "description": "Keď je povolené, zobrazí históriu kariet iba na aktívnej karte, inak zobrazí históriu kariet na všetkých kartách."
+      },
+      "tabHistoryExpand": {
+        "label": "Rozbaliť históriu kariet predvolene",
+        "description": "Keď je povolené, história kariet bude predvolene rozbalená."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Zobraziť tlačidlo na rozbalenie histórie kariet v zozname",
+        "description": "Keď je povolené, v zozname kariet sa zobrazí tlačidlo, na ktoré môžete kliknúť na rozbalenie alebo zbalenie histórie kariet. Ak je zakázané, môžete použiť iba kontextové menu na rozbalenie alebo zbalenie histórie kariet"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Zobraziť URL histórie kariet",
+        "description": "Keď je povolené, zobrazí sa URL histórie kariet, inak sa zobrazí iba názov"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Zobraziť ikonu, keď je história kariet zbalená",
+        "description": "Keď je povolené, zobrazí ikonu histórie kariet, keď je zoznam zbalený"
+      },
+      "tabHistorySortBy": {
+        "label": "Poradie zoradenia histórie kariet",
+        "description": "Vyberte poradie zoradenia histórie kariet",
+        "lastAccessed": "Naposledy prístupné",
+        "createdAt": "Čas vytvorenia"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Počet záznamov histórie kariet na zobrazenie",
+        "description": "Obmedzte maximálny počet záznamov histórie kariet na zobrazenie. Záznamy presahujúce limit budú skryté"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dvojité kliknutie"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Pokročilé skupiny kariet",
+      "customGroupNames": {
+        "label": "Vlastné názvy skupín",
+        "description": "Tu môžete pridať niektoré preddefinované skupiny, aby ste ich mohli rýchlo vybrať, keď potrebujete pridať karty do skupiny. Už sme prednastavili niektoré názvy skupín, ktoré môžete podľa potreby upraviť alebo odstrániť.",
+        "ManageGroupNames": "Spravovať názvy skupín",
+        "CustomGroupNames": "Vlastné názvy skupín",
+        "ConfirmDelete": "Potvrdiť odstránenie",
+        "ConfirmDeleteMsg": "Naozaj chcete odstrániť tento názov?",
+        "AddNewName": "Pridať nový názov",
+        "Cancel": "Zrušiť",
+        "Delete": "Odstrániť",
+        "Close": "Zavrieť"
+      },
+      "customGroupRemember": {
+        "label": "Zapamätať si zoskupenie stránok",
+        "description": "Keď je povolené, ak je stránka pridaná do vlastnej skupiny, pri ďalšom otvorení stránky sa automaticky použije táto skupina"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Správanie zoskupenia kariet",
         "description": "Upravte správanie zoskupenia kariet v prehliadači Chrome",
         "option_collapse_others": "Zobraziť aktuálnu skupinu a zoskupiť ostatné",
         "option_disable": "Rozbaliť všetky skupiny",
         "option_auto": "Použiť predvolené nastavenia Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Použiť názov priečinka záložiek ako názov skupiny",
+        "description": "Automaticky použiť názov priečinka záložiek ako názov skupiny, ak je otvorená URL v záložkách",
+        "enabled": "Povolené",
+        "disabled": "Zakázané"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Vyberte úroveň priečinka záložiek",
+        "description": "Vyberte úroveň priečinka záložiek, ktorú chcete použiť ako názov skupiny",
+        "top": "Najvyššia úroveň",
+        "parent": "Rodičovská úroveň",
+        "full": "Celá cesta"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automaticky vytvoriť alebo pripojiť skupinu rovnakého doménového mena",
@@ -519,6 +588,16 @@
         "target_top": "Najvyššia karta",
         "save": "Uložiť",
         "close": "Zavrieť"
+      },
+      "backgroundColor": {
+        "label": "Farba pozadia",
+        "description": "Vyberte farbu pozadia pre túto stránku.",
+        "random": "Náhodná",
+        "clear": "Vyčistiť"
+      },
+      "fontColor": {
+        "label": "Farba písma",
+        "description": "Nastavte farbu písma pre túto stránku."
       }
     },
     "quickAccess": {

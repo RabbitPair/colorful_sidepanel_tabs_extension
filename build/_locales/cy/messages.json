@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Toglo safle'r bar ochr"
+  },
+  "group_newsInformation": {
+    "message": "Newyddion a Gwybodaeth"
+  },
+  "group_videoMovies": {
+    "message": "Fideos a Ffilmiau"
+  },
+  "group_liveStreaming": {
+    "message": "Ffrydio Byw"
+  },
+  "group_entertainmentGames": {
+    "message": "Gemau ac Adloniant"
+  },
+  "group_musicWebsites": {
+    "message": "Gwefannau Cerddoriaeth"
+  },
+  "group_literatureNovels": {
+    "message": "Llenyddiaeth a Nofelau"
+  },
+  "group_animeWebsites": {
+    "message": "Gwefannau Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-fasnach a Siopa"
+  },
+  "group_technologyDigital": {
+    "message": "Technoleg a Digidol"
+  },
+  "group_sportsFitness": {
+    "message": "Chwaraeon a Ffitrwydd"
+  },
+  "group_medicalHealth": {
+    "message": "Meddygol ac Iechyd"
+  },
+  "group_educationTraining": {
+    "message": "Addysg a Hyfforddiant"
+  },
+  "group_skillTraining": {
+    "message": "Hyfforddiant Sgiliau"
+  },
+  "group_financialInvestment": {
+    "message": "Ariannol a Buddsoddi"
+  },
+  "group_transportationTravel": {
+    "message": "Cludiant a Theithio"
+  },
+  "group_cookingGourmet": {
+    "message": "Coginio a Gourmet"
+  },
+  "group_petCare": {
+    "message": "Gofal Anifeiliaid Anwes"
+  },
+  "group_legalConsultation": {
+    "message": "Ymgynghoriad Cyfreithiol"
+  },
+  "group_artCulture": {
+    "message": "Celf a Diwylliant"
+  },
+  "group_communityForums": {
+    "message": "Fforymau Cymunedol"
+  },
+  "group_chatSocial": {
+    "message": "Sgwrs a Chymdeithasol"
+  },
+  "group_commonQueries": {
+    "message": "Cwestiynau Cyffredin"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Cynhwysfawr ac Eraill"
+  },
+  "group_jobRecruitment": {
+    "message": "Recriwtio Swyddi"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Recriwtio a Chwilio am Swyddi"
+  },
+  "group_motherBaby": {
+    "message": "Mam a Babi"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tiwtorialau a Chanllawiau"
+  },
+  "group_goodSitesCollection": {
+    "message": "Casgliad o Safleoedd Da"
+  },
+  "group_blogArticles": {
+    "message": "Erthyglau Blog"
+  },
+  "group_onlineTools": {
+    "message": "Offer Ar-lein"
+  },
+  "group_freeResources": {
+    "message": "Adnoddau Am Ddim"
+  },
+  "group_materialResources": {
+    "message": "Adnoddau Deunydd"
+  },
+  "group_photography": {
+    "message": "Ffotograffiaeth"
+  },
+  "group_gamblingWebsites": {
+    "message": "Gwefannau Gamblo"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Systemau Mewnol"
   }
 }

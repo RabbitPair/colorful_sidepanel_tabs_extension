@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "સાઇડબાર સ્થિતિ બદલો"
+  },
+  "group_newsInformation": {
+    "message": "સમાચાર અને માહિતી"
+  },
+  "group_videoMovies": {
+    "message": "વિડિઓઝ અને મૂવીઝ"
+  },
+  "group_liveStreaming": {
+    "message": "લાઇવ અને સ્ટ્રીમિંગ"
+  },
+  "group_entertainmentGames": {
+    "message": "ગેમ્સ અને મનોરંજન"
+  },
+  "group_musicWebsites": {
+    "message": "મ્યુઝિક વેબસાઇટ્સ"
+  },
+  "group_literatureNovels": {
+    "message": "સાહિત્ય અને નવલકથાઓ"
+  },
+  "group_animeWebsites": {
+    "message": "એનિમે વેબસાઇટ્સ"
+  },
+  "group_ecommerceShopping": {
+    "message": "ઇ-કોમર્સ અને શોપિંગ"
+  },
+  "group_technologyDigital": {
+    "message": "ટેકનોલોજી અને ડિજિટલ"
+  },
+  "group_sportsFitness": {
+    "message": "ક્રીડા અને ફિટનેસ"
+  },
+  "group_medicalHealth": {
+    "message": "મેડિકલ અને હેલ્થ"
+  },
+  "group_educationTraining": {
+    "message": "શિક્ષણ અને તાલીમ"
+  },
+  "group_skillTraining": {
+    "message": "કૌશલ્ય તાલીમ"
+  },
+  "group_financialInvestment": {
+    "message": "નાણાકીય અને રોકાણ"
+  },
+  "group_transportationTravel": {
+    "message": "પરિવહન અને પ્રવાસન"
+  },
+  "group_cookingGourmet": {
+    "message": "રસોઈ અને ગૌર્મેટ"
+  },
+  "group_petCare": {
+    "message": "પેટ કેર"
+  },
+  "group_legalConsultation": {
+    "message": "કાનૂની સલાહ"
+  },
+  "group_artCulture": {
+    "message": "કલા અને સંસ્કૃતિ"
+  },
+  "group_communityForums": {
+    "message": "કમ્યુનિટી ફોરમ્સ"
+  },
+  "group_chatSocial": {
+    "message": "ચેટ અને સોશિયલ"
+  },
+  "group_commonQueries": {
+    "message": "સામાન્ય પ્રશ્નો"
+  },
+  "group_comprehensiveOthers": {
+    "message": "વ્યાપક અને અન્ય"
+  },
+  "group_jobRecruitment": {
+    "message": "નોકરી ભરતી"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "ભરતી અને નોકરી શોધ"
+  },
+  "group_motherBaby": {
+    "message": "માતા અને બાળક"
+  },
+  "group_tutorialsGuides": {
+    "message": "ટ્યુટોરિયલ્સ અને માર્ગદર્શિકા"
+  },
+  "group_goodSitesCollection": {
+    "message": "સારા સાઇટ્સ સંગ્રહ"
+  },
+  "group_blogArticles": {
+    "message": "બ્લોગ લેખો"
+  },
+  "group_onlineTools": {
+    "message": "ઓનલાઇન ટૂલ્સ"
+  },
+  "group_freeResources": {
+    "message": "મફત સંસાધનો"
+  },
+  "group_materialResources": {
+    "message": "સામગ્રી સંસાધનો"
+  },
+  "group_photography": {
+    "message": "ફોટોગ્રાફી"
+  },
+  "group_gamblingWebsites": {
+    "message": "જુગાર વેબસાઇટ્સ"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "આંતરિક સિસ્ટમ્સ"
   }
 }

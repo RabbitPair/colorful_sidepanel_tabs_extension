@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Pamje e Avancuar në Pamje",
   "APIAccess": "Qasje në API",
   "customizeMenu": "Personalizo Menunë",
-  "Automation": "Automatizimi"
+  "Automation": "Automatizimi",
+  "tabIndexTips": "Shtyp CMD/Ctrl + {{index}} për të kaluar në këtë skedë",
+  "expandTabHistories": "Zgjero historitë e skedave",
+  "collapseTabHistories": "Mblidh historitë e skedave",
+  "deleteTabHistory": "Fshi këtë histori skede",
+  "deleteTabHistories": "Fshi të gjitha historitë e kësaj skede",
+  "clickToGoBack": "Kliko për t'u kthyer mbrapa",
+  "clickToGoForward": "Kliko për të shkuar përpara",
+  "loading": "Duke u ngarkuar",
+  "updateBookmarkUrl": "Përditëso URL-në e faqerojtësit",
+  "oldUrl": "URL e vjetër",
+  "newUrl": "URL e re",
+  "accessible": "E aksesueshme",
+  "foundUrlRedirect": "Gjetur ridrejtim URL, dëshironi të përditësoni?"
 }

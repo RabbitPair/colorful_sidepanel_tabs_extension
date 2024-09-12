@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Biddel il-pożizzjoni tal-sidebar"
+  },
+  "group_newsInformation": {
+    "message": "Aħbarijiet u Informazzjoni"
+  },
+  "group_videoMovies": {
+    "message": "Vidjows u Films"
+  },
+  "group_liveStreaming": {
+    "message": "Diretti u Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Logħob u Divertiment"
+  },
+  "group_musicWebsites": {
+    "message": "Websajts tal-Mużika"
+  },
+  "group_literatureNovels": {
+    "message": "Letteratura u Rumanzi"
+  },
+  "group_animeWebsites": {
+    "message": "Websajts tal-Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce u Xiri"
+  },
+  "group_technologyDigital": {
+    "message": "Teknoloġija u Diġitali"
+  },
+  "group_sportsFitness": {
+    "message": "Isport u Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Mediċina u Saħħa"
+  },
+  "group_educationTraining": {
+    "message": "Edukazzjoni u Taħriġ"
+  },
+  "group_skillTraining": {
+    "message": "Taħriġ tal-Ħiliet"
+  },
+  "group_financialInvestment": {
+    "message": "Finanzi u Investiment"
+  },
+  "group_transportationTravel": {
+    "message": "Trasport u Vjaġġar"
+  },
+  "group_cookingGourmet": {
+    "message": "Tisjir u Gourmet"
+  },
+  "group_petCare": {
+    "message": "Kura tal-Annimali Domestiċi"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultazzjoni Legali"
+  },
+  "group_artCulture": {
+    "message": "Arti u Kultura"
+  },
+  "group_communityForums": {
+    "message": "Forums tal-Komunità"
+  },
+  "group_chatSocial": {
+    "message": "Chat u Soċjali"
+  },
+  "group_commonQueries": {
+    "message": "Mistoqsijiet Komuni"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komprensiv u Oħrajn"
+  },
+  "group_jobRecruitment": {
+    "message": "Reklutaġġ tax-Xogħol"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Reklutaġġ u Tfittxija tax-Xogħol"
+  },
+  "group_motherBaby": {
+    "message": "Omm u Tarbija"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorjali u Gwidi"
+  },
+  "group_goodSitesCollection": {
+    "message": "Ġabra ta' Websajts Tajbin"
+  },
+  "group_blogArticles": {
+    "message": "Artikli tal-Blog"
+  },
+  "group_onlineTools": {
+    "message": "Għodod Online"
+  },
+  "group_freeResources": {
+    "message": "Riżorsi Ħielsa"
+  },
+  "group_materialResources": {
+    "message": "Riżorsi Materjali"
+  },
+  "group_photography": {
+    "message": "Fotografija"
+  },
+  "group_gamblingWebsites": {
+    "message": "Websajts tal-Imħatri"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistemi Interni"
   }
 }

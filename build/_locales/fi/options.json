@@ -3,6 +3,7 @@
   "_execute_action": "Aktivoi tämä laajennus",
   "openSidePanel": "Avaa sivupaneeli",
   "settings": {
+    "premiumEditionOnly": "vain premium-versio",
     "resetCurrentPageSettings": "Nollaa nykyisen sivun asetukset",
     "modules": {
       "appearance": "Ulkonäkö",
@@ -287,6 +288,44 @@
         "label": "Esikatselun viive",
         "description": "Aseta välilehtien esikatselun viiveaika, kun leijut välilehtien päällä jne. (sekunteina). Jos asetettu arvo on 0, viivettä ei ole",
         "seconds": "Sekuntia"
+      },
+      "showTabIndex": {
+        "label": "Näytä välilehden indeksi",
+        "description": "Kun käytössä, välilehden indeksi näytetään otsikon vieressä, mikä helpottaa välilehden aktivoimista käyttämällä [Ctrl+numero] Windowsissa tai [cmd+numero] Macissa. Esimerkki: 1. stackoverflow.com 2. youtube, joten on helppo tehdä Ctrl + 2 Windowsissa tai cmd + 2 Macissa siirtyäksesi youtubeen"
+      },
+      "tabHistoryEnable": {
+        "label": "Välilehden historia",
+        "description": "Kun käytössä, samassa välilehdessä avattujen verkkosivustojen historia näytetään."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Näytä välilehden historia vain aktiivisessa välilehdessä",
+        "description": "Kun käytössä, näytä välilehden historia vain aktiivisessa välilehdessä, muuten näytä välilehden historia kaikissa välilehdissä."
+      },
+      "tabHistoryExpand": {
+        "label": "Laajenna välilehden historia oletuksena",
+        "description": "Kun käytössä, välilehden historia laajennetaan oletuksena."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Näytä laajenna välilehden historia -painike luettelossa",
+        "description": "Kun käytössä, välilehtiluettelossa näytetään painike, jota voit napsauttaa laajentaaksesi tai kutistaaksesi välilehden historian. Jos pois käytöstä, voit käyttää vain hiiren kakkospainikkeen valikkoa laajentaaksesi tai kutistaaksesi välilehden historian"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Näytä välilehden historian URL",
+        "description": "Kun käytössä, välilehden historian URL näytetään, muuten näytetään vain otsikko"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Näytä kuvake, kun välilehden historia on kutistettu",
+        "description": "Kun käytössä, näytä välilehden historian kuvake, kun luettelo on kutistettu"
+      },
+      "tabHistorySortBy": {
+        "label": "Välilehden historian lajittelujärjestys",
+        "description": "Valitse välilehden historian lajittelujärjestys",
+        "lastAccessed": "Viimeksi käytetty",
+        "createdAt": "Luomisaika"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Näytettävien välilehden historian merkintöjen määrä",
+        "description": "Rajoita näytettävien välilehden historian merkintöjen enimmäismäärää. Rajoituksen ylittävät merkinnät piilotetaan"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Kaksoisklikkaus"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Edistyneet välilehtiryhmät",
+      "customGroupNames": {
+        "label": "Mukautetut ryhmänimet",
+        "description": "Voit lisätä tänne ennalta määritettyjä ryhmiä, jotta voit nopeasti valita ne, kun sinun on lisättävä välilehtiä ryhmään. Olemme jo esiasettaneet joitain ryhmänimiä, joita voit muokata tai poistaa tarpeidesi mukaan.",
+        "ManageGroupNames": "Hallitse ryhmänimiä",
+        "CustomGroupNames": "Mukautetut ryhmänimet",
+        "ConfirmDelete": "Vahvista poisto",
+        "ConfirmDeleteMsg": "Haluatko varmasti poistaa tämän nimen?",
+        "AddNewName": "Lisää uusi nimi",
+        "Cancel": "Peruuta",
+        "Delete": "Poista",
+        "Close": "Sulje"
+      },
+      "customGroupRemember": {
+        "label": "Muista sivuston ryhmittely",
+        "description": "Kun käytössä, jos sivusto lisätään mukautettuun ryhmään, se käyttää automaattisesti tätä ryhmää seuraavan kerran, kun sivusto avataan"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Välilehtiryhmän tiivistämiskäyttäytyminen",
         "description": "Muokkaa Chrome-selaimen välilehtiryhmän tiivistämiskäyttäytymistä",
         "option_collapse_others": "Näytä nykyinen ryhmä ja tiivistä muut",
         "option_disable": "Laajenna kaikki ryhmät",
         "option_auto": "Käytä Chromen oletusasetuksia"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Käytä kirjanmerkkikansion nimeä ryhmän nimenä",
+        "description": "Käytä automaattisesti kirjanmerkkikansion nimeä ryhmän nimenä, jos avattu URL-osoite on kirjanmerkeissä",
+        "enabled": "Käytössä",
+        "disabled": "Pois käytöstä"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Valitse kirjanmerkkikansion taso",
+        "description": "Valitse kirjanmerkkikansion taso, jota käytetään ryhmän nimenä",
+        "top": "Ylin taso",
+        "parent": "Ylätaso",
+        "full": "Koko polku"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Luo tai liity automaattisesti samaan toimialueen ryhmään",
@@ -519,6 +588,16 @@
         "target_top": "Päällimmäinen välilehti",
         "save": "Tallenna",
         "close": "Sulje"
+      },
+      "backgroundColor": {
+        "label": "Taustaväri",
+        "description": "Valitse taustaväri tälle sivustolle.",
+        "random": "Satunnainen",
+        "clear": "Tyhjennä"
+      },
+      "fontColor": {
+        "label": "Fontin väri",
+        "description": "Aseta fontin väri tälle sivustolle."
       }
     },
     "quickAccess": {

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Imatge en imatge avançada",
   "APIAccess": "Accés a l'API",
   "customizeMenu": "Personalitza el menú",
-  "Automation": "Automatització"
+  "Automation": "Automatització",
+  "tabIndexTips": "Prem CMD/Ctrl + {{index}} per canviar a aquesta pestanya",
+  "expandTabHistories": "Expandeix els historials de pestanyes",
+  "collapseTabHistories": "Col·lapsa els historials de pestanyes",
+  "deleteTabHistory": "Suprimeix aquest historial de pestanya",
+  "deleteTabHistories": "Suprimeix tots els historials d'aquesta pestanya",
+  "clickToGoBack": "Fes clic per tornar enrere",
+  "clickToGoForward": "Fes clic per anar endavant",
+  "loading": "Carregant",
+  "updateBookmarkUrl": "Actualitza l'URL de l'adreça d'interès",
+  "oldUrl": "URL antiga",
+  "newUrl": "URL nova",
+  "accessible": "Accessible",
+  "foundUrlRedirect": "S'ha trobat una redirecció d'URL, vols actualitzar-la?"
 }

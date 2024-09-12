@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "サイドバーの位置を切り替える"
+  },
+  "group_newsInformation": {
+    "message": "ニュースと情報"
+  },
+  "group_videoMovies": {
+    "message": "ビデオと映画"
+  },
+  "group_liveStreaming": {
+    "message": "ライブとストリーミング"
+  },
+  "group_entertainmentGames": {
+    "message": "ゲームとエンターテイメント"
+  },
+  "group_musicWebsites": {
+    "message": "音楽サイト"
+  },
+  "group_literatureNovels": {
+    "message": "文学と小説"
+  },
+  "group_animeWebsites": {
+    "message": "アニメサイト"
+  },
+  "group_ecommerceShopping": {
+    "message": "電子商取引とショッピング"
+  },
+  "group_technologyDigital": {
+    "message": "技術とデジタル"
+  },
+  "group_sportsFitness": {
+    "message": "スポーツとフィットネス"
+  },
+  "group_medicalHealth": {
+    "message": "医療と健康"
+  },
+  "group_educationTraining": {
+    "message": "教育と訓練"
+  },
+  "group_skillTraining": {
+    "message": "スキルトレーニング"
+  },
+  "group_financialInvestment": {
+    "message": "金融と投資"
+  },
+  "group_transportationTravel": {
+    "message": "交通と旅行"
+  },
+  "group_cookingGourmet": {
+    "message": "料理とグルメ"
+  },
+  "group_petCare": {
+    "message": "ペットケア"
+  },
+  "group_legalConsultation": {
+    "message": "法律相談"
+  },
+  "group_artCulture": {
+    "message": "芸術と文化"
+  },
+  "group_communityForums": {
+    "message": "コミュニティフォーラム"
+  },
+  "group_chatSocial": {
+    "message": "チャットとソーシャル"
+  },
+  "group_commonQueries": {
+    "message": "一般的な質問"
+  },
+  "group_comprehensiveOthers": {
+    "message": "包括的およびその他"
+  },
+  "group_jobRecruitment": {
+    "message": "求人"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "採用と求職"
+  },
+  "group_motherBaby": {
+    "message": "母と赤ちゃん"
+  },
+  "group_tutorialsGuides": {
+    "message": "チュートリアルとガイド"
+  },
+  "group_goodSitesCollection": {
+    "message": "良いサイトのコレクション"
+  },
+  "group_blogArticles": {
+    "message": "ブログ記事"
+  },
+  "group_onlineTools": {
+    "message": "オンラインツール"
+  },
+  "group_freeResources": {
+    "message": "無料リソース"
+  },
+  "group_materialResources": {
+    "message": "物質的なリソース"
+  },
+  "group_photography": {
+    "message": "写真撮影"
+  },
+  "group_gamblingWebsites": {
+    "message": "ギャンブルサイト"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "内部システム"
   }
 }

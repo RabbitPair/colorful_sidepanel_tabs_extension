@@ -3,6 +3,7 @@
   "_execute_action": "Activar esta extensión",
   "openSidePanel": "Abrir panel lateral",
   "settings": {
+    "premiumEditionOnly": "Solo edición premium",
     "resetCurrentPageSettings": "Restablecer la configuración de la página actual",
     "modules": {
       "appearance": "Apariencia",
@@ -287,6 +288,44 @@
         "label": "Retraso de vista previa",
         "description": "Establecer el tiempo de retraso para las vistas previas de las pestañas al pasar el ratón sobre las pestañas, etc. (segundos). Si se establece en 0, no habrá retraso",
         "seconds": "Segundos"
+      },
+      "showTabIndex": {
+        "label": "Mostrar índice de pestañas",
+        "description": "Cuando está habilitado, el índice de pestañas se mostrará junto al título, lo que facilita activar la pestaña usando [Ctrl+número] en Windows o [cmd+número] en Mac. Ejemplo: 1. stackoverflow.com 2. youtube, para que sea fácil hacer Ctrl + 2 en Windows o cmd + 2 en Mac para ir a youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historial de pestañas",
+        "description": "Cuando está habilitado, se mostrará el historial de sitios web abiertos en la misma pestaña."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Mostrar historial de pestañas solo en la pestaña activa",
+        "description": "Cuando está habilitado, mostrar historial de pestañas solo en la pestaña activa, de lo contrario mostrar historial de pestañas en todas las pestañas."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandir historial de pestañas por defecto",
+        "description": "Cuando está habilitado, el historial de pestañas se expandirá por defecto."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Mostrar botón de expandir historial de pestañas en la lista",
+        "description": "Cuando está habilitado, se mostrará un botón en la lista de pestañas que puede hacer clic para expandir o colapsar el historial de pestañas. Si está deshabilitado, solo puede usar el menú de clic derecho para expandir o colapsar el historial de pestañas"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Mostrar URL del historial de pestañas",
+        "description": "Cuando está habilitado, se mostrará la URL del historial de pestañas, de lo contrario solo se mostrará el título"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Mostrar icono cuando el historial de pestañas está colapsado",
+        "description": "Cuando está habilitado, mostrar icono del historial de pestañas cuando la lista está colapsada"
+      },
+      "tabHistorySortBy": {
+        "label": "Orden de clasificación del historial de pestañas",
+        "description": "Seleccione el orden de clasificación para el historial de pestañas",
+        "lastAccessed": "Último acceso",
+        "createdAt": "Hora de creación"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Número de entradas del historial de pestañas a mostrar",
+        "description": "Limitar el número máximo de entradas del historial de pestañas a mostrar. Las entradas que superen el límite serán ocultadas"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doble clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupos de pestañas avanzados",
+      "customGroupNames": {
+        "label": "Nombres de grupos personalizados",
+        "description": "Puede agregar algunos grupos predefinidos aquí, para que pueda seleccionarlos rápidamente cuando necesite agregar pestañas a un grupo. Ya hemos preestablecido algunos nombres de grupos, que puede modificar o eliminar según sus necesidades.",
+        "ManageGroupNames": "Gestionar nombres de grupos",
+        "CustomGroupNames": "Nombres de grupos personalizados",
+        "ConfirmDelete": "Confirmar eliminación",
+        "ConfirmDeleteMsg": "¿Está seguro de que desea eliminar este nombre?",
+        "AddNewName": "Agregar nuevo nombre",
+        "Cancel": "Cancelar",
+        "Delete": "Eliminar",
+        "Close": "Cerrar"
+      },
+      "customGroupRemember": {
+        "label": "Recordar agrupación de sitios",
+        "description": "Cuando está habilitado, si un sitio se agrega a un grupo personalizado, usará automáticamente este grupo la próxima vez que se abra el sitio"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamiento de colapso del grupo de pestañas",
         "description": "Modificar el comportamiento de colapso del grupo de pestañas del navegador Chrome",
         "option_collapse_others": "Mostrar grupo actual y colapsar otros",
         "option_disable": "Expandir todos los grupos",
         "option_auto": "Usar la configuración predeterminada de Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Usar el nombre de la carpeta de marcadores como nombre del grupo",
+        "description": "Usar automáticamente el nombre de la carpeta de marcadores como el nombre del grupo si la URL abierta está en los marcadores",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Seleccionar nivel de carpeta de marcadores",
+        "description": "Elegir el nivel de la carpeta de marcadores para usar como el nombre del grupo",
+        "top": "Nivel superior",
+        "parent": "Nivel padre",
+        "full": "Ruta completa"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Crear o unirse automáticamente al mismo grupo de dominio",
@@ -519,6 +588,16 @@
         "target_top": "Pestaña Superior",
         "save": "Guardar",
         "close": "Cerrar"
+      },
+      "backgroundColor": {
+        "label": "Color de Fondo",
+        "description": "Seleccione un color de fondo para este sitio.",
+        "random": "Aleatorio",
+        "clear": "Limpiar"
+      },
+      "fontColor": {
+        "label": "Color de Fuente",
+        "description": "Establezca el color de fuente para este sitio."
       }
     },
     "quickAccess": {

@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Picture-in-Picture avanzato",
   "APIAccess": "Accesso API",
   "customizeMenu": "Personalizza menu",
-  "Automation": "Automazione"
+  "Automation": "Automazione",
+  "tabIndexTips": "Premi CMD/Ctrl + {{index}} per passare a questa scheda",
+  "expandTabHistories": "Espandi cronologie schede",
+  "collapseTabHistories": "Comprimi cronologie schede",
+  "deleteTabHistory": "Elimina questa cronologia scheda",
+  "deleteTabHistories": "Elimina tutte le cronologie di questa scheda",
+  "clickToGoBack": "Clicca per tornare indietro",
+  "clickToGoForward": "Clicca per andare avanti",
+  "loading": "Caricamento",
+  "updateBookmarkUrl": "Aggiorna URL segnalibro",
+  "oldUrl": "Vecchio URL",
+  "newUrl": "Nuovo URL",
+  "accessible": "Accessibile",
+  "foundUrlRedirect": "Trovato reindirizzamento URL, vuoi aggiornare?"
 }

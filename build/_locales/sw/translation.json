@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Picha ya Juu katika Picha",
   "APIAccess": "Ufikiaji wa API",
   "customizeMenu": "Badilisha Menyu",
-  "Automation": "Uendeshaji"
+  "Automation": "Uendeshaji",
+  "tabIndexTips": "Bonyeza CMD/Ctrl + {{index}} kubadilisha hadi kichupo hiki",
+  "expandTabHistories": "Panua historia za vichupo",
+  "collapseTabHistories": "Banua historia za vichupo",
+  "deleteTabHistory": "Futa historia hii ya kichupo",
+  "deleteTabHistories": "Futa historia zote za kichupo hiki",
+  "clickToGoBack": "Bonyeza kurudi nyuma",
+  "clickToGoForward": "Bonyeza kwenda mbele",
+  "loading": "Inapakia",
+  "updateBookmarkUrl": "Sasisha URL ya alamisho",
+  "oldUrl": "URL ya zamani",
+  "newUrl": "URL mpya",
+  "accessible": "Inapatikana",
+  "foundUrlRedirect": "Imeonekana URL ya kuelekeza, unataka kusasisha?"
 }

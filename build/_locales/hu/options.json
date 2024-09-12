@@ -3,6 +3,7 @@
   "_execute_action": "A bővítmény aktiválása",
   "openSidePanel": "Oldalsó panel megnyitása",
   "settings": {
+    "premiumEditionOnly": "csak prémium kiadás",
     "resetCurrentPageSettings": "Az aktuális oldal beállításainak visszaállítása",
     "modules": {
       "appearance": "Megjelenés",
@@ -287,6 +288,44 @@
         "label": "Előnézet késleltetése",
         "description": "Az előnézet késleltetési idejének beállítása, amikor a lapok fölé húzza az egeret stb. (másodpercek). Ha 0-ra van állítva, nem lesz késleltetés",
         "seconds": "Másodpercek"
+      },
+      "showTabIndex": {
+        "label": "Lapindex megjelenítése",
+        "description": "Ha engedélyezve van, a lapindex megjelenik a cím mellett, így könnyen aktiválható a lap a [Ctrl+szám] használatával Windows-on vagy [cmd+szám] Mac-en. Példa: 1. stackoverflow.com 2. youtube, így könnyen megteheti a Ctrl + 2 Windows-on vagy cmd + 2 Mac-en, hogy a youtube-ra menjen"
+      },
+      "tabHistoryEnable": {
+        "label": "Lap előzmények",
+        "description": "Ha engedélyezve van, a lapban megnyitott webhelyek előzményei megjelennek."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Lap előzmények csak az aktív lapon",
+        "description": "Ha engedélyezve van, csak az aktív lapon jelennek meg a lap előzmények, egyébként minden lapon megjelennek."
+      },
+      "tabHistoryExpand": {
+        "label": "Lap előzmények alapértelmezett kibontása",
+        "description": "Ha engedélyezve van, a lap előzmények alapértelmezés szerint ki lesznek bontva."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Lap előzmények kibontás gomb megjelenítése a listában",
+        "description": "Ha engedélyezve van, egy gomb jelenik meg a laplistában, amelyre kattintva kibontja vagy összecsukja a lap előzményeket. Ha le van tiltva, csak a jobb egérgombos menü használatával lehet kibontani vagy összecsukni a lap előzményeket"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Lap előzmények URL megjelenítése",
+        "description": "Ha engedélyezve van, a lap előzmények URL-je megjelenik, egyébként csak a cím lesz látható"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Ikon megjelenítése, amikor a lap előzmények össze vannak csukva",
+        "description": "Ha engedélyezve van, a lap előzmények ikonja megjelenik, amikor a lista össze van csukva"
+      },
+      "tabHistorySortBy": {
+        "label": "Lap előzmények rendezési sorrendje",
+        "description": "Válassza ki a lap előzmények rendezési sorrendjét",
+        "lastAccessed": "Utoljára elért",
+        "createdAt": "Létrehozás ideje"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Megjelenítendő lap előzmények bejegyzések száma",
+        "description": "A megjelenítendő lap előzmények bejegyzések maximális számának korlátozása. A korlátot meghaladó bejegyzések el lesznek rejtve"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dupla kattintás"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Speciális lapcsoportok",
+      "customGroupNames": {
+        "label": "Egyéni csoportnevek",
+        "description": "Itt előre meghatározott csoportokat adhat hozzá, így gyorsan kiválaszthatja őket, amikor lapokat kell hozzáadnia egy csoporthoz. Már előre beállítottunk néhány csoportnevet, amelyeket igényei szerint módosíthat vagy törölhet.",
+        "ManageGroupNames": "Csoportnevek kezelése",
+        "CustomGroupNames": "Egyéni csoportnevek",
+        "ConfirmDelete": "Törlés megerősítése",
+        "ConfirmDeleteMsg": "Biztosan törölni szeretné ezt a nevet?",
+        "AddNewName": "Új név hozzáadása",
+        "Cancel": "Mégse",
+        "Delete": "Törlés",
+        "Close": "Bezárás"
+      },
+      "customGroupRemember": {
+        "label": "Webhelycsoportosítás megjegyzése",
+        "description": "Ha engedélyezve van, ha egy webhelyet hozzáadnak egy egyéni csoporthoz, akkor a következő alkalommal, amikor a webhely megnyílik, automatikusan ezt a csoportot fogja használni"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Lapcsoport összeomlási viselkedés",
         "description": "A Chrome böngésző lapcsoport összeomlási viselkedésének módosítása",
         "option_collapse_others": "Jelenlegi csoport megjelenítése és a többi összeomlása",
         "option_disable": "Összes csoport kibontása",
         "option_auto": "Chrome alapértelmezett beállításainak használata"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "A könyvjelző mappa nevének használata csoportnévként",
+        "description": "Automatikusan használja a könyvjelző mappa nevét csoportnévként, ha a megnyitott URL a könyvjelzők között van",
+        "enabled": "Engedélyezve",
+        "disabled": "Letiltva"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Könyvjelző mappa szintjének kiválasztása",
+        "description": "Válassza ki a könyvjelző mappa szintjét, amelyet csoportnévként kíván használni",
+        "top": "Legfelső szint",
+        "parent": "Szülő szint",
+        "full": "Teljes útvonal"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatikus létrehozás vagy csatlakozás azonos domain csoporthoz",
@@ -519,6 +588,16 @@
         "target_top": "Legfelső fül",
         "save": "Mentés",
         "close": "Bezárás"
+      },
+      "backgroundColor": {
+        "label": "Háttérszín",
+        "description": "Válasszon egy háttérszínt ehhez az oldalhoz.",
+        "random": "Véletlenszerű",
+        "clear": "Törlés"
+      },
+      "fontColor": {
+        "label": "Betűszín",
+        "description": "Állítsa be a betűszínt ehhez az oldalhoz."
       }
     },
     "quickAccess": {

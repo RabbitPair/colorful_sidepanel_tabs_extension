@@ -3,6 +3,7 @@
   "_execute_action": "Attiva questa estensione",
   "openSidePanel": "Apri pannello laterale",
   "settings": {
+    "premiumEditionOnly": "Solo edizione premium",
     "resetCurrentPageSettings": "Reimposta le impostazioni della pagina corrente",
     "modules": {
       "appearance": "Aspetto",
@@ -287,6 +288,44 @@
         "label": "Ritardo anteprima",
         "description": "Imposta il tempo di ritardo per le anteprime delle schede quando si passa il mouse sulle schede, ecc. (secondi). Se impostato su 0, non ci sarà alcun ritardo",
         "seconds": "Secondi"
+      },
+      "showTabIndex": {
+        "label": "Mostra indice scheda",
+        "description": "Quando abilitato, l'indice della scheda verrà visualizzato accanto al titolo, rendendo facile attivare la scheda utilizzando [Ctrl+numero] su Windows o [cmd+numero] su Mac. Esempio: 1. stackoverflow.com 2. youtube, in modo che sia facile fare Ctrl + 2 su Windows o cmd + 2 su Mac per andare su youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Cronologia schede",
+        "description": "Quando abilitato, verrà visualizzata la cronologia dei siti web aperti nella stessa scheda."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Mostra cronologia schede solo sulla scheda attiva",
+        "description": "Quando abilitato, mostra la cronologia delle schede solo sulla scheda attiva, altrimenti mostra la cronologia delle schede su tutte le schede."
+      },
+      "tabHistoryExpand": {
+        "label": "Espandi cronologia schede per impostazione predefinita",
+        "description": "Quando abilitato, la cronologia delle schede sarà espansa per impostazione predefinita."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Mostra pulsante espandi cronologia schede nell'elenco",
+        "description": "Quando abilitato, verrà visualizzato un pulsante nell'elenco delle schede che è possibile fare clic per espandere o comprimere la cronologia delle schede. Se disabilitato, è possibile utilizzare solo il menu contestuale per espandere o comprimere la cronologia delle schede"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Mostra URL cronologia schede",
+        "description": "Quando abilitato, verrà visualizzato l'URL della cronologia delle schede, altrimenti verrà mostrato solo il titolo"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Mostra icona quando la cronologia delle schede è compressa",
+        "description": "Quando abilitato, mostra l'icona della cronologia delle schede quando l'elenco è compresso"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordine di ordinamento cronologia schede",
+        "description": "Seleziona l'ordine di ordinamento per la cronologia delle schede",
+        "lastAccessed": "Ultimo accesso",
+        "createdAt": "Ora di creazione"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Numero di voci della cronologia delle schede da mostrare",
+        "description": "Limita il numero massimo di voci della cronologia delle schede da mostrare. Le voci che superano il limite verranno nascoste"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doppio clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Gruppi di schede avanzati",
+      "customGroupNames": {
+        "label": "Nomi di gruppi personalizzati",
+        "description": "Puoi aggiungere alcuni gruppi predefiniti qui, in modo da poterli selezionare rapidamente quando hai bisogno di aggiungere schede a un gruppo. Abbiamo già preimpostato alcuni nomi di gruppi, che puoi modificare o eliminare secondo le tue esigenze.",
+        "ManageGroupNames": "Gestisci nomi dei gruppi",
+        "CustomGroupNames": "Nomi di gruppi personalizzati",
+        "ConfirmDelete": "Conferma eliminazione",
+        "ConfirmDeleteMsg": "Sei sicuro di voler eliminare questo nome?",
+        "AddNewName": "Aggiungi nuovo nome",
+        "Cancel": "Annulla",
+        "Delete": "Elimina",
+        "Close": "Chiudi"
+      },
+      "customGroupRemember": {
+        "label": "Ricorda raggruppamento siti",
+        "description": "Quando abilitato, se un sito viene aggiunto a un gruppo personalizzato, utilizzerà automaticamente questo gruppo la prossima volta che il sito verrà aperto"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamento di riduzione del gruppo di schede",
         "description": "Modifica il comportamento di riduzione del gruppo di schede del browser Chrome",
         "option_collapse_others": "Mostra il gruppo corrente e riduci gli altri",
         "option_disable": "Espandi tutti i gruppi",
         "option_auto": "Usa le impostazioni predefinite di Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Usa il nome della cartella dei segnalibri come nome del gruppo",
+        "description": "Usa automaticamente il nome della cartella dei segnalibri come nome del gruppo se l'URL aperto è nei segnalibri",
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Seleziona il livello della cartella dei segnalibri",
+        "description": "Scegli il livello della cartella dei segnalibri da utilizzare come nome del gruppo",
+        "top": "Livello superiore",
+        "parent": "Livello genitore",
+        "full": "Percorso completo"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Crea automaticamente o unisciti allo stesso gruppo di dominio",
@@ -519,6 +588,16 @@
         "target_top": "Scheda principale",
         "save": "Salva",
         "close": "Chiudi"
+      },
+      "backgroundColor": {
+        "label": "Colore di sfondo",
+        "description": "Seleziona un colore di sfondo per questo sito.",
+        "random": "Casuale",
+        "clear": "Cancella"
+      },
+      "fontColor": {
+        "label": "Colore del carattere",
+        "description": "Imposta il colore del carattere per questo sito."
       }
     },
     "quickAccess": {

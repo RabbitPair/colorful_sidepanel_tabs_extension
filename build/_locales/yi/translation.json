@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "אַוואַנסירטע בילד-אין-בילד",
   "APIAccess": "API צוטריט",
   "customizeMenu": "קאַסטאַמייז מעניו",
-  "Automation": "אָטאַמיישאַן"
+  "Automation": "אָטאַמיישאַן",
+  "tabIndexTips": "דרוק CMD/Ctrl + {{index}} צו באַשטימען צו דעם טאַב",
+  "expandTabHistories": "פאַרברייטערן טאַב געשיכטע",
+  "collapseTabHistories": "צונויפֿנעמען טאַב געשיכטע",
+  "deleteTabHistory": "ויסמעקן דעם טאַב געשיכטע",
+  "deleteTabHistories": "ויסמעקן אַלע געשיכטע פון דעם טאַב",
+  "clickToGoBack": "דריקט צו צוריקגיין",
+  "clickToGoForward": "דריקט צו פאָרויסגיין",
+  "loading": "לאָודינג",
+  "updateBookmarkUrl": "דערהייַנטיקן ביכערמאַרק URL",
+  "oldUrl": "אַלט URL",
+  "newUrl": "ניו URL",
+  "accessible": "אַקסעסאַבאַל",
+  "foundUrlRedirect": "געפונען URL רידיירעקט, צי איר ווילן צו דערהייַנטיקן?"
 }

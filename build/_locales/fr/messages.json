@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Changer la position de la barre latérale"
+  },
+  "group_newsInformation": {
+    "message": "Actualités & Informations"
+  },
+  "group_videoMovies": {
+    "message": "Vidéos & Films"
+  },
+  "group_liveStreaming": {
+    "message": "En Direct & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Jeux & Divertissement"
+  },
+  "group_musicWebsites": {
+    "message": "Sites de Musique"
+  },
+  "group_literatureNovels": {
+    "message": "Littérature & Romans"
+  },
+  "group_animeWebsites": {
+    "message": "Sites d'Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce & Shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Technologie & Numérique"
+  },
+  "group_sportsFitness": {
+    "message": "Sports & Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Médical & Santé"
+  },
+  "group_educationTraining": {
+    "message": "Éducation & Formation"
+  },
+  "group_skillTraining": {
+    "message": "Formation de Compétences"
+  },
+  "group_financialInvestment": {
+    "message": "Finances & Investissement"
+  },
+  "group_transportationTravel": {
+    "message": "Transport & Voyage"
+  },
+  "group_cookingGourmet": {
+    "message": "Cuisine & Gastronomie"
+  },
+  "group_petCare": {
+    "message": "Soins des Animaux"
+  },
+  "group_legalConsultation": {
+    "message": "Consultation Juridique"
+  },
+  "group_artCulture": {
+    "message": "Art & Culture"
+  },
+  "group_communityForums": {
+    "message": "Forums Communautaires"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Social"
+  },
+  "group_commonQueries": {
+    "message": "Requêtes Courantes"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Complet & Autres"
+  },
+  "group_jobRecruitment": {
+    "message": "Recrutement d'Emploi"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Recrutement & Recherche d'Emploi"
+  },
+  "group_motherBaby": {
+    "message": "Mère & Bébé"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutoriels & Guides"
+  },
+  "group_goodSitesCollection": {
+    "message": "Collection de Bons Sites"
+  },
+  "group_blogArticles": {
+    "message": "Articles de Blog"
+  },
+  "group_onlineTools": {
+    "message": "Outils en Ligne"
+  },
+  "group_freeResources": {
+    "message": "Ressources Gratuites"
+  },
+  "group_materialResources": {
+    "message": "Ressources Matérielles"
+  },
+  "group_photography": {
+    "message": "Photographie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Sites de Jeu"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Systèmes Internes"
   }
 }

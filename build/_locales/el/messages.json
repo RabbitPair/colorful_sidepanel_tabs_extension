@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Εναλλαγή θέσης πλαϊνής μπάρας"
+  },
+  "group_newsInformation": {
+    "message": "Ειδήσεις & Πληροφορίες"
+  },
+  "group_videoMovies": {
+    "message": "Βίντεο & Ταινίες"
+  },
+  "group_liveStreaming": {
+    "message": "Ζωντανή Μετάδοση & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Παιχνίδια & Ψυχαγωγία"
+  },
+  "group_musicWebsites": {
+    "message": "Ιστότοποι Μουσικής"
+  },
+  "group_literatureNovels": {
+    "message": "Λογοτεχνία & Μυθιστορήματα"
+  },
+  "group_animeWebsites": {
+    "message": "Ιστότοποι Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Ηλεκτρονικό Εμπόριο & Αγορές"
+  },
+  "group_technologyDigital": {
+    "message": "Τεχνολογία & Ψηφιακά"
+  },
+  "group_sportsFitness": {
+    "message": "Αθλητισμός & Φυσική Κατάσταση"
+  },
+  "group_medicalHealth": {
+    "message": "Ιατρική & Υγεία"
+  },
+  "group_educationTraining": {
+    "message": "Εκπαίδευση & Κατάρτιση"
+  },
+  "group_skillTraining": {
+    "message": "Εκπαίδευση Δεξιοτήτων"
+  },
+  "group_financialInvestment": {
+    "message": "Οικονομικά & Επενδύσεις"
+  },
+  "group_transportationTravel": {
+    "message": "Μεταφορές & Ταξίδια"
+  },
+  "group_cookingGourmet": {
+    "message": "Μαγειρική & Γαστρονομία"
+  },
+  "group_petCare": {
+    "message": "Φροντίδα Κατοικιδίων"
+  },
+  "group_legalConsultation": {
+    "message": "Νομικές Συμβουλές"
+  },
+  "group_artCulture": {
+    "message": "Τέχνη & Πολιτισμός"
+  },
+  "group_communityForums": {
+    "message": "Κοινοτικά Φόρουμ"
+  },
+  "group_chatSocial": {
+    "message": "Συνομιλία & Κοινωνικά"
+  },
+  "group_commonQueries": {
+    "message": "Συχνές Ερωτήσεις"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Περιεκτικά & Άλλα"
+  },
+  "group_jobRecruitment": {
+    "message": "Προσλήψεις"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Προσλήψεις & Αναζήτηση Εργασίας"
+  },
+  "group_motherBaby": {
+    "message": "Μητέρα & Μωρό"
+  },
+  "group_tutorialsGuides": {
+    "message": "Οδηγοί & Μαθήματα"
+  },
+  "group_goodSitesCollection": {
+    "message": "Συλλογή Καλών Ιστότοπων"
+  },
+  "group_blogArticles": {
+    "message": "Άρθρα Ιστολογίου"
+  },
+  "group_onlineTools": {
+    "message": "Εργαλεία Διαδικτύου"
+  },
+  "group_freeResources": {
+    "message": "Δωρεάν Πόροι"
+  },
+  "group_materialResources": {
+    "message": "Υλικοί Πόροι"
+  },
+  "group_photography": {
+    "message": "Φωτογραφία"
+  },
+  "group_gamblingWebsites": {
+    "message": "Ιστότοποι Τυχερών Παιχνιδιών"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Εσωτερικά Συστήματα"
   }
 }

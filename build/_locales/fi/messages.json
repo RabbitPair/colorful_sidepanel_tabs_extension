@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Vaihda sivupalkin sijaintia"
+  },
+  "group_newsInformation": {
+    "message": "Uutiset ja Tiedot"
+  },
+  "group_videoMovies": {
+    "message": "Videot ja Elokuvat"
+  },
+  "group_liveStreaming": {
+    "message": "Live ja Suoratoisto"
+  },
+  "group_entertainmentGames": {
+    "message": "Pelit ja Viihde"
+  },
+  "group_musicWebsites": {
+    "message": "Musiikkisivustot"
+  },
+  "group_literatureNovels": {
+    "message": "Kirjallisuus ja Romaanit"
+  },
+  "group_animeWebsites": {
+    "message": "Anime-sivustot"
+  },
+  "group_ecommerceShopping": {
+    "message": "Verkkokauppa ja Ostokset"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologia ja Digitaalinen"
+  },
+  "group_sportsFitness": {
+    "message": "Urheilu ja Kuntoilu"
+  },
+  "group_medicalHealth": {
+    "message": "Lääketiede ja Terveys"
+  },
+  "group_educationTraining": {
+    "message": "Koulutus ja Koulutus"
+  },
+  "group_skillTraining": {
+    "message": "Taitokoulutus"
+  },
+  "group_financialInvestment": {
+    "message": "Rahoitus ja Sijoitus"
+  },
+  "group_transportationTravel": {
+    "message": "Liikenne ja Matkailu"
+  },
+  "group_cookingGourmet": {
+    "message": "Ruoanlaitto ja Gourmet"
+  },
+  "group_petCare": {
+    "message": "Lemmikkien Hoito"
+  },
+  "group_legalConsultation": {
+    "message": "Oikeudellinen Neuvonta"
+  },
+  "group_artCulture": {
+    "message": "Taide ja Kulttuuri"
+  },
+  "group_communityForums": {
+    "message": "Yhteisöfoorumit"
+  },
+  "group_chatSocial": {
+    "message": "Chat ja Sosiaalinen"
+  },
+  "group_commonQueries": {
+    "message": "Yleiset Kyselyt"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Kattava ja Muut"
+  },
+  "group_jobRecruitment": {
+    "message": "Työn Rekrytointi"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrytointi ja Työnhaku"
+  },
+  "group_motherBaby": {
+    "message": "Äiti ja Vauva"
+  },
+  "group_tutorialsGuides": {
+    "message": "Opetusohjelmat ja Oppaat"
+  },
+  "group_goodSitesCollection": {
+    "message": "Hyvien Sivustojen Kokoelma"
+  },
+  "group_blogArticles": {
+    "message": "Blogiartikkelit"
+  },
+  "group_onlineTools": {
+    "message": "Verkko-työkalut"
+  },
+  "group_freeResources": {
+    "message": "Ilmaiset Resurssit"
+  },
+  "group_materialResources": {
+    "message": "Materiaalit"
+  },
+  "group_photography": {
+    "message": "Valokuvaus"
+  },
+  "group_gamblingWebsites": {
+    "message": "Uhkapelisivustot"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sisäiset Järjestelmät"
   }
 }

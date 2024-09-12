@@ -3,6 +3,7 @@
   "_execute_action": "Aktiveer hierdie uitbreiding",
   "openSidePanel": "Maak sypaneel oop",
   "settings": {
+    "premiumEditionOnly": "Slegs premium-uitgawe",
     "resetCurrentPageSettings": "Herstel huidige bladsy-instellings",
     "modules": {
       "appearance": "Voorkoms",
@@ -287,6 +288,44 @@
         "label": "Oorskou vertraging",
         "description": "Stel die vertragings tyd vir tab oorskoue wanneer jy oor tabs beweeg, ens. (sekondes). As dit op 0 gestel word, sal daar geen vertraging wees nie",
         "seconds": "Sekondes"
+      },
+      "showTabIndex": {
+        "label": "Wys oortjie-indeks",
+        "description": "Wanneer geaktiveer, sal die oortjie-indeks langs die titel vertoon word, wat dit maklik maak om die oortjie te aktiveer deur [Ctrl+nommer] op Windows of [cmd+nommer] op Mac te gebruik. Voorbeeld: 1. stackoverflow.com 2. youtube, sodat dit maklik is om Ctrl + 2 op Windows of cmd + 2 op Mac te gebruik om na youtube te gaan"
+      },
+      "tabHistoryEnable": {
+        "label": "Oortjiegeskiedenis",
+        "description": "Wanneer geaktiveer, sal die geskiedenis van webwerwe wat in dieselfde oortjie oopgemaak is, vertoon word."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Wys oortjiegeskiedenis slegs op aktiewe oortjie",
+        "description": "Wanneer geaktiveer, wys oortjiegeskiedenis slegs op die aktiewe oortjie, anders wys oortjiegeskiedenis op alle oortjies."
+      },
+      "tabHistoryExpand": {
+        "label": "Brei oortjiegeskiedenis standaard uit",
+        "description": "Wanneer geaktiveer, sal oortjiegeskiedenis standaard uitgebrei word."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Wys uitbrei oortjiegeskiedenis knoppie in lys",
+        "description": "Wanneer geaktiveer, sal 'n knoppie in die oortjielys vertoon word wat jy kan klik om oortjiegeskiedenis uit te brei of saam te vou. As dit gedeaktiveer is, kan jy slegs die regskliek-kieslys gebruik om oortjiegeskiedenis uit te brei of saam te vou"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Wys oortjiegeskiedenis URL",
+        "description": "Wanneer geaktiveer, sal die oortjiegeskiedenis URL vertoon word, anders sal slegs die titel vertoon word"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Wys ikoon wanneer oortjiegeskiedenis saamgevou is",
+        "description": "Wanneer geaktiveer, wys oortjiegeskiedenis ikoon wanneer die lys saamgevou is"
+      },
+      "tabHistorySortBy": {
+        "label": "Oortjiegeskiedenis sorteer volgorde",
+        "description": "Kies die sorteer volgorde vir oortjiegeskiedenis",
+        "lastAccessed": "Laaste besoek",
+        "createdAt": "Geskep tyd"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Aantal oortjiegeskiedenis inskrywings om te wys",
+        "description": "Beperk die maksimum aantal oortjiegeskiedenis inskrywings om te wys. Inskrywings wat die limiet oorskry, sal versteek word"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Dubbelklik"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Gevorderde tabgroepe",
+      "customGroupNames": {
+        "label": "Pasgemaakte groepname",
+        "description": "Jy kan hier 'n paar voorafbepaalde groepe byvoeg, sodat jy dit vinnig kan kies wanneer jy tabs by 'n groep wil voeg. Ons het reeds 'n paar groepname vooraf ingestel, wat jy kan wysig of verwyder volgens jou behoeftes.",
+        "ManageGroupNames": "Bestuur Groepname",
+        "CustomGroupNames": "Pasgemaakte Groepname",
+        "ConfirmDelete": "Bevestig Verwydering",
+        "ConfirmDeleteMsg": "Is jy seker jy wil hierdie naam verwyder?",
+        "AddNewName": "Voeg nuwe naam by",
+        "Cancel": "Kanselleer",
+        "Delete": "Verwyder",
+        "Close": "Maak toe"
+      },
+      "customGroupRemember": {
+        "label": "Onthou webwerf-groepering",
+        "description": "Wanneer geaktiveer, as 'n webwerf by 'n pasgemaakte groep gevoeg word, sal dit outomaties hierdie groep gebruik die volgende keer as die webwerf oopgemaak word"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tabbladgroepe saamvougedrag",
         "description": "Wysig die gedrag van Chrome-blaaier tabbladgroepe saamvou",
         "option_collapse_others": "Wys huidige groep en vou ander saam",
         "option_disable": "Brei alle groepe uit",
         "option_auto": "Gebruik Chrome se verstekinstellings"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Gebruik boekmerkmapnaam as groepnaam",
+        "description": "Gebruik outomaties die boekmerkmapnaam as die groepnaam as die geopende URL in die boekmerke is",
+        "enabled": "Geaktiveer",
+        "disabled": "Gedeaktiveer"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Kies Boekmerkmapvlak",
+        "description": "Kies die vlak van die boekmerkmap om as die groepnaam te gebruik",
+        "top": "Bo Vlak",
+        "parent": "Ouer Vlak",
+        "full": "Volledige Pad"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Skep outomaties of sluit by dieselfde domeingroep aan",
@@ -519,6 +588,16 @@
         "target_top": "Bo Tab",
         "save": "Stoor",
         "close": "Maak toe"
+      },
+      "backgroundColor": {
+        "label": "Agtergrondkleur",
+        "description": "Kies 'n agtergrondkleur vir hierdie webwerf.",
+        "random": "Willekeurig",
+        "clear": "Maak Skoon"
+      },
+      "fontColor": {
+        "label": "Letterkleur",
+        "description": "Stel die letterkleur vir hierdie webwerf."
       }
     },
     "quickAccess": {

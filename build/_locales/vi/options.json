@@ -3,6 +3,7 @@
   "_execute_action": "Kích hoạt tiện ích mở rộng này",
   "openSidePanel": "Mở bảng bên",
   "settings": {
+    "premiumEditionOnly": "Chỉ dành cho phiên bản Premium",
     "resetCurrentPageSettings": "Đặt lại cài đặt trang hiện tại",
     "modules": {
       "appearance": "Giao diện",
@@ -287,6 +288,44 @@
         "label": "Độ trễ xem trước",
         "description": "Đặt thời gian trễ cho xem trước thẻ khi di chuột qua các thẻ, v.v. (giây). Nếu đặt là 0, sẽ không có độ trễ",
         "seconds": "Giây"
+      },
+      "showTabIndex": {
+        "label": "Hiển thị chỉ mục thẻ",
+        "description": "Khi được bật, chỉ mục thẻ sẽ được hiển thị bên cạnh tiêu đề, giúp dễ dàng kích hoạt thẻ bằng [Ctrl+number] trên Windows hoặc [cmd+number] trên Mac. Ví dụ: 1. stackoverflow.com 2. youtube, để dễ dàng sử dụng Ctrl + 2 trên Windows hoặc cmd + 2 trên Mac để chuyển đến youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Lịch sử thẻ",
+        "description": "Khi được bật, lịch sử của các trang web đã mở trong cùng một thẻ sẽ được hiển thị."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Chỉ hiển thị lịch sử thẻ trên thẻ đang hoạt động",
+        "description": "Khi được bật, chỉ hiển thị lịch sử thẻ trên thẻ đang hoạt động, nếu không sẽ hiển thị lịch sử thẻ trên tất cả các thẻ."
+      },
+      "tabHistoryExpand": {
+        "label": "Mở rộng lịch sử thẻ theo mặc định",
+        "description": "Khi được bật, lịch sử thẻ sẽ được mở rộng theo mặc định."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Hiển thị nút mở rộng lịch sử thẻ trong danh sách",
+        "description": "Khi được bật, một nút sẽ được hiển thị trong danh sách thẻ mà bạn có thể nhấp để mở rộng hoặc thu gọn lịch sử thẻ. Nếu tắt, bạn chỉ có thể sử dụng menu chuột phải để mở rộng hoặc thu gọn lịch sử thẻ"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Hiển thị URL lịch sử thẻ",
+        "description": "Khi được bật, URL lịch sử thẻ sẽ được hiển thị, nếu không chỉ hiển thị tiêu đề"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Hiển thị biểu tượng khi lịch sử thẻ bị thu gọn",
+        "description": "Khi được bật, hiển thị biểu tượng lịch sử thẻ khi danh sách bị thu gọn"
+      },
+      "tabHistorySortBy": {
+        "label": "Thứ tự sắp xếp lịch sử thẻ",
+        "description": "Chọn thứ tự sắp xếp cho lịch sử thẻ",
+        "lastAccessed": "Truy cập lần cuối",
+        "createdAt": "Thời gian tạo"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Số lượng mục lịch sử thẻ để hiển thị",
+        "description": "Giới hạn số lượng mục lịch sử thẻ tối đa để hiển thị. Các mục vượt quá giới hạn sẽ bị ẩn"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Nhấp đúp"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Nhóm thẻ nâng cao",
+      "customGroupNames": {
+        "label": "Tên nhóm tùy chỉnh",
+        "description": "Bạn có thể thêm một số nhóm được định nghĩa trước ở đây, vì vậy bạn có thể nhanh chóng chọn chúng khi cần thêm thẻ vào một nhóm. Chúng tôi đã đặt trước một số tên nhóm, bạn có thể sửa đổi hoặc xóa theo nhu cầu của mình.",
+        "ManageGroupNames": "Quản lý tên nhóm",
+        "CustomGroupNames": "Tên nhóm tùy chỉnh",
+        "ConfirmDelete": "Xác nhận xóa",
+        "ConfirmDeleteMsg": "Bạn có chắc chắn muốn xóa tên này không?",
+        "AddNewName": "Thêm tên mới",
+        "Cancel": "Hủy",
+        "Delete": "Xóa",
+        "Close": "Đóng"
+      },
+      "customGroupRemember": {
+        "label": "Nhớ nhóm trang web",
+        "description": "Khi được bật, nếu một trang web được thêm vào một nhóm tùy chỉnh, nó sẽ tự động sử dụng nhóm này vào lần tiếp theo khi trang web được mở"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Hành vi thu gọn nhóm thẻ",
         "description": "Thay đổi hành vi thu gọn nhóm thẻ của trình duyệt Chrome",
         "option_collapse_others": "Hiển thị nhóm hiện tại và thu gọn các nhóm khác",
         "option_disable": "Mở rộng tất cả các nhóm",
         "option_auto": "Sử dụng cài đặt mặc định của Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Sử dụng tên thư mục dấu trang làm tên nhóm",
+        "description": "Tự động sử dụng tên thư mục dấu trang làm tên nhóm nếu URL mở nằm trong dấu trang",
+        "enabled": "Đã bật",
+        "disabled": "Đã tắt"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Chọn cấp độ thư mục dấu trang",
+        "description": "Chọn cấp độ của thư mục dấu trang để sử dụng làm tên nhóm",
+        "top": "Cấp cao nhất",
+        "parent": "Cấp cha",
+        "full": "Đường dẫn đầy đủ"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Tự động tạo hoặc tham gia nhóm cùng miền",
@@ -519,6 +588,16 @@
         "target_top": "Thẻ trên cùng",
         "save": "Lưu",
         "close": "Đóng"
+      },
+      "backgroundColor": {
+        "label": "Màu Nền",
+        "description": "Chọn màu nền cho trang web này.",
+        "random": "Ngẫu nhiên",
+        "clear": "Xóa"
+      },
+      "fontColor": {
+        "label": "Màu chữ",
+        "description": "Thiết lập màu chữ cho trang web này."
       }
     },
     "quickAccess": {

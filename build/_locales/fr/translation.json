@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Image dans l'image avancée",
   "APIAccess": "Accès API",
   "customizeMenu": "Personnaliser le menu",
-  "Automation": "Automatisation"
+  "Automation": "Automatisation",
+  "tabIndexTips": "Appuyez sur CMD/Ctrl + {{index}} pour passer à cet onglet",
+  "expandTabHistories": "Développer les historiques des onglets",
+  "collapseTabHistories": "Réduire les historiques des onglets",
+  "deleteTabHistory": "Supprimer l'historique de cet onglet",
+  "deleteTabHistories": "Supprimer tous les historiques de cet onglet",
+  "clickToGoBack": "Cliquez pour revenir en arrière",
+  "clickToGoForward": "Cliquez pour aller de l'avant",
+  "loading": "Chargement",
+  "updateBookmarkUrl": "Mettre à jour l'URL du favori",
+  "oldUrl": "Ancienne URL",
+  "newUrl": "Nouvelle URL",
+  "accessible": "Accessible",
+  "foundUrlRedirect": "Redirection d'URL trouvée, voulez-vous mettre à jour ?"
 }

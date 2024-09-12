@@ -3,6 +3,7 @@
   "_execute_action": "Aktifkan ekstensi ini",
   "openSidePanel": "Buka panel samping",
   "settings": {
+    "premiumEditionOnly": "Hanya Edisi Premium",
     "resetCurrentPageSettings": "Atur ulang pengaturan halaman saat ini",
     "modules": {
       "appearance": "Tampilan",
@@ -287,6 +288,44 @@
         "label": "Penundaan pratinjau",
         "description": "Atur waktu penundaan untuk pratinjau tab saat melayang di atas tab, dll. (detik). Jika diatur ke 0, tidak akan ada penundaan",
         "seconds": "Detik"
+      },
+      "showTabIndex": {
+        "label": "Tampilkan indeks tab",
+        "description": "Ketika diaktifkan, indeks tab akan ditampilkan di sebelah judul, sehingga mudah untuk mengaktifkan tab menggunakan [Ctrl+nomor] di Windows atau [cmd+nomor] di Mac. Contoh: 1. stackoverflow.com 2. youtube, sehingga mudah untuk melakukan Ctrl + 2 di Windows atau cmd + 2 di Mac untuk pergi ke youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Riwayat tab",
+        "description": "Ketika diaktifkan, riwayat situs web yang dibuka di tab yang sama akan ditampilkan."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Tampilkan riwayat tab hanya pada tab aktif",
+        "description": "Ketika diaktifkan, tampilkan riwayat tab hanya pada tab aktif, jika tidak tampilkan riwayat tab pada semua tab."
+      },
+      "tabHistoryExpand": {
+        "label": "Perluas riwayat tab secara default",
+        "description": "Ketika diaktifkan, riwayat tab akan diperluas secara default."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Tampilkan tombol perluas riwayat tab dalam daftar",
+        "description": "Ketika diaktifkan, sebuah tombol akan ditampilkan dalam daftar tab yang dapat Anda klik untuk memperluas atau menyembunyikan riwayat tab. Jika dinonaktifkan, Anda hanya dapat menggunakan menu klik kanan untuk memperluas atau menyembunyikan riwayat tab"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Tampilkan URL riwayat tab",
+        "description": "Ketika diaktifkan, URL riwayat tab akan ditampilkan, jika tidak hanya judul yang akan ditampilkan"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Tampilkan ikon saat riwayat tab disembunyikan",
+        "description": "Ketika diaktifkan, tampilkan ikon riwayat tab saat daftar disembunyikan"
+      },
+      "tabHistorySortBy": {
+        "label": "Urutan riwayat tab",
+        "description": "Pilih urutan untuk riwayat tab",
+        "lastAccessed": "Terakhir diakses",
+        "createdAt": "Waktu dibuat"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Jumlah entri riwayat tab yang ditampilkan",
+        "description": "Batasi jumlah maksimum entri riwayat tab yang ditampilkan. Entri yang melebihi batas akan disembunyikan"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Klik dua kali"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grup tab lanjutan",
+      "customGroupNames": {
+        "label": "Nama grup kustom",
+        "description": "Anda dapat menambahkan beberapa grup yang telah ditentukan di sini, sehingga Anda dapat dengan cepat memilihnya saat Anda perlu menambahkan tab ke grup. Kami telah menetapkan beberapa nama grup, yang dapat Anda modifikasi atau hapus sesuai kebutuhan Anda.",
+        "ManageGroupNames": "Kelola Nama Grup",
+        "CustomGroupNames": "Nama Grup Kustom",
+        "ConfirmDelete": "Konfirmasi Hapus",
+        "ConfirmDeleteMsg": "Apakah Anda yakin ingin menghapus nama ini?",
+        "AddNewName": "Tambahkan nama baru",
+        "Cancel": "Batal",
+        "Delete": "Hapus",
+        "Close": "Tutup"
+      },
+      "customGroupRemember": {
+        "label": "Ingat pengelompokan situs",
+        "description": "Ketika diaktifkan, jika sebuah situs ditambahkan ke grup kustom, situs tersebut akan otomatis menggunakan grup ini saat situs dibuka kembali"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Perilaku kolaps grup tab",
         "description": "Ubah perilaku kolaps grup tab di browser Chrome",
         "option_collapse_others": "Tampilkan grup saat ini dan kolaps lainnya",
         "option_disable": "Perluas semua grup",
         "option_auto": "Gunakan pengaturan default Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Gunakan nama folder bookmark sebagai nama grup",
+        "description": "Secara otomatis menggunakan nama folder bookmark sebagai nama grup jika URL yang dibuka ada di bookmark",
+        "enabled": "Diaktifkan",
+        "disabled": "Dinonaktifkan"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Pilih Tingkat Folder Bookmark",
+        "description": "Pilih tingkat folder bookmark untuk digunakan sebagai nama grup",
+        "top": "Tingkat Atas",
+        "parent": "Tingkat Induk",
+        "full": "Jalur Penuh"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Buat atau gabung grup domain yang sama secara otomatis",
@@ -519,6 +588,16 @@
         "target_top": "Tab Paling Atas",
         "save": "Simpan",
         "close": "Tutup"
+      },
+      "backgroundColor": {
+        "label": "Warna Latar Belakang",
+        "description": "Pilih warna latar belakang untuk situs ini.",
+        "random": "Acak",
+        "clear": "Bersihkan"
+      },
+      "fontColor": {
+        "label": "Warna Font",
+        "description": "Atur warna font untuk situs ini."
       }
     },
     "quickAccess": {

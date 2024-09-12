@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "የጎን ሰሌዳ አቀማመጥ ቀይር"
+  },
+  "group_newsInformation": {
+    "message": "ዜና እና መረጃ"
+  },
+  "group_videoMovies": {
+    "message": "ቪዲዮዎች እና ፊልሞች"
+  },
+  "group_liveStreaming": {
+    "message": "ቀጥታ እና ስትሪሚንግ"
+  },
+  "group_entertainmentGames": {
+    "message": "ጨዋታዎች እና መዝናኛ"
+  },
+  "group_musicWebsites": {
+    "message": "የሙዚቃ ድህረገጾች"
+  },
+  "group_literatureNovels": {
+    "message": "ስነ ጽሁፎች እና አጭር ታሪኮች"
+  },
+  "group_animeWebsites": {
+    "message": "የአኒሜ ድህረገጾች"
+  },
+  "group_ecommerceShopping": {
+    "message": "ኢ-ኮሜርስ እና ግብይት"
+  },
+  "group_technologyDigital": {
+    "message": "ቴክኖሎጂ እና ዲጂታል"
+  },
+  "group_sportsFitness": {
+    "message": "ስፖርት እና እንቅስቃሴ"
+  },
+  "group_medicalHealth": {
+    "message": "ሕክምና እና ጤና"
+  },
+  "group_educationTraining": {
+    "message": "ትምህርት እና ስልጠና"
+  },
+  "group_skillTraining": {
+    "message": "የችሎታ ስልጠና"
+  },
+  "group_financialInvestment": {
+    "message": "ፋይናንስ እና ኢንቨስትመንት"
+  },
+  "group_transportationTravel": {
+    "message": "ትራንስፖርት እና ጉዞ"
+  },
+  "group_cookingGourmet": {
+    "message": "ምግብ እና ጥራት"
+  },
+  "group_petCare": {
+    "message": "የእንስሳት እንክብካቤ"
+  },
+  "group_legalConsultation": {
+    "message": "ህጋዊ አማካሪዎች"
+  },
+  "group_artCulture": {
+    "message": "ስነ ጥበብ እና ባህል"
+  },
+  "group_communityForums": {
+    "message": "የማህበረሰብ መድረኮች"
+  },
+  "group_chatSocial": {
+    "message": "ቻት እና ማህበራዊ"
+  },
+  "group_commonQueries": {
+    "message": "የተለመዱ ጥያቄዎች"
+  },
+  "group_comprehensiveOthers": {
+    "message": "አጠቃላይ እና ሌሎች"
+  },
+  "group_jobRecruitment": {
+    "message": "ስራ ቅጥር"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "ቅጥር እና የስራ ፈላጊ"
+  },
+  "group_motherBaby": {
+    "message": "እናት እና ህጻን"
+  },
+  "group_tutorialsGuides": {
+    "message": "መምሪያዎች እና መመሪያዎች"
+  },
+  "group_goodSitesCollection": {
+    "message": "የተሻሉ ድህረገጾች ስብስብ"
+  },
+  "group_blogArticles": {
+    "message": "ብሎግ ጽሁፎች"
+  },
+  "group_onlineTools": {
+    "message": "የመስመር ላይ መሳሪያዎች"
+  },
+  "group_freeResources": {
+    "message": "ነጻ ምንጮች"
+  },
+  "group_materialResources": {
+    "message": "ቁሳቁሶች ምንጮች"
+  },
+  "group_photography": {
+    "message": "ፎቶግራፊ"
+  },
+  "group_gamblingWebsites": {
+    "message": "የጨዋታ ድህረገጾች"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "የውስጥ ስርዓቶች"
   }
 }

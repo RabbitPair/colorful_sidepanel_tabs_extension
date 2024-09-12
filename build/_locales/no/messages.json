@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Bytt sidepanelposisjon"
+  },
+  "group_newsInformation": {
+    "message": "Nyheter og informasjon"
+  },
+  "group_videoMovies": {
+    "message": "Videoer og filmer"
+  },
+  "group_liveStreaming": {
+    "message": "Direkte og streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Spill og underholdning"
+  },
+  "group_musicWebsites": {
+    "message": "Musikknettsteder"
+  },
+  "group_literatureNovels": {
+    "message": "Litteratur og romaner"
+  },
+  "group_animeWebsites": {
+    "message": "Anime-nettsteder"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-handel og shopping"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologi og digital"
+  },
+  "group_sportsFitness": {
+    "message": "Sport og fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medisinsk og helse"
+  },
+  "group_educationTraining": {
+    "message": "Utdanning og opplæring"
+  },
+  "group_skillTraining": {
+    "message": "Ferdighetstrening"
+  },
+  "group_financialInvestment": {
+    "message": "Finans og investering"
+  },
+  "group_transportationTravel": {
+    "message": "Transport og reise"
+  },
+  "group_cookingGourmet": {
+    "message": "Matlaging og gourmet"
+  },
+  "group_petCare": {
+    "message": "Kjæledyrpleie"
+  },
+  "group_legalConsultation": {
+    "message": "Juridisk konsultasjon"
+  },
+  "group_artCulture": {
+    "message": "Kunst og kultur"
+  },
+  "group_communityForums": {
+    "message": "Samfunnsfora"
+  },
+  "group_chatSocial": {
+    "message": "Chat og sosialt"
+  },
+  "group_commonQueries": {
+    "message": "Vanlige spørsmål"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Omfattende og andre"
+  },
+  "group_jobRecruitment": {
+    "message": "Jobbrekruttering"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekruttering og jobbsøking"
+  },
+  "group_motherBaby": {
+    "message": "Mor og baby"
+  },
+  "group_tutorialsGuides": {
+    "message": "Opplæringer og guider"
+  },
+  "group_goodSitesCollection": {
+    "message": "Gode nettsteder samling"
+  },
+  "group_blogArticles": {
+    "message": "Bloggartikler"
+  },
+  "group_onlineTools": {
+    "message": "Nettverktøy"
+  },
+  "group_freeResources": {
+    "message": "Gratis ressurser"
+  },
+  "group_materialResources": {
+    "message": "Materielle ressurser"
+  },
+  "group_photography": {
+    "message": "Fotografering"
+  },
+  "group_gamblingWebsites": {
+    "message": "Gambling-nettsteder"
+  },
+  "group_nsfw": {
+    "message": "Ikke trygt for arbeid"
+  },
+  "group_internalSystems": {
+    "message": "Interne systemer"
   }
 }

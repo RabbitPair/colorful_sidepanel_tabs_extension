@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Pokročilý obraz v obraze",
   "APIAccess": "API prístup",
   "customizeMenu": "Prispôsobiť menu",
-  "Automation": "Automatizácia"
+  "Automation": "Automatizácia",
+  "tabIndexTips": "Stlačte CMD/Ctrl + {{index}} pre prepnutie na túto kartu",
+  "expandTabHistories": "Rozbaliť históriu kariet",
+  "collapseTabHistories": "Zbaliť históriu kariet",
+  "deleteTabHistory": "Vymazať históriu tejto karty",
+  "deleteTabHistories": "Vymazať všetky histórie tejto karty",
+  "clickToGoBack": "Kliknite pre návrat späť",
+  "clickToGoForward": "Kliknite pre posun vpred",
+  "loading": "Načítava sa",
+  "updateBookmarkUrl": "Aktualizovať URL záložky",
+  "oldUrl": "Stará URL",
+  "newUrl": "Nová URL",
+  "accessible": "Prístupné",
+  "foundUrlRedirect": "Nájdené presmerovanie URL, chcete aktualizovať?"
 }

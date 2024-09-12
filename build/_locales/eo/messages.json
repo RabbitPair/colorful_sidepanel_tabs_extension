@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Ŝanĝi flankpanelan pozicion"
+  },
+  "group_newsInformation": {
+    "message": "Novaĵoj & Informoj"
+  },
+  "group_videoMovies": {
+    "message": "Filmetoj & Filmoj"
+  },
+  "group_liveStreaming": {
+    "message": "Rekta Elsendado"
+  },
+  "group_entertainmentGames": {
+    "message": "Ludoj & Amuzo"
+  },
+  "group_musicWebsites": {
+    "message": "Muzikaj Retejoj"
+  },
+  "group_literatureNovels": {
+    "message": "Literaturo & Romanoj"
+  },
+  "group_animeWebsites": {
+    "message": "Animeaj Retejoj"
+  },
+  "group_ecommerceShopping": {
+    "message": "Komercado & Aĉetado"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologio & Cifereca"
+  },
+  "group_sportsFitness": {
+    "message": "Sportoj & Taŭgeco"
+  },
+  "group_medicalHealth": {
+    "message": "Medicina & Sano"
+  },
+  "group_educationTraining": {
+    "message": "Edukado & Trejnado"
+  },
+  "group_skillTraining": {
+    "message": "Kapabla Trejnado"
+  },
+  "group_financialInvestment": {
+    "message": "Financa & Investado"
+  },
+  "group_transportationTravel": {
+    "message": "Transportado & Vojaĝado"
+  },
+  "group_cookingGourmet": {
+    "message": "Kuiri & Gurmeo"
+  },
+  "group_petCare": {
+    "message": "Dorlotbesta Prizorgo"
+  },
+  "group_legalConsultation": {
+    "message": "Jura Konsulto"
+  },
+  "group_artCulture": {
+    "message": "Arto & Kulturo"
+  },
+  "group_communityForums": {
+    "message": "Komunumaj Forumoj"
+  },
+  "group_chatSocial": {
+    "message": "Babili & Socia"
+  },
+  "group_commonQueries": {
+    "message": "Oftaj Demandoj"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Ampleksa & Aliaj"
+  },
+  "group_jobRecruitment": {
+    "message": "Laboro Rekrutado"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrutado & Laborserĉado"
+  },
+  "group_motherBaby": {
+    "message": "Patrino & Bebo"
+  },
+  "group_tutorialsGuides": {
+    "message": "Lerniloj & Gvidiloj"
+  },
+  "group_goodSitesCollection": {
+    "message": "Bonaj Retejoj Kolekto"
+  },
+  "group_blogArticles": {
+    "message": "Blogaj Artikoloj"
+  },
+  "group_onlineTools": {
+    "message": "Retaj Iloj"
+  },
+  "group_freeResources": {
+    "message": "Senpagaj Rimedoj"
+  },
+  "group_materialResources": {
+    "message": "Materialaj Rimedoj"
+  },
+  "group_photography": {
+    "message": "Fotografio"
+  },
+  "group_gamblingWebsites": {
+    "message": "Vetludaj Retejoj"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Internaj Sistemoj"
   }
 }

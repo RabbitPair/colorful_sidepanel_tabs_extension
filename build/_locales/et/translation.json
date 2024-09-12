@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Täiustatud pilt-pildis",
   "APIAccess": "API juurdepääs",
   "customizeMenu": "Kohanda menüüd",
-  "Automation": "Automatiseerimine"
+  "Automation": "Automatiseerimine",
+  "tabIndexTips": "Vajuta CMD/Ctrl + {{index}}, et sellele vahekaardile lülituda",
+  "expandTabHistories": "Laienda vahekaartide ajalugu",
+  "collapseTabHistories": "Ahenda vahekaartide ajalugu",
+  "deleteTabHistory": "Kustuta see vahekaardi ajalugu",
+  "deleteTabHistories": "Kustuta kõik selle vahekaardi ajaloos",
+  "clickToGoBack": "Klõpsa, et tagasi minna",
+  "clickToGoForward": "Klõpsa, et edasi minna",
+  "loading": "Laadimine",
+  "updateBookmarkUrl": "Uuenda järjehoidja URL",
+  "oldUrl": "Vana URL",
+  "newUrl": "Uus URL",
+  "accessible": "Ligipääsetav",
+  "foundUrlRedirect": "Leiti URL-i ümbersuunamine, kas soovite uuendada?"
 }

@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "साइडबार स्थिती टॉगल करा"
+  },
+  "group_newsInformation": {
+    "message": "बातम्या आणि माहिती"
+  },
+  "group_videoMovies": {
+    "message": "व्हिडिओ आणि चित्रपट"
+  },
+  "group_liveStreaming": {
+    "message": "थेट आणि प्रवाह"
+  },
+  "group_entertainmentGames": {
+    "message": "गेम्स आणि मनोरंजन"
+  },
+  "group_musicWebsites": {
+    "message": "संगीत वेबसाइट्स"
+  },
+  "group_literatureNovels": {
+    "message": "साहित्य आणि कादंबऱ्या"
+  },
+  "group_animeWebsites": {
+    "message": "अॅनिमे वेबसाइट्स"
+  },
+  "group_ecommerceShopping": {
+    "message": "ई-कॉमर्स आणि खरेदी"
+  },
+  "group_technologyDigital": {
+    "message": "तंत्रज्ञान आणि डिजिटल"
+  },
+  "group_sportsFitness": {
+    "message": "क्रीडा आणि फिटनेस"
+  },
+  "group_medicalHealth": {
+    "message": "वैद्यकीय आणि आरोग्य"
+  },
+  "group_educationTraining": {
+    "message": "शिक्षण आणि प्रशिक्षण"
+  },
+  "group_skillTraining": {
+    "message": "कौशल्य प्रशिक्षण"
+  },
+  "group_financialInvestment": {
+    "message": "आर्थिक आणि गुंतवणूक"
+  },
+  "group_transportationTravel": {
+    "message": "वाहतूक आणि प्रवास"
+  },
+  "group_cookingGourmet": {
+    "message": "स्वयंपाक आणि गॉरमेट"
+  },
+  "group_petCare": {
+    "message": "पालकांची काळजी"
+  },
+  "group_legalConsultation": {
+    "message": "कायदेशीर सल्ला"
+  },
+  "group_artCulture": {
+    "message": "कला आणि संस्कृती"
+  },
+  "group_communityForums": {
+    "message": "समुदाय मंच"
+  },
+  "group_chatSocial": {
+    "message": "चॅट आणि सामाजिक"
+  },
+  "group_commonQueries": {
+    "message": "सामान्य प्रश्न"
+  },
+  "group_comprehensiveOthers": {
+    "message": "व्यापक आणि इतर"
+  },
+  "group_jobRecruitment": {
+    "message": "नोकरी भरती"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "भरती आणि नोकरी शोध"
+  },
+  "group_motherBaby": {
+    "message": "आई आणि बाळ"
+  },
+  "group_tutorialsGuides": {
+    "message": "ट्युटोरियल आणि मार्गदर्शक"
+  },
+  "group_goodSitesCollection": {
+    "message": "चांगल्या साइट्स संग्रह"
+  },
+  "group_blogArticles": {
+    "message": "ब्लॉग लेख"
+  },
+  "group_onlineTools": {
+    "message": "ऑनलाइन साधने"
+  },
+  "group_freeResources": {
+    "message": "मोफत संसाधने"
+  },
+  "group_materialResources": {
+    "message": "साहित्य संसाधने"
+  },
+  "group_photography": {
+    "message": "फोटोग्राफी"
+  },
+  "group_gamblingWebsites": {
+    "message": "जुगार वेबसाइट्स"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "आंतरिक प्रणाली"
   }
 }

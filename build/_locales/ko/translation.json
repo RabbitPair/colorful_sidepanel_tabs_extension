@@ -212,5 +212,18 @@
   "advancedPictureInPicture": "고급 화면 속 화면",
   "APIAccess": "API 액세스",
   "customizeMenu": "메뉴 사용자 정의",
-  "Automation": "자동화"
+  "Automation": "자동화",
+  "tabIndexTips": "CMD/Ctrl + {{index}}를 눌러 이 탭으로 전환",
+  "expandTabHistories": "탭 기록 확장",
+  "collapseTabHistories": "탭 기록 축소",
+  "deleteTabHistory": "이 탭 기록 삭제",
+  "deleteTabHistories": "이 탭의 모든 기록 삭제",
+  "clickToGoBack": "뒤로 가려면 클릭",
+  "clickToGoForward": "앞으로 가려면 클릭",
+  "loading": "로딩 중",
+  "updateBookmarkUrl": "북마크 URL 업데이트",
+  "oldUrl": "이전 URL",
+  "newUrl": "새 URL",
+  "accessible": "접근 가능",
+  "foundUrlRedirect": "URL 리디렉션을 발견했습니다. 업데이트하시겠습니까?"
 }

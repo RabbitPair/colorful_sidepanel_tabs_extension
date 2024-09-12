@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "תמונה בתוך תמונה מתקדמת",
   "APIAccess": "גישה ל-API",
   "customizeMenu": "התאם תפריט",
-  "Automation": "אוטומציה"
+  "Automation": "אוטומציה",
+  "tabIndexTips": "לחץ CMD/Ctrl + {{index}} כדי לעבור לכרטיסייה זו",
+  "expandTabHistories": "הרחב היסטוריות כרטיסיות",
+  "collapseTabHistories": "כווץ היסטוריות כרטיסיות",
+  "deleteTabHistory": "מחק היסטוריית כרטיסייה זו",
+  "deleteTabHistories": "מחק את כל היסטוריות הכרטיסייה הזו",
+  "clickToGoBack": "לחץ כדי לחזור",
+  "clickToGoForward": "לחץ כדי להתקדם",
+  "loading": "טוען",
+  "updateBookmarkUrl": "עדכן כתובת סימניה",
+  "oldUrl": "כתובת ישנה",
+  "newUrl": "כתובת חדשה",
+  "accessible": "נגיש",
+  "foundUrlRedirect": "נמצאה הפניה לכתובת URL, האם לעדכן?"
 }

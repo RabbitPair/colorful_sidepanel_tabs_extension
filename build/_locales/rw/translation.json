@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Ifoto y'inyongera mu Ifoto",
   "APIAccess": "Kwinjira muri API",
   "customizeMenu": "Hindura Menu",
-  "Automation": "Gukoresha imashini"
+  "Automation": "Gukoresha imashini",
+  "tabIndexTips": "Kanda CMD/Ctrl + {{index}} kugirango uhindure kuri iyi karita",
+  "expandTabHistories": "Gura amateka y'amakarita",
+  "collapseTabHistories": "Funga amateka y'amakarita",
+  "deleteTabHistory": "Siba aya mateka y'iyi karita",
+  "deleteTabHistories": "Siba amateka yose y'iyi karita",
+  "clickToGoBack": "Kanda kugirango usubire inyuma",
+  "clickToGoForward": "Kanda kugirango ujye imbere",
+  "loading": "Birimo gupakira",
+  "updateBookmarkUrl": "Hindura URL y'ikirango",
+  "oldUrl": "URL ya kera",
+  "newUrl": "URL nshya",
+  "accessible": "Biraboneka",
+  "foundUrlRedirect": "Habonetse URL iyobora ahandi, urashaka kuyihindura?"
 }

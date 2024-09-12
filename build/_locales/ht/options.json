@@ -3,6 +3,7 @@
   "_execute_action": "Aktive ekstansyon sa a",
   "openSidePanel": "Ouvri panèl bò kote",
   "settings": {
+    "premiumEditionOnly": "Sèlman Edisyon Premye",
     "resetCurrentPageSettings": "Reyajiste anviwònman paj kouran an",
     "modules": {
       "appearance": "Aparans",
@@ -287,6 +288,44 @@
         "label": "Retad previzyone",
         "description": "Chwazi tan retad pou previzyon tab lè souvolaj sou tab yo, elatriye (segond). Si ou mete li nan 0, pa gen retad",
         "seconds": "Segond"
+      },
+      "showTabIndex": {
+        "label": "Montre endèks tab la",
+        "description": "Lè aktive, endèks tab la ap parèt bò kote tit la, sa ki fè li fasil pou aktive tab la lè w ap itilize [Ctrl+chif] sou Windows oswa [cmd+chif] sou Mac. Egzanp: 1. stackoverflow.com 2. youtube, konsa li fasil pou fè Ctrl + 2 sou Windows oswa cmd + 2 sou Mac pou ale sou youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Istwa tab",
+        "description": "Lè aktive, istwa sit entènèt yo ki te louvri nan menm tab la ap parèt."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Montre istwa tab sèlman sou tab aktif",
+        "description": "Lè aktive, montre istwa tab sèlman sou tab aktif la, sinon montre istwa tab sou tout tab yo."
+      },
+      "tabHistoryExpand": {
+        "label": "Elaji istwa tab pa default",
+        "description": "Lè aktive, istwa tab la ap elaji pa default."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Montre bouton elaji istwa tab nan lis la",
+        "description": "Lè aktive, yon bouton ap parèt nan lis tab la ke ou ka klike pou elaji oswa kòlapse istwa tab la. Si li dezaktive, ou ka sèlman itilize meni klike-dwa pou elaji oswa kòlapse istwa tab la"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Montre URL istwa tab la",
+        "description": "Lè aktive, URL istwa tab la ap parèt, sinon sèlman tit la ap parèt"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Montre ikòn lè istwa tab la kòlapse",
+        "description": "Lè aktive, montre ikòn istwa tab la lè lis la kòlapse"
+      },
+      "tabHistorySortBy": {
+        "label": "Lòd triye istwa tab la",
+        "description": "Chwazi lòd triye pou istwa tab la",
+        "lastAccessed": "Dènye aksè",
+        "createdAt": "Tan kreye"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Kantite antre istwa tab pou montre",
+        "description": "Limite kantite maksimòm antre istwa tab pou montre. Antre ki depase limit la ap kache"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Double-klike"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Gwoup tab avanse",
+      "customGroupNames": {
+        "label": "Non gwoup koutim",
+        "description": "Ou ka ajoute kèk gwoup predefini isit la, pou ou ka chwazi yo rapidman lè ou bezwen ajoute tab nan yon gwoup. Nou deja predefini kèk non gwoup, ke ou ka modifye oswa efase selon bezwen ou yo.",
+        "ManageGroupNames": "Jere Non Gwoup",
+        "CustomGroupNames": "Non Gwoup Koutim",
+        "ConfirmDelete": "Konfime Efase",
+        "ConfirmDeleteMsg": "Èske ou sèten ou vle efase non sa a?",
+        "AddNewName": "Ajoute nouvo non",
+        "Cancel": "Anile",
+        "Delete": "Efase",
+        "Close": "Fèmen"
+      },
+      "customGroupRemember": {
+        "label": "Sonje gwoup sit",
+        "description": "Lè aktive, si yon sit ajoute nan yon gwoup koutim, li pral otomatikman itilize gwoup sa a pwochen fwa sit la louvri"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Konpòtman kòlapse gwoup tab",
         "description": "Modifye konpòtman kòlapse gwoup tab navigatè Chrome a",
         "option_collapse_others": "Montre gwoup kouran an epi kòlapse lòt yo",
         "option_disable": "Epanse tout gwoup yo",
         "option_auto": "Sèvi ak anviwònman default Chrome a"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Sèvi ak non katab makè kòm non gwoup",
+        "description": "Sèvi ak non katab makè otomatikman kòm non gwoup si URL ki louvri a nan makè yo",
+        "enabled": "Aktive",
+        "disabled": "Dezaktive"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Chwazi Nivo Katab Makè",
+        "description": "Chwazi nivo katab makè pou itilize kòm non gwoup",
+        "top": "Nivo Siperyè",
+        "parent": "Nivo Paran",
+        "full": "Chemen Konplè"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Kreye otomatikman oswa jwenn gwoup menm domèn",
@@ -519,6 +588,16 @@
         "target_top": "Tab Pi Wo",
         "save": "Sove",
         "close": "Fèmen"
+      },
+      "backgroundColor": {
+        "label": "Koulè Fonds",
+        "description": "Chwazi yon koulè fonds pou sit sa a.",
+        "random": "Aleatwa",
+        "clear": "Klè"
+      },
+      "fontColor": {
+        "label": "Koulè Font",
+        "description": "Fikse koulè font pou sit sa a."
       }
     },
     "quickAccess": {

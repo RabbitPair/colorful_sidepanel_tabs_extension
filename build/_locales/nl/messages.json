@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Zijbalkpositie wisselen"
+  },
+  "group_newsInformation": {
+    "message": "Nieuws & Informatie"
+  },
+  "group_videoMovies": {
+    "message": "Video's & Films"
+  },
+  "group_liveStreaming": {
+    "message": "Live & Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Spellen & Entertainment"
+  },
+  "group_musicWebsites": {
+    "message": "Muziekwebsites"
+  },
+  "group_literatureNovels": {
+    "message": "Literatuur & Romans"
+  },
+  "group_animeWebsites": {
+    "message": "Anime Websites"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce & Winkelen"
+  },
+  "group_technologyDigital": {
+    "message": "Technologie & Digitaal"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Medisch & Gezondheid"
+  },
+  "group_educationTraining": {
+    "message": "Onderwijs & Training"
+  },
+  "group_skillTraining": {
+    "message": "Vaardigheidstraining"
+  },
+  "group_financialInvestment": {
+    "message": "Financieel & Investering"
+  },
+  "group_transportationTravel": {
+    "message": "Vervoer & Reizen"
+  },
+  "group_cookingGourmet": {
+    "message": "Koken & Gourmet"
+  },
+  "group_petCare": {
+    "message": "Huisdierverzorging"
+  },
+  "group_legalConsultation": {
+    "message": "Juridisch Advies"
+  },
+  "group_artCulture": {
+    "message": "Kunst & Cultuur"
+  },
+  "group_communityForums": {
+    "message": "Community Forums"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Sociaal"
+  },
+  "group_commonQueries": {
+    "message": "Veelgestelde Vragen"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Uitgebreid & Overig"
+  },
+  "group_jobRecruitment": {
+    "message": "Vacatures"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Werving & Werkzoekenden"
+  },
+  "group_motherBaby": {
+    "message": "Moeder & Baby"
+  },
+  "group_tutorialsGuides": {
+    "message": "Handleidingen & Gidsen"
+  },
+  "group_goodSitesCollection": {
+    "message": "Goede Sites Collectie"
+  },
+  "group_blogArticles": {
+    "message": "Blogartikelen"
+  },
+  "group_onlineTools": {
+    "message": "Online Tools"
+  },
+  "group_freeResources": {
+    "message": "Gratis Bronnen"
+  },
+  "group_materialResources": {
+    "message": "Materiële Bronnen"
+  },
+  "group_photography": {
+    "message": "Fotografie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Gokwebsites"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interne Systemen"
   }
 }

@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Togol kedudukan sidebar"
+  },
+  "group_newsInformation": {
+    "message": "Berita & Maklumat"
+  },
+  "group_videoMovies": {
+    "message": "Video & Filem"
+  },
+  "group_liveStreaming": {
+    "message": "Langsung & Penstriman"
+  },
+  "group_entertainmentGames": {
+    "message": "Permainan & Hiburan"
+  },
+  "group_musicWebsites": {
+    "message": "Laman Web Muzik"
+  },
+  "group_literatureNovels": {
+    "message": "Sastera & Novel"
+  },
+  "group_animeWebsites": {
+    "message": "Laman Web Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-dagang & Membeli-belah"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologi & Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Sukan & Kecergasan"
+  },
+  "group_medicalHealth": {
+    "message": "Perubatan & Kesihatan"
+  },
+  "group_educationTraining": {
+    "message": "Pendidikan & Latihan"
+  },
+  "group_skillTraining": {
+    "message": "Latihan Kemahiran"
+  },
+  "group_financialInvestment": {
+    "message": "Kewangan & Pelaburan"
+  },
+  "group_transportationTravel": {
+    "message": "Pengangkutan & Perjalanan"
+  },
+  "group_cookingGourmet": {
+    "message": "Memasak & Makanan Istimewa"
+  },
+  "group_petCare": {
+    "message": "Penjagaan Haiwan Peliharaan"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultasi Undang-undang"
+  },
+  "group_artCulture": {
+    "message": "Seni & Budaya"
+  },
+  "group_communityForums": {
+    "message": "Forum Komuniti"
+  },
+  "group_chatSocial": {
+    "message": "Sembang & Sosial"
+  },
+  "group_commonQueries": {
+    "message": "Pertanyaan Biasa"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komprehensif & Lain-lain"
+  },
+  "group_jobRecruitment": {
+    "message": "Pengambilan Pekerjaan"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Pengambilan & Mencari Pekerjaan"
+  },
+  "group_motherBaby": {
+    "message": "Ibu & Bayi"
+  },
+  "group_tutorialsGuides": {
+    "message": "Tutorial & Panduan"
+  },
+  "group_goodSitesCollection": {
+    "message": "Koleksi Laman Web Baik"
+  },
+  "group_blogArticles": {
+    "message": "Artikel Blog"
+  },
+  "group_onlineTools": {
+    "message": "Alat Dalam Talian"
+  },
+  "group_freeResources": {
+    "message": "Sumber Percuma"
+  },
+  "group_materialResources": {
+    "message": "Sumber Bahan"
+  },
+  "group_photography": {
+    "message": "Fotografi"
+  },
+  "group_gamblingWebsites": {
+    "message": "Laman Web Perjudian"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistem Dalaman"
   }
 }

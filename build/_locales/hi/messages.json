@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "साइडबार की स्थिति बदलें"
+  },
+  "group_newsInformation": {
+    "message": "समाचार और जानकारी"
+  },
+  "group_videoMovies": {
+    "message": "वीडियो और फिल्में"
+  },
+  "group_liveStreaming": {
+    "message": "लाइव और स्ट्रीमिंग"
+  },
+  "group_entertainmentGames": {
+    "message": "खेल और मनोरंजन"
+  },
+  "group_musicWebsites": {
+    "message": "संगीत वेबसाइट्स"
+  },
+  "group_literatureNovels": {
+    "message": "साहित्य और उपन्यास"
+  },
+  "group_animeWebsites": {
+    "message": "एनीमे वेबसाइट्स"
+  },
+  "group_ecommerceShopping": {
+    "message": "ई-कॉमर्स और खरीदारी"
+  },
+  "group_technologyDigital": {
+    "message": "प्रौद्योगिकी और डिजिटल"
+  },
+  "group_sportsFitness": {
+    "message": "खेल और फिटनेस"
+  },
+  "group_medicalHealth": {
+    "message": "चिकित्सा और स्वास्थ्य"
+  },
+  "group_educationTraining": {
+    "message": "शिक्षा और प्रशिक्षण"
+  },
+  "group_skillTraining": {
+    "message": "कौशल प्रशिक्षण"
+  },
+  "group_financialInvestment": {
+    "message": "वित्तीय और निवेश"
+  },
+  "group_transportationTravel": {
+    "message": "परिवहन और यात्रा"
+  },
+  "group_cookingGourmet": {
+    "message": "खाना पकाने और पेटू"
+  },
+  "group_petCare": {
+    "message": "पालतू देखभाल"
+  },
+  "group_legalConsultation": {
+    "message": "कानूनी परामर्श"
+  },
+  "group_artCulture": {
+    "message": "कला और संस्कृति"
+  },
+  "group_communityForums": {
+    "message": "समुदाय मंच"
+  },
+  "group_chatSocial": {
+    "message": "चैट और सामाजिक"
+  },
+  "group_commonQueries": {
+    "message": "सामान्य प्रश्न"
+  },
+  "group_comprehensiveOthers": {
+    "message": "व्यापक और अन्य"
+  },
+  "group_jobRecruitment": {
+    "message": "नौकरी भर्ती"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "भर्ती और नौकरी की तलाश"
+  },
+  "group_motherBaby": {
+    "message": "माँ और बच्चा"
+  },
+  "group_tutorialsGuides": {
+    "message": "ट्यूटोरियल और गाइड"
+  },
+  "group_goodSitesCollection": {
+    "message": "अच्छी साइटों का संग्रह"
+  },
+  "group_blogArticles": {
+    "message": "ब्लॉग लेख"
+  },
+  "group_onlineTools": {
+    "message": "ऑनलाइन उपकरण"
+  },
+  "group_freeResources": {
+    "message": "मुफ्त संसाधन"
+  },
+  "group_materialResources": {
+    "message": "सामग्री संसाधन"
+  },
+  "group_photography": {
+    "message": "फोटोग्राफी"
+  },
+  "group_gamblingWebsites": {
+    "message": "जुआ वेबसाइट्स"
+  },
+  "group_nsfw": {
+    "message": "एनएसएफडब्ल्यू"
+  },
+  "group_internalSystems": {
+    "message": "आंतरिक प्रणालियाँ"
   }
 }

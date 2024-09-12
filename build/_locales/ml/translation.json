@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "ആധുനിക പിക്ചർ-ഇൻ-പിക്ചർ",
   "APIAccess": "API ആക്സസ്",
   "customizeMenu": "മെനു ഇഷ്ടാനുസൃതമാക്കുക",
-  "Automation": "ഓട്ടോമേഷൻ"
+  "Automation": "ഓട്ടോമേഷൻ",
+  "tabIndexTips": "ഈ ടാബിലേക്ക് മാറാൻ CMD/Ctrl + {{index}} അമർത്തുക",
+  "expandTabHistories": "ടാബ് ചരിത്രങ്ങൾ വിപുലീകരിക്കുക",
+  "collapseTabHistories": "ടാബ് ചരിത്രങ്ങൾ ചുരുക്കുക",
+  "deleteTabHistory": "ഈ ടാബ് ചരിത്രം നീക്കം ചെയ്യുക",
+  "deleteTabHistories": "ഈ ടാബിന്റെ എല്ലാ ചരിത്രങ്ങളും നീക്കം ചെയ്യുക",
+  "clickToGoBack": "തിരികെ പോകാൻ ക്ലിക്ക് ചെയ്യുക",
+  "clickToGoForward": "മുന്നോട്ട് പോകാൻ ക്ലിക്ക് ചെയ്യുക",
+  "loading": "ലോഡിംഗ്",
+  "updateBookmarkUrl": "ബുക്ക്മാർക്ക് URL അപ്ഡേറ്റ് ചെയ്യുക",
+  "oldUrl": "പഴയ URL",
+  "newUrl": "പുതിയ URL",
+  "accessible": "പ്രവേശനയോഗ്യം",
+  "foundUrlRedirect": "URL റീഡയറക്ട് കണ്ടെത്തി, നിങ്ങൾ അപ്ഡേറ്റ് ചെയ്യണോ?"
 }

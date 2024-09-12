@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "பக்கப் பலகையின் நிலையை மாற்றவும்"
+  },
+  "group_newsInformation": {
+    "message": "செய்திகள் மற்றும் தகவல்"
+  },
+  "group_videoMovies": {
+    "message": "வீடியோக்கள் மற்றும் திரைப்படங்கள்"
+  },
+  "group_liveStreaming": {
+    "message": "நேரலை மற்றும் ஸ்ட்ரீமிங்"
+  },
+  "group_entertainmentGames": {
+    "message": "விளையாட்டுகள் மற்றும் பொழுதுபோக்கு"
+  },
+  "group_musicWebsites": {
+    "message": "இசை இணையதளங்கள்"
+  },
+  "group_literatureNovels": {
+    "message": "இலக்கியம் மற்றும் நாவல்கள்"
+  },
+  "group_animeWebsites": {
+    "message": "அனிமே இணையதளங்கள்"
+  },
+  "group_ecommerceShopping": {
+    "message": "மின்வணிகம் மற்றும் ஷாப்பிங்"
+  },
+  "group_technologyDigital": {
+    "message": "தொழில்நுட்பம் மற்றும் டிஜிட்டல்"
+  },
+  "group_sportsFitness": {
+    "message": "விளையாட்டு மற்றும் உடற்பயிற்சி"
+  },
+  "group_medicalHealth": {
+    "message": "மருத்துவம் மற்றும் சுகாதாரம்"
+  },
+  "group_educationTraining": {
+    "message": "கல்வி மற்றும் பயிற்சி"
+  },
+  "group_skillTraining": {
+    "message": "திறன் பயிற்சி"
+  },
+  "group_financialInvestment": {
+    "message": "நிதி மற்றும் முதலீடு"
+  },
+  "group_transportationTravel": {
+    "message": "போக்குவரத்து மற்றும் பயணம்"
+  },
+  "group_cookingGourmet": {
+    "message": "சமையல் மற்றும் நுணுக்கம்"
+  },
+  "group_petCare": {
+    "message": "விலங்கு பராமரிப்பு"
+  },
+  "group_legalConsultation": {
+    "message": "சட்ட ஆலோசனை"
+  },
+  "group_artCulture": {
+    "message": "கலை மற்றும் கலாச்சாரம்"
+  },
+  "group_communityForums": {
+    "message": "சமூக கருத்துக்களங்கள்"
+  },
+  "group_chatSocial": {
+    "message": "அரட்டை மற்றும் சமூக"
+  },
+  "group_commonQueries": {
+    "message": "பொதுவான கேள்விகள்"
+  },
+  "group_comprehensiveOthers": {
+    "message": "விரிவான மற்றும் பிற"
+  },
+  "group_jobRecruitment": {
+    "message": "வேலை ஆட்சேர்ப்பு"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "ஆட்சேர்ப்பு மற்றும் வேலை தேடல்"
+  },
+  "group_motherBaby": {
+    "message": "தாய் மற்றும் குழந்தை"
+  },
+  "group_tutorialsGuides": {
+    "message": "பயிற்சிகள் மற்றும் வழிகாட்டிகள்"
+  },
+  "group_goodSitesCollection": {
+    "message": "நல்ல தளங்களின் தொகுப்பு"
+  },
+  "group_blogArticles": {
+    "message": "வலைப்பதிவு கட்டுரைகள்"
+  },
+  "group_onlineTools": {
+    "message": "ஆன்லைன் கருவிகள்"
+  },
+  "group_freeResources": {
+    "message": "இலவச வளங்கள்"
+  },
+  "group_materialResources": {
+    "message": "பொருள் வளங்கள்"
+  },
+  "group_photography": {
+    "message": "புகைப்படம்"
+  },
+  "group_gamblingWebsites": {
+    "message": "பந்தய இணையதளங்கள்"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "உள் அமைப்புகள்"
   }
 }

@@ -3,6 +3,7 @@
   "_execute_action": "Activar ista estension",
   "openSidePanel": "Abrir o panel lateral",
   "settings": {
+    "premiumEditionOnly": "Solo edición premium",
     "resetCurrentPageSettings": "Reestableixer as configuracions d'a pachina actual",
     "modules": {
       "appearance": "Aparencia",
@@ -287,6 +288,44 @@
         "label": "Retardo d'a previsualización",
         "description": "Achusta o tiempo de retardo ta as previsualizacions de fuellas quan se pasa o ratet sobre as fuellas, etc. (segundos). Si se pone a 0, no habrá retardo",
         "seconds": "Segundos"
+      },
+      "showTabIndex": {
+        "label": "Amostrar índice de fuella",
+        "description": "Quan se habilita, o índice de fuella se mosotrará a o costato d'o títol, facindo fácil activar a fuella usando [Ctrl+número] en Windows u [cmd+número] en Mac. Exemplo: 1. stackoverflow.com 2. youtube, asinas que ye fácil fer Ctrl + 2 en Windows u cmd + 2 en Mac ta ir a youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historial de fuellas",
+        "description": "Quan se habilita, se mosotrará o historial de pachinas web abiertas en a mesma fuella."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Amostrar historial de fuellas nomás en a fuella activa",
+        "description": "Quan se habilita, amostrar historial de fuellas nomás en a fuella activa, si no amostrar historial de fuellas en totas as fuellas."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandir historial de fuellas por defecto",
+        "description": "Quan se habilita, o historial de fuellas se expandirá por defecto."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Amostrar botón de expandir historial de fuellas en a lista",
+        "description": "Quan se habilita, se mosotrará un botón en a lista de fuellas que puedes clicar ta expandir u colapsar o historial de fuellas. Si se deshabilita, nomás puedes usar o menú de clicar-dereito ta expandir u colapsar o historial de fuellas"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Amostrar URL de historial de fuellas",
+        "description": "Quan se habilita, se mosotrará o URL de historial de fuellas, si no nomás se mosotrará o títol"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Amostrar icona quan o historial de fuellas ye colapsato",
+        "description": "Quan se habilita, amostrar icona de historial de fuellas quan a lista ye colapsata"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordenar historial de fuellas",
+        "description": "Seleccionar o orden de clasificación ta o historial de fuellas",
+        "lastAccessed": "Zaguera vez accedito",
+        "createdAt": "Tiempo de creación"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Número de entradas de historial de fuellas ta amostrar",
+        "description": "Limitar o número maximo de entradas de historial de fuellas ta amostrar. As entradas que superen o limite serán ocultatas"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doble clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupos de fuellas avanzatos",
+      "customGroupNames": {
+        "label": "Nombres de grupos personalizatos",
+        "description": "Puez añadir bellos grupos predefinitos aquí, ta que puez seleutcionar-los de traza rápida quan necesites añadir fuellas a un grupo. Ya hemos predefinito bellos nombres de grupos, que puez modificar u eliminar según as tuas necesidades.",
+        "ManageGroupNames": "Administrar nombres de grupos",
+        "CustomGroupNames": "Nombres de grupos personalizatos",
+        "ConfirmDelete": "Confirmar eliminación",
+        "ConfirmDeleteMsg": "Seguro que quiers eliminar iste nombre?",
+        "AddNewName": "Añadir nuevo nombre",
+        "Cancel": "Cancelar",
+        "Delete": "Eliminar",
+        "Close": "Zarrar"
+      },
+      "customGroupRemember": {
+        "label": "Recordar agrupación de sitios",
+        "description": "Quan se habilita, si un sitio se añade a un grupo personalizato, usará automaticament iste grupo a la proxima vez que se abra o sitio"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamiento de colapso de grupos de fuellas",
         "description": "Modificar o comportamiento de colapso de grupos de fuellas d'o navegador Chrome",
         "option_collapse_others": "Amostrar o grupo actual y colapsar os atros",
         "option_disable": "Espander totz os grupos",
         "option_auto": "Usar as configuracions predeterminatas de Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Utilizar el nombre de la carpeta de marcadores como nombre de grupo",
+        "description": "Utilizar automáticamente el nombre de la carpeta de marcadores como nombre de grupo si la URL abierta está en los marcadores",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Seleccionar Nivel de Carpeta de Marcadores",
+        "description": "Elija el nivel de la carpeta de marcadores a utilizar como nombre de grupo",
+        "top": "Nivel Superior",
+        "parent": "Nivel Padre",
+        "full": "Ruta Completa"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto crear u unir-se a un grupo de mesmo dominio",
@@ -519,6 +588,16 @@
         "target_top": "Pestaña Superior",
         "save": "Guardar",
         "close": "Cerrar"
+      },
+      "backgroundColor": {
+        "label": "Color de Fondo",
+        "description": "Selecciona un color de fondo para este sitio.",
+        "random": "Aleatorio",
+        "clear": "Limpiar"
+      },
+      "fontColor": {
+        "label": "Color de Fuente",
+        "description": "Establece el color de fuente para este sitio."
       }
     },
     "quickAccess": {

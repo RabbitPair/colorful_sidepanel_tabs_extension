@@ -3,6 +3,7 @@
   "_execute_action": "Ativar esta extensão",
   "openSidePanel": "Abrir painel lateral",
   "settings": {
+    "premiumEditionOnly": "Somente na edição premium",
     "resetCurrentPageSettings": "Redefinir configurações da página atual",
     "modules": {
       "appearance": "Aparência",
@@ -287,6 +288,44 @@
         "label": "Atraso na visualização",
         "description": "Defina o tempo de atraso para visualizações de abas ao passar o mouse sobre as abas, etc. (segundos). Se definido como 0, não haverá atraso",
         "seconds": "Segundos"
+      },
+      "showTabIndex": {
+        "label": "Mostrar índice da aba",
+        "description": "Quando ativado, o índice da aba será exibido ao lado do título, facilitando a ativação da aba usando [Ctrl+número] no Windows ou [cmd+número] no Mac. Exemplo: 1. stackoverflow.com 2. youtube, para que seja fácil fazer Ctrl + 2 no Windows ou cmd + 2 no Mac para ir ao youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Histórico da aba",
+        "description": "Quando ativado, o histórico dos sites abertos na mesma aba será exibido."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Mostrar histórico da aba apenas na aba ativa",
+        "description": "Quando ativado, mostrar histórico da aba apenas na aba ativa, caso contrário, mostrar histórico da aba em todas as abas."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandir histórico da aba por padrão",
+        "description": "Quando ativado, o histórico da aba será expandido por padrão."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Mostrar botão de expandir histórico da aba na lista",
+        "description": "Quando ativado, um botão será exibido na lista de abas que você pode clicar para expandir ou colapsar o histórico da aba. Se desativado, você só pode usar o menu de clique com o botão direito para expandir ou colapsar o histórico da aba"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Mostrar URL do histórico da aba",
+        "description": "Quando ativado, o URL do histórico da aba será exibido, caso contrário, apenas o título será mostrado"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Mostrar ícone quando o histórico da aba estiver colapsado",
+        "description": "Quando ativado, mostrar ícone do histórico da aba quando a lista estiver colapsada"
+      },
+      "tabHistorySortBy": {
+        "label": "Ordem de classificação do histórico da aba",
+        "description": "Selecione a ordem de classificação para o histórico da aba",
+        "lastAccessed": "Último acesso",
+        "createdAt": "Hora de criação"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Número de entradas do histórico da aba a serem exibidas",
+        "description": "Limite o número máximo de entradas do histórico da aba a serem exibidas. Entradas que excederem o limite serão ocultadas"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Duplo clique"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupos de abas avançados",
+      "customGroupNames": {
+        "label": "Nomes de grupos personalizados",
+        "description": "Você pode adicionar alguns grupos predefinidos aqui, para que possa selecioná-los rapidamente quando precisar adicionar abas a um grupo. Já predefinimos alguns nomes de grupos, que você pode modificar ou excluir conforme suas necessidades.",
+        "ManageGroupNames": "Gerenciar nomes de grupos",
+        "CustomGroupNames": "Nomes de grupos personalizados",
+        "ConfirmDelete": "Confirmar exclusão",
+        "ConfirmDeleteMsg": "Tem certeza de que deseja excluir este nome?",
+        "AddNewName": "Adicionar novo nome",
+        "Cancel": "Cancelar",
+        "Delete": "Excluir",
+        "Close": "Fechar"
+      },
+      "customGroupRemember": {
+        "label": "Lembrar agrupamento de sites",
+        "description": "Quando ativado, se um site for adicionado a um grupo personalizado, ele usará automaticamente esse grupo na próxima vez que o site for aberto"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamento de colapso do grupo de abas",
         "description": "Modificar o comportamento de colapso do grupo de abas do navegador Chrome",
         "option_collapse_others": "Mostrar grupo atual e colapsar outros",
         "option_disable": "Expandir todos os grupos",
         "option_auto": "Usar configurações padrão do Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Usar nome da pasta de favoritos como nome do grupo",
+        "description": "Usar automaticamente o nome da pasta de favoritos como o nome do grupo se a URL aberta estiver nos favoritos",
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Selecionar nível da pasta de favoritos",
+        "description": "Escolha o nível da pasta de favoritos para usar como nome do grupo",
+        "top": "Nível Superior",
+        "parent": "Nível Pai",
+        "full": "Caminho Completo"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Criar ou entrar automaticamente no mesmo grupo de domínio",
@@ -519,6 +588,16 @@
         "target_top": "Aba Superior",
         "save": "Salvar",
         "close": "Fechar"
+      },
+      "backgroundColor": {
+        "label": "Cor de Fundo",
+        "description": "Selecione uma cor de fundo para este site.",
+        "random": "Aleatório",
+        "clear": "Limpar"
+      },
+      "fontColor": {
+        "label": "Cor da Fonte",
+        "description": "Defina a cor da fonte para este site."
       }
     },
     "quickAccess": {

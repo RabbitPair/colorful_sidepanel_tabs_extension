@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Přepnout pozici postranního panelu"
+  },
+  "group_newsInformation": {
+    "message": "Zprávy a informace"
+  },
+  "group_videoMovies": {
+    "message": "Videa a filmy"
+  },
+  "group_liveStreaming": {
+    "message": "Živé vysílání"
+  },
+  "group_entertainmentGames": {
+    "message": "Hry a zábava"
+  },
+  "group_musicWebsites": {
+    "message": "Hudební weby"
+  },
+  "group_literatureNovels": {
+    "message": "Literatura a romány"
+  },
+  "group_animeWebsites": {
+    "message": "Anime weby"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce a nakupování"
+  },
+  "group_technologyDigital": {
+    "message": "Technologie a digitál"
+  },
+  "group_sportsFitness": {
+    "message": "Sport a fitness"
+  },
+  "group_medicalHealth": {
+    "message": "Lékařství a zdraví"
+  },
+  "group_educationTraining": {
+    "message": "Vzdělávání a školení"
+  },
+  "group_skillTraining": {
+    "message": "Trénink dovedností"
+  },
+  "group_financialInvestment": {
+    "message": "Finance a investice"
+  },
+  "group_transportationTravel": {
+    "message": "Doprava a cestování"
+  },
+  "group_cookingGourmet": {
+    "message": "Vaření a gurmánství"
+  },
+  "group_petCare": {
+    "message": "Péče o domácí mazlíčky"
+  },
+  "group_legalConsultation": {
+    "message": "Právní poradenství"
+  },
+  "group_artCulture": {
+    "message": "Umění a kultura"
+  },
+  "group_communityForums": {
+    "message": "Komunitní fóra"
+  },
+  "group_chatSocial": {
+    "message": "Chat a sociální sítě"
+  },
+  "group_commonQueries": {
+    "message": "Běžné dotazy"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komplexní a další"
+  },
+  "group_jobRecruitment": {
+    "message": "Nábor zaměstnanců"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Nábor a hledání zaměstnání"
+  },
+  "group_motherBaby": {
+    "message": "Matka a dítě"
+  },
+  "group_tutorialsGuides": {
+    "message": "Návody a průvodci"
+  },
+  "group_goodSitesCollection": {
+    "message": "Sbírka dobrých webů"
+  },
+  "group_blogArticles": {
+    "message": "Blogové články"
+  },
+  "group_onlineTools": {
+    "message": "Online nástroje"
+  },
+  "group_freeResources": {
+    "message": "Zdarma zdroje"
+  },
+  "group_materialResources": {
+    "message": "Materiální zdroje"
+  },
+  "group_photography": {
+    "message": "Fotografie"
+  },
+  "group_gamblingWebsites": {
+    "message": "Hazardní weby"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Interní systémy"
   }
 }

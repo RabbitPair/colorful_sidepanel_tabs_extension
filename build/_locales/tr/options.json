@@ -3,6 +3,7 @@
   "_execute_action": "Bu uzantıyı etkinleştir",
   "openSidePanel": "Yan paneli aç",
   "settings": {
+    "premiumEditionOnly": "Sadece premium sürümde",
     "resetCurrentPageSettings": "Geçerli sayfa ayarlarını sıfırla",
     "modules": {
       "appearance": "Görünüm",
@@ -287,6 +288,44 @@
         "label": "Önizleme gecikmesi",
         "description": "Sekmelerin üzerine gelindiğinde vb. sekme önizlemeleri için gecikme süresini ayarla (saniye). 0 olarak ayarlanırsa, gecikme olmaz",
         "seconds": "Saniye"
+      },
+      "showTabIndex": {
+        "label": "Sekme dizinini göster",
+        "description": "Etkinleştirildiğinde, sekme dizini başlığın yanında gösterilecek, böylece Windows'ta [Ctrl+numara] veya Mac'te [cmd+numara] kullanarak sekmeyi kolayca etkinleştirebilirsiniz. Örnek: 1. stackoverflow.com 2. youtube, böylece Windows'ta Ctrl + 2 veya Mac'te cmd + 2 yaparak youtube'a gitmek kolay olur"
+      },
+      "tabHistoryEnable": {
+        "label": "Sekme geçmişi",
+        "description": "Etkinleştirildiğinde, aynı sekmede açılan web sitelerinin geçmişi gösterilecek."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Yalnızca aktif sekmede sekme geçmişini göster",
+        "description": "Etkinleştirildiğinde, yalnızca aktif sekmede sekme geçmişi gösterilecek, aksi takdirde tüm sekmelerde sekme geçmişi gösterilecek."
+      },
+      "tabHistoryExpand": {
+        "label": "Sekme geçmişini varsayılan olarak genişlet",
+        "description": "Etkinleştirildiğinde, sekme geçmişi varsayılan olarak genişletilecek."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Listede sekme geçmişini genişletme düğmesini göster",
+        "description": "Etkinleştirildiğinde, sekme geçmişini genişletmek veya daraltmak için tıklayabileceğiniz bir düğme sekme listesinde gösterilecek. Devre dışı bırakıldığında, sekme geçmişini genişletmek veya daraltmak için yalnızca sağ tıklama menüsünü kullanabilirsiniz"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Sekme geçmişi URL'sini göster",
+        "description": "Etkinleştirildiğinde, sekme geçmişi URL'si gösterilecek, aksi takdirde yalnızca başlık gösterilecek"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Sekme geçmişi daraltıldığında simgeyi göster",
+        "description": "Etkinleştirildiğinde, liste daraltıldığında sekme geçmişi simgesi gösterilecek"
+      },
+      "tabHistorySortBy": {
+        "label": "Sekme geçmişi sıralama düzeni",
+        "description": "Sekme geçmişi için sıralama düzenini seçin",
+        "lastAccessed": "Son erişilen",
+        "createdAt": "Oluşturulma zamanı"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Gösterilecek sekme geçmişi giriş sayısı",
+        "description": "Gösterilecek sekme geçmişi girişlerinin maksimum sayısını sınırlayın. Limiti aşan girişler gizlenecek"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Çift tıklama"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Gelişmiş sekme grupları",
+      "customGroupNames": {
+        "label": "Özel grup adları",
+        "description": "Burada önceden tanımlanmış bazı gruplar ekleyebilirsiniz, böylece sekmeleri bir gruba eklemeniz gerektiğinde hızlıca seçebilirsiniz. İhtiyacınıza göre değiştirebileceğiniz veya silebileceğiniz bazı grup adlarını önceden ayarladık.",
+        "ManageGroupNames": "Grup Adlarını Yönet",
+        "CustomGroupNames": "Özel Grup Adları",
+        "ConfirmDelete": "Silme Onayı",
+        "ConfirmDeleteMsg": "Bu adı silmek istediğinizden emin misiniz?",
+        "AddNewName": "Yeni ad ekle",
+        "Cancel": "İptal",
+        "Delete": "Sil",
+        "Close": "Kapat"
+      },
+      "customGroupRemember": {
+        "label": "Site gruplamasını hatırla",
+        "description": "Etkinleştirildiğinde, bir site özel bir gruba eklendiğinde, site bir sonraki açılışında otomatik olarak bu grubu kullanacaktır"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Sekme grubu daraltma davranışı",
         "description": "Chrome tarayıcı sekme grubu daraltma davranışını değiştirin",
         "option_collapse_others": "Mevcut grubu göster ve diğerlerini daralt",
         "option_disable": "Tüm grupları genişlet",
         "option_auto": "Chrome varsayılan ayarlarını kullan"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Yer imi klasör adını grup adı olarak kullan",
+        "description": "Açılan URL yer imlerinde varsa, yer imi klasör adını otomatik olarak grup adı olarak kullan",
+        "enabled": "Etkin",
+        "disabled": "Devre dışı"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Yer İmi Klasör Seviyesini Seç",
+        "description": "Grup adı olarak kullanmak için yer imi klasör seviyesini seçin",
+        "top": "En Üst Seviye",
+        "parent": "Üst Seviye",
+        "full": "Tam Yol"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Aynı alan grubu otomatik oluştur veya katıl",
@@ -519,6 +588,16 @@
         "target_top": "En Üst Sekme",
         "save": "Kaydet",
         "close": "Kapat"
+      },
+      "backgroundColor": {
+        "label": "Arka Plan Rengi",
+        "description": "Bu site için bir arka plan rengi seçin.",
+        "random": "Rastgele",
+        "clear": "Temizle"
+      },
+      "fontColor": {
+        "label": "Yazı Rengi",
+        "description": "Bu site için yazı rengini ayarlayın."
       }
     },
     "quickAccess": {

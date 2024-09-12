@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "I-toggle ang posisyon ng sidebar"
+  },
+  "group_newsInformation": {
+    "message": "Balita at Impormasyon"
+  },
+  "group_videoMovies": {
+    "message": "Mga Video at Pelikula"
+  },
+  "group_liveStreaming": {
+    "message": "Live at Streaming"
+  },
+  "group_entertainmentGames": {
+    "message": "Mga Laro at Libangan"
+  },
+  "group_musicWebsites": {
+    "message": "Mga Website ng Musika"
+  },
+  "group_literatureNovels": {
+    "message": "Panitikan at Nobela"
+  },
+  "group_animeWebsites": {
+    "message": "Mga Website ng Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce at Pamimili"
+  },
+  "group_technologyDigital": {
+    "message": "Teknolohiya at Digital"
+  },
+  "group_sportsFitness": {
+    "message": "Palakasan at Kalusugan"
+  },
+  "group_medicalHealth": {
+    "message": "Medikal at Kalusugan"
+  },
+  "group_educationTraining": {
+    "message": "Edukasyon at Pagsasanay"
+  },
+  "group_skillTraining": {
+    "message": "Pagsasanay ng Kasanayan"
+  },
+  "group_financialInvestment": {
+    "message": "Pinansyal at Pamumuhunan"
+  },
+  "group_transportationTravel": {
+    "message": "Transportasyon at Paglalakbay"
+  },
+  "group_cookingGourmet": {
+    "message": "Pagluluto at Gourmet"
+  },
+  "group_petCare": {
+    "message": "Pag-aalaga ng Alagang Hayop"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultasyong Legal"
+  },
+  "group_artCulture": {
+    "message": "Sining at Kultura"
+  },
+  "group_communityForums": {
+    "message": "Mga Komunidad na Forum"
+  },
+  "group_chatSocial": {
+    "message": "Chat at Social"
+  },
+  "group_commonQueries": {
+    "message": "Karaniwang Mga Tanong"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Komprehensibo at Iba pa"
+  },
+  "group_jobRecruitment": {
+    "message": "Pagre-recruit ng Trabaho"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Pagre-recruit at Paghahanap ng Trabaho"
+  },
+  "group_motherBaby": {
+    "message": "Ina at Sanggol"
+  },
+  "group_tutorialsGuides": {
+    "message": "Mga Tutorial at Gabay"
+  },
+  "group_goodSitesCollection": {
+    "message": "Koleksyon ng Magagandang Site"
+  },
+  "group_blogArticles": {
+    "message": "Mga Artikulo ng Blog"
+  },
+  "group_onlineTools": {
+    "message": "Mga Online na Tool"
+  },
+  "group_freeResources": {
+    "message": "Libreng Mga Mapagkukunan"
+  },
+  "group_materialResources": {
+    "message": "Mga Materyal na Mapagkukunan"
+  },
+  "group_photography": {
+    "message": "Potograpiya"
+  },
+  "group_gamblingWebsites": {
+    "message": "Mga Website ng Pagsusugal"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Mga Panloob na Sistema"
   }
 }

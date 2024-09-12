@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "تصویر در تصویر پیشرفته",
   "APIAccess": "دسترسی API",
   "customizeMenu": "سفارشی‌سازی منو",
-  "Automation": "اتوماسیون"
+  "Automation": "اتوماسیون",
+  "tabIndexTips": "برای جابجایی به این زبانه، CMD/Ctrl + {{index}} را فشار دهید",
+  "expandTabHistories": "گسترش تاریخچه زبانه‌ها",
+  "collapseTabHistories": "جمع کردن تاریخچه زبانه‌ها",
+  "deleteTabHistory": "حذف این تاریخچه زبانه",
+  "deleteTabHistories": "حذف تمام تاریخچه‌های این زبانه",
+  "clickToGoBack": "برای بازگشت کلیک کنید",
+  "clickToGoForward": "برای رفتن به جلو کلیک کنید",
+  "loading": "در حال بارگذاری",
+  "updateBookmarkUrl": "به‌روزرسانی آدرس نشانک",
+  "oldUrl": "آدرس قدیمی",
+  "newUrl": "آدرس جدید",
+  "accessible": "قابل دسترسی",
+  "foundUrlRedirect": "آدرس تغییر مسیر یافته پیدا شد، آیا می‌خواهید به‌روزرسانی کنید؟"
 }

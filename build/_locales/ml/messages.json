@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "സൈഡ്ബാർ സ്ഥാനം മാറ്റുക"
+  },
+  "group_newsInformation": {
+    "message": "വാർത്തകളും വിവരങ്ങളും"
+  },
+  "group_videoMovies": {
+    "message": "വീഡിയോകളും സിനിമകളും"
+  },
+  "group_liveStreaming": {
+    "message": "തത്സമയവും സ്ട്രീമിംഗും"
+  },
+  "group_entertainmentGames": {
+    "message": "ഗെയിമുകളും വിനോദവും"
+  },
+  "group_musicWebsites": {
+    "message": "സംഗീത വെബ്സൈറ്റുകൾ"
+  },
+  "group_literatureNovels": {
+    "message": "സാഹിത്യവും നോവലുകളും"
+  },
+  "group_animeWebsites": {
+    "message": "ആനിമെ വെബ്സൈറ്റുകൾ"
+  },
+  "group_ecommerceShopping": {
+    "message": "ഇ-കൊമേഴ്സും ഷോപ്പിംഗും"
+  },
+  "group_technologyDigital": {
+    "message": "സാങ്കേതികവിദ്യയും ഡിജിറ്റലും"
+  },
+  "group_sportsFitness": {
+    "message": "കായികവും ഫിറ്റ്നസും"
+  },
+  "group_medicalHealth": {
+    "message": "മെഡിക്കൽ & ആരോഗ്യ"
+  },
+  "group_educationTraining": {
+    "message": "വിദ്യാഭ്യാസവും പരിശീലനവും"
+  },
+  "group_skillTraining": {
+    "message": "കൗശല പരിശീലനം"
+  },
+  "group_financialInvestment": {
+    "message": "സാമ്പത്തികവും നിക്ഷേപവും"
+  },
+  "group_transportationTravel": {
+    "message": "ഗതാഗതവും യാത്രയും"
+  },
+  "group_cookingGourmet": {
+    "message": "അടുക്കളയും ഗൗർമെറ്റും"
+  },
+  "group_petCare": {
+    "message": "മൃഗസംരക്ഷണം"
+  },
+  "group_legalConsultation": {
+    "message": "നിയമോപദേശം"
+  },
+  "group_artCulture": {
+    "message": "കലയും സംസ്കാരവും"
+  },
+  "group_communityForums": {
+    "message": "കമ്മ്യൂണിറ്റി ഫോറങ്ങൾ"
+  },
+  "group_chatSocial": {
+    "message": "ചാറ്റും സോഷ്യലും"
+  },
+  "group_commonQueries": {
+    "message": "സാധാരണ ചോദ്യങ്ങൾ"
+  },
+  "group_comprehensiveOthers": {
+    "message": "സമഗ്രവും മറ്റുള്ളവയും"
+  },
+  "group_jobRecruitment": {
+    "message": "ജോലി റിക്രൂട്ട്മെന്റ്"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "റിക്രൂട്ട്മെന്റും ജോലിചെയ്യലും"
+  },
+  "group_motherBaby": {
+    "message": "അമ്മയും കുഞ്ഞും"
+  },
+  "group_tutorialsGuides": {
+    "message": "ട്യൂട്ടോറിയലുകളും ഗൈഡുകളും"
+  },
+  "group_goodSitesCollection": {
+    "message": "നല്ല സൈറ്റുകളുടെ ശേഖരം"
+  },
+  "group_blogArticles": {
+    "message": "ബ്ലോഗ് ലേഖനങ്ങൾ"
+  },
+  "group_onlineTools": {
+    "message": "ഓൺലൈൻ ഉപകരണങ്ങൾ"
+  },
+  "group_freeResources": {
+    "message": "സൗജന്യ വിഭവങ്ങൾ"
+  },
+  "group_materialResources": {
+    "message": "ഭൗതിക വിഭവങ്ങൾ"
+  },
+  "group_photography": {
+    "message": "ഫോട്ടോഗ്രാഫി"
+  },
+  "group_gamblingWebsites": {
+    "message": "ജൂത വെബ്സൈറ്റുകൾ"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "ആന്തരിക സിസ്റ്റങ്ങൾ"
   }
 }

@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Փոխել կողային վահանակի դիրքը"
+  },
+  "group_newsInformation": {
+    "message": "Նորություններ և տեղեկատվություն"
+  },
+  "group_videoMovies": {
+    "message": "Տեսանյութեր և ֆիլմեր"
+  },
+  "group_liveStreaming": {
+    "message": "Ուղիղ եթեր և հոսք"
+  },
+  "group_entertainmentGames": {
+    "message": "Խաղեր և ժամանց"
+  },
+  "group_musicWebsites": {
+    "message": "Երաժշտական կայքեր"
+  },
+  "group_literatureNovels": {
+    "message": "Գրականություն և վեպեր"
+  },
+  "group_animeWebsites": {
+    "message": "Անիմե կայքեր"
+  },
+  "group_ecommerceShopping": {
+    "message": "Էլեկտրոնային առևտուր և գնումներ"
+  },
+  "group_technologyDigital": {
+    "message": "Տեխնոլոգիա և թվային"
+  },
+  "group_sportsFitness": {
+    "message": "Սպորտ և ֆիթնես"
+  },
+  "group_medicalHealth": {
+    "message": "Բժշկական և առողջություն"
+  },
+  "group_educationTraining": {
+    "message": "Կրթություն և ուսուցում"
+  },
+  "group_skillTraining": {
+    "message": "Հմտությունների ուսուցում"
+  },
+  "group_financialInvestment": {
+    "message": "Ֆինանսական և ներդրում"
+  },
+  "group_transportationTravel": {
+    "message": "Տրանսպորտ և ճանապարհորդություն"
+  },
+  "group_cookingGourmet": {
+    "message": "Խոհարարություն և գուրման"
+  },
+  "group_petCare": {
+    "message": "Կենդանիների խնամք"
+  },
+  "group_legalConsultation": {
+    "message": "Իրավաբանական խորհրդատվություն"
+  },
+  "group_artCulture": {
+    "message": "Արվեստ և մշակույթ"
+  },
+  "group_communityForums": {
+    "message": "Համայնքային ֆորումներ"
+  },
+  "group_chatSocial": {
+    "message": "Զրույց և սոցիալական"
+  },
+  "group_commonQueries": {
+    "message": "Հաճախակի հարցեր"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Համապարփակ և այլ"
+  },
+  "group_jobRecruitment": {
+    "message": "Աշխատանքի հավաքագրում"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Հավաքագրում և աշխատանքի որոնում"
+  },
+  "group_motherBaby": {
+    "message": "Մայր և երեխա"
+  },
+  "group_tutorialsGuides": {
+    "message": "Ուսուցումներ և ուղեցույցներ"
+  },
+  "group_goodSitesCollection": {
+    "message": "Լավ կայքերի հավաքածու"
+  },
+  "group_blogArticles": {
+    "message": "Բլոգի հոդվածներ"
+  },
+  "group_onlineTools": {
+    "message": "Առցանց գործիքներ"
+  },
+  "group_freeResources": {
+    "message": "Անվճար ռեսուրսներ"
+  },
+  "group_materialResources": {
+    "message": "Նյութական ռեսուրսներ"
+  },
+  "group_photography": {
+    "message": "Լուսանկարչություն"
+  },
+  "group_gamblingWebsites": {
+    "message": "Խաղային կայքեր"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Ներքին համակարգեր"
   }
 }

@@ -3,6 +3,7 @@
   "_execute_action": "Activate this extension",
   "openSidePanel": "Open side panel",
   "settings": {
+    "premiumEditionOnly": "premium edition Only",
     "resetCurrentPageSettings": "Reset current page settings",
     "modules": {
       "appearance": "Appearance",
@@ -287,6 +288,44 @@
         "label": "Preview delay",
         "description": "Set the delay time for tab previews when hovering over tabs, etc. (seconds). If set to 0, there will be no delay",
         "seconds": "Seconds"
+      },
+      "showTabIndex": {
+        "label": "Show tab index",
+        "description": "When enabled, the tab index will be displayed next to the title, making it easy to active tab using [Ctrl+number] on Windows or [cmd+number] on Mac. Example: 1. stackoverflow.com 2. youtube, so that it's easy to do Ctrl + 2 on Windows or cmd + 2 on Mac to go to youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Tab history",
+        "description": "When enabled, the history of websites opened in the same tab will be displayed."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Show tab history only on active tab",
+        "description": "When enabled, show tab history only on the active tab,else show tab history on all tabs."
+      },
+      "tabHistoryExpand": {
+        "label": "Expand tab history by default",
+        "description": "When enabled, tab history will be expanded by default."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Show expand tab history button in list",
+        "description": "When enabled, a button will be displayed in the tab list that you can click to expand or collapse tab history. If disabled, you can only use the right-click menu to expand or collapse tab history"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Show tab history URL",
+        "description": "When enabled, the tab history URL will be displayed, otherwise only the title will be shown"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Show icon when tab history is collapsed",
+        "description": "When enabled, show tab history icon when the list is collapsed"
+      },
+      "tabHistorySortBy": {
+        "label": "Tab history sort order",
+        "description": "Select the sort order for tab history",
+        "lastAccessed": "Last accessed",
+        "createdAt": "Created time"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Number of tab history entries to show",
+        "description": "Limit the maximum number of tab history entries to show. Entries exceeding the limit will be hidden"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Double-click"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Advanced tab groups",
+      "customGroupNames": {
+        "label": "Custom group names",
+        "description": "You can add some pre-defined groups here, so you can quickly select them when you need to add tabs to a group. We have already preset some group names, which you can modify or delete according to your needs.",
+        "ManageGroupNames": "Manage Group Names",
+        "CustomGroupNames": "Custom Group Names",
+        "ConfirmDelete": "Confirm Delete",
+        "ConfirmDeleteMsg": "Are you sure you want to delete this name?",
+        "AddNewName": "Add new name",
+        "Cancel": "Cancel",
+        "Delete": "Delete",
+        "Close": "Close"
+      },
+      "customGroupRemember": {
+        "label": "Remember site grouping",
+        "description": "When enabled, if a site is added to a custom group, it will automatically use this group the next time the site is opened"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tab group collapse behaviour",
         "description": "Modify the behaviour of the browser tab group collapse",
         "option_collapse_others": "Show current group and collapse others",
         "option_disable": "Expand all groups",
         "option_auto": "Use Browser default settings"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Use bookmark folder name as group name",
+        "description": "Automatically use the bookmark folder name as the group name if the opened URL is in the bookmarks",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Select Bookmark Folder Level",
+        "description": "Choose the level of the bookmark folder to use as the group name",
+        "top": "Top Level",
+        "parent": "Parent Level",
+        "full": "Full Path"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Auto create or join same domain group",
@@ -519,6 +588,16 @@
         "target_top": "Topmost Tab",
         "save": "Save",
         "close": "Close"
+      },
+      "backgroundColor": {
+        "label": "Background Color",
+        "description": "Select a background color for this site.",
+        "random": "Random",
+        "clear": "Clear"
+      },
+      "fontColor": {
+        "label": "Font color",
+        "description": "Set the font color for this site."
       }
     },
     "quickAccess": {

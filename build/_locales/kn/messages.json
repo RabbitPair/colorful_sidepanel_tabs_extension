@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "ಸೈಡ್‌ಬಾರ್ ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "group_newsInformation": {
+    "message": "ಸುದ್ದಿ ಮತ್ತು ಮಾಹಿತಿ"
+  },
+  "group_videoMovies": {
+    "message": "ವೀಡಿಯೊಗಳು ಮತ್ತು ಚಲನಚಿತ್ರಗಳು"
+  },
+  "group_liveStreaming": {
+    "message": "ಲೈವ್ ಮತ್ತು ಸ್ಟ್ರೀಮಿಂಗ್"
+  },
+  "group_entertainmentGames": {
+    "message": "ಮನರಂಜನೆ ಮತ್ತು ಆಟಗಳು"
+  },
+  "group_musicWebsites": {
+    "message": "ಸಂಗೀತ ವೆಬ್‌ಸೈಟ್‌ಗಳು"
+  },
+  "group_literatureNovels": {
+    "message": "ಸಾಹಿತ್ಯ ಮತ್ತು ಕಾದಂಬರಿಗಳು"
+  },
+  "group_animeWebsites": {
+    "message": "ಆನಿಮೆ ವೆಬ್‌ಸೈಟ್‌ಗಳು"
+  },
+  "group_ecommerceShopping": {
+    "message": "ಇ-ಕಾಮರ್ಸ್ ಮತ್ತು ಶಾಪಿಂಗ್"
+  },
+  "group_technologyDigital": {
+    "message": "ತಂತ್ರಜ್ಞಾನ ಮತ್ತು ಡಿಜಿಟಲ್"
+  },
+  "group_sportsFitness": {
+    "message": "ಕ್ರೀಡೆ ಮತ್ತು ಫಿಟ್ನೆಸ್"
+  },
+  "group_medicalHealth": {
+    "message": "ವೈದ್ಯಕೀಯ ಮತ್ತು ಆರೋಗ್ಯ"
+  },
+  "group_educationTraining": {
+    "message": "ಶಿಕ್ಷಣ ಮತ್ತು ತರಬೇತಿ"
+  },
+  "group_skillTraining": {
+    "message": "ಕೌಶಲ್ಯ ತರಬೇತಿ"
+  },
+  "group_financialInvestment": {
+    "message": "ಆರ್ಥಿಕ ಮತ್ತು ಹೂಡಿಕೆ"
+  },
+  "group_transportationTravel": {
+    "message": "ಸಾರಿಗೆ ಮತ್ತು ಪ್ರವಾಸ"
+  },
+  "group_cookingGourmet": {
+    "message": "ಅಡುಗೆ ಮತ್ತು ರುಚಿಕರ"
+  },
+  "group_petCare": {
+    "message": "ಪಾಲುಹಸುಗಳ ಆರೈಕೆ"
+  },
+  "group_legalConsultation": {
+    "message": "ಕಾನೂನು ಸಲಹೆ"
+  },
+  "group_artCulture": {
+    "message": "ಕಲೆ ಮತ್ತು ಸಂಸ್ಕೃತಿ"
+  },
+  "group_communityForums": {
+    "message": "ಸಮುದಾಯ ಫೋರಮ್‌ಗಳು"
+  },
+  "group_chatSocial": {
+    "message": "ಚಾಟ್ ಮತ್ತು ಸಾಮಾಜಿಕ"
+  },
+  "group_commonQueries": {
+    "message": "ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳು"
+  },
+  "group_comprehensiveOthers": {
+    "message": "ಸಮಗ್ರ ಮತ್ತು ಇತರರು"
+  },
+  "group_jobRecruitment": {
+    "message": "ಉದ್ಯೋಗ ನೇಮಕಾತಿ"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "ನೇಮಕಾತಿ ಮತ್ತು ಉದ್ಯೋಗ ಹುಡುಕುವುದು"
+  },
+  "group_motherBaby": {
+    "message": "ತಾಯಿ ಮತ್ತು ಶಿಶು"
+  },
+  "group_tutorialsGuides": {
+    "message": "ಟ್ಯುಟೋರಿಯಲ್‌ಗಳು ಮತ್ತು ಮಾರ್ಗದರ್ಶಿಗಳು"
+  },
+  "group_goodSitesCollection": {
+    "message": "ಉತ್ತಮ ಸೈಟ್‌ಗಳ ಸಂಗ್ರಹ"
+  },
+  "group_blogArticles": {
+    "message": "ಬ್ಲಾಗ್ ಲೇಖನಗಳು"
+  },
+  "group_onlineTools": {
+    "message": "ಆನ್‌ಲೈನ್ ಸಾಧನಗಳು"
+  },
+  "group_freeResources": {
+    "message": "ಉಚಿತ ಸಂಪನ್ಮೂಲಗಳು"
+  },
+  "group_materialResources": {
+    "message": "ವಸ್ತು ಸಂಪನ್ಮೂಲಗಳು"
+  },
+  "group_photography": {
+    "message": "ಫೋಟೋಗ್ರಫಿ"
+  },
+  "group_gamblingWebsites": {
+    "message": "ಜೂಜಾಟ ವೆಬ್‌ಸೈಟ್‌ಗಳು"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "ಆಂತರಿಕ ವ್ಯವಸ್ಥೆಗಳು"
   }
 }

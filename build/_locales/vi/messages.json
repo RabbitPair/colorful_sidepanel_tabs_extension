@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Chuyển đổi vị trí bảng điều khiển bên"
+  },
+  "group_newsInformation": {
+    "message": "Tin tức & Thông tin"
+  },
+  "group_videoMovies": {
+    "message": "Video & Phim"
+  },
+  "group_liveStreaming": {
+    "message": "Trực tiếp & Phát trực tuyến"
+  },
+  "group_entertainmentGames": {
+    "message": "Trò chơi & Giải trí"
+  },
+  "group_musicWebsites": {
+    "message": "Trang web Âm nhạc"
+  },
+  "group_literatureNovels": {
+    "message": "Văn học & Tiểu thuyết"
+  },
+  "group_animeWebsites": {
+    "message": "Trang web Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "Thương mại điện tử & Mua sắm"
+  },
+  "group_technologyDigital": {
+    "message": "Công nghệ & Kỹ thuật số"
+  },
+  "group_sportsFitness": {
+    "message": "Thể thao & Thể hình"
+  },
+  "group_medicalHealth": {
+    "message": "Y tế & Sức khỏe"
+  },
+  "group_educationTraining": {
+    "message": "Giáo dục & Đào tạo"
+  },
+  "group_skillTraining": {
+    "message": "Đào tạo Kỹ năng"
+  },
+  "group_financialInvestment": {
+    "message": "Tài chính & Đầu tư"
+  },
+  "group_transportationTravel": {
+    "message": "Giao thông & Du lịch"
+  },
+  "group_cookingGourmet": {
+    "message": "Nấu ăn & Ẩm thực"
+  },
+  "group_petCare": {
+    "message": "Chăm sóc Thú cưng"
+  },
+  "group_legalConsultation": {
+    "message": "Tư vấn Pháp lý"
+  },
+  "group_artCulture": {
+    "message": "Nghệ thuật & Văn hóa"
+  },
+  "group_communityForums": {
+    "message": "Diễn đàn Cộng đồng"
+  },
+  "group_chatSocial": {
+    "message": "Trò chuyện & Mạng xã hội"
+  },
+  "group_commonQueries": {
+    "message": "Câu hỏi Thường gặp"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Toàn diện & Khác"
+  },
+  "group_jobRecruitment": {
+    "message": "Tuyển dụng"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Tuyển dụng & Tìm việc"
+  },
+  "group_motherBaby": {
+    "message": "Mẹ & Bé"
+  },
+  "group_tutorialsGuides": {
+    "message": "Hướng dẫn & Hướng dẫn"
+  },
+  "group_goodSitesCollection": {
+    "message": "Bộ sưu tập Trang web Tốt"
+  },
+  "group_blogArticles": {
+    "message": "Bài viết Blog"
+  },
+  "group_onlineTools": {
+    "message": "Công cụ Trực tuyến"
+  },
+  "group_freeResources": {
+    "message": "Tài nguyên Miễn phí"
+  },
+  "group_materialResources": {
+    "message": "Tài nguyên Vật liệu"
+  },
+  "group_photography": {
+    "message": "Nhiếp ảnh"
+  },
+  "group_gamblingWebsites": {
+    "message": "Trang web Cờ bạc"
+  },
+  "group_nsfw": {
+    "message": "Không an toàn cho công việc"
+  },
+  "group_internalSystems": {
+    "message": "Hệ thống Nội bộ"
   }
 }

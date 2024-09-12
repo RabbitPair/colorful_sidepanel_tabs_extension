@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Uzlabots attēls attēlā",
   "APIAccess": "API piekļuve",
   "customizeMenu": "Pielāgot izvēlni",
-  "Automation": "Automatizācija"
+  "Automation": "Automatizācija",
+  "tabIndexTips": "Nospiediet CMD/Ctrl + {{index}}, lai pārslēgtos uz šo cilni",
+  "expandTabHistories": "Izvērst cilnes vēsturi",
+  "collapseTabHistories": "Sakļaut cilnes vēsturi",
+  "deleteTabHistory": "Dzēst šo cilnes vēsturi",
+  "deleteTabHistories": "Dzēst visas šīs cilnes vēstures",
+  "clickToGoBack": "Noklikšķiniet, lai atgrieztos",
+  "clickToGoForward": "Noklikšķiniet, lai virzītos uz priekšu",
+  "loading": "Ielādē",
+  "updateBookmarkUrl": "Atjaunināt grāmatzīmes URL",
+  "oldUrl": "Vecais URL",
+  "newUrl": "Jaunais URL",
+  "accessible": "Pieejams",
+  "foundUrlRedirect": "Atrasts URL novirzīšana, vai vēlaties atjaunināt?"
 }

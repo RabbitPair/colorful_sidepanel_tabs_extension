@@ -3,6 +3,7 @@
   "_execute_action": "이 확장 프로그램 활성화",
   "openSidePanel": "사이드 패널 열기",
   "settings": {
+    "premiumEditionOnly": "프리미엄 에디션 전용",
     "resetCurrentPageSettings": "현재 페이지 설정 재설정",
     "modules": {
       "appearance": "외관",
@@ -287,6 +288,44 @@
         "label": "미리보기 지연",
         "description": "탭 위에 마우스를 올릴 때 탭 미리보기의 지연 시간을 설정합니다. (초). 0으로 설정하면 지연이 없습니다",
         "seconds": "초"
+      },
+      "showTabIndex": {
+        "label": "탭 인덱스 표시",
+        "description": "활성화되면 탭 제목 옆에 탭 인덱스가 표시되어 Windows에서는 [Ctrl+숫자], Mac에서는 [cmd+숫자]를 사용하여 탭을 쉽게 활성화할 수 있습니다. 예: 1. stackoverflow.com 2. youtube, 따라서 Windows에서는 Ctrl + 2, Mac에서는 cmd + 2를 눌러 youtube로 이동할 수 있습니다."
+      },
+      "tabHistoryEnable": {
+        "label": "탭 기록",
+        "description": "활성화되면 동일한 탭에서 열었던 웹사이트의 기록이 표시됩니다."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "활성 탭에서만 탭 기록 표시",
+        "description": "활성화되면 활성 탭에서만 탭 기록을 표시하고, 그렇지 않으면 모든 탭에서 탭 기록을 표시합니다."
+      },
+      "tabHistoryExpand": {
+        "label": "기본적으로 탭 기록 확장",
+        "description": "활성화되면 탭 기록이 기본적으로 확장됩니다."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "목록에 탭 기록 확장 버튼 표시",
+        "description": "활성화되면 탭 목록에 탭 기록을 확장하거나 축소할 수 있는 버튼이 표시됩니다. 비활성화되면 오른쪽 클릭 메뉴를 사용하여 탭 기록을 확장하거나 축소할 수 있습니다."
+      },
+      "tabHistoryShowUrl": {
+        "label": "탭 기록 URL 표시",
+        "description": "활성화되면 탭 기록 URL이 표시되고, 그렇지 않으면 제목만 표시됩니다."
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "탭 기록이 축소된 경우 아이콘 표시",
+        "description": "활성화되면 목록이 축소된 경우 탭 기록 아이콘이 표시됩니다."
+      },
+      "tabHistorySortBy": {
+        "label": "탭 기록 정렬 순서",
+        "description": "탭 기록의 정렬 순서를 선택하세요",
+        "lastAccessed": "마지막 접근",
+        "createdAt": "생성 시간"
+      },
+      "tabHistoryKeepCount": {
+        "label": "표시할 탭 기록 항목 수",
+        "description": "표시할 탭 기록 항목의 최대 수를 제한합니다. 제한을 초과하는 항목은 숨겨집니다."
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "더블 클릭"
     },
     "chromeTabGroupAdvanced": {
+      "label": "고급 탭 그룹",
+      "customGroupNames": {
+        "label": "사용자 정의 그룹 이름",
+        "description": "여기에 미리 정의된 그룹을 추가하여 탭을 그룹에 추가할 때 빠르게 선택할 수 있습니다. 이미 일부 그룹 이름이 사전 설정되어 있으며 필요에 따라 수정하거나 삭제할 수 있습니다.",
+        "ManageGroupNames": "그룹 이름 관리",
+        "CustomGroupNames": "사용자 정의 그룹 이름",
+        "ConfirmDelete": "삭제 확인",
+        "ConfirmDeleteMsg": "이 이름을 삭제하시겠습니까?",
+        "AddNewName": "새 이름 추가",
+        "Cancel": "취소",
+        "Delete": "삭제",
+        "Close": "닫기"
+      },
+      "customGroupRemember": {
+        "label": "사이트 그룹 기억",
+        "description": "활성화되면 사이트가 사용자 정의 그룹에 추가될 경우 다음에 사이트를 열 때 자동으로 이 그룹을 사용합니다"
+      },
       "tabGroupCollapseBehavior": {
         "label": "탭 그룹 축소 동작",
         "description": "Chrome 브라우저 탭 그룹 축소 동작 수정",
         "option_collapse_others": "현재 그룹 표시 및 다른 그룹 축소",
         "option_disable": "모든 그룹 확장",
         "option_auto": "Chrome 기본 설정 사용"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "북마크 폴더 이름을 그룹 이름으로 사용",
+        "description": "열린 URL이 북마크에 있는 경우 북마크 폴더 이름을 자동으로 그룹 이름으로 사용",
+        "enabled": "활성화됨",
+        "disabled": "비활성화됨"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "북마크 폴더 레벨 선택",
+        "description": "그룹 이름으로 사용할 북마크 폴더의 레벨을 선택",
+        "top": "최상위 레벨",
+        "parent": "상위 레벨",
+        "full": "전체 경로"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "동일 도메인 그룹 자동 생성 또는 참여",
@@ -519,6 +588,16 @@
         "target_top": "최상위 탭",
         "save": "저장",
         "close": "닫기"
+      },
+      "backgroundColor": {
+        "label": "배경색",
+        "description": "이 사이트의 배경색을 선택하세요.",
+        "random": "랜덤",
+        "clear": "지우기"
+      },
+      "fontColor": {
+        "label": "글자색",
+        "description": "이 사이트의 글자색을 설정하세요."
       }
     },
     "quickAccess": {

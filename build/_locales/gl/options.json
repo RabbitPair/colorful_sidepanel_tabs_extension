@@ -3,6 +3,7 @@
   "_execute_action": "Activar esta extensión",
   "openSidePanel": "Abrir panel lateral",
   "settings": {
+    "premiumEditionOnly": "Só edición premium",
     "resetCurrentPageSettings": "Restablecer configuración da páxina actual",
     "modules": {
       "appearance": "Aparencia",
@@ -287,6 +288,44 @@
         "label": "Retraso da previsualización",
         "description": "Establecer o tempo de retraso para as previsualizacións de lapas ao pasar o rato sobre elas, etc. (segundos). Se se establece en 0, non haberá retraso",
         "seconds": "Segundos"
+      },
+      "showTabIndex": {
+        "label": "Amosar índice de lapas",
+        "description": "Cando está habilitado, o índice da lapa amosarase xunto ao título, facilitando a activación da lapa usando [Ctrl+número] en Windows ou [cmd+número] en Mac. Exemplo: 1. stackoverflow.com 2. youtube, para que sexa fácil facer Ctrl + 2 en Windows ou cmd + 2 en Mac para ir a youtube"
+      },
+      "tabHistoryEnable": {
+        "label": "Historial de lapas",
+        "description": "Cando está habilitado, amosarase o historial de sitios web abertos na mesma lapa."
+      },
+      "tabHistoryOnlyOnActive": {
+        "label": "Amosar historial de lapas só na lapa activa",
+        "description": "Cando está habilitado, amosar historial de lapas só na lapa activa, se non, amosar historial de lapas en todas as lapas."
+      },
+      "tabHistoryExpand": {
+        "label": "Expandir historial de lapas por defecto",
+        "description": "Cando está habilitado, o historial de lapas expandirase por defecto."
+      },
+      "tabHistoryShowExpandBtn": {
+        "label": "Amosar botón de expandir historial de lapas na lista",
+        "description": "Cando está habilitado, amosarase un botón na lista de lapas que podes premer para expandir ou colapsar o historial de lapas. Se está desactivado, só podes usar o menú de clic dereito para expandir ou colapsar o historial de lapas"
+      },
+      "tabHistoryShowUrl": {
+        "label": "Amosar URL do historial de lapas",
+        "description": "Cando está habilitado, amosarase a URL do historial de lapas, se non, só se amosará o título"
+      },
+      "tabHistoryShowIconWhenCollapsed": {
+        "label": "Amosar icona cando o historial de lapas está colapsado",
+        "description": "Cando está habilitado, amosar icona do historial de lapas cando a lista está colapsada"
+      },
+      "tabHistorySortBy": {
+        "label": "Orde de clasificación do historial de lapas",
+        "description": "Seleccionar a orde de clasificación para o historial de lapas",
+        "lastAccessed": "Último acceso",
+        "createdAt": "Hora de creación"
+      },
+      "tabHistoryKeepCount": {
+        "label": "Número de entradas do historial de lapas a amosar",
+        "description": "Limitar o número máximo de entradas do historial de lapas a amosar. As entradas que excedan o límite serán ocultadas"
       }
     },
     "history": {
@@ -362,12 +401,42 @@
       "dblclick": "Doble clic"
     },
     "chromeTabGroupAdvanced": {
+      "label": "Grupos de lapas avanzados",
+      "customGroupNames": {
+        "label": "Nomes de grupos personalizados",
+        "description": "Podes engadir algúns grupos predefinidos aquí, para que poidas seleccionalos rapidamente cando necesites engadir lapas a un grupo. Xa predefinimos algúns nomes de grupos, que podes modificar ou eliminar segundo as túas necesidades.",
+        "ManageGroupNames": "Xestionar nomes de grupos",
+        "CustomGroupNames": "Nomes de grupos personalizados",
+        "ConfirmDelete": "Confirmar eliminación",
+        "ConfirmDeleteMsg": "Estás seguro de que queres eliminar este nome?",
+        "AddNewName": "Engadir novo nome",
+        "Cancel": "Cancelar",
+        "Delete": "Eliminar",
+        "Close": "Pechar"
+      },
+      "customGroupRemember": {
+        "label": "Lembrar agrupación de sitios",
+        "description": "Cando está habilitado, se un sitio é engadido a un grupo personalizado, usará automaticamente este grupo a próxima vez que se abra o sitio"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamento de colapso do grupo de lapas",
         "description": "Modificar o comportamento do colapso do grupo de lapas do navegador Chrome",
         "option_collapse_others": "Amosar o grupo actual e colapsar os demais",
         "option_disable": "Expandir todos os grupos",
         "option_auto": "Usar a configuración predeterminada de Chrome"
+      },
+      "useBookmarkFolderNameAsGroupName": {
+        "label": "Usar o nome do cartafol de marcadores como nome do grupo",
+        "description": "Usar automaticamente o nome do cartafol de marcadores como nome do grupo se o URL aberto está nos marcadores",
+        "enabled": "Habilitado",
+        "disabled": "Desactivado"
+      },
+      "groupSelectBookmarkFolderLevel": {
+        "label": "Seleccionar nivel do cartafol de marcadores",
+        "description": "Elixe o nivel do cartafol de marcadores para usar como nome do grupo",
+        "top": "Nivel superior",
+        "parent": "Nivel pai",
+        "full": "Ruta completa"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Crear ou unirse automaticamente ao grupo do mesmo dominio",
@@ -519,6 +588,16 @@
         "target_top": "Lapela superior",
         "save": "Gardar",
         "close": "Pechar"
+      },
+      "backgroundColor": {
+        "label": "Cor de fondo",
+        "description": "Selecciona un cor de fondo para este sitio.",
+        "random": "Aleatorio",
+        "clear": "Limpar"
+      },
+      "fontColor": {
+        "label": "Cor da fonte",
+        "description": "Establece o cor da fonte para este sitio."
       }
     },
     "quickAccess": {

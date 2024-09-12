@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "Avanceret billede-i-billede",
   "APIAccess": "API-adgang",
   "customizeMenu": "Tilpas menu",
-  "Automation": "Automatisering"
+  "Automation": "Automatisering",
+  "tabIndexTips": "Tryk CMD/Ctrl + {{index}} for at skifte til denne fane",
+  "expandTabHistories": "Udvid fanebladshistorik",
+  "collapseTabHistories": "Skjul fanebladshistorik",
+  "deleteTabHistory": "Slet denne fanebladshistorik",
+  "deleteTabHistories": "Slet alle historikker for denne fane",
+  "clickToGoBack": "Klik for at gå tilbage",
+  "clickToGoForward": "Klik for at gå fremad",
+  "loading": "Indlæser",
+  "updateBookmarkUrl": "Opdater bogmærke-URL",
+  "oldUrl": "Gammel URL",
+  "newUrl": "Ny URL",
+  "accessible": "Tilgængelig",
+  "foundUrlRedirect": "Fundet URL-omdirigering, vil du opdatere?"
 }

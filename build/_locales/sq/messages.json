@@ -22,5 +22,113 @@
   },
   "toggleSidebarPosition": {
     "message": "Ndrysho pozicionin e panelit anësor"
+  },
+  "group_newsInformation": {
+    "message": "Lajme & Informacion"
+  },
+  "group_videoMovies": {
+    "message": "Video & Filma"
+  },
+  "group_liveStreaming": {
+    "message": "Drejtpërdrejt & Transmetim"
+  },
+  "group_entertainmentGames": {
+    "message": "Lojëra & Argëtim"
+  },
+  "group_musicWebsites": {
+    "message": "Faqet e Muzikës"
+  },
+  "group_literatureNovels": {
+    "message": "Letërsi & Romane"
+  },
+  "group_animeWebsites": {
+    "message": "Faqet e Anime"
+  },
+  "group_ecommerceShopping": {
+    "message": "E-commerce & Blerje"
+  },
+  "group_technologyDigital": {
+    "message": "Teknologji & Digjitale"
+  },
+  "group_sportsFitness": {
+    "message": "Sport & Fitnes"
+  },
+  "group_medicalHealth": {
+    "message": "Mjekësi & Shëndetësi"
+  },
+  "group_educationTraining": {
+    "message": "Arsim & Trajnim"
+  },
+  "group_skillTraining": {
+    "message": "Trajnim Aftësish"
+  },
+  "group_financialInvestment": {
+    "message": "Financa & Investime"
+  },
+  "group_transportationTravel": {
+    "message": "Transport & Udhëtime"
+  },
+  "group_cookingGourmet": {
+    "message": "Gatim & Gurmë"
+  },
+  "group_petCare": {
+    "message": "Kujdesi për Kafshët"
+  },
+  "group_legalConsultation": {
+    "message": "Konsultim Ligjor"
+  },
+  "group_artCulture": {
+    "message": "Art & Kulturë"
+  },
+  "group_communityForums": {
+    "message": "Forume Komuniteti"
+  },
+  "group_chatSocial": {
+    "message": "Chat & Sociale"
+  },
+  "group_commonQueries": {
+    "message": "Pyetje të Përgjithshme"
+  },
+  "group_comprehensiveOthers": {
+    "message": "Gjithëpërfshirëse & Të Tjera"
+  },
+  "group_jobRecruitment": {
+    "message": "Rekrutimi i Punës"
+  },
+  "group_jobRecruitmentAlt": {
+    "message": "Rekrutimi & Kërkimi i Punës"
+  },
+  "group_motherBaby": {
+    "message": "Nëna & Foshnja"
+  },
+  "group_tutorialsGuides": {
+    "message": "Udhëzues & Mësime"
+  },
+  "group_goodSitesCollection": {
+    "message": "Koleksioni i Faqeve të Mira"
+  },
+  "group_blogArticles": {
+    "message": "Artikuj Blogu"
+  },
+  "group_onlineTools": {
+    "message": "Mjete Online"
+  },
+  "group_freeResources": {
+    "message": "Burime Falas"
+  },
+  "group_materialResources": {
+    "message": "Burime Materiale"
+  },
+  "group_photography": {
+    "message": "Fotografi"
+  },
+  "group_gamblingWebsites": {
+    "message": "Faqet e Lojërave të Fatit"
+  },
+  "group_nsfw": {
+    "message": "NSFW"
+  },
+  "group_internalSystems": {
+    "message": "Sistemet e Brendshme"
   }
 }

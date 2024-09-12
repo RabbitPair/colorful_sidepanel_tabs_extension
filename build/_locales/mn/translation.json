@@ -209,5 +209,18 @@
   "advancedPictureInPicture": "Дэвшилтэт зураг доторх зураг",
   "APIAccess": "API хандалт",
   "customizeMenu": "Цэсийг өөрчлөх",
-  "Automation": "Автоматжуулалт"
+  "Automation": "Автоматжуулалт",
+  "tabIndexTips": "CMD/Ctrl + {{index}} дарж энэ таб руу шилжинэ үү",
+  "expandTabHistories": "Табын түүхийг өргөжүүлэх",
+  "collapseTabHistories": "Табын түүхийг багасгах",
+  "deleteTabHistory": "Энэ табын түүхийг устгах",
+  "deleteTabHistories": "Энэ табын бүх түүхийг устгах",
+  "clickToGoBack": "Буцахын тулд дарна уу",
+  "clickToGoForward": "Урагшлахын тулд дарна уу",
+  "loading": "Ачаалж байна",
+  "updateBookmarkUrl": "Хавчуурганы URL шинэчлэх",
+  "oldUrl": "Хуучин URL",
+  "newUrl": "Шинэ URL",
+  "accessible": "Хүртээмжтэй",
+  "foundUrlRedirect": "URL дахин чиглүүлэлт олдлоо, шинэчлэхийг хүсэж байна уу?"
 }

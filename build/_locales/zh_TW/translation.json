@@ -222,5 +222,18 @@
   "advancedPictureInPicture": "高級畫中畫",
   "APIAccess": "API訪問",
   "customizeMenu": "自定義菜單",
-  "Automation": "自動化"
+  "Automation": "自動化",
+  "tabIndexTips": "按 CMD/Ctrl + {{index}} 切換到此標籤",
+  "expandTabHistories": "展開標籤歷史",
+  "collapseTabHistories": "折疊標籤歷史",
+  "deleteTabHistory": "刪除此標籤歷史",
+  "deleteTabHistories": "刪除此標籤的所有歷史記錄",
+  "clickToGoBack": "點擊返回",
+  "clickToGoForward": "點擊前進",
+  "loading": "加載中",
+  "updateBookmarkUrl": "更新書籤網址",
+  "oldUrl": "舊網址",
+  "newUrl": "新網址",
+  "accessible": "可訪問",
+  "foundUrlRedirect": "發現網址重定向，是否更新？"
 }
