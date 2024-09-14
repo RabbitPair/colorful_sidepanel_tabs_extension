@@ -235,5 +235,11 @@
   "oldUrl": "Oude URL",
   "newUrl": "Nieuwe URL",
   "accessible": "Toegankelijk",
-  "foundUrlRedirect": "URL-omleiding gevonden, wilt u bijwerken?"
+  "foundUrlRedirect": "URL-omleiding gevonden, wilt u bijwerken?",
+  "clear": "Wissen",
+  "clearTabsTips": "Sla een momentopname op en sluit alle tabbladen behalve het momenteel actieve tabblad. Je kunt ze herstellen vanuit recent gesloten tabbladen of momentopnamen.",
+  "shortName": "Korte naam",
+  "expandIcons": "Pictogrammen uitvouwen",
+  "expandList": "Lijst uitvouwen",
+  "openAllUrls": "Alle URL's openen"
 }

@@ -222,5 +222,11 @@
   "oldUrl": "Lumang URL",
   "newUrl": "Bagong URL",
   "accessible": "Naa-access",
-  "foundUrlRedirect": "Natagpuan ang pag-redirect ng URL, nais mo bang i-update?"
+  "foundUrlRedirect": "Natagpuan ang pag-redirect ng URL, nais mo bang i-update?",
+  "clear": "I-clear",
+  "clearTabsTips": "I-save ang isang snapshot at isara ang lahat ng mga tab maliban sa kasalukuyang aktibong tab. Maaari mong ibalik ang mga ito mula sa kamakailang isinara na mga tab o mga snapshot.",
+  "shortName": "Maikling pangalan",
+  "expandIcons": "Palawakin ang mga Icon",
+  "expandList": "Palawakin ang listahan",
+  "openAllUrls": "Buksan ang Lahat ng URL"
 }

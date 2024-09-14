@@ -196,6 +196,10 @@
         "label": "Fényerő",
         "description": "A fényerő beállítása, csak sötét módhoz ajánlott"
       },
+      "listVerticalSpacing": {
+        "label": "Lista függőleges távolsága",
+        "description": "Állítsa be a lista függőleges távolságát"
+      },
       "listBackgroundStyle": {
         "label": "Lista háttérstílusa",
         "description": "A lista háttérstílusának beállítása",
@@ -418,6 +422,17 @@
         "label": "Webhelycsoportosítás megjegyzése",
         "description": "Ha engedélyezve van, ha egy webhelyet hozzáadnak egy egyéni csoporthoz, akkor a következő alkalommal, amikor a webhely megnyílik, automatikusan ezt a csoportot fogja használni"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatikus lapcsoport aktiválás",
+        "description": "Ha engedélyezve van, egy új lap megnyitása új csoportot hoz létre. Minden új lap, amelyet az új lapról nyitnak meg, ennek a csoportnak a része lesz."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Automatikus lapcsoport aktiválás neve",
+        "description": "Adja meg, hogyan nevezze el a csoportokat új csoport létrehozásakor",
+        "none": "Nincs",
+        "title": "Cím",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Lapcsoport összeomlási viselkedés",
         "description": "A Chrome böngésző lapcsoport összeomlási viselkedésének módosítása",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Gyors hozzáférés megjelenítése",
         "description": "Beállíthat egy lapot, hogy megjelenjen a Gyors hozzáférésben a könnyű elérés érdekében. Csak kattintson jobb gombbal (vagy nyomja meg hosszan), és válassza a 'Rögzítés a Gyors hozzáféréshez' lehetőséget. Az eltávolításhoz kattintson jobb gombbal (vagy nyomja meg hosszan), és válassza a 'Törlés a Gyors hozzáférésből' lehetőséget. A rögzített lapoktól eltérően a Gyors hozzáférés menti az URL-t, és minden kattintáskor új lapot nyit meg."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Függőleges távolság",
+        "description": "Állítsa be a Gyors hozzáférés elemeinek függőleges távolságát."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Vízszintes távolság",
+        "description": "Állítsa be a Gyors hozzáférés elemeinek vízszintes távolságát."
+      },
+      "quickAccessGroupView": {
+        "label": "Csoport nézet",
+        "description": "Csoport nézet megjelenítése ikon csoport vagy rövid név gomb szerint.",
+        "short_name": "Rövid név",
+        "icons": "Ikonok"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Csoport kattintási művelet",
+        "description": "Állítsa be a műveletet, amikor egy Gyors hozzáférés csoportot kattintanak.",
+        "openAllUrls": "Összes URL megnyitása",
+        "expandIcons": "Ikonok kibontása",
+        "expandList": "Lista kibontása"
       },
       "selectFromHistory": {
         "label": "Kiválasztás az előzményekből",

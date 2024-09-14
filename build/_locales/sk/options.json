@@ -196,6 +196,10 @@
         "label": "Jas",
         "description": "Nastavte jas, odporúčané iba pre tmavý režim"
       },
+      "listVerticalSpacing": {
+        "label": "Vertikálne rozostupy zoznamu",
+        "description": "Nastavte vertikálne rozostupy zoznamu"
+      },
       "listBackgroundStyle": {
         "label": "Štýl pozadia zoznamu",
         "description": "Nastavte štýl pozadia zoznamu",
@@ -418,6 +422,17 @@
         "label": "Zapamätať si zoskupenie stránok",
         "description": "Keď je povolené, ak je stránka pridaná do vlastnej skupiny, pri ďalšom otvorení stránky sa automaticky použije táto skupina"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatické aktivovanie zoskupenia kariet",
+        "description": "Keď je povolené, otvorenie novej karty vytvorí novú skupinu. Každá karta otvorená z novej karty bude súčasťou tejto skupiny."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Názov automatického aktivovania zoskupenia kariet",
+        "description": "Určte, ako pomenovať skupiny pri vytváraní novej skupiny",
+        "none": "Žiadne",
+        "title": "Názov",
+        "domain": "Doména"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Správanie zoskupenia kariet",
         "description": "Upravte správanie zoskupenia kariet v prehliadači Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Zobraziť rýchly prístup",
         "description": "Môžete nastaviť kartu, aby sa zobrazovala v Rýchlom prístupe pre jednoduchý prístup. Stačí kliknúť pravým tlačidlom myši (alebo dlho stlačiť) a vybrať 'Pripnúť do Rýchleho prístupu'. Pre odstránenie kliknite pravým tlačidlom myši (alebo dlho stlačte) a vyberte 'Odstrániť z Rýchleho prístupu'. Na rozdiel od pripnutých kariet, Rýchly prístup ukladá URL adresu a otvára novú kartu pri každom kliknutí."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikálne medzery",
+        "description": "Nastavte vertikálne medzery pre položky Rýchleho prístupu."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontálne medzery",
+        "description": "Nastavte horizontálne medzery pre položky Rýchleho prístupu."
+      },
+      "quickAccessGroupView": {
+        "label": "Zobrazenie skupiny",
+        "description": "Zobraziť zobrazenie skupiny podľa skupiny ikon alebo tlačidla s krátkym názvom.",
+        "short_name": "Krátky názov",
+        "icons": "Ikony"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Akcia kliknutia na skupinu",
+        "description": "Nakonfigurujte akciu pri kliknutí na skupinu Rýchleho prístupu.",
+        "openAllUrls": "Otvoriť všetky URL",
+        "expandIcons": "Rozbaliť ikony",
+        "expandList": "Rozbaliť zoznam"
       },
       "selectFromHistory": {
         "label": "Vybrať z histórie",

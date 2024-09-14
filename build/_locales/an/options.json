@@ -196,6 +196,10 @@
         "label": "Lluminositat",
         "description": "Achusta la lluminositat, recomanat només per al mode fosc"
       },
+      "listVerticalSpacing": {
+        "label": "Espaciado vertical de la lista",
+        "description": "Establecer el espaciado vertical de la lista"
+      },
       "listBackgroundStyle": {
         "label": "Estilo de fondo d'a lista",
         "description": "Achusta l'estilo de fondo d'a lista",
@@ -418,6 +422,17 @@
         "label": "Recordar agrupación de sitios",
         "description": "Quan se habilita, si un sitio se añade a un grupo personalizato, usará automaticament iste grupo a la proxima vez que se abra o sitio"
       },
+      "autoActivateTabGrouping": {
+        "label": "Activar automáticamente la agrupación de pestañas",
+        "description": "Cuando está habilitado, abrir una nueva pestaña crea un nuevo grupo. Cada pestaña abierta desde la nueva pestaña será parte de este grupo."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nombre de agrupación de pestañas automática",
+        "description": "Especificar cómo nombrar los grupos al crear un nuevo grupo",
+        "none": "Ninguno",
+        "title": "Título",
+        "domain": "Dominio"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamiento de colapso de grupos de fuellas",
         "description": "Modificar o comportamiento de colapso de grupos de fuellas d'o navegador Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Mostrar Acceso Rápido",
         "description": "Puede configurar una pestaña para que aparezca en Acceso Rápido para un acceso fácil. Simplemente haga clic derecho (o mantenga presionado) y seleccione 'Fijar en Acceso Rápido'. Para eliminarlo, haga clic derecho (o mantenga presionado) y seleccione 'Eliminar de Acceso Rápido'. A diferencia de las pestañas fijadas, Acceso Rápido guarda la URL y abre una nueva pestaña cada vez que se hace clic."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Espaciado Vertical",
+        "description": "Establezca el espaciado vertical para los elementos de Acceso Rápido."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Espaciado Horizontal",
+        "description": "Establezca el espaciado horizontal para los elementos de Acceso Rápido."
+      },
+      "quickAccessGroupView": {
+        "label": "Vista de Grupo",
+        "description": "Mostrar vista de grupo por grupo de iconos o botón de nombre corto.",
+        "short_name": "Nombre Corto",
+        "icons": "Iconos"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Acción al Hacer Clic en el Grupo",
+        "description": "Configure la acción cuando se hace clic en un grupo de Acceso Rápido.",
+        "openAllUrls": "Abrir Todas las URLs",
+        "expandIcons": "Expandir Iconos",
+        "expandList": "Expandir Lista"
       },
       "selectFromHistory": {
         "label": "Seleccionar del Historial",

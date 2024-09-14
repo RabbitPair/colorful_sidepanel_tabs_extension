@@ -196,6 +196,10 @@
         "label": "Soilleireachd",
         "description": "Suidhich an t-soilleireachd, moladh airson modh dorcha a-mhàin"
       },
+      "listVerticalSpacing": {
+        "label": "Farsaingeachd liosta dhìreach",
+        "description": "Suidhich farsaingeachd liosta dhìreach"
+      },
       "listBackgroundStyle": {
         "label": "Stoidhle cùlaiche liosta",
         "description": "Suidhich stoidhle cùlaiche liosta",
@@ -418,6 +422,17 @@
         "label": "Cuimhnich buidheann làraich",
         "description": "Nuair a tha e comasach, ma thèid làrach a chur ri buidheann àbhaisteach, cleachdaidh e an aon bhuidheann an ath thuras a thèid an làrach fhosgladh gu fèin-obrachail"
       },
+      "autoActivateTabGrouping": {
+        "label": "Gnìomhachadh fèin-ghluasadach buidhnean taba",
+        "description": "Nuair a tha e comasach, bidh fosgladh taba ùr a' cruthachadh buidheann ùr. Bidh gach taba a thèid fhosgladh bhon taba ùr seo mar phàirt den bhuidheann seo."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Ainm buidhne fèin-ghluasadach",
+        "description": "Sònraich mar a chuireas tu ainm air buidhnean nuair a chruthaicheas tu buidheann ùr",
+        "none": "Gun ainm",
+        "title": "Tiotal",
+        "domain": "Àrainn"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Iomairt tabaich gruop",
         "description": "Atharraich iomairt tabaich gruop brabhsair Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Seall Cothrom Luath",
         "description": "Faodaidh tu tab a shuidheachadh gus nochdadh ann an Cothrom Luath airson cothrom furasta. Dìreach briog deas (no brùth fada) air agus tagh 'Prìne gu Cothrom Luath'. Gus a thoirt air falbh, briog deas (no brùth fada) air agus tagh 'Sguab às bho Chothrom Luath'. Eu-coltach ri tabaichean prìne, bidh Cothrom Luath a' sàbhaladh an URL agus a' fosgladh tab ùr gach uair a thèid a bhriogadh."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Farsaingeachd Dhìreach",
+        "description": "Suidhich an farsaingeachd dhìreach airson nithean Cothrom Luath."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Farsaingeachd Chòmhnard",
+        "description": "Suidhich an farsaingeachd chòmhnard airson nithean Cothrom Luath."
+      },
+      "quickAccessGroupView": {
+        "label": "Sealladh Buidhne",
+        "description": "Seall sealladh buidhne le buidheann ìomhaighean no putan ainm goirid.",
+        "short_name": "Ainm Goirid",
+        "icons": "Ìomhaighean"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gnìomh Cliog Buidhne",
+        "description": "Rèitich an gnìomh nuair a thèid buidheann Cothrom Luath a bhriogadh.",
+        "openAllUrls": "Fosgail a h-uile URL",
+        "expandIcons": "Leudaich Ìomhaighean",
+        "expandList": "Leudaich Liosta"
       },
       "selectFromHistory": {
         "label": "Tagh bho Eachdraidh",

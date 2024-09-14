@@ -196,6 +196,10 @@
         "label": "Gile",
         "description": "Socraigh an gile, moltaítear é ach do mód dorcha amháin"
       },
+      "listVerticalSpacing": {
+        "label": "Spásáil ingearach liosta",
+        "description": "Socraigh an spásáil ingearach liosta"
+      },
       "listBackgroundStyle": {
         "label": "Stíl cúlra liosta",
         "description": "Socraigh stíl cúlra an liosta",
@@ -418,6 +422,17 @@
         "label": "Cuimhnigh ar ghrúpáil láithreán",
         "description": "Nuair a chumasfar é, má chuirtear suíomh le grúpa saincheaptha, úsáidfidh sé an grúpa seo go huathoibríoch an chéad uair eile a osclaítear an suíomh"
       },
+      "autoActivateTabGrouping": {
+        "label": "Gníomhachtaigh Grúpáil Cluaisíní go huathoibríoch",
+        "description": "Nuair a chumasfar é, cruthóidh oscailt cluaisín nua grúpa nua. Beidh gach cluaisín a osclaítear ón gcluaisín nua mar chuid den ghrúpa seo."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Ainm Grúpála Cluaisíní Gníomhachtaithe go huathoibríoch",
+        "description": "Sonraigh conas grúpaí a ainmniú nuair a chruthaítear grúpa nua",
+        "none": "Dada",
+        "title": "Teideal",
+        "domain": "Fearann"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Feidhmíocht dúnadh grúpaí tapaí",
         "description": "Athraigh feidhmíocht dúnadh grúpaí tapaí brabhsála Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Taispeáin Rochtain Thapa",
         "description": "Is féidir leat cluaisín a shocrú chun le feiceáil i Rochtain Thapa le haghaidh rochtain éasca. Cliceáil ar dheis (nó brúigh fada) air agus roghnaigh 'Pin to Quick Access'. Chun é a bhaint, cliceáil ar dheis (nó brúigh fada) air agus roghnaigh 'Scrios ó Rochtain Thapa'. Murab ionann agus cluaisíní pinnte, sábhálann Rochtain Thapa an URL agus osclaíonn sé cluaisín nua gach uair a chliceáiltear air."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Spásáil Ingearach",
+        "description": "Socraigh an spásáil ingearach do mhíreanna Rochtain Thapa."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Spásáil Cothrománach",
+        "description": "Socraigh an spásáil chothrománach do mhíreanna Rochtain Thapa."
+      },
+      "quickAccessGroupView": {
+        "label": "Amharc Grúpa",
+        "description": "Taispeáin amharc grúpa de réir grúpa deilbhíní nó cnaipe ainm gearr.",
+        "short_name": "Ainm Gearr",
+        "icons": "Deilbhíní"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gníomh Cliceáil Grúpa",
+        "description": "Cumraigh an gníomh nuair a chliceáiltear ar ghrúpa Rochtain Thapa.",
+        "openAllUrls": "Oscail Gach URL",
+        "expandIcons": "Leathnaigh Deilbhíní",
+        "expandList": "Leathnaigh Liosta"
       },
       "selectFromHistory": {
         "label": "Roghnaigh ón Stair",

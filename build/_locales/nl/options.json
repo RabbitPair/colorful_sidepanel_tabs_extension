@@ -196,6 +196,10 @@
         "label": "Helderheid",
         "description": "Stel de helderheid in, aanbevolen alleen voor donkere modus"
       },
+      "listVerticalSpacing": {
+        "label": "Lijst verticale afstand",
+        "description": "Stel de verticale afstand van de lijst in"
+      },
       "listBackgroundStyle": {
         "label": "Achtergrondstijl lijst",
         "description": "Stel de achtergrondstijl van de lijst in",
@@ -418,6 +422,17 @@
         "label": "Sitegroepering onthouden",
         "description": "Wanneer ingeschakeld, zal een site die aan een aangepaste groep is toegevoegd, deze groep automatisch gebruiken de volgende keer dat de site wordt geopend"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatisch activeren van tabbladgroepering",
+        "description": "Wanneer ingeschakeld, wordt bij het openen van een nieuw tabblad een nieuwe groep gemaakt. Elk tabblad dat vanuit het nieuwe tabblad wordt geopend, maakt deel uit van deze groep."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Naam van automatisch geactiveerde tabbladgroepering",
+        "description": "Geef op hoe groepen moeten worden genoemd bij het maken van een nieuwe groep",
+        "none": "Geen",
+        "title": "Titel",
+        "domain": "Domein"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Gedrag bij het samenvouwen van tabbladgroepen",
         "description": "Wijzig het gedrag van het samenvouwen van tabbladgroepen in de Chrome-browser",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Toon Snelle Toegang",
         "description": "U kunt een tabblad instellen om in Snelle Toegang te verschijnen voor gemakkelijke toegang. Klik er gewoon met de rechtermuisknop op (of houd ingedrukt) en selecteer 'Vastzetten in Snelle Toegang'. Om het te verwijderen, klikt u met de rechtermuisknop (of houdt u ingedrukt) en selecteert u 'Verwijderen uit Snelle Toegang'. In tegenstelling tot vastgezette tabbladen slaat Snelle Toegang de URL op en opent elke keer een nieuw tabblad wanneer erop wordt geklikt."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Verticale Ruimte",
+        "description": "Stel de verticale ruimte in voor Snelle Toegang items."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontale Ruimte",
+        "description": "Stel de horizontale ruimte in voor Snelle Toegang items."
+      },
+      "quickAccessGroupView": {
+        "label": "Groepsweergave",
+        "description": "Toon groepsweergave per pictogramgroep of korte naamknop.",
+        "short_name": "Korte Naam",
+        "icons": "Pictogrammen"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Groep Klik Actie",
+        "description": "Configureer de actie wanneer op een Snelle Toegang-groep wordt geklikt.",
+        "openAllUrls": "Open Alle URL's",
+        "expandIcons": "Pictogrammen Uitvouwen",
+        "expandList": "Lijst Uitvouwen"
       },
       "selectFromHistory": {
         "label": "Selecteer uit Geschiedenis",

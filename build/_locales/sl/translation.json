@@ -222,5 +222,11 @@
   "oldUrl": "Stari URL",
   "newUrl": "Novi URL",
   "accessible": "Dostopno",
-  "foundUrlRedirect": "Najden preusmeritev URL-ja, želite posodobiti?"
+  "foundUrlRedirect": "Najden preusmeritev URL-ja, želite posodobiti?",
+  "clear": "Počisti",
+  "clearTabsTips": "Shrani posnetek in zapri vse zavihke, razen trenutno aktivnega. Lahko jih obnovite iz nedavno zaprtih zavihkov ali posnetkov.",
+  "shortName": "Kratko ime",
+  "expandIcons": "Razširi ikone",
+  "expandList": "Razširi seznam",
+  "openAllUrls": "Odpri vse URL-je"
 }

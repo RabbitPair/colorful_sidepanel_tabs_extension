@@ -196,6 +196,10 @@
         "label": "Lysstyrke",
         "description": "Angi lysstyrken, anbefales kun for mørk modus"
       },
+      "listVerticalSpacing": {
+        "label": "Liste vertikal avstand",
+        "description": "Angi liste vertikal avstand"
+      },
       "listBackgroundStyle": {
         "label": "Listebakgrunnsstil",
         "description": "Angi listebakgrunnsstil",
@@ -418,6 +422,17 @@
         "label": "Husk gruppe for nettsted",
         "description": "Når aktivert, hvis et nettsted legges til en egendefinert gruppe, vil det automatisk bruke denne gruppen neste gang nettstedet åpnes"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatisk aktivering av fanegruppering",
+        "description": "Når aktivert, opprettes en ny gruppe ved åpning av en ny fane. Hver fane som åpnes fra den nye fanen vil være en del av denne gruppen."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Navn på automatisk aktivering av fanegruppering",
+        "description": "Spesifiser hvordan grupper skal navngis når du oppretter en ny gruppe",
+        "none": "Ingen",
+        "title": "Tittel",
+        "domain": "Domene"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Atferd for fanegruppekollaps",
         "description": "Endre atferden til Chrome-nettleserens fanegruppekollaps",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Vis Hurtigtilgang",
         "description": "Du kan sette en fane til å vises i Hurtigtilgang for enkel tilgang. Bare høyreklikk (eller langtrykk) på den og velg 'Fest til Hurtigtilgang'. For å fjerne den, høyreklikk (eller langtrykk) på den og velg 'Slett fra Hurtigtilgang'. I motsetning til festede faner, lagrer Hurtigtilgang URL-en og åpner en ny fane hver gang den klikkes."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikal Avstand",
+        "description": "Sett den vertikale avstanden for Hurtigtilgang elementer."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horisontal Avstand",
+        "description": "Sett den horisontale avstanden for Hurtigtilgang elementer."
+      },
+      "quickAccessGroupView": {
+        "label": "Gruppevisning",
+        "description": "Vis gruppevisning etter ikongruppe eller kortnavnknapp.",
+        "short_name": "Kort Navn",
+        "icons": "Ikoner"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gruppe Klikk Handling",
+        "description": "Konfigurer handlingen når en Hurtigtilgangsgruppe klikkes.",
+        "openAllUrls": "Åpne Alle URL-er",
+        "expandIcons": "Utvid Ikoner",
+        "expandList": "Utvid Liste"
       },
       "selectFromHistory": {
         "label": "Velg fra Historikk",

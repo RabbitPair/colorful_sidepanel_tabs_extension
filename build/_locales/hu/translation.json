@@ -235,5 +235,11 @@
   "oldUrl": "Régi URL",
   "newUrl": "Új URL",
   "accessible": "Elérhető",
-  "foundUrlRedirect": "URL átirányítás található, frissíteni szeretné?"
+  "foundUrlRedirect": "URL átirányítás található, frissíteni szeretné?",
+  "clear": "Törlés",
+  "clearTabsTips": "Készítsen pillanatképet, és zárjon be minden lapot, kivéve az aktuálisan aktívat. Visszaállíthatja őket a nemrég bezárt lapokból vagy pillanatképekből.",
+  "shortName": "Rövid név",
+  "expandIcons": "Ikonok kibontása",
+  "expandList": "Lista kibontása",
+  "openAllUrls": "Összes URL megnyitása"
 }

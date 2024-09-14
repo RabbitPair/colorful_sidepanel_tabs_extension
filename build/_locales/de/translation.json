@@ -235,5 +235,11 @@
   "oldUrl": "Alte URL",
   "newUrl": "Neue URL",
   "accessible": "Zugänglich",
-  "foundUrlRedirect": "Gefundene URL-Weiterleitung, möchten Sie aktualisieren?"
+  "foundUrlRedirect": "Gefundene URL-Weiterleitung, möchten Sie aktualisieren?",
+  "clear": "Löschen",
+  "clearTabsTips": "Speichern Sie einen Schnappschuss und schließen Sie alle Tabs außer dem aktuell aktiven. Sie können sie aus kürzlich geschlossenen Tabs oder Schnappschüssen wiederherstellen.",
+  "shortName": "Kurzname",
+  "expandIcons": "Symbole erweitern",
+  "expandList": "Liste erweitern",
+  "openAllUrls": "Alle URLs öffnen"
 }

@@ -196,6 +196,10 @@
         "label": "Ndriçimi",
         "description": "Vendosni ndriçimin, i rekomanduar vetëm për mënyrën e errët"
       },
+      "listVerticalSpacing": {
+        "label": "Hapësira vertikale e listës",
+        "description": "Vendosni hapësirën vertikale të listës"
+      },
       "listBackgroundStyle": {
         "label": "Stili i sfondit të listës",
         "description": "Vendosni stilin e sfondit të listës",
@@ -418,6 +422,17 @@
         "label": "Mbaj mend grupimin e faqes",
         "description": "Kur aktivizohet, nëse një faqe shtohet në një grup të personalizuar, ajo do të përdorë automatikisht këtë grup herën tjetër kur faqja të hapet"
       },
+      "autoActivateTabGrouping": {
+        "label": "Aktivizimi Automatik i Grupimit të Zavihkat",
+        "description": "Kur aktivizohet, hapja e një zavihke të re krijon një grup të ri. Çdo zavihkë e hapur nga zavihka e re do të jetë pjesë e këtij grupi."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Emri i Grupimit Automatik të Zavihkat",
+        "description": "Specifikoni se si të emërtoni grupet kur krijoni një grup të ri",
+        "none": "Asnjë",
+        "title": "Titulli",
+        "domain": "Domeni"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Djegia e sjelljes së grupit të zavihkat të Chrome",
         "description": "Modifikoni sjelljen e grumbullimit të grupit të zavihkat të shfletuesit Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Shfaq Qasje të Shpejtë",
         "description": "Mund të vendosni një skedë që të shfaqet në Qasje të Shpejtë për qasje të lehtë. Thjesht klikoni me të djathtën (ose shtypni gjatë) dhe zgjidhni 'Ngjit në Qasje të Shpejtë'. Për ta hequr, klikoni me të djathtën (ose shtypni gjatë) dhe zgjidhni 'Fshij nga Qasje të Shpejtë'. Ndryshe nga skedat e ngjitura, Qasje e Shpejtë ruan URL-në dhe hap një skedë të re sa herë që klikohet."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Hapësira Vertikale",
+        "description": "Vendosni hapësirën vertikale për artikujt e Qasjes së Shpejtë."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Hapësira Horizontale",
+        "description": "Vendosni hapësirën horizontale për artikujt e Qasjes së Shpejtë."
+      },
+      "quickAccessGroupView": {
+        "label": "Pamja e Grupit",
+        "description": "Shfaq pamjen e grupit sipas grupit të ikonave ose butonit me emër të shkurtër.",
+        "short_name": "Emër i Shkurtër",
+        "icons": "Ikona"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Veprimi i Klikimit të Grupit",
+        "description": "Konfiguro veprimin kur klikohet një grup i Qasjes së Shpejtë.",
+        "openAllUrls": "Hap të Gjitha URL-të",
+        "expandIcons": "Zgjero Ikonat",
+        "expandList": "Zgjero Listën"
       },
       "selectFromHistory": {
         "label": "Zgjidh nga Historia",

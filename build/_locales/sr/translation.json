@@ -235,5 +235,11 @@
   "oldUrl": "Stari URL",
   "newUrl": "Novi URL",
   "accessible": "Dostupno",
-  "foundUrlRedirect": "Pronađen preusmereni URL, da li želite da ažurirate?"
+  "foundUrlRedirect": "Pronađen preusmereni URL, da li želite da ažurirate?",
+  "clear": "Obriši",
+  "clearTabsTips": "Sačuvajte snimak i zatvorite sve kartice osim trenutno aktivne. Možete ih vratiti iz nedavno zatvorenih kartica ili snimaka.",
+  "shortName": "Kratko ime",
+  "expandIcons": "Proširi ikone",
+  "expandList": "Proširi listu",
+  "openAllUrls": "Otvori sve URL-ove"
 }

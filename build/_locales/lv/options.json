@@ -196,6 +196,10 @@
         "label": "Spilgtums",
         "description": "Iestatīt spilgtumu, ieteicams tikai tumšajam režīmam"
       },
+      "listVerticalSpacing": {
+        "label": "Saraksta vertikālā atstarpe",
+        "description": "Iestatīt saraksta vertikālo atstarpi"
+      },
       "listBackgroundStyle": {
         "label": "Saraksta fona stils",
         "description": "Iestatīt saraksta fona stilu",
@@ -418,6 +422,17 @@
         "label": "Atcerēties vietnes grupēšanu",
         "description": "Kad iespējots, ja vietne tiek pievienota pielāgotai grupai, tā automātiski izmantos šo grupu nākamreiz, kad vietne tiks atvērta"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automātiski aktivizēt cilņu grupēšanu",
+        "description": "Kad iespējots, atverot jaunu cilni, tiek izveidota jauna grupa. Katra cilne, kas tiks atvērta no jaunās cilnes, būs daļa no šīs grupas."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Automātiski aktivizēt cilņu grupēšanas nosaukumu",
+        "description": "Norādiet, kā nosaukt grupas, veidojot jaunu grupu",
+        "none": "Nav",
+        "title": "Nosaukums",
+        "domain": "Domēns"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Cilnes grupas sabrukšanas uzvedība",
         "description": "Mainīt Chrome pārlūka cilnes grupas sabrukšanas uzvedību",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Rādīt ātro piekļuvi",
         "description": "Jūs varat iestatīt cilni, lai tā parādītos ātrajā piekļuvē ērtai piekļuvei. Vienkārši noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties 'Piespraust ātrajai piekļuvei'. Lai to noņemtu, noklikšķiniet ar peles labo pogu (vai ilgi nospiediet) un izvēlieties 'Dzēst no ātrās piekļuves'. Atšķirībā no piespraustajām cilnēm, ātrā piekļuve saglabā URL un katru reizi, kad uz tās noklikšķina, atver jaunu cilni."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikālā atstarpe",
+        "description": "Iestatiet vertikālo atstarpi ātrās piekļuves vienumiem."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontālā atstarpe",
+        "description": "Iestatiet horizontālo atstarpi ātrās piekļuves vienumiem."
+      },
+      "quickAccessGroupView": {
+        "label": "Grupas skats",
+        "description": "Rādīt grupas skatu pēc ikonu grupas vai īsā nosaukuma pogas.",
+        "short_name": "Īsais nosaukums",
+        "icons": "Ikonas"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Grupas klikšķa darbība",
+        "description": "Konfigurējiet darbību, kad tiek noklikšķināts uz ātrās piekļuves grupas.",
+        "openAllUrls": "Atvērt visus URL",
+        "expandIcons": "Izvērst ikonas",
+        "expandList": "Izvērst sarakstu"
       },
       "selectFromHistory": {
         "label": "Izvēlēties no vēstures",

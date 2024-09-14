@@ -235,5 +235,11 @@
   "oldUrl": "Stará URL",
   "newUrl": "Nová URL",
   "accessible": "Přístupné",
-  "foundUrlRedirect": "Nalezena přesměrování URL, chcete ji aktualizovat?"
+  "foundUrlRedirect": "Nalezena přesměrování URL, chcete ji aktualizovat?",
+  "clear": "Vymazat",
+  "clearTabsTips": "Uložte snímek a zavřete všechny karty kromě aktuálně aktivní. Můžete je obnovit z nedávno zavřených karet nebo snímků.",
+  "shortName": "Krátký název",
+  "expandIcons": "Rozbalit ikony",
+  "expandList": "Rozbalit seznam",
+  "openAllUrls": "Otevřít všechny URL"
 }

@@ -235,5 +235,11 @@
   "oldUrl": "Vanha URL",
   "newUrl": "Uusi URL",
   "accessible": "Saavutettava",
-  "foundUrlRedirect": "Löydetty URL-uudelleenohjaus, haluatko päivittää?"
+  "foundUrlRedirect": "Löydetty URL-uudelleenohjaus, haluatko päivittää?",
+  "clear": "Tyhjennä",
+  "clearTabsTips": "Tallenna tilannekuva ja sulje kaikki välilehdet paitsi nykyinen aktiivinen. Voit palauttaa ne äskettäin suljetuista välilehdistä tai tilannekuvista.",
+  "shortName": "Lyhyt nimi",
+  "expandIcons": "Laajenna kuvakkeet",
+  "expandList": "Laajenna luettelo",
+  "openAllUrls": "Avaa kaikki URL-osoitteet"
 }

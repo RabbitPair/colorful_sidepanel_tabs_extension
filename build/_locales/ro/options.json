@@ -196,6 +196,10 @@
         "label": "Luminozitate",
         "description": "Setați luminozitatea, recomandat doar pentru modul întunecat"
       },
+      "listVerticalSpacing": {
+        "label": "Spațiere verticală a listei",
+        "description": "Setați spațierea verticală a listei"
+      },
       "listBackgroundStyle": {
         "label": "Stilul fundalului listei",
         "description": "Setați stilul fundalului listei",
@@ -418,6 +422,17 @@
         "label": "Amintiți-vă gruparea site-urilor",
         "description": "Când este activat, dacă un site este adăugat la un grup personalizat, acesta va folosi automat acest grup data viitoare când site-ul este deschis"
       },
+      "autoActivateTabGrouping": {
+        "label": "Activare automată a grupării filelor",
+        "description": "Când este activat, deschiderea unei file noi creează un grup nou. Fiecare filă deschisă din fila nouă va face parte din acest grup."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nume pentru activarea automată a grupării filelor",
+        "description": "Specificați cum să denumiți grupurile atunci când creați un grup nou",
+        "none": "Niciunul",
+        "title": "Titlu",
+        "domain": "Domeniu"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamentul de restrângere a grupului de file",
         "description": "Modificați comportamentul de restrângere a grupului de file din browserul Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Afișează Acces rapid",
         "description": "Puteți seta o filă să apară în Acces rapid pentru acces ușor. Doar faceți clic dreapta (sau apăsați lung) pe ea și selectați 'Fixează în Acces rapid'. Pentru a o elimina, faceți clic dreapta (sau apăsați lung) pe ea și selectați 'Șterge din Acces rapid'. Spre deosebire de filele fixate, Acces rapid salvează URL-ul și deschide o filă nouă de fiecare dată când este accesat."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Spațiere verticală",
+        "description": "Setați spațierea verticală pentru elementele Acces rapid."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Spațiere orizontală",
+        "description": "Setați spațierea orizontală pentru elementele Acces rapid."
+      },
+      "quickAccessGroupView": {
+        "label": "Vizualizare grup",
+        "description": "Afișați vizualizarea grupului prin grup de pictograme sau buton de nume scurt.",
+        "short_name": "Nume scurt",
+        "icons": "Pictograme"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Acțiune clic grup",
+        "description": "Configurați acțiunea când un grup de Acces rapid este clicat.",
+        "openAllUrls": "Deschide toate URL-urile",
+        "expandIcons": "Extinde pictogramele",
+        "expandList": "Extinde lista"
       },
       "selectFromHistory": {
         "label": "Selectați din Istoric",

@@ -196,6 +196,10 @@
         "label": "Luminosità",
         "description": "Istabli l-luminosità, rakkomandat biss għal modalità skura"
       },
+      "listVerticalSpacing": {
+        "label": "Spazjar vertikali tal-lista",
+        "description": "Issettja l-ispazjar vertikali tal-lista"
+      },
       "listBackgroundStyle": {
         "label": "Stil tal-isfond tal-lista",
         "description": "Agħżel l-istil tal-isfond tal-lista",
@@ -418,6 +422,17 @@
         "label": "Ftakar il-grupp tas-sit",
         "description": "Meta tkun attivata, jekk sit jiżdied ma 'grupp personalizzat, awtomatikament juża dan il-grupp id-darba li jmiss li jinfetaħ is-sit"
       },
+      "autoActivateTabGrouping": {
+        "label": "Attiva Awtomatikament il-Gruppar tat-Tabs",
+        "description": "Meta tkun attivata, il-ftuħ ta' tab ġdida joħloq grupp ġdid. Kull tab miftuħa mill-tab il-ġdida se tkun parti minn dan il-grupp."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Isem tal-Gruppar tat-Tabs Awtomatiku",
+        "description": "Speċifika kif tissejjaħ il-gruppi meta jinħoloq grupp ġdid",
+        "none": "Xejn",
+        "title": "Titlu",
+        "domain": "Dominju"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ħsieb ta 'kollaps ta 'grupp ta' tabs",
         "description": "Ibdel il-mod kif it-tabijiet tal-grupp ta 'tabs tal-browser Chrome jikollapsaw",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Uri Aċċess Rapidu",
         "description": "Tista' tissettja tab biex tidher fl-Aċċess Rapidu għal aċċess faċli. Sempliċement ikklikkja bil-lemin (jew agħfas fit-tul) u agħżel 'Pin għall-Aċċess Rapidu'. Biex tneħħiha, ikklikkja bil-lemin (jew agħfas fit-tul) u agħżel 'Ħassar mill-Aċċess Rapidu'. B'differenza mit-tabs pinned, l-Aċċess Rapidu jiffranka l-URL u jiftaħ tab ġdid kull darba li tikklikkja."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Spazjar Vertikali",
+        "description": "Issettja l-ispazjar vertikali għall-oġġetti tal-Aċċess Rapidu."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Spazjar Orizzontali",
+        "description": "Issettja l-ispazjar orizzontali għall-oġġetti tal-Aċċess Rapidu."
+      },
+      "quickAccessGroupView": {
+        "label": "Veduta tal-Grupp",
+        "description": "Uri veduta tal-grupp permezz ta' grupp ta' ikoni jew buttuna ta' isem qasir.",
+        "short_name": "Isem Qasir",
+        "icons": "Ikoni"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Azzjoni tal-Klikk tal-Grupp",
+        "description": "Ikkonfigura l-azzjoni meta grupp ta' Aċċess Rapidu jiġi kklikkjat.",
+        "openAllUrls": "Iftaħ il-URLs Kollha",
+        "expandIcons": "Espandi l-Ikoni",
+        "expandList": "Espandi l-Lista"
       },
       "selectFromHistory": {
         "label": "Agħżel mill-Istorja",

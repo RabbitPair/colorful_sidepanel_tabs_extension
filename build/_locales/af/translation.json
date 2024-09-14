@@ -222,5 +222,11 @@
   "oldUrl": "Ou URL",
   "newUrl": "Nuwe URL",
   "accessible": "Toeganklik",
-  "foundUrlRedirect": "Gevind URL herleiding, wil jy opdateer?"
+  "foundUrlRedirect": "Gevind URL herleiding, wil jy opdateer?",
+  "clear": "Maak skoon",
+  "clearTabsTips": "Stoor 'n momentopname en maak alle oortjies toe behalwe die huidige aktiewe een. Jy kan hulle herstel vanaf onlangs geslote oortjies of momentopnames.",
+  "shortName": "Kort naam",
+  "expandIcons": "Brei ikone uit",
+  "expandList": "Brei lys uit",
+  "openAllUrls": "Maak alle URL's oop"
 }

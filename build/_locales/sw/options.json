@@ -196,6 +196,10 @@
         "label": "Mwangaza",
         "description": "Wekeza mwangaza, inapendekezwa kwa mode ya giza pekee"
       },
+      "listVerticalSpacing": {
+        "label": "Nafasi ya wima ya orodha",
+        "description": "Weka nafasi ya wima ya orodha"
+      },
       "listBackgroundStyle": {
         "label": "Mtindo wa mandhari ya orodha",
         "description": "Wekeza mtindo wa mandhari ya orodha",
@@ -418,6 +422,17 @@
         "label": "Kumbuka kikundi cha tovuti",
         "description": "Ikiwa imewezeshwa, ikiwa tovuti itaongezwa kwenye kikundi maalum, itatumia kikundi hiki moja kwa moja wakati tovuti itakapofunguliwa tena"
       },
+      "autoActivateTabGrouping": {
+        "label": "Washa Kikundi cha Vichupo Kiotomatiki",
+        "description": "Ikiwa imewezeshwa, kufungua kichupo kipya kunaunda kikundi kipya. Kila kichupo kinachofunguliwa kutoka kwenye kichupo kipya kitakuwa sehemu ya kikundi hiki."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Jina la Kikundi cha Vichupo Kiotomatiki",
+        "description": "Taja jinsi ya kutaja vikundi wakati wa kuunda kikundi kipya",
+        "none": "Hakuna",
+        "title": "Kichwa",
+        "domain": "Kikoa"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tabia ya Kufupisha Kikundi cha Vichupo",
         "description": "Badilisha tabia ya kufupisha kikundi cha vichupo cha kivinjari cha Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Onyesha Ufikiaji wa Haraka",
         "description": "Unaweza kuweka kichupo kuonekana katika Ufikiaji wa Haraka kwa ufikiaji rahisi. Bonyeza kulia (au bonyeza kwa muda mrefu) na uchague 'Pin to Quick Access'. Ili kuondoa, bonyeza kulia (au bonyeza kwa muda mrefu) na uchague 'Futa kutoka Ufikiaji wa Haraka'. Tofauti na vichupo vilivyowekwa pini, Ufikiaji wa Haraka huokoa URL na kufungua kichupo kipya kila wakati kinapobonyezwa."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Nafasi ya Wima",
+        "description": "Weka nafasi ya wima kwa vitu vya Ufikiaji wa Haraka."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Nafasi ya Usawa",
+        "description": "Weka nafasi ya usawa kwa vitu vya Ufikiaji wa Haraka."
+      },
+      "quickAccessGroupView": {
+        "label": "Mwonekano wa Kundi",
+        "description": "Onyesha mwonekano wa kundi kwa kundi la ikoni au kitufe cha jina fupi.",
+        "short_name": "Jina Fupi",
+        "icons": "Ikoni"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Kitendo cha Kubofya Kundi",
+        "description": "Sanidi kitendo kinapobofya kundi la Ufikiaji wa Haraka.",
+        "openAllUrls": "Fungua URL Zote",
+        "expandIcons": "Panua Ikoni",
+        "expandList": "Panua Orodha"
       },
       "selectFromHistory": {
         "label": "Chagua kutoka Historia",

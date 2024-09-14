@@ -196,6 +196,10 @@
         "label": "Klere",
         "description": "Chwazi klere a, rekòmande sèlman pou mòd nwa"
       },
+      "listVerticalSpacing": {
+        "label": "Espas vètikal lis la",
+        "description": "Mete espas vètikal lis la"
+      },
       "listBackgroundStyle": {
         "label": "Stil fon lis la",
         "description": "Chwazi stil fon lis la",
@@ -418,6 +422,17 @@
         "label": "Sonje gwoup sit",
         "description": "Lè aktive, si yon sit ajoute nan yon gwoup koutim, li pral otomatikman itilize gwoup sa a pwochen fwa sit la louvri"
       },
+      "autoActivateTabGrouping": {
+        "label": "Aktive Gwoupman Tab Otomatik",
+        "description": "Lè aktive, louvri yon nouvo tab kreye yon nouvo gwoup. Chak tab ki louvri soti nan nouvo tab la pral fè pati gwoup sa a."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Non Gwoupman Tab Otomatik",
+        "description": "Espesifye kijan pou nonmen gwoup lè w ap kreye yon nouvo gwoup",
+        "none": "Okenn",
+        "title": "Tit",
+        "domain": "Domèn"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Konpòtman kòlapse gwoup tab",
         "description": "Modifye konpòtman kòlapse gwoup tab navigatè Chrome a",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Montre Aksè Rapid",
         "description": "Ou ka mete yon tab pou parèt nan Aksè Rapid pou aksè fasil. Jis klike-dwa (oswa peze long) sou li epi chwazi 'Fikse nan Aksè Rapid'. Pou retire li, klike-dwa (oswa peze long) sou li epi chwazi 'Efase nan Aksè Rapid'. Kontrèman ak tab fikse, Aksè Rapid sove URL la epi louvri yon nouvo tab chak fwa li klike."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Espas Vètikal",
+        "description": "Fikse espas vètikal pou atik Aksè Rapid yo."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Espas Orizontal",
+        "description": "Fikse espas orizontal pou atik Aksè Rapid yo."
+      },
+      "quickAccessGroupView": {
+        "label": "Gade Gwoup",
+        "description": "Montre gade gwoup pa gwoup ikòn oswa bouton non kout.",
+        "short_name": "Non Kout",
+        "icons": "Ikòn"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Aksyon Klike Gwoup",
+        "description": "Konfigire aksyon an lè yon gwoup Aksè Rapid klike.",
+        "openAllUrls": "Louvri Tout URL yo",
+        "expandIcons": "Elaji Ikòn yo",
+        "expandList": "Elaji Lis la"
       },
       "selectFromHistory": {
         "label": "Chwazi nan Istwa",

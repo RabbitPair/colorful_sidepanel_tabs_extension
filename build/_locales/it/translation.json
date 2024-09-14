@@ -235,5 +235,11 @@
   "oldUrl": "Vecchio URL",
   "newUrl": "Nuovo URL",
   "accessible": "Accessibile",
-  "foundUrlRedirect": "Trovato reindirizzamento URL, vuoi aggiornare?"
+  "foundUrlRedirect": "Trovato reindirizzamento URL, vuoi aggiornare?",
+  "clear": "Cancella",
+  "clearTabsTips": "Salva un'istantanea e chiudi tutte le schede tranne quella attualmente attiva. Puoi ripristinarle dalle schede chiuse di recente o dalle istantanee.",
+  "shortName": "Nome breve",
+  "expandIcons": "Espandi icone",
+  "expandList": "Espandi elenco",
+  "openAllUrls": "Apri tutti gli URL"
 }

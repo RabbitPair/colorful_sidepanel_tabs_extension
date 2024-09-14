@@ -196,6 +196,10 @@
         "label": "Helderheid",
         "description": "Stel die helderheid in, aanbeveel vir donker modus"
       },
+      "listVerticalSpacing": {
+        "label": "Lys vertikale spasiëring",
+        "description": "Stel die lys vertikale spasiëring in"
+      },
       "listBackgroundStyle": {
         "label": "Lysagtergrondstyl",
         "description": "Stel die lysagtergrondstyl in",
@@ -418,6 +422,17 @@
         "label": "Onthou webwerf-groepering",
         "description": "Wanneer geaktiveer, as 'n webwerf by 'n pasgemaakte groep gevoeg word, sal dit outomaties hierdie groep gebruik die volgende keer as die webwerf oopgemaak word"
       },
+      "autoActivateTabGrouping": {
+        "label": "Outomatiese Aktivering van Tabbladgroepering",
+        "description": "Wanneer geaktiveer, sal die opening van 'n nuwe tab 'n nuwe groep skep. Elke tab wat vanaf die nuwe tab oopgemaak word, sal deel wees van hierdie groep."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Outomatiese Aktivering van Tabbladgroepering Naam",
+        "description": "Spesifiseer hoe om groepe te benoem wanneer 'n nuwe groep geskep word",
+        "none": "Geen",
+        "title": "Titel",
+        "domain": "Domein"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tabbladgroepe saamvougedrag",
         "description": "Wysig die gedrag van Chrome-blaaier tabbladgroepe saamvou",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Wys Vinnige Toegang",
         "description": "Jy kan 'n oortjie stel om in Vinnige Toegang te verskyn vir maklike toegang. Regskliek (of langdruk) net daarop en kies 'Vaspen aan Vinnige Toegang'. Om dit te verwyder, regskliek (of langdruk) daarop en kies 'Verwyder van Vinnige Toegang'. Anders as vasgepende oortjies, stoor Vinnige Toegang die URL en maak 'n nuwe oortjie oop elke keer as dit gekliek word."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikale Spasiëring",
+        "description": "Stel die vertikale spasiëring vir Vinnige Toegang items in."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horisontale Spasiëring",
+        "description": "Stel die horisontale spasiëring vir Vinnige Toegang items in."
+      },
+      "quickAccessGroupView": {
+        "label": "Groep Uitsig",
+        "description": "Wys groep uitsig deur ikoon groep of kort naam knoppie.",
+        "short_name": "Kort Naam",
+        "icons": "Ikone"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Groep Klik Aksie",
+        "description": "Stel die aksie in wanneer 'n Vinnige Toegang groep gekliek word.",
+        "openAllUrls": "Maak Alle URL's Oop",
+        "expandIcons": "Brei Ikone Uit",
+        "expandList": "Brei Lys Uit"
       },
       "selectFromHistory": {
         "label": "Kies uit Geskiedenis",

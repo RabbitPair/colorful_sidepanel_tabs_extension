@@ -5,9 +5,17 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
-- Added website settings - specify websites to automatically add to custom groups
-- todo custom icons
-- todo save groups to quick access
+
+
+## [2.9.0] - 2024-09-15
+
+- Added **Clear Tabs**: Save a snapshot and close all tabs except the active one. Restore them from recently closed tabs or snapshots.
+- Added **Auto Activate Tab Grouping**: Automatically create a new group when opening a new tab. Subsequent tabs opened from this tab will join the group.
+- Added **List Vertical Spacing**: New option in Advanced Tab Group settings to adjust vertical spacing for list items.
+- Added **Add Multiple URLs to Quick Access**: Allows adding groups and selecting multiple tabs to save to Quick Access.
+- Added **Quick Access Item Spacing**: Set vertical/horizontal spacing for Quick Access items in the options page.
+
+
 
 ---
 ## [2.8.0] - 2024-09-12

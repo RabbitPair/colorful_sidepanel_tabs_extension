@@ -196,6 +196,10 @@
         "label": "Disgleirdeb",
         "description": "Gosodwch y disgleirdeb, argymhellir ar gyfer modd tywyll yn unig"
       },
+      "listVerticalSpacing": {
+        "label": "Bylchiad fertigol rhestr",
+        "description": "Gosodwch y bylchiad fertigol rhestr"
+      },
       "listBackgroundStyle": {
         "label": "Arddull cefndir rhestr",
         "description": "Gosodwch arddull cefndir rhestr",
@@ -418,6 +422,17 @@
         "label": "Cofio grwpio safle",
         "description": "Pan fydd wedi'i alluogi, os ychwanegir safle at grŵp personol, bydd yn defnyddio'r grŵp hwn yn awtomatig y tro nesaf y bydd y safle'n cael ei agor"
       },
+      "autoActivateTabGrouping": {
+        "label": "Galluogi Grwpio Tabiau Awtomatig",
+        "description": "Pan fydd wedi'i alluogi, bydd agor tab newydd yn creu grŵp newydd. Bydd pob tab a agorir o'r tab newydd yn rhan o'r grŵp hwn."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Enw Grwpio Tabiau Awtomatig",
+        "description": "Nodi sut i enwi grwpiau wrth greu grŵp newydd",
+        "none": "Dim",
+        "title": "Teitl",
+        "domain": "Parth"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ymddygiad grwp tabiau wrth gwympo",
         "description": "Addasu ymddygiad gwymp grwp tabiau porwr Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Dangos Mynediad Cyflym",
         "description": "Gallwch osod tab i ymddangos yn Mynediad Cyflym ar gyfer mynediad hawdd. Cliciwch-dde (neu pwyswch yn hir) arno a dewiswch 'Pin i Mynediad Cyflym'. I'w dynnu, cliciwch-dde (neu pwyswch yn hir) arno a dewiswch 'Dileu o Mynediad Cyflym'. Yn wahanol i dabiau wedi'u pinio, mae Mynediad Cyflym yn cadw'r URL ac yn agor tab newydd bob tro y caiff ei glicio."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Bylchiad Fertigol",
+        "description": "Gosodwch y bylchiad fertigol ar gyfer eitemau Mynediad Cyflym."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Bylchiad Llorweddol",
+        "description": "Gosodwch y bylchiad llorweddol ar gyfer eitemau Mynediad Cyflym."
+      },
+      "quickAccessGroupView": {
+        "label": "Golwg Grŵp",
+        "description": "Dangos golwg grŵp gan grŵp eicon neu fotwm enw byr.",
+        "short_name": "Enw Byr",
+        "icons": "Eiconau"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gweithred Clicio Grŵp",
+        "description": "Ffurfweddwch y weithred pan fydd grŵp Mynediad Cyflym yn cael ei glicio.",
+        "openAllUrls": "Agor Pob URL",
+        "expandIcons": "Ehangu Eiconau",
+        "expandList": "Ehangu Rhestr"
       },
       "selectFromHistory": {
         "label": "Dewis o'r Hanes",

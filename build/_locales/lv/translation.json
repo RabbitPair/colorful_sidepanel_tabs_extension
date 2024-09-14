@@ -235,5 +235,11 @@
   "oldUrl": "Vecais URL",
   "newUrl": "Jaunais URL",
   "accessible": "Pieejams",
-  "foundUrlRedirect": "Atrasts URL novirzīšana, vai vēlaties atjaunināt?"
+  "foundUrlRedirect": "Atrasts URL novirzīšana, vai vēlaties atjaunināt?",
+  "clear": "Notīrīt",
+  "clearTabsTips": "Saglabājiet momentuzņēmumu un aizveriet visas cilnes, izņemot pašlaik aktīvo. Jūs varat tās atjaunot no nesen aizvērtajām cilnēm vai momentuzņēmumiem.",
+  "shortName": "Īss nosaukums",
+  "expandIcons": "Izvērst ikonas",
+  "expandList": "Izvērst sarakstu",
+  "openAllUrls": "Atvērt visus URL"
 }

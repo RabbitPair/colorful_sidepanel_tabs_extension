@@ -222,5 +222,11 @@
   "oldUrl": "URL ya kera",
   "newUrl": "URL nshya",
   "accessible": "Biraboneka",
-  "foundUrlRedirect": "Habonetse URL iyobora ahandi, urashaka kuyihindura?"
+  "foundUrlRedirect": "Habonetse URL iyobora ahandi, urashaka kuyihindura?",
+  "clear": "Sukura",
+  "clearTabsTips": "Bika ishusho hanyuma ufunge amakarita yose usibye iyikora ubu. Urashobora kuyasubiza mu makarita aheruka gufungwa cyangwa amashusho.",
+  "shortName": "Izina rigufi",
+  "expandIcons": "Gura Ibimenyetso",
+  "expandList": "Gura urutonde",
+  "openAllUrls": "Fungura URLs zose"
 }

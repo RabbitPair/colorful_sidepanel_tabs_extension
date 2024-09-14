@@ -196,6 +196,10 @@
         "label": "亮度",
         "description": "設置亮度，僅推薦用於深色模式"
       },
+      "listVerticalSpacing": {
+        "label": "列表垂直間距",
+        "description": "設置列表垂直間距"
+      },
       "listBackgroundStyle": {
         "label": "列表背景樣式",
         "description": "設置列表背景樣式",
@@ -418,6 +422,17 @@
         "label": "記住網站分組",
         "description": "啟用後，如果將網站添加到自訂組，下次打開該網站時將自動使用此組"
       },
+      "autoActivateTabGrouping": {
+        "label": "自動啟用標籤分組",
+        "description": "啟用後，打開新標籤頁會創建一個新組。從新標籤頁打開的每個標籤頁都將成為該組的一部分。"
+      },
+      "autoActivateTabGroupingName": {
+        "label": "自動啟用標籤分組名稱",
+        "description": "指定創建新組時如何命名組",
+        "none": "無",
+        "title": "標題",
+        "domain": "域名"
+      },
       "tabGroupCollapseBehavior": {
         "label": "標籤組折疊行為",
         "description": "修改瀏覽器標籤組折疊的行為",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "顯示快速訪問",
         "description": "您可以將標籤頁設置為顯示在快速訪問中以便於訪問。只需右鍵單擊（或長按）它並選擇“固定到快速訪問”。要刪除它，請右鍵單擊（或長按）它並選擇“從快速訪問中刪除”。與固定標籤頁不同，快速訪問保存URL並在每次點擊時打開新標籤頁。"
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "垂直間距",
+        "description": "設置快速訪問項目的垂直間距。"
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "水平間距",
+        "description": "設置快速訪問項目的水平間距。"
+      },
+      "quickAccessGroupView": {
+        "label": "群組視圖",
+        "description": "通過圖標群組或短名稱按鈕顯示群組視圖。",
+        "short_name": "短名稱",
+        "icons": "圖標"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "群組點擊操作",
+        "description": "配置點擊快速訪問群組時的操作。",
+        "openAllUrls": "打開所有URL",
+        "expandIcons": "展開圖標",
+        "expandList": "展開列表"
       },
       "selectFromHistory": {
         "label": "從歷史記錄中選擇",

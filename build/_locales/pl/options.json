@@ -196,6 +196,10 @@
         "label": "Jasność",
         "description": "Ustaw jasność, zalecane tylko dla trybu ciemnego"
       },
+      "listVerticalSpacing": {
+        "label": "Pionowy odstęp listy",
+        "description": "Ustaw pionowy odstęp listy"
+      },
       "listBackgroundStyle": {
         "label": "Styl tła listy",
         "description": "Ustaw styl tła listy",
@@ -418,6 +422,17 @@
         "label": "Zapamiętaj grupowanie stron",
         "description": "Po włączeniu, jeśli strona zostanie dodana do niestandardowej grupy, automatycznie użyje tej grupy przy następnym otwarciu strony"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatyczne aktywowanie grupowania kart",
+        "description": "Po włączeniu, otwarcie nowej karty tworzy nową grupę. Każda karta otwarta z nowej karty będzie częścią tej grupy."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nazwa automatycznego grupowania kart",
+        "description": "Określ, jak nazywać grupy podczas tworzenia nowej grupy",
+        "none": "Brak",
+        "title": "Tytuł",
+        "domain": "Domena"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Zachowanie grupy kart przy zwijaniu",
         "description": "Zmodyfikuj zachowanie zwijania grup kart w przeglądarce Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Pokaż szybki dostęp",
         "description": "Możesz ustawić kartę, aby pojawiała się w Szybkim Dostępie dla łatwego dostępu. Wystarczy kliknąć prawym przyciskiem myszy (lub przytrzymać) i wybrać 'Przypnij do Szybkiego Dostępu'. Aby usunąć, kliknij prawym przyciskiem myszy (lub przytrzymaj) i wybierz 'Usuń z Szybkiego Dostępu'. W przeciwieństwie do przypiętych kart, Szybki Dostęp zapisuje URL i otwiera nową kartę za każdym razem, gdy jest kliknięty."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Odstępy pionowe",
+        "description": "Ustaw odstępy pionowe dla elementów Szybkiego Dostępu."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Odstępy poziome",
+        "description": "Ustaw odstępy poziome dla elementów Szybkiego Dostępu."
+      },
+      "quickAccessGroupView": {
+        "label": "Widok grupy",
+        "description": "Wyświetl widok grupy według grupy ikon lub przycisku z krótką nazwą.",
+        "short_name": "Krótka nazwa",
+        "icons": "Ikony"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Akcja kliknięcia grupy",
+        "description": "Skonfiguruj akcję po kliknięciu grupy Szybkiego Dostępu.",
+        "openAllUrls": "Otwórz wszystkie URL",
+        "expandIcons": "Rozwiń ikony",
+        "expandList": "Rozwiń listę"
       },
       "selectFromHistory": {
         "label": "Wybierz z historii",

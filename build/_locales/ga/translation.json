@@ -222,5 +222,11 @@
   "oldUrl": "Sean-URL",
   "newUrl": "Nua-URL",
   "accessible": "Inrochtana",
-  "foundUrlRedirect": "Aimsíodh atreorú URL, ar mhaith leat nuashonrú?"
+  "foundUrlRedirect": "Aimsíodh atreorú URL, ar mhaith leat nuashonrú?",
+  "clear": "Glan",
+  "clearTabsTips": "Sábháil seat agus dún gach cluaisín seachas an ceann atá gníomhach faoi láthair. Is féidir leat iad a athbhunú ó chluaisíní a dúnadh le déanaí nó ó sheataí.",
+  "shortName": "Ainm gearr",
+  "expandIcons": "Leathnaigh Deilbhíní",
+  "expandList": "Leathnaigh liosta",
+  "openAllUrls": "Oscail Gach URL"
 }

@@ -196,6 +196,10 @@
         "label": "Svetlost",
         "description": "Nastavi svetlost, priporočljivo samo za temen način"
       },
+      "listVerticalSpacing": {
+        "label": "Navpični razmik seznama",
+        "description": "Nastavi navpični razmik seznama"
+      },
       "listBackgroundStyle": {
         "label": "Slog ozadja seznama",
         "description": "Nastavi slog ozadja seznama",
@@ -418,6 +422,17 @@
         "label": "Zapomni si razvrstitev strani",
         "description": "Ko je omogočeno, bo spletno mesto, ki je dodano v prilagojeno skupino, samodejno uporabilo to skupino ob naslednjem odprtju strani"
       },
+      "autoActivateTabGrouping": {
+        "label": "Samodejno aktiviraj združevanje zavihkov",
+        "description": "Ko je omogočeno, odpiranje novega zavihka ustvari novo skupino. Vsak zavihek, odprt iz novega zavihka, bo del te skupine."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Ime samodejnega združevanja zavihkov",
+        "description": "Določite, kako poimenovati skupine ob ustvarjanju nove skupine",
+        "none": "Brez",
+        "title": "Naslov",
+        "domain": "Domena"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Obnašanje strnitve skupine zavihkov",
         "description": "Spremenite obnašanje strnitve skupine zavihkov v brskalniku Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Prikaži hiter dostop",
         "description": "Zavihek lahko nastavite, da se prikaže v hitrem dostopu za lažji dostop. Preprosto kliknite z desno tipko miške (ali dolgo pritisnite) in izberite 'Pripni na hiter dostop'. Če ga želite odstraniti, kliknite z desno tipko miške (ali dolgo pritisnite) in izberite 'Izbriši iz hitrega dostopa'. Za razliko od pripetih zavihkov hiter dostop shrani URL in odpre nov zavihek vsakič, ko je kliknjen."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Navpični razmik",
+        "description": "Nastavite navpični razmik za elemente hitrega dostopa."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Vodoravni razmik",
+        "description": "Nastavite vodoravni razmik za elemente hitrega dostopa."
+      },
+      "quickAccessGroupView": {
+        "label": "Pogled skupine",
+        "description": "Prikaži pogled skupine po skupini ikon ali gumbu s kratkim imenom.",
+        "short_name": "Kratko ime",
+        "icons": "Ikone"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Dejanje ob kliku skupine",
+        "description": "Nastavite dejanje, ko je kliknjena skupina hitrega dostopa.",
+        "openAllUrls": "Odpri vse URL-je",
+        "expandIcons": "Razširi ikone",
+        "expandList": "Razširi seznam"
       },
       "selectFromHistory": {
         "label": "Izberi iz zgodovine",

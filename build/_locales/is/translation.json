@@ -222,5 +222,11 @@
   "oldUrl": "Gömul vefslóð",
   "newUrl": "Ný vefslóð",
   "accessible": "Aðgengilegt",
-  "foundUrlRedirect": "Fann vefslóðatilvísun, viltu uppfæra?"
+  "foundUrlRedirect": "Fann vefslóðatilvísun, viltu uppfæra?",
+  "clear": "Hreinsa",
+  "clearTabsTips": "Vistaðu skjáskot og lokaðu öllum flipa nema þeim sem er virkur. Þú getur endurheimt þá úr nýlega lokuðum flipum eða skjáskotum.",
+  "shortName": "Stutt nafn",
+  "expandIcons": "Stækka tákn",
+  "expandList": "Stækka lista",
+  "openAllUrls": "Opna allar vefslóðir"
 }

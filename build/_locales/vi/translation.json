@@ -235,5 +235,11 @@
   "oldUrl": "URL cũ",
   "newUrl": "URL mới",
   "accessible": "Có thể truy cập",
-  "foundUrlRedirect": "Tìm thấy chuyển hướng URL, bạn có muốn cập nhật không?"
+  "foundUrlRedirect": "Tìm thấy chuyển hướng URL, bạn có muốn cập nhật không?",
+  "clear": "Xóa",
+  "clearTabsTips": "Lưu một ảnh chụp nhanh và đóng tất cả các thẻ ngoại trừ thẻ hiện đang hoạt động. Bạn có thể khôi phục chúng từ các thẻ đã đóng gần đây hoặc ảnh chụp nhanh.",
+  "shortName": "Tên ngắn",
+  "expandIcons": "Mở rộng biểu tượng",
+  "expandList": "Mở rộng danh sách",
+  "openAllUrls": "Mở tất cả URL"
 }

@@ -222,5 +222,11 @@
   "oldUrl": "Seann URL",
   "newUrl": "URL ùr",
   "accessible": "Ruigsinneach",
-  "foundUrlRedirect": "Lorg ath-stiùireadh URL, a bheil thu airson ùrachadh?"
+  "foundUrlRedirect": "Lorg ath-stiùireadh URL, a bheil thu airson ùrachadh?",
+  "clear": "Glan",
+  "clearTabsTips": "Sàbhail dealbh-sgrìn agus dùin a h-uile taba ach am fear a tha gnìomhach an-dràsta. Faodaidh tu an ath-nuadhachadh bho thabaichean a chaidh a dhùnadh o chionn ghoirid no dealbhan-sgrìn.",
+  "shortName": "Ainm goirid",
+  "expandIcons": "Leudaich Ìomhaighean",
+  "expandList": "Leudaich liosta",
+  "openAllUrls": "Fosgail a h-uile URL"
 }

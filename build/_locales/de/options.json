@@ -196,6 +196,10 @@
         "label": "Helligkeit",
         "description": "Legen Sie die Helligkeit fest, empfohlen nur für den Dunkelmodus"
       },
+      "listVerticalSpacing": {
+        "label": "Listenabstand vertikal",
+        "description": "Legen Sie den vertikalen Listenabstand fest"
+      },
       "listBackgroundStyle": {
         "label": "Listenhintergrundstil",
         "description": "Legen Sie den Listenhintergrundstil fest",
@@ -418,6 +422,17 @@
         "label": "Seiten-Gruppierung merken",
         "description": "Wenn aktiviert, wird eine Seite, die zu einer benutzerdefinierten Gruppe hinzugefügt wurde, beim nächsten Öffnen der Seite automatisch diese Gruppe verwenden"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatische Tab-Gruppierung aktivieren",
+        "description": "Wenn aktiviert, wird beim Öffnen eines neuen Tabs eine neue Gruppe erstellt. Jeder Tab, der von diesem neuen Tab geöffnet wird, gehört zu dieser Gruppe."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Name der automatischen Tab-Gruppierung",
+        "description": "Geben Sie an, wie Gruppen beim Erstellen einer neuen Gruppe benannt werden sollen",
+        "none": "Keine",
+        "title": "Titel",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Verhalten beim Einklappen von Tab-Gruppen",
         "description": "Ändern Sie das Verhalten des Einklappens von Tab-Gruppen im Chrome-Browser",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Schnellzugriff anzeigen",
         "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff für einfachen Zugriff angezeigt wird. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'An Schnellzugriff anheften'. Um es zu entfernen, klicken Sie mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'Aus Schnellzugriff löschen'. Im Gegensatz zu angehefteten Tabs speichert Schnellzugriff die URL und öffnet jedes Mal einen neuen Tab, wenn darauf geklickt wird."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikaler Abstand",
+        "description": "Legen Sie den vertikalen Abstand für Schnellzugriffselemente fest."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontaler Abstand",
+        "description": "Legen Sie den horizontalen Abstand für Schnellzugriffselemente fest."
+      },
+      "quickAccessGroupView": {
+        "label": "Gruppenansicht",
+        "description": "Gruppenansicht nach Symbolgruppe oder Kurzname-Schaltfläche anzeigen.",
+        "short_name": "Kurzname",
+        "icons": "Symbole"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gruppenklick-Aktion",
+        "description": "Konfigurieren Sie die Aktion, wenn auf eine Schnellzugriffsgruppe geklickt wird.",
+        "openAllUrls": "Alle URLs öffnen",
+        "expandIcons": "Symbole erweitern",
+        "expandList": "Liste erweitern"
       },
       "selectFromHistory": {
         "label": "Aus Verlauf auswählen",

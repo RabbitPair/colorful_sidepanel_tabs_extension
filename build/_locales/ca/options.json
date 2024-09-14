@@ -196,6 +196,10 @@
         "label": "Lluminositat",
         "description": "Estableix la lluminositat, recomanat només per al mode fosc"
       },
+      "listVerticalSpacing": {
+        "label": "Espaiat vertical de la llista",
+        "description": "Estableix l'espaiat vertical de la llista"
+      },
       "listBackgroundStyle": {
         "label": "Estil de fons de la llista",
         "description": "Estableix l'estil de fons de la llista",
@@ -418,6 +422,17 @@
         "label": "Recorda la agrupació del lloc",
         "description": "Quan està habilitat, si un lloc s'afegeix a un grup personalitzat, utilitzarà automàticament aquest grup la propera vegada que s'obri el lloc"
       },
+      "autoActivateTabGrouping": {
+        "label": "Activació automàtica de grups de pestanyes",
+        "description": "Quan està habilitat, obrir una nova pestanya crea un nou grup. Cada pestanya oberta des de la nova pestanya formarà part d'aquest grup."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nom de l'activació automàtica de grups de pestanyes",
+        "description": "Especifica com anomenar els grups en crear un nou grup",
+        "none": "Cap",
+        "title": "Títol",
+        "domain": "Domini"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportament de col·lapse del grup de pestanyes",
         "description": "Modifica el comportament del col·lapse del grup de pestanyes del navegador Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Mostra Accés Ràpid",
         "description": "Podeu configurar una pestanya perquè aparegui a l'Accés Ràpid per a un accés fàcil. Només cal fer clic dret (o mantenir premut) i seleccionar 'Fixar a l'Accés Ràpid'. Per eliminar-la, feu clic dret (o manteniu premut) i seleccioneu 'Eliminar de l'Accés Ràpid'. A diferència de les pestanyes fixades, l'Accés Ràpid desa l'URL i obre una pestanya nova cada vegada que es fa clic."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Espaiat Vertical",
+        "description": "Establiu l'espaiat vertical per als elements d'Accés Ràpid."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Espaiat Horitzontal",
+        "description": "Establiu l'espaiat horitzontal per als elements d'Accés Ràpid."
+      },
+      "quickAccessGroupView": {
+        "label": "Vista de Grup",
+        "description": "Mostra la vista de grup per grup d'icones o botó de nom curt.",
+        "short_name": "Nom Curt",
+        "icons": "Icones"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Acció de Clic de Grup",
+        "description": "Configura l'acció quan es fa clic en un grup d'Accés Ràpid.",
+        "openAllUrls": "Obrir Totes les URLs",
+        "expandIcons": "Expandir Icones",
+        "expandList": "Expandir Llista"
       },
       "selectFromHistory": {
         "label": "Selecciona de l'Historial",

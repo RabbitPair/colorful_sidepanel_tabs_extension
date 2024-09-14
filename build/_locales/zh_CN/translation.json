@@ -235,5 +235,11 @@
   "oldUrl": "旧网址",
   "newUrl": "新网址",
   "accessible": "可访问",
-  "foundUrlRedirect": "发现网址重定向，是否更新？"
+  "foundUrlRedirect": "发现网址重定向，是否更新？",
+  "clear": "清除",
+  "clearTabsTips": "保存快照并关闭除当前活动标签外的所有标签。您可以从最近关闭的标签或快照中恢复它们。",
+  "shortName": "简称",
+  "expandIcons": "展开图标",
+  "expandList": "展开列表",
+  "openAllUrls": "打开所有网址"
 }

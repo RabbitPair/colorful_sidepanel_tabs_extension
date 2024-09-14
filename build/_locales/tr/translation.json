@@ -235,5 +235,11 @@
   "oldUrl": "Eski URL",
   "newUrl": "Yeni URL",
   "accessible": "Erişilebilir",
-  "foundUrlRedirect": "URL yönlendirmesi bulundu, güncellemek istiyor musunuz?"
+  "foundUrlRedirect": "URL yönlendirmesi bulundu, güncellemek istiyor musunuz?",
+  "clear": "Temizle",
+  "clearTabsTips": "Bir anlık görüntü kaydedin ve şu anda aktif olan sekme dışındaki tüm sekmeleri kapatın. Bunları son kapatılan sekmelerden veya anlık görüntülerden geri yükleyebilirsiniz.",
+  "shortName": "Kısa isim",
+  "expandIcons": "Simgeyi Genişlet",
+  "expandList": "Listeyi Genişlet",
+  "openAllUrls": "Tüm URL'leri Aç"
 }

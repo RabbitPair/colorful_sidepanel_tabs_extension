@@ -196,6 +196,10 @@
         "label": "Ljusstyrka",
         "description": "Ställ in ljusstyrkan, rekommenderas endast för mörkt läge"
       },
+      "listVerticalSpacing": {
+        "label": "Listans vertikala avstånd",
+        "description": "Ställ in listans vertikala avstånd"
+      },
       "listBackgroundStyle": {
         "label": "Listans bakgrundsstil",
         "description": "Ställ in listans bakgrundsstil",
@@ -418,6 +422,17 @@
         "label": "Kom ihåg webbplatsgruppering",
         "description": "När aktiverat, om en webbplats läggs till i en anpassad grupp, kommer den automatiskt att använda denna grupp nästa gång webbplatsen öppnas"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatisk aktivering av flikgruppering",
+        "description": "När aktiverat, skapar öppning av en ny flik en ny grupp. Varje flik som öppnas från den nya fliken kommer att vara en del av denna grupp."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Namn på automatisk aktivering av flikgruppering",
+        "description": "Ange hur grupper ska namnges när en ny grupp skapas",
+        "none": "Ingen",
+        "title": "Titel",
+        "domain": "Domän"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Flikgruppens kollapsbeteende",
         "description": "Ändra beteendet för Chrome-webbläsarens flikgruppskollaps",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Visa Snabb åtkomst",
         "description": "Du kan ställa in en flik att visas i Snabb åtkomst för enkel åtkomst. Högerklicka (eller långtryck) på den och välj 'Fäst till Snabb åtkomst'. För att ta bort den, högerklicka (eller långtryck) på den och välj 'Ta bort från Snabb åtkomst'. Till skillnad från fästa flikar sparar Snabb åtkomst URL:en och öppnar en ny flik varje gång den klickas."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikal avstånd",
+        "description": "Ange det vertikala avståndet för Snabb åtkomst-objekt."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horisontell avstånd",
+        "description": "Ange det horisontella avståndet för Snabb åtkomst-objekt."
+      },
+      "quickAccessGroupView": {
+        "label": "Gruppvy",
+        "description": "Visa gruppvy med ikongrupp eller kortnamnsknapp.",
+        "short_name": "Kort namn",
+        "icons": "Ikoner"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Gruppklickåtgärd",
+        "description": "Konfigurera åtgärden när en Snabb åtkomst-grupp klickas.",
+        "openAllUrls": "Öppna alla URL:er",
+        "expandIcons": "Expandera ikoner",
+        "expandList": "Expandera lista"
       },
       "selectFromHistory": {
         "label": "Välj från historik",

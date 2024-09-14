@@ -222,5 +222,11 @@
   "oldUrl": "Hen URL",
   "newUrl": "URL Newydd",
   "accessible": "Hygyrch",
-  "foundUrlRedirect": "Canfuwyd ailgyfeirio URL, ydych chi eisiau diweddaru?"
+  "foundUrlRedirect": "Canfuwyd ailgyfeirio URL, ydych chi eisiau diweddaru?",
+  "clear": "Clirio",
+  "clearTabsTips": "Cadw llun a chau pob tab ac eithrio'r un sydd ar waith ar hyn o bryd. Gallwch eu hadfer o dabiau a gaewyd yn ddiweddar neu luniau.",
+  "shortName": "Enw byr",
+  "expandIcons": "Ehangu Eiconau",
+  "expandList": "Ehangu rhestr",
+  "openAllUrls": "Agor Pob URL"
 }

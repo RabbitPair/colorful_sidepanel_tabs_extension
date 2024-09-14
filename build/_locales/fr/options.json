@@ -196,6 +196,10 @@
         "label": "Luminosité",
         "description": "Définir la luminosité, recommandé uniquement pour le mode sombre"
       },
+      "listVerticalSpacing": {
+        "label": "Espacement vertical de la liste",
+        "description": "Définir l'espacement vertical de la liste"
+      },
       "listBackgroundStyle": {
         "label": "Style de fond de la liste",
         "description": "Définir le style de fond de la liste",
@@ -418,6 +422,17 @@
         "label": "Se souvenir du regroupement de sites",
         "description": "Lorsqu'il est activé, si un site est ajouté à un groupe personnalisé, il utilisera automatiquement ce groupe la prochaine fois que le site sera ouvert"
       },
+      "autoActivateTabGrouping": {
+        "label": "Activation automatique du regroupement d'onglets",
+        "description": "Lorsqu'il est activé, l'ouverture d'un nouvel onglet crée un nouveau groupe. Chaque onglet ouvert à partir du nouvel onglet fera partie de ce groupe."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nom du regroupement d'onglets automatique",
+        "description": "Spécifiez comment nommer les groupes lors de la création d'un nouveau groupe",
+        "none": "Aucun",
+        "title": "Titre",
+        "domain": "Domaine"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportement de réduction du groupe d'onglets",
         "description": "Modifier le comportement de réduction du groupe d'onglets du navigateur Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Afficher l'accès rapide",
         "description": "Vous pouvez définir un onglet pour qu'il apparaisse dans l'accès rapide pour un accès facile. Il suffit de faire un clic droit (ou un appui long) dessus et de sélectionner 'Épingler à l'accès rapide'. Pour le supprimer, faites un clic droit (ou un appui long) dessus et sélectionnez 'Supprimer de l'accès rapide'. Contrairement aux onglets épinglés, l'accès rapide enregistre l'URL et ouvre un nouvel onglet à chaque fois que vous cliquez dessus."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Espacement vertical",
+        "description": "Définissez l'espacement vertical pour les éléments d'accès rapide."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Espacement horizontal",
+        "description": "Définissez l'espacement horizontal pour les éléments d'accès rapide."
+      },
+      "quickAccessGroupView": {
+        "label": "Vue de groupe",
+        "description": "Afficher la vue de groupe par groupe d'icônes ou bouton de nom court.",
+        "short_name": "Nom court",
+        "icons": "Icônes"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Action de clic de groupe",
+        "description": "Configurer l'action lorsqu'un groupe d'accès rapide est cliqué.",
+        "openAllUrls": "Ouvrir toutes les URL",
+        "expandIcons": "Développer les icônes",
+        "expandList": "Développer la liste"
       },
       "selectFromHistory": {
         "label": "Sélectionner dans l'historique",

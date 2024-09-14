@@ -222,5 +222,11 @@
   "oldUrl": "Ansyen URL",
   "newUrl": "Nouvo URL",
   "accessible": "Aksè",
-  "foundUrlRedirect": "Jwenn redireksyon URL, èske ou vle mete ajou?"
+  "foundUrlRedirect": "Jwenn redireksyon URL, èske ou vle mete ajou?",
+  "clear": "Klè",
+  "clearTabsTips": "Sove yon snapshot epi fèmen tout tab eksepte sa ki aktif kounye a. Ou ka retabli yo nan tab ki fèk fèmen oswa snapshot.",
+  "shortName": "Non kout",
+  "expandIcons": "Elaji Ikon",
+  "expandList": "Elaji lis",
+  "openAllUrls": "Louvri tout URLs"
 }

@@ -222,5 +222,11 @@
   "oldUrl": "URL Qadim",
   "newUrl": "URL Ġdid",
   "accessible": "Aċċessibbli",
-  "foundUrlRedirect": "Instab reindirizzament tal-URL, trid taġġorna?"
+  "foundUrlRedirect": "Instab reindirizzament tal-URL, trid taġġorna?",
+  "clear": "Ċara",
+  "clearTabsTips": "Issejvja snapshot u agħlaq it-tabs kollha ħlief dik attiva bħalissa. Tista' tirkuprahom minn tabs magħluqa reċentement jew snapshots.",
+  "shortName": "Isem qasir",
+  "expandIcons": "Espandi l-Ikoni",
+  "expandList": "Espandi l-lista",
+  "openAllUrls": "Iftaħ il-URLs kollha"
 }

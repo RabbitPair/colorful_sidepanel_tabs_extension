@@ -222,5 +222,11 @@
   "oldUrl": "URL e vjetër",
   "newUrl": "URL e re",
   "accessible": "E aksesueshme",
-  "foundUrlRedirect": "Gjetur ridrejtim URL, dëshironi të përditësoni?"
+  "foundUrlRedirect": "Gjetur ridrejtim URL, dëshironi të përditësoni?",
+  "clear": "Pastro",
+  "clearTabsTips": "Ruani një pamje dhe mbyllni të gjitha skedat përveç asaj aktuale. Mund t'i riktheni ato nga skedat e mbyllura së fundmi ose pamjet.",
+  "shortName": "Emër i shkurtër",
+  "expandIcons": "Zgjero ikonat",
+  "expandList": "Zgjero listën",
+  "openAllUrls": "Hap të gjitha URL-të"
 }

@@ -196,6 +196,10 @@
         "label": "Heledus",
         "description": "Määra heledus, soovitatav ainult tumeda režiimi jaoks"
       },
+      "listVerticalSpacing": {
+        "label": "Nimekirja vertikaalne vahe",
+        "description": "Määra nimekirja vertikaalne vahe"
+      },
       "listBackgroundStyle": {
         "label": "Nimekirja tausta stiil",
         "description": "Määra nimekirja tausta stiil",
@@ -418,6 +422,17 @@
         "label": "Mäleta saidi rühmitust",
         "description": "Kui lubatud, siis kui sait lisatakse kohandatud gruppi, kasutab see järgmisel korral, kui sait avatakse, automaatselt seda gruppi"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automaatne vahekaartide rühmitamine",
+        "description": "Kui lubatud, loob uue vahekaardi avamine uue rühma. Iga uus vahekaart, mis avatakse sellest vahekaardist, kuulub sellesse rühma."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Automaatse vahekaartide rühmitamise nimi",
+        "description": "Määrake, kuidas rühmi nimetada, kui luuakse uus rühm",
+        "none": "Puudub",
+        "title": "Pealkiri",
+        "domain": "Domeen"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Vahekaardigrupi kokkuvarisemise käitumine",
         "description": "Muutke Chrome'i brauseri vahekaardigrupi kokkuvarisemise käitumist",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Näita kiirjuurdepääsu",
         "description": "Saate määrata vahekaardi, mis kuvatakse kiirjuurdepääsus hõlpsaks juurdepääsuks. Lihtsalt paremklõpsake (või vajutage pikalt) ja valige 'Kinnita kiirjuurdepääsu'. Eemaldamiseks paremklõpsake (või vajutage pikalt) ja valige 'Kustuta kiirjuurdepääsust'. Erinevalt kinnitatud vahekaartidest salvestab kiirjuurdepääs URL-i ja avab iga kord uue vahekaardi, kui seda klõpsatakse."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikaalne vahe",
+        "description": "Määrake kiirjuurdepääsu üksuste vertikaalne vahe."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horisontaalne vahe",
+        "description": "Määrake kiirjuurdepääsu üksuste horisontaalne vahe."
+      },
+      "quickAccessGroupView": {
+        "label": "Grupi vaade",
+        "description": "Kuva grupi vaade ikoonigrupi või lühinime nupu järgi.",
+        "short_name": "Lühinimi",
+        "icons": "Ikoonid"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Grupi klõpsamise toiming",
+        "description": "Määrake toiming, kui klõpsatakse kiirjuurdepääsu gruppi.",
+        "openAllUrls": "Ava kõik URL-id",
+        "expandIcons": "Laienda ikoone",
+        "expandList": "Laienda loendit"
       },
       "selectFromHistory": {
         "label": "Vali ajaloost",

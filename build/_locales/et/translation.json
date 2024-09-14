@@ -235,5 +235,11 @@
   "oldUrl": "Vana URL",
   "newUrl": "Uus URL",
   "accessible": "Ligipääsetav",
-  "foundUrlRedirect": "Leiti URL-i ümbersuunamine, kas soovite uuendada?"
+  "foundUrlRedirect": "Leiti URL-i ümbersuunamine, kas soovite uuendada?",
+  "clear": "Kustuta",
+  "clearTabsTips": "Salvesta hetkepilt ja sulge kõik vahekaardid peale praegu aktiivse. Saate need taastada hiljuti suletud vahekaartidest või hetkepiltidest.",
+  "shortName": "Lühinimi",
+  "expandIcons": "Laienda ikoone",
+  "expandList": "Laienda loendit",
+  "openAllUrls": "Ava kõik URL-id"
 }

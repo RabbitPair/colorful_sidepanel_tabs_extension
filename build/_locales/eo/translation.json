@@ -222,5 +222,11 @@
   "oldUrl": "Malnova URL",
   "newUrl": "Nova URL",
   "accessible": "Alirebla",
-  "foundUrlRedirect": "Trovita URL-aliro, ĉu vi volas ĝisdatigi?"
+  "foundUrlRedirect": "Trovita URL-aliro, ĉu vi volas ĝisdatigi?",
+  "clear": "Malplenigi",
+  "clearTabsTips": "Konservu momentfoton kaj fermu ĉiujn langetojn krom la nuntempe aktiva. Vi povas restarigi ilin el lastatempe fermitaj langetoj aŭ momentfotoj.",
+  "shortName": "Mallonga nomo",
+  "expandIcons": "Etendi Ikonojn",
+  "expandList": "Etendi liston",
+  "openAllUrls": "Malfermi Ĉiujn URLojn"
 }

@@ -196,6 +196,10 @@
         "label": "Ryškumas",
         "description": "Nustatyti ryškumą, rekomenduojama tik tamsiam režimui"
       },
+      "listVerticalSpacing": {
+        "label": "Sąrašo vertikalus tarpas",
+        "description": "Nustatyti sąrašo vertikalų tarpą"
+      },
       "listBackgroundStyle": {
         "label": "Sąrašo fono stilius",
         "description": "Nustatyti sąrašo fono stilių",
@@ -418,6 +422,17 @@
         "label": "Prisiminti svetainės grupavimą",
         "description": "Kai įjungta, jei svetainė pridedama į pasirinktą grupę, kitą kartą atidarius svetainę ji automatiškai naudos šią grupę"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatiškai aktyvuoti skirtukų grupavimą",
+        "description": "Kai įjungta, atidarius naują skirtuką sukuriama nauja grupė. Kiekvienas iš naujo skirtuko atidarytas skirtukas bus šios grupės dalis."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Automatiškai aktyvuoti skirtukų grupavimo pavadinimą",
+        "description": "Nurodykite, kaip pavadinti grupes kuriant naują grupę",
+        "none": "Nėra",
+        "title": "Pavadinimas",
+        "domain": "Domenas"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Skirtukų grupės suskleidimo elgsena",
         "description": "Keisti Chrome naršyklės skirtukų grupės suskleidimo elgseną",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Rodyti greitą prieigą",
         "description": "Galite nustatyti, kad skirtukas būtų rodomas greitoje prieigoje, kad būtų lengva pasiekti. Tiesiog dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite 'Prisegti prie greitos prieigos'. Norėdami jį pašalinti, dešiniuoju pelės mygtuku spustelėkite (arba ilgai paspauskite) ir pasirinkite 'Ištrinti iš greitos prieigos'. Skirtingai nuo prisegtų skirtukų, greita prieiga išsaugo URL ir kiekvieną kartą spustelėjus atidaro naują skirtuką."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikalus tarpas",
+        "description": "Nustatykite vertikalų tarpą greitos prieigos elementams."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontalus tarpas",
+        "description": "Nustatykite horizontalų tarpą greitos prieigos elementams."
+      },
+      "quickAccessGroupView": {
+        "label": "Grupės vaizdas",
+        "description": "Rodyti grupės vaizdą pagal piktogramų grupę arba trumpą pavadinimo mygtuką.",
+        "short_name": "Trumpas pavadinimas",
+        "icons": "Piktogramos"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Grupės paspaudimo veiksmas",
+        "description": "Konfigūruokite veiksmą, kai paspaudžiama greitos prieigos grupė.",
+        "openAllUrls": "Atidaryti visus URL",
+        "expandIcons": "Išplėsti piktogramas",
+        "expandList": "Išplėsti sąrašą"
       },
       "selectFromHistory": {
         "label": "Pasirinkti iš istorijos",

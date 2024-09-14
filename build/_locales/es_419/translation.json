@@ -235,5 +235,11 @@
   "oldUrl": "URL antigua",
   "newUrl": "URL nueva",
   "accessible": "Accesible",
-  "foundUrlRedirect": "Se encontró una redirección de URL, ¿quieres actualizar?"
+  "foundUrlRedirect": "Se encontró una redirección de URL, ¿quieres actualizar?",
+  "clear": "Limpiar",
+  "clearTabsTips": "Guarda una instantánea y cierra todas las pestañas excepto la que está activa actualmente. Puedes restaurarlas desde las pestañas cerradas recientemente o desde las instantáneas.",
+  "shortName": "Nombre corto",
+  "expandIcons": "Expandir iconos",
+  "expandList": "Expandir lista",
+  "openAllUrls": "Abrir todas las URLs"
 }

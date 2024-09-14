@@ -222,5 +222,11 @@
   "oldUrl": "URL antiga",
   "newUrl": "URL nova",
   "accessible": "Accesible",
-  "foundUrlRedirect": "Atopouse redirección de URL, queres actualizala?"
+  "foundUrlRedirect": "Atopouse redirección de URL, queres actualizala?",
+  "clear": "Limpar",
+  "clearTabsTips": "Gardar unha instantánea e pechar todas as lapelas agás a que está activa actualmente. Podes restauralas desde as lapelas pechadas recentemente ou desde as instantáneas.",
+  "shortName": "Nome curto",
+  "expandIcons": "Expandir iconas",
+  "expandList": "Expandir lista",
+  "openAllUrls": "Abrir todas as URLs"
 }

@@ -235,5 +235,11 @@
   "oldUrl": "Senas URL",
   "newUrl": "Naujas URL",
   "accessible": "Prieinama",
-  "foundUrlRedirect": "Rasta URL peradresavimas, ar norite atnaujinti?"
+  "foundUrlRedirect": "Rasta URL peradresavimas, ar norite atnaujinti?",
+  "clear": "Išvalyti",
+  "clearTabsTips": "Išsaugokite momentinę kopiją ir uždarykite visus skirtukus, išskyrus šiuo metu aktyvų. Galite juos atkurti iš neseniai uždarytų skirtukų arba momentinių kopijų.",
+  "shortName": "Trumpas pavadinimas",
+  "expandIcons": "Išplėsti piktogramas",
+  "expandList": "Išplėsti sąrašą",
+  "openAllUrls": "Atidaryti visus URL"
 }

@@ -235,5 +235,11 @@
   "oldUrl": "URL vechi",
   "newUrl": "URL nou",
   "accessible": "Accesibil",
-  "foundUrlRedirect": "S-a găsit redirecționare URL, doriți să actualizați?"
+  "foundUrlRedirect": "S-a găsit redirecționare URL, doriți să actualizați?",
+  "clear": "Curăță",
+  "clearTabsTips": "Salvează o captură de ecran și închide toate filele, cu excepția celei active. Le poți restaura din filele recent închise sau din capturi.",
+  "shortName": "Nume scurt",
+  "expandIcons": "Extinde pictogramele",
+  "expandList": "Extinde lista",
+  "openAllUrls": "Deschide toate URL-urile"
 }

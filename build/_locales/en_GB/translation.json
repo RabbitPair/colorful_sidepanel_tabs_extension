@@ -235,5 +235,11 @@
   "oldUrl": "Old URL",
   "newUrl": "New URL",
   "accessible": "Accessible",
-  "foundUrlRedirect": "Found URL redirect, do you want to update?"
+  "foundUrlRedirect": "Found URL redirect, do you want to update?",
+  "clear": "Clear",
+  "clearTabsTips": "Save a snapshot and close all tabs except the currently active one. You can restore them from recently closed tabs or snapshots.",
+  "shortName": "Short name",
+  "expandIcons": "Expand Icons",
+  "expandList": "Expand list",
+  "openAllUrls": "Open All URLs"
 }

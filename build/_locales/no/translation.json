@@ -235,5 +235,11 @@
   "oldUrl": "Gammel URL",
   "newUrl": "Ny URL",
   "accessible": "Tilgjengelig",
-  "foundUrlRedirect": "Fant URL-omdirigering, vil du oppdatere?"
+  "foundUrlRedirect": "Fant URL-omdirigering, vil du oppdatere?",
+  "clear": "Tøm",
+  "clearTabsTips": "Lagre et øyeblikksbilde og lukk alle faner unntatt den som er aktiv. Du kan gjenopprette dem fra nylig lukkede faner eller øyeblikksbilder.",
+  "shortName": "Kort navn",
+  "expandIcons": "Utvid ikoner",
+  "expandList": "Utvid liste",
+  "openAllUrls": "Åpne alle URL-er"
 }

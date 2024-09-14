@@ -222,5 +222,11 @@
   "oldUrl": "URL zaharra",
   "newUrl": "URL berria",
   "accessible": "Eskuragarria",
-  "foundUrlRedirect": "URL birbideratzea aurkitu da, eguneratu nahi duzu?"
+  "foundUrlRedirect": "URL birbideratzea aurkitu da, eguneratu nahi duzu?",
+  "clear": "Garbitu",
+  "clearTabsTips": "Gorde argazki bat eta itxi fitxa guztiak, unean aktibo dagoen fitxa izan ezik. Berriki itxitako fitxetatik edo argazkietatik berreskuratu ditzakezu.",
+  "shortName": "Izen laburra",
+  "expandIcons": "Ikonoak Zabaldu",
+  "expandList": "Zerrenda Zabaldu",
+  "openAllUrls": "Ireki URL guztiak"
 }

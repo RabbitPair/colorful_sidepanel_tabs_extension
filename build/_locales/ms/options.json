@@ -196,6 +196,10 @@
         "label": "Kecerahan",
         "description": "Tetapkan kecerahan, disarankan hanya untuk mod gelap"
       },
+      "listVerticalSpacing": {
+        "label": "Jarak menegak senarai",
+        "description": "Tetapkan jarak menegak senarai"
+      },
       "listBackgroundStyle": {
         "label": "Gaya latar belakang senarai",
         "description": "Tetapkan gaya latar belakang senarai",
@@ -418,6 +422,17 @@
         "label": "Ingat pengelompokan tapak",
         "description": "Apabila diaktifkan, jika tapak ditambah ke dalam kumpulan tersuai, ia akan menggunakan kumpulan ini secara automatik pada kali seterusnya tapak dibuka"
       },
+      "autoActivateTabGrouping": {
+        "label": "Aktifkan Pengelompokan Tab Auto",
+        "description": "Apabila diaktifkan, membuka tab baru akan membuat kumpulan baru. Setiap tab yang dibuka dari tab baru akan menjadi sebahagian daripada kumpulan ini."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nama Pengelompokan Tab Auto",
+        "description": "Nyatakan cara untuk menamakan kumpulan apabila membuat kumpulan baru",
+        "none": "Tiada",
+        "title": "Tajuk",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Tingkah laku kumpulan tab runtuh",
         "description": "Ubah tingkah laku runtuhan kumpulan tab pelayar Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Tunjukkan Akses Pantas",
         "description": "Anda boleh menetapkan tab untuk muncul dalam Akses Pantas untuk akses mudah. Cuma klik kanan (atau tekan lama) dan pilih 'Pin ke Akses Pantas'. Untuk mengeluarkannya, klik kanan (atau tekan lama) dan pilih 'Padam dari Akses Pantas'. Tidak seperti tab yang dipin, Akses Pantas menyimpan URL dan membuka tab baru setiap kali ia diklik."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Jarak Menegak",
+        "description": "Tetapkan jarak menegak untuk item Akses Pantas."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Jarak Mendatar",
+        "description": "Tetapkan jarak mendatar untuk item Akses Pantas."
+      },
+      "quickAccessGroupView": {
+        "label": "Paparan Kumpulan",
+        "description": "Paparkan paparan kumpulan mengikut kumpulan ikon atau butang nama pendek.",
+        "short_name": "Nama Pendek",
+        "icons": "Ikon"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Tindakan Klik Kumpulan",
+        "description": "Konfigurasikan tindakan apabila kumpulan Akses Pantas diklik.",
+        "openAllUrls": "Buka Semua URL",
+        "expandIcons": "Kembangkan Ikon",
+        "expandList": "Kembangkan Senarai"
       },
       "selectFromHistory": {
         "label": "Pilih dari Sejarah",

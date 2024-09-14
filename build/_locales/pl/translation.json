@@ -235,5 +235,11 @@
   "oldUrl": "Stary URL",
   "newUrl": "Nowy URL",
   "accessible": "Dostępny",
-  "foundUrlRedirect": "Znaleziono przekierowanie URL, czy chcesz zaktualizować?"
+  "foundUrlRedirect": "Znaleziono przekierowanie URL, czy chcesz zaktualizować?",
+  "clear": "Wyczyść",
+  "clearTabsTips": "Zapisz migawkę i zamknij wszystkie karty z wyjątkiem aktualnie aktywnej. Możesz je przywrócić z ostatnio zamkniętych kart lub migawek.",
+  "shortName": "Krótka nazwa",
+  "expandIcons": "Rozwiń ikony",
+  "expandList": "Rozwiń listę",
+  "openAllUrls": "Otwórz wszystkie URL"
 }

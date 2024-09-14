@@ -235,5 +235,11 @@
   "oldUrl": "Gammal URL",
   "newUrl": "Ny URL",
   "accessible": "Tillgänglig",
-  "foundUrlRedirect": "Hittade URL-omdirigering, vill du uppdatera?"
+  "foundUrlRedirect": "Hittade URL-omdirigering, vill du uppdatera?",
+  "clear": "Rensa",
+  "clearTabsTips": "Spara en ögonblicksbild och stäng alla flikar utom den som för närvarande är aktiv. Du kan återställa dem från nyligen stängda flikar eller ögonblicksbilder.",
+  "shortName": "Kort namn",
+  "expandIcons": "Expandera ikoner",
+  "expandList": "Expandera lista",
+  "openAllUrls": "Öppna alla URL:er"
 }

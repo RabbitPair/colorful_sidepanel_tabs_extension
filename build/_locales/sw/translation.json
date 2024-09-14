@@ -222,5 +222,11 @@
   "oldUrl": "URL ya zamani",
   "newUrl": "URL mpya",
   "accessible": "Inapatikana",
-  "foundUrlRedirect": "Imeonekana URL ya kuelekeza, unataka kusasisha?"
+  "foundUrlRedirect": "Imeonekana URL ya kuelekeza, unataka kusasisha?",
+  "clear": "Futa",
+  "clearTabsTips": "Hifadhi picha na funga vichupo vyote isipokuwa kile kinachotumika kwa sasa. Unaweza kuvirejesha kutoka kwa vichupo vilivyofungwa hivi karibuni au picha.",
+  "shortName": "Jina fupi",
+  "expandIcons": "Panua Aikoni",
+  "expandList": "Panua orodha",
+  "openAllUrls": "Fungua URL zote"
 }

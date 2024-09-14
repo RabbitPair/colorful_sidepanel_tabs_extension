@@ -196,6 +196,10 @@
         "label": "Uburenganzira",
         "description": "Emeza uburenganzira, ushobora kumenyekana mu buryo bw'umunini w'uburanga"
       },
+      "listVerticalSpacing": {
+        "label": "Intera y'urutonde rw'ahagaze",
+        "description": "Shyiraho intera y'urutonde rw'ahagaze"
+      },
       "listBackgroundStyle": {
         "label": "Imiterere y'inyuma y'urutonde",
         "description": "Shyiraho imiterere y'inyuma y'urutonde",
@@ -418,6 +422,17 @@
         "label": "Ibuka itsinda ry'urubuga",
         "description": "Iyo yemejwe, niba urubuga rwongerewe mu itsinda ryihariye, ruzahita rukoresha iri tsinda ubutaha urubuga rufunguwe"
       },
+      "autoActivateTabGrouping": {
+        "label": "Kwihutira gukora itsinda ry'amapaji",
+        "description": "Iyo yemejwe, gufungura urupapuro rushya bizakora itsinda rishya. Buri rupapuro rushya ruzaba ari urwo muri iri tsinda."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Izina ry'itsinda ry'amapaji ryihutirwa",
+        "description": "Tanga uburyo bwo kwita amatsinda mugihe ukora itsinda rishya",
+        "none": "Nta na rimwe",
+        "title": "Umutwe",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Imyitwarire yo kugabanya itsinda ry'amapaji",
         "description": "Hindura imyitwarire yo kugabanya itsinda ry'amapaji ya Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Erekana Kwinjira Vuba",
         "description": "Urashobora gushyiraho tab kugirango igaragare muri Kwinjira Vuba kugirango byorohe kugeraho. Kanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo 'Shyira muri Kwinjira Vuba'. Kugirango ubikureho, kanda iburyo (cyangwa ukande igihe kirekire) hanyuma uhitemo 'Siba muri Kwinjira Vuba'. Bitandukanye na tab zashyizweho, Kwinjira Vuba ibika URL kandi ifungura tab nshya buri gihe uyikandagiyeho."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Intera y'Umurongo",
+        "description": "Shyiraho intera y'umurongo kuri Kwinjira Vuba."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Intera y'Inyuguti",
+        "description": "Shyiraho intera y'inyuguti kuri Kwinjira Vuba."
+      },
+      "quickAccessGroupView": {
+        "label": "Reba Itsinda",
+        "description": "Erekana itsinda ry'ibishushanyo cyangwa buto y'izina rigufi.",
+        "short_name": "Izina rigufi",
+        "icons": "Ibishushanyo"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Igikorwa cyo Gukanda ku Itsinda",
+        "description": "Shyiraho igikorwa igihe itsinda rya Kwinjira Vuba rikandwa.",
+        "openAllUrls": "Fungura URLs zose",
+        "expandIcons": "Gura Ibishushanyo",
+        "expandList": "Gura Urutonde"
       },
       "selectFromHistory": {
         "label": "Hitamo mu Mateka",

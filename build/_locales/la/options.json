@@ -196,6 +196,10 @@
         "label": "Claritas",
         "description": "Constitue claritatem, tantum in modo obscuro commendatur"
       },
+      "listVerticalSpacing": {
+        "label": "Spatium verticalis indices",
+        "description": "Constitue spatium verticalis indices"
+      },
       "listBackgroundStyle": {
         "label": "Stylus funditus indices",
         "description": "Constitue stylum funditus indices",
@@ -418,6 +422,17 @@
         "label": "Memorare coetum situs",
         "description": "Cum activum, si situs ad coetum consuetudinis additur, hoc coetum automatice utetur proxima vice cum situs aperitur"
       },
+      "autoActivateTabGrouping": {
+        "label": "Auto Activate Tabularum Coetum",
+        "description": "Cum activum, aperiens novam tabulam novum coetum creat. Omnes tabulae ex nova tabula apertae huius coetus pars erunt."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Auto Activate Nomen Tabularum Coetum",
+        "description": "Specifica quomodo nominare coetus cum novum coetum creas",
+        "none": "Nihil",
+        "title": "Titulus",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Behavior collapsionis coetus tabularum",
         "description": "Muta behavior Chrome tabularum collapsionis coetus",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Mostra Accesso Rapido",
         "description": "Puoi impostare una scheda per apparire in Accesso Rapido per un facile accesso. Basta fare clic con il tasto destro (o premere a lungo) e selezionare 'Aggiungi a Accesso Rapido'. Per rimuoverla, fare clic con il tasto destro (o premere a lungo) e selezionare 'Elimina da Accesso Rapido'. A differenza delle schede bloccate, Accesso Rapido salva l'URL e apre una nuova scheda ogni volta che viene cliccato."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Spaziatura Verticale",
+        "description": "Imposta la spaziatura verticale per gli elementi di Accesso Rapido."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Spaziatura Orizzontale",
+        "description": "Imposta la spaziatura orizzontale per gli elementi di Accesso Rapido."
+      },
+      "quickAccessGroupView": {
+        "label": "Visualizzazione Gruppo",
+        "description": "Visualizza la vista del gruppo per icona o pulsante con nome breve.",
+        "short_name": "Nome Breve",
+        "icons": "Icone"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Azione Clic Gruppo",
+        "description": "Configura l'azione quando viene cliccato un gruppo di Accesso Rapido.",
+        "openAllUrls": "Apri Tutti gli URL",
+        "expandIcons": "Espandi Icone",
+        "expandList": "Espandi Elenco"
       },
       "selectFromHistory": {
         "label": "Seleziona dalla Cronologia",

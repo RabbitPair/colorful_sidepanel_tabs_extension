@@ -196,6 +196,10 @@
         "label": "ብሩህነት",
         "description": "ብሩህነት አቀናብር፣ ለጨለማ ሁኔታ ብቻ የሚመከር"
       },
+      "listVerticalSpacing": {
+        "label": "የዝርዝር አቀብ ርቀት",
+        "description": "የዝርዝር አቀብ ርቀት አቀናብር"
+      },
       "listBackgroundStyle": {
         "label": "የዝርዝር ጀርባ ቅጥ",
         "description": "የዝርዝር ጀርባ ቅጥ አቀናብር",
@@ -418,6 +422,17 @@
         "label": "የጣቢያ ቡድን አስታውስ",
         "description": "ሲነቃቃ አንድ ጣቢያ ወደ ብጁ ቡድን ተጨመር ከሆነ፣ ቀጣዩን ጊዜ ጣቢያው ሲከፈት በራስ ሰር ይጠቀማል"
       },
+      "autoActivateTabGrouping": {
+        "label": "ትር ቡድን ማሰባሰብን በራስ ሰር አንቃ",
+        "description": "ሲነቃቃ አዲስ ትር መክፈት አዲስ ቡድን ይፈጥራል። ከአዲሱ ትር የተከፈቱ ሁሉም ትሮች የዚህ ቡድን አካል ይሆናሉ።"
+      },
+      "autoActivateTabGroupingName": {
+        "label": "የትር ቡድን ማሰባሰብን በራስ ሰር ስም አንቃ",
+        "description": "አዲስ ቡድን ሲፈጠር ቡድኖችን ለማንገላታት እንዴት እንደሚሰነዝር ይግለጹ",
+        "none": "ምንም",
+        "title": "ርዕስ",
+        "domain": "ድር"
+      },
       "tabGroupCollapseBehavior": {
         "label": "የትር ቡድን መንቀሳቀስ ባህሪ",
         "description": "የክሮም አሳሽ ትር ቡድን መንቀሳቀስ ባህሪ ያቀናብር",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "ፈጣን መዳረሻን አሳይ",
         "description": "ትርን በፈጣን መዳረሻ ላይ ለቀላል መዳረሻ ማሳየት ትችላላችሁ። ቀኝ ጠቅ ያድርጉ (ወይም ረጅም ጊዜ ይጫኑ) እና 'በፈጣን መዳረሻ ላይ አስራጭ' ይምረጡ። ለማስወገድ ቀኝ ጠቅ ያድርጉ (ወይም ረጅም ጊዜ ይጫኑ) እና 'ከፈጣን መዳረሻ ላይ አስወግድ' ይምረጡ። እንደ ተሰሩ ትር ተለይቶ ፈጣን መዳረሻ የURLን ያስቀምጣል እና በየጊዜው አዲስ ትር ይከፈታል።"
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "አንድ ላይ አንድ ርቀት",
+        "description": "ለፈጣን መዳረሻ እቃዎች አንድ ላይ አንድ ርቀት ያዘጋጁ።"
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "በአንድ አስቀድሞ ርቀት",
+        "description": "ለፈጣን መዳረሻ እቃዎች በአንድ አስቀድሞ ርቀት ያዘጋጁ።"
+      },
+      "quickAccessGroupView": {
+        "label": "የቡድን እይታ",
+        "description": "የቡድን እይታን በአዶ ቡድን ወይም በአጭር ስም አዝራር ያሳዩ።",
+        "short_name": "አጭር ስም",
+        "icons": "አዶዎች"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "የቡድን ጠቅ እርምጃ",
+        "description": "ፈጣን መዳረሻ ቡድን በመጠቀም ምን እንደሚደረግ ያስተካክሉ።",
+        "openAllUrls": "ሁሉንም የURL ክፈት",
+        "expandIcons": "አዶዎችን አስፋፋ",
+        "expandList": "ዝርዝርን አስፋፋ"
       },
       "selectFromHistory": {
         "label": "ከታሪክ ይምረጡ",

@@ -196,6 +196,10 @@
         "label": "Parlaklık",
         "description": "Parlaklığı ayarla, yalnızca koyu mod için önerilir"
       },
+      "listVerticalSpacing": {
+        "label": "Liste dikey aralığı",
+        "description": "Liste dikey aralığını ayarla"
+      },
       "listBackgroundStyle": {
         "label": "Liste arka plan stili",
         "description": "Liste arka plan stilini ayarla",
@@ -418,6 +422,17 @@
         "label": "Site gruplamasını hatırla",
         "description": "Etkinleştirildiğinde, bir site özel bir gruba eklendiğinde, site bir sonraki açılışında otomatik olarak bu grubu kullanacaktır"
       },
+      "autoActivateTabGrouping": {
+        "label": "Sekme Grubunu Otomatik Etkinleştir",
+        "description": "Etkinleştirildiğinde, yeni bir sekme açmak yeni bir grup oluşturur. Yeni sekmeden açılan her sekme bu grubun parçası olacaktır."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Sekme Grubunu Otomatik Etkinleştirme Adı",
+        "description": "Yeni bir grup oluştururken grupların nasıl adlandırılacağını belirtin",
+        "none": "Hiçbiri",
+        "title": "Başlık",
+        "domain": "Alan Adı"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Sekme grubu daraltma davranışı",
         "description": "Chrome tarayıcı sekme grubu daraltma davranışını değiştirin",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Hızlı Erişimi Göster",
         "description": "Kolay erişim için bir sekmenin Hızlı Erişim'de görünmesini ayarlayabilirsiniz. Sadece sağ tıklayın (veya uzun basın) ve 'Hızlı Erişim'e Sabitle'yi seçin. Kaldırmak için, sağ tıklayın (veya uzun basın) ve 'Hızlı Erişim'den Sil'yi seçin. Sabitlenmiş sekmelerden farklı olarak, Hızlı Erişim URL'yi kaydeder ve her tıklandığında yeni bir sekme açar."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Dikey Boşluk",
+        "description": "Hızlı Erişim öğeleri için dikey boşluğu ayarlayın."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Yatay Boşluk",
+        "description": "Hızlı Erişim öğeleri için yatay boşluğu ayarlayın."
+      },
+      "quickAccessGroupView": {
+        "label": "Grup Görünümü",
+        "description": "Grup görünümünü simge grubu veya kısa ad düğmesi ile görüntüleyin.",
+        "short_name": "Kısa Ad",
+        "icons": "Simgeler"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Grup Tıklama Eylemi",
+        "description": "Bir Hızlı Erişim grubuna tıklandığında yapılacak eylemi yapılandırın.",
+        "openAllUrls": "Tüm URL'leri Aç",
+        "expandIcons": "Simgeleri Genişlet",
+        "expandList": "Listeyi Genişlet"
       },
       "selectFromHistory": {
         "label": "Geçmişten Seç",

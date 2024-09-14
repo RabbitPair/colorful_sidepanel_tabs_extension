@@ -222,5 +222,11 @@
   "oldUrl": "URL antiga",
   "newUrl": "URL nova",
   "accessible": "Accessible",
-  "foundUrlRedirect": "S'ha trobat una redirecció d'URL, vols actualitzar-la?"
+  "foundUrlRedirect": "S'ha trobat una redirecció d'URL, vols actualitzar-la?",
+  "clear": "Neteja",
+  "clearTabsTips": "Desa una instantània i tanca totes les pestanyes excepte la que està activa actualment. Pots restaurar-les des de les pestanyes tancades recentment o des de les instantànies.",
+  "shortName": "Nom curt",
+  "expandIcons": "Expandeix icones",
+  "expandList": "Expandeix llista",
+  "openAllUrls": "Obre totes les URL"
 }

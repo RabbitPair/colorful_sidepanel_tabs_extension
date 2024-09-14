@@ -196,6 +196,10 @@
         "label": "亮度",
         "description": "设置亮度，仅推荐用于深色模式"
       },
+      "listVerticalSpacing": {
+        "label": "列表垂直间距",
+        "description": "设置列表垂直间距"
+      },
       "listBackgroundStyle": {
         "label": "列表背景样式",
         "description": "设置列表背景样式",
@@ -418,6 +422,17 @@
         "label": "记住站点分组",
         "description": "启用后，如果将站点添加到自定义组，下次打开该站点时将自动使用此组"
       },
+      "autoActivateTabGrouping": {
+        "label": "自动激活标签分组",
+        "description": "启用后，打开新标签页会创建一个新组。从新标签页打开的每个标签页都将成为该组的一部分。"
+      },
+      "autoActivateTabGroupingName": {
+        "label": "自动激活标签分组名称",
+        "description": "指定在创建新组时如何命名组",
+        "none": "无",
+        "title": "标题",
+        "domain": "域名"
+      },
       "tabGroupCollapseBehavior": {
         "label": "标签组折叠行为",
         "description": "修改浏览器标签组折叠的行为",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "显示快速访问",
         "description": "您可以将标签页设置为显示在快速访问中，以便于查找。只需右键单击（或长按）它并选择“固定到快速访问”。要删除它，请右键单击（或长按）它并选择“从快速访问中删除”。与固定标签页不同，快速访问保存URL并在每次点击时打开新标签页。"
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "垂直间距",
+        "description": "设置快速访问项目的垂直间距。"
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "水平间距",
+        "description": "设置快速访问项目的水平间距。"
+      },
+      "quickAccessGroupView": {
+        "label": "分组视图",
+        "description": "通过图标组或短名称按钮显示分组视图。",
+        "short_name": "短名称",
+        "icons": "图标"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "分组点击操作",
+        "description": "配置快速访问分组被点击时的操作。",
+        "openAllUrls": "打开所有URL",
+        "expandIcons": "展开图标",
+        "expandList": "展开列表"
       },
       "selectFromHistory": {
         "label": "从历史记录中选择",

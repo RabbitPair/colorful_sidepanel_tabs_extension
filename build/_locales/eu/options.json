@@ -196,6 +196,10 @@
         "label": "Argitasuna",
         "description": "Ezarri argitasuna, gomendatua bakarrik ilun modura"
       },
+      "listVerticalSpacing": {
+        "label": "Zerrendaren bertikala tartea",
+        "description": "Ezarri zerrendaren bertikala tartea"
+      },
       "listBackgroundStyle": {
         "label": "Zerrendaren atzeko estiloa",
         "description": "Ezarri zerrendaren atzeko estiloa",
@@ -418,6 +422,17 @@
         "label": "Gogoratu guneen taldea",
         "description": "Gaituta dagoenean, gune bat talde pertsonalizatu batera gehitzen bada, hurrengoan gunea irekitzen denean automatikoki talde hau erabiliko du"
       },
+      "autoActivateTabGrouping": {
+        "label": "Fitxa Taldekatzea Automatikoki Aktibatu",
+        "description": "Gaituta dagoenean, fitxa berri bat irekitzean talde berri bat sortzen da. Fitxa berri horretatik irekitako fitxa guztiak talde horren parte izango dira."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Fitxa Taldekatzea Automatikoki Aktibatu Izenak",
+        "description": "Talde berri bat sortzean taldeak nola izendatu zehaztu",
+        "none": "Bat ere ez",
+        "title": "Izenburua",
+        "domain": "Domeinua"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Fitxategi-taldearen kolapsua",
         "description": "Aldatu Chrome nabigatzailearen fitxategi-taldeen kolapsuaren jokabidea",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Erakutsi Sarbide Azkarra",
         "description": "Fitxa bat Sarbide Azkarrean agertzeko ezar dezakezu erraz sartzeko. Egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu 'Pin to Quick Access'. Kendu nahi baduzu, egin klik eskuineko botoiarekin (edo sakatu luze) eta hautatu 'Delete from Quick Access'. Fitxa finkatuekin ez bezala, Sarbide Azkarrak URLa gordetzen du eta fitxa berri bat irekitzen du klik egiten den bakoitzean."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Bertikaleko tartea",
+        "description": "Ezarri Sarbide Azkarreko elementuen bertikaleko tartea."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontaleko tartea",
+        "description": "Ezarri Sarbide Azkarreko elementuen horizontaleko tartea."
+      },
+      "quickAccessGroupView": {
+        "label": "Talde Ikuspegia",
+        "description": "Erakutsi talde ikuspegia ikono taldearen edo izen laburreko botoiaren arabera.",
+        "short_name": "Izen Laburra",
+        "icons": "Ikonoak"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Talde Klik Ekintza",
+        "description": "Konfiguratu Sarbide Azkarreko talde bat klik egiten denean ekintza.",
+        "openAllUrls": "Ireki URL guztiak",
+        "expandIcons": "Zabaldu Ikonoak",
+        "expandList": "Zabaldu Zerrenda"
       },
       "selectFromHistory": {
         "label": "Hautatu Historiatik",

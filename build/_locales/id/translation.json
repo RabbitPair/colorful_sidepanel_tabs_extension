@@ -235,5 +235,11 @@
   "oldUrl": "URL Lama",
   "newUrl": "URL Baru",
   "accessible": "Dapat diakses",
-  "foundUrlRedirect": "Ditemukan pengalihan URL, apakah Anda ingin memperbarui?"
+  "foundUrlRedirect": "Ditemukan pengalihan URL, apakah Anda ingin memperbarui?",
+  "clear": "Bersihkan",
+  "clearTabsTips": "Simpan snapshot dan tutup semua tab kecuali yang sedang aktif. Anda dapat memulihkannya dari tab yang baru saja ditutup atau snapshot.",
+  "shortName": "Nama pendek",
+  "expandIcons": "Perluas Ikon",
+  "expandList": "Perluas daftar",
+  "openAllUrls": "Buka Semua URL"
 }

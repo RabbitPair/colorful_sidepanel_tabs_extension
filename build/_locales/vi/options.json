@@ -196,6 +196,10 @@
         "label": "Độ sáng",
         "description": "Đặt độ sáng, chỉ nên sử dụng cho chế độ tối"
       },
+      "listVerticalSpacing": {
+        "label": "Khoảng cách dọc của danh sách",
+        "description": "Đặt khoảng cách dọc của danh sách"
+      },
       "listBackgroundStyle": {
         "label": "Kiểu nền danh sách",
         "description": "Đặt kiểu nền danh sách",
@@ -418,6 +422,17 @@
         "label": "Nhớ nhóm trang web",
         "description": "Khi được bật, nếu một trang web được thêm vào một nhóm tùy chỉnh, nó sẽ tự động sử dụng nhóm này vào lần tiếp theo khi trang web được mở"
       },
+      "autoActivateTabGrouping": {
+        "label": "Tự động kích hoạt nhóm thẻ",
+        "description": "Khi được bật, mở một thẻ mới sẽ tạo một nhóm mới. Mỗi thẻ được mở từ thẻ mới sẽ là một phần của nhóm này."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Tên nhóm thẻ tự động kích hoạt",
+        "description": "Chỉ định cách đặt tên nhóm khi tạo nhóm mới",
+        "none": "Không",
+        "title": "Tiêu đề",
+        "domain": "Miền"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Hành vi thu gọn nhóm thẻ",
         "description": "Thay đổi hành vi thu gọn nhóm thẻ của trình duyệt Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Hiển thị Truy cập nhanh",
         "description": "Bạn có thể đặt một thẻ xuất hiện trong Truy cập nhanh để dễ dàng truy cập. Chỉ cần nhấp chuột phải (hoặc nhấn giữ) và chọn 'Ghim vào Truy cập nhanh'. Để xóa nó, nhấp chuột phải (hoặc nhấn giữ) và chọn 'Xóa khỏi Truy cập nhanh'. Không giống như các thẻ được ghim, Truy cập nhanh lưu URL và mở một thẻ mới mỗi khi được nhấp vào."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Khoảng cách dọc",
+        "description": "Thiết lập khoảng cách dọc cho các mục Truy cập nhanh."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Khoảng cách ngang",
+        "description": "Thiết lập khoảng cách ngang cho các mục Truy cập nhanh."
+      },
+      "quickAccessGroupView": {
+        "label": "Chế độ xem nhóm",
+        "description": "Hiển thị chế độ xem nhóm bằng biểu tượng nhóm hoặc nút tên ngắn.",
+        "short_name": "Tên ngắn",
+        "icons": "Biểu tượng"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Hành động nhấp vào nhóm",
+        "description": "Cấu hình hành động khi một nhóm Truy cập nhanh được nhấp vào.",
+        "openAllUrls": "Mở tất cả URL",
+        "expandIcons": "Mở rộng biểu tượng",
+        "expandList": "Mở rộng danh sách"
       },
       "selectFromHistory": {
         "label": "Chọn từ Lịch sử",

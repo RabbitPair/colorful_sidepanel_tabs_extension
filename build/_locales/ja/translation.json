@@ -235,5 +235,11 @@
   "oldUrl": "古いURL",
   "newUrl": "新しいURL",
   "accessible": "アクセス可能",
-  "foundUrlRedirect": "URLリダイレクトが見つかりました。更新しますか？"
+  "foundUrlRedirect": "URLリダイレクトが見つかりました。更新しますか？",
+  "clear": "クリア",
+  "clearTabsTips": "スナップショットを保存し、現在アクティブなタブを除くすべてのタブを閉じます。最近閉じたタブやスナップショットから復元できます。",
+  "shortName": "短い名前",
+  "expandIcons": "アイコンを拡大",
+  "expandList": "リストを拡大",
+  "openAllUrls": "すべてのURLを開く"
 }

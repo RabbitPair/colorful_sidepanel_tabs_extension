@@ -196,6 +196,10 @@
         "label": "Kecerahan",
         "description": "Atur kecerahan, disarankan hanya untuk mode gelap"
       },
+      "listVerticalSpacing": {
+        "label": "Jarak vertikal daftar",
+        "description": "Atur jarak vertikal daftar"
+      },
       "listBackgroundStyle": {
         "label": "Gaya latar belakang daftar",
         "description": "Atur gaya latar belakang daftar",
@@ -418,6 +422,17 @@
         "label": "Ingat pengelompokan situs",
         "description": "Ketika diaktifkan, jika sebuah situs ditambahkan ke grup kustom, situs tersebut akan otomatis menggunakan grup ini saat situs dibuka kembali"
       },
+      "autoActivateTabGrouping": {
+        "label": "Aktifkan Pengelompokan Tab Otomatis",
+        "description": "Ketika diaktifkan, membuka tab baru akan membuat grup baru. Setiap tab yang dibuka dari tab baru ini akan menjadi bagian dari grup ini."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nama Pengelompokan Tab Otomatis",
+        "description": "Tentukan cara memberi nama grup saat membuat grup baru",
+        "none": "Tidak ada",
+        "title": "Judul",
+        "domain": "Domain"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Perilaku kolaps grup tab",
         "description": "Ubah perilaku kolaps grup tab di browser Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Tampilkan Akses Cepat",
         "description": "Anda dapat mengatur tab untuk muncul di Akses Cepat untuk akses mudah. Cukup klik kanan (atau tekan lama) dan pilih 'Sematkan ke Akses Cepat'. Untuk menghapusnya, klik kanan (atau tekan lama) dan pilih 'Hapus dari Akses Cepat'. Tidak seperti tab yang disematkan, Akses Cepat menyimpan URL dan membuka tab baru setiap kali diklik."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Jarak Vertikal",
+        "description": "Atur jarak vertikal untuk item Akses Cepat."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Jarak Horizontal",
+        "description": "Atur jarak horizontal untuk item Akses Cepat."
+      },
+      "quickAccessGroupView": {
+        "label": "Tampilan Grup",
+        "description": "Tampilkan tampilan grup berdasarkan grup ikon atau tombol nama pendek.",
+        "short_name": "Nama Pendek",
+        "icons": "Ikon"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Aksi Klik Grup",
+        "description": "Konfigurasikan tindakan saat grup Akses Cepat diklik.",
+        "openAllUrls": "Buka Semua URL",
+        "expandIcons": "Perluas Ikon",
+        "expandList": "Perluas Daftar"
       },
       "selectFromHistory": {
         "label": "Pilih dari Riwayat",

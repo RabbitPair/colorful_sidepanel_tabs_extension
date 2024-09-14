@@ -235,5 +235,11 @@
   "oldUrl": "Ancienne URL",
   "newUrl": "Nouvelle URL",
   "accessible": "Accessible",
-  "foundUrlRedirect": "Redirection d'URL trouvée, voulez-vous mettre à jour ?"
+  "foundUrlRedirect": "Redirection d'URL trouvée, voulez-vous mettre à jour ?",
+  "clear": "Effacer",
+  "clearTabsTips": "Enregistrez une capture d'écran et fermez tous les onglets sauf celui actuellement actif. Vous pouvez les restaurer à partir des onglets récemment fermés ou des captures d'écran.",
+  "shortName": "Nom court",
+  "expandIcons": "Développer les icônes",
+  "expandList": "Développer la liste",
+  "openAllUrls": "Ouvrir toutes les URL"
 }

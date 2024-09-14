@@ -196,6 +196,10 @@
         "label": "Svjetlina",
         "description": "Postavite svjetlinu, preporučuje se samo za tamni način"
       },
+      "listVerticalSpacing": {
+        "label": "Okomiti razmak popisa",
+        "description": "Postavite okomiti razmak popisa"
+      },
       "listBackgroundStyle": {
         "label": "Stil pozadine popisa",
         "description": "Postavite stil pozadine popisa",
@@ -418,6 +422,17 @@
         "label": "Zapamti grupiranje stranica",
         "description": "Kada je omogućeno, ako je stranica dodana u prilagođenu grupu, automatski će koristiti ovu grupu sljedeći put kada se stranica otvori"
       },
+      "autoActivateTabGrouping": {
+        "label": "Automatsko aktiviranje grupiranja kartica",
+        "description": "Kada je omogućeno, otvaranje nove kartice stvara novu grupu. Svaka kartica otvorena iz nove kartice bit će dio ove grupe."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Naziv automatskog aktiviranja grupiranja kartica",
+        "description": "Odredite kako imenovati grupe prilikom stvaranja nove grupe",
+        "none": "Nijedan",
+        "title": "Naslov",
+        "domain": "Domena"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Ponašanje grupiranja kartica",
         "description": "Promijenite ponašanje grupiranja kartica u Chrome pregledniku",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Prikaži brzi pristup",
         "description": "Možete postaviti karticu da se pojavi u Brzom pristupu za lakši pristup. Samo desnom tipkom miša kliknite (ili dugo pritisnite) i odaberite 'Prikvači na brzi pristup'. Za uklanjanje, desnom tipkom miša kliknite (ili dugo pritisnite) i odaberite 'Izbriši iz brzog pristupa'. Za razliku od prikvačenih kartica, Brzi pristup sprema URL i otvara novu karticu svaki put kada se klikne."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Vertikalni razmak",
+        "description": "Postavite vertikalni razmak za stavke Brzog pristupa."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Horizontalni razmak",
+        "description": "Postavite horizontalni razmak za stavke Brzog pristupa."
+      },
+      "quickAccessGroupView": {
+        "label": "Prikaz grupe",
+        "description": "Prikaz grupnog pregleda prema grupi ikona ili gumbu s kratkim imenom.",
+        "short_name": "Kratko ime",
+        "icons": "Ikone"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Akcija klika na grupu",
+        "description": "Konfigurirajte radnju kada se klikne na grupu Brzog pristupa.",
+        "openAllUrls": "Otvori sve URL-ove",
+        "expandIcons": "Proširi ikone",
+        "expandList": "Proširi popis"
       },
       "selectFromHistory": {
         "label": "Odaberi iz povijesti",

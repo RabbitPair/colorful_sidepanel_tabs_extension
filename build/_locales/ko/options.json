@@ -196,6 +196,10 @@
         "label": "밝기",
         "description": "밝기 설정, 어두운 모드에만 권장"
       },
+      "listVerticalSpacing": {
+        "label": "목록 세로 간격",
+        "description": "목록 세로 간격 설정"
+      },
       "listBackgroundStyle": {
         "label": "목록 배경 스타일",
         "description": "목록 배경 스타일 설정",
@@ -418,6 +422,17 @@
         "label": "사이트 그룹 기억",
         "description": "활성화되면 사이트가 사용자 정의 그룹에 추가될 경우 다음에 사이트를 열 때 자동으로 이 그룹을 사용합니다"
       },
+      "autoActivateTabGrouping": {
+        "label": "자동 탭 그룹 활성화",
+        "description": "활성화되면 새 탭을 열 때 새 그룹이 생성됩니다. 새 탭에서 열리는 모든 탭은 이 그룹의 일부가 됩니다."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "자동 탭 그룹 이름",
+        "description": "새 그룹을 만들 때 그룹 이름을 지정합니다",
+        "none": "없음",
+        "title": "제목",
+        "domain": "도메인"
+      },
       "tabGroupCollapseBehavior": {
         "label": "탭 그룹 축소 동작",
         "description": "Chrome 브라우저 탭 그룹 축소 동작 수정",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "빠른 접근 표시",
         "description": "탭을 빠른 접근에 표시하여 쉽게 접근할 수 있습니다. 탭을 마우스 오른쪽 버튼으로 클릭(또는 길게 누름)하고 '빠른 접근에 고정'을 선택하세요. 제거하려면 마우스 오른쪽 버튼으로 클릭(또는 길게 누름)하고 '빠른 접근에서 삭제'를 선택하세요. 고정된 탭과 달리, 빠른 접근은 URL을 저장하고 클릭할 때마다 새 탭을 엽니다."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "수직 간격",
+        "description": "빠른 접근 항목의 수직 간격을 설정하세요."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "수평 간격",
+        "description": "빠른 접근 항목의 수평 간격을 설정하세요."
+      },
+      "quickAccessGroupView": {
+        "label": "그룹 보기",
+        "description": "아이콘 그룹 또는 짧은 이름 버튼으로 그룹 보기를 표시합니다.",
+        "short_name": "짧은 이름",
+        "icons": "아이콘"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "그룹 클릭 동작",
+        "description": "빠른 접근 그룹을 클릭할 때의 동작을 구성합니다.",
+        "openAllUrls": "모든 URL 열기",
+        "expandIcons": "아이콘 확장",
+        "expandList": "목록 확장"
       },
       "selectFromHistory": {
         "label": "기록에서 선택",

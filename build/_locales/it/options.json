@@ -196,6 +196,10 @@
         "label": "Luminosità",
         "description": "Imposta la luminosità, consigliato solo per la modalità scura"
       },
+      "listVerticalSpacing": {
+        "label": "Spaziatura verticale dell'elenco",
+        "description": "Imposta la spaziatura verticale dell'elenco"
+      },
       "listBackgroundStyle": {
         "label": "Stile di sfondo dell'elenco",
         "description": "Imposta lo stile di sfondo dell'elenco",
@@ -418,6 +422,17 @@
         "label": "Ricorda raggruppamento siti",
         "description": "Quando abilitato, se un sito viene aggiunto a un gruppo personalizzato, utilizzerà automaticamente questo gruppo la prossima volta che il sito verrà aperto"
       },
+      "autoActivateTabGrouping": {
+        "label": "Attivazione automatica del raggruppamento delle schede",
+        "description": "Quando abilitato, l'apertura di una nuova scheda crea un nuovo gruppo. Ogni scheda aperta dalla nuova scheda farà parte di questo gruppo."
+      },
+      "autoActivateTabGroupingName": {
+        "label": "Nome del raggruppamento automatico delle schede",
+        "description": "Specifica come nominare i gruppi quando si crea un nuovo gruppo",
+        "none": "Nessuno",
+        "title": "Titolo",
+        "domain": "Dominio"
+      },
       "tabGroupCollapseBehavior": {
         "label": "Comportamento di riduzione del gruppo di schede",
         "description": "Modifica il comportamento di riduzione del gruppo di schede del browser Chrome",
@@ -605,6 +620,27 @@
       "enableQuickAccess": {
         "label": "Mostra Accesso rapido",
         "description": "Puoi impostare una scheda per apparire in Accesso rapido per un facile accesso. Basta fare clic con il pulsante destro del mouse (o premere a lungo) e selezionare 'Aggiungi a Accesso rapido'. Per rimuoverla, fai clic con il pulsante destro del mouse (o premi a lungo) e seleziona 'Elimina da Accesso rapido'. A differenza delle schede bloccate, Accesso rapido salva l'URL e apre una nuova scheda ogni volta che viene cliccato."
+      },
+      "quickAccessVerticalSpacing": {
+        "label": "Spaziatura verticale",
+        "description": "Imposta la spaziatura verticale per gli elementi di Accesso rapido."
+      },
+      "quickAccessHorizontalSpacing": {
+        "label": "Spaziatura orizzontale",
+        "description": "Imposta la spaziatura orizzontale per gli elementi di Accesso rapido."
+      },
+      "quickAccessGroupView": {
+        "label": "Visualizzazione del gruppo",
+        "description": "Visualizza la vista del gruppo tramite gruppo di icone o pulsante con nome breve.",
+        "short_name": "Nome breve",
+        "icons": "Icone"
+      },
+      "quickAccessGroupClickAction": {
+        "label": "Azione di clic del gruppo",
+        "description": "Configura l'azione quando viene cliccato un gruppo di Accesso rapido.",
+        "openAllUrls": "Apri tutti gli URL",
+        "expandIcons": "Espandi icone",
+        "expandList": "Espandi elenco"
       },
       "selectFromHistory": {
         "label": "Seleziona dalla cronologia",
