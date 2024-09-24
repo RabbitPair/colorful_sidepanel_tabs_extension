@@ -1,5 +1,9 @@
 ---
-name: Advanced Picture-in-Picture Website Adaptation Request
+name: Advanced Picture-in-Picture
+about: Advanced Picture-in-Picture Website Adaptation Request
+title: ''
+labels: ''
+assignees: ''
 ---
 
 **Website address**
