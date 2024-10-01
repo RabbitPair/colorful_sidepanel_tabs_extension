@@ -136,6 +136,7 @@
         "sortBy": "Rendezés",
         "createTabPanel": "Lap panel létrehozása",
         "tabPanels": "Lap panelek",
+        "switchPIP": "Kép a képben váltás",
         "pinToToolbarReminder": "Kérjük, rögzítse a bővítményt az eszköztárhoz, mielőtt eltávolítaná ezt a navigációt."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ez az oldal csak megjelenítésre szolgál. A gyorsbillentyűk módosításához látogasson el a [Bővítmények]->[Bővítmények kezelése]->[Gyorsbillentyűk] oldalra",
       "goToBrowserSettings": "Ugrás a Chrome beállításokhoz",
       "_execute_action": "A bővítmény aktiválása",
-      "openSidePanel": "Oldalsó panel megnyitása"
+      "openSidePanel": "Oldalsó panel megnyitása",
+      "switchPIP": "Kép a képben váltás"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Kép a képben",
@@ -392,6 +394,22 @@
         "description": "Ha az aktuális oldalon egy videó lejátszása folyik, és a videó nincs némítva, valamint a videó kikerül a látható tartományból görgetéskor, akkor kép a képben módba lép.",
         "enabled": "Engedélyezve",
         "disabled": "Letiltva"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatikus Kép a képben lapváltáskor az oldalsó panel megnyitása nélkül",
+        "description": "Ha az aktuális oldal egy videót játszik le, és a videó nincs némítva, engedélyezze az automatikus Kép a képben módot lapváltáskor az oldalsó panel megnyitása nélkül. Vegye figyelembe, hogy ez a funkció **felhasználói aktiválást igényel** (például kattintás az oldal egy üres területére)."
+      },
+      "advancedPipEnable": {
+        "label": "Speciális Kép a képben engedélyezése",
+        "description": "Ha engedélyezve van, a Speciális Kép a képben prioritást élvez. Ha az oldal nem támogatja, a normál Kép a képben mód lesz használva.\nA Speciális Kép a képben egy egyedi videólejátszót használ, amely olyan funkciókat kínál, mint:\n * Videó lejátszása/szüneteltetése (Space)\n * Hangerő beállítása (Fel/Le nyíl)\n * Videó némítása/némítás feloldása\n * Gyors előretekerés/visszatekerés (Balra/Jobbra nyíl vagy egérgörgő)\n * Következő videó lejátszása\n * Feliratok megjelenítése (néhány webhelyen támogatott, pl. youtube.com, vimeo.com, tver.jp stb.)\n * Barrage megjelenítése (néhány webhelyen támogatott, pl. nicovideo.jp, bilibili.com stb.)\n * Kép a képben mód kilépése (Esc)\n * Videó elrejtése/megmutatása és lejátszás/szüneteltetés váltása (Q)\n >Ha az Ön által gyakran látogatott webhelyek támogatják a feliratokat vagy a barrage-t, benyújthat egy [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) jelentést, és mi a lehető leghamarabb alkalmazkodunk hozzá. Vegye figyelembe, hogy egyes webhelyek regionális korlátozásokkal rendelkezhetnek, és további információkat kell megadnia."
+      },
+      "subtitleDetection": {
+        "label": "Feliratok észlelésének engedélyezése",
+        "description": "Ha az aktuális webhely nem rendelkezik Kép a képben konfigurációval, engedélyezze a program számára, hogy megpróbálja automatikusan észlelni a felirat elemeket, és hozzáadja azokat a Kép a képben lejátszóhoz. Ez egy instabil funkció, és nem mindig észleli a megfelelő felirat elemeket. Ha Ön szakember, hozzáadhat felirat elem konfigurációkat a webhely beállításaiban."
+      },
+      "continuousPlayback": {
+        "label": "Folyamatos lejátszás engedélyezése",
+        "description": "Folyamatos lejátszás: A Kép a képben ablak nem záródik be, és automatikusan lejátssza a következő epizódot a videó befejezése után. Ez a funkció webhely támogatást igényel."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Betűszín",
         "description": "Állítsa be a betűszínt ehhez az oldalhoz."
+      },
+      "pipRestrictionAction": {
+        "label": "Kép-a-képben korlátozási művelet",
+        "description": "A speciális kép-a-képben ablak csak a főoldalról nyitható meg, és nem indítható keretekből vagy beágyazott tartalomból. Használhatja a standard kép-a-képben módot, vagy új lapon nyithatja meg újra. Vegye figyelembe, hogy a videó nem biztos, hogy megfelelően töltődik be egy új lapon.",
+        "default": "Alapértelmezett",
+        "use_standard_pip": "Standard kép-a-képben használata",
+        "open_in_new_tab": "Megnyitás új lapon"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatikus kép-a-képben mód",
+        "description": "Automatikusan lépjen be a kép-a-képben módba, amikor egy videó jelen van az oldalra lépéskor. A rendszer korlátai miatt ez felhasználói interakciót igényel az oldallal."
+      },
+      "captionSetting": {
+        "label": "Felirat beállítások",
+        "description": "Konfigurálja az oldal felirat elemének és szülőjének CSS szelektorait. A felirat elem CSS szelektora a feliratok lejátszóban való megjelenítésére szolgál, míg a szülő szelektor a feliratok eredeti oldalra való visszahelyezésére szolgál, amikor kilép a kép-a-képben módból.",
+        "configure": "Konfigurálás",
+        "selectorDesc": "Gyakori szelektorok közé tartozik: '.class' osztály szelektorokhoz, '#id' ID szelektorokhoz, 'tag' címke szelektorokhoz, és '[attribute=value]' attribútum szelektorokhoz. További részletekért látogasson el ide: [CSS szelektorok - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS szelektorok a felirat elemhez",
+        "captionParentSelectorDesc": "CSS szelektorok a felirat elem szülőjéhez"
       }
     },
     "quickAccess": {

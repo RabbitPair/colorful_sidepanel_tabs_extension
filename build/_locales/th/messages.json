@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "ระบบภายใน"
+  },
+  "switchPIP": {
+    "message": "สลับโหมดภาพซ้อนภาพ"
+  },
+  "play": {
+    "message": "เล่น"
+  },
+  "pause": {
+    "message": "หยุดชั่วคราว"
+  },
+  "shortcut_play_pause": {
+    "message": "เล่น/หยุดชั่วคราววิดีโอ"
+  },
+  "shortcut_adjust_volume": {
+    "message": "ปรับระดับเสียง"
+  },
+  "shortcut_mute_unmute": {
+    "message": "ปิดเสียง/เปิดเสียงวิดีโอ"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "เดินหน้าเร็ว/ถอยหลังวิดีโอ 5 วินาที"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "เดินหน้าเร็ว/ถอยหลังวิดีโอ 10 วินาที"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "เดินหน้าเร็ว/ถอยหลังวิดีโอ"
+  },
+  "shortcut_next_video": {
+    "message": "เล่นวิดีโอถัดไป"
+  },
+  "shortcut_previous_video": {
+    "message": "เล่นวิดีโอก่อนหน้า"
+  },
+  "shortcut_toggle_captions": {
+    "message": "แสดง/ซ่อนคำบรรยาย"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "แสดง/ซ่อนแชทกระสุน"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "สลับเต็มหน้าจอ"
+  },
+  "shortcut_playback_speed": {
+    "message": "ปรับความเร็วการเล่น"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "ไปยังจุดเริ่มต้น/สิ้นสุดของวิดีโอ"
+  },
+  "shortcut_seek_percentage": {
+    "message": "ไปยังเปอร์เซ็นต์ของวิดีโอ"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "ปรับหน้าต่างให้พอดีกับขนาดวิดีโอ"
+  },
+  "shortcut_exit_pip": {
+    "message": "ออกจากโหมดภาพซ้อนภาพ"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "สลับซ่อน/แสดงวิดีโอและเล่น/หยุดชั่วคราว"
+  },
+  "shortcut_enter_pip": {
+    "message": "สลับโหมดภาพซ้อนภาพจากหน้าหลัก"
+  },
+  "mute": {
+    "message": "ปิดเสียง"
+  },
+  "unmute": {
+    "message": "เปิดเสียง"
+  },
+  "prev_video": {
+    "message": "วิดีโอก่อนหน้า"
+  },
+  "next_video": {
+    "message": "วิดีโอต่อไป"
+  },
+  "playbackRate": {
+    "message": "ความเร็วในการเล่น"
+  },
+  "subtitles": {
+    "message": "คำบรรยาย"
+  },
+  "close_captions": {
+    "message": "คำบรรยายปิด"
+  },
+  "danmaku": {
+    "message": "แชทกระสุน"
+  },
+  "fit_to_screen": {
+    "message": "พอดีกับหน้าจอ"
+  },
+  "reload_video": {
+    "message": "โหลดวิดีโอใหม่"
+  },
+  "loading_pip_config": {
+    "message": "กำลังโหลดการตั้งค่าโหมดภาพซ้อนภาพ..."
+  },
+  "playing_in_pip_mode": {
+    "message": "กำลังเล่นในโหมดภาพซ้อนภาพ"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "กำลังตรวจหาการตั้งค่าคำบรรยายโหมดภาพซ้อนภาพ..."
+  },
+  "video_not_detected": {
+    "message": "ไม่พบวิดีโอ อาจยังไม่พร้อม หากมีวิดีโอบนหน้า โปรดคลิกเล่นและลองอีกครั้ง"
+  },
+  "pip_window_restriction": {
+    "message": "หน้าต่างภาพซ้อนภาพขั้นสูงสามารถเปิดได้จากหน้าหลักเท่านั้นและไม่สามารถเปิดจากเฟรมหรือเนื้อหาที่ฝังได้ คุณสามารถใช้โหมดภาพซ้อนภาพมาตรฐานหรือเปิดในแท็บใหม่เพื่อลองอีกครั้ง โปรดทราบว่าวิดีโออาจไม่โหลดอย่างถูกต้องในแท็บใหม่",
+    "description": "ไม่สามารถดำเนินการ 'requestWindow' บน 'DocumentPictureInPicture': การเปิดหน้าต่าง PiP อนุญาตเฉพาะจากบริบทการท่องเว็บระดับบนสุดเท่านั้น"
+  },
+  "use_standard_pip": {
+    "message": "ใช้โหมดภาพซ้อนภาพมาตรฐาน",
+    "description": "ตัวเลือกในการใช้โหมดภาพซ้อนภาพมาตรฐาน"
+  },
+  "open_in_new_tab": {
+    "message": "เปิดในแท็บใหม่",
+    "description": "ตัวเลือกในการเปิดหน้าในแท็บใหม่"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "จดจำการตั้งค่าของไซต์นี้ (คุณสามารถแก้ไขได้ในตัวเลือก - การตั้งค่าไซต์)"
+  },
+  "pip_user_activation_required": {
+    "message": "โหมดภาพซ้อนภาพต้องการการโต้ตอบของผู้ใช้ โปรดคลิกหรือโต้ตอบกับหน้าและลองอีกครั้ง",
+    "description": "ไม่สามารถดำเนินการ 'requestWindow' บน 'DocumentPictureInPicture': Document PiP ต้องการการเปิดใช้งานของผู้ใช้"
+  },
+  "retry_action": {
+    "message": "ลองอีกครั้ง"
   }
 }

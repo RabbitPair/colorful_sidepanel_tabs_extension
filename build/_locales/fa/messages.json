@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "سیستم‌های داخلی"
+  },
+  "switchPIP": {
+    "message": "تغییر به تصویر در تصویر"
+  },
+  "play": {
+    "message": "پخش"
+  },
+  "pause": {
+    "message": "توقف"
+  },
+  "shortcut_play_pause": {
+    "message": "پخش/توقف ویدئو"
+  },
+  "shortcut_adjust_volume": {
+    "message": "تنظیم صدا"
+  },
+  "shortcut_mute_unmute": {
+    "message": "بی‌صدا/با صدا کردن ویدئو"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "جلو بردن/عقب بردن ویدئو ۵ ثانیه"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "جلو بردن/عقب بردن ویدئو ۱۰ ثانیه"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "جلو بردن/عقب بردن ویدئو"
+  },
+  "shortcut_next_video": {
+    "message": "پخش ویدئوی بعدی"
+  },
+  "shortcut_previous_video": {
+    "message": "پخش ویدئوی قبلی"
+  },
+  "shortcut_toggle_captions": {
+    "message": "نمایش/مخفی کردن زیرنویس"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "نمایش/مخفی کردن چت گلوله‌ای"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "تغییر به حالت تمام صفحه"
+  },
+  "shortcut_playback_speed": {
+    "message": "تنظیم سرعت پخش"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "رفتن به ابتدا/انتهای ویدئو"
+  },
+  "shortcut_seek_percentage": {
+    "message": "رفتن به درصدی از ویدئو"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "تنظیم پنجره برای تناسب با اندازه ویدئو"
+  },
+  "shortcut_exit_pip": {
+    "message": "خروج از حالت تصویر در تصویر"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "تغییر نمایش/مخفی کردن ویدئو و پخش/توقف"
+  },
+  "shortcut_enter_pip": {
+    "message": "تغییر به حالت تصویر در تصویر از صفحه اصلی"
+  },
+  "mute": {
+    "message": "بی‌صدا"
+  },
+  "unmute": {
+    "message": "با صدا"
+  },
+  "prev_video": {
+    "message": "ویدئوی قبلی"
+  },
+  "next_video": {
+    "message": "ویدئوی بعدی"
+  },
+  "playbackRate": {
+    "message": "سرعت پخش"
+  },
+  "subtitles": {
+    "message": "زیرنویس"
+  },
+  "close_captions": {
+    "message": "زیرنویس بسته"
+  },
+  "danmaku": {
+    "message": "چت گلوله‌ای"
+  },
+  "fit_to_screen": {
+    "message": "تناسب با صفحه"
+  },
+  "reload_video": {
+    "message": "بارگذاری مجدد ویدئو"
+  },
+  "loading_pip_config": {
+    "message": "در حال بارگذاری تنظیمات تصویر در تصویر..."
+  },
+  "playing_in_pip_mode": {
+    "message": "در حال پخش در حالت تصویر در تصویر"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "در حال شناسایی تنظیمات زیرنویس تصویر در تصویر..."
+  },
+  "video_not_detected": {
+    "message": "ویدئو شناسایی نشد. ممکن است هنوز آماده نباشد. اگر ویدئویی در صفحه وجود دارد، لطفاً پخش را کلیک کنید و دوباره امتحان کنید."
+  },
+  "pip_window_restriction": {
+    "message": "پنجره پیشرفته تصویر در تصویر فقط می‌تواند از صفحه اصلی باز شود و نمی‌تواند از فریم‌ها یا محتوای جاسازی شده راه‌اندازی شود. می‌توانید از حالت استاندارد تصویر در تصویر استفاده کنید یا در یک برگه جدید باز کنید تا دوباره امتحان کنید. توجه داشته باشید که ممکن است ویدئو در یک برگه جدید به درستی بارگذاری نشود.",
+    "description": "اجرای 'requestWindow' در 'DocumentPictureInPicture' ناموفق بود: باز کردن یک پنجره PiP فقط از یک زمینه مرور سطح بالا مجاز است"
+  },
+  "use_standard_pip": {
+    "message": "استفاده از PiP استاندارد",
+    "description": "گزینه‌ای برای استفاده از حالت استاندارد تصویر در تصویر"
+  },
+  "open_in_new_tab": {
+    "message": "باز کردن در برگه جدید",
+    "description": "گزینه‌ای برای باز کردن صفحه در یک برگه جدید"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "تنظیمات این سایت را به خاطر بسپار (می‌توانید آن را در گزینه‌ها - تنظیمات سایت تغییر دهید)"
+  },
+  "pip_user_activation_required": {
+    "message": "حالت تصویر در تصویر نیاز به تعامل کاربر دارد. لطفاً کلیک کنید یا با صفحه تعامل داشته باشید و دوباره امتحان کنید.",
+    "description": "اجرای 'requestWindow' در 'DocumentPictureInPicture' ناموفق بود: Document PiP نیاز به فعال‌سازی کاربر دارد"
+  },
+  "retry_action": {
+    "message": "دوباره امتحان کنید"
   }
 }

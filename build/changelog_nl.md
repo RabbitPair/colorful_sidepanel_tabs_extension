@@ -4,6 +4,49 @@ Alle belangrijke wijzigingen in dit project worden in dit bestand gedocumenteerd
 
 Dit project houdt zich aan [Semantische Versiebeheer](https://semver.org/).
 
+----
+## [2.10.0] - 2024-10-01
+
+### Toegevoegd
+- **Document Picture-in-Picture**: Introductie van Advanced Picture-in-Picture, beschikbaar voor gratis proefversie vóór de officiële release van de premiumversie van de extensie. Wanneer ingeschakeld, heeft het voorrang op de standaard Picture-in-Picture. Als de huidige pagina het niet ondersteunt, wordt de standaardmodus gebruikt. Advanced Picture-in-Picture beschikt over een aangepaste videospeler met functionaliteiten zoals:
+  * **Video afspelen/pauzeren** (Spatie of K)
+  * **Volume aanpassen** (Pijl omhoog/omlaag)
+  * **Video dempen/dempen opheffen** (M)
+  * **Video vooruit/terugspoelen** (Pijl links/rechts of muiswiel)
+  * **Video 5 seconden vooruit/terugspoelen** (Pijl links/rechts)
+  * **Video 10 seconden vooruit/terugspoelen** (J/L)
+  * **Volgende video afspelen** (Shift + N)
+  * **Vorige video afspelen** (Shift + P)
+  * **Ondertitels weergeven** (ondersteund op sommige websites zoals youtube.com, vimeo.com, tver.jp, enz.) (C)
+  * **Barrage weergeven** (ondersteund op sommige websites zoals nicovideo.jp, bilibili.com, enz.) (D)
+  * **Picture-in-Picture afsluiten** (Esc)
+  * **Video verbergen/tonen en afspelen/pauzeren wisselen** (Q)
+  * **Volledig scherm wisselen** (F)
+  * **Afspeelsnelheid aanpassen** ( > of <)
+  * **Naar begin/einde van video gaan** (Home/End)
+  * **Naar percentage van video gaan** (0-9)
+  * **Venster aanpassen aan videomaat** (W)
+  * **Picture-in-Picture wisselen vanaf hoofdpagina** (Alt + P)
+  
+  > Als de websites die u vaak bezoekt ondertitels of barrage ondersteunen, kunt u een [probleem: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) indienen, en we zullen het zo snel mogelijk aanpassen. Houd er rekening mee dat sommige websites regionale beperkingen kunnen hebben, waarvoor aanvullende informatie nodig is.
+- **Sneltoets voor Picture-in-Picture**: Er is een nieuwe sneltoets Alt+P toegevoegd om de Picture-in-Picture-modus snel te wisselen. Dit stelt gebruikers in staat om eenvoudig video's naar de Picture-in-Picture-weergave te schakelen zonder de muis te gebruiken, wat de productiviteit en multitasking-mogelijkheden verbetert.
+- **Picture-in-Picture wisselen in onderste navigatiebalk**: U kunt nu een Picture-in-Picture-wisseloptie toevoegen aan de onderste navigatiebalk. Dit kan worden geconfigureerd in de uiterlijkinstellingen onder "Toon onderste navigatiebalk" - "Configureren".
+- **Tabbladen sorteren op URL**: Er is een nieuwe menuoptie "Tabbladen sorteren op URL" toegevoegd aan het "Meer"-menu.
+- **Tabbladgroep inklapgedrag**: Er is een nieuwe optie "Tabbladgroep inklapgedrag" toegevoegd aan het menu "Geavanceerde Tabbladgroep". U kunt het gedrag van het inklappen van tabbladgroepen in de browser wijzigen. De opties omvatten: 'Toon huidige groep en klap andere groepen in', 'Alle groepen uitvouwen' en 'Standaardinstellingen van de browser gebruiken'.
+- **Site-instellingen**: Drie nieuwe opties zijn toegevoegd aan de site-instellingen:
+  * **Actie voor Picture-in-Picture-beperking**: Configureer de actie voor Picture-in-Picture-beperkingen.
+  * **Automatisch Picture-in-Picture inschakelen**: Automatisch de Picture-in-Picture-modus inschakelen wanneer er een video aanwezig is bij het betreden van de pagina.
+  * **Ondertitelinstellingen**: Configureer de CSS-selectoren voor het ondertitelelement en het bovenliggende element op de pagina.
+
+### Veranderd
+- Wanneer het zijpaneel-tabblad niet is geopend, wordt bij ingeschakelde optie "Picture-in-Picture bij tabbladwissel" (standaard ingeschakeld) automatisch de Picture-in-Picture-modus ingeschakeld (Belangrijke herinnering: Gebruikersinteractie is vereist, zoals klikken op de pagina die de video afspeelt om de gebruikersinteractie te activeren).
+- Bij het sluiten van de zijbalk van de pagina wordt deze nu verwijderd in plaats van verborgen. Het verschijnt pas weer na het vernieuwen van de pagina.
+
+### Opgelost
+- Opgelost het probleem waarbij de Snelle Toegang-lijst meerdere URL's niet verwerkte.
+
+----
+
 ## [2.9.0] - 2024-09-15
 
 - Toegevoegd **Tabbladen Wissen**: Sla een momentopname op en sluit alle tabbladen behalve het actieve tabblad. Herstel ze vanuit recent gesloten tabbladen of momentopnamen.

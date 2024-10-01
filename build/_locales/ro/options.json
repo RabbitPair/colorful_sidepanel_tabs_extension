@@ -136,6 +136,7 @@
         "sortBy": "Sortează După",
         "createTabPanel": "Creează Panou de File",
         "tabPanels": "Panouri de File",
+        "switchPIP": "Comutare Imagine-în-Imagine",
         "pinToToolbarReminder": "Vă rugăm să fixați extensia în bara de instrumente înainte de a elimina această navigare."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Această pagină este doar pentru afișare. Pentru a modifica comenzile rapide, vă rugăm să vizitați [Extensii]->[Gestionați extensiile]->[Comenzi rapide de la tastatură]",
       "goToBrowserSettings": "Accesați setările Chrome",
       "_execute_action": "Activați această extensie",
-      "openSidePanel": "Deschideți panoul lateral"
+      "openSidePanel": "Deschideți panoul lateral",
+      "switchPIP": "Comutare Imagine în Imagine"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imagine în imagine",
@@ -392,6 +394,22 @@
         "description": "Dacă pagina curentă redă un videoclip și videoclipul nu este mutat și videoclipul este în afara razei vizibile la derulare, va intra în imagine în imagine.",
         "enabled": "Activat",
         "disabled": "Dezactivat"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Imagine în imagine automată la comutarea filelor fără deschiderea panoului lateral",
+        "description": "Dacă pagina curentă redă un videoclip și videoclipul nu este mutat, activați automat imagine în imagine la comutarea filelor fără deschiderea panoului lateral. Rețineți că această funcție **necesită activarea utilizatorului** (de exemplu, făcând clic pe o zonă goală a paginii)."
+      },
+      "advancedPipEnable": {
+        "label": "Activați imagine în imagine avansată",
+        "description": "Când este activată, imaginea în imagine avansată va fi prioritară. Dacă pagina nu o suportă, se va folosi imaginea în imagine obișnuită.\nImaginea în imagine avansată utilizează un player video personalizat, oferind funcții precum:\n * Redare/Pauză video (Spațiu)\n * Reglare volum (Săgeată sus/jos)\n * Dezactivare/Activare sunet video\n * Derulare rapidă/Înapoi video (Săgeată stânga/dreapta sau rotița mouse-ului)\n * Redare următorul videoclip\n * Afișare subtitrări (suportat pe unele site-uri, de exemplu, youtube.com, vimeo.com, tver.jp, etc.)\n * Afișare comentarii (suportat pe unele site-uri, de exemplu, nicovideo.jp, bilibili.com, etc.)\n * Ieșire din imagine în imagine (Esc)\n * Comutare ascundere/afișare video și redare/pauză (Q)\n >Dacă site-urile pe care le vizitați frecvent suportă subtitrări sau comentarii, puteți trimite o [problemă: Imagine în imagine avansată](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), și o vom adapta cât mai curând posibil. Rețineți că unele site-uri pot avea restricții regionale și poate fi necesar să furnizați informații suplimentare."
+      },
+      "subtitleDetection": {
+        "label": "Activați detectarea subtitrărilor",
+        "description": "Dacă site-ul curent nu are o configurație pentru imagine în imagine, permiteți programului să încerce să detecteze automat elementele de subtitrare și să le adauge la playerul imagine în imagine. Aceasta este o funcție instabilă și este posibil să nu detecteze întotdeauna corect elementele de subtitrare. Dacă sunteți un profesionist, puteți adăuga configurații de elemente de subtitrare în setările site-ului."
+      },
+      "continuousPlayback": {
+        "label": "Activați redarea continuă",
+        "description": "Redare continuă: Fereastra imagine în imagine nu se închide și redă automat următorul episod după terminarea videoclipului. Această funcție necesită suportul site-ului."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Culoare font",
         "description": "Setați culoarea fontului pentru acest site."
+      },
+      "pipRestrictionAction": {
+        "label": "Acțiune de restricționare Picture-in-Picture",
+        "description": "Fereastra avansată Picture-in-Picture poate fi deschisă doar de pe pagina principală și nu poate fi lansată din cadre sau conținut încorporat. Puteți utiliza modul standard Picture-in-Picture sau deschideți într-o filă nouă pentru a încerca din nou. Rețineți că videoclipul poate să nu se încarce corect într-o filă nouă.",
+        "default": "Implicit",
+        "use_standard_pip": "Utilizați Picture-in-Picture standard",
+        "open_in_new_tab": "Deschideți într-o filă nouă"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Intrare automată în Picture-in-Picture",
+        "description": "Intrați automat în modul Picture-in-Picture atunci când un videoclip este prezent la intrarea pe pagină. Datorită limitărilor sistemului, aceasta necesită interacțiunea utilizatorului cu pagina."
+      },
+      "captionSetting": {
+        "label": "Setări subtitrări",
+        "description": "Configurați selectorii CSS pentru elementul de subtitrare și părintele acestuia pe pagină. Selectorul CSS pentru elementul de subtitrare este utilizat pentru a afișa subtitrările în player, în timp ce selectorul părinte este utilizat pentru a returna subtitrările la pagina originală la ieșirea din modul Picture-in-Picture.",
+        "configure": "Configurează",
+        "selectorDesc": "Selectori comuni includ: '.class' pentru selectori de clasă, '#id' pentru selectori de ID, 'tag' pentru selectori de etichete și '[attribute=value]' pentru selectori de atribute. Pentru mai multe detalii, vizitați: [Selectori CSS - CSS: Foi de stil în cascadă - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selectori CSS pentru elementul de subtitrare",
+        "captionParentSelectorDesc": "Selectori CSS pentru părintele elementului de subtitrare"
       }
     },
     "quickAccess": {

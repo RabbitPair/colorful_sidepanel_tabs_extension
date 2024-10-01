@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Дотоод системүүд"
+  },
+  "switchPIP": {
+    "message": "Зураг доторх зургийг солих"
+  },
+  "play": {
+    "message": "Тоглуулах"
+  },
+  "pause": {
+    "message": "Түр зогсоох"
+  },
+  "shortcut_play_pause": {
+    "message": "Тоглуулах/Түр зогсоох видео"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Дууны түвшинг тохируулах"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Дууг хаах/Дууг сэргээх видео"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Видеог 5 секундээр урагшлуулах/ухраах"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Видеог 10 секундээр урагшлуулах/ухраах"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Видеог урагшлуулах/ухраах"
+  },
+  "shortcut_next_video": {
+    "message": "Дараагийн видеог тоглуулах"
+  },
+  "shortcut_previous_video": {
+    "message": "Өмнөх видеог тоглуулах"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Хадмалыг харуулах/нуух"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Сумтай чатыг харуулах/нуух"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Бүтэн дэлгэцийн горимд шилжүүлэх"
+  },
+  "shortcut_playback_speed": {
+    "message": "Тоглуулах хурдыг тохируулах"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Видеоны эхлэл/төгсгөл рүү шилжих"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Видеоны хувиар шилжих"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Цонхны хэмжээг видеоны хэмжээнд тохируулах"
+  },
+  "shortcut_exit_pip": {
+    "message": "Зураг доторх зургийн горимоос гарах"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Видеог нуух/харуулах болон тоглуулах/түр зогсоох"
+  },
+  "shortcut_enter_pip": {
+    "message": "Үндсэн хуудсаас Зураг доторх зургийн горимд шилжих"
+  },
+  "mute": {
+    "message": "Дууг хаах"
+  },
+  "unmute": {
+    "message": "Дууг сэргээх"
+  },
+  "prev_video": {
+    "message": "Өмнөх видео"
+  },
+  "next_video": {
+    "message": "Дараагийн видео"
+  },
+  "playbackRate": {
+    "message": "Тоглуулах хурд"
+  },
+  "subtitles": {
+    "message": "Хадмал орчуулга"
+  },
+  "close_captions": {
+    "message": "Хаалттай хадмал"
+  },
+  "danmaku": {
+    "message": "Сумтай чат"
+  },
+  "fit_to_screen": {
+    "message": "Дэлгэцэнд тааруулах"
+  },
+  "reload_video": {
+    "message": "Видеог дахин ачаалах"
+  },
+  "loading_pip_config": {
+    "message": "Зураг доторх зургийн тохиргоог ачаалж байна..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Зураг доторх зургийн горимд тоглож байна"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Зураг доторх зургийн хадмал орчуулгын тохиргоог илрүүлж байна..."
+  },
+  "video_not_detected": {
+    "message": "Видео илрээгүй. Энэ нь хараахан бэлэн болоогүй байж магадгүй. Хэрэв хуудсан дээр видео байгаа бол тоглуулах товчийг дарж дахин оролдоно уу."
+  },
+  "pip_window_restriction": {
+    "message": "Нарийвчилсан зураг доторх зургийн цонхыг зөвхөн үндсэн хуудсаас нээх боломжтой бөгөөд хүрээ эсвэл оруулсан контентоос эхлүүлэх боломжгүй. Та стандарт зураг доторх зургийн горимыг ашиглах эсвэл шинэ таб дээр нээж дахин оролдоно уу. Шинэ таб дээр видео зөв ачаалагдахгүй байж магадгүй.",
+    "description": "DocumentPictureInPicture дээр 'requestWindow' командыг гүйцэтгэхэд алдаа гарлаа: Зураг доторх зургийн цонхыг зөвхөн дээд түвшний хөтчийн контекстоос нээхийг зөвшөөрнө"
+  },
+  "use_standard_pip": {
+    "message": "Стандарт зураг доторх зургийг ашиглах",
+    "description": "Стандарт зураг доторх зургийн горимыг ашиглах сонголт"
+  },
+  "open_in_new_tab": {
+    "message": "Шинэ таб дээр нээх",
+    "description": "Хуудсыг шинэ таб дээр нээх сонголт"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Энэ сайтын тохиргоог санах (Та үүнийг Сонголтууд - Сайтын тохиргоо хэсэгт өөрчилж болно)"
+  },
+  "pip_user_activation_required": {
+    "message": "Зураг доторх зургийн горимд хэрэглэгчийн харилцан үйлчлэл шаардлагатай. Хуудастай харилцан үйлчлэл хийж, дахин оролдоно уу.",
+    "description": "DocumentPictureInPicture дээр 'requestWindow' командыг гүйцэтгэхэд алдаа гарлаа: Document PiP нь хэрэглэгчийн идэвхжүүлэлтийг шаарддаг"
+  },
+  "retry_action": {
+    "message": "Дахин оролдох"
   }
 }

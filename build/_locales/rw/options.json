@@ -136,6 +136,7 @@
         "sortBy": "Kururutsa Na",
         "createTabPanel": "Shyiraho Ikarita y'Urupapuro",
         "tabPanels": "Amakarita y'Urupapuro",
+        "switchPIP": "Hindura Ifoto-mu-Ifoto",
         "pinToToolbarReminder": "Nyamuneka shyira iyi extention kuri toolbar yawe mbere yo gukuraho iyi navigasiyo."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Iyi paji ni iyo kwerekana gusa. Kugira ngo uhindure inzira ngufi, nyamuneka jya kuri [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
       "goToBrowserSettings": "Gana ku igenamiterere rya Chrome",
       "_execute_action": "Shyira mu bikorwa iyi kongeraho",
-      "openSidePanel": "Fungura uruhande"
+      "openSidePanel": "Fungura uruhande",
+      "switchPIP": "Hindura Ifoto mu Ifoto"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Ifoto mu ifoto",
@@ -392,6 +394,22 @@
         "description": "Niba urupapuro ruriho rwerekana video kandi video itari mute kandi video iri hanze y'akarere kagaragara iyo utembera, izinjira mu ifoto mu ifoto.",
         "enabled": "Yemejwe",
         "disabled": "Yahagaritswe"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Ifoto mu Ifoto yikora ku Guhindura Amapaji idafunguye uruhande",
+        "description": "Niba urupapuro ruriho rwerekana video kandi video itari mute, shyiraho ifoto mu ifoto yikora ku guhindura amapaji idafunguye uruhande. Icyitonderwa: iyi mikorere **isaba gukangura umukozi** (urugero, gukanda imbeba ahantu hatariho ikintu ku rupapuro)."
+      },
+      "advancedPipEnable": {
+        "label": "Emeza Ifoto mu Ifoto Yateye Imbere",
+        "description": "Iyo yemejwe, Ifoto mu Ifoto Yateye Imbere izahabwa umwanya wa mbere. Niba urupapuro rutayishyigikira, Ifoto mu Ifoto isanzwe izakoreshwa.\nIfoto mu Ifoto Yateye Imbere ikoresha umukinnyi wa video wihariye, itanga imikorere nka:\n * Gukina/Guhagarika video (Space)\n * Guhindura umuvuduko w'ijwi (Up/Down Arrow)\n * Guhagarika/Gukomeza video\n * Guhita imbere/Gusubira inyuma video (Left/Right Arrow cyangwa Mouse Wheel)\n * Gukina video ikurikira\n * Kwerekana subtitles (bishyigikiwe ku mbuga zimwe, urugero, youtube.com, vimeo.com, tver.jp, n'ibindi.)\n * Kwerekana barrage (bishyigikiwe ku mbuga zimwe, urugero, nicovideo.jp, bilibili.com, n'ibindi.)\n * Gusohoka mu Ifoto mu Ifoto (Esc)\n * Guhindura guhisha/kwerekana video no gukina/guhagarika (Q)\n >Niba imbuga usura kenshi zishyigikira subtitles cyangwa barrage, urashobora kohereza [ikibazo: Ifoto mu Ifoto Yateye Imbere](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), kandi tuzayihindura vuba bishoboka. Icyitonderwa: zimwe mu mbuga zishobora kugira imipaka y'akarere, kandi ushobora gukenera gutanga andi makuru."
+      },
+      "subtitleDetection": {
+        "label": "Emeza Guhitamo Subtitles",
+        "description": "Niba urubuga ruriho rudafite igenamiterere rya Ifoto mu Ifoto, emera porogaramu kugerageza guhita ibona ibice bya subtitles no kubishyira mu mukinnyi wa Ifoto mu Ifoto. Iyi mikorere ntizwi neza kandi ishobora kutabona ibice bya subtitles neza buri gihe. Niba uri umunyamwuga, urashobora kongeramo igenamiterere ry'ibice bya subtitles mu igenamiterere ry'urubuga."
+      },
+      "continuousPlayback": {
+        "label": "Emeza Gukina Gukomeza",
+        "description": "Gukina gukomeza: Idirishya rya Ifoto mu Ifoto ntirifunga kandi rihita rikina igice gikurikira nyuma y'uko video irangiye. Iyi mikorere isaba gushyigikirwa n'urubuga."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Icyiciro cy'Umurongo",
         "description": "Hitamo icyiciro cy'umurongo kuri uru rubuga."
+      },
+      "pipRestrictionAction": {
+        "label": "Igikorwa cyo Gufunga Picture-in-Picture",
+        "description": "Idirishya rya Picture-in-Picture rishobora gufungurwa gusa ku ipaji nyamukuru kandi ntirishobora gutangizwa mu mafuremu cyangwa ibikubiye. Urashobora gukoresha uburyo busanzwe bwa Picture-in-Picture cyangwa gufungura muri tab nshya kugirango ugerageze. Menya ko videwo ishobora kudakora neza muri tab nshya.",
+        "default": "Default",
+        "use_standard_pip": "Koresha uburyo busanzwe bwa Picture-in-Picture",
+        "open_in_new_tab": "Fungura muri tab nshya"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Kwinjira mu buryo bwa Picture-in-Picture",
+        "description": "Injira mu buryo bwa Picture-in-Picture byikora igihe videwo ihari ku ipaji. Kubera imbogamizi za sisitemu, ibi bisaba ko umukoresha akorana n'ipaji."
+      },
+      "captionSetting": {
+        "label": "Ibyo Gushyiraho Ibisobanuro",
+        "description": "Shyiraho abatoranya ba CSS ku kintu cy'ibisobanuro n'umubyeyi wacyo ku ipaji. Umutoranya wa CSS ku kintu cy'ibisobanuro ukoreshwa kugirango ugaragaze ibisobanuro mu mukinnyi, mugihe umubyeyi w'umutoranya ukoreshwa kugirango usubize ibisobanuro ku ipaji y'umwimerere igihe usohoka mu buryo bwa Picture-in-Picture.",
+        "configure": "Shyiraho",
+        "selectorDesc": "Abatoranya basanzwe barimo: '.class' ku batoranya ba class, '#id' ku batoranya ba ID, 'tag' ku batoranya ba tag, na '[attribute=value]' ku batoranya ba attribute. Kubindi bisobanuro, reba: [Abatoranya ba CSS - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Abatoranya ba CSS ku kintu cy'ibisobanuro",
+        "captionParentSelectorDesc": "Abatoranya ba CSS ku mubyeyi w'ikintu cy'ibisobanuro"
       }
     },
     "quickAccess": {

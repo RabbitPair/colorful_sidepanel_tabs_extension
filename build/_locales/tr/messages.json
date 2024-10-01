@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Dahili Sistemler"
+  },
+  "switchPIP": {
+    "message": "Resim içinde Resim Modunu Değiştir"
+  },
+  "play": {
+    "message": "Oynat"
+  },
+  "pause": {
+    "message": "Duraklat"
+  },
+  "shortcut_play_pause": {
+    "message": "Videoyu Oynat/Duraklat"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ses seviyesini ayarla"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Videoyu Sessize Al/Sesi Aç"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Videoyu 5 saniye ileri/geri sar"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Videoyu 10 saniye ileri/geri sar"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Videoyu ileri/geri sar"
+  },
+  "shortcut_next_video": {
+    "message": "Sonraki videoyu oynat"
+  },
+  "shortcut_previous_video": {
+    "message": "Önceki videoyu oynat"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Altyazıları Göster/Gizle"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Mermi Sohbetini Göster/Gizle"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Tam ekran modunu aç/kapat"
+  },
+  "shortcut_playback_speed": {
+    "message": "Oynatma hızını ayarla"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Videonun başına/sonuna git"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Videonun belirli bir yüzdesine git"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Pencereyi video boyutuna uyacak şekilde ayarla"
+  },
+  "shortcut_exit_pip": {
+    "message": "Resim içinde Resim modundan çık"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Videoyu gizle/göster ve oynat/duraklat"
+  },
+  "shortcut_enter_pip": {
+    "message": "Ana sayfadan Resim içinde Resim modunu aç/kapat"
+  },
+  "mute": {
+    "message": "Sessize Al"
+  },
+  "unmute": {
+    "message": "Sesi Aç"
+  },
+  "prev_video": {
+    "message": "Önceki Video"
+  },
+  "next_video": {
+    "message": "Sonraki Video"
+  },
+  "playbackRate": {
+    "message": "Oynatma Hızı"
+  },
+  "subtitles": {
+    "message": "Altyazılar"
+  },
+  "close_captions": {
+    "message": "Kapalı Altyazılar"
+  },
+  "danmaku": {
+    "message": "Mermi Sohbeti"
+  },
+  "fit_to_screen": {
+    "message": "Ekrana Sığdır"
+  },
+  "reload_video": {
+    "message": "Videoyu Yeniden Yükle"
+  },
+  "loading_pip_config": {
+    "message": "Belge Resim içinde Resim Yapılandırmaları Yükleniyor..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Belge Resim içinde Resim Modunda Oynatılıyor"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Resim içinde Resim Altyazı Ayarları Algılanıyor..."
+  },
+  "video_not_detected": {
+    "message": "Video algılanmadı. Henüz hazır olmayabilir. Sayfada bir video varsa, lütfen oynat düğmesine tıklayın ve tekrar deneyin."
+  },
+  "pip_window_restriction": {
+    "message": "Gelişmiş Resim içinde Resim penceresi yalnızca ana sayfadan açılabilir ve çerçevelerden veya gömülü içerikten başlatılamaz. Standart Resim içinde Resim modunu kullanabilir veya yeniden denemek için yeni bir sekmede açabilirsiniz. Videonun yeni bir sekmede düzgün yüklenmeyebileceğini unutmayın.",
+    "description": "'requestWindow' işlemi 'DocumentPictureInPicture' üzerinde başarısız oldu: Resim içinde Resim penceresi yalnızca üst düzey bir tarama bağlamından açılabilir"
+  },
+  "use_standard_pip": {
+    "message": "Standart Resim içinde Resim Modunu Kullan",
+    "description": "Standart Resim içinde Resim modunu kullanma seçeneği"
+  },
+  "open_in_new_tab": {
+    "message": "Yeni sekmede aç",
+    "description": "Sayfayı yeni bir sekmede açma seçeneği"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Bu sitenin ayarlarını hatırla (Ayarlar - Site ayarlarından değiştirebilirsiniz)"
+  },
+  "pip_user_activation_required": {
+    "message": "Resim içinde Resim modu kullanıcı etkileşimi gerektirir. Lütfen sayfayla etkileşime geçin ve tekrar deneyin.",
+    "description": "'requestWindow' işlemi 'DocumentPictureInPicture' üzerinde başarısız oldu: Belge Resim içinde Resim kullanıcı etkileşimi gerektirir"
+  },
+  "retry_action": {
+    "message": "Tekrar Dene"
   }
 }

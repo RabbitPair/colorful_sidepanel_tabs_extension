@@ -136,6 +136,7 @@
         "sortBy": "Sorteren op",
         "createTabPanel": "Tabbladpaneel maken",
         "tabPanels": "Tabbladpanelen",
+        "switchPIP": "Schakel Beeld-in-Beeld",
         "pinToToolbarReminder": "Zet de extensie vast in uw werkbalk voordat u deze navigatie verwijdert."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Deze pagina is alleen voor weergave. Om sneltoetsen te wijzigen, gaat u naar [Extensies]->[Extensies beheren]->[Toetsenbord sneltoetsen]",
       "goToBrowserSettings": "Ga naar Chrome-instellingen",
       "_execute_action": "Activeer deze extensie",
-      "openSidePanel": "Zijpaneel openen"
+      "openSidePanel": "Zijpaneel openen",
+      "switchPIP": "Schakel Beeld-in-Beeld"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Beeld-in-beeld",
@@ -392,6 +394,22 @@
         "description": "Als de huidige pagina een video afspeelt en de video niet is gedempt en de video buiten het zichtbare bereik is bij het scrollen, wordt beeld-in-beeld ingeschakeld.",
         "enabled": "Ingeschakeld",
         "disabled": "Uitgeschakeld"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatisch Beeld-in-Beeld bij Tabblad Wisselen zonder Zijpaneel te Openen",
+        "description": "Als de huidige pagina een video afspeelt en de video niet is gedempt, schakel dan automatisch Beeld-in-Beeld in bij het wisselen van tabbladen zonder het zijpaneel te openen. Merk op dat deze functie **gebruikersactivatie vereist** (bijv. klikken met de muis op een leeg gebied van de pagina)."
+      },
+      "advancedPipEnable": {
+        "label": "Geavanceerd Beeld-in-Beeld Inschakelen",
+        "description": "Wanneer ingeschakeld, krijgt Geavanceerd Beeld-in-Beeld prioriteit. Als de pagina het niet ondersteunt, wordt regulier Beeld-in-Beeld gebruikt.\nGeavanceerd Beeld-in-Beeld maakt gebruik van een aangepaste videospeler, met functies zoals:\n * Video afspelen/pauzeren (Spatie)\n * Volume aanpassen (Pijl omhoog/omlaag)\n * Video dempen/dempen opheffen\n * Video vooruit/terugspoelen (Pijl links/rechts of muiswiel)\n * De volgende video afspelen\n * Ondertitels weergeven (ondersteund op sommige websites, bijv. youtube.com, vimeo.com, tver.jp, etc.)\n * Barrage weergeven (ondersteund op sommige websites, bijv. nicovideo.jp, bilibili.com, etc.)\n * Beeld-in-Beeld afsluiten (Esc)\n * Video verbergen/tonen en afspelen/pauzeren (Q)\n >Als de websites die u vaak bezoekt ondertitels of barrage ondersteunen, kunt u een [issue: Geavanceerd Beeld-in-Beeld](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) indienen, en we zullen het zo snel mogelijk aanpassen. Merk op dat sommige websites regionale beperkingen kunnen hebben, en u mogelijk aanvullende informatie moet verstrekken."
+      },
+      "subtitleDetection": {
+        "label": "Ondertiteldetectie Inschakelen",
+        "description": "Als de huidige site geen Beeld-in-Beeld configuratie heeft, laat het programma proberen automatisch ondertitel elementen te detecteren en toe te voegen aan de Beeld-in-Beeld speler. Dit is een onstabiele functie en detecteert mogelijk niet altijd de juiste ondertitel elementen. Als u een professional bent, kunt u ondertitel element configuraties toevoegen in de site-instellingen."
+      },
+      "continuousPlayback": {
+        "label": "Continue Weergave Inschakelen",
+        "description": "Continue weergave: Het Beeld-in-Beeld venster sluit niet en speelt automatisch de volgende aflevering af nadat de video is afgelopen. Deze functie vereist website ondersteuning."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Tekstkleur",
         "description": "Stel de tekstkleur in voor deze site."
+      },
+      "pipRestrictionAction": {
+        "label": "Picture-in-Picture Beperkingsactie",
+        "description": "Geavanceerd Picture-in-Picture-venster kan alleen vanaf de hoofdpagina worden geopend en kan niet worden gestart vanuit frames of ingesloten inhoud. U kunt de standaard Picture-in-Picture-modus gebruiken of in een nieuw tabblad openen om het opnieuw te proberen. Houd er rekening mee dat de video mogelijk niet correct wordt geladen in een nieuw tabblad.",
+        "default": "Standaard",
+        "use_standard_pip": "Gebruik standaard Picture-in-Picture",
+        "open_in_new_tab": "Open in nieuw tabblad"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatisch Picture-in-Picture",
+        "description": "Automatisch Picture-in-Picture-modus ingaan wanneer een video aanwezig is bij het betreden van de pagina. Vanwege systeembeperkingen is gebruikersinteractie met de pagina vereist."
+      },
+      "captionSetting": {
+        "label": "Ondertitelinstellingen",
+        "description": "Configureer de CSS-selectoren voor het ondertitelelement en de ouder ervan op de pagina. De CSS-selector voor het ondertitelelement wordt gebruikt om ondertitels in de speler weer te geven, terwijl de ouderselector wordt gebruikt om de ondertitels terug te brengen naar de oorspronkelijke pagina bij het verlaten van de Picture-in-Picture-modus.",
+        "configure": "Configureren",
+        "selectorDesc": "Veelvoorkomende selectoren zijn: '.class' voor klasseselectoren, '#id' voor ID-selectoren, 'tag' voor tagselectoren en '[attribute=value]' voor attributeselectoren. Voor meer details, bezoek: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-selectoren voor het ondertitelelement",
+        "captionParentSelectorDesc": "CSS-selectoren voor de ouder van het ondertitelelement"
       }
     },
     "quickAccess": {

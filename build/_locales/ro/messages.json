@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sisteme Interne"
+  },
+  "switchPIP": {
+    "message": "Comutare Picture-in-Picture"
+  },
+  "play": {
+    "message": "Redare"
+  },
+  "pause": {
+    "message": "Pauză"
+  },
+  "shortcut_play_pause": {
+    "message": "Redare/Pauză video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Reglare volum"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Dezactivare/Activare sunet video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Derulare înainte/înapoi video 5 secunde"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Derulare înainte/înapoi video 10 secunde"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Derulare înainte/înapoi video"
+  },
+  "shortcut_next_video": {
+    "message": "Redare video următor"
+  },
+  "shortcut_previous_video": {
+    "message": "Redare video anterior"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Afișare/Ascundere subtitrări"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Afișare/Ascundere chat cu gloanțe"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Comutare ecran complet"
+  },
+  "shortcut_playback_speed": {
+    "message": "Reglare viteză de redare"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Salt la începutul/sfârșitul video-ului"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Salt la procentajul video-ului"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Reglare fereastră pentru a se potrivi dimensiunii video-ului"
+  },
+  "shortcut_exit_pip": {
+    "message": "Ieșire din modul Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Comutare ascundere/afișare video și redare/pauză"
+  },
+  "shortcut_enter_pip": {
+    "message": "Comutare Picture-in-Picture de pe pagina principală"
+  },
+  "mute": {
+    "message": "Dezactivare sunet"
+  },
+  "unmute": {
+    "message": "Activare sunet"
+  },
+  "prev_video": {
+    "message": "Video anterior"
+  },
+  "next_video": {
+    "message": "Video următor"
+  },
+  "playbackRate": {
+    "message": "Viteză de redare"
+  },
+  "subtitles": {
+    "message": "Subtitrări"
+  },
+  "close_captions": {
+    "message": "Subtitrări închise"
+  },
+  "danmaku": {
+    "message": "Chat cu gloanțe"
+  },
+  "fit_to_screen": {
+    "message": "Potrivire pe ecran"
+  },
+  "reload_video": {
+    "message": "Reîncărcare video"
+  },
+  "loading_pip_config": {
+    "message": "Se încarcă configurațiile Picture-in-Picture ale documentului..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Redare în modul Picture-in-Picture al documentului"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detectarea setărilor de subtitrare Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Video-ul nu a fost detectat. Este posibil să nu fie gata încă. Dacă există un video pe pagină, vă rugăm să apăsați redare și să încercați din nou."
+  },
+  "pip_window_restriction": {
+    "message": "Fereastra avansată Picture-in-Picture poate fi deschisă doar de pe pagina principală și nu poate fi lansată din cadre sau conținut încorporat. Puteți utiliza modul standard Picture-in-Picture sau deschideți într-o filă nouă pentru a încerca din nou. Rețineți că video-ul poate să nu se încarce corect într-o filă nouă.",
+    "description": "Nu s-a reușit executarea 'requestWindow' pe 'DocumentPictureInPicture': Deschiderea unei ferestre PiP este permisă doar dintr-un context de navigare de nivel superior"
+  },
+  "use_standard_pip": {
+    "message": "Utilizați modul PiP standard",
+    "description": "Opțiune pentru a utiliza modul standard Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Deschideți într-o filă nouă",
+    "description": "Opțiune pentru a deschide pagina într-o filă nouă"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Rețineți setările acestui site (Puteți modifica în Opțiuni - Setări site)"
+  },
+  "pip_user_activation_required": {
+    "message": "Modul Picture-in-Picture necesită interacțiunea utilizatorului. Vă rugăm să faceți clic sau să interacționați cu pagina și să încercați din nou.",
+    "description": "Nu s-a reușit executarea 'requestWindow' pe 'DocumentPictureInPicture': Documentul PiP necesită activarea utilizatorului"
+  },
+  "retry_action": {
+    "message": "Încercați din nou"
   }
 }

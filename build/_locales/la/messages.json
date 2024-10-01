@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interna Systemata"
+  },
+  "switchPIP": {
+    "message": "Permutare Imago-in-Imago"
+  },
+  "play": {
+    "message": "Ludere"
+  },
+  "pause": {
+    "message": "Intermittere"
+  },
+  "shortcut_play_pause": {
+    "message": "Ludere/Intermittere video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Volumen accommodare"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Silentium/Removere silentium video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Celeriter progredi/Retrocedere video 5 secundis"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Celeriter progredi/Retrocedere video 10 secundis"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Celeriter progredi/Retrocedere video"
+  },
+  "shortcut_next_video": {
+    "message": "Ludere proximum video"
+  },
+  "shortcut_previous_video": {
+    "message": "Ludere praecedens video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Monstrare/Occultare titulos"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Monstrare/Occultare chattae volantes"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Plenam imaginem commutare"
+  },
+  "shortcut_playback_speed": {
+    "message": "Celeritatem reproductionis accommodare"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Quaerere ad initium/fine video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Quaerere ad centesimam video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Fenestram accommodare ad magnitudinem video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Exire Imago-in-Imago"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Commutare occultare/monstrare video et ludere/intermittere"
+  },
+  "shortcut_enter_pip": {
+    "message": "Commutare Imago-in-Imago ex pagina principali"
+  },
+  "mute": {
+    "message": "Silentium"
+  },
+  "unmute": {
+    "message": "Silentium Removere"
+  },
+  "prev_video": {
+    "message": "Praecedens Video"
+  },
+  "next_video": {
+    "message": "Proximum Video"
+  },
+  "playbackRate": {
+    "message": "Celeritas Reproductionis"
+  },
+  "subtitles": {
+    "message": "Subtituli"
+  },
+  "close_captions": {
+    "message": "Clausae Captiones"
+  },
+  "danmaku": {
+    "message": "Chattae Volantes"
+  },
+  "fit_to_screen": {
+    "message": "Admonere ad Scrinium"
+  },
+  "reload_video": {
+    "message": "Reload Video"
+  },
+  "loading_pip_config": {
+    "message": "Configuratio Imago-in-Imago Documenti Onus..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Ludens in Imago-in-Imago Documenti Modo"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detectio Imago-in-Imago Subtituli Configurationes..."
+  },
+  "video_not_detected": {
+    "message": "Video non detectum. Fortasse non paratum est. Si video in pagina est, quaeso preme ludere et iterum conare."
+  },
+  "pip_window_restriction": {
+    "message": "Fenestra Avancata Imago-in-Imago solum aperiri potest ex pagina principali et non potest ex contentis vel embedded contentis. Potes uti modo Imago-in-Imago normali vel aperire in nova scheda ad iterum conandum. Nota quod video recte non onus in nova scheda.",
+    "description": "Defecit ad exsequendum 'requestWindow' in 'DocumentPictureInPicture': Aperiens fenestram PiP solum permittitur ex contextu summo gradu pascendi"
+  },
+  "use_standard_pip": {
+    "message": "Utere normali PiP",
+    "description": "Optio uti modo Imago-in-Imago normali"
+  },
+  "open_in_new_tab": {
+    "message": "Aperire in nova scheda",
+    "description": "Optio aperire paginam in nova scheda"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Memorare huius situs configurationes (Potes id mutare in Optiones - Situs configurationes)"
+  },
+  "pip_user_activation_required": {
+    "message": "Modus Imago-in-Imago requirit interactionem usoris. Quaeso preme vel interage cum pagina et iterum conare.",
+    "description": "Defecit ad exsequendum 'requestWindow' in 'DocumentPictureInPicture': Documentum PiP requirit activationem usoris"
+  },
+  "retry_action": {
+    "message": "Iterum Conare"
   }
 }

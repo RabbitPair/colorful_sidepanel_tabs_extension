@@ -136,6 +136,7 @@
         "sortBy": "Rendit Sipas",
         "createTabPanel": "Krijo Panelin e Skedave",
         "tabPanels": "Panelet e Skedave",
+        "switchPIP": "Ndrysho Picture-in-Picture",
         "pinToToolbarReminder": "Ju lutemi ngjitni shtesën në shiritin e veglave përpara se të hiqni këtë navigim."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Kjo faqe është për shfaqje vetëm. Për të modifikuar shkurtesat, ju lutemi vizitoni [Zgjerime]->[Menaxho zgjerimet]->[Shkurtesat e tastierës]",
       "goToBrowserSettings": "Shkoni te cilësimet e Chrome",
       "_execute_action": "Aktivizoni këtë zgjerim",
-      "openSidePanel": "Hapni panelin anësor"
+      "openSidePanel": "Hapni panelin anësor",
+      "switchPIP": "Ndërro Imazh-në-Imazh"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imazh në imazh",
@@ -392,6 +394,22 @@
         "description": "Nëse faqja aktuale po luan një video dhe video nuk është i zhurmshëm dhe video është jashtë gamës së dukshme kur shkrolloni, do të hyjë në imazh në imazh.",
         "enabled": "Aktivizuar",
         "disabled": "Çaktivizuar"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Imazh në Imazh Automatik në Ndërrimin e Zavihkat pa Hapjen e Panelit Anësor",
+        "description": "Nëse faqja aktuale po luan një video dhe video nuk është e heshtur, aktivizoni automatikisht Imazh në Imazh në ndërrimin e zavihkat pa hapjen e panelit anësor. Vini re se kjo veçori **kërkon aktivizimin e përdoruesit** (p.sh., duke klikuar miun në një zonë bosh të faqes)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktivizo Imazh në Imazh të Avancuar",
+        "description": "Kur aktivizohet, Imazhi në Imazh i Avancuar do të ketë përparësi. Nëse faqja nuk e mbështet atë, do të përdoret Imazhi në Imazh i rregullt.\nImazhi në Imazh i Avancuar përdor një luajtës video të personalizuar, duke ofruar veçori të tilla si:\n * Luaj/Pauzo video (Hapësirë)\n * Rregullo volumin (Shigjeta Lart/Poshtë)\n * Hesht/Zhvendos video\n * Përparim i shpejtë/Kthim video (Shigjeta Majtas/Djathtas ose Rrota e Miut)\n * Luaj videon tjetër\n * Shfaq titrat (mbështetur në disa faqe interneti, p.sh., youtube.com, vimeo.com, tver.jp, etj.)\n * Shfaq komente (mbështetur në disa faqe interneti, p.sh., nicovideo.jp, bilibili.com, etj.)\n * Dil nga Imazhi në Imazh (Esc)\n * Ndërro fsheh/shfaq video dhe luaj/pauzo (Q)\n >Nëse faqet e internetit që vizitoni shpesh mbështesin titrat ose komentet, mund të paraqisni një [çështje: Imazh në Imazh i Avancuar](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), dhe ne do ta përshtatim sa më shpejt të jetë e mundur. Vini re se disa faqe interneti mund të kenë kufizime rajonale dhe mund të duhet të jepni informacione shtesë."
+      },
+      "subtitleDetection": {
+        "label": "Aktivizo Zbulimin e Titujve",
+        "description": "Nëse faqja aktuale nuk ka një konfigurim për Imazh në Imazh, lejoni programin të përpiqet të zbulojë automatikisht elementet e titrave dhe t'i shtojë ato në luajtësin e Imazhit në Imazh. Kjo është një veçori e paqëndrueshme dhe mund të mos zbulojë gjithmonë elementet e sakta të titrave. Nëse jeni profesionist, mund të shtoni konfigurimet e elementeve të titrave në cilësimet e faqes."
+      },
+      "continuousPlayback": {
+        "label": "Aktivizo Riprodhimin e Vazhdueshëm",
+        "description": "Riprodhimi i vazhdueshëm: Dritarja e Imazhit në Imazh nuk mbyllet dhe automatikisht luan episodin tjetër pas përfundimit të videos. Kjo veçori kërkon mbështetjen e faqes së internetit."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Ngjyra e Shkronjave",
         "description": "Vendosni ngjyrën e shkronjave për këtë faqe."
+      },
+      "pipRestrictionAction": {
+        "label": "Veprimi i Kufizimit të Picture-in-Picture",
+        "description": "Dritarja e avancuar Picture-in-Picture mund të hapet vetëm nga faqja kryesore dhe nuk mund të nisë nga kornizat ose përmbajtja e ngulitur. Ju mund të përdorni modalitetin standard Picture-in-Picture ose të hapni në një skedë të re për të provuar përsëri. Vini re se videoja mund të mos ngarkohet siç duhet në një skedë të re.",
+        "default": "Parazgjedhur",
+        "use_standard_pip": "Përdor Picture-in-Picture standard",
+        "open_in_new_tab": "Hap në skedë të re"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Hyrje automatike në Picture-in-Picture",
+        "description": "Hyni automatikisht në modalitetin Picture-in-Picture kur një video është e pranishme gjatë hyrjes në faqe. Për shkak të kufizimeve të sistemit, kjo kërkon ndërveprim të përdoruesit me faqen."
+      },
+      "captionSetting": {
+        "label": "Cilësimet e Titullit",
+        "description": "Konfiguroni selektorët CSS për elementin e titullit dhe prindin e tij në faqe. Selektori CSS për elementin e titullit përdoret për të shfaqur titujt në lojtar, ndërsa selektori prind përdoret për të kthyer titujt në faqen origjinale kur dilni nga modaliteti Picture-in-Picture.",
+        "configure": "Konfiguro",
+        "selectorDesc": "Selektorët e zakonshëm përfshijnë: '.class' për selektorët e klasës, '#id' për selektorët e ID-së, 'tag' për selektorët e etiketave dhe '[attribute=value]' për selektorët e atributeve. Për më shumë detaje, vizitoni: [Selektorët CSS - CSS: Fletët e Stilimit të Kaskadës - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selektorët CSS për elementin e titullit",
+        "captionParentSelectorDesc": "Selektorët CSS për prindin e elementit të titullit"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "आंतरिक प्रणाली"
+  },
+  "switchPIP": {
+    "message": "चित्र-इन-चित्र स्विच करा"
+  },
+  "play": {
+    "message": "प्ले"
+  },
+  "pause": {
+    "message": "विराम"
+  },
+  "shortcut_play_pause": {
+    "message": "व्हिडिओ प्ले/विराम"
+  },
+  "shortcut_adjust_volume": {
+    "message": "आवाज समायोजित करा"
+  },
+  "shortcut_mute_unmute": {
+    "message": "व्हिडिओ म्यूट/अनम्यूट"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "व्हिडिओ 5 सेकंद पुढे/मागे करा"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "व्हिडिओ 10 सेकंद पुढे/मागे करा"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "व्हिडिओ पुढे/मागे करा"
+  },
+  "shortcut_next_video": {
+    "message": "पुढील व्हिडिओ प्ले करा"
+  },
+  "shortcut_previous_video": {
+    "message": "मागील व्हिडिओ प्ले करा"
+  },
+  "shortcut_toggle_captions": {
+    "message": "कॅप्शन दाखवा/लपवा"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "बॅरेजेस दाखवा/लपवा"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "पूर्ण स्क्रीन टॉगल करा"
+  },
+  "shortcut_playback_speed": {
+    "message": "प्लेबॅक गती समायोजित करा"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "व्हिडिओच्या सुरुवातीला/शेवटी जा"
+  },
+  "shortcut_seek_percentage": {
+    "message": "व्हिडिओच्या टक्केवारीवर जा"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "व्हिडिओ आकारानुसार विंडो समायोजित करा"
+  },
+  "shortcut_exit_pip": {
+    "message": "चित्र-इन-चित्र मोडमधून बाहेर पडा"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "व्हिडिओ लपवा/दाखवा आणि प्ले/विराम"
+  },
+  "shortcut_enter_pip": {
+    "message": "मुख्य पृष्ठावरून चित्र-इन-चित्र टॉगल करा"
+  },
+  "mute": {
+    "message": "म्यूट"
+  },
+  "unmute": {
+    "message": "अनम्यूट"
+  },
+  "prev_video": {
+    "message": "मागील व्हिडिओ"
+  },
+  "next_video": {
+    "message": "पुढील व्हिडिओ"
+  },
+  "playbackRate": {
+    "message": "प्लेबॅक गती"
+  },
+  "subtitles": {
+    "message": "उपशीर्षके"
+  },
+  "close_captions": {
+    "message": "बंद कॅप्शन"
+  },
+  "danmaku": {
+    "message": "बुलेट चॅटिंग"
+  },
+  "fit_to_screen": {
+    "message": "स्क्रीनला बसवा"
+  },
+  "reload_video": {
+    "message": "व्हिडिओ रीलोड करा"
+  },
+  "loading_pip_config": {
+    "message": "चित्र-इन-चित्र कॉन्फिगरेशन लोड करत आहे..."
+  },
+  "playing_in_pip_mode": {
+    "message": "चित्र-इन-चित्र मोडमध्ये प्ले करत आहे"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "चित्र-इन-चित्र उपशीर्षक सेटिंग्ज शोधत आहे..."
+  },
+  "video_not_detected": {
+    "message": "व्हिडिओ शोधला गेला नाही. तो अद्याप तयार नसू शकतो. पृष्ठावर व्हिडिओ असल्यास, कृपया प्ले क्लिक करा आणि पुन्हा प्रयत्न करा."
+  },
+  "pip_window_restriction": {
+    "message": "प्रगत चित्र-इन-चित्र विंडो फक्त मुख्य पृष्ठावरून उघडली जाऊ शकते आणि फ्रेम किंवा एम्बेड केलेल्या सामग्रीमधून सुरू केली जाऊ शकत नाही. तुम्ही मानक चित्र-इन-चित्र मोड वापरू शकता किंवा पुन्हा प्रयत्न करण्यासाठी नवीन टॅबमध्ये उघडू शकता. लक्षात ठेवा की नवीन टॅबमध्ये व्हिडिओ योग्यरित्या लोड होऊ शकत नाही.",
+    "description": "'requestWindow' वर 'DocumentPictureInPicture' वर अंमलात आणण्यात अयशस्वी: PiP विंडो उघडणे फक्त टॉप-लेव्हल ब्राउझिंग संदर्भातून परवानगी आहे"
+  },
+  "use_standard_pip": {
+    "message": "मानक PiP वापरा",
+    "description": "मानक चित्र-इन-चित्र मोड वापरण्याचा पर्याय"
+  },
+  "open_in_new_tab": {
+    "message": "नवीन टॅबमध्ये उघडा",
+    "description": "पृष्ठ नवीन टॅबमध्ये उघडण्याचा पर्याय"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "या साइटच्या सेटिंग्ज लक्षात ठेवा (तुम्ही पर्याय - साइट सेटिंग्जमध्ये ते बदलू शकता)"
+  },
+  "pip_user_activation_required": {
+    "message": "चित्र-इन-चित्र मोडसाठी वापरकर्ता परस्परसंवाद आवश्यक आहे. कृपया पृष्ठावर क्लिक करा किंवा संवाद साधा आणि पुन्हा प्रयत्न करा.",
+    "description": "'requestWindow' वर 'DocumentPictureInPicture' वर अंमलात आणण्यात अयशस्वी: दस्तऐवज PiP साठी वापरकर्ता सक्रियता आवश्यक आहे"
+  },
+  "retry_action": {
+    "message": "पुन्हा प्रयत्न करा"
   }
 }

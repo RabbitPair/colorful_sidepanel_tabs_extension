@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "आंतरिक प्रणालियाँ"
+  },
+  "switchPIP": {
+    "message": "चित्र-में-चित्र स्विच करें"
+  },
+  "play": {
+    "message": "चलाएं"
+  },
+  "pause": {
+    "message": "रोकें"
+  },
+  "shortcut_play_pause": {
+    "message": "वीडियो चलाएं/रोकें"
+  },
+  "shortcut_adjust_volume": {
+    "message": "वॉल्यूम समायोजित करें"
+  },
+  "shortcut_mute_unmute": {
+    "message": "वीडियो म्यूट/अनम्यूट करें"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "वीडियो को 5 सेकंड आगे/पीछे करें"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "वीडियो को 10 सेकंड आगे/पीछे करें"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "वीडियो को आगे/पीछे करें"
+  },
+  "shortcut_next_video": {
+    "message": "अगला वीडियो चलाएं"
+  },
+  "shortcut_previous_video": {
+    "message": "पिछला वीडियो चलाएं"
+  },
+  "shortcut_toggle_captions": {
+    "message": "कैप्शन दिखाएं/छुपाएं"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "बैराज दिखाएं/छुपाएं"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "पूर्ण स्क्रीन टॉगल करें"
+  },
+  "shortcut_playback_speed": {
+    "message": "प्लेबैक गति समायोजित करें"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "वीडियो की शुरुआत/अंत तक जाएं"
+  },
+  "shortcut_seek_percentage": {
+    "message": "वीडियो के प्रतिशत तक जाएं"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "विंडो को वीडियो आकार में समायोजित करें"
+  },
+  "shortcut_exit_pip": {
+    "message": "चित्र-में-चित्र से बाहर निकलें"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "वीडियो छुपाएं/दिखाएं और चलाएं/रोकें"
+  },
+  "shortcut_enter_pip": {
+    "message": "मुख्य पृष्ठ से चित्र-में-चित्र टॉगल करें"
+  },
+  "mute": {
+    "message": "म्यूट करें"
+  },
+  "unmute": {
+    "message": "अनम्यूट करें"
+  },
+  "prev_video": {
+    "message": "पिछला वीडियो"
+  },
+  "next_video": {
+    "message": "अगला वीडियो"
+  },
+  "playbackRate": {
+    "message": "प्लेबैक गति"
+  },
+  "subtitles": {
+    "message": "उपशीर्षक"
+  },
+  "close_captions": {
+    "message": "बंद कैप्शन"
+  },
+  "danmaku": {
+    "message": "बुलेट चैटिंग"
+  },
+  "fit_to_screen": {
+    "message": "स्क्रीन में फिट करें"
+  },
+  "reload_video": {
+    "message": "वीडियो पुनः लोड करें"
+  },
+  "loading_pip_config": {
+    "message": "दस्तावेज़ चित्र-में-चित्र कॉन्फ़िगरेशन लोड हो रहा है..."
+  },
+  "playing_in_pip_mode": {
+    "message": "दस्तावेज़ चित्र-में-चित्र मोड में चल रहा है"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "चित्र-में-चित्र उपशीर्षक सेटिंग्स का पता लगा रहा है..."
+  },
+  "video_not_detected": {
+    "message": "वीडियो का पता नहीं चला। यह अभी तक तैयार नहीं हो सकता है। यदि पृष्ठ पर वीडियो है, तो कृपया चलाएं पर क्लिक करें और पुनः प्रयास करें।"
+  },
+  "pip_window_restriction": {
+    "message": "उन्नत चित्र-में-चित्र विंडो केवल मुख्य पृष्ठ से खोली जा सकती है और फ्रेम या एम्बेडेड सामग्री से लॉन्च नहीं की जा सकती है। आप मानक चित्र-में-चित्र मोड का उपयोग कर सकते हैं या पुनः प्रयास करने के लिए एक नए टैब में खोल सकते हैं। ध्यान दें कि वीडियो नए टैब में सही तरीके से लोड नहीं हो सकता है।",
+    "description": "'DocumentPictureInPicture' पर 'requestWindow' निष्पादित करने में विफल: एक PiP विंडो खोलने की अनुमति केवल शीर्ष-स्तरीय ब्राउज़िंग संदर्भ से है"
+  },
+  "use_standard_pip": {
+    "message": "मानक PiP का उपयोग करें",
+    "description": "मानक चित्र-में-चित्र मोड का उपयोग करने का विकल्प"
+  },
+  "open_in_new_tab": {
+    "message": "नए टैब में खोलें",
+    "description": "पृष्ठ को एक नए टैब में खोलने का विकल्प"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "इस साइट की सेटिंग्स याद रखें (आप इसे विकल्प - साइट सेटिंग्स में संशोधित कर सकते हैं)"
+  },
+  "pip_user_activation_required": {
+    "message": "चित्र-में-चित्र मोड के लिए उपयोगकर्ता इंटरैक्शन की आवश्यकता होती है। कृपया पृष्ठ के साथ क्लिक या इंटरैक्ट करें और पुनः प्रयास करें।",
+    "description": "'DocumentPictureInPicture' पर 'requestWindow' निष्पादित करने में विफल: दस्तावेज़ PiP के लिए उपयोगकर्ता सक्रियण की आवश्यकता होती है"
+  },
+  "retry_action": {
+    "message": "पुनः प्रयास करें"
   }
 }

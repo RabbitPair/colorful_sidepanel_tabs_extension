@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Mga Panloob na Sistema"
+  },
+  "switchPIP": {
+    "message": "Lumipat ng Picture-in-Picture"
+  },
+  "play": {
+    "message": "I-play"
+  },
+  "pause": {
+    "message": "I-pause"
+  },
+  "shortcut_play_pause": {
+    "message": "I-play/I-pause ang video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ayusin ang volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "I-mute/I-unmute ang video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "I-fast forward/I-rewind ang video ng 5 segundo"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "I-fast forward/I-rewind ang video ng 10 segundo"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "I-fast forward/I-rewind ang video"
+  },
+  "shortcut_next_video": {
+    "message": "I-play ang susunod na video"
+  },
+  "shortcut_previous_video": {
+    "message": "I-play ang nakaraang video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Ipakita/Itago ang mga caption"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Ipakita/Itago ang mga barrage"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "I-toggle ang fullscreen"
+  },
+  "shortcut_playback_speed": {
+    "message": "Ayusin ang bilis ng playback"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Hanapin ang simula/dulo ng video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Hanapin ang porsyento ng video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Ayusin ang window upang magkasya sa laki ng video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Lumabas sa Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "I-toggle ang pagtatago/pagpapakita ng video at pag-play/pag-pause"
+  },
+  "shortcut_enter_pip": {
+    "message": "I-toggle ang Picture-in-Picture mula sa pangunahing pahina"
+  },
+  "mute": {
+    "message": "I-mute"
+  },
+  "unmute": {
+    "message": "I-unmute"
+  },
+  "prev_video": {
+    "message": "Nakaraang Video"
+  },
+  "next_video": {
+    "message": "Susunod na Video"
+  },
+  "playbackRate": {
+    "message": "Bilis ng Playback"
+  },
+  "subtitles": {
+    "message": "Mga Subtitle"
+  },
+  "close_captions": {
+    "message": "Mga Closed Caption"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "I-akma sa Screen"
+  },
+  "reload_video": {
+    "message": "I-reload ang Video"
+  },
+  "loading_pip_config": {
+    "message": "Naglo-load ng mga Configuration ng Picture-in-Picture ng Dokumento..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Nagpe-play sa Mode ng Picture-in-Picture ng Dokumento"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Tinutukoy ang mga Setting ng Subtitle ng Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Hindi nakita ang video. Maaaring hindi pa ito handa. Kung may video sa pahina, pakiklik ang play at subukang muli."
+  },
+  "pip_window_restriction": {
+    "message": "Ang advanced na Picture-in-Picture window ay maaari lamang buksan mula sa pangunahing pahina at hindi maaaring ilunsad mula sa mga frame o naka-embed na nilalaman. Maaari mong gamitin ang karaniwang mode ng Picture-in-Picture o buksan sa isang bagong tab upang subukang muli. Tandaan na maaaring hindi mag-load nang maayos ang video sa isang bagong tab.",
+    "description": "Nabigong isagawa ang 'requestWindow' sa 'DocumentPictureInPicture': Ang pagbubukas ng PiP window ay pinapayagan lamang mula sa isang top-level na konteksto ng pag-browse"
+  },
+  "use_standard_pip": {
+    "message": "Gamitin ang karaniwang PiP",
+    "description": "Opsyon na gamitin ang karaniwang mode ng Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Buksan sa bagong tab",
+    "description": "Opsyon na buksan ang pahina sa isang bagong tab"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Tandaan ang mga setting ng site na ito (Maaari mong baguhin ito sa Mga Opsyon - Mga setting ng site)"
+  },
+  "pip_user_activation_required": {
+    "message": "Ang mode ng Picture-in-Picture ay nangangailangan ng pakikipag-ugnayan ng user. Pakiklik o makipag-ugnayan sa pahina at subukang muli.",
+    "description": "Nabigong isagawa ang 'requestWindow' sa 'DocumentPictureInPicture': Ang Document PiP ay nangangailangan ng pag-activate ng user"
+  },
+  "retry_action": {
+    "message": "Subukang Muli"
   }
 }

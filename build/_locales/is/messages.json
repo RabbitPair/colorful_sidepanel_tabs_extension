@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Innri kerfi"
+  },
+  "switchPIP": {
+    "message": "Skipta um mynd í mynd"
+  },
+  "play": {
+    "message": "Spila"
+  },
+  "pause": {
+    "message": "Pása"
+  },
+  "shortcut_play_pause": {
+    "message": "Spila/Pása myndband"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Stilla hljóðstyrk"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Þagga/Óþagga myndband"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Hraðspóla áfram/Bakka myndband 5 sekúndur"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Hraðspóla áfram/Bakka myndband 10 sekúndur"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Hraðspóla áfram/Bakka myndband"
+  },
+  "shortcut_next_video": {
+    "message": "Spila næsta myndband"
+  },
+  "shortcut_previous_video": {
+    "message": "Spila fyrra myndband"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Sýna/Fela texta"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Sýna/Fela kúlu spjall"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Skipta yfir í/fullskjá"
+  },
+  "shortcut_playback_speed": {
+    "message": "Stilla spilunarhraða"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Fara í upphaf/enda myndbands"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Fara í hlutfall myndbands"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Aðlaga glugga að stærð myndbands"
+  },
+  "shortcut_exit_pip": {
+    "message": "Hætta í mynd í mynd"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Skipta á milli að fela/sýna myndband og spila/pása"
+  },
+  "shortcut_enter_pip": {
+    "message": "Skipta yfir í mynd í mynd frá aðalsíðu"
+  },
+  "mute": {
+    "message": "Þagga"
+  },
+  "unmute": {
+    "message": "Afþagga"
+  },
+  "prev_video": {
+    "message": "Fyrra myndband"
+  },
+  "next_video": {
+    "message": "Næsta myndband"
+  },
+  "playbackRate": {
+    "message": "Spilahraði"
+  },
+  "subtitles": {
+    "message": "Texti"
+  },
+  "close_captions": {
+    "message": "Lokaðir textar"
+  },
+  "danmaku": {
+    "message": "Kúlu spjall"
+  },
+  "fit_to_screen": {
+    "message": "Passa á skjá"
+  },
+  "reload_video": {
+    "message": "Endurhlaða myndband"
+  },
+  "loading_pip_config": {
+    "message": "Hleður mynd í mynd stillingum..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Spilar í mynd í mynd ham"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Greinir mynd í mynd textastillingar..."
+  },
+  "video_not_detected": {
+    "message": "Myndband fannst ekki. Það gæti ekki verið tilbúið ennþá. Ef það er myndband á síðunni, vinsamlegast smelltu á spila og reyndu aftur."
+  },
+  "pip_window_restriction": {
+    "message": "Mynd í mynd gluggi getur aðeins verið opnaður frá aðalsíðunni og ekki frá ramma eða innfelldu efni. Þú getur notað venjulegan mynd í mynd ham eða opnað í nýjum flipa til að reyna aftur. Athugaðu að myndbandið gæti ekki hlaðist rétt í nýjum flipa.",
+    "description": "Mistókst að framkvæma 'requestWindow' á 'DocumentPictureInPicture': Að opna PiP glugga er aðeins leyfilegt frá efsta stigi vafra samhengi"
+  },
+  "use_standard_pip": {
+    "message": "Nota venjulegan PiP",
+    "description": "Valkostur til að nota venjulegan mynd í mynd ham"
+  },
+  "open_in_new_tab": {
+    "message": "Opna í nýjum flipa",
+    "description": "Valkostur til að opna síðuna í nýjum flipa"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Mundu stillingar þessarar síðu (Þú getur breytt því í Valkostir - Síðustillingar)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mynd í mynd hamur krefst notenda samskipta. Vinsamlegast smelltu eða samskiptist við síðuna og reyndu aftur.",
+    "description": "Mistókst að framkvæma 'requestWindow' á 'DocumentPictureInPicture': Document PiP krefst notenda virkjunar"
+  },
+  "retry_action": {
+    "message": "Reyna aftur"
   }
 }

@@ -241,5 +241,6 @@
   "shortName": "Lühinimi",
   "expandIcons": "Laienda ikoone",
   "expandList": "Laienda loendit",
-  "openAllUrls": "Ava kõik URL-id"
+  "openAllUrls": "Ava kõik URL-id",
+  "switchPIP": "Lülita pilt-pildis režiimi"
 }

@@ -241,5 +241,6 @@
   "shortName": "簡稱",
   "expandIcons": "展開圖標",
   "expandList": "展開列表",
-  "openAllUrls": "打開所有網址"
+  "openAllUrls": "打開所有網址",
+  "switchPIP": "切換畫中畫"
 }

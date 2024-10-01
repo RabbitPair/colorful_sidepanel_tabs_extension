@@ -136,6 +136,7 @@
         "sortBy": "Ordina Per",
         "createTabPanel": "Crea Tabulam Panel",
         "tabPanels": "Tabulae Panel",
+        "switchPIP": "Transitus Imaginis in Imaginam",
         "pinToToolbarReminder": "Quaeso extensionem ad toolbar affige antequam hanc navigationem removes."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Haec pagina est solum ad ostentandum. Ad compendia mutanda, quaeso visita [Extensiones]->[Administra Extensiones]->[Claviaturas Compendia]",
       "goToBrowserSettings": "I ad Chrome occasus",
       "_execute_action": "Activa hanc extensionem",
-      "openSidePanel": "Aperi laterale tabulam"
+      "openSidePanel": "Aperi laterale tabulam",
+      "switchPIP": "Imago-in-Imago commutare"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imago-in-imago",
@@ -392,6 +394,22 @@
         "description": "Si pagina currentis video ludit et video non est mutatum et video est extra visibilem ambitum cum scrollo, entra imago-in-imago.",
         "enabled": "Activum",
         "disabled": "Deactivum"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Imago-in-Imago in Tab Switch sine Aperiendo Laterale Tabulam",
+        "description": "Si pagina currentis video ludit et video non est mutatum, activa auto Imago-in-Imago in tab switch sine aperiendo laterale tabulam. Nota quod haec functio **requirit activationem usoris** (e.g., cliccando murem in area vacua paginae)."
+      },
+      "advancedPipEnable": {
+        "label": "Activare Provectum Imago-in-Imago",
+        "description": "Cum activum, Provectum Imago-in-Imago prioritizabitur. Si pagina non sustinet, regularis Imago-in-Imago adhibebitur.\nProvectum Imago-in-Imago utitur ludio video consuetudinis, offerens functiones ut:\n * Lude/Pausa video (Spatium)\n * Volumen adjusta (Sagittae Sur/Deorsum)\n * Muta/Unmuta video\n * Praecipita/Retrocede video (Sagittae Sinistra/Dextra vel Rota Muris)\n * Lude proximam video\n * Monstra subtitles (sustentatur in aliquibus paginis, e.g., youtube.com, vimeo.com, tver.jp, etc.)\n * Monstra barrage (sustentatur in aliquibus paginis, e.g., nicovideo.jp, bilibili.com, etc.)\n * Exi Imago-in-Imago (Esc)\n * Toggle absconde/monstra video et lude/pausa (Q)\n >Si paginae quas frequenter visitas sustinent subtitles vel barrage, potes submittere [issue: Provectum Imago-in-Imago](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), et nos eam quam primum adaptabimus. Nota quod aliquae paginae restrictiones regionales habere possunt, et fortasse opus erit ut informationes additas praebeas."
+      },
+      "subtitleDetection": {
+        "label": "Activare Detectionem Subtituli",
+        "description": "Si pagina currentis non habet configurationem Imago-in-Imago, permitte programmatum conari detectare elementa subtituli automatice et addere ea ad ludio Imago-in-Imago. Haec functio instabilis est et non semper recta elementa subtituli detectare potest. Si professionalis es, potes addere configurationes elementorum subtituli in occasus situs."
+      },
+      "continuousPlayback": {
+        "label": "Activare Continuam Reproductionem",
+        "description": "Continua reproductio: Fenestra Imago-in-Imago non claudit et automatice ludit proximam episodium postquam video finitur. Haec functio requirit sustentationem paginae."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Colore del carattere",
         "description": "Imposta il colore del carattere per questo sito."
+      },
+      "pipRestrictionAction": {
+        "label": "Azione di Restrizione Picture-in-Picture",
+        "description": "La finestra avanzata Picture-in-Picture può essere aperta solo dalla pagina principale e non può essere avviata da frame o contenuti incorporati. Puoi utilizzare la modalità Picture-in-Picture standard o aprire in una nuova scheda per riprovare. Nota che il video potrebbe non caricarsi correttamente in una nuova scheda.",
+        "default": "Predefinito",
+        "use_standard_pip": "Usa Picture-in-Picture standard",
+        "open_in_new_tab": "Apri in una nuova scheda"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Ingresso automatico in Picture-in-Picture",
+        "description": "Entra automaticamente in modalità Picture-in-Picture quando è presente un video all'ingresso della pagina. A causa delle limitazioni del sistema, questo richiede l'interazione dell'utente con la pagina."
+      },
+      "captionSetting": {
+        "label": "Impostazioni dei sottotitoli",
+        "description": "Configura i selettori CSS per l'elemento dei sottotitoli e il suo genitore nella pagina. Il selettore CSS per l'elemento dei sottotitoli viene utilizzato per visualizzare i sottotitoli nel lettore, mentre il selettore del genitore viene utilizzato per restituire i sottotitoli alla pagina originale quando si esce dalla modalità Picture-in-Picture.",
+        "configure": "Configura",
+        "selectorDesc": "I selettori comuni includono: '.class' per i selettori di classe, '#id' per i selettori di ID, 'tag' per i selettori di tag e '[attribute=value]' per i selettori di attributi. Per ulteriori dettagli, visita: [Selettori CSS - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selettori CSS per l'elemento dei sottotitoli",
+        "captionParentSelectorDesc": "Selettori CSS per il genitore dell'elemento dei sottotitoli"
       }
     },
     "quickAccess": {

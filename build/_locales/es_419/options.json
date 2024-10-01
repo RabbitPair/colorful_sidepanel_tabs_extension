@@ -136,6 +136,7 @@
         "sortBy": "Ordenar por",
         "createTabPanel": "Crear panel de pestañas",
         "tabPanels": "Paneles de pestañas",
+        "switchPIP": "Cambiar a imagen en imagen",
         "pinToToolbarReminder": "Por favor, fija la extensión a tu barra de herramientas antes de eliminar esta navegación."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Esta página es solo para visualización. Para modificar los atajos, por favor visita [Extensiones]->[Administrar Extensiones]->[Atajos de Teclado]",
       "goToBrowserSettings": "Ir a configuraciones",
       "_execute_action": "Activar esta extensión",
-      "openSidePanel": "Abrir panel lateral"
+      "openSidePanel": "Abrir panel lateral",
+      "switchPIP": "Cambiar a Picture-in-Picture"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Picture-in-picture",
@@ -392,6 +394,22 @@
         "description": "Si la página actual está reproduciendo un video y el video no está silenciado y el video está fuera del rango visible al desplazarse, entrará en picture-in-picture.",
         "enabled": "Habilitado",
         "disabled": "Deshabilitado"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Picture-in-Picture al cambiar de pestaña sin abrir el panel lateral",
+        "description": "Si la página actual está reproduciendo un video y el video no está silenciado, habilitar auto Picture-in-Picture al cambiar de pestaña sin abrir el panel lateral. Tenga en cuenta que esta función **requiere activación del usuario** (por ejemplo, haciendo clic con el ratón en un área en blanco de la página)."
+      },
+      "advancedPipEnable": {
+        "label": "Habilitar Picture-in-Picture avanzado",
+        "description": "Cuando está habilitado, se priorizará Picture-in-Picture avanzado. Si la página no lo admite, se utilizará Picture-in-Picture regular.\nPicture-in-Picture avanzado utiliza un reproductor de video personalizado, ofreciendo características tales como:\n * Reproducir/Pausar video (Espacio)\n * Ajustar volumen (Flecha arriba/abajo)\n * Silenciar/Activar sonido del video\n * Avanzar/Rebobinar video (Flecha izquierda/derecha o rueda del ratón)\n * Reproducir el siguiente video\n * Mostrar subtítulos (compatible en algunos sitios web, por ejemplo, youtube.com, vimeo.com, tver.jp, etc.)\n * Mostrar comentarios (compatible en algunos sitios web, por ejemplo, nicovideo.jp, bilibili.com, etc.)\n * Salir de Picture-in-Picture (Esc)\n * Alternar ocultar/mostrar video y reproducir/pausar (Q)\n >Si los sitios web que visitas frecuentemente admiten subtítulos o comentarios, puedes enviar un [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), y lo adaptaremos lo antes posible. Tenga en cuenta que algunos sitios web pueden tener restricciones regionales, y es posible que necesites proporcionar información adicional."
+      },
+      "subtitleDetection": {
+        "label": "Habilitar detección de subtítulos",
+        "description": "Si el sitio actual no tiene una configuración de Picture-in-Picture, permitir que el programa intente detectar automáticamente los elementos de subtítulos y agregarlos al reproductor de Picture-in-Picture. Esta es una función inestable y puede no detectar siempre los elementos de subtítulos correctos. Si eres un profesional, puedes agregar configuraciones de elementos de subtítulos en la configuración del sitio."
+      },
+      "continuousPlayback": {
+        "label": "Habilitar reproducción continua",
+        "description": "Reproducción continua: La ventana de Picture-in-Picture no se cierra y reproduce automáticamente el siguiente episodio después de que el video termina. Esta función requiere soporte del sitio web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Color de Fuente",
         "description": "Establece el color de fuente para este sitio."
+      },
+      "pipRestrictionAction": {
+        "label": "Acción de Restricción de Picture-in-Picture",
+        "description": "La ventana avanzada de Picture-in-Picture solo se puede abrir desde la página principal y no se puede iniciar desde marcos o contenido incrustado. Puedes usar el modo estándar de Picture-in-Picture o abrir en una nueva pestaña para reintentar. Ten en cuenta que el video puede no cargarse correctamente en una nueva pestaña.",
+        "default": "Predeterminado",
+        "use_standard_pip": "Usar Picture-in-Picture estándar",
+        "open_in_new_tab": "Abrir en nueva pestaña"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrar automáticamente en Picture-in-Picture",
+        "description": "Entrar automáticamente en el modo Picture-in-Picture cuando hay un video presente al ingresar a la página. Debido a limitaciones del sistema, esto requiere interacción del usuario con la página."
+      },
+      "captionSetting": {
+        "label": "Configuración de Subtítulos",
+        "description": "Configura los selectores CSS para el elemento de subtítulos y su elemento padre en la página. El selector CSS para el elemento de subtítulos se usa para mostrar subtítulos en el reproductor, mientras que el selector del elemento padre se usa para devolver los subtítulos a la página original al salir del modo Picture-in-Picture.",
+        "configure": "Configurar",
+        "selectorDesc": "Los selectores comunes incluyen: '.class' para selectores de clase, '#id' para selectores de ID, 'tag' para selectores de etiqueta y '[attribute=value]' para selectores de atributo. Para más detalles, visita: [Selectores CSS - CSS: Hojas de Estilo en Cascada - MDN Web Docs](https://developer.mozilla.org/es/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selectores CSS para el elemento de subtítulos",
+        "captionParentSelectorDesc": "Selectores CSS para el elemento padre de los subtítulos"
       }
     },
     "quickAccess": {

@@ -231,5 +231,6 @@
   "shortName": "짧은 이름",
   "expandIcons": "아이콘 확장",
   "expandList": "목록 확장",
-  "openAllUrls": "모든 URL 열기"
+  "openAllUrls": "모든 URL 열기",
+  "switchPIP": "화면 속 화면 전환"
 }

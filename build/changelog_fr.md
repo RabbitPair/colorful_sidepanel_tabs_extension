@@ -4,6 +4,49 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 Ce projet adhère à la [Gestion Sémantique des Versions](https://semver.org/).
 
+----
+## [2.10.0] - 2024-10-01
+
+### Ajouté
+- **Document Picture-in-Picture** : Introduction de l'Image dans l'Image Avancée, disponible en essai gratuit avant la sortie officielle de la version premium de l'extension. Lorsqu'elle est activée, elle prend le pas sur l'Image dans l'Image standard. Si la page actuelle ne la prend pas en charge, le mode standard sera utilisé. L'Image dans l'Image Avancée dispose d'un lecteur vidéo personnalisé avec des fonctionnalités telles que :
+  * **Lire/Pause vidéo** (Espace ou K)
+  * **Ajuster le volume** (Flèche Haut/Bas)
+  * **Muet/Démuet vidéo** (M)
+  * **Avance rapide/Retour rapide vidéo** (Flèche Gauche/Droite ou Molette de la souris)
+  * **Avance rapide/Retour rapide vidéo de 5 secondes** (Flèche Gauche/Droite)
+  * **Avance rapide/Retour rapide vidéo de 10 secondes** (J/L)
+  * **Lire la vidéo suivante** (Shift + N)
+  * **Lire la vidéo précédente** (Shift + P)
+  * **Afficher les sous-titres** (pris en charge sur certains sites comme youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Afficher les commentaires** (pris en charge sur certains sites comme nicovideo.jp, bilibili.com, etc.) (D)
+  * **Quitter l'Image dans l'Image** (Esc)
+  * **Basculer entre masquer/afficher la vidéo et lire/pause** (Q)
+  * **Basculer en plein écran** (F)
+  * **Ajuster la vitesse de lecture** ( > ou <)
+  * **Aller au début/à la fin de la vidéo** (Home/End)
+  * **Aller à un pourcentage de la vidéo** (0-9)
+  * **Ajuster la fenêtre à la taille de la vidéo** (W)
+  * **Basculer l'Image dans l'Image depuis la page principale** (Alt + P)
+  
+  > Si les sites que vous visitez fréquemment prennent en charge les sous-titres ou les commentaires, vous pouvez soumettre un [problème : Image dans l'Image Avancée](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), et nous l'adapterons dès que possible. Veuillez noter que certains sites peuvent avoir des restrictions régionales, nécessitant des informations supplémentaires.
+- **Raccourci pour l'Image dans l'Image** : Un nouveau raccourci clavier Alt+P a été ajouté pour basculer rapidement en mode Image dans l'Image. Cela permet aux utilisateurs de passer facilement les vidéos en vue Image dans l'Image sans utiliser la souris, améliorant ainsi la productivité et les capacités multitâches.
+- **Basculer l'Image dans l'Image dans la barre de navigation inférieure** : Vous pouvez maintenant ajouter une option de basculement de l'Image dans l'Image à la barre de navigation inférieure. Cela peut être configuré dans les paramètres d'apparence sous "Afficher la barre de navigation inférieure" - "Configurer".
+- **Trier les onglets par URL** : Une nouvelle option de menu "Trier les onglets par URL" a été ajoutée au menu "Plus".
+- **Comportement de réduction du groupe d'onglets** : Une nouvelle option "Comportement de réduction du groupe d'onglets" a été ajoutée au menu "Groupe d'onglets avancé". Vous pouvez modifier le comportement de réduction des groupes d'onglets dans le navigateur. Les options incluent : 'Afficher le groupe actuel et réduire les autres groupes', 'Développer tous les groupes' et 'Utiliser les paramètres par défaut du navigateur'.
+- **Paramètres du site** : Trois nouvelles options ont été ajoutées aux paramètres du site :
+  * **Action de restriction de l'Image dans l'Image** : Configurer l'action pour les restrictions de l'Image dans l'Image.
+  * **Entrer automatiquement en mode Image dans l'Image** : Entrer automatiquement en mode Image dans l'Image lorsqu'une vidéo est présente lors de l'entrée sur la page.
+  * **Paramètres des sous-titres** : Configurer les sélecteurs CSS pour l'élément de sous-titres et son parent sur la page.
+
+### Modifié
+- Lorsque l'onglet du panneau latéral n'est pas ouvert, si "Image dans l'Image lors du changement d'onglet" est activé (activé par défaut), il passera automatiquement en mode Image dans l'Image (Rappel important : une interaction utilisateur est requise, comme cliquer sur la page lisant la vidéo pour activer l'interaction utilisateur).
+- Lors de la fermeture de la barre latérale de la page, elle est maintenant supprimée au lieu d'être masquée. Elle réapparaîtra uniquement après actualisation de la page.
+
+### Corrigé
+- Correction du problème où la liste d'accès rapide ne gérait pas plusieurs URL.
+
+----
+
 ## [2.9.0] - 2024-09-15
 
 - Ajout de **Effacer les onglets** : Enregistrez un instantané et fermez tous les onglets sauf celui actif. Restaurez-les à partir des onglets récemment fermés ou des instantanés.

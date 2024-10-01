@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interni sistemi"
+  },
+  "switchPIP": {
+    "message": "Prebaci na sliku u slici"
+  },
+  "play": {
+    "message": "Pusti"
+  },
+  "pause": {
+    "message": "Pauza"
+  },
+  "shortcut_play_pause": {
+    "message": "Pusti/Pauziraj video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Podesi jačinu zvuka"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Isključi/Uključi zvuk"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Premotaj unapred/unazad video za 5 sekundi"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Premotaj unapred/unazad video za 10 sekundi"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Premotaj unapred/unazad video"
+  },
+  "shortcut_next_video": {
+    "message": "Pusti sledeći video"
+  },
+  "shortcut_previous_video": {
+    "message": "Pusti prethodni video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Prikaži/Sakrij titlove"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Prikaži/Sakrij poruke"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Uključi/Isključi režim celog ekrana"
+  },
+  "shortcut_playback_speed": {
+    "message": "Podesi brzinu reprodukcije"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Idi na početak/kraj videa"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Idi na procenat videa"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Podesi prozor da odgovara veličini videa"
+  },
+  "shortcut_exit_pip": {
+    "message": "Izađi iz režima slika u slici"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Uključi/Isključi video i pusti/pauziraj"
+  },
+  "shortcut_enter_pip": {
+    "message": "Uključi režim slika u slici sa glavne stranice"
+  },
+  "mute": {
+    "message": "Isključi zvuk"
+  },
+  "unmute": {
+    "message": "Uključi zvuk"
+  },
+  "prev_video": {
+    "message": "Prethodni video"
+  },
+  "next_video": {
+    "message": "Sledeći video"
+  },
+  "playbackRate": {
+    "message": "Brzina reprodukcije"
+  },
+  "subtitles": {
+    "message": "Titlovi"
+  },
+  "close_captions": {
+    "message": "Zatvoreni titlovi"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Prilagodi ekranu"
+  },
+  "reload_video": {
+    "message": "Ponovo učitaj video"
+  },
+  "loading_pip_config": {
+    "message": "Učitavanje konfiguracija slike u slici dokumenta..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Reprodukcija u režimu slike u slici dokumenta"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Otkrivanje postavki titlova za sliku u slici..."
+  },
+  "video_not_detected": {
+    "message": "Video nije detektovan. Možda još nije spreman. Ako postoji video na stranici, molimo kliknite na pusti i pokušajte ponovo."
+  },
+  "pip_window_restriction": {
+    "message": "Napredni prozor slike u slici može se otvoriti samo sa glavne stranice i ne može se pokrenuti iz okvira ili ugrađenog sadržaja. Možete koristiti standardni režim slike u slici ili otvoriti u novom tabu da pokušate ponovo. Imajte na umu da se video možda neće pravilno učitati u novom tabu.",
+    "description": "Nije uspelo izvršavanje 'requestWindow' na 'DocumentPictureInPicture': Otvaranje PiP prozora je dozvoljeno samo iz konteksta pregledavanja na najvišem nivou"
+  },
+  "use_standard_pip": {
+    "message": "Koristi standardni PiP",
+    "description": "Opcija za korišćenje standardnog režima slike u slici"
+  },
+  "open_in_new_tab": {
+    "message": "Otvori u novom tabu",
+    "description": "Opcija za otvaranje stranice u novom tabu"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Zapamti postavke ovog sajta (Možete ih izmeniti u Opcijama - Postavke sajta)"
+  },
+  "pip_user_activation_required": {
+    "message": "Režim slike u slici zahteva interakciju korisnika. Molimo kliknite ili interagujte sa stranicom i pokušajte ponovo.",
+    "description": "Nije uspelo izvršavanje 'requestWindow' na 'DocumentPictureInPicture': Dokument PiP zahteva aktivaciju korisnika"
+  },
+  "retry_action": {
+    "message": "Pokušaj ponovo"
   }
 }

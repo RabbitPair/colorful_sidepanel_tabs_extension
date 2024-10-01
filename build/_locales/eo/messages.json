@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Internaj Sistemoj"
+  },
+  "switchPIP": {
+    "message": "Ŝanĝi Bildon-en-Bildo"
+  },
+  "play": {
+    "message": "Ludi"
+  },
+  "pause": {
+    "message": "Paŭzi"
+  },
+  "shortcut_play_pause": {
+    "message": "Ludi/Paŭzi videon"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Agordi volumon"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Silentigi/Ŝalti sonon videon"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Rapide antaŭen/Reen videon 5 sekundoj"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Rapide antaŭen/Reen videon 10 sekundoj"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Rapide antaŭen/Reen videon"
+  },
+  "shortcut_next_video": {
+    "message": "Ludi la sekvan videon"
+  },
+  "shortcut_previous_video": {
+    "message": "Ludi la antaŭan videon"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Montri/Kaŝi subtekstojn"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Montri/Kaŝi buletojn"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Ŝalti plenekranan reĝimon"
+  },
+  "shortcut_playback_speed": {
+    "message": "Agordi ludadrapidecon"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Serĉi al komenco/fino de video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Serĉi al procento de video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Agordi fenestron por konformi al video grandeco"
+  },
+  "shortcut_exit_pip": {
+    "message": "Eliri Bildo-en-Bildo"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Ŝalti kaŝi/montri videon kaj ludi/paŭzi"
+  },
+  "shortcut_enter_pip": {
+    "message": "Ŝalti Bildo-en-Bildo de ĉefa paĝo"
+  },
+  "mute": {
+    "message": "Silentigi"
+  },
+  "unmute": {
+    "message": "Ŝalti sonon"
+  },
+  "prev_video": {
+    "message": "Antaŭa Video"
+  },
+  "next_video": {
+    "message": "Sekva Video"
+  },
+  "playbackRate": {
+    "message": "Ludrapido"
+  },
+  "subtitles": {
+    "message": "Subtekstoj"
+  },
+  "close_captions": {
+    "message": "Fermitaj Subtekstoj"
+  },
+  "danmaku": {
+    "message": "Buleto babilado"
+  },
+  "fit_to_screen": {
+    "message": "Konformi al Ekrano"
+  },
+  "reload_video": {
+    "message": "Reŝargi Videon"
+  },
+  "loading_pip_config": {
+    "message": "Ŝarĝante Bildon-en-Bildo Agordojn..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Ludante en Bildo-en-Bildo Reĝimo"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detektante Bildon-en-Bildo Subteksto Agordojn..."
+  },
+  "video_not_detected": {
+    "message": "Video ne detektita. Ĝi eble ankoraŭ ne estas preta. Se estas video en la paĝo, bonvolu klaki ludi kaj provi denove."
+  },
+  "pip_window_restriction": {
+    "message": "Altnivela Bildo-en-Bildo fenestro povas esti malfermita nur de la ĉefa paĝo kaj ne povas esti lanĉita de kadroj aŭ enmetita enhavo. Vi povas uzi norman Bildon-en-Bildo reĝimon aŭ malfermi en nova langeto por reprovi. Notu, ke la video eble ne ŝarĝos ĝuste en nova langeto.",
+    "description": "Malsukcesis plenumi 'requestWindow' sur 'DocumentPictureInPicture': Malfermi PiP fenestron estas permesita nur de supra-nivela foliuma kunteksto"
+  },
+  "use_standard_pip": {
+    "message": "Uzi norman PiP",
+    "description": "Opcio uzi norman Bildon-en-Bildo reĝimon"
+  },
+  "open_in_new_tab": {
+    "message": "Malfermi en nova langeto",
+    "description": "Opcio malfermi la paĝon en nova langeto"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Memoru la agordojn de ĉi tiu retejo (Vi povas modifi ĝin en Opcioj - Retejaj agordoj)"
+  },
+  "pip_user_activation_required": {
+    "message": "Bildo-en-Bildo reĝimo postulas uzantan interagadon. Bonvolu klaki aŭ interagi kun la paĝo kaj provi denove.",
+    "description": "Malsukcesis plenumi 'requestWindow' sur 'DocumentPictureInPicture': Dokumenta PiP postulas uzantan aktivigon"
+  },
+  "retry_action": {
+    "message": "Provi Denove"
   }
 }

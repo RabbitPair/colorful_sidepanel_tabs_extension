@@ -136,6 +136,7 @@
         "sortBy": "Ayusin Ayon Sa",
         "createTabPanel": "Gumawa ng Tab Panel",
         "tabPanels": "Mga Tab Panel",
+        "switchPIP": "Lumipat ng Picture-in-Picture",
         "pinToToolbarReminder": "Pakipin ang extension sa iyong toolbar bago alisin ang navigation na ito."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ang pahinang ito ay para lamang sa display. Upang baguhin ang mga shortcut, mangyaring bisitahin ang [Extensions]->[Pamahalaan ang Mga Extension]->[Mga Shortcut ng Keyboard]",
       "goToBrowserSettings": "Pumunta sa mga setting ng Chrome",
       "_execute_action": "I-activate ang extension na ito",
-      "openSidePanel": "Buksan ang side panel"
+      "openSidePanel": "Buksan ang side panel",
+      "switchPIP": "Palitan ang Larawan-sa-Larawan"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Larawan sa larawan",
@@ -392,6 +394,22 @@
         "description": "Kung ang kasalukuyang pahina ay nagpe-play ng video at ang video ay hindi nakamute at ang video ay wala sa nakikitang saklaw kapag nag-s-scroll, papasok ito sa larawan sa larawan.",
         "enabled": "Pinagana",
         "disabled": "Hindi pinagana"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Larawan-sa-Larawan sa Pagpapalit ng Tab nang Hindi Binubuksan ang Side Panel",
+        "description": "Kung ang kasalukuyang pahina ay nagpe-play ng video at ang video ay hindi nakamute, paganahin ang auto Larawan-sa-Larawan sa pagpapalit ng tab nang hindi binubuksan ang side panel. Tandaan na ang tampok na ito ay **nangangailangan ng aktibasyon ng user** (hal., pag-click ng mouse sa isang blangkong bahagi ng pahina)."
+      },
+      "advancedPipEnable": {
+        "label": "Paganahin ang Advanced na Larawan-sa-Larawan",
+        "description": "Kapag pinagana, ang Advanced na Larawan-sa-Larawan ay bibigyan ng priyoridad. Kung hindi ito sinusuportahan ng pahina, gagamitin ang regular na Larawan-sa-Larawan.\nAng Advanced na Larawan-sa-Larawan ay gumagamit ng custom na video player, na nag-aalok ng mga tampok tulad ng:\n * I-play/I-pause ang video (Space)\n * Ayusin ang volume (Up/Down Arrow)\n * I-mute/I-unmute ang video\n * I-fast forward/I-rewind ang video (Left/Right Arrow o Mouse Wheel)\n * I-play ang susunod na video\n * Ipakita ang mga subtitle (sinusuportahan sa ilang mga website, hal., youtube.com, vimeo.com, tver.jp, atbp.)\n * Ipakita ang barrage (sinusuportahan sa ilang mga website, hal., nicovideo.jp, bilibili.com, atbp.)\n * Lumabas sa Larawan-sa-Larawan (Esc)\n * I-toggle ang pagtatago/pagpapakita ng video at i-play/i-pause (Q)\n >Kung ang mga website na madalas mong bisitahin ay sumusuporta sa mga subtitle o barrage, maaari kang magsumite ng [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), at iaangkop namin ito sa lalong madaling panahon. Tandaan na ang ilang mga website ay maaaring may mga paghihigpit sa rehiyon, at maaaring kailanganin mong magbigay ng karagdagang impormasyon."
+      },
+      "subtitleDetection": {
+        "label": "Paganahin ang Pagtuklas ng Subtitle",
+        "description": "Kung ang kasalukuyang site ay walang Larawan-sa-Larawan na configuration, payagan ang programa na subukang awtomatikong tukuyin ang mga elemento ng subtitle at idagdag ang mga ito sa Larawan-sa-Larawan na player. Ito ay isang hindi matatag na tampok at maaaring hindi palaging matukoy ang tamang mga elemento ng subtitle. Kung ikaw ay isang propesyonal, maaari kang magdagdag ng mga configuration ng elemento ng subtitle sa mga setting ng site."
+      },
+      "continuousPlayback": {
+        "label": "Paganahin ang Patuloy na Pag-playback",
+        "description": "Patuloy na pag-playback: Ang Larawan-sa-Larawan na window ay hindi magsasara at awtomatikong i-play ang susunod na episode pagkatapos ng video. Ang tampok na ito ay nangangailangan ng suporta ng website."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Kulay ng Font",
         "description": "Itakda ang kulay ng font para sa site na ito."
+      },
+      "pipRestrictionAction": {
+        "label": "Aksyon sa Paghihigpit ng Picture-in-Picture",
+        "description": "Ang advanced na Picture-in-Picture na window ay maaari lamang buksan mula sa pangunahing pahina at hindi maaaring ilunsad mula sa mga frame o naka-embed na nilalaman. Maaari mong gamitin ang karaniwang mode ng Picture-in-Picture o buksan sa isang bagong tab upang subukang muli. Tandaan na maaaring hindi mag-load nang maayos ang video sa isang bagong tab.",
+        "default": "Default",
+        "use_standard_pip": "Gamitin ang karaniwang Picture-in-Picture",
+        "open_in_new_tab": "Buksan sa bagong tab"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Awtomatikong pumasok sa Picture-in-Picture",
+        "description": "Awtomatikong pumasok sa mode na Picture-in-Picture kapag may video na naroroon sa pagpasok sa pahina. Dahil sa mga limitasyon ng system, nangangailangan ito ng pakikipag-ugnayan ng user sa pahina."
+      },
+      "captionSetting": {
+        "label": "Mga Setting ng Caption",
+        "description": "I-configure ang mga CSS selector para sa elemento ng caption at ang magulang nito sa pahina. Ang CSS selector para sa elemento ng caption ay ginagamit upang ipakita ang mga caption sa player, habang ang parent selector ay ginagamit upang ibalik ang mga caption sa orihinal na pahina kapag lumabas sa mode na Picture-in-Picture.",
+        "configure": "I-configure",
+        "selectorDesc": "Kasama sa mga karaniwang selector ang: '.class' para sa mga class selector, '#id' para sa mga ID selector, 'tag' para sa mga tag selector, at '[attribute=value]' para sa mga attribute selector. Para sa higit pang mga detalye, bisitahin: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Mga CSS selector para sa elemento ng caption",
+        "captionParentSelectorDesc": "Mga CSS selector para sa magulang ng elemento ng caption"
       }
     },
     "quickAccess": {

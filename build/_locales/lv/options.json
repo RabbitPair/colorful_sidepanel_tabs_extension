@@ -136,6 +136,7 @@
         "sortBy": "Kārtot pēc",
         "createTabPanel": "Izveidot cilnes paneli",
         "tabPanels": "Cilņu paneļi",
+        "switchPIP": "Pārslēgt attēlu attēlā",
         "pinToToolbarReminder": "Lūdzu, piespraudiet paplašinājumu rīkjoslai, pirms noņemat šo navigāciju."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Šī lapa ir paredzēta tikai skatīšanai. Lai modificētu īsceļus, lūdzu, apmeklējiet [Paplašinājumi]->[Pārvaldīt paplašinājumus]->[Tastatūras īsceļi]",
       "goToBrowserSettings": "Doties uz Chrome iestatījumiem",
       "_execute_action": "Aktivizēt šo paplašinājumu",
-      "openSidePanel": "Atvērt sānu paneli"
+      "openSidePanel": "Atvērt sānu paneli",
+      "switchPIP": "Pārslēgt attēlu attēlā"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Attēls attēlā",
@@ -392,6 +394,22 @@
         "description": "Ja pašreizējā lapa atskaņo video un video nav izslēgts un video ir ārpus redzamās zonas, ritinot, tas ievadīs attēlu attēlā.",
         "enabled": "Iespējots",
         "disabled": "Atspējots"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automātisks attēls attēlā cilnes pārslēgšanā bez sānu paneļa atvēršanas",
+        "description": "Ja pašreizējā lapa atskaņo video un video nav izslēgts, iespējot automātisku attēlu attēlā cilnes pārslēgšanā bez sānu paneļa atvēršanas. Ņemiet vērā, ka šī funkcija **prasa lietotāja aktivizēšanu** (piemēram, noklikšķinot uz tukšas vietas lapā)."
+      },
+      "advancedPipEnable": {
+        "label": "Iespējot uzlabotu attēlu attēlā",
+        "description": "Kad iespējots, uzlabots attēls attēlā tiks prioritizēts. Ja lapa to neatbalsta, tiks izmantots parasts attēls attēlā.\nUzlabots attēls attēlā izmanto pielāgotu video atskaņotāju, piedāvājot tādas funkcijas kā:\n * Atskaņot/Pauzēt video (Space)\n * Regulēt skaļumu (Augšup/Lejup bultiņa)\n * Izslēgt/Ieslēgt skaņu\n * Ātri uz priekšu/Atpakaļ video (Pa kreisi/Pa labi bultiņa vai peles ritenis)\n * Atskaņot nākamo video\n * Rādīt subtitrus (atbalstīts dažās vietnēs, piemēram, youtube.com, vimeo.com, tver.jp utt.)\n * Rādīt komentārus (atbalstīts dažās vietnēs, piemēram, nicovideo.jp, bilibili.com utt.)\n * Iziet no attēla attēlā (Esc)\n * Pārslēgt slēpt/rādīt video un atskaņot/pauzēt (Q)\n >Ja vietnes, kuras bieži apmeklējat, atbalsta subtitrus vai komentārus, varat iesniegt [problēmu: Uzlabots attēls attēlā](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), un mēs to pielāgosim pēc iespējas ātrāk. Ņemiet vērā, ka dažām vietnēm var būt reģionāli ierobežojumi, un jums var būt nepieciešams sniegt papildu informāciju."
+      },
+      "subtitleDetection": {
+        "label": "Iespējot subtitru noteikšanu",
+        "description": "Ja pašreizējā vietnē nav attēla attēlā konfigurācijas, ļaujiet programmai mēģināt automātiski noteikt subtitru elementus un pievienot tos attēla attēlā atskaņotājam. Šī ir nestabila funkcija un var ne vienmēr noteikt pareizos subtitru elementus. Ja esat profesionālis, varat pievienot subtitru elementu konfigurācijas vietnes iestatījumos."
+      },
+      "continuousPlayback": {
+        "label": "Iespējot nepārtrauktu atskaņošanu",
+        "description": "Nepārtraukta atskaņošana: attēla attēlā logs netiek aizvērts un automātiski atskaņo nākamo epizodi pēc video beigām. Šī funkcija prasa vietnes atbalstu."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Fonta krāsa",
         "description": "Iestatiet fonta krāsu šai vietnei."
+      },
+      "pipRestrictionAction": {
+        "label": "Attēls-attēlā ierobežojuma darbība",
+        "description": "Uzlaboto attēls-attēlā logu var atvērt tikai no galvenās lapas un to nevar palaist no rāmjiem vai iegultā satura. Jūs varat izmantot standarta attēls-attēlā režīmu vai atvērt jaunā cilnē, lai mēģinātu vēlreiz. Ņemiet vērā, ka video var netikt ielādēts pareizi jaunā cilnē.",
+        "default": "Noklusējums",
+        "use_standard_pip": "Izmantot standarta attēls-attēlā",
+        "open_in_new_tab": "Atvērt jaunā cilnē"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automātiski ieiet attēls-attēlā",
+        "description": "Automātiski ieiet attēls-attēlā režīmā, kad lapa tiek atvērta un ir pieejams video. Sistēmas ierobežojumu dēļ tas prasa lietotāja mijiedarbību ar lapu."
+      },
+      "captionSetting": {
+        "label": "Parakstu iestatījumi",
+        "description": "Konfigurējiet CSS selektorus paraksta elementam un tā vecākelementam lapā. CSS selektors paraksta elementam tiek izmantots, lai parādītu parakstus atskaņotājā, savukārt vecākelementa selektors tiek izmantots, lai atgrieztu parakstus sākotnējā lapā, izejot no attēls-attēlā režīma.",
+        "configure": "Konfigurēt",
+        "selectorDesc": "Bieži selektori ietver: '.class' klases selektoriem, '#id' ID selektoriem, 'tag' taga selektoriem un '[attribute=value]' atribūtu selektoriem. Plašāku informāciju skatiet: [CSS selektori - CSS: Kaskādes stila lapas - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS selektori paraksta elementam",
+        "captionParentSelectorDesc": "CSS selektori paraksta elementa vecākelementam"
       }
     },
     "quickAccess": {

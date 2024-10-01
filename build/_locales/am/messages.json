@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "የውስጥ ስርዓቶች"
+  },
+  "switchPIP": {
+    "message": "ምስል በምስል ለመቀየር"
+  },
+  "play": {
+    "message": "እንቅስቃሴ"
+  },
+  "pause": {
+    "message": "እንቅስቃሴ ማቆም"
+  },
+  "shortcut_play_pause": {
+    "message": "ቪዲዮ አጫውት/አቁም"
+  },
+  "shortcut_adjust_volume": {
+    "message": "ድምጽ ማስተካከል"
+  },
+  "shortcut_mute_unmute": {
+    "message": "ቪዲዮ ድምጽ ማጥፋት/መክፈት"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "ቪዲዮ 5 ሰከንዶች ወደፊት/ወደኋላ ማሳለፍ"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "ቪዲዮ 10 ሰከንዶች ወደፊት/ወደኋላ ማሳለፍ"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "ቪዲዮ ወደፊት/ወደኋላ ማሳለፍ"
+  },
+  "shortcut_next_video": {
+    "message": "ቀጣዩን ቪዲዮ አጫውት"
+  },
+  "shortcut_previous_video": {
+    "message": "ቀዳሚውን ቪዲዮ አጫውት"
+  },
+  "shortcut_toggle_captions": {
+    "message": "ንዑስ ርዕሶችን አሳይ/ደብቅ"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "ቡሌት ቻቲንግን አሳይ/ደብቅ"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "ሙሉ ማያ ገጽ ቀያይር"
+  },
+  "shortcut_playback_speed": {
+    "message": "የአጫወት ፍጥነት ማስተካከል"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "ቪዲዮ መጀመሪያ/መጨረሻ ፈልግ"
+  },
+  "shortcut_seek_percentage": {
+    "message": "የቪዲዮ መቶኛ ፈልግ"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "መስኮት ከቪዲዮ መጠን ጋር እንዲስማማ ማስተካከል"
+  },
+  "shortcut_exit_pip": {
+    "message": "ከምስል-በ-ምስል ውጣ"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "ቪዲዮ መደበቅ/ማሳየት እና ማጫወት/ማቆም ቀያይር"
+  },
+  "shortcut_enter_pip": {
+    "message": "ከዋና ገጽ ምስል-በ-ምስል ቀያይር"
+  },
+  "mute": {
+    "message": "ድምጽ አጥፋ"
+  },
+  "unmute": {
+    "message": "ዝም በማለት ማቋረጥ"
+  },
+  "prev_video": {
+    "message": "ቀዳሚ ቪዲዮ"
+  },
+  "next_video": {
+    "message": "ቀጣይ ቪዲዮ"
+  },
+  "playbackRate": {
+    "message": "የእንቅስቃሴ ፍጥነት"
+  },
+  "subtitles": {
+    "message": "ንዑስ ርዕሶች"
+  },
+  "close_captions": {
+    "message": "ዝግ ንዑስ ርዕሶች"
+  },
+  "danmaku": {
+    "message": "ቡሌት ቻቲንግ"
+  },
+  "fit_to_screen": {
+    "message": "እንደ ስክሪን ማስተካከል"
+  },
+  "reload_video": {
+    "message": "ቪዲዮ እንደገና መጫን"
+  },
+  "loading_pip_config": {
+    "message": "የሰነድ ምስል በምስል ቅንብሮችን በመጫን ላይ..."
+  },
+  "playing_in_pip_mode": {
+    "message": "በሰነድ ምስል በምስል ሁኔታ ላይ እንቅስቃሴ"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "የምስል በምስል ንዑስ ርዕሶችን ቅንብሮችን በመለየት ላይ..."
+  },
+  "video_not_detected": {
+    "message": "ቪዲዮ አልተገኘም። እስካሁን አልተዘጋጀም ሊሆን ይችላል። በገጹ ላይ ቪዲዮ ካለ እባክዎ እንቅስቃሴን ጠቅ ያድርጉ እና እንደገና ይሞክሩ።"
+  },
+  "pip_window_restriction": {
+    "message": "የሰለባ ምስል በምስል መስኮት ከዋናው ገጽ ብቻ ሊከፈት ይችላል እና ከመስኮቶች ወይም ከተያያዥ ይዘት መጀመር አይችልም። የመሠረታዊ ምስል በምስል ሁኔታን መጠቀም ወይም በአዲስ ትምት ማስከፈት ሊያደግ ይችላል። ቪዲዮው በአዲስ ትምት በትክክል እንዳይጫን እንደገና ይሞክሩ።",
+    "description": "በ 'DocumentPictureInPicture' ላይ 'requestWindow' ማካሄድ አልተሳካም፡፡ ምስል በምስል መስኮት ከከፍተኛ የመሳሰሉት የመሳሰሉት እንቅስቃሴ እንዲከፈት ብቻ ይፈቀዳል"
+  },
+  "use_standard_pip": {
+    "message": "መደበኛ ምስል በምስል መጠቀም",
+    "description": "መደበኛ ምስል በምስል ሁኔታን ለመጠቀም አማራጭ"
+  },
+  "open_in_new_tab": {
+    "message": "በአዲስ ትምት ክፈት",
+    "description": "ገጹን በአዲስ ትምት ለመክፈት አማራጭ"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "የዚህን ገጽ ቅንብሮች አስታውስ (በአማራጮች - የገጽ ቅንብሮች ማስተካከል ይችላሉ)"
+  },
+  "pip_user_activation_required": {
+    "message": "ምስል በምስል ሁኔታ የተጠቃሚ ተግባር ይፈልጋል። እባክዎ ገጹን ጠቅ ያድርጉ ወይም እንቅስቃሴ እና እንደገና ይሞክሩ።",
+    "description": "በ 'DocumentPictureInPicture' ላይ 'requestWindow' ማካሄድ አልተሳካም፡፡ ሰነድ PiP የተጠቃሚ እንቅስቃሴ ይፈልጋል"
+  },
+  "retry_action": {
+    "message": "እንደገና ሞክር"
   }
 }

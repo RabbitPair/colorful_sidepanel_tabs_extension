@@ -4,6 +4,49 @@ Alle bemerkenswerten Änderungen an diesem Projekt werden in dieser Datei dokume
 
 Dieses Projekt hält sich an [Semantic Versioning](https://semver.org/).
 
+----
+## [2.10.0] - 2024-10-01
+
+### Hinzugefügt
+- **Dokument Bild-in-Bild**: Einführung des erweiterten Bild-in-Bild-Modus, der vor der offiziellen Veröffentlichung der Premium-Version der Erweiterung kostenlos getestet werden kann. Wenn aktiviert, hat er Vorrang vor dem Standard-Bild-in-Bild. Wenn die aktuelle Seite es nicht unterstützt, wird der Standardmodus verwendet. Der erweiterte Bild-in-Bild-Modus verfügt über einen benutzerdefinierten Videoplayer mit Funktionen wie:
+  * **Video abspielen/pausieren** (Leertaste oder K)
+  * **Lautstärke anpassen** (Pfeil nach oben/unten)
+  * **Video stummschalten/aufheben** (M)
+  * **Video vorspulen/zurückspulen** (Pfeil nach links/rechts oder Mausrad)
+  * **Video 5 Sekunden vorspulen/zurückspulen** (Pfeil nach links/rechts)
+  * **Video 10 Sekunden vorspulen/zurückspulen** (J/L)
+  * **Nächstes Video abspielen** (Shift + N)
+  * **Vorheriges Video abspielen** (Shift + P)
+  * **Untertitel anzeigen** (unterstützt auf einigen Websites wie youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Kommentare anzeigen** (unterstützt auf einigen Websites wie nicovideo.jp, bilibili.com, etc.) (D)
+  * **Bild-in-Bild beenden** (Esc)
+  * **Video ausblenden/einblenden und abspielen/pausieren umschalten** (Q)
+  * **Vollbild umschalten** (F)
+  * **Wiedergabegeschwindigkeit anpassen** ( > oder <)
+  * **Zum Anfang/Ende des Videos springen** (Home/End)
+  * **Zu einem Prozentsatz des Videos springen** (0-9)
+  * **Fenster an Videogröße anpassen** (W)
+  * **Bild-in-Bild von der Hauptseite umschalten** (Alt + P)
+  
+  > Wenn die von Ihnen häufig besuchten Websites Untertitel oder Kommentare unterstützen, können Sie ein [Problem: Erweitertes Bild-in-Bild](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) einreichen, und wir werden es so schnell wie möglich anpassen. Bitte beachten Sie, dass einige Websites regionale Einschränkungen haben können, die zusätzliche Informationen erfordern.
+- **Tastenkürzel für Bild-in-Bild**: Ein neues Tastenkürzel Alt+P wurde hinzugefügt, um den Bild-in-Bild-Modus schnell umzuschalten. Dies ermöglicht es den Benutzern, Videos einfach in den Bild-in-Bild-Modus zu wechseln, ohne die Maus zu verwenden, was die Produktivität und Multitasking-Fähigkeiten verbessert.
+- **Bild-in-Bild im unteren Navigationsleiste umschalten**: Sie können jetzt eine Bild-in-Bild-Umschaltoption zur unteren Navigationsleiste hinzufügen. Dies kann in den Erscheinungseinstellungen unter "Untere Navigationsleiste anzeigen" - "Konfigurieren" konfiguriert werden.
+- **Tabs nach URL sortieren**: Eine neue Menüoption "Tabs nach URL sortieren" wurde dem "Mehr"-Menü hinzugefügt.
+- **Verhalten beim Zusammenklappen von Tab-Gruppen**: Eine neue Option "Verhalten beim Zusammenklappen von Tab-Gruppen" wurde dem Menü "Erweiterte Tab-Gruppe" hinzugefügt. Sie können das Verhalten des Zusammenklappens von Tab-Gruppen im Browser ändern. Die Optionen umfassen: 'Aktuelle Gruppe anzeigen und andere Gruppen zusammenklappen', 'Alle Gruppen erweitern' und 'Standardeinstellungen des Browsers verwenden'.
+- **Seiteneinstellungen**: Drei neue Optionen wurden zu den Seiteneinstellungen hinzugefügt:
+  * **Aktion zur Einschränkung von Bild-in-Bild**: Konfigurieren Sie die Aktion für Bild-in-Bild-Einschränkungen.
+  * **Automatisch in Bild-in-Bild wechseln**: Automatisch in den Bild-in-Bild-Modus wechseln, wenn beim Betreten der Seite ein Video vorhanden ist.
+  * **Untertiteleinstellungen**: Konfigurieren Sie die CSS-Selektoren für das Untertitel-Element und dessen übergeordnetes Element auf der Seite.
+
+### Geändert
+- Wenn die Seitenleiste nicht geöffnet ist, wird bei aktivierter Option "Bild-in-Bild beim Tab-Wechsel" (standardmäßig aktiviert) automatisch in den Bild-in-Bild-Modus gewechselt (Wichtiger Hinweis: Benutzerinteraktion ist erforderlich, z. B. durch Klicken auf die Seite, die das Video abspielt, um die Benutzerinteraktion zu aktivieren).
+- Beim Schließen der Seitenleiste wird diese jetzt entfernt, anstatt ausgeblendet. Sie erscheint erst nach dem Aktualisieren der Seite wieder.
+
+### Behoben
+- Das Problem behoben, bei dem die Schnellzugriffsliste mehrere URLs nicht verarbeitete.
+
+----
+
 ## [2.9.0] - 2024-09-15
 - **Tabs löschen** hinzugefügt: Speichern Sie einen Schnappschuss und schließen Sie alle Tabs außer dem aktiven. Stellen Sie sie aus kürzlich geschlossenen Tabs oder Schnappschüssen wieder her.
 - **Automatische Aktivierung der Tab-Gruppierung** hinzugefügt: Erstellen Sie automatisch eine neue Gruppe, wenn Sie einen neuen Tab öffnen. Nachfolgende Tabs, die von diesem Tab geöffnet werden, treten der Gruppe bei.

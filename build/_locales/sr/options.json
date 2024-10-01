@@ -136,6 +136,7 @@
         "sortBy": "Sortiraj po",
         "createTabPanel": "Kreiraj panel kartica",
         "tabPanels": "Paneli kartica",
+        "switchPIP": "Prebaci sliku u slici",
         "pinToToolbarReminder": "Pre nego što uklonite ovu navigaciju, zakačite ekstenziju na alatnu traku."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ova stranica je samo za prikaz. Da biste izmenili prečice, posetite [Proširenja]->[Upravljanje proširenjima]->[Tastaturne prečice]",
       "goToBrowserSettings": "Idite na podešavanja Chrome-a",
       "_execute_action": "Aktivirajte ovo proširenje",
-      "openSidePanel": "Otvorite bočnu traku"
+      "openSidePanel": "Otvorite bočnu traku",
+      "switchPIP": "Prebaci na sliku u slici"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Slika u slici",
@@ -392,6 +394,22 @@
         "description": "Ako trenutna stranica reprodukuje video i video nije isključen i video izlazi iz vidljivog opsega pri skrolovanju, preći će u sliku u slici.",
         "enabled": "Omogućeno",
         "disabled": "Onemogućeno"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatski Picture-in-Picture pri prebacivanju kartica bez otvaranja bočne trake",
+        "description": "Ako trenutna stranica reprodukuje video i video nije isključen, omogućite automatski Picture-in-Picture pri prebacivanju kartica bez otvaranja bočne trake. Imajte na umu da ova funkcija **zahteva aktivaciju korisnika** (npr. klikom miša na prazno područje stranice)."
+      },
+      "advancedPipEnable": {
+        "label": "Omogući napredni Picture-in-Picture",
+        "description": "Kada je omogućeno, napredni Picture-in-Picture će imati prioritet. Ako stranica ne podržava ovu funkciju, koristiće se regularni Picture-in-Picture.\nNapredni Picture-in-Picture koristi prilagođeni video plejer, nudeći funkcije kao što su:\n * Reprodukcija/Pauza video (Space)\n * Podešavanje jačine zvuka (Strelica gore/dole)\n * Isključi/Uključi zvuk video\n * Premotavanje unapred/unazad video (Strelica levo/desno ili točkić miša)\n * Reprodukcija sledećeg videa\n * Prikaz titlova (podržano na nekim sajtovima, npr. youtube.com, vimeo.com, tver.jp, itd.)\n * Prikaz komentara (podržano na nekim sajtovima, npr. nicovideo.jp, bilibili.com, itd.)\n * Izlaz iz Picture-in-Picture (Esc)\n * Prebacivanje sakrivanja/prikazivanja videa i reprodukcija/pauza (Q)\n >Ako sajtovi koje često posećujete podržavaju titlove ili komentare, možete podneti [problem: Napredni Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), i prilagodićemo ga što je pre moguće. Imajte na umu da neki sajtovi mogu imati regionalna ograničenja, i možda ćete morati da pružite dodatne informacije."
+      },
+      "subtitleDetection": {
+        "label": "Omogući detekciju titlova",
+        "description": "Ako trenutni sajt nema konfiguraciju za Picture-in-Picture, dozvolite programu da pokuša automatski da detektuje elemente titlova i doda ih u Picture-in-Picture plejer. Ovo je nestabilna funkcija i možda neće uvek detektovati prave elemente titlova. Ako ste profesionalac, možete dodati konfiguracije elemenata titlova u podešavanjima sajta."
+      },
+      "continuousPlayback": {
+        "label": "Omogući kontinuiranu reprodukciju",
+        "description": "Kontinuirana reprodukcija: Picture-in-Picture prozor se ne zatvara i automatski reprodukuje sledeću epizodu nakon završetka videa. Ova funkcija zahteva podršku sajta."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Boja fonta",
         "description": "Postavite boju fonta za ovaj sajt."
+      },
+      "pipRestrictionAction": {
+        "label": "Akcija ograničenja za Picture-in-Picture",
+        "description": "Napredni Picture-in-Picture prozor može biti otvoren samo sa glavne stranice i ne može biti pokrenut iz okvira ili ugrađenog sadržaja. Možete koristiti standardni Picture-in-Picture režim ili otvoriti u novoj kartici da pokušate ponovo. Imajte na umu da video možda neće pravilno učitati u novoj kartici.",
+        "default": "Podrazumevano",
+        "use_standard_pip": "Koristi standardni Picture-in-Picture",
+        "open_in_new_tab": "Otvori u novoj kartici"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatski ulazak u Picture-in-Picture",
+        "description": "Automatski uđite u Picture-in-Picture režim kada je video prisutan prilikom ulaska na stranicu. Zbog sistemskih ograničenja, ovo zahteva interakciju korisnika sa stranicom."
+      },
+      "captionSetting": {
+        "label": "Podešavanja titlova",
+        "description": "Podesite CSS selektore za element titla i njegovog roditelja na stranici. CSS selektor za element titla se koristi za prikazivanje titlova u plejeru, dok se selektor roditelja koristi za vraćanje titlova na originalnu stranicu prilikom izlaska iz Picture-in-Picture režima.",
+        "configure": "Podesi",
+        "selectorDesc": "Uobičajeni selektori uključuju: '.class' za selektore klase, '#id' za ID selektore, 'tag' za selektore oznaka i '[attribute=value]' za selektore atributa. Za više detalja, posetite: [CSS selektori - CSS: Kaskadni stilovi - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS selektori za element titla",
+        "captionParentSelectorDesc": "CSS selektori za roditelja elementa titla"
       }
     },
     "quickAccess": {

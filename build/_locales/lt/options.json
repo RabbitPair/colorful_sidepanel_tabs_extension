@@ -136,6 +136,7 @@
         "sortBy": "Rūšiuoti pagal",
         "createTabPanel": "Sukurti skirtukų panelę",
         "tabPanels": "Skirtukų panelės",
+        "switchPIP": "Perjungti vaizdą vaizde",
         "pinToToolbarReminder": "Prisekite plėtinį prie įrankių juostos prieš pašalindami šią navigaciją."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Šis puslapis skirtas tik rodymui. Norėdami keisti sparčiuosius klavišus, apsilankykite [Plėtiniai]->[Tvarkyti plėtinius]->[Spartieji klavišai]",
       "goToBrowserSettings": "Eiti į Chrome nustatymus",
       "_execute_action": "Aktyvuoti šį plėtinį",
-      "openSidePanel": "Atidaryti šoninę panelę"
+      "openSidePanel": "Atidaryti šoninę panelę",
+      "switchPIP": "Perjungti vaizdą vaizde"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Vaizdas vaizde",
@@ -392,6 +394,22 @@
         "description": "Jei dabartiniame puslapyje grojamas vaizdo įrašas ir vaizdo įrašas nėra nutildytas ir vaizdo įrašas yra už matomos srities ribų slenkant, jis įsijungs į vaizdą vaizde.",
         "enabled": "Įjungta",
         "disabled": "Išjungta"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatinis vaizdas vaizde perjungiant skirtukus be šoninės panelės atidarymo",
+        "description": "Jei dabartiniame puslapyje grojamas vaizdo įrašas ir vaizdo įrašas nėra nutildytas, įjungti automatinį vaizdą vaizde perjungiant skirtukus be šoninės panelės atidarymo. Atkreipkite dėmesį, kad ši funkcija **reikalauja vartotojo aktyvavimo** (pvz., spustelėjus pelę tuščioje puslapio vietoje)."
+      },
+      "advancedPipEnable": {
+        "label": "Įjungti išplėstinį vaizdą vaizde",
+        "description": "Kai įjungta, išplėstinis vaizdas vaizde bus prioritetinis. Jei puslapis jo nepalaiko, bus naudojamas įprastas vaizdas vaizde.\nIšplėstinis vaizdas vaizde naudoja pasirinktą vaizdo grotuvą, siūlantį tokias funkcijas kaip:\n * Vaizdo įrašo paleidimas/sustabdymas (tarpas)\n * Garso reguliavimas (aukštyn/žemyn rodyklės)\n * Vaizdo įrašo nutildymas/įjungimas\n * Greitas pirmyn/atgal vaizdo įrašas (kairė/dešinė rodyklės arba pelės ratukas)\n * Kito vaizdo įrašo paleidimas\n * Subtitrų rodymas (palaikoma kai kuriose svetainėse, pvz., youtube.com, vimeo.com, tver.jp ir kt.)\n * Barrage rodymas (palaikoma kai kuriose svetainėse, pvz., nicovideo.jp, bilibili.com ir kt.)\n * Išėjimas iš vaizdo vaizde (Esc)\n * Vaizdo įrašo slėpimo/rodymo ir paleidimo/sustabdymo perjungimas (Q)\n >Jei dažnai lankomose svetainėse palaikomi subtitrai ar barrage, galite pateikti [klausimą: Išplėstinis vaizdas vaizde](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), ir mes pritaikysime jį kuo greičiau. Atkreipkite dėmesį, kad kai kurios svetainės gali turėti regioninius apribojimus, ir jums gali reikėti pateikti papildomą informaciją."
+      },
+      "subtitleDetection": {
+        "label": "Įjungti subtitrų aptikimą",
+        "description": "Jei dabartinėje svetainėje nėra vaizdo vaizde konfigūracijos, leisti programai bandyti automatiškai aptikti subtitrų elementus ir pridėti juos prie vaizdo vaizde grotuvo. Tai nestabili funkcija ir gali ne visada aptikti teisingus subtitrų elementus. Jei esate profesionalas, galite pridėti subtitrų elementų konfigūracijas svetainės nustatymuose."
+      },
+      "continuousPlayback": {
+        "label": "Įjungti nuolatinį atkūrimą",
+        "description": "Nuolatinis atkūrimas: vaizdo vaizde langas neužsidaro ir automatiškai paleidžia kitą seriją po vaizdo įrašo pabaigos. Ši funkcija reikalauja svetainės palaikymo."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Šrifto spalva",
         "description": "Nustatykite šrifto spalvą šiai svetainei."
+      },
+      "pipRestrictionAction": {
+        "label": "Paveikslėlis-paveikslėlyje apribojimo veiksmas",
+        "description": "Išplėstinis paveikslėlis-paveikslėlyje langas gali būti atidarytas tik iš pagrindinio puslapio ir negali būti paleistas iš rėmelių ar įterpto turinio. Galite naudoti standartinį paveikslėlis-paveikslėlyje režimą arba atidaryti naujame skirtuke, kad bandytumėte dar kartą. Atkreipkite dėmesį, kad vaizdo įrašas gali tinkamai neįsikrauti naujame skirtuke.",
+        "default": "Numatytasis",
+        "use_standard_pip": "Naudoti standartinį paveikslėlis-paveikslėlyje",
+        "open_in_new_tab": "Atidaryti naujame skirtuke"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatiškai įeiti į paveikslėlis-paveikslėlyje",
+        "description": "Automatiškai įeiti į paveikslėlis-paveikslėlyje režimą, kai puslapyje yra vaizdo įrašas. Dėl sistemos apribojimų tai reikalauja vartotojo sąveikos su puslapiu."
+      },
+      "captionSetting": {
+        "label": "Antraščių nustatymai",
+        "description": "Konfigūruokite CSS selektorius antraštės elementui ir jo tėvui puslapyje. CSS selektorius antraštės elementui naudojamas antraštėms rodyti grotuve, o tėvo selektorius naudojamas antraštėms grąžinti į pradinį puslapį, kai išeinama iš paveikslėlis-paveikslėlyje režimo.",
+        "configure": "Konfigūruoti",
+        "selectorDesc": "Dažni selektoriai apima: '.class' klasės selektoriams, '#id' ID selektoriams, 'tag' žymų selektoriams ir '[attribute=value]' atributų selektoriams. Daugiau informacijos rasite: [CSS selektoriai - CSS: Kaskadinės stiliaus lentelės - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS selektoriai antraštės elementui",
+        "captionParentSelectorDesc": "CSS selektoriai antraštės elemento tėvui"
       }
     },
     "quickAccess": {

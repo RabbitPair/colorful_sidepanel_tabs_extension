@@ -136,6 +136,7 @@
         "sortBy": "Ordenar por",
         "createTabPanel": "Crear panel de lapelas",
         "tabPanels": "Paneis de lapelas",
+        "switchPIP": "Cambiar a imaxe en imaxe",
         "pinToToolbarReminder": "Lembra fixar a extensión na barra de ferramentas antes de eliminar esta navegación."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Esta páxina é só para visualización. Para modificar os atallos, visita [Extensións]->[Xestionar extensións]->[Atallos de teclado]",
       "goToBrowserSettings": "Ir ás configuracións de Chrome",
       "_execute_action": "Activar esta extensión",
-      "openSidePanel": "Abrir panel lateral"
+      "openSidePanel": "Abrir panel lateral",
+      "switchPIP": "Cambiar a Imaxe na Imaxe"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imaxe na imaxe",
@@ -392,6 +394,22 @@
         "description": "Se a páxina actual está a reproducir un vídeo e o vídeo non está silenciado e o vídeo está fóra do rango visible ao desprazar, entrará na imaxe na imaxe.",
         "enabled": "Habilitado",
         "disabled": "Desactivado"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Imaxe na Imaxe ao cambiar de lapas sen abrir o panel lateral",
+        "description": "Se a páxina actual está a reproducir un vídeo e o vídeo non está silenciado, habilitar automaticamente a Imaxe na Imaxe ao cambiar de lapas sen abrir o panel lateral. Ten en conta que esta función **require activación do usuario** (por exemplo, facendo clic co rato nunha área en branco da páxina)."
+      },
+      "advancedPipEnable": {
+        "label": "Habilitar Imaxe na Imaxe Avanzada",
+        "description": "Cando está habilitado, a Imaxe na Imaxe Avanzada terá prioridade. Se a páxina non a soporta, usarase a Imaxe na Imaxe regular.\nA Imaxe na Imaxe Avanzada utiliza un reprodutor de vídeo personalizado, ofrecendo funcións como:\n * Reproducir/Pausar vídeo (Espazo)\n * Axustar volume (Flecha Arriba/Abaixo)\n * Silenciar/Activar son do vídeo\n * Avanzar/Retrasar vídeo (Flecha Esquerda/Dereita ou Roda do Rato)\n * Reproducir o seguinte vídeo\n * Amosar subtítulos (soportado en algúns sitios web, por exemplo, youtube.com, vimeo.com, tver.jp, etc.)\n * Amosar comentarios (soportado en algúns sitios web, por exemplo, nicovideo.jp, bilibili.com, etc.)\n * Saír da Imaxe na Imaxe (Esc)\n * Alternar ocultar/amosar vídeo e reproducir/pausar (Q)\n >Se os sitios web que visitas frecuentemente soportan subtítulos ou comentarios, podes enviar un [issue: Imaxe na Imaxe Avanzada](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), e adaptaremolo o antes posible. Ten en conta que algúns sitios web poden ter restricións rexionais, e pode que necesites proporcionar información adicional."
+      },
+      "subtitleDetection": {
+        "label": "Habilitar detección de subtítulos",
+        "description": "Se o sitio actual non ten unha configuración de Imaxe na Imaxe, permitir que o programa intente detectar automaticamente elementos de subtítulos e engadilos ao reprodutor de Imaxe na Imaxe. Esta é unha función inestable e pode non detectar sempre os elementos de subtítulos correctos. Se es un profesional, podes engadir configuracións de elementos de subtítulos nas configuracións do sitio."
+      },
+      "continuousPlayback": {
+        "label": "Habilitar reprodución continua",
+        "description": "Reprodución continua: A ventá de Imaxe na Imaxe non se pecha e reproduce automaticamente o seguinte episodio despois de que remate o vídeo. Esta función require soporte do sitio web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Cor da fonte",
         "description": "Establece o cor da fonte para este sitio."
+      },
+      "pipRestrictionAction": {
+        "label": "Acción de restrición de Picture-in-Picture",
+        "description": "A xanela avanzada de Picture-in-Picture só se pode abrir desde a páxina principal e non se pode lanzar desde marcos ou contido incrustado. Podes usar o modo estándar de Picture-in-Picture ou abrir nunha nova lapela para reintentar. Ten en conta que o vídeo pode non cargarse correctamente nunha nova lapela.",
+        "default": "Predeterminado",
+        "use_standard_pip": "Usar Picture-in-Picture estándar",
+        "open_in_new_tab": "Abrir nunha nova lapela"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrar automaticamente en Picture-in-Picture",
+        "description": "Entrar automaticamente no modo Picture-in-Picture cando hai un vídeo presente ao entrar na páxina. Debido a limitacións do sistema, isto require interacción do usuario coa páxina."
+      },
+      "captionSetting": {
+        "label": "Configuración de subtítulos",
+        "description": "Configura os selectores CSS para o elemento de subtítulos e o seu pai na páxina. O selector CSS para o elemento de subtítulos úsase para mostrar subtítulos no reprodutor, mentres que o selector pai úsase para devolver os subtítulos á páxina orixinal ao saír do modo Picture-in-Picture.",
+        "configure": "Configurar",
+        "selectorDesc": "Os selectores comúns inclúen: '.class' para selectores de clase, '#id' para selectores de ID, 'tag' para selectores de etiqueta e '[attribute=value]' para selectores de atributo. Para máis detalles, visita: [Selectores CSS - CSS: Follas de estilo en cascada - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selectores CSS para o elemento de subtítulos",
+        "captionParentSelectorDesc": "Selectores CSS para o pai do elemento de subtítulos"
       }
     },
     "quickAccess": {

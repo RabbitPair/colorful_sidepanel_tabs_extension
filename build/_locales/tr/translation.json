@@ -241,5 +241,6 @@
   "shortName": "Kısa isim",
   "expandIcons": "Simgeyi Genişlet",
   "expandList": "Listeyi Genişlet",
-  "openAllUrls": "Tüm URL'leri Aç"
+  "openAllUrls": "Tüm URL'leri Aç",
+  "switchPIP": "Resim İçinde Resim'i Değiştir"
 }

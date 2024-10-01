@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Vidinės sistemos"
+  },
+  "switchPIP": {
+    "message": "Perjungti vaizdą vaizde"
+  },
+  "play": {
+    "message": "Leisti"
+  },
+  "pause": {
+    "message": "Pauzė"
+  },
+  "shortcut_play_pause": {
+    "message": "Leisti/Pauzė vaizdo įrašą"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Reguliuoti garsumą"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Nutildyti/Atjungti nutildymą vaizdo įrašą"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Persukti pirmyn/atgal vaizdo įrašą 5 sekundes"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Persukti pirmyn/atgal vaizdo įrašą 10 sekundžių"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Persukti pirmyn/atgal vaizdo įrašą"
+  },
+  "shortcut_next_video": {
+    "message": "Leisti kitą vaizdo įrašą"
+  },
+  "shortcut_previous_video": {
+    "message": "Leisti ankstesnį vaizdo įrašą"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Rodyti/Slėpti antraštes"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Rodyti/Slėpti kulkinį pokalbį"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Perjungti viso ekrano režimą"
+  },
+  "shortcut_playback_speed": {
+    "message": "Reguliuoti atkūrimo greitį"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Pereiti į vaizdo įrašo pradžią/pabaigą"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Pereiti į vaizdo įrašo procentą"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Pritaikyti langą vaizdo įrašo dydžiui"
+  },
+  "shortcut_exit_pip": {
+    "message": "Išeiti iš vaizdo vaizde režimo"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Perjungti slėpti/rodyti vaizdo įrašą ir leisti/pauzė"
+  },
+  "shortcut_enter_pip": {
+    "message": "Perjungti vaizdo vaizde režimą iš pagrindinio puslapio"
+  },
+  "mute": {
+    "message": "Nutildyti"
+  },
+  "unmute": {
+    "message": "Atjungti nutildymą"
+  },
+  "prev_video": {
+    "message": "Ankstesnis vaizdo įrašas"
+  },
+  "next_video": {
+    "message": "Kitas vaizdo įrašas"
+  },
+  "playbackRate": {
+    "message": "Atkūrimo greitis"
+  },
+  "subtitles": {
+    "message": "Subtitrai"
+  },
+  "close_captions": {
+    "message": "Uždaryti antraštes"
+  },
+  "danmaku": {
+    "message": "Kulkinis pokalbis"
+  },
+  "fit_to_screen": {
+    "message": "Pritaikyti ekranui"
+  },
+  "reload_video": {
+    "message": "Perkrauti vaizdo įrašą"
+  },
+  "loading_pip_config": {
+    "message": "Įkeliami dokumento vaizdo vaizde nustatymai..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Leidžiama dokumento vaizdo vaizde režimu"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Aptinkami vaizdo vaizde subtitrų nustatymai..."
+  },
+  "video_not_detected": {
+    "message": "Vaizdo įrašas neaptiktas. Gali būti, kad jis dar nėra paruoštas. Jei puslapyje yra vaizdo įrašas, spustelėkite leisti ir bandykite dar kartą."
+  },
+  "pip_window_restriction": {
+    "message": "Išplėstinis vaizdo vaizde langas gali būti atidarytas tik iš pagrindinio puslapio ir negali būti paleistas iš rėmelių ar įterpto turinio. Galite naudoti standartinį vaizdo vaizde režimą arba atidaryti naujame skirtuke, kad bandytumėte dar kartą. Atkreipkite dėmesį, kad vaizdo įrašas gali tinkamai neįsikrauti naujame skirtuke.",
+    "description": "Nepavyko įvykdyti 'requestWindow' 'DocumentPictureInPicture': Vaizdo vaizde langą galima atidaryti tik iš aukščiausio lygio naršymo konteksto"
+  },
+  "use_standard_pip": {
+    "message": "Naudoti standartinį vaizdo vaizde režimą",
+    "description": "Pasirinkimas naudoti standartinį vaizdo vaizde režimą"
+  },
+  "open_in_new_tab": {
+    "message": "Atidaryti naujame skirtuke",
+    "description": "Pasirinkimas atidaryti puslapį naujame skirtuke"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Prisiminti šios svetainės nustatymus (galite juos pakeisti parinktyse - Svetainės nustatymai)"
+  },
+  "pip_user_activation_required": {
+    "message": "Vaizdo vaizde režimui reikalinga vartotojo sąveika. Prašome spustelėti arba sąveikauti su puslapiu ir bandyti dar kartą.",
+    "description": "Nepavyko įvykdyti 'requestWindow' 'DocumentPictureInPicture': Dokumento vaizdo vaizde režimui reikalinga vartotojo aktyvacija"
+  },
+  "retry_action": {
+    "message": "Bandykite dar kartą"
   }
 }

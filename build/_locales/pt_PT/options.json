@@ -136,6 +136,7 @@
         "sortBy": "Ordenar Por",
         "createTabPanel": "Criar Painel de Abas",
         "tabPanels": "Painéis de Abas",
+        "switchPIP": "Alternar Picture-in-Picture",
         "pinToToolbarReminder": "Por favor, fixe a extensão na barra de ferramentas antes de remover esta navegação."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Esta página é apenas para exibição. Para modificar atalhos, visite [Extensões]->[Gerenciar Extensões]->[Atalhos de Teclado]",
       "goToBrowserSettings": "Ir para configurações do navegador",
       "_execute_action": "Ativar esta extensão",
-      "openSidePanel": "Abrir painel lateral"
+      "openSidePanel": "Abrir painel lateral",
+      "switchPIP": "Alternar Imagem-em-Imagem"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imagem-em-imagem",
@@ -392,6 +394,22 @@
         "description": "Se a página atual estiver reproduzindo um vídeo e o vídeo não estiver silenciado e o vídeo estiver fora do alcance visível ao rolar, ele entrará em imagem-em-imagem.",
         "enabled": "Ativado",
         "disabled": "Desativado"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Imagem-em-Imagem ao Alternar Abas sem Abrir Painel Lateral",
+        "description": "Se a página atual estiver reproduzindo um vídeo e o vídeo não estiver silenciado, habilite a Imagem-em-Imagem automática ao alternar abas sem abrir o painel lateral. Note que este recurso **requer ativação do usuário** (por exemplo, clicando com o mouse em uma área em branco da página)."
+      },
+      "advancedPipEnable": {
+        "label": "Habilitar Imagem-em-Imagem Avançada",
+        "description": "Quando ativado, a Imagem-em-Imagem Avançada será priorizada. Se a página não a suportar, a Imagem-em-Imagem regular será usada.\nA Imagem-em-Imagem Avançada utiliza um player de vídeo personalizado, oferecendo recursos como:\n * Reproduzir/Pausar vídeo (Espaço)\n * Ajustar volume (Seta para Cima/Baixo)\n * Silenciar/Ativar som do vídeo\n * Avançar/Rebobinar vídeo (Seta para Esquerda/Direita ou Roda do Mouse)\n * Reproduzir o próximo vídeo\n * Exibir legendas (suportado em alguns sites, por exemplo, youtube.com, vimeo.com, tver.jp, etc.)\n * Exibir comentários (suportado em alguns sites, por exemplo, nicovideo.jp, bilibili.com, etc.)\n * Sair da Imagem-em-Imagem (Esc)\n * Alternar ocultar/mostrar vídeo e reproduzir/pausar (Q)\n >Se os sites que você visita frequentemente suportam legendas ou comentários, você pode enviar um [issue: Imagem-em-Imagem Avançada](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), e nós o adaptaremos o mais rápido possível. Note que alguns sites podem ter restrições regionais, e você pode precisar fornecer informações adicionais."
+      },
+      "subtitleDetection": {
+        "label": "Habilitar Detecção de Legendas",
+        "description": "Se o site atual não tiver uma configuração de Imagem-em-Imagem, permita que o programa tente detectar automaticamente elementos de legenda e adicioná-los ao player de Imagem-em-Imagem. Este é um recurso instável e pode não detectar sempre os elementos de legenda corretos. Se você for um profissional, pode adicionar configurações de elementos de legenda nas configurações do site."
+      },
+      "continuousPlayback": {
+        "label": "Habilitar Reprodução Contínua",
+        "description": "Reprodução contínua: A janela de Imagem-em-Imagem não fecha e reproduz automaticamente o próximo episódio após o término do vídeo. Este recurso requer suporte do site."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Cor da Fonte",
         "description": "Defina a cor da fonte para este site."
+      },
+      "pipRestrictionAction": {
+        "label": "Ação de Restrição Picture-in-Picture",
+        "description": "A janela avançada de Picture-in-Picture só pode ser aberta a partir da página principal e não pode ser lançada a partir de frames ou conteúdo incorporado. Você pode usar o modo padrão de Picture-in-Picture ou abrir em uma nova aba para tentar novamente. Observe que o vídeo pode não carregar corretamente em uma nova aba.",
+        "default": "Padrão",
+        "use_standard_pip": "Usar Picture-in-Picture padrão",
+        "open_in_new_tab": "Abrir em nova aba"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrar automaticamente em Picture-in-Picture",
+        "description": "Entrar automaticamente no modo Picture-in-Picture quando um vídeo estiver presente ao entrar na página. Devido a limitações do sistema, isso requer interação do usuário com a página."
+      },
+      "captionSetting": {
+        "label": "Configurações de Legenda",
+        "description": "Configure os seletores CSS para o elemento de legenda e seu pai na página. O seletor CSS para o elemento de legenda é usado para exibir legendas no player, enquanto o seletor pai é usado para retornar as legendas à página original ao sair do modo Picture-in-Picture.",
+        "configure": "Configurar",
+        "selectorDesc": "Seletores comuns incluem: '.class' para seletores de classe, '#id' para seletores de ID, 'tag' para seletores de tag e '[attribute=value]' para seletores de atributo. Para mais detalhes, visite: [Seletores CSS - CSS: Folhas de Estilo em Cascata - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Seletores CSS para o elemento de legenda",
+        "captionParentSelectorDesc": "Seletores CSS para o pai do elemento de legenda"
       }
     },
     "quickAccess": {

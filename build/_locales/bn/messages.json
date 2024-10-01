@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "অভ্যন্তরীণ সিস্টেম"
+  },
+  "switchPIP": {
+    "message": "পিকচার-ইন-পিকচার পরিবর্তন করুন"
+  },
+  "play": {
+    "message": "চালান"
+  },
+  "pause": {
+    "message": "বিরতি"
+  },
+  "shortcut_play_pause": {
+    "message": "ভিডিও চালান/বিরতি দিন"
+  },
+  "shortcut_adjust_volume": {
+    "message": "ভলিউম সামঞ্জস্য করুন"
+  },
+  "shortcut_mute_unmute": {
+    "message": "ভিডিও নিঃশব্দ/নিঃশব্দ মুক্ত করুন"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "ভিডিও ৫ সেকেন্ড এগিয়ে/পেছনে যান"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "ভিডিও ১০ সেকেন্ড এগিয়ে/পেছনে যান"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "ভিডিও এগিয়ে/পেছনে যান"
+  },
+  "shortcut_next_video": {
+    "message": "পরবর্তী ভিডিও চালান"
+  },
+  "shortcut_previous_video": {
+    "message": "পূর্ববর্তী ভিডিও চালান"
+  },
+  "shortcut_toggle_captions": {
+    "message": "ক্যাপশন দেখান/লুকান"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "বুলেট চ্যাটিং দেখান/লুকান"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "পূর্ণ পর্দা চালু/বন্ধ করুন"
+  },
+  "shortcut_playback_speed": {
+    "message": "প্লেব্যাক গতি সামঞ্জস্য করুন"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "ভিডিওর শুরু/শেষে যান"
+  },
+  "shortcut_seek_percentage": {
+    "message": "ভিডিওর শতাংশে যান"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "ভিডিওর আকারে উইন্ডো সামঞ্জস্য করুন"
+  },
+  "shortcut_exit_pip": {
+    "message": "পিকচার-ইন-পিকচার থেকে বেরিয়ে আসুন"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "ভিডিও লুকান/দেখান এবং চালান/বিরতি দিন"
+  },
+  "shortcut_enter_pip": {
+    "message": "প্রধান পৃষ্ঠা থেকে পিকচার-ইন-পিকচার চালু/বন্ধ করুন"
+  },
+  "mute": {
+    "message": "নিঃশব্দ করুন"
+  },
+  "unmute": {
+    "message": "নিঃশব্দ মুক্ত করুন"
+  },
+  "prev_video": {
+    "message": "পূর্ববর্তী ভিডিও"
+  },
+  "next_video": {
+    "message": "পরবর্তী ভিডিও"
+  },
+  "playbackRate": {
+    "message": "প্লেব্যাক গতি"
+  },
+  "subtitles": {
+    "message": "সাবটাইটেল"
+  },
+  "close_captions": {
+    "message": "বন্ধ ক্যাপশন"
+  },
+  "danmaku": {
+    "message": "বুলেট চ্যাটিং"
+  },
+  "fit_to_screen": {
+    "message": "স্ক্রিনে ফিট করুন"
+  },
+  "reload_video": {
+    "message": "ভিডিও পুনরায় লোড করুন"
+  },
+  "loading_pip_config": {
+    "message": "ডকুমেন্ট পিকচার-ইন-পিকচার কনফিগারেশন লোড হচ্ছে..."
+  },
+  "playing_in_pip_mode": {
+    "message": "ডকুমেন্ট পিকচার-ইন-পিকচার মোডে চলছে"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "পিকচার-ইন-পিকচার সাবটাইটেল সেটিংস সনাক্ত করা হচ্ছে..."
+  },
+  "video_not_detected": {
+    "message": "ভিডিও সনাক্ত করা যায়নি। এটি এখনও প্রস্তুত নাও হতে পারে। যদি পৃষ্ঠায় একটি ভিডিও থাকে, দয়া করে চালান ক্লিক করুন এবং আবার চেষ্টা করুন।"
+  },
+  "pip_window_restriction": {
+    "message": "উন্নত পিকচার-ইন-পিকচার উইন্ডো শুধুমাত্র প্রধান পৃষ্ঠা থেকে খোলা যেতে পারে এবং ফ্রেম বা এম্বেড করা সামগ্রী থেকে চালু করা যাবে না। আপনি স্ট্যান্ডার্ড পিকচার-ইন-পিকচার মোড ব্যবহার করতে পারেন বা পুনরায় চেষ্টা করতে একটি নতুন ট্যাবে খুলতে পারেন। মনে রাখবেন যে নতুন ট্যাবে ভিডিওটি সঠিকভাবে লোড নাও হতে পারে।",
+    "description": "ডকুমেন্ট পিকচার-ইন-পিকচার-এ 'requestWindow' কার্যকর করতে ব্যর্থ হয়েছে: একটি PiP উইন্ডো খোলা শুধুমাত্র একটি শীর্ষ-স্তরের ব্রাউজিং প্রসঙ্গ থেকে অনুমোদিত"
+  },
+  "use_standard_pip": {
+    "message": "স্ট্যান্ডার্ড PiP ব্যবহার করুন",
+    "description": "স্ট্যান্ডার্ড পিকচার-ইন-পিকচার মোড ব্যবহার করার বিকল্প"
+  },
+  "open_in_new_tab": {
+    "message": "নতুন ট্যাবে খুলুন",
+    "description": "পৃষ্ঠাটি একটি নতুন ট্যাবে খোলার বিকল্প"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "এই সাইটের সেটিংস মনে রাখুন (আপনি এটি বিকল্প - সাইট সেটিংসে পরিবর্তন করতে পারেন)"
+  },
+  "pip_user_activation_required": {
+    "message": "পিকচার-ইন-পিকচার মোডের জন্য ব্যবহারকারীর মিথস্ক্রিয়া প্রয়োজন। দয়া করে পৃষ্ঠার সাথে ক্লিক বা মিথস্ক্রিয়া করুন এবং আবার চেষ্টা করুন।",
+    "description": "ডকুমেন্ট পিকচার-ইন-পিকচার-এ 'requestWindow' কার্যকর করতে ব্যর্থ হয়েছে: ডকুমেন্ট PiP এর জন্য ব্যবহারকারীর সক্রিয়করণ প্রয়োজন"
+  },
+  "retry_action": {
+    "message": "আবার চেষ্টা করুন"
   }
 }

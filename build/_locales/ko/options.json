@@ -136,6 +136,7 @@
         "sortBy": "정렬 기준",
         "createTabPanel": "탭 패널 생성",
         "tabPanels": "탭 패널",
+        "switchPIP": "화면 속 화면 전환",
         "pinToToolbarReminder": "이 탐색을 제거하기 전에 확장 프로그램을 도구 모음에 고정하세요."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "이 페이지는 표시 전용입니다. 바로 가기를 수정하려면 [확장 프로그램]->[확장 프로그램 관리]->[키보드 바로 가기]로 이동하세요",
       "goToBrowserSettings": "설정으로 이동",
       "_execute_action": "이 확장 프로그램 활성화",
-      "openSidePanel": "사이드 패널 열기"
+      "openSidePanel": "사이드 패널 열기",
+      "switchPIP": "화면 속 화면 전환"
     },
     "picture_in_picture": {
       "Picture-in-picture": "화면 속 화면",
@@ -392,6 +394,22 @@
         "description": "현재 페이지에서 비디오가 재생 중이고 비디오가 음소거되지 않았으며 스크롤 시 비디오가 보이지 않는 범위에 있을 때 화면 속 화면으로 전환됩니다.",
         "enabled": "활성화됨",
         "disabled": "비활성화됨"
+      },
+      "tabSwitchPipBackground": {
+        "label": "사이드 패널을 열지 않고 탭 전환 시 자동 화면 속 화면",
+        "description": "현재 페이지에서 비디오가 재생 중이고 비디오가 음소거되지 않은 경우, 사이드 패널을 열지 않고 탭 전환 시 자동으로 화면 속 화면을 활성화합니다. 이 기능은 **사용자 활성화**(예: 페이지의 빈 영역을 클릭하는 등)가 필요합니다."
+      },
+      "advancedPipEnable": {
+        "label": "고급 화면 속 화면 활성화",
+        "description": "활성화되면 고급 화면 속 화면이 우선됩니다. 페이지가 이를 지원하지 않는 경우, 일반 화면 속 화면이 사용됩니다.\n고급 화면 속 화면은 사용자 정의 비디오 플레이어를 사용하여 다음과 같은 기능을 제공합니다:\n * 비디오 재생/일시 정지 (스페이스)\n * 볼륨 조절 (위/아래 화살표)\n * 비디오 음소거/음소거 해제\n * 비디오 빨리 감기/되감기 (왼쪽/오른쪽 화살표 또는 마우스 휠)\n * 다음 비디오 재생\n * 자막 표시 (일부 웹사이트에서 지원, 예: youtube.com, vimeo.com, tver.jp 등)\n * 댓글 표시 (일부 웹사이트에서 지원, 예: nicovideo.jp, bilibili.com 등)\n * 화면 속 화면 종료 (Esc)\n * 비디오 숨기기/표시 및 재생/일시 정지 전환 (Q)\n >자주 방문하는 웹사이트가 자막이나 댓글을 지원하는 경우, [이슈: 고급 화면 속 화면](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=)을 제출하시면 가능한 빨리 이를 조정하겠습니다. 일부 웹사이트는 지역 제한이 있을 수 있으며, 추가 정보를 제공해야 할 수도 있습니다."
+      },
+      "subtitleDetection": {
+        "label": "자막 감지 활성화",
+        "description": "현재 사이트에 화면 속 화면 설정이 없는 경우, 프로그램이 자막 요소를 자동으로 감지하여 화면 속 화면 플레이어에 추가하도록 허용합니다. 이 기능은 불안정하며 항상 올바른 자막 요소를 감지하지 않을 수 있습니다. 전문가인 경우, 사이트 설정에서 자막 요소 구성을 추가할 수 있습니다."
+      },
+      "continuousPlayback": {
+        "label": "연속 재생 활성화",
+        "description": "연속 재생: 화면 속 화면 창이 닫히지 않고 비디오가 끝난 후 자동으로 다음 에피소드를 재생합니다. 이 기능은 웹사이트 지원이 필요합니다."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "글자색",
         "description": "이 사이트의 글자색을 설정하세요."
+      },
+      "pipRestrictionAction": {
+        "label": "화면 속 화면 제한 동작",
+        "description": "고급 화면 속 화면 창은 메인 페이지에서만 열 수 있으며 프레임이나 임베디드 콘텐츠에서 실행할 수 없습니다. 표준 화면 속 화면 모드를 사용하거나 새 탭에서 다시 시도할 수 있습니다. 새 탭에서 비디오가 제대로 로드되지 않을 수 있습니다.",
+        "default": "기본값",
+        "use_standard_pip": "표준 화면 속 화면 사용",
+        "open_in_new_tab": "새 탭에서 열기"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "자동 화면 속 화면 모드",
+        "description": "페이지에 들어갈 때 비디오가 있으면 자동으로 화면 속 화면 모드로 전환됩니다. 시스템 제한으로 인해 페이지와의 사용자 상호작용이 필요합니다."
+      },
+      "captionSetting": {
+        "label": "자막 설정",
+        "description": "페이지에서 자막 요소와 부모 요소에 대한 CSS 선택자를 구성합니다. 자막 요소에 대한 CSS 선택자는 플레이어에 자막을 표시하는 데 사용되며, 부모 선택자는 화면 속 화면 모드에서 나갈 때 자막을 원래 페이지로 되돌리는 데 사용됩니다.",
+        "configure": "설정",
+        "selectorDesc": "일반적인 선택자에는 클래스 선택자인 '.class', ID 선택자인 '#id', 태그 선택자인 'tag', 속성 선택자인 '[attribute=value]'가 포함됩니다. 자세한 내용은 [CSS 선택자 - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)를 참조하세요.",
+        "captionSelector": "자막 요소에 대한 CSS 선택자",
+        "captionParentSelectorDesc": "자막 요소의 부모에 대한 CSS 선택자"
       }
     },
     "quickAccess": {

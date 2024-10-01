@@ -241,5 +241,6 @@
   "shortName": "Kratko ime",
   "expandIcons": "Proširi ikone",
   "expandList": "Proširi listu",
-  "openAllUrls": "Otvori sve URL-ove"
+  "openAllUrls": "Otvori sve URL-ove",
+  "switchPIP": "Prebaci sliku u slici"
 }

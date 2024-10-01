@@ -4,6 +4,51 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+
+----
+## [2.10.0] - 2024-10-01
+
+### Added
+- **Document Picture-in-Picture**: Introducing Advanced Picture-in-Picture, available for free trial before the official release of the extension's premium version. When enabled, it takes precedence over the standard Picture-in-Picture. If the current page does not support it, the standard mode will be used. Advanced Picture-in-Picture features a custom video player with functionalities such as:
+  * **Play/Pause video** (Space or K)
+  * **Adjust volume** (Up/Down Arrow)
+  * **Mute/Unmute video** (M)
+  * **Fast forward/Rewind video** (Left/Right Arrow or Mouse Wheel)
+  * **Fast forward/Rewind video 5 seconds** (Left/Right Arrow)
+  * **Fast forward/Rewind video 10 seconds** (J/L)
+  * **Play the next video** (Shift + N)
+  * **Play the previous video** (Shift + P)
+  * **Display subtitles** (supported on some websites like youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Display barrage** (supported on some websites like nicovideo.jp, bilibili.com, etc.) (D)
+  * **Exit Picture-in-Picture** (Esc)
+  * **Toggle hide/show video and play/pause** (Q)
+  * **Toggle fullscreen** (F)
+  * **Adjust playback speed** ( > or <)
+  * **Seek to start/end of video** (Home/End)
+  * **Seek to percentage of video** (0-9)
+  * **Adjust window to fit video size** (W)
+  * **Toggle Picture-in-Picture from main page** (Alt + P)
+  
+  > If the websites you frequently visit support subtitles or barrage, you can submit an [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), and we will adapt it as soon as possible. Please note that some websites may have regional restrictions, requiring additional information.
+- **Shortcut for Picture-in-Picture**: A new keyboard shortcut Alt+P has been added to quickly toggle Picture-in-Picture mode. This allows users to easily switch videos to Picture-in-Picture view without using the mouse, enhancing productivity and multitasking capabilities.
+- **Switch Picture-in-Picture in Bottom Navigation Bar**: You can now add a Picture-in-Picture toggle option to the bottom navigation bar. This can be configured in the appearance settings under "Show bottom navigation bar" - "Configure".
+- **Sort Tabs by URL**: A new menu option "Sort Tabs by URL" has been added to the "More" menu.
+- **Tab Group Collapse Behavior**: A new option "Tab Group Collapse Behavior" has been added to the "Advanced Tab Group" menu. You can modify the behavior of tab group collapsing in the browser. The options include: 'Show current group and collapse other groups', 'Expand all groups', and 'Use browser default settings'.
+- **Site Settings**: Three new options have been added to the site settings:
+  * **Picture-in-Picture Restriction Action**: Configure the action for Picture-in-Picture restrictions.
+  * **Auto-enter Picture-in-Picture**: Automatically enter Picture-in-Picture mode when a video is present upon entering the page.
+  * **Caption Settings**: Configure the CSS selectors for the caption element and its parent on the page.
+
+### Changed
+- When the side panel tab is not open, if "Picture-in-Picture on Tab Switch" is enabled (enabled by default), it will automatically enter Picture-in-Picture mode (Important reminder: User interaction is required, such as clicking on the page playing the video to activate user interaction).
+- When closing the page sidebar, it is now removed instead of hidden. It will reappear only after refreshing the page.
+
+### Fixed
+- Fixed the issue where the Quick Access list did not handle multiple URLs.
+
+----
+
+
 ## [2.9.0] - 2024-09-15
 
 - Added **Clear Tabs**: Save a snapshot and close all tabs except the active one. Restore them from recently closed tabs or snapshots.

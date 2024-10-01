@@ -228,5 +228,6 @@
   "shortName": "Kort naam",
   "expandIcons": "Brei ikone uit",
   "expandList": "Brei lys uit",
-  "openAllUrls": "Maak alle URL's oop"
+  "openAllUrls": "Maak alle URL's oop",
+  "switchPIP": "Skakel Prent-in-Prent"
 }

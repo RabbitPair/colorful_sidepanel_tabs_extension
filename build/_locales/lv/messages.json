@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Iekšējās sistēmas"
+  },
+  "switchPIP": {
+    "message": "Pārslēgt attēlu attēlā"
+  },
+  "play": {
+    "message": "Atskaņot"
+  },
+  "pause": {
+    "message": "Pauze"
+  },
+  "shortcut_play_pause": {
+    "message": "Atskaņot/Pauzēt video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Regulēt skaļumu"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Izslēgt/Ieslēgt skaņu video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Pātrināt/Atpakaļtīt video par 5 sekundēm"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Pātrināt/Atpakaļtīt video par 10 sekundēm"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Pātrināt/Atpakaļtīt video"
+  },
+  "shortcut_next_video": {
+    "message": "Atskaņot nākamo video"
+  },
+  "shortcut_previous_video": {
+    "message": "Atskaņot iepriekšējo video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Rādīt/Slēpt subtitrus"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Rādīt/Slēpt lode čatošanu"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Pārslēgt pilnekrāna režīmu"
+  },
+  "shortcut_playback_speed": {
+    "message": "Regulēt atskaņošanas ātrumu"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Pāriet uz video sākumu/beigām"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Pāriet uz video procentuālo daļu"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Pielāgot logu video izmēram"
+  },
+  "shortcut_exit_pip": {
+    "message": "Iziet no attēla attēlā režīma"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Pārslēgt video slēpšanu/rādīšanu un atskaņošanu/pauzi"
+  },
+  "shortcut_enter_pip": {
+    "message": "Pārslēgt attēlu attēlā no galvenās lapas"
+  },
+  "mute": {
+    "message": "Izslēgt skaņu"
+  },
+  "unmute": {
+    "message": "Ieslēgt skaņu"
+  },
+  "prev_video": {
+    "message": "Iepriekšējais video"
+  },
+  "next_video": {
+    "message": "Nākamais video"
+  },
+  "playbackRate": {
+    "message": "Atskaņošanas ātrums"
+  },
+  "subtitles": {
+    "message": "Subtitri"
+  },
+  "close_captions": {
+    "message": "Slēgtie paraksti"
+  },
+  "danmaku": {
+    "message": "Lode čatošana"
+  },
+  "fit_to_screen": {
+    "message": "Pielāgot ekrānam"
+  },
+  "reload_video": {
+    "message": "Pārlādēt video"
+  },
+  "loading_pip_config": {
+    "message": "Ielādē dokumenta attēlu attēlā konfigurācijas..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Atskaņošana dokumenta attēlu attēlā režīmā"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Nosaka attēlu attēlā subtitru iestatījumus..."
+  },
+  "video_not_detected": {
+    "message": "Video nav konstatēts. Tas var nebūt gatavs. Ja lapā ir video, lūdzu, noklikšķiniet uz atskaņot un mēģiniet vēlreiz."
+  },
+  "pip_window_restriction": {
+    "message": "Uzlaboto attēlu attēlā logu var atvērt tikai no galvenās lapas un to nevar palaist no rāmjiem vai iegultā satura. Varat izmantot standarta attēlu attēlā režīmu vai atvērt jaunā cilnē, lai mēģinātu vēlreiz. Ņemiet vērā, ka video jaunajā cilnē var netikt ielādēts pareizi.",
+    "description": "Neizdevās izpildīt 'requestWindow' uz 'DocumentPictureInPicture': Attēlu attēlā logu atvēršana ir atļauta tikai no augstākā līmeņa pārlūkošanas konteksta"
+  },
+  "use_standard_pip": {
+    "message": "Izmantot standarta attēlu attēlā",
+    "description": "Opcija izmantot standarta attēlu attēlā režīmu"
+  },
+  "open_in_new_tab": {
+    "message": "Atvērt jaunā cilnē",
+    "description": "Opcija atvērt lapu jaunā cilnē"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Atcerēties šīs vietnes iestatījumus (Varat tos mainīt opcijās - Vietnes iestatījumi)"
+  },
+  "pip_user_activation_required": {
+    "message": "Attēlu attēlā režīmam nepieciešama lietotāja mijiedarbība. Lūdzu, noklikšķiniet vai mijiedarbojieties ar lapu un mēģiniet vēlreiz.",
+    "description": "Neizdevās izpildīt 'requestWindow' uz 'DocumentPictureInPicture': Dokumenta attēlu attēlā režīmam nepieciešama lietotāja aktivizācija"
+  },
+  "retry_action": {
+    "message": "Mēģināt vēlreiz"
   }
 }

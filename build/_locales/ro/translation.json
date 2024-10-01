@@ -241,5 +241,6 @@
   "shortName": "Nume scurt",
   "expandIcons": "Extinde pictogramele",
   "expandList": "Extinde lista",
-  "openAllUrls": "Deschide toate URL-urile"
+  "openAllUrls": "Deschide toate URL-urile",
+  "switchPIP": "Comută Picture-in-Picture"
 }

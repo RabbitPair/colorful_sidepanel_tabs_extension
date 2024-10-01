@@ -136,6 +136,7 @@
         "sortBy": "Urutkan Berdasarkan",
         "createTabPanel": "Buat Panel Tab",
         "tabPanels": "Panel Tab",
+        "switchPIP": "Beralih ke Gambar-dalam-Gambar",
         "pinToToolbarReminder": "Harap sematkan ekstensi ke toolbar Anda sebelum menghapus navigasi ini."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Halaman ini hanya untuk tampilan. Untuk mengubah jalan pintas, silakan kunjungi [Ekstensi]->[Kelola Ekstensi]->[Jalan Pintas Keyboard]",
       "goToBrowserSettings": "Pergi ke pengaturan Chrome",
       "_execute_action": "Aktifkan ekstensi ini",
-      "openSidePanel": "Buka panel samping"
+      "openSidePanel": "Buka panel samping",
+      "switchPIP": "Beralih Gambar-dalam-Gambar"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Gambar-dalam-Gambar",
@@ -392,6 +394,22 @@
         "description": "Jika halaman saat ini memutar video dan video tidak dibisukan dan video berada di luar jangkauan yang terlihat saat menggulir, itu akan masuk ke gambar-dalam-gambar.",
         "enabled": "Diaktifkan",
         "disabled": "Dinonaktifkan"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Gambar-dalam-Gambar Otomatis pada Pergantian Tab tanpa Membuka Panel Samping",
+        "description": "Jika halaman saat ini memutar video dan video tidak dibisukan, aktifkan Gambar-dalam-Gambar otomatis pada pergantian tab tanpa membuka panel samping. Perhatikan bahwa fitur ini **memerlukan aktivasi pengguna** (misalnya, mengklik mouse pada area kosong halaman)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktifkan Gambar-dalam-Gambar Lanjutan",
+        "description": "Ketika diaktifkan, Gambar-dalam-Gambar Lanjutan akan diprioritaskan. Jika halaman tidak mendukungnya, Gambar-dalam-Gambar biasa akan digunakan.\nGambar-dalam-Gambar Lanjutan menggunakan pemutar video khusus, menawarkan fitur seperti:\n * Putar/Jeda video (Spasi)\n * Sesuaikan volume (Panah Atas/Bawah)\n * Bisukan/Bunyikan video\n * Maju cepat/Mundur video (Panah Kiri/Kanan atau Roda Mouse)\n * Putar video berikutnya\n * Tampilkan subtitle (didukung di beberapa situs web, misalnya, youtube.com, vimeo.com, tver.jp, dll.)\n * Tampilkan barrage (didukung di beberapa situs web, misalnya, nicovideo.jp, bilibili.com, dll.)\n * Keluar dari Gambar-dalam-Gambar (Esc)\n * Alihkan sembunyikan/tampilkan video dan putar/jeda (Q)\n >Jika situs web yang sering Anda kunjungi mendukung subtitle atau barrage, Anda dapat mengirimkan [masalah: Gambar-dalam-Gambar Lanjutan](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), dan kami akan menyesuaikannya secepat mungkin. Perhatikan bahwa beberapa situs web mungkin memiliki pembatasan regional, dan Anda mungkin perlu memberikan informasi tambahan."
+      },
+      "subtitleDetection": {
+        "label": "Aktifkan Deteksi Subtitle",
+        "description": "Jika situs saat ini tidak memiliki konfigurasi Gambar-dalam-Gambar, izinkan program mencoba mendeteksi elemen subtitle secara otomatis dan menambahkannya ke pemutar Gambar-dalam-Gambar. Ini adalah fitur yang tidak stabil dan mungkin tidak selalu mendeteksi elemen subtitle yang benar. Jika Anda seorang profesional, Anda dapat menambahkan konfigurasi elemen subtitle di pengaturan situs."
+      },
+      "continuousPlayback": {
+        "label": "Aktifkan Pemutaran Berkelanjutan",
+        "description": "Pemutaran berkelanjutan: Jendela Gambar-dalam-Gambar tidak menutup dan secara otomatis memutar episode berikutnya setelah video berakhir. Fitur ini memerlukan dukungan situs web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Warna Font",
         "description": "Atur warna font untuk situs ini."
+      },
+      "pipRestrictionAction": {
+        "label": "Tindakan Pembatasan Picture-in-Picture",
+        "description": "Jendela Picture-in-Picture lanjutan hanya dapat dibuka dari halaman utama dan tidak dapat diluncurkan dari frame atau konten yang disematkan. Anda dapat menggunakan mode Picture-in-Picture standar atau membuka di tab baru untuk mencoba lagi. Perhatikan bahwa video mungkin tidak dimuat dengan benar di tab baru.",
+        "default": "Default",
+        "use_standard_pip": "Gunakan Picture-in-Picture standar",
+        "open_in_new_tab": "Buka di tab baru"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Masuk otomatis ke Picture-in-Picture",
+        "description": "Secara otomatis masuk ke mode Picture-in-Picture saat video ada di halaman. Karena keterbatasan sistem, ini memerlukan interaksi pengguna dengan halaman."
+      },
+      "captionSetting": {
+        "label": "Pengaturan Teks",
+        "description": "Konfigurasikan pemilih CSS untuk elemen teks dan induknya di halaman. Pemilih CSS untuk elemen teks digunakan untuk menampilkan teks di pemutar, sedangkan pemilih induk digunakan untuk mengembalikan teks ke halaman asli saat keluar dari mode Picture-in-Picture.",
+        "configure": "Konfigurasi",
+        "selectorDesc": "Pemilih umum termasuk: '.class' untuk pemilih kelas, '#id' untuk pemilih ID, 'tag' untuk pemilih tag, dan '[attribute=value]' untuk pemilih atribut. Untuk detail lebih lanjut, kunjungi: [Pemilih CSS - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Pemilih CSS untuk elemen teks",
+        "captionParentSelectorDesc": "Pemilih CSS untuk induk elemen teks"
       }
     },
     "quickAccess": {

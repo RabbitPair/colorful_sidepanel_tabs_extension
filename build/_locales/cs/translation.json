@@ -241,5 +241,6 @@
   "shortName": "Krátký název",
   "expandIcons": "Rozbalit ikony",
   "expandList": "Rozbalit seznam",
-  "openAllUrls": "Otevřít všechny URL"
+  "openAllUrls": "Otevřít všechny URL",
+  "switchPIP": "Přepnout obraz v obraze"
 }

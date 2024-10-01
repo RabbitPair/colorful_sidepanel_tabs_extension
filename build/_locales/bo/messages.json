@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "ནང་གི་སྒྲིག་སྟངས།"
+  },
+  "switchPIP": {
+    "message": "སྒྲོམ་རིས་ནང་རིས་བསྒྱུར་བ།"
+  },
+  "play": {
+    "message": "འཁྲུལ་སྒྲོམ།"
+  },
+  "pause": {
+    "message": "འཇོག"
+  },
+  "shortcut_play_pause": {
+    "message": "འཁྲུལ་སྒྲོམ་འགོ་སྒྲིག/འཇོག"
+  },
+  "shortcut_adjust_volume": {
+    "message": "སྒྲ་ཚད་འགོ་སྒྲིག"
+  },
+  "shortcut_mute_unmute": {
+    "message": "སྒྲ་མེད/སྒྲ་ཡོད"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "འཁྲུལ་སྒྲོམ་སྐར་མ་ལྔ་སྔོན་འགྱངས/རྗེས་འགྱངས"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "འཁྲུལ་སྒྲོམ་སྐར་མ་བཅུ་སྔོན་འགྱངས/རྗེས་འགྱངས"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "འཁྲུལ་སྒྲོམ་སྔོན་འགྱངས/རྗེས་འགྱངས"
+  },
+  "shortcut_next_video": {
+    "message": "འཁྲུལ་སྒྲོམ་རྗེས་མ་བརྒྱུད"
+  },
+  "shortcut_previous_video": {
+    "message": "འཁྲུལ་སྒྲོམ་སྔོན་མ་བརྒྱུད"
+  },
+  "shortcut_toggle_captions": {
+    "message": "ཡིག་བསྡུར་བཀྲམ/ཁ་བསྡམ"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "རྒྱུན་འཁྱོངས་གྲོས་ཚོགས་བཀྲམ/ཁ་བསྡམ"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "གང་ཐང་བཀྲམ/ཁ་བསྡམ"
+  },
+  "shortcut_playback_speed": {
+    "message": "འཁྲུལ་སྒྲོམ་གྱི་མགོ་སྒྲིག"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "འཁྲུལ་སྒྲོམ་གི་འགོ་དང་མཇུག་ལ་འཚོལ"
+  },
+  "shortcut_seek_percentage": {
+    "message": "འཁྲུལ་སྒྲོམ་གྱི་ཆ་ཤས་ལ་འཚོལ"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "འཁྲུལ་སྒྲོམ་གང་ཐང་ལ་བཀོལ"
+  },
+  "shortcut_exit_pip": {
+    "message": "སྒྲོམ་རིས་ནང་རིས་ལས་ཕྱིར་འབྱེད"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "འཁྲུལ་སྒྲོམ་བཀྲམ/ཁ་བསྡམ་དང་འགོ་སྒྲིག/འཇོག"
+  },
+  "shortcut_enter_pip": {
+    "message": "གཙོ་ངོས་ལས་སྒྲོམ་རིས་ནང་རིས་བསྒྱུར་བ།"
+  },
+  "mute": {
+    "message": "སྒྲ་མེད"
+  },
+  "unmute": {
+    "message": "སྒྲ་ཡོད།"
+  },
+  "prev_video": {
+    "message": "བརྒྱུད་སྒྲོམ་སྔོན་མ།"
+  },
+  "next_video": {
+    "message": "བརྒྱུད་སྒྲོམ་རྗེས་མ།"
+  },
+  "playbackRate": {
+    "message": "འཁྲུལ་སྒྲོམ་གྱི་མགོ་སྒྲིག"
+  },
+  "subtitles": {
+    "message": "ཡིག་བསྡུར།"
+  },
+  "close_captions": {
+    "message": "ཡིག་བསྡུར་ཁ་བསྡམ།"
+  },
+  "danmaku": {
+    "message": "རྒྱུན་འཁྱོངས་གྲོས་ཚོགས།"
+  },
+  "fit_to_screen": {
+    "message": "Fit to Screen"
+  },
+  "reload_video": {
+    "message": "Reload Video"
+  },
+  "loading_pip_config": {
+    "message": "Loading Document Picture-in-Picture Configurations..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Playing in Document Picture-in-Picture Mode"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detecting Picture-in-Picture Subtitle Settings..."
+  },
+  "video_not_detected": {
+    "message": "Video not detected. It may not be ready yet. If there is a video on the page, please click play and try again."
+  },
+  "pip_window_restriction": {
+    "message": "Advanced Picture-in-Picture window can only be opened from the main page and cannot be launched from frames or embedded content. You can use standard Picture-in-Picture mode or open in a new tab to retry. Note that the video may not load properly in a new tab.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Opening a PiP window is only allowed from a top-level browsing context"
+  },
+  "use_standard_pip": {
+    "message": "Use standard PiP",
+    "description": "Option to use standard Picture-in-Picture mode"
+  },
+  "open_in_new_tab": {
+    "message": "Open in new tab",
+    "description": "Option to open the page in a new tab"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Remember this site's settings (You can modify it in Options - Site settings)"
+  },
+  "pip_user_activation_required": {
+    "message": "Picture-in-Picture mode requires user interaction. Please click or interact with the page and try again.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Document PiP requires user activation"
+  },
+  "retry_action": {
+    "message": "Try Again"
   }
 }

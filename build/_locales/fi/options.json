@@ -136,6 +136,7 @@
         "sortBy": "Lajittele",
         "createTabPanel": "Luo välilehtipaneeli",
         "tabPanels": "Välilehtipaneelit",
+        "switchPIP": "Vaihda kuva kuvassa -tilaan",
         "pinToToolbarReminder": "Kiinnitä laajennus työkalupalkkiin ennen tämän navigoinnin poistamista."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Tämä sivu on vain näyttöä varten. Muokataksesi pikanäppäimiä, käy [Laajennukset]->[Hallitse laajennuksia]->[Pikanäppäimet]",
       "goToBrowserSettings": "Siirry Chromen asetuksiin",
       "_execute_action": "Aktivoi tämä laajennus",
-      "openSidePanel": "Avaa sivupaneeli"
+      "openSidePanel": "Avaa sivupaneeli",
+      "switchPIP": "Vaihda kuva kuvassa -tilaan"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Kuva kuvassa",
@@ -392,6 +394,22 @@
         "description": "Jos nykyisellä sivulla toistetaan videota ja video ei ole mykistetty ja video on vierityksen aikana näkyvän alueen ulkopuolella, se siirtyy kuva kuvassa -tilaan.",
         "enabled": "Käytössä",
         "disabled": "Pois käytöstä"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automaattinen kuva kuvassa -tila välilehteä vaihdettaessa avaamatta sivupaneelia",
+        "description": "Jos nykyisellä sivulla toistetaan videota ja video ei ole mykistetty, ota käyttöön automaattinen kuva kuvassa -tila välilehteä vaihdettaessa avaamatta sivupaneelia. Huomaa, että tämä ominaisuus **vaatii käyttäjän aktivoinnin** (esim. napsauttamalla hiirellä sivun tyhjää aluetta)."
+      },
+      "advancedPipEnable": {
+        "label": "Ota käyttöön edistynyt kuva kuvassa -tila",
+        "description": "Kun käytössä, edistynyt kuva kuvassa -tila priorisoidaan. Jos sivu ei tue sitä, käytetään tavallista kuva kuvassa -tilaa.\nEdistynyt kuva kuvassa -tila käyttää mukautettua videotoistinta, joka tarjoaa ominaisuuksia, kuten:\n * Toista/Tauko video (Välilyönti)\n * Säädä äänenvoimakkuutta (Ylös/Alas nuoli)\n * Mykistä/Poista mykistys videosta\n * Kelaa eteenpäin/Taaksepäin video (Vasen/Oikea nuoli tai hiiren rulla)\n * Toista seuraava video\n * Näytä tekstitykset (tuettu joillakin verkkosivustoilla, esim. youtube.com, vimeo.com, tver.jp, jne.)\n * Näytä kommentit (tuettu joillakin verkkosivustoilla, esim. nicovideo.jp, bilibili.com, jne.)\n * Poistu kuva kuvassa -tilasta (Esc)\n * Vaihda piilota/näytä video ja toista/tauko (Q)\n >Jos usein vierailemasi verkkosivustot tukevat tekstityksiä tai kommentteja, voit lähettää [ongelman: Edistynyt kuva kuvassa -tila](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), ja mukautamme sen mahdollisimman pian. Huomaa, että joillakin verkkosivustoilla voi olla alueellisia rajoituksia, ja saatat joutua antamaan lisätietoja."
+      },
+      "subtitleDetection": {
+        "label": "Ota käyttöön tekstitysten tunnistus",
+        "description": "Jos nykyisellä sivustolla ei ole kuva kuvassa -tilan asetuksia, salli ohjelman yrittää automaattisesti tunnistaa tekstityselementit ja lisätä ne kuva kuvassa -soittimeen. Tämä on epävakaa ominaisuus, eikä se välttämättä aina tunnista oikeita tekstityselementtejä. Jos olet ammattilainen, voit lisätä tekstityselementtien asetuksia sivuston asetuksissa."
+      },
+      "continuousPlayback": {
+        "label": "Ota käyttöön jatkuva toisto",
+        "description": "Jatkuva toisto: Kuva kuvassa -ikkuna ei sulkeudu ja toistaa automaattisesti seuraavan jakson videon päätyttyä. Tämä ominaisuus vaatii verkkosivuston tuen."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Fontin väri",
         "description": "Aseta fontin väri tälle sivustolle."
+      },
+      "pipRestrictionAction": {
+        "label": "Kuva-kuvassa rajoitustoiminto",
+        "description": "Edistynyt kuva-kuvassa-ikkuna voidaan avata vain pääsivulta, eikä sitä voi käynnistää kehyksistä tai upotetusta sisällöstä. Voit käyttää tavallista kuva-kuvassa-tilaa tai avata uuden välilehden yrittääksesi uudelleen. Huomaa, että video ei välttämättä lataudu oikein uudessa välilehdessä.",
+        "default": "Oletus",
+        "use_standard_pip": "Käytä tavallista kuva-kuvassa-tilaa",
+        "open_in_new_tab": "Avaa uudessa välilehdessä"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automaattinen kuva-kuvassa-tila",
+        "description": "Siirry automaattisesti kuva-kuvassa-tilaan, kun sivulla on video. Järjestelmän rajoitusten vuoksi tämä vaatii käyttäjän vuorovaikutusta sivun kanssa."
+      },
+      "captionSetting": {
+        "label": "Tekstityksen asetukset",
+        "description": "Määritä CSS-valitsimet tekstityselementille ja sen vanhemmalle sivulla. Tekstityselementin CSS-valitsinta käytetään näyttämään tekstitykset soittimessa, kun taas vanhemman valitsinta käytetään palauttamaan tekstitykset alkuperäiselle sivulle, kun poistutaan kuva-kuvassa-tilasta.",
+        "configure": "Määritä",
+        "selectorDesc": "Yleisiä valitsimia ovat: '.class' luokkavalitsimille, '#id' ID-valitsimille, 'tag' tunnistevalitsimille ja '[attribute=value]' attribuuttivalitsimille. Lisätietoja saat osoitteesta: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-valitsimet tekstityselementille",
+        "captionParentSelectorDesc": "CSS-valitsimet tekstityselementin vanhemmalle"
       }
     },
     "quickAccess": {

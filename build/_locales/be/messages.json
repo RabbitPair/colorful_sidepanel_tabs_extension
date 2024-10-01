@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Унутраныя сістэмы"
+  },
+  "switchPIP": {
+    "message": "Пераключыць карцінку ў карцінцы"
+  },
+  "play": {
+    "message": "Гуляць"
+  },
+  "pause": {
+    "message": "Паўза"
+  },
+  "shortcut_play_pause": {
+    "message": "Прайграць/Паўза відэа"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Наладзіць гучнасць"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Адключыць/Уключыць гук відэа"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Перамотка наперад/назад відэа на 5 секунд"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Перамотка наперад/назад відэа на 10 секунд"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Перамотка наперад/назад відэа"
+  },
+  "shortcut_next_video": {
+    "message": "Прайграць наступнае відэа"
+  },
+  "shortcut_previous_video": {
+    "message": "Прайграць папярэдняе відэа"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Паказаць/Схаваць субтытры"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Паказаць/Схаваць каментары на экране"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Пераключыць поўнаэкранны рэжым"
+  },
+  "shortcut_playback_speed": {
+    "message": "Наладзіць хуткасць прайгравання"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Перайсці да пачатку/канца відэа"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Перайсці да працэнта відэа"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Падладзіць акно пад памер відэа"
+  },
+  "shortcut_exit_pip": {
+    "message": "Выйсці з рэжыму Карцінка-ў-карцінцы"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Пераключыць схаваць/паказаць відэа і прайграць/паўза"
+  },
+  "shortcut_enter_pip": {
+    "message": "Пераключыць рэжым Карцінка-ў-карцінцы з галоўнай старонкі"
+  },
+  "mute": {
+    "message": "Адключыць гук"
+  },
+  "unmute": {
+    "message": "Уключыць гук"
+  },
+  "prev_video": {
+    "message": "Папярэдняе відэа"
+  },
+  "next_video": {
+    "message": "Наступнае відэа"
+  },
+  "playbackRate": {
+    "message": "Хуткасць прайгравання"
+  },
+  "subtitles": {
+    "message": "Субтытры"
+  },
+  "close_captions": {
+    "message": "Закрытыя субтытры"
+  },
+  "danmaku": {
+    "message": "Каментары на экране"
+  },
+  "fit_to_screen": {
+    "message": "Прыстасаваць да экрана"
+  },
+  "reload_video": {
+    "message": "Перазагрузіць відэа"
+  },
+  "loading_pip_config": {
+    "message": "Загрузка налад карцінкі ў карцінцы..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Прайграванне ў рэжыме карцінкі ў карцінцы"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Вызначэнне налад субтытраў карцінкі ў карцінцы..."
+  },
+  "video_not_detected": {
+    "message": "Відэа не выяўлена. Магчыма, яно яшчэ не гатова. Калі на старонцы ёсць відэа, націсніце кнопку прайгравання і паспрабуйце зноў."
+  },
+  "pip_window_restriction": {
+    "message": "Пашыранае акно карцінкі ў карцінцы можна адкрыць толькі з галоўнай старонкі і нельга запускаць з фрэймаў або ўбудаванага кантэнту. Вы можаце выкарыстоўваць стандартны рэжым карцінкі ў карцінцы або адкрыць у новай укладцы, каб паспрабаваць зноў. Звярніце ўвагу, што відэа можа не загрузіцца належным чынам у новай укладцы.",
+    "description": "Не ўдалося выканаць 'requestWindow' на 'DocumentPictureInPicture': Адкрыццё акна PiP дазволена толькі з кантэксту прагляду верхняга ўзроўню"
+  },
+  "use_standard_pip": {
+    "message": "Выкарыстоўваць стандартны PiP",
+    "description": "Варыянт выкарыстання стандартнага рэжыму карцінкі ў карцінцы"
+  },
+  "open_in_new_tab": {
+    "message": "Адкрыць у новай укладцы",
+    "description": "Варыянт адкрыцця старонкі ў новай укладцы"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Запомніць налады гэтага сайта (Вы можаце змяніць іх у Наладах - Налады сайта)"
+  },
+  "pip_user_activation_required": {
+    "message": "Рэжым карцінкі ў карцінцы патрабуе ўзаемадзеяння карыстальніка. Калі ласка, націсніце або ўзаемадзейнічайце са старонкай і паспрабуйце зноў.",
+    "description": "Не ўдалося выканаць 'requestWindow' на 'DocumentPictureInPicture': Document PiP патрабуе актывацыі карыстальнікам"
+  },
+  "retry_action": {
+    "message": "Паспрабаваць зноў"
   }
 }

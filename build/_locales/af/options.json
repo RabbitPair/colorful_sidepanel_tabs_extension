@@ -136,6 +136,7 @@
         "sortBy": "Sorteer Volgens",
         "createTabPanel": "Skep Oortjiepaneel",
         "tabPanels": "Oortjiepanele",
+        "switchPIP": "Skakel Oor na Beeld-in-Beeld",
         "pinToToolbarReminder": "Maak asseblief seker dat die uitbreiding aan jou nutsbalk vasgemaak is voordat jy hierdie navigasie verwyder."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Hierdie bladsy is slegs vir vertoning. Om kortpaaie te wysig, besoek asseblief [Uitbreidings]->[Bestuur Uitbreidings]->[Sleutelbordkortpaaie]",
       "goToBrowserSettings": "Gaan na instellings",
       "_execute_action": "Aktiveer hierdie uitbreiding",
-      "openSidePanel": "Maak sypaneel oop"
+      "openSidePanel": "Maak sypaneel oop",
+      "switchPIP": "Skakel Prentjie-in-Prentjie"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Prentjie-in-prentjie",
@@ -392,6 +394,22 @@
         "description": "As die huidige bladsy 'n video speel en die video nie gestem is nie en die video buite die sigbare reeks is wanneer jy rol, sal dit prentjie-in-prentjie betree.",
         "enabled": "Geaktiveer",
         "disabled": "Gedeaktiveer"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Outo Prentjie-in-Prentjie by Tab Wissel sonder om Sypaneel oop te maak",
+        "description": "As die huidige bladsy 'n video speel en die video nie gestem is nie, aktiveer outo Prentjie-in-Prentjie by tab wissel sonder om die sypaneel oop te maak. Let daarop dat hierdie funksie **gebruikersaktivering vereis** (bv. klik met die muis op 'n leë area van die bladsy)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktiveer Gevorderde Prentjie-in-Prentjie",
+        "description": "Wanneer geaktiveer, sal Gevorderde Prentjie-in-Prentjie voorrang geniet. As die bladsy dit nie ondersteun nie, sal gewone Prentjie-in-Prentjie gebruik word.\nGevorderde Prentjie-in-Prentjie gebruik 'n pasgemaakte videospeler, wat funksies bied soos:\n * Speel/Pouse video (Spasie)\n * Pas volume aan (Op/Af Pyl)\n * Demp/Ondemp video\n * Spoel vinnig vorentoe/Terugspoel video (Links/Regs Pyl of Muiswiel)\n * Speel die volgende video\n * Vertoon onderskrifte (ondersteun op sommige webwerwe, bv. youtube.com, vimeo.com, tver.jp, ens.)\n * Vertoon barrage (ondersteun op sommige webwerwe, bv. nicovideo.jp, bilibili.com, ens.)\n * Verlaat Prentjie-in-Prentjie (Esc)\n * Skakel verberg/wys video en speel/pouse (Q)\n >As die webwerwe wat jy gereeld besoek onderskrifte of barrage ondersteun, kan jy 'n [kwessie: Gevorderde Prentjie-in-Prentjie](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) indien, en ons sal dit so gou as moontlik aanpas. Let daarop dat sommige webwerwe streekbeperkings mag hê, en jy mag dalk addisionele inligting moet verskaf."
+      },
+      "subtitleDetection": {
+        "label": "Aktiveer Onderskrif Opsporing",
+        "description": "As die huidige webwerf nie 'n Prentjie-in-Prentjie konfigurasie het nie, laat die program toe om outomaties onderskrif elemente op te spoor en by die Prentjie-in-Prentjie speler te voeg. Dit is 'n onstabiele funksie en mag nie altyd die korrekte onderskrif elemente opspoor nie. As jy 'n professionele persoon is, kan jy onderskrif element konfigurasies in die webwerf instellings byvoeg."
+      },
+      "continuousPlayback": {
+        "label": "Aktiveer Deurlopende Speel",
+        "description": "Deurlopende speel: Die Prentjie-in-Prentjie venster maak nie toe nie en speel outomaties die volgende episode nadat die video eindig. Hierdie funksie vereis webwerf ondersteuning."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Letterkleur",
         "description": "Stel die letterkleur vir hierdie webwerf."
+      },
+      "pipRestrictionAction": {
+        "label": "Picture-in-Picture Beperkingsaksie",
+        "description": "Gevorderde Picture-in-Picture venster kan slegs vanaf die hoofblad oopgemaak word en kan nie vanaf rame of ingebedde inhoud begin word nie. Jy kan standaard Picture-in-Picture modus gebruik of in 'n nuwe tab oopmaak om weer te probeer. Let daarop dat die video moontlik nie behoorlik in 'n nuwe tab sal laai nie.",
+        "default": "Standaard",
+        "use_standard_pip": "Gebruik standaard Picture-in-Picture",
+        "open_in_new_tab": "Maak in nuwe tab oop"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Outomatiese Picture-in-Picture",
+        "description": "Gaan outomaties Picture-in-Picture modus binne wanneer 'n video teenwoordig is by die betreding van die bladsy. As gevolg van stelselbeperkings, vereis dit gebruikersinteraksie met die bladsy."
+      },
+      "captionSetting": {
+        "label": "Onderskrif Instellings",
+        "description": "Stel die CSS selektore vir die onderskrif element en sy ouer op die bladsy in. Die CSS selektor vir die onderskrif element word gebruik om onderskrifte in die speler te vertoon, terwyl die ouer selektor gebruik word om die onderskrifte na die oorspronklike bladsy terug te keer wanneer Picture-in-Picture modus verlaat word.",
+        "configure": "Stel in",
+        "selectorDesc": "Algemene selektore sluit in: '.class' vir klas selektore, '#id' vir ID selektore, 'tag' vir tag selektore, en '[attribute=value]' vir attribuut selektore. Vir meer besonderhede, besoek: [CSS selektore - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS selektore vir die onderskrif element",
+        "captionParentSelectorDesc": "CSS selektore vir die ouer van die onderskrif element"
       }
     },
     "quickAccess": {

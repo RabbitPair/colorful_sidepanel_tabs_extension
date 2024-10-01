@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistemes Interns"
+  },
+  "switchPIP": {
+    "message": "Canviar a Picture-in-Picture"
+  },
+  "play": {
+    "message": "Reproduir"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "shortcut_play_pause": {
+    "message": "Reproduir/Pausa vídeo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ajustar volum"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Silenciar/Activar so del vídeo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avançar/Rebobinar vídeo 5 segons"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avançar/Rebobinar vídeo 10 segons"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avançar/Rebobinar vídeo"
+  },
+  "shortcut_next_video": {
+    "message": "Reproduir el següent vídeo"
+  },
+  "shortcut_previous_video": {
+    "message": "Reproduir el vídeo anterior"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Mostrar/Amagar subtítols"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Mostrar/Amagar xat en pantalla"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Canviar a pantalla completa"
+  },
+  "shortcut_playback_speed": {
+    "message": "Ajustar velocitat de reproducció"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Buscar al començament/final del vídeo"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Buscar al percentatge del vídeo"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Ajustar finestra a la mida del vídeo"
+  },
+  "shortcut_exit_pip": {
+    "message": "Sortir de Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Canviar amagar/mostrar vídeo i reproduir/pausa"
+  },
+  "shortcut_enter_pip": {
+    "message": "Canviar a Picture-in-Picture des de la pàgina principal"
+  },
+  "mute": {
+    "message": "Silenciar"
+  },
+  "unmute": {
+    "message": "Activar so"
+  },
+  "prev_video": {
+    "message": "Vídeo Anterior"
+  },
+  "next_video": {
+    "message": "Següent Vídeo"
+  },
+  "playbackRate": {
+    "message": "Velocitat de Reproducció"
+  },
+  "subtitles": {
+    "message": "Subtítols"
+  },
+  "close_captions": {
+    "message": "Subtítols Tancats"
+  },
+  "danmaku": {
+    "message": "Xat en pantalla"
+  },
+  "fit_to_screen": {
+    "message": "Ajustar a la Pantalla"
+  },
+  "reload_video": {
+    "message": "Recarregar Vídeo"
+  },
+  "loading_pip_config": {
+    "message": "Carregant Configuracions de Picture-in-Picture..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Reproduint en Mode Picture-in-Picture"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detectant Configuracions de Subtítols de Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Vídeo no detectat. Pot ser que encara no estigui llest. Si hi ha un vídeo a la pàgina, si us plau, fes clic a reproduir i torna a intentar-ho."
+  },
+  "pip_window_restriction": {
+    "message": "La finestra avançada de Picture-in-Picture només es pot obrir des de la pàgina principal i no es pot llançar des de marcs o contingut incrustat. Pots utilitzar el mode estàndard de Picture-in-Picture o obrir en una nova pestanya per tornar a intentar-ho. Tingues en compte que el vídeo pot no carregar-se correctament en una nova pestanya.",
+    "description": "No s'ha pogut executar 'requestWindow' en 'DocumentPictureInPicture': Obrir una finestra PiP només està permès des d'un context de navegació de nivell superior"
+  },
+  "use_standard_pip": {
+    "message": "Utilitzar PiP estàndard",
+    "description": "Opció per utilitzar el mode estàndard de Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Obrir en una nova pestanya",
+    "description": "Opció per obrir la pàgina en una nova pestanya"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Recordar la configuració d'aquest lloc (Pots modificar-ho a Opcions - Configuració del lloc)"
+  },
+  "pip_user_activation_required": {
+    "message": "El mode Picture-in-Picture requereix interacció de l'usuari. Si us plau, fes clic o interactua amb la pàgina i torna a intentar-ho.",
+    "description": "No s'ha pogut executar 'requestWindow' en 'DocumentPictureInPicture': El Document PiP requereix activació de l'usuari"
+  },
+  "retry_action": {
+    "message": "Torna a intentar-ho"
   }
 }

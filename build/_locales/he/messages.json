@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "מערכות פנימיות"
+  },
+  "switchPIP": {
+    "message": "החלף תמונה בתוך תמונה"
+  },
+  "play": {
+    "message": "נגן"
+  },
+  "pause": {
+    "message": "השהה"
+  },
+  "shortcut_play_pause": {
+    "message": "נגן/השהה וידאו"
+  },
+  "shortcut_adjust_volume": {
+    "message": "כוונן עוצמת קול"
+  },
+  "shortcut_mute_unmute": {
+    "message": "השתק/בטל השתקה של וידאו"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "הרץ קדימה/אחורה וידאו 5 שניות"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "הרץ קדימה/אחורה וידאו 10 שניות"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "הרץ קדימה/אחורה וידאו"
+  },
+  "shortcut_next_video": {
+    "message": "נגן את הווידאו הבא"
+  },
+  "shortcut_previous_video": {
+    "message": "נגן את הווידאו הקודם"
+  },
+  "shortcut_toggle_captions": {
+    "message": "הצג/הסתר כתוביות"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "הצג/הסתר צ'אט כדורים"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "החלף למסך מלא"
+  },
+  "shortcut_playback_speed": {
+    "message": "כוונן מהירות ניגון"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "דלג להתחלה/סוף של הווידאו"
+  },
+  "shortcut_seek_percentage": {
+    "message": "דלג לאחוז מסוים של הווידאו"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "כוונן חלון להתאמת גודל הווידאו"
+  },
+  "shortcut_exit_pip": {
+    "message": "צא ממצב תמונה בתוך תמונה"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "החלף הסתר/הצג וידאו ונגן/השהה"
+  },
+  "shortcut_enter_pip": {
+    "message": "החלף למצב תמונה בתוך תמונה מהדף הראשי"
+  },
+  "mute": {
+    "message": "השתק"
+  },
+  "unmute": {
+    "message": "בטל השתקה"
+  },
+  "prev_video": {
+    "message": "וידאו קודם"
+  },
+  "next_video": {
+    "message": "וידאו הבא"
+  },
+  "playbackRate": {
+    "message": "מהירות ניגון"
+  },
+  "subtitles": {
+    "message": "כתוביות"
+  },
+  "close_captions": {
+    "message": "כתוביות סגורות"
+  },
+  "danmaku": {
+    "message": "צ'אט כדורים"
+  },
+  "fit_to_screen": {
+    "message": "התאם למסך"
+  },
+  "reload_video": {
+    "message": "טען מחדש את הווידאו"
+  },
+  "loading_pip_config": {
+    "message": "טוען הגדרות תמונה בתוך תמונה..."
+  },
+  "playing_in_pip_mode": {
+    "message": "ניגון במצב תמונה בתוך תמונה"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "מאתר הגדרות כתוביות לתמונה בתוך תמונה..."
+  },
+  "video_not_detected": {
+    "message": "הווידאו לא זוהה. ייתכן שהוא עדיין לא מוכן. אם יש וידאו בדף, אנא לחץ על נגן ונסה שוב."
+  },
+  "pip_window_restriction": {
+    "message": "חלון תמונה בתוך תמונה מתקדם יכול להיפתח רק מהדף הראשי ולא ניתן להפעילו ממסגרות או תוכן מוטמע. ניתן להשתמש במצב תמונה בתוך תמונה רגיל או לפתוח בכרטיסייה חדשה כדי לנסות שוב. שים לב שהווידאו עשוי לא להיטען כראוי בכרטיסייה חדשה.",
+    "description": "נכשל בביצוע 'requestWindow' על 'DocumentPictureInPicture': פתיחת חלון PiP מותרת רק מהקשר גלישה ברמה העליונה"
+  },
+  "use_standard_pip": {
+    "message": "השתמש במצב PiP רגיל",
+    "description": "אפשרות להשתמש במצב תמונה בתוך תמונה רגיל"
+  },
+  "open_in_new_tab": {
+    "message": "פתח בכרטיסייה חדשה",
+    "description": "אפשרות לפתוח את הדף בכרטיסייה חדשה"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "זכור את הגדרות האתר הזה (ניתן לשנות זאת באפשרויות - הגדרות אתר)"
+  },
+  "pip_user_activation_required": {
+    "message": "מצב תמונה בתוך תמונה דורש אינטראקציה של המשתמש. אנא לחץ או אינטראקציה עם הדף ונסה שוב.",
+    "description": "נכשל בביצוע 'requestWindow' על 'DocumentPictureInPicture': מצב PiP דורש הפעלה של המשתמש"
+  },
+  "retry_action": {
+    "message": "נסה שוב"
   }
 }

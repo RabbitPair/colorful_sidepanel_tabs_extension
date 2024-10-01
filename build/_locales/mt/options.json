@@ -136,6 +136,7 @@
         "sortBy": "Ordna Skont",
         "createTabPanel": "Oħloq Pannell tat-Tab",
         "tabPanels": "Pannelli tat-Tab",
+        "switchPIP": "Aqleb Picture-in-Picture",
         "pinToToolbarReminder": "Jekk jogħġbok pinna l-estensjoni mat-toolbar tiegħek qabel tneħħi din in-navigazzjoni."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Dan il-paġna hi għall-viżwalizzazzjoni biss. Biex tmodifika l-kurżuri, żur il-[Estensjonijiet]->[Ikkontrolla Estensjonijiet]->[Kurżuri tal-Keyboard]",
       "goToBrowserSettings": "Mur għall-impostazzjonijiet tal-Chrome",
       "_execute_action": "Attiva din l'estensjoni",
-      "openSidePanel": "Iftaħ il-panel naħa"
+      "openSidePanel": "Iftaħ il-panel naħa",
+      "switchPIP": "Aqleb Picture-in-Picture"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Picture-in-picture",
@@ -392,6 +394,22 @@
         "description": "Jekk il-paġna attwali qed jgħallem video u l-video mhux imxewwar u l-video barra mill-ħsieb viżiv meta tisrollja, se jidħol fil-picture-in-picture.",
         "enabled": "Attivat",
         "disabled": "Mxarrab"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Picture-in-Picture fuq Tab Switch mingħajr ma Tiftaħ il-Panew tal-Ġenb",
+        "description": "Jekk il-paġna attwali qed iddoqq video u l-video mhux imxewwar, attiva auto Picture-in-Picture fuq tab switch mingħajr ma tiftaħ il-panew tal-ġenb. Innota li din il-karatteristika **teħtieġ attivazzjoni tal-utent** (eż., tikklikkja l-maws fuq żona vojta tal-paġna)."
+      },
+      "advancedPipEnable": {
+        "label": "Attiva Picture-in-Picture Avvanzat",
+        "description": "Meta tkun attivata, Picture-in-Picture Avvanzat se jkun prijoritizzat. Jekk il-paġna ma tappoġġjahx, se jintuża Picture-in-Picture regolari.\nPicture-in-Picture Avvanzat juża plejer tal-video personalizzat, li joffri karatteristiċi bħal:\n * Play/Pause video (Space)\n * Aġġusta l-volum (Up/Down Arrow)\n * Mute/Unmute video\n * Fast forward/Rewind video (Left/Right Arrow jew Mouse Wheel)\n * Doqq il-video li jmiss\n * Uri sottotitoli (appoġġjat fuq xi websajts, eż., youtube.com, vimeo.com, tver.jp, eċċ.)\n * Uri barrage (appoġġjat fuq xi websajts, eż., nicovideo.jp, bilibili.com, eċċ.)\n * Ħruġ minn Picture-in-Picture (Esc)\n * Toggle hide/show video u play/pause (Q)\n >Jekk il-websajts li żżur ta' spiss jappoġġjaw sottotitoli jew barrage, tista' tissottometti [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), u aħna naddattawha kemm jista' jkun malajr. Innota li xi websajts jistgħu jkollhom restrizzjonijiet reġjonali, u jista' jkollok bżonn tipprovdi informazzjoni addizzjonali."
+      },
+      "subtitleDetection": {
+        "label": "Attiva Skoperta ta' Sottotitoli",
+        "description": "Jekk is-sit attwali m'għandux konfigurazzjoni ta' Picture-in-Picture, ippermetti lill-programm jipprova awtomatikament jiskopri elementi ta' sottotitoli u jżidhom mal-plejer ta' Picture-in-Picture. Din hija karatteristika instabbli u tista' ma tiskoprix dejjem l-elementi ta' sottotitoli korretti. Jekk int professjonist, tista' żżid konfigurazzjonijiet ta' elementi ta' sottotitoli fis-settings tas-sit."
+      },
+      "continuousPlayback": {
+        "label": "Attiva Playback Kontinwu",
+        "description": "Playback kontinwu: It-tieqa ta' Picture-in-Picture ma tagħlaqx u awtomatikament iddoqq l-episodju li jmiss wara li jintemm il-video. Din il-karatteristika teħtieġ appoġġ tal-websajt."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Kulur tal-Font",
         "description": "Istabli kulur tal-font għal dan is-sit."
+      },
+      "pipRestrictionAction": {
+        "label": "Azzjoni ta' Restrizzjoni Picture-in-Picture",
+        "description": "Tieqa avvanzata Picture-in-Picture tista' tinfetaħ biss mill-paġna prinċipali u ma tistax titnieda minn frames jew kontenut inkorporat. Tista' tuża l-mod standard Picture-in-Picture jew tiftaħ f'tab ġdid biex terġa' tipprova. Innota li l-video jista' ma jitgħabbiex sew f'tab ġdid.",
+        "default": "Default",
+        "use_standard_pip": "Uża Picture-in-Picture standard",
+        "open_in_new_tab": "Iftaħ f'tab ġdid"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Daħal awtomatikament Picture-in-Picture",
+        "description": "Daħal awtomatikament fil-mod Picture-in-Picture meta jkun hemm video preżenti meta tidħol fil-paġna. Minħabba limitazzjonijiet tas-sistema, dan jeħtieġ interazzjoni tal-utent mal-paġna."
+      },
+      "captionSetting": {
+        "label": "Settings tal-Captions",
+        "description": "Ikkonfigura s-seletturi CSS għall-element tal-caption u l-ġenitur tiegħu fuq il-paġna. Is-selettur CSS għall-element tal-caption jintuża biex jintwerew il-captions fil-player, filwaqt li s-selettur tal-ġenitur jintuża biex jirritorna l-captions għall-paġna oriġinali meta toħroġ mill-mod Picture-in-Picture.",
+        "configure": "Ikkonfigura",
+        "selectorDesc": "Seletturi komuni jinkludu: '.class' għal seletturi tal-klassi, '#id' għal seletturi tal-ID, 'tag' għal seletturi tat-tikketta, u '[attribute=value]' għal seletturi tal-attribut. Għal aktar dettalji, żur: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Seletturi CSS għall-element tal-caption",
+        "captionParentSelectorDesc": "Seletturi CSS għall-ġenitur tal-element tal-caption"
       }
     },
     "quickAccess": {

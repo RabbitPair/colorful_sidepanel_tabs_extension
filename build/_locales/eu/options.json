@@ -136,6 +136,7 @@
         "sortBy": "Ordenatu Honela",
         "createTabPanel": "Sortu Fitxa Panela",
         "tabPanels": "Fitxa Panelak",
+        "switchPIP": "Aldatu Irudi-irudi modua",
         "pinToToolbarReminder": "Kendu aurretik, gehitu luzapena tresna-barran."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Orria bistaratze bakarrik da. Lasterteklak aldatzeko, joan [Extension]->[Kudeatu Luzapenak]->[Teklatu lasterteklak]",
       "goToBrowserSettings": "Joan Chrome ezarpenetara",
       "_execute_action": "Aktibatu luzapen hau",
-      "openSidePanel": "Ireki alboko panela"
+      "openSidePanel": "Ireki alboko panela",
+      "switchPIP": "Aldatu Irudia-irudian"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Irudia-irudian",
@@ -392,6 +394,22 @@
         "description": "Orria bideo bat erreproduzitzen ari bada eta bideoa desgaitua badago eta bideoa ikusgarriaren eremuan dagoenean scroll egiten denean, irudia-irudian sartuko da.",
         "enabled": "Gaituta",
         "disabled": "Desgaituta"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Irudia-irudian automatikoki fitxa aldatzean alboko panela ireki gabe",
+        "description": "Uneko orria bideo bat erreproduzitzen ari bada eta bideoa ez badago isilik, gaituta irudia-irudian automatikoki fitxa aldatzean alboko panela ireki gabe. Kontuan izan funtzio honek **erabiltzailearen aktibazioa** behar duela (adibidez, orriaren hutsune batean klik eginez)."
+      },
+      "advancedPipEnable": {
+        "label": "Gaitu Irudi-irudi Aurreratua",
+        "description": "Gaituta dagoenean, Irudi-irudi Aurreratua lehenetsiko da. Orrialdeak ez badu onartzen, Irudi-irudi arrunta erabiliko da.\nIrudi-irudi Aurreratuak bideo-jokalari pertsonalizatua erabiltzen du, honako ezaugarriak eskaintzen dituena:\n * Bideoa erreproduzitu/gelditu (Espazioa)\n * Bolumena doitu (Gora/Behera Geziak)\n * Bideoa isildu/berreskuratu\n * Bideoa aurreratu/atzera egin (Ezker/Eskuineko Geziak edo Saguaren Gurpila)\n * Hurrengo bideoa erreproduzitu\n * Azpitituluak erakutsi (webgune batzuetan onartua, adibidez, youtube.com, vimeo.com, tver.jp, etab.)\n * Barrage erakutsi (webgune batzuetan onartua, adibidez, nicovideo.jp, bilibili.com, etab.)\n * Irudi-iruditik irten (Esc)\n * Bideoa ezkutatu/erakutsi eta erreproduzitu/gelditu (Q)\n >Maiz bisitatzen dituzun webguneek azpitituluak edo barrage onartzen badituzte, [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) aurkeztu dezakezu, eta ahalik eta azkarren egokituko dugu. Kontuan izan webgune batzuek murrizketa erregionalak izan ditzaketela, eta informazio gehigarria eman beharko duzula."
+      },
+      "subtitleDetection": {
+        "label": "Gaitu Azpitituluen Detekzioa",
+        "description": "Uneko guneak Irudi-irudi konfiguraziorik ez badu, programari azpitituluen elementuak automatikoki detektatzen saiatzeko eta Irudi-irudi jokalarira gehitzeko aukera eman. Ezaugarri ezegonkorra da eta ez du beti azpitituluen elementu zuzenak detektatuko. Profesionala bazara, azpitituluen elementuen konfigurazioak gehi ditzakezu gune ezarpenetan."
+      },
+      "continuousPlayback": {
+        "label": "Gaitu Erreprodukzio Jarraia",
+        "description": "Erreprodukzio jarraitua: Irudi-irudi leihoa ez da ixten eta bideoa amaitu ondoren hurrengo atala automatikoki erreproduzitzen du. Ezaugarri honek webgunearen laguntza behar du."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Letra kolorea",
         "description": "Ezarri letra kolorea gune honetarako."
+      },
+      "pipRestrictionAction": {
+        "label": "Irudi-irudi murrizketa ekintza",
+        "description": "Irudi-irudi aurreratuko leihoa orri nagusitik bakarrik ireki daiteke eta ezin da markoetatik edo txertatutako edukietatik abiarazi. Irudi-irudi estandarra erabil dezakezu edo fitxa berri batean ireki berriro saiatzeko. Kontuan izan bideoa ez dela behar bezala kargatuko fitxa berri batean.",
+        "default": "Lehenetsia",
+        "use_standard_pip": "Erabili irudi-irudi estandarra",
+        "open_in_new_tab": "Ireki fitxa berri batean"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Irudi-irudi automatikoki sartu",
+        "description": "Irudi-irudi moduan automatikoki sartu bideo bat dagoenean orria sartzean. Sistema mugak direla eta, erabiltzailearen interakzioa behar da orriarekin."
+      },
+      "captionSetting": {
+        "label": "Azpitituluen ezarpenak",
+        "description": "Konfiguratu CSS hautatzaileak orriko azpititulu elementurako eta bere gurasorako. Azpititulu elementurako CSS hautatzailea erabiltzen da azpitituluak erreproduzitzailean bistaratzeko, eta guraso hautatzailea azpitituluak jatorrizko orrira itzultzeko erabiltzen da irudi-irudi modutik irtetean.",
+        "configure": "Konfiguratu",
+        "selectorDesc": "Hautatzaile arruntak hauek dira: '.class' klase hautatzaileetarako, '#id' ID hautatzaileetarako, 'tag' etiketa hautatzaileetarako, eta '[attribute=value]' atributu hautatzaileetarako. Xehetasun gehiago lortzeko, bisitatu: [CSS hautatzaileak - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS hautatzaileak azpititulu elementurako",
+        "captionParentSelectorDesc": "CSS hautatzaileak azpititulu elementuaren gurasorako"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistemet e Brendshme"
+  },
+  "switchPIP": {
+    "message": "Ndrysho Picture-in-Picture"
+  },
+  "play": {
+    "message": "Luaj"
+  },
+  "pause": {
+    "message": "Pauzë"
+  },
+  "shortcut_play_pause": {
+    "message": "Luaj/Pauzo video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Rregullo volumin"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Fik/Ndez zërin e videos"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Përparim/Pastrim video 5 sekonda"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Përparim/Pastrim video 10 sekonda"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Përparim/Pastrim video"
+  },
+  "shortcut_next_video": {
+    "message": "Luaj videon tjetër"
+  },
+  "shortcut_previous_video": {
+    "message": "Luaj videon e mëparshme"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Shfaq/Fshih titrat"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Shfaq/Fshih bisedat me plumba"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Ndrysho ekranin e plotë"
+  },
+  "shortcut_playback_speed": {
+    "message": "Rregullo shpejtësinë e riprodhimit"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Kërko në fillim/fund të videos"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Kërko përqindjen e videos"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Rregullo dritaren për të përshtatur madhësinë e videos"
+  },
+  "shortcut_exit_pip": {
+    "message": "Dil nga Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Ndrysho fsheh/shfaq videon dhe luaj/pauzo"
+  },
+  "shortcut_enter_pip": {
+    "message": "Ndrysho Picture-in-Picture nga faqja kryesore"
+  },
+  "mute": {
+    "message": "Fik zërin"
+  },
+  "unmute": {
+    "message": "Ç'hesh"
+  },
+  "prev_video": {
+    "message": "Video e Mëparshme"
+  },
+  "next_video": {
+    "message": "Video e Radhës"
+  },
+  "playbackRate": {
+    "message": "Shpejtësia e Riprodhimit"
+  },
+  "subtitles": {
+    "message": "Nëntituj"
+  },
+  "close_captions": {
+    "message": "Titrat e Mbyllura"
+  },
+  "danmaku": {
+    "message": "Bisedë me Plumba"
+  },
+  "fit_to_screen": {
+    "message": "Përshtat në Ekran"
+  },
+  "reload_video": {
+    "message": "Ringarko Videon"
+  },
+  "loading_pip_config": {
+    "message": "Duke Ngarkuar Konfigurimet e Picture-in-Picture të Dokumentit..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Duke Luajtur në Mënyrën Picture-in-Picture të Dokumentit"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Duke Zbuluar Cilësimet e Nëntitujve të Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Videoja nuk u zbulua. Mund të mos jetë ende gati. Nëse ka një video në faqe, ju lutemi klikoni luaj dhe provoni përsëri."
+  },
+  "pip_window_restriction": {
+    "message": "Dritarja e avancuar Picture-in-Picture mund të hapet vetëm nga faqja kryesore dhe nuk mund të nisë nga kornizat ose përmbajtja e ngulitur. Ju mund të përdorni mënyrën standarde Picture-in-Picture ose të hapni në një skedë të re për të provuar përsëri. Vini re se videoja mund të mos ngarkohet siç duhet në një skedë të re.",
+    "description": "Dështoi të ekzekutojë 'requestWindow' në 'DocumentPictureInPicture': Hapja e një dritareje PiP lejohet vetëm nga një kontekst shfletimi i nivelit të lartë"
+  },
+  "use_standard_pip": {
+    "message": "Përdor PiP standard",
+    "description": "Opsion për të përdorur mënyrën standarde Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Hap në skedë të re",
+    "description": "Opsion për të hapur faqen në një skedë të re"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Mbaj mend cilësimet e kësaj faqeje (Mund ta modifikoni në Opsionet - Cilësimet e faqes)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mënyra Picture-in-Picture kërkon ndërveprim të përdoruesit. Ju lutemi klikoni ose ndërveproni me faqen dhe provoni përsëri.",
+    "description": "Dështoi të ekzekutojë 'requestWindow' në 'DocumentPictureInPicture': Dokumenti PiP kërkon aktivizimin e përdoruesit"
+  },
+  "retry_action": {
+    "message": "Provo Përsëri"
   }
 }

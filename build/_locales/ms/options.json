@@ -136,6 +136,7 @@
         "sortBy": "Susun Mengikut",
         "createTabPanel": "Buat Panel Tab",
         "tabPanels": "Panel Tab",
+        "switchPIP": "Tukar Gambar-dalam-Gambar",
         "pinToToolbarReminder": "Sila pin sambungan ini ke bar alat anda sebelum mengalih keluar navigasi ini."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Halaman ini hanya untuk paparan. Untuk mengubah pintasan, sila lawati [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
       "goToBrowserSettings": "Pergi ke tetapan Chrome",
       "_execute_action": "Aktifkan sambungan ini",
-      "openSidePanel": "Buka panel sisi"
+      "openSidePanel": "Buka panel sisi",
+      "switchPIP": "Tukar Gambar-dalam-Gambar"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Gambar-dalam-Gambar",
@@ -392,6 +394,22 @@
         "description": "Jika halaman semasa sedang memainkan video dan video tidak disenyapkan dan video berada di luar julat yang boleh dilihat apabila menatal, ia akan masuk ke dalam gambar-dalam-gambar.",
         "enabled": "Diaktifkan",
         "disabled": "Dinonaktifkan"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Gambar-dalam-Gambar Auto pada Tukar Tab tanpa Membuka Panel Sisi",
+        "description": "Jika halaman semasa sedang memainkan video dan video tidak disenyapkan, aktifkan Gambar-dalam-Gambar auto pada tukar tab tanpa membuka panel sisi. Perhatikan bahawa ciri ini **memerlukan pengaktifan pengguna** (contohnya, mengklik tetikus pada kawasan kosong halaman)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktifkan Gambar-dalam-Gambar Lanjutan",
+        "description": "Apabila diaktifkan, Gambar-dalam-Gambar Lanjutan akan diutamakan. Jika halaman tidak menyokongnya, Gambar-dalam-Gambar biasa akan digunakan.\nGambar-dalam-Gambar Lanjutan menggunakan pemain video tersuai, menawarkan ciri-ciri seperti:\n * Main/Jeda video (Space)\n * Laraskan kelantangan (Anak Panah Atas/Bawah)\n * Senyap/Bunyikan video\n * Laju ke hadapan/Kembali video (Anak Panah Kiri/Kanan atau Roda Tetikus)\n * Main video seterusnya\n * Paparkan sari kata (disokong di beberapa laman web, contohnya, youtube.com, vimeo.com, tver.jp, dll.)\n * Paparkan komen (disokong di beberapa laman web, contohnya, nicovideo.jp, bilibili.com, dll.)\n * Keluar dari Gambar-dalam-Gambar (Esc)\n * Tukar sembunyi/paparkan video dan main/jeda (Q)\n >Jika laman web yang sering anda lawati menyokong sari kata atau komen, anda boleh mengemukakan [isu: Gambar-dalam-Gambar Lanjutan](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), dan kami akan menyesuaikannya secepat mungkin. Perhatikan bahawa beberapa laman web mungkin mempunyai sekatan wilayah, dan anda mungkin perlu memberikan maklumat tambahan."
+      },
+      "subtitleDetection": {
+        "label": "Aktifkan Pengesanan Sari Kata",
+        "description": "Jika laman semasa tidak mempunyai konfigurasi Gambar-dalam-Gambar, benarkan program mencuba untuk mengesan elemen sari kata secara automatik dan menambahkannya ke pemain Gambar-dalam-Gambar. Ini adalah ciri yang tidak stabil dan mungkin tidak selalu mengesan elemen sari kata yang betul. Jika anda seorang profesional, anda boleh menambah konfigurasi elemen sari kata dalam tetapan laman."
+      },
+      "continuousPlayback": {
+        "label": "Aktifkan Mainan Berterusan",
+        "description": "Mainan berterusan: Tetingkap Gambar-dalam-Gambar tidak ditutup dan secara automatik memainkan episod seterusnya selepas video tamat. Ciri ini memerlukan sokongan laman web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Warna Fon",
         "description": "Tetapkan warna fon untuk laman ini."
+      },
+      "pipRestrictionAction": {
+        "label": "Tindakan Sekatan Picture-in-Picture",
+        "description": "Tetingkap Picture-in-Picture lanjutan hanya boleh dibuka dari halaman utama dan tidak boleh dilancarkan dari bingkai atau kandungan terbenam. Anda boleh menggunakan mod Picture-in-Picture standard atau buka dalam tab baru untuk mencuba semula. Perhatikan bahawa video mungkin tidak dimuat dengan betul dalam tab baru.",
+        "default": "Lalai",
+        "use_standard_pip": "Gunakan Picture-in-Picture standard",
+        "open_in_new_tab": "Buka dalam tab baru"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Masuk Auto Picture-in-Picture",
+        "description": "Secara automatik masuk ke mod Picture-in-Picture apabila video hadir semasa memasuki halaman. Disebabkan oleh had sistem, ini memerlukan interaksi pengguna dengan halaman."
+      },
+      "captionSetting": {
+        "label": "Tetapan Kapsyen",
+        "description": "Konfigurasikan pemilih CSS untuk elemen kapsyen dan induknya di halaman. Pemilih CSS untuk elemen kapsyen digunakan untuk memaparkan kapsyen dalam pemain, manakala pemilih induk digunakan untuk mengembalikan kapsyen ke halaman asal apabila keluar dari mod Picture-in-Picture.",
+        "configure": "Konfigurasi",
+        "selectorDesc": "Pemilih biasa termasuk: '.class' untuk pemilih kelas, '#id' untuk pemilih ID, 'tag' untuk pemilih tag, dan '[attribute=value]' untuk pemilih atribut. Untuk maklumat lanjut, lawati: [Pemilih CSS - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Pemilih CSS untuk elemen kapsyen",
+        "captionParentSelectorDesc": "Pemilih CSS untuk induk elemen kapsyen"
       }
     },
     "quickAccess": {

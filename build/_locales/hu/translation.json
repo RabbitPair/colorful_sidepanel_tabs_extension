@@ -241,5 +241,6 @@
   "shortName": "Rövid név",
   "expandIcons": "Ikonok kibontása",
   "expandList": "Lista kibontása",
-  "openAllUrls": "Összes URL megnyitása"
+  "openAllUrls": "Összes URL megnyitása",
+  "switchPIP": "Kép a képben mód váltása"
 }

@@ -241,5 +241,6 @@
   "shortName": "Kort namn",
   "expandIcons": "Expandera ikoner",
   "expandList": "Expandera lista",
-  "openAllUrls": "Öppna alla URL:er"
+  "openAllUrls": "Öppna alla URL:er",
+  "switchPIP": "Byt Bild-i-Bild"
 }

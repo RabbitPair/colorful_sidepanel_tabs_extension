@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "내부 시스템"
+  },
+  "switchPIP": {
+    "message": "화면 속 화면 전환"
+  },
+  "play": {
+    "message": "재생"
+  },
+  "pause": {
+    "message": "일시 정지"
+  },
+  "shortcut_play_pause": {
+    "message": "재생/일시 정지"
+  },
+  "shortcut_adjust_volume": {
+    "message": "볼륨 조절"
+  },
+  "shortcut_mute_unmute": {
+    "message": "음소거/음소거 해제"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "5초 앞으로/뒤로 감기"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "10초 앞으로/뒤로 감기"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "앞으로/뒤로 감기"
+  },
+  "shortcut_next_video": {
+    "message": "다음 비디오 재생"
+  },
+  "shortcut_previous_video": {
+    "message": "이전 비디오 재생"
+  },
+  "shortcut_toggle_captions": {
+    "message": "자막 표시/숨기기"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "탄막 채팅 표시/숨기기"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "전체 화면 전환"
+  },
+  "shortcut_playback_speed": {
+    "message": "재생 속도 조절"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "비디오 시작/끝으로 이동"
+  },
+  "shortcut_seek_percentage": {
+    "message": "비디오의 백분율로 이동"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "비디오 크기에 맞게 창 조절"
+  },
+  "shortcut_exit_pip": {
+    "message": "화면 속 화면 종료"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "비디오 숨기기/표시 및 재생/일시 정지 전환"
+  },
+  "shortcut_enter_pip": {
+    "message": "메인 페이지에서 화면 속 화면 전환"
+  },
+  "mute": {
+    "message": "음소거"
+  },
+  "unmute": {
+    "message": "음소거 해제"
+  },
+  "prev_video": {
+    "message": "이전 비디오"
+  },
+  "next_video": {
+    "message": "다음 비디오"
+  },
+  "playbackRate": {
+    "message": "재생 속도"
+  },
+  "subtitles": {
+    "message": "자막"
+  },
+  "close_captions": {
+    "message": "폐쇄 자막"
+  },
+  "danmaku": {
+    "message": "탄막 채팅"
+  },
+  "fit_to_screen": {
+    "message": "화면에 맞추기"
+  },
+  "reload_video": {
+    "message": "비디오 다시 로드"
+  },
+  "loading_pip_config": {
+    "message": "문서 화면 속 화면 설정 로드 중..."
+  },
+  "playing_in_pip_mode": {
+    "message": "문서 화면 속 화면 모드에서 재생 중"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "화면 속 화면 자막 설정 감지 중..."
+  },
+  "video_not_detected": {
+    "message": "비디오가 감지되지 않았습니다. 아직 준비되지 않았을 수 있습니다. 페이지에 비디오가 있으면 재생을 클릭하고 다시 시도하십시오."
+  },
+  "pip_window_restriction": {
+    "message": "고급 화면 속 화면 창은 메인 페이지에서만 열 수 있으며 프레임 또는 포함된 콘텐츠에서 실행할 수 없습니다. 표준 화면 속 화면 모드를 사용하거나 새 탭에서 다시 시도하십시오. 새 탭에서 비디오가 제대로 로드되지 않을 수 있습니다.",
+    "description": "'DocumentPictureInPicture'에서 'requestWindow'를 실행하지 못했습니다: PiP 창 열기는 최상위 브라우징 컨텍스트에서만 허용됩니다"
+  },
+  "use_standard_pip": {
+    "message": "표준 PiP 사용",
+    "description": "표준 화면 속 화면 모드 사용 옵션"
+  },
+  "open_in_new_tab": {
+    "message": "새 탭에서 열기",
+    "description": "페이지를 새 탭에서 여는 옵션"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "이 사이트의 설정 기억 (옵션 - 사이트 설정에서 수정할 수 있습니다)"
+  },
+  "pip_user_activation_required": {
+    "message": "화면 속 화면 모드는 사용자 상호작용이 필요합니다. 페이지를 클릭하거나 상호작용하고 다시 시도하십시오.",
+    "description": "'DocumentPictureInPicture'에서 'requestWindow'를 실행하지 못했습니다: 문서 PiP에는 사용자 활성화가 필요합니다"
+  },
+  "retry_action": {
+    "message": "다시 시도"
   }
 }

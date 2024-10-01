@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Barne Sistemak"
+  },
+  "switchPIP": {
+    "message": "Aldatu Irudi-irudi modua"
+  },
+  "play": {
+    "message": "Erreproduzitu"
+  },
+  "pause": {
+    "message": "Pausatu"
+  },
+  "shortcut_play_pause": {
+    "message": "Erreproduzitu/Pausatu bideoa"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Doitu bolumena"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Isildu/Desisildu bideoa"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Aurreratu/Atzera bota bideoa 5 segundoz"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Aurreratu/Atzera bota bideoa 10 segundoz"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Aurreratu/Atzera bota bideoa"
+  },
+  "shortcut_next_video": {
+    "message": "Erreproduzitu hurrengo bideoa"
+  },
+  "shortcut_previous_video": {
+    "message": "Erreproduzitu aurreko bideoa"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Erakutsi/Ezkutatu azpitituluak"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Erakutsi/Ezkutatu bala txatak"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Aldatu pantaila osoa"
+  },
+  "shortcut_playback_speed": {
+    "message": "Doitu erreprodukzio abiadura"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Joan bideoaren hasierara/amaierara"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Joan bideoaren ehuneko batera"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Doitu leihoa bideoaren tamainara"
+  },
+  "shortcut_exit_pip": {
+    "message": "Irten Irudi-irudi modutik"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Aldatu ezkutatu/erakutsi bideoa eta erreproduzitu/pausatu"
+  },
+  "shortcut_enter_pip": {
+    "message": "Aldatu Irudi-irudi modua orri nagusitik"
+  },
+  "mute": {
+    "message": "Isildu"
+  },
+  "unmute": {
+    "message": "Desisildu"
+  },
+  "prev_video": {
+    "message": "Aurreko Bideoa"
+  },
+  "next_video": {
+    "message": "Hurrengo Bideoa"
+  },
+  "playbackRate": {
+    "message": "Erreprodukzio Abiadura"
+  },
+  "subtitles": {
+    "message": "Azpitituluak"
+  },
+  "close_captions": {
+    "message": "Itxitako Azpitituluak"
+  },
+  "danmaku": {
+    "message": "Bala txatak"
+  },
+  "fit_to_screen": {
+    "message": "Egokitu Pantailara"
+  },
+  "reload_video": {
+    "message": "Berriro Kargatu Bideoa"
+  },
+  "loading_pip_config": {
+    "message": "Irudi-irudi moduko konfigurazioak kargatzen..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Irudi-irudi moduan erreproduzitzen"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Irudi-irudi moduko azpititulu ezarpenak detektatzen..."
+  },
+  "video_not_detected": {
+    "message": "Bideoa ez da detektatu. Agian ez dago prest. Orrian bideo bat badago, sakatu erreproduzitu eta saiatu berriro."
+  },
+  "pip_window_restriction": {
+    "message": "Irudi-irudi moduko leihoa soilik orri nagusitik ireki daiteke eta ezin da marko edo txertatutako edukitik abiarazi. Irudi-irudi modua estandarra erabil dezakezu edo fitxa berri batean ireki berriro saiatzeko. Kontuan izan bideoa behar bezala kargatu ez daitekeela fitxa berri batean.",
+    "description": "'requestWindow' exekutatzea huts egin du 'DocumentPictureInPicture' gainean: PiP leihoa irekitzea goi-mailako nabigazio testuinguru batetik soilik onartzen da"
+  },
+  "use_standard_pip": {
+    "message": "Erabili PiP estandarra",
+    "description": "Irudi-irudi modua estandarra erabiltzeko aukera"
+  },
+  "open_in_new_tab": {
+    "message": "Ireki fitxa berri batean",
+    "description": "Orria fitxa berri batean irekitzeko aukera"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Gogoratu gune honen ezarpenak (Aukerak - Gune ezarpenetan aldatu dezakezu)"
+  },
+  "pip_user_activation_required": {
+    "message": "Irudi-irudi moduak erabiltzailearen interakzioa behar du. Sakatu edo interakzioa egin orriarekin eta saiatu berriro.",
+    "description": "'requestWindow' exekutatzea huts egin du 'DocumentPictureInPicture' gainean: Dokumentu PiP-k erabiltzailearen aktibazioa behar du"
+  },
+  "retry_action": {
+    "message": "Saiatu Berriro"
   }
 }

@@ -116,6 +116,7 @@
   "Donation": "Donation",
   "EarlyBirdDiscount": "Early Bird Discount",
   "SortTabsByDomain": "Sort Tabs by Domain",
+  "sortTabsByUrl": "Sort Tabs by URL",
   "CurrentActiveTab": "Current Active Tab",
   "ScrollToActiveTab": "Scroll to Active Tab",
   "MuteAllTabsMakingSounds": "Mute All Tabs Making Sounds",
@@ -241,5 +242,6 @@
   "shortName": "Short name",
   "expandIcons": "Expand Icons",
   "expandList": "Expand list",
-  "openAllUrls": "Open All URLs"
+  "openAllUrls": "Open All URLs",
+  "switchPIP": "Switch Picture-in-Picture"
 }

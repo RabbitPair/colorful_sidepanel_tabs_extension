@@ -228,5 +228,6 @@
   "shortName": "Nom curt",
   "expandIcons": "Expandeix icones",
   "expandList": "Expandeix llista",
-  "openAllUrls": "Obre totes les URL"
+  "openAllUrls": "Obre totes les URL",
+  "switchPIP": "Canvia Imatge en imatge"
 }

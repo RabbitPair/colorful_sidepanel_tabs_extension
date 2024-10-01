@@ -241,5 +241,6 @@
   "shortName": "Īss nosaukums",
   "expandIcons": "Izvērst ikonas",
   "expandList": "Izvērst sarakstu",
-  "openAllUrls": "Atvērt visus URL"
+  "openAllUrls": "Atvērt visus URL",
+  "switchPIP": "Pārslēgt attēlu attēlā"
 }

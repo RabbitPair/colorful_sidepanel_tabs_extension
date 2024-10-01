@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Systemau Mewnol"
+  },
+  "switchPIP": {
+    "message": "Newid Llun-mewn-Llun"
+  },
+  "play": {
+    "message": "Chwarae"
+  },
+  "pause": {
+    "message": "Oedi"
+  },
+  "shortcut_play_pause": {
+    "message": "Chwarae/Oedi fideo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Addasu cyfaint"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Dawel/Dad-dawel fideo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Cynyddu/Dirwyn yn ôl fideo 5 eiliad"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Cynyddu/Dirwyn yn ôl fideo 10 eiliad"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Cynyddu/Dirwyn yn ôl fideo"
+  },
+  "shortcut_next_video": {
+    "message": "Chwarae'r fideo nesaf"
+  },
+  "shortcut_previous_video": {
+    "message": "Chwarae'r fideo blaenorol"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Dangos/Cuddio isdeitlau"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Dangos/Cuddio sgwrsio bwled"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Toglo sgrin lawn"
+  },
+  "shortcut_playback_speed": {
+    "message": "Addasu cyflymder chwarae"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Chwilio i ddechrau/diwedd y fideo"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Chwilio i ganran o'r fideo"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Addasu ffenestr i ffitio maint y fideo"
+  },
+  "shortcut_exit_pip": {
+    "message": "Gadael Llun-mewn-Llun"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Toglo cuddio/dangos fideo a chwarae/oedi"
+  },
+  "shortcut_enter_pip": {
+    "message": "Toglo Llun-mewn-Llun o'r brif dudalen"
+  },
+  "mute": {
+    "message": "Dawel"
+  },
+  "unmute": {
+    "message": "Dad-dawel"
+  },
+  "prev_video": {
+    "message": "Fideo Blaenorol"
+  },
+  "next_video": {
+    "message": "Fideo Nesaf"
+  },
+  "playbackRate": {
+    "message": "Cyflymder Chwarae"
+  },
+  "subtitles": {
+    "message": "Isdeitlau"
+  },
+  "close_captions": {
+    "message": "Caewyd Pennawd"
+  },
+  "danmaku": {
+    "message": "Sgwrsio Bwled"
+  },
+  "fit_to_screen": {
+    "message": "Ffitio i'r Sgrin"
+  },
+  "reload_video": {
+    "message": "Ail-lwytho Fideo"
+  },
+  "loading_pip_config": {
+    "message": "Llwytho Gosodiadau Llun-mewn-Llun y Ddogfen..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Chwarae yn y Modd Llun-mewn-Llun y Ddogfen"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Canfod Gosodiadau Isdeitlau Llun-mewn-Llun..."
+  },
+  "video_not_detected": {
+    "message": "Ni chanfuwyd fideo. Efallai nad yw'n barod eto. Os oes fideo ar y dudalen, cliciwch chwarae a cheisio eto."
+  },
+  "pip_window_restriction": {
+    "message": "Dim ond o'r brif dudalen y gellir agor ffenestr Llun-mewn-Llun Uwch ac ni ellir ei lansio o fframiau neu gynnwys wedi'i fewnosod. Gallwch ddefnyddio modd Llun-mewn-Llun safonol neu agor mewn tab newydd i geisio eto. Sylwch efallai na fydd y fideo'n llwytho'n iawn mewn tab newydd.",
+    "description": "Methwyd â gweithredu 'requestWindow' ar 'DocumentPictureInPicture': Dim ond o gyd-destun pori lefel uchaf y caniateir agor ffenestr PiP"
+  },
+  "use_standard_pip": {
+    "message": "Defnyddio PiP safonol",
+    "description": "Opsiwn i ddefnyddio modd Llun-mewn-Llun safonol"
+  },
+  "open_in_new_tab": {
+    "message": "Agor mewn tab newydd",
+    "description": "Opsiwn i agor y dudalen mewn tab newydd"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Cofiwch osodiadau'r safle hwn (Gallwch ei addasu yn yr Opsiynau - Gosodiadau safle)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mae modd Llun-mewn-Llun yn gofyn am ryngweithio defnyddiwr. Cliciwch neu ryngweithio â'r dudalen a cheisio eto.",
+    "description": "Methwyd â gweithredu 'requestWindow' ar 'DocumentPictureInPicture': Mae PiP y Ddogfen yn gofyn am actifadu defnyddiwr"
+  },
+  "retry_action": {
+    "message": "Ceisio Eto"
   }
 }

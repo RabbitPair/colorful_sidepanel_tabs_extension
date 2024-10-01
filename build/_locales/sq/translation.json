@@ -228,5 +228,6 @@
   "shortName": "Emër i shkurtër",
   "expandIcons": "Zgjero ikonat",
   "expandList": "Zgjero listën",
-  "openAllUrls": "Hap të gjitha URL-të"
+  "openAllUrls": "Hap të gjitha URL-të",
+  "switchPIP": "Ndrysho Pamje në Pamje"
 }

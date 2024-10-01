@@ -136,6 +136,7 @@
         "sortBy": "Seřadit podle",
         "createTabPanel": "Vytvořit panel karet",
         "tabPanels": "Panely karet",
+        "switchPIP": "Přepnout obraz v obraze",
         "pinToToolbarReminder": "Připněte prosím rozšíření na panel nástrojů, než odstraníte tuto navigaci."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Tato stránka je pouze pro zobrazení. Pro úpravu zkratek navštivte [Rozšíření]->[Spravovat rozšíření]->[Klávesové zkratky]",
       "goToBrowserSettings": "Přejít do nastavení prohlížeče",
       "_execute_action": "Aktivovat toto rozšíření",
-      "openSidePanel": "Otevřít postranní panel"
+      "openSidePanel": "Otevřít postranní panel",
+      "switchPIP": "Přepnout obraz v obraze"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Obraz v obraze",
@@ -392,6 +394,22 @@
         "description": "Pokud aktuální stránka přehrává video a video není ztišeno a video je mimo viditelnou oblast při rolování, přejde do režimu obraz v obraze.",
         "enabled": "Povoleno",
         "disabled": "Zakázáno"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatický obraz v obraze při přepínání karet bez otevření postranního panelu",
+        "description": "Pokud aktuální stránka přehrává video a video není ztišeno, povolit automatický obraz v obraze při přepínání karet bez otevření postranního panelu. Upozorňujeme, že tato funkce **vyžaduje aktivaci uživatelem** (např. kliknutím myší na prázdnou oblast stránky)."
+      },
+      "advancedPipEnable": {
+        "label": "Povolit pokročilý obraz v obraze",
+        "description": "Když je povoleno, bude upřednostněn pokročilý obraz v obraze. Pokud stránka tuto funkci nepodporuje, bude použit běžný obraz v obraze.\nPokročilý obraz v obraze využívá vlastní video přehrávač, který nabízí funkce jako:\n * Přehrát/Pozastavit video (Mezerník)\n * Nastavit hlasitost (Šipka nahoru/dolů)\n * Ztlumit/Zrušit ztlumení videa\n * Rychlé přetáčení vpřed/Zpět (Šipka vlevo/vpravo nebo kolečko myši)\n * Přehrát další video\n * Zobrazit titulky (podporováno na některých webech, např. youtube.com, vimeo.com, tver.jp, atd.)\n * Zobrazit komentáře (podporováno na některých webech, např. nicovideo.jp, bilibili.com, atd.)\n * Ukončit obraz v obraze (Esc)\n * Přepínat skrytí/zobrazení videa a přehrávání/pozastavení (Q)\n >Pokud weby, které často navštěvujete, podporují titulky nebo komentáře, můžete podat [problém: Pokročilý obraz v obraze](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), a my jej přizpůsobíme co nejdříve. Upozorňujeme, že některé weby mohou mít regionální omezení a možná budete muset poskytnout další informace."
+      },
+      "subtitleDetection": {
+        "label": "Povolit detekci titulků",
+        "description": "Pokud aktuální stránka nemá konfiguraci obrazu v obraze, povolit programu pokusit se automaticky detekovat prvky titulků a přidat je do přehrávače obrazu v obraze. Toto je nestabilní funkce a nemusí vždy detekovat správné prvky titulků. Pokud jste profesionál, můžete přidat konfigurace prvků titulků v nastavení stránky."
+      },
+      "continuousPlayback": {
+        "label": "Povolit nepřetržité přehrávání",
+        "description": "Nepřetržité přehrávání: Okno obrazu v obraze se nezavře a automaticky přehraje další epizodu po skončení videa. Tato funkce vyžaduje podporu webu."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Barva písma",
         "description": "Nastavte barvu písma pro tuto stránku."
+      },
+      "pipRestrictionAction": {
+        "label": "Akce omezení Picture-in-Picture",
+        "description": "Pokročilé okno Picture-in-Picture lze otevřít pouze z hlavní stránky a nelze jej spustit z rámců nebo vloženého obsahu. Můžete použít standardní režim Picture-in-Picture nebo otevřít v nové kartě pro opakování. Upozorňujeme, že video se nemusí v nové kartě správně načíst.",
+        "default": "Výchozí",
+        "use_standard_pip": "Použít standardní Picture-in-Picture",
+        "open_in_new_tab": "Otevřít v nové kartě"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatický vstup do Picture-in-Picture",
+        "description": "Automaticky vstoupit do režimu Picture-in-Picture, když je na stránce přítomno video. Kvůli systémovým omezením to vyžaduje interakci uživatele se stránkou."
+      },
+      "captionSetting": {
+        "label": "Nastavení titulků",
+        "description": "Nakonfigurujte selektory CSS pro prvek titulků a jeho rodiče na stránce. Selektor CSS pro prvek titulků se používá k zobrazení titulků v přehrávači, zatímco selektor rodiče se používá k návratu titulků na původní stránku při ukončení režimu Picture-in-Picture.",
+        "configure": "Nastavit",
+        "selectorDesc": "Běžné selektory zahrnují: '.class' pro selektory tříd, '#id' pro selektory ID, 'tag' pro selektory tagů a '[attribute=value]' pro selektory atributů. Pro více informací navštivte: [Selektory CSS - CSS: Kaskádové styly - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selektory CSS pro prvek titulků",
+        "captionParentSelectorDesc": "Selektory CSS pro rodiče prvku titulků"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interne Systemen"
+  },
+  "switchPIP": {
+    "message": "Schakel Picture-in-Picture"
+  },
+  "play": {
+    "message": "Afspelen"
+  },
+  "pause": {
+    "message": "Pauzeren"
+  },
+  "shortcut_play_pause": {
+    "message": "Afspelen/Pauzeren video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Volume aanpassen"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Dempen/Dempen opheffen video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Vooruitspoelen/Terugspoelen video 5 seconden"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Vooruitspoelen/Terugspoelen video 10 seconden"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Vooruitspoelen/Terugspoelen video"
+  },
+  "shortcut_next_video": {
+    "message": "Volgende video afspelen"
+  },
+  "shortcut_previous_video": {
+    "message": "Vorige video afspelen"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Ondertitels weergeven/verbergen"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Toon/Verberg barrages"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Volledig scherm in-/uitschakelen"
+  },
+  "shortcut_playback_speed": {
+    "message": "Afspeelsnelheid aanpassen"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Zoeken naar begin/einde van video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Zoeken naar percentage van video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Venster aanpassen aan videoformaat"
+  },
+  "shortcut_exit_pip": {
+    "message": "Afsluiten Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Video verbergen/weergeven en afspelen/pauzeren"
+  },
+  "shortcut_enter_pip": {
+    "message": "Picture-in-Picture in-/uitschakelen vanaf hoofdpagina"
+  },
+  "mute": {
+    "message": "Dempen"
+  },
+  "unmute": {
+    "message": "Dempen opheffen"
+  },
+  "prev_video": {
+    "message": "Vorige Video"
+  },
+  "next_video": {
+    "message": "Volgende Video"
+  },
+  "playbackRate": {
+    "message": "Afspeelsnelheid"
+  },
+  "subtitles": {
+    "message": "Ondertitels"
+  },
+  "close_captions": {
+    "message": "Gesloten Ondertitels"
+  },
+  "danmaku": {
+    "message": "Bullet chatten"
+  },
+  "fit_to_screen": {
+    "message": "Passend op Scherm"
+  },
+  "reload_video": {
+    "message": "Video Herladen"
+  },
+  "loading_pip_config": {
+    "message": "Document Picture-in-Picture Configuraties Laden..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Afspelen in Document Picture-in-Picture Modus"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Picture-in-Picture Ondertitel Instellingen Detecteren..."
+  },
+  "video_not_detected": {
+    "message": "Video niet gedetecteerd. Het is mogelijk nog niet klaar. Als er een video op de pagina is, klik dan op afspelen en probeer het opnieuw."
+  },
+  "pip_window_restriction": {
+    "message": "Geavanceerd Picture-in-Picture venster kan alleen worden geopend vanaf de hoofdpagina en kan niet worden gestart vanuit frames of ingesloten inhoud. U kunt de standaard Picture-in-Picture modus gebruiken of openen in een nieuw tabblad om het opnieuw te proberen. Merk op dat de video mogelijk niet correct laadt in een nieuw tabblad.",
+    "description": "Kon 'requestWindow' niet uitvoeren op 'DocumentPictureInPicture': Het openen van een PiP-venster is alleen toegestaan vanuit een top-level browsing context"
+  },
+  "use_standard_pip": {
+    "message": "Gebruik standaard PiP",
+    "description": "Optie om de standaard Picture-in-Picture modus te gebruiken"
+  },
+  "open_in_new_tab": {
+    "message": "Openen in nieuw tabblad",
+    "description": "Optie om de pagina in een nieuw tabblad te openen"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Onthoud de instellingen van deze site (U kunt het wijzigen in Opties - Site-instellingen)"
+  },
+  "pip_user_activation_required": {
+    "message": "Picture-in-Picture modus vereist gebruikersinteractie. Klik of interacteer met de pagina en probeer het opnieuw.",
+    "description": "Kon 'requestWindow' niet uitvoeren op 'DocumentPictureInPicture': Document PiP vereist gebruikersactivatie"
+  },
+  "retry_action": {
+    "message": "Probeer Opnieuw"
   }
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Вътрешни системи"
+  },
+  "switchPIP": {
+    "message": "Превключване на картина в картината"
+  },
+  "play": {
+    "message": "Пусни"
+  },
+  "pause": {
+    "message": "Пауза"
+  },
+  "shortcut_play_pause": {
+    "message": "Пусни/Пауза видео"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Регулиране на звука"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Изключване/Включване на звука на видеото"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Превъртане напред/назад на видеото с 5 секунди"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Превъртане напред/назад на видеото с 10 секунди"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Превъртане напред/назад на видеото"
+  },
+  "shortcut_next_video": {
+    "message": "Пусни следващото видео"
+  },
+  "shortcut_previous_video": {
+    "message": "Пусни предишното видео"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Показване/Скриване на субтитри"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Показване/Скриване на чат с куршуми"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Превключване на цял екран"
+  },
+  "shortcut_playback_speed": {
+    "message": "Регулиране на скоростта на възпроизвеждане"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Превъртане до началото/края на видеото"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Превъртане до процент от видеото"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Регулиране на прозореца към размера на видеото"
+  },
+  "shortcut_exit_pip": {
+    "message": "Изход от режим Картина в картината"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Превключване на скриване/показване на видеото и пусни/пауза"
+  },
+  "shortcut_enter_pip": {
+    "message": "Превключване на режим Картина в картината от главната страница"
+  },
+  "mute": {
+    "message": "Изключване на звука"
+  },
+  "unmute": {
+    "message": "Включи звука"
+  },
+  "prev_video": {
+    "message": "Предишно видео"
+  },
+  "next_video": {
+    "message": "Следващо видео"
+  },
+  "playbackRate": {
+    "message": "Скорост на възпроизвеждане"
+  },
+  "subtitles": {
+    "message": "Субтитри"
+  },
+  "close_captions": {
+    "message": "Затворени надписи"
+  },
+  "danmaku": {
+    "message": "Чат с куршуми"
+  },
+  "fit_to_screen": {
+    "message": "Напасни към екрана"
+  },
+  "reload_video": {
+    "message": "Презареди видеото"
+  },
+  "loading_pip_config": {
+    "message": "Зареждане на конфигурациите за картина в картината..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Възпроизвеждане в режим картина в картината"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Откриване на настройки за субтитри в режим картина в картината..."
+  },
+  "video_not_detected": {
+    "message": "Видеото не е открито. Може да не е готово още. Ако има видео на страницата, моля, натиснете пусни и опитайте отново."
+  },
+  "pip_window_restriction": {
+    "message": "Разширеният прозорец за картина в картината може да бъде отворен само от главната страница и не може да бъде стартиран от рамки или вградени съдържания. Можете да използвате стандартния режим картина в картината или да отворите в нов раздел, за да опитате отново. Имайте предвид, че видеото може да не се зареди правилно в новия раздел.",
+    "description": "Неуспешно изпълнение на 'requestWindow' на 'DocumentPictureInPicture': Отварянето на прозорец за картина в картината е позволено само от контекст на най-високо ниво на браузване"
+  },
+  "use_standard_pip": {
+    "message": "Използвайте стандартен режим картина в картината",
+    "description": "Опция за използване на стандартен режим картина в картината"
+  },
+  "open_in_new_tab": {
+    "message": "Отворете в нов раздел",
+    "description": "Опция за отваряне на страницата в нов раздел"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Запомнете настройките на този сайт (Можете да ги промените в Опции - Настройки на сайта)"
+  },
+  "pip_user_activation_required": {
+    "message": "Режимът картина в картината изисква потребителско взаимодействие. Моля, кликнете или взаимодействате със страницата и опитайте отново.",
+    "description": "Неуспешно изпълнение на 'requestWindow' на 'DocumentPictureInPicture': Режимът картина в картината изисква потребителска активация"
+  },
+  "retry_action": {
+    "message": "Опитайте отново"
   }
 }

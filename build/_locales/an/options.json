@@ -136,6 +136,7 @@
         "sortBy": "Ordenar por",
         "createTabPanel": "Crear panel de pestañas",
         "tabPanels": "Paneles de pestañas",
+        "switchPIP": "Cambiar a imagen en imagen",
         "pinToToolbarReminder": "Para quitar esta navegación, primero fija la extensión en tu barra de herramientas."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ista pachina ye ta amostrar nomás. Ta modificar os atayos curtos, por favor visita [Estensiones]->[Gestión d'estensiones]->[Atayos de teclau]",
       "goToBrowserSettings": "Ir a configuración del navegador",
       "_execute_action": "Activar ista estension",
-      "openSidePanel": "Abrir o panel lateral"
+      "openSidePanel": "Abrir o panel lateral",
+      "switchPIP": "Cambiar a Imachen-en-Imachen"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imachen en imachen",
@@ -392,6 +394,22 @@
         "description": "Si a pachina actual está reproduzindo un video y o video no tiene sonido y o video ye fuera d'o rango visible quan se desplaza, entrará en imachen en imachen.",
         "enabled": "Habilitato",
         "disabled": "Deshabilitato"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Imachen-en-imachen en o cambio de fuella sin abrir o panel lateral",
+        "description": "Si a pachina actual está reproduzindo un video y o video no ye sin sonido, habilitar auto Imachen-en-imachen en o cambio de fuella sin abrir o panel lateral. Nota que ista carauterística **requiere activación d'o usuario** (por eixemplo, clicar con o ratet en una zona en blanco d'a pachina)."
+      },
+      "advancedPipEnable": {
+        "label": "Habilitar Imachen-en-imachen Avanzato",
+        "description": "Quan se habilita, Imachen-en-imachen Avanzato será priorizato. Si a pachina no lo admet, se usará Imachen-en-imachen regular.\nImachen-en-imachen Avanzato utiliza un reproductor de video personalizato, oferindo carauterísticas como:\n * Reproducir/Pausar video (Espacio)\n * Achustar volumen (Flecha arriba/abajo)\n * Silenciar/Desilenciar video\n * Avanzar/Retrasar video (Flecha izquierda/derecha u Rueda de ratet)\n * Reproducir o siguiente video\n * Amostrar subtítulos (admitito en bellas pachinas web, por eixemplo, youtube.com, vimeo.com, tver.jp, etc.)\n * Amostrar comentarios (admitito en bellas pachinas web, por eixemplo, nicovideo.jp, bilibili.com, etc.)\n * Salir de Imachen-en-imachen (Esc)\n * Alternar amostrar/ocultar video y reproducir/pausar (Q)\n >Si as pachinas web que visitas frecuentement admeten subtítulos u comentarios, puetz enviar un [issue: Imachen-en-imachen Avanzato](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), y lo adaptaremos tan pronto como siga posible. Nota que bellas pachinas web pueden tener restriccions regionales, y puetz necesitar fornir información adicional."
+      },
+      "subtitleDetection": {
+        "label": "Habilitar detección de subtítulos",
+        "description": "Si a pachina actual no tiene una configuración de Imachen-en-imachen, permitir que o programa intente detectar automaticament os elementos de subtítulos y añadir-los a o reproductor de Imachen-en-imachen. Ista carauterística ye inestable y puede no detectar siempre os elementos correctos de subtítulos. Si yes un profesional, puetz añadir configuracions de elementos de subtítulos en as configuracions d'a pachina."
+      },
+      "continuousPlayback": {
+        "label": "Habilitar reproducción continua",
+        "description": "Reproducción continua: A ventana de Imachen-en-imachen no se zarrará y reproducirá automaticament o siguiente episodio dimpués de que o video termine. Ista carauterística requiere soporte d'a pachina web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Color de Fuente",
         "description": "Establece el color de fuente para este sitio."
+      },
+      "pipRestrictionAction": {
+        "label": "Acción de Restricción de Picture-in-Picture",
+        "description": "La ventana avanzada de Picture-in-Picture solo se puede abrir desde la página principal y no se puede iniciar desde marcos o contenido incrustado. Puede usar el modo estándar de Picture-in-Picture o abrir en una nueva pestaña para reintentar. Tenga en cuenta que el video puede no cargarse correctamente en una nueva pestaña.",
+        "default": "Predeterminado",
+        "use_standard_pip": "Usar Picture-in-Picture estándar",
+        "open_in_new_tab": "Abrir en nueva pestaña"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrar automáticamente en Picture-in-Picture",
+        "description": "Entrar automáticamente en el modo Picture-in-Picture cuando hay un video presente al ingresar a la página. Debido a limitaciones del sistema, esto requiere interacción del usuario con la página."
+      },
+      "captionSetting": {
+        "label": "Configuración de Subtítulos",
+        "description": "Configure los selectores CSS para el elemento de subtítulos y su padre en la página. El selector CSS para el elemento de subtítulos se usa para mostrar subtítulos en el reproductor, mientras que el selector del padre se usa para devolver los subtítulos a la página original al salir del modo Picture-in-Picture.",
+        "configure": "Configurar",
+        "selectorDesc": "Los selectores comunes incluyen: '.class' para selectores de clase, '#id' para selectores de ID, 'tag' para selectores de etiqueta y '[attribute=value]' para selectores de atributo. Para más detalles, visite: [Selectores CSS - CSS: Hojas de Estilo en Cascada - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selectores CSS para el elemento de subtítulos",
+        "captionParentSelectorDesc": "Selectores CSS para el padre del elemento de subtítulos"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "ינערלעך סיסטעמען"
+  },
+  "switchPIP": {
+    "message": "באַשטימען בילד-אין-בילד"
+  },
+  "play": {
+    "message": "שפּיל"
+  },
+  "pause": {
+    "message": "פּויזע"
+  },
+  "shortcut_play_pause": {
+    "message": "שפּילן/פּויזע ווידעא"
+  },
+  "shortcut_adjust_volume": {
+    "message": "פּאַסן קול"
+  },
+  "shortcut_mute_unmute": {
+    "message": "שטום/אומשטום ווידעא"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "שנעל פאָרווערטס/צוריקדרייען ווידעא 5 סעקונדן"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "שנעל פאָרווערטס/צוריקדרייען ווידעא 10 סעקונדן"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "שנעל פאָרווערטס/צוריקדרייען ווידעא"
+  },
+  "shortcut_next_video": {
+    "message": "שפּילן די נעקסטע ווידעא"
+  },
+  "shortcut_previous_video": {
+    "message": "שפּילן די פֿריִערדיקע ווידעא"
+  },
+  "shortcut_toggle_captions": {
+    "message": "ווייַזן/באַהאַלטן קאַפּשאַנז"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "ווייַזן/באַהאַלטן בולעט שמועסן"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "טאָגל פול סקרין"
+  },
+  "shortcut_playback_speed": {
+    "message": "פּאַסן שפּיל גיכקייט"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "זוכן צו אָנהייב/סוף פון ווידעא"
+  },
+  "shortcut_seek_percentage": {
+    "message": "זוכן צו פּראָצענט פון ווידעא"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "פּאַסן פֿענצטער צו ווידעא גרייס"
+  },
+  "shortcut_exit_pip": {
+    "message": "אַרויסגיין פון בילד-אין-בילד"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "טאָגל באַהאַלטן/ווייַזן ווידעא און שפּילן/פּויזע"
+  },
+  "shortcut_enter_pip": {
+    "message": "טאָגל בילד-אין-בילד פון הויפּט בלאַט"
+  },
+  "mute": {
+    "message": "שטום"
+  },
+  "unmute": {
+    "message": "אומשטום"
+  },
+  "prev_video": {
+    "message": "פֿריִערדיקע ווידעא"
+  },
+  "next_video": {
+    "message": "נעקסטע ווידעא"
+  },
+  "playbackRate": {
+    "message": "שפּיל גיכקייט"
+  },
+  "subtitles": {
+    "message": "אונטערקעפּלעך"
+  },
+  "close_captions": {
+    "message": "פארמאכטע קאַפּשאַנז"
+  },
+  "danmaku": {
+    "message": "בולעט שמועסן"
+  },
+  "fit_to_screen": {
+    "message": "פּאַסן צו פאַרשטעלן"
+  },
+  "reload_video": {
+    "message": "רילאָוד ווידעא"
+  },
+  "loading_pip_config": {
+    "message": "לאָודינג דאָקומענט בילד-אין-בילד קאָנפיגוראַטיאָנס..."
+  },
+  "playing_in_pip_mode": {
+    "message": "שפּילן אין דאָקומענט בילד-אין-בילד מאָדע"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "דעטעקטינג בילד-אין-בילד סאַבטייטאַל סעטטינגס..."
+  },
+  "video_not_detected": {
+    "message": "ווידעא נישט דעטעקטעד. עס קען נישט זיין גרייט נאָך. אויב עס איז אַ ווידעא אויף דער בלאַט, ביטע גיט שפּיל און פּרובירן ווידער."
+  },
+  "pip_window_restriction": {
+    "message": "אַוואַנסירטע בילד-אין-בילד פֿענצטער קענען בלויז זיין געעפנט פֿון דער הויפּט בלאַט און קענען נישט זיין לאָנטשט פֿון ראָמען אָדער עמבעדיד אינהאַלט. איר קענען נוצן נאָרמאַל בילד-אין-בילד מאָדע אָדער עפענען אין אַ נייַ קוויטל צו פּרובירן ווידער. באַמערקונג אַז די ווידעא קען נישט מאַסע רעכט אין אַ נייַ קוויטל.",
+    "description": "ניט אַנדערש צו דורכפירן 'requestWindow' אויף 'DocumentPictureInPicture': עפן אַ PiP פֿענצטער איז בלויז ערלויבט פֿון אַ שפּיץ-מדרגה בראַוזינג קאָנטעקסט"
+  },
+  "use_standard_pip": {
+    "message": "ניצן נאָרמאַל PiP",
+    "description": "אָפּציע צו נוצן נאָרמאַל בילד-אין-בילד מאָדע"
+  },
+  "open_in_new_tab": {
+    "message": "עפענען אין אַ נייַ קוויטל",
+    "description": "אָפּציע צו עפענען די בלאַט אין אַ נייַ קוויטל"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "דערמאָנען דעם פּלאַץ ס סעטטינגס (איר קענען מאָדיפיצירן עס אין אָפּציעס - פּלאַץ סעטטינגס)"
+  },
+  "pip_user_activation_required": {
+    "message": "בילד-אין-בילד מאָדע ריקווייערז באַניצער ינטעראַקשאַן. ביטע גיט אָדער ינטעראַקט מיט דער בלאַט און פּרובירן ווידער.",
+    "description": "ניט אַנדערש צו דורכפירן 'requestWindow' אויף 'DocumentPictureInPicture': דאָקומענט PiP ריקווייערז באַניצער אַקטאַוויישאַן"
+  },
+  "retry_action": {
+    "message": "פּרובירן ווידער"
   }
 }

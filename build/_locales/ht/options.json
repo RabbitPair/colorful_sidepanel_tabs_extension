@@ -136,6 +136,7 @@
         "sortBy": "Triye Pa",
         "createTabPanel": "Kreye Panèl Tab",
         "tabPanels": "Panèl Tab yo",
+        "switchPIP": "Chanje Piti nan Piti",
         "pinToToolbarReminder": "Tanpri fikse ekstansyon an nan ba zouti ou anvan ou retire navigasyon sa a."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Paj sa a se pou afichaj sèlman. Pou modifye kout kòt yo, tanpri vizite [Ekstansyon]->[Jere Ekstansyon]->[Kout kòt klavye]",
       "goToBrowserSettings": "Ale nan anviwònman Chrome a",
       "_execute_action": "Aktive ekstansyon sa a",
-      "openSidePanel": "Ouvri panèl bò kote"
+      "openSidePanel": "Ouvri panèl bò kote",
+      "switchPIP": "Chanje Imaj nan Imaj"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imaj nan imaj",
@@ -392,6 +394,22 @@
         "description": "Si paj la kounye a ap jwe yon videyo epi videyo a pa mete sou sòt epi videyo a soti nan zòn vizib la lè wap defile, li pral antre nan imaj nan imaj.",
         "enabled": "Aktive",
         "disabled": "Dezaktive"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Imaj nan Imaj sou Chanjman Tab san louvri Panèl Bò Kote",
+        "description": "Si paj aktyèl la ap jwe yon videyo epi videyo a pa mete sou sòt, aktive Auto Imaj nan Imaj sou chanjman tab san louvri panèl bò kote. Remake byen ke karakteristik sa a **mande aktivasyon itilizatè** (pa egzanp, klike sourit la sou yon zòn vid nan paj la)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktive Imaj nan Imaj Avanse",
+        "description": "Lè aktive, Imaj nan Imaj Avanse pral gen priyorite. Si paj la pa sipòte li, Imaj nan Imaj regilye pral itilize.\nImaj nan Imaj Avanse itilize yon jwè videyo koutim, ki ofri karakteristik tankou:\n * Jwe/Poze videyo (Espas)\n * Ajiste volim (Flèch Anwo/Anba)\n * Mute/Unmute videyo\n * Avanse rapid/Retrase videyo (Flèch Gòch/Dwat oswa Roulèt Sourit)\n * Jwe pwochen videyo a\n * Montre sous-titres (sipòte sou kèk sit entènèt, pa egzanp, youtube.com, vimeo.com, tver.jp, elatriye)\n * Montre baraj (sipòte sou kèk sit entènèt, pa egzanp, nicovideo.jp, bilibili.com, elatriye)\n * Soti nan Imaj nan Imaj (Esc)\n * Chanje kache/montre videyo ak jwe/poze (Q)\n >Si sit entènèt ou vizite souvan sipòte sous-titres oswa baraj, ou ka soumèt yon [pwoblèm: Imaj nan Imaj Avanse](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), epi nou pral adapte li pi vit ke posib. Remake byen ke kèk sit entènèt ka gen restriksyon rejyonal, epi ou ka bezwen bay enfòmasyon adisyonèl."
+      },
+      "subtitleDetection": {
+        "label": "Aktive Deteksyon Sous-titres",
+        "description": "Si sit aktyèl la pa gen yon konfigirasyon Imaj nan Imaj, pèmèt pwogram nan eseye otomatikman detekte eleman sous-titres yo epi ajoute yo nan jwè Imaj nan Imaj la. Sa a se yon karakteristik enstab epi li ka pa toujou detekte eleman sous-titres kòrèk yo. Si ou se yon pwofesyonèl, ou ka ajoute konfigirasyon eleman sous-titres nan anviwònman sit la."
+      },
+      "continuousPlayback": {
+        "label": "Aktive Jwe Kontini",
+        "description": "Jwe kontini: Fenèt Imaj nan Imaj la pa fèmen epi li jwe otomatikman pwochen epizòd la apre videyo a fini. Karakteristik sa a mande sipò sit entènèt."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Koulè Font",
         "description": "Fikse koulè font pou sit sa a."
+      },
+      "pipRestrictionAction": {
+        "label": "Aksyon Restriksyon Picture-in-Picture",
+        "description": "Fenèt Picture-in-Picture avanse a ka sèlman louvri nan paj prensipal la epi li pa ka lanse soti nan ankadreman oswa kontni entegre. Ou ka itilize mòd Picture-in-Picture estanda oswa louvri nan yon nouvo tab pou eseye ankò. Remake byen ke videyo a ka pa chaje kòrèkteman nan yon nouvo tab.",
+        "default": "Default",
+        "use_standard_pip": "Sèvi ak Picture-in-Picture estanda",
+        "open_in_new_tab": "Louvri nan nouvo tab"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Antre otomatikman nan Picture-in-Picture",
+        "description": "Antre otomatikman nan mòd Picture-in-Picture lè yon videyo prezan lè w antre nan paj la. Akòz limitasyon sistèm, sa mande entèraksyon itilizatè ak paj la."
+      },
+      "captionSetting": {
+        "label": "Anviwònman Tit",
+        "description": "Konfigire selektè CSS pou eleman tit la ak paran li sou paj la. Selektè CSS pou eleman tit la itilize pou montre tit nan jwè a, pandan y ap selektè paran an itilize pou retounen tit yo nan paj orijinal la lè w sòti nan mòd Picture-in-Picture.",
+        "configure": "Konfigire",
+        "selectorDesc": "Selektè komen yo enkli: '.class' pou selektè klas, '#id' pou selektè ID, 'tag' pou selektè tag, ak '[attribute=value]' pou selektè atribi. Pou plis detay, vizite: [Selektè CSS - CSS: Fèy Style Kaskad - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selektè CSS pou eleman tit la",
+        "captionParentSelectorDesc": "Selektè CSS pou paran eleman tit la"
       }
     },
     "quickAccess": {

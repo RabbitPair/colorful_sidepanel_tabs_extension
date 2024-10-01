@@ -241,5 +241,6 @@
   "shortName": "Nama pendek",
   "expandIcons": "Perluas Ikon",
   "expandList": "Perluas daftar",
-  "openAllUrls": "Buka Semua URL"
+  "openAllUrls": "Buka Semua URL",
+  "switchPIP": "Beralih Gambar-dalam-Gambar"
 }

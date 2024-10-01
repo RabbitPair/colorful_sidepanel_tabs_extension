@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interní systémy"
+  },
+  "switchPIP": {
+    "message": "Přepnout obraz v obraze"
+  },
+  "play": {
+    "message": "Přehrát"
+  },
+  "pause": {
+    "message": "Pozastavit"
+  },
+  "shortcut_play_pause": {
+    "message": "Přehrát/Pozastavit video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Upravit hlasitost"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Ztlumit/Zesílit video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Přetočit video o 5 sekund dopředu/dozadu"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Přetočit video o 10 sekund dopředu/dozadu"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Přetočit video dopředu/dozadu"
+  },
+  "shortcut_next_video": {
+    "message": "Přehrát další video"
+  },
+  "shortcut_previous_video": {
+    "message": "Přehrát předchozí video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Zobrazit/Skrýt titulky"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Zobrazit/Skrýt komentáře"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Přepnout na celou obrazovku"
+  },
+  "shortcut_playback_speed": {
+    "message": "Upravit rychlost přehrávání"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Přeskočit na začátek/konec videa"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Přeskočit na procento videa"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Upravit okno na velikost videa"
+  },
+  "shortcut_exit_pip": {
+    "message": "Ukončit režim obraz v obraze"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Přepnout skrytí/zobrazení videa a přehrát/pozastavit"
+  },
+  "shortcut_enter_pip": {
+    "message": "Přepnout režim obraz v obraze z hlavní stránky"
+  },
+  "mute": {
+    "message": "Ztlumit"
+  },
+  "unmute": {
+    "message": "Zesílit"
+  },
+  "prev_video": {
+    "message": "Předchozí video"
+  },
+  "next_video": {
+    "message": "Další video"
+  },
+  "playbackRate": {
+    "message": "Rychlost přehrávání"
+  },
+  "subtitles": {
+    "message": "Titulky"
+  },
+  "close_captions": {
+    "message": "Skryté titulky"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Přizpůsobit obrazovce"
+  },
+  "reload_video": {
+    "message": "Znovu načíst video"
+  },
+  "loading_pip_config": {
+    "message": "Načítání konfigurace obraz v obraze..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Přehrávání v režimu obraz v obraze"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detekce nastavení titulků obraz v obraze..."
+  },
+  "video_not_detected": {
+    "message": "Video nebylo detekováno. Možná ještě není připraveno. Pokud je na stránce video, klikněte na přehrát a zkuste to znovu."
+  },
+  "pip_window_restriction": {
+    "message": "Pokročilé okno obraz v obraze lze otevřít pouze z hlavní stránky a nelze jej spustit z rámců nebo vloženého obsahu. Můžete použít standardní režim obraz v obraze nebo otevřít v nové záložce a zkusit to znovu. Upozorňujeme, že video se nemusí správně načíst v nové záložce.",
+    "description": "Nepodařilo se provést 'requestWindow' na 'DocumentPictureInPicture': Otevření okna PiP je povoleno pouze z kontextu prohlížení na nejvyšší úrovni"
+  },
+  "use_standard_pip": {
+    "message": "Použít standardní PiP",
+    "description": "Možnost použít standardní režim obraz v obraze"
+  },
+  "open_in_new_tab": {
+    "message": "Otevřít v nové záložce",
+    "description": "Možnost otevřít stránku v nové záložce"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Zapamatovat nastavení tohoto webu (Můžete jej upravit v Možnostech - Nastavení webu)"
+  },
+  "pip_user_activation_required": {
+    "message": "Režim obraz v obraze vyžaduje interakci uživatele. Klikněte nebo interagujte se stránkou a zkuste to znovu.",
+    "description": "Nepodařilo se provést 'requestWindow' na 'DocumentPictureInPicture': Dokument PiP vyžaduje aktivaci uživatele"
+  },
+  "retry_action": {
+    "message": "Zkusit znovu"
   }
 }

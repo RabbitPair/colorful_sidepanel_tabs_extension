@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "ആന്തരിക സിസ്റ്റങ്ങൾ"
+  },
+  "switchPIP": {
+    "message": "പിക്ചർ-ഇൻ-പിക്ചർ മാറ്റുക"
+  },
+  "play": {
+    "message": "കളിക്കുക"
+  },
+  "pause": {
+    "message": "വിരാമം"
+  },
+  "shortcut_play_pause": {
+    "message": "വീഡിയോ പ്ലേ/പോസ് ചെയ്യുക"
+  },
+  "shortcut_adjust_volume": {
+    "message": "വോള്യം ക്രമീകരിക്കുക"
+  },
+  "shortcut_mute_unmute": {
+    "message": "വീഡിയോ മ്യൂട്ട്/അൺമ്യൂട്ട് ചെയ്യുക"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "വീഡിയോ 5 സെക്കൻഡ് ഫാസ്റ്റ് ഫോർവേഡ്/റിവൈൻഡ് ചെയ്യുക"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "വീഡിയോ 10 സെക്കൻഡ് ഫാസ്റ്റ് ഫോർവേഡ്/റിവൈൻഡ് ചെയ്യുക"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "വീഡിയോ ഫാസ്റ്റ് ഫോർവേഡ്/റിവൈൻഡ് ചെയ്യുക"
+  },
+  "shortcut_next_video": {
+    "message": "അടുത്ത വീഡിയോ പ്ലേ ചെയ്യുക"
+  },
+  "shortcut_previous_video": {
+    "message": "മുൻ വീഡിയോ പ്ലേ ചെയ്യുക"
+  },
+  "shortcut_toggle_captions": {
+    "message": "ക്യാപ്ഷനുകൾ കാണിക്കുക/മറയ്ക്കുക"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "ബാരേജുകൾ കാണിക്കുക/മറയ്ക്കുക"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "ഫുൾസ്ക്രീൻ ടോഗിൾ ചെയ്യുക"
+  },
+  "shortcut_playback_speed": {
+    "message": "പ്ലേബാക്ക് സ്പീഡ് ക്രമീകരിക്കുക"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "വീഡിയോയുടെ ആരംഭത്തിലേക്കോ അവസാനത്തിലേക്കോ പോകുക"
+  },
+  "shortcut_seek_percentage": {
+    "message": "വീഡിയോയുടെ ശതമാനത്തിലേക്കു പോകുക"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "വീഡിയോ വലിപ്പത്തിന് വിൻഡോ ക്രമീകരിക്കുക"
+  },
+  "shortcut_exit_pip": {
+    "message": "പിക്ചർ-ഇൻ-പിക്ചർ മോഡിൽ നിന്ന് പുറത്ത് പോകുക"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "വീഡിയോ മറയ്ക്കുക/കാണിക്കുക, പ്ലേ/പോസ് ചെയ്യുക"
+  },
+  "shortcut_enter_pip": {
+    "message": "പ്രധാന പേജിൽ നിന്ന് പിക്ചർ-ഇൻ-പിക്ചർ ടോഗിൾ ചെയ്യുക"
+  },
+  "mute": {
+    "message": "മ്യൂട്ട്"
+  },
+  "unmute": {
+    "message": "അൺമ്യൂട്ട്"
+  },
+  "prev_video": {
+    "message": "മുൻ വീഡിയോ"
+  },
+  "next_video": {
+    "message": "അടുത്ത വീഡിയോ"
+  },
+  "playbackRate": {
+    "message": "പ്ലേബാക്ക് സ്പീഡ്"
+  },
+  "subtitles": {
+    "message": "സബ്ടൈറ്റിലുകൾ"
+  },
+  "close_captions": {
+    "message": "ക്ലോസ്‌ഡ് ക്യാപ്ഷനുകൾ"
+  },
+  "danmaku": {
+    "message": "ബുള്ളറ്റ് ചാറ്റിംഗ്"
+  },
+  "fit_to_screen": {
+    "message": "സ്ക്രീനിൽ ഫിറ്റ് ചെയ്യുക"
+  },
+  "reload_video": {
+    "message": "വീഡിയോ റീലോഡ് ചെയ്യുക"
+  },
+  "loading_pip_config": {
+    "message": "ഡോക്യുമെന്റ് പിക്ചർ-ഇൻ-പിക്ചർ കോൺഫിഗറേഷനുകൾ ലോഡുചെയ്യുന്നു..."
+  },
+  "playing_in_pip_mode": {
+    "message": "ഡോക്യുമെന്റ് പിക്ചർ-ഇൻ-പിക്ചർ മോഡിൽ കളിക്കുന്നു"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "പിക്ചർ-ഇൻ-പിക്ചർ സബ്ടൈറ്റിൽ ക്രമീകരണങ്ങൾ കണ്ടെത്തുന്നു..."
+  },
+  "video_not_detected": {
+    "message": "വീഡിയോ കണ്ടെത്തിയില്ല. ഇത് ഇപ്പോഴും തയ്യാറായിരിക്കാം. പേജിൽ ഒരു വീഡിയോ ഉണ്ടെങ്കിൽ, ദയവായി പ്ലേ ക്ലിക്ക് ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."
+  },
+  "pip_window_restriction": {
+    "message": "അഡ്വാൻസ്ഡ് പിക്ചർ-ഇൻ-പിക്ചർ വിൻഡോ പ്രധാന പേജിൽ നിന്ന് മാത്രമേ തുറക്കാൻ കഴിയൂ, ഫ്രെയിമുകളിൽ നിന്ന് അല്ലെങ്കിൽ എംബെഡ്ഡ് ഉള്ളടക്കത്തിൽ നിന്ന് ആരംഭിക്കാൻ കഴിയില്ല. നിങ്ങൾക്ക് സ്റ്റാൻഡേർഡ് പിക്ചർ-ഇൻ-പിക്ചർ മോഡ് ഉപയോഗിക്കാം അല്ലെങ്കിൽ വീണ്ടും ശ്രമിക്കാൻ ഒരു പുതിയ ടാബിൽ തുറക്കാം. ഒരു പുതിയ ടാബിൽ വീഡിയോ ശരിയായി ലോഡ് ചെയ്യില്ലെന്ന് ശ്രദ്ധിക്കുക.",
+    "description": "'requestWindow' on 'DocumentPictureInPicture' നടപ്പിലാക്കുന്നതിൽ പരാജയപ്പെട്ടു: ഒരു PiP വിൻഡോ തുറക്കുന്നത് ടോപ്പ്-ലെവൽ ബ്രൗസിംഗ് കോൺടെക്സ്റ്റിൽ നിന്ന് മാത്രമേ അനുവദിക്കൂ"
+  },
+  "use_standard_pip": {
+    "message": "സ്റ്റാൻഡേർഡ് PiP ഉപയോഗിക്കുക",
+    "description": "സ്റ്റാൻഡേർഡ് പിക്ചർ-ഇൻ-പിക്ചർ മോഡ് ഉപയോഗിക്കുന്നതിനുള്ള ഓപ്ഷൻ"
+  },
+  "open_in_new_tab": {
+    "message": "പുതിയ ടാബിൽ തുറക്കുക",
+    "description": "പേജ് ഒരു പുതിയ ടാബിൽ തുറക്കുന്നതിനുള്ള ഓപ്ഷൻ"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "ഈ സൈറ്റിന്റെ ക്രമീകരണങ്ങൾ ഓർക്കുക (ഓപ്ഷനുകളിൽ - സൈറ്റ് ക്രമീകരണങ്ങളിൽ ഇത് മാറ്റാൻ കഴിയും)"
+  },
+  "pip_user_activation_required": {
+    "message": "പിക്ചർ-ഇൻ-പിക്ചർ മോഡിന് ഉപയോക്തൃ ഇടപെടൽ ആവശ്യമാണ്. ദയവായി പേജ് ക്ലിക്ക് ചെയ്യുക അല്ലെങ്കിൽ ഇടപെടുക, വീണ്ടും ശ്രമിക്കുക.",
+    "description": "'requestWindow' on 'DocumentPictureInPicture' നടപ്പിലാക്കുന്നതിൽ പരാജയപ്പെട്ടു: ഡോക്യുമെന്റ് PiP ഉപയോക്തൃ സജീവത ആവശ്യമാണ്"
+  },
+  "retry_action": {
+    "message": "വീണ്ടും ശ്രമിക്കുക"
   }
 }

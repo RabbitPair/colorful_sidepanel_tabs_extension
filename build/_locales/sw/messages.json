@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Mifumo ya Ndani"
+  },
+  "switchPIP": {
+    "message": "Badilisha Picha-ndani-ya-Picha"
+  },
+  "play": {
+    "message": "Cheza"
+  },
+  "pause": {
+    "message": "Sitisha"
+  },
+  "shortcut_play_pause": {
+    "message": "Cheza/Sitisha video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Rekebisha sauti"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Nyamazisha/Ondoa unyamazishaji wa video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Sogeza mbele/nyuma video kwa sekunde 5"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Sogeza mbele/nyuma video kwa sekunde 10"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Sogeza mbele/nyuma video"
+  },
+  "shortcut_next_video": {
+    "message": "Cheza video inayofuata"
+  },
+  "shortcut_previous_video": {
+    "message": "Cheza video iliyotangulia"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Onyesha/Ficha manukuu"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Onyesha/Ficha gumzo la risasi"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Badilisha skrini kamili"
+  },
+  "shortcut_playback_speed": {
+    "message": "Rekebisha kasi ya uchezaji"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Tafuta mwanzo/mwisho wa video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Tafuta asilimia ya video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Rekebisha dirisha kulingana na ukubwa wa video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Toka kwenye Picha-ndani-ya-Picha"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Badilisha kuficha/kuonyesha video na kucheza/kusitisha"
+  },
+  "shortcut_enter_pip": {
+    "message": "Badilisha Picha-ndani-ya-Picha kutoka ukurasa mkuu"
+  },
+  "mute": {
+    "message": "Nyamazisha"
+  },
+  "unmute": {
+    "message": "Ondoa Unyamazishaji"
+  },
+  "prev_video": {
+    "message": "Video Iliyopita"
+  },
+  "next_video": {
+    "message": "Video Inayofuata"
+  },
+  "playbackRate": {
+    "message": "Kasi ya Uchezaji"
+  },
+  "subtitles": {
+    "message": "Manukuu"
+  },
+  "close_captions": {
+    "message": "Manukuu Yaliyofungwa"
+  },
+  "danmaku": {
+    "message": "Gumzo la Risasi"
+  },
+  "fit_to_screen": {
+    "message": "Ingia kwenye Skrini"
+  },
+  "reload_video": {
+    "message": "Pakia Upya Video"
+  },
+  "loading_pip_config": {
+    "message": "Inapakia Mipangilio ya Picha-ndani-ya-Picha ya Hati..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Inacheza katika Hali ya Picha-ndani-ya-Picha ya Hati"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Inagundua Mipangilio ya Manukuu ya Picha-ndani-ya-Picha..."
+  },
+  "video_not_detected": {
+    "message": "Video haijapatikana. Inaweza kuwa haijawa tayari. Ikiwa kuna video kwenye ukurasa, tafadhali bonyeza cheza na jaribu tena."
+  },
+  "pip_window_restriction": {
+    "message": "Dirisha la Picha-ndani-ya-Picha ya Juu linaweza kufunguliwa tu kutoka kwenye ukurasa kuu na haliwezi kuzinduliwa kutoka kwa fremu au maudhui yaliyopachikwa. Unaweza kutumia hali ya kawaida ya Picha-ndani-ya-Picha au kufungua katika kichupo kipya ili kujaribu tena. Kumbuka kuwa video inaweza isipakie vizuri katika kichupo kipya.",
+    "description": "Imeshindwa kutekeleza 'requestWindow' kwenye 'DocumentPictureInPicture': Kufungua dirisha la PiP kunaruhusiwa tu kutoka kwa muktadha wa kuvinjari wa kiwango cha juu"
+  },
+  "use_standard_pip": {
+    "message": "Tumia PiP ya kawaida",
+    "description": "Chaguo la kutumia hali ya kawaida ya Picha-ndani-ya-Picha"
+  },
+  "open_in_new_tab": {
+    "message": "Fungua katika kichupo kipya",
+    "description": "Chaguo la kufungua ukurasa katika kichupo kipya"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Kumbuka mipangilio ya tovuti hii (Unaweza kuibadilisha katika Chaguo - Mipangilio ya tovuti)"
+  },
+  "pip_user_activation_required": {
+    "message": "Hali ya Picha-ndani-ya-Picha inahitaji mwingiliano wa mtumiaji. Tafadhali bonyeza au fanya mwingiliano na ukurasa na jaribu tena.",
+    "description": "Imeshindwa kutekeleza 'requestWindow' kwenye 'DocumentPictureInPicture': PiP ya Hati inahitaji uanzishaji wa mtumiaji"
+  },
+  "retry_action": {
+    "message": "Jaribu Tena"
   }
 }

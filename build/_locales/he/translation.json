@@ -241,5 +241,6 @@
   "shortName": "שם קצר",
   "expandIcons": "הרחב סמלים",
   "expandList": "הרחב רשימה",
-  "openAllUrls": "פתח את כל ה-URLs"
+  "openAllUrls": "פתח את כל ה-URLs",
+  "switchPIP": "החלף תמונה בתוך תמונה"
 }

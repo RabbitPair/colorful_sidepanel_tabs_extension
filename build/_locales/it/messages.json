@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistemi Interni"
+  },
+  "switchPIP": {
+    "message": "Cambia Picture-in-Picture"
+  },
+  "play": {
+    "message": "Riproduci"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "shortcut_play_pause": {
+    "message": "Riproduci/Pausa video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Regola volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Disattiva/Attiva audio video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avanza/Riavvolgi video di 5 secondi"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avanza/Riavvolgi video di 10 secondi"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avanza/Riavvolgi video"
+  },
+  "shortcut_next_video": {
+    "message": "Riproduci il video successivo"
+  },
+  "shortcut_previous_video": {
+    "message": "Riproduci il video precedente"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Mostra/Nascondi sottotitoli"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Mostra/Nascondi chat a schermo"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Attiva/Disattiva schermo intero"
+  },
+  "shortcut_playback_speed": {
+    "message": "Regola velocità di riproduzione"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Vai all'inizio/fine del video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Vai a una percentuale del video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Adatta finestra alla dimensione del video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Esci da Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Mostra/Nascondi video e riproduci/pausa"
+  },
+  "shortcut_enter_pip": {
+    "message": "Attiva/Disattiva Picture-in-Picture dalla pagina principale"
+  },
+  "mute": {
+    "message": "Disattiva audio"
+  },
+  "unmute": {
+    "message": "Attiva audio"
+  },
+  "prev_video": {
+    "message": "Video precedente"
+  },
+  "next_video": {
+    "message": "Video successivo"
+  },
+  "playbackRate": {
+    "message": "Velocità di riproduzione"
+  },
+  "subtitles": {
+    "message": "Sottotitoli"
+  },
+  "close_captions": {
+    "message": "Sottotitoli per non udenti"
+  },
+  "danmaku": {
+    "message": "Chat a schermo"
+  },
+  "fit_to_screen": {
+    "message": "Adatta allo schermo"
+  },
+  "reload_video": {
+    "message": "Ricarica video"
+  },
+  "loading_pip_config": {
+    "message": "Caricamento delle configurazioni Picture-in-Picture del documento..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Riproduzione in modalità Picture-in-Picture del documento"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Rilevamento delle impostazioni dei sottotitoli Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Video non rilevato. Potrebbe non essere ancora pronto. Se c'è un video sulla pagina, fai clic su riproduci e riprova."
+  },
+  "pip_window_restriction": {
+    "message": "La finestra avanzata Picture-in-Picture può essere aperta solo dalla pagina principale e non può essere avviata da frame o contenuti incorporati. Puoi utilizzare la modalità Picture-in-Picture standard o aprire in una nuova scheda per riprovare. Nota che il video potrebbe non caricarsi correttamente in una nuova scheda.",
+    "description": "Impossibile eseguire 'requestWindow' su 'DocumentPictureInPicture': l'apertura di una finestra PiP è consentita solo da un contesto di navigazione di primo livello"
+  },
+  "use_standard_pip": {
+    "message": "Usa PiP standard",
+    "description": "Opzione per utilizzare la modalità Picture-in-Picture standard"
+  },
+  "open_in_new_tab": {
+    "message": "Apri in una nuova scheda",
+    "description": "Opzione per aprire la pagina in una nuova scheda"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Ricorda le impostazioni di questo sito (puoi modificarle in Opzioni - Impostazioni del sito)"
+  },
+  "pip_user_activation_required": {
+    "message": "La modalità Picture-in-Picture richiede l'interazione dell'utente. Si prega di fare clic o interagire con la pagina e riprovare.",
+    "description": "Impossibile eseguire 'requestWindow' su 'DocumentPictureInPicture': il PiP del documento richiede l'attivazione dell'utente"
+  },
+  "retry_action": {
+    "message": "Riprova"
   }
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Hệ thống Nội bộ"
+  },
+  "switchPIP": {
+    "message": "Chuyển đổi Chế độ Hình trong Hình"
+  },
+  "play": {
+    "message": "Phát"
+  },
+  "pause": {
+    "message": "Tạm dừng"
+  },
+  "shortcut_play_pause": {
+    "message": "Phát/Tạm dừng video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Điều chỉnh âm lượng"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Tắt tiếng/Bật tiếng video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Tua nhanh/Tua lại video 5 giây"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Tua nhanh/Tua lại video 10 giây"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Tua nhanh/Tua lại video"
+  },
+  "shortcut_next_video": {
+    "message": "Phát video tiếp theo"
+  },
+  "shortcut_previous_video": {
+    "message": "Phát video trước đó"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Hiện/Ẩn phụ đề"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Hiện/Ẩn trò chuyện Đạn"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Chuyển đổi chế độ toàn màn hình"
+  },
+  "shortcut_playback_speed": {
+    "message": "Điều chỉnh tốc độ phát"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Tìm kiếm đến đầu/cuối video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Tìm kiếm đến phần trăm của video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Điều chỉnh cửa sổ để vừa với kích thước video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Thoát chế độ Hình trong Hình"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Chuyển đổi ẩn/hiện video và phát/tạm dừng"
+  },
+  "shortcut_enter_pip": {
+    "message": "Chuyển đổi chế độ Hình trong Hình từ trang chính"
+  },
+  "mute": {
+    "message": "Tắt tiếng"
+  },
+  "unmute": {
+    "message": "Bật tiếng"
+  },
+  "prev_video": {
+    "message": "Video Trước"
+  },
+  "next_video": {
+    "message": "Video Tiếp theo"
+  },
+  "playbackRate": {
+    "message": "Tốc độ Phát"
+  },
+  "subtitles": {
+    "message": "Phụ đề"
+  },
+  "close_captions": {
+    "message": "Chú thích Đóng"
+  },
+  "danmaku": {
+    "message": "Trò chuyện Đạn"
+  },
+  "fit_to_screen": {
+    "message": "Vừa với Màn hình"
+  },
+  "reload_video": {
+    "message": "Tải lại Video"
+  },
+  "loading_pip_config": {
+    "message": "Đang tải Cấu hình Hình trong Hình..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Đang phát ở Chế độ Hình trong Hình"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Đang phát hiện Cài đặt Phụ đề Hình trong Hình..."
+  },
+  "video_not_detected": {
+    "message": "Không phát hiện thấy video. Có thể nó chưa sẵn sàng. Nếu có video trên trang, vui lòng nhấp vào phát và thử lại."
+  },
+  "pip_window_restriction": {
+    "message": "Cửa sổ Hình trong Hình nâng cao chỉ có thể được mở từ trang chính và không thể khởi chạy từ khung hoặc nội dung nhúng. Bạn có thể sử dụng chế độ Hình trong Hình tiêu chuẩn hoặc mở trong tab mới để thử lại. Lưu ý rằng video có thể không tải đúng cách trong tab mới.",
+    "description": "Không thể thực thi 'requestWindow' trên 'DocumentPictureInPicture': Mở cửa sổ PiP chỉ được phép từ ngữ cảnh duyệt cấp cao nhất"
+  },
+  "use_standard_pip": {
+    "message": "Sử dụng PiP tiêu chuẩn",
+    "description": "Tùy chọn sử dụng chế độ Hình trong Hình tiêu chuẩn"
+  },
+  "open_in_new_tab": {
+    "message": "Mở trong tab mới",
+    "description": "Tùy chọn mở trang trong tab mới"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Nhớ cài đặt của trang web này (Bạn có thể thay đổi nó trong Tùy chọn - Cài đặt trang web)"
+  },
+  "pip_user_activation_required": {
+    "message": "Chế độ Hình trong Hình yêu cầu tương tác của người dùng. Vui lòng nhấp hoặc tương tác với trang và thử lại.",
+    "description": "Không thể thực thi 'requestWindow' trên 'DocumentPictureInPicture': Document PiP yêu cầu kích hoạt người dùng"
+  },
+  "retry_action": {
+    "message": "Thử lại"
   }
 }

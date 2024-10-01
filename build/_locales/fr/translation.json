@@ -241,5 +241,6 @@
   "shortName": "Nom court",
   "expandIcons": "Développer les icônes",
   "expandList": "Développer la liste",
-  "openAllUrls": "Ouvrir toutes les URL"
+  "openAllUrls": "Ouvrir toutes les URL",
+  "switchPIP": "Basculer l'image dans l'image"
 }

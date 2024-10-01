@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interne systemer"
+  },
+  "switchPIP": {
+    "message": "Bytt bilde-i-bilde"
+  },
+  "play": {
+    "message": "Spill"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "shortcut_play_pause": {
+    "message": "Spill/Pause video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Juster volum"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Demp/Slå på lyden video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Spol fremover/tilbake video 5 sekunder"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Spol fremover/tilbake video 10 sekunder"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Spol fremover/tilbake video"
+  },
+  "shortcut_next_video": {
+    "message": "Spill neste video"
+  },
+  "shortcut_previous_video": {
+    "message": "Spill forrige video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Vis/Skjul undertekster"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Vis/Skjul kulechatting"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Bytt til/fra fullskjerm"
+  },
+  "shortcut_playback_speed": {
+    "message": "Juster avspillingshastighet"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Gå til start/slutt av video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Gå til prosentandel av video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Juster vindu for å passe til videostørrelse"
+  },
+  "shortcut_exit_pip": {
+    "message": "Avslutt bilde-i-bilde"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Bytt skjul/vis video og spill/pause"
+  },
+  "shortcut_enter_pip": {
+    "message": "Bytt bilde-i-bilde fra hovedsiden"
+  },
+  "mute": {
+    "message": "Demp"
+  },
+  "unmute": {
+    "message": "Slå på lyden"
+  },
+  "prev_video": {
+    "message": "Forrige video"
+  },
+  "next_video": {
+    "message": "Neste video"
+  },
+  "playbackRate": {
+    "message": "Avspillingshastighet"
+  },
+  "subtitles": {
+    "message": "Undertekster"
+  },
+  "close_captions": {
+    "message": "Lukkede bildetekster"
+  },
+  "danmaku": {
+    "message": "Kulechatting"
+  },
+  "fit_to_screen": {
+    "message": "Tilpass til skjerm"
+  },
+  "reload_video": {
+    "message": "Last inn video på nytt"
+  },
+  "loading_pip_config": {
+    "message": "Laster dokumentbilde-i-bilde-konfigurasjoner..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Spiller i dokumentbilde-i-bilde-modus"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Oppdager bilde-i-bilde-undertekstinnstillinger..."
+  },
+  "video_not_detected": {
+    "message": "Video ikke oppdaget. Den er kanskje ikke klar ennå. Hvis det er en video på siden, vennligst klikk spill og prøv igjen."
+  },
+  "pip_window_restriction": {
+    "message": "Avansert bilde-i-bilde-vindu kan bare åpnes fra hovedsiden og kan ikke startes fra rammer eller innebygd innhold. Du kan bruke standard bilde-i-bilde-modus eller åpne i en ny fane for å prøve igjen. Merk at videoen kanskje ikke lastes riktig i en ny fane.",
+    "description": "Kunne ikke utføre 'requestWindow' på 'DocumentPictureInPicture': Åpning av et PiP-vindu er kun tillatt fra en toppnivå nettleserkontekst"
+  },
+  "use_standard_pip": {
+    "message": "Bruk standard PiP",
+    "description": "Alternativ for å bruke standard bilde-i-bilde-modus"
+  },
+  "open_in_new_tab": {
+    "message": "Åpne i ny fane",
+    "description": "Alternativ for å åpne siden i en ny fane"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Husk dette nettstedets innstillinger (Du kan endre det i Alternativer - Nettstedsinnstillinger)"
+  },
+  "pip_user_activation_required": {
+    "message": "Bilde-i-bilde-modus krever brukerinteraksjon. Vennligst klikk eller samhandle med siden og prøv igjen.",
+    "description": "Kunne ikke utføre 'requestWindow' på 'DocumentPictureInPicture': Dokument PiP krever brukeraktivering"
+  },
+  "retry_action": {
+    "message": "Prøv igjen"
   }
 }

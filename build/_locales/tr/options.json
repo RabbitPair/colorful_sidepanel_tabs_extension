@@ -136,6 +136,7 @@
         "sortBy": "Sırala",
         "createTabPanel": "Sekme Paneli Oluştur",
         "tabPanels": "Sekme Panelleri",
+        "switchPIP": "Resim İçinde Resim Modunu Değiştir",
         "pinToToolbarReminder": "Bu gezintiyi kaldırmadan önce uzantıyı araç çubuğunuza sabitleyin."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Bu sayfa yalnızca görüntüleme içindir. Kısayolları değiştirmek için lütfen [Uzantılar]->[Uzantıları Yönet]->[Klavye Kısayolları] bölümünü ziyaret edin",
       "goToBrowserSettings": "Chrome ayarlarına git",
       "_execute_action": "Bu uzantıyı etkinleştir",
-      "openSidePanel": "Yan paneli aç"
+      "openSidePanel": "Yan paneli aç",
+      "switchPIP": "Resim içinde resim geçişi"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Resim içinde resim",
@@ -392,6 +394,22 @@
         "description": "Geçerli sayfa bir video oynatıyorsa ve video sesi kapatılmamışsa ve kaydırma sırasında video görünür alanın dışına çıkarsa, resim içinde resime geçer.",
         "enabled": "Etkin",
         "disabled": "Devre dışı"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Yan Paneli Açmadan Sekme Değiştirmede Otomatik Resim İçinde Resim",
+        "description": "Geçerli sayfa bir video oynatıyorsa ve video sesi kapatılmamışsa, yan paneli açmadan sekme değiştirmede otomatik olarak resim içinde resim etkinleştirin. Bu özelliğin **kullanıcı etkinleştirmesi** gerektirdiğini unutmayın (örneğin, sayfanın boş bir alanına tıklamak)."
+      },
+      "advancedPipEnable": {
+        "label": "Gelişmiş Resim İçinde Resimi Etkinleştir",
+        "description": "Etkinleştirildiğinde, Gelişmiş Resim İçinde Resim öncelikli olacaktır. Sayfa bunu desteklemiyorsa, normal Resim İçinde Resim kullanılacaktır.\nGelişmiş Resim İçinde Resim, aşağıdaki özellikleri sunan özel bir video oynatıcı kullanır:\n * Videoyu Oynat/Duraklat (Boşluk)\n * Sesi Ayarla (Yukarı/Aşağı Ok)\n * Videoyu Sessize Al/Sesi Aç\n * Videoyu İleri Sar/Geri Sar (Sol/Sağ Ok veya Fare Tekerleği)\n * Sonraki videoyu oynat\n * Altyazıları göster (bazı web sitelerinde desteklenir, örneğin youtube.com, vimeo.com, tver.jp, vb.)\n * Yorumları göster (bazı web sitelerinde desteklenir, örneğin nicovideo.jp, bilibili.com, vb.)\n * Resim İçinde Resimden Çık (Esc)\n * Videoyu gizle/göster ve oynat/duraklat (Q)\n >Sık ziyaret ettiğiniz web siteleri altyazıları veya yorumları destekliyorsa, bir [sorun: Gelişmiş Resim İçinde Resim](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) bildirimi yapabilirsiniz ve en kısa sürede uyarlayacağız. Bazı web sitelerinin bölgesel kısıtlamaları olabileceğini ve ek bilgi sağlamanız gerekebileceğini unutmayın."
+      },
+      "subtitleDetection": {
+        "label": "Altyazı Algılamayı Etkinleştir",
+        "description": "Geçerli sitede bir Resim İçinde Resim yapılandırması yoksa, programın altyazı öğelerini otomatik olarak algılamasına ve bunları Resim İçinde Resim oynatıcısına eklemesine izin verin. Bu kararsız bir özelliktir ve her zaman doğru altyazı öğelerini algılamayabilir. Profesyonelseniz, site ayarlarında altyazı öğesi yapılandırmaları ekleyebilirsiniz."
+      },
+      "continuousPlayback": {
+        "label": "Sürekli Oynatmayı Etkinleştir",
+        "description": "Sürekli oynatma: Resim İçinde Resim penceresi kapanmaz ve video bittikten sonra otomatik olarak bir sonraki bölümü oynatır. Bu özellik web sitesi desteği gerektirir."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Yazı Rengi",
         "description": "Bu site için yazı rengini ayarlayın."
+      },
+      "pipRestrictionAction": {
+        "label": "Resim İçinde Resim Kısıtlama Eylemi",
+        "description": "Gelişmiş Resim İçinde Resim penceresi yalnızca ana sayfadan açılabilir ve çerçevelerden veya gömülü içerikten başlatılamaz. Standart Resim İçinde Resim modunu kullanabilir veya yeniden denemek için yeni bir sekmede açabilirsiniz. Videonun yeni bir sekmede düzgün yüklenmeyebileceğini unutmayın.",
+        "default": "Varsayılan",
+        "use_standard_pip": "Standart Resim İçinde Resim kullan",
+        "open_in_new_tab": "Yeni sekmede aç"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Otomatik Resim İçinde Resim",
+        "description": "Sayfaya girildiğinde bir video mevcutsa otomatik olarak Resim İçinde Resim moduna girin. Sistem sınırlamaları nedeniyle, bu sayfa ile kullanıcı etkileşimi gerektirir."
+      },
+      "captionSetting": {
+        "label": "Altyazı Ayarları",
+        "description": "Sayfadaki altyazı öğesi ve ebeveyni için CSS seçicilerini yapılandırın. Altyazı öğesi için CSS seçici, oynatıcıda altyazıları görüntülemek için kullanılırken, ebeveyn seçici, Resim İçinde Resim modundan çıkarken altyazıları orijinal sayfaya geri döndürmek için kullanılır.",
+        "configure": "Yapılandır",
+        "selectorDesc": "Yaygın seçiciler şunları içerir: sınıf seçicileri için '.class', ID seçicileri için '#id', etiket seçicileri için 'tag' ve öznitelik seçicileri için '[attribute=value]'. Daha fazla ayrıntı için şu adresi ziyaret edin: [CSS seçicileri - CSS: Basamaklı Stil Sayfaları - MDN Web Belgeleri](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Altyazı öğesi için CSS seçicileri",
+        "captionParentSelectorDesc": "Altyazı öğesinin ebeveyni için CSS seçicileri"
       }
     },
     "quickAccess": {

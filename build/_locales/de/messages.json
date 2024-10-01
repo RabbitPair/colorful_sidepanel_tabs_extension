@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interne Systeme"
+  },
+  "switchPIP": {
+    "message": "Bild-in-Bild wechseln"
+  },
+  "play": {
+    "message": "Abspielen"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "shortcut_play_pause": {
+    "message": "Video abspielen/pausieren"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Lautstärke anpassen"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Video stummschalten/Stummschaltung aufheben"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Video 5 Sekunden vor-/zurückspulen"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Video 10 Sekunden vor-/zurückspulen"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Video vor-/zurückspulen"
+  },
+  "shortcut_next_video": {
+    "message": "Nächstes Video abspielen"
+  },
+  "shortcut_previous_video": {
+    "message": "Vorheriges Video abspielen"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Untertitel ein-/ausblenden"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Bullet-Chat ein-/ausblenden"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Vollbildmodus umschalten"
+  },
+  "shortcut_playback_speed": {
+    "message": "Wiedergabegeschwindigkeit anpassen"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Zum Anfang/Ende des Videos springen"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Zu einem Prozentsatz des Videos springen"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Fenstergröße an Videogröße anpassen"
+  },
+  "shortcut_exit_pip": {
+    "message": "Bild-in-Bild-Modus beenden"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Video ein-/ausblenden und abspielen/pausieren"
+  },
+  "shortcut_enter_pip": {
+    "message": "Bild-in-Bild-Modus von der Hauptseite umschalten"
+  },
+  "mute": {
+    "message": "Stummschalten"
+  },
+  "unmute": {
+    "message": "Stummschaltung aufheben"
+  },
+  "prev_video": {
+    "message": "Vorheriges Video"
+  },
+  "next_video": {
+    "message": "Nächstes Video"
+  },
+  "playbackRate": {
+    "message": "Wiedergabegeschwindigkeit"
+  },
+  "subtitles": {
+    "message": "Untertitel"
+  },
+  "close_captions": {
+    "message": "Geschlossene Untertitel"
+  },
+  "danmaku": {
+    "message": "Bullet-Chat"
+  },
+  "fit_to_screen": {
+    "message": "An Bildschirm anpassen"
+  },
+  "reload_video": {
+    "message": "Video neu laden"
+  },
+  "loading_pip_config": {
+    "message": "Lade Bild-in-Bild-Konfigurationen..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Wiedergabe im Bild-in-Bild-Modus"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Erkennen der Bild-in-Bild-Untertiteleinstellungen..."
+  },
+  "video_not_detected": {
+    "message": "Video nicht erkannt. Es ist möglicherweise noch nicht bereit. Wenn sich ein Video auf der Seite befindet, klicken Sie bitte auf Abspielen und versuchen Sie es erneut."
+  },
+  "pip_window_restriction": {
+    "message": "Erweitertes Bild-in-Bild-Fenster kann nur von der Hauptseite aus geöffnet werden und kann nicht aus Frames oder eingebetteten Inhalten gestartet werden. Sie können den Standard-Bild-in-Bild-Modus verwenden oder in einem neuen Tab öffnen, um es erneut zu versuchen. Beachten Sie, dass das Video möglicherweise nicht richtig in einem neuen Tab geladen wird.",
+    "description": "Fehler beim Ausführen von 'requestWindow' auf 'DocumentPictureInPicture': Das Öffnen eines PiP-Fensters ist nur aus einem Top-Level-Browsing-Kontext erlaubt"
+  },
+  "use_standard_pip": {
+    "message": "Standard PiP verwenden",
+    "description": "Option, um den Standard-Bild-in-Bild-Modus zu verwenden"
+  },
+  "open_in_new_tab": {
+    "message": "In neuem Tab öffnen",
+    "description": "Option, um die Seite in einem neuen Tab zu öffnen"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Einstellungen dieser Seite merken (Sie können es in den Optionen - Seiteneinstellungen ändern)"
+  },
+  "pip_user_activation_required": {
+    "message": "Bild-in-Bild-Modus erfordert Benutzerinteraktion. Bitte klicken oder interagieren Sie mit der Seite und versuchen Sie es erneut.",
+    "description": "Fehler beim Ausführen von 'requestWindow' auf 'DocumentPictureInPicture': Dokument PiP erfordert Benutzeraktivierung"
+  },
+  "retry_action": {
+    "message": "Erneut versuchen"
   }
 }

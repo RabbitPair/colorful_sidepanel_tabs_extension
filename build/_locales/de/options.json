@@ -136,6 +136,7 @@
         "sortBy": "Sortieren nach",
         "createTabPanel": "Tab-Panel erstellen",
         "tabPanels": "Tab-Panels",
+        "switchPIP": "Bild-in-Bild-Modus wechseln",
         "pinToToolbarReminder": "Bitte heften Sie die Erweiterung an Ihre Symbolleiste, bevor Sie diese Navigation entfernen."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Diese Seite dient nur zur Anzeige. Um Tastenkombinationen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
       "goToBrowserSettings": "Zu den Einstellungen gehen",
       "_execute_action": "Diese Erweiterung aktivieren",
-      "openSidePanel": "Seitenleiste öffnen"
+      "openSidePanel": "Seitenleiste öffnen",
+      "switchPIP": "Bild-in-Bild wechseln"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Bild-in-Bild",
@@ -392,6 +394,22 @@
         "description": "Wenn die aktuelle Seite ein Video abspielt und das Video nicht stummgeschaltet ist und das Video beim Scrollen aus dem sichtbaren Bereich verschwindet, wird es in Bild-in-Bild wechseln.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatisches Bild-in-Bild beim Tab-Wechsel ohne Öffnen des Seitenpanels",
+        "description": "Wenn die aktuelle Seite ein Video abspielt und das Video nicht stummgeschaltet ist, aktivieren Sie das automatische Bild-in-Bild beim Tab-Wechsel ohne Öffnen des Seitenpanels. Beachten Sie, dass diese Funktion **eine Benutzeraktivierung erfordert** (z.B. durch Klicken mit der Maus auf einen leeren Bereich der Seite)."
+      },
+      "advancedPipEnable": {
+        "label": "Erweitertes Bild-in-Bild aktivieren",
+        "description": "Wenn aktiviert, wird das erweiterte Bild-in-Bild priorisiert. Wenn die Seite dies nicht unterstützt, wird das reguläre Bild-in-Bild verwendet.\nErweitertes Bild-in-Bild verwendet einen benutzerdefinierten Videoplayer, der Funktionen wie folgende bietet:\n * Video abspielen/pausieren (Leertaste)\n * Lautstärke anpassen (Pfeil nach oben/unten)\n * Video stummschalten/entschalten\n * Video vorspulen/zurückspulen (Pfeil nach links/rechts oder Mausrad)\n * Nächstes Video abspielen\n * Untertitel anzeigen (unterstützt auf einigen Websites, z.B. youtube.com, vimeo.com, tver.jp, etc.)\n * Barrage anzeigen (unterstützt auf einigen Websites, z.B. nicovideo.jp, bilibili.com, etc.)\n * Bild-in-Bild beenden (Esc)\n * Video ein-/ausblenden und abspielen/pausieren umschalten (Q)\n >Wenn die von Ihnen häufig besuchten Websites Untertitel oder Barrage unterstützen, können Sie ein [Problem: Erweitertes Bild-in-Bild](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) einreichen, und wir werden es so schnell wie möglich anpassen. Beachten Sie, dass einige Websites regionale Einschränkungen haben können und Sie möglicherweise zusätzliche Informationen bereitstellen müssen."
+      },
+      "subtitleDetection": {
+        "label": "Untertitel-Erkennung aktivieren",
+        "description": "Wenn die aktuelle Seite keine Bild-in-Bild-Konfiguration hat, erlauben Sie dem Programm, automatisch Untertitel-Elemente zu erkennen und sie dem Bild-in-Bild-Player hinzuzufügen. Dies ist eine instabile Funktion und erkennt möglicherweise nicht immer die richtigen Untertitel-Elemente. Wenn Sie ein Profi sind, können Sie Untertitel-Element-Konfigurationen in den Seiteneinstellungen hinzufügen."
+      },
+      "continuousPlayback": {
+        "label": "Kontinuierliche Wiedergabe aktivieren",
+        "description": "Kontinuierliche Wiedergabe: Das Bild-in-Bild-Fenster schließt sich nicht und spielt automatisch die nächste Episode ab, nachdem das Video endet. Diese Funktion erfordert Unterstützung der Website."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Schriftfarbe",
         "description": "Legen Sie die Schriftfarbe für diese Seite fest."
+      },
+      "pipRestrictionAction": {
+        "label": "Picture-in-Picture-Einschränkungsaktion",
+        "description": "Das erweiterte Picture-in-Picture-Fenster kann nur von der Hauptseite aus geöffnet werden und nicht aus Frames oder eingebetteten Inhalten gestartet werden. Sie können den Standard-Picture-in-Picture-Modus verwenden oder in einem neuen Tab erneut versuchen. Beachten Sie, dass das Video möglicherweise nicht richtig in einem neuen Tab geladen wird.",
+        "default": "Standard",
+        "use_standard_pip": "Standard-Picture-in-Picture verwenden",
+        "open_in_new_tab": "In neuem Tab öffnen"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatisch in Picture-in-Picture wechseln",
+        "description": "Automatisch in den Picture-in-Picture-Modus wechseln, wenn beim Betreten der Seite ein Video vorhanden ist. Aufgrund von Systembeschränkungen erfordert dies eine Benutzerinteraktion mit der Seite."
+      },
+      "captionSetting": {
+        "label": "Untertiteleinstellungen",
+        "description": "Konfigurieren Sie die CSS-Selektoren für das Untertitelelement und dessen übergeordnetes Element auf der Seite. Der CSS-Selektor für das Untertitelelement wird verwendet, um Untertitel im Player anzuzeigen, während der übergeordnete Selektor verwendet wird, um die Untertitel beim Verlassen des Picture-in-Picture-Modus auf die ursprüngliche Seite zurückzubringen.",
+        "configure": "Konfigurieren",
+        "selectorDesc": "Gängige Selektoren umfassen: '.class' für Klassenselektoren, '#id' für ID-Selektoren, 'tag' für Tag-Selektoren und '[attribute=value]' für Attributselektoren. Weitere Details finden Sie unter: [CSS-Selektoren - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-Selektoren für das Untertitelelement",
+        "captionParentSelectorDesc": "CSS-Selektoren für das übergeordnete Element des Untertitelelements"
       }
     },
     "quickAccess": {

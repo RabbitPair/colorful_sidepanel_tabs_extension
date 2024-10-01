@@ -4,6 +4,49 @@ Todos los cambios notables de este proyecto se documentarán en este archivo.
 
 Este proyecto se adhiere a [Versionado Semántico](https://semver.org/).
 
+----
+## [2.10.0] - 2024-10-01
+
+### Añadido
+- **Documento Imagen-en-Imagen**: Presentamos Imagen-en-Imagen Avanzado, disponible para prueba gratuita antes del lanzamiento oficial de la versión premium de la extensión. Cuando está habilitado, tiene prioridad sobre la Imagen-en-Imagen estándar. Si la página actual no lo admite, se utilizará el modo estándar. Imagen-en-Imagen Avanzado cuenta con un reproductor de video personalizado con funcionalidades como:
+  * **Reproducir/Pausar video** (Espacio o K)
+  * **Ajustar volumen** (Flecha arriba/abajo)
+  * **Silenciar/Activar sonido del video** (M)
+  * **Avanzar/Rebobinar video** (Flecha izquierda/derecha o Rueda del ratón)
+  * **Avanzar/Rebobinar video 5 segundos** (Flecha izquierda/derecha)
+  * **Avanzar/Rebobinar video 10 segundos** (J/L)
+  * **Reproducir el siguiente video** (Shift + N)
+  * **Reproducir el video anterior** (Shift + P)
+  * **Mostrar subtítulos** (compatible en algunos sitios web como youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Mostrar comentarios** (compatible en algunos sitios web como nicovideo.jp, bilibili.com, etc.) (D)
+  * **Salir de Imagen-en-Imagen** (Esc)
+  * **Alternar ocultar/mostrar video y reproducir/pausar** (Q)
+  * **Alternar pantalla completa** (F)
+  * **Ajustar velocidad de reproducción** ( > o <)
+  * **Buscar al inicio/fin del video** (Inicio/Fin)
+  * **Buscar a un porcentaje del video** (0-9)
+  * **Ajustar ventana para que se ajuste al tamaño del video** (W)
+  * **Alternar Imagen-en-Imagen desde la página principal** (Alt + P)
+  
+  > Si los sitios web que visitas frecuentemente admiten subtítulos o comentarios, puedes enviar un [problema: Imagen-en-Imagen Avanzado](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), y lo adaptaremos lo antes posible. Ten en cuenta que algunos sitios web pueden tener restricciones regionales, lo que requiere información adicional.
+- **Atajo para Imagen-en-Imagen**: Se ha añadido un nuevo atajo de teclado Alt+P para alternar rápidamente el modo Imagen-en-Imagen. Esto permite a los usuarios cambiar fácilmente los videos a la vista Imagen-en-Imagen sin usar el ratón, mejorando la productividad y las capacidades de multitarea.
+- **Alternar Imagen-en-Imagen en la Barra de Navegación Inferior**: Ahora puedes agregar una opción de alternar Imagen-en-Imagen a la barra de navegación inferior. Esto se puede configurar en la configuración de apariencia bajo "Mostrar barra de navegación inferior" - "Configurar".
+- **Ordenar Pestañas por URL**: Se ha añadido una nueva opción de menú "Ordenar Pestañas por URL" al menú "Más".
+- **Comportamiento de Colapso de Grupo de Pestañas**: Se ha añadido una nueva opción "Comportamiento de Colapso de Grupo de Pestañas" al menú "Grupo de Pestañas Avanzado". Puedes modificar el comportamiento del colapso de grupos de pestañas en el navegador. Las opciones incluyen: 'Mostrar grupo actual y colapsar otros grupos', 'Expandir todos los grupos' y 'Usar configuración predeterminada del navegador'.
+- **Configuración del Sitio**: Se han añadido tres nuevas opciones a la configuración del sitio:
+  * **Acción de Restricción de Imagen-en-Imagen**: Configurar la acción para las restricciones de Imagen-en-Imagen.
+  * **Entrar automáticamente en Imagen-en-Imagen**: Entrar automáticamente en el modo Imagen-en-Imagen cuando haya un video presente al ingresar a la página.
+  * **Configuración de Subtítulos**: Configurar los selectores CSS para el elemento de subtítulos y su elemento padre en la página.
+
+### Cambiado
+- Cuando la pestaña del panel lateral no está abierta, si "Imagen-en-Imagen al Cambiar de Pestaña" está habilitado (habilitado por defecto), entrará automáticamente en el modo Imagen-en-Imagen (Recordatorio importante: Se requiere interacción del usuario, como hacer clic en la página que reproduce el video para activar la interacción del usuario).
+- Al cerrar la barra lateral de la página, ahora se elimina en lugar de ocultarse. Volverá a aparecer solo después de actualizar la página.
+
+### Arreglado
+- Se ha solucionado el problema donde la lista de Acceso Rápido no manejaba múltiples URLs.
+
+----
+
 ## [2.9.0] - 2024-09-15
 
 - Añadido **Borrar Pestañas**: Guarda una instantánea y cierra todas las pestañas excepto la activa. Restaúralas desde las pestañas cerradas recientemente o las instantáneas.

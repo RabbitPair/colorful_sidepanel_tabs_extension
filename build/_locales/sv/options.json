@@ -136,6 +136,7 @@
         "sortBy": "Sortera efter",
         "createTabPanel": "Skapa flikpanel",
         "tabPanels": "Flikpaneler",
+        "switchPIP": "Byt Bild-i-Bild",
         "pinToToolbarReminder": "Fäst tillägget i verktygsfältet innan du tar bort denna navigering."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Denna sida är endast för visning. För att ändra genvägar, vänligen besök [Tillägg]->[Hantera tillägg]->[Tangentbordsgenvägar]",
       "goToBrowserSettings": "Gå till Chrome-inställningar",
       "_execute_action": "Aktivera denna tillägg",
-      "openSidePanel": "Öppna sidopanel"
+      "openSidePanel": "Öppna sidopanel",
+      "switchPIP": "Växla Bild-i-Bild"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Bild-i-bild",
@@ -392,6 +394,22 @@
         "description": "Om den aktuella sidan spelar en video och videon inte är muterad och videon är utanför det synliga området vid rullning, kommer den att gå in i bild-i-bild.",
         "enabled": "Aktiverad",
         "disabled": "Inaktiverad"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatisk Bild-i-Bild vid flikbyte utan att öppna sidopanelen",
+        "description": "Om den aktuella sidan spelar en video och videon inte är muterad, aktivera automatisk Bild-i-Bild vid flikbyte utan att öppna sidopanelen. Observera att denna funktion **kräver användaraktivering** (t.ex. genom att klicka med musen på ett tomt område på sidan)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktivera Avancerad Bild-i-Bild",
+        "description": "När aktiverad, kommer Avancerad Bild-i-Bild att prioriteras. Om sidan inte stöder det, kommer vanlig Bild-i-Bild att användas.\nAvancerad Bild-i-Bild använder en anpassad videospelare, som erbjuder funktioner som:\n * Spela/Pausa video (Mellanslag)\n * Justera volym (Upp/Ner Pil)\n * Mute/Unmute video\n * Snabbspola framåt/Bakåt video (Vänster/Höger Pil eller Musens Rullhjul)\n * Spela nästa video\n * Visa undertexter (stöds på vissa webbplatser, t.ex. youtube.com, vimeo.com, tver.jp, etc.)\n * Visa kommentarer (stöds på vissa webbplatser, t.ex. nicovideo.jp, bilibili.com, etc.)\n * Avsluta Bild-i-Bild (Esc)\n * Växla dölja/visa video och spela/pausa (Q)\n >Om de webbplatser du ofta besöker stöder undertexter eller kommentarer, kan du skicka in ett [problem: Avancerad Bild-i-Bild](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), och vi kommer att anpassa det så snart som möjligt. Observera att vissa webbplatser kan ha regionala begränsningar, och du kan behöva tillhandahålla ytterligare information."
+      },
+      "subtitleDetection": {
+        "label": "Aktivera Undertextdetektering",
+        "description": "Om den aktuella sidan inte har en Bild-i-Bild-konfiguration, tillåt programmet att försöka automatiskt upptäcka undertextselement och lägga till dem i Bild-i-Bild-spelaren. Detta är en instabil funktion och kanske inte alltid upptäcker rätt undertextselement. Om du är en professionell, kan du lägga till undertextselementkonfigurationer i webbplatsens inställningar."
+      },
+      "continuousPlayback": {
+        "label": "Aktivera Kontinuerlig Uppspelning",
+        "description": "Kontinuerlig uppspelning: Bild-i-Bild-fönstret stängs inte och spelar automatiskt nästa avsnitt efter att videon slutar. Denna funktion kräver webbplatsstöd."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Textfärg",
         "description": "Ange textfärgen för denna webbplats."
+      },
+      "pipRestrictionAction": {
+        "label": "Åtgärd för begränsning av bild-i-bild",
+        "description": "Avancerat bild-i-bild-fönster kan endast öppnas från huvudsidan och kan inte startas från ramar eller inbäddat innehåll. Du kan använda standard bild-i-bild-läge eller öppna i en ny flik för att försöka igen. Observera att videon kanske inte laddas korrekt i en ny flik.",
+        "default": "Standard",
+        "use_standard_pip": "Använd standard bild-i-bild",
+        "open_in_new_tab": "Öppna i ny flik"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatiskt gå in i bild-i-bild",
+        "description": "Gå automatiskt in i bild-i-bild-läge när en video finns på sidan vid inmatning. På grund av systembegränsningar krävs användarinteraktion med sidan."
+      },
+      "captionSetting": {
+        "label": "Textinställningar",
+        "description": "Konfigurera CSS-selektorerna för textelementet och dess förälder på sidan. CSS-selektorn för textelementet används för att visa textning i spelaren, medan föräldraselektorn används för att återföra textningen till den ursprungliga sidan när man lämnar bild-i-bild-läge.",
+        "configure": "Konfigurera",
+        "selectorDesc": "Vanliga selektorer inkluderar: '.class' för klass-selektorer, '#id' för ID-selektorer, 'tag' för tagg-selektorer och '[attribute=value]' för attribut-selektorer. För mer information, besök: [CSS-selektorer - CSS: Kaskadstilmallar - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-selektorer för textelementet",
+        "captionParentSelectorDesc": "CSS-selektorer för föräldern till textelementet"
       }
     },
     "quickAccess": {

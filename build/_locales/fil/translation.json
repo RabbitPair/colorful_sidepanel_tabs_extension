@@ -241,5 +241,6 @@
   "shortName": "Maikling pangalan",
   "expandIcons": "Palawakin ang mga Icon",
   "expandList": "Palawakin ang listahan",
-  "openAllUrls": "Buksan ang lahat ng mga URL"
+  "openAllUrls": "Buksan ang lahat ng mga URL",
+  "switchPIP": "Lumipat sa Picture-in-Picture"
 }

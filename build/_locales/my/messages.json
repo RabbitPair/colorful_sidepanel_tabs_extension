@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "အတွင်းရေး စနစ်များ"
+  },
+  "switchPIP": {
+    "message": "ပုံရိပ်-အတွင်း-ပုံရိပ်ကို ပြောင်းရန်"
+  },
+  "play": {
+    "message": "ဖွင့်ရန်"
+  },
+  "pause": {
+    "message": "ရပ်ရန်"
+  },
+  "shortcut_play_pause": {
+    "message": "ဗီဒီယိုကို ဖွင့်/ရပ်"
+  },
+  "shortcut_adjust_volume": {
+    "message": "အသံအတိုးအကျယ်ကို ချိန်ညှိပါ"
+  },
+  "shortcut_mute_unmute": {
+    "message": "ဗီဒီယိုကို အသံပိတ်/အသံဖွင့်"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "ဗီဒီယိုကို ၅ စက္ကန့် အမြန်တိုး/နောက်ပြန်"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "ဗီဒီယိုကို ၁၀ စက္ကန့် အမြန်တိုး/နောက်ပြန်"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "ဗီဒီယိုကို အမြန်တိုး/နောက်ပြန်"
+  },
+  "shortcut_next_video": {
+    "message": "နောက်ထပ် ဗီဒီယိုကို ဖွင့်ပါ"
+  },
+  "shortcut_previous_video": {
+    "message": "ယခင် ဗီဒီယိုကို ဖွင့်ပါ"
+  },
+  "shortcut_toggle_captions": {
+    "message": "စာတန်းထိုးများကို ပြ/ပိတ်"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "ပစ်ခတ် စကားပြောခြင်းကို ပြ/ပိတ်"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "အပြည့်ဖန်သားပြင်ကို ပြောင်းပါ"
+  },
+  "shortcut_playback_speed": {
+    "message": "ပြန်ဖွင့်နှုန်းကို ချိန်ညှိပါ"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "ဗီဒီယိုအစ/အဆုံးကို ရှာပါ"
+  },
+  "shortcut_seek_percentage": {
+    "message": "ဗီဒီယို၏ ရာခိုင်နှုန်းကို ရှာပါ"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "ဗီဒီယိုအရွယ်အစားနှင့် ကိုက်ညီရန် ပြတင်းပေါက်ကို ချိန်ညှိပါ"
+  },
+  "shortcut_exit_pip": {
+    "message": "ပုံရိပ်-အတွင်း-ပုံရိပ်မှ ထွက်ပါ"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "ဗီဒီယိုကို ဖွင့်/ရပ်နှင့် ဖျောက်/ပြပါ"
+  },
+  "shortcut_enter_pip": {
+    "message": "အဓိကစာမျက်နှာမှ ပုံရိပ်-အတွင်း-ပုံရိပ်ကို ပြောင်းပါ"
+  },
+  "mute": {
+    "message": "အသံပိတ်"
+  },
+  "unmute": {
+    "message": "အသံဖွင့်ရန်"
+  },
+  "prev_video": {
+    "message": "ယခင် ဗီဒီယို"
+  },
+  "next_video": {
+    "message": "နောက်ထပ် ဗီဒီယို"
+  },
+  "playbackRate": {
+    "message": "ပြန်ဖွင့်နှုန်း"
+  },
+  "subtitles": {
+    "message": "စာတန်းထိုး"
+  },
+  "close_captions": {
+    "message": "ပိတ်ထားသော စာတန်းထိုး"
+  },
+  "danmaku": {
+    "message": "ပစ်ခတ် စကားပြောခြင်း"
+  },
+  "fit_to_screen": {
+    "message": "ဖန်သားပြင်နှင့် ကိုက်ညီရန်"
+  },
+  "reload_video": {
+    "message": "ဗီဒီယိုကို ပြန်လည်တင်ရန်"
+  },
+  "loading_pip_config": {
+    "message": "စာရွက်စာတမ်း ပုံရိပ်-အတွင်း-ပုံရိပ် ဖော်ပြချက်များကို တင်နေသည်..."
+  },
+  "playing_in_pip_mode": {
+    "message": "စာရွက်စာတမ်း ပုံရိပ်-အတွင်း-ပုံရိပ် အနေအထားတွင် ဖွင့်နေသည်"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "ပုံရိပ်-အတွင်း-ပုံရိပ် စာတန်းထိုး ဆက်တင်များကို ရှာဖွေနေသည်..."
+  },
+  "video_not_detected": {
+    "message": "ဗီဒီယိုကို မတွေ့ရှိပါ။ ၎င်းသည် မပြင်ဆင်ရသေးနိုင်ပါ။ စာမျက်နှာတွင် ဗီဒီယိုရှိပါက ဖွင့်ရန်နှိပ်ပြီး ထပ်မံကြိုးစားပါ။"
+  },
+  "pip_window_restriction": {
+    "message": "အဆင့်မြင့် ပုံရိပ်-အတွင်း-ပုံရိပ် ပြတင်းပေါက်ကို အဓိကစာမျက်နှာမှသာ ဖွင့်နိုင်ပြီး ဖရိမ်များ သို့မဟုတ် ထည့်သွင်းထားသော အကြောင်းအရာများမှ စတင်၍ မရနိုင်ပါ။ သင်သည် စံ ပုံရိပ်-အတွင်း-ပုံရိပ် အနေအထားကို သုံးနိုင်သည် သို့မဟုတ် နယူးတဘ်တွင် ပြန်ဖွင့်၍ ထပ်မံကြိုးစားနိုင်သည်။ နယူးတဘ်တွင် ဗီဒီယိုကို မှန်ကန်စွာ မတင်နိုင်ပါဟု သတိပြုပါ။",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Opening a PiP window is only allowed from a top-level browsing context"
+  },
+  "use_standard_pip": {
+    "message": "စံ PiP ကို သုံးပါ",
+    "description": "စံ ပုံရိပ်-အတွင်း-ပုံရိပ် အနေအထားကို သုံးရန် ရွေးချယ်မှု"
+  },
+  "open_in_new_tab": {
+    "message": "နယူးတဘ်တွင် ဖွင့်ပါ",
+    "description": "စာမျက်နှာကို နယူးတဘ်တွင် ဖွင့်ရန် ရွေးချယ်မှု"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "ဤဆိုက်၏ ဆက်တင်များကို မှတ်သားပါ (Options - Site settings တွင် ပြင်ဆင်နိုင်သည်)"
+  },
+  "pip_user_activation_required": {
+    "message": "ပုံရိပ်-အတွင်း-ပုံရိပ် အနေအထားသည် အသုံးပြုသူ၏ လှုပ်ရှားမှုကို လိုအပ်သည်။ စာမျက်နှာနှင့် နှိပ်ပါ သို့မဟုတ် လှုပ်ရှားပြီး ထပ်မံကြိုးစားပါ။",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Document PiP requires user activation"
+  },
+  "retry_action": {
+    "message": "ထပ်မံကြိုးစားပါ"
   }
 }

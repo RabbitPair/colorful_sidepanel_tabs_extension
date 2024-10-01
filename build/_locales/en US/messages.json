@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Internal Systems"
+  },
+  "switchPIP": {
+    "message": "Switch Picture-in-Picture"
+  },
+  "play": {
+    "message": "Play"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "shortcut_play_pause": {
+    "message": "Play/Pause video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Adjust volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Mute/Unmute video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Fast forward/Rewind video 5 seconds"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Fast forward/Rewind video 10 seconds"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Fast forward/Rewind video"
+  },
+  "shortcut_next_video": {
+    "message": "Play the next video"
+  },
+  "shortcut_previous_video": {
+    "message": "Play the previous video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Show/Hide captions"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Show/Hide barrages"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Toggle fullscreen"
+  },
+  "shortcut_playback_speed": {
+    "message": "Adjust playback speed"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Seek to start/end of video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Seek to percentage of video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Adjust window to fit video size"
+  },
+  "shortcut_exit_pip": {
+    "message": "Exit Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Toggle hide/show video and play/pause"
+  },
+  "shortcut_enter_pip": {
+    "message": "Toggle Picture-in-Picture from main page"
+  },
+  "mute": {
+    "message": "Mute"
+  },
+  "unmute": {
+    "message": "Unmute"
+  },
+  "prev_video": {
+    "message": "Previous Video"
+  },
+  "next_video": {
+    "message": "Next Video"
+  },
+  "playbackRate": {
+    "message": "Playback Speed"
+  },
+  "subtitles": {
+    "message": "Subtitles"
+  },
+  "close_captions": {
+    "message": "Closed Captions"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Fit to Screen"
+  },
+  "reload_video": {
+    "message": "Reload Video"
+  },
+  "loading_pip_config": {
+    "message": "Loading Document Picture-in-Picture Configurations..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Playing in Document Picture-in-Picture Mode"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detecting Picture-in-Picture Subtitle Settings..."
+  },
+  "video_not_detected": {
+    "message": "Video not detected. It may not be ready yet. If there is a video on the page, please click play and try again."
+  },
+  "pip_window_restriction": {
+    "message": "Advanced Picture-in-Picture window can only be opened from the main page and cannot be launched from frames or embedded content. You can use standard Picture-in-Picture mode or open in a new tab to retry. Note that the video may not load properly in a new tab.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Opening a PiP window is only allowed from a top-level browsing context"
+  },
+  "use_standard_pip": {
+    "message": "Use standard PiP",
+    "description": "Option to use standard Picture-in-Picture mode"
+  },
+  "open_in_new_tab": {
+    "message": "Open in new tab",
+    "description": "Option to open the page in a new tab"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Remember this site's settings (You can modify it in Options - Site settings)"
+  },
+  "pip_user_activation_required": {
+    "message": "Picture-in-Picture mode requires user interaction. Please click or interact with the page and try again.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Document PiP requires user activation"
+  },
+  "retry_action": {
+    "message": "Try Again"
   }
 }

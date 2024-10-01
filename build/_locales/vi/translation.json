@@ -241,5 +241,6 @@
   "shortName": "Tên ngắn",
   "expandIcons": "Mở rộng biểu tượng",
   "expandList": "Mở rộng danh sách",
-  "openAllUrls": "Mở tất cả URL"
+  "openAllUrls": "Mở tất cả URL",
+  "switchPIP": "Chuyển đổi Hình trong Hình"
 }

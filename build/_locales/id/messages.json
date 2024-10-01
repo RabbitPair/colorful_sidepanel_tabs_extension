@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistem Internal"
+  },
+  "switchPIP": {
+    "message": "Beralih ke Picture-in-Picture"
+  },
+  "play": {
+    "message": "Putar"
+  },
+  "pause": {
+    "message": "Jeda"
+  },
+  "shortcut_play_pause": {
+    "message": "Putar/Jeda video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Sesuaikan volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Bisukan/Bunyikan video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Maju/Mundur video 5 detik"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Maju/Mundur video 10 detik"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Maju/Mundur video"
+  },
+  "shortcut_next_video": {
+    "message": "Putar video berikutnya"
+  },
+  "shortcut_previous_video": {
+    "message": "Putar video sebelumnya"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Tampilkan/Sembunyikan teks"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Tampilkan/Sembunyikan obrolan peluru"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Alihkan layar penuh"
+  },
+  "shortcut_playback_speed": {
+    "message": "Sesuaikan kecepatan pemutaran"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Cari ke awal/akhir video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Cari ke persentase video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Sesuaikan jendela dengan ukuran video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Keluar dari Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Alihkan sembunyikan/tampilkan video dan putar/jeda"
+  },
+  "shortcut_enter_pip": {
+    "message": "Alihkan Picture-in-Picture dari halaman utama"
+  },
+  "mute": {
+    "message": "Bisukan"
+  },
+  "unmute": {
+    "message": "Bunyikan"
+  },
+  "prev_video": {
+    "message": "Video Sebelumnya"
+  },
+  "next_video": {
+    "message": "Video Berikutnya"
+  },
+  "playbackRate": {
+    "message": "Kecepatan Pemutaran"
+  },
+  "subtitles": {
+    "message": "Subtitel"
+  },
+  "close_captions": {
+    "message": "Teks Tertutup"
+  },
+  "danmaku": {
+    "message": "Obrolan Peluru"
+  },
+  "fit_to_screen": {
+    "message": "Sesuaikan dengan Layar"
+  },
+  "reload_video": {
+    "message": "Muat Ulang Video"
+  },
+  "loading_pip_config": {
+    "message": "Memuat Konfigurasi Picture-in-Picture Dokumen..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Memutar dalam Mode Picture-in-Picture Dokumen"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Mendeteksi Pengaturan Subtitle Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Video tidak terdeteksi. Mungkin belum siap. Jika ada video di halaman, silakan klik putar dan coba lagi."
+  },
+  "pip_window_restriction": {
+    "message": "Jendela Picture-in-Picture lanjutan hanya dapat dibuka dari halaman utama dan tidak dapat diluncurkan dari bingkai atau konten yang disematkan. Anda dapat menggunakan mode Picture-in-Picture standar atau membuka di tab baru untuk mencoba lagi. Perhatikan bahwa video mungkin tidak dimuat dengan benar di tab baru.",
+    "description": "Gagal menjalankan 'requestWindow' pada 'DocumentPictureInPicture': Membuka jendela PiP hanya diizinkan dari konteks penelusuran tingkat atas"
+  },
+  "use_standard_pip": {
+    "message": "Gunakan PiP standar",
+    "description": "Opsi untuk menggunakan mode Picture-in-Picture standar"
+  },
+  "open_in_new_tab": {
+    "message": "Buka di tab baru",
+    "description": "Opsi untuk membuka halaman di tab baru"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Ingat pengaturan situs ini (Anda dapat mengubahnya di Opsi - Pengaturan situs)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mode Picture-in-Picture memerlukan interaksi pengguna. Silakan klik atau berinteraksi dengan halaman dan coba lagi.",
+    "description": "Gagal menjalankan 'requestWindow' pada 'DocumentPictureInPicture': Document PiP memerlukan aktivasi pengguna"
+  },
+  "retry_action": {
+    "message": "Coba Lagi"
   }
 }

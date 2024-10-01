@@ -136,6 +136,7 @@
         "sortBy": "Sortuj według",
         "createTabPanel": "Utwórz panel kart",
         "tabPanels": "Panele kart",
+        "switchPIP": "Przełącz obraz w obrazie",
         "pinToToolbarReminder": "Przypnij rozszerzenie do paska narzędzi przed usunięciem tej nawigacji."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ta strona jest tylko do wyświetlania. Aby zmodyfikować skróty, odwiedź [Rozszerzenia]->[Zarządzaj rozszerzeniami]->[Skróty klawiaturowe]",
       "goToBrowserSettings": "Przejdź do ustawień Chrome",
       "_execute_action": "Aktywuj to rozszerzenie",
-      "openSidePanel": "Otwórz panel boczny"
+      "openSidePanel": "Otwórz panel boczny",
+      "switchPIP": "Przełącz Obraz w Obrazie"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Obraz w obrazie",
@@ -392,6 +394,22 @@
         "description": "Jeśli bieżąca strona odtwarza wideo i wideo nie jest wyciszone, a wideo jest poza widocznym zakresem podczas przewijania, wejdzie w obraz w obrazie.",
         "enabled": "Włączone",
         "disabled": "Wyłączone"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automatyczny Obraz w Obrazie przy Przełączaniu Kart bez Otwierania Panelu Bocznego",
+        "description": "Jeśli bieżąca strona odtwarza wideo i wideo nie jest wyciszone, włącz automatyczny Obraz w Obrazie przy przełączaniu kart bez otwierania panelu bocznego. Zauważ, że ta funkcja **wymaga aktywacji użytkownika** (np. kliknięcia myszą na pustym obszarze strony)."
+      },
+      "advancedPipEnable": {
+        "label": "Włącz Zaawansowany Obraz w Obrazie",
+        "description": "Po włączeniu, Zaawansowany Obraz w Obrazie będzie priorytetowy. Jeśli strona go nie obsługuje, zostanie użyty zwykły Obraz w Obrazie.\nZaawansowany Obraz w Obrazie wykorzystuje niestandardowy odtwarzacz wideo, oferując funkcje takie jak:\n * Odtwarzanie/Pauza wideo (Spacja)\n * Regulacja głośności (Strzałka w górę/dół)\n * Wycisz/Włącz dźwięk wideo\n * Przewijanie do przodu/do tyłu (Strzałka w lewo/prawo lub kółko myszy)\n * Odtwarzanie następnego wideo\n * Wyświetlanie napisów (obsługiwane na niektórych stronach, np. youtube.com, vimeo.com, tver.jp, itp.)\n * Wyświetlanie komentarzy (obsługiwane na niektórych stronach, np. nicovideo.jp, bilibili.com, itp.)\n * Wyjście z Obrazu w Obrazie (Esc)\n * Przełączanie ukrywania/pokazywania wideo i odtwarzania/pauzy (Q)\n >Jeśli strony, które często odwiedzasz, obsługują napisy lub komentarze, możesz zgłosić [problem: Zaawansowany Obraz w Obrazie](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), a my dostosujemy go tak szybko, jak to możliwe. Zauważ, że niektóre strony mogą mieć ograniczenia regionalne i może być konieczne dostarczenie dodatkowych informacji."
+      },
+      "subtitleDetection": {
+        "label": "Włącz Wykrywanie Napisów",
+        "description": "Jeśli bieżąca strona nie ma konfiguracji Obrazu w Obrazie, pozwól programowi spróbować automatycznie wykryć elementy napisów i dodać je do odtwarzacza Obrazu w Obrazie. Jest to niestabilna funkcja i może nie zawsze wykrywać poprawne elementy napisów. Jeśli jesteś profesjonalistą, możesz dodać konfiguracje elementów napisów w ustawieniach strony."
+      },
+      "continuousPlayback": {
+        "label": "Włącz Ciągłe Odtwarzanie",
+        "description": "Ciągłe odtwarzanie: Okno Obrazu w Obrazie nie zamyka się i automatycznie odtwarza następny odcinek po zakończeniu wideo. Ta funkcja wymaga wsparcia strony."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Kolor czcionki",
         "description": "Ustaw kolor czcionki dla tej strony."
+      },
+      "pipRestrictionAction": {
+        "label": "Akcja ograniczenia Picture-in-Picture",
+        "description": "Zaawansowane okno Picture-in-Picture może być otwierane tylko z głównej strony i nie może być uruchamiane z ramek lub osadzonej zawartości. Możesz użyć standardowego trybu Picture-in-Picture lub otworzyć w nowej karcie, aby spróbować ponownie. Uwaga: wideo może nie załadować się poprawnie w nowej karcie.",
+        "default": "Domyślne",
+        "use_standard_pip": "Użyj standardowego Picture-in-Picture",
+        "open_in_new_tab": "Otwórz w nowej karcie"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatyczne wejście w Picture-in-Picture",
+        "description": "Automatycznie wchodzi w tryb Picture-in-Picture, gdy na stronie znajduje się wideo. Ze względu na ograniczenia systemowe wymaga interakcji użytkownika ze stroną."
+      },
+      "captionSetting": {
+        "label": "Ustawienia napisów",
+        "description": "Skonfiguruj selektory CSS dla elementu napisu i jego rodzica na stronie. Selektor CSS dla elementu napisu jest używany do wyświetlania napisów w odtwarzaczu, podczas gdy selektor rodzica jest używany do przywracania napisów na oryginalną stronę po wyjściu z trybu Picture-in-Picture.",
+        "configure": "Konfiguruj",
+        "selectorDesc": "Typowe selektory to: '.class' dla selektorów klas, '#id' dla selektorów ID, 'tag' dla selektorów tagów i '[attribute=value]' dla selektorów atrybutów. Więcej szczegółów znajdziesz na: [Selektory CSS - CSS: Kaskadowe Arkusze Stylów - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selektory CSS dla elementu napisu",
+        "captionParentSelectorDesc": "Selektory CSS dla rodzica elementu napisu"
       }
     },
     "quickAccess": {

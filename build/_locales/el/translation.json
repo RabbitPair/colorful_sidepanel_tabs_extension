@@ -241,5 +241,6 @@
   "shortName": "Σύντομο όνομα",
   "expandIcons": "Ανάπτυξη εικονιδίων",
   "expandList": "Ανάπτυξη λίστας",
-  "openAllUrls": "Άνοιγμα όλων των URL"
+  "openAllUrls": "Άνοιγμα όλων των URL",
+  "switchPIP": "Εναλλαγή Picture-in-Picture"
 }

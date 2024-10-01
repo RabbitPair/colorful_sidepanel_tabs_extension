@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistèm Entèn"
+  },
+  "switchPIP": {
+    "message": "Chanje Picture-in-Picture"
+  },
+  "play": {
+    "message": "Jwe"
+  },
+  "pause": {
+    "message": "Pòz"
+  },
+  "shortcut_play_pause": {
+    "message": "Jwe/Pòz videyo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ajiste volim"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Bese/Ogmante volim videyo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avanse/Rale videyo 5 segonn"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avanse/Rale videyo 10 segonn"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avanse/Rale videyo"
+  },
+  "shortcut_next_video": {
+    "message": "Jwe pwochen videyo a"
+  },
+  "shortcut_previous_video": {
+    "message": "Jwe videyo anvan an"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Montre/Kache soustit"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Montre/Kache chat bal"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Chanje mòd plen ekran"
+  },
+  "shortcut_playback_speed": {
+    "message": "Ajiste vitès jwe"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Chèche kòmansman/fen videyo a"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Chèche pousantaj videyo a"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Ajiste fenèt pou anfòm gwosè videyo a"
+  },
+  "shortcut_exit_pip": {
+    "message": "Sòti Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Chanje kache/montre videyo ak jwe/pòz"
+  },
+  "shortcut_enter_pip": {
+    "message": "Chanje Picture-in-Picture soti nan paj prensipal la"
+  },
+  "mute": {
+    "message": "Bese volim"
+  },
+  "unmute": {
+    "message": "Ogmante Volim"
+  },
+  "prev_video": {
+    "message": "Videyo Anvan"
+  },
+  "next_video": {
+    "message": "Videyo Pwochen"
+  },
+  "playbackRate": {
+    "message": "Vitès Jwe"
+  },
+  "subtitles": {
+    "message": "Soustit"
+  },
+  "close_captions": {
+    "message": "Tit Fèmen"
+  },
+  "danmaku": {
+    "message": "Chat bal"
+  },
+  "fit_to_screen": {
+    "message": "Ajiste ak Ekran"
+  },
+  "reload_video": {
+    "message": "Rechaje Videyo"
+  },
+  "loading_pip_config": {
+    "message": "Chaje Konfigirasyon Picture-in-Picture Dokiman..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Ap jwe nan Mòd Picture-in-Picture Dokiman"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detekte Anviwònman Soustit Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Videyo pa detekte. Li ka poko pare. Si gen yon videyo sou paj la, tanpri klike jwe epi eseye ankò."
+  },
+  "pip_window_restriction": {
+    "message": "Fenèt Picture-in-Picture avanse ka sèlman louvri nan paj prensipal la epi li pa ka lanse nan ankadreman oswa kontni entegre. Ou ka itilize mòd Picture-in-Picture estanda oswa louvri nan yon nouvo tab pou eseye ankò. Remake byen ke videyo a ka pa chaje kòrèkteman nan yon nouvo tab.",
+    "description": "Echwe pou egzekite 'requestWindow' sou 'DocumentPictureInPicture': Louvri yon fenèt PiP sèlman pèmèt nan yon kontèks navigasyon nivo siperyè"
+  },
+  "use_standard_pip": {
+    "message": "Sèvi ak PiP estanda",
+    "description": "Opsyon pou itilize mòd Picture-in-Picture estanda"
+  },
+  "open_in_new_tab": {
+    "message": "Louvri nan nouvo tab",
+    "description": "Opsyon pou louvri paj la nan yon nouvo tab"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Sonje anviwònman sit sa a (Ou ka modifye li nan Opsyon - Anviwònman sit)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mòd Picture-in-Picture mande pou entèraksyon itilizatè. Tanpri klike oswa kominike avèk paj la epi eseye ankò.",
+    "description": "Echwe pou egzekite 'requestWindow' sou 'DocumentPictureInPicture': PiP Dokiman mande pou aktivasyon itilizatè"
+  },
+  "retry_action": {
+    "message": "Eseye Ankò"
   }
 }

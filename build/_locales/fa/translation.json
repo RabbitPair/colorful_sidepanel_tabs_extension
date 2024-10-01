@@ -241,5 +241,6 @@
   "shortName": "نام کوتاه",
   "expandIcons": "گسترش آیکون‌ها",
   "expandList": "گسترش لیست",
-  "openAllUrls": "باز کردن تمام آدرس‌ها"
+  "openAllUrls": "باز کردن تمام آدرس‌ها",
+  "switchPIP": "تغییر حالت تصویر در تصویر"
 }

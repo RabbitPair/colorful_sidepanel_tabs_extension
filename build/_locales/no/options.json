@@ -136,6 +136,7 @@
         "sortBy": "Sorter etter",
         "createTabPanel": "Opprett fanepanel",
         "tabPanels": "Fanepaneler",
+        "switchPIP": "Bytt bilde-i-bilde",
         "pinToToolbarReminder": "Fest utvidelsen til verktøylinjen før du fjerner denne navigasjonen."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Denne siden er kun for visning. For å endre snarveier, vennligst besøk [Utvidelser]->[Administrer utvidelser]->[Tastatursnarveier]",
       "goToBrowserSettings": "Gå til Chrome-innstillinger",
       "_execute_action": "Aktiver denne utvidelsen",
-      "openSidePanel": "Åpne sidepanel"
+      "openSidePanel": "Åpne sidepanel",
+      "switchPIP": "Bytt Bilde-i-Bilde"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Bilde-i-bilde",
@@ -392,6 +394,22 @@
         "description": "Hvis den gjeldende siden spiller av en video og videoen ikke er dempet og videoen er utenfor det synlige området når du ruller, vil den gå inn i bilde-i-bilde.",
         "enabled": "Aktivert",
         "disabled": "Deaktivert"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Bilde-i-Bilde ved Faneveksling uten Åpning av Sidepanel",
+        "description": "Hvis den gjeldende siden spiller av en video og videoen ikke er dempet, aktiver auto Bilde-i-Bilde ved faneveksling uten å åpne sidepanelet. Merk at denne funksjonen **krever brukeraktivering** (f.eks. klikke med musen på et tomt område av siden)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktiver Avansert Bilde-i-Bilde",
+        "description": "Når aktivert, vil Avansert Bilde-i-Bilde bli prioritert. Hvis siden ikke støtter det, vil vanlig Bilde-i-Bilde bli brukt.\nAvansert Bilde-i-Bilde bruker en tilpasset videospiller, som tilbyr funksjoner som:\n * Spill av/Pause video (Mellomrom)\n * Juster volum (Opp/Ned Pil)\n * Demp/Slå på lyd video\n * Spol fremover/Tilbake video (Venstre/Høyre Pil eller Musehjul)\n * Spill neste video\n * Vis undertekster (støttet på noen nettsteder, f.eks. youtube.com, vimeo.com, tver.jp, etc.)\n * Vis barrage (støttet på noen nettsteder, f.eks. nicovideo.jp, bilibili.com, etc.)\n * Avslutt Bilde-i-Bilde (Esc)\n * Veksle skjul/vis video og spill av/pause (Q)\n >Hvis nettstedene du ofte besøker støtter undertekster eller barrage, kan du sende inn en [issue: Avansert Bilde-i-Bilde](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), og vi vil tilpasse det så snart som mulig. Merk at noen nettsteder kan ha regionale begrensninger, og du kan måtte gi tilleggsinformasjon."
+      },
+      "subtitleDetection": {
+        "label": "Aktiver Undertekstgjenkjenning",
+        "description": "Hvis det gjeldende nettstedet ikke har en Bilde-i-Bilde-konfigurasjon, la programmet prøve å automatisk oppdage undertekstelementer og legge dem til Bilde-i-Bilde-spilleren. Dette er en ustabil funksjon og kan ikke alltid oppdage de riktige undertekstelementene. Hvis du er en profesjonell, kan du legge til undertekstelementkonfigurasjoner i nettstedinnstillingene."
+      },
+      "continuousPlayback": {
+        "label": "Aktiver Kontinuerlig Avspilling",
+        "description": "Kontinuerlig avspilling: Bilde-i-Bilde-vinduet lukkes ikke og spiller automatisk neste episode etter at videoen er ferdig. Denne funksjonen krever nettstedstøtte."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Skriftfarge",
         "description": "Sett skriftfargen for dette nettstedet."
+      },
+      "pipRestrictionAction": {
+        "label": "Begrensningshandling for bilde-i-bilde",
+        "description": "Avansert bilde-i-bilde-vindu kan bare åpnes fra hovedsiden og kan ikke startes fra rammer eller innebygd innhold. Du kan bruke standard bilde-i-bilde-modus eller åpne i en ny fane for å prøve igjen. Merk at videoen kanskje ikke lastes riktig i en ny fane.",
+        "default": "Standard",
+        "use_standard_pip": "Bruk standard bilde-i-bilde",
+        "open_in_new_tab": "Åpne i ny fane"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatisk bilde-i-bilde",
+        "description": "Gå automatisk inn i bilde-i-bilde-modus når en video er til stede ved inngang til siden. På grunn av systembegrensninger krever dette brukerinteraksjon med siden."
+      },
+      "captionSetting": {
+        "label": "Tekstinnstillinger",
+        "description": "Konfigurer CSS-velgerne for tekstelementet og dets overordnede på siden. CSS-velgeren for tekstelementet brukes til å vise tekster i spilleren, mens den overordnede velgeren brukes til å returnere tekstene til den opprinnelige siden når du avslutter bilde-i-bilde-modus.",
+        "configure": "Konfigurer",
+        "selectorDesc": "Vanlige velgere inkluderer: '.class' for klassevelgere, '#id' for ID-velgere, 'tag' for tag-velgere, og '[attributt=verdi]' for attributt-velgere. For mer informasjon, besøk: [CSS-velgere - CSS: Kaskaderende stilark - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-velgere for tekstelementet",
+        "captionParentSelectorDesc": "CSS-velgere for overordnet tekstelement"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Systèmes Internes"
+  },
+  "switchPIP": {
+    "message": "Changer en mode Image dans l'image"
+  },
+  "play": {
+    "message": "Lire"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "shortcut_play_pause": {
+    "message": "Lire/Pause vidéo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ajuster le volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Muet/Activer le son de la vidéo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avancer/Reculer la vidéo de 5 secondes"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avancer/Reculer la vidéo de 10 secondes"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avancer/Reculer la vidéo"
+  },
+  "shortcut_next_video": {
+    "message": "Lire la vidéo suivante"
+  },
+  "shortcut_previous_video": {
+    "message": "Lire la vidéo précédente"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Afficher/Masquer les sous-titres"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Afficher/Masquer les barrages"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Basculer en plein écran"
+  },
+  "shortcut_playback_speed": {
+    "message": "Ajuster la vitesse de lecture"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Aller au début/à la fin de la vidéo"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Aller à un pourcentage de la vidéo"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Ajuster la fenêtre à la taille de la vidéo"
+  },
+  "shortcut_exit_pip": {
+    "message": "Quitter le mode Image dans l'image"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Basculer entre masquer/afficher la vidéo et lire/pause"
+  },
+  "shortcut_enter_pip": {
+    "message": "Basculer en mode Image dans l'image depuis la page principale"
+  },
+  "mute": {
+    "message": "Muet"
+  },
+  "unmute": {
+    "message": "Son activé"
+  },
+  "prev_video": {
+    "message": "Vidéo précédente"
+  },
+  "next_video": {
+    "message": "Vidéo suivante"
+  },
+  "playbackRate": {
+    "message": "Vitesse de lecture"
+  },
+  "subtitles": {
+    "message": "Sous-titres"
+  },
+  "close_captions": {
+    "message": "Sous-titres fermés"
+  },
+  "danmaku": {
+    "message": "Chat de balles"
+  },
+  "fit_to_screen": {
+    "message": "Ajuster à l'écran"
+  },
+  "reload_video": {
+    "message": "Recharger la vidéo"
+  },
+  "loading_pip_config": {
+    "message": "Chargement des configurations de l'image dans l'image du document..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Lecture en mode Image dans l'image du document"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Détection des paramètres de sous-titres de l'image dans l'image..."
+  },
+  "video_not_detected": {
+    "message": "Vidéo non détectée. Elle n'est peut-être pas encore prête. S'il y a une vidéo sur la page, veuillez cliquer sur lire et réessayer."
+  },
+  "pip_window_restriction": {
+    "message": "La fenêtre avancée de l'image dans l'image ne peut être ouverte que depuis la page principale et ne peut pas être lancée depuis des cadres ou du contenu intégré. Vous pouvez utiliser le mode standard de l'image dans l'image ou ouvrir dans un nouvel onglet pour réessayer. Notez que la vidéo peut ne pas se charger correctement dans un nouvel onglet.",
+    "description": "Échec de l'exécution de 'requestWindow' sur 'DocumentPictureInPicture': L'ouverture d'une fenêtre PiP n'est autorisée que depuis un contexte de navigation de niveau supérieur"
+  },
+  "use_standard_pip": {
+    "message": "Utiliser le PiP standard",
+    "description": "Option pour utiliser le mode standard de l'image dans l'image"
+  },
+  "open_in_new_tab": {
+    "message": "Ouvrir dans un nouvel onglet",
+    "description": "Option pour ouvrir la page dans un nouvel onglet"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Se souvenir des paramètres de ce site (Vous pouvez les modifier dans Options - Paramètres du site)"
+  },
+  "pip_user_activation_required": {
+    "message": "Le mode Image dans l'image nécessite une interaction de l'utilisateur. Veuillez cliquer ou interagir avec la page et réessayer.",
+    "description": "Échec de l'exécution de 'requestWindow' sur 'DocumentPictureInPicture': Le PiP du document nécessite une activation de l'utilisateur"
+  },
+  "retry_action": {
+    "message": "Réessayer"
   }
 }

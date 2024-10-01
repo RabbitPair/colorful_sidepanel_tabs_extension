@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interné systémy"
+  },
+  "switchPIP": {
+    "message": "Prepnúť obraz v obraze"
+  },
+  "play": {
+    "message": "Prehrať"
+  },
+  "pause": {
+    "message": "Pauza"
+  },
+  "shortcut_play_pause": {
+    "message": "Prehrať/Pauza video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Upraviť hlasitosť"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Stlmiť/Zrušiť stlmenie video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Rýchlo dopredu/Späť video o 5 sekúnd"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Rýchlo dopredu/Späť video o 10 sekúnd"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Rýchlo dopredu/Späť video"
+  },
+  "shortcut_next_video": {
+    "message": "Prehrať nasledujúce video"
+  },
+  "shortcut_previous_video": {
+    "message": "Prehrať predchádzajúce video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Zobraziť/Skryť titulky"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Zobraziť/Skryť komentáre"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Prepnúť na celú obrazovku"
+  },
+  "shortcut_playback_speed": {
+    "message": "Upraviť rýchlosť prehrávania"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Preskočiť na začiatok/koniec videa"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Preskočiť na percento videa"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Upraviť okno na veľkosť videa"
+  },
+  "shortcut_exit_pip": {
+    "message": "Ukončiť režim obraz v obraze"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Prepnúť skrytie/zobrazenie videa a prehrávanie/pauza"
+  },
+  "shortcut_enter_pip": {
+    "message": "Prepnúť režim obraz v obraze z hlavnej stránky"
+  },
+  "mute": {
+    "message": "Stlmiť"
+  },
+  "unmute": {
+    "message": "Zrušiť stlmenie"
+  },
+  "prev_video": {
+    "message": "Predchádzajúce video"
+  },
+  "next_video": {
+    "message": "Nasledujúce video"
+  },
+  "playbackRate": {
+    "message": "Rýchlosť prehrávania"
+  },
+  "subtitles": {
+    "message": "Titulky"
+  },
+  "close_captions": {
+    "message": "Skryté titulky"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Prispôsobiť obrazovke"
+  },
+  "reload_video": {
+    "message": "Znova načítať video"
+  },
+  "loading_pip_config": {
+    "message": "Načítanie konfigurácií obraz v obraze dokumentu..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Prehrávanie v režime obraz v obraze dokumentu"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detekcia nastavení titulkov obraz v obraze..."
+  },
+  "video_not_detected": {
+    "message": "Video nebolo zistené. Možno ešte nie je pripravené. Ak je na stránke video, kliknite na prehrávanie a skúste to znova."
+  },
+  "pip_window_restriction": {
+    "message": "Pokročilé okno obraz v obraze je možné otvoriť iba z hlavnej stránky a nemožno ho spustiť z rámcov alebo vloženého obsahu. Môžete použiť štandardný režim obraz v obraze alebo otvoriť v novej karte a skúsiť to znova. Upozorňujeme, že video sa nemusí správne načítať v novej karte.",
+    "description": "Nepodarilo sa vykonať 'requestWindow' na 'DocumentPictureInPicture': Otvorenie okna PiP je povolené iba z kontextu prehliadania na najvyššej úrovni"
+  },
+  "use_standard_pip": {
+    "message": "Použiť štandardný PiP",
+    "description": "Možnosť použiť štandardný režim obraz v obraze"
+  },
+  "open_in_new_tab": {
+    "message": "Otvoriť v novej karte",
+    "description": "Možnosť otvoriť stránku v novej karte"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Zapamätať si nastavenia tejto stránky (Môžete ich upraviť v Možnosti - Nastavenia stránky)"
+  },
+  "pip_user_activation_required": {
+    "message": "Režim obraz v obraze vyžaduje interakciu používateľa. Kliknite alebo interagujte so stránkou a skúste to znova.",
+    "description": "Nepodarilo sa vykonať 'requestWindow' na 'DocumentPictureInPicture': Dokument PiP vyžaduje aktiváciu používateľa"
+  },
+  "retry_action": {
+    "message": "Skúsiť znova"
   }
 }

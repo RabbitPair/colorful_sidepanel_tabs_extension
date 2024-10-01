@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interna System"
+  },
+  "switchPIP": {
+    "message": "Byt Bild-i-Bild"
+  },
+  "play": {
+    "message": "Spela"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "shortcut_play_pause": {
+    "message": "Spela/Pausa video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Justera volym"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Stäng av/Sätt på ljud för video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Snabbspola framåt/bakåt video 5 sekunder"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Snabbspola framåt/bakåt video 10 sekunder"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Snabbspola framåt/bakåt video"
+  },
+  "shortcut_next_video": {
+    "message": "Spela nästa video"
+  },
+  "shortcut_previous_video": {
+    "message": "Spela föregående video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Visa/Dölj undertexter"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Visa/Dölj barrages"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Växla fullskärm"
+  },
+  "shortcut_playback_speed": {
+    "message": "Justera uppspelningshastighet"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Sök till början/slutet av videon"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Sök till procentandel av videon"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Anpassa fönster till videostorlek"
+  },
+  "shortcut_exit_pip": {
+    "message": "Avsluta Bild-i-Bild"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Växla dölj/visa video och spela/pausa"
+  },
+  "shortcut_enter_pip": {
+    "message": "Växla Bild-i-Bild från huvudsidan"
+  },
+  "mute": {
+    "message": "Stäng av ljud"
+  },
+  "unmute": {
+    "message": "Slå på ljud"
+  },
+  "prev_video": {
+    "message": "Föregående Video"
+  },
+  "next_video": {
+    "message": "Nästa Video"
+  },
+  "playbackRate": {
+    "message": "Uppspelningshastighet"
+  },
+  "subtitles": {
+    "message": "Undertexter"
+  },
+  "close_captions": {
+    "message": "Stängda Undertexter"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Anpassa till skärm"
+  },
+  "reload_video": {
+    "message": "Ladda om Video"
+  },
+  "loading_pip_config": {
+    "message": "Laddar Bild-i-Bild Konfigurationer..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Spelar i Bild-i-Bild Läge"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Upptäcker Bild-i-Bild Undertextinställningar..."
+  },
+  "video_not_detected": {
+    "message": "Video inte upptäckt. Det kanske inte är redo än. Om det finns en video på sidan, vänligen klicka på spela och försök igen."
+  },
+  "pip_window_restriction": {
+    "message": "Avancerat Bild-i-Bild fönster kan endast öppnas från huvudsidan och kan inte startas från ramar eller inbäddat innehåll. Du kan använda standard Bild-i-Bild läge eller öppna i en ny flik för att försöka igen. Observera att videon kanske inte laddas korrekt i en ny flik.",
+    "description": "Misslyckades med att utföra 'requestWindow' på 'DocumentPictureInPicture': Öppning av ett PiP-fönster är endast tillåtet från ett toppnivå webbläsarkontext"
+  },
+  "use_standard_pip": {
+    "message": "Använd standard PiP",
+    "description": "Alternativ för att använda standard Bild-i-Bild läge"
+  },
+  "open_in_new_tab": {
+    "message": "Öppna i ny flik",
+    "description": "Alternativ för att öppna sidan i en ny flik"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Kom ihåg denna webbplats inställningar (Du kan ändra det i Alternativ - Webbplatsinställningar)"
+  },
+  "pip_user_activation_required": {
+    "message": "Bild-i-Bild läge kräver användarinteraktion. Vänligen klicka eller interagera med sidan och försök igen.",
+    "description": "Misslyckades med att utföra 'requestWindow' på 'DocumentPictureInPicture': Dokument PiP kräver användaraktivering"
+  },
+  "retry_action": {
+    "message": "Försök Igen"
   }
 }

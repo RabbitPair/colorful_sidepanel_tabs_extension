@@ -136,6 +136,7 @@
         "sortBy": "Raða eftir",
         "createTabPanel": "Búa til flipa panel",
         "tabPanels": "Flipa panelar",
+        "switchPIP": "Skipta um mynd í mynd",
         "pinToToolbarReminder": "Vinsamlegast festu viðbótina á tækjastikuna áður en þú fjarlægir þessa siglingu."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Þessi síða er einungis til sýnis. Til að breyta flýtileiðum, vinsamlegast heimsækja [Viðbætur]->[Stjórna viðbótum]->[Lyklaborðsflýtileiðir]",
       "goToBrowserSettings": "Fara í stillingar Chrome",
       "_execute_action": "Virkja þessa viðbót",
-      "openSidePanel": "Opna hliðarpanel"
+      "openSidePanel": "Opna hliðarpanel",
+      "switchPIP": "Skipta um Mynd í mynd"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Mynd í mynd",
@@ -392,6 +394,22 @@
         "description": "Ef núverandi síða er að spila myndband og myndbandið er ekki hljóðsett og myndbandið er ekki í sjónrænum bili þegar skrollað er, þá verður farið yfir í mynd í mynd.",
         "enabled": "Virkjað",
         "disabled": "Óvirkjað"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Sjálfvirk Mynd í mynd við flipaskipti án þess að opna hliðarpanel",
+        "description": "Ef núverandi síða er að spila myndband og myndbandið er ekki hljóðlaust, virkjaðu sjálfvirka Mynd í mynd við flipaskipti án þess að opna hliðarpanel. Athugið að þessi eiginleiki **krefst notendavirkjunar** (t.d. smella með músinni á autt svæði á síðunni)."
+      },
+      "advancedPipEnable": {
+        "label": "Virkja Ítarlega Mynd í mynd",
+        "description": "Þegar virkjað, verður Ítarleg Mynd í mynd forgangsraðað. Ef síðan styður það ekki, verður venjuleg Mynd í mynd notuð.\nÍtarleg Mynd í mynd notar sérsniðinn myndspilara, sem býður upp á eiginleika eins og:\n * Spila/Pása myndband (Space)\n * Stilltu hljóðstyrk (Upp/Niður Ör)\n * Hljóðlausa/Hljóðsetja myndband\n * Hraðspóla áfram/Bakspóla myndband (Vinstri/Hægri Ör eða Músarhjól)\n * Spila næsta myndband\n * Sýna texta (stutt á sumum vefsíðum, t.d. youtube.com, vimeo.com, tver.jp, osfrv.)\n * Sýna athugasemdir (stutt á sumum vefsíðum, t.d. nicovideo.jp, bilibili.com, osfrv.)\n * Hætta Mynd í mynd (Esc)\n * Skipta á milli að fela/sýna myndband og spila/pása (Q)\n >Ef vefsíðurnar sem þú heimsækir oft styðja texta eða athugasemdir, getur þú sent inn [mál: Ítarleg Mynd í mynd](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), og við munum aðlaga það eins fljótt og auðið er. Athugið að sumar vefsíður geta haft svæðisbundnar takmarkanir, og þú gætir þurft að veita viðbótarupplýsingar."
+      },
+      "subtitleDetection": {
+        "label": "Virkja Textagreiningu",
+        "description": "Ef núverandi síða hefur ekki Mynd í mynd stillingu, leyfa forritinu að reyna að greina textaþætti sjálfkrafa og bæta þeim við Mynd í mynd spilara. Þetta er óstöðugur eiginleiki og gæti ekki alltaf greint rétta textaþætti. Ef þú ert fagmanneskja, getur þú bætt við textaþáttastillingum í vefstillingunum."
+      },
+      "continuousPlayback": {
+        "label": "Virkja Samfellda Spilun",
+        "description": "Samfelld spilun: Mynd í mynd glugginn lokast ekki og spilar sjálfkrafa næsta þátt eftir að myndbandið endar. Þessi eiginleiki krefst stuðnings vefsíðunnar."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Leturlitur",
         "description": "Stilla leturlit fyrir þessa síðu."
+      },
+      "pipRestrictionAction": {
+        "label": "Takmörkunaraðgerð mynd í mynd",
+        "description": "Háþróaður mynd í mynd gluggi getur aðeins verið opnaður frá aðalsíðunni og ekki verið ræstur úr ramma eða innfellt efni. Þú getur notað venjulegt mynd í mynd ham eða opnað í nýjum flipa til að reyna aftur. Athugaðu að myndbandið gæti ekki hlaðist rétt í nýjum flipa.",
+        "default": "Sjálfgefið",
+        "use_standard_pip": "Nota venjulegt mynd í mynd",
+        "open_in_new_tab": "Opna í nýjum flipa"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Sjálfvirk mynd í mynd",
+        "description": "Sjálfkrafa fara í mynd í mynd ham þegar myndband er til staðar við inngang á síðuna. Vegna kerfis takmarkana, krefst þetta notenda samskipta við síðuna."
+      },
+      "captionSetting": {
+        "label": "Textastillingar",
+        "description": "Stilla CSS valmyndir fyrir textaþáttinn og foreldri hans á síðunni. CSS valmynd fyrir textaþáttinn er notað til að birta texta í spilara, á meðan foreldra valmyndin er notuð til að skila textanum aftur á upprunalegu síðuna þegar farið er úr mynd í mynd ham.",
+        "configure": "Stilla",
+        "selectorDesc": "Algengar valmyndir eru: '.class' fyrir flokkavalmyndir, '#id' fyrir auðkennisvalmyndir, 'tag' fyrir merkisvalmyndir, og '[attribute=value]' fyrir eiginleikavalmyndir. Fyrir frekari upplýsingar, heimsæktu: [CSS valmyndir - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS valmyndir fyrir textaþáttinn",
+        "captionParentSelectorDesc": "CSS valmyndir fyrir foreldri textaþáttarins"
       }
     },
     "quickAccess": {

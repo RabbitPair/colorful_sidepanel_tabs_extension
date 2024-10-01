@@ -136,6 +136,7 @@
         "sortBy": "Razvrsti po",
         "createTabPanel": "Ustvari ploščo z zavihki",
         "tabPanels": "Plošče z zavihki",
+        "switchPIP": "Preklopi sliko v sliki",
         "pinToToolbarReminder": "Pred odstranitvijo te navigacije pripnite razširitev na orodno vrstico."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ta stran je samo za prikaz. Za spreminjanje bližnjic obiščite [Razširitve]->[Upravljanje razširitev]->[Bližnjice na tipkovnici]",
       "goToBrowserSettings": "Pojdi na nastavitve Chroma",
       "_execute_action": "Aktiviraj to razširitev",
-      "openSidePanel": "Odpri stransko ploščo"
+      "openSidePanel": "Odpri stransko ploščo",
+      "switchPIP": "Preklopi na sliko v sliki"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Slika v sliki",
@@ -392,6 +394,22 @@
         "description": "Če trenutna stran predvaja video in video ni utišan ter video pri drsenju zapusti vidno območje, bo prešel v sliko v sliki.",
         "enabled": "Omogočeno",
         "disabled": "Onemogočeno"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Samodejna slika v sliki pri preklopu zavihkov brez odpiranja stranske plošče",
+        "description": "Če trenutna stran predvaja video in video ni utišan, omogoči samodejno sliko v sliki pri preklopu zavihkov brez odpiranja stranske plošče. Upoštevajte, da ta funkcija **zahteva aktivacijo uporabnika** (npr. klik z miško na prazno območje strani)."
+      },
+      "advancedPipEnable": {
+        "label": "Omogoči napredno sliko v sliki",
+        "description": "Ko je omogočeno, bo napredna slika v sliki imela prednost. Če stran tega ne podpira, se bo uporabila običajna slika v sliki.\nNapredna slika v sliki uporablja prilagojen video predvajalnik, ki ponuja funkcije, kot so:\n * Predvajaj/Pavza video (Preslednica)\n * Prilagodi glasnost (Puščica gor/dol)\n * Utišaj/Odtišaj video\n * Hitro naprej/Previj video (Puščica levo/desno ali kolešček miške)\n * Predvajaj naslednji video\n * Prikaži podnapise (podprto na nekaterih spletnih mestih, npr. youtube.com, vimeo.com, tver.jp, itd.)\n * Prikaži komentarje (podprto na nekaterih spletnih mestih, npr. nicovideo.jp, bilibili.com, itd.)\n * Izhod iz slike v sliki (Esc)\n * Preklopi skrij/prikaži video in predvajaj/pavza (Q)\n >Če spletna mesta, ki jih pogosto obiskujete, podpirajo podnapise ali komentarje, lahko oddate [težavo: Napredna slika v sliki](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), in jo bomo prilagodili čim prej. Upoštevajte, da imajo nekatera spletna mesta lahko regionalne omejitve in boste morda morali zagotoviti dodatne informacije."
+      },
+      "subtitleDetection": {
+        "label": "Omogoči zaznavanje podnapisov",
+        "description": "Če trenutna stran nima konfiguracije za sliko v sliki, dovoli programu, da poskusi samodejno zaznati elemente podnapisov in jih doda v predvajalnik slike v sliki. To je nestabilna funkcija in morda ne bo vedno zaznala pravilnih elementov podnapisov. Če ste strokovnjak, lahko dodate konfiguracije elementov podnapisov v nastavitvah strani."
+      },
+      "continuousPlayback": {
+        "label": "Omogoči neprekinjeno predvajanje",
+        "description": "Neprekinjeno predvajanje: Okno slike v sliki se ne zapre in samodejno predvaja naslednjo epizodo po koncu videa. Ta funkcija zahteva podporo spletnega mesta."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Barva pisave",
         "description": "Nastavite barvo pisave za to spletno mesto."
+      },
+      "pipRestrictionAction": {
+        "label": "Dejanje omejitve Picture-in-Picture",
+        "description": "Napredno okno Picture-in-Picture je mogoče odpreti samo s glavne strani in ga ni mogoče zagnati iz okvirjev ali vdelane vsebine. Uporabite lahko standardni način Picture-in-Picture ali odprete v novem zavihku, da poskusite znova. Upoštevajte, da se video morda ne bo pravilno naložil v novem zavihku.",
+        "default": "Privzeto",
+        "use_standard_pip": "Uporabi standardni Picture-in-Picture",
+        "open_in_new_tab": "Odpri v novem zavihku"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Samodejni vstop v Picture-in-Picture",
+        "description": "Samodejno vstopite v način Picture-in-Picture, ko je ob vstopu na stran prisoten video. Zaradi sistemskih omejitev to zahteva interakcijo uporabnika s stranjo."
+      },
+      "captionSetting": {
+        "label": "Nastavitve podnapisov",
+        "description": "Konfigurirajte izbirnike CSS za element podnapisov in njegov nadrejeni element na strani. Izbirnik CSS za element podnapisov se uporablja za prikaz podnapisov v predvajalniku, medtem ko se nadrejeni izbirnik uporablja za vrnitev podnapisov na izvirno stran ob izstopu iz načina Picture-in-Picture.",
+        "configure": "Nastavi",
+        "selectorDesc": "Pogosti izbirniki vključujejo: '.class' za izbirnike razredov, '#id' za izbirnike ID-jev, 'tag' za izbirnike oznak in '[attribute=value]' za izbirnike atributov. Za več podrobnosti obiščite: [CSS izbirniki - CSS: Kaskadne slogovne predloge - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS izbirniki za element podnapisov",
+        "captionParentSelectorDesc": "CSS izbirniki za nadrejenega elementa podnapisov"
       }
     },
     "quickAccess": {

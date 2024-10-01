@@ -228,5 +228,6 @@
   "shortName": "Nome breve",
   "expandIcons": "Espandi icone",
   "expandList": "Espandi elenco",
-  "openAllUrls": "Apri tutti gli URL"
+  "openAllUrls": "Apri tutti gli URL",
+  "switchPIP": "Passa a Picture-in-Picture"
 }

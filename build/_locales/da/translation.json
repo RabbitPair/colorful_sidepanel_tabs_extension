@@ -241,5 +241,6 @@
   "shortName": "Kort navn",
   "expandIcons": "Udvid ikoner",
   "expandList": "Udvid liste",
-  "openAllUrls": "Åbn alle URL'er"
+  "openAllUrls": "Åbn alle URL'er",
+  "switchPIP": "Skift billede-i-billede"
 }

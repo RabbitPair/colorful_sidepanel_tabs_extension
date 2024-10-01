@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Ներքին համակարգեր"
+  },
+  "switchPIP": {
+    "message": "Փոխել պատկերը պատկերի մեջ"
+  },
+  "play": {
+    "message": "Խաղալ"
+  },
+  "pause": {
+    "message": "Դադար"
+  },
+  "shortcut_play_pause": {
+    "message": "Խաղալ/Դադարեցնել տեսանյութը"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Կարգավորել ձայնի մակարդակը"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Անձայն/Անձայն հանել տեսանյութը"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Առաջ տանել/Հետ տանել տեսանյութը 5 վայրկյանով"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Առաջ տանել/Հետ տանել տեսանյութը 10 վայրկյանով"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Առաջ տանել/Հետ տանել տեսանյութը"
+  },
+  "shortcut_next_video": {
+    "message": "Խաղալ հաջորդ տեսանյութը"
+  },
+  "shortcut_previous_video": {
+    "message": "Խաղալ նախորդ տեսանյութը"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Ցույց տալ/Թաքցնել ենթագրերը"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Ցույց տալ/Թաքցնել գնդակային զրույցը"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Ամբողջ էկրանով/Փոքրացնել էկրանը"
+  },
+  "shortcut_playback_speed": {
+    "message": "Կարգավորել նվագարկման արագությունը"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Տեսանյութի սկիզբ/վերջ"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Տեսանյութի տոկոսային դիրք"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Հարմարեցնել պատուհանը տեսանյութի չափին"
+  },
+  "shortcut_exit_pip": {
+    "message": "Դուրս գալ պատկերը պատկերի մեջ ռեժիմից"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Թաքցնել/Ցույց տալ տեսանյութը և խաղալ/դադարեցնել"
+  },
+  "shortcut_enter_pip": {
+    "message": "Փոխել պատկերը պատկերի մեջ ռեժիմը հիմնական էջից"
+  },
+  "mute": {
+    "message": "Անձայն"
+  },
+  "unmute": {
+    "message": "Անձայն"
+  },
+  "prev_video": {
+    "message": "Նախորդ տեսանյութ"
+  },
+  "next_video": {
+    "message": "Հաջորդ տեսանյութ"
+  },
+  "playbackRate": {
+    "message": "Նվագարկման արագություն"
+  },
+  "subtitles": {
+    "message": "Ենթագրեր"
+  },
+  "close_captions": {
+    "message": "Փակ ենթագրեր"
+  },
+  "danmaku": {
+    "message": "Գնդակային զրույց"
+  },
+  "fit_to_screen": {
+    "message": "Հարմարեցնել էկրանին"
+  },
+  "reload_video": {
+    "message": "Վերաբեռնել տեսանյութը"
+  },
+  "loading_pip_config": {
+    "message": "Բեռնում է փաստաթղթի պատկերը պատկերի մեջ կարգավորումները..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Խաղում է փաստաթղթի պատկերը պատկերի մեջ ռեժիմում"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Հայտնաբերում է պատկերը պատկերի մեջ ենթագրերի կարգավորումները..."
+  },
+  "video_not_detected": {
+    "message": "Տեսանյութը չի հայտնաբերվել: Հնարավոր է, որ այն դեռ պատրաստ չէ: Եթե էջում կա տեսանյութ, խնդրում ենք սեղմել խաղալ և փորձել կրկին:"
+  },
+  "pip_window_restriction": {
+    "message": "Ընդլայնված պատկերը պատկերի մեջ պատուհանը կարող է բացվել միայն հիմնական էջից և չի կարող գործարկվել շրջանակներից կամ ներդրված բովանդակությունից: Դուք կարող եք օգտագործել ստանդարտ պատկերը պատկերի մեջ ռեժիմը կամ բացել նոր ներդիրում՝ կրկին փորձելու համար: Նշենք, որ տեսանյութը կարող է ճիշտ չբեռնվել նոր ներդիրում:",
+    "description": "Չհաջողվեց կատարել 'requestWindow' 'DocumentPictureInPicture'-ում: Պատկերը պատկերի մեջ պատուհանը բացելու թույլատրվում է միայն վերին մակարդակի զննման համատեքստից"
+  },
+  "use_standard_pip": {
+    "message": "Օգտագործել ստանդարտ պատկերը պատկերի մեջ",
+    "description": "Ընտրանք՝ օգտագործելու ստանդարտ պատկերը պատկերի մեջ ռեժիմը"
+  },
+  "open_in_new_tab": {
+    "message": "Բացել նոր ներդիրում",
+    "description": "Ընտրանք՝ էջը բացելու նոր ներդիրում"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Հիշել այս կայքի կարգավորումները (Դուք կարող եք փոփոխել այն ընտրանքներում՝ Կայքի կարգավորումներ)"
+  },
+  "pip_user_activation_required": {
+    "message": "Պատկերը պատկերի մեջ ռեժիմը պահանջում է օգտատիրոջ փոխազդեցություն: Խնդրում ենք սեղմել կամ փոխազդել էջի հետ և փորձել կրկին:",
+    "description": "Չհաջողվեց կատարել 'requestWindow' 'DocumentPictureInPicture'-ում: Փաստաթղթի պատկերը պատկերի մեջ պահանջում է օգտատիրոջ ակտիվացում"
+  },
+  "retry_action": {
+    "message": "Փորձել կրկին"
   }
 }

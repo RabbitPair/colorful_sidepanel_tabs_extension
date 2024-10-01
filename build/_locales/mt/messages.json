@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistemi Interni"
+  },
+  "switchPIP": {
+    "message": "Aqleb Picture-in-Picture"
+  },
+  "play": {
+    "message": "Ilgħab"
+  },
+  "pause": {
+    "message": "Pawża"
+  },
+  "shortcut_play_pause": {
+    "message": "Ilgħab/Pawża vidjo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Aġġusta l-volum"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Sikkina/Neħħi s-sikkina vidjo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avvanza/Ritorn 5 sekondi tal-vidjo"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avvanza/Ritorn 10 sekondi tal-vidjo"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avvanza/Ritorn tal-vidjo"
+  },
+  "shortcut_next_video": {
+    "message": "Ilgħab il-vidjo li jmiss"
+  },
+  "shortcut_previous_video": {
+    "message": "Ilgħab il-vidjo preċedenti"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Uri/Aħbi s-sottotitoli"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Uri/Aħbi chatting bil-bullet"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Aqleb għall-iskrin sħiħ"
+  },
+  "shortcut_playback_speed": {
+    "message": "Aġġusta l-veloċità tal-logħob"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Fittex għall-bidu/tmiem tal-vidjo"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Fittex għal perċentwal tal-vidjo"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Aġġusta t-tieqa biex taqbel mad-daqs tal-vidjo"
+  },
+  "shortcut_exit_pip": {
+    "message": "Oħroġ mill-Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Aqleb aħbi/uri l-vidjo u ilgħab/pawża"
+  },
+  "shortcut_enter_pip": {
+    "message": "Aqleb għall-Picture-in-Picture mill-paġna prinċipali"
+  },
+  "mute": {
+    "message": "Sikkina"
+  },
+  "unmute": {
+    "message": "Neħħi s-sikkina"
+  },
+  "prev_video": {
+    "message": "Vidjo Preċedenti"
+  },
+  "next_video": {
+    "message": "Vidjo Li Jmiss"
+  },
+  "playbackRate": {
+    "message": "Veloċità tal-Logħob"
+  },
+  "subtitles": {
+    "message": "Sottotitoli"
+  },
+  "close_captions": {
+    "message": "Sottotitoli Magħluqa"
+  },
+  "danmaku": {
+    "message": "Chatting bil-Bullet"
+  },
+  "fit_to_screen": {
+    "message": "Adatta għall-Iskrin"
+  },
+  "reload_video": {
+    "message": "Irrikariga l-Vidjo"
+  },
+  "loading_pip_config": {
+    "message": "Tagħbija tal-Konfigurazzjonijiet tal-Picture-in-Picture tad-Dokument..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Qiegħed tilgħab fil-Mod tal-Picture-in-Picture tad-Dokument"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Qiegħed tiskopri s-Settings tas-Sottotitoli tal-Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Vidjo mhux skopert. Jista' jkun għadu mhux lest. Jekk hemm vidjo fuq il-paġna, jekk jogħġbok agħfas play u erġa' pprova."
+  },
+  "pip_window_restriction": {
+    "message": "It-tieqa avvanzata tal-Picture-in-Picture tista' tinfetaħ biss mill-paġna prinċipali u ma tistax titnieda minn frames jew kontenut inkorporat. Tista' tuża l-mod standard tal-Picture-in-Picture jew tiftaħ f'tab ġdid biex terġa' tipprova. Innota li l-vidjo jista' ma jitgħabbiex sew f'tab ġdid.",
+    "description": "Naqset milli tesegwixxi 'requestWindow' fuq 'DocumentPictureInPicture': It-tiftaħ tieqa PiP hija permessa biss minn kuntest ta' browsing ta' livell għoli"
+  },
+  "use_standard_pip": {
+    "message": "Uża PiP standard",
+    "description": "Għażla biex tuża l-mod standard tal-Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Iftaħ f'tab ġdid",
+    "description": "Għażla biex tiftaħ il-paġna f'tab ġdid"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Ftakar is-settings ta' dan is-sit (Tista' timmodifikahom fl-Għażliet - Settings tas-sit)"
+  },
+  "pip_user_activation_required": {
+    "message": "Il-mod tal-Picture-in-Picture jeħtieġ interazzjoni tal-utent. Jekk jogħġbok agħfas jew interaġixxi mal-paġna u erġa' pprova.",
+    "description": "Naqset milli tesegwixxi 'requestWindow' fuq 'DocumentPictureInPicture': Il-PiP tad-Dokument jeħtieġ attivazzjoni tal-utent"
+  },
+  "retry_action": {
+    "message": "Erġa' Pprova"
   }
 }

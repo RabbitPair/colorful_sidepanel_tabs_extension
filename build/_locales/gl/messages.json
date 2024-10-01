@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistemas Internos"
+  },
+  "switchPIP": {
+    "message": "Cambiar a Picture-in-Picture"
+  },
+  "play": {
+    "message": "Reproducir"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "shortcut_play_pause": {
+    "message": "Reproducir/Pausar vídeo"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Axustar volume"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Silenciar/Activar son do vídeo"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Avanzar/Retroceder vídeo 5 segundos"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Avanzar/Retroceder vídeo 10 segundos"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Avanzar/Retroceder vídeo"
+  },
+  "shortcut_next_video": {
+    "message": "Reproducir o seguinte vídeo"
+  },
+  "shortcut_previous_video": {
+    "message": "Reproducir o vídeo anterior"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Mostrar/Ocultar subtítulos"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Mostrar/Ocultar chat de balas"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Alternar pantalla completa"
+  },
+  "shortcut_playback_speed": {
+    "message": "Axustar velocidade de reprodución"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Buscar ao inicio/final do vídeo"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Buscar a porcentaxe do vídeo"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Axustar xanela ao tamaño do vídeo"
+  },
+  "shortcut_exit_pip": {
+    "message": "Saír de Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Alternar ocultar/mostrar vídeo e reproducir/pausar"
+  },
+  "shortcut_enter_pip": {
+    "message": "Alternar Picture-in-Picture desde a páxina principal"
+  },
+  "mute": {
+    "message": "Silenciar"
+  },
+  "unmute": {
+    "message": "Desactivar silencio"
+  },
+  "prev_video": {
+    "message": "Vídeo anterior"
+  },
+  "next_video": {
+    "message": "Vídeo seguinte"
+  },
+  "playbackRate": {
+    "message": "Velocidade de reprodución"
+  },
+  "subtitles": {
+    "message": "Subtítulos"
+  },
+  "close_captions": {
+    "message": "Subtítulos pechados"
+  },
+  "danmaku": {
+    "message": "Chat de balas"
+  },
+  "fit_to_screen": {
+    "message": "Axustar á pantalla"
+  },
+  "reload_video": {
+    "message": "Recargar vídeo"
+  },
+  "loading_pip_config": {
+    "message": "Cargando configuración de Picture-in-Picture do documento..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Reproducindo en modo Picture-in-Picture do documento"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Detectando configuración de subtítulos de Picture-in-Picture..."
+  },
+  "video_not_detected": {
+    "message": "Vídeo non detectado. Pode que aínda non estea listo. Se hai un vídeo na páxina, faga clic en reproducir e inténteo de novo."
+  },
+  "pip_window_restriction": {
+    "message": "A xanela avanzada de Picture-in-Picture só se pode abrir desde a páxina principal e non se pode iniciar desde marcos ou contido incrustado. Pode usar o modo estándar de Picture-in-Picture ou abrir nunha nova pestana para volver tentalo. Teña en conta que o vídeo pode non cargarse correctamente nunha nova pestana.",
+    "description": "Non se puido executar 'requestWindow' en 'DocumentPictureInPicture': Só se permite abrir unha xanela PiP desde un contexto de navegación de nivel superior"
+  },
+  "use_standard_pip": {
+    "message": "Usar PiP estándar",
+    "description": "Opción para usar o modo estándar de Picture-in-Picture"
+  },
+  "open_in_new_tab": {
+    "message": "Abrir nunha nova pestana",
+    "description": "Opción para abrir a páxina nunha nova pestana"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Lembrar a configuración deste sitio (Pódese modificar en Opcións - Configuración do sitio)"
+  },
+  "pip_user_activation_required": {
+    "message": "O modo Picture-in-Picture require interacción do usuario. Faga clic ou interactúe coa páxina e inténteo de novo.",
+    "description": "Non se puido executar 'requestWindow' en 'DocumentPictureInPicture': O PiP do documento require activación do usuario"
+  },
+  "retry_action": {
+    "message": "Tentar de novo"
   }
 }

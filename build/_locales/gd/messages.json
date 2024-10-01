@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Siostaman Taobh a-staigh"
+  },
+  "switchPIP": {
+    "message": "Atharraich Pictiur-an-Pictiur"
+  },
+  "play": {
+    "message": "Cluich"
+  },
+  "pause": {
+    "message": "Sguir"
+  },
+  "shortcut_play_pause": {
+    "message": "Cluich/Sguir bhidio"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Atharraich meud"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Sàmhach/Neo-shàmhach bhidio"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Luath air adhart/Ath-shealladh bhidio 5 diogan"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Luath air adhart/Ath-shealladh bhidio 10 diogan"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Luath air adhart/Ath-shealladh bhidio"
+  },
+  "shortcut_next_video": {
+    "message": "Cluich am bhidio an-ath"
+  },
+  "shortcut_previous_video": {
+    "message": "Cluich am bhidio roimhe"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Seall/Falaich fo-thiotalan"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Seall/Falaich cabadaich bullet"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Atharraich làn-sgrìn"
+  },
+  "shortcut_playback_speed": {
+    "message": "Atharraich astar cluich"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Lorg gu toiseach/deireadh bhidio"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Lorg gu ceudad bhidio"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Atharraich uinneag gus meud bhidio a fhreagairt"
+  },
+  "shortcut_exit_pip": {
+    "message": "Fàg Pictiur-an-Pictiur"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Atharraich falaich/seall bhidio agus cluich/sguir"
+  },
+  "shortcut_enter_pip": {
+    "message": "Atharraich Pictiur-an-Pictiur bhon phrìomh dhuilleag"
+  },
+  "mute": {
+    "message": "Sàmhach"
+  },
+  "unmute": {
+    "message": "Neo-shàmhach"
+  },
+  "prev_video": {
+    "message": "Bhidio Roimhe"
+  },
+  "next_video": {
+    "message": "Bhidio An-ath"
+  },
+  "playbackRate": {
+    "message": "Astar Cluiche"
+  },
+  "subtitles": {
+    "message": "Fo-thiotalan"
+  },
+  "close_captions": {
+    "message": "Fo-thiotalan Dùinte"
+  },
+  "danmaku": {
+    "message": "Cabadaich Bullet"
+  },
+  "fit_to_screen": {
+    "message": "Freagarrach don Sgrion"
+  },
+  "reload_video": {
+    "message": "Ath-luchdaich Bhidio"
+  },
+  "loading_pip_config": {
+    "message": "A' Luchdachadh Rèiteachaidhean Pictiur-an-Pictiur an Sgrìobhainn..."
+  },
+  "playing_in_pip_mode": {
+    "message": "A' Cluich ann am Modh Pictiur-an-Pictiur an Sgrìobhainn"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "A' Lorg Rèiteachaidhean Fo-thiotalan Pictiur-an-Pictiur..."
+  },
+  "video_not_detected": {
+    "message": "Cha deach bhidio a lorg. Is dòcha nach eil e deiseil fhathast. Ma tha bhidio air an duilleag, briog air cluich agus feuch a-rithist."
+  },
+  "pip_window_restriction": {
+    "message": "Chan urrainnear uinneag Pictiur-an-Pictiur adhartach fhosgladh ach bhon phrìomh dhuilleag agus chan urrainnear a chuir air bhog bho fhrèamaichean no susbaint freumhaichte. Faodaidh tu modh Pictiur-an-Pictiur àbhaisteach a chleachdadh no fosgladh ann an taba ùr gus feuchainn a-rithist. Thoir fa-near nach luchdaich am bhidio gu ceart ann an taba ùr.",
+    "description": "Dh'fhàillig 'requestWindow' a chur an gnìomh air 'DocumentPictureInPicture': Chan eil cead ach uinneag PiP fhosgladh bho cho-theacsa brobhsaidh aig ìre àrd"
+  },
+  "use_standard_pip": {
+    "message": "Cleachd PiP àbhaisteach",
+    "description": "Roghainn airson modh Pictiur-an-Pictiur àbhaisteach a chleachdadh"
+  },
+  "open_in_new_tab": {
+    "message": "Fosgail ann an taba ùr",
+    "description": "Roghainn airson an duilleag fhosgladh ann an taba ùr"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Cuimhnich roghainnean an làraich seo (Faodaidh tu a mhodhnachadh ann an Roghainnean - Rèiteachaidhean Làraich)"
+  },
+  "pip_user_activation_required": {
+    "message": "Feumaidh modh Pictiur-an-Pictiur eadar-obrachadh le neach-cleachdaidh. Briog no eadar-obrachadh leis an duilleag agus feuch a-rithist.",
+    "description": "Dh'fhàillig 'requestWindow' a chur an gnìomh air 'DocumentPictureInPicture': Feumaidh PiP an Sgrìobhainn gnìomhachadh le neach-cleachdaidh"
+  },
+  "retry_action": {
+    "message": "Feuch A-rithist"
   }
 }

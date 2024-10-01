@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Внатрешни системи"
+  },
+  "switchPIP": {
+    "message": "Промени Picture-in-Picture"
+  },
+  "play": {
+    "message": "Пушти"
+  },
+  "pause": {
+    "message": "Пауза"
+  },
+  "shortcut_play_pause": {
+    "message": "Пушти/Пауза видео"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Прилагоди јачина на звук"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Исклучи/Вклучи звук на видео"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Преврти напред/назад видео за 5 секунди"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Преврти напред/назад видео за 10 секунди"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Преврти напред/назад видео"
+  },
+  "shortcut_next_video": {
+    "message": "Пушти следно видео"
+  },
+  "shortcut_previous_video": {
+    "message": "Пушти претходно видео"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Покажи/Сокриј титлови"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Покажи/Сокриј коментари"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Вклучи/Исклучи цел екран"
+  },
+  "shortcut_playback_speed": {
+    "message": "Прилагоди брзина на репродукција"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Премести на почеток/крај на видео"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Премести на процент од видео"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Прилагоди прозорец на големина на видео"
+  },
+  "shortcut_exit_pip": {
+    "message": "Излези од Picture-in-Picture"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Вклучи/Исклучи сокривање на видео и пушти/паузирај"
+  },
+  "shortcut_enter_pip": {
+    "message": "Вклучи/Исклучи Picture-in-Picture од главната страница"
+  },
+  "mute": {
+    "message": "Исклучи звук"
+  },
+  "unmute": {
+    "message": "Вклучи звук"
+  },
+  "prev_video": {
+    "message": "Претходно видео"
+  },
+  "next_video": {
+    "message": "Следно видео"
+  },
+  "playbackRate": {
+    "message": "Брзина на репродукција"
+  },
+  "subtitles": {
+    "message": "Субтитли"
+  },
+  "close_captions": {
+    "message": "Затворени натписи"
+  },
+  "danmaku": {
+    "message": "Bullet chatting"
+  },
+  "fit_to_screen": {
+    "message": "Прилагоди на екран"
+  },
+  "reload_video": {
+    "message": "Презареди видео"
+  },
+  "loading_pip_config": {
+    "message": "Се вчитуваат конфигурациите за Picture-in-Picture..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Се репродуцира во Picture-in-Picture режим"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Се детектираат поставките за Picture-in-Picture субтитли..."
+  },
+  "video_not_detected": {
+    "message": "Видеото не е детектирано. Можеби не е подготвено уште. Ако има видео на страницата, ве молиме кликнете пушти и обидете се повторно."
+  },
+  "pip_window_restriction": {
+    "message": "Напредниот Picture-in-Picture прозорец може да се отвори само од главната страница и не може да се стартува од рамки или вградена содржина. Можете да користите стандардниот Picture-in-Picture режим или да отворите во нов таб за повторен обид. Забележете дека видеото можеби нема да се вчита правилно во нов таб.",
+    "description": "Неуспешно извршување на 'requestWindow' на 'DocumentPictureInPicture': Отворањето на PiP прозорец е дозволено само од контекст на прелистување на највисоко ниво"
+  },
+  "use_standard_pip": {
+    "message": "Користи стандардно PiP",
+    "description": "Опција за користење на стандардниот Picture-in-Picture режим"
+  },
+  "open_in_new_tab": {
+    "message": "Отвори во нов таб",
+    "description": "Опција за отворање на страницата во нов таб"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Запомни ги поставките за оваа страница (Можете да ги измените во Опции - Поставки за страница)"
+  },
+  "pip_user_activation_required": {
+    "message": "Picture-in-Picture режимот бара интеракција од корисникот. Ве молиме кликнете или интерактирајте со страницата и обидете се повторно.",
+    "description": "Неуспешно извршување на 'requestWindow' на 'DocumentPictureInPicture': Document PiP бара активација од корисникот"
+  },
+  "retry_action": {
+    "message": "Обиди се повторно"
   }
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sisesüsteemid"
+  },
+  "switchPIP": {
+    "message": "Vaheta pilt-pildis režiimi"
+  },
+  "play": {
+    "message": "Esita"
+  },
+  "pause": {
+    "message": "Paus"
+  },
+  "shortcut_play_pause": {
+    "message": "Esita/Peata video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Reguleeri helitugevust"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Vaigista/Taasta heli video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Keri edasi/tagasi video 5 sekundit"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Keri edasi/tagasi video 10 sekundit"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Keri edasi/tagasi video"
+  },
+  "shortcut_next_video": {
+    "message": "Esita järgmine video"
+  },
+  "shortcut_previous_video": {
+    "message": "Esita eelmine video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Näita/Peida subtiitrid"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Näita/Peida barrages"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Lülita täisekraan"
+  },
+  "shortcut_playback_speed": {
+    "message": "Reguleeri taasesituse kiirust"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Keri video algusesse/lõppu"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Keri video protsendini"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Kohanda aken video suurusele"
+  },
+  "shortcut_exit_pip": {
+    "message": "Välju pilt-pildis režiimist"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Lülita peida/näita video ja esita/peata"
+  },
+  "shortcut_enter_pip": {
+    "message": "Lülita pilt-pildis režiim põhilehelt"
+  },
+  "mute": {
+    "message": "Vaigista"
+  },
+  "unmute": {
+    "message": "Heli sisse"
+  },
+  "prev_video": {
+    "message": "Eelmine video"
+  },
+  "next_video": {
+    "message": "Järgmine video"
+  },
+  "playbackRate": {
+    "message": "Taasesituse kiirus"
+  },
+  "subtitles": {
+    "message": "Subtiitrid"
+  },
+  "close_captions": {
+    "message": "Suletud subtiitrid"
+  },
+  "danmaku": {
+    "message": "Kuulipilduja vestlus"
+  },
+  "fit_to_screen": {
+    "message": "Sobita ekraanile"
+  },
+  "reload_video": {
+    "message": "Laadi video uuesti"
+  },
+  "loading_pip_config": {
+    "message": "Dokumendi pilt-pildis konfiguratsioonide laadimine..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Esitatakse dokumendi pilt-pildis režiimis"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Pilt-pildis subtiitrite seadete tuvastamine..."
+  },
+  "video_not_detected": {
+    "message": "Videot ei tuvastatud. See ei pruugi veel valmis olla. Kui lehel on video, klõpsake esitamist ja proovige uuesti."
+  },
+  "pip_window_restriction": {
+    "message": "Täiustatud pilt-pildis aken saab avada ainult põhilehelt ja seda ei saa käivitada raamide või manustatud sisu kaudu. Võite kasutada standardset pilt-pildis režiimi või avada uues vahekaardis, et uuesti proovida. Pange tähele, et video ei pruugi uues vahekaardis korralikult laadida.",
+    "description": "Ebaõnnestus käivitada 'requestWindow' 'DocumentPictureInPicture' peal: PiP akna avamine on lubatud ainult kõrgtaseme sirvimiskontekstist"
+  },
+  "use_standard_pip": {
+    "message": "Kasuta standardset PiP-i",
+    "description": "Valik kasutada standardset pilt-pildis režiimi"
+  },
+  "open_in_new_tab": {
+    "message": "Ava uues vahekaardis",
+    "description": "Valik avada leht uues vahekaardis"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Jäta selle saidi seaded meelde (Saate seda muuta valikutes - Saidi seaded)"
+  },
+  "pip_user_activation_required": {
+    "message": "Pilt-pildis režiim nõuab kasutaja interaktsiooni. Palun klõpsake või suhtlege lehega ja proovige uuesti.",
+    "description": "Ebaõnnestus käivitada 'requestWindow' 'DocumentPictureInPicture' peal: Dokumendi PiP nõuab kasutaja aktiveerimist"
+  },
+  "retry_action": {
+    "message": "Proovi uuesti"
   }
 }

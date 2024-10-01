@@ -136,6 +136,7 @@
         "sortBy": "Panga Kwa",
         "createTabPanel": "Unda Jopo la Vichupo",
         "tabPanels": "Majopo ya Vichupo",
+        "switchPIP": "Badilisha Picha-ndani-ya-Picha",
         "pinToToolbarReminder": "Tafadhali weka kiendelezi kwenye upau wa zana kabla ya kuondoa urambazaji huu."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Ukurasa huu ni wa kuonyesha tu. Ili kubadilisha njia za mkato, tafadhali tembelea [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
       "goToBrowserSettings": "Nenda kwenye mipangilio",
       "_execute_action": "Washa kiendelezi hiki",
-      "openSidePanel": "Fungua paneli ya kando"
+      "openSidePanel": "Fungua paneli ya kando",
+      "switchPIP": "Badilisha Picha kwa Picha"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Picha kwa picha",
@@ -392,6 +394,22 @@
         "description": "Ikiwa ukurasa wa sasa unacheza video na video haijazimwa na video iko nje ya eneo linaloonekana unapopiga mshale, itaingia moja kwa moja kwenye picha kwa picha.",
         "enabled": "Imewezeshwa",
         "disabled": "Imelemazwa"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Picha kwa Picha Kiotomatiki kwenye Kubadilisha Kichupo bila Kufungua Paneli ya Kando",
+        "description": "Ikiwa ukurasa wa sasa unacheza video na video haijazimwa, wezesha Picha kwa Picha kiotomatiki unapobadilisha vichupo bila kufungua paneli ya kando. Kumbuka kuwa kipengele hiki **kinahitaji uanzishaji wa mtumiaji** (mfano, kubofya panya kwenye eneo tupu la ukurasa)."
+      },
+      "advancedPipEnable": {
+        "label": "Washa Picha kwa Picha ya Juu",
+        "description": "Ikiwa imewezeshwa, Picha kwa Picha ya Juu itapewa kipaumbele. Ikiwa ukurasa hauiungi mkono, Picha kwa Picha ya kawaida itatumika.\nPicha kwa Picha ya Juu hutumia kichezaji video maalum, ikitoa vipengele kama:\n * Cheza/Simamisha video (Nafasi)\n * Rekebisha sauti (Mshale Juu/Chini)\n * Zima/Washa sauti ya video\n * Peleka mbele/peleka nyuma video (Mshale Kushoto/Kulia au Gurudumu la Panya)\n * Cheza video inayofuata\n * Onyesha manukuu (inayoungwa mkono kwenye baadhi ya tovuti, mfano, youtube.com, vimeo.com, tver.jp, nk.)\n * Onyesha barrage (inayoungwa mkono kwenye baadhi ya tovuti, mfano, nicovideo.jp, bilibili.com, nk.)\n * Toka Picha kwa Picha (Esc)\n * Badilisha ficha/onyesha video na cheza/simamisha (Q)\n >Ikiwa tovuti unazotembelea mara kwa mara zinaunga mkono manukuu au barrage, unaweza kuwasilisha [suala: Picha kwa Picha ya Juu](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), na tutaliboresha haraka iwezekanavyo. Kumbuka kuwa baadhi ya tovuti zinaweza kuwa na vizuizi vya kieneo, na unaweza kuhitaji kutoa taarifa za ziada."
+      },
+      "subtitleDetection": {
+        "label": "Washa Ugunduzi wa Manukuu",
+        "description": "Ikiwa tovuti ya sasa haina usanidi wa Picha kwa Picha, ruhusu programu kujaribu kugundua kiotomatiki vipengele vya manukuu na kuviongeza kwenye kichezaji cha Picha kwa Picha. Hii ni kipengele kisicho imara na kinaweza kusiweze kugundua vipengele sahihi vya manukuu kila wakati. Ikiwa wewe ni mtaalamu, unaweza kuongeza usanidi wa vipengele vya manukuu kwenye mipangilio ya tovuti."
+      },
+      "continuousPlayback": {
+        "label": "Washa Uchezaji Endelevu",
+        "description": "Uchezaji endelevu: Dirisha la Picha kwa Picha halifungi na hucheza kiotomatiki kipindi kinachofuata baada ya video kumalizika. Kipengele hiki kinahitaji msaada wa tovuti."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Rangi ya Fonti",
         "description": "Weka rangi ya fonti kwa tovuti hii."
+      },
+      "pipRestrictionAction": {
+        "label": "Kitendo cha Kizuizi cha Picha-ndani-ya-Picha",
+        "description": "Dirisha la Picha-ndani-ya-Picha ya Juu linaweza kufunguliwa tu kutoka kwenye ukurasa kuu na haliwezi kuzinduliwa kutoka kwa fremu au maudhui yaliyopachikwa. Unaweza kutumia hali ya kawaida ya Picha-ndani-ya-Picha au kufungua katika kichupo kipya kujaribu tena. Kumbuka kuwa video inaweza isipakie vizuri katika kichupo kipya.",
+        "default": "Chaguo-msingi",
+        "use_standard_pip": "Tumia Picha-ndani-ya-Picha ya kawaida",
+        "open_in_new_tab": "Fungua katika kichupo kipya"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Ingia kiotomatiki kwenye Picha-ndani-ya-Picha",
+        "description": "Ingia kiotomatiki kwenye hali ya Picha-ndani-ya-Picha wakati video ipo kwenye ukurasa. Kwa sababu ya vizuizi vya mfumo, hii inahitaji mwingiliano wa mtumiaji na ukurasa."
+      },
+      "captionSetting": {
+        "label": "Mipangilio ya Manukuu",
+        "description": "Sanidi vichagua vya CSS kwa kipengele cha manukuu na mzazi wake kwenye ukurasa. Kichagua cha CSS kwa kipengele cha manukuu kinatumika kuonyesha manukuu kwenye kicheza, wakati kichagua cha mzazi kinatumika kurudisha manukuu kwenye ukurasa wa awali wakati wa kutoka kwenye hali ya Picha-ndani-ya-Picha.",
+        "configure": "Sanidi",
+        "selectorDesc": "Vichagua vya kawaida ni pamoja na: '.class' kwa vichagua vya darasa, '#id' kwa vichagua vya ID, 'tag' kwa vichagua vya tagi, na '[attribute=value]' kwa vichagua vya sifa. Kwa maelezo zaidi, tembelea: [Vichagua vya CSS - CSS: Majedwali ya Mitindo ya Kuteleza - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Vichagua vya CSS kwa kipengele cha manukuu",
+        "captionParentSelectorDesc": "Vichagua vya CSS kwa mzazi wa kipengele cha manukuu"
       }
     },
     "quickAccess": {

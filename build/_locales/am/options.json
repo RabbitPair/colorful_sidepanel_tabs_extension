@@ -136,6 +136,7 @@
         "sortBy": "በመስር አስቀምጥ",
         "createTabPanel": "ትምባህ ፓነል ፍጠር",
         "tabPanels": "ትምባህ ፓነሎች",
+        "switchPIP": "ምስል-በ-ምስል ቀይር",
         "pinToToolbarReminder": "እባክዎ እንደ ገና እንዲሰራ ለማድረግ ቅርብ እንዲሆን በመሳሪያ አሞሌዎ ላይ እንዲታይ አስቀምጡ።"
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "ይህ ገጽ ለማሳየት ብቻ ነው። አጭር መንገዶችን ለማስተካከል እባኮትን [Extensions]->[Manage Extensions]->[Keyboard Shortcuts] ይጎብኙ",
       "goToBrowserSettings": "በተከታታይ ቦታ ላይ ይምረጡ",
       "_execute_action": "ይህን ቅጥር አንቃ",
-      "openSidePanel": "ጎን ስርጭት ክፈት"
+      "openSidePanel": "ጎን ስርጭት ክፈት",
+      "switchPIP": "ምስል በምስል ቀይር"
     },
     "picture_in_picture": {
       "Picture-in-picture": "ምስል በምስል",
@@ -392,6 +394,22 @@
         "description": "ከአሁኑ ጊዜ ገጽ ቪዲዮ እየተጫወተ እና ቪዲዮው አልተደበቀም እና በማሸብር ጊዜ ቪዲዮው ከታይቷ አካባቢ ውጭ ከሆነ ምስል በምስል ውስጥ ይገባል።",
         "enabled": "ነቅቷል",
         "disabled": "እንደተከለከለ"
+      },
+      "tabSwitchPipBackground": {
+        "label": "በትር መቀየር ላይ ምስል በምስል ሳይከፈት ጎን ስርጭት በራስ ሰር አንቃ",
+        "description": "አሁኑን ገጽ ቪዲዮ እየተጫወተ እና ቪዲዮው አልተደበቀም ከሆነ፣ በትር መቀየር ላይ ምስል በምስል ሳይከፈት ጎን ስርጭት በራስ ሰር አንቃ። ይህ ባህሪ የተጠቃሚ እንቅስቃሴን ያስፈልጋል (ለምሳሌ፣ በገጹ ባዶ አካባቢ ላይ አንድ ጊዜ ጠቅ ማድረግ)"
+      },
+      "advancedPipEnable": {
+        "label": "የላቀ ምስል በምስል አንቃ",
+        "description": "ሲነቃቃ የላቀ ምስል በምስል ተሾማለት። ገጹ አይደግፍም ከሆነ መደበኛ ምስል በምስል ይጠቀማል።\nየላቀ ምስል በምስል ባህሪ ባህሪ ያላቸውን ቪዲዮ አጫዋቾችን ይጠቀማል፣ እነዚህ ባህሪዎችን ያካትታሉ:\n * ቪዲዮ አጫውቷ/አቁም (Space)\n * ድምፅ ያስተካክሉ (Up/Down Arrow)\n * ቪዲዮ ዝም አልቅ/አንቃ\n * ቪዲዮ በፍጥነት ያሳልፉ/ያሳልፉ (Left/Right Arrow ወይም Mouse Wheel)\n * ቀጣዩን ቪዲዮ አጫውቷ\n * ንዑስ ጽሑፎችን አሳይ (በአንዳንድ ድር ጣቢያዎች ይደገፋሉ፣ ለምሳሌ፣ youtube.com, vimeo.com, tver.jp, እና ሌሎች)\n * በረራ አሳይ (በአንዳንድ ድር ጣቢያዎች ይደገፋሉ፣ ለምሳሌ፣ nicovideo.jp, bilibili.com, እና ሌሎች)\n * ምስል በምስል ውስጥ ውጣ (Esc)\n * ቪዲዮን ሰውር/አሳይ እና አጫውቷ/አቁም (Q)\n >እንዲሁም የምትጎበኙት ድር ጣቢያ ንዑስ ጽሑፎች ወይም በረራ ይደግፋል ከሆነ እባኮትን [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) ይላኩልን፣ እኛም በተቻለ መጠን እንደግፋለን። አንዳንድ ድር ጣቢያዎች ክልል ያላቸው እንደሆኑ እና ተጨማሪ መረጃ ማቅረብ ያስፈልጋል እንደሆነ እንታውቃለን።"
+      },
+      "subtitleDetection": {
+        "label": "ንዑስ ጽሑፎችን ማስተካከል አንቃ",
+        "description": "አሁኑን ጣቢያ ምስል በምስል ቅንብር ካልተደገፈ ፕሮግራሙ ንዑስ ጽሑፎችን ለማስተካከል በራስ ሰር ሊሞክር ይችላል። ይህ ባህሪ አልቋል እና ሁልጊዜ ትክክለኛ ንዑስ ጽሑፎችን ማግኘት አይችልም። እርስዎ ሙያዊ ከሆኑ በጣቢያ ቅንብሮች ውስጥ ንዑስ ጽሑፎችን ማስተካከል ይችላሉ።"
+      },
+      "continuousPlayback": {
+        "label": "ቀጣይ አጫውቷ አንቃ",
+        "description": "ቀጣይ አጫውቷ: ምስል በምስል መስኮት አይዝጋም እና ቪዲዮው ከተጨረሰ በኋላ ቀጣዩን ክፍል በራስ ሰር ይጫወታል። ይህ ባህሪ የድር ጣቢያ ድጋፍ ያስፈልጋል።"
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "ፋንታ ቀለም",
         "description": "ይህን ፋንታ ቀለም ለዚህ ድህረ ገጽ ይምረጡ።"
+      },
+      "pipRestrictionAction": {
+        "label": "የPicture-in-Picture እንቅስቃሴ ገደብ",
+        "description": "የተሻለ የPicture-in-Picture መስኮት ከዋናው ገጽ ብቻ ሊከፈት ይችላል እና ከመስኮች ወይም ከተደበቀ ይዘት መነሳት አይችልም። መደበኛ የPicture-in-Picture ሁኔታን ማጠቀም ወይም በአዲስ ትር ማክሰር ለመሞከር ይችላሉ። ቪዲዮው በአዲስ ትር በትክክል እንዳይጫን ማስታወሻ ይሁን።",
+        "default": "ነባሪ",
+        "use_standard_pip": "መደበኛ የPicture-in-Picture ሁኔታን አጠቀም",
+        "open_in_new_tab": "በአዲስ ትር ክፈት"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "ራስ-ሰር ወደ Picture-in-Picture ግባ",
+        "description": "በገጹ ላይ በመግባት በቪዲዮ በመኖሩ ራስ-ሰር ወደ Picture-in-Picture ሁኔታ ግባ። በስርዓት ገደቦች ምክንያት፣ ይህ ከገጹ ጋር የተጠቃሚ ተግባር ይጠይቃል።"
+      },
+      "captionSetting": {
+        "label": "የንዑስ ጽሑፍ ቅንብሮች",
+        "description": "በገጹ ላይ የንዑስ ጽሑፍ እቃን እና የእናት እቃን የCSS መለያዎችን ያስተካክሉ። የንዑስ ጽሑፍ እቃ የCSS መለያ በአጫዋች ውስጥ ንዑስ ጽሑፎችን ለማሳየት ይጠቀማል፣ ሲወጣ ወደ አስተካከል ሁኔታ እንደገና ለመመለስ የእናት መለያ ይጠቀማል።",
+        "configure": "አስተካክል",
+        "selectorDesc": "የተለመዱ መለያዎች እነዚህን ይጠቀማሉ፦ '.class' ለክፍል መለያዎች፣ '#id' ለID መለያዎች፣ 'tag' ለመለያ መለያዎች፣ እና '[attribute=value]' ለባህሪ መለያዎች። ለተጨማሪ ዝርዝሮች፣ ይጎብኙ፦ [CSS መለያዎች - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "የንዑስ ጽሑፍ እቃ የCSS መለያዎች",
+        "captionParentSelectorDesc": "የንዑስ ጽሑፍ እቃ የእናት የCSS መለያዎች"
       }
     },
     "quickAccess": {

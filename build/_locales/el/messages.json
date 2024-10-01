@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Εσωτερικά Συστήματα"
+  },
+  "switchPIP": {
+    "message": "Εναλλαγή Εικόνας σε Εικόνα"
+  },
+  "play": {
+    "message": "Αναπαραγωγή"
+  },
+  "pause": {
+    "message": "Παύση"
+  },
+  "shortcut_play_pause": {
+    "message": "Αναπαραγωγή/Παύση βίντεο"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Ρύθμιση έντασης"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Σίγαση/Αναίρεση σίγασης βίντεο"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Γρήγορη προώθηση/Επαναφορά βίντεο κατά 5 δευτερόλεπτα"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Γρήγορη προώθηση/Επαναφορά βίντεο κατά 10 δευτερόλεπτα"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Γρήγορη προώθηση/Επαναφορά βίντεο"
+  },
+  "shortcut_next_video": {
+    "message": "Αναπαραγωγή του επόμενου βίντεο"
+  },
+  "shortcut_previous_video": {
+    "message": "Αναπαραγωγή του προηγούμενου βίντεο"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Εμφάνιση/Απόκρυψη υπότιτλων"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Εμφάνιση/Απόκρυψη συνομιλιών Bullet"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Εναλλαγή πλήρους οθόνης"
+  },
+  "shortcut_playback_speed": {
+    "message": "Ρύθμιση ταχύτητας αναπαραγωγής"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Μετακίνηση στην αρχή/τέλος του βίντεο"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Μετακίνηση σε ποσοστό του βίντεο"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Προσαρμογή παραθύρου στο μέγεθος του βίντεο"
+  },
+  "shortcut_exit_pip": {
+    "message": "Έξοδος από τη λειτουργία Εικόνας σε Εικόνα"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Εναλλαγή απόκρυψης/εμφάνισης βίντεο και αναπαραγωγής/παύσης"
+  },
+  "shortcut_enter_pip": {
+    "message": "Εναλλαγή λειτουργίας Εικόνας σε Εικόνα από την κύρια σελίδα"
+  },
+  "mute": {
+    "message": "Σίγαση"
+  },
+  "unmute": {
+    "message": "Αναίρεση Σίγασης"
+  },
+  "prev_video": {
+    "message": "Προηγούμενο Βίντεο"
+  },
+  "next_video": {
+    "message": "Επόμενο Βίντεο"
+  },
+  "playbackRate": {
+    "message": "Ταχύτητα Αναπαραγωγής"
+  },
+  "subtitles": {
+    "message": "Υπότιτλοι"
+  },
+  "close_captions": {
+    "message": "Κλειστοί Υπότιτλοι"
+  },
+  "danmaku": {
+    "message": "Συνομιλία Bullet"
+  },
+  "fit_to_screen": {
+    "message": "Προσαρμογή στην Οθόνη"
+  },
+  "reload_video": {
+    "message": "Επαναφόρτωση Βίντεο"
+  },
+  "loading_pip_config": {
+    "message": "Φόρτωση Ρυθμίσεων Εικόνας σε Εικόνα..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Αναπαραγωγή σε Λειτουργία Εικόνας σε Εικόνα"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Ανίχνευση Ρυθμίσεων Υποτίτλων Εικόνας σε Εικόνα..."
+  },
+  "video_not_detected": {
+    "message": "Το βίντεο δεν εντοπίστηκε. Μπορεί να μην είναι έτοιμο ακόμα. Αν υπάρχει βίντεο στη σελίδα, παρακαλώ κάντε κλικ στην αναπαραγωγή και δοκιμάστε ξανά."
+  },
+  "pip_window_restriction": {
+    "message": "Το προχωρημένο παράθυρο Εικόνας σε Εικόνα μπορεί να ανοίξει μόνο από την κύρια σελίδα και δεν μπορεί να εκκινηθεί από πλαίσια ή ενσωματωμένο περιεχόμενο. Μπορείτε να χρησιμοποιήσετε την κανονική λειτουργία Εικόνας σε Εικόνα ή να ανοίξετε σε νέα καρτέλα για να δοκιμάσετε ξανά. Σημειώστε ότι το βίντεο μπορεί να μην φορτωθεί σωστά σε νέα καρτέλα.",
+    "description": "Αποτυχία εκτέλεσης 'requestWindow' στο 'DocumentPictureInPicture': Το άνοιγμα ενός παραθύρου PiP επιτρέπεται μόνο από ένα πλαίσιο περιήγησης ανώτατου επιπέδου"
+  },
+  "use_standard_pip": {
+    "message": "Χρήση κανονικής λειτουργίας PiP",
+    "description": "Επιλογή για χρήση κανονικής λειτουργίας Εικόνας σε Εικόνα"
+  },
+  "open_in_new_tab": {
+    "message": "Άνοιγμα σε νέα καρτέλα",
+    "description": "Επιλογή για άνοιγμα της σελίδας σε νέα καρτέλα"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Θυμηθείτε τις ρυθμίσεις αυτού του ιστότοπου (Μπορείτε να το τροποποιήσετε στις Επιλογές - Ρυθμίσεις ιστότοπου)"
+  },
+  "pip_user_activation_required": {
+    "message": "Η λειτουργία Εικόνας σε Εικόνα απαιτεί αλληλεπίδραση χρήστη. Παρακαλώ κάντε κλικ ή αλληλεπιδράστε με τη σελίδα και δοκιμάστε ξανά.",
+    "description": "Αποτυχία εκτέλεσης 'requestWindow' στο 'DocumentPictureInPicture': Το PiP του εγγράφου απαιτεί ενεργοποίηση χρήστη"
+  },
+  "retry_action": {
+    "message": "Δοκιμάστε Ξανά"
   }
 }

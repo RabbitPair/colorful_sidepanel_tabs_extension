@@ -136,6 +136,7 @@
         "sortBy": "排序方式",
         "createTabPanel": "创建标签面板",
         "tabPanels": "标签面板",
+        "switchPIP": "切换画中画",
         "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航。"
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "此页面仅供显示。要修改快捷键，请访问[扩展程序]->[管理扩展程序]->[键盘快捷键]",
       "goToBrowserSettings": "前往设置",
       "_execute_action": "激活此扩展",
-      "openSidePanel": "打开侧边栏"
+      "openSidePanel": "打开侧边栏",
+      "switchPIP": "切换画中画模式"
     },
     "picture_in_picture": {
       "Picture-in-picture": "画中画",
@@ -392,6 +394,22 @@
         "description": "如果当前页面正在播放视频且视频未静音，并且滚动时视频超出可见范围，将进入画中画。",
         "enabled": "启用",
         "disabled": "禁用"
+      },
+      "tabSwitchPipBackground": {
+        "label": "标签页切换时自动画中画（不打开侧边栏）",
+        "description": "如果当前页面正在播放视频且视频未静音，启用标签页切换时自动画中画（不打开侧边栏）。请注意，此功能**需要用户激活**（例如，点击页面的空白区域）。"
+      },
+      "advancedPipEnable": {
+        "label": "启用高级画中画",
+        "description": "启用后，将优先使用高级画中画。如果页面不支持，将使用常规画中画。\n高级画中画使用自定义视频播放器，提供以下功能：\n * 播放/暂停视频（空格键）\n * 调整音量（上下箭头）\n * 静音/取消静音视频\n * 快进/倒退视频（左右箭头或鼠标滚轮）\n * 播放下一个视频\n * 显示字幕（某些网站支持，例如：youtube.com, vimeo.com, tver.jp 等）\n * 显示弹幕（某些网站支持，例如：nicovideo.jp, bilibili.com 等）\n * 退出画中画（Esc）\n * 切换隐藏/显示视频和播放/暂停（Q）\n >如果您经常访问的网站支持字幕或弹幕，您可以提交一个[问题：高级画中画](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=)，我们将尽快适配。请注意，某些网站可能有区域限制，您可能需要提供额外信息。"
+      },
+      "subtitleDetection": {
+        "label": "启用字幕检测",
+        "description": "如果当前网站没有画中画配置，允许程序尝试自动检测字幕元素并将其添加到画中画播放器中。这是一个不稳定的功能，可能无法始终检测到正确的字幕元素。如果您是专业人士，可以在网站设置中添加字幕元素配置。"
+      },
+      "continuousPlayback": {
+        "label": "启用连续播放",
+        "description": "连续播放：画中画窗口不会关闭，并在视频结束后自动播放下一集。此功能需要网站支持。"
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "字体颜色",
         "description": "设置该站点的字体颜色。"
+      },
+      "pipRestrictionAction": {
+        "label": "画中画限制操作",
+        "description": "高级画中画窗口只能从主页面打开，不能从框架或嵌入内容中启动。您可以使用标准画中画模式或在新标签页中重新尝试。请注意，视频在新标签页中可能无法正常加载。",
+        "default": "默认",
+        "use_standard_pip": "使用标准画中画",
+        "open_in_new_tab": "在新标签页中打开"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "自动进入画中画",
+        "description": "当页面上存在视频时，自动进入画中画模式。由于系统限制，这需要用户与页面进行交互。"
+      },
+      "captionSetting": {
+        "label": "字幕设置",
+        "description": "配置页面上字幕元素及其父元素的CSS选择器。字幕元素的CSS选择器用于在播放器中显示字幕，而父元素选择器用于在退出画中画模式时将字幕返回到原始页面。",
+        "configure": "配置",
+        "selectorDesc": "常见选择器包括：用于类选择器的'.class'，用于ID选择器的'#id'，用于标签选择器的'tag'，以及用于属性选择器的'[attribute=value]'。更多详情请访问：[CSS选择器 - CSS：层叠样式表 - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "字幕元素的CSS选择器",
+        "captionParentSelectorDesc": "字幕元素父元素的CSS选择器"
       }
     },
     "quickAccess": {

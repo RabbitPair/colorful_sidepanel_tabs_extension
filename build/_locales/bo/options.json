@@ -136,6 +136,7 @@
         "sortBy": "གཞི་བཀོད་འགོད།",
         "createTabPanel": "ཁ་ཕྱེ་གསར་པ་བཟོ།",
         "tabPanels": "ཁ་ཕྱེ་གསར་པ།",
+        "switchPIP": "རི་མོ་ནང་རི་མོ་བསྒྱུར།",
         "pinToToolbarReminder": "ཁྱོད་ཀྱི་ལག་ཆས་སྟོན་སྒྲིག་བཀོད་སྒྲིག་བཀོད་སྔོན་ལ་སྒྲིག་བཀོད་འགྲུལ་སྟོན་འདི་བཏོན་གཏང་དགོས།"
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "ཤོག་ངོས་འདི་སྟོན་མི་དོན་དུ་ཡོད། མགྱོགས་ཚད་བསྒྱུར་བཅོས་བྱེད་དགོས་ན་སྒྲིག་སྟངས་ལ་ཕེབས། [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
       "goToBrowserSettings": "ཆོས་འཛིན་བཟོ།",
       "_execute_action": "རྒྱུ་སྤྱོད་འདི་ལེན་འཐུ་བྱེད།",
-      "openSidePanel": "གུང་སྟོང་སྒེའུ་ཁྱེར་ཁ་ཕྱེ།"
+      "openSidePanel": "གུང་སྟོང་སྒེའུ་ཁྱེར་ཁ་ཕྱེ།",
+      "switchPIP": "རི་མོ་ནང་རི་མོ་བརྗེ།"
     },
     "picture_in_picture": {
       "Picture-in-picture": "རི་མོ་ནང་རི་མོ",
@@ -392,6 +394,22 @@
         "description": "དེ་རིང་གི་ཤོག་ངོས་ནང་བརྙན་འཕྲིན་འཁྱོལ་བ་ཡོད་ནའི་དང་དེ་བརྙན་འཕྲིན་གཏན་འཁེལ་མ་སྒྲིག་བཀོད་ཡོད་ནའི་དང་སྒོར་སྒྱུར་བྱེད་དུས་དེ་བརྙན་འཕྲིན་མཐོང་མེད་སྒོར་སྒྱུར་བྱེད་དུས་རི་མོ་ནང་རི་མོ་ལ་འཇུག་བཏང་།",
         "enabled": "ལེགས་སྒྲིག",
         "disabled": "ལེགས་སྒྲིག་མ་བྱེད"
+      },
+      "tabSwitchPipBackground": {
+        "label": "གུང་སྟོང་སྒེའུ་ཁྱེར་ཁ་ཕྱེ་མ་བྱས་ན་བརྗེ་བའི་སྒེའུ་ཁྱེར་རི་མོ་ནང་རི་མོ་རང་བཞིན་གྱིས་འཇུག་བཏང་།",
+        "description": "ད་ལྟོའི་ཤོག་ངོས་ནང་བརྙན་འཕྲིན་འཁྱོལ་བ་ཡོད་ནའི་དང་དེ་བརྙན་འཕྲིན་གཏན་འཁེལ་མ་སྒྲིག་བཀོད་ཡོད་ན་གུང་སྟོང་སྒེའུ་ཁྱེར་ཁ་ཕྱེ་མ་བྱས་ན་བརྗེ་བའི་སྒེའུ་ཁྱེར་རི་མོ་ནང་རི་མོ་རང་བཞིན་གྱིས་འཇུག་བཏང་། དེ་ལྟར་སྤྱོད་མི་གནང་བ་དགོས། (དཔེར་ན་ཤོག་ངོས་གང་མེད་ས་ཁོངས་ནང་བརྡ་འཕྲིན་གཏོང་བྱེད།)"
+      },
+      "advancedPipEnable": {
+        "label": "རི་མོ་ནང་རི་མོ་རིམ་པ་མཐོ་ཤོས་ལེགས་སྒྲིག་བྱེད།",
+        "description": "When enabled, Advanced Picture-in-Picture will be prioritized. If the page does not support it, regular Picture-in-Picture will be used.\nAdvanced Picture-in-Picture utilizes a custom video player, offering features such as:\n * Play/Pause video (Space)\n * Adjust volume (Up/Down Arrow)\n * Mute/Unmute video\n * Fast forward/Rewind video (Left/Right Arrow or Mouse Wheel)\n * Play the next video\n * Display subtitles (supported on some websites, e.g., youtube.com, vimeo.com, tver.jp, etc.)\n * Display barrage (supported on some websites, e.g., nicovideo.jp, bilibili.com, etc.)\n * Exit Picture-in-Picture (Esc)\n * Toggle hide/show video and play/pause (Q)\n >If the websites you frequently visit support subtitles or barrage, you can submit an [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), and we will adapt it as soon as possible. Note that some websites may have regional restrictions, and you may need to provide additional information."
+      },
+      "subtitleDetection": {
+        "label": "Enable Subtitle Detection",
+        "description": "If the current site does not have a Picture-in-Picture configuration, allow the program to try to automatically detect subtitle elements and add them to the Picture-in-Picture player. This is an unstable feature and may not always detect the correct subtitle elements. If you are a professional, you can add subtitle element configurations in the site settings."
+      },
+      "continuousPlayback": {
+        "label": "Enable Continuous Playback",
+        "description": "Continuous playback: The Picture-in-Picture window does not close and automatically plays the next episode after the video ends. This feature requires website support."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "ཡིག་སྒྲིག",
         "description": "ཤོག་ངོས་ཡིག་སྒྲིག་བཀོད།"
+      },
+      "pipRestrictionAction": {
+        "label": "བཤུར་གཞི་ནང་བརྙེས་སྒྲིག་བྱེད་ཐབས།",
+        "description": "རྒྱས་སྒྲིག་བྱས་པའི་བཤུར་གཞི་ཁ་ཕྱེ་ཐབས་དེ་གཙོ་ཤོས་ཤོག་ངོས་ནས་ཁ་ཕྱེ་ཐུབ་པ་དང་སྒེའུ་ཁུང་དང་བརྡ་འཕྲོད་ནས་ཁ་ཕྱེ་ཐུབ་མི་འོང་། ཁྱོད་ཀྱིས་སྤྱོད་ཐབས་སྤྱིའི་བཤུར་གཞི་དང་གསར་ཤོག་ངོས་ནས་སྐྱར་སྒྲིག་བྱེད་ཐུབ། གསར་ཤོག་ངོས་ནས་བཤུར་གཞི་ཁ་ཕྱེ་ན་བརྙན་འཕྲིན་ལེགས་སྟོན་མི་འོང་བ་དགོས་རེད།",
+        "default": "སྔོན་སྒྲིག",
+        "use_standard_pip": "སྤྱོད་ཐབས་སྤྱིའི་བཤུར་གཞི།",
+        "open_in_new_tab": "གསར་ཤོག་ངོས་ནས་ཁ་ཕྱེ།"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "རང་གི་བཤུར་གཞི་ནང་འཇུག",
+        "description": "ཤོག་ངོས་ནས་བརྙན་འཕྲིན་ཡོད་དུས་རང་གི་བཤུར་གཞི་ནང་འཇུག་བྱེད། མ་ལག་སྤྱོད་ཐབས་ཀྱི་དོན་ལུ་འདི་ལུ་བཀོད་སྒྲིག་བྱེད་དགོས་རེད།"
+      },
+      "captionSetting": {
+        "label": "བསམ་བཀོད་སྒྲིག་སྟངས།",
+        "description": "ཤོག་ངོས་ནང་བསམ་བཀོད་སྒྲིག་སྟངས་ཀྱི་གནས་ཚུལ་དང་གནས་ཚུལ་གཞི་བཙུགས་སྒྲིག་སྟངས་བྱེད། བསམ་བཀོད་སྒྲིག་སྟངས་ཀྱི་གནས་ཚུལ་གི་གནས་ཚུལ་བཤུར་གཞི་ནང་སྟོན་དང་བཤུར་གཞི་ནས་འཇུག་བྱེད་དུས་ཤོག་ངོས་ནང་སྐྱར་སྒྲིག་བྱེད།",
+        "configure": "སྒྲིག་སྟངས་བྱེད།",
+        "selectorDesc": "སྤྱོད་ཐབས་སྤྱིའི་སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། དཔེར་ན་ '.class' སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། '#id' སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། 'tag' སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། '[attribute=value]' སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། གནས་ཚུལ་སྒྲིག་སྟངས་དང་སྒྲིག་སྟངས་བྱེད། [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "བསམ་བཀོད་སྒྲིག་སྟངས་ཀྱི་གནས་ཚུལ",
+        "captionParentSelectorDesc": "བསམ་བཀོད་སྒྲིག་སྟངས་ཀྱི་གནས་ཚུལ་གཞི་བཙུགས་སྒྲིག་སྟངས་བྱེད།"
       }
     },
     "quickAccess": {

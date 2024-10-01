@@ -228,5 +228,6 @@
   "shortName": "Izen laburra",
   "expandIcons": "Ikonoak Zabaldu",
   "expandList": "Zerrenda Zabaldu",
-  "openAllUrls": "Ireki URL guztiak"
+  "openAllUrls": "Ireki URL guztiak",
+  "switchPIP": "Aldatu Irudi-barruko-Irudi modura"
 }

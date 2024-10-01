@@ -136,6 +136,7 @@
         "sortBy": "Trier par",
         "createTabPanel": "Créer un panneau d'onglets",
         "tabPanels": "Panneaux d'onglets",
+        "switchPIP": "Basculer en mode Image dans l'image",
         "pinToToolbarReminder": "Veuillez épingler l'extension à votre barre d'outils avant de supprimer cette navigation."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Cette page est uniquement à titre d'affichage. Pour modifier les raccourcis, veuillez visiter [Extensions]->[Gérer les extensions]->[Raccourcis clavier]",
       "goToBrowserSettings": "Aller aux paramètres du navigateur",
       "_execute_action": "Activer cette extension",
-      "openSidePanel": "Ouvrir le panneau latéral"
+      "openSidePanel": "Ouvrir le panneau latéral",
+      "switchPIP": "Basculer en mode Image dans l'image"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Image dans l'image",
@@ -392,6 +394,22 @@
         "description": "Si la page actuelle lit une vidéo et que la vidéo n'est pas en sourdine et que la vidéo est hors de la plage visible lors du défilement, elle passera en image dans l'image.",
         "enabled": "Activé",
         "disabled": "Désactivé"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Image dans l'image automatique lors du changement d'onglet sans ouvrir le panneau latéral",
+        "description": "Si la page actuelle lit une vidéo et que la vidéo n'est pas en sourdine, activez l'image dans l'image automatique lors du changement d'onglet sans ouvrir le panneau latéral. Notez que cette fonctionnalité **nécessite une activation par l'utilisateur** (par exemple, en cliquant sur une zone vide de la page)."
+      },
+      "advancedPipEnable": {
+        "label": "Activer l'image dans l'image avancée",
+        "description": "Lorsqu'elle est activée, l'image dans l'image avancée sera priorisée. Si la page ne la prend pas en charge, l'image dans l'image normale sera utilisée.\nL'image dans l'image avancée utilise un lecteur vidéo personnalisé, offrant des fonctionnalités telles que :\n * Lecture/Pause de la vidéo (Espace)\n * Ajuster le volume (Flèche Haut/Bas)\n * Activer/Désactiver le son de la vidéo\n * Avancer/Reculer la vidéo (Flèche Gauche/Droite ou Molette de la souris)\n * Lire la vidéo suivante\n * Afficher les sous-titres (pris en charge sur certains sites web, par exemple, youtube.com, vimeo.com, tver.jp, etc.)\n * Afficher les commentaires (pris en charge sur certains sites web, par exemple, nicovideo.jp, bilibili.com, etc.)\n * Quitter l'image dans l'image (Échap)\n * Basculer entre masquer/afficher la vidéo et lecture/pause (Q)\n >Si les sites web que vous visitez fréquemment prennent en charge les sous-titres ou les commentaires, vous pouvez soumettre un [problème : Image dans l'image avancée](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), et nous l'adapterons dès que possible. Notez que certains sites web peuvent avoir des restrictions régionales, et vous devrez peut-être fournir des informations supplémentaires."
+      },
+      "subtitleDetection": {
+        "label": "Activer la détection des sous-titres",
+        "description": "Si le site actuel n'a pas de configuration d'image dans l'image, permettez au programme d'essayer de détecter automatiquement les éléments de sous-titres et de les ajouter au lecteur d'image dans l'image. Il s'agit d'une fonctionnalité instable et peut ne pas toujours détecter les bons éléments de sous-titres. Si vous êtes un professionnel, vous pouvez ajouter des configurations d'éléments de sous-titres dans les paramètres du site."
+      },
+      "continuousPlayback": {
+        "label": "Activer la lecture continue",
+        "description": "Lecture continue : La fenêtre d'image dans l'image ne se ferme pas et lit automatiquement l'épisode suivant après la fin de la vidéo. Cette fonctionnalité nécessite la prise en charge du site web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Couleur de police",
         "description": "Définissez la couleur de police pour ce site."
+      },
+      "pipRestrictionAction": {
+        "label": "Action de restriction Picture-in-Picture",
+        "description": "La fenêtre avancée Picture-in-Picture ne peut être ouverte que depuis la page principale et ne peut pas être lancée depuis des cadres ou du contenu intégré. Vous pouvez utiliser le mode Picture-in-Picture standard ou ouvrir dans un nouvel onglet pour réessayer. Notez que la vidéo peut ne pas se charger correctement dans un nouvel onglet.",
+        "default": "Par défaut",
+        "use_standard_pip": "Utiliser le Picture-in-Picture standard",
+        "open_in_new_tab": "Ouvrir dans un nouvel onglet"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrée automatique en mode Picture-in-Picture",
+        "description": "Entrer automatiquement en mode Picture-in-Picture lorsqu'une vidéo est présente lors de l'entrée sur la page. En raison des limitations du système, cela nécessite une interaction de l'utilisateur avec la page."
+      },
+      "captionSetting": {
+        "label": "Paramètres des sous-titres",
+        "description": "Configurez les sélecteurs CSS pour l'élément de sous-titre et son parent sur la page. Le sélecteur CSS pour l'élément de sous-titre est utilisé pour afficher les sous-titres dans le lecteur, tandis que le sélecteur parent est utilisé pour renvoyer les sous-titres à la page d'origine lors de la sortie du mode Picture-in-Picture.",
+        "configure": "Configurer",
+        "selectorDesc": "Les sélecteurs courants incluent : '.class' pour les sélecteurs de classe, '#id' pour les sélecteurs d'ID, 'tag' pour les sélecteurs de balises, et '[attribute=value]' pour les sélecteurs d'attributs. Pour plus de détails, visitez : [Sélecteurs CSS - CSS : Feuilles de style en cascade - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Sélecteurs CSS pour l'élément de sous-titre",
+        "captionParentSelectorDesc": "Sélecteurs CSS pour le parent de l'élément de sous-titre"
       }
     },
     "quickAccess": {

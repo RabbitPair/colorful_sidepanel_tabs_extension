@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "內部系統"
+  },
+  "switchPIP": {
+    "message": "切換畫中畫"
+  },
+  "play": {
+    "message": "播放"
+  },
+  "pause": {
+    "message": "暫停"
+  },
+  "shortcut_play_pause": {
+    "message": "播放/暫停影片"
+  },
+  "shortcut_adjust_volume": {
+    "message": "調整音量"
+  },
+  "shortcut_mute_unmute": {
+    "message": "靜音/取消靜音影片"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "快進/倒退影片5秒"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "快進/倒退影片10秒"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "快進/倒退影片"
+  },
+  "shortcut_next_video": {
+    "message": "播放下一個影片"
+  },
+  "shortcut_previous_video": {
+    "message": "播放上一個影片"
+  },
+  "shortcut_toggle_captions": {
+    "message": "顯示/隱藏字幕"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "顯示/隱藏彈幕"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "切換全螢幕"
+  },
+  "shortcut_playback_speed": {
+    "message": "調整播放速度"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "跳至影片開始/結束"
+  },
+  "shortcut_seek_percentage": {
+    "message": "跳至影片百分比"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "調整視窗以適應影片大小"
+  },
+  "shortcut_exit_pip": {
+    "message": "退出畫中畫"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "切換隱藏/顯示影片和播放/暫停"
+  },
+  "shortcut_enter_pip": {
+    "message": "從主頁切換畫中畫"
+  },
+  "mute": {
+    "message": "靜音"
+  },
+  "unmute": {
+    "message": "取消靜音"
+  },
+  "prev_video": {
+    "message": "上一個影片"
+  },
+  "next_video": {
+    "message": "下一個影片"
+  },
+  "playbackRate": {
+    "message": "播放速度"
+  },
+  "subtitles": {
+    "message": "字幕"
+  },
+  "close_captions": {
+    "message": "隱藏字幕"
+  },
+  "danmaku": {
+    "message": "彈幕"
+  },
+  "fit_to_screen": {
+    "message": "適合螢幕"
+  },
+  "reload_video": {
+    "message": "重新載入影片"
+  },
+  "loading_pip_config": {
+    "message": "正在載入畫中畫配置..."
+  },
+  "playing_in_pip_mode": {
+    "message": "正在畫中畫模式播放"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "正在檢測畫中畫字幕設置..."
+  },
+  "video_not_detected": {
+    "message": "未檢測到影片。它可能尚未準備好。如果頁面上有影片，請點擊播放並重試。"
+  },
+  "pip_window_restriction": {
+    "message": "高級畫中畫窗口只能從主頁面打開，不能從框架或嵌入內容中啟動。您可以使用標準畫中畫模式或在新標籤頁中打開重試。請注意，影片可能無法在新標籤頁中正確加載。",
+    "description": "無法執行 'requestWindow' 在 'DocumentPictureInPicture' 上：只能從頂級瀏覽上下文打開 PiP 窗口"
+  },
+  "use_standard_pip": {
+    "message": "使用標準畫中畫",
+    "description": "選項使用標準畫中畫模式"
+  },
+  "open_in_new_tab": {
+    "message": "在新標籤頁中打開",
+    "description": "選項在新標籤頁中打開頁面"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "記住此網站的設置（您可以在選項 - 網站設置中修改）"
+  },
+  "pip_user_activation_required": {
+    "message": "畫中畫模式需要用戶互動。請點擊或與頁面互動並重試。",
+    "description": "無法執行 'requestWindow' 在 'DocumentPictureInPicture' 上：Document PiP 需要用戶激活"
+  },
+  "retry_action": {
+    "message": "重試"
   }
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sisäiset Järjestelmät"
+  },
+  "switchPIP": {
+    "message": "Vaihda kuva kuvassa -tilaan"
+  },
+  "play": {
+    "message": "Toista"
+  },
+  "pause": {
+    "message": "Tauko"
+  },
+  "shortcut_play_pause": {
+    "message": "Toista/Tauko video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Säädä äänenvoimakkuutta"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Mykistä/Poista mykistys video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Kelaa eteenpäin/Taaksepäin video 5 sekuntia"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Kelaa eteenpäin/Taaksepäin video 10 sekuntia"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Kelaa eteenpäin/Taaksepäin video"
+  },
+  "shortcut_next_video": {
+    "message": "Toista seuraava video"
+  },
+  "shortcut_previous_video": {
+    "message": "Toista edellinen video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Näytä/Piilota tekstitykset"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Näytä/Piilota luotitekstitys"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Vaihda koko näytön tilaan"
+  },
+  "shortcut_playback_speed": {
+    "message": "Säädä toistonopeutta"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Siirry videon alkuun/loppuun"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Siirry tiettyyn prosenttiosuuteen videosta"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Säädä ikkuna videon kokoon"
+  },
+  "shortcut_exit_pip": {
+    "message": "Poistu kuva kuvassa -tilasta"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Vaihda piilota/näytä video ja toista/tauko"
+  },
+  "shortcut_enter_pip": {
+    "message": "Vaihda kuva kuvassa -tilaan pääsivulta"
+  },
+  "mute": {
+    "message": "Mykistä"
+  },
+  "unmute": {
+    "message": "Poista mykistys"
+  },
+  "prev_video": {
+    "message": "Edellinen video"
+  },
+  "next_video": {
+    "message": "Seuraava video"
+  },
+  "playbackRate": {
+    "message": "Toistonopeus"
+  },
+  "subtitles": {
+    "message": "Tekstitykset"
+  },
+  "close_captions": {
+    "message": "Suljetut tekstitykset"
+  },
+  "danmaku": {
+    "message": "Luotitekstitys"
+  },
+  "fit_to_screen": {
+    "message": "Sovita näyttöön"
+  },
+  "reload_video": {
+    "message": "Lataa video uudelleen"
+  },
+  "loading_pip_config": {
+    "message": "Ladataan kuva kuvassa -tilan asetuksia..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Toistetaan kuva kuvassa -tilassa"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Tunnistetaan kuva kuvassa -tilan tekstityksen asetuksia..."
+  },
+  "video_not_detected": {
+    "message": "Videota ei havaittu. Se ei ehkä ole vielä valmis. Jos sivulla on video, napsauta toista ja yritä uudelleen."
+  },
+  "pip_window_restriction": {
+    "message": "Edistynyt kuva kuvassa -ikkuna voidaan avata vain pääsivulta, eikä sitä voi käynnistää kehyksistä tai upotetusta sisällöstä. Voit käyttää tavallista kuva kuvassa -tilaa tai avata uuden välilehden ja yrittää uudelleen. Huomaa, että video ei välttämättä lataudu oikein uudessa välilehdessä.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Opening a PiP window is only allowed from a top-level browsing context"
+  },
+  "use_standard_pip": {
+    "message": "Käytä tavallista kuva kuvassa -tilaa",
+    "description": "Option to use standard Picture-in-Picture mode"
+  },
+  "open_in_new_tab": {
+    "message": "Avaa uudessa välilehdessä",
+    "description": "Option to open the page in a new tab"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Muista tämän sivuston asetukset (Voit muokata niitä Asetukset - Sivuston asetukset)"
+  },
+  "pip_user_activation_required": {
+    "message": "Kuva kuvassa -tila vaatii käyttäjän vuorovaikutusta. Napsauta tai ole vuorovaikutuksessa sivun kanssa ja yritä uudelleen.",
+    "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Document PiP requires user activation"
+  },
+  "retry_action": {
+    "message": "Yritä uudelleen"
   }
 }

@@ -241,5 +241,6 @@
   "shortName": "简称",
   "expandIcons": "展开图标",
   "expandList": "展开列表",
-  "openAllUrls": "打开所有网址"
+  "openAllUrls": "打开所有网址",
+  "switchPIP": "切换画中画"
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "உள் அமைப்புகள்"
+  },
+  "switchPIP": {
+    "message": "படத்தை-படத்தில் மாற்றவும்"
+  },
+  "play": {
+    "message": "விளையாடு"
+  },
+  "pause": {
+    "message": "இடைநிறுத்து"
+  },
+  "shortcut_play_pause": {
+    "message": "வீடியோவை இயக்கு/இடைநிறுத்து"
+  },
+  "shortcut_adjust_volume": {
+    "message": "ஒலி அளவை சரிசெய்"
+  },
+  "shortcut_mute_unmute": {
+    "message": "வீடியோவை ஒலியடக்கு/ஒலி இயக்கு"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "வீடியோவை 5 வினாடிகள் முன்னோக்கி/பின்னோக்கி செல்"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "வீடியோவை 10 வினாடிகள் முன்னோக்கி/பின்னோக்கி செல்"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "வீடியோவை முன்னோக்கி/பின்னோக்கி செல்"
+  },
+  "shortcut_next_video": {
+    "message": "அடுத்த வீடியோவை இயக்கு"
+  },
+  "shortcut_previous_video": {
+    "message": "முந்தைய வீடியோவை இயக்கு"
+  },
+  "shortcut_toggle_captions": {
+    "message": "விளக்கவுரைகளை காட்டு/மறை"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "புல்லட் உரையாடலை காட்டு/மறை"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "முழுத்திரையை மாற்று"
+  },
+  "shortcut_playback_speed": {
+    "message": "இயக்க வேகத்தை சரிசெய்"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "வீடியோவின் தொடக்கம்/முடிவுக்கு செல்"
+  },
+  "shortcut_seek_percentage": {
+    "message": "வீடியோவின் சதவீதத்திற்கு செல்"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "வீடியோ அளவுக்கு சாளரத்தை சரிசெய்"
+  },
+  "shortcut_exit_pip": {
+    "message": "படத்தில்-படம் முறையிலிருந்து வெளியேறு"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "வீடியோவை மறை/காட்டு மற்றும் இயக்கு/இடைநிறுத்து"
+  },
+  "shortcut_enter_pip": {
+    "message": "முதன்மை பக்கத்திலிருந்து படத்தில்-படம் முறையை மாற்று"
+  },
+  "mute": {
+    "message": "ஒலியடக்கு"
+  },
+  "unmute": {
+    "message": "மௌனத்தை நீக்கவும்"
+  },
+  "prev_video": {
+    "message": "முந்தைய வீடியோ"
+  },
+  "next_video": {
+    "message": "அடுத்த வீடியோ"
+  },
+  "playbackRate": {
+    "message": "வீடியோ வேகம்"
+  },
+  "subtitles": {
+    "message": "துணை உரைகள்"
+  },
+  "close_captions": {
+    "message": "மூடிய விளக்கங்கள்"
+  },
+  "danmaku": {
+    "message": "புல்லட் உரையாடல்"
+  },
+  "fit_to_screen": {
+    "message": "திரைக்கு பொருத்தவும்"
+  },
+  "reload_video": {
+    "message": "வீடியோவை மீண்டும் ஏற்று"
+  },
+  "loading_pip_config": {
+    "message": "படத்தை-படத்தில் உள்ளமைவுகளை ஏற்றுகிறது..."
+  },
+  "playing_in_pip_mode": {
+    "message": "படத்தை-படத்தில் முறையில் விளையாடுகிறது"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "படத்தை-படத்தில் துணை உரை அமைப்புகளை கண்டறிகிறது..."
+  },
+  "video_not_detected": {
+    "message": "வீடியோ கண்டறியப்படவில்லை. இது இன்னும் தயாராக இருக்கக்கூடும். பக்கத்தில் வீடியோ இருந்தால், விளையாட்டு பொத்தானை அழுத்தி மீண்டும் முயற்சிக்கவும்."
+  },
+  "pip_window_restriction": {
+    "message": "மேம்பட்ட படத்தை-படத்தில் சாளரம் முக்கிய பக்கத்திலிருந்து மட்டுமே திறக்க முடியும் மற்றும் ஃப்ரேம்கள் அல்லது உட்பொதிக்கப்பட்ட உள்ளடக்கத்திலிருந்து துவங்க முடியாது. நீங்கள் நிலையான படத்தை-படத்தில் முறையைப் பயன்படுத்தலாம் அல்லது புதிய தாவலில் திறக்க முயற்சிக்கலாம். புதிய தாவலில் வீடியோ சரியாக ஏற்றப்படாது என்பதை நினைவில் கொள்ளவும்.",
+    "description": "'DocumentPictureInPicture' இல் 'requestWindow' ஐ செயல்படுத்த முடியவில்லை: PiP சாளரத்தை திறக்க அனுமதிக்கப்படுவது மேல்நிலை உலாவல் சூழலிலிருந்து மட்டுமே"
+  },
+  "use_standard_pip": {
+    "message": "நிலையான PiP ஐப் பயன்படுத்தவும்",
+    "description": "நிலையான படத்தை-படத்தில் முறையைப் பயன்படுத்தும் விருப்பம்"
+  },
+  "open_in_new_tab": {
+    "message": "புதிய தாவலில் திறக்கவும்",
+    "description": "பக்கத்தை புதிய தாவலில் திறக்கும் விருப்பம்"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "இந்த தளத்தின் அமைப்புகளை நினைவில் கொள்ளவும் (நீங்கள் விருப்பங்களில் - தள அமைப்புகளில் அதை மாற்றலாம்)"
+  },
+  "pip_user_activation_required": {
+    "message": "படத்தை-படத்தில் முறை பயனர் தொடர்பு தேவை. தயவுசெய்து பக்கத்தை கிளிக் செய்யவும் அல்லது தொடர்பு கொள்ளவும் மற்றும் மீண்டும் முயற்சிக்கவும்.",
+    "description": "'DocumentPictureInPicture' இல் 'requestWindow' ஐ செயல்படுத்த முடியவில்லை: Document PiP பயனர் செயல்பாட்டை தேவைப்படுகிறது"
+  },
+  "retry_action": {
+    "message": "மீண்டும் முயற்சிக்கவும்"
   }
 }

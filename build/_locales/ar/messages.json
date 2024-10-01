@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "الأنظمة الداخلية"
+  },
+  "switchPIP": {
+    "message": "تبديل صورة داخل صورة"
+  },
+  "play": {
+    "message": "تشغيل"
+  },
+  "pause": {
+    "message": "إيقاف مؤقت"
+  },
+  "shortcut_play_pause": {
+    "message": "تشغيل/إيقاف مؤقت للفيديو"
+  },
+  "shortcut_adjust_volume": {
+    "message": "ضبط مستوى الصوت"
+  },
+  "shortcut_mute_unmute": {
+    "message": "كتم/إلغاء كتم صوت الفيديو"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "تقديم سريع/إرجاع الفيديو 5 ثوانٍ"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "تقديم سريع/إرجاع الفيديو 10 ثوانٍ"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "تقديم سريع/إرجاع الفيديو"
+  },
+  "shortcut_next_video": {
+    "message": "تشغيل الفيديو التالي"
+  },
+  "shortcut_previous_video": {
+    "message": "تشغيل الفيديو السابق"
+  },
+  "shortcut_toggle_captions": {
+    "message": "إظهار/إخفاء الترجمات"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "إظهار/إخفاء الدردشة بالرصاص"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "تبديل ملء الشاشة"
+  },
+  "shortcut_playback_speed": {
+    "message": "ضبط سرعة التشغيل"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "الانتقال إلى بداية/نهاية الفيديو"
+  },
+  "shortcut_seek_percentage": {
+    "message": "الانتقال إلى نسبة مئوية من الفيديو"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "ضبط النافذة لتناسب حجم الفيديو"
+  },
+  "shortcut_exit_pip": {
+    "message": "الخروج من وضع صورة داخل صورة"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "تبديل إخفاء/إظهار الفيديو والتشغيل/الإيقاف المؤقت"
+  },
+  "shortcut_enter_pip": {
+    "message": "تبديل وضع صورة داخل صورة من الصفحة الرئيسية"
+  },
+  "mute": {
+    "message": "كتم الصوت"
+  },
+  "unmute": {
+    "message": "إلغاء كتم الصوت"
+  },
+  "prev_video": {
+    "message": "الفيديو السابق"
+  },
+  "next_video": {
+    "message": "الفيديو التالي"
+  },
+  "playbackRate": {
+    "message": "سرعة التشغيل"
+  },
+  "subtitles": {
+    "message": "الترجمة"
+  },
+  "close_captions": {
+    "message": "الترجمة المغلقة"
+  },
+  "danmaku": {
+    "message": "الدردشة بالرصاص"
+  },
+  "fit_to_screen": {
+    "message": "ملاءمة الشاشة"
+  },
+  "reload_video": {
+    "message": "إعادة تحميل الفيديو"
+  },
+  "loading_pip_config": {
+    "message": "جارٍ تحميل إعدادات صورة داخل صورة..."
+  },
+  "playing_in_pip_mode": {
+    "message": "التشغيل في وضع صورة داخل صورة"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "جارٍ اكتشاف إعدادات الترجمة لصورة داخل صورة..."
+  },
+  "video_not_detected": {
+    "message": "لم يتم اكتشاف الفيديو. قد لا يكون جاهزًا بعد. إذا كان هناك فيديو على الصفحة، يرجى النقر على التشغيل والمحاولة مرة أخرى."
+  },
+  "pip_window_restriction": {
+    "message": "يمكن فتح نافذة صورة داخل صورة المتقدمة فقط من الصفحة الرئيسية ولا يمكن تشغيلها من الإطارات أو المحتوى المضمن. يمكنك استخدام وضع صورة داخل صورة القياسي أو الفتح في علامة تبويب جديدة لإعادة المحاولة. لاحظ أن الفيديو قد لا يتم تحميله بشكل صحيح في علامة تبويب جديدة.",
+    "description": "فشل في تنفيذ 'requestWindow' على 'DocumentPictureInPicture': يُسمح بفتح نافذة PiP فقط من سياق التصفح العلوي"
+  },
+  "use_standard_pip": {
+    "message": "استخدام وضع صورة داخل صورة القياسي",
+    "description": "خيار لاستخدام وضع صورة داخل صورة القياسي"
+  },
+  "open_in_new_tab": {
+    "message": "فتح في علامة تبويب جديدة",
+    "description": "خيار لفتح الصفحة في علامة تبويب جديدة"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "تذكر إعدادات هذا الموقع (يمكنك تعديلها في الخيارات - إعدادات الموقع)"
+  },
+  "pip_user_activation_required": {
+    "message": "يتطلب وضع صورة داخل صورة تفاعل المستخدم. يرجى النقر أو التفاعل مع الصفحة والمحاولة مرة أخرى.",
+    "description": "فشل في تنفيذ 'requestWindow' على 'DocumentPictureInPicture': يتطلب Document PiP تفعيل المستخدم"
+  },
+  "retry_action": {
+    "message": "حاول مرة أخرى"
   }
 }

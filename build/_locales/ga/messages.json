@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Córais Inmheánacha"
+  },
+  "switchPIP": {
+    "message": "Athraigh Pictiúr-i-bPictiúr"
+  },
+  "play": {
+    "message": "Seinn"
+  },
+  "pause": {
+    "message": "Paus"
+  },
+  "shortcut_play_pause": {
+    "message": "Seinn/Sos físeán"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Coigeartaigh toirt"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Ciúnaigh/Dí-ciúnaigh físeán"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Cuir ar aghaidh/Scoilte físeán 5 soicind"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Cuir ar aghaidh/Scoilte físeán 10 soicind"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Cuir ar aghaidh/Scoilte físeán"
+  },
+  "shortcut_next_video": {
+    "message": "Seinn an chéad fhíseán eile"
+  },
+  "shortcut_previous_video": {
+    "message": "Seinn an físeán roimhe seo"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Taispeáin/Folaigh fotheidil"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Taispeáin/Folaigh comhrá bullet"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Athraigh lánscáileán"
+  },
+  "shortcut_playback_speed": {
+    "message": "Coigeartaigh luas seinnte"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Lorg tús/deireadh an fhíseáin"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Lorg céatadán den fhíseán"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Coigeartaigh fuinneog chun méid an fhíseáin a fheistiú"
+  },
+  "shortcut_exit_pip": {
+    "message": "Scoir Pictiúr-i-bPictiúr"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Athraigh folaigh/taispeáin físeán agus seinn/sos"
+  },
+  "shortcut_enter_pip": {
+    "message": "Athraigh Pictiúr-i-bPictiúr ón bpríomhleathanach"
+  },
+  "mute": {
+    "message": "Ciúnaigh"
+  },
+  "unmute": {
+    "message": "Dí-ciúin"
+  },
+  "prev_video": {
+    "message": "Físeán Roimhe Seo"
+  },
+  "next_video": {
+    "message": "Físeán Ar Aghaidh"
+  },
+  "playbackRate": {
+    "message": "Luas Seinnte"
+  },
+  "subtitles": {
+    "message": "Fo-theidil"
+  },
+  "close_captions": {
+    "message": "Fotheideal Dúnta"
+  },
+  "danmaku": {
+    "message": "Comhrá Bullet"
+  },
+  "fit_to_screen": {
+    "message": "Oiriúnach don Scáileán"
+  },
+  "reload_video": {
+    "message": "Athlódáil Físeán"
+  },
+  "loading_pip_config": {
+    "message": "Ag Lódáil Cumraíochtaí Pictiúr-i-bPictiúr an Doiciméid..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Ag Seinn i Mód Pictiúr-i-bPictiúr an Doiciméid"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Ag Brath Socruithe Fo-theidil Pictiúr-i-bPictiúr..."
+  },
+  "video_not_detected": {
+    "message": "Níor aimsíodh físeán. B'fhéidir nach bhfuil sé réidh fós. Má tá físeán ar an leathanach, cliceáil le do thoil seinn agus bain triail eile as."
+  },
+  "pip_window_restriction": {
+    "message": "Ní féidir fuinneog Pictiúr-i-bPictiúr Ardleibhéil a oscailt ach ón bpríomhleathanach agus ní féidir í a sheoladh ó fhrámaí nó ábhar leabaithe. Is féidir leat mód caighdeánach Pictiúr-i-bPictiúr a úsáid nó oscailt i gcluaisín nua chun triail eile a bhaint as. Tabhair faoi deara nach bhféadfadh an físeán lódáil i gceart i gcluaisín nua.",
+    "description": "Theip ar 'requestWindow' a fhorghníomhú ar 'DocumentPictureInPicture': Ní cheadaítear fuinneog PiP a oscailt ach ó chomhthéacs brabhsála ar leibhéal barr"
+  },
+  "use_standard_pip": {
+    "message": "Úsáid PiP caighdeánach",
+    "description": "Rogha chun mód caighdeánach Pictiúr-i-bPictiúr a úsáid"
+  },
+  "open_in_new_tab": {
+    "message": "Oscail i gcluaisín nua",
+    "description": "Rogha chun an leathanach a oscailt i gcluaisín nua"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Cuimhnigh ar shocruithe an tsuímh seo (Is féidir leat é a mhodhnú i Roghanna - Socruithe Suímh)"
+  },
+  "pip_user_activation_required": {
+    "message": "Éilíonn mód Pictiúr-i-bPictiúr idirghníomhaíocht úsáideora. Cliceáil nó idirghníomhaigh leis an leathanach agus bain triail eile as.",
+    "description": "Theip ar 'requestWindow' a fhorghníomhú ar 'DocumentPictureInPicture': Éilíonn PiP an Doiciméid gníomhachtú úsáideora"
+  },
+  "retry_action": {
+    "message": "Bain Triail Eile As"
   }
 }

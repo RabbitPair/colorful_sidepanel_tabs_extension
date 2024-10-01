@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Belső rendszerek"
+  },
+  "switchPIP": {
+    "message": "Kapcsolás kép a képben módra"
+  },
+  "play": {
+    "message": "Lejátszás"
+  },
+  "pause": {
+    "message": "Szünet"
+  },
+  "shortcut_play_pause": {
+    "message": "Lejátszás/Szünet videó"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Hangerő beállítása"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Némítás/Némítás feloldása videó"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Gyors előretekerés/Visszatekerés videó 5 másodperc"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Gyors előretekerés/Visszatekerés videó 10 másodperc"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Gyors előretekerés/Visszatekerés videó"
+  },
+  "shortcut_next_video": {
+    "message": "Következő videó lejátszása"
+  },
+  "shortcut_previous_video": {
+    "message": "Előző videó lejátszása"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Feliratok megjelenítése/Elrejtése"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Golyó csevegés megjelenítése/elrejtése"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Teljes képernyőre váltás"
+  },
+  "shortcut_playback_speed": {
+    "message": "Lejátszási sebesség beállítása"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Ugrás a videó elejére/végére"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Ugrás a videó százalékos arányához"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Ablak méretének beállítása a videó méretéhez"
+  },
+  "shortcut_exit_pip": {
+    "message": "Kilépés a kép a képben módból"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Videó elrejtése/megmutatása és lejátszás/szünet"
+  },
+  "shortcut_enter_pip": {
+    "message": "Kép a képben mód váltása a főoldalról"
+  },
+  "mute": {
+    "message": "Némítás"
+  },
+  "unmute": {
+    "message": "Némítás feloldása"
+  },
+  "prev_video": {
+    "message": "Előző videó"
+  },
+  "next_video": {
+    "message": "Következő videó"
+  },
+  "playbackRate": {
+    "message": "Lejátszási sebesség"
+  },
+  "subtitles": {
+    "message": "Feliratok"
+  },
+  "close_captions": {
+    "message": "Zárt feliratok"
+  },
+  "danmaku": {
+    "message": "Golyó csevegés"
+  },
+  "fit_to_screen": {
+    "message": "Illesztés a képernyőhöz"
+  },
+  "reload_video": {
+    "message": "Videó újratöltése"
+  },
+  "loading_pip_config": {
+    "message": "Kép a képben mód konfigurációinak betöltése..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Lejátszás kép a képben módban"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Kép a képben mód felirat beállításainak észlelése..."
+  },
+  "video_not_detected": {
+    "message": "Videó nem észlelhető. Lehet, hogy még nem áll készen. Ha van videó az oldalon, kérjük, kattintson a lejátszásra, és próbálja újra."
+  },
+  "pip_window_restriction": {
+    "message": "A fejlett kép a képben ablak csak a főoldalról nyitható meg, és nem indítható keretekből vagy beágyazott tartalomból. Használhatja a szabványos kép a képben módot, vagy új lapon nyithatja meg az újrapróbálkozáshoz. Vegye figyelembe, hogy a videó nem biztos, hogy megfelelően töltődik be egy új lapon.",
+    "description": "Nem sikerült végrehajtani a 'requestWindow' parancsot a 'DocumentPictureInPicture' elemen: A PiP ablak megnyitása csak felső szintű böngészési kontextusból engedélyezett"
+  },
+  "use_standard_pip": {
+    "message": "Szabványos PiP használata",
+    "description": "Lehetőség a szabványos kép a képben mód használatára"
+  },
+  "open_in_new_tab": {
+    "message": "Megnyitás új lapon",
+    "description": "Lehetőség az oldal megnyitására új lapon"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Emlékezzen erre az oldal beállításaira (A beállításokat módosíthatja az Opciók - Webhely beállítások menüben)"
+  },
+  "pip_user_activation_required": {
+    "message": "A kép a képben mód felhasználói interakciót igényel. Kérjük, kattintson vagy lépjen kapcsolatba az oldallal, majd próbálja újra.",
+    "description": "Nem sikerült végrehajtani a 'requestWindow' parancsot a 'DocumentPictureInPicture' elemen: A dokumentum PiP felhasználói aktiválást igényel"
+  },
+  "retry_action": {
+    "message": "Próbálja újra"
   }
 }

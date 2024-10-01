@@ -136,6 +136,7 @@
         "sortBy": "Sort By",
         "createTabPanel": "Create Tab Panel",
         "tabPanels": "Tab Panels",
+        "switchPIP": "Switch Picture-in-Picture",
         "pinToToolbarReminder": "Please pin the extension to your toolbar before removing this navigation."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "This page is for display only. To modify shortcuts, please visit [Extensions]->[Manage Extensions]->[Keyboard Shortcuts]",
       "goToBrowserSettings": "Go to settings",
       "_execute_action": "Activate this extension",
-      "openSidePanel": "Open side panel"
+      "openSidePanel": "Open side panel",
+      "switchPIP": "Switch Picture-in-Picture"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Picture-in-picture",
@@ -392,6 +394,22 @@
         "description": "If the current page is playing a video and the video is not muted and the video is out of the visible range when scrolling, it will enter picture-in-picture.",
         "enabled": "Enabled",
         "disabled": "Disabled"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Picture-in-Picture on Tab Switch without Opening Side Panel",
+        "description": "If the current page is playing a video and the video is not muted, enable auto Picture-in-Picture on tab switch without opening the side panel. Note that this feature **requires user activation** (e.g., clicking the mouse on a blank area of the page)."
+      },
+      "advancedPipEnable": {
+        "label": "Enable Advanced Picture-in-Picture",
+        "description": "When enabled, Advanced Picture-in-Picture will be prioritized. If the page does not support it, regular Picture-in-Picture will be used.\nAdvanced Picture-in-Picture utilizes a custom video player, offering features such as:\n * Play/Pause video (Space)\n * Adjust volume (Up/Down Arrow)\n * Mute/Unmute video\n * Fast forward/Rewind video (Left/Right Arrow or Mouse Wheel)\n * Play the next video\n * Display subtitles (supported on some websites, e.g., youtube.com, vimeo.com, tver.jp, etc.)\n * Display barrage (supported on some websites, e.g., nicovideo.jp, bilibili.com, etc.)\n * Exit Picture-in-Picture (Esc)\n * Toggle hide/show video and play/pause (Q)\n >If the websites you frequently visit support subtitles or barrage, you can submit an [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), and we will adapt it as soon as possible. Note that some websites may have regional restrictions, and you may need to provide additional information."
+      },
+      "subtitleDetection": {
+        "label": "Enable Subtitle Detection",
+        "description": "If the current site does not have a Picture-in-Picture configuration, allow the program to try to automatically detect subtitle elements and add them to the Picture-in-Picture player. This is an unstable feature and may not always detect the correct subtitle elements. If you are a professional, you can add subtitle element configurations in the site settings."
+      },
+      "continuousPlayback": {
+        "label": "Enable Continuous Playback",
+        "description": "Continuous playback: The Picture-in-Picture window does not close and automatically plays the next episode after the video ends. This feature requires website support."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Font color",
         "description": "Set the font color for this site."
+      },
+      "pipRestrictionAction": {
+        "label": "Picture-in-Picture Restriction Action",
+        "description": "Advanced Picture-in-Picture window can only be opened from the main page and cannot be launched from frames or embedded content. You can use standard Picture-in-Picture mode or open in a new tab to retry. Note that the video may not load properly in a new tab.",
+        "default": "Default",
+        "use_standard_pip": "Use standard Picture-in-Picture",
+        "open_in_new_tab": "Open in new tab"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Auto-enter Picture-in-Picture",
+        "description": "Automatically enter Picture-in-Picture mode when a video is present upon entering the page. Due to system limitations, this requires user interaction with the page."
+      },
+      "captionSetting": {
+        "label": "Caption Settings",
+        "description": "Configure the CSS selectors for the caption element and its parent on the page. The CSS selector for the caption element is used to display captions in the player, while the parent selector is used to return the captions to the original page when exiting Picture-in-Picture mode.",
+        "configure": "Configure",
+        "selectorDesc": "Common selectors include: '.class' for class selectors, '#id' for ID selectors, 'tag' for tag selectors, and '[attribute=value]' for attribute selectors. For more details, visit: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS selectors for the caption element",
+        "captionParentSelectorDesc": "CSS selectors for the parent of the caption element"
       }
     },
     "quickAccess": {

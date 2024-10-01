@@ -136,6 +136,7 @@
         "sortBy": "Ordena per",
         "createTabPanel": "Crea un panell de pestanyes",
         "tabPanels": "Panells de pestanyes",
+        "switchPIP": "Canvia a imatge dins d'imatge",
         "pinToToolbarReminder": "Si us plau, fixa l'extensió a la barra d'eines abans d'eliminar aquesta navegació."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Aquesta pàgina és només per a visualització. Per modificar les dreceres, si us plau, visita [Extensions]->[Gestiona extensions]->[Dreceres de teclat]",
       "goToBrowserSettings": "Anar a la configuració del navegador",
       "_execute_action": "Activa aquesta extensió",
-      "openSidePanel": "Obre el panell lateral"
+      "openSidePanel": "Obre el panell lateral",
+      "switchPIP": "Canvia a imatge en imatge"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Imatge en imatge",
@@ -392,6 +394,22 @@
         "description": "Si la pàgina actual està reproduint un vídeo i el vídeo no està silenciat i el vídeo està fora de la gamma visible en fer scroll, entrarà en imatge en imatge.",
         "enabled": "Habilitat",
         "disabled": "Deshabilitat"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Imatge en imatge automàtica en canviar de pestanya sense obrir el panell lateral",
+        "description": "Si la pàgina actual està reproduint un vídeo i el vídeo no està silenciat, habilita la imatge en imatge automàtica en canviar de pestanya sense obrir el panell lateral. Tingues en compte que aquesta funció **requereix l'activació de l'usuari** (per exemple, fent clic amb el ratolí en una àrea en blanc de la pàgina)."
+      },
+      "advancedPipEnable": {
+        "label": "Habilita la imatge en imatge avançada",
+        "description": "Quan està habilitat, es prioritzarà la imatge en imatge avançada. Si la pàgina no la suporta, s'utilitzarà la imatge en imatge regular.\nLa imatge en imatge avançada utilitza un reproductor de vídeo personalitzat, oferint funcions com:\n * Reproduir/Pausar vídeo (Espai)\n * Ajustar el volum (Fletxa amunt/avall)\n * Silenciar/Activar el so del vídeo\n * Avançar/Rebobinar vídeo (Fletxa esquerra/dreta o roda del ratolí)\n * Reproduir el següent vídeo\n * Mostrar subtítols (compatible amb alguns llocs web, per exemple, youtube.com, vimeo.com, tver.jp, etc.)\n * Mostrar comentaris (compatible amb alguns llocs web, per exemple, nicovideo.jp, bilibili.com, etc.)\n * Sortir de la imatge en imatge (Esc)\n * Alternar amagar/mostrar vídeo i reproduir/pausar (Q)\n >Si els llocs web que visites freqüentment suporten subtítols o comentaris, pots enviar un [problema: Imatge en imatge avançada](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), i l'adaptarem tan aviat com sigui possible. Tingues en compte que alguns llocs web poden tenir restriccions regionals, i potser hauràs de proporcionar informació addicional."
+      },
+      "subtitleDetection": {
+        "label": "Habilita la detecció de subtítols",
+        "description": "Si el lloc actual no té una configuració de imatge en imatge, permet que el programa intenti detectar automàticament els elements de subtítols i els afegeixi al reproductor de imatge en imatge. Aquesta és una funció inestable i pot no detectar sempre els elements de subtítols correctes. Si ets un professional, pots afegir configuracions d'elements de subtítols a la configuració del lloc."
+      },
+      "continuousPlayback": {
+        "label": "Habilita la reproducció contínua",
+        "description": "Reproducció contínua: La finestra de imatge en imatge no es tanca i reprodueix automàticament el següent episodi després que el vídeo acabi. Aquesta funció requereix suport del lloc web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Color de la font",
         "description": "Establiu el color de la font per a aquest lloc."
+      },
+      "pipRestrictionAction": {
+        "label": "Acció de restricció de Picture-in-Picture",
+        "description": "La finestra avançada de Picture-in-Picture només es pot obrir des de la pàgina principal i no es pot llançar des de marcs o contingut incrustat. Podeu utilitzar el mode estàndard de Picture-in-Picture o obrir en una nova pestanya per tornar-ho a provar. Tingueu en compte que el vídeo pot no carregar-se correctament en una nova pestanya.",
+        "default": "Per defecte",
+        "use_standard_pip": "Utilitza Picture-in-Picture estàndard",
+        "open_in_new_tab": "Obre en una nova pestanya"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Entrada automàtica a Picture-in-Picture",
+        "description": "Entra automàticament en mode Picture-in-Picture quan hi ha un vídeo present en entrar a la pàgina. A causa de les limitacions del sistema, això requereix interacció de l'usuari amb la pàgina."
+      },
+      "captionSetting": {
+        "label": "Configuració de subtítols",
+        "description": "Configureu els selectors CSS per a l'element de subtítols i el seu pare a la pàgina. El selector CSS per a l'element de subtítols s'utilitza per mostrar subtítols al reproductor, mentre que el selector del pare s'utilitza per tornar els subtítols a la pàgina original en sortir del mode Picture-in-Picture.",
+        "configure": "Configurar",
+        "selectorDesc": "Els selectors comuns inclouen: '.class' per a selectors de classe, '#id' per a selectors d'ID, 'tag' per a selectors de etiqueta, i '[attribute=value]' per a selectors d'atributs. Per a més detalls, visiteu: [Selectors CSS - CSS: Fulls d'estil en cascada - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Selectors CSS per a l'element de subtítols",
+        "captionParentSelectorDesc": "Selectors CSS per al pare de l'element de subtítols"
       }
     },
     "quickAccess": {

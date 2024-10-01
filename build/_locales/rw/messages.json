@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sisitemu z'imbere"
+  },
+  "switchPIP": {
+    "message": "Hindura Ifoto-mu-Ifoto"
+  },
+  "play": {
+    "message": "Gukina"
+  },
+  "pause": {
+    "message": "Guhagarika"
+  },
+  "shortcut_play_pause": {
+    "message": "Gukina/Guhagarika video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Hindura urusaku"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Kuzimya/Gusubizaho urusaku video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Kwiruka imbere/Gusubira inyuma video amasegonda 5"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Kwiruka imbere/Gusubira inyuma video amasegonda 10"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Kwiruka imbere/Gusubira inyuma video"
+  },
+  "shortcut_next_video": {
+    "message": "Gukina video ikurikira"
+  },
+  "shortcut_previous_video": {
+    "message": "Gukina video yabanje"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Kwerekana/Guhisha ibisobanuro"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Kwerekana/Guhisha ibitekerezo"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Hindura kuri ecran yuzuye"
+  },
+  "shortcut_playback_speed": {
+    "message": "Hindura umuvuduko wo gukina"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Shaka intangiriro/iherezo rya video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Shaka ku kigero cya video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Hindura idirishya rikwiranye n'ubunini bwa video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Sohoka mu Ifoto-mu-Ifoto"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Hindura guhisha/kwerekana video no gukina/guhagarika"
+  },
+  "shortcut_enter_pip": {
+    "message": "Hindura Ifoto-mu-Ifoto kuva ku ipaji nyamukuru"
+  },
+  "mute": {
+    "message": "Kuzimya urusaku"
+  },
+  "unmute": {
+    "message": "Kuzimya"
+  },
+  "prev_video": {
+    "message": "Video Yabanje"
+  },
+  "next_video": {
+    "message": "Video Ikurikira"
+  },
+  "playbackRate": {
+    "message": "Umuvuduko wo Gukina"
+  },
+  "subtitles": {
+    "message": "Usubirizo"
+  },
+  "close_captions": {
+    "message": "Ibisobanuro Bifunze"
+  },
+  "danmaku": {
+    "message": "Kuganira mu Ifoto"
+  },
+  "fit_to_screen": {
+    "message": "Bikwiranye na Ekrani"
+  },
+  "reload_video": {
+    "message": "Subiramo Video"
+  },
+  "loading_pip_config": {
+    "message": "Gupakira Ibyifoto-mu-Ifoto Byanditse..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Gukina mu Ifoto-mu-Ifoto"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Gusuzuma Ibyifoto-mu-Ifoto Byanditse..."
+  },
+  "video_not_detected": {
+    "message": "Video ntiyabonetse. Ishobora kuba itariteguye. Niba hari video ku ipaji, nyamuneka kanda gukina hanyuma ugerageze kongera."
+  },
+  "pip_window_restriction": {
+    "message": "Icyumba cya Ifoto-mu-Ifoto Gikomeye gishobora gufungurwa gusa ku ipaji nyamukuru kandi ntigishobora gutangizwa mu miterere cyangwa ibikubiyemo. Urashobora gukoresha uburyo busanzwe bwa Ifoto-mu-Ifoto cyangwa gufungura mu ikarita nshya kugirango ugerageze kongera. Nyamuneka menya ko video ishobora kutaboneka neza mu ikarita nshya.",
+    "description": "Byanze gukora 'requestWindow' kuri 'DocumentPictureInPicture': Gufungura icyumba cya PiP byemewe gusa mu rwego rwo hejuru rwo kugenzura"
+  },
+  "use_standard_pip": {
+    "message": "Koresha Ifoto-mu-Ifoto isanzwe",
+    "description": "Amahitamo yo gukoresha uburyo busanzwe bwa Ifoto-mu-Ifoto"
+  },
+  "open_in_new_tab": {
+    "message": "Fungura mu ikarita nshya",
+    "description": "Amahitamo yo gufungura ipaji mu ikarita nshya"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Ibuka amahitamo y'uru rubuga (Urashobora kubihindura muri Amahitamo - Ibyifoto-mu-Ifoto)"
+  },
+  "pip_user_activation_required": {
+    "message": "Uburyo bwa Ifoto-mu-Ifoto busaba gukorana n'umukoresha. Nyamuneka kanda cyangwa ukorane n'ipaji hanyuma ugerageze kongera.",
+    "description": "Byanze gukora 'requestWindow' kuri 'DocumentPictureInPicture': Ifoto-mu-Ifoto isaba gukorana n'umukoresha"
+  },
+  "retry_action": {
+    "message": "Gerageza Kongera"
   }
 }

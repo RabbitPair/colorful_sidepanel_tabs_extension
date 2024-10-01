@@ -228,5 +228,6 @@
   "shortName": "Kratko ime",
   "expandIcons": "Razširi ikone",
   "expandList": "Razširi seznam",
-  "openAllUrls": "Odpri vse URL-je"
+  "openAllUrls": "Odpri vse URL-je",
+  "switchPIP": "Preklopi na sliko v sliki"
 }

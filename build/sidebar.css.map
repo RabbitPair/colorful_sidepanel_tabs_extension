@@ -1,0 +1,1 @@
+{"version":3,"file":"sidebar.css","mappings":"AAAA,KAEE,QAAS,CAET,iBAAkB,CAHlB,SAAU,CAEV,iBAEF","sources":["webpack://rabbitpair_extension/./src/pages/App.css"],"sourcesContent":["body {\r\n  padding: 0;\r\n  margin: 0;\r\n  position: relative;\r\n  overflow-x: hidden;\r\n}\r\n"],"names":[],"sourceRoot":""}

@@ -241,5 +241,6 @@
   "shortName": "Коротка назва",
   "expandIcons": "Розгорнути іконки",
   "expandList": "Розгорнути список",
-  "openAllUrls": "Відкрити всі URL"
+  "openAllUrls": "Відкрити всі URL",
+  "switchPIP": "Переключити режим «Картинка в картинці»"
 }

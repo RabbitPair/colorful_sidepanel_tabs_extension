@@ -241,5 +241,6 @@
   "shortName": "Lyhyt nimi",
   "expandIcons": "Laajenna kuvakkeet",
   "expandList": "Laajenna luettelo",
-  "openAllUrls": "Avaa kaikki URL-osoitteet"
+  "openAllUrls": "Avaa kaikki URL-osoitteet",
+  "switchPIP": "Vaihda kuva kuvassa -tilaan"
 }

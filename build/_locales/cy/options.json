@@ -136,6 +136,7 @@
         "sortBy": "Trefnu Yn ôl",
         "createTabPanel": "Creu Panel Tab",
         "tabPanels": "Paneli Tab",
+        "switchPIP": "Newid Llun-mewn-Llun",
         "pinToToolbarReminder": "Rhowch y estyniad ar eich bar offer cyn tynnu'r llywio hwn."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Mae'r dudalen hon ar gyfer dangos yn unig. I newid llwybrau byr, ewch i [Estyniadau]->[Rheoli Estyniadau]->[Llychau Allweddol]",
       "goToBrowserSettings": "Mynd i osodiadau",
       "_execute_action": "Gweithredu'r estyniad hwn",
-      "openSidePanel": "Agorwch y panel ochr"
+      "openSidePanel": "Agorwch y panel ochr",
+      "switchPIP": "Newid Delwedd o fewn Delwedd"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Delwedd o fewn delwedd",
@@ -392,6 +394,22 @@
         "description": "Os yw'r dudalen bresennol yn chwarae fideo ac nid yw'r fideo wedi'i dawelu ac mae'r fideo y tu allan i'r amrediad gweledol wrth sgrolio, bydd yn mynd i mewn i delwedd o fewn delwedd.",
         "enabled": "Wedi'i alluogi",
         "disabled": "Wedi'i analluogi"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Delwedd o fewn delwedd awtomatig wrth newid tab heb agor y panel ochr",
+        "description": "Os yw'r dudalen bresennol yn chwarae fideo ac nid yw'r fideo wedi'i dawelu, galluogwch Delwedd o fewn delwedd awtomatig wrth newid tab heb agor y panel ochr. Sylwch fod angen **gweithredu'r defnyddiwr** ar y nodwedd hon (e.e., clicio'r llygoden ar ardal wag o'r dudalen)."
+      },
+      "advancedPipEnable": {
+        "label": "Galluogi Delwedd o fewn delwedd Uwch",
+        "description": "Pan fydd wedi'i alluogi, bydd Delwedd o fewn delwedd Uwch yn cael blaenoriaeth. Os nad yw'r dudalen yn ei gefnogi, bydd Delwedd o fewn delwedd rheolaidd yn cael ei ddefnyddio.\nMae Delwedd o fewn delwedd Uwch yn defnyddio chwaraewr fideo personol, gan gynnig nodweddion fel:\n * Chwarae/Oedi fideo (Space)\n * Addasu cyfaint (Saeth i fyny/i lawr)\n * Tawelu/Datgloi fideo\n * Cyflymu/Atal fideo (Saeth i'r chwith/i'r dde neu Olwyn Llygoden)\n * Chwarae'r fideo nesaf\n * Dangos is-deitlau (cefnogir ar rai gwefannau, e.e., youtube.com, vimeo.com, tver.jp, ac ati)\n * Dangos barage (cefnogir ar rai gwefannau, e.e., nicovideo.jp, bilibili.com, ac ati)\n * Gadael Delwedd o fewn delwedd (Esc)\n * Togglo cuddio/dangos fideo a chwarae/oedi (Q)\n >Os yw'r gwefannau rydych chi'n ymweld â nhw'n aml yn cefnogi is-deitlau neu barage, gallwch gyflwyno [mater: Delwedd o fewn delwedd Uwch](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), a byddwn yn ei addasu cyn gynted â phosibl. Sylwch y gall rhai gwefannau fod â chyfyngiadau rhanbarthol, ac efallai y bydd angen i chi ddarparu gwybodaeth ychwanegol."
+      },
+      "subtitleDetection": {
+        "label": "Galluogi Canfod Is-deitlau",
+        "description": "Os nad oes gan y safle cyfredol ffurfweddiad Delwedd o fewn delwedd, caniatewch i'r rhaglen geisio canfod elfennau is-deitlau yn awtomatig a'u hychwanegu at y chwaraewr Delwedd o fewn delwedd. Mae hon yn nodwedd ansefydlog ac efallai na fydd bob amser yn canfod yr elfennau is-deitlau cywir. Os ydych chi'n broffesiynol, gallwch ychwanegu ffurfweddiadau elfennau is-deitlau yn y gosodiadau safle."
+      },
+      "continuousPlayback": {
+        "label": "Galluogi Chwarae Parhaus",
+        "description": "Chwarae parhaus: Nid yw'r ffenestr Delwedd o fewn delwedd yn cau ac yn chwarae'r bennod nesaf yn awtomatig ar ôl i'r fideo ddod i ben. Mae'r nodwedd hon yn gofyn am gefnogaeth gwefan."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Lliw Ffont",
         "description": "Gosodwch liw ffont ar gyfer y safle hwn."
+      },
+      "pipRestrictionAction": {
+        "label": "Gweithred Cyfyngu Llun-mewn-Llun",
+        "description": "Dim ond o'r brif dudalen y gellir agor ffenestr Llun-mewn-Llun Uwch ac ni ellir ei lansio o fframiau neu gynnwys wedi'i fewnosod. Gallwch ddefnyddio'r modd Llun-mewn-Llun safonol neu agor mewn tab newydd i roi cynnig arall arni. Sylwch efallai na fydd y fideo'n llwytho'n iawn mewn tab newydd.",
+        "default": "Diofyn",
+        "use_standard_pip": "Defnyddio Llun-mewn-Llun safonol",
+        "open_in_new_tab": "Agor mewn tab newydd"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Mynd i mewn i Llun-mewn-Llun yn awtomatig",
+        "description": "Mynd i mewn i'r modd Llun-mewn-Llun yn awtomatig pan fydd fideo'n bresennol wrth fynd i mewn i'r dudalen. Oherwydd cyfyngiadau system, mae hyn yn gofyn am ryngweithio defnyddiwr gyda'r dudalen."
+      },
+      "captionSetting": {
+        "label": "Gosodiadau Is-deitlau",
+        "description": "Ffurfweddwch y detholwyr CSS ar gyfer yr elfen is-deitl a'i rhiant ar y dudalen. Defnyddir y detholwr CSS ar gyfer yr elfen is-deitl i arddangos is-deitlau yn y chwaraewr, tra defnyddir y detholwr rhiant i ddychwelyd yr is-deitlau i'r dudalen wreiddiol wrth adael y modd Llun-mewn-Llun.",
+        "configure": "Ffurfweddu",
+        "selectorDesc": "Mae detholwyr cyffredin yn cynnwys: '.class' ar gyfer detholwyr dosbarth, '#id' ar gyfer detholwyr ID, 'tag' ar gyfer detholwyr tag, a '[attribute=value]' ar gyfer detholwyr priodoledd. Am fwy o fanylion, ewch i: [Detholwyr CSS - CSS: Taflenni Arddullau Caskadu - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Detholwyr CSS ar gyfer yr elfen is-deitl",
+        "captionParentSelectorDesc": "Detholwyr CSS ar gyfer rhiant yr elfen is-deitl"
       }
     },
     "quickAccess": {

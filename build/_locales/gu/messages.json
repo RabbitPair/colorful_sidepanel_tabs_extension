@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "આંતરિક સિસ્ટમ્સ"
+  },
+  "switchPIP": {
+    "message": "પિક્ચર-ઇન-પિક્ચર સ્વિચ કરો"
+  },
+  "play": {
+    "message": "પ્લે"
+  },
+  "pause": {
+    "message": "વિરામ"
+  },
+  "shortcut_play_pause": {
+    "message": "વિડિઓ પ્લે/પોઝ કરો"
+  },
+  "shortcut_adjust_volume": {
+    "message": "વોલ્યુમ સમાયોજિત કરો"
+  },
+  "shortcut_mute_unmute": {
+    "message": "વિડિઓ મ્યૂટ/અનમ્યૂટ કરો"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "વિડિઓ 5 સેકન્ડ ફાસ્ટ ફોરવર્ડ/રીવાઇન્ડ કરો"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "વિડિઓ 10 સેકન્ડ ફાસ્ટ ફોરવર્ડ/રીવાઇન્ડ કરો"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "વિડિઓ ફાસ્ટ ફોરવર્ડ/રીવાઇન્ડ કરો"
+  },
+  "shortcut_next_video": {
+    "message": "આગલું વિડિઓ પ્લે કરો"
+  },
+  "shortcut_previous_video": {
+    "message": "પાછલું વિડિઓ પ્લે કરો"
+  },
+  "shortcut_toggle_captions": {
+    "message": "કૅપ્શન્સ બતાવો/છુપાવો"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "બેરેજ બતાવો/છુપાવો"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "ફુલસ્ક્રીન ટૉગલ કરો"
+  },
+  "shortcut_playback_speed": {
+    "message": "પ્લેબેક ગતિ સમાયોજિત કરો"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "વિડિઓની શરૂઆત/અંત સુધી સીક કરો"
+  },
+  "shortcut_seek_percentage": {
+    "message": "વિડિઓના ટકાવારી સુધી સીક કરો"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "વિડિઓ કદને ફિટ કરવા વિન્ડો સમાયોજિત કરો"
+  },
+  "shortcut_exit_pip": {
+    "message": "પિક્ચર-ઇન-પિક્ચરમાંથી બહાર નીકળો"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "વિડિઓ છુપાવો/બતાવો અને પ્લે/પોઝ કરો"
+  },
+  "shortcut_enter_pip": {
+    "message": "મુખ્ય પૃષ્ઠ પરથી પિક્ચર-ઇન-પિક્ચર ટૉગલ કરો"
+  },
+  "mute": {
+    "message": "મ્યૂટ"
+  },
+  "unmute": {
+    "message": "અનમ્યૂટ"
+  },
+  "prev_video": {
+    "message": "પાછલું વિડિઓ"
+  },
+  "next_video": {
+    "message": "આગલું વિડિઓ"
+  },
+  "playbackRate": {
+    "message": "પ્લેબેક ગતિ"
+  },
+  "subtitles": {
+    "message": "ઉપશીર્ષકો"
+  },
+  "close_captions": {
+    "message": "બંધ કૅપ્શન્સ"
+  },
+  "danmaku": {
+    "message": "બુલેટ ચેટિંગ"
+  },
+  "fit_to_screen": {
+    "message": "સ્ક્રીન પર ફિટ કરો"
+  },
+  "reload_video": {
+    "message": "વિડિઓ ફરીથી લોડ કરો"
+  },
+  "loading_pip_config": {
+    "message": "દસ્તાવેજ પિક્ચર-ઇન-પિક્ચર રૂપરેખાંકનો લોડ કરી રહ્યું છે..."
+  },
+  "playing_in_pip_mode": {
+    "message": "દસ્તાવેજ પિક્ચર-ઇન-પિક્ચર મોડમાં પ્લે કરી રહ્યું છે"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "પિક્ચર-ઇન-પિક્ચર ઉપશીર્ષક સેટિંગ્સ શોધી રહ્યું છે..."
+  },
+  "video_not_detected": {
+    "message": "વિડિઓ શોધી શકાઈ નથી. તે હજી તૈયાર ન હોઈ શકે. જો પૃષ્ઠ પર વિડિઓ હોય, તો કૃપા કરીને પ્લે ક્લિક કરો અને ફરી પ્રયાસ કરો."
+  },
+  "pip_window_restriction": {
+    "message": "અદ્યતન પિક્ચર-ઇન-પિક્ચર વિન્ડો ફક્ત મુખ્ય પૃષ્ઠ પરથી ખોલી શકાય છે અને ફ્રેમ અથવા એમ્બેડ કરેલ સામગ્રીમાંથી લોન્ચ કરી શકાતી નથી. તમે માનક પિક્ચર-ઇન-પિક્ચર મોડનો ઉપયોગ કરી શકો છો અથવા ફરી પ્રયાસ કરવા માટે નવા ટેબમાં ખોલી શકો છો. નોંધો કે નવા ટેબમાં વિડિઓ યોગ્ય રીતે લોડ ન થઈ શકે.",
+    "description": "'DocumentPictureInPicture' પર 'requestWindow' અમલ કરવામાં નિષ્ફળ: ટોચના સ્તરના બ્રાઉઝિંગ સંદર્ભમાંથી પિક્ચર-ઇન-પિક્ચર વિન્ડો ખોલવાની મંજૂરી છે"
+  },
+  "use_standard_pip": {
+    "message": "માનક PiP નો ઉપયોગ કરો",
+    "description": "માનક પિક્ચર-ઇન-પિક્ચર મોડનો ઉપયોગ કરવાનો વિકલ્પ"
+  },
+  "open_in_new_tab": {
+    "message": "નવા ટેબમાં ખોલો",
+    "description": "પૃષ્ઠને નવા ટેબમાં ખોલવાનો વિકલ્પ"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "આ સાઇટની સેટિંગ્સ યાદ રાખો (તમે વિકલ્પો - સાઇટ સેટિંગ્સમાં તેને બદલી શકો છો)"
+  },
+  "pip_user_activation_required": {
+    "message": "પિક્ચર-ઇન-પિક્ચર મોડ માટે વપરાશકર્તા ક્રિયાપ્રતિક્રિયા જરૂરી છે. કૃપા કરીને પૃષ્ઠ સાથે ક્લિક કરો અથવા ક્રિયાપ્રતિક્રિયા કરો અને ફરી પ્રયાસ કરો.",
+    "description": "'DocumentPictureInPicture' પર 'requestWindow' અમલ કરવામાં નિષ્ફળ: દસ્તાવેજ PiP માટે વપરાશકર્તા સક્રિયકરણ જરૂરી છે"
+  },
+  "retry_action": {
+    "message": "ફરી પ્રયાસ કરો"
   }
 }

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Внутренние системы"
+  },
+  "switchPIP": {
+    "message": "Переключить режим «Картинка в картинке»"
+  },
+  "play": {
+    "message": "Воспроизвести"
+  },
+  "pause": {
+    "message": "Пауза"
+  },
+  "shortcut_play_pause": {
+    "message": "Воспроизведение/Пауза видео"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Регулировка громкости"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Выключить/Включить звук видео"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Перемотка видео на 5 секунд вперед/назад"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Перемотка видео на 10 секунд вперед/назад"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Перемотка видео вперед/назад"
+  },
+  "shortcut_next_video": {
+    "message": "Воспроизвести следующее видео"
+  },
+  "shortcut_previous_video": {
+    "message": "Воспроизвести предыдущее видео"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Показать/Скрыть субтитры"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Показать/Скрыть пулевые комментарии"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Переключить полноэкранный режим"
+  },
+  "shortcut_playback_speed": {
+    "message": "Регулировка скорости воспроизведения"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Перейти к началу/концу видео"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Перейти к проценту видео"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Настроить окно под размер видео"
+  },
+  "shortcut_exit_pip": {
+    "message": "Выйти из режима «Картинка в картинке»"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Переключить скрытие/показ видео и воспроизведение/паузу"
+  },
+  "shortcut_enter_pip": {
+    "message": "Переключить режим «Картинка в картинке» с главной страницы"
+  },
+  "mute": {
+    "message": "Выключить звук"
+  },
+  "unmute": {
+    "message": "Включить звук"
+  },
+  "prev_video": {
+    "message": "Предыдущее видео"
+  },
+  "next_video": {
+    "message": "Следующее видео"
+  },
+  "playbackRate": {
+    "message": "Скорость воспроизведения"
+  },
+  "subtitles": {
+    "message": "Субтитры"
+  },
+  "close_captions": {
+    "message": "Закрытые субтитры"
+  },
+  "danmaku": {
+    "message": "Пулевые комментарии"
+  },
+  "fit_to_screen": {
+    "message": "По размеру экрана"
+  },
+  "reload_video": {
+    "message": "Перезагрузить видео"
+  },
+  "loading_pip_config": {
+    "message": "Загрузка конфигураций режима «Картинка в картинке»..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Воспроизведение в режиме «Картинка в картинке»"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Обнаружение настроек субтитров для режима «Картинка в картинке»..."
+  },
+  "video_not_detected": {
+    "message": "Видео не обнаружено. Возможно, оно еще не готово. Если на странице есть видео, нажмите воспроизведение и попробуйте снова."
+  },
+  "pip_window_restriction": {
+    "message": "Расширенное окно режима «Картинка в картинке» можно открыть только с главной страницы и нельзя запускать из фреймов или встроенного контента. Вы можете использовать стандартный режим «Картинка в картинке» или открыть в новой вкладке, чтобы повторить попытку. Обратите внимание, что видео может не загрузиться должным образом в новой вкладке.",
+    "description": "Не удалось выполнить 'requestWindow' на 'DocumentPictureInPicture': Открытие окна PiP разрешено только из контекста верхнего уровня просмотра"
+  },
+  "use_standard_pip": {
+    "message": "Использовать стандартный режим «Картинка в картинке»",
+    "description": "Опция использования стандартного режима «Картинка в картинке»"
+  },
+  "open_in_new_tab": {
+    "message": "Открыть в новой вкладке",
+    "description": "Опция открытия страницы в новой вкладке"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Запомнить настройки этого сайта (Вы можете изменить их в Настройки - Настройки сайта)"
+  },
+  "pip_user_activation_required": {
+    "message": "Режим «Картинка в картинке» требует взаимодействия пользователя. Пожалуйста, кликните или взаимодействуйте со страницей и попробуйте снова.",
+    "description": "Не удалось выполнить 'requestWindow' на 'DocumentPictureInPicture': Режим PiP требует активации пользователем"
+  },
+  "retry_action": {
+    "message": "Попробовать снова"
   }
 }

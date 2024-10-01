@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "内部システム"
+  },
+  "switchPIP": {
+    "message": "ピクチャーインピクチャーを切り替える"
+  },
+  "play": {
+    "message": "再生"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "shortcut_play_pause": {
+    "message": "再生/一時停止"
+  },
+  "shortcut_adjust_volume": {
+    "message": "音量を調整"
+  },
+  "shortcut_mute_unmute": {
+    "message": "ミュート/ミュート解除"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "5秒早送り/巻き戻し"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "10秒早送り/巻き戻し"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "早送り/巻き戻し"
+  },
+  "shortcut_next_video": {
+    "message": "次のビデオを再生"
+  },
+  "shortcut_previous_video": {
+    "message": "前のビデオを再生"
+  },
+  "shortcut_toggle_captions": {
+    "message": "字幕を表示/非表示"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "弾幕を表示/非表示"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "全画面表示を切り替え"
+  },
+  "shortcut_playback_speed": {
+    "message": "再生速度を調整"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "ビデオの開始/終了にシーク"
+  },
+  "shortcut_seek_percentage": {
+    "message": "ビデオのパーセンテージにシーク"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "ウィンドウをビデオサイズに合わせる"
+  },
+  "shortcut_exit_pip": {
+    "message": "ピクチャーインピクチャーを終了"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "ビデオを隠す/表示し、再生/一時停止を切り替え"
+  },
+  "shortcut_enter_pip": {
+    "message": "メインページからピクチャーインピクチャーを切り替え"
+  },
+  "mute": {
+    "message": "ミュート"
+  },
+  "unmute": {
+    "message": "ミュート解除"
+  },
+  "prev_video": {
+    "message": "前のビデオ"
+  },
+  "next_video": {
+    "message": "次のビデオ"
+  },
+  "playbackRate": {
+    "message": "再生速度"
+  },
+  "subtitles": {
+    "message": "字幕"
+  },
+  "close_captions": {
+    "message": "クローズドキャプション"
+  },
+  "danmaku": {
+    "message": "弾幕チャット"
+  },
+  "fit_to_screen": {
+    "message": "画面に合わせる"
+  },
+  "reload_video": {
+    "message": "ビデオを再読み込み"
+  },
+  "loading_pip_config": {
+    "message": "ドキュメントのピクチャーインピクチャー設定を読み込み中..."
+  },
+  "playing_in_pip_mode": {
+    "message": "ドキュメントのピクチャーインピクチャーモードで再生中"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "ピクチャーインピクチャーの字幕設定を検出中..."
+  },
+  "video_not_detected": {
+    "message": "ビデオが検出されません。まだ準備ができていない可能性があります。ページにビデオがある場合は、再生をクリックしてもう一度お試しください。"
+  },
+  "pip_window_restriction": {
+    "message": "高度なピクチャーインピクチャーウィンドウはメインページからのみ開くことができ、フレームや埋め込みコンテンツから起動することはできません。標準のピクチャーインピクチャーモードを使用するか、新しいタブで開いて再試行できます。新しいタブではビデオが正しく読み込まれない場合があります。",
+    "description": "'DocumentPictureInPicture'で'requestWindow'の実行に失敗しました: PiPウィンドウを開くことはトップレベルのブラウジングコンテキストからのみ許可されています"
+  },
+  "use_standard_pip": {
+    "message": "標準のPiPを使用",
+    "description": "標準のピクチャーインピクチャーモードを使用するオプション"
+  },
+  "open_in_new_tab": {
+    "message": "新しいタブで開く",
+    "description": "ページを新しいタブで開くオプション"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "このサイトの設定を記憶する（オプション - サイト設定で変更できます）"
+  },
+  "pip_user_activation_required": {
+    "message": "ピクチャーインピクチャーモードにはユーザーの操作が必要です。ページをクリックまたは操作して、もう一度お試しください。",
+    "description": "'DocumentPictureInPicture'で'requestWindow'の実行に失敗しました: ドキュメントPiPにはユーザーのアクティベーションが必要です"
+  },
+  "retry_action": {
+    "message": "再試行"
   }
 }

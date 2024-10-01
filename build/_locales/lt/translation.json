@@ -241,5 +241,6 @@
   "shortName": "Trumpas pavadinimas",
   "expandIcons": "Išplėsti piktogramas",
   "expandList": "Išplėsti sąrašą",
-  "openAllUrls": "Atidaryti visus URL"
+  "openAllUrls": "Atidaryti visus URL",
+  "switchPIP": "Perjungti vaizdą vaizde"
 }

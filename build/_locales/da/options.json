@@ -136,6 +136,7 @@
         "sortBy": "Sorter efter",
         "createTabPanel": "Opret fanepanel",
         "tabPanels": "Fanepaneler",
+        "switchPIP": "Skift billede-i-billede",
         "pinToToolbarReminder": "Husk at fastgøre udvidelsen til din værktøjslinje, før du fjerner denne navigation."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Denne side er kun til visning. For at ændre genveje, besøg venligst [Udvidelser]->[Administrer udvidelser]->[Tastaturgenveje]",
       "goToBrowserSettings": "Gå til indstillinger",
       "_execute_action": "Aktiver denne udvidelse",
-      "openSidePanel": "Åbn sidepanel"
+      "openSidePanel": "Åbn sidepanel",
+      "switchPIP": "Skift Billede-i-Billede"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Billede-i-billede",
@@ -392,6 +394,22 @@
         "description": "Hvis den aktuelle side afspiller en video, og videoen ikke er dæmpet, og videoen er uden for det synlige område ved rulning, vil den gå ind i billede-i-billede.",
         "enabled": "Aktiveret",
         "disabled": "Deaktiveret"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Auto Billede-i-Billede ved faneskift uden at åbne sidepanelet",
+        "description": "Hvis den aktuelle side afspiller en video, og videoen ikke er dæmpet, aktiveres automatisk Billede-i-Billede ved faneskift uden at åbne sidepanelet. Bemærk, at denne funktion **kræver brugeraktivering** (f.eks. ved at klikke med musen på et tomt område af siden)."
+      },
+      "advancedPipEnable": {
+        "label": "Aktiver Avanceret Billede-i-Billede",
+        "description": "Når aktiveret, vil Avanceret Billede-i-Billede blive prioriteret. Hvis siden ikke understøtter det, vil almindelig Billede-i-Billede blive brugt.\nAvanceret Billede-i-Billede benytter en brugerdefineret videospiller, der tilbyder funktioner som:\n * Afspil/Pause video (Mellemrum)\n * Juster lydstyrke (Op/Ned Pil)\n * Dæmp/ophæv dæmpning af video\n * Spol frem/tilbage video (Venstre/Højre Pil eller Musehjul)\n * Afspil næste video\n * Vis undertekster (understøttet på nogle websteder, f.eks. youtube.com, vimeo.com, tver.jp, etc.)\n * Vis barrage (understøttet på nogle websteder, f.eks. nicovideo.jp, bilibili.com, etc.)\n * Afslut Billede-i-Billede (Esc)\n * Skift skjul/vis video og afspil/pause (Q)\n >Hvis de websteder, du ofte besøger, understøtter undertekster eller barrage, kan du indsende en [issue: Avanceret Billede-i-Billede](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), og vi vil tilpasse det så hurtigt som muligt. Bemærk, at nogle websteder kan have regionale begrænsninger, og du kan blive nødt til at give yderligere oplysninger."
+      },
+      "subtitleDetection": {
+        "label": "Aktiver Undertekstgenkendelse",
+        "description": "Hvis det aktuelle websted ikke har en Billede-i-Billede-konfiguration, tillad programmet at forsøge automatisk at registrere undertekstelementer og tilføje dem til Billede-i-Billede-afspilleren. Dette er en ustabil funktion og kan muligvis ikke altid registrere de korrekte undertekstelementer. Hvis du er professionel, kan du tilføje undertekstelementkonfigurationer i webstedsindstillingerne."
+      },
+      "continuousPlayback": {
+        "label": "Aktiver Kontinuerlig Afspilning",
+        "description": "Kontinuerlig afspilning: Billede-i-Billede-vinduet lukker ikke og afspiller automatisk næste episode, når videoen slutter. Denne funktion kræver webstedsunderstøttelse."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Skriftfarve",
         "description": "Indstil skriftfarven for dette websted."
+      },
+      "pipRestrictionAction": {
+        "label": "Begrænsningshandling for Picture-in-Picture",
+        "description": "Avanceret Picture-in-Picture-vindue kan kun åbnes fra hovedsiden og kan ikke startes fra rammer eller indlejret indhold. Du kan bruge standard Picture-in-Picture-tilstand eller åbne i en ny fane for at prøve igen. Bemærk, at videoen muligvis ikke indlæses korrekt i en ny fane.",
+        "default": "Standard",
+        "use_standard_pip": "Brug standard Picture-in-Picture",
+        "open_in_new_tab": "Åbn i ny fane"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automatisk Picture-in-Picture",
+        "description": "Gå automatisk ind i Picture-in-Picture-tilstand, når en video er til stede ved indgangen til siden. På grund af systembegrænsninger kræver dette brugerinteraktion med siden."
+      },
+      "captionSetting": {
+        "label": "Undertekstindstillinger",
+        "description": "Konfigurer CSS-vælgerne for undertekst-elementet og dets overordnede på siden. CSS-vælgeren for undertekst-elementet bruges til at vise undertekster i afspilleren, mens den overordnede vælger bruges til at returnere underteksterne til den oprindelige side, når Picture-in-Picture-tilstand afsluttes.",
+        "configure": "Konfigurer",
+        "selectorDesc": "Almindelige vælgere inkluderer: '.class' for klassevælgere, '#id' for ID-vælgere, 'tag' for tag-vælgere og '[attribute=value]' for attributvælgere. For flere detaljer, besøg: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-vælgere for undertekst-elementet",
+        "captionParentSelectorDesc": "CSS-vælgere for overordnede til undertekst-elementet"
       }
     },
     "quickAccess": {

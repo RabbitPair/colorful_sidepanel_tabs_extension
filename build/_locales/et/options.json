@@ -136,6 +136,7 @@
         "sortBy": "Sorteeri järgi",
         "createTabPanel": "Loo vahekaardipaneel",
         "tabPanels": "Vahekaardipaneelid",
+        "switchPIP": "Lülita pilt-pildis režiim",
         "pinToToolbarReminder": "Enne selle navigeerimise eemaldamist kinnitage laiendus oma tööriistaribale."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "See leht on ainult kuvamiseks. Otseteede muutmiseks külastage [Laiendused]->[Halda laiendusi]->[Klaviatuuri otseteed]",
       "goToBrowserSettings": "Mine Chrome'i seadete juurde",
       "_execute_action": "Aktiveeri see laiendus",
-      "openSidePanel": "Ava külgpaneel"
+      "openSidePanel": "Ava külgpaneel",
+      "switchPIP": "Lülita pilt-pildis režiim"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Pilt-pildis",
@@ -392,6 +394,22 @@
         "description": "Kui praegune leht esitab videot ja video ei ole vaigistatud ning video on kerimisel nähtavast alast väljas, lülitub see pilt-pildis režiimile.",
         "enabled": "Lubatud",
         "disabled": "Keelatud"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Automaatne pilt-pildis vahekaardi vahetamisel ilma külgpaneeli avamata",
+        "description": "Kui praegune leht esitab videot ja video ei ole vaigistatud, lülitage vahekaardi vahetamisel automaatselt pilt-pildis režiimile ilma külgpaneeli avamata. Pange tähele, et see funktsioon **nõuab kasutaja aktiveerimist** (nt klõpsates lehe tühjal alal)."
+      },
+      "advancedPipEnable": {
+        "label": "Luba täiustatud pilt-pildis",
+        "description": "Kui lubatud, eelistatakse täiustatud pilt-pildis režiimi. Kui leht seda ei toeta, kasutatakse tavalist pilt-pildis režiimi.\nTäiustatud pilt-pildis kasutab kohandatud videopleierit, pakkudes järgmisi funktsioone:\n * Video esitamine/peatamine (tühikuklahv)\n * Helitugevuse reguleerimine (üles/alla nooleklahv)\n * Video vaigistamine/vaigistuse tühistamine\n * Video edasi-/tagasikerimine (vasak/parem nooleklahv või hiireratas)\n * Järgmise video esitamine\n * Subtiitrite kuvamine (toetatud mõnel veebisaidil, nt youtube.com, vimeo.com, tver.jp jne)\n * Kommentaaride kuvamine (toetatud mõnel veebisaidil, nt nicovideo.jp, bilibili.com jne)\n * Pilt-pildis režiimist väljumine (Esc)\n * Video peitmise/näitamise ja esitamise/peatamise vahetamine (Q)\n >Kui veebisaidid, mida sageli külastate, toetavad subtiitreid või kommentaare, saate esitada [probleemi: Täiustatud pilt-pildis](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) ja me kohandame selle niipea kui võimalik. Pange tähele, et mõnel veebisaidil võivad olla piirkondlikud piirangud ja teil võib olla vaja esitada lisateavet."
+      },
+      "subtitleDetection": {
+        "label": "Luba subtiitrite tuvastamine",
+        "description": "Kui praegusel saidil ei ole pilt-pildis konfiguratsiooni, lubage programmil proovida subtiitrite elemente automaatselt tuvastada ja lisada need pilt-pildis pleierisse. See on ebastabiilne funktsioon ja ei pruugi alati tuvastada õigeid subtiitrite elemente. Kui olete professionaal, saate saidi seadetes lisada subtiitrite elementide konfiguratsioone."
+      },
+      "continuousPlayback": {
+        "label": "Luba pidev esitus",
+        "description": "Pidev esitus: pilt-pildis aken ei sulgu ja pärast video lõppu esitatakse automaatselt järgmine osa. See funktsioon nõuab veebisaidi tuge."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Fondi värv",
         "description": "Määrake sellele saidile fondi värv."
+      },
+      "pipRestrictionAction": {
+        "label": "Pildi-pildis piirangute toiming",
+        "description": "Täiustatud pildi-pildis akna saab avada ainult põhilehelt ja seda ei saa käivitada raamide või manustatud sisu kaudu. Võite kasutada tavalist pildi-pildis režiimi või proovida uuesti uues vahekaardis. Pange tähele, et video ei pruugi uues vahekaardis korralikult laadida.",
+        "default": "Vaikimisi",
+        "use_standard_pip": "Kasuta tavalist pildi-pildis režiimi",
+        "open_in_new_tab": "Ava uues vahekaardis"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Automaatne pildi-pildis režiimi sisenemine",
+        "description": "Siseneb automaatselt pildi-pildis režiimi, kui lehele sisenemisel on video olemas. Süsteemi piirangute tõttu nõuab see kasutaja interaktsiooni lehega."
+      },
+      "captionSetting": {
+        "label": "Subtiitrite seaded",
+        "description": "Konfigureerige lehe subtiitrite elemendi ja selle vanema CSS valijad. Subtiitrite elemendi CSS valijat kasutatakse subtiitrite kuvamiseks mängijas, samas kui vanema valijat kasutatakse subtiitrite tagastamiseks algsele lehele pildi-pildis režiimist väljumisel.",
+        "configure": "Seadista",
+        "selectorDesc": "Levinud valijad hõlmavad: '.class' klassi valijate jaoks, '#id' ID valijate jaoks, 'tag' sildi valijate jaoks ja '[attribute=value]' atribuudi valijate jaoks. Lisateabe saamiseks külastage: [CSS valijad - CSS: Kaskaadlaadistikud - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Subtiitrite elemendi CSS valijad",
+        "captionParentSelectorDesc": "Subtiitrite elemendi vanema CSS valijad"
       }
     },
     "quickAccess": {

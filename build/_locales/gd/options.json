@@ -136,6 +136,7 @@
         "sortBy": "Òrdaich Le",
         "createTabPanel": "Cruthaich Pannal Tab",
         "tabPanels": "Pannalan Tab",
+        "switchPIP": "Atharraich Dealbh-ann-an-Dealbh",
         "pinToToolbarReminder": "Cuir am plugan ris a' bhàr-inneal agad mus cuir thu às an t-seòladh seo."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Tha an duilleag seo airson taisbeanadh a-mhàin. Airson bogha-faclan a mhìneachadh, tadhail air [Leudachaidhean]->[Stiùirich Leudachaidhean]->[Bogha-faclan Clàir]",
       "goToBrowserSettings": "Rach gu sèitichean Chrome",
       "_execute_action": "Gnìomhachadh an leudachaidh seo",
-      "openSidePanel": "Fosgail an taobh sainnsealadh"
+      "openSidePanel": "Fosgail an taobh sainnsealadh",
+      "switchPIP": "Atharraich Dealbh ann an Dealbh"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Dealbh ann an dealbh",
@@ -392,6 +394,22 @@
         "description": "Ma tha an duilleag làithreach a' cluich bhidio agus chan eil an bhidio air a ghuthadh agus tha an bhidio a-muigh air an raon fhaicinn nuair a' sgrìobhadh, bidh e a' dol a-steach dealbh ann an dealbh.",
         "enabled": "Cumasach",
         "disabled": "Di-cumasach"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Dealbh ann an Dealbh fèin-ghluasadach air Atharrachadh Taba gun a bhith a' Fosgladh an Taobh Sainnsealadh",
+        "description": "Ma tha an duilleag làithreach a' cluich bhidio agus nach eil am bhidio air a ghuthadh, cuir an comas Dealbh ann an Dealbh fèin-ghluasadach air atharrachadh taba gun a bhith a' fosgladh an taobh sainnsealadh. Thoir fa-near gu bheil feum air gnìomhachadh neach-cleachdaidh airson an fheart seo (m.e., cliogadh air àite bàn air an duilleag)."
+      },
+      "advancedPipEnable": {
+        "label": "Cuir an comas Dealbh ann an Dealbh Adhartach",
+        "description": "Nuair a thèid a chomasachadh, thèid Dealbh ann an Dealbh Adhartach a thoirt prìomhachas. Ma tha an duilleag nach eil a' toirt taic dha, thèid Dealbh ann an Dealbh àbhaisteach a chleachdadh.\nBidh Dealbh ann an Dealbh Adhartach a' cleachdadh cluicheadair bhidio àbhaisteach, a' tabhann feartan leithid:\n * Cluich/Cuir stad air bhidio (Space)\n * Atharraich meud-fuaim (Saighead Suas/Ìosal)\n * Mute/Unmute bhidio\n * Fast forward/Rewind bhidio (Saighead Clì/Deas no Cuibhle Luchag)\n * Cluich an ath bhidio\n * Taisbeanadh fo-thiotalan (taic air cuid de làraichean-lìn, m.e., youtube.com, vimeo.com, tver.jp, msaa.)\n * Taisbeanadh barrage (taic air cuid de làraichean-lìn, m.e., nicovideo.jp, bilibili.com, msaa.)\n * Fàg Dealbh ann an Dealbh (Esc)\n * Tionndaidh falaich/seall bhidio agus cluich/cuir stad air (Q)\n >Ma tha na làraichean-lìn a bhios tu a' tadhal gu tric a' toirt taic do fho-thiotalan no barrage, faodaidh tu [cùis: Dealbh ann an Dealbh Adhartach](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) a chur a-steach, agus nì sinn atharrachadh cho luath 's a ghabhas. Thoir fa-near gu bheil cuid de làraichean-lìn a' faighinn cuingealachaidhean roinneil, agus is dòcha gum feum thu fiosrachadh a bharrachd a thoirt seachad."
+      },
+      "subtitleDetection": {
+        "label": "Cuir an comas Lorg Fo-thiotalan",
+        "description": "Ma tha an làrach làithreach nach eil a' toirt taic do rèiteachadh Dealbh ann an Dealbh, leig leis a' phrògram feuchainn ri lorg fo-thiotalan gu fèin-ghluasadach agus cuir iad ris a' chluicheadair Dealbh ann an Dealbh. 'S e feart neo-sheasmhach a tha seo agus is dòcha nach lorg e na fo-thiotalan ceart an-còmhnaidh. Ma tha thu nad phroifeiseanta, faodaidh tu rèiteachadh eileamaidean fo-thiotalan a chur ris anns na roghainnean làraich."
+      },
+      "continuousPlayback": {
+        "label": "Cuir an comas Cluich Leantainneach",
+        "description": "Cluich leantainneach: Chan eil uinneag Dealbh ann an Dealbh a' dùnadh agus a' cluich an ath phrògram gu fèin-obrachail às dèidh don bhidio crìochnachadh. Tha feum air taic làraich-lìn airson an fheart seo."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Dath Litreach",
         "description": "Suidhich dath litreach airson an làraich seo."
+      },
+      "pipRestrictionAction": {
+        "label": "Gnìomh Cuingeachaidh Picture-in-Picture",
+        "description": "Chan urrainnear uinneag adhartach Picture-in-Picture fhosgladh ach bhon phrìomh dhuilleag agus chan urrainnear a chuir air bhog bho fhrèamaichean no susbaint freumhaichte. Faodaidh tu modh àbhaisteach Picture-in-Picture a chleachdadh no fhosgladh ann an taba ùr gus feuchainn a-rithist. Thoir fa-near nach bi an video a' luchdachadh gu ceart ann an taba ùr.",
+        "default": "Bunaiteach",
+        "use_standard_pip": "Cleachd Picture-in-Picture àbhaisteach",
+        "open_in_new_tab": "Fosgail ann an taba ùr"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Cuir a-steach Picture-in-Picture gu fèin-obrachail",
+        "description": "Cuir a-steach modh Picture-in-Picture gu fèin-obrachail nuair a tha video an làthair nuair a thèid thu a-steach don duilleag. Air sgàth chuingealachaidhean siostaim, tha feum air eadar-obrachadh le duilleag."
+      },
+      "captionSetting": {
+        "label": "Roghainnean Fo-thiotal",
+        "description": "Rèitich na taghairean CSS airson an eileamaid fo-thiotal agus am pàrant aige air an duilleag. Tha an taghadh CSS airson an eileamaid fo-thiotal air a chleachdadh gus fo-thiotalan a thaisbeanadh anns a' chluicheadair, fhad 's a tha an taghadh pàrant air a chleachdadh gus na fo-thiotalan a thilleadh chun duilleag thùsail nuair a thèid thu a-mach à modh Picture-in-Picture.",
+        "configure": "Rèitich",
+        "selectorDesc": "Tha taghairean cumanta a' gabhail a-steach: '.class' airson taghairean clas, '#id' airson taghairean ID, 'tag' airson taghairean taga, agus '[attribute=value]' airson taghairean buadhan. Airson tuilleadh fiosrachaidh, tadhail air: [Taghairean CSS - CSS: Duilleagan Stoidhle Sreathanach - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Taghairean CSS airson an eileamaid fo-thiotal",
+        "captionParentSelectorDesc": "Taghairean CSS airson pàrant an eileamaid fo-thiotal"
       }
     },
     "quickAccess": {

@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Sistem Dalaman"
+  },
+  "switchPIP": {
+    "message": "Tukar Gambar-dalam-Gambar"
+  },
+  "play": {
+    "message": "Main"
+  },
+  "pause": {
+    "message": "Jeda"
+  },
+  "shortcut_play_pause": {
+    "message": "Main/Jeda video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Laraskan kelantangan"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Senyap/Bunyikan video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Majukan/Mundur video 5 saat"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Majukan/Mundur video 10 saat"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Majukan/Mundur video"
+  },
+  "shortcut_next_video": {
+    "message": "Mainkan video seterusnya"
+  },
+  "shortcut_previous_video": {
+    "message": "Mainkan video sebelumnya"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Tunjuk/Sembunyi sarikata"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Tunjuk/Sembunyi sembang peluru"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Tukar skrin penuh"
+  },
+  "shortcut_playback_speed": {
+    "message": "Laraskan kelajuan main balik"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Cari ke permulaan/akhir video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Cari ke peratusan video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Laraskan tetingkap untuk muat saiz video"
+  },
+  "shortcut_exit_pip": {
+    "message": "Keluar dari Gambar-dalam-Gambar"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Tukar sembunyi/tunjuk video dan main/jeda"
+  },
+  "shortcut_enter_pip": {
+    "message": "Tukar Gambar-dalam-Gambar dari halaman utama"
+  },
+  "mute": {
+    "message": "Senyap"
+  },
+  "unmute": {
+    "message": "Bunyikan"
+  },
+  "prev_video": {
+    "message": "Video Sebelumnya"
+  },
+  "next_video": {
+    "message": "Video Seterusnya"
+  },
+  "playbackRate": {
+    "message": "Kelajuan Main Balik"
+  },
+  "subtitles": {
+    "message": "Sarikata"
+  },
+  "close_captions": {
+    "message": "Sarikata Tertutup"
+  },
+  "danmaku": {
+    "message": "Sembang Peluru"
+  },
+  "fit_to_screen": {
+    "message": "Sesuaikan ke Skrin"
+  },
+  "reload_video": {
+    "message": "Muat Semula Video"
+  },
+  "loading_pip_config": {
+    "message": "Memuatkan Konfigurasi Gambar-dalam-Gambar Dokumen..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Bermain dalam Mod Gambar-dalam-Gambar Dokumen"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Mengesan Tetapan Sarikata Gambar-dalam-Gambar..."
+  },
+  "video_not_detected": {
+    "message": "Video tidak dikesan. Ia mungkin belum sedia. Jika terdapat video di halaman, sila klik main dan cuba lagi."
+  },
+  "pip_window_restriction": {
+    "message": "Tetingkap Gambar-dalam-Gambar lanjutan hanya boleh dibuka dari halaman utama dan tidak boleh dilancarkan dari bingkai atau kandungan terbenam. Anda boleh menggunakan mod Gambar-dalam-Gambar standard atau buka dalam tab baru untuk mencuba semula. Perhatikan bahawa video mungkin tidak dimuatkan dengan betul dalam tab baru.",
+    "description": "Gagal melaksanakan 'requestWindow' pada 'DocumentPictureInPicture': Membuka tetingkap PiP hanya dibenarkan dari konteks penyemakan imbas peringkat atas"
+  },
+  "use_standard_pip": {
+    "message": "Gunakan PiP standard",
+    "description": "Pilihan untuk menggunakan mod Gambar-dalam-Gambar standard"
+  },
+  "open_in_new_tab": {
+    "message": "Buka dalam tab baru",
+    "description": "Pilihan untuk membuka halaman dalam tab baru"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Ingat tetapan laman web ini (Anda boleh mengubahnya dalam Pilihan - Tetapan laman web)"
+  },
+  "pip_user_activation_required": {
+    "message": "Mod Gambar-dalam-Gambar memerlukan interaksi pengguna. Sila klik atau berinteraksi dengan halaman dan cuba lagi.",
+    "description": "Gagal melaksanakan 'requestWindow' pada 'DocumentPictureInPicture': PiP Dokumen memerlukan pengaktifan pengguna"
+  },
+  "retry_action": {
+    "message": "Cuba Lagi"
   }
 }

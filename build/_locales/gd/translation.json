@@ -228,5 +228,6 @@
   "shortName": "Ainm goirid",
   "expandIcons": "Leudaich Ìomhaighean",
   "expandList": "Leudaich liosta",
-  "openAllUrls": "Fosgail a h-uile URL"
+  "openAllUrls": "Fosgail a h-uile URL",
+  "switchPIP": "Atharraich Dealbh-ann-an-Dealbh"
 }

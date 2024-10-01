@@ -241,5 +241,6 @@
   "shortName": "Korte naam",
   "expandIcons": "Pictogrammen uitvouwen",
   "expandList": "Lijst uitvouwen",
-  "openAllUrls": "Alle URL's openen"
+  "openAllUrls": "Alle URL's openen",
+  "switchPIP": "Schakel Picture-in-Picture"
 }

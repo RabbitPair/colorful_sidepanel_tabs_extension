@@ -241,5 +241,6 @@
   "shortName": "短い名前",
   "expandIcons": "アイコンを拡大",
   "expandList": "リストを拡大",
-  "openAllUrls": "すべてのURLを開く"
+  "openAllUrls": "すべてのURLを開く",
+  "switchPIP": "ピクチャーインピクチャーを切り替え"
 }

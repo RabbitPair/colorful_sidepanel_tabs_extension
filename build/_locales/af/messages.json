@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Interne Stelsels"
+  },
+  "switchPIP": {
+    "message": "Skakel Prent-in-Prent"
+  },
+  "play": {
+    "message": "Speel"
+  },
+  "pause": {
+    "message": "Pouse"
+  },
+  "shortcut_play_pause": {
+    "message": "Speel/Pouseer video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Pas volume aan"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Demp/Ontdemp video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Vinnig vorentoe/Terugspoel video 5 sekondes"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Vinnig vorentoe/Terugspoel video 10 sekondes"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Vinnig vorentoe/Terugspoel video"
+  },
+  "shortcut_next_video": {
+    "message": "Speel die volgende video"
+  },
+  "shortcut_previous_video": {
+    "message": "Speel die vorige video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Wys/Verberg onderskrifte"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Wys/Verberg koeëls gesels"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Skakel volskerm"
+  },
+  "shortcut_playback_speed": {
+    "message": "Pas terugspeelspoed aan"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Soek na begin/einde van video"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Soek na persentasie van video"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Pas venster aan om by videogrootte te pas"
+  },
+  "shortcut_exit_pip": {
+    "message": "Verlaat Prent-in-Prent"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Skakel verberg/wys video en speel/pouseer"
+  },
+  "shortcut_enter_pip": {
+    "message": "Skakel Prent-in-Prent vanaf hoofbladsy"
+  },
+  "mute": {
+    "message": "Demp"
+  },
+  "unmute": {
+    "message": "Ontdemper"
+  },
+  "prev_video": {
+    "message": "Vorige Video"
+  },
+  "next_video": {
+    "message": "Volgende Video"
+  },
+  "playbackRate": {
+    "message": "Speelsnelheid"
+  },
+  "subtitles": {
+    "message": "Ondertitels"
+  },
+  "close_captions": {
+    "message": "Geslote Ondertitels"
+  },
+  "danmaku": {
+    "message": "Koeëls gesels"
+  },
+  "fit_to_screen": {
+    "message": "Pas by Skerm"
+  },
+  "reload_video": {
+    "message": "Herlaai Video"
+  },
+  "loading_pip_config": {
+    "message": "Laai Dokument Prent-in-Prent Konfigurasies..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Speel in Dokument Prent-in-Prent Modus"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Opsporing van Prent-in-Prent Ondertitel Instellings..."
+  },
+  "video_not_detected": {
+    "message": "Video nie opgespoor nie. Dit mag dalk nog nie gereed wees nie. As daar 'n video op die bladsy is, klik asseblief speel en probeer weer."
+  },
+  "pip_window_restriction": {
+    "message": "Gevorderde Prent-in-Prent venster kan slegs vanaf die hoofblad oopgemaak word en kan nie vanaf rame of ingebedde inhoud begin word nie. Jy kan standaard Prent-in-Prent modus gebruik of in 'n nuwe oortjie oopmaak om weer te probeer. Let daarop dat die video dalk nie behoorlik in 'n nuwe oortjie sal laai nie.",
+    "description": "Kon nie 'requestWindow' op 'DocumentPictureInPicture' uitvoer nie: Oopmaak van 'n PiP venster word slegs toegelaat vanaf 'n top-vlak blaai konteks"
+  },
+  "use_standard_pip": {
+    "message": "Gebruik standaard PiP",
+    "description": "Opsie om standaard Prent-in-Prent modus te gebruik"
+  },
+  "open_in_new_tab": {
+    "message": "Maak oop in nuwe oortjie",
+    "description": "Opsie om die bladsy in 'n nuwe oortjie oop te maak"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Onthou hierdie webwerf se instellings (Jy kan dit in Opsies - Webwerf instellings verander)"
+  },
+  "pip_user_activation_required": {
+    "message": "Prent-in-Prent modus vereis gebruiker interaksie. Klik of interaksie met die bladsy en probeer weer.",
+    "description": "Kon nie 'requestWindow' op 'DocumentPictureInPicture' uitvoer nie: Dokument PiP vereis gebruiker aktivering"
+  },
+  "retry_action": {
+    "message": "Probeer Weer"
   }
 }

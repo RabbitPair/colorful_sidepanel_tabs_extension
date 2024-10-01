@@ -136,6 +136,7 @@
         "sortBy": "Sắp Xếp Theo",
         "createTabPanel": "Tạo Bảng Thẻ",
         "tabPanels": "Bảng Thẻ",
+        "switchPIP": "Chuyển Đổi Chế Độ Hình Trong Hình",
         "pinToToolbarReminder": "Hãy ghim tiện ích vào thanh công cụ trước khi xóa điều hướng này."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Trang này chỉ để hiển thị. Để sửa đổi phím tắt, vui lòng truy cập [Tiện ích mở rộng]->[Quản lý Tiện ích mở rộng]->[Phím tắt]",
       "goToBrowserSettings": "Đi tới cài đặt Chrome",
       "_execute_action": "Kích hoạt tiện ích mở rộng này",
-      "openSidePanel": "Mở bảng bên"
+      "openSidePanel": "Mở bảng bên",
+      "switchPIP": "Chuyển đổi Hình trong Hình"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Hình trong hình",
@@ -392,6 +394,22 @@
         "description": "Nếu trang hiện tại đang phát video và video không bị tắt tiếng và video nằm ngoài phạm vi hiển thị khi cuộn, nó sẽ vào hình trong hình.",
         "enabled": "Đã bật",
         "disabled": "Đã tắt"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Tự động Hình trong Hình khi Chuyển Thẻ mà không Mở Bảng Bên",
+        "description": "Nếu trang hiện tại đang phát video và video không bị tắt tiếng, bật tự động Hình trong Hình khi chuyển thẻ mà không mở bảng bên. Lưu ý rằng tính năng này **yêu cầu kích hoạt người dùng** (ví dụ: nhấp chuột vào một khu vực trống của trang)."
+      },
+      "advancedPipEnable": {
+        "label": "Bật Hình trong Hình Nâng Cao",
+        "description": "Khi được bật, Hình trong Hình Nâng Cao sẽ được ưu tiên. Nếu trang không hỗ trợ, Hình trong Hình thông thường sẽ được sử dụng.\nHình trong Hình Nâng Cao sử dụng trình phát video tùy chỉnh, cung cấp các tính năng như:\n * Phát/Tạm dừng video (Phím cách)\n * Điều chỉnh âm lượng (Mũi tên Lên/Xuống)\n * Tắt/Bật tiếng video\n * Tua nhanh/Tua lại video (Mũi tên Trái/Phải hoặc Bánh xe chuột)\n * Phát video tiếp theo\n * Hiển thị phụ đề (hỗ trợ trên một số trang web, ví dụ: youtube.com, vimeo.com, tver.jp, v.v.)\n * Hiển thị bình luận (hỗ trợ trên một số trang web, ví dụ: nicovideo.jp, bilibili.com, v.v.)\n * Thoát Hình trong Hình (Esc)\n * Chuyển đổi ẩn/hiện video và phát/tạm dừng (Q)\n >Nếu các trang web bạn thường xuyên truy cập hỗ trợ phụ đề hoặc bình luận, bạn có thể gửi một [vấn đề: Hình trong Hình Nâng Cao](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), và chúng tôi sẽ điều chỉnh nó sớm nhất có thể. Lưu ý rằng một số trang web có thể có hạn chế khu vực, và bạn có thể cần cung cấp thêm thông tin."
+      },
+      "subtitleDetection": {
+        "label": "Bật Phát Hiện Phụ Đề",
+        "description": "Nếu trang hiện tại không có cấu hình Hình trong Hình, cho phép chương trình thử tự động phát hiện các phần tử phụ đề và thêm chúng vào trình phát Hình trong Hình. Đây là một tính năng không ổn định và có thể không luôn phát hiện đúng các phần tử phụ đề. Nếu bạn là một chuyên gia, bạn có thể thêm cấu hình phần tử phụ đề trong cài đặt trang web."
+      },
+      "continuousPlayback": {
+        "label": "Bật Phát Liên Tục",
+        "description": "Phát liên tục: Cửa sổ Hình trong Hình không đóng và tự động phát tập tiếp theo sau khi video kết thúc. Tính năng này yêu cầu hỗ trợ từ trang web."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Màu chữ",
         "description": "Thiết lập màu chữ cho trang web này."
+      },
+      "pipRestrictionAction": {
+        "label": "Hành động Hạn chế Picture-in-Picture",
+        "description": "Cửa sổ Picture-in-Picture nâng cao chỉ có thể được mở từ trang chính và không thể khởi chạy từ khung hoặc nội dung nhúng. Bạn có thể sử dụng chế độ Picture-in-Picture tiêu chuẩn hoặc mở trong một thẻ mới để thử lại. Lưu ý rằng video có thể không tải đúng cách trong thẻ mới.",
+        "default": "Mặc định",
+        "use_standard_pip": "Sử dụng Picture-in-Picture tiêu chuẩn",
+        "open_in_new_tab": "Mở trong thẻ mới"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Tự động vào Picture-in-Picture",
+        "description": "Tự động vào chế độ Picture-in-Picture khi có video xuất hiện trên trang. Do hạn chế của hệ thống, điều này yêu cầu tương tác của người dùng với trang."
+      },
+      "captionSetting": {
+        "label": "Cài đặt Chú thích",
+        "description": "Cấu hình các bộ chọn CSS cho phần tử chú thích và phần tử cha của nó trên trang. Bộ chọn CSS cho phần tử chú thích được sử dụng để hiển thị chú thích trong trình phát, trong khi bộ chọn cha được sử dụng để trả lại chú thích cho trang gốc khi thoát chế độ Picture-in-Picture.",
+        "configure": "Cấu hình",
+        "selectorDesc": "Các bộ chọn phổ biến bao gồm: '.class' cho bộ chọn lớp, '#id' cho bộ chọn ID, 'tag' cho bộ chọn thẻ, và '[attribute=value]' cho bộ chọn thuộc tính. Để biết thêm chi tiết, hãy truy cập: [CSS selectors - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Bộ chọn CSS cho phần tử chú thích",
+        "captionParentSelectorDesc": "Bộ chọn CSS cho phần tử cha của phần tử chú thích"
       }
     },
     "quickAccess": {

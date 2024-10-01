@@ -136,6 +136,7 @@
         "sortBy": "Ordigi Laŭ",
         "createTabPanel": "Krei Langetan Panelon",
         "tabPanels": "Langetaj Paneloj",
+        "switchPIP": "Ŝalti Bildon-en-Bildo",
         "pinToToolbarReminder": "Bonvolu alfiksi la etendaĵon al via ilobreto antaŭ ol forigi ĉi tiun navigadon."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Tiu ĉi paĝo estas nur por montri. Por modifi fulmoklavojn, bonvolu viziti [Kromprogramoj]->[Administri Kromprogramojn]->[Fulmoklavoj]",
       "goToBrowserSettings": "Iri al Chrome-agordoj",
       "_execute_action": "Aktivigi tiun ĉi kromprogramon",
-      "openSidePanel": "Malfermi flankan panelon"
+      "openSidePanel": "Malfermi flankan panelon",
+      "switchPIP": "Ŝalti Bildo-en-Bildo"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Bildo-en-bildo",
@@ -392,6 +394,22 @@
         "description": "Se la aktuala paĝo ludas videon kaj la video ne estas ŝaltita kaj la video estas ekster la videbla intervalo dum ŝovado, ĝi eniros bildo-en-bildo.",
         "enabled": "Aktivigita",
         "disabled": "Malebligita"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Aŭtomata Bildo-en-Bildo je Lanĉetŝaltado sen Malfermi Flankan Panelon",
+        "description": "Se la aktuala paĝo ludas videon kaj la video ne estas mutita, ebligu aŭtomatan Bildo-en-Bildo je lanĉetŝaltado sen malfermi la flankan panelon. Notu, ke ĉi tiu funkcio **postulas uzantaktivigon** (ekz., klakante la muson sur malplena areo de la paĝo)."
+      },
+      "advancedPipEnable": {
+        "label": "Ebligi Altnivelan Bildo-en-Bildo",
+        "description": "Kiam ebligita, Altnivela Bildo-en-Bildo estos prioritata. Se la paĝo ne subtenas ĝin, regula Bildo-en-Bildo estos uzata.\nAltnivela Bildo-en-Bildo uzas kutiman videoludilon, ofertante funkciojn kiel:\n * Ludi/Pauzi videon (Spaco)\n * Agordi volumon (Supren/Malsupren Sageto)\n * Mutigi/Unmutigi videon\n * Rapida antaŭenigo/Reenigo de video (Maldekstra/Dekstra Sageto aŭ Musoradeto)\n * Ludi la sekvan videon\n * Montri subtekstojn (subtenata en kelkaj retejoj, ekz., youtube.com, vimeo.com, tver.jp, ktp.)\n * Montri baragon (subtenata en kelkaj retejoj, ekz., nicovideo.jp, bilibili.com, ktp.)\n * Eliri Bildo-en-Bildo (Esc)\n * Ŝalti kaŝi/montri videon kaj ludi/pauzi (Q)\n >Se la retejoj, kiujn vi ofte vizitas, subtenas subtekstojn aŭ baragon, vi povas sendi [temon: Altnivela Bildo-en-Bildo](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), kaj ni adaptos ĝin kiel eble plej baldaŭ. Notu, ke kelkaj retejoj povas havi regionajn limigojn, kaj vi eble bezonos provizi pliajn informojn."
+      },
+      "subtitleDetection": {
+        "label": "Ebligi Subtekstan Detekton",
+        "description": "Se la aktuala retejo ne havas Bildo-en-Bildo-konfiguracion, permesu al la programo provi aŭtomate detekti subtekstajn elementojn kaj aldoni ilin al la Bildo-en-Bildo-ludilo. Ĉi tio estas malstabila funkcio kaj eble ne ĉiam detektos la ĝustajn subtekstajn elementojn. Se vi estas profesiulo, vi povas aldoni subtekstajn elementajn konfiguraciojn en la retejo-agordoj."
+      },
+      "continuousPlayback": {
+        "label": "Ebligi Kontinuan Reproduktadon",
+        "description": "Kontinua reproduktado: La Bildo-en-Bildo-fenestro ne fermiĝas kaj aŭtomate ludas la sekvan epizodon post kiam la video finiĝas. Ĉi tiu funkcio postulas retejan subtenon."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Literkoloro",
         "description": "Agordi la literkoloron por ĉi tiu retejo."
+      },
+      "pipRestrictionAction": {
+        "label": "Ago de Limigo de Bildo-en-Bildo",
+        "description": "Altnivela Bildo-en-Bildo fenestro povas esti malfermita nur de la ĉefa paĝo kaj ne povas esti lanĉita de kadroj aŭ enmetita enhavo. Vi povas uzi norman Bildo-en-Bildo reĝimon aŭ malfermi en nova langeto por reprovi. Notu, ke la video eble ne ŝarĝiĝos ĝuste en nova langeto.",
+        "default": "Defaŭlta",
+        "use_standard_pip": "Uzi norman Bildo-en-Bildo",
+        "open_in_new_tab": "Malfermi en nova langeto"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Aŭtomate Eniri Bildo-en-Bildo",
+        "description": "Aŭtomate eniri Bildo-en-Bildo reĝimon kiam video estas ĉeestanta enirante la paĝon. Pro sistemaj limigoj, ĉi tio postulas uzantan interagadon kun la paĝo."
+      },
+      "captionSetting": {
+        "label": "Subtitola Agordo",
+        "description": "Agordi la CSS-selektantojn por la subtitola elemento kaj ĝia gepatro en la paĝo. La CSS-selektanto por la subtitola elemento estas uzata por montri subtitolojn en la ludilo, dum la gepatra selektanto estas uzata por revenigi la subtitolojn al la originala paĝo kiam elirante Bildo-en-Bildo reĝimon.",
+        "configure": "Agordi",
+        "selectorDesc": "Komunaj selektantoj inkluzivas: '.class' por klasaj selektantoj, '#id' por ID-selektantoj, 'tag' por etikedaj selektantoj, kaj '[attribute=value]' por atributaj selektantoj. Por pli da detaloj, vizitu: [CSS selektantoj - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "CSS-selektantoj por la subtitola elemento",
+        "captionParentSelectorDesc": "CSS-selektantoj por la gepatro de la subtitola elemento"
       }
     },
     "quickAccess": {

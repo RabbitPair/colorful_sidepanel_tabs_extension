@@ -228,5 +228,6 @@
   "shortName": "Enw byr",
   "expandIcons": "Ehangu Eiconau",
   "expandList": "Ehangu rhestr",
-  "openAllUrls": "Agor Pob URL"
+  "openAllUrls": "Agor Pob URL",
+  "switchPIP": "Newid Llun-mewn-Llun"
 }

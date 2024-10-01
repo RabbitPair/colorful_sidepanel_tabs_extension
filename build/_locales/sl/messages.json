@@ -130,5 +130,132 @@
   },
   "group_internalSystems": {
     "message": "Notranji sistemi"
+  },
+  "switchPIP": {
+    "message": "Preklopi na sliko v sliki"
+  },
+  "play": {
+    "message": "Predvajaj"
+  },
+  "pause": {
+    "message": "Premor"
+  },
+  "shortcut_play_pause": {
+    "message": "Predvajaj/Premor video"
+  },
+  "shortcut_adjust_volume": {
+    "message": "Prilagodi glasnost"
+  },
+  "shortcut_mute_unmute": {
+    "message": "Utišaj/Vključi zvok video"
+  },
+  "shortcut_fast_forward_rewind_5": {
+    "message": "Hitro naprej/Nazaj video za 5 sekund"
+  },
+  "shortcut_fast_forward_rewind_10": {
+    "message": "Hitro naprej/Nazaj video za 10 sekund"
+  },
+  "shortcut_fast_forward_rewind": {
+    "message": "Hitro naprej/Nazaj video"
+  },
+  "shortcut_next_video": {
+    "message": "Predvajaj naslednji video"
+  },
+  "shortcut_previous_video": {
+    "message": "Predvajaj prejšnji video"
+  },
+  "shortcut_toggle_captions": {
+    "message": "Pokaži/Skrij podnapise"
+  },
+  "shortcut_toggle_danmaku": {
+    "message": "Pokaži/Skrij komentarje na zaslonu"
+  },
+  "shortcut_toggle_fullscreen": {
+    "message": "Preklopi na celoten zaslon"
+  },
+  "shortcut_playback_speed": {
+    "message": "Prilagodi hitrost predvajanja"
+  },
+  "shortcut_seek_video_start_end": {
+    "message": "Poišči začetek/konec videa"
+  },
+  "shortcut_seek_percentage": {
+    "message": "Poišči odstotek videa"
+  },
+  "shortcut_fit_to_screen": {
+    "message": "Prilagodi okno velikosti videa"
+  },
+  "shortcut_exit_pip": {
+    "message": "Izhod iz načina Slika v sliki"
+  },
+  "shortcut_toggle_hide_show": {
+    "message": "Preklopi skrij/pokaži video in predvajaj/premor"
+  },
+  "shortcut_enter_pip": {
+    "message": "Preklopi na način Slika v sliki s glavne strani"
+  },
+  "mute": {
+    "message": "Utišaj"
+  },
+  "unmute": {
+    "message": "Vključi zvok"
+  },
+  "prev_video": {
+    "message": "Prejšnji video"
+  },
+  "next_video": {
+    "message": "Naslednji video"
+  },
+  "playbackRate": {
+    "message": "Hitrost predvajanja"
+  },
+  "subtitles": {
+    "message": "Podnapisi"
+  },
+  "close_captions": {
+    "message": "Zaprti napisi"
+  },
+  "danmaku": {
+    "message": "Komentarji na zaslonu"
+  },
+  "fit_to_screen": {
+    "message": "Prilagodi zaslonu"
+  },
+  "reload_video": {
+    "message": "Ponovno naloži video"
+  },
+  "loading_pip_config": {
+    "message": "Nalaganje konfiguracij slike v sliki..."
+  },
+  "playing_in_pip_mode": {
+    "message": "Predvajanje v načinu slike v sliki"
+  },
+  "detecting_pip_subtitle_settings": {
+    "message": "Zaznavanje nastavitev podnapisov za sliko v sliki..."
+  },
+  "video_not_detected": {
+    "message": "Video ni zaznan. Morda še ni pripravljen. Če je na strani video, kliknite predvajaj in poskusite znova."
+  },
+  "pip_window_restriction": {
+    "message": "Napredno okno slike v sliki je mogoče odpreti samo s glavne strani in ga ni mogoče zagnati iz okvirjev ali vdelane vsebine. Uporabite lahko standardni način slike v sliki ali odprite v novem zavihku, da poskusite znova. Upoštevajte, da se video morda ne bo pravilno naložil v novem zavihku.",
+    "description": "Izvajanje 'requestWindow' na 'DocumentPictureInPicture' ni uspelo: Odprtje okna PiP je dovoljeno samo iz konteksta brskanja na najvišji ravni"
+  },
+  "use_standard_pip": {
+    "message": "Uporabi standardni PiP",
+    "description": "Možnost uporabe standardnega načina slike v sliki"
+  },
+  "open_in_new_tab": {
+    "message": "Odpri v novem zavihku",
+    "description": "Možnost odpiranja strani v novem zavihku"
+  },
+  "remember_site_pip_restriction_choice": {
+    "message": "Zapomni si nastavitve te strani (Lahko jih spremenite v Možnosti - Nastavitve strani)"
+  },
+  "pip_user_activation_required": {
+    "message": "Način slike v sliki zahteva interakcijo uporabnika. Kliknite ali komunicirajte s stranjo in poskusite znova.",
+    "description": "Izvajanje 'requestWindow' na 'DocumentPictureInPicture' ni uspelo: Dokument PiP zahteva aktivacijo uporabnika"
+  },
+  "retry_action": {
+    "message": "Poskusi znova"
   }
 }

@@ -241,5 +241,6 @@
   "shortName": "संक्षिप्त नाम",
   "expandIcons": "आइकन विस्तारित करें",
   "expandList": "सूची विस्तारित करें",
-  "openAllUrls": "सभी URL खोलें"
+  "openAllUrls": "सभी URL खोलें",
+  "switchPIP": "पिक्चर-इन-पिक्चर स्विच करें"
 }

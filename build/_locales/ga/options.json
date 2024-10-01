@@ -136,6 +136,7 @@
         "sortBy": "Sórtáil De réir",
         "createTabPanel": "Cruthaigh Painéal Cluaisíní",
         "tabPanels": "Painéil Cluaisíní",
+        "switchPIP": "Athraigh Pictiúr-i-bPictiúr",
         "pinToToolbarReminder": "Déan an síneadh a phionáil ar do bharra uirlisí sula mbainfidh tú an nascleanúint seo."
       },
       "buttonPosition": {
@@ -377,7 +378,8 @@
       "alert": "Is le haghaidh taispeántais amháin an leathanach seo. Chun giorrúcháin a athrú, téigh chuig [Breiseáin]->[Bainistigh Breiseáin]->[Giorrúcháin Boscaíochta]",
       "goToBrowserSettings": "Téigh chuig socruithe Chrome",
       "_execute_action": "Gníomhú ar an bhfheidhmíocht seo",
-      "openSidePanel": "Oscail painéal taobh"
+      "openSidePanel": "Oscail painéal taobh",
+      "switchPIP": "Athraigh Íomhá sa Phíosa"
     },
     "picture_in_picture": {
       "Picture-in-picture": "Íomhá sa phíosa",
@@ -392,6 +394,22 @@
         "description": "Má tá an leathanach reatha ag seinm físeáin agus níl an físeán dána agus tá an físeán lasmuigh den raon radhairc nuair a scrolláiltear, iontrálfar íomhá sa phíosa.",
         "enabled": "Cumasaithe",
         "disabled": "Díchumasaithe"
+      },
+      "tabSwitchPipBackground": {
+        "label": "Íomhá sa Phíosa Uathoibríoch ar Athrú Cluaisíní gan an Painéal Taobh a Oscailt",
+        "description": "Má tá an leathanach reatha ag seinm físeáin agus mura bhfuil an físeán díchumasaigh, cuir íomhá sa phíosa uathoibríoch ar athrú cluaisíní gan an painéal taobh a oscailt. Tabhair faoi deara go bhfuil gá le gníomhachtú úsáideora don ghné seo (m.sh., cliceáil an luch ar limistéar bán den leathanach)."
+      },
+      "advancedPipEnable": {
+        "label": "Cumasaigh Íomhá sa Phíosa Ardleibhéil",
+        "description": "Nuair a chumasaítear é, tabharfar tosaíocht d'Íomhá sa Phíosa Ardleibhéil. Mura dtacaíonn an leathanach leis, úsáidfear Íomhá sa Phíosa rialta.\nÚsáideann Íomhá sa Phíosa Ardleibhéil imreoir físe saincheaptha, ag tairiscint gnéithe mar:\n * Físeán Seinn/Sos (Spás)\n * Coigeartaigh toirt (Saighead Suas/Síos)\n * Físeán Múch/Díchumasaigh\n * Físeán Ar Aghaidh Tapa/Ar Ais (Saighead Clé/Deas nó Roth Luchóg)\n * Seinn an chéad fhíseán eile\n * Taispeáin fotheidil (tacaíocht ar roinnt suíomhanna, m.sh., youtube.com, vimeo.com, tver.jp, srl.)\n * Taispeáin barraige (tacaíocht ar roinnt suíomhanna, m.sh., nicovideo.jp, bilibili.com, srl.)\n * Scoir Íomhá sa Phíosa (Esc)\n * Athraigh físeán a cheilt/taispeáin agus seinn/sos (Q)\n >Má thacaíonn na suíomhanna a dtugann tú cuairt orthu go minic le fotheidil nó barraige, is féidir leat [ceist: Íomhá sa Phíosa Ardleibhéil](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) a chur isteach, agus déanfaimid é a oiriúnú chomh luath agus is féidir. Tabhair faoi deara go bhféadfadh srianta réigiúnacha a bheith ag roinnt suíomhanna, agus b'fhéidir go mbeidh ort faisnéis bhreise a sholáthar."
+      },
+      "subtitleDetection": {
+        "label": "Cumasaigh Brath Fotheidil",
+        "description": "Mura bhfuil cumraíocht Íomhá sa Phíosa ag an suíomh reatha, lig don chlár iarracht a dhéanamh eilimintí fotheidil a bhrath go huathoibríoch agus iad a chur leis an imreoir Íomhá sa Phíosa. Is gné éagobhsaí é seo agus b'fhéidir nach n-aithneoidh sé na heilimintí fotheidil cearta i gcónaí. Má tá tú gairmiúil, is féidir leat cumraíochtaí eilimintí fotheidil a chur leis i socruithe an tsuímh."
+      },
+      "continuousPlayback": {
+        "label": "Cumasaigh Seinn Leanúnach",
+        "description": "Seinn leanúnach: Ní dhúnann an fhuinneog Íomhá sa Phíosa agus seinntear an chéad eipeasóid eile go huathoibríoch tar éis don fhíseán críochnú. Tá tacaíocht láithreán gréasáin ag teastáil don ghné seo."
       }
     },
     "userActivitionAlert": {
@@ -613,6 +631,25 @@
       "fontColor": {
         "label": "Dath an Fhoclóra",
         "description": "Socraigh dath an fhoclóra don suíomh seo."
+      },
+      "pipRestrictionAction": {
+        "label": "Gníomh Srian Picture-in-Picture",
+        "description": "Ní féidir fuinneog Picture-in-Picture ardleibhéil a oscailt ach ón bpríomhleathanach agus ní féidir í a sheoladh ó fhrámaí nó ábhar leabaithe. Is féidir leat modh caighdeánach Picture-in-Picture a úsáid nó oscailt i gcluaisín nua chun iarracht a dhéanamh arís. Tabhair faoi deara nach bhféadfadh an físeán luchtú i gceart i gcluaisín nua.",
+        "default": "Réamhshocrú",
+        "use_standard_pip": "Úsáid Picture-in-Picture caighdeánach",
+        "open_in_new_tab": "Oscail i gcluaisín nua"
+      },
+      "autoEnterPictureInPicture": {
+        "label": "Iontráil Picture-in-Picture go huathoibríoch",
+        "description": "Iontráil modh Picture-in-Picture go huathoibríoch nuair a bhíonn físeán i láthair agus tú ag dul isteach ar an leathanach. Mar gheall ar theorainneacha an chórais, teastaíonn idirghníomhaíocht úsáideora leis an leathanach."
+      },
+      "captionSetting": {
+        "label": "Socruithe Fotheideal",
+        "description": "Cumraigh na roghnóirí CSS don eilimint fotheideal agus a tuismitheoir ar an leathanach. Úsáidtear an roghnóir CSS don eilimint fotheideal chun fotheidil a thaispeáint sa seinnteoir, agus úsáidtear an roghnóir tuismitheora chun na fotheidil a thabhairt ar ais go dtí an leathanach bunaidh nuair a fhágann tú modh Picture-in-Picture.",
+        "configure": "Cumraigh",
+        "selectorDesc": "Áirítear roghnóirí coitianta: '.class' do roghnóirí rang, '#id' do roghnóirí ID, 'tag' do roghnóirí clibe, agus '[attribute=value]' do roghnóirí tréithe. Le haghaidh tuilleadh sonraí, tabhair cuairt ar: [Roghanna CSS - CSS: Bileoga Stíle Cascáideacha - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)",
+        "captionSelector": "Roghanna CSS don eilimint fotheideal",
+        "captionParentSelectorDesc": "Roghanna CSS do thuismitheoir na heiliminte fotheideal"
       }
     },
     "quickAccess": {
