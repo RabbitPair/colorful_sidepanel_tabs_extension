@@ -7,6 +7,19 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 
+- Fixed the issue where danmaku (bullet comments) would stop or disappear on some websites after switching pages (page hide event)
+- hide HTML5 video controls
+
+----
+## [2.10.1] - 2024-10-05
+
+### Fixed
+- Fixed the issue where shortcut events were triggered repeatedly when playing multiple videos consecutively
+- Fixed an issue where the player failed to restore in certain situations
+- Fixed the issue where the playback progress bar did not work properly when using Picture-in-Picture mode
+- Fixed the issue where switching tabs would trigger a Picture-in-Picture detection toast after navigating from a page with a video to a page without a video in the same tab.
+- Fixed the issue where the Picture-in-Picture window did not close when exiting Picture-in-Picture mode using jwPlayer
+- Fixed the issue where an incorrect address caused the page to crash when setting a background image
 
 ----
 
