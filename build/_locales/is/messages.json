@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Reyna aftur"
+  },
+  "shortcuts": {
+    "message": "Flýtileiðir"
+  },
+  "countdown_refresh": {
+    "message": "Niðurteljari endurhlaða"
   }
 }

@@ -298,6 +298,23 @@
         "label": "Afișați indexul filei",
         "description": "Când este activat, indexul filei va fi afișat lângă titlu, făcând ușor activarea filei folosind [Ctrl+număr] pe Windows sau [cmd+număr] pe Mac. Exemplu: 1. stackoverflow.com 2. youtube, astfel încât să fie ușor să faceți Ctrl + 2 pe Windows sau cmd + 2 pe Mac pentru a merge la youtube"
       },
+      "showGroupTabCount": {
+        "label": "Afișați numărul de file din grup",
+        "description": "Când este activat, numărul de file din fiecare grup va fi afișat lângă numele grupului."
+      },
+      "tabTitleMulitLines": {
+        "label": "Numărul maxim de linii pentru titlul filei",
+        "description": "Setați numărul maxim de linii pentru afișarea titlurilor filelor. Liniile suplimentare vor fi ascunse."
+      },
+      "groupTitleMulitLines": {
+        "label": "Numărul maxim de linii pentru titlul grupului",
+        "description": "Setați numărul maxim de linii pentru afișarea titlurilor grupurilor. Liniile suplimentare vor fi ascunse."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lățimea titlului grupului colapsat",
+        "description": "Setați lățimea titlului grupului când grupul este colapsat.",
+        "reset": "Resetați"
+      },
       "tabHistoryEnable": {
         "label": "Istoricul filelor",
         "description": "Când este activat, istoricul site-urilor web deschise în aceeași filă va fi afișat."
@@ -621,6 +638,74 @@
         "target_top": "Fila cea mai de sus",
         "save": "Salvează",
         "close": "Închide"
+      },
+      "linkOpenOptions": {
+        "label": "Setări deschidere link",
+        "description": "Setați modul în care linkurile se deschid pe acest site",
+        "configure": "Configurează",
+        "listTips": "Trageți pentru a reordona. Regulile de sus se aplică mai întâi.",
+        "linkMatchContent": "Model link",
+        "linkMatchContentTips": "Utilizați '*' pentru orice caractere, '?' pentru unul. Suportă expresii regulate.",
+        "linkOpenMethod": "Deschide în",
+        "edit": "Editează",
+        "delete": "Șterge",
+        "target_self": "Fila curentă",
+        "target_blank": "Filă nouă",
+        "target_parent": "Fila părinte",
+        "target_top": "Fila de sus",
+        "save": "Salvează",
+        "close": "Închide",
+        "internalLinks": "Linkuri interne",
+        "externalLinks": "Linkuri externe",
+        "imageLinks": "Imagini",
+        "pdfLinks": "PDF-uri",
+        "socialMediaLinks": "Rețele sociale"
+      },
+      "linkRefreshOptions": {
+        "label": "Reîmprospătare automată linkuri",
+        "description": "Configurați reîmprospătarea automată pentru linkuri specifice",
+        "configure": "Configurează",
+        "listTips": "Trageți pentru a reordona. Se aplică doar prima regulă potrivită.",
+        "linkMatchContent": "Model link",
+        "linkMatchContentTips": "Utilizați '*' pentru orice caractere, '?' pentru unul. Suportă expresii regulate.",
+        "edit": "Editează",
+        "delete": "Șterge",
+        "save": "Salvează",
+        "close": "Închide",
+        "refreshInterval": "Interval reîmprospătare (minute)",
+        "disabled": "Dezactivat"
+      },
+      "pageKeepAlive": {
+        "label": "Menține pagina activă",
+        "description": "Menține pagina activă și împiedică browserul să o suspende automat când este în fundal."
+      },
+      "incognito": {
+        "label": "Navigare privată",
+        "description": "Șterge datele site-ului selectate după fiecare vizită. Utilizați 'Configurează' pentru a alege ce să ștergeți. Poate afecta experiența de navigare.",
+        "configure": "Configurează",
+        "configureDescription": "Vă rugăm să selectați caracteristicile de șters",
+        "cache": "Cache",
+        "cacheStorage": "Stocare cache",
+        "cookies": "Cookie-uri",
+        "skipAccountCookies": "Păstrați cookie-urile contului",
+        "history": "Istoric",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Stocare locală",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Avertisment: Ștergerea cookie-urilor afectează toate subdomeniile și vă poate deconecta.",
+        "warningTitle": "Avertisment",
+        "warningMessage": "Aceasta va șterge toate datele site-ului, inclusiv autentificările. Continuați?",
+        "selectAll": "Selectează tot",
+        "cancel": "Anulează",
+        "confirm": "Confirmă"
+      },
+      "autoJoinGroup": {
+        "label": "Alăturare automată grup",
+        "description": "Alăturați-vă sau creați automat un grup pentru acest site.",
+        "configure": "Configurează",
+        "groupName": "Nume grup",
+        "save": "Salvează"
       },
       "backgroundColor": {
         "label": "Culoare de fundal",

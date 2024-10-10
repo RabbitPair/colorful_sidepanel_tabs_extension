@@ -298,6 +298,23 @@
         "label": "탭 인덱스 표시",
         "description": "활성화되면 탭 제목 옆에 탭 인덱스가 표시되어 Windows에서는 [Ctrl+숫자], Mac에서는 [cmd+숫자]를 사용하여 탭을 쉽게 활성화할 수 있습니다. 예: 1. stackoverflow.com 2. youtube, 따라서 Windows에서는 Ctrl + 2, Mac에서는 cmd + 2를 눌러 youtube로 이동할 수 있습니다."
       },
+      "showGroupTabCount": {
+        "label": "그룹 탭 수 표시",
+        "description": "활성화되면 각 그룹의 탭 수가 그룹 이름 옆에 표시됩니다."
+      },
+      "tabTitleMulitLines": {
+        "label": "탭 제목 최대 줄 수",
+        "description": "탭 제목에 표시할 최대 줄 수를 설정합니다. 추가 줄은 숨겨집니다."
+      },
+      "groupTitleMulitLines": {
+        "label": "그룹 제목 최대 줄 수",
+        "description": "그룹 제목에 표시할 최대 줄 수를 설정합니다. 추가 줄은 숨겨집니다."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "그룹 축소 제목 너비",
+        "description": "그룹이 축소될 때 그룹 제목의 너비를 설정합니다.",
+        "reset": "재설정"
+      },
       "tabHistoryEnable": {
         "label": "탭 기록",
         "description": "활성화되면 동일한 탭에서 열었던 웹사이트의 기록이 표시됩니다."
@@ -621,6 +638,74 @@
         "target_top": "최상위 탭",
         "save": "저장",
         "close": "닫기"
+      },
+      "linkOpenOptions": {
+        "label": "링크 열기 설정",
+        "description": "이 사이트에서 링크가 열리는 방식을 설정합니다.",
+        "configure": "설정",
+        "listTips": "드래그하여 순서를 변경하세요. 상단 규칙이 먼저 적용됩니다.",
+        "linkMatchContent": "링크 패턴",
+        "linkMatchContentTips": "'*'는 모든 문자, '?'는 하나의 문자를 나타냅니다. 정규 표현식을 지원합니다.",
+        "linkOpenMethod": "열기 방법",
+        "edit": "편집",
+        "delete": "삭제",
+        "target_self": "현재 탭",
+        "target_blank": "새 탭",
+        "target_parent": "부모 탭",
+        "target_top": "최상위 탭",
+        "save": "저장",
+        "close": "닫기",
+        "internalLinks": "내부 링크",
+        "externalLinks": "외부 링크",
+        "imageLinks": "이미지",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "소셜 미디어"
+      },
+      "linkRefreshOptions": {
+        "label": "링크 자동 새로고침",
+        "description": "특정 링크에 대한 자동 새로고침을 설정합니다.",
+        "configure": "설정",
+        "listTips": "드래그하여 순서를 변경하세요. 첫 번째 일치하는 규칙만 적용됩니다.",
+        "linkMatchContent": "링크 패턴",
+        "linkMatchContentTips": "'*'는 모든 문자, '?'는 하나의 문자를 나타냅니다. 정규 표현식을 지원합니다.",
+        "edit": "편집",
+        "delete": "삭제",
+        "save": "저장",
+        "close": "닫기",
+        "refreshInterval": "새로고침 간격 (분)",
+        "disabled": "비활성화됨"
+      },
+      "pageKeepAlive": {
+        "label": "페이지 활성 유지",
+        "description": "페이지를 활성 상태로 유지하고 백그라운드에서 브라우저가 자동으로 일시 중지하지 않도록 합니다."
+      },
+      "incognito": {
+        "label": "개인 브라우징",
+        "description": "각 방문 후 선택한 사이트 데이터를 지웁니다. '설정'을 사용하여 지울 항목을 선택하세요. 브라우징 경험에 영향을 미칠 수 있습니다.",
+        "configure": "설정",
+        "configureDescription": "지울 기능을 선택하세요",
+        "cache": "캐시",
+        "cacheStorage": "캐시 스토리지",
+        "cookies": "쿠키",
+        "skipAccountCookies": "계정 쿠키 유지",
+        "history": "기록",
+        "indexedDB": "IndexedDB",
+        "localStorage": "로컬 스토리지",
+        "serviceWorkers": "서비스 워커",
+        "webSQL": "웹 SQL",
+        "cookieWarning": "경고: 쿠키를 삭제하면 모든 하위 도메인에 영향을 미치며 로그아웃될 수 있습니다.",
+        "warningTitle": "경고",
+        "warningMessage": "이 작업은 모든 사이트 데이터를 지우며, 로그인 정보도 포함됩니다. 계속하시겠습니까?",
+        "selectAll": "모두 선택",
+        "cancel": "취소",
+        "confirm": "확인"
+      },
+      "autoJoinGroup": {
+        "label": "자동 그룹 참여",
+        "description": "이 사이트에 대해 자동으로 그룹에 참여하거나 그룹을 생성합니다.",
+        "configure": "설정",
+        "groupName": "그룹 이름",
+        "save": "저장"
       },
       "backgroundColor": {
         "label": "배경색",

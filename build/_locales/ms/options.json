@@ -298,6 +298,23 @@
         "label": "Tunjukkan indeks tab",
         "description": "Apabila diaktifkan, indeks tab akan dipaparkan di sebelah tajuk, memudahkan untuk mengaktifkan tab menggunakan [Ctrl+number] pada Windows atau [cmd+number] pada Mac. Contoh: 1. stackoverflow.com 2. youtube, jadi mudah untuk melakukan Ctrl + 2 pada Windows atau cmd + 2 pada Mac untuk pergi ke youtube"
       },
+      "showGroupTabCount": {
+        "label": "Tunjukkan bilangan tab kumpulan",
+        "description": "Apabila diaktifkan, bilangan tab dalam setiap kumpulan akan dipaparkan di sebelah nama kumpulan."
+      },
+      "tabTitleMulitLines": {
+        "label": "Baris maks tajuk tab",
+        "description": "Tetapkan bilangan maksimum baris untuk dipaparkan bagi tajuk tab. Baris tambahan akan disembunyikan."
+      },
+      "groupTitleMulitLines": {
+        "label": "Baris maks tajuk kumpulan",
+        "description": "Tetapkan bilangan maksimum baris untuk dipaparkan bagi tajuk kumpulan. Baris tambahan akan disembunyikan."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lebar tajuk kumpulan yang dikecilkan",
+        "description": "Tetapkan lebar tajuk kumpulan apabila kumpulan dikecilkan.",
+        "reset": "Tetapkan semula"
+      },
       "tabHistoryEnable": {
         "label": "Sejarah tab",
         "description": "Apabila diaktifkan, sejarah laman web yang dibuka dalam tab yang sama akan dipaparkan."
@@ -621,6 +638,74 @@
         "target_top": "Tab Paling Atas",
         "save": "Simpan",
         "close": "Tutup"
+      },
+      "linkOpenOptions": {
+        "label": "Tetapan Pembukaan Pautan",
+        "description": "Tetapkan cara pautan dibuka di laman ini",
+        "configure": "Konfigurasi",
+        "listTips": "Seret untuk menyusun semula. Peraturan teratas digunakan terlebih dahulu.",
+        "linkMatchContent": "Pola Pautan",
+        "linkMatchContentTips": "Gunakan '*' untuk sebarang aksara, '?' untuk satu. Menyokong regex.",
+        "linkOpenMethod": "Buka Dalam",
+        "edit": "Sunting",
+        "delete": "Padam",
+        "target_self": "Tab Semasa",
+        "target_blank": "Tab Baru",
+        "target_parent": "Tab Induk",
+        "target_top": "Tab Paling Atas",
+        "save": "Simpan",
+        "close": "Tutup",
+        "internalLinks": "Pautan Dalaman",
+        "externalLinks": "Pautan Luaran",
+        "imageLinks": "Imej",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Media Sosial"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Penyegaran Pautan",
+        "description": "Tetapkan auto-penyegaran untuk pautan tertentu",
+        "configure": "Konfigurasi",
+        "listTips": "Seret untuk menyusun semula. Hanya peraturan padanan pertama digunakan.",
+        "linkMatchContent": "Pola Pautan",
+        "linkMatchContentTips": "Gunakan '*' untuk sebarang aksara, '?' untuk satu. Menyokong regex.",
+        "edit": "Sunting",
+        "delete": "Padam",
+        "save": "Simpan",
+        "close": "Tutup",
+        "refreshInterval": "Selang Penyegaran (Minit)",
+        "disabled": "Mati"
+      },
+      "pageKeepAlive": {
+        "label": "Kekalkan Halaman Aktif",
+        "description": "Kekalkan halaman aktif dan menghalang pelayar daripada menggantungnya secara automatik apabila di latar belakang."
+      },
+      "incognito": {
+        "label": "Pelayaran Peribadi",
+        "description": "Kosongkan data laman terpilih selepas setiap lawatan. Gunakan 'Konfigurasi' untuk memilih apa yang hendak dikosongkan. Mungkin menjejaskan pengalaman pelayaran anda.",
+        "configure": "Konfigurasi",
+        "configureDescription": "Sila pilih ciri untuk dikosongkan",
+        "cache": "Cache",
+        "cacheStorage": "Storan Cache",
+        "cookies": "Kuki",
+        "skipAccountCookies": "Simpan Kuki Akaun",
+        "history": "Sejarah",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Storan Tempatan",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Amaran: Memadamkan kuki menjejaskan semua subdomain dan mungkin log keluar anda.",
+        "warningTitle": "Amaran",
+        "warningMessage": "Ini akan memadamkan semua data laman, termasuk log masuk. Teruskan?",
+        "selectAll": "Pilih Semua",
+        "cancel": "Batal",
+        "confirm": "Sahkan"
+      },
+      "autoJoinGroup": {
+        "label": "Auto-Sertai Kumpulan",
+        "description": "Secara automatik menyertai atau mencipta kumpulan untuk laman ini.",
+        "configure": "Tetapkan",
+        "groupName": "Nama Kumpulan",
+        "save": "Simpan"
       },
       "backgroundColor": {
         "label": "Warna Latar Belakang",

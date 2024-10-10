@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Încercați din nou"
+  },
+  "shortcuts": {
+    "message": "scurtături"
+  },
+  "countdown_refresh": {
+    "message": "Reîmprospătare numărătoare inversă"
   }
 }

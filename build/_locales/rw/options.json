@@ -298,6 +298,23 @@
         "label": "Erekana urutonde rwa tab",
         "description": "Iyo yemejwe, urutonde rwa tab ruzerekanwa iruhande rw'izina, bigatuma byoroha guhitamo tab ukoresheje [Ctrl+number] kuri Windows cyangwa [cmd+number] kuri Mac. Urugero: 1. stackoverflow.com 2. youtube, bityo byoroheye gukora Ctrl + 2 kuri Windows cyangwa cmd + 2 kuri Mac kugirango ujye kuri youtube"
       },
+      "showGroupTabCount": {
+        "label": "Erekana umubare wa tab mu itsinda",
+        "description": "Iyo yemejwe, umubare wa tab muri buri tsinda uzerekanwa iruhande rw'izina ry'itsinda."
+      },
+      "tabTitleMulitLines": {
+        "label": "Umubare ntarengwa w'imirongo y'izina rya tab",
+        "description": "Shyiraho umubare ntarengwa w'imirongo yo kwerekana ku mazina ya tab. Imirongo y'inyongera izahishwa."
+      },
+      "groupTitleMulitLines": {
+        "label": "Umubare ntarengwa w'imirongo y'izina ry'itsinda",
+        "description": "Shyiraho umubare ntarengwa w'imirongo yo kwerekana ku mazina y'amatsinda. Imirongo y'inyongera izahishwa."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Ubugari bw'izina ry'itsinda ryegeranye",
+        "description": "Shyiraho ubugari bw'izina ry'itsinda iyo itsinda ryegeranye.",
+        "reset": "Subiramo"
+      },
       "tabHistoryEnable": {
         "label": "Amateka ya tab",
         "description": "Iyo yemejwe, amateka y'imbuga zafunguwe muri tab imwe azerekanwa."
@@ -621,6 +638,74 @@
         "target_top": "Tab yo hejuru cyane",
         "save": "Bika",
         "close": "Funga"
+      },
+      "linkOpenOptions": {
+        "label": "Guhitamo Gufungura Link",
+        "description": "Shyiraho uburyo links zigomba gufungurwa kuri uru rubuga",
+        "configure": "Shyiraho",
+        "listTips": "Kanda hanyuma ukure hasi cyangwa hejuru kugirango utegure. Amategeko yo hejuru ashyirwa imbere.",
+        "linkMatchContent": "Imiterere ya Link",
+        "linkMatchContentTips": "Koresha '*' ku nyuguti zose, '?' ku nyuguti imwe. Byemera regex.",
+        "linkOpenMethod": "Fungura Muri",
+        "edit": "Hindura",
+        "delete": "Siba",
+        "target_self": "Tab iriho",
+        "target_blank": "Tab nshya",
+        "target_parent": "Tab y'Umubyeyi",
+        "target_top": "Tab yo hejuru cyane",
+        "save": "Bika",
+        "close": "Funga",
+        "internalLinks": "Links z'imbere",
+        "externalLinks": "Links zo hanze",
+        "imageLinks": "Amashusho",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Imbuga nkoranyambaga"
+      },
+      "linkRefreshOptions": {
+        "label": "Links zisubiramo zonyine",
+        "description": "Shyiraho uburyo bwo gusubiramo links z'imbere",
+        "configure": "Shyiraho",
+        "listTips": "Kanda hanyuma ukure hasi cyangwa hejuru kugirango utegure. Itegeko rya mbere rihuye naryo gusa niryo rishyirwa mu bikorwa.",
+        "linkMatchContent": "Imiterere ya Link",
+        "linkMatchContentTips": "Koresha '*' ku nyuguti zose, '?' ku nyuguti imwe. Byemera regex.",
+        "edit": "Hindura",
+        "delete": "Siba",
+        "save": "Bika",
+        "close": "Funga",
+        "refreshInterval": "Igihe cyo Gusubiramo (Iminota)",
+        "disabled": "Byafunzwe"
+      },
+      "pageKeepAlive": {
+        "label": "Gumana Ipaji Ikora",
+        "description": "Igumana ipaji ikora kandi ikabuza umubrowse kuyihagarika iyo iri mu gice cy'inyuma."
+      },
+      "incognito": {
+        "label": "Kugenzura mu ibanga",
+        "description": "Siba amakuru y'urubuga nyuma y'uko usuye buri gihe. Koresha 'Shyiraho' kugirango uhitemo ibyo gusiba. Bishobora kugira ingaruka ku buryo bwo kugenzura.",
+        "configure": "Shyiraho",
+        "configureDescription": "Nyamuneka hitamo ibiranga byo gusiba",
+        "cache": "Cache",
+        "cacheStorage": "Ububiko bwa Cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Gumana Cookies z'Konti",
+        "history": "Amateka",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Ububiko bw'aho",
+        "serviceWorkers": "Abakozi ba Serivisi",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Warning: Gusiba cookies bigira ingaruka ku madosiye yose kandi bishobora kugukura muri konti.",
+        "warningTitle": "Warning",
+        "warningMessage": "Ibi bizasiba amakuru yose y'urubuga, harimo na logins. Gukomeza?",
+        "selectAll": "Hitamo Byose",
+        "cancel": "Hagarika",
+        "confirm": "Emeza"
+      },
+      "autoJoinGroup": {
+        "label": "Kwiyunga mu Itsinda byikora",
+        "description": "Kwiyunga cyangwa gukora itsinda kuri uru rubuga byikora.",
+        "configure": "Shyiraho",
+        "groupName": "Izina ry'Itsinda",
+        "save": "Bika"
       },
       "backgroundColor": {
         "label": "Icyiciro cy'Umurongo",

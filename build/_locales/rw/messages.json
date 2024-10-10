@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Gerageza Kongera"
+  },
+  "shortcuts": {
+    "message": "inzira ngufi"
+  },
+  "countdown_refresh": {
+    "message": "Gusubiramo Igihe"
   }
 }

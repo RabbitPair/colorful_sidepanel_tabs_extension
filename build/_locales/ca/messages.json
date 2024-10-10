@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Torna a intentar-ho"
+  },
+  "shortcuts": {
+    "message": "Dreceres"
+  },
+  "countdown_refresh": {
+    "message": "Actualització de compte enrere"
   }
 }

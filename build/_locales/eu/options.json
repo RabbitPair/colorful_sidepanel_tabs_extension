@@ -298,6 +298,23 @@
         "label": "Erakutsi fitxen indizea",
         "description": "Gaituta dagoenean, fitxen indizea izenburuaren ondoan erakutsiko da, fitxa aktibatzea erraza izan dadin [Ctrl+zenbakia] erabiliz Windows-en edo [cmd+zenbakia] Mac-en. Adibidez: 1. stackoverflow.com 2. youtube, beraz, erraza da Ctrl + 2 Windows-en edo cmd + 2 Mac-en youtube-ra joateko"
       },
+      "showGroupTabCount": {
+        "label": "Erakutsi taldeko fitxen kopurua",
+        "description": "Gaituta dagoenean, talde bakoitzeko fitxen kopurua taldearen izenaren ondoan erakutsiko da."
+      },
+      "tabTitleMulitLines": {
+        "label": "Fitxen izenburuaren lerro maximoak",
+        "description": "Ezarri fitxen izenburuak erakusteko lerro maximoa. Lerro gehigarriak ezkutatuko dira."
+      },
+      "groupTitleMulitLines": {
+        "label": "Taldearen izenburuaren lerro maximoak",
+        "description": "Ezarri taldearen izenburuak erakusteko lerro maximoa. Lerro gehigarriak ezkutatuko dira."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Talde kolapsatutako izenburuaren zabalera",
+        "description": "Ezarri taldearen izenburuaren zabalera taldea kolapsatuta dagoenean.",
+        "reset": "Berrezarri"
+      },
       "tabHistoryEnable": {
         "label": "Fitxen historia",
         "description": "Gaituta dagoenean, fitxa berean irekitako webguneen historia erakutsiko da."
@@ -621,6 +638,74 @@
         "target_top": "Goiko Fitxa",
         "save": "Gorde",
         "close": "Itxi"
+      },
+      "linkOpenOptions": {
+        "label": "Estekak Irekitzeko Ezarpenak",
+        "description": "Ezarri nola irekitzen diren estekak gune honetan",
+        "configure": "Konfiguratu",
+        "listTips": "Arrastatu berrantolatzeko. Goiko arauak lehenik aplikatzen dira.",
+        "linkMatchContent": "Esteka Eredua",
+        "linkMatchContentTips": "Erabili '*' edozein karakteretarako, '?' batentzat. Regex onartzen du.",
+        "linkOpenMethod": "Ireki Honetan",
+        "edit": "Editatu",
+        "delete": "Ezabatu",
+        "target_self": "Uneko Fitxa",
+        "target_blank": "Fitxa Berria",
+        "target_parent": "Guraso Fitxa",
+        "target_top": "Goiko Fitxa",
+        "save": "Gorde",
+        "close": "Itxi",
+        "internalLinks": "Barne Estekak",
+        "externalLinks": "Kanpo Estekak",
+        "imageLinks": "Irudiak",
+        "pdfLinks": "PDFak",
+        "socialMediaLinks": "Sare Sozialak"
+      },
+      "linkRefreshOptions": {
+        "label": "Estekak Automatikoki Freskatu",
+        "description": "Konfiguratu esteka zehatzak automatikoki freskatzeko",
+        "configure": "Konfiguratu",
+        "listTips": "Arrastatu berrantolatzeko. Lehenengo bat datorren araua bakarrik aplikatzen da.",
+        "linkMatchContent": "Esteka Eredua",
+        "linkMatchContentTips": "Erabili '*' edozein karakteretarako, '?' batentzat. Regex onartzen du.",
+        "edit": "Editatu",
+        "delete": "Ezabatu",
+        "save": "Gorde",
+        "close": "Itxi",
+        "refreshInterval": "Freskatze Tartea (Minutuak)",
+        "disabled": "Desgaituta"
+      },
+      "pageKeepAlive": {
+        "label": "Orria Aktibo Mantendu",
+        "description": "Mantendu orria aktibo eta saihestu nabigatzaileak automatikoki etetea atzealdean dagoenean."
+      },
+      "incognito": {
+        "label": "Nabigazio Pribatua",
+        "description": "Garbitu hautatutako gune datuak bisita bakoitzaren ondoren. Erabili 'Konfiguratu' zer garbitu aukeratzeko. Zure nabigazio esperientzia eragin dezake.",
+        "configure": "Konfiguratu",
+        "configureDescription": "Hautatu garbitzeko ezaugarriak",
+        "cache": "Cache",
+        "cacheStorage": "Cache Biltegia",
+        "cookies": "Cookieak",
+        "skipAccountCookies": "Kontu Cookieak Gorde",
+        "history": "Historia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Tokiko Biltegia",
+        "serviceWorkers": "Zerbitzu Langileak",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Abisua: Cookieak ezabatzeak azpidomeinu guztiak eragiten ditu eta saioa amai dezake.",
+        "warningTitle": "Abisua",
+        "warningMessage": "Honek gune datu guztiak ezabatuko ditu, saioak barne. Jarraitu?",
+        "selectAll": "Hautatu Guztiak",
+        "cancel": "Utzi",
+        "confirm": "Berretsi"
+      },
+      "autoJoinGroup": {
+        "label": "Taldean Automatikoki Sartu",
+        "description": "Automatikoki sartu edo sortu talde bat gune honetarako.",
+        "configure": "Konfiguratu",
+        "groupName": "Taldearen Izena",
+        "save": "Gorde"
       },
       "backgroundColor": {
         "label": "Atzeko Kolorea",

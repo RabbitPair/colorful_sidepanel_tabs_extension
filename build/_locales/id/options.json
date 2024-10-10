@@ -298,6 +298,23 @@
         "label": "Tampilkan indeks tab",
         "description": "Ketika diaktifkan, indeks tab akan ditampilkan di sebelah judul, sehingga mudah untuk mengaktifkan tab menggunakan [Ctrl+nomor] di Windows atau [cmd+nomor] di Mac. Contoh: 1. stackoverflow.com 2. youtube, sehingga mudah untuk melakukan Ctrl + 2 di Windows atau cmd + 2 di Mac untuk pergi ke youtube"
       },
+      "showGroupTabCount": {
+        "label": "Tampilkan jumlah tab grup",
+        "description": "Ketika diaktifkan, jumlah tab di setiap grup akan ditampilkan di sebelah nama grup."
+      },
+      "tabTitleMulitLines": {
+        "label": "Baris maksimum judul tab",
+        "description": "Atur jumlah maksimum baris untuk menampilkan judul tab. Baris tambahan akan disembunyikan."
+      },
+      "groupTitleMulitLines": {
+        "label": "Baris maksimum judul grup",
+        "description": "Atur jumlah maksimum baris untuk menampilkan judul grup. Baris tambahan akan disembunyikan."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lebar judul grup yang disembunyikan",
+        "description": "Atur lebar judul grup saat grup disembunyikan.",
+        "reset": "Atur Ulang"
+      },
       "tabHistoryEnable": {
         "label": "Riwayat tab",
         "description": "Ketika diaktifkan, riwayat situs web yang dibuka di tab yang sama akan ditampilkan."
@@ -621,6 +638,74 @@
         "target_top": "Tab Paling Atas",
         "save": "Simpan",
         "close": "Tutup"
+      },
+      "linkOpenOptions": {
+        "label": "Pengaturan Pembukaan Tautan",
+        "description": "Atur cara tautan dibuka di situs ini",
+        "configure": "Konfigurasi",
+        "listTips": "Seret untuk mengurutkan ulang. Aturan teratas diterapkan terlebih dahulu.",
+        "linkMatchContent": "Pola Tautan",
+        "linkMatchContentTips": "Gunakan '*' untuk karakter apa saja, '?' untuk satu karakter. Mendukung regex.",
+        "linkOpenMethod": "Buka Di",
+        "edit": "Sunting",
+        "delete": "Hapus",
+        "target_self": "Tab Saat Ini",
+        "target_blank": "Tab Baru",
+        "target_parent": "Tab Induk",
+        "target_top": "Tab Paling Atas",
+        "save": "Simpan",
+        "close": "Tutup",
+        "internalLinks": "Tautan Internal",
+        "externalLinks": "Tautan Eksternal",
+        "imageLinks": "Gambar",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Media Sosial"
+      },
+      "linkRefreshOptions": {
+        "label": "Penyegaran Otomatis Tautan",
+        "description": "Atur penyegaran otomatis untuk tautan tertentu",
+        "configure": "Konfigurasi",
+        "listTips": "Seret untuk mengurutkan ulang. Hanya aturan pertama yang cocok yang diterapkan.",
+        "linkMatchContent": "Pola Tautan",
+        "linkMatchContentTips": "Gunakan '*' untuk karakter apa saja, '?' untuk satu karakter. Mendukung regex.",
+        "edit": "Sunting",
+        "delete": "Hapus",
+        "save": "Simpan",
+        "close": "Tutup",
+        "refreshInterval": "Interval Penyegaran (Menit)",
+        "disabled": "Mati"
+      },
+      "pageKeepAlive": {
+        "label": "Jaga Halaman Tetap Aktif",
+        "description": "Menjaga halaman tetap aktif dan mencegah browser secara otomatis menangguhkannya saat di latar belakang."
+      },
+      "incognito": {
+        "label": "Penjelajahan Pribadi",
+        "description": "Menghapus data situs yang dipilih setelah setiap kunjungan. Gunakan 'Konfigurasi' untuk memilih apa yang akan dihapus. Mungkin mempengaruhi pengalaman penjelajahan Anda.",
+        "configure": "Konfigurasi",
+        "configureDescription": "Silakan pilih fitur yang akan dihapus",
+        "cache": "Cache",
+        "cacheStorage": "Penyimpanan Cache",
+        "cookies": "Cookie",
+        "skipAccountCookies": "Simpan Cookie Akun",
+        "history": "Riwayat",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Penyimpanan Lokal",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Peringatan: Menghapus cookie mempengaruhi semua subdomain dan dapat membuat Anda keluar.",
+        "warningTitle": "Peringatan",
+        "warningMessage": "Ini akan menghapus semua data situs, termasuk login. Lanjutkan?",
+        "selectAll": "Pilih Semua",
+        "cancel": "Batal",
+        "confirm": "Konfirmasi"
+      },
+      "autoJoinGroup": {
+        "label": "Bergabung Otomatis dengan Grup",
+        "description": "Secara otomatis bergabung atau membuat grup untuk situs ini.",
+        "configure": "Atur",
+        "groupName": "Nama Grup",
+        "save": "Simpan"
       },
       "backgroundColor": {
         "label": "Warna Latar Belakang",

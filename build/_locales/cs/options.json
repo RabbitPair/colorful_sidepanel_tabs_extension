@@ -298,6 +298,23 @@
         "label": "Zobrazit index karty",
         "description": "Když je povoleno, index karty se zobrazí vedle názvu, což usnadňuje aktivaci karty pomocí [Ctrl+číslo] na Windows nebo [cmd+číslo] na Macu. Příklad: 1. stackoverflow.com 2. youtube, takže je snadné použít Ctrl + 2 na Windows nebo cmd + 2 na Macu pro přechod na youtube"
       },
+      "showGroupTabCount": {
+        "label": "Zobrazit počet karet ve skupině",
+        "description": "Když je povoleno, počet karet v každé skupině se zobrazí vedle názvu skupiny."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maximální počet řádků názvu karty",
+        "description": "Nastavte maximální počet řádků pro zobrazení názvů karet. Další řádky budou skryty."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maximální počet řádků názvu skupiny",
+        "description": "Nastavte maximální počet řádků pro zobrazení názvů skupin. Další řádky budou skryty."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Šířka názvu skupiny při sbalení",
+        "description": "Nastavte šířku názvu skupiny, když je skupina sbalena.",
+        "reset": "Resetovat"
+      },
       "tabHistoryEnable": {
         "label": "Historie karet",
         "description": "Když je povoleno, zobrazí se historie webových stránek otevřených ve stejné kartě."
@@ -621,6 +638,74 @@
         "target_top": "Nejvyšší karta",
         "save": "Uložit",
         "close": "Zavřít"
+      },
+      "linkOpenOptions": {
+        "label": "Nastavení otevírání odkazů",
+        "description": "Nastavte, jak se mají odkazy na tomto webu otevírat",
+        "configure": "Nastavit",
+        "listTips": "Přetáhněte pro změnu pořadí. Pravidla nahoře se použijí jako první.",
+        "linkMatchContent": "Vzor odkazu",
+        "linkMatchContentTips": "Použijte '*' pro libovolné znaky, '?' pro jeden. Podporuje regulární výrazy.",
+        "linkOpenMethod": "Otevřít v",
+        "edit": "Upravit",
+        "delete": "Smazat",
+        "target_self": "Aktuální karta",
+        "target_blank": "Nová karta",
+        "target_parent": "Nadřazená karta",
+        "target_top": "Nejvyšší karta",
+        "save": "Uložit",
+        "close": "Zavřít",
+        "internalLinks": "Interní odkazy",
+        "externalLinks": "Externí odkazy",
+        "imageLinks": "Obrázky",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Sociální média"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatické obnovení odkazů",
+        "description": "Nastavte automatické obnovení pro specifické odkazy",
+        "configure": "Nastavit",
+        "listTips": "Přetáhněte pro změnu pořadí. Pouze první odpovídající pravidlo se použije.",
+        "linkMatchContent": "Vzor odkazu",
+        "linkMatchContentTips": "Použijte '*' pro libovolné znaky, '?' pro jeden. Podporuje regulární výrazy.",
+        "edit": "Upravit",
+        "delete": "Smazat",
+        "save": "Uložit",
+        "close": "Zavřít",
+        "refreshInterval": "Interval obnovení (minuty)",
+        "disabled": "Vypnuto"
+      },
+      "pageKeepAlive": {
+        "label": "Udržet stránku aktivní",
+        "description": "Udržuje stránku aktivní a zabraňuje prohlížeči automaticky ji pozastavit, když je na pozadí."
+      },
+      "incognito": {
+        "label": "Soukromé prohlížení",
+        "description": "Vymaže vybraná data webu po každé návštěvě. Použijte 'Nastavit' pro výběr, co vymazat. Může ovlivnit váš zážitek z prohlížení.",
+        "configure": "Nastavit",
+        "configureDescription": "Vyberte funkce, které chcete vymazat",
+        "cache": "Cache",
+        "cacheStorage": "Úložiště cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Ponechat cookies účtu",
+        "history": "Historie",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Místní úložiště",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Varování: Smazání cookies ovlivní všechny subdomény a může vás odhlásit.",
+        "warningTitle": "Varování",
+        "warningMessage": "Tímto se vymažou všechna data webu, včetně přihlašovacích údajů. Pokračovat?",
+        "selectAll": "Vybrat vše",
+        "cancel": "Zrušit",
+        "confirm": "Potvrdit"
+      },
+      "autoJoinGroup": {
+        "label": "Automatické připojení ke skupině",
+        "description": "Automaticky se připojit nebo vytvořit skupinu pro tento web.",
+        "configure": "Nastavit",
+        "groupName": "Název skupiny",
+        "save": "Uložit"
       },
       "backgroundColor": {
         "label": "Barva pozadí",

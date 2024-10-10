@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Pokušaj ponovo"
+  },
+  "shortcuts": {
+    "message": "prečice"
+  },
+  "countdown_refresh": {
+    "message": "Osvježavanje odbrojavanja"
   }
 }

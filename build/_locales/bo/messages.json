@@ -219,43 +219,49 @@
     "message": "རྒྱུན་འཁྱོངས་གྲོས་ཚོགས།"
   },
   "fit_to_screen": {
-    "message": "Fit to Screen"
+    "message": "འཁྲུལ་སྒྲོམ་གང་ཐང་ལ་བཀོལ"
   },
   "reload_video": {
-    "message": "Reload Video"
+    "message": "བརྒྱུད་སྒྲོམ་ལ་ཡང་བསྐྱར་བཀོལ"
   },
   "loading_pip_config": {
-    "message": "Loading Document Picture-in-Picture Configurations..."
+    "message": "ཡིག་ཆ་རིས་ནང་རིས་སྒྲིག་སྟངས་འདྲི་བཤེར་བྱེད་དོ།"
   },
   "playing_in_pip_mode": {
-    "message": "Playing in Document Picture-in-Picture Mode"
+    "message": "ཡིག་ཆ་རིས་ནང་རིས་སྒྲོམ་ནང་འཁྲུལ་སྒྲོམ་བཀྲམ་དོ།"
   },
   "detecting_pip_subtitle_settings": {
-    "message": "Detecting Picture-in-Picture Subtitle Settings..."
+    "message": "ཡིག་ཆ་རིས་ནང་རིས་ཡིག་བསྡུར་སྒྲིག་སྟངས་འདྲི་བཤེར་བྱེད་དོ།"
   },
   "video_not_detected": {
-    "message": "Video not detected. It may not be ready yet. If there is a video on the page, please click play and try again."
+    "message": "བརྒྱུད་སྒྲོམ་འདྲི་མ་ཐུབ། ད་ལྟ་དེ་རྣམ་གྲངས་མ་འགྲོལ་བར་འདུག གལ་ཏེ་དེ་རིང་བརྒྱུད་སྒྲོམ་ཡོད་ན་དེ་ལ་འཁྲུལ་སྒྲོམ་བཀྲམ་དང་ཡང་བསྐྱར་བཀོལ་དོ།"
   },
   "pip_window_restriction": {
-    "message": "Advanced Picture-in-Picture window can only be opened from the main page and cannot be launched from frames or embedded content. You can use standard Picture-in-Picture mode or open in a new tab to retry. Note that the video may not load properly in a new tab.",
+    "message": "ཡིག་ཆ་རིས་ནང་རིས་སྒྲོམ་གཞི་གྲངས་གཙོ་ངོས་ནས་རིགས་སྒྲིག་བྱེད་དོ། དེ་རིང་སྒྲོམ་ནང་རིས་སྒྲིག་བྱེད་མི་ཐུབ། ཁྱོད་ཀྱིས་སྒྲོམ་ནང་རིས་སྒྲིག་དང་གསར་བཅོས་སྒྲིག་བྱེད་དོ། གལ་ཏེ་གསར་བཅོས་སྒྲིག་བྱེད་ན་བརྒྱུད་སྒྲོམ་འགྲོལ་མི་ཐུབ།",
     "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Opening a PiP window is only allowed from a top-level browsing context"
   },
   "use_standard_pip": {
-    "message": "Use standard PiP",
+    "message": "སྒྲོམ་ནང་རིས་སྒྲིག་བྱེད་དོ།",
     "description": "Option to use standard Picture-in-Picture mode"
   },
   "open_in_new_tab": {
-    "message": "Open in new tab",
+    "message": "གསར་བཅོས་སྒྲིག་བྱེད་དོ།",
     "description": "Option to open the page in a new tab"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Remember this site's settings (You can modify it in Options - Site settings)"
+    "message": "གནས་ཚུལ་འདི་སྒྲིག་བྱེད་དོ། (ཁྱོད་ཀྱིས་སྒྲིག་བྱེད་དོ། - གནས་ཚུལ་སྒྲིག་བྱེད་དོ།)"
   },
   "pip_user_activation_required": {
-    "message": "Picture-in-Picture mode requires user interaction. Please click or interact with the page and try again.",
+    "message": "ཡིག་ཆ་རིས་ནང་རིས་སྒྲིག་བྱེད་དོ། ཁྱོད་ཀྱིས་སྒྲིག་བྱེད་དོ།",
     "description": "Failed to execute 'requestWindow' on 'DocumentPictureInPicture': Document PiP requires user activation"
   },
   "retry_action": {
-    "message": "Try Again"
+    "message": "ཡང་བསྐྱར་བཀོལ"
+  },
+  "shortcuts": {
+    "message": "མགྱོགས་ཚད།"
+  },
+  "countdown_refresh": {
+    "message": "ཆུ་ཚོད་གཅིག་ལ་གསར་བཅོས།"
   }
 }

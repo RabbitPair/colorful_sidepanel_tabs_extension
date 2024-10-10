@@ -298,6 +298,23 @@
         "label": "Dangos mynegai tab",
         "description": "Pan fydd wedi'i alluogi, bydd y mynegai tab yn cael ei ddangos wrth ymyl y teitl, gan ei gwneud yn hawdd actifadu tab gan ddefnyddio [Ctrl+rhif] ar Windows neu [cmd+rhif] ar Mac. Enghraifft: 1. stackoverflow.com 2. youtube, fel ei bod yn hawdd gwneud Ctrl + 2 ar Windows neu cmd + 2 ar Mac i fynd i youtube"
       },
+      "showGroupTabCount": {
+        "label": "Dangos cyfrif tab grŵp",
+        "description": "Pan fydd wedi'i alluogi, bydd nifer y tabiau ym mhob grŵp yn cael ei ddangos wrth ymyl enw'r grŵp."
+      },
+      "tabTitleMulitLines": {
+        "label": "Llinellau uchafswm teitl tab",
+        "description": "Gosodwch nifer uchaf y llinellau i'w dangos ar gyfer teitlau tab. Bydd llinellau ychwanegol yn cael eu cuddio."
+      },
+      "groupTitleMulitLines": {
+        "label": "Llinellau uchafswm teitl grŵp",
+        "description": "Gosodwch nifer uchaf y llinellau i'w dangos ar gyfer teitlau grŵp. Bydd llinellau ychwanegol yn cael eu cuddio."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lled teitl grŵp wedi'i gwympo",
+        "description": "Gosodwch led y teitl grŵp pan fydd y grŵp wedi'i gwympo.",
+        "reset": "Ailosod"
+      },
       "tabHistoryEnable": {
         "label": "Hanes tab",
         "description": "Pan fydd wedi'i alluogi, bydd hanes y gwefannau a agorwyd yn yr un tab yn cael ei ddangos."
@@ -621,6 +638,74 @@
         "target_top": "Tab Uchaf",
         "save": "Cadw",
         "close": "Cau"
+      },
+      "linkOpenOptions": {
+        "label": "Gosodiadau Agor Dolenni",
+        "description": "Gosodwch sut mae dolenni'n agor ar y safle hwn",
+        "configure": "Ffurfweddu",
+        "listTips": "Llusgwch i aildrefnu. Mae rheolau uchaf yn cael eu cymhwyso gyntaf.",
+        "linkMatchContent": "Patrwm Dolen",
+        "linkMatchContentTips": "Defnyddiwch '*' ar gyfer unrhyw gymeriadau, '?' ar gyfer un. Yn cefnogi regex.",
+        "linkOpenMethod": "Agor Mewn",
+        "edit": "Golygu",
+        "delete": "Dileu",
+        "target_self": "Tab Cyfredol",
+        "target_blank": "Tab Newydd",
+        "target_parent": "Tab Rhiant",
+        "target_top": "Tab Uchaf",
+        "save": "Cadw",
+        "close": "Cau",
+        "internalLinks": "Dolenni Mewnol",
+        "externalLinks": "Dolenni Allanol",
+        "imageLinks": "Delweddau",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Cyfryngau Cymdeithasol"
+      },
+      "linkRefreshOptions": {
+        "label": "Ail-lwytho Dolenni'n Awtomatig",
+        "description": "Gosodwch ail-lwytho awtomatig ar gyfer dolenni penodol",
+        "configure": "Ffurfweddu",
+        "listTips": "Llusgwch i aildrefnu. Dim ond y rheol gyntaf sy'n cyfateb sy'n cael ei chymhwyso.",
+        "linkMatchContent": "Patrwm Dolen",
+        "linkMatchContentTips": "Defnyddiwch '*' ar gyfer unrhyw gymeriadau, '?' ar gyfer un. Yn cefnogi regex.",
+        "edit": "Golygu",
+        "delete": "Dileu",
+        "save": "Cadw",
+        "close": "Cau",
+        "refreshInterval": "Cyfwng Ail-lwytho (Munudau)",
+        "disabled": "I ffwrdd"
+      },
+      "pageKeepAlive": {
+        "label": "Cadw'r Dudalen yn Weithgar",
+        "description": "Yn cadw'r dudalen yn weithgar ac yn atal y porwr rhag ei hatal yn awtomatig pan fydd yn y cefndir."
+      },
+      "incognito": {
+        "label": "Pori Preifat",
+        "description": "Yn clirio data safle dethol ar ôl pob ymweliad. Defnyddiwch 'Ffurfweddu' i ddewis beth i'w glirio. Gall effeithio ar eich profiad pori.",
+        "configure": "Ffurfweddu",
+        "configureDescription": "Dewiswch y nodweddion i'w clirio",
+        "cache": "Storfa",
+        "cacheStorage": "Storfa Cache",
+        "cookies": "Cwcis",
+        "skipAccountCookies": "Cadw Cwcis Cyfrif",
+        "history": "Hanes",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Storio Lleol",
+        "serviceWorkers": "Gweithwyr Gwasanaeth",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Rhybudd: Mae dileu cwcis yn effeithio ar bob is-barth ac efallai y bydd yn eich allgofnodi.",
+        "warningTitle": "Rhybudd",
+        "warningMessage": "Bydd hyn yn dileu'r holl ddata safle, gan gynnwys mewngofnodion. Parhau?",
+        "selectAll": "Dewis Pob Un",
+        "cancel": "Canslo",
+        "confirm": "Cadarnhau"
+      },
+      "autoJoinGroup": {
+        "label": "Ymuno â Grŵp yn Awtomatig",
+        "description": "Ymuno'n awtomatig neu greu grŵp ar gyfer y safle hwn.",
+        "configure": "Sefydlu",
+        "groupName": "Enw'r Grŵp",
+        "save": "Cadw"
       },
       "backgroundColor": {
         "label": "Lliw Cefndir",

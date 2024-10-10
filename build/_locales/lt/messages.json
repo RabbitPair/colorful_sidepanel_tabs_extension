@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Bandykite dar kartą"
+  },
+  "shortcuts": {
+    "message": "Spartieji klavišai"
+  },
+  "countdown_refresh": {
+    "message": "Atgalinės atskaitos atnaujinimas"
   }
 }

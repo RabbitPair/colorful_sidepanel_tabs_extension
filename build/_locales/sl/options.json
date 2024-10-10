@@ -298,6 +298,23 @@
         "label": "Prikaži indeks zavihka",
         "description": "Ko je omogočeno, bo indeks zavihka prikazan poleg naslova, kar omogoča enostavno aktiviranje zavihka z uporabo [Ctrl+številka] na Windows ali [cmd+številka] na Mac. Primer: 1. stackoverflow.com 2. youtube, tako da je enostavno uporabiti Ctrl + 2 na Windows ali cmd + 2 na Mac za prehod na youtube"
       },
+      "showGroupTabCount": {
+        "label": "Prikaži število zavihkov v skupini",
+        "description": "Ko je omogočeno, bo število zavihkov v vsaki skupini prikazano poleg imena skupine."
+      },
+      "tabTitleMulitLines": {
+        "label": "Največje število vrstic naslova zavihka",
+        "description": "Nastavite največje število vrstic za prikaz naslovov zavihkov. Dodatne vrstice bodo skrite."
+      },
+      "groupTitleMulitLines": {
+        "label": "Največje število vrstic naslova skupine",
+        "description": "Nastavite največje število vrstic za prikaz naslovov skupin. Dodatne vrstice bodo skrite."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Širina naslova strnjene skupine",
+        "description": "Nastavite širino naslova skupine, ko je skupina strnjena.",
+        "reset": "Ponastavi"
+      },
       "tabHistoryEnable": {
         "label": "Zgodovina zavihkov",
         "description": "Ko je omogočeno, bo prikazana zgodovina spletnih mest, odprtih v istem zavihku."
@@ -621,6 +638,74 @@
         "target_top": "Najvišji zavihek",
         "save": "Shrani",
         "close": "Zapri"
+      },
+      "linkOpenOptions": {
+        "label": "Nastavitve odpiranja povezav",
+        "description": "Nastavite, kako se povezave odpirajo na tej strani",
+        "configure": "Nastavi",
+        "listTips": "Povlecite za prerazporeditev. Najvišja pravila se uporabijo najprej.",
+        "linkMatchContent": "Vzorec povezave",
+        "linkMatchContentTips": "Uporabite '*' za poljubne znake, '?' za enega. Podpira regex.",
+        "linkOpenMethod": "Odpri v",
+        "edit": "Uredi",
+        "delete": "Izbriši",
+        "target_self": "Trenutni zavihek",
+        "target_blank": "Nov zavihek",
+        "target_parent": "Nadrejeni zavihek",
+        "target_top": "Najvišji zavihek",
+        "save": "Shrani",
+        "close": "Zapri",
+        "internalLinks": "Notranje povezave",
+        "externalLinks": "Zunanje povezave",
+        "imageLinks": "Slike",
+        "pdfLinks": "PDF-ji",
+        "socialMediaLinks": "Družbeni mediji"
+      },
+      "linkRefreshOptions": {
+        "label": "Samodejno osveževanje povezav",
+        "description": "Nastavite samodejno osveževanje za določene povezave",
+        "configure": "Nastavi",
+        "listTips": "Povlecite za prerazporeditev. Uporabi se samo prvo ujemajoče pravilo.",
+        "linkMatchContent": "Vzorec povezave",
+        "linkMatchContentTips": "Uporabite '*' za poljubne znake, '?' za enega. Podpira regex.",
+        "edit": "Uredi",
+        "delete": "Izbriši",
+        "save": "Shrani",
+        "close": "Zapri",
+        "refreshInterval": "Interval osveževanja (minute)",
+        "disabled": "Izklopljeno"
+      },
+      "pageKeepAlive": {
+        "label": "Ohrani stran aktivno",
+        "description": "Ohranja stran aktivno in preprečuje, da bi jo brskalnik samodejno zaustavil, ko je v ozadju."
+      },
+      "incognito": {
+        "label": "Zasebno brskanje",
+        "description": "Po vsakem obisku izbriše izbrane podatke strani. Uporabite 'Nastavi', da izberete, kaj želite izbrisati. Lahko vpliva na vašo izkušnjo brskanja.",
+        "configure": "Nastavi",
+        "configureDescription": "Prosimo, izberite funkcije za brisanje",
+        "cache": "Predpomnilnik",
+        "cacheStorage": "Shranjevanje predpomnilnika",
+        "cookies": "Piškotki",
+        "skipAccountCookies": "Obdrži piškotke računa",
+        "history": "Zgodovina",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokalno shranjevanje",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Opozorilo: Brisanje piškotkov vpliva na vse poddomene in vas lahko odjavi.",
+        "warningTitle": "Opozorilo",
+        "warningMessage": "To bo izbrisalo vse podatke strani, vključno z prijavami. Nadaljujete?",
+        "selectAll": "Izberi vse",
+        "cancel": "Prekliči",
+        "confirm": "Potrdi"
+      },
+      "autoJoinGroup": {
+        "label": "Samodejno pridruži skupini",
+        "description": "Samodejno se pridružite ali ustvarite skupino za to stran.",
+        "configure": "Nastavi",
+        "groupName": "Ime skupine",
+        "save": "Shrani"
       },
       "backgroundColor": {
         "label": "Barva ozadja",

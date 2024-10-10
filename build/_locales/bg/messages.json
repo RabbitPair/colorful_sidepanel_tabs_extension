@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Опитайте отново"
+  },
+  "shortcuts": {
+    "message": "преки пътища"
+  },
+  "countdown_refresh": {
+    "message": "Обновяване на обратно броене"
   }
 }

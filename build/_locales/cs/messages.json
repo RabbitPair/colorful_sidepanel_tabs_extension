@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Zkusit znovu"
+  },
+  "shortcuts": {
+    "message": "zkratky"
+  },
+  "countdown_refresh": {
+    "message": "Obnovení odpočítávání"
   }
 }

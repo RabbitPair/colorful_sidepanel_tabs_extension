@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
+  },
+  "shortcuts": {
+    "message": "ಸಂಕೇತಗಳು"
+  },
+  "countdown_refresh": {
+    "message": "ಎಣಿಕೆ ಮರುತಾಜಾ"
   }
 }

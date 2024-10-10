@@ -298,6 +298,23 @@
         "label": "Mostra l'índex de pestanyes",
         "description": "Quan està habilitat, l'índex de pestanyes es mostrarà al costat del títol, facilitant l'activació de la pestanya utilitzant [Ctrl+número] a Windows o [cmd+número] a Mac. Exemple: 1. stackoverflow.com 2. youtube, de manera que és fàcil fer Ctrl + 2 a Windows o cmd + 2 a Mac per anar a youtube"
       },
+      "showGroupTabCount": {
+        "label": "Mostra el recompte de pestanyes del grup",
+        "description": "Quan està habilitat, el nombre de pestanyes de cada grup es mostrarà al costat del nom del grup."
+      },
+      "tabTitleMulitLines": {
+        "label": "Línies màximes del títol de la pestanya",
+        "description": "Estableix el nombre màxim de línies a mostrar per als títols de les pestanyes. Les línies addicionals es ocultaran."
+      },
+      "groupTitleMulitLines": {
+        "label": "Línies màximes del títol del grup",
+        "description": "Estableix el nombre màxim de línies a mostrar per als títols dels grups. Les línies addicionals es ocultaran."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Amplada del títol del grup col·lapsat",
+        "description": "Estableix l'amplada del títol del grup quan el grup està col·lapsat.",
+        "reset": "Restableix"
+      },
       "tabHistoryEnable": {
         "label": "Historial de pestanyes",
         "description": "Quan està habilitat, es mostrarà l'historial de llocs web oberts a la mateixa pestanya."
@@ -621,6 +638,74 @@
         "target_top": "Pestanya superior",
         "save": "Desar",
         "close": "Tancar"
+      },
+      "linkOpenOptions": {
+        "label": "Configuració d'obertura d'enllaços",
+        "description": "Defineix com s'obren els enllaços en aquest lloc",
+        "configure": "Configurar",
+        "listTips": "Arrossega per reordenar. Les regles superiors s'apliquen primer.",
+        "linkMatchContent": "Patró d'enllaç",
+        "linkMatchContentTips": "Utilitza '*' per a qualsevol caràcter, '?' per a un. Admet expressions regulars.",
+        "linkOpenMethod": "Obrir a",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Pestanya actual",
+        "target_blank": "Nova pestanya",
+        "target_parent": "Pestanya pare",
+        "target_top": "Pestanya superior",
+        "save": "Desar",
+        "close": "Tancar",
+        "internalLinks": "Enllaços interns",
+        "externalLinks": "Enllaços externs",
+        "imageLinks": "Imatges",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Xarxes socials"
+      },
+      "linkRefreshOptions": {
+        "label": "Actualització automàtica d'enllaços",
+        "description": "Configura l'actualització automàtica per a enllaços específics",
+        "configure": "Configurar",
+        "listTips": "Arrossega per reordenar. Només s'aplica la primera regla coincident.",
+        "linkMatchContent": "Patró d'enllaç",
+        "linkMatchContentTips": "Utilitza '*' per a qualsevol caràcter, '?' per a un. Admet expressions regulars.",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "save": "Desar",
+        "close": "Tancar",
+        "refreshInterval": "Interval d'actualització (Minuts)",
+        "disabled": "Desactivat"
+      },
+      "pageKeepAlive": {
+        "label": "Mantenir la pàgina activa",
+        "description": "Manté la pàgina activa i evita que el navegador la suspengui automàticament quan està en segon pla."
+      },
+      "incognito": {
+        "label": "Navegació privada",
+        "description": "Esborra les dades seleccionades del lloc després de cada visita. Utilitza 'Configurar' per triar què esborrar. Pot afectar la teva experiència de navegació.",
+        "configure": "Configurar",
+        "configureDescription": "Si us plau, selecciona les funcions a esborrar",
+        "cache": "Memòria cau",
+        "cacheStorage": "Emmagatzematge de memòria cau",
+        "cookies": "Galetes",
+        "skipAccountCookies": "Mantenir galetes del compte",
+        "history": "Historial",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Emmagatzematge local",
+        "serviceWorkers": "Treballadors de servei",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Advertència: Esborrar les galetes afecta tots els subdominis i pot desconnectar-te.",
+        "warningTitle": "Advertència",
+        "warningMessage": "Això esborrarà totes les dades del lloc, incloses les iniciatives de sessió. Continuar?",
+        "selectAll": "Seleccionar tot",
+        "cancel": "Cancel·lar",
+        "confirm": "Confirmar"
+      },
+      "autoJoinGroup": {
+        "label": "Unió automàtica al grup",
+        "description": "Uneix-te automàticament o crea un grup per a aquest lloc.",
+        "configure": "Configurar",
+        "groupName": "Nom del grup",
+        "save": "Desar"
       },
       "backgroundColor": {
         "label": "Color de fons",

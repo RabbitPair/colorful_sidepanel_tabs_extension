@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "פּרובירן ווידער"
+  },
+  "shortcuts": {
+    "message": "קורץ וועגן"
+  },
+  "countdown_refresh": {
+    "message": "ציילן אַראָפּ ריפרעש"
   }
 }

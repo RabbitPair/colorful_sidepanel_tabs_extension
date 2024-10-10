@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Iterum Conare"
+  },
+  "shortcuts": {
+    "message": "Scorciatoiae"
+  },
+  "countdown_refresh": {
+    "message": "Renovatio Temporis"
   }
 }

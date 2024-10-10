@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Probeer Weer"
+  },
+  "shortcuts": {
+    "message": "kortpaaie"
+  },
+  "countdown_refresh": {
+    "message": "Aftelling Herlaai"
   }
 }

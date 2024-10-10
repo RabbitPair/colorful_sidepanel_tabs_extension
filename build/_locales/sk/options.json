@@ -298,6 +298,23 @@
         "label": "Zobraziť index karty",
         "description": "Keď je povolené, index karty sa zobrazí vedľa názvu, čo uľahčuje aktiváciu karty pomocou [Ctrl+číslo] na Windows alebo [cmd+číslo] na Mac. Príklad: 1. stackoverflow.com 2. youtube, takže je ľahké použiť Ctrl + 2 na Windows alebo cmd + 2 na Mac prejsť na youtube"
       },
+      "showGroupTabCount": {
+        "label": "Zobraziť počet kariet v skupine",
+        "description": "Keď je povolené, počet kariet v každej skupine sa zobrazí vedľa názvu skupiny."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maximálny počet riadkov názvu karty",
+        "description": "Nastavte maximálny počet riadkov na zobrazenie pre názvy kariet. Ďalšie riadky budú skryté."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maximálny počet riadkov názvu skupiny",
+        "description": "Nastavte maximálny počet riadkov na zobrazenie pre názvy skupín. Ďalšie riadky budú skryté."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Šírka názvu skupiny pri zbalení",
+        "description": "Nastavte šírku názvu skupiny, keď je skupina zbalená.",
+        "reset": "Obnoviť"
+      },
       "tabHistoryEnable": {
         "label": "História kariet",
         "description": "Keď je povolené, zobrazí sa história webových stránok otvorených v rovnakej karte."
@@ -621,6 +638,74 @@
         "target_top": "Najvyššia karta",
         "save": "Uložiť",
         "close": "Zavrieť"
+      },
+      "linkOpenOptions": {
+        "label": "Nastavenia otvárania odkazov",
+        "description": "Nastavte, ako sa majú odkazy na tejto stránke otvárať",
+        "configure": "Nastaviť",
+        "listTips": "Presúvajte a usporiadajte pravidlá. Pravidlá s vyššou prioritou sú umiestnené na vrchu.",
+        "linkMatchContent": "Vzor odkazu",
+        "linkMatchContentTips": "Použite '*' pre ľubovoľné znaky, '?' pre jeden. Podporuje regulárne výrazy.",
+        "linkOpenMethod": "Otvoriť v",
+        "edit": "Upraviť",
+        "delete": "Odstrániť",
+        "target_self": "Aktuálna karta",
+        "target_blank": "Nová karta",
+        "target_parent": "Nadradená karta",
+        "target_top": "Najvyššia karta",
+        "save": "Uložiť",
+        "close": "Zavrieť",
+        "internalLinks": "Interné odkazy",
+        "externalLinks": "Externé odkazy",
+        "imageLinks": "Obrázky",
+        "pdfLinks": "PDF súbory",
+        "socialMediaLinks": "Sociálne médiá"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatické obnovenie odkazov",
+        "description": "Nastavte automatické obnovenie pre konkrétne odkazy",
+        "configure": "Nastaviť",
+        "listTips": "Presúvajte a usporiadajte pravidlá. Uplatní sa iba prvé zhodné pravidlo.",
+        "linkMatchContent": "Vzor odkazu",
+        "linkMatchContentTips": "Použite '*' pre ľubovoľné znaky, '?' pre jeden. Podporuje regulárne výrazy.",
+        "edit": "Upraviť",
+        "delete": "Odstrániť",
+        "save": "Uložiť",
+        "close": "Zavrieť",
+        "refreshInterval": "Interval obnovenia (minúty)",
+        "disabled": "Vypnuté"
+      },
+      "pageKeepAlive": {
+        "label": "Udržať stránku aktívnu",
+        "description": "Udržiava stránku aktívnu a zabraňuje prehliadaču automaticky ju pozastaviť, keď je na pozadí."
+      },
+      "incognito": {
+        "label": "Súkromné prehliadanie",
+        "description": "Vymaže vybrané údaje stránky po každej návšteve. Použite 'Nastaviť' na výber, čo sa má vymazať. Môže ovplyvniť váš zážitok z prehliadania.",
+        "configure": "Nastaviť",
+        "configureDescription": "Prosím, vyberte funkcie na vymazanie",
+        "cache": "Cache",
+        "cacheStorage": "Úložisko cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Ponechať cookies účtu",
+        "history": "História",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokálne úložisko",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Upozornenie: Vymazanie cookies ovplyvní všetky subdomény a môže vás odhlásiť.",
+        "warningTitle": "Upozornenie",
+        "warningMessage": "Týmto sa vymažú všetky údaje stránky, vrátane prihlásení. Pokračovať?",
+        "selectAll": "Vybrať všetko",
+        "cancel": "Zrušiť",
+        "confirm": "Potvrdiť"
+      },
+      "autoJoinGroup": {
+        "label": "Automatické pripojenie do skupiny",
+        "description": "Automaticky sa pripojiť alebo vytvoriť skupinu pre túto stránku.",
+        "configure": "Nastaviť",
+        "groupName": "Názov skupiny",
+        "save": "Uložiť"
       },
       "backgroundColor": {
         "label": "Farba pozadia",

@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "再試行"
+  },
+  "shortcuts": {
+    "message": "ショートカット"
+  },
+  "countdown_refresh": {
+    "message": "カウントダウンリフレッシュ"
   }
 }

@@ -298,6 +298,23 @@
         "label": "Taispeáin innéacs cluaisín",
         "description": "Nuair a chumasfar é, taispeánfar an t-innéacs cluaisín in aice leis an teideal, rud a fhágann go bhfuil sé éasca cluaisín a ghníomhachtú ag úsáid [Ctrl+uimhir] ar Windows nó [cmd+uimhir] ar Mac. Sampla: 1. stackoverflow.com 2. youtube, ionas go mbeidh sé éasca Ctrl + 2 a dhéanamh ar Windows nó cmd + 2 ar Mac chun dul chuig youtube"
       },
+      "showGroupTabCount": {
+        "label": "Taispeáin líon cluaisíní grúpa",
+        "description": "Nuair a chumasfar é, taispeánfar líon na gcluaisíní i ngach grúpa in aice le hainm an ghrúpa."
+      },
+      "tabTitleMulitLines": {
+        "label": "Líon uasta línte teidil cluaisín",
+        "description": "Socraigh an líon uasta línte le taispeáint do theidil cluaisíní. Beidh línte breise ceilte."
+      },
+      "groupTitleMulitLines": {
+        "label": "Líon uasta línte teidil grúpa",
+        "description": "Socraigh an líon uasta línte le taispeáint do theidil grúpa. Beidh línte breise ceilte."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Leithead teidil grúpa craptha",
+        "description": "Socraigh leithead teidil an ghrúpa nuair a bhíonn an grúpa craptha.",
+        "reset": "Athshocraigh"
+      },
       "tabHistoryEnable": {
         "label": "Stair cluaisín",
         "description": "Nuair a chumasfar é, taispeánfar stair na suíomhanna Gréasáin a osclaíodh sa chluaisín céanna."
@@ -621,6 +638,74 @@
         "target_top": "Cluaisín is Airde",
         "save": "Sábháil",
         "close": "Dún"
+      },
+      "linkOpenOptions": {
+        "label": "Socruithe Oscailte Nasc",
+        "description": "Socraigh conas a osclaítear naisc ar an suíomh seo",
+        "configure": "Cumraigh",
+        "listTips": "Tarraing chun athordú. Cuirtear rialacha barr i bhfeidhm ar dtús.",
+        "linkMatchContent": "Patrún Nasc",
+        "linkMatchContentTips": "Úsáid '*' le haghaidh aon charachtair, '?' le haghaidh ceann amháin. Tacaíonn le regex.",
+        "linkOpenMethod": "Oscail I",
+        "edit": "Cuir in Eagar",
+        "delete": "Scrios",
+        "target_self": "Cluaisín Reatha",
+        "target_blank": "Cluaisín Nua",
+        "target_parent": "Cluaisín Tuismitheora",
+        "target_top": "Cluaisín is Airde",
+        "save": "Sábháil",
+        "close": "Dún",
+        "internalLinks": "Naisc Inmheánacha",
+        "externalLinks": "Naisc Sheachtracha",
+        "imageLinks": "Íomhánna",
+        "pdfLinks": "PDFanna",
+        "socialMediaLinks": "Meáin Shóisialta"
+      },
+      "linkRefreshOptions": {
+        "label": "Naisc Athnuachana Uathoibríoch",
+        "description": "Cumraigh athnuachan uathoibríoch do naisc shonracha",
+        "configure": "Cumraigh",
+        "listTips": "Tarraing chun athordú. Ní chuirtear ach an chéad riail mheaitseála i bhfeidhm.",
+        "linkMatchContent": "Patrún Nasc",
+        "linkMatchContentTips": "Úsáid '*' le haghaidh aon charachtair, '?' le haghaidh ceann amháin. Tacaíonn le regex.",
+        "edit": "Cuir in Eagar",
+        "delete": "Scrios",
+        "save": "Sábháil",
+        "close": "Dún",
+        "refreshInterval": "Eatramh Athnuachana (Nóiméad)",
+        "disabled": "Múchta"
+      },
+      "pageKeepAlive": {
+        "label": "Coinnigh an Leathanach Gníomhach",
+        "description": "Coinníonn an leathanach gníomhach agus cuireann sé cosc ar an mbrabhsálaí é a chur ar fionraí go huathoibríoch nuair a bhíonn sé sa chúlra."
+      },
+      "incognito": {
+        "label": "Brabhsáil Phríobháideach",
+        "description": "Glanann sonraí roghnaithe an tsuímh tar éis gach cuairte. Úsáid 'Cumraigh' chun a roghnú cad ba cheart a ghlanadh. D’fhéadfadh sé dul i bhfeidhm ar do thaithí brabhsála.",
+        "configure": "Cumraigh",
+        "configureDescription": "Roghnaigh na gnéithe le glanadh le do thoil",
+        "cache": "Taisce",
+        "cacheStorage": "Stóráil Taisce",
+        "cookies": "Fianáin",
+        "skipAccountCookies": "Coinnigh Fianáin Cuntais",
+        "history": "Stair",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Stóráil Áitiúil",
+        "serviceWorkers": "Oibrithe Seirbhíse",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Rabhadh: Téann scriosadh fianáin i bhfeidhm ar gach fochuideachta agus d’fhéadfadh sé tú a dhílogáil.",
+        "warningTitle": "Rabhadh",
+        "warningMessage": "Scriosfaidh sé seo gach sonraí an tsuímh, lena n-áirítear logálacha isteach. Leanúint ar aghaidh?",
+        "selectAll": "Roghnaigh Uile",
+        "cancel": "Cealaigh",
+        "confirm": "Deimhnigh"
+      },
+      "autoJoinGroup": {
+        "label": "Páirt a Ghlacadh go hUathoibríoch sa Ghrúpa",
+        "description": "Páirt a ghlacadh go huathoibríoch nó grúpa a chruthú don suíomh seo.",
+        "configure": "Cumraigh",
+        "groupName": "Ainm an Ghrúpa",
+        "save": "Sábháil"
       },
       "backgroundColor": {
         "label": "Dath Cúlra",

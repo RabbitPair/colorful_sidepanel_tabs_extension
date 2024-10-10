@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Thử lại"
+  },
+  "shortcuts": {
+    "message": "Phím tắt"
+  },
+  "countdown_refresh": {
+    "message": "Làm mới đếm ngược"
   }
 }

@@ -298,6 +298,23 @@
         "label": "顯示標籤頁索引",
         "description": "啟用後，標籤頁索引將顯示在標題旁邊，使其易於使用[Ctrl+數字]在Windows上或[cmd+數字]在Mac上激活標籤頁。例如：1. stackoverflow.com 2. youtube，因此在Windows上按Ctrl + 2或在Mac上按cmd + 2即可轉到youtube"
       },
+      "showGroupTabCount": {
+        "label": "顯示群組標籤頁數量",
+        "description": "啟用後，每個群組中的標籤頁數量將顯示在群組名稱旁邊。"
+      },
+      "tabTitleMulitLines": {
+        "label": "標籤頁標題最大行數",
+        "description": "設置標籤頁標題顯示的最大行數。額外的行將被隱藏。"
+      },
+      "groupTitleMulitLines": {
+        "label": "群組標題最大行數",
+        "description": "設置群組標題顯示的最大行數。額外的行將被隱藏。"
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "群組折疊標題寬度",
+        "description": "設置群組折疊時標題的寬度。",
+        "reset": "重置"
+      },
       "tabHistoryEnable": {
         "label": "標籤頁歷史",
         "description": "啟用後，將顯示在同一標籤頁中打開的網站歷史記錄。"
@@ -621,6 +638,74 @@
         "target_top": "最頂層標籤頁",
         "save": "保存",
         "close": "關閉"
+      },
+      "linkOpenOptions": {
+        "label": "連結打開設置",
+        "description": "設置此網站上的連結如何打開",
+        "configure": "配置",
+        "listTips": "拖放以排序。優先級較高的規則將放置在頂部。",
+        "linkMatchContent": "連結模式",
+        "linkMatchContentTips": "使用 '*' 匹配任意數量的字符，使用 '?' 匹配單個字符。支持正則表達式。",
+        "linkOpenMethod": "打開方式",
+        "edit": "編輯",
+        "delete": "刪除",
+        "target_self": "當前標籤頁",
+        "target_blank": "新標籤頁",
+        "target_parent": "父標籤頁",
+        "target_top": "最頂層標籤頁",
+        "save": "保存",
+        "close": "關閉",
+        "internalLinks": "內部連結",
+        "externalLinks": "外部連結",
+        "imageLinks": "圖片",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "社交媒體"
+      },
+      "linkRefreshOptions": {
+        "label": "自動刷新連結",
+        "description": "設置特定連結的自動刷新",
+        "configure": "配置",
+        "listTips": "拖放以排序。僅應用第一個匹配的規則。",
+        "linkMatchContent": "連結模式",
+        "linkMatchContentTips": "使用 '*' 匹配任意數量的字符，使用 '?' 匹配單個字符。支持正則表達式。",
+        "edit": "編輯",
+        "delete": "刪除",
+        "save": "保存",
+        "close": "關閉",
+        "refreshInterval": "刷新間隔（分鐘）",
+        "disabled": "關閉"
+      },
+      "pageKeepAlive": {
+        "label": "保持頁面活躍",
+        "description": "保持頁面活躍，防止瀏覽器在後台自動掛起。"
+      },
+      "incognito": {
+        "label": "私人瀏覽",
+        "description": "每次訪問後清除選定的網站數據。使用“配置”選擇要清除的內容。可能會影響您的瀏覽體驗。",
+        "configure": "配置",
+        "configureDescription": "請選擇要清除的功能",
+        "cache": "緩存",
+        "cacheStorage": "緩存存儲",
+        "cookies": "Cookie",
+        "skipAccountCookies": "保留帳戶Cookie",
+        "history": "歷史記錄",
+        "indexedDB": "IndexedDB",
+        "localStorage": "本地存儲",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "警告：刪除Cookie會影響所有子域，並可能使您登出。",
+        "warningTitle": "警告",
+        "warningMessage": "這將刪除所有網站數據，包括登錄信息。繼續？",
+        "selectAll": "全選",
+        "cancel": "取消",
+        "confirm": "確認"
+      },
+      "autoJoinGroup": {
+        "label": "自動加入群組",
+        "description": "自動加入或創建此網站的群組。",
+        "configure": "設置",
+        "groupName": "群組名稱",
+        "save": "保存"
       },
       "backgroundColor": {
         "label": "背景顏色",

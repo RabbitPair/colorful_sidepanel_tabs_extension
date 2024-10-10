@@ -298,6 +298,23 @@
         "label": "显示标签页索引",
         "description": "启用后，标签页索引将显示在标题旁边，使其易于使用[Ctrl+数字]在Windows上或[cmd+数字]在Mac上激活标签页。例如：1. stackoverflow.com 2. youtube，这样在Windows上按Ctrl + 2或在Mac上按cmd + 2即可转到youtube"
       },
+      "showGroupTabCount": {
+        "label": "显示组标签页数量",
+        "description": "启用后，每个组的标签页数量将显示在组名称旁边。"
+      },
+      "tabTitleMulitLines": {
+        "label": "标签页标题最大行数",
+        "description": "设置标签页标题显示的最大行数。额外的行将被隐藏。"
+      },
+      "groupTitleMulitLines": {
+        "label": "组标题最大行数",
+        "description": "设置组标题显示的最大行数。额外的行将被隐藏。"
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "组折叠标题宽度",
+        "description": "设置组折叠时标题的宽度。",
+        "reset": "重置"
+      },
       "tabHistoryEnable": {
         "label": "标签页历史",
         "description": "启用后，将显示在同一标签页中打开的网站历史记录。"
@@ -621,6 +638,74 @@
         "target_top": "最顶层标签页",
         "save": "保存",
         "close": "关闭"
+      },
+      "linkOpenOptions": {
+        "label": "链接打开设置",
+        "description": "设置此站点上的链接打开方式",
+        "configure": "配置",
+        "listTips": "拖动以重新排序。顶部规则优先应用。",
+        "linkMatchContent": "链接模式",
+        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示一个字符。支持正则表达式。",
+        "linkOpenMethod": "打开方式",
+        "edit": "编辑",
+        "delete": "删除",
+        "target_self": "当前标签页",
+        "target_blank": "新标签页",
+        "target_parent": "父标签页",
+        "target_top": "顶层标签页",
+        "save": "保存",
+        "close": "关闭",
+        "internalLinks": "内部链接",
+        "externalLinks": "外部链接",
+        "imageLinks": "图片链接",
+        "pdfLinks": "PDF链接",
+        "socialMediaLinks": "社交媒体链接"
+      },
+      "linkRefreshOptions": {
+        "label": "自动刷新链接",
+        "description": "设置特定链接的自动刷新",
+        "configure": "配置",
+        "listTips": "拖动以重新排序。仅应用第一个匹配规则。",
+        "linkMatchContent": "链接模式",
+        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示一个字符。支持正则表达式。",
+        "edit": "编辑",
+        "delete": "删除",
+        "save": "保存",
+        "close": "关闭",
+        "refreshInterval": "刷新间隔（分钟）",
+        "disabled": "关闭"
+      },
+      "pageKeepAlive": {
+        "label": "保持页面活跃",
+        "description": "保持页面活跃，防止浏览器在后台自动挂起。"
+      },
+      "incognito": {
+        "label": "隐私浏览",
+        "description": "每次访问后清除选定的站点数据。使用“配置”选择要清除的内容。可能会影响您的浏览体验。",
+        "configure": "配置",
+        "configureDescription": "请选择要清除的功能",
+        "cache": "缓存",
+        "cacheStorage": "缓存存储",
+        "cookies": "Cookie",
+        "skipAccountCookies": "保留账户Cookie",
+        "history": "历史记录",
+        "indexedDB": "IndexedDB",
+        "localStorage": "本地存储",
+        "serviceWorkers": "服务工作者",
+        "webSQL": "Web SQL",
+        "cookieWarning": "警告：删除Cookie会影响所有子域，并可能导致您退出登录。",
+        "warningTitle": "警告",
+        "warningMessage": "这将删除所有站点数据，包括登录信息。继续吗？",
+        "selectAll": "全选",
+        "cancel": "取消",
+        "confirm": "确认"
+      },
+      "autoJoinGroup": {
+        "label": "自动加入组",
+        "description": "自动加入或创建此站点的组。",
+        "configure": "设置",
+        "groupName": "组名",
+        "save": "保存"
       },
       "backgroundColor": {
         "label": "背景颜色",

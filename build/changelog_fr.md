@@ -4,7 +4,127 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 Ce projet adhère à la [Gestion Sémantique des Versions](https://semver.org/).
 
+----
+
+## [Non publié]
+
+- **Snapshots programmés** : Enregistrez automatiquement des snapshots à des intervalles spécifiés. Cette fonctionnalité garantit que votre travail est périodiquement sauvegardé, offrant ainsi une protection contre la perte de données.
+
+----
+## [2.11.0] - 2024-10-07
+### Ajouté
+- **Menu des onglets** : De nouveaux menus ont été ajoutés :
+  - **Renommer le titre de l'onglet** : Vous permet de changer le titre de l'onglet. Par défaut, l'option de se souvenir des paramètres de l'URL est sélectionnée, de sorte que le titre sera automatiquement mis à jour la prochaine fois que vous ouvrirez l'URL.
+  - **Déplacer l'onglet vers une nouvelle fenêtre** : Vous permet de déplacer l'onglet vers une nouvelle fenêtre.
+  - **Déplacer l'onglet vers une autre fenêtre** : Vous permet de déplacer l'onglet vers une autre fenêtre existante.
+  - **Retirer l'onglet du groupe** : Vous permet de retirer l'onglet de son groupe actuel.
+
+- **Paramètres des onglets** : De nouvelles options ont été ajoutées aux paramètres des onglets :
+  - **Nombre maximum de lignes affichées pour le titre de l'onglet** : Définissez le nombre maximum de lignes à afficher pour les titres des onglets. Les lignes supplémentaires seront masquées.
+  - **Nombre maximum de lignes affichées pour le titre du groupe** : Définissez le nombre maximum de lignes à afficher pour les titres des groupes. Les lignes supplémentaires seront masquées.
+  - **Largeur du titre du groupe réduit** : Lorsque le groupe est réduit, définissez la largeur du titre du groupe.
+  - **Afficher le nombre d'onglets du groupe** : Affiche le nombre d'onglets dans chaque groupe à côté du nom du groupe.
+
+- **Paramètres du site** : De nouvelles options ont été ajoutées aux paramètres du site :
+  * **Garder la page active** : Lorsqu'elle est activée, l'onglet pourra être supprimé par le navigateur. Si vous activez les paramètres de performance et définissez un délai pour supprimer les onglets inactifs, l'onglet sera supprimé après le délai spécifié. Si désactivé, l'onglet ne sera pas supprimé.
+  * **Rejoindre automatiquement le groupe** : Lorsqu'elle est activée, le site créera ou rejoindra automatiquement le groupe spécifié.
+  * **Mode incognito** : Lorsqu'il est activé, vous pouvez choisir de supprimer automatiquement les données de navigation lors de la visite du site. Cela inclut plusieurs options configurables : Cookies, Historique, CacheStorage, FileSystems, IndexedDB, LocalStorage, ServiceWorkers et WebSQL. Notez que l'autorisation browsingData n'est pas utilisée pour éviter de demander des autorisations supplémentaires.
+  * **Rafraîchissement automatique** : Dans les paramètres de configuration des liens, vous pouvez spécifier des URL à rafraîchir automatiquement, avec prise en charge des expressions régulières.
+
+### Modifié
+- **Image dans l'image avancée** : Ajout du support universel des sous-titres pour le lecteur plyr.
+- **Garder la page active** : Fonctionnalité améliorée pour garder les onglets actifs.
+- **Style des onglets de groupe** : Modification du style des onglets au sein des groupes.
+- **Ordre du menu** : Ajustement de l'ordre des éléments dans le menu des onglets.
+
+### Corrigé
+- **Image dans l'image** : Correction d'un problème où le titre ne changeait pas après avoir changé de vidéo dans le lecteur Image dans l'image.
+- **Affectations de groupe personnalisées** : Correction d'un problème où les modifications des affectations de groupe personnalisées pour les sites web ne prenaient pas effet immédiatement lorsque l'option "Se souvenir du regroupement des sites" était activée dans les paramètres des groupes d'onglets avancés. Cela a été résolu pour appliquer les modifications instantanément sans nécessiter de redémarrage.
+
+----
+
+## [2.10.2] - 2024-10-07
+
+- Correction du problème où les danmaku (commentaires flottants) s'arrêtaient ou disparaissaient sur certains sites web après le changement de page (événement de masquage de page)
+- Masquage des contrôles vidéo HTML5
+
+----
+## [2.10.1] - 2024-10-05
+
+### Corrigé
+- Correction du problème où les événements de raccourci étaient déclenchés de manière répétée lors de la lecture consécutive de plusieurs vidéos
+- Correction d'un problème où le lecteur ne parvenait pas à se restaurer dans certaines situations
+- Correction du problème où la barre de progression de lecture ne fonctionnait pas correctement lors de l'utilisation du mode Image dans l'Image
+- Correction du problème où le changement d'onglets déclenchait une notification de détection d'Image dans l'Image après avoir navigué d'une page avec une vidéo à une page sans vidéo dans le même onglet
+- Correction du problème où la fenêtre d'Image dans l'Image ne se fermait pas lors de la sortie du mode Image dans l'Image en utilisant jwPlayer
+- Correction du problème où une adresse incorrecte provoquait le plantage de la page lors de la définition d'une image de fond
+
+----
+## [2.10.0] - 2024-10-01
+
+### Ajouté
+- **Document Picture-in-Picture** : Introduction de l'Image dans l'Image Avancée, disponible en essai gratuit avant la sortie officielle de la version premium de l'extension. Lorsqu'elle est activée, elle prend le pas sur l'Image dans l'Image standard. Si la page actuelle ne la prend pas en charge, le mode standard sera utilisé. L'Image dans l'Image Avancée dispose d'un lecteur vidéo personnalisé avec des fonctionnalités telles que :
+  * **Lire/Pause vidéo** (Espace ou K)
+  * **Ajuster le volume** (Flèche Haut/Bas)
+  * **Muet/Démuet vidéo** (M)
+  * **Avance rapide/Retour rapide vidéo** (Flèche Gauche/Droite ou Molette de la souris)
+  * **Avance rapide/Retour rapide vidéo de 5 secondes** (Flèche Gauche/Droite)
+  * **Avance rapide/Retour rapide vidéo de 10 secondes** (J/L)
+  * **Lire la vidéo suivante** (Shift + N)
+  * **Lire la vidéo précédente** (Shift + P)
+  * **Afficher les sous-titres** (pris en charge sur certains sites comme youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Afficher les commentaires** (pris en charge sur certains sites comme nicovideo.jp, bilibili.com, etc.) (D)
+  * **Quitter l'Image dans l'Image** (Esc)
+  * **Basculer entre masquer/afficher la vidéo et lire/pause** (Q)
+  * **Basculer en plein écran** (F)
+  * **Ajuster la vitesse de lecture** ( > ou <)
+  * **Aller au début/à la fin de la vidéo** (Home/End)
+  * **Aller à un pourcentage de la vidéo** (0-9)
+  * **Ajuster la fenêtre à la taille de la vidéo** (W)
+  * **Basculer l'Image dans l'Image depuis la page principale** (Alt + P)
+  
+  > Si les sites que vous visitez fréquemment prennent en charge les sous-titres ou les commentaires, vous pouvez soumettre un [problème : Image dans l'Image Avancée](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), et nous l'adapterons dès que possible. Veuillez noter que certains sites peuvent avoir des restrictions régionales, nécessitant des informations supplémentaires.
+- **Raccourci pour l'Image dans l'Image** : Un nouveau raccourci clavier Alt+P a été ajouté pour basculer rapidement en mode Image dans l'Image. Cela permet aux utilisateurs de passer facilement les vidéos en vue Image dans l'Image sans utiliser la souris, améliorant ainsi la productivité et les capacités multitâches.
+- **Basculer l'Image dans l'Image dans la barre de navigation inférieure** : Vous pouvez maintenant ajouter une option de basculement de l'Image dans l'Image à la barre de navigation inférieure. Cela peut être configuré dans les paramètres d'apparence sous "Afficher la barre de navigation inférieure" - "Configurer".
+- **Trier les onglets par URL** : Une nouvelle option de menu "Trier les onglets par URL" a été ajoutée au menu "Plus".
+- **Comportement de réduction du groupe d'onglets** : Une nouvelle option "Comportement de réduction du groupe d'onglets" a été ajoutée au menu "Groupe d'onglets avancé". Vous pouvez modifier le comportement de réduction des groupes d'onglets dans le navigateur. Les options incluent : 'Afficher le groupe actuel et réduire les autres groupes', 'Développer tous les groupes' et 'Utiliser les paramètres par défaut du navigateur'.
+- **Paramètres du site** : Trois nouvelles options ont été ajoutées aux paramètres du site :
+  * **Action de restriction de l'Image dans l'Image** : Configurer l'action pour les restrictions de l'Image dans l'Image.
+  * **Entrer automatiquement en mode Image dans l'Image** : Entrer automatiquement en mode Image dans l'Image lorsqu'une vidéo est présente lors de l'entrée sur la page.
+  * **Paramètres des sous-titres** : Configurer les sélecteurs CSS pour l'élément de sous-titres et son parent sur la page.
+
+### Modifié
+- Lorsque l'onglet du panneau latéral n'est pas ouvert, si "Image dans l'Image lors du changement d'onglet" est activé (activé par défaut), il passera automatiquement en mode Image dans l'Image (Rappel important : une interaction utilisateur est requise, comme cliquer sur la page lisant la vidéo pour activer l'interaction utilisateur).
+- Lors de la fermeture de la barre latérale de la page, elle est maintenant supprimée au lieu d'être masquée. Elle réapparaîtra uniquement après actualisation de la page.
+
+### Corrigé
+- Correction du problème où la liste d'accès rapide ne gérait pas plusieurs URL.
+
+----
+
+## [2.9.0] - 2024-09-15
+
+- Ajout de **Effacer les onglets** : Enregistrez un instantané et fermez tous les onglets sauf celui actif. Restaurez-les à partir des onglets récemment fermés ou des instantanés.
+- Ajout de **Activation automatique du regroupement des onglets** : Créez automatiquement un nouveau groupe lors de l'ouverture d'un nouvel onglet. Les onglets suivants ouverts à partir de cet onglet rejoindront le groupe.
+- Ajout de **Espacement vertical de la liste** : Nouvelle option dans les paramètres de groupe d'onglets avancés pour ajuster l'espacement vertical des éléments de la liste.
+- Ajout de **Ajouter plusieurs URL à l'accès rapide** : Permet d'ajouter des groupes et de sélectionner plusieurs onglets à enregistrer dans l'accès rapide.
+- Ajout de **Espacement des éléments d'accès rapide** : Définissez l'espacement vertical/horizontal des éléments d'accès rapide dans la page des options.
+
 ---
+## [2.8.0] - 2024-09-12
+
+### Ajouté
+- Ajout de **Historique des onglets** : Vous pouvez maintenant facilement voir quels sites Web ont été ouverts sous le même onglet. Cliquez avec le bouton gauche pour ouvrir le site Web dans l'onglet actuel, cliquez avec le bouton du milieu ou Ctrl+clic gauche pour ouvrir le site Web dans un nouvel onglet. Pour plus de détails, veuillez consulter la page des options.
+- Ajout de **Noms de groupe personnalisés** : Dans la page des options - Groupe d'onglets avancé, vous pouvez ajouter ici quelques groupes prédéfinis, afin de pouvoir les sélectionner rapidement lorsque vous devez ajouter des onglets à un groupe. Nous avons déjà prédéfini certains noms de groupe, que vous pouvez modifier ou supprimer selon vos besoins.
+- Ajout de **Utiliser le nom du dossier de signet comme nom de groupe** : Dans la page des options - Groupe d'onglets avancé, une nouvelle option a été ajoutée. Si le site Web ouvert est un signet, il sera automatiquement ajouté au groupe, et le nom du groupe utilisera le nom du répertoire de signets.
+- Ajout de **Index d'onglet** : Dans la page des options, lorsque activé, l'index de l'onglet sera affiché à côté du titre, facilitant l'activation de l'onglet en utilisant [Ctrl+nombre] sur Windows ou [cmd+nombre] sur Mac. Exemple : 1. stackoverflow.com 2. youtube, de sorte qu'il est facile de faire Ctrl + 2 sur Windows ou cmd + 2 sur Mac pour aller sur youtube
+- **Paramètres du site optimisés** : Amélioration de l'option pour définir la couleur de fond et la couleur de la police pour les sites.
+
+### Modifié
+- Lors de la vérification des signets, permettre la mise à jour des URL redirigés. Si l'URL n'est pas accessible, afficher les codes d'erreur : Réponses réussies (200 – 299), Messages de redirection (300 – 399), Réponses d'erreur client (400 – 499), Réponses d'erreur serveur (500 – 599). Pour plus de détails, veuillez consulter : https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+### Corrigé
+- Correction du problème où la fenêtre contextuelle de modification du signet ne disparaissait pas
 
 ## [2.7.0] - 2024-09-05
 ### Ajouté

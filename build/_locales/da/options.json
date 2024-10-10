@@ -298,6 +298,23 @@
         "label": "Vis faneindeks",
         "description": "Når aktiveret, vil faneindekset blive vist ved siden af titlen, hvilket gør det nemt at aktivere fanen ved hjælp af [Ctrl+nummer] på Windows eller [cmd+nummer] på Mac. Eksempel: 1. stackoverflow.com 2. youtube, så det er nemt at gøre Ctrl + 2 på Windows eller cmd + 2 på Mac for at gå til youtube"
       },
+      "showGroupTabCount": {
+        "label": "Vis antal faner i gruppe",
+        "description": "Når aktiveret, vil antallet af faner i hver gruppe blive vist ved siden af gruppenavnet."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maksimalt antal linjer for fanetitler",
+        "description": "Indstil det maksimale antal linjer, der skal vises for fanetitler. Yderligere linjer vil blive skjult."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maksimalt antal linjer for gruppetitler",
+        "description": "Indstil det maksimale antal linjer, der skal vises for gruppetitler. Yderligere linjer vil blive skjult."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Bredde på sammenklappet gruppetitel",
+        "description": "Indstil bredden på gruppetitlen, når gruppen er sammenklappet.",
+        "reset": "Nulstil"
+      },
       "tabHistoryEnable": {
         "label": "Fanehistorik",
         "description": "Når aktiveret, vil historikken over websteder åbnet i den samme fane blive vist."
@@ -621,6 +638,74 @@
         "target_top": "Øverste fane",
         "save": "Gem",
         "close": "Luk"
+      },
+      "linkOpenOptions": {
+        "label": "Linkåbningsindstillinger",
+        "description": "Indstil hvordan links åbnes på denne side",
+        "configure": "Konfigurer",
+        "listTips": "Træk for at omarrangere. Øverste regler anvendes først.",
+        "linkMatchContent": "Linkmønster",
+        "linkMatchContentTips": "Brug '*' for vilkårlige tegn, '?' for et enkelt. Understøtter regex.",
+        "linkOpenMethod": "Åbn i",
+        "edit": "Rediger",
+        "delete": "Slet",
+        "target_self": "Nuværende fane",
+        "target_blank": "Ny fane",
+        "target_parent": "Overordnet fane",
+        "target_top": "Øverste fane",
+        "save": "Gem",
+        "close": "Luk",
+        "internalLinks": "Interne links",
+        "externalLinks": "Eksterne links",
+        "imageLinks": "Billeder",
+        "pdfLinks": "PDF'er",
+        "socialMediaLinks": "Sociale medier"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatisk opdatering af links",
+        "description": "Indstil automatisk opdatering for specifikke links",
+        "configure": "Konfigurer",
+        "listTips": "Træk for at omarrangere. Kun den første matchende regel anvendes.",
+        "linkMatchContent": "Linkmønster",
+        "linkMatchContentTips": "Brug '*' for vilkårlige tegn, '?' for et enkelt. Understøtter regex.",
+        "edit": "Rediger",
+        "delete": "Slet",
+        "save": "Gem",
+        "close": "Luk",
+        "refreshInterval": "Opdateringsinterval (minutter)",
+        "disabled": "Fra"
+      },
+      "pageKeepAlive": {
+        "label": "Hold side aktiv",
+        "description": "Holder siden aktiv og forhindrer browseren i automatisk at suspendere den, når den er i baggrunden."
+      },
+      "incognito": {
+        "label": "Privat browsing",
+        "description": "Rydder udvalgte webstedsdata efter hvert besøg. Brug 'Konfigurer' for at vælge, hvad der skal ryddes. Kan påvirke din browsingoplevelse.",
+        "configure": "Konfigurer",
+        "configureDescription": "Vælg venligst de funktioner, der skal ryddes",
+        "cache": "Cache",
+        "cacheStorage": "Cache-lager",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Behold kontocookies",
+        "history": "Historik",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokal opbevaring",
+        "serviceWorkers": "Servicearbejdere",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Advarsel: Sletning af cookies påvirker alle underdomæner og kan logge dig ud.",
+        "warningTitle": "Advarsel",
+        "warningMessage": "Dette vil slette alle webstedsdata, inklusive logins. Fortsæt?",
+        "selectAll": "Vælg alle",
+        "cancel": "Annuller",
+        "confirm": "Bekræft"
+      },
+      "autoJoinGroup": {
+        "label": "Automatisk tilslutning til gruppe",
+        "description": "Deltag automatisk eller opret en gruppe for dette websted.",
+        "configure": "Opsæt",
+        "groupName": "Gruppenavn",
+        "save": "Gem"
       },
       "backgroundColor": {
         "label": "Baggrundsfarve",

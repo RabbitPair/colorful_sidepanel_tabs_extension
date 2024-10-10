@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Provo Përsëri"
+  },
+  "shortcuts": {
+    "message": "shkurtesat"
+  },
+  "countdown_refresh": {
+    "message": "Rifreskimi i Numërimit Mbrapsht"
   }
 }

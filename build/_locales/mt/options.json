@@ -298,6 +298,23 @@
         "label": "Uri l-indiċi tat-tab",
         "description": "Meta jkun attivat, l-indiċi tat-tab se jintwera ħdejn it-titlu, u jagħmilha faċli biex tattiva tab billi tuża [Ctrl+number] fuq Windows jew [cmd+number] fuq Mac. Eżempju: 1. stackoverflow.com 2. youtube, sabiex ikun faċli li tagħmel Ctrl + 2 fuq Windows jew cmd + 2 fuq Mac biex tmur fuq youtube"
       },
+      "showGroupTabCount": {
+        "label": "Uri l-għadd ta' tabs tal-grupp",
+        "description": "Meta jkun attivat, in-numru ta' tabs f'kull grupp se jintwera ħdejn l-isem tal-grupp."
+      },
+      "tabTitleMulitLines": {
+        "label": "Linji massimi tat-titlu tat-tab",
+        "description": "Issettja n-numru massimu ta' linji biex jintwerew għat-titli tat-tabs. Linji addizzjonali se jkunu moħbija."
+      },
+      "groupTitleMulitLines": {
+        "label": "Linji massimi tat-titlu tal-grupp",
+        "description": "Issettja n-numru massimu ta' linji biex jintwerew għat-titli tal-gruppi. Linji addizzjonali se jkunu moħbija."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Wisa' tat-titlu tal-grupp miċken",
+        "description": "Issettja l-wisa' tat-titlu tal-grupp meta l-grupp ikun miċken.",
+        "reset": "Irrisettja"
+      },
       "tabHistoryEnable": {
         "label": "Storja tat-tab",
         "description": "Meta jkun attivat, l-istorja tal-websajts miftuħa fl-istess tab se tintwera."
@@ -621,6 +638,74 @@
         "target_top": "Tab Ewlieni",
         "save": "Issejvja",
         "close": "Agħlaq"
+      },
+      "linkOpenOptions": {
+        "label": "Settings tal-Ftuħ tal-Link",
+        "description": "Issettja kif il-links jinfetħu fuq dan is-sit",
+        "configure": "Ikkonfigura",
+        "listTips": "Iġbed biex terġa' tordna. Ir-regoli ta' fuq japplikaw l-ewwel.",
+        "linkMatchContent": "Mudell tal-Link",
+        "linkMatchContentTips": "Uża '*' għal kwalunkwe karattri, '?' għal wieħed. Jappoġġja regex.",
+        "linkOpenMethod": "Iftaħ F'",
+        "edit": "Editja",
+        "delete": "Ħassar",
+        "target_self": "Tab Kurrenti",
+        "target_blank": "Tab Ġdid",
+        "target_parent": "Tab Ġenitur",
+        "target_top": "Tab Ewlieni",
+        "save": "Issejvja",
+        "close": "Agħlaq",
+        "internalLinks": "Links Interni",
+        "externalLinks": "Links Esterni",
+        "imageLinks": "Immaġini",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Links ta' Aġġornament Awtomatiku",
+        "description": "Issettja aġġornament awtomatiku għal links speċifiċi",
+        "configure": "Ikkonfigura",
+        "listTips": "Iġbed biex terġa' tordna. Japplika biss l-ewwel regola li taqbel.",
+        "linkMatchContent": "Mudell tal-Link",
+        "linkMatchContentTips": "Uża '*' għal kwalunkwe karattri, '?' għal wieħed. Jappoġġja regex.",
+        "edit": "Editja",
+        "delete": "Ħassar",
+        "save": "Issejvja",
+        "close": "Agħlaq",
+        "refreshInterval": "Intervall ta' Aġġornament (Minuti)",
+        "disabled": "Mitfi"
+      },
+      "pageKeepAlive": {
+        "label": "Żomm il-Paġna Attiva",
+        "description": "Iżżomm il-paġna attiva u tipprevjeni lill-browser milli awtomatikament jissospendiha meta tkun fil-fond."
+      },
+      "incognito": {
+        "label": "Browsing Privat",
+        "description": "Iħassar id-data tas-sit magħżula wara kull żjara. Uża 'Ikkonfigura' biex tagħżel x'għandek tħassar. Jista' jaffettwa l-esperjenza tal-browsing tiegħek.",
+        "configure": "Ikkonfigura",
+        "configureDescription": "Jekk jogħġbok agħżel il-karatteristiċi biex tħassar",
+        "cache": "Cache",
+        "cacheStorage": "Cache Storage",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Żomm Cookies tal-Kont",
+        "history": "Storja",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Local Storage",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Twissija: It-tħassir tal-cookies jaffettwa l-subdomains kollha u jista' jilloggjak barra.",
+        "warningTitle": "Twissija",
+        "warningMessage": "Dan se jħassar id-data kollha tas-sit, inklużi l-logins. Tkompli?",
+        "selectAll": "Agħżel Kollox",
+        "cancel": "Ikkanċella",
+        "confirm": "Ikkonferma"
+      },
+      "autoJoinGroup": {
+        "label": "Ingħaqad Awtomatikament fil-Grupp",
+        "description": "Ingħaqad awtomatikament jew oħloq grupp għal dan is-sit.",
+        "configure": "Ikkonfigura",
+        "groupName": "Isem tal-Grupp",
+        "save": "Issejvja"
       },
       "backgroundColor": {
         "label": "Kulur tal-Fundu",

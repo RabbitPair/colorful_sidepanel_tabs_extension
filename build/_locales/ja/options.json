@@ -298,6 +298,23 @@
         "label": "タブインデックスを表示",
         "description": "有効にすると、タブインデックスがタイトルの横に表示され、Windowsでは[Ctrl+番号]、Macでは[cmd+番号]を使用してタブを簡単にアクティブにできます。例: 1. stackoverflow.com 2. youtube、これにより、WindowsではCtrl + 2、Macではcmd + 2でyoutubeに移動できます"
       },
+      "showGroupTabCount": {
+        "label": "グループタブ数を表示",
+        "description": "有効にすると、各グループのタブ数がグループ名の横に表示されます。"
+      },
+      "tabTitleMulitLines": {
+        "label": "タブタイトルの最大行数",
+        "description": "タブタイトルに表示する最大行数を設定します。追加の行は非表示になります。"
+      },
+      "groupTitleMulitLines": {
+        "label": "グループタイトルの最大行数",
+        "description": "グループタイトルに表示する最大行数を設定します。追加の行は非表示になります。"
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "グループ折りたたみタイトルの幅",
+        "description": "グループが折りたたまれたときのグループタイトルの幅を設定します。",
+        "reset": "リセット"
+      },
       "tabHistoryEnable": {
         "label": "タブ履歴",
         "description": "有効にすると、同じタブで開いたウェブサイトの履歴が表示されます。"
@@ -621,6 +638,74 @@
         "target_top": "最上位タブ",
         "save": "保存",
         "close": "閉じる"
+      },
+      "linkOpenOptions": {
+        "label": "リンクオープン設定",
+        "description": "このサイトでリンクをどのように開くかを設定します。",
+        "configure": "設定",
+        "listTips": "ドラッグして並べ替えます。上位のルールが最初に適用されます。",
+        "linkMatchContent": "リンクパターン",
+        "linkMatchContentTips": "'*'を任意の文字列に、'?'を1文字に使用します。正規表現をサポートします。",
+        "linkOpenMethod": "開く方法",
+        "edit": "編集",
+        "delete": "削除",
+        "target_self": "現在のタブ",
+        "target_blank": "新しいタブ",
+        "target_parent": "親タブ",
+        "target_top": "最上位タブ",
+        "save": "保存",
+        "close": "閉じる",
+        "internalLinks": "内部リンク",
+        "externalLinks": "外部リンク",
+        "imageLinks": "画像",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "ソーシャルメディア"
+      },
+      "linkRefreshOptions": {
+        "label": "リンクの自動リフレッシュ",
+        "description": "特定のリンクの自動リフレッシュを設定します。",
+        "configure": "設定",
+        "listTips": "ドラッグして並べ替えます。最初に一致するルールのみが適用されます。",
+        "linkMatchContent": "リンクパターン",
+        "linkMatchContentTips": "'*'を任意の文字列に、'?'を1文字に使用します。正規表現をサポートします。",
+        "edit": "編集",
+        "delete": "削除",
+        "save": "保存",
+        "close": "閉じる",
+        "refreshInterval": "リフレッシュ間隔（分）",
+        "disabled": "オフ"
+      },
+      "pageKeepAlive": {
+        "label": "ページをアクティブに保つ",
+        "description": "ページをアクティブに保ち、バックグラウンドでブラウザが自動的にサスペンドするのを防ぎます。"
+      },
+      "incognito": {
+        "label": "プライベートブラウジング",
+        "description": "各訪問後に選択したサイトデータをクリアします。「設定」を使用してクリアする内容を選択します。ブラウジング体験に影響を与える可能性があります。",
+        "configure": "設定",
+        "configureDescription": "クリアする機能を選択してください",
+        "cache": "キャッシュ",
+        "cacheStorage": "キャッシュストレージ",
+        "cookies": "クッキー",
+        "skipAccountCookies": "アカウントクッキーを保持",
+        "history": "履歴",
+        "indexedDB": "IndexedDB",
+        "localStorage": "ローカルストレージ",
+        "serviceWorkers": "サービスワーカー",
+        "webSQL": "Web SQL",
+        "cookieWarning": "警告: クッキーを削除すると、すべてのサブドメインに影響し、ログアウトする可能性があります。",
+        "warningTitle": "警告",
+        "warningMessage": "これにより、ログインを含むすべてのサイトデータが消去されます。続行しますか？",
+        "selectAll": "すべて選択",
+        "cancel": "キャンセル",
+        "confirm": "確認"
+      },
+      "autoJoinGroup": {
+        "label": "自動グループ参加",
+        "description": "このサイトのグループに自動的に参加または作成します。",
+        "configure": "設定",
+        "groupName": "グループ名",
+        "save": "保存"
       },
       "backgroundColor": {
         "label": "背景色",

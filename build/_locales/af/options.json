@@ -298,6 +298,23 @@
         "label": "Wys oortjie-indeks",
         "description": "Wanneer geaktiveer, sal die oortjie-indeks langs die titel vertoon word, wat dit maklik maak om die oortjie te aktiveer deur [Ctrl+nommer] op Windows of [cmd+nommer] op Mac te gebruik. Voorbeeld: 1. stackoverflow.com 2. youtube, sodat dit maklik is om Ctrl + 2 op Windows of cmd + 2 op Mac te gebruik om na youtube te gaan"
       },
+      "showGroupTabCount": {
+        "label": "Wys groep oortjie telling",
+        "description": "Wanneer geaktiveer, sal die aantal oortjies in elke groep langs die groepnaam vertoon word."
+      },
+      "tabTitleMulitLines": {
+        "label": "Oortjie titel maksimum lyne",
+        "description": "Stel die maksimum aantal lyne in om vir oortjie titels te vertoon. Bykomende lyne sal versteek word."
+      },
+      "groupTitleMulitLines": {
+        "label": "Groep titel maksimum lyne",
+        "description": "Stel die maksimum aantal lyne in om vir groep titels te vertoon. Bykomende lyne sal versteek word."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Groep saamgevoude titel breedte",
+        "description": "Stel die breedte van die groep titel in wanneer die groep saamgevou is.",
+        "reset": "Herstel"
+      },
       "tabHistoryEnable": {
         "label": "Oortjiegeskiedenis",
         "description": "Wanneer geaktiveer, sal die geskiedenis van webwerwe wat in dieselfde oortjie oopgemaak is, vertoon word."
@@ -621,6 +638,74 @@
         "target_top": "Bo Tab",
         "save": "Stoor",
         "close": "Maak toe"
+      },
+      "linkOpenOptions": {
+        "label": "Skakel Oop Instellings",
+        "description": "Stel in hoe skakels op hierdie webwerf oopmaak",
+        "configure": "Stel in",
+        "listTips": "Sleep om te herrangskik. Bo reëls geld eerste.",
+        "linkMatchContent": "Skakel Patroon",
+        "linkMatchContentTips": "Gebruik '*' vir enige karakters, '?' vir een. Ondersteun regex.",
+        "linkOpenMethod": "Maak Oop In",
+        "edit": "Wysig",
+        "delete": "Verwyder",
+        "target_self": "Huidige Tab",
+        "target_blank": "Nuwe Tab",
+        "target_parent": "Ouer Tab",
+        "target_top": "Bo Tab",
+        "save": "Stoor",
+        "close": "Maak toe",
+        "internalLinks": "Interne Skakels",
+        "externalLinks": "Eksterne Skakels",
+        "imageLinks": "Beelde",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Sosiale Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Outomatiese Verfris Skakels",
+        "description": "Stel outomatiese verfris vir spesifieke skakels op",
+        "configure": "Stel in",
+        "listTips": "Sleep om te herrangskik. Slegs die eerste ooreenstemmende reël geld.",
+        "linkMatchContent": "Skakel Patroon",
+        "linkMatchContentTips": "Gebruik '*' vir enige karakters, '?' vir een. Ondersteun regex.",
+        "edit": "Wysig",
+        "delete": "Verwyder",
+        "save": "Stoor",
+        "close": "Maak toe",
+        "refreshInterval": "Verfris Interval (Minute)",
+        "disabled": "Af"
+      },
+      "pageKeepAlive": {
+        "label": "Hou Bladsy Aktief",
+        "description": "Hou die bladsy aktief en verhoed dat die blaaier dit outomaties opskort wanneer dit in die agtergrond is."
+      },
+      "incognito": {
+        "label": "Privaat Blaai",
+        "description": "Vee geselekteerde webwerfdata uit na elke besoek. Gebruik 'Stel in' om te kies wat om uit te vee. Mag jou blaai-ervaring beïnvloed.",
+        "configure": "Stel in",
+        "configureDescription": "Kies asseblief die kenmerke om uit te vee",
+        "cache": "Kas",
+        "cacheStorage": "Kasberging",
+        "cookies": "Koekies",
+        "skipAccountCookies": "Hou Rekening Koekies",
+        "history": "Geskiedenis",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Plaaslike Berging",
+        "serviceWorkers": "Dienswerkers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Waarskuwing: Die uitvee van koekies beïnvloed alle subdomeine en mag jou uitteken.",
+        "warningTitle": "Waarskuwing",
+        "warningMessage": "Dit sal alle webwerfdata uitvee, insluitend aanmeldings. Voortgaan?",
+        "selectAll": "Kies Alles",
+        "cancel": "Kanselleer",
+        "confirm": "Bevestig"
+      },
+      "autoJoinGroup": {
+        "label": "Outomatiese Aansluiting by Groep",
+        "description": "Sluit outomaties aan by of skep 'n groep vir hierdie webwerf.",
+        "configure": "Stel Op",
+        "groupName": "Groep Naam",
+        "save": "Stoor"
       },
       "backgroundColor": {
         "label": "Agtergrondkleur",

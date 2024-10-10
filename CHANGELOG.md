@@ -6,11 +6,47 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- **Scheduled Snapshots**: Automatically save snapshots at specified intervals. This feature ensures that your work is periodically backed up, providing a safety net against data loss.
+
+----
+## [2.11.0] - 2024-10-07
+### Added
+- **Tab Menu**: New menus have been added:
+  - **Rename Tab Title**: Allows you to change the tab title. By default, the option to remember the URL settings is selected, so the title will automatically update the next time you open the URL.
+  - **Move Tab to New Window**: Allows you to move the tab to a new window.
+  - **Move Tab to Another Window**: Allows you to move the tab to another existing window.
+  - **Remove Tab from Group**: Allows you to remove the tab from its current group.
+
+- **Tab Settings**: New options have been added to the tab settings:
+  - **Tab Title Max Show Lines**: Set the maximum number of lines to display for tab titles. Additional lines will be hidden.
+  - **Group Title Max Show Lines**: Set the maximum number of lines to display for group titles. Additional lines will be hidden.
+  - **Group Collapsed Title Width**: When the group is collapsed, set the width of the group title.
+  - **Show Group Tab Count**: Shows the number of tabs in each group next to the group name.
+
+- **Site Settings**: New options have been added to the site settings:
+  * **Page Keep Alive**: When enabled, the tab will be allowed to be discarded by the browser. If you enable performance settings and set a time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded.
+  * **Auto Join Group**: When enabled, the site will automatically create or join the specified group.
+  * **Incognito Mode**: When enabled, you can choose to automatically clear browsing data upon visiting the site. This includes several configurable options: Cookies, History, CacheStorage, FileSystems, IndexedDB, LocalStorage, ServiceWorkers, and WebSQL. Note that the browsingData permission is not used to avoid requesting additional permissions.
+  * **Auto Refresh**: In the link configuration settings, you can specify URLs to automatically refresh, with support for regular expressions.
+
+### Changed
+- **Advanced Picture-in-Picture**: Added universal subtitle support for the plyr player.
+- **Page Keep Alive**: Enhanced functionality to keep tabs active.
+- **Group Tabs Style**: Modified the style of tabs within groups.
+- **Menu Order**: Adjusted the order of items in the tab menu.
+
+### Fixed
+- **Picture-in-Picture**: Fixed an issue where the title did not change after switching videos in the Picture-in-Picture player.
+- **Custom Group Assignments**: Fixed an issue where changes to custom group assignments for websites didn't take effect immediately when the "Remember site grouping" option was enabled in Advanced Tab Groups settings. This has been resolved to apply changes instantly without requiring a restart.
+
+
+## [2.10.2] - 2024-10-07
 
 - Fixed the issue where danmaku (bullet comments) would stop or disappear on some websites after switching pages (page hide event)
 - hide HTML5 video controls
 
 ----
+
 ## [2.10.1] - 2024-10-05
 
 ### Fixed

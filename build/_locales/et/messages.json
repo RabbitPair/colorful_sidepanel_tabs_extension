@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Proovi uuesti"
+  },
+  "shortcuts": {
+    "message": "kiirklahvid"
+  },
+  "countdown_refresh": {
+    "message": "Taimeri värskendus"
   }
 }

@@ -298,6 +298,23 @@
         "label": "Lapindex megjelenítése",
         "description": "Ha engedélyezve van, a lapindex megjelenik a cím mellett, így könnyen aktiválható a lap a [Ctrl+szám] használatával Windows-on vagy [cmd+szám] Mac-en. Példa: 1. stackoverflow.com 2. youtube, így könnyen megteheti a Ctrl + 2 Windows-on vagy cmd + 2 Mac-en, hogy a youtube-ra menjen"
       },
+      "showGroupTabCount": {
+        "label": "Csoport lapok számának megjelenítése",
+        "description": "Ha engedélyezve van, a csoport nevéhez tartozó lapok száma megjelenik."
+      },
+      "tabTitleMulitLines": {
+        "label": "Lap cím maximális sorok",
+        "description": "Állítsa be a lap címek megjelenítéséhez szükséges maximális sorok számát. A további sorok el lesznek rejtve."
+      },
+      "groupTitleMulitLines": {
+        "label": "Csoport cím maximális sorok",
+        "description": "Állítsa be a csoport címek megjelenítéséhez szükséges maximális sorok számát. A további sorok el lesznek rejtve."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Csoport összeomlott cím szélessége",
+        "description": "Állítsa be a csoport cím szélességét, amikor a csoport össze van omlasztva.",
+        "reset": "Alaphelyzetbe állítás"
+      },
       "tabHistoryEnable": {
         "label": "Lap előzmények",
         "description": "Ha engedélyezve van, a lapban megnyitott webhelyek előzményei megjelennek."
@@ -621,6 +638,74 @@
         "target_top": "Legfelső fül",
         "save": "Mentés",
         "close": "Bezárás"
+      },
+      "linkOpenOptions": {
+        "label": "Link megnyitási beállítások",
+        "description": "Állítsa be, hogyan nyílnak meg a linkek ezen az oldalon",
+        "configure": "Beállítás",
+        "listTips": "Húzza a rendezéshez. A legfelső szabályok érvényesülnek először.",
+        "linkMatchContent": "Link minta",
+        "linkMatchContentTips": "Használja a '*' karaktert bármely karakterhez, '?' egyhez. Támogatja a reguláris kifejezéseket.",
+        "linkOpenMethod": "Megnyitás itt",
+        "edit": "Szerkesztés",
+        "delete": "Törlés",
+        "target_self": "Jelenlegi fül",
+        "target_blank": "Új fül",
+        "target_parent": "Szülő fül",
+        "target_top": "Legfelső fül",
+        "save": "Mentés",
+        "close": "Bezárás",
+        "internalLinks": "Belső linkek",
+        "externalLinks": "Külső linkek",
+        "imageLinks": "Képek",
+        "pdfLinks": "PDF-ek",
+        "socialMediaLinks": "Közösségi média"
+      },
+      "linkRefreshOptions": {
+        "label": "Linkek automatikus frissítése",
+        "description": "Állítsa be az automatikus frissítést meghatározott linkekhez",
+        "configure": "Beállítás",
+        "listTips": "Húzza a rendezéshez. Csak az első illeszkedő szabály érvényesül.",
+        "linkMatchContent": "Link minta",
+        "linkMatchContentTips": "Használja a '*' karaktert bármely karakterhez, '?' egyhez. Támogatja a reguláris kifejezéseket.",
+        "edit": "Szerkesztés",
+        "delete": "Törlés",
+        "save": "Mentés",
+        "close": "Bezárás",
+        "refreshInterval": "Frissítési intervallum (percekben)",
+        "disabled": "Kikapcsolva"
+      },
+      "pageKeepAlive": {
+        "label": "Oldal aktív tartása",
+        "description": "Az oldal aktív marad, és megakadályozza, hogy a böngésző automatikusan felfüggessze, amikor a háttérben van."
+      },
+      "incognito": {
+        "label": "Privát böngészés",
+        "description": "Minden látogatás után törli a kiválasztott webhelyadatokat. Használja a 'Beállítás' lehetőséget a törlendő elemek kiválasztásához. Hatással lehet a böngészési élményére.",
+        "configure": "Beállítás",
+        "configureDescription": "Kérjük, válassza ki a törlendő funkciókat",
+        "cache": "Gyorsítótár",
+        "cacheStorage": "Gyorsítótár tárolás",
+        "cookies": "Sütik",
+        "skipAccountCookies": "Fiók sütik megtartása",
+        "history": "Előzmények",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Helyi tárolás",
+        "serviceWorkers": "Szolgáltatási munkások",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Figyelmeztetés: A sütik törlése az összes aldomainre hatással van, és kijelentkezhet.",
+        "warningTitle": "Figyelmeztetés",
+        "warningMessage": "Ez törli az összes webhelyadatot, beleértve a bejelentkezéseket is. Folytatja?",
+        "selectAll": "Összes kiválasztása",
+        "cancel": "Mégse",
+        "confirm": "Megerősítés"
+      },
+      "autoJoinGroup": {
+        "label": "Automatikus csatlakozás csoporthoz",
+        "description": "Automatikusan csatlakozik vagy létrehoz egy csoportot ehhez az oldalhoz.",
+        "configure": "Beállítás",
+        "groupName": "Csoport neve",
+        "save": "Mentés"
       },
       "backgroundColor": {
         "label": "Háttérszín",

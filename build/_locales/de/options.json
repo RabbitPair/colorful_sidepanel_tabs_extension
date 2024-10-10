@@ -298,6 +298,23 @@
         "label": "Registerkarte anzeigen",
         "description": "Wenn aktiviert, wird der Registerkartenindex neben dem Titel angezeigt, sodass die Registerkarte leicht mit [Strg+Nummer] unter Windows oder [cmd+Nummer] auf dem Mac aktiviert werden kann. Beispiel: 1. stackoverflow.com 2. youtube, damit es einfach ist, Strg + 2 unter Windows oder cmd + 2 auf dem Mac zu youtube zu wechseln"
       },
+      "showGroupTabCount": {
+        "label": "Gruppen-Tab-Anzahl anzeigen",
+        "description": "Wenn aktiviert, wird die Anzahl der Tabs in jeder Gruppe neben dem Gruppennamen angezeigt."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maximale Zeilenanzahl für Tab-Titel",
+        "description": "Legen Sie die maximale Anzahl der Zeilen fest, die für Tab-Titel angezeigt werden sollen. Zusätzliche Zeilen werden ausgeblendet."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maximale Zeilenanzahl für Gruppentitel",
+        "description": "Legen Sie die maximale Anzahl der Zeilen fest, die für Gruppentitel angezeigt werden sollen. Zusätzliche Zeilen werden ausgeblendet."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Breite des Gruppentitels bei Zusammenklappen",
+        "description": "Legen Sie die Breite des Gruppentitels fest, wenn die Gruppe zusammengeklappt ist.",
+        "reset": "Zurücksetzen"
+      },
       "tabHistoryEnable": {
         "label": "Tab-Verlauf",
         "description": "Wenn aktiviert, wird der Verlauf der in derselben Registerkarte geöffneten Websites angezeigt."
@@ -621,6 +638,74 @@
         "target_top": "Oberster Tab",
         "save": "Speichern",
         "close": "Schließen"
+      },
+      "linkOpenOptions": {
+        "label": "Link-Öffnungseinstellungen",
+        "description": "Legen Sie fest, wie Links auf dieser Seite geöffnet werden",
+        "configure": "Konfigurieren",
+        "listTips": "Ziehen, um neu anzuordnen. Obere Regeln gelten zuerst.",
+        "linkMatchContent": "Link-Muster",
+        "linkMatchContentTips": "Verwenden Sie '*' für beliebige Zeichen, '?' für eines. Unterstützt reguläre Ausdrücke.",
+        "linkOpenMethod": "Öffnen in",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "target_self": "Aktueller Tab",
+        "target_blank": "Neuer Tab",
+        "target_parent": "Übergeordneter Tab",
+        "target_top": "Oberster Tab",
+        "save": "Speichern",
+        "close": "Schließen",
+        "internalLinks": "Interne Links",
+        "externalLinks": "Externe Links",
+        "imageLinks": "Bilder",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Soziale Medien"
+      },
+      "linkRefreshOptions": {
+        "label": "Links automatisch aktualisieren",
+        "description": "Richten Sie die automatische Aktualisierung für bestimmte Links ein",
+        "configure": "Konfigurieren",
+        "listTips": "Ziehen, um neu anzuordnen. Nur die erste übereinstimmende Regel gilt.",
+        "linkMatchContent": "Link-Muster",
+        "linkMatchContentTips": "Verwenden Sie '*' für beliebige Zeichen, '?' für eines. Unterstützt reguläre Ausdrücke.",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "save": "Speichern",
+        "close": "Schließen",
+        "refreshInterval": "Aktualisierungsintervall (Minuten)",
+        "disabled": "Aus"
+      },
+      "pageKeepAlive": {
+        "label": "Seite aktiv halten",
+        "description": "Hält die Seite aktiv und verhindert, dass der Browser sie automatisch aussetzt, wenn sie im Hintergrund ist."
+      },
+      "incognito": {
+        "label": "Privates Surfen",
+        "description": "Löscht ausgewählte Websitedaten nach jedem Besuch. Verwenden Sie 'Konfigurieren', um auszuwählen, was gelöscht werden soll. Kann Ihr Surferlebnis beeinträchtigen.",
+        "configure": "Konfigurieren",
+        "configureDescription": "Bitte wählen Sie die zu löschenden Funktionen aus",
+        "cache": "Cache",
+        "cacheStorage": "Cache-Speicher",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Kontocookies behalten",
+        "history": "Verlauf",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokaler Speicher",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Warnung: Das Löschen von Cookies betrifft alle Subdomains und kann dazu führen, dass Sie abgemeldet werden.",
+        "warningTitle": "Warnung",
+        "warningMessage": "Dies wird alle Websitedaten löschen, einschließlich Anmeldungen. Fortfahren?",
+        "selectAll": "Alle auswählen",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
+      },
+      "autoJoinGroup": {
+        "label": "Automatisch Gruppe beitreten",
+        "description": "Automatisch einer Gruppe für diese Seite beitreten oder eine Gruppe erstellen.",
+        "configure": "Einrichten",
+        "groupName": "Gruppenname",
+        "save": "Speichern"
       },
       "backgroundColor": {
         "label": "Hintergrundfarbe",

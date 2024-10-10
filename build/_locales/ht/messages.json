@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Eseye Ankò"
+  },
+  "shortcuts": {
+    "message": "rakoursi"
+  },
+  "countdown_refresh": {
+    "message": "Revizyon Konte"
   }
 }

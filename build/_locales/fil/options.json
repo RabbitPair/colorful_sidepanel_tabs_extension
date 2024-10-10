@@ -298,6 +298,23 @@
         "label": "Ipakita ang index ng tab",
         "description": "Kapag pinagana, ang index ng tab ay ipapakita sa tabi ng pamagat, na ginagawang madali ang pag-activate ng tab gamit ang [Ctrl+number] sa Windows o [cmd+number] sa Mac. Halimbawa: 1. stackoverflow.com 2. youtube, upang madali itong gawin Ctrl + 2 sa Windows o cmd + 2 sa Mac upang pumunta sa youtube"
       },
+      "showGroupTabCount": {
+        "label": "Ipakita ang bilang ng tab ng grupo",
+        "description": "Kapag pinagana, ang bilang ng mga tab sa bawat grupo ay ipapakita sa tabi ng pangalan ng grupo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Pinakamataas na linya ng pamagat ng tab",
+        "description": "Itakda ang pinakamataas na bilang ng mga linya na ipapakita para sa mga pamagat ng tab. Ang mga karagdagang linya ay itatago."
+      },
+      "groupTitleMulitLines": {
+        "label": "Pinakamataas na linya ng pamagat ng grupo",
+        "description": "Itakda ang pinakamataas na bilang ng mga linya na ipapakita para sa mga pamagat ng grupo. Ang mga karagdagang linya ay itatago."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lapad ng pamagat ng grupo kapag naka-collapse",
+        "description": "Itakda ang lapad ng pamagat ng grupo kapag ang grupo ay naka-collapse.",
+        "reset": "I-reset"
+      },
       "tabHistoryEnable": {
         "label": "Kasaysayan ng tab",
         "description": "Kapag pinagana, ang kasaysayan ng mga website na binuksan sa parehong tab ay ipapakita."
@@ -621,6 +638,74 @@
         "target_top": "Pinaka-nakakataas na Tab",
         "save": "I-save",
         "close": "Isara"
+      },
+      "linkOpenOptions": {
+        "label": "Mga Setting ng Pagbukas ng Link",
+        "description": "Itakda kung paano magbubukas ang mga link sa site na ito",
+        "configure": "I-configure",
+        "listTips": "I-drag upang muling ayusin. Ang mga patakaran sa itaas ay unang ipapatupad.",
+        "linkMatchContent": "Pattern ng Link",
+        "linkMatchContentTips": "Gamitin ang '*' para sa anumang mga karakter, '?' para sa isa. Sumusuporta sa regex.",
+        "linkOpenMethod": "Buksan Sa",
+        "edit": "I-edit",
+        "delete": "Tanggalin",
+        "target_self": "Kasalukuyang Tab",
+        "target_blank": "Bagong Tab",
+        "target_parent": "Parent Tab",
+        "target_top": "Pinaka-nakakataas na Tab",
+        "save": "I-save",
+        "close": "Isara",
+        "internalLinks": "Mga Panloob na Link",
+        "externalLinks": "Mga Panlabas na Link",
+        "imageLinks": "Mga Larawan",
+        "pdfLinks": "Mga PDF",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Refresh na Mga Link",
+        "description": "I-set up ang auto-refresh para sa mga partikular na link",
+        "configure": "I-configure",
+        "listTips": "I-drag upang muling ayusin. Ang unang tumutugmang patakaran lamang ang ipapatupad.",
+        "linkMatchContent": "Pattern ng Link",
+        "linkMatchContentTips": "Gamitin ang '*' para sa anumang mga karakter, '?' para sa isa. Sumusuporta sa regex.",
+        "edit": "I-edit",
+        "delete": "Tanggalin",
+        "save": "I-save",
+        "close": "Isara",
+        "refreshInterval": "Interval ng Refresh (Minuto)",
+        "disabled": "Hindi Pinagana"
+      },
+      "pageKeepAlive": {
+        "label": "Panatilihing Aktibo ang Pahina",
+        "description": "Pinapanatiling aktibo ang pahina at pinipigilan ang browser mula sa awtomatikong pagsuspinde nito kapag nasa background."
+      },
+      "incognito": {
+        "label": "Pribadong Pagba-browse",
+        "description": "Nililinis ang napiling data ng site pagkatapos ng bawat pagbisita. Gamitin ang 'I-configure' upang piliin kung ano ang lilinisin. Maaaring makaapekto ito sa iyong karanasan sa pagba-browse.",
+        "configure": "I-configure",
+        "configureDescription": "Paki-pili ang mga tampok na lilinisin",
+        "cache": "Cache",
+        "cacheStorage": "Imbakan ng Cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Panatilihin ang Account Cookies",
+        "history": "Kasaysayan",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Local Storage",
+        "serviceWorkers": "Mga Service Worker",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Babala: Ang pagtanggal ng cookies ay nakakaapekto sa lahat ng subdomain at maaaring mag-log out ka.",
+        "warningTitle": "Babala",
+        "warningMessage": "Mabubura nito ang lahat ng data ng site, kasama ang mga pag-login. Magpatuloy?",
+        "selectAll": "Piliin Lahat",
+        "cancel": "Kanselahin",
+        "confirm": "Kumpirmahin"
+      },
+      "autoJoinGroup": {
+        "label": "Awtomatikong Sumali sa Grupo",
+        "description": "Awtomatikong sumali o lumikha ng isang grupo para sa site na ito.",
+        "configure": "I-set Up",
+        "groupName": "Pangalan ng Grupo",
+        "save": "I-save"
       },
       "backgroundColor": {
         "label": "Kulay ng Background",

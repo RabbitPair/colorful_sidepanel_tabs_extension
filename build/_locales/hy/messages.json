@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Փորձել կրկին"
+  },
+  "shortcuts": {
+    "message": "Կարճուղիներ"
+  },
+  "countdown_refresh": {
+    "message": "Հաշվարկի թարմացում"
   }
 }

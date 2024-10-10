@@ -298,6 +298,23 @@
         "label": "Montre endèks tab la",
         "description": "Lè aktive, endèks tab la ap parèt bò kote tit la, sa ki fè li fasil pou aktive tab la lè w ap itilize [Ctrl+chif] sou Windows oswa [cmd+chif] sou Mac. Egzanp: 1. stackoverflow.com 2. youtube, konsa li fasil pou fè Ctrl + 2 sou Windows oswa cmd + 2 sou Mac pou ale sou youtube"
       },
+      "showGroupTabCount": {
+        "label": "Montre kantite tab gwoup",
+        "description": "Lè aktive, kantite tab nan chak gwoup ap parèt bò kote non gwoup la."
+      },
+      "tabTitleMulitLines": {
+        "label": "Liy maksimòm tit tab",
+        "description": "Mete kantite maksimòm liy pou montre pou tit tab yo. Liy adisyonèl yo pral kache."
+      },
+      "groupTitleMulitLines": {
+        "label": "Liy maksimòm tit gwoup",
+        "description": "Mete kantite maksimòm liy pou montre pou tit gwoup yo. Liy adisyonèl yo pral kache."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Lajè tit gwoup kòlapse",
+        "description": "Mete lajè tit gwoup la lè gwoup la kòlapse.",
+        "reset": "Reyajiste"
+      },
       "tabHistoryEnable": {
         "label": "Istwa tab",
         "description": "Lè aktive, istwa sit entènèt yo ki te louvri nan menm tab la ap parèt."
@@ -621,6 +638,74 @@
         "target_top": "Tab Pi Wo",
         "save": "Sove",
         "close": "Fèmen"
+      },
+      "linkOpenOptions": {
+        "label": "Anviwònman Ouvèti Lyen",
+        "description": "Fikse kijan lyen yo ouvè sou sit sa a",
+        "configure": "Konfigire",
+        "listTips": "Trennen pou reòganize. Règ ki anwo yo aplike an premye.",
+        "linkMatchContent": "Modèl Lyen",
+        "linkMatchContentTips": "Itilize '*' pou nenpòt karaktè, '?' pou youn. Sipòte regex.",
+        "linkOpenMethod": "Ouvè Nan",
+        "edit": "Modifye",
+        "delete": "Efase",
+        "target_self": "Tab Kouran",
+        "target_blank": "Nouvo Tab",
+        "target_parent": "Tab Paran",
+        "target_top": "Tab Pi Wo",
+        "save": "Sove",
+        "close": "Fèmen",
+        "internalLinks": "Lyen Entèn",
+        "externalLinks": "Lyen Ekstèn",
+        "imageLinks": "Imaj",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Rezo Sosyal"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Rafrechi Lyen",
+        "description": "Fikse auto-rafrechi pou lyen espesifik",
+        "configure": "Konfigire",
+        "listTips": "Trennen pou reòganize. Sèlman premye règ ki matche aplike.",
+        "linkMatchContent": "Modèl Lyen",
+        "linkMatchContentTips": "Itilize '*' pou nenpòt karaktè, '?' pou youn. Sipòte regex.",
+        "edit": "Modifye",
+        "delete": "Efase",
+        "save": "Sove",
+        "close": "Fèmen",
+        "refreshInterval": "Entèval Rafrechi (Minit)",
+        "disabled": "Fèmen"
+      },
+      "pageKeepAlive": {
+        "label": "Kenbe Paj Aktif",
+        "description": "Kenbe paj la aktif epi anpeche navigatè a sispann li otomatikman lè li nan background."
+      },
+      "incognito": {
+        "label": "Navigasyon Prive",
+        "description": "Efase done sit chwazi apre chak vizit. Itilize 'Konfigire' pou chwazi sa pou efase. Ka afekte eksperyans navigasyon ou.",
+        "configure": "Konfigire",
+        "configureDescription": "Tanpri chwazi karakteristik yo pou efase",
+        "cache": "Kachèt",
+        "cacheStorage": "Depo Kachèt",
+        "cookies": "Kuki",
+        "skipAccountCookies": "Kenbe Kuki Kont",
+        "history": "Istwa",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Depo Lokal",
+        "serviceWorkers": "Travayè Sèvis",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Avètisman: Efase kuki afekte tout sou-domèn epi ka dekonekte ou.",
+        "warningTitle": "Avètisman",
+        "warningMessage": "Sa a pral efase tout done sit la, enkli koneksyon yo. Kontinye?",
+        "selectAll": "Chwazi Tout",
+        "cancel": "Anile",
+        "confirm": "Konfime"
+      },
+      "autoJoinGroup": {
+        "label": "Auto-Antre Gwoup",
+        "description": "Otomatikman antre oswa kreye yon gwoup pou sit sa a.",
+        "configure": "Konfigire",
+        "groupName": "Non Gwoup",
+        "save": "Sove"
       },
       "backgroundColor": {
         "label": "Koulè Fonds",

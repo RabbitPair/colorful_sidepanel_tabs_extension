@@ -298,6 +298,23 @@
         "label": "Rādīt cilnes indeksu",
         "description": "Kad iespējots, cilnes indekss tiks rādīts blakus nosaukumam, padarot to viegli aktivizējamu, izmantojot [Ctrl+number] operētājsistēmā Windows vai [cmd+number] operētājsistēmā Mac. Piemērs: 1. stackoverflow.com 2. youtube, lai būtu viegli izmantot Ctrl + 2 operētājsistēmā Windows vai cmd + 2 operētājsistēmā Mac, lai pārietu uz youtube"
       },
+      "showGroupTabCount": {
+        "label": "Rādīt grupas cilņu skaitu",
+        "description": "Kad iespējots, grupas nosaukuma tuvumā tiks rādīts cilņu skaits katrā grupā."
+      },
+      "tabTitleMulitLines": {
+        "label": "Cilnes nosaukuma maksimālais rindu skaits",
+        "description": "Iestatiet maksimālo rindu skaitu, kas tiks rādīts cilnes nosaukumiem. Papildu rindas tiks paslēptas."
+      },
+      "groupTitleMulitLines": {
+        "label": "Grupas nosaukuma maksimālais rindu skaits",
+        "description": "Iestatiet maksimālo rindu skaitu, kas tiks rādīts grupas nosaukumiem. Papildu rindas tiks paslēptas."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Grupas sakļautā nosaukuma platums",
+        "description": "Iestatiet grupas nosaukuma platumu, kad grupa ir sakļauta.",
+        "reset": "Atiestatīt"
+      },
       "tabHistoryEnable": {
         "label": "Cilnes vēsture",
         "description": "Kad iespējots, tiks rādīta to vietņu vēsture, kas atvērtas tajā pašā cilnē."
@@ -621,6 +638,74 @@
         "target_top": "Augstākā cilne",
         "save": "Saglabāt",
         "close": "Aizvērt"
+      },
+      "linkOpenOptions": {
+        "label": "Saites atvēršanas iestatījumi",
+        "description": "Iestatiet, kā saites tiek atvērtas šajā vietnē",
+        "configure": "Konfigurēt",
+        "listTips": "Velciet, lai pārkārtotu. Augšējie noteikumi tiek piemēroti vispirms.",
+        "linkMatchContent": "Saites paraugs",
+        "linkMatchContentTips": "Izmantojiet '*' jebkurām rakstzīmēm, '?' vienai. Atbalsta regulāras izteiksmes.",
+        "linkOpenMethod": "Atvērt",
+        "edit": "Rediģēt",
+        "delete": "Dzēst",
+        "target_self": "Pašreizējā cilne",
+        "target_blank": "Jauna cilne",
+        "target_parent": "Vecāku cilne",
+        "target_top": "Augstākā cilne",
+        "save": "Saglabāt",
+        "close": "Aizvērt",
+        "internalLinks": "Iekšējās saites",
+        "externalLinks": "Ārējās saites",
+        "imageLinks": "Attēli",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Sociālie tīkli"
+      },
+      "linkRefreshOptions": {
+        "label": "Automātiskā saišu atsvaidzināšana",
+        "description": "Iestatiet automātisko atsvaidzināšanu konkrētām saitēm",
+        "configure": "Konfigurēt",
+        "listTips": "Velciet, lai pārkārtotu. Tiek piemērots tikai pirmais atbilstošais noteikums.",
+        "linkMatchContent": "Saites paraugs",
+        "linkMatchContentTips": "Izmantojiet '*' jebkurām rakstzīmēm, '?' vienai. Atbalsta regulāras izteiksmes.",
+        "edit": "Rediģēt",
+        "delete": "Dzēst",
+        "save": "Saglabāt",
+        "close": "Aizvērt",
+        "refreshInterval": "Atsvaidzināšanas intervāls (minūtes)",
+        "disabled": "Izslēgts"
+      },
+      "pageKeepAlive": {
+        "label": "Uzturēt lapu aktīvu",
+        "description": "Uztur lapu aktīvu un neļauj pārlūkam to automātiski apturēt, kad tā ir fonā."
+      },
+      "incognito": {
+        "label": "Privātā pārlūkošana",
+        "description": "Notīra atlasītos vietnes datus pēc katras apmeklējuma. Izmantojiet 'Konfigurēt', lai izvēlētos, ko notīrīt. Var ietekmēt jūsu pārlūkošanas pieredzi.",
+        "configure": "Konfigurēt",
+        "configureDescription": "Lūdzu, izvēlieties funkcijas, kuras notīrīt",
+        "cache": "Kešatmiņa",
+        "cacheStorage": "Kešatmiņas krātuve",
+        "cookies": "Sīkfaili",
+        "skipAccountCookies": "Saglabāt konta sīkfailus",
+        "history": "Vēsture",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Vietējā krātuve",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Brīdinājums: Sīkfailu dzēšana ietekmē visus apakšdomēnus un var izrakstīt jūs no kontiem.",
+        "warningTitle": "Brīdinājums",
+        "warningMessage": "Tas izdzēsīs visus vietnes datus, ieskaitot pieteikumus. Turpināt?",
+        "selectAll": "Atlasīt visu",
+        "cancel": "Atcelt",
+        "confirm": "Apstiprināt"
+      },
+      "autoJoinGroup": {
+        "label": "Automātiskā pievienošanās grupai",
+        "description": "Automātiski pievienoties vai izveidot grupu šai vietnei.",
+        "configure": "Iestatīt",
+        "groupName": "Grupas nosaukums",
+        "save": "Saglabāt"
       },
       "backgroundColor": {
         "label": "Fona krāsa",

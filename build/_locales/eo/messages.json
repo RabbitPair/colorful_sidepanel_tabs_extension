@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Provi Denove"
+  },
+  "shortcuts": {
+    "message": "mallongigoj"
+  },
+  "countdown_refresh": {
+    "message": "Reŝargi Retronombradon"
   }
 }

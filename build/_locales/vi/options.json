@@ -298,6 +298,23 @@
         "label": "Hiển thị chỉ mục thẻ",
         "description": "Khi được bật, chỉ mục thẻ sẽ được hiển thị bên cạnh tiêu đề, giúp dễ dàng kích hoạt thẻ bằng [Ctrl+number] trên Windows hoặc [cmd+number] trên Mac. Ví dụ: 1. stackoverflow.com 2. youtube, để dễ dàng sử dụng Ctrl + 2 trên Windows hoặc cmd + 2 trên Mac để chuyển đến youtube"
       },
+      "showGroupTabCount": {
+        "label": "Hiển thị số lượng thẻ nhóm",
+        "description": "Khi được bật, số lượng thẻ trong mỗi nhóm sẽ được hiển thị bên cạnh tên nhóm."
+      },
+      "tabTitleMulitLines": {
+        "label": "Số dòng tiêu đề thẻ tối đa",
+        "description": "Đặt số dòng tối đa để hiển thị cho tiêu đề thẻ. Các dòng bổ sung sẽ bị ẩn."
+      },
+      "groupTitleMulitLines": {
+        "label": "Số dòng tiêu đề nhóm tối đa",
+        "description": "Đặt số dòng tối đa để hiển thị cho tiêu đề nhóm. Các dòng bổ sung sẽ bị ẩn."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Chiều rộng tiêu đề nhóm khi thu gọn",
+        "description": "Đặt chiều rộng của tiêu đề nhóm khi nhóm bị thu gọn.",
+        "reset": "Đặt lại"
+      },
       "tabHistoryEnable": {
         "label": "Lịch sử thẻ",
         "description": "Khi được bật, lịch sử của các trang web đã mở trong cùng một thẻ sẽ được hiển thị."
@@ -621,6 +638,74 @@
         "target_top": "Thẻ trên cùng",
         "save": "Lưu",
         "close": "Đóng"
+      },
+      "linkOpenOptions": {
+        "label": "Cài đặt mở liên kết",
+        "description": "Thiết lập cách mở liên kết trên trang web này",
+        "configure": "Cấu hình",
+        "listTips": "Kéo để sắp xếp lại. Các quy tắc trên cùng sẽ được áp dụng trước.",
+        "linkMatchContent": "Mẫu liên kết",
+        "linkMatchContentTips": "Sử dụng '*' cho bất kỳ ký tự nào, '?' cho một ký tự. Hỗ trợ regex.",
+        "linkOpenMethod": "Mở trong",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "target_self": "Thẻ hiện tại",
+        "target_blank": "Thẻ mới",
+        "target_parent": "Thẻ cha",
+        "target_top": "Thẻ trên cùng",
+        "save": "Lưu",
+        "close": "Đóng",
+        "internalLinks": "Liên kết nội bộ",
+        "externalLinks": "Liên kết bên ngoài",
+        "imageLinks": "Hình ảnh",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Mạng xã hội"
+      },
+      "linkRefreshOptions": {
+        "label": "Tự động làm mới liên kết",
+        "description": "Thiết lập tự động làm mới cho các liên kết cụ thể",
+        "configure": "Cấu hình",
+        "listTips": "Kéo để sắp xếp lại. Chỉ quy tắc khớp đầu tiên được áp dụng.",
+        "linkMatchContent": "Mẫu liên kết",
+        "linkMatchContentTips": "Sử dụng '*' cho bất kỳ ký tự nào, '?' cho một ký tự. Hỗ trợ regex.",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "save": "Lưu",
+        "close": "Đóng",
+        "refreshInterval": "Khoảng thời gian làm mới (Phút)",
+        "disabled": "Tắt"
+      },
+      "pageKeepAlive": {
+        "label": "Giữ trang hoạt động",
+        "description": "Giữ trang hoạt động và ngăn trình duyệt tự động tạm dừng khi ở chế độ nền."
+      },
+      "incognito": {
+        "label": "Duyệt web riêng tư",
+        "description": "Xóa dữ liệu trang web đã chọn sau mỗi lần truy cập. Sử dụng 'Cấu hình' để chọn những gì cần xóa. Có thể ảnh hưởng đến trải nghiệm duyệt web của bạn.",
+        "configure": "Cấu hình",
+        "configureDescription": "Vui lòng chọn các tính năng để xóa",
+        "cache": "Bộ nhớ đệm",
+        "cacheStorage": "Lưu trữ bộ nhớ đệm",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Giữ lại Cookies tài khoản",
+        "history": "Lịch sử",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lưu trữ cục bộ",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Cảnh báo: Xóa cookies ảnh hưởng đến tất cả các tên miền phụ và có thể đăng xuất bạn.",
+        "warningTitle": "Cảnh báo",
+        "warningMessage": "Điều này sẽ xóa tất cả dữ liệu trang web, bao gồm cả đăng nhập. Tiếp tục?",
+        "selectAll": "Chọn tất cả",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận"
+      },
+      "autoJoinGroup": {
+        "label": "Tự động tham gia nhóm",
+        "description": "Tự động tham gia hoặc tạo nhóm cho trang web này.",
+        "configure": "Thiết lập",
+        "groupName": "Tên nhóm",
+        "save": "Lưu"
       },
       "backgroundColor": {
         "label": "Màu Nền",

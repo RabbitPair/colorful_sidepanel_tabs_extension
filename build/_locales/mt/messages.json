@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Erġa' Pprova"
+  },
+  "shortcuts": {
+    "message": "shortcut"
+  },
+  "countdown_refresh": {
+    "message": "Aġġornament tal-Countdown"
   }
 }

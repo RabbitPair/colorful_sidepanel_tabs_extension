@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Обиди се повторно"
+  },
+  "shortcuts": {
+    "message": "кратенки"
+  },
+  "countdown_refresh": {
+    "message": "Освежување на одбројување"
   }
 }

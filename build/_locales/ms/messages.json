@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Cuba Lagi"
+  },
+  "shortcuts": {
+    "message": "Pintasan"
+  },
+  "countdown_refresh": {
+    "message": "Penyegaran Undur"
   }
 }

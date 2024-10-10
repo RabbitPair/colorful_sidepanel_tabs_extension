@@ -298,6 +298,23 @@
         "label": "Sekme dizinini göster",
         "description": "Etkinleştirildiğinde, sekme dizini başlığın yanında gösterilecek, böylece Windows'ta [Ctrl+numara] veya Mac'te [cmd+numara] kullanarak sekmeyi kolayca etkinleştirebilirsiniz. Örnek: 1. stackoverflow.com 2. youtube, böylece Windows'ta Ctrl + 2 veya Mac'te cmd + 2 yaparak youtube'a gitmek kolay olur"
       },
+      "showGroupTabCount": {
+        "label": "Grup sekme sayısını göster",
+        "description": "Etkinleştirildiğinde, her gruptaki sekme sayısı grup adının yanında gösterilecek."
+      },
+      "tabTitleMulitLines": {
+        "label": "Sekme başlığı maksimum satır",
+        "description": "Sekme başlıkları için görüntülenecek maksimum satır sayısını ayarlayın. Ek satırlar gizlenecek."
+      },
+      "groupTitleMulitLines": {
+        "label": "Grup başlığı maksimum satır",
+        "description": "Grup başlıkları için görüntülenecek maksimum satır sayısını ayarlayın. Ek satırlar gizlenecek."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Grup daraltılmış başlık genişliği",
+        "description": "Grup daraltıldığında grup başlığının genişliğini ayarlayın.",
+        "reset": "Sıfırla"
+      },
       "tabHistoryEnable": {
         "label": "Sekme geçmişi",
         "description": "Etkinleştirildiğinde, aynı sekmede açılan web sitelerinin geçmişi gösterilecek."
@@ -621,6 +638,74 @@
         "target_top": "En Üst Sekme",
         "save": "Kaydet",
         "close": "Kapat"
+      },
+      "linkOpenOptions": {
+        "label": "Bağlantı Açma Ayarları",
+        "description": "Bu sitede bağlantıların nasıl açılacağını ayarlayın",
+        "configure": "Yapılandır",
+        "listTips": "Yeniden sıralamak için sürükleyin. En üstteki kurallar önce uygulanır.",
+        "linkMatchContent": "Bağlantı Deseni",
+        "linkMatchContentTips": "'*' herhangi bir karakter için, '?' bir karakter için kullanın. Regex destekler.",
+        "linkOpenMethod": "Açma Yöntemi",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "target_self": "Mevcut Sekme",
+        "target_blank": "Yeni Sekme",
+        "target_parent": "Üst Sekme",
+        "target_top": "En Üst Sekme",
+        "save": "Kaydet",
+        "close": "Kapat",
+        "internalLinks": "Dahili Bağlantılar",
+        "externalLinks": "Harici Bağlantılar",
+        "imageLinks": "Görseller",
+        "pdfLinks": "PDF'ler",
+        "socialMediaLinks": "Sosyal Medya"
+      },
+      "linkRefreshOptions": {
+        "label": "Bağlantıları Otomatik Yenile",
+        "description": "Belirli bağlantılar için otomatik yenilemeyi ayarlayın",
+        "configure": "Yapılandır",
+        "listTips": "Yeniden sıralamak için sürükleyin. Sadece ilk eşleşen kural uygulanır.",
+        "linkMatchContent": "Bağlantı Deseni",
+        "linkMatchContentTips": "'*' herhangi bir karakter için, '?' bir karakter için kullanın. Regex destekler.",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "save": "Kaydet",
+        "close": "Kapat",
+        "refreshInterval": "Yenileme Aralığı (Dakika)",
+        "disabled": "Kapalı"
+      },
+      "pageKeepAlive": {
+        "label": "Sayfayı Aktif Tut",
+        "description": "Sayfayı aktif tutar ve arka planda olduğunda tarayıcının otomatik olarak askıya almasını engeller."
+      },
+      "incognito": {
+        "label": "Gizli Gezinti",
+        "description": "Her ziyaretten sonra seçilen site verilerini temizler. Temizlenecek öğeleri seçmek için 'Yapılandır'ı kullanın. Tarama deneyiminizi etkileyebilir.",
+        "configure": "Yapılandır",
+        "configureDescription": "Lütfen temizlenecek özellikleri seçin",
+        "cache": "Önbellek",
+        "cacheStorage": "Önbellek Depolama",
+        "cookies": "Çerezler",
+        "skipAccountCookies": "Hesap Çerezlerini Sakla",
+        "history": "Geçmiş",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Yerel Depolama",
+        "serviceWorkers": "Servis Çalışanları",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Uyarı: Çerezleri silmek tüm alt alan adlarını etkiler ve oturumunuzu kapatabilir.",
+        "warningTitle": "Uyarı",
+        "warningMessage": "Bu, tüm site verilerini, oturumlar dahil, silecek. Devam edilsin mi?",
+        "selectAll": "Hepsini Seç",
+        "cancel": "İptal",
+        "confirm": "Onayla"
+      },
+      "autoJoinGroup": {
+        "label": "Gruba Otomatik Katıl",
+        "description": "Bu site için otomatik olarak bir gruba katılın veya oluşturun.",
+        "configure": "Kur",
+        "groupName": "Grup Adı",
+        "save": "Kaydet"
       },
       "backgroundColor": {
         "label": "Arka Plan Rengi",

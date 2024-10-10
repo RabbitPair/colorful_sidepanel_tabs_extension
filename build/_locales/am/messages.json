@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "እንደገና ሞክር"
+  },
+  "shortcuts": {
+    "message": "አቋራጭ መንገዶች"
+  },
+  "countdown_refresh": {
+    "message": "ቆጣሪ እንደገና መጫን"
   }
 }

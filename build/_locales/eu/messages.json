@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Saiatu Berriro"
+  },
+  "shortcuts": {
+    "message": "Lasterbideak"
+  },
+  "countdown_refresh": {
+    "message": "Atzerako kontaketa freskatu"
   }
 }

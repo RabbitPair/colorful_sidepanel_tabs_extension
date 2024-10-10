@@ -298,6 +298,23 @@
         "label": "Seall clàr-taice taba",
         "description": "Nuair a chaidh a chumas, bidh clàr-taice an taba air a thaisbeanadh ri taobh an tiotail, ga dhèanamh furasta taba gnìomhach a chleachdadh le [Ctrl+àireamh] air Windows no [cmd+àireamh] air Mac. Eisimpleir: 1. stackoverflow.com 2. youtube, gus am bi e furasta Ctrl + 2 a dhèanamh air Windows no cmd + 2 air Mac gus a dhol gu youtube"
       },
+      "showGroupTabCount": {
+        "label": "Seall cunntas taba buidhne",
+        "description": "Nuair a chaidh a chumas, thèid an àireamh de thabaichean anns gach buidheann a thaisbeanadh ri taobh ainm na buidhne."
+      },
+      "tabTitleMulitLines": {
+        "label": "Loidhnichean as àirde tiotal taba",
+        "description": "Suidhich an àireamh as àirde de loidhnichean airson tiotalan taba a thaisbeanadh. Thèid loidhnichean a bharrachd a fhalach."
+      },
+      "groupTitleMulitLines": {
+        "label": "Loidhnichean as àirde tiotal buidhne",
+        "description": "Suidhich an àireamh as àirde de loidhnichean airson tiotalan buidhne a thaisbeanadh. Thèid loidhnichean a bharrachd a fhalach."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Leud tiotal buidhne briste",
+        "description": "Suidhich leud an tiotail buidhne nuair a tha am buidheann briste.",
+        "reset": "Ath-shuidhich"
+      },
       "tabHistoryEnable": {
         "label": "Eachdraidh taba",
         "description": "Nuair a chaidh a chumas, bidh eachdraidh làraich-lìn a chaidh fhosgladh anns an aon taba air a thaisbeanadh."
@@ -621,6 +638,74 @@
         "target_top": "Tab As Àirde",
         "save": "Sàbhail",
         "close": "Dùin"
+      },
+      "linkOpenOptions": {
+        "label": "Roghainnean Fosglaidh Ceangail",
+        "description": "Suidhich mar a dh’fhosglas ceanglaichean air an làrach seo",
+        "configure": "Rèitich",
+        "listTips": "Tarraing gus ath-òrdachadh. Tha prìomh riaghailtean a’ buntainn an toiseach.",
+        "linkMatchContent": "Pàtran Ceangail",
+        "linkMatchContentTips": "Cleachd '*' airson caractaran sam bith, '?' airson aon. A’ toirt taic do regex.",
+        "linkOpenMethod": "Fosgail Ann",
+        "edit": "Deasaich",
+        "delete": "Sguab às",
+        "target_self": "Tab Làithreach",
+        "target_blank": "Tab Ùr",
+        "target_parent": "Tab Phàrant",
+        "target_top": "Tab As Àirde",
+        "save": "Sàbhail",
+        "close": "Dùin",
+        "internalLinks": "Ceanglaichean A-staigh",
+        "externalLinks": "Ceanglaichean Taobh A-muigh",
+        "imageLinks": "Ìomhaighean",
+        "pdfLinks": "PDFan",
+        "socialMediaLinks": "Meadhanan Sòisealta"
+      },
+      "linkRefreshOptions": {
+        "label": "Ceanglaichean Fèin-ùrachaidh",
+        "description": "Suidhich fèin-ùrachadh airson ceanglaichean sònraichte",
+        "configure": "Rèitich",
+        "listTips": "Tarraing gus ath-òrdachadh. Chan eil ach a’ chiad riaghailt a tha a’ maidseadh a’ buntainn.",
+        "linkMatchContent": "Pàtran Ceangail",
+        "linkMatchContentTips": "Cleachd '*' airson caractaran sam bith, '?' airson aon. A’ toirt taic do regex.",
+        "edit": "Deasaich",
+        "delete": "Sguab às",
+        "save": "Sàbhail",
+        "close": "Dùin",
+        "refreshInterval": "Eadar-ama Ùrachaidh (Mionaidean)",
+        "disabled": "Dheth"
+      },
+      "pageKeepAlive": {
+        "label": "Cùm an Duilleag Beò",
+        "description": "Cùm an duilleag beò agus casg air a’ bhrobhsair bho bhith ga stad gu fèin-obrachail nuair a tha e sa chùlaibh."
+      },
+      "incognito": {
+        "label": "Brabhsadh Prìobhaideach",
+        "description": "Sguab às dàta làraich taghte às dèidh gach turas. Cleachd 'Rèitich' gus taghadh dè a sguabas às. Dh’fhaodadh seo buaidh a thoirt air an eòlas brabhsaidh agad.",
+        "configure": "Rèitich",
+        "configureDescription": "Tagh na feartan a sguabas às",
+        "cache": "Cache",
+        "cacheStorage": "Stòradh Cache",
+        "cookies": "Fianain",
+        "skipAccountCookies": "Cùm Fianain Cunntais",
+        "history": "Eachdraidh",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Stòradh Ionadail",
+        "serviceWorkers": "Luchd-obrach Seirbheis",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Rabhadh: Tha sguabadh às fianain a’ toirt buaidh air fo-àrainnean uile agus dh’fhaodadh e do logadh a-mach.",
+        "warningTitle": "Rabhadh",
+        "warningMessage": "Sguabaidh seo às a h-uile dàta làraich, a’ gabhail a-steach logaichean a-steach. Lean air adhart?",
+        "selectAll": "Tagh Uile",
+        "cancel": "Sguir dheth",
+        "confirm": "Dearbhaich"
+      },
+      "autoJoinGroup": {
+        "label": "Cuir ri Buidheann gu fèin-obrachail",
+        "description": "Cuir ri no cruthaich buidheann airson an làraich seo gu fèin-obrachail.",
+        "configure": "Rèitich",
+        "groupName": "Ainm na Buidhne",
+        "save": "Sàbhail"
       },
       "backgroundColor": {
         "label": "Dath Cùlaibh",

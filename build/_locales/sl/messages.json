@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Poskusi znova"
+  },
+  "shortcuts": {
+    "message": "bližnjice"
+  },
+  "countdown_refresh": {
+    "message": "osvežitev odštevanja"
   }
 }

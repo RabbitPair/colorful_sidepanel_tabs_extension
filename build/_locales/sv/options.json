@@ -298,6 +298,23 @@
         "label": "Visa flikindex",
         "description": "När aktiverat kommer flikindex att visas bredvid titeln, vilket gör det enkelt att aktivera fliken med [Ctrl+nummer] på Windows eller [cmd+nummer] på Mac. Exempel: 1. stackoverflow.com 2. youtube, så att det är enkelt att göra Ctrl + 2 på Windows eller cmd + 2 på Mac för att gå till youtube"
       },
+      "showGroupTabCount": {
+        "label": "Visa antal flikar i grupp",
+        "description": "När aktiverat kommer antalet flikar i varje grupp att visas bredvid gruppnamnet."
+      },
+      "tabTitleMulitLines": {
+        "label": "Max antal rader för fliknamn",
+        "description": "Ställ in det maximala antalet rader som ska visas för fliknamn. Ytterligare rader kommer att döljas."
+      },
+      "groupTitleMulitLines": {
+        "label": "Max antal rader för gruppnamn",
+        "description": "Ställ in det maximala antalet rader som ska visas för gruppnamn. Ytterligare rader kommer att döljas."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Bredd på kollapsat gruppnamn",
+        "description": "Ställ in bredden på gruppnamnet när gruppen är kollapsad.",
+        "reset": "Återställ"
+      },
       "tabHistoryEnable": {
         "label": "Flikhistorik",
         "description": "När aktiverat kommer historiken över webbplatser som öppnats i samma flik att visas."
@@ -621,6 +638,74 @@
         "target_top": "Översta flik",
         "save": "Spara",
         "close": "Stäng"
+      },
+      "linkOpenOptions": {
+        "label": "Inställningar för öppning av länkar",
+        "description": "Ange hur länkar öppnas på denna webbplats",
+        "configure": "Konfigurera",
+        "listTips": "Dra för att ändra ordning. Översta regler gäller först.",
+        "linkMatchContent": "Länkmönster",
+        "linkMatchContentTips": "Använd '*' för valfritt antal tecken, '?' för ett. Stödjer regex.",
+        "linkOpenMethod": "Öppna i",
+        "edit": "Redigera",
+        "delete": "Radera",
+        "target_self": "Aktuell flik",
+        "target_blank": "Ny flik",
+        "target_parent": "Föräldraflik",
+        "target_top": "Översta flik",
+        "save": "Spara",
+        "close": "Stäng",
+        "internalLinks": "Interna länkar",
+        "externalLinks": "Externa länkar",
+        "imageLinks": "Bilder",
+        "pdfLinks": "PDF:er",
+        "socialMediaLinks": "Sociala medier"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatisk uppdatering av länkar",
+        "description": "Ställ in automatisk uppdatering för specifika länkar",
+        "configure": "Konfigurera",
+        "listTips": "Dra för att ändra ordning. Endast den första matchande regeln gäller.",
+        "linkMatchContent": "Länkmönster",
+        "linkMatchContentTips": "Använd '*' för valfritt antal tecken, '?' för ett. Stödjer regex.",
+        "edit": "Redigera",
+        "delete": "Radera",
+        "save": "Spara",
+        "close": "Stäng",
+        "refreshInterval": "Uppdateringsintervall (minuter)",
+        "disabled": "Av"
+      },
+      "pageKeepAlive": {
+        "label": "Håll sidan aktiv",
+        "description": "Håller sidan aktiv och förhindrar att webbläsaren automatiskt pausar den när den är i bakgrunden."
+      },
+      "incognito": {
+        "label": "Privat surfning",
+        "description": "Rensar valda webbplatsdata efter varje besök. Använd 'Konfigurera' för att välja vad som ska rensas. Kan påverka din surfupplevelse.",
+        "configure": "Konfigurera",
+        "configureDescription": "Vänligen välj funktionerna som ska rensas",
+        "cache": "Cache",
+        "cacheStorage": "Cache-lagring",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Behåll kontocookies",
+        "history": "Historik",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokal lagring",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Varning: Radering av cookies påverkar alla underdomäner och kan logga ut dig.",
+        "warningTitle": "Varning",
+        "warningMessage": "Detta kommer att radera all webbplatsdata, inklusive inloggningar. Fortsätt?",
+        "selectAll": "Välj alla",
+        "cancel": "Avbryt",
+        "confirm": "Bekräfta"
+      },
+      "autoJoinGroup": {
+        "label": "Automatiskt gå med i grupp",
+        "description": "Gå automatiskt med i eller skapa en grupp för denna webbplats.",
+        "configure": "Ställ in",
+        "groupName": "Gruppnamn",
+        "save": "Spara"
       },
       "backgroundColor": {
         "label": "Bakgrundsfärg",

@@ -298,6 +298,23 @@
         "label": "Mostrar índice da aba",
         "description": "Quando ativado, o índice da aba será exibido ao lado do título, facilitando a ativação da aba usando [Ctrl+número] no Windows ou [cmd+número] no Mac. Exemplo: 1. stackoverflow.com 2. youtube, para que seja fácil fazer Ctrl + 2 no Windows ou cmd + 2 no Mac para ir ao youtube"
       },
+      "showGroupTabCount": {
+        "label": "Mostrar contagem de abas do grupo",
+        "description": "Quando ativado, o número de abas em cada grupo será exibido ao lado do nome do grupo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Máximo de linhas do título da aba",
+        "description": "Defina o número máximo de linhas a serem exibidas para os títulos das abas. Linhas adicionais serão ocultadas."
+      },
+      "groupTitleMulitLines": {
+        "label": "Máximo de linhas do título do grupo",
+        "description": "Defina o número máximo de linhas a serem exibidas para os títulos dos grupos. Linhas adicionais serão ocultadas."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Largura do título do grupo colapsado",
+        "description": "Defina a largura do título do grupo quando o grupo estiver colapsado.",
+        "reset": "Redefinir"
+      },
       "tabHistoryEnable": {
         "label": "Histórico da aba",
         "description": "Quando ativado, o histórico dos sites abertos na mesma aba será exibido."
@@ -621,6 +638,74 @@
         "target_top": "Aba Superior",
         "save": "Salvar",
         "close": "Fechar"
+      },
+      "linkOpenOptions": {
+        "label": "Configurações de Abertura de Links",
+        "description": "Defina como os links abrem neste site",
+        "configure": "Configurar",
+        "listTips": "Arraste para reordenar. As regras superiores são aplicadas primeiro.",
+        "linkMatchContent": "Padrão de Link",
+        "linkMatchContentTips": "Use '*' para qualquer caractere, '?' para um. Suporta regex.",
+        "linkOpenMethod": "Abrir Em",
+        "edit": "Editar",
+        "delete": "Excluir",
+        "target_self": "Aba Atual",
+        "target_blank": "Nova Aba",
+        "target_parent": "Aba Pai",
+        "target_top": "Aba Superior",
+        "save": "Salvar",
+        "close": "Fechar",
+        "internalLinks": "Links Internos",
+        "externalLinks": "Links Externos",
+        "imageLinks": "Imagens",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Mídia Social"
+      },
+      "linkRefreshOptions": {
+        "label": "Links de Atualização Automática",
+        "description": "Configure a atualização automática para links específicos",
+        "configure": "Configurar",
+        "listTips": "Arraste para reordenar. Apenas a primeira regra correspondente é aplicada.",
+        "linkMatchContent": "Padrão de Link",
+        "linkMatchContentTips": "Use '*' para qualquer caractere, '?' para um. Suporta regex.",
+        "edit": "Editar",
+        "delete": "Excluir",
+        "save": "Salvar",
+        "close": "Fechar",
+        "refreshInterval": "Intervalo de Atualização (Minutos)",
+        "disabled": "Desativado"
+      },
+      "pageKeepAlive": {
+        "label": "Manter Página Ativa",
+        "description": "Mantém a página ativa e impede que o navegador a suspenda automaticamente quando estiver em segundo plano."
+      },
+      "incognito": {
+        "label": "Navegação Privada",
+        "description": "Limpa os dados do site selecionado após cada visita. Use 'Configurar' para escolher o que limpar. Pode afetar sua experiência de navegação.",
+        "configure": "Configurar",
+        "configureDescription": "Selecione os recursos a serem limpos",
+        "cache": "Cache",
+        "cacheStorage": "Armazenamento de Cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Manter Cookies de Conta",
+        "history": "Histórico",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Armazenamento Local",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Aviso: Excluir cookies afeta todos os subdomínios e pode desconectá-lo.",
+        "warningTitle": "Aviso",
+        "warningMessage": "Isso apagará todos os dados do site, incluindo logins. Continuar?",
+        "selectAll": "Selecionar Tudo",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "autoJoinGroup": {
+        "label": "Entrar Automaticamente no Grupo",
+        "description": "Entrar ou criar automaticamente um grupo para este site.",
+        "configure": "Configurar",
+        "groupName": "Nome do Grupo",
+        "save": "Salvar"
       },
       "backgroundColor": {
         "label": "Cor de Fundo",

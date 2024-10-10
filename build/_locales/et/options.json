@@ -298,6 +298,23 @@
         "label": "Näita vahekaardi indeksit",
         "description": "Kui lubatud, kuvatakse vahekaardi indeks pealkirja kõrval, muutes selle hõlpsaks aktiveerimiseks [Ctrl+number] Windowsis või [cmd+number] Macis. Näide: 1. stackoverflow.com 2. youtube, nii et on lihtne teha Ctrl + 2 Windowsis või cmd + 2 Macis, et minna youtube'i"
       },
+      "showGroupTabCount": {
+        "label": "Näita grupi vahekaartide arvu",
+        "description": "Kui lubatud, kuvatakse iga grupi vahekaartide arv grupi nime kõrval."
+      },
+      "tabTitleMulitLines": {
+        "label": "Vahekaardi pealkirja maksimaalne ridade arv",
+        "description": "Määra vahekaardi pealkirjade kuvamiseks maksimaalne ridade arv. Täiendavad read peidetakse."
+      },
+      "groupTitleMulitLines": {
+        "label": "Grupi pealkirja maksimaalne ridade arv",
+        "description": "Määra grupi pealkirjade kuvamiseks maksimaalne ridade arv. Täiendavad read peidetakse."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Kokku pandud grupi pealkirja laius",
+        "description": "Määra grupi pealkirja laius, kui grupp on kokku pandud.",
+        "reset": "Lähtesta"
+      },
       "tabHistoryEnable": {
         "label": "Vahekaardi ajalugu",
         "description": "Kui lubatud, kuvatakse samas vahekaardis avatud veebisaitide ajalugu."
@@ -621,6 +638,74 @@
         "target_top": "Kõige ülemine vahekaart",
         "save": "Salvesta",
         "close": "Sulge"
+      },
+      "linkOpenOptions": {
+        "label": "Lingi avamise seaded",
+        "description": "Määrake, kuidas lingid sellel saidil avanevad",
+        "configure": "Seadista",
+        "listTips": "Lohistage sorteerimiseks. Kõrgema prioriteediga reeglid rakendatakse esimesena.",
+        "linkMatchContent": "Lingi muster",
+        "linkMatchContentTips": "Kasutage '*' mis tahes märkide jaoks, '?' ühe jaoks. Toetab regulaaravaldisi.",
+        "linkOpenMethod": "Ava",
+        "edit": "Muuda",
+        "delete": "Kustuta",
+        "target_self": "Praegune vahekaart",
+        "target_blank": "Uus vahekaart",
+        "target_parent": "Vanem vahekaart",
+        "target_top": "Kõige ülemine vahekaart",
+        "save": "Salvesta",
+        "close": "Sulge",
+        "internalLinks": "Sisemised lingid",
+        "externalLinks": "Välised lingid",
+        "imageLinks": "Pildid",
+        "pdfLinks": "PDF-id",
+        "socialMediaLinks": "Sotsiaalmeedia"
+      },
+      "linkRefreshOptions": {
+        "label": "Linkide automaatne värskendamine",
+        "description": "Määrake konkreetsete linkide automaatne värskendamine",
+        "configure": "Seadista",
+        "listTips": "Lohistage sorteerimiseks. Ainult esimene sobiv reegel rakendatakse.",
+        "linkMatchContent": "Lingi muster",
+        "linkMatchContentTips": "Kasutage '*' mis tahes märkide jaoks, '?' ühe jaoks. Toetab regulaaravaldisi.",
+        "edit": "Muuda",
+        "delete": "Kustuta",
+        "save": "Salvesta",
+        "close": "Sulge",
+        "refreshInterval": "Värskendamise intervall (minutites)",
+        "disabled": "Keelatud"
+      },
+      "pageKeepAlive": {
+        "label": "Hoia leht aktiivsena",
+        "description": "Hoidke leht aktiivsena ja takistage brauseril seda taustal automaatselt peatamast."
+      },
+      "incognito": {
+        "label": "Privaatne sirvimine",
+        "description": "Kustutab valitud saidi andmed pärast iga külastust. Kasutage 'Seadista', et valida, mida kustutada. Võib mõjutada teie sirvimiskogemust.",
+        "configure": "Seadista",
+        "configureDescription": "Palun valige funktsioonid, mida kustutada",
+        "cache": "Vahemälu",
+        "cacheStorage": "Vahemälu salvestus",
+        "cookies": "Küpsised",
+        "skipAccountCookies": "Jäta kontoküpsised alles",
+        "history": "Ajalugu",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Kohalik salvestus",
+        "serviceWorkers": "Teenusetöötajad",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Hoiatus: Küpsiste kustutamine mõjutab kõiki alamdomeene ja võib teid välja logida.",
+        "warningTitle": "Hoiatus",
+        "warningMessage": "See kustutab kõik saidi andmed, sealhulgas sisselogimised. Kas jätkata?",
+        "selectAll": "Vali kõik",
+        "cancel": "Tühista",
+        "confirm": "Kinnita"
+      },
+      "autoJoinGroup": {
+        "label": "Automaatne grupiga liitumine",
+        "description": "Liituge automaatselt või looge selle saidi jaoks grupp.",
+        "configure": "Seadista",
+        "groupName": "Grupi nimi",
+        "save": "Salvesta"
       },
       "backgroundColor": {
         "label": "Taustavärv",

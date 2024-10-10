@@ -298,6 +298,23 @@
         "label": "Mostra indice scheda",
         "description": "Quando abilitato, l'indice della scheda verrà visualizzato accanto al titolo, rendendo facile attivare la scheda utilizzando [Ctrl+numero] su Windows o [cmd+numero] su Mac. Esempio: 1. stackoverflow.com 2. youtube, in modo che sia facile fare Ctrl + 2 su Windows o cmd + 2 su Mac per andare su youtube"
       },
+      "showGroupTabCount": {
+        "label": "Mostra conteggio schede del gruppo",
+        "description": "Quando abilitato, il numero di schede in ogni gruppo verrà visualizzato accanto al nome del gruppo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Numero massimo di righe del titolo della scheda",
+        "description": "Imposta il numero massimo di righe da visualizzare per i titoli delle schede. Le righe aggiuntive verranno nascoste."
+      },
+      "groupTitleMulitLines": {
+        "label": "Numero massimo di righe del titolo del gruppo",
+        "description": "Imposta il numero massimo di righe da visualizzare per i titoli dei gruppi. Le righe aggiuntive verranno nascoste."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Larghezza del titolo del gruppo compresso",
+        "description": "Imposta la larghezza del titolo del gruppo quando il gruppo è compresso.",
+        "reset": "Ripristina"
+      },
       "tabHistoryEnable": {
         "label": "Cronologia schede",
         "description": "Quando abilitato, verrà visualizzata la cronologia dei siti web aperti nella stessa scheda."
@@ -621,6 +638,74 @@
         "target_top": "Scheda principale",
         "save": "Salva",
         "close": "Chiudi"
+      },
+      "linkOpenOptions": {
+        "label": "Impostazioni di apertura dei link",
+        "description": "Imposta come aprire i link su questo sito",
+        "configure": "Configura",
+        "listTips": "Trascina per riordinare. Le regole in cima si applicano per prime.",
+        "linkMatchContent": "Modello di link",
+        "linkMatchContentTips": "Usa '*' per qualsiasi carattere, '?' per uno. Supporta le espressioni regolari.",
+        "linkOpenMethod": "Apri in",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "target_self": "Scheda corrente",
+        "target_blank": "Nuova scheda",
+        "target_parent": "Scheda genitore",
+        "target_top": "Scheda principale",
+        "save": "Salva",
+        "close": "Chiudi",
+        "internalLinks": "Link interni",
+        "externalLinks": "Link esterni",
+        "imageLinks": "Immagini",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Aggiornamento automatico dei link",
+        "description": "Configura l'aggiornamento automatico per link specifici",
+        "configure": "Configura",
+        "listTips": "Trascina per riordinare. Si applica solo la prima regola corrispondente.",
+        "linkMatchContent": "Modello di link",
+        "linkMatchContentTips": "Usa '*' per qualsiasi carattere, '?' per uno. Supporta le espressioni regolari.",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "save": "Salva",
+        "close": "Chiudi",
+        "refreshInterval": "Intervallo di aggiornamento (Minuti)",
+        "disabled": "Disattivato"
+      },
+      "pageKeepAlive": {
+        "label": "Mantieni la pagina attiva",
+        "description": "Mantiene la pagina attiva e impedisce al browser di sospenderla automaticamente quando è in background."
+      },
+      "incognito": {
+        "label": "Navigazione privata",
+        "description": "Cancella i dati selezionati del sito dopo ogni visita. Usa 'Configura' per scegliere cosa cancellare. Potrebbe influire sulla tua esperienza di navigazione.",
+        "configure": "Configura",
+        "configureDescription": "Seleziona le funzionalità da cancellare",
+        "cache": "Cache",
+        "cacheStorage": "Archiviazione cache",
+        "cookies": "Cookie",
+        "skipAccountCookies": "Mantieni i cookie dell'account",
+        "history": "Cronologia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Archiviazione locale",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Avviso: Eliminare i cookie influisce su tutti i sottodomini e potrebbe disconnetterti.",
+        "warningTitle": "Avviso",
+        "warningMessage": "Questo cancellerà tutti i dati del sito, inclusi i login. Continuare?",
+        "selectAll": "Seleziona tutto",
+        "cancel": "Annulla",
+        "confirm": "Conferma"
+      },
+      "autoJoinGroup": {
+        "label": "Unione automatica al gruppo",
+        "description": "Unisciti automaticamente o crea un gruppo per questo sito.",
+        "configure": "Configura",
+        "groupName": "Nome del gruppo",
+        "save": "Salva"
       },
       "backgroundColor": {
         "label": "Colore di sfondo",

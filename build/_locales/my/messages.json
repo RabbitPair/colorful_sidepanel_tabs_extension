@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "ထပ်မံကြိုးစားပါ"
+  },
+  "shortcuts": {
+    "message": "လမ်းကြောင်းများ"
+  },
+  "countdown_refresh": {
+    "message": "အချိန်ရေတွက် ပြန်လည်တင်ရန်"
   }
 }

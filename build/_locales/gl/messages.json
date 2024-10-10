@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Tentar de novo"
+  },
+  "shortcuts": {
+    "message": "Atallos"
+  },
+  "countdown_refresh": {
+    "message": "Actualización de conta atrás"
   }
 }

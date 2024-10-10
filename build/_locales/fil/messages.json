@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Subukang Muli"
+  },
+  "shortcuts": {
+    "message": "mga shortcut"
+  },
+  "countdown_refresh": {
+    "message": "Pag-refresh ng Countdown"
   }
 }

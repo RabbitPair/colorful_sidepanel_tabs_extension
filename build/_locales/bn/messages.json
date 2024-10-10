@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "আবার চেষ্টা করুন"
+  },
+  "shortcuts": {
+    "message": "শর্টকাট"
+  },
+  "countdown_refresh": {
+    "message": "কাউন্টডাউন রিফ্রেশ"
   }
 }

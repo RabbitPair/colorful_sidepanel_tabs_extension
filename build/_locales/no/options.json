@@ -298,6 +298,23 @@
         "label": "Vis faneindeks",
         "description": "Når aktivert, vil faneindeksen vises ved siden av tittelen, noe som gjør det enkelt å aktivere fanen ved å bruke [Ctrl+nummer] på Windows eller [cmd+nummer] på Mac. Eksempel: 1. stackoverflow.com 2. youtube, slik at det er enkelt å gjøre Ctrl + 2 på Windows eller cmd + 2 på Mac for å gå til youtube"
       },
+      "showGroupTabCount": {
+        "label": "Vis antall faner i gruppe",
+        "description": "Når aktivert, vil antall faner i hver gruppe vises ved siden av gruppenavnet."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maks linjer for fanetittel",
+        "description": "Angi maksimalt antall linjer som skal vises for fanetitler. Ytterligere linjer vil bli skjult."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maks linjer for gruppetittel",
+        "description": "Angi maksimalt antall linjer som skal vises for gruppetitler. Ytterligere linjer vil bli skjult."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Bredde på kollapset gruppetittel",
+        "description": "Angi bredden på gruppetitlen når gruppen er kollapset.",
+        "reset": "Tilbakestill"
+      },
       "tabHistoryEnable": {
         "label": "Fanehistorikk",
         "description": "Når aktivert, vil historikken til nettsteder åpnet i samme fane vises."
@@ -621,6 +638,74 @@
         "target_top": "Øverste fane",
         "save": "Lagre",
         "close": "Lukk"
+      },
+      "linkOpenOptions": {
+        "label": "Innstillinger for åpning av lenker",
+        "description": "Angi hvordan lenker åpnes på dette nettstedet",
+        "configure": "Konfigurer",
+        "listTips": "Dra for å endre rekkefølge. Øverste regler gjelder først.",
+        "linkMatchContent": "Lenkemønster",
+        "linkMatchContentTips": "Bruk '*' for alle tegn, '?' for ett. Støtter regex.",
+        "linkOpenMethod": "Åpne i",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "target_self": "Gjeldende fane",
+        "target_blank": "Ny fane",
+        "target_parent": "Foreldrefane",
+        "target_top": "Øverste fane",
+        "save": "Lagre",
+        "close": "Lukk",
+        "internalLinks": "Interne lenker",
+        "externalLinks": "Eksterne lenker",
+        "imageLinks": "Bilder",
+        "pdfLinks": "PDF-er",
+        "socialMediaLinks": "Sosiale medier"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatisk oppdatering av lenker",
+        "description": "Sett opp automatisk oppdatering for spesifikke lenker",
+        "configure": "Konfigurer",
+        "listTips": "Dra for å endre rekkefølge. Bare den første samsvarende regelen gjelder.",
+        "linkMatchContent": "Lenkemønster",
+        "linkMatchContentTips": "Bruk '*' for alle tegn, '?' for ett. Støtter regex.",
+        "edit": "Rediger",
+        "delete": "Slett",
+        "save": "Lagre",
+        "close": "Lukk",
+        "refreshInterval": "Oppdateringsintervall (minutter)",
+        "disabled": "Av"
+      },
+      "pageKeepAlive": {
+        "label": "Hold siden aktiv",
+        "description": "Holder siden aktiv og forhindrer at nettleseren automatisk suspenderer den når den er i bakgrunnen."
+      },
+      "incognito": {
+        "label": "Privat nettlesing",
+        "description": "Sletter valgte nettstedsdata etter hvert besøk. Bruk 'Konfigurer' for å velge hva som skal slettes. Kan påvirke nettleseropplevelsen din.",
+        "configure": "Konfigurer",
+        "configureDescription": "Vennligst velg funksjonene som skal slettes",
+        "cache": "Cache",
+        "cacheStorage": "Cache-lagring",
+        "cookies": "Informasjonskapsler",
+        "skipAccountCookies": "Behold kontoinformasjonskapsler",
+        "history": "Historikk",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokal lagring",
+        "serviceWorkers": "Servicearbeidere",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Advarsel: Sletting av informasjonskapsler påvirker alle underdomener og kan logge deg ut.",
+        "warningTitle": "Advarsel",
+        "warningMessage": "Dette vil slette alle nettstedsdata, inkludert pålogginger. Fortsette?",
+        "selectAll": "Velg alle",
+        "cancel": "Avbryt",
+        "confirm": "Bekreft"
+      },
+      "autoJoinGroup": {
+        "label": "Automatisk bli med i gruppe",
+        "description": "Bli automatisk med i eller opprett en gruppe for dette nettstedet.",
+        "configure": "Sett opp",
+        "groupName": "Gruppenavn",
+        "save": "Lagre"
       },
       "backgroundColor": {
         "label": "Bakgrunnsfarge",

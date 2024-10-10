@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Prøv igjen"
+  },
+  "shortcuts": {
+    "message": "snarveier"
+  },
+  "countdown_refresh": {
+    "message": "Nedtelling oppdatering"
   }
 }

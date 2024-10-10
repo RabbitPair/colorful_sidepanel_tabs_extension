@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Prøv Igen"
+  },
+  "shortcuts": {
+    "message": "genveje"
+  },
+  "countdown_refresh": {
+    "message": "Nedtælling Opdater"
   }
 }

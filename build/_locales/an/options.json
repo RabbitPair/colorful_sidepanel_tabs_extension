@@ -298,6 +298,23 @@
         "label": "Amostrar índice de fuella",
         "description": "Quan se habilita, o índice de fuella se mosotrará a o costato d'o títol, facindo fácil activar a fuella usando [Ctrl+número] en Windows u [cmd+número] en Mac. Exemplo: 1. stackoverflow.com 2. youtube, asinas que ye fácil fer Ctrl + 2 en Windows u cmd + 2 en Mac ta ir a youtube"
       },
+      "showGroupTabCount": {
+        "label": "Amostrar cuenta de fuellas de grupo",
+        "description": "Quan se habilita, o número de fuellas en cada grupo se mosotrará a o costato d'o nombre d'o grupo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Líneas maximas de títol de fuella",
+        "description": "Achustar o número maximo de líneas ta amostrar ta os títols de fuellas. As líneas adicionales serán ocultatas."
+      },
+      "groupTitleMulitLines": {
+        "label": "Líneas maximas de títol de grupo",
+        "description": "Achustar o número maximo de líneas ta amostrar ta os títols de grupos. As líneas adicionales serán ocultatas."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Anchura d'o títol de grupo colapsato",
+        "description": "Achustar a anchura d'o títol de grupo quan o grupo ye colapsato.",
+        "reset": "Reiniciar"
+      },
       "tabHistoryEnable": {
         "label": "Historial de fuellas",
         "description": "Quan se habilita, se mosotrará o historial de pachinas web abiertas en a mesma fuella."
@@ -621,6 +638,74 @@
         "target_top": "Pestaña Superior",
         "save": "Guardar",
         "close": "Cerrar"
+      },
+      "linkOpenOptions": {
+        "label": "Configuración de Apertura de Enlaces",
+        "description": "Configura cómo se abren los enlaces en este sitio",
+        "configure": "Configurar",
+        "listTips": "Arrastra para reordenar. Las reglas superiores se aplican primero.",
+        "linkMatchContent": "Patrón de Enlace",
+        "linkMatchContentTips": "Usa '*' para cualquier carácter, '?' para uno. Soporta expresiones regulares.",
+        "linkOpenMethod": "Abrir En",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Pestaña Actual",
+        "target_blank": "Nueva Pestaña",
+        "target_parent": "Pestaña Padre",
+        "target_top": "Pestaña Superior",
+        "save": "Guardar",
+        "close": "Cerrar",
+        "internalLinks": "Enlaces Internos",
+        "externalLinks": "Enlaces Externos",
+        "imageLinks": "Imágenes",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Redes Sociales"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Actualizar Enlaces",
+        "description": "Configura la auto-actualización para enlaces específicos",
+        "configure": "Configurar",
+        "listTips": "Arrastra para reordenar. Solo se aplica la primera regla coincidente.",
+        "linkMatchContent": "Patrón de Enlace",
+        "linkMatchContentTips": "Usa '*' para cualquier carácter, '?' para uno. Soporta expresiones regulares.",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "save": "Guardar",
+        "close": "Cerrar",
+        "refreshInterval": "Intervalo de Actualización (Minutos)",
+        "disabled": "Desactivado"
+      },
+      "pageKeepAlive": {
+        "label": "Mantener Página Activa",
+        "description": "Mantiene la página activa y evita que el navegador la suspenda automáticamente cuando está en segundo plano."
+      },
+      "incognito": {
+        "label": "Navegación Privada",
+        "description": "Borra los datos seleccionados del sitio después de cada visita. Usa 'Configurar' para elegir qué borrar. Puede afectar tu experiencia de navegación.",
+        "configure": "Configurar",
+        "configureDescription": "Por favor selecciona las características a borrar",
+        "cache": "Caché",
+        "cacheStorage": "Almacenamiento de Caché",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Mantener Cookies de Cuenta",
+        "history": "Historial",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Almacenamiento Local",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Advertencia: Eliminar cookies afecta a todos los subdominios y puede cerrar tu sesión.",
+        "warningTitle": "Advertencia",
+        "warningMessage": "Esto borrará todos los datos del sitio, incluidas las sesiones iniciadas. ¿Continuar?",
+        "selectAll": "Seleccionar Todo",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "autoJoinGroup": {
+        "label": "Unirse Automáticamente al Grupo",
+        "description": "Únete o crea automáticamente un grupo para este sitio.",
+        "configure": "Configurar",
+        "groupName": "Nombre del Grupo",
+        "save": "Guardar"
       },
       "backgroundColor": {
         "label": "Color de Fondo",

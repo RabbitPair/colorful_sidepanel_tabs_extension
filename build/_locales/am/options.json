@@ -298,6 +298,23 @@
         "label": "የትር መለያ አሳይ",
         "description": "ሲነቃቃ የትር መለያ ከርዕስ ጋር አብሮ ይታያል። በዚህም በ [Ctrl+number] በዊንዶውስ ወይም [cmd+number] በማክ በመጠቀም ትር በቀላሉ ማንቃት ይቻላል። ምሳሌ: 1. stackoverflow.com 2. youtube, ስለዚህ በዊንዶውስ Ctrl + 2 ወይም በማክ cmd + 2 በማድረግ ወደ youtube መሄድ ቀላል ይሆናል።"
       },
+      "showGroupTabCount": {
+        "label": "የቡድን ትሮች ብዛት አሳይ",
+        "description": "ሲነቃቃ በእያንዳንዱ ቡድን ውስጥ ያሉትን ትሮች ብዛት ከቡድኑ ስም ጋር አብሮ ያሳያል።"
+      },
+      "tabTitleMulitLines": {
+        "label": "የትር ርዕስ ከፍተኛ መስመሮች",
+        "description": "ለትሮች ርዕሶች ለማሳየት ከፍተኛ መስመሮችን ያቀናብር። ተጨማሪ መስመሮች ይሰወራሉ።"
+      },
+      "groupTitleMulitLines": {
+        "label": "የቡድን ርዕስ ከፍተኛ መስመሮች",
+        "description": "ለቡድኖች ርዕሶች ለማሳየት ከፍተኛ መስመሮችን ያቀናብር። ተጨማሪ መስመሮች ይሰወራሉ።"
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "የተንሸራተቱ ቡድኖች ርዕስ ወርድ",
+        "description": "ቡድኑ ሲነካከር የቡድኑን ርዕስ ወርድ ያቀናብር።",
+        "reset": "እንደገና አስጀምር"
+      },
       "tabHistoryEnable": {
         "label": "የትሮች ታሪክ",
         "description": "ሲነቃቃ በተመረጠው ትር ውስጥ የተከፈቱ ድር ጣቢያዎች ታሪክ ይታያል።"
@@ -621,6 +638,74 @@
         "target_top": "ከፍተኛ ትር",
         "save": "አስቀምጥ",
         "close": "ዝጋ"
+      },
+      "linkOpenOptions": {
+        "label": "አገናኝ መክፈት ቅንብሮች",
+        "description": "በዚህ ጣቢያ አገናኞች እንዴት እንደሚከፈቱ ያስተካክሉ",
+        "configure": "አስተካክል",
+        "listTips": "ለማስረዳት ይጎትቱና ይጣሉ። ከፍተኛ ቅድሚያ ያላቸው ህጎች ከላይ ይቀመጣሉ።",
+        "linkMatchContent": "አገናኝ ይዛመድ ይዘት",
+        "linkMatchContentTips": "መደበኛ እንደሆኑ ቃላትን ይደግፋል። ለምሳሌ፣ '*' ማንኛውንም ቁጥር ያህል ቁምፊዎችን ለማዛመድ ይጠቀሙ፣ '?' አንድ ቁምፊን ለማዛመድ ይጠቀሙ።",
+        "linkOpenMethod": "እንዴት እንደሚከፈቱ",
+        "edit": "አርትዕ",
+        "delete": "አስወግድ",
+        "target_self": "አሁን የተከፈተው ትር",
+        "target_blank": "አዲስ ትር",
+        "target_parent": "የወላጅ ትር",
+        "target_top": "ከፍተኛ ትር",
+        "save": "አስቀምጥ",
+        "close": "ዝጋ",
+        "internalLinks": "ውስጣዊ አገናኞች",
+        "externalLinks": "ውጫዊ አገናኞች",
+        "imageLinks": "ምስሎች",
+        "pdfLinks": "PDF ፋይሎች",
+        "socialMediaLinks": "ማህበራዊ ሚዲያ"
+      },
+      "linkRefreshOptions": {
+        "label": "ራስ-ሰር አገናኞችን አድሱ",
+        "description": "ለተወሰኑ አገናኞች ራስ-ሰር አድሱ",
+        "configure": "አስተካክል",
+        "listTips": "ለማስረዳት ይጎትቱና ይጣሉ። ከፍተኛ ቅድሚያ ያላቸው ህጎች ከላይ ይቀመጣሉ።",
+        "linkMatchContent": "አገናኝ ይዛመድ ይዘት",
+        "linkMatchContentTips": "መደበኛ እንደሆኑ ቃላትን ይደግፋል። ለምሳሌ፣ '*' ማንኛውንም ቁጥር ያህል ቁምፊዎችን ለማዛመድ ይጠቀሙ፣ '?' አንድ ቁምፊን ለማዛመድ ይጠቀሙ።",
+        "edit": "አርትዕ",
+        "delete": "አስወግድ",
+        "save": "አስቀምጥ",
+        "close": "ዝጋ",
+        "refreshInterval": "የራስ-ሰር አድሳሽ ጊዜ (ደቂቃዎች)",
+        "disabled": "እንደተሰማሁ"
+      },
+      "pageKeepAlive": {
+        "label": "ገጹን ንቁ አድርግ",
+        "description": "ገጹን ንቁ አድርጎ በጀርባ ሲሆን እንዳይቋረጥ ይከላከላል።"
+      },
+      "incognito": {
+        "label": "የግል እይታ",
+        "description": "ከእያንዳንዱ ጉብኝት በኋላ የተመረጡትን የጣቢያ መረጃዎች ያጥፋል። 'አስተካክል' በመጠቀም ምን እንደሚያጥፉ ይምረጡ። የእንቅስቃሴዎን ተሞክሮ ሊያመንት ይችላል።",
+        "configure": "አስተካክል",
+        "configureDescription": "እባኮ ሊያጥፉ የሚፈልጉትን ባህሪዎች ይምረጡ",
+        "cache": "ካሽ",
+        "cacheStorage": "ካሽ ቤት",
+        "cookies": "ኩኪዎች",
+        "skipAccountCookies": "የመለያ ኩኪዎችን አስቀምጥ",
+        "history": "ታሪክ",
+        "indexedDB": "ኢንዴክስ ዲቢ",
+        "localStorage": "አካባቢ ቤት",
+        "serviceWorkers": "አገልግሎት ሠራተኞች",
+        "webSQL": "ዌብ SQL",
+        "cookieWarning": "ማስጠንቀቂያ፡ ኩኪዎችን ማጥፋት ሁሉንም ንዑስ ድርጅቶችን ያመነታል እና ከመለያዎች እንዲወጡ ይኖርቦታል።",
+        "warningTitle": "ማስጠንቀቂያ",
+        "warningMessage": "ይህ ሁሉንም የጣቢያ መረጃዎች ያጥፋል፣ ግምት ጨምሮ። ቀጥል?",
+        "selectAll": "ሁሉንም ምረጥ",
+        "cancel": "ሰርዝ",
+        "confirm": "አረጋግጥ"
+      },
+      "autoJoinGroup": {
+        "label": "ራስ-ሰር ቡድን ገባ",
+        "description": "ለዚህ ጣቢያ ራስ-ሰር ቡድን ይገባ ወይም ይፍጠር።",
+        "configure": "አስተካክል",
+        "groupName": "የቡድን ስም",
+        "save": "አስቀምጥ"
       },
       "backgroundColor": {
         "label": "የዋና ቀለም",

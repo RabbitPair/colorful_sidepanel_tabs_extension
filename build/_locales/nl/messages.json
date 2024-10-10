@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Probeer Opnieuw"
+  },
+  "shortcuts": {
+    "message": "sneltoetsen"
+  },
+  "countdown_refresh": {
+    "message": "Aftellen Vernieuwen"
   }
 }

@@ -298,6 +298,23 @@
         "label": "Show tab index",
         "description": "When enabled, the tab index will be displayed next to the title, making it easy to active tab using [Ctrl+number] on Windows or [cmd+number] on Mac. Example: 1. stackoverflow.com 2. youtube, so that it's easy to do Ctrl + 2 on Windows or cmd + 2 on Mac to go to youtube"
       },
+      "showGroupTabCount": {
+        "label": "Show group tab count",
+        "description": "When enabled, the number of tabs in each group will be displayed next to the group name."
+      },
+      "tabTitleMulitLines": {
+        "label": "Tab title max lines",
+        "description": "Set the maximum number of lines to display for tab titles. Additional lines will be hidden."
+      },
+      "groupTitleMulitLines": {
+        "label": "Group title max lines",
+        "description": "Set the maximum number of lines to display for group titles. Additional lines will be hidden."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Group collapsed title width",
+        "description": "Set the width of the group title when the group is collapsed.",
+        "reset": "Reset"
+      },
       "tabHistoryEnable": {
         "label": "Tab history",
         "description": "When enabled, the history of websites opened in the same tab will be displayed."
@@ -621,6 +638,74 @@
         "target_top": "Top Tab",
         "save": "Save",
         "close": "Close"
+      },
+      "linkOpenOptions": {
+        "label": "Link Opening Settings",
+        "description": "Set how links open on this site",
+        "configure": "Configure",
+        "listTips": "Drag to reorder. Top rules apply first.",
+        "linkMatchContent": "Link Pattern",
+        "linkMatchContentTips": "Use '*' for any characters, '?' for one. Supports regex.",
+        "linkOpenMethod": "Open In",
+        "edit": "Edit",
+        "delete": "Delete",
+        "target_self": "Current Tab",
+        "target_blank": "New Tab",
+        "target_parent": "Parent Tab",
+        "target_top": "Top Tab",
+        "save": "Save",
+        "close": "Close",
+        "internalLinks": "Internal Links",
+        "externalLinks": "External Links",
+        "imageLinks": "Images",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Refresh Links",
+        "description": "Set up auto-refresh for specific links",
+        "configure": "Configure",
+        "listTips": "Drag to reorder. Only the first matching rule applies.",
+        "linkMatchContent": "Link Pattern",
+        "linkMatchContentTips": "Use '*' for any characters, '?' for one. Supports regex.",
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save",
+        "close": "Close",
+        "refreshInterval": "Refresh Interval (Minutes)",
+        "disabled": "Off"
+      },
+      "pageKeepAlive": {
+        "label": "Keep Page Active",
+        "description": "Keeps the page active and prevents the browser from automatically suspending it when in the background."
+      },
+      "incognito": {
+        "label": "Private Browsing",
+        "description": "Clears selected site data after each visit. Use 'Configure' to choose what to clear. May affect your browsing experience.",
+        "configure": "Configure",
+        "configureDescription": "Please select the features to clear",
+        "cache": "Cache",
+        "cacheStorage": "Cache Storage",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Keep Account Cookies",
+        "history": "History",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Local Storage",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Warning: Deleting cookies affects all subdomains and may log you out.",
+        "warningTitle": "Warning",
+        "warningMessage": "This will erase all site data, including logins. Continue?",
+        "selectAll": "Select All",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "autoJoinGroup": {
+        "label": "Auto-Join Group",
+        "description": "Automatically join or create a group for this site.",
+        "configure": "Set Up",
+        "groupName": "Group Name",
+        "save": "Save"
       },
       "backgroundColor": {
         "label": "Background Color",

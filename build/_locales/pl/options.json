@@ -298,6 +298,23 @@
         "label": "Pokaż indeks karty",
         "description": "Po włączeniu indeks karty będzie wyświetlany obok tytułu, co ułatwi aktywację karty za pomocą [Ctrl+numer] w systemie Windows lub [cmd+numer] na Macu. Przykład: 1. stackoverflow.com 2. youtube, dzięki czemu łatwo jest użyć Ctrl + 2 w systemie Windows lub cmd + 2 na Macu, aby przejść do youtube"
       },
+      "showGroupTabCount": {
+        "label": "Pokaż liczbę kart w grupie",
+        "description": "Po włączeniu liczba kart w każdej grupie będzie wyświetlana obok nazwy grupy."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maksymalna liczba linii tytułu karty",
+        "description": "Ustaw maksymalną liczbę linii do wyświetlania dla tytułów kart. Dodatkowe linie będą ukryte."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maksymalna liczba linii tytułu grupy",
+        "description": "Ustaw maksymalną liczbę linii do wyświetlania dla tytułów grup. Dodatkowe linie będą ukryte."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Szerokość tytułu grupy po złożeniu",
+        "description": "Ustaw szerokość tytułu grupy, gdy grupa jest złożona.",
+        "reset": "Resetuj"
+      },
       "tabHistoryEnable": {
         "label": "Historia kart",
         "description": "Po włączeniu wyświetlana będzie historia stron internetowych otwieranych w tej samej karcie."
@@ -621,6 +638,74 @@
         "target_top": "Najwyższa karta",
         "save": "Zapisz",
         "close": "Zamknij"
+      },
+      "linkOpenOptions": {
+        "label": "Ustawienia otwierania linków",
+        "description": "Ustaw, jak linki otwierają się na tej stronie",
+        "configure": "Konfiguruj",
+        "listTips": "Przeciągnij, aby zmienić kolejność. Najpierw stosowane są najwyższe reguły.",
+        "linkMatchContent": "Wzorzec linku",
+        "linkMatchContentTips": "Użyj '*' dla dowolnych znaków, '?' dla jednego. Obsługuje wyrażenia regularne.",
+        "linkOpenMethod": "Otwórz w",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "target_self": "Bieżąca karta",
+        "target_blank": "Nowa karta",
+        "target_parent": "Karta nadrzędna",
+        "target_top": "Najwyższa karta",
+        "save": "Zapisz",
+        "close": "Zamknij",
+        "internalLinks": "Linki wewnętrzne",
+        "externalLinks": "Linki zewnętrzne",
+        "imageLinks": "Obrazy",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Media społecznościowe"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatyczne odświeżanie linków",
+        "description": "Skonfiguruj automatyczne odświeżanie dla określonych linków",
+        "configure": "Konfiguruj",
+        "listTips": "Przeciągnij, aby zmienić kolejność. Stosowana jest tylko pierwsza pasująca reguła.",
+        "linkMatchContent": "Wzorzec linku",
+        "linkMatchContentTips": "Użyj '*' dla dowolnych znaków, '?' dla jednego. Obsługuje wyrażenia regularne.",
+        "edit": "Edytuj",
+        "delete": "Usuń",
+        "save": "Zapisz",
+        "close": "Zamknij",
+        "refreshInterval": "Interwał odświeżania (minuty)",
+        "disabled": "Wyłączone"
+      },
+      "pageKeepAlive": {
+        "label": "Utrzymuj stronę aktywną",
+        "description": "Utrzymuje stronę aktywną i zapobiega automatycznemu zawieszaniu jej przez przeglądarkę, gdy jest w tle."
+      },
+      "incognito": {
+        "label": "Prywatne przeglądanie",
+        "description": "Czyści wybrane dane strony po każdej wizycie. Użyj 'Konfiguruj', aby wybrać, co wyczyścić. Może to wpłynąć na Twoje doświadczenia z przeglądaniem.",
+        "configure": "Konfiguruj",
+        "configureDescription": "Proszę wybrać funkcje do wyczyszczenia",
+        "cache": "Pamięć podręczna",
+        "cacheStorage": "Magazyn pamięci podręcznej",
+        "cookies": "Ciasteczka",
+        "skipAccountCookies": "Zachowaj ciasteczka konta",
+        "history": "Historia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Pamięć lokalna",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Ostrzeżenie: Usunięcie ciasteczek wpływa na wszystkie subdomeny i może spowodować wylogowanie.",
+        "warningTitle": "Ostrzeżenie",
+        "warningMessage": "To usunie wszystkie dane strony, w tym loginy. Kontynuować?",
+        "selectAll": "Zaznacz wszystko",
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź"
+      },
+      "autoJoinGroup": {
+        "label": "Automatyczne dołączanie do grupy",
+        "description": "Automatycznie dołącz lub utwórz grupę dla tej strony.",
+        "configure": "Skonfiguruj",
+        "groupName": "Nazwa grupy",
+        "save": "Zapisz"
       },
       "backgroundColor": {
         "label": "Kolor tła",

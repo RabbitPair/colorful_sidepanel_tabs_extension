@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Tekrar Dene"
+  },
+  "shortcuts": {
+    "message": "kısayollar"
+  },
+  "countdown_refresh": {
+    "message": "Geri Sayım Yenileme"
   }
 }

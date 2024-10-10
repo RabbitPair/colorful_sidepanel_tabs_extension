@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Ceisio Eto"
+  },
+  "shortcuts": {
+    "message": "byrddulliau"
+  },
+  "countdown_refresh": {
+    "message": "Ail-lwytho Cyfrif i Lawr"
   }
 }

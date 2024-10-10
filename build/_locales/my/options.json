@@ -298,6 +298,23 @@
         "label": "Tab အညွှန်းကိုပြပါ",
         "description": "ဖွင့်ထားပါက၊ tab အညွှန်းကိုခေါင်းစဉ်အနားတွင်ပြသမည်၊ [Ctrl+number] ကို Windows တွင်သို့မဟုတ် [cmd+number] ကို Mac တွင်အသုံးပြု၍ active tab ကိုလွယ်ကူစွာပြုလုပ်နိုင်သည်။ ဥပမာ - 1. stackoverflow.com 2. youtube, ထို့ကြောင့် Ctrl + 2 ကို Windows တွင်သို့မဟုတ် cmd + 2 ကို Mac တွင်သုံး၍ youtube သို့သွားနိုင်သည်"
       },
+      "showGroupTabCount": {
+        "label": "အုပ်စု tab အရေအတွက်ကိုပြပါ",
+        "description": "ဖွင့်ထားပါက၊ အုပ်စုတစ်ခုစီတွင်ပါဝင်သော tab အရေအတွက်ကို အုပ်စုအမည်အနားတွင်ပြသမည်။"
+      },
+      "tabTitleMulitLines": {
+        "label": "Tab ခေါင်းစဉ်အများဆုံးလိုင်းများ",
+        "description": "Tab ခေါင်းစဉ်များအတွက် ပြသရန်အများဆုံးလိုင်းအရေအတွက်ကို သတ်မှတ်ပါ။ ထပ်မံလိုင်းများကို ဖျောက်ထားမည်။"
+      },
+      "groupTitleMulitLines": {
+        "label": "အုပ်စုခေါင်းစဉ်အများဆုံးလိုင်းများ",
+        "description": "အုပ်စုခေါင်းစဉ်များအတွက် ပြသရန်အများဆုံးလိုင်းအရေအတွက်ကို သတ်မှတ်ပါ။ ထပ်မံလိုင်းများကို ဖျောက်ထားမည်။"
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "အုပ်စုချုံ့ထားသောခေါင်းစဉ်အကျယ်",
+        "description": "အုပ်စုကိုချုံ့ထားသောအခါ အုပ်စုခေါင်းစဉ်၏အကျယ်ကို သတ်မှတ်ပါ။",
+        "reset": "ပြန်လည်သတ်မှတ်ပါ"
+      },
       "tabHistoryEnable": {
         "label": "Tab မှတ်တမ်း",
         "description": "ဖွင့်ထားပါက၊ တစ်ခုတည်းသော tab တွင်ဖွင့်ထားသောဝက်ဘ်ဆိုက်များ၏မှတ်တမ်းကိုပြသမည်။"
@@ -621,6 +638,129 @@
         "target_top": "အပေါ်ဆုံးတဘ်",
         "save": "သိမ်းဆည်းပါ",
         "close": "ပိတ်ပါ"
+      },
+      "linkOpenOptions": {
+        "label": "လင့်ခ်ဖွင့်ခြင်းဆက်တင်များ",
+        "description": "ဤဆိုဒ်တွင်လင့်ခ်များကိုမည်သို့ဖွင့်မည်ကိုသတ်မှတ်ပါ",
+        "configure": "ပြင်ဆင်ပါ",
+        "listTips": "စီစဉ်ရန်ဆွဲချပါ။ အပေါ်ဆုံးစည်းမျဉ်းများကိုပထမဦးစွာလွှမ်းမိုးသည်။",
+        "linkMatchContent": "လင့်ခ်ပုံစံ",
+        "linkMatchContentTips": "စာလုံးများအားလုံးအတွက် '*' ကိုအသုံးပြုပါ၊ တစ်လုံးအတွက် '?' ကိုအသုံးပြုပါ။ ပုံမှန်ထုတ်ဖော်ချက်များကိုထောက်ပံ့သည်။",
+        "linkOpenMethod": "ဖွင့်ရန်",
+        "edit": "ပြင်ဆင်ပါ",
+        "delete": "ဖျက်ပါ",
+        "target_self": "လက်ရှိတဘ်",
+        "target_blank": "အသစ်သောတဘ်",
+        "target_parent": "မိဘတဘ်",
+        "target_top": "အပေါ်ဆုံးတဘ်",
+        "save": "သိမ်းဆည်းပါ",
+        "close": "ပိတ်ပါ",
+        "internalLinks": "အတွင်းလင့်ခ်များ",
+        "externalLinks": "ပြင်ပလင့်ခ်များ",
+        "imageLinks": "ပုံများ",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "လူမှုမီဒီယာ"
+      },
+      "linkRefreshOptions": {
+        "label": "အလိုအလျောက်လင့်ခ်အသစ်တင်ခြင်း",
+        "description": "အထူးလင့်ခ်များအတွက်အလိုအလျောက်အသစ်တင်ခြင်းကိုပြင်ဆင်ပါ",
+        "configure": "ပြင်ဆင်ပါ",
+        "listTips": "စီစဉ်ရန်ဆွဲချပါ။ ပထမဆုံးကိုက်ညီသောစည်းမျဉ်းတစ်ခုသာလွှမ်းမိုးသည်။",
+        "linkMatchContent": "လင့်ခ်ပုံစံ",
+        "linkMatchContentTips": "စာလုံးများအားလုံးအတွက် '*' ကိုအသုံးပြုပါ၊ တစ်လုံးအတွက် '?' ကိုအသုံးပြုပါ။ ပုံမှန်ထုတ်ဖော်ချက်များကိုထောက်ပံ့သည်။",
+        "edit": "ပြင်ဆင်ပါ",
+        "delete": "ဖျက်ပါ",
+        "save": "သိမ်းဆည်းပါ",
+        "close": "ပိတ်ပါ",
+        "refreshInterval": "အသစ်တင်ခြင်းအကြားကာလ (မိနစ်များ)",
+        "disabled": "ပိတ်ထားသည်"
+      },
+      "pageKeepAlive": {
+        "label": "စာမျက်နှာကိုအသက်ရှင်ထားပါ",
+        "description": "စာမျက်နှာကိုအသက်ရှင်ထားပြီး၊ နောက်ခံတွင်ရှိနေစဉ်အလိုအလျောက်ရပ်ဆိုင်းခြင်းမှဘရောက်ဇာကိုတားဆီးသည်။"
+      },
+      "incognito": {
+        "label": "ပုဂ္ဂလိကကြည့်ရှုခြင်း",
+        "description": "တစ်ခါတစ်လေဝင်ရောက်မှုအပြီးတွင်ရွေးချယ်ထားသောဆိုဒ်ဒေတာကိုရှင်းလင်းသည်။ မည်သည့်အရာကိုရှင်းလင်းမည်ကိုရွေးချယ်ရန် 'ပြင်ဆင်ပါ' ကိုအသုံးပြုပါ။ သင့်ကြည့်ရှုမှုအတွေ့အကြုံကိုထိခိုက်စေနိုင်သည်။",
+        "configure": "ပြင်ဆင်ပါ",
+        "configureDescription": "ရှင်းလင်းရန်အင်္ဂါရပ်များကိုရွေးချယ်ပါ",
+        "cache": "အလျင်အမြန်သိမ်းဆည်းခြင်း",
+        "cacheStorage": "အလျင်အမြန်သိမ်းဆည်းမှု",
+        "cookies": "ကွတ်ကီးများ",
+        "skipAccountCookies": "အကောင့်ကွတ်ကီးများကိုထားပါ",
+        "history": "မှတ်တမ်း",
+        "indexedDB": "IndexedDB",
+        "localStorage": "ဒေတာသိမ်းဆည်းခြင်း",
+        "serviceWorkers": "ဝန်ဆောင်မှုလုပ်သားများ",
+        "webSQL": "Web SQL",
+        "cookieWarning": "သတိပေးချက်: ကွတ်ကီးများကိုဖျက်ခြင်းသည်အောက်ခံဒိုမိန်းအားလုံးကိုထိခိုက်စေပြီးသင့်ကိုအကောင့်မှထွက်စေနိုင်သည်။",
+        "warningTitle": "သတိပေးချက်",
+        "label": "Link Opening Settings",
+        "description": "Set how links open on this site",
+        "configure": "Configure",
+        "listTips": "Drag to reorder. Top rules apply first.",
+        "linkMatchContent": "Link Pattern",
+        "linkMatchContentTips": "Use '*' for any characters, '?' for one. Supports regex.",
+        "linkOpenMethod": "Open In",
+        "edit": "Edit",
+        "delete": "Delete",
+        "target_self": "Current Tab",
+        "target_blank": "New Tab",
+        "target_parent": "Parent Tab",
+        "target_top": "Top Tab",
+        "save": "Save",
+        "close": "Close",
+        "internalLinks": "Internal Links",
+        "externalLinks": "External Links",
+        "imageLinks": "Images",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Auto-Refresh Links",
+        "description": "Set up auto-refresh for specific links",
+        "configure": "Configure",
+        "listTips": "Drag to reorder. Only the first matching rule applies.",
+        "linkMatchContent": "Link Pattern",
+        "linkMatchContentTips": "Use '*' for any characters, '?' for one. Supports regex.",
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save",
+        "close": "Close",
+        "refreshInterval": "Refresh Interval (Minutes)",
+        "disabled": "Off"
+      },
+      "pageKeepAlive": {
+        "label": "Keep Page Active",
+        "description": "Keeps the page active and prevents the browser from automatically suspending it when in the background."
+      },
+      "incognito": {
+        "label": "Private Browsing",
+        "description": "Clears selected site data after each visit. Use 'Configure' to choose what to clear. May affect your browsing experience.",
+        "configure": "Configure",
+        "configureDescription": "Please select the features to clear",
+        "cache": "Cache",
+        "cacheStorage": "Cache Storage",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Keep Account Cookies",
+        "history": "History",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Local Storage",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Warning: Deleting cookies affects all subdomains and may log you out.",
+        "warningTitle": "Warning",
+        "warningMessage": "This will erase all site data, including logins. Continue?",
+        "selectAll": "Select All",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "autoJoinGroup": {
+        "label": "Auto-Join Group",
+        "description": "Automatically join or create a group for this site.",
+        "configure": "Set Up",
+        "groupName": "Group Name",
+        "save": "Save"
       },
       "backgroundColor": {
         "label": "နောက်ခံအရောင်",

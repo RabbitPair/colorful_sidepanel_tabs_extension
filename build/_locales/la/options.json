@@ -298,6 +298,23 @@
         "label": "Monstra indicem tabulae",
         "description": "Cum activa, index tabulae iuxta titulum ostendetur, faciens facilem tabulam activam uti [Ctrl+numerus] in Fenestra vel [cmd+numerus] in Mac. Exemplum: 1. stackoverflow.com 2. youtube, ut facile sit facere Ctrl + 2 in Fenestra vel cmd + 2 in Mac ad youtube"
       },
+      "showGroupTabCount": {
+        "label": "Monstra numerum tabularum coetus",
+        "description": "Cum activa, numerus tabularum in unoquoque coetu iuxta nomen coetus ostendetur."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maximae lineae tituli tabulae",
+        "description": "Constitue maximum numerum linearum ad ostendendum pro titulis tabularum. Lineae additae occultabuntur."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maximae lineae tituli coetus",
+        "description": "Constitue maximum numerum linearum ad ostendendum pro titulis coetus. Lineae additae occultabuntur."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Latitudo tituli coetus collapsi",
+        "description": "Constitue latitudinem tituli coetus cum coetus collapsus est.",
+        "reset": "Reponere"
+      },
       "tabHistoryEnable": {
         "label": "Historia tabulae",
         "description": "Cum activa, historia paginarum in eadem tabula aperta ostendetur."
@@ -621,6 +638,74 @@
         "target_top": "Scheda Principale",
         "save": "Salva",
         "close": "Chiudi"
+      },
+      "linkOpenOptions": {
+        "label": "Impostazioni di apertura dei link",
+        "description": "Imposta come aprire i link su questo sito",
+        "configure": "Configura",
+        "listTips": "Trascina per riordinare. Le regole in cima si applicano per prime.",
+        "linkMatchContent": "Modello di link",
+        "linkMatchContentTips": "Usa '*' per qualsiasi carattere, '?' per uno. Supporta le espressioni regolari.",
+        "linkOpenMethod": "Apri in",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "target_self": "Scheda corrente",
+        "target_blank": "Nuova scheda",
+        "target_parent": "Scheda genitore",
+        "target_top": "Scheda principale",
+        "save": "Salva",
+        "close": "Chiudi",
+        "internalLinks": "Link interni",
+        "externalLinks": "Link esterni",
+        "imageLinks": "Immagini",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Social Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Aggiornamento automatico dei link",
+        "description": "Configura l'aggiornamento automatico per link specifici",
+        "configure": "Configura",
+        "listTips": "Trascina per riordinare. Si applica solo la prima regola corrispondente.",
+        "linkMatchContent": "Modello di link",
+        "linkMatchContentTips": "Usa '*' per qualsiasi carattere, '?' per uno. Supporta le espressioni regolari.",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "save": "Salva",
+        "close": "Chiudi",
+        "refreshInterval": "Intervallo di aggiornamento (minuti)",
+        "disabled": "Disattivato"
+      },
+      "pageKeepAlive": {
+        "label": "Mantieni la pagina attiva",
+        "description": "Mantiene la pagina attiva e impedisce al browser di sospenderla automaticamente quando è in background."
+      },
+      "incognito": {
+        "label": "Navigazione privata",
+        "description": "Cancella i dati selezionati del sito dopo ogni visita. Usa 'Configura' per scegliere cosa cancellare. Potrebbe influire sulla tua esperienza di navigazione.",
+        "configure": "Configura",
+        "configureDescription": "Seleziona le funzionalità da cancellare",
+        "cache": "Cache",
+        "cacheStorage": "Archiviazione cache",
+        "cookies": "Cookie",
+        "skipAccountCookies": "Mantieni i cookie dell'account",
+        "history": "Cronologia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Archiviazione locale",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Avviso: Eliminare i cookie influisce su tutti i sottodomini e potrebbe disconnetterti.",
+        "warningTitle": "Avviso",
+        "warningMessage": "Questo cancellerà tutti i dati del sito, inclusi i login. Continuare?",
+        "selectAll": "Seleziona tutto",
+        "cancel": "Annulla",
+        "confirm": "Conferma"
+      },
+      "autoJoinGroup": {
+        "label": "Unisciti automaticamente al gruppo",
+        "description": "Unisciti automaticamente o crea un gruppo per questo sito.",
+        "configure": "Configura",
+        "groupName": "Nome del gruppo",
+        "save": "Salva"
       },
       "backgroundColor": {
         "label": "Colore di sfondo",

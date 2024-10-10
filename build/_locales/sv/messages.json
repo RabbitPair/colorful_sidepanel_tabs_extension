@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Försök Igen"
+  },
+  "shortcuts": {
+    "message": "genvägar"
+  },
+  "countdown_refresh": {
+    "message": "Nedräkning Uppdatera"
   }
 }

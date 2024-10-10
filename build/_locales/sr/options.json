@@ -298,6 +298,23 @@
         "label": "Prikaži indeks kartice",
         "description": "Kada je omogućeno, indeks kartice će biti prikazan pored naslova, što olakšava aktiviranje kartice pomoću [Ctrl+broj] na Windows-u ili [cmd+broj] na Mac-u. Primer: 1. stackoverflow.com 2. youtube, tako da je lako pritisnuti Ctrl + 2 na Windows-u ili cmd + 2 na Mac-u da biste otišli na youtube"
       },
+      "showGroupTabCount": {
+        "label": "Prikaži broj kartica u grupi",
+        "description": "Kada je omogućeno, broj kartica u svakoj grupi će biti prikazan pored imena grupe."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maksimalan broj linija naslova kartice",
+        "description": "Postavite maksimalan broj linija za prikaz naslova kartica. Dodatne linije će biti skrivene."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maksimalan broj linija naslova grupe",
+        "description": "Postavite maksimalan broj linija za prikaz naslova grupa. Dodatne linije će biti skrivene."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Širina naslova grupe kada je sklopljena",
+        "description": "Postavite širinu naslova grupe kada je grupa sklopljena.",
+        "reset": "Resetuj"
+      },
       "tabHistoryEnable": {
         "label": "Istorija kartica",
         "description": "Kada je omogućeno, istorija vebsajtova otvorenih u istoj kartici će biti prikazana."
@@ -621,6 +638,74 @@
         "target_top": "Najviša kartica",
         "save": "Sačuvaj",
         "close": "Zatvori"
+      },
+      "linkOpenOptions": {
+        "label": "Podešavanja otvaranja linkova",
+        "description": "Podesite kako se linkovi otvaraju na ovom sajtu",
+        "configure": "Podesi",
+        "listTips": "Prevucite da biste promenili redosled. Pravila na vrhu se prvo primenjuju.",
+        "linkMatchContent": "Šablon linka",
+        "linkMatchContentTips": "Koristite '*' za bilo koje karaktere, '?' za jedan. Podržava regularne izraze.",
+        "linkOpenMethod": "Otvori u",
+        "edit": "Izmeni",
+        "delete": "Obriši",
+        "target_self": "Trenutna kartica",
+        "target_blank": "Nova kartica",
+        "target_parent": "Roditeljska kartica",
+        "target_top": "Najviša kartica",
+        "save": "Sačuvaj",
+        "close": "Zatvori",
+        "internalLinks": "Interni linkovi",
+        "externalLinks": "Eksterni linkovi",
+        "imageLinks": "Slike",
+        "pdfLinks": "PDF-ovi",
+        "socialMediaLinks": "Društvene mreže"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatsko osvežavanje linkova",
+        "description": "Podesite automatsko osvežavanje za specifične linkove",
+        "configure": "Podesi",
+        "listTips": "Prevucite da biste promenili redosled. Samo prvo pravilo koje se podudara se primenjuje.",
+        "linkMatchContent": "Šablon linka",
+        "linkMatchContentTips": "Koristite '*' za bilo koje karaktere, '?' za jedan. Podržava regularne izraze.",
+        "edit": "Izmeni",
+        "delete": "Obriši",
+        "save": "Sačuvaj",
+        "close": "Zatvori",
+        "refreshInterval": "Interval osvežavanja (minuti)",
+        "disabled": "Isključeno"
+      },
+      "pageKeepAlive": {
+        "label": "Održavanje stranice aktivnom",
+        "description": "Održava stranicu aktivnom i sprečava da je pregledač automatski suspenduje kada je u pozadini."
+      },
+      "incognito": {
+        "label": "Privatno pretraživanje",
+        "description": "Briše odabrane podatke sajta nakon svake posete. Koristite 'Podesi' da izaberete šta da obrišete. Može uticati na vaše iskustvo pretraživanja.",
+        "configure": "Podesi",
+        "configureDescription": "Molimo izaberite funkcije koje želite da obrišete",
+        "cache": "Keš",
+        "cacheStorage": "Keš skladište",
+        "cookies": "Kolačići",
+        "skipAccountCookies": "Zadrži kolačiće naloga",
+        "history": "Istorija",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokalno skladište",
+        "serviceWorkers": "Servisni radnici",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Upozorenje: Brisanje kolačića utiče na sve poddomene i može vas odjaviti.",
+        "warningTitle": "Upozorenje",
+        "warningMessage": "Ovo će obrisati sve podatke sajta, uključujući prijave. Nastaviti?",
+        "selectAll": "Izaberi sve",
+        "cancel": "Otkaži",
+        "confirm": "Potvrdi"
+      },
+      "autoJoinGroup": {
+        "label": "Automatsko pridruživanje grupi",
+        "description": "Automatski se pridružite ili kreirajte grupu za ovaj sajt.",
+        "configure": "Podesi",
+        "groupName": "Ime grupe",
+        "save": "Sačuvaj"
       },
       "backgroundColor": {
         "label": "Boja pozadine",

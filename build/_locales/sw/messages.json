@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Jaribu Tena"
+  },
+  "shortcuts": {
+    "message": "njia za mkato"
+  },
+  "countdown_refresh": {
+    "message": "Hesabu ya Kurudisha"
   }
 }

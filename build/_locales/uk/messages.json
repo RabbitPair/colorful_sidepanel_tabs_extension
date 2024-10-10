@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Спробувати ще раз"
+  },
+  "shortcuts": {
+    "message": "Ярлики"
+  },
+  "countdown_refresh": {
+    "message": "Оновлення зворотного відліку"
   }
 }

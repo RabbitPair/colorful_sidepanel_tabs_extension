@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "حاول مرة أخرى"
+  },
+  "shortcuts": {
+    "message": "الاختصارات"
+  },
+  "countdown_refresh": {
+    "message": "تحديث العد التنازلي"
   }
 }

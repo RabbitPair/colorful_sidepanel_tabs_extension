@@ -4,6 +4,127 @@ Alle bemerkenswerten Änderungen an diesem Projekt werden in dieser Datei dokume
 
 Dieses Projekt hält sich an [Semantic Versioning](https://semver.org/).
 
+----
+## [Unveröffentlicht]
+
+- **Geplante Snapshots**: Speichert automatisch Snapshots in festgelegten Intervallen. Diese Funktion stellt sicher, dass Ihre Arbeit regelmäßig gesichert wird und bietet ein Sicherheitsnetz gegen Datenverlust.
+
+----
+## [2.11.0] - 2024-10-07
+### Hinzugefügt
+- **Tab-Menü**: Neue Menüs wurden hinzugefügt:
+  - **Tab-Titel umbenennen**: Ermöglicht das Ändern des Tab-Titels. Standardmäßig ist die Option zum Speichern der URL-Einstellungen ausgewählt, sodass der Titel automatisch aktualisiert wird, wenn Sie die URL das nächste Mal öffnen.
+  - **Tab in neues Fenster verschieben**: Ermöglicht das Verschieben des Tabs in ein neues Fenster.
+  - **Tab in ein anderes Fenster verschieben**: Ermöglicht das Verschieben des Tabs in ein anderes vorhandenes Fenster.
+  - **Tab aus Gruppe entfernen**: Ermöglicht das Entfernen des Tabs aus der aktuellen Gruppe.
+
+- **Tab-Einstellungen**: Neue Optionen wurden zu den Tab-Einstellungen hinzugefügt:
+  - **Maximale Zeilenanzahl für Tab-Titel**: Legen Sie die maximale Anzahl der anzuzeigenden Zeilen für Tab-Titel fest. Zusätzliche Zeilen werden ausgeblendet.
+  - **Maximale Zeilenanzahl für Gruppentitel**: Legen Sie die maximale Anzahl der anzuzeigenden Zeilen für Gruppentitel fest. Zusätzliche Zeilen werden ausgeblendet.
+  - **Breite des zusammengeklappten Gruppentitels**: Legen Sie die Breite des Gruppentitels fest, wenn die Gruppe zusammengeklappt ist.
+  - **Anzahl der Tabs in der Gruppe anzeigen**: Zeigt die Anzahl der Tabs in jeder Gruppe neben dem Gruppennamen an.
+
+- **Seiteneinstellungen**: Neue Optionen wurden zu den Seiteneinstellungen hinzugefügt:
+  * **Seite aktiv halten**: Wenn aktiviert, kann der Tab vom Browser verworfen werden. Wenn Sie die Leistungseinstellungen aktivieren und eine Zeit zum Verwerfen inaktiver Tabs festlegen, wird der Tab nach der festgelegten Zeit verworfen. Wenn deaktiviert, wird der Tab nicht verworfen.
+  * **Automatisch Gruppe beitreten**: Wenn aktiviert, erstellt oder tritt die Seite automatisch der angegebenen Gruppe bei.
+  * **Inkognito-Modus**: Wenn aktiviert, können Sie wählen, ob beim Besuch der Seite automatisch Browserdaten gelöscht werden sollen. Dies umfasst mehrere konfigurierbare Optionen: Cookies, Verlauf, CacheStorage, Dateisysteme, IndexedDB, LocalStorage, ServiceWorkers und WebSQL. Beachten Sie, dass die Berechtigung browsingData nicht verwendet wird, um zusätzliche Berechtigungen zu vermeiden.
+  * **Automatische Aktualisierung**: In den Link-Konfigurationseinstellungen können Sie URLs angeben, die automatisch aktualisiert werden sollen, mit Unterstützung für reguläre Ausdrücke.
+
+### Geändert
+- **Erweitertes Bild-in-Bild**: Universelle Untertitelunterstützung für den plyr-Player hinzugefügt.
+- **Seite aktiv halten**: Verbesserte Funktionalität, um Tabs aktiv zu halten.
+- **Stil der Gruppentabs**: Den Stil der Tabs innerhalb von Gruppen geändert.
+- **Menüreihenfolge**: Die Reihenfolge der Elemente im Tab-Menü angepasst.
+
+### Behoben
+- **Bild-in-Bild**: Ein Problem behoben, bei dem der Titel nach dem Wechseln der Videos im Bild-in-Bild-Player nicht geändert wurde.
+- **Benutzerdefinierte Gruppen-Zuweisungen**: Ein Problem behoben, bei dem Änderungen an benutzerdefinierten Gruppen-Zuweisungen für Websites nicht sofort wirksam wurden, wenn die Option "Seitengruppierung merken" in den Einstellungen für Erweiterte Tab-Gruppen aktiviert war. Dies wurde behoben, um Änderungen sofort anzuwenden, ohne einen Neustart zu erfordern.
+
+----
+
+
+## [2.10.2] - 2024-10-07
+
+- Problem behoben, bei dem Danmaku (Bullet-Kommentare) auf einigen Websites nach dem Seitenwechsel stoppten oder verschwanden (Ereignis beim Ausblenden der Seite)
+- HTML5-Videosteuerelemente ausgeblendet
+
+----
+## [2.10.1] - 2024-10-05
+
+### Behoben
+- Problem behoben, bei dem Tastenkürzel-Ereignisse wiederholt ausgelöst wurden, wenn mehrere Videos nacheinander abgespielt wurden
+- Problem behoben, bei dem der Player in bestimmten Situationen nicht wiederhergestellt werden konnte
+- Problem behoben, bei dem die Wiedergabefortschrittsleiste im Bild-in-Bild-Modus nicht richtig funktionierte
+- Problem behoben, bei dem das Wechseln von Tabs eine Bild-in-Bild-Erkennungsbenachrichtigung auslöste, nachdem von einer Seite mit Video zu einer Seite ohne Video im selben Tab navigiert wurde
+- Problem behoben, bei dem sich das Bild-in-Bild-Fenster beim Beenden des Bild-in-Bild-Modus mit jwPlayer nicht schloss
+- Problem behoben, bei dem eine falsche Adresse zum Absturz der Seite führte, wenn ein Hintergrundbild eingestellt wurde
+
+----
+## [2.10.0] - 2024-10-01
+
+### Hinzugefügt
+- **Dokument Bild-in-Bild**: Einführung des erweiterten Bild-in-Bild-Modus, der vor der offiziellen Veröffentlichung der Premium-Version der Erweiterung kostenlos getestet werden kann. Wenn aktiviert, hat er Vorrang vor dem Standard-Bild-in-Bild. Wenn die aktuelle Seite es nicht unterstützt, wird der Standardmodus verwendet. Der erweiterte Bild-in-Bild-Modus verfügt über einen benutzerdefinierten Videoplayer mit Funktionen wie:
+  * **Video abspielen/pausieren** (Leertaste oder K)
+  * **Lautstärke anpassen** (Pfeil nach oben/unten)
+  * **Video stummschalten/aufheben** (M)
+  * **Video vorspulen/zurückspulen** (Pfeil nach links/rechts oder Mausrad)
+  * **Video 5 Sekunden vorspulen/zurückspulen** (Pfeil nach links/rechts)
+  * **Video 10 Sekunden vorspulen/zurückspulen** (J/L)
+  * **Nächstes Video abspielen** (Shift + N)
+  * **Vorheriges Video abspielen** (Shift + P)
+  * **Untertitel anzeigen** (unterstützt auf einigen Websites wie youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Kommentare anzeigen** (unterstützt auf einigen Websites wie nicovideo.jp, bilibili.com, etc.) (D)
+  * **Bild-in-Bild beenden** (Esc)
+  * **Video ausblenden/einblenden und abspielen/pausieren umschalten** (Q)
+  * **Vollbild umschalten** (F)
+  * **Wiedergabegeschwindigkeit anpassen** ( > oder <)
+  * **Zum Anfang/Ende des Videos springen** (Home/End)
+  * **Zu einem Prozentsatz des Videos springen** (0-9)
+  * **Fenster an Videogröße anpassen** (W)
+  * **Bild-in-Bild von der Hauptseite umschalten** (Alt + P)
+  
+  > Wenn die von Ihnen häufig besuchten Websites Untertitel oder Kommentare unterstützen, können Sie ein [Problem: Erweitertes Bild-in-Bild](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=) einreichen, und wir werden es so schnell wie möglich anpassen. Bitte beachten Sie, dass einige Websites regionale Einschränkungen haben können, die zusätzliche Informationen erfordern.
+- **Tastenkürzel für Bild-in-Bild**: Ein neues Tastenkürzel Alt+P wurde hinzugefügt, um den Bild-in-Bild-Modus schnell umzuschalten. Dies ermöglicht es den Benutzern, Videos einfach in den Bild-in-Bild-Modus zu wechseln, ohne die Maus zu verwenden, was die Produktivität und Multitasking-Fähigkeiten verbessert.
+- **Bild-in-Bild im unteren Navigationsleiste umschalten**: Sie können jetzt eine Bild-in-Bild-Umschaltoption zur unteren Navigationsleiste hinzufügen. Dies kann in den Erscheinungseinstellungen unter "Untere Navigationsleiste anzeigen" - "Konfigurieren" konfiguriert werden.
+- **Tabs nach URL sortieren**: Eine neue Menüoption "Tabs nach URL sortieren" wurde dem "Mehr"-Menü hinzugefügt.
+- **Verhalten beim Zusammenklappen von Tab-Gruppen**: Eine neue Option "Verhalten beim Zusammenklappen von Tab-Gruppen" wurde dem Menü "Erweiterte Tab-Gruppe" hinzugefügt. Sie können das Verhalten des Zusammenklappens von Tab-Gruppen im Browser ändern. Die Optionen umfassen: 'Aktuelle Gruppe anzeigen und andere Gruppen zusammenklappen', 'Alle Gruppen erweitern' und 'Standardeinstellungen des Browsers verwenden'.
+- **Seiteneinstellungen**: Drei neue Optionen wurden zu den Seiteneinstellungen hinzugefügt:
+  * **Aktion zur Einschränkung von Bild-in-Bild**: Konfigurieren Sie die Aktion für Bild-in-Bild-Einschränkungen.
+  * **Automatisch in Bild-in-Bild wechseln**: Automatisch in den Bild-in-Bild-Modus wechseln, wenn beim Betreten der Seite ein Video vorhanden ist.
+  * **Untertiteleinstellungen**: Konfigurieren Sie die CSS-Selektoren für das Untertitel-Element und dessen übergeordnetes Element auf der Seite.
+
+### Geändert
+- Wenn die Seitenleiste nicht geöffnet ist, wird bei aktivierter Option "Bild-in-Bild beim Tab-Wechsel" (standardmäßig aktiviert) automatisch in den Bild-in-Bild-Modus gewechselt (Wichtiger Hinweis: Benutzerinteraktion ist erforderlich, z. B. durch Klicken auf die Seite, die das Video abspielt, um die Benutzerinteraktion zu aktivieren).
+- Beim Schließen der Seitenleiste wird diese jetzt entfernt, anstatt ausgeblendet. Sie erscheint erst nach dem Aktualisieren der Seite wieder.
+
+### Behoben
+- Das Problem behoben, bei dem die Schnellzugriffsliste mehrere URLs nicht verarbeitete.
+
+----
+
+## [2.9.0] - 2024-09-15
+- **Tabs löschen** hinzugefügt: Speichern Sie einen Schnappschuss und schließen Sie alle Tabs außer dem aktiven. Stellen Sie sie aus kürzlich geschlossenen Tabs oder Schnappschüssen wieder her.
+- **Automatische Aktivierung der Tab-Gruppierung** hinzugefügt: Erstellen Sie automatisch eine neue Gruppe, wenn Sie einen neuen Tab öffnen. Nachfolgende Tabs, die von diesem Tab geöffnet werden, treten der Gruppe bei.
+- **Vertikaler Abstand der Liste** hinzugefügt: Neue Option in den erweiterten Tab-Gruppeneinstellungen, um den vertikalen Abstand für Listenelemente anzupassen.
+- **Mehrere URLs zum Schnellzugriff hinzufügen** hinzugefügt: Ermöglicht das Hinzufügen von Gruppen und das Auswählen mehrerer Tabs, die im Schnellzugriff gespeichert werden sollen.
+- **Abstand der Schnellzugriffselemente** hinzugefügt: Legen Sie den vertikalen/horizontalen Abstand für Schnellzugriffselemente auf der Optionsseite fest.
+
+---
+## [2.8.0] - 2024-09-12
+
+### Hinzugefügt
+- **Tab-Verlauf** hinzugefügt: Jetzt können Sie leicht sehen, welche Websites unter demselben Tab geöffnet wurden. Linksklick, um die Website im aktuellen Tab zu öffnen, Mittelklick oder Strg+Linksklick, um die Website in einem neuen Tab zu öffnen. Weitere Details finden Sie auf der Optionsseite.
+- **Benutzerdefinierte Gruppennamen** hinzugefügt: Auf der Optionsseite - Erweitertes Tab-Gruppe, können Sie hier einige vordefinierte Gruppen hinzufügen, sodass Sie diese schnell auswählen können, wenn Sie Tabs zu einer Gruppe hinzufügen müssen. Wir haben bereits einige Gruppennamen voreingestellt, die Sie nach Bedarf ändern oder löschen können.
+- **Verwenden Sie den Lesezeichenordnernamen als Gruppennamen** hinzugefügt: Auf der Optionsseite - Erweitertes Tab-Gruppe wurde eine neue Option hinzugefügt. Wenn die geöffnete Website ein Lesezeichen ist, wird sie automatisch der Gruppe hinzugefügt, und der Gruppenname verwendet den Lesezeichendirectorynamen.
+- **Tab-Index** hinzugefügt: Auf der Optionsseite, wenn aktiviert, wird der Tab-Index neben dem Titel angezeigt, was es einfach macht, den aktiven Tab mit [Strg+Nummer] unter Windows oder [cmd+Nummer] auf dem Mac zu aktivieren. Beispiel: 1. stackoverflow.com 2. youtube, sodass es einfach ist, Strg + 2 unter Windows oder cmd + 2 auf dem Mac zu verwenden, um zu youtube zu gelangen.
+- **Optimierte Seiteneinstellungen**: Verbesserte Option zum Festlegen der Hintergrundfarbe und Schriftfarbe für Websites.
+
+### Geändert
+- Beim Überprüfen von Lesezeichen das Aktualisieren von umgeleiteten URLs zulassen. Wenn die URL nicht zugänglich ist, Fehlercodes anzeigen: Erfolgreiche Antworten (200 – 299), Umleitungsnachrichten (300 – 399), Client-Fehlerantworten (400 – 499), Server-Fehlerantworten (500 – 599). Weitere Details finden Sie unter: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+### Behoben
+- Das Problem behoben, bei dem das Popup zur Lesezeichenänderung nicht verschwand
+
 ---
 
 ## [2.7.0] - 2024-09-05

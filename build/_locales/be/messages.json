@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Паспрабаваць зноў"
+  },
+  "shortcuts": {
+    "message": "хуткія клавішы"
+  },
+  "countdown_refresh": {
+    "message": "Аднаўленне зваротнага адліку"
   }
 }

@@ -4,7 +4,126 @@ Tutte le modifiche rilevanti a questo progetto saranno documentate in questo fil
 
 Questo progetto aderisce al [Versionamento Semantico](https://semver.org/).
 
+----
+
+## [Non rilasciato]
+
+- **Snapshot programmati**: Salva automaticamente gli snapshot a intervalli specificati. Questa funzione garantisce che il tuo lavoro venga periodicamente salvato, fornendo una rete di sicurezza contro la perdita di dati.
+
+----
+## [2.11.0] - 2024-10-07
+### Aggiunto
+- **Menu Tab**: Sono stati aggiunti nuovi menu:
+  - **Rinomina Titolo Tab**: Consente di cambiare il titolo del tab. Per impostazione predefinita, l'opzione per ricordare le impostazioni dell'URL è selezionata, quindi il titolo verrà aggiornato automaticamente la prossima volta che apri l'URL.
+  - **Sposta Tab in Nuova Finestra**: Consente di spostare il tab in una nuova finestra.
+  - **Sposta Tab in un'Altra Finestra**: Consente di spostare il tab in un'altra finestra esistente.
+  - **Rimuovi Tab dal Gruppo**: Consente di rimuovere il tab dal gruppo corrente.
+
+- **Impostazioni Tab**: Sono state aggiunte nuove opzioni alle impostazioni dei tab:
+  - **Numero Massimo di Linee Mostrate per il Titolo del Tab**: Imposta il numero massimo di linee da visualizzare per i titoli dei tab. Le linee aggiuntive verranno nascoste.
+  - **Numero Massimo di Linee Mostrate per il Titolo del Gruppo**: Imposta il numero massimo di linee da visualizzare per i titoli dei gruppi. Le linee aggiuntive verranno nascoste.
+  - **Larghezza del Titolo del Gruppo Collassato**: Quando il gruppo è collassato, imposta la larghezza del titolo del gruppo.
+  - **Mostra Conteggio Tab del Gruppo**: Mostra il numero di tab in ogni gruppo accanto al nome del gruppo.
+
+- **Impostazioni del Sito**: Sono state aggiunte nuove opzioni alle impostazioni del sito:
+  * **Mantieni Attiva la Pagina**: Quando abilitato, il tab sarà consentito di essere scartato dal browser. Se abiliti le impostazioni di prestazione e imposti un tempo per scartare i tab inattivi, il tab verrà scartato dopo il tempo specificato. Se disabilitato, il tab non verrà scartato.
+  * **Unione Automatica al Gruppo**: Quando abilitato, il sito creerà automaticamente o si unirà al gruppo specificato.
+  * **Modalità Incognito**: Quando abilitato, puoi scegliere di cancellare automaticamente i dati di navigazione alla visita del sito. Questo include diverse opzioni configurabili: Cookie, Cronologia, CacheStorage, FileSystems, IndexedDB, LocalStorage, ServiceWorkers e WebSQL. Nota che il permesso browsingData non viene utilizzato per evitare di richiedere permessi aggiuntivi.
+  * **Aggiornamento Automatico**: Nelle impostazioni di configurazione del link, puoi specificare URL da aggiornare automaticamente, con supporto per espressioni regolari.
+
+### Modificato
+- **Picture-in-Picture Avanzato**: Aggiunto supporto universale per i sottotitoli per il lettore plyr.
+- **Mantieni Attiva la Pagina**: Funzionalità migliorata per mantenere attivi i tab.
+- **Stile dei Tab del Gruppo**: Modificato lo stile dei tab all'interno dei gruppi.
+- **Ordine del Menu**: Regolato l'ordine degli elementi nel menu dei tab.
+
+### Risolto
+- **Picture-in-Picture**: Risolto un problema in cui il titolo non cambiava dopo aver cambiato video nel lettore Picture-in-Picture.
+- **Assegnazioni Personalizzate dei Gruppi**: Risolto un problema in cui le modifiche alle assegnazioni personalizzate dei gruppi per i siti web non avevano effetto immediato quando l'opzione "Ricorda raggruppamento del sito" era abilitata nelle impostazioni dei Gruppi di Tab Avanzati. Questo è stato risolto per applicare le modifiche istantaneamente senza richiedere un riavvio.
+
+----
+
+## [2.10.2] - 2024-10-07
+
+- Risolto il problema in cui i danmaku (commenti a proiettile) si fermavano o scomparivano su alcuni siti web dopo il cambio di pagina (evento di nascondimento della pagina)
+- Nascosti i controlli video HTML5
+
+----
+## [2.10.1] - 2024-10-05
+
+### Risolto
+- Risolto il problema in cui gli eventi di scorciatoia venivano attivati ripetutamente durante la riproduzione consecutiva di più video
+- Risolto un problema in cui il lettore non riusciva a ripristinarsi in determinate situazioni
+- Risolto il problema in cui la barra di avanzamento della riproduzione non funzionava correttamente quando si utilizzava la modalità Picture-in-Picture
+- Risolto il problema in cui il cambio di scheda attivava un toast di rilevamento Picture-in-Picture dopo aver navigato da una pagina con un video a una pagina senza video nella stessa scheda
+- Risolto il problema in cui la finestra Picture-in-Picture non si chiudeva quando si usciva dalla modalità Picture-in-Picture utilizzando jwPlayer
+- Risolto il problema in cui un indirizzo errato causava il crash della pagina durante l'impostazione di un'immagine di sfondo
+
+----
+## [2.10.0] - 2024-10-01
+
+### Aggiunto
+- **Documento Picture-in-Picture**: Introduzione di Advanced Picture-in-Picture, disponibile per una prova gratuita prima del rilascio ufficiale della versione premium dell'estensione. Quando abilitato, ha la precedenza sul Picture-in-Picture standard. Se la pagina corrente non lo supporta, verrà utilizzata la modalità standard. Advanced Picture-in-Picture presenta un lettore video personalizzato con funzionalità come:
+  * **Riproduci/Pausa video** (Spazio o K)
+  * **Regola volume** (Freccia su/giù)
+  * **Disattiva/Attiva audio video** (M)
+  * **Avanzamento rapido/Indietro video** (Freccia sinistra/destra o Rotella del mouse)
+  * **Avanzamento rapido/Indietro video di 5 secondi** (Freccia sinistra/destra)
+  * **Avanzamento rapido/Indietro video di 10 secondi** (J/L)
+  * **Riproduci il video successivo** (Shift + N)
+  * **Riproduci il video precedente** (Shift + P)
+  * **Mostra sottotitoli** (supportato su alcuni siti web come youtube.com, vimeo.com, tver.jp, ecc.) (C)
+  * **Mostra commenti** (supportato su alcuni siti web come nicovideo.jp, bilibili.com, ecc.) (D)
+  * **Esci da Picture-in-Picture** (Esc)
+  * **Alterna nascondi/mostra video e riproduci/pausa** (Q)
+  * **Alterna schermo intero** (F)
+  * **Regola velocità di riproduzione** ( > o <)
+  * **Vai all'inizio/fine del video** (Home/End)
+  * **Vai a una percentuale del video** (0-9)
+  * **Adatta finestra alle dimensioni del video** (W)
+  * **Alterna Picture-in-Picture dalla pagina principale** (Alt + P)
+  
+  > Se i siti web che visiti frequentemente supportano sottotitoli o commenti, puoi inviare un [problema: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), e lo adatteremo il prima possibile. Si prega di notare che alcuni siti web possono avere restrizioni regionali, richiedendo informazioni aggiuntive.
+- **Scorciatoia per Picture-in-Picture**: È stata aggiunta una nuova scorciatoia da tastiera Alt+P per attivare rapidamente la modalità Picture-in-Picture. Questo consente agli utenti di passare facilmente i video alla visualizzazione Picture-in-Picture senza usare il mouse, migliorando la produttività e le capacità di multitasking.
+- **Alterna Picture-in-Picture nella Barra di Navigazione Inferiore**: Ora puoi aggiungere un'opzione di attivazione Picture-in-Picture alla barra di navigazione inferiore. Questo può essere configurato nelle impostazioni di aspetto sotto "Mostra barra di navigazione inferiore" - "Configura".
+- **Ordina Schede per URL**: È stata aggiunta una nuova opzione di menu "Ordina Schede per URL" al menu "Altro".
+- **Comportamento di Collasso del Gruppo di Schede**: È stata aggiunta una nuova opzione "Comportamento di Collasso del Gruppo di Schede" al menu "Gruppo di Schede Avanzato". Puoi modificare il comportamento del collasso dei gruppi di schede nel browser. Le opzioni includono: 'Mostra gruppo corrente e collassa altri gruppi', 'Espandi tutti i gruppi' e 'Usa impostazioni predefinite del browser'.
+- **Impostazioni del Sito**: Sono state aggiunte tre nuove opzioni alle impostazioni del sito:
+  * **Azione di Restrizione Picture-in-Picture**: Configura l'azione per le restrizioni di Picture-in-Picture.
+  * **Entra automaticamente in Picture-in-Picture**: Entra automaticamente in modalità Picture-in-Picture quando è presente un video all'ingresso nella pagina.
+  * **Impostazioni dei Sottotitoli**: Configura i selettori CSS per l'elemento dei sottotitoli e il suo elemento padre nella pagina.
+
+### Modificato
+- Quando la scheda del pannello laterale non è aperta, se "Picture-in-Picture al Cambio di Scheda" è abilitato (abilitato per impostazione predefinita), entrerà automaticamente in modalità Picture-in-Picture (Promemoria importante: è richiesta l'interazione dell'utente, come fare clic sulla pagina che riproduce il video per attivare l'interazione dell'utente).
+- Quando si chiude la barra laterale della pagina, ora viene rimossa invece di essere nascosta. Riapparirà solo dopo aver aggiornato la pagina.
+
+### Risolto
+- Risolto il problema per cui l'elenco di Accesso Rapido non gestiva più URL.
+
+----
+
+## [2.9.0] - 2024-09-15
+- Aggiunto **Cancella Schede**: Salva uno snapshot e chiudi tutte le schede tranne quella attiva. Ripristinale dalle schede chiuse di recente o dagli snapshot.
+- Aggiunto **Attivazione Automatica Raggruppamento Schede**: Crea automaticamente un nuovo gruppo quando si apre una nuova scheda. Le schede successive aperte da questa scheda si uniranno al gruppo.
+- Aggiunto **Spaziatura Verticale Elenco**: Nuova opzione nelle impostazioni del Gruppo Schede Avanzato per regolare la spaziatura verticale degli elementi dell'elenco.
+- Aggiunto **Aggiungi Più URL a Accesso Rapido**: Consente di aggiungere gruppi e selezionare più schede da salvare in Accesso Rapido.
+- Aggiunto **Spaziatura Elementi Accesso Rapido**: Imposta la spaziatura verticale/orizzontale per gli elementi di Accesso Rapido nella pagina delle opzioni.
+
 ---
+## [2.8.0] - 2024-09-12
+
+### Aggiunto
+- Aggiunto **Cronologia schede**: Ora puoi facilmente vedere quali siti web sono stati aperti sotto lo stesso tab. Clicca con il tasto sinistro per aprire il sito web nel tab corrente, clicca con il tasto centrale o Ctrl+clic sinistro per aprire il sito web in un nuovo tab. Per ulteriori dettagli, consulta la pagina delle opzioni.
+- Aggiunto **Nomi gruppi personalizzati**: Nella pagina delle opzioni - Gruppo schede avanzato, puoi aggiungere qui alcuni gruppi predefiniti, in modo da poterli selezionare rapidamente quando devi aggiungere schede a un gruppo. Abbiamo già preimpostato alcuni nomi di gruppo, che puoi modificare o eliminare secondo le tue esigenze.
+- Aggiunto **Usa nome cartella segnalibri come nome gruppo**: Nella pagina delle opzioni - Gruppo schede avanzato, è stata aggiunta una nuova opzione. Se il sito web aperto è un segnalibro, verrà automaticamente aggiunto al gruppo e il nome del gruppo utilizzerà il nome della cartella dei segnalibri.
+- Aggiunto **Indice scheda**: Nella pagina delle opzioni, quando abilitato, l'indice scheda verrà visualizzato accanto al titolo, rendendo facile attivare la scheda usando [Ctrl+numero] su Windows o [cmd+numero] su Mac. Esempio: 1. stackoverflow.com 2. youtube, in modo che sia facile fare Ctrl + 2 su Windows o cmd + 2 su Mac per andare su youtube
+- **Impostazioni sito ottimizzate**: Migliorata l'opzione per impostare il colore di sfondo e il colore del testo per i siti.
+
+### Modificato
+- Quando si controllano i segnalibri, consentire l'aggiornamento degli URL reindirizzati. Se l'URL non è accessibile, visualizzare i codici di errore: Risposte di successo (200 – 299), Messaggi di reindirizzamento (300 – 399), Risposte di errore del client (400 – 499), Risposte di errore del server (500 – 599). Per ulteriori dettagli, consulta: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+### Risolto
+- Risolto il problema in cui il popup di modifica del segnalibro non scompariva
 
 ## [2.7.0] - 2024-09-05
 ### Aggiunto

@@ -298,6 +298,23 @@
         "label": "Shfaq indeksin e zavihkat",
         "description": "Kur aktivizohet, indeksi i zavihkat do të shfaqet pranë titullit, duke e bërë të lehtë aktivizimin e zavihkat duke përdorur [Ctrl+numër] në Windows ose [cmd+numër] në Mac. Shembull: 1. stackoverflow.com 2. youtube, kështu që është e lehtë të bëni Ctrl + 2 në Windows ose cmd + 2 në Mac për të shkuar te youtube"
       },
+      "showGroupTabCount": {
+        "label": "Shfaq numrin e zavihkat të grupit",
+        "description": "Kur aktivizohet, numri i zavihkat në secilin grup do të shfaqet pranë emrit të grupit."
+      },
+      "tabTitleMulitLines": {
+        "label": "Numri maksimal i rreshtave të titullit të zavihkat",
+        "description": "Vendosni numrin maksimal të rreshtave për të shfaqur për titujt e zavihkat. Rreshtat shtesë do të fshihen."
+      },
+      "groupTitleMulitLines": {
+        "label": "Numri maksimal i rreshtave të titullit të grupit",
+        "description": "Vendosni numrin maksimal të rreshtave për të shfaqur për titujt e grupeve. Rreshtat shtesë do të fshihen."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Gjerësia e titullit të grupit të tkurrur",
+        "description": "Vendosni gjerësinë e titullit të grupit kur grupi është i tkurrur.",
+        "reset": "Rivendos"
+      },
       "tabHistoryEnable": {
         "label": "Historia e zavihkat",
         "description": "Kur aktivizohet, historia e faqeve të hapura në të njëjtën zavihkat do të shfaqet."
@@ -621,6 +638,74 @@
         "target_top": "Skeda Kryesore",
         "save": "Ruaj",
         "close": "Mbyll"
+      },
+      "linkOpenOptions": {
+        "label": "Cilësimet e Hapjes së Lidhjeve",
+        "description": "Vendosni se si hapen lidhjet në këtë faqe",
+        "configure": "Konfiguro",
+        "listTips": "Tërhiqni për të riorganizuar. Rregullat e sipërme zbatohen të parat.",
+        "linkMatchContent": "Modeli i Lidhjes",
+        "linkMatchContentTips": "Përdorni '*' për çdo karakter, '?' për një. Mbështet shprehjet e rregullta.",
+        "linkOpenMethod": "Hap Në",
+        "edit": "Modifiko",
+        "delete": "Fshij",
+        "target_self": "Skeda Aktual",
+        "target_blank": "Skeda e Re",
+        "target_parent": "Skeda Prind",
+        "target_top": "Skeda Kryesore",
+        "save": "Ruaj",
+        "close": "Mbyll",
+        "internalLinks": "Lidhje të Brendshme",
+        "externalLinks": "Lidhje të Jashtme",
+        "imageLinks": "Imazhe",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Media Sociale"
+      },
+      "linkRefreshOptions": {
+        "label": "Rifreskimi Automatik i Lidhjeve",
+        "description": "Vendosni rifreskimin automatik për lidhje specifike",
+        "configure": "Konfiguro",
+        "listTips": "Tërhiqni për të riorganizuar. Vetëm rregulli i parë që përputhet zbatohet.",
+        "linkMatchContent": "Modeli i Lidhjes",
+        "linkMatchContentTips": "Përdorni '*' për çdo karakter, '?' për një. Mbështet shprehjet e rregullta.",
+        "edit": "Modifiko",
+        "delete": "Fshij",
+        "save": "Ruaj",
+        "close": "Mbyll",
+        "refreshInterval": "Intervali i Rifreskimit (Minuta)",
+        "disabled": "Çaktivizuar"
+      },
+      "pageKeepAlive": {
+        "label": "Mbaj Faqen Aktive",
+        "description": "Mban faqen aktive dhe parandalon shfletuesin nga pezullimi automatik kur është në sfond."
+      },
+      "incognito": {
+        "label": "Shfletim Privat",
+        "description": "Pastron të dhënat e zgjedhura të faqes pas çdo vizite. Përdorni 'Konfiguro' për të zgjedhur çfarë të pastrohet. Mund të ndikojë në përvojën tuaj të shfletimit.",
+        "configure": "Konfiguro",
+        "configureDescription": "Ju lutemi zgjidhni veçoritë për të pastruar",
+        "cache": "Cache",
+        "cacheStorage": "Ruajtja e Cache",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Mbaj Cookies të Llogarisë",
+        "history": "Historia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Ruajtja Lokale",
+        "serviceWorkers": "Punonjësit e Shërbimit",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Paralajmërim: Fshirja e cookies ndikon në të gjitha nën-domenet dhe mund t'ju nxjerrë nga llogaria.",
+        "warningTitle": "Paralajmërim",
+        "warningMessage": "Kjo do të fshijë të gjitha të dhënat e faqes, përfshirë hyrjet. Vazhdoni?",
+        "selectAll": "Zgjidh të Gjitha",
+        "cancel": "Anulo",
+        "confirm": "Konfirmo"
+      },
+      "autoJoinGroup": {
+        "label": "Bashko Automatikisht në Grup",
+        "description": "Bashkohuni ose krijoni automatikisht një grup për këtë faqe.",
+        "configure": "Vendos",
+        "groupName": "Emri i Grupit",
+        "save": "Ruaj"
       },
       "backgroundColor": {
         "label": "Ngjyra e Prapavijës",

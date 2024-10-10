@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Дахин оролдох"
+  },
+  "shortcuts": {
+    "message": "Товчлолууд"
+  },
+  "countdown_refresh": {
+    "message": "Тооцооллын шинэчлэлт"
   }
 }

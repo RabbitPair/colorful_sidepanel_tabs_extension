@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Yritä uudelleen"
+  },
+  "shortcuts": {
+    "message": "Pikanäppäimet"
+  },
+  "countdown_refresh": {
+    "message": "Laskennan päivitys"
   }
 }

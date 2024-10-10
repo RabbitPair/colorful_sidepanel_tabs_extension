@@ -298,6 +298,23 @@
         "label": "Amosar índice de lapas",
         "description": "Cando está habilitado, o índice da lapa amosarase xunto ao título, facilitando a activación da lapa usando [Ctrl+número] en Windows ou [cmd+número] en Mac. Exemplo: 1. stackoverflow.com 2. youtube, para que sexa fácil facer Ctrl + 2 en Windows ou cmd + 2 en Mac para ir a youtube"
       },
+      "showGroupTabCount": {
+        "label": "Amosar conta de lapas do grupo",
+        "description": "Cando está habilitado, o número de lapas en cada grupo amosarase xunto ao nome do grupo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Líneas máximas do título da lapa",
+        "description": "Establecer o número máximo de liñas a amosar para os títulos das lapas. As liñas adicionais serán ocultadas."
+      },
+      "groupTitleMulitLines": {
+        "label": "Líneas máximas do título do grupo",
+        "description": "Establecer o número máximo de liñas a amosar para os títulos dos grupos. As liñas adicionais serán ocultadas."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Ancho do título do grupo colapsado",
+        "description": "Establecer o ancho do título do grupo cando o grupo está colapsado.",
+        "reset": "Restablecer"
+      },
       "tabHistoryEnable": {
         "label": "Historial de lapas",
         "description": "Cando está habilitado, amosarase o historial de sitios web abertos na mesma lapa."
@@ -621,6 +638,74 @@
         "target_top": "Lapela superior",
         "save": "Gardar",
         "close": "Pechar"
+      },
+      "linkOpenOptions": {
+        "label": "Configuración de apertura de ligazóns",
+        "description": "Establece como se abren as ligazóns neste sitio",
+        "configure": "Configurar",
+        "listTips": "Arrastra para reordenar. As regras superiores aplícanse primeiro.",
+        "linkMatchContent": "Patrón de ligazón",
+        "linkMatchContentTips": "Usa '*' para calquera carácter, '?' para un. Admite regex.",
+        "linkOpenMethod": "Abrir en",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "target_self": "Lapela actual",
+        "target_blank": "Nova lapela",
+        "target_parent": "Lapela pai",
+        "target_top": "Lapela superior",
+        "save": "Gardar",
+        "close": "Pechar",
+        "internalLinks": "Ligazóns internas",
+        "externalLinks": "Ligazóns externas",
+        "imageLinks": "Imaxes",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Redes sociais"
+      },
+      "linkRefreshOptions": {
+        "label": "Actualización automática de ligazóns",
+        "description": "Configura a actualización automática para ligazóns específicas",
+        "configure": "Configurar",
+        "listTips": "Arrastra para reordenar. Só se aplica a primeira regra coincidente.",
+        "linkMatchContent": "Patrón de ligazón",
+        "linkMatchContentTips": "Usa '*' para calquera carácter, '?' para un. Admite regex.",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "save": "Gardar",
+        "close": "Pechar",
+        "refreshInterval": "Intervalo de actualización (Minutos)",
+        "disabled": "Desactivado"
+      },
+      "pageKeepAlive": {
+        "label": "Manter a páxina activa",
+        "description": "Mantén a páxina activa e evita que o navegador a suspenda automaticamente cando está en segundo plano."
+      },
+      "incognito": {
+        "label": "Navegación privada",
+        "description": "Elimina os datos seleccionados do sitio despois de cada visita. Usa 'Configurar' para escoller que eliminar. Pode afectar a túa experiencia de navegación.",
+        "configure": "Configurar",
+        "configureDescription": "Selecciona as funcións para eliminar",
+        "cache": "Caché",
+        "cacheStorage": "Almacenamento de caché",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Manter cookies de conta",
+        "history": "Historial",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Almacenamento local",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Advertencia: Eliminar cookies afecta a todos os subdominios e pode desconectarte.",
+        "warningTitle": "Advertencia",
+        "warningMessage": "Isto eliminará todos os datos do sitio, incluíndo inicios de sesión. Continuar?",
+        "selectAll": "Seleccionar todo",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "autoJoinGroup": {
+        "label": "Unirse automaticamente ao grupo",
+        "description": "Únete ou crea automaticamente un grupo para este sitio.",
+        "configure": "Configurar",
+        "groupName": "Nome do grupo",
+        "save": "Gardar"
       },
       "backgroundColor": {
         "label": "Cor de fondo",

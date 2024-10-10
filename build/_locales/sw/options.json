@@ -298,6 +298,23 @@
         "label": "Onyesha faharasa ya kichupo",
         "description": "Ukiwezeshwa, faharasa ya kichupo itaonyeshwa karibu na kichwa, na kufanya iwe rahisi kuamsha kichupo kwa kutumia [Ctrl+number] kwenye Windows au [cmd+number] kwenye Mac. Mfano: 1. stackoverflow.com 2. youtube, ili iwe rahisi kufanya Ctrl + 2 kwenye Windows au cmd + 2 kwenye Mac kwenda youtube"
       },
+      "showGroupTabCount": {
+        "label": "Onyesha idadi ya vichupo vya kikundi",
+        "description": "Ukiwezeshwa, idadi ya vichupo katika kila kikundi itaonyeshwa karibu na jina la kikundi."
+      },
+      "tabTitleMulitLines": {
+        "label": "Mstari wa juu wa kichwa cha kichupo",
+        "description": "Weka idadi ya juu ya mistari kuonyesha kwa vichwa vya vichupo. Mistari ya ziada itafichwa."
+      },
+      "groupTitleMulitLines": {
+        "label": "Mstari wa juu wa kichwa cha kikundi",
+        "description": "Weka idadi ya juu ya mistari kuonyesha kwa vichwa vya vikundi. Mistari ya ziada itafichwa."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Upana wa kichwa cha kikundi kilichofupishwa",
+        "description": "Weka upana wa kichwa cha kikundi wakati kikundi kimefupishwa.",
+        "reset": "Weka upya"
+      },
       "tabHistoryEnable": {
         "label": "Historia ya vichupo",
         "description": "Ukiwezeshwa, historia ya tovuti zilizofunguliwa kwenye kichupo kimoja itaonyeshwa."
@@ -621,6 +638,74 @@
         "target_top": "Kichupo cha Juu Zaidi",
         "save": "Hifadhi",
         "close": "Funga"
+      },
+      "linkOpenOptions": {
+        "label": "Mipangilio ya Kufungua Viungo",
+        "description": "Weka jinsi viungo vinavyofunguka kwenye tovuti hii",
+        "configure": "Sanidi",
+        "listTips": "Buruta kupanga upya. Sheria za juu zinatumika kwanza.",
+        "linkMatchContent": "Mfano wa Kiungo",
+        "linkMatchContentTips": "Tumia '*' kwa herufi yoyote, '?' kwa moja. Inasaidia regex.",
+        "linkOpenMethod": "Fungua Katika",
+        "edit": "Hariri",
+        "delete": "Futa",
+        "target_self": "Kichupo cha Sasa",
+        "target_blank": "Kichupo Kipya",
+        "target_parent": "Kichupo cha Mzazi",
+        "target_top": "Kichupo cha Juu",
+        "save": "Hifadhi",
+        "close": "Funga",
+        "internalLinks": "Viungo vya Ndani",
+        "externalLinks": "Viungo vya Nje",
+        "imageLinks": "Picha",
+        "pdfLinks": "PDFs",
+        "socialMediaLinks": "Mitandao ya Kijamii"
+      },
+      "linkRefreshOptions": {
+        "label": "Viungo vya Kujirefusha",
+        "description": "Sanidi kujirefusha kiotomatiki kwa viungo maalum",
+        "configure": "Sanidi",
+        "listTips": "Buruta kupanga upya. Sheria ya kwanza inayolingana inatumika pekee.",
+        "linkMatchContent": "Mfano wa Kiungo",
+        "linkMatchContentTips": "Tumia '*' kwa herufi yoyote, '?' kwa moja. Inasaidia regex.",
+        "edit": "Hariri",
+        "delete": "Futa",
+        "save": "Hifadhi",
+        "close": "Funga",
+        "refreshInterval": "Kipindi cha Kujirefusha (Dakika)",
+        "disabled": "Imelemazwa"
+      },
+      "pageKeepAlive": {
+        "label": "Weka Ukurasa Hai",
+        "description": "Huendelea kuweka ukurasa hai na kuzuia kivinjari kusimamisha kiotomatiki wakati uko nyuma."
+      },
+      "incognito": {
+        "label": "Kuvinjari Kibinafsi",
+        "description": "Hufuta data ya tovuti iliyochaguliwa baada ya kila ziara. Tumia 'Sanidi' kuchagua nini cha kufuta. Inaweza kuathiri uzoefu wako wa kuvinjari.",
+        "configure": "Sanidi",
+        "configureDescription": "Tafadhali chagua vipengele vya kufuta",
+        "cache": "Kache",
+        "cacheStorage": "Hifadhi ya Kache",
+        "cookies": "Vidakuzi",
+        "skipAccountCookies": "Hifadhi Vidakuzi vya Akaunti",
+        "history": "Historia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Hifadhi ya Ndani",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Onyo: Kufuta vidakuzi kunaathiri subdomains zote na kunaweza kukutoa nje.",
+        "warningTitle": "Onyo",
+        "warningMessage": "Hii itafuta data zote za tovuti, pamoja na kuingia. Endelea?",
+        "selectAll": "Chagua Zote",
+        "cancel": "Ghairi",
+        "confirm": "Thibitisha"
+      },
+      "autoJoinGroup": {
+        "label": "Jiunge Kiotomatiki na Kundi",
+        "description": "Jiunge kiotomatiki au unda kundi kwa tovuti hii.",
+        "configure": "Sanidi",
+        "groupName": "Jina la Kundi",
+        "save": "Hifadhi"
       },
       "backgroundColor": {
         "label": "Mandhari ya Nyuma",

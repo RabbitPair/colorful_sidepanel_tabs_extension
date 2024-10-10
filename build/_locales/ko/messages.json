@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "다시 시도"
+  },
+  "shortcuts": {
+    "message": "단축키"
+  },
+  "countdown_refresh": {
+    "message": "카운트다운 새로 고침"
   }
 }

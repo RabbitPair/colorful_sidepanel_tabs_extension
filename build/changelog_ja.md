@@ -4,7 +4,154 @@
 
 このプロジェクトは[セマンティックバージョニング](https://semver.org/)に準拠しています。
 
+----
+## [未発表]
+
+- **スケジュールされたスナップショット**: 指定された間隔でスナップショットを自動的に保存します。この機能により、作業が定期的にバックアップされ、データ損失に対する安全策が提供されます。
+
+----
+## [2.11.0] - 2024-10-07
+### 追加
+- **タブメニュー**: 新しいメニューが追加されました:
+  - **タブタイトルの名前を変更**: タブタイトルを変更できます。デフォルトでは、URL設定を記憶するオプションが選択されているため、次回URLを開いたときにタイトルが自動的に更新されます。
+  - **タブを新しいウィンドウに移動**: タブを新しいウィンドウに移動できます。
+  - **タブを別のウィンドウに移動**: タブを既存の別のウィンドウに移動できます。
+  - **グループからタブを削除**: 現在のグループからタブを削除できます。
+
+- **タブ設定**: タブ設定に新しいオプションが追加されました:
+  - **タブタイトルの最大表示行数**: タブタイトルに表示する最大行数を設定します。追加の行は非表示になります。
+  - **グループタイトルの最大表示行数**: グループタイトルに表示する最大行数を設定します。追加の行は非表示になります。
+  - **グループが折りたたまれたときのタイトル幅**: グループが折りたたまれたときのグループタイトルの幅を設定します。
+  - **グループタブ数の表示**: グループ名の横に各グループのタブ数を表示します。
+
+- **サイト設定**: サイト設定に新しいオプションが追加されました:
+  * **ページキープアライブ**: 有効にすると、タブがブラウザによって破棄されることが許可されます。パフォーマンス設定を有効にし、非アクティブなタブを破棄する時間を設定すると、指定された時間後にタブが破棄されます。無効にすると、タブは破棄されません。
+  * **自動グループ参加**: 有効にすると、サイトが自動的に指定されたグループを作成または参加します。
+  * **シークレットモード**: 有効にすると、サイトを訪問する際にブラウジングデータを自動的にクリアできます。これには、クッキー、履歴、CacheStorage、ファイルシステム、IndexedDB、ローカルストレージ、ServiceWorkers、およびWebSQLなどの複数の構成可能なオプションが含まれます。追加の権限要求を避けるために、browsingData権限は使用されません。
+  * **自動リフレッシュ**: リンク構成設定で、正規表現をサポートする自動リフレッシュURLを指定できます。
+
+### 変更
+- **高度なピクチャーインピクチャー**: plyrプレーヤーのユニバーサル字幕サポートが追加されました。
+- **ページキープアライブ**: タブをアクティブに保つ機能が強化されました。
+- **グループタブのスタイル**: グループ内のタブのスタイルが変更されました。
+- **メニュー順序**: タブメニューの項目順序が調整されました。
+
+### 修正
+- **ピクチャーインピクチャー**: ピクチャーインピクチャープレーヤーでビデオを切り替えた後、タイトルが変更されない問題を修正しました。
+### Added
+- **Tab Menu**: New menus have been added:
+  - **Rename Tab Title**: Allows you to change the tab title. By default, the option to remember the URL settings is selected, so the title will automatically update the next time you open the URL.
+  - **Move Tab to New Window**: Allows you to move the tab to a new window.
+  - **Move Tab to Another Window**: Allows you to move the tab to another existing window.
+  - **Remove Tab from Group**: Allows you to remove the tab from its current group.
+
+- **Tab Settings**: New options have been added to the tab settings:
+  - **Tab Title Max Show Lines**: Set the maximum number of lines to display for tab titles. Additional lines will be hidden.
+  - **Group Title Max Show Lines**: Set the maximum number of lines to display for group titles. Additional lines will be hidden.
+  - **Group Collapsed Title Width**: When the group is collapsed, set the width of the group title.
+  - **Show Group Tab Count**: Shows the number of tabs in each group next to the group name.
+
+- **Site Settings**: New options have been added to the site settings:
+  * **Page Keep Alive**: When enabled, the tab will be allowed to be discarded by the browser. If you enable performance settings and set a time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded.
+  * **Auto Join Group**: When enabled, the site will automatically create or join the specified group.
+  * **Incognito Mode**: When enabled, you can choose to automatically clear browsing data upon visiting the site. This includes several configurable options: Cookies, History, CacheStorage, FileSystems, IndexedDB, LocalStorage, ServiceWorkers, and WebSQL. Note that the browsingData permission is not used to avoid requesting additional permissions.
+  * **Auto Refresh**: In the link configuration settings, you can specify URLs to automatically refresh, with support for regular expressions.
+
+### Changed
+- **Advanced Picture-in-Picture**: Added universal subtitle support for the plyr player.
+- **Page Keep Alive**: Enhanced functionality to keep tabs active.
+- **Group Tabs Style**: Modified the style of tabs within groups.
+- **Menu Order**: Adjusted the order of items in the tab menu.
+
+### Fixed
+- **Picture-in-Picture**: Fixed an issue where the title did not change after switching videos in the Picture-in-Picture player.
+- **Custom Group Assignments**: Fixed an issue where changes to custom group assignments for websites didn't take effect immediately when the "Remember site grouping" option was enabled in Advanced Tab Groups settings. This has been resolved to apply changes instantly without requiring a restart.
+
+----
+
+
+## [2.10.2] - 2024-10-07
+
+- ページ切り替え後に一部のウェブサイトでダンマク（弾幕コメント）が停止または消失する問題を修正しました（ページ非表示イベント）
+- HTML5ビデオコントロールを非表示にしました
+
+----
+## [2.10.1] - 2024-10-05
+
+### 修正
+- 複数の動画を連続再生する際にショートカットイベントが繰り返しトリガーされる問題を修正しました
+- 特定の状況でプレーヤーが復元できない問題を修正しました
+- ピクチャーインピクチャーモード使用時に再生進行バーが正常に機能しない問題を修正しました
+- 同じタブ内で動画のあるページから動画のないページに移動した後、タブを切り替えるとピクチャーインピクチャー検出トーストがトリガーされる問題を修正しました
+- jwPlayerを使用してピクチャーインピクチャーモードを終了する際にピクチャーインピクチャーウィンドウが閉じない問題を修正しました
+- 背景画像設定時に不正なアドレスによってページがクラッシュする問題を修正しました
+
+----
+## [2.10.0] - 2024-10-01
+
+### 追加
+- **ドキュメント ピクチャーインピクチャー**: プレミアムバージョンの拡張機能の公式リリース前に無料トライアルとして利用可能な高度なピクチャーインピクチャーを導入します。有効にすると、標準のピクチャーインピクチャーよりも優先されます。現在のページがサポートしていない場合は、標準モードが使用されます。高度なピクチャーインピクチャーは、次のような機能を備えたカスタムビデオプレーヤーを特徴とします：
+  * **ビデオの再生/一時停止**（スペースまたはK）
+  * **音量調整**（上/下矢印）
+  * **ビデオのミュート/ミュート解除**（M）
+  * **ビデオの早送り/巻き戻し**（左/右矢印またはマウスホイール）
+  * **ビデオの5秒早送り/巻き戻し**（左/右矢印）
+  * **ビデオの10秒早送り/巻き戻し**（J/L）
+  * **次のビデオを再生**（Shift + N）
+  * **前のビデオを再生**（Shift + P）
+  * **字幕を表示**（youtube.com、vimeo.com、tver.jpなどの一部のウェブサイトでサポート）（C）
+  * **弾幕を表示**（nicovideo.jp、bilibili.comなどの一部のウェブサイトでサポート）（D）
+  * **ピクチャーインピクチャーを終了**（Esc）
+  * **ビデオの表示/非表示と再生/一時停止を切り替え**（Q）
+  * **全画面表示を切り替え**（F）
+  * **再生速度を調整**（ > または <）
+  * **ビデオの開始/終了にシーク**（Home/End）
+  * **ビデオのパーセンテージにシーク**（0-9）
+  * **ウィンドウをビデオサイズに合わせて調整**（W）
+  * **メインページからピクチャーインピクチャーを切り替え**（Alt + P）
+  
+  > 頻繁に訪れるウェブサイトが字幕や弾幕をサポートしている場合は、[問題: 高度なピクチャーインピクチャー](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=)を提出できます。できるだけ早く対応します。一部のウェブサイトには地域制限があり、追加情報が必要な場合がありますのでご注意ください。
+- **ピクチャーインピクチャーのショートカット**: ピクチャーインピクチャーモードをすばやく切り替えるための新しいキーボードショートカットAlt+Pが追加されました。これにより、マウスを使用せずにビデオを簡単にピクチャーインピクチャービューに切り替えることができ、生産性とマルチタスクの能力が向上します。
+- **下部ナビゲーションバーでピクチャーインピクチャーを切り替え**: 下部ナビゲーションバーにピクチャーインピクチャーの切り替えオプションを追加できるようになりました。これは、外観設定の「下部ナビゲーションバーを表示」-「設定」で構成できます。
+- **URLでタブを並べ替え**: 「その他」メニューに新しいメニューオプション「URLでタブを並べ替え」が追加されました。
+- **タブグループの折りたたみ動作**: 「高度なタブグループ」メニューに新しいオプション「タブグループの折りたたみ動作」が追加されました。ブラウザでタブグループの折りたたみ動作を変更できます。オプションには、「現在のグループを表示し、他のグループを折りたたむ」、「すべてのグループを展開」、「ブラウザのデフォルト設定を使用」が含まれます。
+- **サイト設定**: サイト設定に3つの新しいオプションが追加されました：
+  * **ピクチャーインピクチャー制限アクション**: ピクチャーインピクチャー制限のアクションを構成します。
+  * **自動ピクチャーインピクチャー**: ページに入るときにビデオが存在する場合、自動的にピクチャーインピクチャーモードに入ります。
+  * **キャプション設定**: ページ上のキャプション要素とその親要素のCSSセレクタを構成します。
+
+### 変更
+- サイドパネルタブが開いていない場合、「タブ切り替え時のピクチャーインピクチャー」が有効になっていると（デフォルトで有効）、自動的にピクチャーインピクチャーモードに入ります（重要なリマインダー：ユーザーの操作が必要です。ビデオを再生しているページをクリックするなどして、ユーザーの操作を有効にします）。
+- ページのサイドバーを閉じると、非表示ではなく削除されるようになりました。ページを更新すると再表示されます。
+
+### 修正
+- クイックアクセスリストが複数のURLを処理しなかった問題を修正しました。
+
+----
+
+## [2.9.0] - 2024-09-15
+- **タブをクリア**を追加: スナップショットを保存し、アクティブなタブ以外のすべてのタブを閉じます。最近閉じたタブやスナップショットから復元します。
+- **タブグループの自動有効化**を追加: 新しいタブを開くときに自動的に新しいグループを作成します。このタブから開かれる後続のタブはグループに参加します。
+- **リストの垂直間隔**を追加: 高度なタブグループ設定でリスト項目の垂直間隔を調整する新しいオプションです。
+- **複数のURLをクイックアクセスに追加**を追加: グループを追加し、複数のタブを選択してクイックアクセスに保存できます。
+- **クイックアクセス項目の間隔**を追加: オプションページでクイックアクセス項目の垂直/水平間隔を設定します。
+
 ---
+## [2.8.0] - 2024-09-12
+
+### 追加
+- **タブ履歴を追加**: 同じタブで開かれたウェブサイトを簡単に確認できるようになりました。左クリックで現在のタブでウェブサイトを開き、中クリックまたはCtrl+左クリックで新しいタブでウェブサイトを開きます。詳細については、オプションページをご覧ください。
+- **カスタムグループ名を追加**: オプションページ - 高度なタブグループで、ここにいくつかの事前定義されたグループを追加できます。タブをグループに追加する必要があるときに、これらを迅速に選択できます。既にいくつかのグループ名が事前設定されており、必要に応じて変更または削除できます。
+- **ブックマークフォルダ名をグループ名として使用**: オプションページ - 高度なタブグループに新しいオプションが追加されました。開かれたウェブサイトがブックマークの場合、自動的にグループに追加され、グループ名はブックマークディレクトリ名を使用します。
+- **タブインデックスを追加**: オプションページで有効にすると、タブインデックスがタイトルの横に表示され、[Ctrl+数字]（Windows）または[cmd+数字]（Mac）を使用してタブを簡単にアクティブにできます。例：1. stackoverflow.com 2. youtube、これにより、WindowsではCtrl + 2、Macではcmd + 2でyoutubeに移動できます。
+- **サイト設定を最適化**: サイトの背景色とフォント色を設定するオプションが改善されました。
+
+### 変更
+- ブックマークを確認する際、リダイレクトされたURLを更新できるようにします。URLがアクセスできない場合、エラーコードを表示します：成功した応答（200 – 299）、リダイレクトメッセージ（300 – 399）、クライアントエラー応答（400 – 499）、サーバーエラー応答（500 – 599）。詳細については、こちらをご覧ください：https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+### 修正
+- ブックマークの修正ポップアップが消えない問題を修正
+
 
 ## [2.7.0] - 2024-09-05
 ### 追加

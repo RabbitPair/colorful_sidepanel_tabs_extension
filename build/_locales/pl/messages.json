@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Spróbuj ponownie"
+  },
+  "shortcuts": {
+    "message": "Skróty"
+  },
+  "countdown_refresh": {
+    "message": "Odświeżanie odliczania"
   }
 }

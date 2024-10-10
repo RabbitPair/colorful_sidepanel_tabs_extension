@@ -298,6 +298,23 @@
         "label": "Sýna flipanúmer",
         "description": "Þegar virkt, verður flipanúmerið sýnt við hliðina á titlinum, sem gerir það auðvelt að virkja flipa með [Ctrl+number] á Windows eða [cmd+number] á Mac. Dæmi: 1. stackoverflow.com 2. youtube, svo það er auðvelt að gera Ctrl + 2 á Windows eða cmd + 2 á Mac til að fara á youtube"
       },
+      "showGroupTabCount": {
+        "label": "Sýna fjölda flipa í hópi",
+        "description": "Þegar virkt, verður fjöldi flipa í hverjum hópi sýndur við hliðina á hópnafninu."
+      },
+      "tabTitleMulitLines": {
+        "label": "Hámarks fjöldi lína fyrir flipatitla",
+        "description": "Stilltu hámarks fjölda lína til að sýna fyrir flipatitla. Viðbótarlínur verða faldar."
+      },
+      "groupTitleMulitLines": {
+        "label": "Hámarks fjöldi lína fyrir hóptitla",
+        "description": "Stilltu hámarks fjölda lína til að sýna fyrir hóptitla. Viðbótarlínur verða faldar."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Breidd hóptitils þegar hópur er felldur saman",
+        "description": "Stilltu breidd hóptitils þegar hópur er felldur saman.",
+        "reset": "Endurstilla"
+      },
       "tabHistoryEnable": {
         "label": "Flipasaga",
         "description": "Þegar virkt, verður sagan af vefsíðum sem opnaðar eru í sama flipa sýnd."
@@ -621,6 +638,74 @@
         "target_top": "Efsti flipi",
         "save": "Vista",
         "close": "Loka"
+      },
+      "linkOpenOptions": {
+        "label": "Stillingar tenglaopnunar",
+        "description": "Stilltu hvernig tenglar opnast á þessari síðu",
+        "configure": "Stilla",
+        "listTips": "Dragðu til að endurraða. Efst reglur gilda fyrst.",
+        "linkMatchContent": "Tenglamynstur",
+        "linkMatchContentTips": "Notaðu '*' fyrir hvaða stafi sem er, '?' fyrir einn. Styður reglulegar tjáningar.",
+        "linkOpenMethod": "Opna í",
+        "edit": "Breyta",
+        "delete": "Eyða",
+        "target_self": "Núverandi flipi",
+        "target_blank": "Nýr flipi",
+        "target_parent": "Yfirflipi",
+        "target_top": "Efsti flipi",
+        "save": "Vista",
+        "close": "Loka",
+        "internalLinks": "Innri tenglar",
+        "externalLinks": "Ytri tenglar",
+        "imageLinks": "Myndir",
+        "pdfLinks": "PDF skjöl",
+        "socialMediaLinks": "Samfélagsmiðlar"
+      },
+      "linkRefreshOptions": {
+        "label": "Sjálfvirk endurnýjun tengla",
+        "description": "Settu upp sjálfvirka endurnýjun fyrir tiltekna tengla",
+        "configure": "Stilla",
+        "listTips": "Dragðu til að endurraða. Aðeins fyrsta samsvarandi regla gildir.",
+        "linkMatchContent": "Tenglamynstur",
+        "linkMatchContentTips": "Notaðu '*' fyrir hvaða stafi sem er, '?' fyrir einn. Styður reglulegar tjáningar.",
+        "edit": "Breyta",
+        "delete": "Eyða",
+        "save": "Vista",
+        "close": "Loka",
+        "refreshInterval": "Endurnýjunartími (mínútur)",
+        "disabled": "Af"
+      },
+      "pageKeepAlive": {
+        "label": "Halda síðu virkri",
+        "description": "Heldur síðunni virki og kemur í veg fyrir að vafrinn stöðvi hana sjálfkrafa þegar hún er í bakgrunni."
+      },
+      "incognito": {
+        "label": "Einkavaf",
+        "description": "Hreinsar valin gögn síðu eftir hverja heimsókn. Notaðu 'Stilla' til að velja hvað á að hreinsa. Getur haft áhrif á vafraupplifun þína.",
+        "configure": "Stilla",
+        "configureDescription": "Vinsamlegast veldu eiginleikana til að hreinsa",
+        "cache": "Skyndiminni",
+        "cacheStorage": "Geymsla skyndiminnis",
+        "cookies": "Vefkökur",
+        "skipAccountCookies": "Halda reikningskökur",
+        "history": "Saga",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Staðbundin geymsla",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Viðvörun: Eyðing vefkaka hefur áhrif á öll undirlén og getur skráð þig út.",
+        "warningTitle": "Viðvörun",
+        "warningMessage": "Þetta mun eyða öllum gögnum síðu, þar með talið innskráningum. Halda áfram?",
+        "selectAll": "Velja allt",
+        "cancel": "Hætta við",
+        "confirm": "Staðfesta"
+      },
+      "autoJoinGroup": {
+        "label": "Sjálfvirk hópinnsláttur",
+        "description": "Sjálfkrafa ganga í eða búa til hóp fyrir þessa síðu.",
+        "configure": "Setja upp",
+        "groupName": "Hópsnafn",
+        "save": "Vista"
       },
       "backgroundColor": {
         "label": "Bakgrunnslitur",

@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Tentar Novamente"
+  },
+  "shortcuts": {
+    "message": "Atalhos"
+  },
+  "countdown_refresh": {
+    "message": "Atualização de Contagem Regressiva"
   }
 }

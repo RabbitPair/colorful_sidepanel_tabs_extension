@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Feuch A-rithist"
+  },
+  "shortcuts": {
+    "message": "geàrr-dhealbhan"
+  },
+  "countdown_refresh": {
+    "message": "Ùrachadh Cunntadh-sìos"
   }
 }

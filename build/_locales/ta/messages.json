@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "மீண்டும் முயற்சிக்கவும்"
+  },
+  "shortcuts": {
+    "message": "குறுக்குவழிகள்"
+  },
+  "countdown_refresh": {
+    "message": "எண்ணிக்கை குறைப்பு புதுப்பிப்பு"
   }
 }

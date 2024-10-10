@@ -298,6 +298,23 @@
         "label": "Rodyti skirtuko indeksą",
         "description": "Kai įjungta, šalia pavadinimo bus rodomas skirtuko indeksas, todėl lengva aktyvuoti skirtuką naudojant [Ctrl+number] Windows sistemoje arba [cmd+number] Mac sistemoje. Pavyzdys: 1. stackoverflow.com 2. youtube, todėl lengva naudoti Ctrl + 2 Windows sistemoje arba cmd + 2 Mac sistemoje, kad pereitumėte į youtube"
       },
+      "showGroupTabCount": {
+        "label": "Rodyti grupės skirtukų skaičių",
+        "description": "Kai įjungta, šalia grupės pavadinimo bus rodomas skirtukų skaičius kiekvienoje grupėje."
+      },
+      "tabTitleMulitLines": {
+        "label": "Skirtuko pavadinimo maksimalios eilutės",
+        "description": "Nustatyti maksimalų skirtukų pavadinimų eilučių skaičių. Papildomos eilutės bus paslėptos."
+      },
+      "groupTitleMulitLines": {
+        "label": "Grupės pavadinimo maksimalios eilutės",
+        "description": "Nustatyti maksimalų grupės pavadinimų eilučių skaičių. Papildomos eilutės bus paslėptos."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Grupės suskleisto pavadinimo plotis",
+        "description": "Nustatyti grupės pavadinimo plotį, kai grupė yra suskleista.",
+        "reset": "Atstatyti"
+      },
       "tabHistoryEnable": {
         "label": "Skirtukų istorija",
         "description": "Kai įjungta, bus rodoma svetainių istorija, atidaryta tame pačiame skirtuke."
@@ -621,6 +638,74 @@
         "target_top": "Aukščiausias skirtukas",
         "save": "Išsaugoti",
         "close": "Uždaryti"
+      },
+      "linkOpenOptions": {
+        "label": "Nuorodų atidarymo nustatymai",
+        "description": "Nustatykite, kaip nuorodos atidaromos šioje svetainėje",
+        "configure": "Konfigūruoti",
+        "listTips": "Vilkite, kad pakeistumėte tvarką. Pirmiausia taikomos viršutinės taisyklės.",
+        "linkMatchContent": "Nuorodų šablonas",
+        "linkMatchContentTips": "Naudokite '*' bet kokiems simboliams, '?' vienam. Palaiko regex.",
+        "linkOpenMethod": "Atidaryti",
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "target_self": "Esamas skirtukas",
+        "target_blank": "Naujas skirtukas",
+        "target_parent": "Tėvinis skirtukas",
+        "target_top": "Aukščiausias skirtukas",
+        "save": "Išsaugoti",
+        "close": "Uždaryti",
+        "internalLinks": "Vidinės nuorodos",
+        "externalLinks": "Išorinės nuorodos",
+        "imageLinks": "Vaizdai",
+        "pdfLinks": "PDF",
+        "socialMediaLinks": "Socialinė žiniasklaida"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatinis nuorodų atnaujinimas",
+        "description": "Nustatykite automatinį atnaujinimą konkrečioms nuorodoms",
+        "configure": "Konfigūruoti",
+        "listTips": "Vilkite, kad pakeistumėte tvarką. Taikoma tik pirmoji atitinkanti taisyklė.",
+        "linkMatchContent": "Nuorodų šablonas",
+        "linkMatchContentTips": "Naudokite '*' bet kokiems simboliams, '?' vienam. Palaiko regex.",
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "save": "Išsaugoti",
+        "close": "Uždaryti",
+        "refreshInterval": "Atnaujinimo intervalas (minutės)",
+        "disabled": "Išjungta"
+      },
+      "pageKeepAlive": {
+        "label": "Puslapio aktyvumo palaikymas",
+        "description": "Palaiko puslapio aktyvumą ir neleidžia naršyklei automatiškai sustabdyti jo, kai jis yra fone."
+      },
+      "incognito": {
+        "label": "Privatus naršymas",
+        "description": "Išvalo pasirinktus svetainės duomenis po kiekvieno apsilankymo. Naudokite 'Konfigūruoti', kad pasirinktumėte, ką išvalyti. Gali paveikti jūsų naršymo patirtį.",
+        "configure": "Konfigūruoti",
+        "configureDescription": "Pasirinkite funkcijas, kurias norite išvalyti",
+        "cache": "Podėlis",
+        "cacheStorage": "Podėlio saugykla",
+        "cookies": "Slapukai",
+        "skipAccountCookies": "Išlaikyti paskyros slapukus",
+        "history": "Istorija",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Vietinė saugykla",
+        "serviceWorkers": "Paslaugų darbuotojai",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Įspėjimas: Ištrynus slapukus, tai paveiks visus subdomenus ir gali jus atjungti.",
+        "warningTitle": "Įspėjimas",
+        "warningMessage": "Tai ištrins visus svetainės duomenis, įskaitant prisijungimus. Tęsti?",
+        "selectAll": "Pasirinkti viską",
+        "cancel": "Atšaukti",
+        "confirm": "Patvirtinti"
+      },
+      "autoJoinGroup": {
+        "label": "Automatiškai prisijungti prie grupės",
+        "description": "Automatiškai prisijungti arba sukurti grupę šiai svetainei.",
+        "configure": "Nustatyti",
+        "groupName": "Grupės pavadinimas",
+        "save": "Išsaugoti"
       },
       "backgroundColor": {
         "label": "Fono spalva",

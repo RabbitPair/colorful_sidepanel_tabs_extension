@@ -298,6 +298,23 @@
         "label": "Montri lanĉetindekson",
         "description": "Kiam aktivigita, la lanĉetindekso estos montrita apud la titolo, faciligante aktivigi lanĉeton uzante [Ctrl+nombro] en Vindozo aŭ [cmd+nombro] en Mac. Ekzemplo: 1. stackoverflow.com 2. youtube, tiel ke estas facile fari Ctrl + 2 en Vindozo aŭ cmd + 2 en Mac por iri al youtube"
       },
+      "showGroupTabCount": {
+        "label": "Montri nombron de lanĉetoj en grupo",
+        "description": "Kiam aktivigita, la nombro de lanĉetoj en ĉiu grupo estos montrita apud la grupo-nomo."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maksimuma nombro de linioj por lanĉet-titolo",
+        "description": "Agordi la maksimuman nombron de linioj por montri por lanĉet-titoloj. Aldonaj linioj estos kaŝitaj."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maksimuma nombro de linioj por grupo-titolo",
+        "description": "Agordi la maksimuman nombron de linioj por montri por grupo-titoloj. Aldonaj linioj estos kaŝitaj."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Larĝo de grupo-titolo kiam kolapsita",
+        "description": "Agordi la larĝon de la grupo-titolo kiam la grupo estas kolapsita.",
+        "reset": "Restarigi"
+      },
       "tabHistoryEnable": {
         "label": "Lanĉethistorio",
         "description": "Kiam aktivigita, la historio de retejoj malfermitaj en la sama lanĉeto estos montrita."
@@ -621,6 +638,74 @@
         "target_top": "Plej Supra Lanĉeto",
         "save": "Konservi",
         "close": "Fermi"
+      },
+      "linkOpenOptions": {
+        "label": "Ligilo Malferma Agordoj",
+        "description": "Agordi kiel ligiloj malfermiĝas en ĉi tiu retejo",
+        "configure": "Agordi",
+        "listTips": "Trenu por reordigi. Supraj reguloj aplikiĝas unue.",
+        "linkMatchContent": "Ligilo Ŝablono",
+        "linkMatchContentTips": "Uzu '*' por ajnaj signoj, '?' por unu. Subtenas regulajn esprimojn.",
+        "linkOpenMethod": "Malfermi En",
+        "edit": "Redakti",
+        "delete": "Forigi",
+        "target_self": "Nuna Lanĉeto",
+        "target_blank": "Nova Lanĉeto",
+        "target_parent": "Patra Lanĉeto",
+        "target_top": "Plej Supra Lanĉeto",
+        "save": "Konservi",
+        "close": "Fermi",
+        "internalLinks": "Internaj Ligilo",
+        "externalLinks": "Eksteraj Ligilo",
+        "imageLinks": "Bildoj",
+        "pdfLinks": "PDF-oj",
+        "socialMediaLinks": "Sociaj Amaskomunikiloj"
+      },
+      "linkRefreshOptions": {
+        "label": "Aŭtomata Refreŝigi Ligilo",
+        "description": "Agordi aŭtomatan refreŝigon por specifaj ligiloj",
+        "configure": "Agordi",
+        "listTips": "Trenu por reordigi. Nur la unua kongrua regulo aplikiĝas.",
+        "linkMatchContent": "Ligilo Ŝablono",
+        "linkMatchContentTips": "Uzu '*' por ajnaj signoj, '?' por unu. Subtenas regulajn esprimojn.",
+        "edit": "Redakti",
+        "delete": "Forigi",
+        "save": "Konservi",
+        "close": "Fermi",
+        "refreshInterval": "Refreŝiga Intervalo (Minutoj)",
+        "disabled": "Malŝaltita"
+      },
+      "pageKeepAlive": {
+        "label": "Teni Paĝon Aktiva",
+        "description": "Tenas la paĝon aktiva kaj malhelpas la retumilon aŭtomate suspendi ĝin kiam en la fono."
+      },
+      "incognito": {
+        "label": "Privata Foliumado",
+        "description": "Forigas elektitajn retejajn datumojn post ĉiu vizito. Uzu 'Agordi' por elekti kion forigi. Povas influi vian foliuman sperton.",
+        "configure": "Agordi",
+        "configureDescription": "Bonvolu elekti la funkciojn por forigi",
+        "cache": "Kaŝmemoro",
+        "cacheStorage": "Kaŝmemora Stokado",
+        "cookies": "Kuketoj",
+        "skipAccountCookies": "Konservi Kontajn Kuketojn",
+        "history": "Historio",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Loka Stokado",
+        "serviceWorkers": "Servo Laboristoj",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Averto: Forigi kuketojn influas ĉiujn subdomajnojn kaj povas elsaluti vin.",
+        "warningTitle": "Averto",
+        "warningMessage": "Ĉi tio forigos ĉiujn retejajn datumojn, inkluzive de ensalutoj. Ĉu daŭrigi?",
+        "selectAll": "Elekti Ĉion",
+        "cancel": "Nuligi",
+        "confirm": "Konfirmi"
+      },
+      "autoJoinGroup": {
+        "label": "Aŭtomate Aliĝi al Grupo",
+        "description": "Aŭtomate aliĝi aŭ krei grupon por ĉi tiu retejo.",
+        "configure": "Agordi",
+        "groupName": "Grupa Nomo",
+        "save": "Konservi"
       },
       "backgroundColor": {
         "label": "Fona Koloro",

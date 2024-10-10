@@ -4,8 +4,132 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
----
+----
 
+## [Unreleased]
+
+- **Scheduled Snapshots**: Automatically save snapshots at specified intervals. This feature ensures that your work is periodically backed up, providing a safety net against data loss.
+
+----
+## [2.11.0] - 2024-10-07
+### Added
+- **Tab Menu**: New menus have been added:
+  - **Rename Tab Title**: Allows you to change the tab title. By default, the option to remember the URL settings is selected, so the title will automatically update the next time you open the URL.
+  - **Move Tab to New Window**: Allows you to move the tab to a new window.
+  - **Move Tab to Another Window**: Allows you to move the tab to another existing window.
+  - **Remove Tab from Group**: Allows you to remove the tab from its current group.
+
+- **Tab Settings**: New options have been added to the tab settings:
+  - **Tab Title Max Show Lines**: Set the maximum number of lines to display for tab titles. Additional lines will be hidden.
+  - **Group Title Max Show Lines**: Set the maximum number of lines to display for group titles. Additional lines will be hidden.
+  - **Group Collapsed Title Width**: When the group is collapsed, set the width of the group title.
+  - **Show Group Tab Count**: Shows the number of tabs in each group next to the group name.
+
+- **Site Settings**: New options have been added to the site settings:
+  * **Page Keep Alive**: When enabled, the tab will be allowed to be discarded by the browser. If you enable performance settings and set a time to discard inactive tabs, the tab will be discarded after the specified time. If disabled, the tab will not be discarded.
+  * **Auto Join Group**: When enabled, the site will automatically create or join the specified group.
+  * **Incognito Mode**: When enabled, you can choose to automatically clear browsing data upon visiting the site. This includes several configurable options: Cookies, History, CacheStorage, FileSystems, IndexedDB, LocalStorage, ServiceWorkers, and WebSQL. Note that the browsingData permission is not used to avoid requesting additional permissions.
+  * **Auto Refresh**: In the link configuration settings, you can specify URLs to automatically refresh, with support for regular expressions.
+
+### Changed
+- **Advanced Picture-in-Picture**: Added universal subtitle support for the plyr player.
+- **Page Keep Alive**: Enhanced functionality to keep tabs active.
+- **Group Tabs Style**: Modified the style of tabs within groups.
+- **Menu Order**: Adjusted the order of items in the tab menu.
+
+### Fixed
+- **Picture-in-Picture**: Fixed an issue where the title did not change after switching videos in the Picture-in-Picture player.
+- **Custom Group Assignments**: Fixed an issue where changes to custom group assignments for websites didn't take effect immediately when the "Remember site grouping" option was enabled in Advanced Tab Groups settings. This has been resolved to apply changes instantly without requiring a restart.
+
+----
+
+## [2.10.2] - 2024-10-07
+
+- Fixed the issue where danmaku (bullet comments) would stop or disappear on some websites after switching pages (page hide event)
+- hide HTML5 video controls
+
+----
+## [2.10.1] - 2024-10-05
+
+### Fixed
+- Fixed the issue where shortcut events were triggered repeatedly when playing multiple videos consecutively
+- Fixed an issue where the player failed to restore in certain situations
+- Fixed the issue where the playback progress bar did not work properly when using Picture-in-Picture mode
+- Fixed the issue where switching tabs would trigger a Picture-in-Picture detection toast after navigating from a page with a video to a page without a video in the same tab.
+- Fixed the issue where the Picture-in-Picture window did not close when exiting Picture-in-Picture mode using jwPlayer
+- Fixed the issue where an incorrect address caused the page to crash when setting a background image
+
+----
+----
+## [2.10.0] - 2024-10-01
+
+### Added
+- **Document Picture-in-Picture**: Introducing Advanced Picture-in-Picture, available for free trial before the official release of the extension's premium version. When enabled, it takes precedence over the standard Picture-in-Picture. If the current page does not support it, the standard mode will be used. Advanced Picture-in-Picture features a custom video player with functionalities such as:
+  * **Play/Pause video** (Space or K)
+  * **Adjust volume** (Up/Down Arrow)
+  * **Mute/Unmute video** (M)
+  * **Fast forward/Rewind video** (Left/Right Arrow or Mouse Wheel)
+  * **Fast forward/Rewind video 5 seconds** (Left/Right Arrow)
+  * **Fast forward/Rewind video 10 seconds** (J/L)
+  * **Play the next video** (Shift + N)
+  * **Play the previous video** (Shift + P)
+  * **Display subtitles** (supported on some websites like youtube.com, vimeo.com, tver.jp, etc.) (C)
+  * **Display barrage** (supported on some websites like nicovideo.jp, bilibili.com, etc.) (D)
+  * **Exit Picture-in-Picture** (Esc)
+  * **Toggle hide/show video and play/pause** (Q)
+  * **Toggle fullscreen** (F)
+  * **Adjust playback speed** ( > or <)
+  * **Seek to start/end of video** (Home/End)
+  * **Seek to percentage of video** (0-9)
+  * **Adjust window to fit video size** (W)
+  * **Toggle Picture-in-Picture from main page** (Alt + P)
+  
+  > If the websites you frequently visit support subtitles or barrage, you can submit an [issue: Advanced Picture-in-Picture](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=), and we will adapt it as soon as possible. Please note that some websites may have regional restrictions, requiring additional information.
+- **Shortcut for Picture-in-Picture**: A new keyboard shortcut Alt+P has been added to quickly toggle Picture-in-Picture mode. This allows users to easily switch videos to Picture-in-Picture view without using the mouse, enhancing productivity and multitasking capabilities.
+- **Switch Picture-in-Picture in Bottom Navigation Bar**: You can now add a Picture-in-Picture toggle option to the bottom navigation bar. This can be configured in the appearance settings under "Show bottom navigation bar" - "Configure".
+- **Sort Tabs by URL**: A new menu option "Sort Tabs by URL" has been added to the "More" menu.
+- **Tab Group Collapse Behavior**: A new option "Tab Group Collapse Behavior" has been added to the "Advanced Tab Group" menu. You can modify the behavior of tab group collapsing in the browser. The options include: 'Show current group and collapse other groups', 'Expand all groups', and 'Use browser default settings'.
+- **Site Settings**: Three new options have been added to the site settings:
+  * **Picture-in-Picture Restriction Action**: Configure the action for Picture-in-Picture restrictions.
+  * **Auto-enter Picture-in-Picture**: Automatically enter Picture-in-Picture mode when a video is present upon entering the page.
+  * **Caption Settings**: Configure the CSS selectors for the caption element and its parent on the page.
+
+### Changed
+- When the side panel tab is not open, if "Picture-in-Picture on Tab Switch" is enabled (enabled by default), it will automatically enter Picture-in-Picture mode (Important reminder: User interaction is required, such as clicking on the page playing the video to activate user interaction).
+- When closing the page sidebar, it is now removed instead of hidden. It will reappear only after refreshing the page.
+
+### Fixed
+- Fixed the issue where the Quick Access list did not handle multiple URLs.
+
+----
+
+
+## [2.9.0] - 2024-09-15
+
+- Added **Clear Tabs**: Save a snapshot and close all tabs except the active one. Restore them from recently closed tabs or snapshots.
+- Added **Auto Activate Tab Grouping**: Automatically create a new group when opening a new tab. Subsequent tabs opened from this tab will join the group.
+- Added **List Vertical Spacing**: New option in Advanced Tab Group settings to adjust vertical spacing for list items.
+- Added **Add Multiple URLs to Quick Access**: Allows adding groups and selecting multiple tabs to save to Quick Access.
+- Added **Quick Access Item Spacing**: Set vertical/horizontal spacing for Quick Access items in the options page.
+
+
+
+---
+## [2.8.0] - 2024-09-12
+### Added
+- Added **Tab History**: Now you can easily see which websites have been opened under the same tab. Left-click to open the website in the current tab, middle-click or Ctrl+left-click to open the website in a new tab. For more details, please check the options page.
+- Added **Custom group names**: In the options page - Advanced Tab Group,You can add some pre-defined groups here, so you can quickly select them when you need to add tabs to a group. We have already preset some group names, which you can modify or delete according to your needs.
+- Added **Use bookmark folder name as group name**: In the options page - Advanced Tab Group, a new option has been added. If the opened website is a bookmark, it will be automatically added to the group, and the group name will use the bookmark directory name.
+- Added **Tab Index**: In the options page,When enabled, the tab index will be displayed next to the title, making it easy to active tab using [Ctrl+number] on Windows or [cmd+number] on Mac. Example: 1. stackoverflow.com 2. youtube, so that it's easy to do Ctrl + 2 on Windows or cmd + 2 on Mac to go to youtube
+- **Optimized site settings**: Improved the option to set Background color and Font color for sites.
+
+### Changed
+- When checking bookmarks, allow updating redirected URLs. If the URL is not accessible, display error codes: Successful responses (200 – 299), Redirection messages (300 – 399), Client error responses (400 – 499), Server error responses (500 – 599). For more details, please see: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+### Fixed
+- Fixed the issue where the bookmark modification popup did not disappear
+
+---
 ## [2.7.0] - 2024-09-05
 ### Added
 - Added **bookmark management**: Added full-featured bookmark management functionality

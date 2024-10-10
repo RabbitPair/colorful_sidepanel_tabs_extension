@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Próbálja újra"
+  },
+  "shortcuts": {
+    "message": "parancsikonok"
+  },
+  "countdown_refresh": {
+    "message": "Visszaszámlálás frissítése"
   }
 }

@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "ลองอีกครั้ง"
+  },
+  "shortcuts": {
+    "message": "ทางลัด"
+  },
+  "countdown_refresh": {
+    "message": "นับถอยหลังรีเฟรช"
   }
 }

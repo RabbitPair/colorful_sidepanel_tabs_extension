@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "మళ్లీ ప్రయత్నించండి"
+  },
+  "shortcuts": {
+    "message": "షార్ట్‌కట్స్"
+  },
+  "countdown_refresh": {
+    "message": "కౌంట్‌డౌన్ రిఫ్రెష్"
   }
 }

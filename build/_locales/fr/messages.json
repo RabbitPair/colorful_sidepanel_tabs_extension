@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "Réessayer"
+  },
+  "shortcuts": {
+    "message": "Raccourcis"
+  },
+  "countdown_refresh": {
+    "message": "Rafraîchissement du compte à rebours"
   }
 }

@@ -298,6 +298,23 @@
         "label": "Näytä välilehden indeksi",
         "description": "Kun käytössä, välilehden indeksi näytetään otsikon vieressä, mikä helpottaa välilehden aktivoimista käyttämällä [Ctrl+numero] Windowsissa tai [cmd+numero] Macissa. Esimerkki: 1. stackoverflow.com 2. youtube, joten on helppo tehdä Ctrl + 2 Windowsissa tai cmd + 2 Macissa siirtyäksesi youtubeen"
       },
+      "showGroupTabCount": {
+        "label": "Näytä ryhmän välilehtien määrä",
+        "description": "Kun käytössä, kunkin ryhmän välilehtien määrä näytetään ryhmän nimen vieressä."
+      },
+      "tabTitleMulitLines": {
+        "label": "Välilehden otsikon enimmäisrivien määrä",
+        "description": "Aseta välilehtien otsikoiden näyttämien rivien enimmäismäärä. Lisärivit piilotetaan."
+      },
+      "groupTitleMulitLines": {
+        "label": "Ryhmän otsikon enimmäisrivien määrä",
+        "description": "Aseta ryhmien otsikoiden näyttämien rivien enimmäismäärä. Lisärivit piilotetaan."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Kutistetun ryhmän otsikon leveys",
+        "description": "Aseta ryhmän otsikon leveys, kun ryhmä on kutistettu.",
+        "reset": "Nollaa"
+      },
       "tabHistoryEnable": {
         "label": "Välilehden historia",
         "description": "Kun käytössä, samassa välilehdessä avattujen verkkosivustojen historia näytetään."
@@ -621,6 +638,74 @@
         "target_top": "Päällimmäinen välilehti",
         "save": "Tallenna",
         "close": "Sulje"
+      },
+      "linkOpenOptions": {
+        "label": "Linkin avaamisen asetukset",
+        "description": "Aseta, miten linkit avautuvat tällä sivustolla",
+        "configure": "Määritä",
+        "listTips": "Lajittele vetämällä ja pudottamalla. Korkeamman prioriteetin säännöt sijoitetaan ylös.",
+        "linkMatchContent": "Linkin täsmäyssisältö",
+        "linkMatchContentTips": "Käytä '*' mihin tahansa merkkeihin, '?' yhteen merkkiin. Tukee säännöllisiä lausekkeita.",
+        "linkOpenMethod": "Avaa",
+        "edit": "Muokkaa",
+        "delete": "Poista",
+        "target_self": "Nykyinen välilehti",
+        "target_blank": "Uusi välilehti",
+        "target_parent": "Ylätason välilehti",
+        "target_top": "Päällimmäinen välilehti",
+        "save": "Tallenna",
+        "close": "Sulje",
+        "internalLinks": "Sisäiset linkit",
+        "externalLinks": "Ulkoiset linkit",
+        "imageLinks": "Kuvat",
+        "pdfLinks": "PDF-tiedostot",
+        "socialMediaLinks": "Sosiaalinen media"
+      },
+      "linkRefreshOptions": {
+        "label": "Linkkien automaattinen päivitys",
+        "description": "Aseta automaattinen päivitys tietyille linkeille",
+        "configure": "Määritä",
+        "listTips": "Lajittele vetämällä ja pudottamalla. Vain ensimmäinen täsmäävä sääntö sovelletaan.",
+        "linkMatchContent": "Linkin täsmäyssisältö",
+        "linkMatchContentTips": "Käytä '*' mihin tahansa merkkeihin, '?' yhteen merkkiin. Tukee säännöllisiä lausekkeita.",
+        "edit": "Muokkaa",
+        "delete": "Poista",
+        "save": "Tallenna",
+        "close": "Sulje",
+        "refreshInterval": "Päivitysväli (minuuteissa)",
+        "disabled": "Pois käytöstä"
+      },
+      "pageKeepAlive": {
+        "label": "Pidä sivu aktiivisena",
+        "description": "Pitää sivun aktiivisena ja estää selainta keskeyttämästä sitä automaattisesti, kun se on taustalla."
+      },
+      "incognito": {
+        "label": "Yksityinen selaus",
+        "description": "Tyhjentää valitut sivustotiedot jokaisen vierailun jälkeen. Käytä 'Määritä' valitaksesi, mitä tyhjennetään. Saattaa vaikuttaa selauskokemukseesi.",
+        "configure": "Määritä",
+        "configureDescription": "Valitse ominaisuudet, jotka haluat tyhjentää",
+        "cache": "Välimuisti",
+        "cacheStorage": "Välimuistin tallennus",
+        "cookies": "Evästeet",
+        "skipAccountCookies": "Pidä tilin evästeet",
+        "history": "Historia",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Paikallinen tallennus",
+        "serviceWorkers": "Palvelutyöntekijät",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Varoitus: Evästeiden poistaminen vaikuttaa kaikkiin alidomaineihin ja saattaa kirjata sinut ulos.",
+        "warningTitle": "Varoitus",
+        "warningMessage": "Tämä poistaa kaikki sivustotiedot, mukaan lukien kirjautumiset. Jatketaanko?",
+        "selectAll": "Valitse kaikki",
+        "cancel": "Peruuta",
+        "confirm": "Vahvista"
+      },
+      "autoJoinGroup": {
+        "label": "Liity ryhmään automaattisesti",
+        "description": "Liity tai luo ryhmä automaattisesti tälle sivustolle.",
+        "configure": "Määritä",
+        "groupName": "Ryhmän nimi",
+        "save": "Tallenna"
       },
       "backgroundColor": {
         "label": "Taustaväri",

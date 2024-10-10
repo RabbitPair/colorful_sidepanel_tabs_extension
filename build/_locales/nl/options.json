@@ -298,6 +298,23 @@
         "label": "Tabbladindex weergeven",
         "description": "Wanneer ingeschakeld, wordt de tabbladindex naast de titel weergegeven, waardoor het gemakkelijk is om het tabblad te activeren met [Ctrl+nummer] op Windows of [cmd+nummer] op Mac. Voorbeeld: 1. stackoverflow.com 2. youtube, zodat het gemakkelijk is om Ctrl + 2 op Windows of cmd + 2 op Mac te doen om naar youtube te gaan"
       },
+      "showGroupTabCount": {
+        "label": "Groep tabblad telling weergeven",
+        "description": "Wanneer ingeschakeld, wordt het aantal tabbladen in elke groep naast de groepsnaam weergegeven."
+      },
+      "tabTitleMulitLines": {
+        "label": "Maximale regels tabbladtitel",
+        "description": "Stel het maximale aantal regels in dat voor tabbladtitels wordt weergegeven. Extra regels worden verborgen."
+      },
+      "groupTitleMulitLines": {
+        "label": "Maximale regels groepstitel",
+        "description": "Stel het maximale aantal regels in dat voor groepstitels wordt weergegeven. Extra regels worden verborgen."
+      },
+      "groupCollapsedTitleWidth": {
+        "label": "Breedte van samengevouwen groepstitel",
+        "description": "Stel de breedte in van de groepstitel wanneer de groep is samengevouwen.",
+        "reset": "Resetten"
+      },
       "tabHistoryEnable": {
         "label": "Tabbladgeschiedenis",
         "description": "Wanneer ingeschakeld, wordt de geschiedenis van websites die in hetzelfde tabblad zijn geopend weergegeven."
@@ -621,6 +638,74 @@
         "target_top": "Bovenste Tabblad",
         "save": "Opslaan",
         "close": "Sluiten"
+      },
+      "linkOpenOptions": {
+        "label": "Link Openingsinstellingen",
+        "description": "Stel in hoe links op deze site openen",
+        "configure": "Configureren",
+        "listTips": "Sleep om opnieuw te ordenen. Bovenste regels zijn het belangrijkst.",
+        "linkMatchContent": "Linkpatroon",
+        "linkMatchContentTips": "Gebruik '*' voor willekeurige tekens, '?' voor één. Ondersteunt reguliere expressies.",
+        "linkOpenMethod": "Openen In",
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "target_self": "Huidig Tabblad",
+        "target_blank": "Nieuw Tabblad",
+        "target_parent": "Bovenliggend Tabblad",
+        "target_top": "Bovenste Tabblad",
+        "save": "Opslaan",
+        "close": "Sluiten",
+        "internalLinks": "Interne Links",
+        "externalLinks": "Externe Links",
+        "imageLinks": "Afbeeldingen",
+        "pdfLinks": "PDF's",
+        "socialMediaLinks": "Sociale Media"
+      },
+      "linkRefreshOptions": {
+        "label": "Automatisch Verversen Links",
+        "description": "Stel automatisch verversen in voor specifieke links",
+        "configure": "Configureren",
+        "listTips": "Sleep om opnieuw te ordenen. Alleen de eerste overeenkomende regel wordt toegepast.",
+        "linkMatchContent": "Linkpatroon",
+        "linkMatchContentTips": "Gebruik '*' voor willekeurige tekens, '?' voor één. Ondersteunt reguliere expressies.",
+        "edit": "Bewerken",
+        "delete": "Verwijderen",
+        "save": "Opslaan",
+        "close": "Sluiten",
+        "refreshInterval": "Verversingsinterval (Minuten)",
+        "disabled": "Uit"
+      },
+      "pageKeepAlive": {
+        "label": "Pagina Actief Houden",
+        "description": "Houdt de pagina actief en voorkomt dat de browser deze automatisch onderbreekt wanneer deze op de achtergrond staat."
+      },
+      "incognito": {
+        "label": "Privé Browsen",
+        "description": "Verwijdert geselecteerde sitegegevens na elk bezoek. Gebruik 'Configureren' om te kiezen wat u wilt verwijderen. Kan uw browse-ervaring beïnvloeden.",
+        "configure": "Configureren",
+        "configureDescription": "Selecteer de functies die u wilt verwijderen",
+        "cache": "Cache",
+        "cacheStorage": "Cache Opslag",
+        "cookies": "Cookies",
+        "skipAccountCookies": "Account Cookies Behouden",
+        "history": "Geschiedenis",
+        "indexedDB": "IndexedDB",
+        "localStorage": "Lokale Opslag",
+        "serviceWorkers": "Service Workers",
+        "webSQL": "Web SQL",
+        "cookieWarning": "Waarschuwing: Het verwijderen van cookies beïnvloedt alle subdomeinen en kan u uitloggen.",
+        "warningTitle": "Waarschuwing",
+        "warningMessage": "Dit zal alle sitegegevens wissen, inclusief inloggegevens. Doorgaan?",
+        "selectAll": "Alles Selecteren",
+        "cancel": "Annuleren",
+        "confirm": "Bevestigen"
+      },
+      "autoJoinGroup": {
+        "label": "Automatisch Groep Toetreden",
+        "description": "Automatisch een groep voor deze site toetreden of aanmaken.",
+        "configure": "Instellen",
+        "groupName": "Groepsnaam",
+        "save": "Opslaan"
       },
       "backgroundColor": {
         "label": "Achtergrondkleur",

@@ -257,5 +257,11 @@
   },
   "retry_action": {
     "message": "重試"
+  },
+  "shortcuts": {
+    "message": "快捷鍵"
+  },
+  "countdown_refresh": {
+    "message": "倒數刷新"
   }
 }
