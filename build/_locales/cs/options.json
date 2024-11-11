@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Zobrazit panel nástrojů",
         "description": "Když je povoleno, zobrazí se panel nástrojů",
-        "moreOptions": "Více možností",
-        "moreOptionsDescription": "Můžete ovládat, které ikony se zobrazí na panelu nástrojů.",
-        "moreOptionsHideLabel": "Skrýt popisky ikon na panelu nástrojů",
+        "configure": "Nastavit",
+        "configureDesc": "Nastavit panel nástrojů",
+        "enabledNavs": "Povolené navigace",
+        "disabledNavs": "Dostupné zakázané navigace",
+        "showLabel": "Zobrazit popisky",
+        "close": "Zavřít",
+        "save": "Uložit",
+        "left": "Vlevo",
+        "right": "Vpravo",
+        "newTab": "Nová karta",
+        "tabGoBack": "Zpět",
+        "tabGoForward": "Vpřed",
+        "tabRefresh": "Obnovit",
+        "scrollToActiveTab": "Přejít na aktivní kartu",
+        "muteAllTabs": "Ztlumit všechny karty",
+        "collapseAll": "Sbalit vše",
+        "createSnapshot": "Vytvořit snímek",
+        "themeModes": "Režimy motivu",
+        "viewModes": "Režimy zobrazení",
+        "showBy": "Zobrazit podle",
+        "sortBy": "Seřadit podle",
+        "switchPIP": "Přepnout obraz v obraze",
+        "clearTabs": "Vymazat karty"
+      },
+      "clearTabsBtn": {
+        "label": "Zobrazit tlačítko vymazání karet",
+        "description": "Když je povoleno, zobrazí se tlačítko pro vymazání karet",
+        "configure": "Nastavit",
+        "configureDesc": "Můžete nastavit chování při mazání karet",
         "close": "Zavřít",
         "options": {
-          "toolbar_newtab": "Nová karta",
-          "toolbar_orderby": "Seřadit podle",
-          "toolbar_showby": "Zobrazit podle",
-          "toolbar_view": "zobrazení",
-          "toolbar_colorMode": "Barevný režim",
-          "toolbar_muteAllTabs": "Ztlumit všechny karty, které vydávají zvuky",
-          "toolbar_scrollToActiveTab": "Přejít na aktivní kartu"
-        }
+          "createSnapshot": "Vytvořit snímek před vymazáním",
+          "closeInactiveTabs": "Zavřít neaktivní karty",
+          "closeDiscardTabs": "Zavřít zahozené karty",
+          "skipSoundTabs": "Přeskočit karty přehrávající zvuk",
+          "skipCurrentTab": "Přeskočit aktuální kartu",
+          "confirm": "Zobrazit potvrzovací dialog"
+        },
+        "confirmClearTabs": "Vymazat karty",
+        "confirmClearTabsMessage": "Opravdu chcete vymazat tyto karty? Tuto akci nelze vrátit zpět.",
+        "cancel": "Zrušit",
+        "confirm": "Potvrdit"
       },
       "tabNav": {
         "label": "Zobrazit panel navigace karet",
@@ -137,6 +166,7 @@
         "createTabPanel": "Vytvořit panel karet",
         "tabPanels": "Panely karet",
         "switchPIP": "Přepnout obraz v obraze",
+        "clearTabs": "Vymazat karty",
         "pinToToolbarReminder": "Připněte prosím rozšíření na panel nástrojů, než odstraníte tuto navigaci."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Povolit nepřetržité přehrávání",
         "description": "Nepřetržité přehrávání: Okno obrazu v obraze se nezavře a automaticky přehraje další epizodu po skončení videa. Tato funkce vyžaduje podporu webu."
+      },
+      "advancedPipShowTitle": {
+        "label": "Zobrazit název v pokročilém přehrávači obrazu v obraze",
+        "description": "Když je povoleno, název stránky se zobrazí v pokročilém přehrávači obrazu v obraze"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Export selhal"
       }
     },
-    "SyncToCloud": {
-      "label": "Synchronizovat do cloudu",
-      "SyncNow": "Synchronizovat nyní",
-      "SyncNowWithGoogleDrive": "Synchronizovat nyní s Google Drive",
-      "SyncNowWithDropbox": "Synchronizovat nyní s Dropbox",
-      "SyncNowWithOneDrive": "Synchronizovat nyní s OneDrive",
-      "Synchronizing": "Synchronizace...",
-      "SyncedSuccessfully": "Úspěšně synchronizováno",
-      "SyncFailed": "Synchronizace selhala",
-      "LoginRequired": "Vyžadováno přihlášení",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synchronizovat konfigurace",
-        "description": "Vyberte, jak synchronizovat konfigurace tohoto rozšíření.",
-        "disabled": "Zakázáno",
-        "uploadOnly": "Pouze nahrát",
-        "downloadOnly": "Pouze stáhnout",
-        "staySynchronized": "Zůstat synchronizovaný"
+    "syncToCloud": {
+      "title": "Nastavení synchronizace",
+      "setLocalPasswordTitle": "Nastavit místní heslo",
+      "setLocalPasswordDescription": "Pro šifrování a ochranu vašich synchronizačních dat nastavte prosím šifrovací heslo. Toto heslo nebude přeneseno k nám. Musíte nastavit stejné heslo na ostatních prohlížečích pro synchronizaci. Ujistěte se, že si ho zapamatujete.",
+      "passwordError": "Heslo musí mít alespoň 6 znaků a obsahovat čísla i písmena",
+      "save": "Uložit a pokračovat",
+      "cancel": "Zrušit",
+      "doNotUseLocalPassword": "Použít výchozí šifrování",
+      "changeLocalPassword": "Změnit místní heslo",
+      "changeLocalPasswordDesc": "Resetování místního hesla zneplatní dříve synchronizovaná data. Toto heslo se používá k šifrování a ochraně vašich synchronizačních dat. Heslo nebude přeneseno k nám. Musíte nastavit stejné heslo na ostatních prohlížečích pro synchronizaci. Nastavte jej prosím pečlivě!",
+      "deviceName": "Název zařízení",
+      "deviceNameDescription": "Nastavte snadno rozpoznatelný název pro toto zařízení, aby bylo možné jej rozlišit během synchronizace více zařízení",
+      "deviceId": "ID zařízení",
+      "syncNow": "Synchronizovat nyní",
+      "lastSyncTime": "Poslední čas synchronizace",
+      "uploadStatus": "Stav nahrávání",
+      "downloadStatus": "Stav stahování",
+      "notSynced": "Nesynchronizováno",
+      "success": "Úspěch",
+      "failed": "Selhalo",
+      "mode": {
+        "title": "Režim synchronizace",
+        "description": "Vyberte, jak se data synchronizují mezi zařízeními",
+        "modes": {
+          "disabled": "Zakázáno",
+          "uploadOnly": "Pouze nahrávání",
+          "downloadOnly": "Pouze stahování",
+          "staySynchronized": "Zůstat synchronizovaný"
+        }
       },
-      "SyncTabs": {
-        "label": "Synchronizovat karty",
-        "description": "Vyberte, jak synchronizovat data karet, s výjimkou soukromých dat, jako jsou cookies a osobní informace.",
-        "disabled": "Zakázáno",
-        "uploadOnly": "Pouze nahrát",
-        "downloadOnly": "Pouze stáhnout",
-        "staySynchronized": "Zůstat synchronizovaný"
+      "providers": {
+        "title": "Poskytovatelé synchronizace",
+        "description": "Vyberte a nakonfigurujte poskytovatele služeb pro synchronizaci dat",
+        "defaultProvider": "Výchozí poskytovatel synchronizace",
+        "close": "Zavřít",
+        "save": "Uložit",
+        "configure": "Nakonfigurovat",
+        "authorize": "Autorizovat",
+        "providers": {
+          "custom": {
+            "title": "Cloudová služba",
+            "enabled": "Povoleno"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Otevřít nebo zavřít karty synchronně",
-        "description": "Když je povoleno, otevření nebo zavření karet v různých prohlížečích bude synchronizováno. To platí pouze tehdy, když je aktivní možnost 'zůstat synchronizovaný'",
-        "OpenOrCloseTabsSynchronouslyWarning": "Pokud se přihlásíte ke stejnému účtu ve dvou prohlížečích současně a zapnete tuto možnost, otevření nebo zavření karet v jednom prohlížeči provede stejnou operaci v druhém prohlížeči. Pokud web zakazuje opakované přihlášení se stejným účtem, mohou nastat výjimky."
+      "dataOptions": {
+        "title": "Možnosti synchronizace dat",
+        "description": "Vyberte typy dat, které chcete synchronizovat",
+        "openedTabs": {
+          "title": "Otevřené karty",
+          "enabled": "Synchronizovat otevřené karty"
+        },
+        "settings": {
+          "title": "Nastavení",
+          "enabled": "Synchronizovat nastavení"
+        },
+        "siteConfigs": {
+          "title": "Konfigurace webu",
+          "enabled": "Synchronizovat konfigurace webu"
+        },
+        "quickAccess": {
+          "title": "Rychlý přístup",
+          "enabled": "Synchronizovat rychlý přístup"
+        },
+        "recentClosedTabs": {
+          "title": "Nedávno zavřené karty",
+          "enabled": "Synchronizovat nedávno zavřené karty"
+        },
+        "windowTabs": {
+          "title": "Okna, skupiny karet a karty",
+          "enabled": "Synchronizovat historii karet",
+          "close": "Zavřít",
+          "save": "Uložit",
+          "syncAfterAction": "Akce po synchronizaci",
+          "syncAfterActionTitle": "Vyberte, jak postupovat po synchronizaci",
+          "applyModes": {
+            "append": {
+              "title": "Režim připojení",
+              "description": "Pokud má aktuální okno méně než 5 karet, synchronizované karty budou přidány na konec aktuálního okna. Pokud je synchronizováno více oken, karty z prvního okna budou sloučeny do aktuálního okna a další okna budou vytvořena jako samostatná nová okna."
+            },
+            "new": {
+              "title": "Nové okno",
+              "description": "Otevřete synchronizované karty v novém okně, přičemž stávající karty zůstanou nezměněny"
+            },
+            "replace": {
+              "title": "Režim nahrazení",
+              "description": "Zavřete stávající karty a otevřete synchronizované karty v novém okně"
+            },
+            "createSnapshot": {
+              "title": "Vytvořit snímek",
+              "description": "Uložit synchronizované karty jako nový snímek"
+            }
+          },
+          "moreOptions": "Pokročilé možnosti",
+          "optionsTitle": "Nastavení synchronizace karet",
+          "skipLastWindow": "Nesynchronizovat při zavření posledního okna",
+          "skipLastWindowDescription": "Pozastavit synchronizaci při zavření posledního okna, aby bylo možné obnovit nedávné karty na jiných zařízeních. Pokud je tato možnost zakázána, synchronizace se provede okamžitě a jiná zařízení nebudou moci tyto karty obnovit.",
+          "debounceMs": "Zpoždění synchronizace",
+          "debounceMsDescription": "Nastavte, kolik sekund čekat po změně karty před synchronizací, aby se zabránilo příliš častým synchronizačním operacím"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synchronizovat soukromá data",
-        "description": "Vyberte, jak synchronizovat soukromá data, jako jsou cookies webových stránek, data místního úložiště webových stránek, data SessionStorage atd. Data budou před synchronizací zašifrována.",
-        "disabled": "Zakázáno",
-        "uploadOnly": "Pouze nahrát",
-        "downloadOnly": "Pouze stáhnout",
-        "staySynchronized": "Zůstat synchronizovaný"
+      "globalTriggers": {
+        "title": "Globální spouštěče synchronizace",
+        "description": "Nakonfigurujte, kdy spustit globální synchronizační operace",
+        "onStartup": "Při prvním spuštění prohlížeče"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Stránky vestavěného prohlížeče PDF",
         "newTabPage": "Stránky Nové karty (začínající chrome://newtab/ nebo edge://newtab/ nebo podobně)"
       }
+    },
+    "general": {
+      "title": "Obecné",
+      "description": "",
+      "accountInfo": {
+        "label": "Informace o účtu",
+        "currentPlan": "Aktuální plán",
+        "subscribePremium": "Předplatit Premium",
+        "manageAccount": "Spravovat účet",
+        "logout": "Odhlásit se",
+        "notLoggedIn": "Nepřihlášen",
+        "signIn": "Přihlásit se",
+        "free": "Zdarma",
+        "premium": "Premium",
+        "premiumEndsAt": "Váš Premium plán skončí {{date}}",
+        "trialEndsAt": "Vaše zkušební verze Premium skončí {{date}}",
+        "signInForPremium": "Přihlaste se pro získání Premium",
+        "trialEndsAndMembershipStarts": "Vaše zkušební období skončí {{date}}. Po skončení zkušebního období vaše oficiální členství automaticky vstoupí v platnost a všechny výhody zůstanou nezměněny.",
+        "lifetimeMembership": "Doživotní členství",
+        "manageSubscription": "Spravovat předplatné"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Vytvořit snímek",
     "exportSnapshot": "Exportovat snímek",
     "restoreWindowSize": "Obnovit polohu a velikost okna",
+    "restoreGroups": "Obnovit skupiny",
     "openAllWindows": "Otevřít všechna okna",
     "openSelectedInNewWindow": "Otevřít vybrané v novém okně",
     "openSelectedInCurrentWindow": "Otevřít vybrané v aktuálním okně",

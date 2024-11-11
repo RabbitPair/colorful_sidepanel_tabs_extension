@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Werkbalk weergeven",
         "description": "Wanneer ingeschakeld, wordt de werkbalk weergegeven",
-        "moreOptions": "Meer opties",
-        "moreOptionsDescription": "U kunt bepalen welke pictogrammen op de werkbalk verschijnen.",
-        "moreOptionsHideLabel": "Werkbalkpictogramlabels verbergen",
+        "configure": "Configureren",
+        "configureDesc": "Werkbalk configureren",
+        "enabledNavs": "Ingeschakelde navigaties",
+        "disabledNavs": "Beschikbare uitgeschakelde navigaties",
+        "showLabel": "Labels weergeven",
+        "close": "Sluiten",
+        "save": "Opslaan",
+        "left": "Links",
+        "right": "Rechts",
+        "newTab": "Nieuw tabblad",
+        "tabGoBack": "Terug",
+        "tabGoForward": "Vooruit",
+        "tabRefresh": "Vernieuwen",
+        "scrollToActiveTab": "Naar actief tabblad scrollen",
+        "muteAllTabs": "Alle tabbladen dempen",
+        "collapseAll": "Alles samenvouwen",
+        "createSnapshot": "Momentopname maken",
+        "themeModes": "Thema-modi",
+        "viewModes": "Weergavemodi",
+        "showBy": "Weergeven op",
+        "sortBy": "Sorteren op",
+        "switchPIP": "Beeld-in-beeld in-/uitschakelen",
+        "clearTabs": "Tabbladen wissen"
+      },
+      "clearTabsBtn": {
+        "label": "Knop voor tabbladen wissen weergeven",
+        "description": "Wanneer ingeschakeld, wordt de knop voor het wissen van tabbladen weergegeven",
+        "configure": "configureren",
+        "configureDesc": "U kunt het gedrag bij het wissen van tabbladen instellen",
         "close": "Sluiten",
         "options": {
-          "toolbar_newtab": "Nieuw tabblad",
-          "toolbar_orderby": "Sorteren op",
-          "toolbar_showby": "Weergeven op",
-          "toolbar_view": "weergave",
-          "toolbar_colorMode": "Kleurmodus",
-          "toolbar_muteAllTabs": "Alle tabs dempen die geluid maken",
-          "toolbar_scrollToActiveTab": "Scroll naar actieve tab"
-        }
+          "createSnapshot": "Momentopname maken voor het wissen",
+          "closeInactiveTabs": "Inactieve tabbladen sluiten",
+          "closeDiscardTabs": "Verworpen tabbladen sluiten",
+          "skipSoundTabs": "Tabbladen met geluid overslaan",
+          "skipCurrentTab": "Huidig tabblad overslaan",
+          "confirm": "Bevestigingsvenster weergeven"
+        },
+        "confirmClearTabs": "Tabbladen wissen",
+        "confirmClearTabsMessage": "Weet u zeker dat u deze tabbladen wilt wissen? Deze actie kan niet ongedaan worden gemaakt.",
+        "cancel": "Annuleren",
+        "confirm": "Bevestigen"
       },
       "tabNav": {
         "label": "Tabnavigatiebalk weergeven",
@@ -137,6 +166,7 @@
         "createTabPanel": "Tabbladpaneel maken",
         "tabPanels": "Tabbladpanelen",
         "switchPIP": "Schakel Beeld-in-Beeld",
+        "clearTabs": "Tabbladen wissen",
         "pinToToolbarReminder": "Zet de extensie vast in uw werkbalk voordat u deze navigatie verwijdert."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Continue Weergave Inschakelen",
         "description": "Continue weergave: Het Beeld-in-Beeld venster sluit niet en speelt automatisch de volgende aflevering af nadat de video is afgelopen. Deze functie vereist website ondersteuning."
+      },
+      "advancedPipShowTitle": {
+        "label": "Toon titel in Geavanceerde Beeld-in-Beeld speler",
+        "description": "Wanneer ingeschakeld, wordt de paginatitel weergegeven in de Geavanceerde Beeld-in-Beeld speler"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Exporteren mislukt"
       }
     },
-    "SyncToCloud": {
-      "label": "Synchroniseren met de cloud",
-      "SyncNow": "Nu synchroniseren",
-      "SyncNowWithGoogleDrive": "Nu synchroniseren met Google Drive",
-      "SyncNowWithDropbox": "Nu synchroniseren met Dropbox",
-      "SyncNowWithOneDrive": "Nu synchroniseren met OneDrive",
-      "Synchronizing": "Synchroniseren...",
-      "SyncedSuccessfully": "Succesvol gesynchroniseerd",
-      "SyncFailed": "Synchronisatie mislukt",
-      "LoginRequired": "Inloggen vereist",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synchronisatieconfiguraties",
-        "description": "Kies hoe u de configuraties van deze extensie wilt synchroniseren.",
-        "disabled": "Uitgeschakeld",
-        "uploadOnly": "Alleen uploaden",
-        "downloadOnly": "Alleen downloaden",
-        "staySynchronized": "Gesynchroniseerd blijven"
+    "syncToCloud": {
+      "title": "Synchronisatie-instellingen",
+      "setLocalPasswordTitle": "Stel lokaal wachtwoord in",
+      "setLocalPasswordDescription": "Om uw synchronisatiegegevens te versleutelen en te beschermen, stelt u een versleutelingswachtwoord in. Dit wachtwoord wordt niet naar ons verzonden. U moet hetzelfde wachtwoord op andere browsers instellen om te synchroniseren. Zorg ervoor dat u het onthoudt.",
+      "passwordError": "Wachtwoord moet minimaal 6 tekens lang zijn en zowel cijfers als letters bevatten",
+      "save": "Opslaan en doorgaan",
+      "cancel": "Annuleren",
+      "doNotUseLocalPassword": "Gebruik standaardversleuteling",
+      "changeLocalPassword": "Wijzig lokaal wachtwoord",
+      "changeLocalPasswordDesc": "Het opnieuw instellen van het lokale wachtwoord maakt eerder gesynchroniseerde gegevens ongeldig. Dit wachtwoord wordt gebruikt om uw synchronisatiegegevens te versleutelen en te beschermen. Het wachtwoord wordt niet naar ons verzonden. U moet hetzelfde wachtwoord op andere browsers instellen om te synchroniseren. Stel het zorgvuldig in!",
+      "deviceName": "Apparaatnaam",
+      "deviceNameDescription": "Stel een gemakkelijk herkenbare naam in voor dit apparaat om het te onderscheiden tijdens multi-apparaat synchronisatie",
+      "deviceId": "Apparaat-ID",
+      "syncNow": "Nu synchroniseren",
+      "lastSyncTime": "Laatste synchronisatietijd",
+      "uploadStatus": "Uploadstatus",
+      "downloadStatus": "Downloadstatus",
+      "notSynced": "Niet gesynchroniseerd",
+      "success": "Succes",
+      "failed": "Mislukt",
+      "mode": {
+        "title": "Synchronisatiemodus",
+        "description": "Kies hoe gegevens tussen apparaten worden gesynchroniseerd",
+        "modes": {
+          "disabled": "Uitgeschakeld",
+          "uploadOnly": "Alleen uploaden",
+          "downloadOnly": "Alleen downloaden",
+          "staySynchronized": "Blijf gesynchroniseerd"
+        }
       },
-      "SyncTabs": {
-        "label": "Tabbladen synchroniseren",
-        "description": "Kies hoe u tabbladgegevens wilt synchroniseren, met uitzondering van privégegevens zoals cookies en persoonlijke informatie.",
-        "disabled": "Uitgeschakeld",
-        "uploadOnly": "Alleen uploaden",
-        "downloadOnly": "Alleen downloaden",
-        "staySynchronized": "Gesynchroniseerd blijven"
+      "providers": {
+        "title": "Synchronisatieproviders",
+        "description": "Selecteer en configureer de serviceproviders voor gegevenssynchronisatie",
+        "defaultProvider": "Standaard synchronisatieprovider",
+        "close": "Sluiten",
+        "save": "Opslaan",
+        "configure": "Configureren",
+        "authorize": "Autoriseren",
+        "providers": {
+          "custom": {
+            "title": "Cloudservice",
+            "enabled": "Ingeschakeld"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Tabbladen gelijktijdig openen of sluiten",
-        "description": "Wanneer ingeschakeld, worden het openen of sluiten van tabbladen in verschillende browsers gesynchroniseerd. Dit geldt alleen wanneer de optie 'gesynchroniseerd blijven' actief is",
-        "OpenOrCloseTabsSynchronouslyWarning": "Als u tegelijkertijd inlogt op hetzelfde account in twee browsers en deze optie inschakelt, worden het openen of sluiten van tabbladen in de ene browser ook uitgevoerd in de andere browser. Als de website herhaalde inlogpogingen met hetzelfde account verbiedt, kunnen er uitzonderingen optreden."
+      "dataOptions": {
+        "title": "Gegevenssynchronisatie-opties",
+        "description": "Selecteer de soorten gegevens om te synchroniseren",
+        "openedTabs": {
+          "title": "Geopende tabbladen",
+          "enabled": "Synchroniseer geopende tabbladen"
+        },
+        "settings": {
+          "title": "Instellingen",
+          "enabled": "Synchroniseer instellingen"
+        },
+        "siteConfigs": {
+          "title": "Siteconfiguraties",
+          "enabled": "Synchroniseer siteconfiguraties"
+        },
+        "quickAccess": {
+          "title": "Snelle toegang",
+          "enabled": "Synchroniseer snelle toegang"
+        },
+        "recentClosedTabs": {
+          "title": "Recent gesloten tabbladen",
+          "enabled": "Synchroniseer recent gesloten tabbladen"
+        },
+        "windowTabs": {
+          "title": "Vensters, tabgroepen en tabbladen",
+          "enabled": "Synchroniseer tabgeschiedenis",
+          "close": "Sluiten",
+          "save": "Opslaan",
+          "syncAfterAction": "Actie na synchronisatie",
+          "syncAfterActionTitle": "Kies hoe te handelen na synchronisatie",
+          "applyModes": {
+            "append": {
+              "title": "Toevoegmodus",
+              "description": "Als het huidige venster minder dan 5 tabbladen heeft, worden de gesynchroniseerde tabbladen aan het einde van het huidige venster toegevoegd. Als meerdere vensters worden gesynchroniseerd, worden de tabbladen van het eerste venster samengevoegd in het huidige venster en worden andere vensters als afzonderlijke nieuwe vensters gemaakt."
+            },
+            "new": {
+              "title": "Nieuw venster",
+              "description": "Open de gesynchroniseerde tabbladen in een nieuw venster, waarbij de bestaande tabbladen ongewijzigd blijven"
+            },
+            "replace": {
+              "title": "Vervangingsmodus",
+              "description": "Sluit bestaande tabbladen en open de gesynchroniseerde tabbladen in een nieuw venster"
+            },
+            "createSnapshot": {
+              "title": "Maak momentopname",
+              "description": "Sla de gesynchroniseerde tabbladen op als een nieuwe momentopname"
+            }
+          },
+          "moreOptions": "Geavanceerde opties",
+          "optionsTitle": "Tabblad synchronisatie-instellingen",
+          "skipLastWindow": "Niet synchroniseren bij sluiten laatste venster",
+          "skipLastWindowDescription": "Pauzeer synchronisatie wanneer het laatste venster wordt gesloten om herstel van recente tabbladen op andere apparaten mogelijk te maken. Als deze optie is uitgeschakeld, wordt de synchronisatie onmiddellijk uitgevoerd en kunnen andere apparaten deze tabbladen niet herstellen.",
+          "debounceMs": "Synchronisatievertraging",
+          "debounceMsDescription": "Stel in hoeveel seconden er gewacht moet worden na een tabbladwijziging voordat er wordt gesynchroniseerd om te frequente synchronisatieoperaties te voorkomen"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Privégegevens synchroniseren",
-        "description": "Kies hoe u privégegevens wilt synchroniseren, zoals websitecookies, lokale opslaggegevens van webpagina's, SessionStorage-gegevens, enz. Gegevens worden versleuteld voordat ze worden gesynchroniseerd.",
-        "disabled": "Uitgeschakeld",
-        "uploadOnly": "Alleen uploaden",
-        "downloadOnly": "Alleen downloaden",
-        "staySynchronized": "Gesynchroniseerd blijven"
+      "globalTriggers": {
+        "title": "Globale synchronisatietriggers",
+        "description": "Configureer wanneer globale synchronisatieoperaties moeten worden geactiveerd",
+        "onStartup": "Wanneer de browser voor het eerst start"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Ingebouwde PDF-viewerpagina's",
         "newTabPage": "Nieuwe tabbladpagina's (beginnend met chrome://newtab/ of edge://newtab/ of vergelijkbaar)"
       }
+    },
+    "general": {
+      "title": "Algemeen",
+      "description": "",
+      "accountInfo": {
+        "label": "Accountinformatie",
+        "currentPlan": "Huidig Plan",
+        "subscribePremium": "Abonneer op Premium",
+        "manageAccount": "Beheer Account",
+        "logout": "Uitloggen",
+        "notLoggedIn": "Niet Ingelogd",
+        "signIn": "Inloggen",
+        "free": "Gratis",
+        "premium": "Premium",
+        "premiumEndsAt": "Uw Premium-abonnement eindigt op {{date}}",
+        "trialEndsAt": "Uw Premium-proefperiode eindigt op {{date}}",
+        "signInForPremium": "Log in om Premium te krijgen",
+        "trialEndsAndMembershipStarts": "Uw proefperiode eindigt op {{date}}. Na het einde van de proefperiode wordt uw officiële lidmaatschap automatisch van kracht en blijven alle voordelen ongewijzigd.",
+        "lifetimeMembership": "Levenslang Lidmaatschap",
+        "manageSubscription": "Beheer Abonnement"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Create Snapshot",
     "exportSnapshot": "Export Snapshot",
     "restoreWindowSize": "Herstel vensterpositie en -grootte",
+    "restoreGroups": "Herstel Groepen",
     "openAllWindows": "Open All Windows",
     "openSelectedInNewWindow": "Open Selected In New Window",
     "openSelectedInCurrentWindow": "Open Selected In Current Window",

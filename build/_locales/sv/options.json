@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Visa verktygsfält",
         "description": "När aktiverat visas verktygsfältet",
-        "moreOptions": "Fler alternativ",
-        "moreOptionsDescription": "Du kan kontrollera vilka ikoner som visas på verktygsfältet.",
-        "moreOptionsHideLabel": "Dölj verktygsfältsikoner etiketter",
+        "configure": "Konfigurera",
+        "configureDesc": "Konfigurera verktygsfält",
+        "enabledNavs": "Aktiverade navigeringar",
+        "disabledNavs": "Tillgängliga inaktiverade navigeringar",
+        "showLabel": "Visa etiketter",
+        "close": "Stäng",
+        "save": "Spara",
+        "left": "Vänster",
+        "right": "Höger",
+        "newTab": "Ny flik",
+        "tabGoBack": "Tillbaka",
+        "tabGoForward": "Framåt",
+        "tabRefresh": "Uppdatera",
+        "scrollToActiveTab": "Rulla till aktiv flik",
+        "muteAllTabs": "Stäng av ljud för alla flikar",
+        "collapseAll": "Fäll ihop alla",
+        "createSnapshot": "Skapa ögonblicksbild",
+        "themeModes": "Temalägen",
+        "viewModes": "Visningslägen",
+        "showBy": "Visa efter",
+        "sortBy": "Sortera efter",
+        "switchPIP": "Växla bild-i-bild",
+        "clearTabs": "Rensa flikar"
+      },
+      "clearTabsBtn": {
+        "label": "Visa knapp för att rensa flikar",
+        "description": "När aktiverat visas knappen för att rensa flikar",
+        "configure": "konfigurera",
+        "configureDesc": "Du kan kontrollera beteendet när flikar rensas",
         "close": "Stäng",
         "options": {
-          "toolbar_newtab": "Ny flik",
-          "toolbar_orderby": "Sortera efter",
-          "toolbar_showby": "Visa efter",
-          "toolbar_view": "vy",
-          "toolbar_colorMode": "Färgläge",
-          "toolbar_muteAllTabs": "Stäng av alla flikar som låter",
-          "toolbar_scrollToActiveTab": "Rulla till aktiv flik"
-        }
+          "createSnapshot": "Skapa ögonblicksbild innan rensning",
+          "closeInactiveTabs": "Stäng inaktiva flikar",
+          "closeDiscardTabs": "Stäng bortkastade flikar",
+          "skipSoundTabs": "Hoppa över flikar som spelar ljud",
+          "skipCurrentTab": "Hoppa över aktuell flik",
+          "confirm": "Visa bekräftelsedialog"
+        },
+        "confirmClearTabs": "Rensa flikar",
+        "confirmClearTabsMessage": "Är du säker på att du vill rensa dessa flikar? Denna åtgärd kan inte ångras.",
+        "cancel": "Avbryt",
+        "confirm": "Bekräfta"
       },
       "tabNav": {
         "label": "Visa fliknavigeringsfält",
@@ -137,6 +166,7 @@
         "createTabPanel": "Skapa flikpanel",
         "tabPanels": "Flikpaneler",
         "switchPIP": "Byt Bild-i-Bild",
+        "clearTabs": "Rensa flikar",
         "pinToToolbarReminder": "Fäst tillägget i verktygsfältet innan du tar bort denna navigering."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Aktivera Kontinuerlig Uppspelning",
         "description": "Kontinuerlig uppspelning: Bild-i-Bild-fönstret stängs inte och spelar automatiskt nästa avsnitt efter att videon slutar. Denna funktion kräver webbplatsstöd."
+      },
+      "advancedPipShowTitle": {
+        "label": "Visa titel i Avancerad Bild-i-Bild-spelare",
+        "description": "När aktiverad kommer sidans titel att visas i den Avancerade Bild-i-Bild-spelaren"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Exportering misslyckades"
       }
     },
-    "SyncToCloud": {
-      "label": "Synkronisera till molnet",
-      "SyncNow": "Synkronisera nu",
-      "SyncNowWithGoogleDrive": "Synkronisera nu med Google Drive",
-      "SyncNowWithDropbox": "Synkronisera nu med Dropbox",
-      "SyncNowWithOneDrive": "Synkronisera nu med OneDrive",
-      "Synchronizing": "Synkroniserar...",
-      "SyncedSuccessfully": "Synkroniserad framgångsrikt",
-      "SyncFailed": "Synkronisering misslyckades",
-      "LoginRequired": "Inloggning krävs",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synkronisera konfigurationer",
-        "description": "Välj hur du vill synkronisera denna tilläggs konfigurationer.",
-        "disabled": "Inaktiverad",
-        "uploadOnly": "Endast uppladdning",
-        "downloadOnly": "Endast nedladdning",
-        "staySynchronized": "Förbli synkroniserad"
+    "syncToCloud": {
+      "title": "Synkronisera inställningar",
+      "setLocalPasswordTitle": "Ställ in lokalt lösenord",
+      "setLocalPasswordDescription": "För att kryptera och skydda dina synkroniseringsdata, vänligen ställ in ett krypteringslösenord. Detta lösenord kommer inte att överföras till oss. Du måste ställa in samma lösenord på andra webbläsare för att synkronisera. Se till att komma ihåg det.",
+      "passwordError": "Lösenordet måste vara minst 6 tecken långt och innehålla både siffror och bokstäver",
+      "save": "Spara och fortsätt",
+      "cancel": "Avbryt",
+      "doNotUseLocalPassword": "Använd standardkryptering",
+      "changeLocalPassword": "Byt lokalt lösenord",
+      "changeLocalPasswordDesc": "Återställning av det lokala lösenordet kommer att ogiltigförklara tidigare synkroniserade data. Detta lösenord används för att kryptera och skydda dina synkroniseringsdata. Lösenordet kommer inte att överföras till oss. Du måste ställa in samma lösenord på andra webbläsare för att synkronisera. Vänligen ställ in det noggrant!",
+      "deviceName": "Enhetsnamn",
+      "deviceNameDescription": "Ställ in ett lättigenkännligt namn för denna enhet för att skilja den under multi-enhetssynkronisering",
+      "deviceId": "Enhets-ID",
+      "syncNow": "Synkronisera nu",
+      "lastSyncTime": "Senaste synkroniseringstid",
+      "uploadStatus": "Uppladdningsstatus",
+      "downloadStatus": "Nedladdningsstatus",
+      "notSynced": "Inte synkroniserad",
+      "success": "Framgång",
+      "failed": "Misslyckades",
+      "mode": {
+        "title": "Synkroniseringsläge",
+        "description": "Välj hur data synkroniseras mellan enheter",
+        "modes": {
+          "disabled": "Inaktiverad",
+          "uploadOnly": "Endast uppladdning",
+          "downloadOnly": "Endast nedladdning",
+          "staySynchronized": "Förbli synkroniserad"
+        }
       },
-      "SyncTabs": {
-        "label": "Synkronisera flikar",
-        "description": "Välj hur du vill synkronisera flikdata, exklusive privat data som cookies och personlig information.",
-        "disabled": "Inaktiverad",
-        "uploadOnly": "Endast uppladdning",
-        "downloadOnly": "Endast nedladdning",
-        "staySynchronized": "Förbli synkroniserad"
+      "providers": {
+        "title": "Synkroniseringstjänster",
+        "description": "Välj och konfigurera tjänsteleverantörer för datasynkronisering",
+        "defaultProvider": "Standard synkroniseringstjänst",
+        "close": "Stäng",
+        "save": "Spara",
+        "configure": "Konfigurera",
+        "authorize": "Auktorisera",
+        "providers": {
+          "custom": {
+            "title": "Molntjänst",
+            "enabled": "Aktiverad"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Öppna eller stäng flikar synkront",
-        "description": "När aktiverat kommer öppning eller stängning av flikar i olika webbläsare att synkroniseras. Detta gäller endast när alternativet 'förbli synkroniserad' är aktivt",
-        "OpenOrCloseTabsSynchronouslyWarning": "Om du loggar in på samma konto i två webbläsare samtidigt och aktiverar detta alternativ, kommer öppning eller stängning av flikar i en webbläsare att utföra samma operation i den andra webbläsaren. Om webbplatsen förbjuder upprepade inloggningar med samma konto kan undantag uppstå."
+      "dataOptions": {
+        "title": "Alternativ för datasynkronisering",
+        "description": "Välj vilka typer av data som ska synkroniseras",
+        "openedTabs": {
+          "title": "Öppnade flikar",
+          "enabled": "Synkronisera öppnade flikar"
+        },
+        "settings": {
+          "title": "Inställningar",
+          "enabled": "Synkronisera inställningar"
+        },
+        "siteConfigs": {
+          "title": "Webbplatskonfigurationer",
+          "enabled": "Synkronisera webbplatskonfigurationer"
+        },
+        "quickAccess": {
+          "title": "Snabb åtkomst",
+          "enabled": "Synkronisera snabb åtkomst"
+        },
+        "recentClosedTabs": {
+          "title": "Nyligen stängda flikar",
+          "enabled": "Synkronisera nyligen stängda flikar"
+        },
+        "windowTabs": {
+          "title": "Fönster, flikgrupper och flikar",
+          "enabled": "Synkronisera flikhistorik",
+          "close": "Stäng",
+          "save": "Spara",
+          "syncAfterAction": "Åtgärd efter synkronisering",
+          "syncAfterActionTitle": "Välj hur du ska hantera efter synkronisering",
+          "applyModes": {
+            "append": {
+              "title": "Lägg till-läge",
+              "description": "Om det aktuella fönstret har färre än 5 flikar, kommer de synkroniserade flikarna att läggas till i slutet av det aktuella fönstret. Om flera fönster synkroniseras, kommer flikarna från det första fönstret att slås samman med det aktuella fönstret, och andra fönster kommer att skapas som separata nya fönster."
+            },
+            "new": {
+              "title": "Nytt fönster",
+              "description": "Öppna de synkroniserade flikarna i ett nytt fönster, medan de befintliga flikarna förblir oförändrade"
+            },
+            "replace": {
+              "title": "Ersättningsläge",
+              "description": "Stäng befintliga flikar och öppna de synkroniserade flikarna i ett nytt fönster"
+            },
+            "createSnapshot": {
+              "title": "Skapa ögonblicksbild",
+              "description": "Spara de synkroniserade flikarna som en ny ögonblicksbild"
+            }
+          },
+          "moreOptions": "Avancerade alternativ",
+          "optionsTitle": "Inställningar för fliksynkronisering",
+          "skipLastWindow": "Synkronisera inte när sista fönstret stängs",
+          "skipLastWindowDescription": "Pausa synkronisering när det sista fönstret stängs för att möjliggöra återställning av senaste flikar på andra enheter. Om detta alternativ är inaktiverat, kommer synkroniseringen att utföras omedelbart, och andra enheter kommer inte att kunna återställa dessa flikar.",
+          "debounceMs": "Synkroniseringsfördröjning",
+          "debounceMsDescription": "Ställ in hur många sekunder du ska vänta efter en flikändring innan synkronisering för att undvika för frekventa synkroniseringsoperationer"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synkronisera privat data",
-        "description": "Välj hur du vill synkronisera privat data, såsom webbplatscookies, webbsidans localstorage-data, SessionStorage-data, etc. Data kommer att krypteras före synkronisering.",
-        "disabled": "Inaktiverad",
-        "uploadOnly": "Endast uppladdning",
-        "downloadOnly": "Endast nedladdning",
-        "staySynchronized": "Förbli synkroniserad"
+      "globalTriggers": {
+        "title": "Globala synkroniseringstriggers",
+        "description": "Konfigurera när globala synkroniseringsoperationer ska utlösas",
+        "onStartup": "När webbläsaren startar för första gången"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Inbyggda PDF-visarsidor",
         "newTabPage": "Nya fliksidor (som börjar med chrome://newtab/ eller edge://newtab/ eller liknande)"
       }
+    },
+    "general": {
+      "title": "Allmänt",
+      "description": "",
+      "accountInfo": {
+        "label": "Kontoinformation",
+        "currentPlan": "Nuvarande plan",
+        "subscribePremium": "Prenumerera på Premium",
+        "manageAccount": "Hantera konto",
+        "logout": "Logga ut",
+        "notLoggedIn": "Inte inloggad",
+        "signIn": "Logga in",
+        "free": "Gratis",
+        "premium": "Premium",
+        "premiumEndsAt": "Din Premium-plan slutar den {{date}}",
+        "trialEndsAt": "Din Premium-testperiod slutar den {{date}}",
+        "signInForPremium": "Logga in för att få Premium",
+        "trialEndsAndMembershipStarts": "Din testperiod slutar den {{date}}. Efter att testperioden slutar, kommer ditt officiella medlemskap automatiskt att träda i kraft, och alla förmåner kommer att förbli oförändrade.",
+        "lifetimeMembership": "Livstidsmedlemskap",
+        "manageSubscription": "Hantera prenumeration"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Skapa ögonblicksbild",
     "exportSnapshot": "Exportera ögonblicksbild",
     "restoreWindowSize": "Återställ fönsterposition och storlek",
+    "restoreGroups": "Återställ grupper",
     "openAllWindows": "Öppna alla fönster",
     "openSelectedInNewWindow": "Öppna valda i nytt fönster",
     "openSelectedInCurrentWindow": "Öppna valda i aktuellt fönster",

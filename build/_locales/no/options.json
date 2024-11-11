@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Vis verktøylinje",
         "description": "Når aktivert, vises verktøylinjen",
-        "moreOptions": "Flere alternativer",
-        "moreOptionsDescription": "Du kan kontrollere hvilke ikoner som vises på verktøylinjen.",
-        "moreOptionsHideLabel": "Skjul etiketter for verktøylinjeikoner",
+        "configure": "Konfigurer",
+        "configureDesc": "Konfigurer verktøylinje",
+        "enabledNavs": "Aktiverte navigasjoner",
+        "disabledNavs": "Tilgjengelige deaktiverte navigasjoner",
+        "showLabel": "Vis etiketter",
+        "close": "Lukk",
+        "save": "Lagre",
+        "left": "Venstre",
+        "right": "Høyre",
+        "newTab": "Ny fane",
+        "tabGoBack": "Tilbake",
+        "tabGoForward": "Fremover",
+        "tabRefresh": "Last på nytt",
+        "scrollToActiveTab": "Rull til aktiv fane",
+        "muteAllTabs": "Demp alle faner",
+        "collapseAll": "Skjul alle",
+        "createSnapshot": "Opprett øyeblikksbilde",
+        "themeModes": "Temamoduser",
+        "viewModes": "Visningsmoduser",
+        "showBy": "Vis etter",
+        "sortBy": "Sorter etter",
+        "switchPIP": "Veksle bilde-i-bilde",
+        "clearTabs": "Tøm faner"
+      },
+      "clearTabsBtn": {
+        "label": "Vis knapp for å tømme faner",
+        "description": "Når aktivert, vises knappen for å tømme faner",
+        "configure": "konfigurer",
+        "configureDesc": "Du kan kontrollere oppførselen når du tømmer faner",
         "close": "Lukk",
         "options": {
-          "toolbar_newtab": "Ny fane",
-          "toolbar_orderby": "Sorter etter",
-          "toolbar_showby": "Vis etter",
-          "toolbar_view": "visning",
-          "toolbar_colorMode": "Fargemodus",
-          "toolbar_muteAllTabs": "Demp alle faner som lager lyd",
-          "toolbar_scrollToActiveTab": "Rull til aktiv fane"
-        }
+          "createSnapshot": "Opprett øyeblikksbilde før tømming",
+          "closeInactiveTabs": "Lukk inaktive faner",
+          "closeDiscardTabs": "Lukk forkastede faner",
+          "skipSoundTabs": "Hopp over faner som spiller lyd",
+          "skipCurrentTab": "Hopp over gjeldende fane",
+          "confirm": "Vis bekreftelsesdialog"
+        },
+        "confirmClearTabs": "Tøm faner",
+        "confirmClearTabsMessage": "Er du sikker på at du vil tømme disse fanene? Denne handlingen kan ikke angres.",
+        "cancel": "Avbryt",
+        "confirm": "Bekreft"
       },
       "tabNav": {
         "label": "Vis fane navigasjonslinje",
@@ -137,6 +166,7 @@
         "createTabPanel": "Opprett fanepanel",
         "tabPanels": "Fanepaneler",
         "switchPIP": "Bytt bilde-i-bilde",
+        "clearTabs": "Tøm faner",
         "pinToToolbarReminder": "Fest utvidelsen til verktøylinjen før du fjerner denne navigasjonen."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Aktiver Kontinuerlig Avspilling",
         "description": "Kontinuerlig avspilling: Bilde-i-Bilde-vinduet lukkes ikke og spiller automatisk neste episode etter at videoen er ferdig. Denne funksjonen krever nettstedstøtte."
+      },
+      "advancedPipShowTitle": {
+        "label": "Vis tittel i Avansert Bilde-i-Bilde-spiller",
+        "description": "Når aktivert, vil sidetittelen vises i den Avanserte Bilde-i-Bilde-spilleren"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Eksportering mislyktes"
       }
     },
-    "SyncToCloud": {
-      "label": "Synkroniser til skyen",
-      "SyncNow": "Synkroniser nå",
-      "SyncNowWithGoogleDrive": "Synkroniser nå med Google Drive",
-      "SyncNowWithDropbox": "Synkroniser nå med Dropbox",
-      "SyncNowWithOneDrive": "Synkroniser nå med OneDrive",
-      "Synchronizing": "Synkroniserer...",
-      "SyncedSuccessfully": "Synkronisert vellykket",
-      "SyncFailed": "Synkronisering mislyktes",
-      "LoginRequired": "Innlogging kreves",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synkroniser konfigurasjoner",
-        "description": "Velg hvordan du vil synkronisere denne utvidelsens konfigurasjoner.",
-        "disabled": "Deaktivert",
-        "uploadOnly": "Last opp bare",
-        "downloadOnly": "Last ned bare",
-        "staySynchronized": "Forbli synkronisert"
+    "syncToCloud": {
+      "title": "Synkroniseringsinnstillinger",
+      "setLocalPasswordTitle": "Sett Lokalt Passord",
+      "setLocalPasswordDescription": "For å kryptere og beskytte synkroniseringsdataene dine, vennligst sett et krypteringspassord. Dette passordet vil ikke bli overført til oss. Du må sette det samme passordet på andre nettlesere for å synkronisere. Sørg for å huske det.",
+      "passwordError": "Passordet må være minst 6 tegn langt og inneholde både tall og bokstaver",
+      "save": "Lagre og Fortsett",
+      "cancel": "Avbryt",
+      "doNotUseLocalPassword": "Bruk standard kryptering",
+      "changeLocalPassword": "Endre lokalt passord",
+      "changeLocalPasswordDesc": "Tilbakestilling av det lokale passordet vil ugyldiggjøre tidligere synkroniserte data. Dette passordet brukes til å kryptere og beskytte synkroniseringsdataene dine. Passordet vil ikke bli overført til oss. Du må sette det samme passordet på andre nettlesere for å synkronisere. Vennligst sett det nøye!",
+      "deviceName": "Enhetsnavn",
+      "deviceNameDescription": "Sett et lett gjenkjennelig navn for denne enheten for å skille den under fler-enhetssynkronisering",
+      "deviceId": "Enhets-ID",
+      "syncNow": "Synkroniser Nå",
+      "lastSyncTime": "Siste Synkroniseringstid",
+      "uploadStatus": "Opplastingsstatus",
+      "downloadStatus": "Nedlastingsstatus",
+      "notSynced": "Ikke Synkronisert",
+      "success": "Vellykket",
+      "failed": "Mislyktes",
+      "mode": {
+        "title": "Synkroniseringsmodus",
+        "description": "Velg hvordan data synkroniseres mellom enheter",
+        "modes": {
+          "disabled": "Deaktivert",
+          "uploadOnly": "Kun Opplasting",
+          "downloadOnly": "Kun Nedlasting",
+          "staySynchronized": "Forbli Synkronisert"
+        }
       },
-      "SyncTabs": {
-        "label": "Synkroniser faner",
-        "description": "Velg hvordan du vil synkronisere fane data, unntatt private data som informasjonskapsler og personlig informasjon.",
-        "disabled": "Deaktivert",
-        "uploadOnly": "Last opp bare",
-        "downloadOnly": "Last ned bare",
-        "staySynchronized": "Forbli synkronisert"
+      "providers": {
+        "title": "Synkroniseringsleverandører",
+        "description": "Velg og konfigurer tjenesteleverandørene for datasynkronisering",
+        "defaultProvider": "Standard Synkroniseringsleverandør",
+        "close": "Lukk",
+        "save": "Lagre",
+        "configure": "Konfigurer",
+        "authorize": "Autoriser",
+        "providers": {
+          "custom": {
+            "title": "Skytjeneste",
+            "enabled": "Aktivert"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Åpne eller lukk faner synkront",
-        "description": "Når aktivert, vil åpning eller lukking av faner i forskjellige nettlesere bli synkronisert. Dette gjelder bare når alternativet 'forbli synkronisert' er aktivt",
-        "OpenOrCloseTabsSynchronouslyWarning": "Hvis du logger inn på samme konto i to nettlesere samtidig og slår på dette alternativet, vil åpning eller lukking av faner i en nettleser utføre samme operasjon i den andre nettleseren. Hvis nettstedet forbyr gjentatte pålogginger med samme konto, kan det oppstå unntak."
+      "dataOptions": {
+        "title": "Alternativer for Datasynkronisering",
+        "description": "Velg hvilke typer data som skal synkroniseres",
+        "openedTabs": {
+          "title": "Åpne Faner",
+          "enabled": "Synkroniser Åpne Faner"
+        },
+        "settings": {
+          "title": "Innstillinger",
+          "enabled": "Synkroniser Innstillinger"
+        },
+        "siteConfigs": {
+          "title": "Nettstedsinnstillinger",
+          "enabled": "Synkroniser Nettstedsinnstillinger"
+        },
+        "quickAccess": {
+          "title": "Hurtigtilgang",
+          "enabled": "Synkroniser Hurtigtilgang"
+        },
+        "recentClosedTabs": {
+          "title": "Nylig Lukkede Faner",
+          "enabled": "Synkroniser Nylig Lukkede Faner"
+        },
+        "windowTabs": {
+          "title": "Vinduer, Fanegrupper og Faner",
+          "enabled": "Synkroniser Fanehistorikk",
+          "close": "Lukk",
+          "save": "Lagre",
+          "syncAfterAction": "Handling Etter Synkronisering",
+          "syncAfterActionTitle": "Velg hvordan du skal håndtere etter synkronisering",
+          "applyModes": {
+            "append": {
+              "title": "Legg Til Modus",
+              "description": "Hvis det nåværende vinduet har færre enn 5 faner, vil de synkroniserte fanene bli lagt til på slutten av det nåværende vinduet. Hvis flere vinduer er synkronisert, vil fanene fra det første vinduet bli slått sammen med det nåværende vinduet, og andre vinduer vil bli opprettet som separate nye vinduer."
+            },
+            "new": {
+              "title": "Nytt Vindu",
+              "description": "Åpne de synkroniserte fanene i et nytt vindu, og behold de eksisterende fanene uendret"
+            },
+            "replace": {
+              "title": "Erstatt Modus",
+              "description": "Lukk eksisterende faner og åpne de synkroniserte fanene i et nytt vindu"
+            },
+            "createSnapshot": {
+              "title": "Opprett Øyeblikksbilde",
+              "description": "Lagre de synkroniserte fanene som et nytt øyeblikksbilde"
+            }
+          },
+          "moreOptions": "Avanserte Alternativer",
+          "optionsTitle": "Innstillinger for Fanesynkronisering",
+          "skipLastWindow": "Ikke Synkroniser Når Siste Vindu Lukkes",
+          "skipLastWindowDescription": "Pause synkronisering når det siste vinduet lukkes for å tillate gjenoppretting av nylige faner på andre enheter. Hvis dette alternativet er deaktivert, vil synkronisering utføres umiddelbart, og andre enheter vil ikke kunne gjenopprette disse fanene.",
+          "debounceMs": "Synkroniseringsforsinkelse",
+          "debounceMsDescription": "Angi hvor mange sekunder du vil vente etter en faneendring før synkronisering for å unngå for hyppige synkroniseringsoperasjoner"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synkroniser private data",
-        "description": "Velg hvordan du vil synkronisere private data, for eksempel nettstedets informasjonskapsler, webside lokal lagringsdata, SessionStorage data, etc. Data vil bli kryptert før synkronisering.",
-        "disabled": "Deaktivert",
-        "uploadOnly": "Last opp bare",
-        "downloadOnly": "Last ned bare",
-        "staySynchronized": "Forbli synkronisert"
+      "globalTriggers": {
+        "title": "Globale Synkroniseringstriggere",
+        "description": "Konfigurer når globale synkroniseringsoperasjoner skal utløses",
+        "onStartup": "Når nettleseren starter for første gang"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Innebygde PDF-visningssider",
         "newTabPage": "Nye fanesider (som starter med chrome://newtab/ eller edge://newtab/ eller lignende)"
       }
+    },
+    "general": {
+      "title": "Generell",
+      "description": "",
+      "accountInfo": {
+        "label": "Kontoinformasjon",
+        "currentPlan": "Nåværende plan",
+        "subscribePremium": "Abonner på Premium",
+        "manageAccount": "Administrer konto",
+        "logout": "Logg ut",
+        "notLoggedIn": "Ikke logget inn",
+        "signIn": "Logg inn",
+        "free": "Gratis",
+        "premium": "Premium",
+        "premiumEndsAt": "Din Premium-plan avsluttes {{date}}",
+        "trialEndsAt": "Din Premium-prøveperiode avsluttes {{date}}",
+        "signInForPremium": "Logg inn for å få Premium",
+        "trialEndsAndMembershipStarts": "Din prøveperiode avsluttes {{date}}. Etter at prøveperioden avsluttes, vil ditt offisielle medlemskap automatisk tre i kraft, og alle fordeler vil forbli uendret.",
+        "lifetimeMembership": "Livstidsmedlemskap",
+        "manageSubscription": "Administrer abonnement"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Opprett øyeblikksbilde",
     "exportSnapshot": "Eksporter øyeblikksbilde",
     "restoreWindowSize": "Gjenopprett vindusposisjon og størrelse",
+    "restoreGroups": "Gjenopprett grupper",
     "openAllWindows": "Åpne alle vinduer",
     "openSelectedInNewWindow": "Åpne valgte i nytt vindu",
     "openSelectedInCurrentWindow": "Åpne valgte i gjeldende vindu",

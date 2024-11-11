@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Nedtelling oppdatering"
+  },
+  "premium_feature_trial": {
+    "message": "Du prøver Premium-funksjonene"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Prøveperioden for avansert bilde-i-bilde er utløpt. Byttet til standard bilde-i-bilde-modus. For å fortsette å bruke avanserte bilde-i-bilde-funksjoner, vennligst oppgrader til Premium."
+  },
+  "do_not_show_again": {
+    "message": "Ikke vis igjen"
+  },
+  "upgrade_to_premium": {
+    "message": "Oppgrader til Premium"
   }
 }

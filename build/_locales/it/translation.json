@@ -116,6 +116,7 @@
   "Donation": "Donazione",
   "EarlyBirdDiscount": "Sconto Early Bird",
   "SortTabsByDomain": "Ordina schede per dominio",
+  "sortTabsByUrl": "Ordina schede per URL",
   "CurrentActiveTab": "Scheda attiva corrente",
   "ScrollToActiveTab": "Scorri alla scheda attiva",
   "MuteAllTabsMakingSounds": "Disattiva audio di tutte le schede che emettono suoni",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Aggiorna titolo pagina",
   "ExactMatch": "Corrispondenza esatta",
   "ContainsMatch": "Corrispondenza parziale",
-  "RenameTitle": "Rinomina titolo"
+  "RenameTitle": "Rinomina titolo",
+  "premium_feature_required": "Questa è una funzionalità premium, devi effettuare l'upgrade all'Edizione Premium per utilizzarla",
+  "premium_feature": "Funzionalità Premium",
+  "upgrade_to_premium": "Passa a Premium",
+  "login_required": "Login Richiesto",
+  "login": "Accedi"
 }

@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "Hiển thị thanh công cụ",
-        "description": "Khi được bật, thanh công cụ sẽ được hiển thị",
-        "moreOptions": "Tùy chọn khác",
-        "moreOptionsDescription": "Bạn có thể kiểm soát các biểu tượng nào xuất hiện trên thanh công cụ.",
-        "moreOptionsHideLabel": "Ẩn nhãn biểu tượng thanh công cụ",
+        "description": "Khi bật, thanh công cụ sẽ được hiển thị",
+        "configure": "Cấu hình",
+        "configureDesc": "Cấu hình thanh công cụ",
+        "enabledNavs": "Điều hướng đã bật",
+        "disabledNavs": "Điều hướng đã tắt (có sẵn)",
+        "showLabel": "Hiển thị nhãn",
+        "close": "Đóng",
+        "save": "Lưu",
+        "left": "Trái",
+        "right": "Phải",
+        "newTab": "Thẻ mới",
+        "tabGoBack": "Quay lại",
+        "tabGoForward": "Tiến tới",
+        "tabRefresh": "Tải lại",
+        "scrollToActiveTab": "Cuộn đến thẻ đang hoạt động",
+        "muteAllTabs": "Tắt âm tất cả thẻ",
+        "collapseAll": "Thu gọn tất cả",
+        "createSnapshot": "Tạo ảnh chụp",
+        "themeModes": "Chế độ giao diện",
+        "viewModes": "Chế độ xem",
+        "showBy": "Hiển thị theo",
+        "sortBy": "Sắp xếp theo",
+        "switchPIP": "Bật/tắt chế độ hình trong hình",
+        "clearTabs": "Xóa thẻ"
+      },
+      "clearTabsBtn": {
+        "label": "Hiển thị nút xóa thẻ",
+        "description": "Khi bật, nút xóa thẻ sẽ được hiển thị",
+        "configure": "cấu hình",
+        "configureDesc": "Bạn có thể kiểm soát hành vi khi xóa thẻ",
         "close": "Đóng",
         "options": {
-          "toolbar_newtab": "Thẻ mới",
-          "toolbar_orderby": "Sắp xếp theo",
-          "toolbar_showby": "Hiển thị theo",
-          "toolbar_view": "xem",
-          "toolbar_colorMode": "Chế độ màu",
-          "toolbar_muteAllTabs": "Tắt âm thanh tất cả các thẻ",
-          "toolbar_scrollToActiveTab": "Cuộn đến thẻ đang hoạt động"
-        }
+          "createSnapshot": "Tạo ảnh chụp trước khi xóa",
+          "closeInactiveTabs": "Đóng các thẻ không hoạt động",
+          "closeDiscardTabs": "Đóng các thẻ đã loại bỏ",
+          "skipSoundTabs": "Bỏ qua các thẻ đang phát âm thanh",
+          "skipCurrentTab": "Bỏ qua thẻ hiện tại",
+          "confirm": "Hiển thị hộp thoại xác nhận"
+        },
+        "confirmClearTabs": "Xóa Thẻ",
+        "confirmClearTabsMessage": "Bạn có chắc chắn muốn xóa những thẻ này không? Hành động này không thể hoàn tác.",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận"
       },
       "tabNav": {
         "label": "Hiển thị thanh điều hướng thẻ",
@@ -137,6 +166,7 @@
         "createTabPanel": "Tạo Bảng Thẻ",
         "tabPanels": "Bảng Thẻ",
         "switchPIP": "Chuyển Đổi Chế Độ Hình Trong Hình",
+        "clearTabs": "Xóa Các Thẻ",
         "pinToToolbarReminder": "Hãy ghim tiện ích vào thanh công cụ trước khi xóa điều hướng này."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Bật Phát Liên Tục",
         "description": "Phát liên tục: Cửa sổ Hình trong Hình không đóng và tự động phát tập tiếp theo sau khi video kết thúc. Tính năng này yêu cầu hỗ trợ từ trang web."
+      },
+      "advancedPipShowTitle": {
+        "label": "Hiển thị tiêu đề trong trình phát Hình trong Hình Nâng cao",
+        "description": "Khi được bật, tiêu đề trang sẽ được hiển thị trong trình phát Hình trong Hình Nâng cao"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Xuất thất bại"
       }
     },
-    "SyncToCloud": {
-      "label": "Đồng bộ lên đám mây",
-      "SyncNow": "Đồng bộ ngay",
-      "SyncNowWithGoogleDrive": "Đồng bộ ngay với Google Drive",
-      "SyncNowWithDropbox": "Đồng bộ ngay với Dropbox",
-      "SyncNowWithOneDrive": "Đồng bộ ngay với OneDrive",
-      "Synchronizing": "Đang đồng bộ...",
-      "SyncedSuccessfully": "Đồng bộ thành công",
-      "SyncFailed": "Đồng bộ thất bại",
-      "LoginRequired": "Yêu cầu đăng nhập",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Đồng bộ cấu hình",
-        "description": "Chọn cách đồng bộ cấu hình của tiện ích này.",
-        "disabled": "Đã tắt",
-        "uploadOnly": "Chỉ tải lên",
-        "downloadOnly": "Chỉ tải xuống",
-        "staySynchronized": "Giữ đồng bộ"
+    "syncToCloud": {
+      "title": "Đồng bộ hóa cài đặt",
+      "setLocalPasswordTitle": "Đặt mật khẩu cục bộ",
+      "setLocalPasswordDescription": "Để mã hóa và bảo vệ dữ liệu đồng bộ của bạn, vui lòng đặt mật khẩu mã hóa. Mật khẩu này sẽ không được truyền cho chúng tôi. Bạn phải đặt cùng một mật khẩu trên các trình duyệt khác để đồng bộ hóa. Hãy chắc chắn rằng bạn nhớ nó.",
+      "passwordError": "Mật khẩu phải dài ít nhất 6 ký tự và chứa cả số và chữ cái",
+      "save": "Lưu và tiếp tục",
+      "cancel": "Hủy",
+      "doNotUseLocalPassword": "Sử dụng mã hóa mặc định",
+      "changeLocalPassword": "Thay đổi mật khẩu cục bộ",
+      "changeLocalPasswordDesc": "Đặt lại mật khẩu cục bộ sẽ làm mất hiệu lực dữ liệu đã đồng bộ trước đó. Mật khẩu này được sử dụng để mã hóa và bảo vệ dữ liệu đồng bộ của bạn. Mật khẩu sẽ không được truyền cho chúng tôi. Bạn phải đặt cùng một mật khẩu trên các trình duyệt khác để đồng bộ hóa. Vui lòng đặt nó cẩn thận!",
+      "deviceName": "Tên thiết bị",
+      "deviceNameDescription": "Đặt tên dễ nhận biết cho thiết bị này để phân biệt trong quá trình đồng bộ hóa nhiều thiết bị",
+      "deviceId": "ID thiết bị",
+      "syncNow": "Đồng bộ ngay",
+      "lastSyncTime": "Thời gian đồng bộ cuối cùng",
+      "uploadStatus": "Trạng thái tải lên",
+      "downloadStatus": "Trạng thái tải xuống",
+      "notSynced": "Chưa đồng bộ",
+      "success": "Thành công",
+      "failed": "Thất bại",
+      "mode": {
+        "title": "Chế độ đồng bộ",
+        "description": "Chọn cách dữ liệu được đồng bộ hóa giữa các thiết bị",
+        "modes": {
+          "disabled": "Vô hiệu hóa",
+          "uploadOnly": "Chỉ tải lên",
+          "downloadOnly": "Chỉ tải xuống",
+          "staySynchronized": "Giữ đồng bộ hóa"
+        }
       },
-      "SyncTabs": {
-        "label": "Đồng bộ thẻ",
-        "description": "Chọn cách đồng bộ dữ liệu thẻ, ngoại trừ dữ liệu riêng tư như cookie và thông tin cá nhân.",
-        "disabled": "Đã tắt",
-        "uploadOnly": "Chỉ tải lên",
-        "downloadOnly": "Chỉ tải xuống",
-        "staySynchronized": "Giữ đồng bộ"
+      "providers": {
+        "title": "Nhà cung cấp đồng bộ",
+        "description": "Chọn và cấu hình các nhà cung cấp dịch vụ cho đồng bộ dữ liệu",
+        "defaultProvider": "Nhà cung cấp đồng bộ mặc định",
+        "close": "Đóng",
+        "save": "Lưu",
+        "configure": "Cấu hình",
+        "authorize": "Ủy quyền",
+        "providers": {
+          "custom": {
+            "title": "Dịch vụ đám mây",
+            "enabled": "Đã bật"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Mở hoặc đóng thẻ đồng bộ",
-        "description": "Khi được bật, việc mở hoặc đóng thẻ trong các trình duyệt khác nhau sẽ được đồng bộ. Điều này chỉ áp dụng khi tùy chọn 'giữ đồng bộ' đang hoạt động",
-        "OpenOrCloseTabsSynchronouslyWarning": "Nếu bạn đăng nhập vào cùng một tài khoản trong hai trình duyệt cùng một lúc và bật tùy chọn này, việc mở hoặc đóng thẻ trong một trình duyệt sẽ thực hiện cùng một thao tác trong trình duyệt khác. Nếu trang web cấm đăng nhập lặp lại với cùng một tài khoản, có thể xảy ra ngoại lệ."
+      "dataOptions": {
+        "title": "Tùy chọn đồng bộ dữ liệu",
+        "description": "Chọn các loại dữ liệu để đồng bộ",
+        "openedTabs": {
+          "title": "Các tab đã mở",
+          "enabled": "Đồng bộ các tab đã mở"
+        },
+        "settings": {
+          "title": "Cài đặt",
+          "enabled": "Đồng bộ cài đặt"
+        },
+        "siteConfigs": {
+          "title": "Cấu hình trang web",
+          "enabled": "Đồng bộ cấu hình trang web"
+        },
+        "quickAccess": {
+          "title": "Truy cập nhanh",
+          "enabled": "Đồng bộ truy cập nhanh"
+        },
+        "recentClosedTabs": {
+          "title": "Các tab đã đóng gần đây",
+          "enabled": "Đồng bộ các tab đã đóng gần đây"
+        },
+        "windowTabs": {
+          "title": "Cửa sổ, nhóm tab và các tab",
+          "enabled": "Đồng bộ lịch sử tab",
+          "close": "Đóng",
+          "save": "Lưu",
+          "syncAfterAction": "Hành động sau khi đồng bộ",
+          "syncAfterActionTitle": "Chọn cách xử lý sau khi đồng bộ",
+          "applyModes": {
+            "append": {
+              "title": "Chế độ thêm",
+              "description": "Nếu cửa sổ hiện tại có ít hơn 5 tab, các tab đồng bộ sẽ được thêm vào cuối cửa sổ hiện tại. Nếu nhiều cửa sổ được đồng bộ, các tab từ cửa sổ đầu tiên sẽ được hợp nhất vào cửa sổ hiện tại, và các cửa sổ khác sẽ được tạo thành các cửa sổ mới riêng biệt."
+            },
+            "new": {
+              "title": "Cửa sổ mới",
+              "description": "Mở các tab đồng bộ trong một cửa sổ mới, giữ nguyên các tab hiện có"
+            },
+            "replace": {
+              "title": "Chế độ thay thế",
+              "description": "Đóng các tab hiện có và mở các tab đồng bộ trong một cửa sổ mới"
+            },
+            "createSnapshot": {
+              "title": "Tạo ảnh chụp nhanh",
+              "description": "Lưu các tab đồng bộ như một ảnh chụp nhanh mới"
+            }
+          },
+          "moreOptions": "Tùy chọn nâng cao",
+          "optionsTitle": "Cài đặt đồng bộ tab",
+          "skipLastWindow": "Không đồng bộ khi đóng cửa sổ cuối cùng",
+          "skipLastWindowDescription": "Tạm dừng đồng bộ khi cửa sổ cuối cùng được đóng để cho phép khôi phục các tab gần đây trên các thiết bị khác. Nếu tùy chọn này bị vô hiệu hóa, đồng bộ sẽ thực hiện ngay lập tức và các thiết bị khác sẽ không thể khôi phục các tab này.",
+          "debounceMs": "Độ trễ đồng bộ",
+          "debounceMsDescription": "Đặt số giây chờ sau khi thay đổi tab trước khi đồng bộ để tránh các hoạt động đồng bộ quá thường xuyên"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Đồng bộ dữ liệu riêng tư",
-        "description": "Chọn cách đồng bộ dữ liệu riêng tư, chẳng hạn như cookie trang web, dữ liệu localstorage của trang web, dữ liệu SessionStorage, v.v. Dữ liệu sẽ được mã hóa trước khi đồng bộ.",
-        "disabled": "Đã tắt",
-        "uploadOnly": "Chỉ tải lên",
-        "downloadOnly": "Chỉ tải xuống",
-        "staySynchronized": "Giữ đồng bộ"
+      "globalTriggers": {
+        "title": "Kích hoạt đồng bộ toàn cầu",
+        "description": "Cấu hình khi nào kích hoạt các hoạt động đồng bộ toàn cầu",
+        "onStartup": "Khi trình duyệt khởi động lần đầu tiên"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Các trang trình xem PDF tích hợp",
         "newTabPage": "Các trang Tab mới (bắt đầu bằng chrome://newtab/ hoặc edge://newtab/ hoặc tương tự)"
       }
+    },
+    "general": {
+      "title": "Chung",
+      "description": "",
+      "accountInfo": {
+        "label": "Thông tin tài khoản",
+        "currentPlan": "Gói hiện tại",
+        "subscribePremium": "Đăng ký Premium",
+        "manageAccount": "Quản lý tài khoản",
+        "logout": "Đăng xuất",
+        "notLoggedIn": "Chưa đăng nhập",
+        "signIn": "Đăng nhập",
+        "free": "Miễn phí",
+        "premium": "Cao cấp",
+        "premiumEndsAt": "Gói Premium của bạn sẽ kết thúc vào {{date}}",
+        "trialEndsAt": "Thử nghiệm Premium của bạn sẽ kết thúc vào {{date}}",
+        "signInForPremium": "Đăng nhập để nhận Premium",
+        "trialEndsAndMembershipStarts": "Thời gian thử nghiệm của bạn sẽ kết thúc vào {{date}}. Sau khi thử nghiệm kết thúc, tư cách thành viên chính thức của bạn sẽ tự động có hiệu lực và tất cả các quyền lợi sẽ không thay đổi.",
+        "lifetimeMembership": "Thành viên trọn đời",
+        "manageSubscription": "Quản lý đăng ký"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Tạo ảnh chụp nhanh",
     "exportSnapshot": "Xuất ảnh chụp nhanh",
     "restoreWindowSize": "Khôi phục vị trí và kích thước cửa sổ",
+    "restoreGroups": "Khôi phục nhóm",
     "openAllWindows": "Mở tất cả cửa sổ",
     "openSelectedInNewWindow": "Mở mục đã chọn trong cửa sổ mới",
     "openSelectedInCurrentWindow": "Mở mục đã chọn trong cửa sổ hiện tại",

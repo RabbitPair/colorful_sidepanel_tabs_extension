@@ -116,6 +116,7 @@
   "Donation": "Bağış",
   "EarlyBirdDiscount": "Erken Kalkan İndirimi",
   "SortTabsByDomain": "Sekmeleri Alana Göre Sırala",
+  "sortTabsByUrl": "Sekmeleri URL'ye Göre Sırala",
   "CurrentActiveTab": "Mevcut Aktif Sekme",
   "ScrollToActiveTab": "Aktif Sekmeye Kaydır",
   "MuteAllTabsMakingSounds": "Ses Çıkaran Tüm Sekmeleri Sessize Al",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Sayfa Başlığını Güncelle",
   "ExactMatch": "Tam Eşleşme",
   "ContainsMatch": "İçeren Eşleşme",
-  "RenameTitle": "Başlığı Yeniden Adlandır"
+  "RenameTitle": "Başlığı Yeniden Adlandır",
+  "premium_feature_required": "Bu bir premium özelliktir, kullanmak için Premium Sürüme yükseltmeniz gerekir",
+  "premium_feature": "Premium Özellik",
+  "upgrade_to_premium": "Premium'a Yükselt",
+  "login_required": "Giriş Gerekli",
+  "login": "Giriş Yap"
 }

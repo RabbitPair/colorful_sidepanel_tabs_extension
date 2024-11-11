@@ -6,7 +6,7 @@
     "message": "VertiTab"
   },
   "appDescription": {
-    "message": "在側面板管理瀏覽器標籤頁，具有可配置、美化和許多其他功能"
+    "message": "在側邊欄管理瀏覽器標籤頁，具有可配置、美化和許多其他功能"
   },
   "openSidePanel": {
     "message": "打開側邊欄"
@@ -15,10 +15,10 @@
     "message": "關閉側邊欄"
   },
   "disableSidebar": {
-    "message": "禁用側邊欄"
+    "message": "停用側邊欄"
   },
   "disableSidebarAlert": {
-    "message": "您確定要禁用所有頁面上的側邊欄嗎？要重新啟用，請轉到設置頁面。"
+    "message": "您確定要停用所有頁面上的側邊欄嗎？要重新啟用，請前往設置頁面。"
   },
   "toggleSidebarPosition": {
     "message": "切換側邊欄位置"
@@ -27,10 +27,10 @@
     "message": "新聞與資訊"
   },
   "group_videoMovies": {
-    "message": "視頻與電影"
+    "message": "影片與電影"
   },
   "group_liveStreaming": {
-    "message": "直播與流媒體"
+    "message": "直播與串流"
   },
   "group_entertainmentGames": {
     "message": "遊戲與娛樂"
@@ -48,7 +48,7 @@
     "message": "電子商務與購物"
   },
   "group_technologyDigital": {
-    "message": "科技與數碼"
+    "message": "科技與數位"
   },
   "group_sportsFitness": {
     "message": "運動與健身"
@@ -72,7 +72,7 @@
     "message": "烹飪與美食"
   },
   "group_petCare": {
-    "message": "寵物護理"
+    "message": "寵物照護"
   },
   "group_legalConsultation": {
     "message": "法律諮詢"
@@ -111,7 +111,7 @@
     "message": "博客文章"
   },
   "group_onlineTools": {
-    "message": "在線工具"
+    "message": "線上工具"
   },
   "group_freeResources": {
     "message": "免費資源"
@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "倒數刷新"
+  },
+  "premium_feature_trial": {
+    "message": "您正在試用進階功能"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "進階畫中畫試用期已結束。已切換至標準畫中畫模式。如需繼續使用進階畫中畫功能，請升級至進階版。"
+  },
+  "do_not_show_again": {
+    "message": "不再顯示"
+  },
+  "upgrade_to_premium": {
+    "message": "升級至進階版"
   }
 }

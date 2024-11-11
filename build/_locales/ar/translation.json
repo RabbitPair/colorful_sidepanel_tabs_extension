@@ -116,6 +116,7 @@
   "Donation": "تبرع",
   "EarlyBirdDiscount": "خصم الطيور المبكرة",
   "SortTabsByDomain": "ترتيب علامات التبويب حسب النطاق",
+  "sortTabsByUrl": "ترتيب علامات التبويب حسب الرابط",
   "CurrentActiveTab": "علامة التبويب النشطة الحالية",
   "ScrollToActiveTab": "التمرير إلى علامة التبويب النشطة",
   "MuteAllTabsMakingSounds": "كتم جميع علامات التبويب التي تصدر أصواتًا",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "تحديث عنوان الصفحة",
   "ExactMatch": "تطابق تام",
   "ContainsMatch": "يحتوي على تطابق",
-  "RenameTitle": "إعادة تسمية العنوان"
+  "RenameTitle": "إعادة تسمية العنوان",
+  "premium_feature_required": "هذه ميزة مميزة، تحتاج إلى الترقية إلى الإصدار المميز لاستخدامها",
+  "premium_feature": "ميزة مميزة",
+  "upgrade_to_premium": "الترقية إلى المميز",
+  "login_required": "تسجيل الدخول مطلوب",
+  "login": "تسجيل الدخول"
 }

@@ -3,7 +3,7 @@
   "_execute_action": "Activer cette extension",
   "openSidePanel": "Ouvrir le panneau latéral",
   "settings": {
-    "premiumEditionOnly": "Uniquement l'édition premium",
+    "premiumEditionOnly": "Réservé à l'édition premium",
     "resetCurrentPageSettings": "Réinitialiser les paramètres de la page actuelle",
     "modules": {
       "appearance": "Apparence",
@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "Afficher la barre d'outils",
-        "description": "Lorsqu'il est activé, la barre d'outils est affichée",
-        "moreOptions": "Plus d'options",
-        "moreOptionsDescription": "Vous pouvez contrôler quelles icônes apparaissent sur la barre d'outils.",
-        "moreOptionsHideLabel": "Masquer les étiquettes des icônes de la barre d'outils",
+        "description": "Lorsqu'elle est activée, la barre d'outils est affichée",
+        "configure": "Configurer",
+        "configureDesc": "Configurer la barre d'outils",
+        "enabledNavs": "Navigations activées",
+        "disabledNavs": "Navigations désactivées disponibles",
+        "showLabel": "Afficher les étiquettes",
+        "close": "Fermer",
+        "save": "Enregistrer",
+        "left": "Gauche",
+        "right": "Droite",
+        "newTab": "Nouvel onglet",
+        "tabGoBack": "Retour",
+        "tabGoForward": "Avancer",
+        "tabRefresh": "Actualiser",
+        "scrollToActiveTab": "Défiler jusqu'à l'onglet actif",
+        "muteAllTabs": "Couper le son de tous les onglets",
+        "collapseAll": "Tout réduire",
+        "createSnapshot": "Créer une capture",
+        "themeModes": "Modes de thème",
+        "viewModes": "Modes d'affichage",
+        "showBy": "Afficher par",
+        "sortBy": "Trier par",
+        "switchPIP": "Basculer l'image dans l'image",
+        "clearTabs": "Effacer les onglets"
+      },
+      "clearTabsBtn": {
+        "label": "Afficher le bouton de fermeture des onglets",
+        "description": "Lorsqu'il est activé, le bouton de fermeture des onglets est affiché",
+        "configure": "configurer",
+        "configureDesc": "Vous pouvez contrôler le comportement lors de la fermeture des onglets",
         "close": "Fermer",
         "options": {
-          "toolbar_newtab": "Nouvel onglet",
-          "toolbar_orderby": "Trier par",
-          "toolbar_showby": "Afficher par",
-          "toolbar_view": "vue",
-          "toolbar_colorMode": "Mode de couleur",
-          "toolbar_muteAllTabs": "Couper le son de tous les onglets",
-          "toolbar_scrollToActiveTab": "Faire défiler jusqu'à l'onglet actif"
-        }
+          "createSnapshot": "Créer une capture avant la fermeture",
+          "closeInactiveTabs": "Fermer les onglets inactifs",
+          "closeDiscardTabs": "Fermer les onglets abandonnés",
+          "skipSoundTabs": "Ignorer les onglets qui émettent du son",
+          "skipCurrentTab": "Ignorer l'onglet actuel",
+          "confirm": "Afficher une boîte de dialogue de confirmation"
+        },
+        "confirmClearTabs": "Fermer les onglets",
+        "confirmClearTabsMessage": "Êtes-vous sûr de vouloir fermer ces onglets ? Cette action ne peut pas être annulée.",
+        "cancel": "Annuler",
+        "confirm": "Confirmer"
       },
       "tabNav": {
         "label": "Afficher la barre de navigation des onglets",
@@ -137,6 +166,7 @@
         "createTabPanel": "Créer un panneau d'onglets",
         "tabPanels": "Panneaux d'onglets",
         "switchPIP": "Basculer en mode Image dans l'image",
+        "clearTabs": "Effacer les onglets",
         "pinToToolbarReminder": "Veuillez épingler l'extension à votre barre d'outils avant de supprimer cette navigation."
       },
       "buttonPosition": {
@@ -244,7 +274,7 @@
       },
       "sortBy": {
         "label": "Trier par",
-        "description": "Changer le tri par"
+        "description": "Changer l'ordre de tri"
       },
       "showFullUrl": {
         "label": "Afficher l'URL complète",
@@ -259,7 +289,7 @@
         "description": "Lorsqu'il est activé, les onglets épinglés seront affichés comme des icônes et non dans la liste"
       },
       "pinToQuickAccess": {
-        "label": "Afficher l'accès rapide",
+        "label": "Afficher dans l'accès rapide",
         "description": "Vous pouvez définir un onglet pour qu'il apparaisse dans l'accès rapide afin qu'il soit facile à trouver. Il suffit de faire un clic droit (ou un appui long) dessus et de sélectionner Épingler à l'accès rapide. Désépingler-le lorsque vous n'en avez plus besoin en faisant un clic droit (ou un appui long) dessus et en sélectionnant Supprimer de l'accès rapide. La différence avec les onglets épinglés est que l'accès rapide enregistre l'URL et ouvre un nouvel onglet à chaque fois qu'il est cliqué."
       },
       "selectFromHistory": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Activer la lecture continue",
         "description": "Lecture continue : La fenêtre d'image dans l'image ne se ferme pas et lit automatiquement l'épisode suivant après la fin de la vidéo. Cette fonctionnalité nécessite la prise en charge du site web."
+      },
+      "advancedPipShowTitle": {
+        "label": "Afficher le titre dans le lecteur Image dans l'image avancé",
+        "description": "Lorsqu'il est activé, le titre de la page sera affiché dans le lecteur Image dans l'image avancé"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Échec de l'exportation"
       }
     },
-    "SyncToCloud": {
-      "label": "Synchroniser avec le cloud",
-      "SyncNow": "Synchroniser maintenant",
-      "SyncNowWithGoogleDrive": "Synchroniser maintenant avec Google Drive",
-      "SyncNowWithDropbox": "Synchroniser maintenant avec Dropbox",
-      "SyncNowWithOneDrive": "Synchroniser maintenant avec OneDrive",
-      "Synchronizing": "Synchronisation...",
-      "SyncedSuccessfully": "Synchronisé avec succès",
-      "SyncFailed": "Échec de la synchronisation",
-      "LoginRequired": "Connexion requise",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synchroniser les configurations",
-        "description": "Choisissez comment synchroniser les configurations de cette extension.",
-        "disabled": "Désactivé",
-        "uploadOnly": "Télécharger uniquement",
-        "downloadOnly": "Télécharger uniquement",
-        "staySynchronized": "Rester synchronisé"
+    "syncToCloud": {
+      "title": "Paramètres de synchronisation",
+      "setLocalPasswordTitle": "Définir un mot de passe local",
+      "setLocalPasswordDescription": "Pour chiffrer et protéger vos données de synchronisation, veuillez définir un mot de passe de chiffrement. Ce mot de passe ne sera pas transmis à nous. Vous devez définir le même mot de passe sur d'autres navigateurs pour synchroniser. Assurez-vous de vous en souvenir.",
+      "passwordError": "Le mot de passe doit comporter au moins 6 caractères et contenir à la fois des chiffres et des lettres",
+      "save": "Enregistrer et continuer",
+      "cancel": "Annuler",
+      "doNotUseLocalPassword": "Utiliser le chiffrement par défaut",
+      "changeLocalPassword": "Changer le mot de passe local",
+      "changeLocalPasswordDesc": "La réinitialisation du mot de passe local invalidera les données précédemment synchronisées. Ce mot de passe est utilisé pour chiffrer et protéger vos données de synchronisation. Le mot de passe ne sera pas transmis à nous. Vous devez définir le même mot de passe sur d'autres navigateurs pour synchroniser. Veuillez le définir avec soin!",
+      "deviceName": "Nom de l'appareil",
+      "deviceNameDescription": "Définissez un nom facilement reconnaissable pour cet appareil afin de le distinguer lors de la synchronisation multi-appareils",
+      "deviceId": "ID de l'appareil",
+      "syncNow": "Synchroniser maintenant",
+      "lastSyncTime": "Dernière synchronisation",
+      "uploadStatus": "Statut de téléchargement",
+      "downloadStatus": "Statut de téléchargement",
+      "notSynced": "Non synchronisé",
+      "success": "Succès",
+      "failed": "Échec",
+      "mode": {
+        "title": "Mode de synchronisation",
+        "description": "Choisissez comment les données sont synchronisées entre les appareils",
+        "modes": {
+          "disabled": "Désactivé",
+          "uploadOnly": "Téléchargement uniquement",
+          "downloadOnly": "Téléchargement uniquement",
+          "staySynchronized": "Rester synchronisé"
+        }
       },
-      "SyncTabs": {
-        "label": "Synchroniser les onglets",
-        "description": "Choisissez comment synchroniser les données des onglets, à l'exclusion des données privées telles que les cookies et les informations personnelles.",
-        "disabled": "Désactivé",
-        "uploadOnly": "Télécharger uniquement",
-        "downloadOnly": "Télécharger uniquement",
-        "staySynchronized": "Rester synchronisé"
+      "providers": {
+        "title": "Fournisseurs de synchronisation",
+        "description": "Sélectionnez et configurez les fournisseurs de services pour la synchronisation des données",
+        "defaultProvider": "Fournisseur de synchronisation par défaut",
+        "close": "Fermer",
+        "save": "Enregistrer",
+        "configure": "Configurer",
+        "authorize": "Autoriser",
+        "providers": {
+          "custom": {
+            "title": "Service cloud",
+            "enabled": "Activé"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Ouvrir ou fermer les onglets de manière synchronisée",
-        "description": "Lorsqu'il est activé, l'ouverture ou la fermeture des onglets dans différents navigateurs sera synchronisée. Cela ne s'applique que lorsque l'option 'rester synchronisé' est active",
-        "OpenOrCloseTabsSynchronouslyWarning": "Si vous vous connectez au même compte dans deux navigateurs en même temps et activez cette option, l'ouverture ou la fermeture des onglets dans un navigateur effectuera la même opération dans l'autre navigateur. Si le site Web interdit les connexions répétées avec le même compte, des exceptions peuvent se produire."
+      "dataOptions": {
+        "title": "Options de synchronisation des données",
+        "description": "Sélectionnez les types de données à synchroniser",
+        "openedTabs": {
+          "title": "Onglets ouverts",
+          "enabled": "Synchroniser les onglets ouverts"
+        },
+        "settings": {
+          "title": "Paramètres",
+          "enabled": "Synchroniser les paramètres"
+        },
+        "siteConfigs": {
+          "title": "Configurations du site",
+          "enabled": "Synchroniser les configurations du site"
+        },
+        "quickAccess": {
+          "title": "Accès rapide",
+          "enabled": "Synchroniser l'accès rapide"
+        },
+        "recentClosedTabs": {
+          "title": "Onglets récemment fermés",
+          "enabled": "Synchroniser les onglets récemment fermés"
+        },
+        "windowTabs": {
+          "title": "Fenêtres, groupes d'onglets et onglets",
+          "enabled": "Synchroniser l'historique des onglets",
+          "close": "Fermer",
+          "save": "Enregistrer",
+          "syncAfterAction": "Action après synchronisation",
+          "syncAfterActionTitle": "Choisissez comment gérer après la synchronisation",
+          "applyModes": {
+            "append": {
+              "title": "Mode d'ajout",
+              "description": "Si la fenêtre actuelle a moins de 5 onglets, les onglets synchronisés seront ajoutés à la fin de la fenêtre actuelle. Si plusieurs fenêtres sont synchronisées, les onglets de la première fenêtre seront fusionnés dans la fenêtre actuelle, et d'autres fenêtres seront créées comme de nouvelles fenêtres séparées."
+            },
+            "new": {
+              "title": "Nouvelle fenêtre",
+              "description": "Ouvrez les onglets synchronisés dans une nouvelle fenêtre, en gardant les onglets existants inchangés"
+            },
+            "replace": {
+              "title": "Mode de remplacement",
+              "description": "Fermez les onglets existants et ouvrez les onglets synchronisés dans une nouvelle fenêtre"
+            },
+            "createSnapshot": {
+              "title": "Créer un instantané",
+              "description": "Enregistrez les onglets synchronisés comme un nouvel instantané"
+            }
+          },
+          "moreOptions": "Options avancées",
+          "optionsTitle": "Paramètres de synchronisation des onglets",
+          "skipLastWindow": "Ne pas synchroniser lorsque la dernière fenêtre se ferme",
+          "skipLastWindowDescription": "Suspendre la synchronisation lorsque la dernière fenêtre est fermée pour permettre la récupération des onglets récents sur d'autres appareils. Si cette option est désactivée, la synchronisation s'exécutera immédiatement et d'autres appareils ne pourront pas récupérer ces onglets.",
+          "debounceMs": "Délai de synchronisation",
+          "debounceMsDescription": "Définissez combien de secondes attendre après un changement d'onglet avant de synchroniser pour éviter des opérations de synchronisation trop fréquentes"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synchroniser les données privées",
-        "description": "Choisissez comment synchroniser les données privées, telles que les cookies de site Web, les données de stockage local de la page Web, les données de SessionStorage, etc. Les données seront cryptées avant la synchronisation.",
-        "disabled": "Désactivé",
-        "uploadOnly": "Télécharger uniquement",
-        "downloadOnly": "Télécharger uniquement",
-        "staySynchronized": "Rester synchronisé"
+      "globalTriggers": {
+        "title": "Déclencheurs de synchronisation globale",
+        "description": "Configurez quand déclencher les opérations de synchronisation globale",
+        "onStartup": "Lorsque le navigateur démarre pour la première fois"
       }
     },
     "alerts": {
@@ -888,14 +986,36 @@
         "pdfViewer": "Pages du visualiseur PDF intégré",
         "newTabPage": "Pages de nouvel onglet (commençant par chrome://newtab/ ou edge://newtab/ ou similaire)"
       }
+    },
+    "general": {
+      "title": "Général",
+      "description": "",
+      "accountInfo": {
+        "label": "Informations sur le compte",
+        "currentPlan": "Plan actuel",
+        "subscribePremium": "S'abonner à Premium",
+        "manageAccount": "Gérer le compte",
+        "logout": "Se déconnecter",
+        "notLoggedIn": "Non connecté",
+        "signIn": "Se connecter",
+        "free": "Gratuit",
+        "premium": "Premium",
+        "premiumEndsAt": "Votre plan Premium se terminera le {{date}}",
+        "trialEndsAt": "Votre essai Premium se terminera le {{date}}",
+        "signInForPremium": "Connectez-vous pour obtenir Premium",
+        "trialEndsAndMembershipStarts": "Votre période d'essai se terminera le {{date}}. Après la fin de l'essai, votre adhésion officielle prendra automatiquement effet, et tous les avantages resteront inchangés.",
+        "lifetimeMembership": "Adhésion à vie",
+        "manageSubscription": "Gérer l'abonnement"
+      }
     }
   },
   "snapshots": {
     "title": "Visionneuse de snapshots",
     "description": "Créer et gérer des snapshots.",
     "createSnapshot": "Créer un snapshot",
-    "exportSnapshot": "Exporter un snapshot",
+    "exportSnapshot": "Exporter le snapshot",
     "restoreWindowSize": "Restaurer la position et la taille de la fenêtre",
+    "restoreGroups": "Restaurer les groupes",
     "openAllWindows": "Ouvrir toutes les fenêtres",
     "openSelectedInNewWindow": "Ouvrir la sélection dans une nouvelle fenêtre",
     "openSelectedInCurrentWindow": "Ouvrir la sélection dans la fenêtre actuelle",

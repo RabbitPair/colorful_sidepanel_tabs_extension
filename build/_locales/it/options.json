@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "Mostra barra degli strumenti",
-        "description": "Quando abilitato, la barra degli strumenti viene visualizzata",
-        "moreOptions": "Altre opzioni",
-        "moreOptionsDescription": "Puoi controllare quali icone appaiono sulla barra degli strumenti.",
-        "moreOptionsHideLabel": "Nascondi etichette delle icone della barra degli strumenti",
+        "description": "Quando abilitata, la barra degli strumenti viene visualizzata",
+        "configure": "Configura",
+        "configureDesc": "Configura barra degli strumenti",
+        "enabledNavs": "Navigazioni abilitate",
+        "disabledNavs": "Navigazioni disabilitate disponibili",
+        "showLabel": "Mostra etichette",
+        "close": "Chiudi",
+        "save": "Salva",
+        "left": "Sinistra",
+        "right": "Destra",
+        "newTab": "Nuova scheda",
+        "tabGoBack": "Indietro",
+        "tabGoForward": "Avanti",
+        "tabRefresh": "Ricarica",
+        "scrollToActiveTab": "Scorri alla scheda attiva",
+        "muteAllTabs": "Silenzia tutte le schede",
+        "collapseAll": "Comprimi tutto",
+        "createSnapshot": "Crea istantanea",
+        "themeModes": "Modalità tema",
+        "viewModes": "Modalità visualizzazione",
+        "showBy": "Mostra per",
+        "sortBy": "Ordina per",
+        "switchPIP": "Attiva/disattiva picture-in-picture",
+        "clearTabs": "Pulisci schede"
+      },
+      "clearTabsBtn": {
+        "label": "Mostra pulsante pulizia schede",
+        "description": "Quando abilitato, viene visualizzato il pulsante per pulire le schede",
+        "configure": "configura",
+        "configureDesc": "Puoi controllare il comportamento durante la pulizia delle schede",
         "close": "Chiudi",
         "options": {
-          "toolbar_newtab": "Nuova scheda",
-          "toolbar_orderby": "Ordina per",
-          "toolbar_showby": "Mostra per",
-          "toolbar_view": "vista",
-          "toolbar_colorMode": "Modalità colore",
-          "toolbar_muteAllTabs": "Disattiva tutte le schede che emettono suoni",
-          "toolbar_scrollToActiveTab": "Scorri alla scheda attiva"
-        }
+          "createSnapshot": "Crea istantanea prima della pulizia",
+          "closeInactiveTabs": "Chiudi schede inattive",
+          "closeDiscardTabs": "Chiudi schede scartate",
+          "skipSoundTabs": "Salta schede che riproducono audio",
+          "skipCurrentTab": "Salta scheda corrente",
+          "confirm": "Mostra finestra di conferma"
+        },
+        "confirmClearTabs": "Pulisci Schede",
+        "confirmClearTabsMessage": "Sei sicuro di voler pulire queste schede? Questa azione non può essere annullata.",
+        "cancel": "Annulla",
+        "confirm": "Conferma"
       },
       "tabNav": {
         "label": "Mostra barra di navigazione delle schede",
@@ -137,6 +166,7 @@
         "createTabPanel": "Crea Pannello Schede",
         "tabPanels": "Pannelli Schede",
         "switchPIP": "Cambia Picture-in-Picture",
+        "clearTabs": "Pulisci Schede",
         "pinToToolbarReminder": "Per favore, aggiungi l'estensione alla barra degli strumenti prima di rimuovere questa navigazione."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Abilita riproduzione continua",
         "description": "Riproduzione continua: la finestra Immagine nell'immagine non si chiude e riproduce automaticamente l'episodio successivo dopo la fine del video. Questa funzione richiede il supporto del sito web."
+      },
+      "advancedPipShowTitle": {
+        "label": "Mostra titolo nel lettore Immagine nell'immagine avanzato",
+        "description": "Quando abilitato, il titolo della pagina verrà visualizzato nel lettore Immagine nell'immagine avanzato"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Esportazione fallita"
       }
     },
-    "SyncToCloud": {
-      "label": "Sincronizza con il cloud",
-      "SyncNow": "Sincronizza ora",
-      "SyncNowWithGoogleDrive": "Sincronizza ora con Google Drive",
-      "SyncNowWithDropbox": "Sincronizza ora con Dropbox",
-      "SyncNowWithOneDrive": "Sincronizza ora con OneDrive",
-      "Synchronizing": "Sincronizzazione in corso...",
-      "SyncedSuccessfully": "Sincronizzato con successo",
-      "SyncFailed": "Sincronizzazione fallita",
-      "LoginRequired": "Accesso richiesto",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sincronizza configurazioni",
-        "description": "Scegli come sincronizzare le configurazioni di questa estensione.",
-        "disabled": "Disabilitato",
-        "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo download",
-        "staySynchronized": "Rimani sincronizzato"
+    "syncToCloud": {
+      "title": "Sincronizza Impostazioni",
+      "setLocalPasswordTitle": "Imposta Password Locale",
+      "setLocalPasswordDescription": "Per crittografare e proteggere i tuoi dati di sincronizzazione, imposta una password di crittografia. Questa password non verrà trasmessa a noi. Devi impostare la stessa password su altri browser per sincronizzare. Assicurati di ricordarla.",
+      "passwordError": "La password deve essere lunga almeno 6 caratteri e contenere sia numeri che lettere",
+      "save": "Salva e Continua",
+      "cancel": "Annulla",
+      "doNotUseLocalPassword": "Usa crittografia predefinita",
+      "changeLocalPassword": "Cambia password locale",
+      "changeLocalPasswordDesc": "Reimpostare la password locale invaliderà i dati sincronizzati in precedenza. Questa password viene utilizzata per crittografare e proteggere i tuoi dati di sincronizzazione. La password non verrà trasmessa a noi. Devi impostare la stessa password su altri browser per sincronizzare. Si prega di impostarla con attenzione!",
+      "deviceName": "Nome Dispositivo",
+      "deviceNameDescription": "Imposta un nome facilmente riconoscibile per questo dispositivo per distinguerlo durante la sincronizzazione multi-dispositivo",
+      "deviceId": "ID Dispositivo",
+      "syncNow": "Sincronizza Ora",
+      "lastSyncTime": "Ultima Sincronizzazione",
+      "uploadStatus": "Stato Caricamento",
+      "downloadStatus": "Stato Download",
+      "notSynced": "Non Sincronizzato",
+      "success": "Successo",
+      "failed": "Fallito",
+      "mode": {
+        "title": "Modalità di Sincronizzazione",
+        "description": "Scegli come sincronizzare i dati tra i dispositivi",
+        "modes": {
+          "disabled": "Disabilitato",
+          "uploadOnly": "Solo Caricamento",
+          "downloadOnly": "Solo Download",
+          "staySynchronized": "Rimani Sincronizzato"
+        }
       },
-      "SyncTabs": {
-        "label": "Sincronizza schede",
-        "description": "Scegli come sincronizzare i dati delle schede, escludendo i dati privati come i cookie e le informazioni personali.",
-        "disabled": "Disabilitato",
-        "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo download",
-        "staySynchronized": "Rimani sincronizzato"
+      "providers": {
+        "title": "Provider di Sincronizzazione",
+        "description": "Seleziona e configura i fornitori di servizi per la sincronizzazione dei dati",
+        "defaultProvider": "Provider di Sincronizzazione Predefinito",
+        "close": "Chiudi",
+        "save": "Salva",
+        "configure": "Configura",
+        "authorize": "Autorizza",
+        "providers": {
+          "custom": {
+            "title": "Servizio Cloud",
+            "enabled": "Abilitato"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Apri o chiudi schede in modo sincrono",
-        "description": "Quando abilitato, l'apertura o la chiusura delle schede in diversi browser verrà sincronizzata. Questo si applica solo quando l'opzione 'rimani sincronizzato' è attiva",
-        "OpenOrCloseTabsSynchronouslyWarning": "Se accedi allo stesso account in due browser contemporaneamente e attivi questa opzione, l'apertura o la chiusura delle schede in un browser eseguirà la stessa operazione nell'altro browser. Se il sito web vieta accessi ripetuti con lo stesso account, potrebbero verificarsi eccezioni."
+      "dataOptions": {
+        "title": "Opzioni di Sincronizzazione Dati",
+        "description": "Seleziona i tipi di dati da sincronizzare",
+        "openedTabs": {
+          "title": "Schede Aperte",
+          "enabled": "Sincronizza Schede Aperte"
+        },
+        "settings": {
+          "title": "Impostazioni",
+          "enabled": "Sincronizza Impostazioni"
+        },
+        "siteConfigs": {
+          "title": "Configurazioni del Sito",
+          "enabled": "Sincronizza Configurazioni del Sito"
+        },
+        "quickAccess": {
+          "title": "Accesso Rapido",
+          "enabled": "Sincronizza Accesso Rapido"
+        },
+        "recentClosedTabs": {
+          "title": "Schede Chiuse di Recente",
+          "enabled": "Sincronizza Schede Chiuse di Recente"
+        },
+        "windowTabs": {
+          "title": "Finestre, Gruppi di Schede e Schede",
+          "enabled": "Sincronizza Cronologia Schede",
+          "close": "Chiudi",
+          "save": "Salva",
+          "syncAfterAction": "Azione Dopo Sincronizzazione",
+          "syncAfterActionTitle": "Scegli come gestire dopo la sincronizzazione",
+          "applyModes": {
+            "append": {
+              "title": "Modalità Aggiungi",
+              "description": "Se la finestra corrente ha meno di 5 schede, le schede sincronizzate verranno aggiunte alla fine della finestra corrente. Se vengono sincronizzate più finestre, le schede della prima finestra verranno unite alla finestra corrente e le altre finestre verranno create come nuove finestre separate."
+            },
+            "new": {
+              "title": "Nuova Finestra",
+              "description": "Apri le schede sincronizzate in una nuova finestra, mantenendo inalterate le schede esistenti"
+            },
+            "replace": {
+              "title": "Modalità Sostituisci",
+              "description": "Chiudi le schede esistenti e apri le schede sincronizzate in una nuova finestra"
+            },
+            "createSnapshot": {
+              "title": "Crea Istantanea",
+              "description": "Salva le schede sincronizzate come una nuova istantanea"
+            }
+          },
+          "moreOptions": "Opzioni Avanzate",
+          "optionsTitle": "Impostazioni Sincronizzazione Schede",
+          "skipLastWindow": "Non Sincronizzare Quando l'Ultima Finestra si Chiude",
+          "skipLastWindowDescription": "Metti in pausa la sincronizzazione quando l'ultima finestra è chiusa per consentire il recupero delle schede recenti su altri dispositivi. Se questa opzione è disabilitata, la sincronizzazione verrà eseguita immediatamente e altri dispositivi non potranno recuperare queste schede.",
+          "debounceMs": "Ritardo Sincronizzazione",
+          "debounceMsDescription": "Imposta quanti secondi attendere dopo una modifica della scheda prima di sincronizzare per evitare operazioni di sincronizzazione troppo frequenti"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sincronizza dati privati",
-        "description": "Scegli come sincronizzare i dati privati, come i cookie del sito web, i dati di localstorage della pagina web, i dati di SessionStorage, ecc. I dati verranno crittografati prima della sincronizzazione.",
-        "disabled": "Disabilitato",
-        "uploadOnly": "Solo caricamento",
-        "downloadOnly": "Solo download",
-        "staySynchronized": "Rimani sincronizzato"
+      "globalTriggers": {
+        "title": "Trigger di Sincronizzazione Globale",
+        "description": "Configura quando attivare le operazioni di sincronizzazione globale",
+        "onStartup": "Quando il browser si avvia per la prima volta"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Pagine del visualizzatore PDF integrato",
         "newTabPage": "Pagine Nuova Scheda (che iniziano con chrome://newtab/ o edge://newtab/ o simili)"
       }
+    },
+    "general": {
+      "title": "Generale",
+      "description": "",
+      "accountInfo": {
+        "label": "Informazioni Account",
+        "currentPlan": "Piano Attuale",
+        "subscribePremium": "Abbonati a Premium",
+        "manageAccount": "Gestisci Account",
+        "logout": "Esci",
+        "notLoggedIn": "Non Connesso",
+        "signIn": "Accedi",
+        "free": "Gratuito",
+        "premium": "Premium",
+        "premiumEndsAt": "Il tuo piano Premium terminerà il {{date}}",
+        "trialEndsAt": "Il tuo periodo di prova Premium terminerà il {{date}}",
+        "signInForPremium": "Accedi per ottenere Premium",
+        "trialEndsAndMembershipStarts": "Il tuo periodo di prova terminerà il {{date}}. Dopo la fine del periodo di prova, la tua iscrizione ufficiale entrerà automaticamente in vigore e tutti i benefici rimarranno invariati.",
+        "lifetimeMembership": "Iscrizione a Vita",
+        "manageSubscription": "Gestisci Abbonamento"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Crea Snapshot",
     "exportSnapshot": "Esporta Snapshot",
     "restoreWindowSize": "Ripristina posizione e dimensione della finestra",
+    "restoreGroups": "Ripristina Gruppi",
     "openAllWindows": "Apri Tutte le Finestre",
     "openSelectedInNewWindow": "Apri Selezionati in Nuova Finestra",
     "openSelectedInCurrentWindow": "Apri Selezionati nella Finestra Corrente",

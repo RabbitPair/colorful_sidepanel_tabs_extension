@@ -116,6 +116,7 @@
   "Donation": "Donación",
   "EarlyBirdDiscount": "Descuento por Compra Anticipada",
   "SortTabsByDomain": "Ordenar Pestañas por Dominio",
+  "sortTabsByUrl": "Ordenar Pestañas por URL",
   "CurrentActiveTab": "Pestaña Activa Actual",
   "ScrollToActiveTab": "Desplazar a Pestaña Activa",
   "MuteAllTabsMakingSounds": "Silenciar Todas las Pestañas que Emiten Sonidos",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Actualizar título de la página",
   "ExactMatch": "Coincidencia exacta",
   "ContainsMatch": "Coincidencia parcial",
-  "RenameTitle": "Renombrar título"
+  "RenameTitle": "Renombrar título",
+  "premium_feature_required": "Esta es una función premium, necesitas actualizar a la Edición Premium para usarla",
+  "premium_feature": "Función Premium",
+  "upgrade_to_premium": "Actualizar a Premium",
+  "login_required": "Inicio de Sesión Requerido",
+  "login": "Iniciar Sesión"
 }

@@ -116,6 +116,7 @@
   "Donation": "Δωρεά",
   "EarlyBirdDiscount": "Έκπτωση Πρώιμης Κράτησης",
   "SortTabsByDomain": "Ταξινόμηση Καρτελών κατά Τομέα",
+  "sortTabsByUrl": "Ταξινόμηση Καρτελών κατά URL",
   "CurrentActiveTab": "Τρέχουσα Ενεργή Καρτέλα",
   "ScrollToActiveTab": "Κύλιση στην Ενεργή Καρτέλα",
   "MuteAllTabsMakingSounds": "Σίγαση Όλων των Καρτελών που Παράγουν Ήχους",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Ενημέρωση Τίτλου Σελίδας",
   "ExactMatch": "Ακριβής Αντιστοιχία",
   "ContainsMatch": "Περιέχει Αντιστοιχία",
-  "RenameTitle": "Μετονομασία Τίτλου"
+  "RenameTitle": "Μετονομασία Τίτλου",
+  "premium_feature_required": "Αυτή είναι μια premium λειτουργία, πρέπει να αναβαθμίσετε στην Premium Έκδοση για να τη χρησιμοποιήσετε",
+  "premium_feature": "Premium Λειτουργία",
+  "upgrade_to_premium": "Αναβάθμιση σε Premium",
+  "login_required": "Απαιτείται Σύνδεση",
+  "login": "Σύνδεση"
 }

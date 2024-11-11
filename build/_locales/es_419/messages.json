@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Actualización de Cuenta Regresiva"
+  },
+  "premium_feature_trial": {
+    "message": "Estás probando las funciones Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "El período de prueba de Imagen en Imagen avanzado ha terminado. Se cambió al modo Imagen en Imagen estándar. Para seguir usando las funciones avanzadas de Imagen en Imagen, actualiza a Premium."
+  },
+  "do_not_show_again": {
+    "message": "No mostrar de nuevo"
+  },
+  "upgrade_to_premium": {
+    "message": "Actualizar a Premium"
   }
 }

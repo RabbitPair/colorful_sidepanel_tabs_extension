@@ -1,8 +1,8 @@
 {
   "NewTab": "新しいタブ",
   "Settings": "設定",
-  "More": "もっと",
-  "Reload": "リロード",
+  "More": "もっと見る",
+  "Reload": "再読み込み",
   "ago": "前",
   "Tabs": "タブ",
   "shortcuts": "ショートカット",
@@ -44,7 +44,7 @@
     "CloseOtherTabs": "他のタブを閉じる",
     "CloseSameSiteTabs": "同じサイトのタブを閉じる",
     "CloseSameSiteOtherTabs": "同じサイトの他のタブを閉じる",
-    "Reload": "リロード",
+    "Reload": "再読み込み",
     "RestoreTabs": "タブを復元",
     "DiscardTab": "タブを破棄",
     "DiscardTabDesc": "メモリを解放するためにタブを破棄します。破棄されたタブはタブバーに表示されたままで、選択すると復元されます。",
@@ -116,6 +116,7 @@
   "Donation": "寄付",
   "EarlyBirdDiscount": "早期割引",
   "SortTabsByDomain": "ドメインでタブを並び替え",
+  "sortTabsByUrl": "URLでタブを並び替え",
   "CurrentActiveTab": "現在のアクティブタブ",
   "ScrollToActiveTab": "アクティブタブにスクロール",
   "MuteAllTabsMakingSounds": "音を出しているすべてのタブをミュート",
@@ -125,7 +126,7 @@
   "Feedback": "フィードバック",
   "SubmitSuggestionsOrIssues": "提案や問題を送信",
   "Faqs": "よくある質問",
-  "About": "約",
+  "About": "情報",
   "ChangeLog": "変更履歴",
   "License": "ライセンス",
   "Copyright": "著作権",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "ページタイトルを更新",
   "ExactMatch": "完全一致",
   "ContainsMatch": "部分一致",
-  "RenameTitle": "タイトルを変更"
+  "RenameTitle": "タイトルを変更",
+  "premium_feature_required": "これはプレミアム機能です。使用するにはプレミアムエディションにアップグレードする必要があります",
+  "premium_feature": "プレミアム機能",
+  "upgrade_to_premium": "プレミアムにアップグレード",
+  "login_required": "ログインが必要です",
+  "login": "ログイン"
 }

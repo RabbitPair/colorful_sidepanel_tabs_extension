@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Osvježi odbrojavanje"
+  },
+  "premium_feature_trial": {
+    "message": "Isprobavate Premium značajke"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Probno razdoblje naprednog načina slike u slici je isteklo. Prebačeno na standardni način slike u slici. Za nastavak korištenja naprednih značajki slike u slici, nadogradite na Premium."
+  },
+  "do_not_show_again": {
+    "message": "Ne prikazuj ponovno"
+  },
+  "upgrade_to_premium": {
+    "message": "Nadogradi na Premium"
   }
 }

@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Eszköztár megjelenítése",
         "description": "Ha engedélyezve van, az eszköztár megjelenik",
-        "moreOptions": "További beállítások",
-        "moreOptionsDescription": "Szabályozhatja, hogy mely ikonok jelenjenek meg az eszköztáron.",
-        "moreOptionsHideLabel": "Eszköztár ikon címkék elrejtése",
+        "configure": "Beállítás",
+        "configureDesc": "Eszköztár beállítása",
+        "enabledNavs": "Engedélyezett navigációk",
+        "disabledNavs": "Elérhető letiltott navigációk",
+        "showLabel": "Címkék megjelenítése",
+        "close": "Bezárás",
+        "save": "Mentés",
+        "left": "Bal",
+        "right": "Jobb",
+        "newTab": "Új lap",
+        "tabGoBack": "Vissza",
+        "tabGoForward": "Előre",
+        "tabRefresh": "Újratöltés",
+        "scrollToActiveTab": "Görgetés az aktív laphoz",
+        "muteAllTabs": "Összes lap némítása",
+        "collapseAll": "Összes összecsukása",
+        "createSnapshot": "Pillanatkép készítése",
+        "themeModes": "Színmódok",
+        "viewModes": "Nézetmódok",
+        "showBy": "Megjelenítés",
+        "sortBy": "Rendezés",
+        "switchPIP": "Kép a képben mód",
+        "clearTabs": "Lapok törlése"
+      },
+      "clearTabsBtn": {
+        "label": "Lapok törlése gomb megjelenítése",
+        "description": "Ha engedélyezve van, megjelenik a lapok törlése gomb",
+        "configure": "beállítás",
+        "configureDesc": "Beállíthatja a lapok törlésének viselkedését",
         "close": "Bezárás",
         "options": {
-          "toolbar_newtab": "Új lap",
-          "toolbar_orderby": "Rendezés",
-          "toolbar_showby": "Megjelenítés",
-          "toolbar_view": "nézet",
-          "toolbar_colorMode": "Színmód",
-          "toolbar_muteAllTabs": "Az összes hangot adó lap némítása",
-          "toolbar_scrollToActiveTab": "Görgetés az aktív laphoz"
-        }
+          "createSnapshot": "Pillanatkép készítése törlés előtt",
+          "closeInactiveTabs": "Inaktív lapok bezárása",
+          "closeDiscardTabs": "Eldobott lapok bezárása",
+          "skipSoundTabs": "Hangot lejátszó lapok kihagyása",
+          "skipCurrentTab": "Aktuális lap kihagyása",
+          "confirm": "Megerősítő párbeszédablak megjelenítése"
+        },
+        "confirmClearTabs": "Lapok törlése",
+        "confirmClearTabsMessage": "Biztosan törölni szeretné ezeket a lapokat? Ez a művelet nem vonható vissza.",
+        "cancel": "Mégse",
+        "confirm": "Megerősítés"
       },
       "tabNav": {
         "label": "Fül navigációs sáv megjelenítése",
@@ -137,6 +166,7 @@
         "createTabPanel": "Lap panel létrehozása",
         "tabPanels": "Lap panelek",
         "switchPIP": "Kép a képben váltás",
+        "clearTabs": "Lapok törlése",
         "pinToToolbarReminder": "Kérjük, rögzítse a bővítményt az eszköztárhoz, mielőtt eltávolítaná ezt a navigációt."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Folyamatos lejátszás engedélyezése",
         "description": "Folyamatos lejátszás: A Kép a képben ablak nem záródik be, és automatikusan lejátssza a következő epizódot a videó befejezése után. Ez a funkció webhely támogatást igényel."
+      },
+      "advancedPipShowTitle": {
+        "label": "Cím megjelenítése a Speciális Kép a képben lejátszóban",
+        "description": "Ha engedélyezve van, az oldal címe megjelenik a Speciális Kép a képben lejátszóban"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Exportálás sikertelen"
       }
     },
-    "SyncToCloud": {
-      "label": "Szinkronizálás a felhőbe",
-      "SyncNow": "Szinkronizálás most",
-      "SyncNowWithGoogleDrive": "Szinkronizálás most a Google Drive-val",
-      "SyncNowWithDropbox": "Szinkronizálás most a Dropbox-szal",
-      "SyncNowWithOneDrive": "Szinkronizálás most a OneDrive-val",
-      "Synchronizing": "Szinkronizálás...",
-      "SyncedSuccessfully": "Sikeresen szinkronizálva",
-      "SyncFailed": "Szinkronizálás sikertelen",
-      "LoginRequired": "Bejelentkezés szükséges",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Szinkronizálási konfigurációk",
-        "description": "Válassza ki, hogyan szinkronizálja a bővítmény konfigurációit.",
-        "disabled": "Letiltva",
-        "uploadOnly": "Csak feltöltés",
-        "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Maradjon szinkronizálva"
+    "syncToCloud": {
+      "title": "Szinkronizálási beállítások",
+      "setLocalPasswordTitle": "Helyi jelszó beállítása",
+      "setLocalPasswordDescription": "A szinkronizálási adatok titkosításához és védelméhez kérjük, állítson be egy titkosítási jelszót. Ezt a jelszót nem továbbítjuk. Ugyanezt a jelszót kell beállítania más böngészőkben is a szinkronizáláshoz. Ügyeljen arra, hogy emlékezzen rá.",
+      "passwordError": "A jelszónak legalább 6 karakter hosszúnak kell lennie, és tartalmaznia kell számokat és betűket is",
+      "save": "Mentés és folytatás",
+      "cancel": "Mégse",
+      "doNotUseLocalPassword": "Használja az alapértelmezett titkosítást",
+      "changeLocalPassword": "Helyi jelszó megváltoztatása",
+      "changeLocalPasswordDesc": "A helyi jelszó visszaállítása érvényteleníti a korábban szinkronizált adatokat. Ezt a jelszót a szinkronizálási adatok titkosítására és védelmére használják. A jelszót nem továbbítjuk. Ugyanezt a jelszót kell beállítania más böngészőkben is a szinkronizáláshoz. Kérjük, gondosan állítsa be!",
+      "deviceName": "Eszköz neve",
+      "deviceNameDescription": "Állítson be egy könnyen felismerhető nevet ennek az eszköznek, hogy megkülönböztesse a több eszköz szinkronizálása során",
+      "deviceId": "Eszköz azonosító",
+      "syncNow": "Szinkronizálás most",
+      "lastSyncTime": "Utolsó szinkronizálás ideje",
+      "uploadStatus": "Feltöltési állapot",
+      "downloadStatus": "Letöltési állapot",
+      "notSynced": "Nincs szinkronizálva",
+      "success": "Sikeres",
+      "failed": "Sikertelen",
+      "mode": {
+        "title": "Szinkronizálási mód",
+        "description": "Válassza ki, hogyan szinkronizálódnak az adatok az eszközök között",
+        "modes": {
+          "disabled": "Letiltva",
+          "uploadOnly": "Csak feltöltés",
+          "downloadOnly": "Csak letöltés",
+          "staySynchronized": "Maradjon szinkronizálva"
+        }
       },
-      "SyncTabs": {
-        "label": "Lapok szinkronizálása",
-        "description": "Válassza ki, hogyan szinkronizálja a lapadatokat, kivéve a privát adatokat, például a sütiket és a személyes információkat.",
-        "disabled": "Letiltva",
-        "uploadOnly": "Csak feltöltés",
-        "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Maradjon szinkronizálva"
+      "providers": {
+        "title": "Szinkronizálási szolgáltatók",
+        "description": "Válassza ki és konfigurálja az adat szinkronizálási szolgáltatókat",
+        "defaultProvider": "Alapértelmezett szinkronizálási szolgáltató",
+        "close": "Bezárás",
+        "save": "Mentés",
+        "configure": "Konfigurálás",
+        "authorize": "Engedélyezés",
+        "providers": {
+          "custom": {
+            "title": "Felhőszolgáltatás",
+            "enabled": "Engedélyezve"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Lapok megnyitása vagy bezárása szinkronban",
-        "description": "Ha engedélyezve van, a különböző böngészőkben megnyitott vagy bezárt lapok szinkronizálva lesznek. Ez csak akkor érvényes, ha az 'Maradjon szinkronizálva' opció aktív",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ha egyszerre két böngészőben jelentkezik be ugyanarra a fiókra, és bekapcsolja ezt az opciót, az egyik böngészőben megnyitott vagy bezárt lapok ugyanazt a műveletet hajtják végre a másik böngészőben. Ha a weboldal tiltja az ismételt bejelentkezéseket ugyanazzal a fiókkal, kivételek fordulhatnak elő."
+      "dataOptions": {
+        "title": "Adatszinkronizálási beállítások",
+        "description": "Válassza ki a szinkronizálni kívánt adatok típusát",
+        "openedTabs": {
+          "title": "Megnyitott lapok",
+          "enabled": "Megnyitott lapok szinkronizálása"
+        },
+        "settings": {
+          "title": "Beállítások",
+          "enabled": "Beállítások szinkronizálása"
+        },
+        "siteConfigs": {
+          "title": "Webhely beállítások",
+          "enabled": "Webhely beállítások szinkronizálása"
+        },
+        "quickAccess": {
+          "title": "Gyors hozzáférés",
+          "enabled": "Gyors hozzáférés szinkronizálása"
+        },
+        "recentClosedTabs": {
+          "title": "Nemrég bezárt lapok",
+          "enabled": "Nemrég bezárt lapok szinkronizálása"
+        },
+        "windowTabs": {
+          "title": "Ablakok, lapcsoportok és lapok",
+          "enabled": "Lap előzmények szinkronizálása",
+          "close": "Bezárás",
+          "save": "Mentés",
+          "syncAfterAction": "Művelet szinkronizálás után",
+          "syncAfterActionTitle": "Válassza ki, hogyan kezelje a szinkronizálás utáni műveleteket",
+          "applyModes": {
+            "append": {
+              "title": "Hozzáfűzési mód",
+              "description": "Ha az aktuális ablakban kevesebb mint 5 lap van, a szinkronizált lapok hozzáadódnak az aktuális ablak végéhez. Ha több ablak van szinkronizálva, az első ablak lapjai az aktuális ablakba kerülnek, és a többi ablak külön új ablakokként jön létre."
+            },
+            "new": {
+              "title": "Új ablak",
+              "description": "A szinkronizált lapok új ablakban nyílnak meg, a meglévő lapok változatlanok maradnak"
+            },
+            "replace": {
+              "title": "Csere mód",
+              "description": "A meglévő lapok bezárása és a szinkronizált lapok megnyitása új ablakban"
+            },
+            "createSnapshot": {
+              "title": "Pillanatkép létrehozása",
+              "description": "A szinkronizált lapok mentése új pillanatképként"
+            }
+          },
+          "moreOptions": "Speciális beállítások",
+          "optionsTitle": "Lap szinkronizálási beállítások",
+          "skipLastWindow": "Ne szinkronizáljon, ha az utolsó ablak bezárul",
+          "skipLastWindowDescription": "A szinkronizálás szüneteltetése, amikor az utolsó ablak bezárul, hogy lehetővé tegye a legutóbbi lapok helyreállítását más eszközökön. Ha ez az opció le van tiltva, a szinkronizálás azonnal végrehajtódik, és más eszközök nem tudják helyreállítani ezeket a lapokat.",
+          "debounceMs": "Szinkronizálási késleltetés",
+          "debounceMsDescription": "Állítsa be, hány másodpercet várjon a lapváltozás után a szinkronizálás előtt, hogy elkerülje a túl gyakori szinkronizálási műveleteket"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Privát adatok szinkronizálása",
-        "description": "Válassza ki, hogyan szinkronizálja a privát adatokat, például a weboldal sütiket, a weboldal helyi tárolási adatait, a SessionStorage adatokat stb. Az adatok titkosítva lesznek a szinkronizálás előtt.",
-        "disabled": "Letiltva",
-        "uploadOnly": "Csak feltöltés",
-        "downloadOnly": "Csak letöltés",
-        "staySynchronized": "Maradjon szinkronizálva"
+      "globalTriggers": {
+        "title": "Globális szinkronizálási triggerek",
+        "description": "Állítsa be, mikor indítsa el a globális szinkronizálási műveleteket",
+        "onStartup": "Amikor a böngésző először indul"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Beépített PDF megjelenítő oldalak",
         "newTabPage": "Új lap oldalak (chrome://newtab/ vagy edge://newtab/ kezdetűek vagy hasonlók)"
       }
+    },
+    "general": {
+      "title": "Általános",
+      "description": "",
+      "accountInfo": {
+        "label": "Fiók információ",
+        "currentPlan": "Jelenlegi terv",
+        "subscribePremium": "Feliratkozás a Premiumra",
+        "manageAccount": "Fiók kezelése",
+        "logout": "Kijelentkezés",
+        "notLoggedIn": "Nincs bejelentkezve",
+        "signIn": "Bejelentkezés",
+        "free": "Ingyenes",
+        "premium": "Prémium",
+        "premiumEndsAt": "A Premium terv lejár {{date}}",
+        "trialEndsAt": "A Premium próbaidőszak lejár {{date}}",
+        "signInForPremium": "Jelentkezzen be a Premium eléréséhez",
+        "trialEndsAndMembershipStarts": "A próbaidőszak lejár {{date}}. A próbaidőszak vége után az Ön hivatalos tagsága automatikusan érvénybe lép, és minden előny változatlan marad.",
+        "lifetimeMembership": "Élethosszig tartó tagság",
+        "manageSubscription": "Előfizetés kezelése"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Pillanatkép létrehozása",
     "exportSnapshot": "Pillanatkép exportálása",
     "restoreWindowSize": "Ablak pozíciójának és méretének visszaállítása",
+    "restoreGroups": "Csoportok visszaállítása",
     "openAllWindows": "Összes ablak megnyitása",
     "openSelectedInNewWindow": "Kiválasztottak megnyitása új ablakban",
     "openSelectedInCurrentWindow": "Kiválasztottak megnyitása jelenlegi ablakban",

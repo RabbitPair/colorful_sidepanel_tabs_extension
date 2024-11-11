@@ -116,6 +116,7 @@
   "Donation": "Donatie",
   "EarlyBirdDiscount": "Vroege Vogel Korting",
   "SortTabsByDomain": "Tabbladen Sorteren Op Domein",
+  "sortTabsByUrl": "Tabbladen Sorteren Op URL",
   "CurrentActiveTab": "Huidig Actieve Tabblad",
   "ScrollToActiveTab": "Scrollen Naar Actieve Tabblad",
   "MuteAllTabsMakingSounds": "Alle Tabbladen Met Geluid Dempen",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Paginatitel bijwerken",
   "ExactMatch": "Exacte overeenkomst",
   "ContainsMatch": "Bevat overeenkomst",
-  "RenameTitle": "Titel hernoemen"
+  "RenameTitle": "Titel hernoemen",
+  "premium_feature_required": "Dit is een premium functie, je moet upgraden naar Premium Edition om deze te gebruiken",
+  "premium_feature": "Premium Functie",
+  "upgrade_to_premium": "Upgraden naar Premium",
+  "login_required": "Inloggen Vereist",
+  "login": "Inloggen"
 }

@@ -6,22 +6,22 @@
     "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gérez les onglets du navigateur dans le panneau latéral avec des fonctionnalités configurables, embellissantes et bien d'autres"
+    "message": "Gérez les onglets du navigateur dans le panneau latéral avec des fonctionnalités configurables et des options d'embellissement"
   },
   "openSidePanel": {
     "message": "Ouvrir le Panneau Latéral"
   },
   "closeSidebar": {
-    "message": "Fermer la barre latérale"
+    "message": "Fermer le Panneau Latéral"
   },
   "disableSidebar": {
-    "message": "Désactiver la barre latérale"
+    "message": "Désactiver le Panneau Latéral"
   },
   "disableSidebarAlert": {
-    "message": "Êtes-vous sûr de vouloir désactiver la barre latérale sur toutes les pages ? Pour la réactiver, veuillez aller à la page des paramètres."
+    "message": "Êtes-vous sûr de vouloir désactiver le panneau latéral sur toutes les pages ? Pour le réactiver, veuillez aller à la page des paramètres."
   },
   "toggleSidebarPosition": {
-    "message": "Changer la position de la barre latérale"
+    "message": "Changer la Position du Panneau Latéral"
   },
   "group_newsInformation": {
     "message": "Actualités & Informations"
@@ -60,7 +60,7 @@
     "message": "Éducation & Formation"
   },
   "group_skillTraining": {
-    "message": "Formation de Compétences"
+    "message": "Formation aux Compétences"
   },
   "group_financialInvestment": {
     "message": "Finances & Investissement"
@@ -84,16 +84,16 @@
     "message": "Forums Communautaires"
   },
   "group_chatSocial": {
-    "message": "Chat & Social"
+    "message": "Chat & Réseaux Sociaux"
   },
   "group_commonQueries": {
     "message": "Requêtes Courantes"
   },
   "group_comprehensiveOthers": {
-    "message": "Complet & Autres"
+    "message": "Divers & Autres"
   },
   "group_jobRecruitment": {
-    "message": "Recrutement d'Emploi"
+    "message": "Recrutement"
   },
   "group_jobRecruitmentAlt": {
     "message": "Recrutement & Recherche d'Emploi"
@@ -123,7 +123,7 @@
     "message": "Photographie"
   },
   "group_gamblingWebsites": {
-    "message": "Sites de Jeu"
+    "message": "Sites de Jeux d'Argent"
   },
   "group_nsfw": {
     "message": "NSFW"
@@ -132,7 +132,7 @@
     "message": "Systèmes Internes"
   },
   "switchPIP": {
-    "message": "Changer en mode Image dans l'image"
+    "message": "Basculer en Mode Image dans l'Image"
   },
   "play": {
     "message": "Lire"
@@ -141,118 +141,118 @@
     "message": "Pause"
   },
   "shortcut_play_pause": {
-    "message": "Lire/Pause vidéo"
+    "message": "Lire/Pause Vidéo"
   },
   "shortcut_adjust_volume": {
-    "message": "Ajuster le volume"
+    "message": "Ajuster le Volume"
   },
   "shortcut_mute_unmute": {
-    "message": "Muet/Activer le son de la vidéo"
+    "message": "Muet/Activer le Son de la Vidéo"
   },
   "shortcut_fast_forward_rewind_5": {
-    "message": "Avancer/Reculer la vidéo de 5 secondes"
+    "message": "Avancer/Reculer la Vidéo de 5 Secondes"
   },
   "shortcut_fast_forward_rewind_10": {
-    "message": "Avancer/Reculer la vidéo de 10 secondes"
+    "message": "Avancer/Reculer la Vidéo de 10 Secondes"
   },
   "shortcut_fast_forward_rewind": {
-    "message": "Avancer/Reculer la vidéo"
+    "message": "Avancer/Reculer la Vidéo"
   },
   "shortcut_next_video": {
-    "message": "Lire la vidéo suivante"
+    "message": "Lire la Vidéo Suivante"
   },
   "shortcut_previous_video": {
-    "message": "Lire la vidéo précédente"
+    "message": "Lire la Vidéo Précédente"
   },
   "shortcut_toggle_captions": {
-    "message": "Afficher/Masquer les sous-titres"
+    "message": "Afficher/Masquer les Sous-titres"
   },
   "shortcut_toggle_danmaku": {
-    "message": "Afficher/Masquer les barrages"
+    "message": "Afficher/Masquer les Commentaires"
   },
   "shortcut_toggle_fullscreen": {
-    "message": "Basculer en plein écran"
+    "message": "Basculer en Plein Écran"
   },
   "shortcut_playback_speed": {
-    "message": "Ajuster la vitesse de lecture"
+    "message": "Ajuster la Vitesse de Lecture"
   },
   "shortcut_seek_video_start_end": {
-    "message": "Aller au début/à la fin de la vidéo"
+    "message": "Aller au Début/à la Fin de la Vidéo"
   },
   "shortcut_seek_percentage": {
-    "message": "Aller à un pourcentage de la vidéo"
+    "message": "Aller à un Pourcentage de la Vidéo"
   },
   "shortcut_fit_to_screen": {
-    "message": "Ajuster la fenêtre à la taille de la vidéo"
+    "message": "Ajuster la Fenêtre à la Taille de la Vidéo"
   },
   "shortcut_exit_pip": {
-    "message": "Quitter le mode Image dans l'image"
+    "message": "Quitter le Mode Image dans l'Image"
   },
   "shortcut_toggle_hide_show": {
-    "message": "Basculer entre masquer/afficher la vidéo et lire/pause"
+    "message": "Basculer entre Masquer/Afficher la Vidéo et Lire/Pause"
   },
   "shortcut_enter_pip": {
-    "message": "Basculer en mode Image dans l'image depuis la page principale"
+    "message": "Basculer en Mode Image dans l'Image depuis la Page Principale"
   },
   "mute": {
     "message": "Muet"
   },
   "unmute": {
-    "message": "Son activé"
+    "message": "Son Activé"
   },
   "prev_video": {
-    "message": "Vidéo précédente"
+    "message": "Vidéo Précédente"
   },
   "next_video": {
-    "message": "Vidéo suivante"
+    "message": "Vidéo Suivante"
   },
   "playbackRate": {
-    "message": "Vitesse de lecture"
+    "message": "Vitesse de Lecture"
   },
   "subtitles": {
     "message": "Sous-titres"
   },
   "close_captions": {
-    "message": "Sous-titres fermés"
+    "message": "Sous-titres Fermés"
   },
   "danmaku": {
-    "message": "Chat de balles"
+    "message": "Commentaires"
   },
   "fit_to_screen": {
-    "message": "Ajuster à l'écran"
+    "message": "Ajuster à l'Écran"
   },
   "reload_video": {
-    "message": "Recharger la vidéo"
+    "message": "Recharger la Vidéo"
   },
   "loading_pip_config": {
-    "message": "Chargement des configurations de l'image dans l'image du document..."
+    "message": "Chargement des Configurations de l'Image dans l'Image..."
   },
   "playing_in_pip_mode": {
-    "message": "Lecture en mode Image dans l'image du document"
+    "message": "Lecture en Mode Image dans l'Image"
   },
   "detecting_pip_subtitle_settings": {
-    "message": "Détection des paramètres de sous-titres de l'image dans l'image..."
+    "message": "Détection des Paramètres de Sous-titres de l'Image dans l'Image..."
   },
   "video_not_detected": {
-    "message": "Vidéo non détectée. Elle n'est peut-être pas encore prête. S'il y a une vidéo sur la page, veuillez cliquer sur lire et réessayer."
+    "message": "Vidéo non détectée. Elle n'est peut-être pas encore prête. S'il y a une vidéo sur la page, veuillez cliquer sur Lire et réessayer."
   },
   "pip_window_restriction": {
-    "message": "La fenêtre avancée de l'image dans l'image ne peut être ouverte que depuis la page principale et ne peut pas être lancée depuis des cadres ou du contenu intégré. Vous pouvez utiliser le mode standard de l'image dans l'image ou ouvrir dans un nouvel onglet pour réessayer. Notez que la vidéo peut ne pas se charger correctement dans un nouvel onglet.",
+    "message": "La fenêtre avancée de l'Image dans l'Image ne peut être ouverte que depuis la page principale et ne peut pas être lancée depuis des cadres ou du contenu intégré. Vous pouvez utiliser le mode standard de l'Image dans l'Image ou ouvrir dans un nouvel onglet pour réessayer. Notez que la vidéo peut ne pas se charger correctement dans un nouvel onglet.",
     "description": "Échec de l'exécution de 'requestWindow' sur 'DocumentPictureInPicture': L'ouverture d'une fenêtre PiP n'est autorisée que depuis un contexte de navigation de niveau supérieur"
   },
   "use_standard_pip": {
-    "message": "Utiliser le PiP standard",
-    "description": "Option pour utiliser le mode standard de l'image dans l'image"
+    "message": "Utiliser le Mode Standard de l'Image dans l'Image",
+    "description": "Option pour utiliser le mode standard de l'Image dans l'Image"
   },
   "open_in_new_tab": {
-    "message": "Ouvrir dans un nouvel onglet",
+    "message": "Ouvrir dans un Nouvel Onglet",
     "description": "Option pour ouvrir la page dans un nouvel onglet"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Se souvenir des paramètres de ce site (Vous pouvez les modifier dans Options - Paramètres du site)"
+    "message": "Se souvenir des Paramètres de ce Site (Vous pouvez les modifier dans Options - Paramètres du Site)"
   },
   "pip_user_activation_required": {
-    "message": "Le mode Image dans l'image nécessite une interaction de l'utilisateur. Veuillez cliquer ou interagir avec la page et réessayer.",
+    "message": "Le Mode Image dans l'Image nécessite une Interaction de l'Utilisateur. Veuillez cliquer ou interagir avec la page et réessayer.",
     "description": "Échec de l'exécution de 'requestWindow' sur 'DocumentPictureInPicture': Le PiP du document nécessite une activation de l'utilisateur"
   },
   "retry_action": {
@@ -262,6 +262,18 @@
     "message": "Raccourcis"
   },
   "countdown_refresh": {
-    "message": "Rafraîchissement du compte à rebours"
+    "message": "Rafraîchissement du Compte à Rebours"
+  },
+  "premium_feature_trial": {
+    "message": "Vous essayez les fonctionnalités Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "La période d'essai de l'Image dans l'Image avancée est terminée. Passage au mode standard de l'Image dans l'Image. Pour continuer à utiliser les fonctionnalités avancées de l'Image dans l'Image, veuillez passer à la version Premium."
+  },
+  "do_not_show_again": {
+    "message": "Ne plus afficher"
+  },
+  "upgrade_to_premium": {
+    "message": "Passer à la Version Premium"
   }
 }

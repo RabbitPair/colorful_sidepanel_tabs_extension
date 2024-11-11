@@ -12,16 +12,16 @@
     "message": "Abrir Panel Lateral"
   },
   "closeSidebar": {
-    "message": "Cerrar barra lateral"
+    "message": "Cerrar Barra Lateral"
   },
   "disableSidebar": {
-    "message": "Desactivar barra lateral"
+    "message": "Desactivar Barra Lateral"
   },
   "disableSidebarAlert": {
     "message": "¿Estás seguro de que deseas desactivar la barra lateral en todas las páginas? Para volver a activarla, por favor ve a la página de configuración."
   },
   "toggleSidebarPosition": {
-    "message": "Cambiar posición de la barra lateral"
+    "message": "Cambiar Posición de la Barra Lateral"
   },
   "group_newsInformation": {
     "message": "Noticias e Información"
@@ -141,64 +141,64 @@
     "message": "Pausar"
   },
   "shortcut_play_pause": {
-    "message": "Reproducir/Pausar video"
+    "message": "Reproducir/Pausar Video"
   },
   "shortcut_adjust_volume": {
-    "message": "Ajustar volumen"
+    "message": "Ajustar Volumen"
   },
   "shortcut_mute_unmute": {
-    "message": "Silenciar/Activar sonido del video"
+    "message": "Silenciar/Activar Sonido del Video"
   },
   "shortcut_fast_forward_rewind_5": {
-    "message": "Avanzar/Retroceder video 5 segundos"
+    "message": "Avanzar/Retroceder Video 5 Segundos"
   },
   "shortcut_fast_forward_rewind_10": {
-    "message": "Avanzar/Retroceder video 10 segundos"
+    "message": "Avanzar/Retroceder Video 10 Segundos"
   },
   "shortcut_fast_forward_rewind": {
-    "message": "Avanzar/Retroceder video"
+    "message": "Avanzar/Retroceder Video"
   },
   "shortcut_next_video": {
-    "message": "Reproducir el siguiente video"
+    "message": "Reproducir el Siguiente Video"
   },
   "shortcut_previous_video": {
-    "message": "Reproducir el video anterior"
+    "message": "Reproducir el Video Anterior"
   },
   "shortcut_toggle_captions": {
-    "message": "Mostrar/Ocultar subtítulos"
+    "message": "Mostrar/Ocultar Subtítulos"
   },
   "shortcut_toggle_danmaku": {
-    "message": "Mostrar/Ocultar chat de balas"
+    "message": "Mostrar/Ocultar Chat de Balas"
   },
   "shortcut_toggle_fullscreen": {
-    "message": "Alternar pantalla completa"
+    "message": "Alternar Pantalla Completa"
   },
   "shortcut_playback_speed": {
-    "message": "Ajustar velocidad de reproducción"
+    "message": "Ajustar Velocidad de Reproducción"
   },
   "shortcut_seek_video_start_end": {
-    "message": "Buscar al inicio/final del video"
+    "message": "Buscar al Inicio/Final del Video"
   },
   "shortcut_seek_percentage": {
-    "message": "Buscar al porcentaje del video"
+    "message": "Buscar al Porcentaje del Video"
   },
   "shortcut_fit_to_screen": {
-    "message": "Ajustar ventana al tamaño del video"
+    "message": "Ajustar Ventana al Tamaño del Video"
   },
   "shortcut_exit_pip": {
     "message": "Salir de Picture-in-Picture"
   },
   "shortcut_toggle_hide_show": {
-    "message": "Alternar ocultar/mostrar video y reproducir/pausar"
+    "message": "Alternar Ocultar/Mostrar Video y Reproducir/Pausar"
   },
   "shortcut_enter_pip": {
-    "message": "Alternar Picture-in-Picture desde la página principal"
+    "message": "Alternar Picture-in-Picture desde la Página Principal"
   },
   "mute": {
     "message": "Silenciar"
   },
   "unmute": {
-    "message": "Activar sonido"
+    "message": "Activar Sonido"
   },
   "prev_video": {
     "message": "Video Anterior"
@@ -241,15 +241,15 @@
     "description": "No se pudo ejecutar 'requestWindow' en 'DocumentPictureInPicture': Abrir una ventana PiP solo está permitido desde un contexto de navegación de nivel superior"
   },
   "use_standard_pip": {
-    "message": "Usar PiP estándar",
+    "message": "Usar PiP Estándar",
     "description": "Opción para usar el modo estándar de Picture-in-Picture"
   },
   "open_in_new_tab": {
-    "message": "Abrir en nueva pestaña",
+    "message": "Abrir en Nueva Pestaña",
     "description": "Opción para abrir la página en una nueva pestaña"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Recordar la configuración de este sitio (Puede modificarlo en Opciones - Configuración del sitio)"
+    "message": "Recordar la Configuración de este Sitio (Puede modificarlo en Opciones - Configuración del Sitio)"
   },
   "pip_user_activation_required": {
     "message": "El modo Picture-in-Picture requiere interacción del usuario. Por favor haga clic o interactúe con la página e intente de nuevo.",
@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Actualización de Cuenta Regresiva"
+  },
+  "premium_feature_trial": {
+    "message": "Estás probando las funciones Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "El período de prueba de Picture-in-Picture avanzado ha terminado. Se cambió al modo Picture-in-Picture estándar. Para seguir usando las funciones avanzadas de Picture-in-Picture, actualiza a Premium."
+  },
+  "do_not_show_again": {
+    "message": "No mostrar de nuevo"
+  },
+  "upgrade_to_premium": {
+    "message": "Actualizar a Premium"
   }
 }

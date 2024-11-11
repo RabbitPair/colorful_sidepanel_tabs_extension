@@ -12,16 +12,16 @@
     "message": "Abrir Painel Lateral"
   },
   "closeSidebar": {
-    "message": "Fechar barra lateral"
+    "message": "Fechar Painel Lateral"
   },
   "disableSidebar": {
-    "message": "Desativar barra lateral"
+    "message": "Desativar Painel Lateral"
   },
   "disableSidebarAlert": {
-    "message": "Tem certeza de que deseja desativar a barra lateral em todas as páginas? Para reativar, vá para a página de configurações."
+    "message": "Tem certeza de que deseja desativar o painel lateral em todas as páginas? Para reativar, vá para a página de configurações."
   },
   "toggleSidebarPosition": {
-    "message": "Alternar posição da barra lateral"
+    "message": "Alternar Posição do Painel Lateral"
   },
   "group_newsInformation": {
     "message": "Notícias e Informações"
@@ -30,7 +30,7 @@
     "message": "Vídeos e Filmes"
   },
   "group_liveStreaming": {
-    "message": "Ao Vivo e Streaming"
+    "message": "Transmissão ao Vivo"
   },
   "group_entertainmentGames": {
     "message": "Jogos e Entretenimento"
@@ -54,7 +54,7 @@
     "message": "Esportes e Fitness"
   },
   "group_medicalHealth": {
-    "message": "Médico e Saúde"
+    "message": "Saúde e Medicina"
   },
   "group_educationTraining": {
     "message": "Educação e Treinamento"
@@ -63,7 +63,7 @@
     "message": "Treinamento de Habilidades"
   },
   "group_financialInvestment": {
-    "message": "Financeiro e Investimento"
+    "message": "Finanças e Investimentos"
   },
   "group_transportationTravel": {
     "message": "Transporte e Viagem"
@@ -84,13 +84,13 @@
     "message": "Fóruns Comunitários"
   },
   "group_chatSocial": {
-    "message": "Chat e Social"
+    "message": "Chat e Redes Sociais"
   },
   "group_commonQueries": {
     "message": "Consultas Comuns"
   },
   "group_comprehensiveOthers": {
-    "message": "Abrangente e Outros"
+    "message": "Diversos"
   },
   "group_jobRecruitment": {
     "message": "Recrutamento de Emprego"
@@ -141,64 +141,64 @@
     "message": "Pausar"
   },
   "shortcut_play_pause": {
-    "message": "Reproduzir/Pausar vídeo"
+    "message": "Reproduzir/Pausar Vídeo"
   },
   "shortcut_adjust_volume": {
-    "message": "Ajustar volume"
+    "message": "Ajustar Volume"
   },
   "shortcut_mute_unmute": {
-    "message": "Silenciar/Ativar som do vídeo"
+    "message": "Silenciar/Ativar Som do Vídeo"
   },
   "shortcut_fast_forward_rewind_5": {
-    "message": "Avançar/Retroceder vídeo 5 segundos"
+    "message": "Avançar/Retroceder Vídeo 5 Segundos"
   },
   "shortcut_fast_forward_rewind_10": {
-    "message": "Avançar/Retroceder vídeo 10 segundos"
+    "message": "Avançar/Retroceder Vídeo 10 Segundos"
   },
   "shortcut_fast_forward_rewind": {
-    "message": "Avançar/Retroceder vídeo"
+    "message": "Avançar/Retroceder Vídeo"
   },
   "shortcut_next_video": {
-    "message": "Reproduzir o próximo vídeo"
+    "message": "Reproduzir Próximo Vídeo"
   },
   "shortcut_previous_video": {
-    "message": "Reproduzir o vídeo anterior"
+    "message": "Reproduzir Vídeo Anterior"
   },
   "shortcut_toggle_captions": {
-    "message": "Mostrar/Esconder legendas"
+    "message": "Mostrar/Esconder Legendas"
   },
   "shortcut_toggle_danmaku": {
-    "message": "Mostrar/Esconder bate-papo em bala"
+    "message": "Mostrar/Esconder Comentários em Tempo Real"
   },
   "shortcut_toggle_fullscreen": {
-    "message": "Alternar tela cheia"
+    "message": "Alternar Tela Cheia"
   },
   "shortcut_playback_speed": {
-    "message": "Ajustar velocidade de reprodução"
+    "message": "Ajustar Velocidade de Reprodução"
   },
   "shortcut_seek_video_start_end": {
-    "message": "Buscar início/fim do vídeo"
+    "message": "Ir para Início/Fim do Vídeo"
   },
   "shortcut_seek_percentage": {
-    "message": "Buscar porcentagem do vídeo"
+    "message": "Ir para Percentual do Vídeo"
   },
   "shortcut_fit_to_screen": {
-    "message": "Ajustar janela ao tamanho do vídeo"
+    "message": "Ajustar Janela ao Tamanho do Vídeo"
   },
   "shortcut_exit_pip": {
-    "message": "Sair do modo Picture-in-Picture"
+    "message": "Sair do Modo Picture-in-Picture"
   },
   "shortcut_toggle_hide_show": {
-    "message": "Alternar esconder/mostrar vídeo e reproduzir/pausar"
+    "message": "Alternar Esconder/Mostrar Vídeo e Reproduzir/Pausar"
   },
   "shortcut_enter_pip": {
-    "message": "Alternar Picture-in-Picture da página principal"
+    "message": "Alternar Picture-in-Picture da Página Principal"
   },
   "mute": {
     "message": "Silenciar"
   },
   "unmute": {
-    "message": "Desativar Silêncio"
+    "message": "Ativar Som"
   },
   "prev_video": {
     "message": "Vídeo Anterior"
@@ -216,7 +216,7 @@
     "message": "Legendas Ocultas"
   },
   "danmaku": {
-    "message": "Bate-papo em Bala"
+    "message": "Comentários em Tempo Real"
   },
   "fit_to_screen": {
     "message": "Ajustar à Tela"
@@ -225,10 +225,10 @@
     "message": "Recarregar Vídeo"
   },
   "loading_pip_config": {
-    "message": "Carregando Configurações de Document Picture-in-Picture..."
+    "message": "Carregando Configurações de Picture-in-Picture..."
   },
   "playing_in_pip_mode": {
-    "message": "Reproduzindo em Modo Document Picture-in-Picture"
+    "message": "Reproduzindo em Modo Picture-in-Picture"
   },
   "detecting_pip_subtitle_settings": {
     "message": "Detectando Configurações de Legendas Picture-in-Picture..."
@@ -241,15 +241,15 @@
     "description": "Falha ao executar 'requestWindow' em 'DocumentPictureInPicture': Abrir uma janela PiP só é permitido a partir de um contexto de navegação de nível superior"
   },
   "use_standard_pip": {
-    "message": "Usar PiP padrão",
+    "message": "Usar Picture-in-Picture Padrão",
     "description": "Opção para usar o modo padrão Picture-in-Picture"
   },
   "open_in_new_tab": {
-    "message": "Abrir em nova aba",
+    "message": "Abrir em Nova Aba",
     "description": "Opção para abrir a página em uma nova aba"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Lembrar as configurações deste site (Você pode modificá-las em Opções - Configurações do site)"
+    "message": "Lembrar as Configurações deste Site (Você pode modificá-las em Opções - Configurações do Site)"
   },
   "pip_user_activation_required": {
     "message": "O modo Picture-in-Picture requer interação do usuário. Por favor, clique ou interaja com a página e tente novamente.",
@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Atualização de Contagem Regressiva"
+  },
+  "premium_feature_trial": {
+    "message": "Você está experimentando os recursos Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "O período de teste do Picture-in-Picture avançado terminou. Alternado para o modo Picture-in-Picture padrão. Para continuar usando os recursos avançados do Picture-in-Picture, faça upgrade para o Premium."
+  },
+  "do_not_show_again": {
+    "message": "Não mostrar novamente"
+  },
+  "upgrade_to_premium": {
+    "message": "Fazer Upgrade para Premium"
   }
 }

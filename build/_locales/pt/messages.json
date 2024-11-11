@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Atualização de Contagem Regressiva"
+  },
+  "premium_feature_trial": {
+    "message": "Você está experimentando os recursos Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "O período de teste do Picture-in-Picture avançado terminou. Mudou para o modo Picture-in-Picture padrão. Para continuar usando os recursos avançados do Picture-in-Picture, faça upgrade para o Premium."
+  },
+  "do_not_show_again": {
+    "message": "Não mostrar novamente"
+  },
+  "upgrade_to_premium": {
+    "message": "Fazer upgrade para Premium"
   }
 }

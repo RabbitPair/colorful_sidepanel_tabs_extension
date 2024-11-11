@@ -6,70 +6,70 @@
     "message": "VertiTab"
   },
   "appDescription": {
-    "message": "Gestisci le schede del browser nel pannello laterale con funzionalità configurabili, abbellimenti e molte altre caratteristiche"
+    "message": "Gestisci le schede del browser nel pannello laterale con funzionalità configurabili, estetiche e molte altre"
   },
   "openSidePanel": {
     "message": "Apri Pannello Laterale"
   },
   "closeSidebar": {
-    "message": "Chiudi barra laterale"
+    "message": "Chiudi pannello laterale"
   },
   "disableSidebar": {
-    "message": "Disabilita barra laterale"
+    "message": "Disabilita pannello laterale"
   },
   "disableSidebarAlert": {
-    "message": "Sei sicuro di voler disabilitare la barra laterale su tutte le pagine? Per riabilitarla, vai alla pagina delle impostazioni."
+    "message": "Sei sicuro di voler disabilitare il pannello laterale su tutte le pagine? Per riabilitarlo, vai alla pagina delle impostazioni."
   },
   "toggleSidebarPosition": {
-    "message": "Cambia posizione barra laterale"
+    "message": "Cambia posizione pannello laterale"
   },
   "group_newsInformation": {
-    "message": "Notizie e Informazioni"
+    "message": "Notizie & Informazioni"
   },
   "group_videoMovies": {
-    "message": "Video e Film"
+    "message": "Video & Film"
   },
   "group_liveStreaming": {
-    "message": "Live e Streaming"
+    "message": "Live & Streaming"
   },
   "group_entertainmentGames": {
-    "message": "Giochi e Intrattenimento"
+    "message": "Giochi & Intrattenimento"
   },
   "group_musicWebsites": {
     "message": "Siti di Musica"
   },
   "group_literatureNovels": {
-    "message": "Letteratura e Romanzi"
+    "message": "Letteratura & Romanzi"
   },
   "group_animeWebsites": {
     "message": "Siti di Anime"
   },
   "group_ecommerceShopping": {
-    "message": "E-commerce e Shopping"
+    "message": "E-commerce & Shopping"
   },
   "group_technologyDigital": {
-    "message": "Tecnologia e Digitale"
+    "message": "Tecnologia & Digitale"
   },
   "group_sportsFitness": {
-    "message": "Sport e Fitness"
+    "message": "Sport & Fitness"
   },
   "group_medicalHealth": {
-    "message": "Medico e Salute"
+    "message": "Medicina & Salute"
   },
   "group_educationTraining": {
-    "message": "Istruzione e Formazione"
+    "message": "Educazione & Formazione"
   },
   "group_skillTraining": {
     "message": "Formazione delle Competenze"
   },
   "group_financialInvestment": {
-    "message": "Finanza e Investimenti"
+    "message": "Finanza & Investimenti"
   },
   "group_transportationTravel": {
-    "message": "Trasporti e Viaggi"
+    "message": "Trasporti & Viaggi"
   },
   "group_cookingGourmet": {
-    "message": "Cucina e Gourmet"
+    "message": "Cucina & Gourmet"
   },
   "group_petCare": {
     "message": "Cura degli Animali"
@@ -78,31 +78,31 @@
     "message": "Consulenza Legale"
   },
   "group_artCulture": {
-    "message": "Arte e Cultura"
+    "message": "Arte & Cultura"
   },
   "group_communityForums": {
     "message": "Forum della Comunità"
   },
   "group_chatSocial": {
-    "message": "Chat e Social"
+    "message": "Chat & Social"
   },
   "group_commonQueries": {
     "message": "Domande Comuni"
   },
   "group_comprehensiveOthers": {
-    "message": "Varie e Altri"
+    "message": "Varie & Altro"
   },
   "group_jobRecruitment": {
-    "message": "Reclutamento di Lavoro"
+    "message": "Offerte di Lavoro"
   },
   "group_jobRecruitmentAlt": {
-    "message": "Reclutamento e Ricerca di Lavoro"
+    "message": "Reclutamento & Ricerca di Lavoro"
   },
   "group_motherBaby": {
-    "message": "Mamma e Bambino"
+    "message": "Mamma & Bambino"
   },
   "group_tutorialsGuides": {
-    "message": "Tutorial e Guide"
+    "message": "Tutorial & Guide"
   },
   "group_goodSitesCollection": {
     "message": "Collezione di Buoni Siti"
@@ -150,13 +150,13 @@
     "message": "Disattiva/Attiva audio video"
   },
   "shortcut_fast_forward_rewind_5": {
-    "message": "Avanza/Riavvolgi video di 5 secondi"
+    "message": "Avanza/Indietreggia video di 5 secondi"
   },
   "shortcut_fast_forward_rewind_10": {
-    "message": "Avanza/Riavvolgi video di 10 secondi"
+    "message": "Avanza/Indietreggia video di 10 secondi"
   },
   "shortcut_fast_forward_rewind": {
-    "message": "Avanza/Riavvolgi video"
+    "message": "Avanza/Indietreggia video"
   },
   "shortcut_next_video": {
     "message": "Riproduci il video successivo"
@@ -168,7 +168,7 @@
     "message": "Mostra/Nascondi sottotitoli"
   },
   "shortcut_toggle_danmaku": {
-    "message": "Mostra/Nascondi chat a schermo"
+    "message": "Mostra/Nascondi commenti a schermo"
   },
   "shortcut_toggle_fullscreen": {
     "message": "Attiva/Disattiva schermo intero"
@@ -189,7 +189,7 @@
     "message": "Esci da Picture-in-Picture"
   },
   "shortcut_toggle_hide_show": {
-    "message": "Mostra/Nascondi video e riproduci/pausa"
+    "message": "Mostra/Nascondi video e Riproduci/Pausa"
   },
   "shortcut_enter_pip": {
     "message": "Attiva/Disattiva Picture-in-Picture dalla pagina principale"
@@ -201,13 +201,13 @@
     "message": "Attiva audio"
   },
   "prev_video": {
-    "message": "Video precedente"
+    "message": "Video Precedente"
   },
   "next_video": {
-    "message": "Video successivo"
+    "message": "Video Successivo"
   },
   "playbackRate": {
-    "message": "Velocità di riproduzione"
+    "message": "Velocità di Riproduzione"
   },
   "subtitles": {
     "message": "Sottotitoli"
@@ -216,22 +216,22 @@
     "message": "Sottotitoli per non udenti"
   },
   "danmaku": {
-    "message": "Chat a schermo"
+    "message": "Commenti a schermo"
   },
   "fit_to_screen": {
-    "message": "Adatta allo schermo"
+    "message": "Adatta allo Schermo"
   },
   "reload_video": {
-    "message": "Ricarica video"
+    "message": "Ricarica Video"
   },
   "loading_pip_config": {
-    "message": "Caricamento delle configurazioni Picture-in-Picture del documento..."
+    "message": "Caricamento Configurazioni Picture-in-Picture..."
   },
   "playing_in_pip_mode": {
-    "message": "Riproduzione in modalità Picture-in-Picture del documento"
+    "message": "Riproduzione in modalità Picture-in-Picture"
   },
   "detecting_pip_subtitle_settings": {
-    "message": "Rilevamento delle impostazioni dei sottotitoli Picture-in-Picture..."
+    "message": "Rilevamento Impostazioni Sottotitoli Picture-in-Picture..."
   },
   "video_not_detected": {
     "message": "Video non rilevato. Potrebbe non essere ancora pronto. Se c'è un video sulla pagina, fai clic su riproduci e riprova."
@@ -249,11 +249,11 @@
     "description": "Opzione per aprire la pagina in una nuova scheda"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Ricorda le impostazioni di questo sito (puoi modificarle in Opzioni - Impostazioni del sito)"
+    "message": "Ricorda le impostazioni di questo sito (Puoi modificarle in Opzioni - Impostazioni del sito)"
   },
   "pip_user_activation_required": {
     "message": "La modalità Picture-in-Picture richiede l'interazione dell'utente. Si prega di fare clic o interagire con la pagina e riprovare.",
-    "description": "Impossibile eseguire 'requestWindow' su 'DocumentPictureInPicture': il PiP del documento richiede l'attivazione dell'utente"
+    "description": "Impossibile eseguire 'requestWindow' su 'DocumentPictureInPicture': il Document PiP richiede l'attivazione dell'utente"
   },
   "retry_action": {
     "message": "Riprova"
@@ -262,6 +262,18 @@
     "message": "scorciatoie"
   },
   "countdown_refresh": {
-    "message": "Aggiornamento conto alla rovescia"
+    "message": "Aggiornamento Conto alla Rovescia"
+  },
+  "premium_feature_trial": {
+    "message": "Stai provando le funzionalità Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Il periodo di prova di Picture-in-Picture avanzato è terminato. Passato alla modalità Picture-in-Picture standard. Per continuare a utilizzare le funzionalità Picture-in-Picture avanzate, effettua l'upgrade a Premium."
+  },
+  "do_not_show_again": {
+    "message": "Non mostrare più"
+  },
+  "upgrade_to_premium": {
+    "message": "Passa a Premium"
   }
 }

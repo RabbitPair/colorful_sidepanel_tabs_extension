@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Countdown Refresh"
+  },
+  "premium_feature_trial": {
+    "message": "You are trying the Premium features"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Advanced Picture-in-Picture trial period has ended. Switched to standard Picture-in-Picture mode. To continue using advanced Picture-in-Picture features, please upgrade to Premium."
+  },
+  "do_not_show_again": {
+    "message": "Don't show again"
+  },
+  "upgrade_to_premium": {
+    "message": "Upgrade to Premium"
   }
 }

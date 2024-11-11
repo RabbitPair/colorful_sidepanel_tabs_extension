@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Prikaži orodno vrstico",
         "description": "Ko je omogočeno, je prikazana orodna vrstica",
-        "moreOptions": "Več možnosti",
-        "moreOptionsDescription": "Lahko nadzirate, katere ikone se prikažejo na orodni vrstici.",
-        "moreOptionsHideLabel": "Skrij oznake ikon orodne vrstice",
+        "configure": "Nastavi",
+        "configureDesc": "Nastavi orodno vrstico",
+        "enabledNavs": "Omogočene navigacije",
+        "disabledNavs": "Onemogočene navigacije (na voljo)",
+        "showLabel": "Prikaži oznake",
+        "close": "Zapri",
+        "save": "Shrani",
+        "left": "Levo",
+        "right": "Desno",
+        "newTab": "Nov zavihek",
+        "tabGoBack": "Nazaj",
+        "tabGoForward": "Naprej",
+        "tabRefresh": "Osveži",
+        "scrollToActiveTab": "Pomakni se na aktivni zavihek",
+        "muteAllTabs": "Utišaj vse zavihke",
+        "collapseAll": "Strni vse",
+        "createSnapshot": "Ustvari posnetek",
+        "themeModes": "Barvni načini",
+        "viewModes": "Načini pogleda",
+        "showBy": "Prikaži po",
+        "sortBy": "Razvrsti po",
+        "switchPIP": "Preklopi sliko v sliki",
+        "clearTabs": "Počisti zavihke"
+      },
+      "clearTabsBtn": {
+        "label": "Prikaži gumb za čiščenje zavihkov",
+        "description": "Ko je omogočeno, je prikazan gumb za čiščenje zavihkov",
+        "configure": "nastavi",
+        "configureDesc": "Lahko nadzirate vedenje pri čiščenju zavihkov",
         "close": "Zapri",
         "options": {
-          "toolbar_newtab": "Nov zavihek",
-          "toolbar_orderby": "Razvrsti po",
-          "toolbar_showby": "Prikaži po",
-          "toolbar_view": "pogled",
-          "toolbar_colorMode": "Barvni način",
-          "toolbar_muteAllTabs": "Utišaj vse zavihke, ki predvajajo zvok",
-          "toolbar_scrollToActiveTab": "Pomakni se na aktivni zavihek"
-        }
+          "createSnapshot": "Ustvari posnetek pred čiščenjem",
+          "closeInactiveTabs": "Zapri neaktivne zavihke",
+          "closeDiscardTabs": "Zapri zavržene zavihke",
+          "skipSoundTabs": "Preskoči zavihke, ki predvajajo zvok",
+          "skipCurrentTab": "Preskoči trenutni zavihek",
+          "confirm": "Prikaži potrditveno pogovorno okno"
+        },
+        "confirmClearTabs": "Počisti zavihke",
+        "confirmClearTabsMessage": "Ali ste prepričani, da želite počistiti te zavihke? Tega dejanja ni mogoče razveljaviti.",
+        "cancel": "Prekliči",
+        "confirm": "Potrdi"
       },
       "tabNav": {
         "label": "Prikaži vrstico za krmarjenje po zavihkih",
@@ -137,6 +166,7 @@
         "createTabPanel": "Ustvari ploščo z zavihki",
         "tabPanels": "Plošče z zavihki",
         "switchPIP": "Preklopi sliko v sliki",
+        "clearTabs": "Počisti zavihke",
         "pinToToolbarReminder": "Pred odstranitvijo te navigacije pripnite razširitev na orodno vrstico."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Omogoči neprekinjeno predvajanje",
         "description": "Neprekinjeno predvajanje: Okno slike v sliki se ne zapre in samodejno predvaja naslednjo epizodo po koncu videa. Ta funkcija zahteva podporo spletnega mesta."
+      },
+      "advancedPipShowTitle": {
+        "label": "Prikaži naslov v naprednem predvajalniku slike v sliki",
+        "description": "Ko je omogočeno, bo naslov strani prikazan v naprednem predvajalniku slike v sliki"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Izvoz neuspešen"
       }
     },
-    "SyncToCloud": {
-      "label": "Sinhroniziraj v oblak",
-      "SyncNow": "Sinhroniziraj zdaj",
-      "SyncNowWithGoogleDrive": "Sinhroniziraj zdaj z Google Drive",
-      "SyncNowWithDropbox": "Sinhroniziraj zdaj z Dropbox",
-      "SyncNowWithOneDrive": "Sinhroniziraj zdaj z OneDrive",
-      "Synchronizing": "Sinhroniziranje...",
-      "SyncedSuccessfully": "Sinhronizacija uspešna",
-      "SyncFailed": "Sinhronizacija neuspešna",
-      "LoginRequired": "Potrebna prijava",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sinhroniziraj nastavitve",
-        "description": "Izberite, kako sinhronizirati nastavitve te razširitve.",
-        "disabled": "Onemogočeno",
-        "uploadOnly": "Samo nalaganje",
-        "downloadOnly": "Samo prenos",
-        "staySynchronized": "Ostani sinhroniziran"
+    "syncToCloud": {
+      "title": "Sinhronizacija nastavitev",
+      "setLocalPasswordTitle": "Nastavi lokalno geslo",
+      "setLocalPasswordDescription": "Za šifriranje in zaščito vaših sinhronizacijskih podatkov nastavite geslo za šifriranje. To geslo ne bo posredovano nam. Enako geslo morate nastaviti v drugih brskalnikih za sinhronizacijo. Poskrbite, da si ga boste zapomnili.",
+      "passwordError": "Geslo mora biti dolgo vsaj 6 znakov in vsebovati tako številke kot črke",
+      "save": "Shrani in nadaljuj",
+      "cancel": "Prekliči",
+      "doNotUseLocalPassword": "Uporabi privzeto šifriranje",
+      "changeLocalPassword": "Spremeni lokalno geslo",
+      "changeLocalPasswordDesc": "Ponastavitev lokalnega gesla bo razveljavila prej sinhronizirane podatke. To geslo se uporablja za šifriranje in zaščito vaših sinhronizacijskih podatkov. Geslo ne bo posredovano nam. Enako geslo morate nastaviti v drugih brskalnikih za sinhronizacijo. Prosimo, nastavite ga previdno!",
+      "deviceName": "Ime naprave",
+      "deviceNameDescription": "Nastavite lahko prepoznavno ime za to napravo, da jo boste lažje prepoznali med sinhronizacijo več naprav",
+      "deviceId": "ID naprave",
+      "syncNow": "Sinhroniziraj zdaj",
+      "lastSyncTime": "Zadnji čas sinhronizacije",
+      "uploadStatus": "Status nalaganja",
+      "downloadStatus": "Status prenosa",
+      "notSynced": "Ni sinhronizirano",
+      "success": "Uspeh",
+      "failed": "Neuspešno",
+      "mode": {
+        "title": "Način sinhronizacije",
+        "description": "Izberite, kako se podatki sinhronizirajo med napravami",
+        "modes": {
+          "disabled": "Onemogočeno",
+          "uploadOnly": "Samo nalaganje",
+          "downloadOnly": "Samo prenos",
+          "staySynchronized": "Ostani sinhroniziran"
+        }
       },
-      "SyncTabs": {
-        "label": "Sinhroniziraj zavihke",
-        "description": "Izberite, kako sinhronizirati podatke zavihkov, brez zasebnih podatkov, kot so piškotki in osebni podatki.",
-        "disabled": "Onemogočeno",
-        "uploadOnly": "Samo nalaganje",
-        "downloadOnly": "Samo prenos",
-        "staySynchronized": "Ostani sinhroniziran"
+      "providers": {
+        "title": "Ponudniki sinhronizacije",
+        "description": "Izberite in konfigurirajte ponudnike storitev za sinhronizacijo podatkov",
+        "defaultProvider": "Privzeti ponudnik sinhronizacije",
+        "close": "Zapri",
+        "save": "Shrani",
+        "configure": "Konfiguriraj",
+        "authorize": "Avtoriziraj",
+        "providers": {
+          "custom": {
+            "title": "Oblačna storitev",
+            "enabled": "Omogočeno"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Sinhroniziraj odpiranje ali zapiranje zavihkov",
-        "description": "Ko je omogočeno, bo odpiranje ali zapiranje zavihkov v različnih brskalnikih sinhronizirano. To velja samo, ko je aktivna možnost 'ostani sinhroniziran'.",
-        "OpenOrCloseTabsSynchronouslyWarning": "Če se prijavite v isti račun v dveh brskalnikih hkrati in omogočite to možnost, bo odpiranje ali zapiranje zavihkov v enem brskalniku izvedlo enako dejanje v drugem brskalniku. Če spletno mesto prepoveduje ponovne prijave z istim računom, lahko pride do izjem."
+      "dataOptions": {
+        "title": "Možnosti sinhronizacije podatkov",
+        "description": "Izberite vrste podatkov za sinhronizacijo",
+        "openedTabs": {
+          "title": "Odprti zavihki",
+          "enabled": "Sinhroniziraj odprte zavihke"
+        },
+        "settings": {
+          "title": "Nastavitve",
+          "enabled": "Sinhroniziraj nastavitve"
+        },
+        "siteConfigs": {
+          "title": "Konfiguracije spletnega mesta",
+          "enabled": "Sinhroniziraj konfiguracije spletnega mesta"
+        },
+        "quickAccess": {
+          "title": "Hiter dostop",
+          "enabled": "Sinhroniziraj hiter dostop"
+        },
+        "recentClosedTabs": {
+          "title": "Nedavno zaprti zavihki",
+          "enabled": "Sinhroniziraj nedavno zaprte zavihke"
+        },
+        "windowTabs": {
+          "title": "Okna, skupine zavihkov in zavihki",
+          "enabled": "Sinhroniziraj zgodovino zavihkov",
+          "close": "Zapri",
+          "save": "Shrani",
+          "syncAfterAction": "Dejanje po sinhronizaciji",
+          "syncAfterActionTitle": "Izberite, kako ravnati po sinhronizaciji",
+          "applyModes": {
+            "append": {
+              "title": "Način dodajanja",
+              "description": "Če ima trenutno okno manj kot 5 zavihkov, bodo sinhronizirani zavihki dodani na konec trenutnega okna. Če je sinhroniziranih več oken, bodo zavihki iz prvega okna združeni v trenutno okno, druga okna pa bodo ustvarjena kot ločena nova okna."
+            },
+            "new": {
+              "title": "Novo okno",
+              "description": "Odprite sinhronizirane zavihke v novem oknu, pri čemer obstoječi zavihki ostanejo nespremenjeni"
+            },
+            "replace": {
+              "title": "Način zamenjave",
+              "description": "Zaprite obstoječe zavihke in odprite sinhronizirane zavihke v novem oknu"
+            },
+            "createSnapshot": {
+              "title": "Ustvari posnetek",
+              "description": "Shrani sinhronizirane zavihke kot nov posnetek"
+            }
+          },
+          "moreOptions": "Napredne možnosti",
+          "optionsTitle": "Nastavitve sinhronizacije zavihkov",
+          "skipLastWindow": "Ne sinhroniziraj, ko se zapre zadnje okno",
+          "skipLastWindowDescription": "Začasno ustavi sinhronizacijo, ko se zapre zadnje okno, da omogočite obnovitev nedavnih zavihkov na drugih napravah. Če je ta možnost onemogočena, se bo sinhronizacija izvedla takoj, druge naprave pa ne bodo mogle obnoviti teh zavihkov.",
+          "debounceMs": "Zakasnitev sinhronizacije",
+          "debounceMsDescription": "Nastavite, koliko sekund naj se počaka po spremembi zavihka pred sinhronizacijo, da se izognete preveč pogostim operacijam sinhronizacije"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sinhroniziraj zasebne podatke",
-        "description": "Izberite, kako sinhronizirati zasebne podatke, kot so piškotki spletnih strani, podatki lokalnega shranjevanja spletnih strani, podatki SessionStorage itd. Podatki bodo pred sinhronizacijo šifrirani.",
-        "disabled": "Onemogočeno",
-        "uploadOnly": "Samo nalaganje",
-        "downloadOnly": "Samo prenos",
-        "staySynchronized": "Ostani sinhroniziran"
+      "globalTriggers": {
+        "title": "Globalni sprožilci sinhronizacije",
+        "description": "Konfigurirajte, kdaj sprožiti globalne operacije sinhronizacije",
+        "onStartup": "Ko se brskalnik prvič zažene"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Vgrajene strani pregledovalnika PDF",
         "newTabPage": "Strani novega zavihka (začnejo se s chrome://newtab/ ali edge://newtab/ ali podobno)"
       }
+    },
+    "general": {
+      "title": "Splošno",
+      "description": "",
+      "accountInfo": {
+        "label": "Podatki o računu",
+        "currentPlan": "Trenutni načrt",
+        "subscribePremium": "Naročite se na Premium",
+        "manageAccount": "Upravljaj račun",
+        "logout": "Odjava",
+        "notLoggedIn": "Niste prijavljeni",
+        "signIn": "Prijava",
+        "free": "Brezplačno",
+        "premium": "Premium",
+        "premiumEndsAt": "Vaš Premium načrt se bo končal {{date}}",
+        "trialEndsAt": "Vaše poskusno obdobje Premium se bo končalo {{date}}",
+        "signInForPremium": "Prijavite se za Premium",
+        "trialEndsAndMembershipStarts": "Vaše poskusno obdobje se bo končalo {{date}}. Po koncu poskusnega obdobja bo vaše uradno članstvo samodejno začelo veljati in vse ugodnosti bodo ostale nespremenjene.",
+        "lifetimeMembership": "Doživljenjsko članstvo",
+        "manageSubscription": "Upravljaj naročnino"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Ustvari posnetek",
     "exportSnapshot": "Izvozi posnetek",
     "restoreWindowSize": "Obnovi položaj in velikost okna",
+    "restoreGroups": "Obnovi skupine",
     "openAllWindows": "Odpri vsa okna",
     "openSelectedInNewWindow": "Odpri izbrano v novem oknu",
     "openSelectedInCurrentWindow": "Odpri izbrano v trenutnem oknu",

@@ -12,16 +12,16 @@
     "message": "Abrir Painel Lateral"
   },
   "closeSidebar": {
-    "message": "Fechar barra lateral"
+    "message": "Fechar Painel Lateral"
   },
   "disableSidebar": {
-    "message": "Desativar barra lateral"
+    "message": "Desativar Painel Lateral"
   },
   "disableSidebarAlert": {
-    "message": "Tem certeza de que deseja desativar a barra lateral em todas as páginas? Para reativar, vá para a página de configurações."
+    "message": "Tem a certeza de que deseja desativar o painel lateral em todas as páginas? Para reativar, vá para a página de configurações."
   },
   "toggleSidebarPosition": {
-    "message": "Alternar posição da barra lateral"
+    "message": "Alternar Posição do Painel Lateral"
   },
   "group_newsInformation": {
     "message": "Notícias e Informações"
@@ -30,7 +30,7 @@
     "message": "Vídeos e Filmes"
   },
   "group_liveStreaming": {
-    "message": "Ao Vivo e Streaming"
+    "message": "Transmissão ao Vivo"
   },
   "group_entertainmentGames": {
     "message": "Jogos e Entretenimento"
@@ -51,19 +51,19 @@
     "message": "Tecnologia e Digital"
   },
   "group_sportsFitness": {
-    "message": "Esportes e Fitness"
+    "message": "Desporto e Fitness"
   },
   "group_medicalHealth": {
-    "message": "Médico e Saúde"
+    "message": "Saúde e Medicina"
   },
   "group_educationTraining": {
-    "message": "Educação e Treinamento"
+    "message": "Educação e Formação"
   },
   "group_skillTraining": {
-    "message": "Treinamento de Habilidades"
+    "message": "Formação de Competências"
   },
   "group_financialInvestment": {
-    "message": "Financeiro e Investimento"
+    "message": "Finanças e Investimentos"
   },
   "group_transportationTravel": {
     "message": "Transporte e Viagem"
@@ -96,10 +96,10 @@
     "message": "Recrutamento de Emprego"
   },
   "group_jobRecruitmentAlt": {
-    "message": "Recrutamento e Busca de Emprego"
+    "message": "Recrutamento e Procura de Emprego"
   },
   "group_motherBaby": {
-    "message": "Mãe e Bebê"
+    "message": "Mãe e Bebé"
   },
   "group_tutorialsGuides": {
     "message": "Tutoriais e Guias"
@@ -132,7 +132,7 @@
     "message": "Sistemas Internos"
   },
   "switchPIP": {
-    "message": "Alternar Picture-in-Picture"
+    "message": "Alternar Imagem-em-Imagem"
   },
   "play": {
     "message": "Reproduzir"
@@ -150,13 +150,13 @@
     "message": "Silenciar/Ativar som do vídeo"
   },
   "shortcut_fast_forward_rewind_5": {
-    "message": "Avançar/Retroceder vídeo 5 segundos"
+    "message": "Avançar/Recuar vídeo 5 segundos"
   },
   "shortcut_fast_forward_rewind_10": {
-    "message": "Avançar/Retroceder vídeo 10 segundos"
+    "message": "Avançar/Recuar vídeo 10 segundos"
   },
   "shortcut_fast_forward_rewind": {
-    "message": "Avançar/Retroceder vídeo"
+    "message": "Avançar/Recuar vídeo"
   },
   "shortcut_next_video": {
     "message": "Reproduzir o próximo vídeo"
@@ -165,34 +165,34 @@
     "message": "Reproduzir o vídeo anterior"
   },
   "shortcut_toggle_captions": {
-    "message": "Mostrar/Ocultar legendas"
+    "message": "Mostrar/Esconder legendas"
   },
   "shortcut_toggle_danmaku": {
-    "message": "Mostrar/Ocultar barragens"
+    "message": "Mostrar/Esconder barragens"
   },
   "shortcut_toggle_fullscreen": {
-    "message": "Alternar tela cheia"
+    "message": "Alternar ecrã inteiro"
   },
   "shortcut_playback_speed": {
     "message": "Ajustar velocidade de reprodução"
   },
   "shortcut_seek_video_start_end": {
-    "message": "Buscar início/fim do vídeo"
+    "message": "Procurar início/fim do vídeo"
   },
   "shortcut_seek_percentage": {
-    "message": "Buscar porcentagem do vídeo"
+    "message": "Procurar percentagem do vídeo"
   },
   "shortcut_fit_to_screen": {
     "message": "Ajustar janela ao tamanho do vídeo"
   },
   "shortcut_exit_pip": {
-    "message": "Sair do modo Picture-in-Picture"
+    "message": "Sair do Imagem-em-Imagem"
   },
   "shortcut_toggle_hide_show": {
-    "message": "Alternar ocultar/mostrar vídeo e reproduzir/pausar"
+    "message": "Alternar esconder/mostrar vídeo e reproduzir/pausar"
   },
   "shortcut_enter_pip": {
-    "message": "Alternar Picture-in-Picture da página principal"
+    "message": "Alternar Imagem-em-Imagem a partir da página principal"
   },
   "mute": {
     "message": "Silenciar"
@@ -219,41 +219,41 @@
     "message": "Chat de Balas"
   },
   "fit_to_screen": {
-    "message": "Ajustar à Tela"
+    "message": "Ajustar ao Ecrã"
   },
   "reload_video": {
     "message": "Recarregar Vídeo"
   },
   "loading_pip_config": {
-    "message": "Carregando Configurações de Picture-in-Picture do Documento..."
+    "message": "A carregar configurações de Imagem-em-Imagem do Documento..."
   },
   "playing_in_pip_mode": {
-    "message": "Reproduzindo no Modo Picture-in-Picture do Documento"
+    "message": "A reproduzir em modo Imagem-em-Imagem do Documento"
   },
   "detecting_pip_subtitle_settings": {
-    "message": "Detectando Configurações de Legendas de Picture-in-Picture..."
+    "message": "A detetar configurações de legendas de Imagem-em-Imagem..."
   },
   "video_not_detected": {
-    "message": "Vídeo não detectado. Pode não estar pronto ainda. Se houver um vídeo na página, por favor clique em reproduzir e tente novamente."
+    "message": "Vídeo não detetado. Pode não estar pronto ainda. Se houver um vídeo na página, por favor clique em reproduzir e tente novamente."
   },
   "pip_window_restriction": {
-    "message": "A janela avançada de Picture-in-Picture só pode ser aberta a partir da página principal e não pode ser lançada a partir de frames ou conteúdo incorporado. Você pode usar o modo padrão de Picture-in-Picture ou abrir em uma nova aba para tentar novamente. Note que o vídeo pode não carregar corretamente em uma nova aba.",
+    "message": "A janela avançada de Imagem-em-Imagem só pode ser aberta a partir da página principal e não pode ser lançada a partir de frames ou conteúdo incorporado. Pode usar o modo padrão de Imagem-em-Imagem ou abrir numa nova aba para tentar novamente. Note que o vídeo pode não carregar corretamente numa nova aba.",
     "description": "Falha ao executar 'requestWindow' em 'DocumentPictureInPicture': Abrir uma janela PiP só é permitido a partir de um contexto de navegação de nível superior"
   },
   "use_standard_pip": {
     "message": "Usar PiP padrão",
-    "description": "Opção para usar o modo padrão de Picture-in-Picture"
+    "description": "Opção para usar o modo padrão de Imagem-em-Imagem"
   },
   "open_in_new_tab": {
-    "message": "Abrir em nova aba",
-    "description": "Opção para abrir a página em uma nova aba"
+    "message": "Abrir numa nova aba",
+    "description": "Opção para abrir a página numa nova aba"
   },
   "remember_site_pip_restriction_choice": {
-    "message": "Lembrar as configurações deste site (Você pode modificá-las em Opções - Configurações do site)"
+    "message": "Lembrar as configurações deste site (Pode modificá-las em Opções - Configurações do site)"
   },
   "pip_user_activation_required": {
-    "message": "O modo Picture-in-Picture requer interação do usuário. Por favor, clique ou interaja com a página e tente novamente.",
-    "description": "Falha ao executar 'requestWindow' em 'DocumentPictureInPicture': O Document PiP requer ativação do usuário"
+    "message": "O modo Imagem-em-Imagem requer interação do utilizador. Por favor clique ou interaja com a página e tente novamente.",
+    "description": "Falha ao executar 'requestWindow' em 'DocumentPictureInPicture': O PiP do Documento requer ativação do utilizador"
   },
   "retry_action": {
     "message": "Tentar Novamente"
@@ -262,6 +262,18 @@
     "message": "Atalhos"
   },
   "countdown_refresh": {
-    "message": "Atualização de Contagem Regressiva"
+    "message": "Atualização em Contagem Regressiva"
+  },
+  "premium_feature_trial": {
+    "message": "Está a experimentar as funcionalidades Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "O período experimental de Imagem-em-Imagem avançado terminou. Mudou para o modo Imagem-em-Imagem padrão. Para continuar a usar as funcionalidades avançadas de Imagem-em-Imagem, atualize para Premium."
+  },
+  "do_not_show_again": {
+    "message": "Não mostrar novamente"
+  },
+  "upgrade_to_premium": {
+    "message": "Atualizar para Premium"
   }
 }

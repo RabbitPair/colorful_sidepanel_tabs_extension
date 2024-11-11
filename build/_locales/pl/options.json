@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Pokaż pasek narzędzi",
         "description": "Po włączeniu pasek narzędzi jest wyświetlany",
-        "moreOptions": "Więcej opcji",
-        "moreOptionsDescription": "Możesz kontrolować, które ikony pojawiają się na pasku narzędzi.",
-        "moreOptionsHideLabel": "Ukryj etykiety ikon paska narzędzi",
+        "configure": "Konfiguruj",
+        "configureDesc": "Konfiguruj pasek narzędzi",
+        "enabledNavs": "Włączone nawigacje",
+        "disabledNavs": "Dostępne wyłączone nawigacje",
+        "showLabel": "Pokaż etykiety",
+        "close": "Zamknij",
+        "save": "Zapisz",
+        "left": "Lewo",
+        "right": "Prawo",
+        "newTab": "Nowa karta",
+        "tabGoBack": "Wstecz",
+        "tabGoForward": "Dalej",
+        "tabRefresh": "Odśwież",
+        "scrollToActiveTab": "Przewiń do aktywnej karty",
+        "muteAllTabs": "Wycisz wszystkie karty",
+        "collapseAll": "Zwiń wszystko",
+        "createSnapshot": "Utwórz migawkę",
+        "themeModes": "Tryby motywu",
+        "viewModes": "Tryby widoku",
+        "showBy": "Pokaż według",
+        "sortBy": "Sortuj według",
+        "switchPIP": "Przełącz obraz w obrazie",
+        "clearTabs": "Wyczyść karty"
+      },
+      "clearTabsBtn": {
+        "label": "Pokaż przycisk czyszczenia kart",
+        "description": "Po włączeniu wyświetlany jest przycisk czyszczenia kart",
+        "configure": "konfiguruj",
+        "configureDesc": "Możesz kontrolować zachowanie podczas czyszczenia kart",
         "close": "Zamknij",
         "options": {
-          "toolbar_newtab": "Nowa karta",
-          "toolbar_orderby": "Sortuj według",
-          "toolbar_showby": "Pokaż według",
-          "toolbar_view": "widok",
-          "toolbar_colorMode": "Tryb kolorów",
-          "toolbar_muteAllTabs": "Wycisz wszystkie karty emitujące dźwięki",
-          "toolbar_scrollToActiveTab": "Przewiń do aktywnej karty"
-        }
+          "createSnapshot": "Utwórz migawkę przed wyczyszczeniem",
+          "closeInactiveTabs": "Zamknij nieaktywne karty",
+          "closeDiscardTabs": "Zamknij odrzucone karty",
+          "skipSoundTabs": "Pomiń karty odtwarzające dźwięk",
+          "skipCurrentTab": "Pomiń bieżącą kartę",
+          "confirm": "Pokaż okno dialogowe potwierdzenia"
+        },
+        "confirmClearTabs": "Wyczyść karty",
+        "confirmClearTabsMessage": "Czy na pewno chcesz wyczyścić te karty? Tej akcji nie można cofnąć.",
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź"
       },
       "tabNav": {
         "label": "Pokaż pasek nawigacji kart",
@@ -137,6 +166,7 @@
         "createTabPanel": "Utwórz panel kart",
         "tabPanels": "Panele kart",
         "switchPIP": "Przełącz obraz w obrazie",
+        "clearTabs": "Wyczyść karty",
         "pinToToolbarReminder": "Przypnij rozszerzenie do paska narzędzi przed usunięciem tej nawigacji."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Włącz Ciągłe Odtwarzanie",
         "description": "Ciągłe odtwarzanie: Okno Obrazu w Obrazie nie zamyka się i automatycznie odtwarza następny odcinek po zakończeniu wideo. Ta funkcja wymaga wsparcia strony."
+      },
+      "advancedPipShowTitle": {
+        "label": "Pokaż tytuł w zaawansowanym odtwarzaczu Obrazu w Obrazie",
+        "description": "Po włączeniu, tytuł strony będzie wyświetlany w zaawansowanym odtwarzaczu Obrazu w Obrazie"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Eksportowanie nie powiodło się"
       }
     },
-    "SyncToCloud": {
-      "label": "Synchronizuj z chmurą",
-      "SyncNow": "Synchronizuj teraz",
-      "SyncNowWithGoogleDrive": "Synchronizuj teraz z Google Drive",
-      "SyncNowWithDropbox": "Synchronizuj teraz z Dropbox",
-      "SyncNowWithOneDrive": "Synchronizuj teraz z OneDrive",
-      "Synchronizing": "Synchronizowanie...",
-      "SyncedSuccessfully": "Pomyślnie zsynchronizowano",
-      "SyncFailed": "Synchronizacja nie powiodła się",
-      "LoginRequired": "Wymagane logowanie",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synchronizuj konfiguracje",
-        "description": "Wybierz, jak synchronizować konfiguracje tego rozszerzenia.",
-        "disabled": "Wyłączone",
-        "uploadOnly": "Tylko przesyłanie",
-        "downloadOnly": "Tylko pobieranie",
-        "staySynchronized": "Pozostań zsynchronizowany"
+    "syncToCloud": {
+      "title": "Ustawienia synchronizacji",
+      "setLocalPasswordTitle": "Ustaw lokalne hasło",
+      "setLocalPasswordDescription": "Aby zaszyfrować i chronić dane synchronizacji, ustaw hasło szyfrowania. To hasło nie będzie do nas przesyłane. Musisz ustawić to samo hasło w innych przeglądarkach, aby synchronizować. Upewnij się, że je zapamiętasz.",
+      "passwordError": "Hasło musi mieć co najmniej 6 znaków i zawierać zarówno cyfry, jak i litery",
+      "save": "Zapisz i kontynuuj",
+      "cancel": "Anuluj",
+      "doNotUseLocalPassword": "Użyj domyślnego szyfrowania",
+      "changeLocalPassword": "Zmień lokalne hasło",
+      "changeLocalPasswordDesc": "Resetowanie lokalnego hasła unieważni wcześniej zsynchronizowane dane. To hasło jest używane do szyfrowania i ochrony danych synchronizacji. Hasło nie będzie do nas przesyłane. Musisz ustawić to samo hasło w innych przeglądarkach, aby synchronizować. Proszę ustawić je ostrożnie!",
+      "deviceName": "Nazwa urządzenia",
+      "deviceNameDescription": "Ustaw łatwo rozpoznawalną nazwę dla tego urządzenia, aby odróżnić je podczas synchronizacji wielu urządzeń",
+      "deviceId": "ID urządzenia",
+      "syncNow": "Synchronizuj teraz",
+      "lastSyncTime": "Ostatni czas synchronizacji",
+      "uploadStatus": "Status przesyłania",
+      "downloadStatus": "Status pobierania",
+      "notSynced": "Nie zsynchronizowano",
+      "success": "Sukces",
+      "failed": "Niepowodzenie",
+      "mode": {
+        "title": "Tryb synchronizacji",
+        "description": "Wybierz, jak dane są synchronizowane między urządzeniami",
+        "modes": {
+          "disabled": "Wyłączone",
+          "uploadOnly": "Tylko przesyłanie",
+          "downloadOnly": "Tylko pobieranie",
+          "staySynchronized": "Pozostań zsynchronizowany"
+        }
       },
-      "SyncTabs": {
-        "label": "Synchronizuj karty",
-        "description": "Wybierz, jak synchronizować dane kart, z wyłączeniem danych prywatnych, takich jak ciasteczka i informacje osobiste.",
-        "disabled": "Wyłączone",
-        "uploadOnly": "Tylko przesyłanie",
-        "downloadOnly": "Tylko pobieranie",
-        "staySynchronized": "Pozostań zsynchronizowany"
+      "providers": {
+        "title": "Dostawcy synchronizacji",
+        "description": "Wybierz i skonfiguruj dostawców usług synchronizacji danych",
+        "defaultProvider": "Domyślny dostawca synchronizacji",
+        "close": "Zamknij",
+        "save": "Zapisz",
+        "configure": "Konfiguruj",
+        "authorize": "Autoryzuj",
+        "providers": {
+          "custom": {
+            "title": "Usługa w chmurze",
+            "enabled": "Włączone"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Otwieraj lub zamykaj karty synchronicznie",
-        "description": "Po włączeniu, otwieranie lub zamykanie kart w różnych przeglądarkach będzie synchronizowane. Dotyczy to tylko wtedy, gdy opcja 'pozostań zsynchronizowany' jest aktywna",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jeśli zalogujesz się na to samo konto w dwóch przeglądarkach jednocześnie i włączysz tę opcję, otwieranie lub zamykanie kart w jednej przeglądarce spowoduje wykonanie tej samej operacji w drugiej przeglądarce. Jeśli strona zabrania powtarzających się logowań na to samo konto, mogą wystąpić wyjątki."
+      "dataOptions": {
+        "title": "Opcje synchronizacji danych",
+        "description": "Wybierz typy danych do synchronizacji",
+        "openedTabs": {
+          "title": "Otwarte karty",
+          "enabled": "Synchronizuj otwarte karty"
+        },
+        "settings": {
+          "title": "Ustawienia",
+          "enabled": "Synchronizuj ustawienia"
+        },
+        "siteConfigs": {
+          "title": "Konfiguracje strony",
+          "enabled": "Synchronizuj konfiguracje strony"
+        },
+        "quickAccess": {
+          "title": "Szybki dostęp",
+          "enabled": "Synchronizuj szybki dostęp"
+        },
+        "recentClosedTabs": {
+          "title": "Ostatnio zamknięte karty",
+          "enabled": "Synchronizuj ostatnio zamknięte karty"
+        },
+        "windowTabs": {
+          "title": "Okna, grupy kart i karty",
+          "enabled": "Synchronizuj historię kart",
+          "close": "Zamknij",
+          "save": "Zapisz",
+          "syncAfterAction": "Działanie po synchronizacji",
+          "syncAfterActionTitle": "Wybierz, jak postępować po synchronizacji",
+          "applyModes": {
+            "append": {
+              "title": "Tryb dodawania",
+              "description": "Jeśli bieżące okno ma mniej niż 5 kart, zsynchronizowane karty zostaną dodane na końcu bieżącego okna. Jeśli zsynchronizowanych jest wiele okien, karty z pierwszego okna zostaną połączone z bieżącym oknem, a inne okna zostaną utworzone jako oddzielne nowe okna."
+            },
+            "new": {
+              "title": "Nowe okno",
+              "description": "Otwórz zsynchronizowane karty w nowym oknie, pozostawiając istniejące karty bez zmian"
+            },
+            "replace": {
+              "title": "Tryb zastępowania",
+              "description": "Zamknij istniejące karty i otwórz zsynchronizowane karty w nowym oknie"
+            },
+            "createSnapshot": {
+              "title": "Utwórz migawkę",
+              "description": "Zapisz zsynchronizowane karty jako nową migawkę"
+            }
+          },
+          "moreOptions": "Zaawansowane opcje",
+          "optionsTitle": "Ustawienia synchronizacji kart",
+          "skipLastWindow": "Nie synchronizuj, gdy ostatnie okno zostanie zamknięte",
+          "skipLastWindowDescription": "Wstrzymaj synchronizację, gdy ostatnie okno zostanie zamknięte, aby umożliwić odzyskanie ostatnich kart na innych urządzeniach. Jeśli ta opcja jest wyłączona, synchronizacja zostanie wykonana natychmiast, a inne urządzenia nie będą mogły odzyskać tych kart.",
+          "debounceMs": "Opóźnienie synchronizacji",
+          "debounceMsDescription": "Ustaw, ile sekund czekać po zmianie karty przed synchronizacją, aby uniknąć zbyt częstych operacji synchronizacji"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synchronizuj dane prywatne",
-        "description": "Wybierz, jak synchronizować dane prywatne, takie jak ciasteczka stron internetowych, dane localstorage stron internetowych, dane SessionStorage itp. Dane będą szyfrowane przed synchronizacją.",
-        "disabled": "Wyłączone",
-        "uploadOnly": "Tylko przesyłanie",
-        "downloadOnly": "Tylko pobieranie",
-        "staySynchronized": "Pozostań zsynchronizowany"
+      "globalTriggers": {
+        "title": "Globalne wyzwalacze synchronizacji",
+        "description": "Skonfiguruj, kiedy wyzwalać globalne operacje synchronizacji",
+        "onStartup": "Gdy przeglądarka uruchamia się po raz pierwszy"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Wbudowane strony przeglądarki PDF",
         "newTabPage": "Strony nowej karty (zaczynające się od chrome://newtab/ lub edge://newtab/ lub podobne)"
       }
+    },
+    "general": {
+      "title": "Ogólne",
+      "description": "",
+      "accountInfo": {
+        "label": "Informacje o koncie",
+        "currentPlan": "Obecny plan",
+        "subscribePremium": "Subskrybuj Premium",
+        "manageAccount": "Zarządzaj kontem",
+        "logout": "Wyloguj się",
+        "notLoggedIn": "Nie zalogowany",
+        "signIn": "Zaloguj się",
+        "free": "Darmowy",
+        "premium": "Premium",
+        "premiumEndsAt": "Twój plan Premium zakończy się {{date}}",
+        "trialEndsAt": "Twój okres próbny Premium zakończy się {{date}}",
+        "signInForPremium": "Zaloguj się, aby uzyskać Premium",
+        "trialEndsAndMembershipStarts": "Twój okres próbny zakończy się {{date}}. Po zakończeniu okresu próbnego, Twoje oficjalne członkostwo automatycznie wejdzie w życie, a wszystkie korzyści pozostaną niezmienione.",
+        "lifetimeMembership": "Członkostwo na całe życie",
+        "manageSubscription": "Zarządzaj subskrypcją"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Utwórz migawkę",
     "exportSnapshot": "Eksportuj migawkę",
     "restoreWindowSize": "Przywróć pozycję i rozmiar okna",
+    "restoreGroups": "Przywróć grupy",
     "openAllWindows": "Otwórz wszystkie okna",
     "openSelectedInNewWindow": "Otwórz wybrane w nowym oknie",
     "openSelectedInCurrentWindow": "Otwórz wybrane w bieżącym oknie",

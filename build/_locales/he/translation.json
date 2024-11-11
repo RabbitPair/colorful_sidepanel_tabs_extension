@@ -116,6 +116,7 @@
   "Donation": "תרומה",
   "EarlyBirdDiscount": "הנחת ציפור מוקדמת",
   "SortTabsByDomain": "מיין כרטיסיות לפי דומיין",
+  "sortTabsByUrl": "מיין כרטיסיות לפי כתובת URL",
   "CurrentActiveTab": "כרטיסייה פעילה נוכחית",
   "ScrollToActiveTab": "גלול לכרטיסייה הפעילה",
   "MuteAllTabsMakingSounds": "השתק את כל הכרטיסיות שמשמיעות צלילים",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "עדכן כותרת עמוד",
   "ExactMatch": "התאמה מדויקת",
   "ContainsMatch": "התאמה חלקית",
-  "RenameTitle": "שנה כותרת"
+  "RenameTitle": "שנה כותרת",
+  "premium_feature_required": "זוהי תכונת פרימיום, עליך לשדרג למהדורת פרימיום כדי להשתמש בה",
+  "premium_feature": "תכונת פרימיום",
+  "upgrade_to_premium": "שדרג לפרימיום",
+  "login_required": "נדרשת התחברות",
+  "login": "התחבר"
 }

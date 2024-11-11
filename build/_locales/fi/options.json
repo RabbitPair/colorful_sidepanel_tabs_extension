@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Näytä työkalupalkki",
         "description": "Kun käytössä, työkalupalkki näytetään",
-        "moreOptions": "Lisää vaihtoehtoja",
-        "moreOptionsDescription": "Voit hallita, mitkä kuvakkeet näkyvät työkalupalkissa.",
-        "moreOptionsHideLabel": "Piilota työkalupalkin kuvakkeiden nimet",
+        "configure": "Määritä",
+        "configureDesc": "Määritä työkalupalkki",
+        "enabledNavs": "Käytössä olevat navigoinnit",
+        "disabledNavs": "Saatavilla olevat poistetut navigoinnit",
+        "showLabel": "Näytä nimet",
+        "close": "Sulje",
+        "save": "Tallenna",
+        "left": "Vasen",
+        "right": "Oikea",
+        "newTab": "Uusi välilehti",
+        "tabGoBack": "Takaisin",
+        "tabGoForward": "Eteenpäin",
+        "tabRefresh": "Päivitä",
+        "scrollToActiveTab": "Vieritä aktiiviseen välilehteen",
+        "muteAllTabs": "Mykistä kaikki välilehdet",
+        "collapseAll": "Supista kaikki",
+        "createSnapshot": "Luo tilannekuva",
+        "themeModes": "Teematilat",
+        "viewModes": "Näkymätilat",
+        "showBy": "Näytä",
+        "sortBy": "Järjestä",
+        "switchPIP": "Vaihda kuva kuvassa -tilaa",
+        "clearTabs": "Tyhjennä välilehdet"
+      },
+      "clearTabsBtn": {
+        "label": "Näytä välilehtien tyhjennys -painike",
+        "description": "Kun käytössä, välilehtien tyhjennys -painike näytetään",
+        "configure": "määritä",
+        "configureDesc": "Voit hallita välilehtien tyhjennyksen toimintaa",
         "close": "Sulje",
         "options": {
-          "toolbar_newtab": "Uusi välilehti",
-          "toolbar_orderby": "Järjestä",
-          "toolbar_showby": "Näytä",
-          "toolbar_view": "näkymä",
-          "toolbar_colorMode": "Väritila",
-          "toolbar_muteAllTabs": "Mykistä kaikki äänet välilehdillä",
-          "toolbar_scrollToActiveTab": "Vieritä aktiiviselle välilehdelle"
-        }
+          "createSnapshot": "Luo tilannekuva ennen tyhjennystä",
+          "closeInactiveTabs": "Sulje ei-aktiiviset välilehdet",
+          "closeDiscardTabs": "Sulje hylätyt välilehdet",
+          "skipSoundTabs": "Ohita ääntä toistavat välilehdet",
+          "skipCurrentTab": "Ohita nykyinen välilehti",
+          "confirm": "Näytä vahvistusikkuna"
+        },
+        "confirmClearTabs": "Tyhjennä välilehdet",
+        "confirmClearTabsMessage": "Haluatko varmasti tyhjentää nämä välilehdet? Tätä toimintoa ei voi kumota.",
+        "cancel": "Peruuta",
+        "confirm": "Vahvista"
       },
       "tabNav": {
         "label": "Näytä välilehtien navigointipalkki",
@@ -137,6 +166,7 @@
         "createTabPanel": "Luo välilehtipaneeli",
         "tabPanels": "Välilehtipaneelit",
         "switchPIP": "Vaihda kuva kuvassa -tilaan",
+        "clearTabs": "Tyhjennä välilehdet",
         "pinToToolbarReminder": "Kiinnitä laajennus työkalupalkkiin ennen tämän navigoinnin poistamista."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Ota käyttöön jatkuva toisto",
         "description": "Jatkuva toisto: Kuva kuvassa -ikkuna ei sulkeudu ja toistaa automaattisesti seuraavan jakson videon päätyttyä. Tämä ominaisuus vaatii verkkosivuston tuen."
+      },
+      "advancedPipShowTitle": {
+        "label": "Näytä otsikko edistyneessä kuva kuvassa -soittimessa",
+        "description": "Kun käytössä, sivun otsikko näytetään edistyneessä kuva kuvassa -soittimessa"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Vienti epäonnistui"
       }
     },
-    "SyncToCloud": {
-      "label": "Synkronoi pilveen",
-      "SyncNow": "Synkronoi nyt",
-      "SyncNowWithGoogleDrive": "Synkronoi nyt Google Driven kanssa",
-      "SyncNowWithDropbox": "Synkronoi nyt Dropboxin kanssa",
-      "SyncNowWithOneDrive": "Synkronoi nyt OneDriven kanssa",
-      "Synchronizing": "Synkronoidaan...",
-      "SyncedSuccessfully": "Synkronoitu onnistuneesti",
-      "SyncFailed": "Synkronointi epäonnistui",
-      "LoginRequired": "Kirjautuminen vaaditaan",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Synkronoi asetukset",
-        "description": "Valitse, kuinka haluat synkronoida tämän laajennuksen asetukset.",
-        "disabled": "Pois käytöstä",
-        "uploadOnly": "Vain lataus",
-        "downloadOnly": "Vain lataus",
-        "staySynchronized": "Pysy synkronoituna"
+    "syncToCloud": {
+      "title": "Synkronointiasetukset",
+      "setLocalPasswordTitle": "Aseta paikallinen salasana",
+      "setLocalPasswordDescription": "Salataksesi ja suojataksesi synkronointitietosi, aseta salasanan salaus. Tätä salasanaa ei lähetetä meille. Sinun on asetettava sama salasana muissa selaimissa synkronointia varten. Muista se.",
+      "passwordError": "Salasanan on oltava vähintään 6 merkkiä pitkä ja sisältää sekä numeroita että kirjaimia",
+      "save": "Tallenna ja jatka",
+      "cancel": "Peruuta",
+      "doNotUseLocalPassword": "Käytä oletussalausta",
+      "changeLocalPassword": "Vaihda paikallinen salasana",
+      "changeLocalPasswordDesc": "Paikallisen salasanan nollaaminen mitätöi aiemmin synkronoidut tiedot. Tätä salasanaa käytetään synkronointitietojesi salaamiseen ja suojaamiseen. Salasanaa ei lähetetä meille. Sinun on asetettava sama salasana muissa selaimissa synkronointia varten. Aseta se huolellisesti!",
+      "deviceName": "Laitteen nimi",
+      "deviceNameDescription": "Aseta helposti tunnistettava nimi tälle laitteelle, jotta se voidaan erottaa monilaitteisen synkronoinnin aikana",
+      "deviceId": "Laitteen tunnus",
+      "syncNow": "Synkronoi nyt",
+      "lastSyncTime": "Viimeisin synkronointiaika",
+      "uploadStatus": "Lataustila",
+      "downloadStatus": "Lataustila",
+      "notSynced": "Ei synkronoitu",
+      "success": "Onnistui",
+      "failed": "Epäonnistui",
+      "mode": {
+        "title": "Synkronointitila",
+        "description": "Valitse, miten tiedot synkronoidaan laitteiden välillä",
+        "modes": {
+          "disabled": "Poistettu käytöstä",
+          "uploadOnly": "Vain lataus",
+          "downloadOnly": "Vain lataus",
+          "staySynchronized": "Pysy synkronoituna"
+        }
       },
-      "SyncTabs": {
-        "label": "Synkronoi välilehdet",
-        "description": "Valitse, kuinka haluat synkronoida välilehtitiedot, lukuun ottamatta yksityisiä tietoja, kuten evästeitä ja henkilökohtaisia tietoja.",
-        "disabled": "Pois käytöstä",
-        "uploadOnly": "Vain lataus",
-        "downloadOnly": "Vain lataus",
-        "staySynchronized": "Pysy synkronoituna"
+      "providers": {
+        "title": "Synkronointipalvelut",
+        "description": "Valitse ja määritä palveluntarjoajat tietojen synkronointia varten",
+        "defaultProvider": "Oletussynkronointipalvelu",
+        "close": "Sulje",
+        "save": "Tallenna",
+        "configure": "Määritä",
+        "authorize": "Valtuuta",
+        "providers": {
+          "custom": {
+            "title": "Pilvipalvelu",
+            "enabled": "Käytössä"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Avaa tai sulje välilehdet synkronoidusti",
-        "description": "Kun käytössä, välilehtien avaaminen tai sulkeminen eri selaimissa synkronoidaan. Tämä koskee vain, kun 'pysy synkronoituna' -vaihtoehto on aktiivinen",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jos kirjaudut samaan tiliin kahdessa selaimessa samanaikaisesti ja otat tämän vaihtoehdon käyttöön, välilehtien avaaminen tai sulkeminen yhdessä selaimessa suorittaa saman toiminnon toisessa selaimessa. Jos verkkosivusto kieltää toistuvat kirjautumiset samalla tilillä, poikkeuksia voi esiintyä."
+      "dataOptions": {
+        "title": "Tietojen synkronointiasetukset",
+        "description": "Valitse synkronoitavat tietotyypit",
+        "openedTabs": {
+          "title": "Avoimet välilehdet",
+          "enabled": "Synkronoi avoimet välilehdet"
+        },
+        "settings": {
+          "title": "Asetukset",
+          "enabled": "Synkronoi asetukset"
+        },
+        "siteConfigs": {
+          "title": "Sivuston asetukset",
+          "enabled": "Synkronoi sivuston asetukset"
+        },
+        "quickAccess": {
+          "title": "Pikakäyttö",
+          "enabled": "Synkronoi pikakäyttö"
+        },
+        "recentClosedTabs": {
+          "title": "Äskettäin suljetut välilehdet",
+          "enabled": "Synkronoi äskettäin suljetut välilehdet"
+        },
+        "windowTabs": {
+          "title": "Ikkunat, välilehtiryhmät ja välilehdet",
+          "enabled": "Synkronoi välilehtihistoria",
+          "close": "Sulje",
+          "save": "Tallenna",
+          "syncAfterAction": "Toiminto synkronoinnin jälkeen",
+          "syncAfterActionTitle": "Valitse, miten toimitaan synkronoinnin jälkeen",
+          "applyModes": {
+            "append": {
+              "title": "Lisäystila",
+              "description": "Jos nykyisessä ikkunassa on alle 5 välilehteä, synkronoidut välilehdet lisätään nykyisen ikkunan loppuun. Jos useita ikkunoita synkronoidaan, ensimmäisen ikkunan välilehdet yhdistetään nykyiseen ikkunaan ja muut ikkunat luodaan erillisinä uusina ikkunoina."
+            },
+            "new": {
+              "title": "Uusi ikkuna",
+              "description": "Avaa synkronoidut välilehdet uudessa ikkunassa, pitäen olemassa olevat välilehdet ennallaan"
+            },
+            "replace": {
+              "title": "Korvaustila",
+              "description": "Sulje olemassa olevat välilehdet ja avaa synkronoidut välilehdet uudessa ikkunassa"
+            },
+            "createSnapshot": {
+              "title": "Luo tilannevedos",
+              "description": "Tallenna synkronoidut välilehdet uutena tilannevedoksena"
+            }
+          },
+          "moreOptions": "Lisäasetukset",
+          "optionsTitle": "Välilehtien synkronointiasetukset",
+          "skipLastWindow": "Älä synkronoi, kun viimeinen ikkuna suljetaan",
+          "skipLastWindowDescription": "Keskeytä synkronointi, kun viimeinen ikkuna suljetaan, jotta viimeisimmät välilehdet voidaan palauttaa muilla laitteilla. Jos tämä vaihtoehto on poistettu käytöstä, synkronointi suoritetaan välittömästi, eikä muita laitteita voida palauttaa näitä välilehtiä.",
+          "debounceMs": "Synkronointiviive",
+          "debounceMsDescription": "Aseta, kuinka monta sekuntia odotetaan välilehden muutoksen jälkeen ennen synkronointia liian usein tapahtuvien synkronointitoimintojen välttämiseksi"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Synkronoi yksityiset tiedot",
-        "description": "Valitse, kuinka haluat synkronoida yksityiset tiedot, kuten verkkosivuston evästeet, verkkosivun paikalliset tallennustiedot, SessionStorage-tiedot jne. Tiedot salataan ennen synkronointia.",
-        "disabled": "Pois käytöstä",
-        "uploadOnly": "Vain lataus",
-        "downloadOnly": "Vain lataus",
-        "staySynchronized": "Pysy synkronoituna"
+      "globalTriggers": {
+        "title": "Globaalit synkronointilaukaisimet",
+        "description": "Määritä, milloin globaaleja synkronointitoimintoja käynnistetään",
+        "onStartup": "Kun selain käynnistyy ensimmäistä kertaa"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Sisäänrakennetun PDF-katseluohjelman sivut",
         "newTabPage": "Uuden välilehden sivut (alkaen chrome://newtab/ tai edge://newtab/ tai vastaavat)"
       }
+    },
+    "general": {
+      "title": "Yleiset",
+      "description": "",
+      "accountInfo": {
+        "label": "Tilin tiedot",
+        "currentPlan": "Nykyinen suunnitelma",
+        "subscribePremium": "Tilaa Premium",
+        "manageAccount": "Hallitse tiliä",
+        "logout": "Kirjaudu ulos",
+        "notLoggedIn": "Ei kirjautunut sisään",
+        "signIn": "Kirjaudu sisään",
+        "free": "Ilmainen",
+        "premium": "Premium",
+        "premiumEndsAt": "Premium-suunnitelmasi päättyy {{date}}",
+        "trialEndsAt": "Premium-kokeilusi päättyy {{date}}",
+        "signInForPremium": "Kirjaudu sisään saadaksesi Premium",
+        "trialEndsAndMembershipStarts": "Kokeilujakso päättyy {{date}}. Kokeilujakson päätyttyä virallinen jäsenyytesi astuu automaattisesti voimaan, ja kaikki edut säilyvät ennallaan.",
+        "lifetimeMembership": "Elinikäinen jäsenyys",
+        "manageSubscription": "Hallitse tilausta"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Luo tilannekuva",
     "exportSnapshot": "Vie tilannekuva",
     "restoreWindowSize": "Palauta ikkunan sijainti ja koko",
+    "restoreGroups": "Palauta ryhmät",
     "openAllWindows": "Avaa kaikki ikkunat",
     "openSelectedInNewWindow": "Avaa valitut uuteen ikkunaan",
     "openSelectedInCurrentWindow": "Avaa valitut nykyiseen ikkunaan",

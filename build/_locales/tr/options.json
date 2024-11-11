@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Araç çubuğunu göster",
         "description": "Etkinleştirildiğinde, araç çubuğu görüntülenir",
-        "moreOptions": "Daha Fazla Seçenek",
-        "moreOptionsDescription": "Araç çubuğunda hangi simgelerin görüneceğini kontrol edebilirsiniz.",
-        "moreOptionsHideLabel": "Araç çubuğu simge etiketlerini gizle",
+        "configure": "Yapılandır",
+        "configureDesc": "Araç çubuğunu yapılandır",
+        "enabledNavs": "Etkin gezinmeler",
+        "disabledNavs": "Kullanılabilir devre dışı gezinmeler",
+        "showLabel": "Etiketleri göster",
+        "close": "Kapat",
+        "save": "Kaydet",
+        "left": "Sol",
+        "right": "Sağ",
+        "newTab": "Yeni sekme",
+        "tabGoBack": "Geri",
+        "tabGoForward": "İleri",
+        "tabRefresh": "Yenile",
+        "scrollToActiveTab": "Etkin sekmeye kaydır",
+        "muteAllTabs": "Tüm sekmeleri sessize al",
+        "collapseAll": "Tümünü daralt",
+        "createSnapshot": "Anlık görüntü oluştur",
+        "themeModes": "Tema modları",
+        "viewModes": "Görünüm modları",
+        "showBy": "Gösterim şekli",
+        "sortBy": "Sıralama şekli",
+        "switchPIP": "Resim içinde resim modunu aç/kapat",
+        "clearTabs": "Sekmeleri temizle"
+      },
+      "clearTabsBtn": {
+        "label": "Sekmeleri temizle düğmesini göster",
+        "description": "Etkinleştirildiğinde, sekmeleri temizle düğmesi görüntülenir",
+        "configure": "yapılandır",
+        "configureDesc": "Sekmeleri temizlerken davranışı kontrol edebilirsiniz",
         "close": "Kapat",
         "options": {
-          "toolbar_newtab": "Yeni Sekme",
-          "toolbar_orderby": "Sırala",
-          "toolbar_showby": "Göster",
-          "toolbar_view": "görünüm",
-          "toolbar_colorMode": "Renk modu",
-          "toolbar_muteAllTabs": "Ses Çıkaran Tüm Sekmeleri Sessize Al",
-          "toolbar_scrollToActiveTab": "Etkin Sekmeye Kaydır"
-        }
+          "createSnapshot": "Temizlemeden önce anlık görüntü oluştur",
+          "closeInactiveTabs": "Etkin olmayan sekmeleri kapat",
+          "closeDiscardTabs": "Atılan sekmeleri kapat",
+          "skipSoundTabs": "Ses çalan sekmeleri atla",
+          "skipCurrentTab": "Mevcut sekmeyi atla",
+          "confirm": "Onay iletişim kutusunu göster"
+        },
+        "confirmClearTabs": "Sekmeleri Temizle",
+        "confirmClearTabsMessage": "Bu sekmeleri temizlemek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "cancel": "İptal",
+        "confirm": "Onayla"
       },
       "tabNav": {
         "label": "Sekme gezinme çubuğunu göster",
@@ -137,6 +166,7 @@
         "createTabPanel": "Sekme Paneli Oluştur",
         "tabPanels": "Sekme Panelleri",
         "switchPIP": "Resim İçinde Resim Modunu Değiştir",
+        "clearTabs": "Sekmeleri Temizle",
         "pinToToolbarReminder": "Bu gezintiyi kaldırmadan önce uzantıyı araç çubuğunuza sabitleyin."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Sürekli Oynatmayı Etkinleştir",
         "description": "Sürekli oynatma: Resim İçinde Resim penceresi kapanmaz ve video bittikten sonra otomatik olarak bir sonraki bölümü oynatır. Bu özellik web sitesi desteği gerektirir."
+      },
+      "advancedPipShowTitle": {
+        "label": "Gelişmiş Resim İçinde Resim Oynatıcısında Başlığı Göster",
+        "description": "Etkinleştirildiğinde, sayfa başlığı Gelişmiş Resim İçinde Resim oynatıcısında gösterilecektir"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Dışa aktarma başarısız"
       }
     },
-    "SyncToCloud": {
-      "label": "Buluta senkronize et",
-      "SyncNow": "Şimdi senkronize et",
-      "SyncNowWithGoogleDrive": "Google Drive ile şimdi senkronize et",
-      "SyncNowWithDropbox": "Dropbox ile şimdi senkronize et",
-      "SyncNowWithOneDrive": "OneDrive ile şimdi senkronize et",
-      "Synchronizing": "Senkronize ediliyor...",
-      "SyncedSuccessfully": "Başarıyla senkronize edildi",
-      "SyncFailed": "Senkronizasyon başarısız oldu",
-      "LoginRequired": "Giriş gerekli",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Senkronizasyon yapılandırmaları",
-        "description": "Bu uzantının yapılandırmalarını nasıl senkronize edeceğinizi seçin.",
-        "disabled": "Devre dışı",
-        "uploadOnly": "Yalnızca yükle",
-        "downloadOnly": "Yalnızca indir",
-        "staySynchronized": "Senkronize kal"
+    "syncToCloud": {
+      "title": "Ayarları Senkronize Et",
+      "setLocalPasswordTitle": "Yerel Parola Belirle",
+      "setLocalPasswordDescription": "Senkronizasyon verilerinizi şifrelemek ve korumak için lütfen bir şifreleme parolası belirleyin. Bu parola bize iletilmeyecektir. Senkronizasyon için diğer tarayıcılarda aynı parolayı belirlemelisiniz. Parolayı hatırladığınızdan emin olun.",
+      "passwordError": "Parola en az 6 karakter uzunluğunda olmalı ve hem rakam hem de harf içermelidir",
+      "save": "Kaydet ve Devam Et",
+      "cancel": "İptal",
+      "doNotUseLocalPassword": "Varsayılan şifrelemeyi kullan",
+      "changeLocalPassword": "Yerel parolayı değiştir",
+      "changeLocalPasswordDesc": "Yerel parolayı sıfırlamak, önceden senkronize edilmiş verileri geçersiz kılacaktır. Bu parola, senkronizasyon verilerinizi şifrelemek ve korumak için kullanılır. Parola bize iletilmeyecektir. Senkronizasyon için diğer tarayıcılarda aynı parolayı belirlemelisiniz. Lütfen dikkatli bir şekilde ayarlayın!",
+      "deviceName": "Cihaz Adı",
+      "deviceNameDescription": "Bu cihazı çoklu cihaz senkronizasyonu sırasında ayırt etmek için kolayca tanınabilir bir ad belirleyin",
+      "deviceId": "Cihaz Kimliği",
+      "syncNow": "Şimdi Senkronize Et",
+      "lastSyncTime": "Son Senkronizasyon Zamanı",
+      "uploadStatus": "Yükleme Durumu",
+      "downloadStatus": "İndirme Durumu",
+      "notSynced": "Senkronize Edilmedi",
+      "success": "Başarılı",
+      "failed": "Başarısız",
+      "mode": {
+        "title": "Senkronizasyon Modu",
+        "description": "Verilerin cihazlar arasında nasıl senkronize edileceğini seçin",
+        "modes": {
+          "disabled": "Devre Dışı",
+          "uploadOnly": "Yalnızca Yükleme",
+          "downloadOnly": "Yalnızca İndirme",
+          "staySynchronized": "Senkronize Kal"
+        }
       },
-      "SyncTabs": {
-        "label": "Sekmeleri senkronize et",
-        "description": "Çerezler ve kişisel bilgiler gibi özel veriler hariç sekme verilerini nasıl senkronize edeceğinizi seçin.",
-        "disabled": "Devre dışı",
-        "uploadOnly": "Yalnızca yükle",
-        "downloadOnly": "Yalnızca indir",
-        "staySynchronized": "Senkronize kal"
+      "providers": {
+        "title": "Senkronizasyon Sağlayıcıları",
+        "description": "Veri senkronizasyonu için hizmet sağlayıcıları seçin ve yapılandırın",
+        "defaultProvider": "Varsayılan Senkronizasyon Sağlayıcısı",
+        "close": "Kapat",
+        "save": "Kaydet",
+        "configure": "Yapılandır",
+        "authorize": "Yetkilendir",
+        "providers": {
+          "custom": {
+            "title": "Bulut Hizmeti",
+            "enabled": "Etkin"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Sekmeleri eşzamanlı olarak aç veya kapat",
-        "description": "Etkinleştirildiğinde, farklı tarayıcılarda sekme açma veya kapatma senkronize edilecek. Bu yalnızca 'senkronize kal' seçeneği etkin olduğunda geçerlidir",
-        "OpenOrCloseTabsSynchronouslyWarning": "Aynı anda iki tarayıcıda aynı hesaba giriş yaparsanız ve bu seçeneği açarsanız, bir tarayıcıda sekme açma veya kapatma diğer tarayıcıda aynı işlemi gerçekleştirecektir. Web sitesi aynı hesapla tekrar giriş yapmayı yasaklarsa, istisnalar meydana gelebilir."
+      "dataOptions": {
+        "title": "Veri Senkronizasyon Seçenekleri",
+        "description": "Senkronize edilecek veri türlerini seçin",
+        "openedTabs": {
+          "title": "Açık Sekmeler",
+          "enabled": "Açık Sekmeleri Senkronize Et"
+        },
+        "settings": {
+          "title": "Ayarlar",
+          "enabled": "Ayarları Senkronize Et"
+        },
+        "siteConfigs": {
+          "title": "Site Yapılandırmaları",
+          "enabled": "Site Yapılandırmalarını Senkronize Et"
+        },
+        "quickAccess": {
+          "title": "Hızlı Erişim",
+          "enabled": "Hızlı Erişimi Senkronize Et"
+        },
+        "recentClosedTabs": {
+          "title": "Son Kapatılan Sekmeler",
+          "enabled": "Son Kapatılan Sekmeleri Senkronize Et"
+        },
+        "windowTabs": {
+          "title": "Pencereler, Sekme Grupları ve Sekmeler",
+          "enabled": "Sekme Geçmişini Senkronize Et",
+          "close": "Kapat",
+          "save": "Kaydet",
+          "syncAfterAction": "Senkronizasyon Sonrası İşlem",
+          "syncAfterActionTitle": "Senkronizasyon sonrası nasıl işlem yapılacağını seçin",
+          "applyModes": {
+            "append": {
+              "title": "Ekleme Modu",
+              "description": "Mevcut pencerede 5'ten az sekme varsa, senkronize edilen sekmeler mevcut pencerenin sonuna eklenir. Birden fazla pencere senkronize edilirse, ilk penceredeki sekmeler mevcut pencere ile birleştirilir ve diğer pencereler ayrı yeni pencereler olarak oluşturulur."
+            },
+            "new": {
+              "title": "Yeni Pencere",
+              "description": "Senkronize edilen sekmeleri yeni bir pencerede açın, mevcut sekmeler değişmeden kalsın"
+            },
+            "replace": {
+              "title": "Değiştirme Modu",
+              "description": "Mevcut sekmeleri kapatın ve senkronize edilen sekmeleri yeni bir pencerede açın"
+            },
+            "createSnapshot": {
+              "title": "Anlık Görüntü Oluştur",
+              "description": "Senkronize edilen sekmeleri yeni bir anlık görüntü olarak kaydedin"
+            }
+          },
+          "moreOptions": "Gelişmiş Seçenekler",
+          "optionsTitle": "Sekme Senkronizasyon Ayarları",
+          "skipLastWindow": "Son Pencere Kapanırken Senkronize Etme",
+          "skipLastWindowDescription": "Son pencere kapandığında senkronizasyonu duraklatın, böylece diğer cihazlarda son sekmelerin kurtarılmasına izin verin. Bu seçenek devre dışı bırakılırsa, senkronizasyon hemen gerçekleştirilir ve diğer cihazlar bu sekmeleri kurtaramaz.",
+          "debounceMs": "Senkronizasyon Gecikmesi",
+          "debounceMsDescription": "Çok sık senkronizasyon işlemlerinden kaçınmak için bir sekme değişikliğinden sonra senkronizasyon için kaç saniye bekleyeceğinizi ayarlayın"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Özel verileri senkronize et",
-        "description": "Web sitesi çerezleri, web sayfası yerel depolama verileri, SessionStorage verileri vb. gibi özel verileri nasıl senkronize edeceğinizi seçin. Veriler senkronizasyon öncesinde şifrelenecek.",
-        "disabled": "Devre dışı",
-        "uploadOnly": "Yalnızca yükle",
-        "downloadOnly": "Yalnızca indir",
-        "staySynchronized": "Senkronize kal"
+      "globalTriggers": {
+        "title": "Global Senkronizasyon Tetikleyicileri",
+        "description": "Global senkronizasyon işlemlerinin ne zaman tetikleneceğini yapılandırın",
+        "onStartup": "Tarayıcı ilk kez başlatıldığında"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Yerleşik PDF görüntüleyici sayfaları",
         "newTabPage": "Yeni Sekme sayfaları (chrome://newtab/ veya edge://newtab/ veya benzerleri ile başlayan)"
       }
+    },
+    "general": {
+      "title": "Genel",
+      "description": "",
+      "accountInfo": {
+        "label": "Hesap Bilgileri",
+        "currentPlan": "Mevcut Plan",
+        "subscribePremium": "Premium'a Abone Ol",
+        "manageAccount": "Hesabı Yönet",
+        "logout": "Çıkış Yap",
+        "notLoggedIn": "Giriş Yapılmadı",
+        "signIn": "Giriş Yap",
+        "free": "Ücretsiz",
+        "premium": "Premium",
+        "premiumEndsAt": "Premium planınız {{date}} tarihinde sona erecek",
+        "trialEndsAt": "Premium deneme süreniz {{date}} tarihinde sona erecek",
+        "signInForPremium": "Premium almak için giriş yapın",
+        "trialEndsAndMembershipStarts": "Deneme süreniz {{date}} tarihinde sona erecek. Deneme süresi sona erdikten sonra, resmi üyeliğiniz otomatik olarak başlayacak ve tüm avantajlar aynı kalacaktır.",
+        "lifetimeMembership": "Ömür Boyu Üyelik",
+        "manageSubscription": "Aboneliği Yönet"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Anlık Görüntü Oluştur",
     "exportSnapshot": "Anlık Görüntü Dışa Aktar",
     "restoreWindowSize": "Pencere konumunu ve boyutunu geri yükle",
+    "restoreGroups": "Grupları Geri Yükle",
     "openAllWindows": "Tüm Pencereleri Aç",
     "openSelectedInNewWindow": "Seçilenleri Yeni Pencerede Aç",
     "openSelectedInCurrentWindow": "Seçilenleri Mevcut Pencerede Aç",

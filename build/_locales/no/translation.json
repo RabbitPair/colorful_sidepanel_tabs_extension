@@ -116,6 +116,7 @@
   "Donation": "Donasjon",
   "EarlyBirdDiscount": "Tidlig Rabatt",
   "SortTabsByDomain": "Sorter Faner etter Domene",
+  "sortTabsByUrl": "Sorter Faner etter URL",
   "CurrentActiveTab": "Nåværende Aktiv Fane",
   "ScrollToActiveTab": "Rull til Aktiv Fane",
   "MuteAllTabsMakingSounds": "Demp Alle Faner som Lager Lyd",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Oppdater sidetittel",
   "ExactMatch": "Eksakt treff",
   "ContainsMatch": "Inneholder treff",
-  "RenameTitle": "Gi nytt navn til tittel"
+  "RenameTitle": "Gi nytt navn til tittel",
+  "premium_feature_required": "Dette er en premiumfunksjon, du må oppgradere til Premium Edition for å bruke den",
+  "premium_feature": "Premiumfunksjon",
+  "upgrade_to_premium": "Oppgrader til Premium",
+  "login_required": "Innlogging kreves",
+  "login": "Logg inn"
 }

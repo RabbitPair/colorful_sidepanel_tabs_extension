@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Obnovení odpočítávání"
+  },
+  "premium_feature_trial": {
+    "message": "Zkoušíte prémiové funkce"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Zkušební doba pokročilého režimu obraz v obraze vypršela. Přepnuto na standardní režim obraz v obraze. Pro další používání pokročilých funkcí obraz v obraze prosím přejděte na prémiovou verzi."
+  },
+  "do_not_show_again": {
+    "message": "Již nezobrazovat"
+  },
+  "upgrade_to_premium": {
+    "message": "Přejít na prémiovou verzi"
   }
 }

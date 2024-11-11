@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "Prikaži alatnu traku",
-        "description": "Kada je omogućeno, alatna traka će biti prikazana",
-        "moreOptions": "Više opcija",
-        "moreOptionsDescription": "Možete kontrolirati koje će se ikone prikazivati na alatnoj traci.",
-        "moreOptionsHideLabel": "Sakrij oznake ikona alatne trake",
+        "description": "Kada je omogućeno, alatna traka je prikazana",
+        "configure": "Postavke",
+        "configureDesc": "Postavke alatne trake",
+        "enabledNavs": "Omogućene navigacije",
+        "disabledNavs": "Dostupne onemogućene navigacije",
+        "showLabel": "Prikaži oznake",
+        "close": "Zatvori",
+        "save": "Spremi",
+        "left": "Lijevo",
+        "right": "Desno",
+        "newTab": "Nova kartica",
+        "tabGoBack": "Natrag",
+        "tabGoForward": "Naprijed",
+        "tabRefresh": "Osvježi",
+        "scrollToActiveTab": "Pomakni do aktivne kartice",
+        "muteAllTabs": "Utišaj sve kartice",
+        "collapseAll": "Sažmi sve",
+        "createSnapshot": "Stvori snimku",
+        "themeModes": "Načini boja",
+        "viewModes": "Načini prikaza",
+        "showBy": "Prikaži prema",
+        "sortBy": "Sortiraj prema",
+        "switchPIP": "Uključi/isključi sliku u slici",
+        "clearTabs": "Očisti kartice"
+      },
+      "clearTabsBtn": {
+        "label": "Prikaži gumb za čišćenje kartica",
+        "description": "Kada je omogućeno, prikazuje se gumb za čišćenje kartica",
+        "configure": "postavke",
+        "configureDesc": "Možete kontrolirati ponašanje prilikom čišćenja kartica",
         "close": "Zatvori",
         "options": {
-          "toolbar_newtab": "Nova kartica",
-          "toolbar_orderby": "Poredaj po",
-          "toolbar_showby": "Prikaži po",
-          "toolbar_view": "pogled",
-          "toolbar_colorMode": "Način boja",
-          "toolbar_muteAllTabs": "Isključi zvuk svih kartica koje proizvode zvuk",
-          "toolbar_scrollToActiveTab": "Pomakni se do aktivne kartice"
-        }
+          "createSnapshot": "Stvori snimku prije čišćenja",
+          "closeInactiveTabs": "Zatvori neaktivne kartice",
+          "closeDiscardTabs": "Zatvori odbačene kartice",
+          "skipSoundTabs": "Preskoči kartice koje reproduciraju zvuk",
+          "skipCurrentTab": "Preskoči trenutnu karticu",
+          "confirm": "Prikaži dijaloški okvir za potvrdu"
+        },
+        "confirmClearTabs": "Očisti kartice",
+        "confirmClearTabsMessage": "Jeste li sigurni da želite očistiti ove kartice? Ova se radnja ne može poništiti.",
+        "cancel": "Odustani",
+        "confirm": "Potvrdi"
       },
       "tabNav": {
         "label": "Prikaži traku za navigaciju karticama",
@@ -137,6 +166,7 @@
         "createTabPanel": "Stvori panel kartica",
         "tabPanels": "Paneli kartica",
         "switchPIP": "Prebaci sliku u slici",
+        "clearTabs": "Očisti kartice",
         "pinToToolbarReminder": "Prikvačite proširenje na alatnu traku prije nego što uklonite ovu navigaciju."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Omogući kontinuiranu reprodukciju",
         "description": "Kontinuirana reprodukcija: Picture-in-Picture prozor se ne zatvara i automatski reproducira sljedeću epizodu nakon završetka videozapisa. Ova značajka zahtijeva podršku web stranice."
+      },
+      "advancedPipShowTitle": {
+        "label": "Prikaži naslov u naprednom Picture-in-Picture playeru",
+        "description": "Kada je omogućeno, naslov stranice će biti prikazan u naprednom Picture-in-Picture playeru"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Izvoz nije uspio"
       }
     },
-    "SyncToCloud": {
-      "label": "Sinkroniziraj s oblakom",
-      "SyncNow": "Sinkroniziraj sada",
-      "SyncNowWithGoogleDrive": "Sinkroniziraj sada s Google Driveom",
-      "SyncNowWithDropbox": "Sinkroniziraj sada s Dropboxom",
-      "SyncNowWithOneDrive": "Sinkroniziraj sada s OneDriveom",
-      "Synchronizing": "Sinkronizacija...",
-      "SyncedSuccessfully": "Uspješno sinkronizirano",
-      "SyncFailed": "Sinkronizacija nije uspjela",
-      "LoginRequired": "Potrebna prijava",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sinkroniziraj konfiguracije",
-        "description": "Odaberite kako sinkronizirati konfiguracije ovog proširenja.",
-        "disabled": "Onemogućeno",
-        "uploadOnly": "Samo prijenos",
-        "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostani sinkroniziran"
+    "syncToCloud": {
+      "title": "Postavke sinkronizacije",
+      "setLocalPasswordTitle": "Postavi lokalnu lozinku",
+      "setLocalPasswordDescription": "Da biste šifrirali i zaštitili svoje podatke za sinkronizaciju, postavite lozinku za šifriranje. Ova lozinka neće biti prenesena nama. Morate postaviti istu lozinku na drugim preglednicima za sinkronizaciju. Obavezno je zapamtite.",
+      "passwordError": "Lozinka mora biti duga najmanje 6 znakova i sadržavati i brojeve i slova",
+      "save": "Spremi i nastavi",
+      "cancel": "Odustani",
+      "doNotUseLocalPassword": "Koristi zadano šifriranje",
+      "changeLocalPassword": "Promijeni lokalnu lozinku",
+      "changeLocalPasswordDesc": "Resetiranje lokalne lozinke poništit će prethodno sinkronizirane podatke. Ova lozinka se koristi za šifriranje i zaštitu vaših podataka za sinkronizaciju. Lozinka neće biti prenesena nama. Morate postaviti istu lozinku na drugim preglednicima za sinkronizaciju. Molimo postavite je pažljivo!",
+      "deviceName": "Naziv uređaja",
+      "deviceNameDescription": "Postavite lako prepoznatljivo ime za ovaj uređaj kako biste ga razlikovali tijekom sinkronizacije više uređaja",
+      "deviceId": "ID uređaja",
+      "syncNow": "Sinkroniziraj sada",
+      "lastSyncTime": "Vrijeme zadnje sinkronizacije",
+      "uploadStatus": "Status prijenosa",
+      "downloadStatus": "Status preuzimanja",
+      "notSynced": "Nije sinkronizirano",
+      "success": "Uspjeh",
+      "failed": "Neuspjeh",
+      "mode": {
+        "title": "Način sinkronizacije",
+        "description": "Odaberite kako se podaci sinkroniziraju između uređaja",
+        "modes": {
+          "disabled": "Onemogućeno",
+          "uploadOnly": "Samo prijenos",
+          "downloadOnly": "Samo preuzimanje",
+          "staySynchronized": "Ostani sinkroniziran"
+        }
       },
-      "SyncTabs": {
-        "label": "Sinkroniziraj kartice",
-        "description": "Odaberite kako sinkronizirati podatke kartica, isključujući privatne podatke kao što su kolačići i osobne informacije.",
-        "disabled": "Onemogućeno",
-        "uploadOnly": "Samo prijenos",
-        "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostani sinkroniziran"
+      "providers": {
+        "title": "Pružatelji sinkronizacije",
+        "description": "Odaberite i konfigurirajte pružatelje usluga za sinkronizaciju podataka",
+        "defaultProvider": "Zadani pružatelj sinkronizacije",
+        "close": "Zatvori",
+        "save": "Spremi",
+        "configure": "Konfiguriraj",
+        "authorize": "Autoriziraj",
+        "providers": {
+          "custom": {
+            "title": "Cloud usluga",
+            "enabled": "Omogućeno"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Sinkroniziraj otvaranje ili zatvaranje kartica",
-        "description": "Kada je omogućeno, otvaranje ili zatvaranje kartica u različitim preglednicima će biti sinkronizirano. Ovo se primjenjuje samo kada je opcija 'ostani sinkroniziran' aktivna",
-        "OpenOrCloseTabsSynchronouslyWarning": "Ako se prijavite na isti račun u dva preglednika istovremeno i uključite ovu opciju, otvaranje ili zatvaranje kartica u jednom pregledniku će izvršiti istu radnju u drugom pregledniku. Ako web stranica zabranjuje ponovljene prijave s istim računom, mogu se pojaviti iznimke."
+      "dataOptions": {
+        "title": "Opcije sinkronizacije podataka",
+        "description": "Odaberite vrste podataka za sinkronizaciju",
+        "openedTabs": {
+          "title": "Otvorene kartice",
+          "enabled": "Sinkroniziraj otvorene kartice"
+        },
+        "settings": {
+          "title": "Postavke",
+          "enabled": "Sinkroniziraj postavke"
+        },
+        "siteConfigs": {
+          "title": "Konfiguracije web mjesta",
+          "enabled": "Sinkroniziraj konfiguracije web mjesta"
+        },
+        "quickAccess": {
+          "title": "Brzi pristup",
+          "enabled": "Sinkroniziraj brzi pristup"
+        },
+        "recentClosedTabs": {
+          "title": "Nedavno zatvorene kartice",
+          "enabled": "Sinkroniziraj nedavno zatvorene kartice"
+        },
+        "windowTabs": {
+          "title": "Prozori, grupe kartica i kartice",
+          "enabled": "Sinkroniziraj povijest kartica",
+          "close": "Zatvori",
+          "save": "Spremi",
+          "syncAfterAction": "Radnja nakon sinkronizacije",
+          "syncAfterActionTitle": "Odaberite kako postupati nakon sinkronizacije",
+          "applyModes": {
+            "append": {
+              "title": "Način dodavanja",
+              "description": "Ako trenutni prozor ima manje od 5 kartica, sinkronizirane kartice će biti dodane na kraj trenutnog prozora. Ako se sinkronizira više prozora, kartice iz prvog prozora će se spojiti u trenutni prozor, a ostali prozori će biti stvoreni kao zasebni novi prozori."
+            },
+            "new": {
+              "title": "Novi prozor",
+              "description": "Otvorite sinkronizirane kartice u novom prozoru, zadržavajući postojeće kartice nepromijenjene"
+            },
+            "replace": {
+              "title": "Način zamjene",
+              "description": "Zatvorite postojeće kartice i otvorite sinkronizirane kartice u novom prozoru"
+            },
+            "createSnapshot": {
+              "title": "Stvori snimku",
+              "description": "Spremite sinkronizirane kartice kao novu snimku"
+            }
+          },
+          "moreOptions": "Napredne opcije",
+          "optionsTitle": "Postavke sinkronizacije kartica",
+          "skipLastWindow": "Ne sinkroniziraj kada se zadnji prozor zatvori",
+          "skipLastWindowDescription": "Pauzirajte sinkronizaciju kada se zadnji prozor zatvori kako biste omogućili oporavak nedavnih kartica na drugim uređajima. Ako je ova opcija onemogućena, sinkronizacija će se izvršiti odmah, a drugi uređaji neće moći oporaviti te kartice.",
+          "debounceMs": "Kašnjenje sinkronizacije",
+          "debounceMsDescription": "Postavite koliko sekundi čekati nakon promjene kartice prije sinkronizacije kako biste izbjegli prečeste operacije sinkronizacije"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sinkroniziraj privatne podatke",
-        "description": "Odaberite kako sinkronizirati privatne podatke, kao što su kolačići web stranica, podaci lokalne pohrane web stranica, podaci SessionStorage itd. Podaci će biti šifrirani prije sinkronizacije.",
-        "disabled": "Onemogućeno",
-        "uploadOnly": "Samo prijenos",
-        "downloadOnly": "Samo preuzimanje",
-        "staySynchronized": "Ostani sinkroniziran"
+      "globalTriggers": {
+        "title": "Globalni okidači sinkronizacije",
+        "description": "Konfigurirajte kada pokrenuti globalne operacije sinkronizacije",
+        "onStartup": "Kada se preglednik prvi put pokrene"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Ugrađene stranice preglednika PDF-a",
         "newTabPage": "Stranice nove kartice (koje počinju s chrome://newtab/ ili edge://newtab/ ili slično)"
       }
+    },
+    "general": {
+      "title": "Općenito",
+      "description": "",
+      "accountInfo": {
+        "label": "Informacije o računu",
+        "currentPlan": "Trenutni plan",
+        "subscribePremium": "Pretplati se na Premium",
+        "manageAccount": "Upravljanje računom",
+        "logout": "Odjava",
+        "notLoggedIn": "Niste prijavljeni",
+        "signIn": "Prijava",
+        "free": "Besplatno",
+        "premium": "Premium",
+        "premiumEndsAt": "Vaš Premium plan završava {{date}}",
+        "trialEndsAt": "Vaše Premium probno razdoblje završava {{date}}",
+        "signInForPremium": "Prijavite se za Premium",
+        "trialEndsAndMembershipStarts": "Vaše probno razdoblje završava {{date}}. Nakon završetka probnog razdoblja, vaše službeno članstvo automatski stupa na snagu, a sve pogodnosti ostaju nepromijenjene.",
+        "lifetimeMembership": "Doživotno članstvo",
+        "manageSubscription": "Upravljanje pretplatom"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Kreiraj snimku",
     "exportSnapshot": "Izvezi snimku",
     "restoreWindowSize": "Vrati položaj i veličinu prozora",
+    "restoreGroups": "Vrati grupe",
     "openAllWindows": "Otvori sve prozore",
     "openSelectedInNewWindow": "Otvori odabrano u novom prozoru",
     "openSelectedInCurrentWindow": "Otvori odabrano u trenutnom prozoru",

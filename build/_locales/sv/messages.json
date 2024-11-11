@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Nedräkning Uppdatera"
+  },
+  "premium_feature_trial": {
+    "message": "Du provar Premium-funktionerna"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Provperioden för avancerad Bild-i-Bild har löpt ut. Växlade till standard Bild-i-Bild läge. För att fortsätta använda avancerade Bild-i-Bild funktioner, vänligen uppgradera till Premium."
+  },
+  "do_not_show_again": {
+    "message": "Visa inte igen"
+  },
+  "upgrade_to_premium": {
+    "message": "Uppgradera till Premium"
   }
 }

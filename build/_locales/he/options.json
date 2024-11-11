@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "הצג סרגל כלים",
         "description": "כאשר מופעל, סרגל הכלים יוצג",
-        "moreOptions": "אפשרויות נוספות",
-        "moreOptionsDescription": "תוכל לשלוט באילו סמלים יופיעו בסרגל הכלים.",
-        "moreOptionsHideLabel": "הסתר תוויות סמלי סרגל הכלים",
+        "configure": "הגדר",
+        "configureDesc": "הגדר סרגל כלים",
+        "enabledNavs": "ניווטים מופעלים",
+        "disabledNavs": "ניווטים מושבתים זמינים",
+        "showLabel": "הצג תוויות",
+        "close": "סגור",
+        "save": "שמור",
+        "left": "שמאל",
+        "right": "ימין",
+        "newTab": "כרטיסייה חדשה",
+        "tabGoBack": "חזור",
+        "tabGoForward": "קדימה",
+        "tabRefresh": "רענן",
+        "scrollToActiveTab": "גלול לכרטיסייה הפעילה",
+        "muteAllTabs": "השתק את כל הכרטיסיות",
+        "collapseAll": "כווץ הכל",
+        "createSnapshot": "צור תמונת מצב",
+        "themeModes": "מצבי ערכת נושא",
+        "viewModes": "מצבי תצוגה",
+        "showBy": "הצג לפי",
+        "sortBy": "מיין לפי",
+        "switchPIP": "החלף תמונה בתוך תמונה",
+        "clearTabs": "נקה כרטיסיות"
+      },
+      "clearTabsBtn": {
+        "label": "הצג כפתור ניקוי כרטיסיות",
+        "description": "כאשר מופעל, כפתור ניקוי הכרטיסיות יוצג",
+        "configure": "הגדר",
+        "configureDesc": "תוכל לשלוט בהתנהגות בעת ניקוי כרטיסיות",
         "close": "סגור",
         "options": {
-          "toolbar_newtab": "כרטיסייה חדשה",
-          "toolbar_orderby": "מיין לפי",
-          "toolbar_showby": "הצג לפי",
-          "toolbar_view": "תצוגה",
-          "toolbar_colorMode": "מצב צבע",
-          "toolbar_muteAllTabs": "השתק את כל הכרטיסיות שמשמיעות צלילים",
-          "toolbar_scrollToActiveTab": "גלול לכרטיסייה הפעילה"
-        }
+          "createSnapshot": "צור תמונת מצב לפני הניקוי",
+          "closeInactiveTabs": "סגור כרטיסיות לא פעילות",
+          "closeDiscardTabs": "סגור כרטיסיות שנזרקו",
+          "skipSoundTabs": "דלג על כרטיסיות המשמיעות צליל",
+          "skipCurrentTab": "דלג על הכרטיסייה הנוכחית",
+          "confirm": "הצג תיבת דו-שיח לאישור"
+        },
+        "confirmClearTabs": "נקה כרטיסיות",
+        "confirmClearTabsMessage": "האם אתה בטוח שברצונך לנקות כרטיסיות אלה? לא ניתן לבטל פעולה זו.",
+        "cancel": "ביטול",
+        "confirm": "אישור"
       },
       "tabNav": {
         "label": "הצג סרגל ניווט כרטיסיות",
@@ -137,6 +166,7 @@
         "createTabPanel": "צור פאנל כרטיסיות",
         "tabPanels": "פאנלי כרטיסיות",
         "switchPIP": "החלף תמונה בתוך תמונה",
+        "clearTabs": "נקה כרטיסיות",
         "pinToToolbarReminder": "אנא הצמד את התוסף לסרגל הכלים לפני הסרת הניווט הזה."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "הפעל ניגון רציף",
         "description": "ניגון רציף: חלון תמונה בתוך תמונה לא ייסגר ויפעיל אוטומטית את הפרק הבא לאחר סיום הוידאו. תכונה זו דורשת תמיכת אתר."
+      },
+      "advancedPipShowTitle": {
+        "label": "הצג כותרת בנגן תמונה בתוך תמונה מתקדם",
+        "description": "כאשר מופעל, כותרת הדף תוצג בנגן תמונה בתוך תמונה מתקדם"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "הייצוא נכשל"
       }
     },
-    "SyncToCloud": {
-      "label": "סנכרן לענן",
-      "SyncNow": "סנכרן עכשיו",
-      "SyncNowWithGoogleDrive": "סנכרן עכשיו עם Google Drive",
-      "SyncNowWithDropbox": "סנכרן עכשיו עם Dropbox",
-      "SyncNowWithOneDrive": "סנכרן עכשיו עם OneDrive",
-      "Synchronizing": "סנכרון...",
-      "SyncedSuccessfully": "סונכרן בהצלחה",
-      "SyncFailed": "הסנכרון נכשל",
-      "LoginRequired": "נדרשת התחברות",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "סנכרן הגדרות",
-        "description": "בחר כיצד לסנכרן את הגדרות התוסף הזה.",
-        "disabled": "מושבת",
-        "uploadOnly": "העלה בלבד",
-        "downloadOnly": "הורד בלבד",
-        "staySynchronized": "הישאר מסונכרן"
+    "syncToCloud": {
+      "title": "הגדרות סנכרון",
+      "setLocalPasswordTitle": "הגדר סיסמה מקומית",
+      "setLocalPasswordDescription": "כדי להצפין ולהגן על נתוני הסנכרון שלך, אנא הגדר סיסמת הצפנה. סיסמה זו לא תועבר אלינו. עליך להגדיר את אותה סיסמה בדפדפנים אחרים כדי לסנכרן. ודא שאתה זוכר אותה.",
+      "passwordError": "הסיסמה חייבת להיות באורך של לפחות 6 תווים ולכלול גם מספרים וגם אותיות",
+      "save": "שמור והמשך",
+      "cancel": "בטל",
+      "doNotUseLocalPassword": "השתמש בהצפנה ברירת מחדל",
+      "changeLocalPassword": "שנה סיסמה מקומית",
+      "changeLocalPasswordDesc": "איפוס הסיסמה המקומית יבטל את הנתונים שסונכרנו בעבר. סיסמה זו משמשת להצפנה והגנה על נתוני הסנכרון שלך. הסיסמה לא תועבר אלינו. עליך להגדיר את אותה סיסמה בדפדפנים אחרים כדי לסנכרן. אנא הגדר אותה בזהירות!",
+      "deviceName": "שם המכשיר",
+      "deviceNameDescription": "הגדר שם שניתן לזהות בקלות עבור מכשיר זה כדי להבדיל אותו במהלך סנכרון מרובה מכשירים",
+      "deviceId": "מזהה מכשיר",
+      "syncNow": "סנכרן עכשיו",
+      "lastSyncTime": "זמן הסנכרון האחרון",
+      "uploadStatus": "סטטוס העלאה",
+      "downloadStatus": "סטטוס הורדה",
+      "notSynced": "לא סונכרן",
+      "success": "הצלחה",
+      "failed": "נכשל",
+      "mode": {
+        "title": "מצב סנכרון",
+        "description": "בחר כיצד הנתונים יסונכרנו בין המכשירים",
+        "modes": {
+          "disabled": "מנוטרל",
+          "uploadOnly": "העלאה בלבד",
+          "downloadOnly": "הורדה בלבד",
+          "staySynchronized": "הישאר מסונכרן"
+        }
       },
-      "SyncTabs": {
-        "label": "סנכרן כרטיסיות",
-        "description": "בחר כיצד לסנכרן נתוני כרטיסיות, למעט נתונים פרטיים כגון עוגיות ומידע אישי.",
-        "disabled": "מושבת",
-        "uploadOnly": "העלה בלבד",
-        "downloadOnly": "הורד בלבד",
-        "staySynchronized": "הישאר מסונכרן"
+      "providers": {
+        "title": "ספקי סנכרון",
+        "description": "בחר והגדר את ספקי השירות לסנכרון נתונים",
+        "defaultProvider": "ספק סנכרון ברירת מחדל",
+        "close": "סגור",
+        "save": "שמור",
+        "configure": "הגדר",
+        "authorize": "אשר",
+        "providers": {
+          "custom": {
+            "title": "שירות ענן",
+            "enabled": "מופעל"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "פתח או סגור כרטיסיות באופן סינכרוני",
-        "description": "כאשר מופעל, פתיחה או סגירה של כרטיסיות בדפדפנים שונים תסונכרן. זה חל רק כאשר האפשרות 'הישאר מסונכרן' פעילה",
-        "OpenOrCloseTabsSynchronouslyWarning": "אם תתחבר לאותו חשבון בשני דפדפנים בו זמנית ותפעיל אפשרות זו, פתיחה או סגירה של כרטיסיות בדפדפן אחד תבצע את אותה פעולה בדפדפן השני. אם האתר אוסר על התחברויות חוזרות עם אותו חשבון, עשויות להתרחש חריגות."
+      "dataOptions": {
+        "title": "אפשרויות סנכרון נתונים",
+        "description": "בחר את סוגי הנתונים לסנכרון",
+        "openedTabs": {
+          "title": "כרטיסיות פתוחות",
+          "enabled": "סנכרן כרטיסיות פתוחות"
+        },
+        "settings": {
+          "title": "הגדרות",
+          "enabled": "סנכרן הגדרות"
+        },
+        "siteConfigs": {
+          "title": "הגדרות אתר",
+          "enabled": "סנכרן הגדרות אתר"
+        },
+        "quickAccess": {
+          "title": "גישה מהירה",
+          "enabled": "סנכרן גישה מהירה"
+        },
+        "recentClosedTabs": {
+          "title": "כרטיסיות שנסגרו לאחרונה",
+          "enabled": "סנכרן כרטיסיות שנסגרו לאחרונה"
+        },
+        "windowTabs": {
+          "title": "חלונות, קבוצות כרטיסיות וכרטיסיות",
+          "enabled": "סנכרן היסטוריית כרטיסיות",
+          "close": "סגור",
+          "save": "שמור",
+          "syncAfterAction": "פעולה לאחר סנכרון",
+          "syncAfterActionTitle": "בחר כיצד לטפל לאחר הסנכרון",
+          "applyModes": {
+            "append": {
+              "title": "מצב הוספה",
+              "description": "אם בחלון הנוכחי יש פחות מ-5 כרטיסיות, הכרטיסיות המסונכרנות יתווספו לסוף החלון הנוכחי. אם מספר חלונות מסונכרנים, הכרטיסיות מהחלון הראשון ימוזגו לחלון הנוכחי, וחלונות אחרים ייווצרו כחלונות חדשים נפרדים."
+            },
+            "new": {
+              "title": "חלון חדש",
+              "description": "פתח את הכרטיסיות המסונכרנות בחלון חדש, תוך שמירה על הכרטיסיות הקיימות ללא שינוי"
+            },
+            "replace": {
+              "title": "מצב החלפה",
+              "description": "סגור כרטיסיות קיימות ופתח את הכרטיסיות המסונכרנות בחלון חדש"
+            },
+            "createSnapshot": {
+              "title": "צור תמונת מצב",
+              "description": "שמור את הכרטיסיות המסונכרנות כתמונת מצב חדשה"
+            }
+          },
+          "moreOptions": "אפשרויות מתקדמות",
+          "optionsTitle": "הגדרות סנכרון כרטיסיות",
+          "skipLastWindow": "אל תסנכרן כאשר החלון האחרון נסגר",
+          "skipLastWindowDescription": "השהה את הסנכרון כאשר החלון האחרון נסגר כדי לאפשר שחזור של כרטיסיות אחרונות במכשירים אחרים. אם אפשרות זו מושבתת, הסנכרון יתבצע מיד, ומכשירים אחרים לא יוכלו לשחזר את הכרטיסיות הללו.",
+          "debounceMs": "השהיית סנכרון",
+          "debounceMsDescription": "הגדר כמה שניות להמתין לאחר שינוי כרטיסיה לפני הסנכרון כדי למנוע פעולות סנכרון תכופות מדי"
+        }
       },
-      "SyncPrivateData": {
-        "label": "סנכרן נתונים פרטיים",
-        "description": "בחר כיצד לסנכרן נתונים פרטיים, כגון עוגיות אתר, נתוני localstorage של דף אינטרנט, נתוני SessionStorage וכו'. הנתונים יוצפנו לפני הסנכרון.",
-        "disabled": "מושבת",
-        "uploadOnly": "העלה בלבד",
-        "downloadOnly": "הורד בלבד",
-        "staySynchronized": "הישאר מסונכרן"
+      "globalTriggers": {
+        "title": "טריגרים גלובליים לסנכרון",
+        "description": "הגדר מתי להפעיל פעולות סנכרון גלובליות",
+        "onStartup": "כאשר הדפדפן מתחיל בפעם הראשונה"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "דפי תצוגת PDF מובנים",
         "newTabPage": "דפי כרטיסייה חדשה (מתחילים ב-chrome://newtab/ או edge://newtab/ או דומה)"
       }
+    },
+    "general": {
+      "title": "כללי",
+      "description": "",
+      "accountInfo": {
+        "label": "מידע על החשבון",
+        "currentPlan": "תוכנית נוכחית",
+        "subscribePremium": "הירשם לפרימיום",
+        "manageAccount": "נהל חשבון",
+        "logout": "התנתק",
+        "notLoggedIn": "לא מחובר",
+        "signIn": "התחבר",
+        "free": "חינם",
+        "premium": "פרימיום",
+        "premiumEndsAt": "תוכנית הפרימיום שלך תסתיים ב-{{date}}",
+        "trialEndsAt": "תקופת הניסיון שלך בפרימיום תסתיים ב-{{date}}",
+        "signInForPremium": "התחבר כדי לקבל פרימיום",
+        "trialEndsAndMembershipStarts": "תקופת הניסיון שלך תסתיים ב-{{date}}. לאחר סיום הניסיון, החברות הרשמית שלך תיכנס לתוקף אוטומטית, וכל ההטבות יישארו ללא שינוי.",
+        "lifetimeMembership": "חברות לכל החיים",
+        "manageSubscription": "נהל מנוי"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "צור צילום מסך",
     "exportSnapshot": "ייצא צילום מסך",
     "restoreWindowSize": "שחזר מיקום וגודל חלון",
+    "restoreGroups": "שחזר קבוצות",
     "openAllWindows": "פתח את כל החלונות",
     "openSelectedInNewWindow": "פתח את הנבחר בחלון חדש",
     "openSelectedInCurrentWindow": "פתח את הנבחר בחלון הנוכחי",

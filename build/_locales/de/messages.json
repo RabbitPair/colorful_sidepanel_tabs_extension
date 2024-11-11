@@ -48,7 +48,7 @@
     "message": "E-Commerce & Shopping"
   },
   "group_technologyDigital": {
-    "message": "Technologie & Digital"
+    "message": "Technologie & Digitales"
   },
   "group_sportsFitness": {
     "message": "Sport & Fitness"
@@ -132,7 +132,7 @@
     "message": "Interne Systeme"
   },
   "switchPIP": {
-    "message": "Bild-in-Bild wechseln"
+    "message": "Bild-in-Bild-Modus wechseln"
   },
   "play": {
     "message": "Abspielen"
@@ -225,7 +225,7 @@
     "message": "Video neu laden"
   },
   "loading_pip_config": {
-    "message": "Lade Bild-in-Bild-Konfigurationen..."
+    "message": "Bild-in-Bild-Konfigurationen werden geladen..."
   },
   "playing_in_pip_mode": {
     "message": "Wiedergabe im Bild-in-Bild-Modus"
@@ -241,7 +241,7 @@
     "description": "Fehler beim Ausführen von 'requestWindow' auf 'DocumentPictureInPicture': Das Öffnen eines PiP-Fensters ist nur aus einem Top-Level-Browsing-Kontext erlaubt"
   },
   "use_standard_pip": {
-    "message": "Standard PiP verwenden",
+    "message": "Standard-Bild-in-Bild-Modus verwenden",
     "description": "Option, um den Standard-Bild-in-Bild-Modus zu verwenden"
   },
   "open_in_new_tab": {
@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Countdown-Aktualisierung"
+  },
+  "premium_feature_trial": {
+    "message": "Sie testen gerade die Premium-Funktionen"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Der Testzeitraum für das erweiterte Bild-in-Bild ist abgelaufen. Es wurde zum Standard-Bild-in-Bild-Modus gewechselt. Um die erweiterten Bild-in-Bild-Funktionen weiterhin nutzen zu können, upgraden Sie bitte auf Premium."
+  },
+  "do_not_show_again": {
+    "message": "Nicht mehr anzeigen"
+  },
+  "upgrade_to_premium": {
+    "message": "Auf Premium upgraden"
   }
 }

@@ -116,6 +116,7 @@
   "Donation": "Пожертвование",
   "EarlyBirdDiscount": "Скидка ранней пташки",
   "SortTabsByDomain": "Сортировать вкладки по домену",
+  "sortTabsByUrl": "Сортировать вкладки по URL",
   "CurrentActiveTab": "Текущая активная вкладка",
   "ScrollToActiveTab": "Прокрутить к активной вкладке",
   "MuteAllTabsMakingSounds": "Отключить звук всех вкладок, издающих звуки",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Обновить название страницы",
   "ExactMatch": "Точное совпадение",
   "ContainsMatch": "Содержит совпадение",
-  "RenameTitle": "Переименовать название"
+  "RenameTitle": "Переименовать название",
+  "premium_feature_required": "Это премиум-функция, для её использования необходимо обновиться до Премиум-версии",
+  "premium_feature": "Премиум-функция",
+  "upgrade_to_premium": "Обновить до Премиум",
+  "login_required": "Требуется вход",
+  "login": "Войти"
 }

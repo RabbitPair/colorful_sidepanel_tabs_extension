@@ -116,6 +116,7 @@
   "Donation": "Donation",
   "EarlyBirdDiscount": "Early Bird-rabatt",
   "SortTabsByDomain": "Sortera flikar efter domän",
+  "sortTabsByUrl": "Sortera flikar efter URL",
   "CurrentActiveTab": "Nuvarande aktiva flik",
   "ScrollToActiveTab": "Rulla till aktiv flik",
   "MuteAllTabsMakingSounds": "Stäng av alla flikar som gör ljud",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Uppdatera sidtitel",
   "ExactMatch": "Exakt matchning",
   "ContainsMatch": "Innehåller matchning",
-  "RenameTitle": "Byt namn på titel"
+  "RenameTitle": "Byt namn på titel",
+  "premium_feature_required": "Detta är en premiumfunktion, du behöver uppgradera till Premium Edition för att använda den",
+  "premium_feature": "Premiumfunktion",
+  "upgrade_to_premium": "Uppgradera till Premium",
+  "login_required": "Inloggning krävs",
+  "login": "Logga in"
 }

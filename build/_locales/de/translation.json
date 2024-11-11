@@ -83,7 +83,7 @@
     "MoveToNewWindow": "In neues Fenster verschieben",
     "Ungroup": "Gruppe aufheben",
     "DeleteGroup": "Gruppe löschen",
-    "AddTabsToChromeGroups": "Tabs zu Gruppen hinzufügen",
+    "AddTabsToChromeGroups": "Tabs zu Chrome-Gruppen hinzufügen",
     "RemoveAllTabsFromGroup": "Alle Tabs aus Gruppe entfernen"
   },
   "Ungrouped": "Nicht gruppiert",
@@ -116,6 +116,7 @@
   "Donation": "Spende",
   "EarlyBirdDiscount": "Frühbucherrabatt",
   "SortTabsByDomain": "Tabs nach Domain sortieren",
+  "sortTabsByUrl": "Tabs nach URL sortieren",
   "CurrentActiveTab": "Aktueller aktiver Tab",
   "ScrollToActiveTab": "Zum aktiven Tab scrollen",
   "MuteAllTabsMakingSounds": "Alle Tabs stummschalten, die Geräusche machen",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Seitentitel aktualisieren",
   "ExactMatch": "Exakte Übereinstimmung",
   "ContainsMatch": "Enthält Übereinstimmung",
-  "RenameTitle": "Titel umbenennen"
+  "RenameTitle": "Titel umbenennen",
+  "premium_feature_required": "Dies ist eine Premium-Funktion, Sie müssen auf die Premium Edition upgraden, um sie zu nutzen",
+  "premium_feature": "Premium-Funktion",
+  "upgrade_to_premium": "Auf Premium upgraden",
+  "login_required": "Anmeldung erforderlich",
+  "login": "Anmelden"
 }

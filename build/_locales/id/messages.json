@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Penyegaran Hitung Mundur"
+  },
+  "premium_feature_trial": {
+    "message": "Anda sedang mencoba fitur Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Masa percobaan Picture-in-Picture lanjutan telah berakhir. Beralih ke mode Picture-in-Picture standar. Untuk terus menggunakan fitur Picture-in-Picture lanjutan, silakan tingkatkan ke Premium."
+  },
+  "do_not_show_again": {
+    "message": "Jangan tampilkan lagi"
+  },
+  "upgrade_to_premium": {
+    "message": "Tingkatkan ke Premium"
   }
 }

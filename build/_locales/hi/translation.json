@@ -116,6 +116,7 @@
   "Donation": "दान",
   "EarlyBirdDiscount": "अर्ली बर्ड डिस्काउंट",
   "SortTabsByDomain": "डोमेन द्वारा टैब्स क्रमबद्ध करें",
+  "sortTabsByUrl": "यूआरएल द्वारा टैब्स क्रमबद्ध करें",
   "CurrentActiveTab": "वर्तमान सक्रिय टैब",
   "ScrollToActiveTab": "सक्रिय टैब पर स्क्रॉल करें",
   "MuteAllTabsMakingSounds": "सभी ध्वनि उत्पन्न करने वाले टैब्स म्यूट करें",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "पृष्ठ शीर्षक अपडेट करें",
   "ExactMatch": "सटीक मिलान",
   "ContainsMatch": "मिलान शामिल है",
-  "RenameTitle": "शीर्षक बदलें"
+  "RenameTitle": "शीर्षक बदलें",
+  "premium_feature_required": "यह एक प्रीमियम सुविधा है, इसका उपयोग करने के लिए आपको प्रीमियम संस्करण में अपग्रेड करना होगा",
+  "premium_feature": "प्रीमियम सुविधा",
+  "upgrade_to_premium": "प्रीमियम में अपग्रेड करें",
+  "login_required": "लॉगिन आवश्यक है",
+  "login": "लॉगिन करें"
 }

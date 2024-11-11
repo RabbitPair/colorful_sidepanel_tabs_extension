@@ -1,10 +1,10 @@
 {
   "OpenSidePanelToPreview": "打開側邊欄預覽",
-  "_execute_action": "激活此擴展",
+  "_execute_action": "啟用此擴充功能",
   "openSidePanel": "打開側邊欄",
   "settings": {
     "premiumEditionOnly": "僅限高級版",
-    "resetCurrentPageSettings": "重置當前頁面設置",
+    "resetCurrentPageSettings": "重置當前頁面設定",
     "modules": {
       "appearance": "外觀",
       "beautify": "美化",
@@ -20,8 +20,8 @@
     "appearance": {
       "header": "外觀",
       "language": {
-        "label": "界面語言",
-        "description": "設置界面顯示語言"
+        "label": "介面語言",
+        "description": "設定介面顯示語言"
       },
       "theme": {
         "label": "顏色模式",
@@ -29,65 +29,94 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "啟用後，界面將從右到左顯示文本方向"
+        "description": "啟用後，介面將從右到左顯示文字方向"
       },
       "fontSize": {
         "label": "字體大小",
-        "description": "設置字體大小",
+        "description": "設定字體大小",
         "small": "小",
         "large": "大"
       },
       "fontFamily": {
         "label": "字體",
-        "description": "設置字體"
+        "description": "設定字體"
       },
       "fontColor": {
         "label": "字體顏色",
-        "description": "設置字體顏色"
+        "description": "設定字體顏色"
       },
       "fontWeight": {
         "label": "字體粗細",
-        "description": "設置字體粗細"
+        "description": "設定字體粗細"
       },
       "extAction": {
-        "label": "點擊擴展圖標的操作",
-        "description": "設置點擊擴展圖標時的操作",
-        "openPopup": "打開彈出窗口",
+        "label": "點擊擴充功能圖示的操作",
+        "description": "設定點擊擴充功能圖示時的操作",
+        "openPopup": "打開彈出視窗",
         "openSidePanel": "打開側邊欄",
-        "SmallWindowAlert": "如果側邊欄佔用太多空間，建議使用彈出窗口"
+        "SmallWindowAlert": "如果側邊欄佔用太多空間，建議使用彈出視窗"
       },
       "SidePanelPosition": {
         "label": "側邊欄位置",
-        "description": "設置側邊欄顯示在左側或右側。",
-        "goToBrowserSettings": "前往設置"
+        "description": "設定側邊欄顯示在左側或右側。",
+        "goToBrowserSettings": "前往設定"
       },
       "searchBoxPosition": {
-        "label": "搜索框位置",
-        "description": "設置搜索框的位置",
+        "label": "搜尋框位置",
+        "description": "設定搜尋框的位置",
         "top": "頂部",
         "bottom": "底部",
         "hide": "隱藏"
       },
       "toolbar": {
-        "label": "顯示工具欄",
-        "description": "啟用後，顯示工具欄",
-        "moreOptions": "更多選項",
-        "moreOptionsDescription": "您可以控制工具欄上顯示的圖標。",
-        "moreOptionsHideLabel": "隱藏工具欄圖標標籤",
+        "label": "顯示工具列",
+        "description": "啟用後，顯示工具列",
+        "configure": "配置",
+        "configureDesc": "配置工具列",
+        "enabledNavs": "已啟用的導航",
+        "disabledNavs": "可用的未啟用導航",
+        "showLabel": "顯示標籤",
+        "close": "關閉",
+        "save": "儲存",
+        "left": "左側",
+        "right": "右側",
+        "newTab": "新分頁",
+        "tabGoBack": "返回",
+        "tabGoForward": "前進",
+        "tabRefresh": "重新載入",
+        "scrollToActiveTab": "捲動至目前分頁",
+        "muteAllTabs": "靜音所有分頁",
+        "collapseAll": "全部摺疊",
+        "createSnapshot": "建立快照",
+        "themeModes": "主題模式",
+        "viewModes": "檢視模式",
+        "showBy": "顯示方式",
+        "sortBy": "排序方式",
+        "switchPIP": "切換子母畫面",
+        "clearTabs": "清除分頁"
+      },
+      "clearTabsBtn": {
+        "label": "顯示清除標籤頁按鈕",
+        "description": "啟用後，將顯示清除標籤頁按鈕",
+        "configure": "配置",
+        "configureDesc": "您可以控制清除標籤頁時的行為",
         "close": "關閉",
         "options": {
-          "toolbar_newtab": "新標籤頁",
-          "toolbar_orderby": "排序方式",
-          "toolbar_showby": "顯示方式",
-          "toolbar_view": "視圖",
-          "toolbar_colorMode": "顏色模式",
-          "toolbar_muteAllTabs": "靜音所有發聲標籤頁",
-          "toolbar_scrollToActiveTab": "滾動到活動標籤頁"
-        }
+          "createSnapshot": "清除前創建快照",
+          "closeInactiveTabs": "關閉非活動標籤頁",
+          "closeDiscardTabs": "關閉已丟棄的標籤頁",
+          "skipSoundTabs": "跳過正在播放聲音的標籤頁",
+          "skipCurrentTab": "跳過當前標籤頁",
+          "confirm": "顯示確認對話框"
+        },
+        "confirmClearTabs": "清除標籤頁",
+        "confirmClearTabsMessage": "您確定要清除這些標籤頁嗎？此操作無法撤銷。",
+        "cancel": "取消",
+        "confirm": "確認"
       },
       "tabNav": {
-        "label": "顯示標籤導航欄",
-        "description": "啟用後，標籤導航欄將顯示",
+        "label": "顯示標籤導航列",
+        "description": "啟用後，標籤導航列將顯示",
         "configure": "配置",
         "configureTabNav": "配置標籤導航",
         "enabledNavs": "已啟用的導航",
@@ -97,26 +126,26 @@
         "days": "天",
         "close": "關閉",
         "save": "保存",
-        "settings": "設置",
+        "settings": "設定",
         "OpenTabs": "打開的標籤頁",
         "RecentlyTabs": "最近關閉的標籤頁",
         "bookmarks": "書籤",
         "history": "歷史記錄",
         "readingList": "閱讀清單",
         "quickAccess": "快速訪問",
-        "pinToToolbarReminder": "請將擴展程式固定到工具欄後再移除此導航。"
+        "pinToToolbarReminder": "請將擴充功能固定到工具列後再移除此導航。"
       },
       "bottomNav": {
-        "label": "顯示底部導航欄",
-        "description": "啟用後，底部導航欄將顯示",
+        "label": "顯示底部導航列",
+        "description": "啟用後，底部導航列將顯示",
         "configure": "配置",
-        "configureBottomNav": "配置底部導航欄",
+        "configureBottomNav": "配置底部導航列",
         "enabledNavs": "已啟用的導航",
         "disabledNavs": "可用的禁用導航",
         "showLabel": "顯示標籤",
         "close": "關閉",
         "save": "保存",
-        "settings": "設置",
+        "settings": "設定",
         "version": "版本",
         "more": "更多",
         "newTab": "新標籤頁",
@@ -125,7 +154,7 @@
         "history": "歷史記錄",
         "readingList": "閱讀清單",
         "quickAccess": "快速訪問",
-        "search": "搜索",
+        "search": "搜尋",
         "createSnapshot": "創建快照",
         "collapseAll": "全部折疊",
         "scrollToActiveTab": "滾動到活動標籤頁",
@@ -137,21 +166,22 @@
         "createTabPanel": "創建標籤面板",
         "tabPanels": "標籤面板",
         "switchPIP": "切換畫中畫",
-        "pinToToolbarReminder": "請將擴展程式固定到工具欄後再移除此導航。"
+        "clearTabs": "清除標籤頁",
+        "pinToToolbarReminder": "請將擴充功能固定到工具列後再移除此導航。"
       },
       "buttonPosition": {
         "label": "按鈕位置",
-        "description": "設置按鈕的位置",
+        "description": "設定按鈕的位置",
         "left": "左側",
         "right": "右側"
       },
       "alwaysShowCloseButton": {
         "label": "始終顯示關閉按鈕",
-        "description": "啟用後，關閉按鈕將始終顯示；禁用時，關閉按鈕僅在鼠標懸停在標籤頁上時顯示"
+        "description": "啟用後，關閉按鈕將始終顯示；禁用時，關閉按鈕僅在滑鼠懸停在標籤頁上時顯示"
       },
       "fullScreenHideSidePanel": {
-        "label": "全屏時隱藏側邊欄",
-        "description": "啟用後，頁面全屏時側邊欄將自動隱藏。由於瀏覽器的限制，側邊欄無法自動重新打開。您需要手動重新打開側邊欄！"
+        "label": "全螢幕時隱藏側邊欄",
+        "description": "啟用後，頁面全螢幕時側邊欄將自動隱藏。由於瀏覽器的限制，側邊欄無法自動重新打開。您需要手動重新打開側邊欄！"
       }
     },
     "beautify": {
@@ -170,40 +200,40 @@
         "addBackgroundPicture": "添加背景圖片",
         "uploadImage": "上傳圖片",
         "or": "或",
-        "pasteImageLink": "粘貼圖片鏈接"
+        "pasteImageLink": "貼上圖片連結"
       },
       "backgroundColor": {
         "label": "背景顏色",
         "description": "選擇介面的背景顏色。",
-        "backgroundImageConfigured": "背景圖片已設置。",
+        "backgroundImageConfigured": "背景圖片已設定。",
         "random": "隨機",
         "clear": "清除"
       },
       "backgroundGradient": {
         "label": "背景漸變",
-        "description": "啟用後，當前的背景顏色將用於漸變效果。您還可以使用滑塊調整漸變角度。"
+        "description": "啟用後，當前的背景顏色將用於漸變效果。您還可以使用滑桿調整漸變角度。"
       },
       "backgroundImageTransparency": {
         "label": "圖片透明度",
-        "description": "設置圖片透明度",
+        "description": "設定圖片透明度",
         "transparent": "透明",
         "opaque": "不透明"
       },
       "backgroundImageBlur": {
         "label": "模糊強度",
-        "description": "設置模糊強度"
+        "description": "設定模糊強度"
       },
       "backgroundImageBrightness": {
         "label": "亮度",
-        "description": "設置亮度，僅推薦用於深色模式"
+        "description": "設定亮度，僅推薦用於深色模式"
       },
       "listVerticalSpacing": {
         "label": "列表垂直間距",
-        "description": "設置列表垂直間距"
+        "description": "設定列表垂直間距"
       },
       "listBackgroundStyle": {
         "label": "列表背景樣式",
-        "description": "設置列表背景樣式",
+        "description": "設定列表背景樣式",
         "single": "單一",
         "none": "無",
         "simple": "簡單",
@@ -214,13 +244,13 @@
       },
       "listBackgroundTransparency": {
         "label": "列表背景透明度",
-        "description": "設置列表背景透明度",
+        "description": "設定列表背景透明度",
         "transparent": "透明",
         "opaque": "不透明"
       },
       "listBottomBorder": {
         "label": "列表底部邊框",
-        "description": "設置列表底部邊框",
+        "description": "設定列表底部邊框",
         "none": "無",
         "dashed": "虛線",
         "solid": "實線"
@@ -228,15 +258,15 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滾動條",
         "description": "使用 Microsoft Fluent 設計風格化滾動條並使其覆蓋在網頁內容上",
-        "goToBrowserSettings": "前往設置"
+        "goToBrowserSettings": "前往設定"
       }
     },
     "tabs": {
       "listView": {
-        "label": "列表視圖",
-        "description": "切換列表視圖",
-        "compact": "緊湊視圖",
-        "visual": "直觀視圖"
+        "label": "列表檢視",
+        "description": "切換列表檢視",
+        "compact": "緊湊檢視",
+        "visual": "直觀檢視"
       },
       "showBy": {
         "label": "顯示依據",
@@ -251,16 +281,16 @@
         "description": "啟用後，標籤頁標題下將顯示完整URL"
       },
       "currentWindowOnly": {
-        "label": "僅顯示當前窗口",
-        "description": "僅顯示當前窗口的標籤頁。如果禁用，將顯示所有窗口的標籤頁"
+        "label": "僅顯示當前視窗",
+        "description": "僅顯示當前視窗的標籤頁。如果禁用，將顯示所有視窗的標籤頁"
       },
       "pinedTabsAsIcons": {
-        "label": "將固定標籤頁顯示為圖標",
-        "description": "啟用後，固定標籤頁將顯示為圖標而不是列表"
+        "label": "將固定標籤頁顯示為圖示",
+        "description": "啟用後，固定標籤頁將顯示為圖示而不是列表"
       },
       "pinToQuickAccess": {
         "label": "顯示快速訪問",
-        "description": "您可以將標籤頁設置為顯示在快速訪問中，以便於查找。只需右鍵單擊（或長按）它並選擇固定到快速訪問。當您不再需要它時，通過右鍵單擊（或長按）它並選擇從快速訪問中刪除來取消固定。與固定標籤頁的區別在於，快速訪問保存URL並在每次點擊時打開新標籤頁。"
+        "description": "您可以將標籤頁設置為顯示在快速訪問中，以便於查找。只需右鍵點擊（或長按）它並選擇固定到快速訪問。當您不再需要它時，通過右鍵點擊（或長按）它並選擇從快速訪問中刪除來取消固定。與固定標籤頁的區別在於，快速訪問保存URL並在每次點擊時打開新標籤頁。"
       },
       "selectFromHistory": {
         "label": "從歷史記錄中選擇",
@@ -276,17 +306,17 @@
         "deniedMessage": "您已拒絕所需的權限，因此設置未更改。如果您改變主意，請再次點擊並允許授權"
       },
       "collapsedGroupShowTabIcons": {
-        "label": "折疊組時顯示網站圖標",
-        "description": "啟用後，折疊組將顯示標籤頁圖標"
+        "label": "折疊群組時顯示網站圖示",
+        "description": "啟用後，折疊群組將顯示標籤頁圖示"
       },
       "hoverPreview": {
         "label": "懸停預覽",
         "description": "啟用後，懸停在標籤頁上將顯示標籤頁預覽"
       },
       "previewWithThumbnail": {
-        "label": "在預覽中顯示縮略圖",
-        "description": "啟用後，預覽將顯示標籤頁縮略圖",
-        "alert": "捕獲指定窗口中當前活動標籤頁的可見區域。要調用此方法，擴展程序必須具有<all_urls>權限或activeTab權限。",
+        "label": "在預覽中顯示縮圖",
+        "description": "啟用後，預覽將顯示標籤頁縮圖",
+        "alert": "捕獲指定視窗中當前活動標籤頁的可見區域。要調用此方法，擴充功能必須具有<all_urls>權限或activeTab權限。",
         "deniedMessage": "您已拒絕所需的權限，因此設置未更改。如果您改變主意，請再次點擊並允許授權"
       },
       "previewDelay": {
@@ -324,20 +354,20 @@
         "description": "啟用後，僅在活動標籤頁上顯示標籤頁歷史，否則在所有標籤頁上顯示標籤頁歷史。"
       },
       "tabHistoryExpand": {
-        "label": "默認展開標籤頁歷史",
-        "description": "啟用後，標籤頁歷史將默認展開。"
+        "label": "預設展開標籤頁歷史",
+        "description": "啟用後，標籤頁歷史將預設展開。"
       },
       "tabHistoryShowExpandBtn": {
         "label": "在列表中顯示展開標籤頁歷史按鈕",
-        "description": "啟用後，標籤頁列表中將顯示一個按鈕，您可以單擊該按鈕來展開或折疊標籤頁歷史。如果禁用，您只能使用右鍵菜單來展開或折疊標籤頁歷史"
+        "description": "啟用後，標籤頁列表中將顯示一個按鈕，您可以點擊該按鈕來展開或折疊標籤頁歷史。如果禁用，您只能使用右鍵選單來展開或折疊標籤頁歷史"
       },
       "tabHistoryShowUrl": {
         "label": "顯示標籤頁歷史URL",
         "description": "啟用後，將顯示標籤頁歷史URL，否則僅顯示標題"
       },
       "tabHistoryShowIconWhenCollapsed": {
-        "label": "標籤頁歷史折疊時顯示圖標",
-        "description": "啟用後，當列表折疊時顯示標籤頁歷史圖標"
+        "label": "標籤頁歷史折疊時顯示圖示",
+        "description": "啟用後，當列表折疊時顯示標籤頁歷史圖示"
       },
       "tabHistorySortBy": {
         "label": "標籤頁歷史排序順序",
@@ -356,8 +386,8 @@
         "description": "啟用後，保存最近關閉的標籤頁"
       },
       "dataSource": {
-        "label": "數據源",
-        "description": "選擇數據源",
+        "label": "資料來源",
+        "description": "選擇資料來源",
         "recentlyClosedTabs": "最近關閉的標籤頁",
         "chromeHistory": "歷史記錄",
         "alert": "要搜索歷史記錄，需要您的授權啟用",
@@ -392,9 +422,9 @@
       }
     },
     "shortcuts": {
-      "alert": "此頁面僅供顯示。要修改快捷鍵，請訪問[擴展程序]->[管理擴展程序]->[鍵盤快捷鍵]",
+      "alert": "此頁面僅供顯示。要修改快捷鍵，請訪問[擴充功能]->[管理擴充功能]->[鍵盤快捷鍵]",
       "goToBrowserSettings": "前往設置",
-      "_execute_action": "激活此擴展",
+      "_execute_action": "啟用此擴充功能",
       "openSidePanel": "打開側邊欄",
       "switchPIP": "切換畫中畫"
     },
@@ -418,25 +448,29 @@
       },
       "advancedPipEnable": {
         "label": "啟用高級畫中畫",
-        "description": "啟用後，將優先使用高級畫中畫。如果頁面不支持，將使用常規畫中畫。\n高級畫中畫使用自定義視頻播放器，提供以下功能：\n * 播放/暫停視頻（空格鍵）\n * 調整音量（上/下箭頭）\n * 靜音/取消靜音視頻\n * 快進/倒退視頻（左/右箭頭或鼠標滾輪）\n * 播放下一個視頻\n * 顯示字幕（某些網站支持，例如：youtube.com, vimeo.com, tver.jp 等）\n * 顯示彈幕（某些網站支持，例如：nicovideo.jp, bilibili.com 等）\n * 退出畫中畫（Esc）\n * 切換隱藏/顯示視頻和播放/暫停（Q）\n >如果您經常訪問的網站支持字幕或彈幕，您可以提交[問題：高級畫中畫](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=)，我們將盡快適配。請注意，某些網站可能有區域限制，您可能需要提供額外信息。"
+        "description": "啟用後，將優先使用高級畫中畫。如果頁面不支持，將使用常規畫中畫。\n高級畫中畫使用自定義視頻播放器，提供以下功能：\n * 播放/暫停視頻（空格鍵）\n * 調整音量（上/下箭頭）\n * 靜音/取消靜音視頻\n * 快進/倒退視頻（左/右箭頭或滑鼠滾輪）\n * 播放下一個視頻\n * 顯示字幕（某些網站支持，例如：youtube.com, vimeo.com, tver.jp 等）\n * 顯示彈幕（某些網站支持，例如：nicovideo.jp, bilibili.com 等）\n * 退出畫中畫（Esc）\n * 切換隱藏/顯示視頻和播放/暫停（Q）\n >如果您經常訪問的網站支持字幕或彈幕，您可以提交[問題：高級畫中畫](https://github.com/RabbitPair/colorful_sidepanel_tabs_extension/issues/new?assignees=&labels=&projects=&template=Advanced-Picture-in-Picture.md&title=)，我們將盡快適配。請注意，某些網站可能有區域限制，您可能需要提供額外信息。"
       },
       "subtitleDetection": {
         "label": "啟用字幕檢測",
-        "description": "如果當前網站沒有畫中畫配置，允許程序嘗試自動檢測字幕元素並將其添加到畫中畫播放器中。這是一個不穩定的功能，可能無法始終檢測到正確的字幕元素。如果您是專業人士，可以在網站設置中添加字幕元素配置。"
+        "description": "如果當前網站沒有畫中畫配置，允許程式嘗試自動檢測字幕元素並將其添加到畫中畫播放器中。這是一個不穩定的功能，可能無法始終檢測到正確的字幕元素。如果您是專業人士，可以在網站設置中添加字幕元素配置。"
       },
       "continuousPlayback": {
         "label": "啟用連續播放",
-        "description": "連續播放：畫中畫窗口不會關閉，並在視頻結束後自動播放下一集。此功能需要網站支持。"
+        "description": "連續播放：畫中畫視窗不會關閉，並在視頻結束後自動播放下一集。此功能需要網站支持。"
+      },
+      "advancedPipShowTitle": {
+        "label": "在高級畫中畫播放器中顯示標題",
+        "description": "啟用後，頁面標題將顯示在高級畫中畫播放器中"
       }
     },
     "userActivitionAlert": {
-      "title": "需要用戶激活",
-      "tips_1": "用戶激活意味著用戶當前正在與頁面交互",
-      "tips_2": "更具體地說，激活會觸發輸入事件，例如：",
-      "tips_3": "注意：使用鼠標滾輪滾動或滑動手勢不會觸發！",
+      "title": "需要用戶啟動",
+      "tips_1": "用戶啟動意味著用戶當前正在與頁面互動",
+      "tips_2": "更具體地說，啟動會觸發輸入事件，例如：",
+      "tips_3": "注意：使用滑鼠滾輪滾動或滑動手勢不會觸發！",
       "tips_4": "如果您想了解更多詳細信息，請訪問：",
       "click": "點擊",
-      "contextmenu": "右鍵菜單",
+      "contextmenu": "右鍵選單",
       "dblclick": "雙擊"
     },
     "chromeTabGroupAdvanced": {
@@ -476,21 +510,21 @@
         "option_auto": "使用瀏覽器默認設置"
       },
       "useBookmarkFolderNameAsGroupName": {
-        "label": "將書籤文件夾名稱用作組名",
-        "description": "如果打開的 URL 在書籤中，則自動將書籤文件夾名稱用作組名",
+        "label": "將書籤資料夾名稱用作組名",
+        "description": "如果打開的 URL 在書籤中，則自動將書籤資料夾名稱用作組名",
         "enabled": "已啟用",
         "disabled": "已禁用"
       },
       "groupSelectBookmarkFolderLevel": {
-        "label": "選擇書籤文件夾級別",
-        "description": "選擇要用作組名的書籤文件夾級別",
-        "top": "頂級",
-        "parent": "父級",
+        "label": "選擇書籤資料夾層級",
+        "description": "選擇要用作組名的書籤資料夾層級",
+        "top": "頂層",
+        "parent": "父層",
         "full": "完整路徑"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自動創建或加入同域名分組",
-        "description": "啟用後,新打開的標籤頁會自動加入到相同域名分組,如果域名分組不存在則會創建一個新的域名分組",
+        "description": "啟用後，新打開的標籤頁會自動加入到相同域名分組，如果域名分組不存在則會創建一個新的域名分組",
         "enabled": "啟用",
         "disabled": "禁用"
       },
@@ -534,10 +568,10 @@
       }
     },
     "performance": {
-      "label": "性能",
+      "label": "效能",
       "saveMemoryAction": {
-        "label": "如何節省標籤頁內存",
-        "description": "要節省標籤頁內存，您可以選擇關閉標籤頁或丟棄標籤頁。",
+        "label": "如何節省標籤頁記憶體",
+        "description": "要節省標籤頁記憶體，您可以選擇關閉標籤頁或丟棄標籤頁。",
         "discardTips": "丟棄的標籤頁不會消失。我們會將其終止，但它仍然在瀏覽器標籤欄中可見。如果您導航回到已丟棄的標籤頁，點擊時它會重新加載。表單內容、滾動位置等將以與前進/後退標籤導航相同的方式保存和恢復。",
         "disabled": "禁用",
         "closeTabs": "關閉標籤頁",
@@ -545,12 +579,12 @@
       },
       "discardInactiveTabsMinutes": {
         "label": "丟棄非活動標籤頁的時間",
-        "description": "當標籤頁上沒有播放音頻或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被丟棄。",
+        "description": "當標籤頁上沒有播放音訊或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被丟棄。",
         "minutes": "分鐘"
       },
       "closeInactiveTabsMinutes": {
         "label": "關閉非活動標籤頁的時間",
-        "description": "當標籤頁上沒有播放音頻或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被關閉。",
+        "description": "當標籤頁上沒有播放音訊或視頻且未禁止自動丟棄時，標籤頁將在指定時間後被關閉。",
         "minutes": "分鐘"
       },
       "disableAnimations": {
@@ -583,7 +617,7 @@
       },
       "autoDiscardable": {
         "label": "自動丟棄",
-        "description": "啟用後，瀏覽器將允許丟棄標籤頁，如果您打開性能並設置丟棄非活動標籤頁的時間，標籤頁將在指定時間後被丟棄。如果禁用，標籤頁將不會被丟棄"
+        "description": "啟用後，瀏覽器將允許丟棄標籤頁，如果您打開效能並設置丟棄非活動標籤頁的時間，標籤頁將在指定時間後被丟棄。如果禁用，標籤頁將不會被丟棄"
       },
       "readingProgressBar": {
         "label": "閱讀進度條",
@@ -641,10 +675,10 @@
       },
       "linkOpenOptions": {
         "label": "連結打開設置",
-        "description": "設置此網站上的連結如何打開",
+        "description": "設置此網站上的連結如何打開。",
         "configure": "配置",
         "listTips": "拖放以排序。優先級較高的規則將放置在頂部。",
-        "linkMatchContent": "連結模式",
+        "linkMatchContent": "連結匹配內容",
         "linkMatchContentTips": "使用 '*' 匹配任意數量的字符，使用 '?' 匹配單個字符。支持正則表達式。",
         "linkOpenMethod": "打開方式",
         "edit": "編輯",
@@ -657,35 +691,35 @@
         "close": "關閉",
         "internalLinks": "內部連結",
         "externalLinks": "外部連結",
-        "imageLinks": "圖片",
-        "pdfLinks": "PDF",
-        "socialMediaLinks": "社交媒體"
+        "imageLinks": "圖片連結",
+        "pdfLinks": "PDF連結",
+        "socialMediaLinks": "社交媒體連結"
       },
       "linkRefreshOptions": {
         "label": "自動刷新連結",
-        "description": "設置特定連結的自動刷新",
+        "description": "設置特定連結的自動刷新。",
         "configure": "配置",
         "listTips": "拖放以排序。僅應用第一個匹配的規則。",
-        "linkMatchContent": "連結模式",
+        "linkMatchContent": "連結匹配內容",
         "linkMatchContentTips": "使用 '*' 匹配任意數量的字符，使用 '?' 匹配單個字符。支持正則表達式。",
         "edit": "編輯",
         "delete": "刪除",
         "save": "保存",
         "close": "關閉",
         "refreshInterval": "刷新間隔（分鐘）",
-        "disabled": "關閉"
+        "disabled": "禁用"
       },
       "pageKeepAlive": {
         "label": "保持頁面活躍",
         "description": "保持頁面活躍，防止瀏覽器在後台自動掛起。"
       },
       "incognito": {
-        "label": "私人瀏覽",
+        "label": "隱私瀏覽",
         "description": "每次訪問後清除選定的網站數據。使用“配置”選擇要清除的內容。可能會影響您的瀏覽體驗。",
         "configure": "配置",
-        "configureDescription": "請選擇要清除的功能",
-        "cache": "緩存",
-        "cacheStorage": "緩存存儲",
+        "configureDescription": "請選擇要清除的項目",
+        "cache": "快取",
+        "cacheStorage": "快取存儲",
         "cookies": "Cookie",
         "skipAccountCookies": "保留帳戶Cookie",
         "history": "歷史記錄",
@@ -703,7 +737,7 @@
       "autoJoinGroup": {
         "label": "自動加入群組",
         "description": "自動加入或創建此網站的群組。",
-        "configure": "設置",
+        "configure": "配置",
         "groupName": "群組名稱",
         "save": "保存"
       },
@@ -738,18 +772,18 @@
       }
     },
     "quickAccess": {
-      "title": "快速訪問",
+      "title": "快速存取",
       "enableQuickAccess": {
-        "label": "顯示快速訪問",
-        "description": "您可以將標籤頁設置為顯示在快速訪問中以便於訪問。只需右鍵單擊（或長按）它並選擇“固定到快速訪問”。要刪除它，請右鍵單擊（或長按）它並選擇“從快速訪問中刪除”。與固定標籤頁不同，快速訪問保存URL並在每次點擊時打開新標籤頁。"
+        "label": "顯示快速存取",
+        "description": "您可以將標籤頁設置為顯示在快速存取中以便於訪問。只需右鍵單擊（或長按）它並選擇“固定到快速存取”。要刪除它，請右鍵單擊（或長按）它並選擇“從快速存取中刪除”。與固定標籤頁不同，快速存取保存URL並在每次點擊時打開新標籤頁。"
       },
       "quickAccessVerticalSpacing": {
         "label": "垂直間距",
-        "description": "設置快速訪問項目的垂直間距。"
+        "description": "設置快速存取項目的垂直間距。"
       },
       "quickAccessHorizontalSpacing": {
         "label": "水平間距",
-        "description": "設置快速訪問項目的水平間距。"
+        "description": "設置快速存取項目的水平間距。"
       },
       "quickAccessGroupView": {
         "label": "群組視圖",
@@ -759,7 +793,7 @@
       },
       "quickAccessGroupClickAction": {
         "label": "群組點擊操作",
-        "description": "配置點擊快速訪問群組時的操作。",
+        "description": "配置點擊快速存取群組時的操作。",
         "openAllUrls": "打開所有URL",
         "expandIcons": "展開圖標",
         "expandList": "展開列表"
@@ -771,20 +805,20 @@
         "numberOfUrls": "URL數量",
         "cancel": "取消",
         "query": "查詢",
-        "selectItemsToAddToQuickAccess": "選擇要添加到快速訪問的項目：",
+        "selectItemsToAddToQuickAccess": "選擇要添加到快速存取的項目：",
         "selectAll": "全選",
         "addSelected": "添加選中項",
-        "addedSuccess": "已將 {{count}} 個項目添加到快速訪問。",
+        "addedSuccess": "已將 {{count}} 個項目添加到快速存取。",
         "deniedMessage": "您已拒絕所需的權限，因此設置未更改。如果您改變主意，請再次點擊並允許授權。"
       }
     },
     "importAndExport": {
-      "title": "導入/導出",
+      "title": "匯入/匯出",
       "description": "",
       "options": {
         "preferences": "用戶偏好",
         "preferencesInfo": "包括默認的常規設置、顯示和數據偏好以及切換用戶界面主題。",
-        "quickAccess": "快速訪問",
+        "quickAccess": "快速存取",
         "quickAccessWarning": "未訪問網站的圖標可能顯示異常。別擔心，訪問並重新啟動瀏覽器後，它將正常顯示。",
         "siteConfig": "站點設置",
         "siteConfigInfo": "例如自動丟棄、標籤切換時的畫中畫、閱讀進度條、播放進度條等。",
@@ -792,84 +826,148 @@
         "snapshots": "快照"
       },
       "cancelBtn": "取消",
-      "exportBtn": "導出",
-      "importBtn": "導入",
-      "importing": "正在導入...",
+      "exportBtn": "匯出",
+      "importBtn": "匯入",
+      "importing": "正在匯入...",
       "fileError": "文件解析錯誤，請上傳正確的JSON配置文件",
       "import": {
-        "label": "從文件導入",
+        "label": "從文件匯入",
         "description": "",
-        "formTips": "選擇您要導入的數據",
-        "importSuccess": "導入成功",
-        "importFailed": "導入失敗"
+        "formTips": "選擇您要匯入的數據",
+        "importSuccess": "匯入成功",
+        "importFailed": "匯入失敗"
       },
       "export": {
-        "label": "導出到文件",
+        "label": "匯出到文件",
         "description": "",
-        "formTips": "選擇您要導出的數據",
-        "exportSuccess": "導出成功",
-        "exportFailed": "導出失敗"
+        "formTips": "選擇您要匯出的數據",
+        "exportSuccess": "匯出成功",
+        "exportFailed": "匯出失敗"
       }
     },
-    "SyncToCloud": {
-      "label": "同步到雲端",
-      "SyncNow": "立即同步",
-      "SyncNowWithGoogleDrive": "使用Google Drive立即同步",
-      "SyncNowWithDropbox": "使用Dropbox立即同步",
-      "SyncNowWithOneDrive": "使用OneDrive立即同步",
-      "Synchronizing": "正在同步...",
-      "SyncedSuccessfully": "同步成功",
-      "SyncFailed": "同步失敗",
-      "LoginRequired": "需要登錄",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "同步配置",
-        "description": "選擇如何同步此擴展的配置。",
-        "disabled": "禁用",
-        "uploadOnly": "僅上傳",
-        "downloadOnly": "僅下載",
-        "staySynchronized": "保持同步"
+    "syncToCloud": {
+      "title": "同步設置",
+      "setLocalPasswordTitle": "設置本地密碼",
+      "setLocalPasswordDescription": "為了加密和保護您的同步數據，請設置加密密碼。此密碼不會傳輸給我們。您必須在其他瀏覽器上設置相同的密碼以進行同步。請務必記住它。",
+      "passwordError": "密碼必須至少包含6個字符，並且包含數字和字母",
+      "save": "保存並繼續",
+      "cancel": "取消",
+      "doNotUseLocalPassword": "使用默認加密",
+      "changeLocalPassword": "更改本地密碼",
+      "changeLocalPasswordDesc": "重置本地密碼將使先前同步的數據無效。此密碼用於加密和保護您的同步數據。密碼不會傳輸給我們。您必須在其他瀏覽器上設置相同的密碼以進行同步。請仔細設置它！",
+      "deviceName": "設備名稱",
+      "deviceNameDescription": "為此設備設置一個易於識別的名稱，以便在多設備同步期間區分它",
+      "deviceId": "設備ID",
+      "syncNow": "立即同步",
+      "lastSyncTime": "上次同步時間",
+      "uploadStatus": "上傳狀態",
+      "downloadStatus": "下載狀態",
+      "notSynced": "未同步",
+      "success": "成功",
+      "failed": "失敗",
+      "mode": {
+        "title": "同步模式",
+        "description": "選擇設備之間數據同步的方式",
+        "modes": {
+          "disabled": "禁用",
+          "uploadOnly": "僅上傳",
+          "downloadOnly": "僅下載",
+          "staySynchronized": "保持同步"
+        }
       },
-      "SyncTabs": {
-        "label": "同步標籤頁",
-        "description": "選擇如何同步標籤頁數據，不包括私人數據，如Cookie和個人信息。",
-        "disabled": "禁用",
-        "uploadOnly": "僅上傳",
-        "downloadOnly": "僅下載",
-        "staySynchronized": "保持同步"
+      "providers": {
+        "title": "同步提供商",
+        "description": "選擇並配置數據同步的服務提供商",
+        "defaultProvider": "默認同步提供商",
+        "close": "關閉",
+        "save": "保存",
+        "configure": "配置",
+        "authorize": "授權",
+        "providers": {
+          "custom": {
+            "title": "雲服務",
+            "enabled": "已啟用"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "同步打開或關閉標籤頁",
-        "description": "啟用後，在不同瀏覽器中打開或關閉標籤頁將被同步。這僅在“保持同步”選項激活時適用",
-        "OpenOrCloseTabsSynchronouslyWarning": "如果您在兩個瀏覽器中同時登錄同一帳戶並打開此選項，在一個瀏覽器中打開或關閉標籤頁將在另一個瀏覽器中執行相同操作。如果網站禁止使用同一帳戶重複登錄，可能會發生異常。"
+      "dataOptions": {
+        "title": "數據同步選項",
+        "description": "選擇要同步的數據類型",
+        "openedTabs": {
+          "title": "打開的標籤頁",
+          "enabled": "同步打開的標籤頁"
+        },
+        "settings": {
+          "title": "設置",
+          "enabled": "同步設置"
+        },
+        "siteConfigs": {
+          "title": "站點配置",
+          "enabled": "同步站點配置"
+        },
+        "quickAccess": {
+          "title": "快速訪問",
+          "enabled": "同步快速訪問"
+        },
+        "recentClosedTabs": {
+          "title": "最近關閉的標籤頁",
+          "enabled": "同步最近關閉的標籤頁"
+        },
+        "windowTabs": {
+          "title": "窗口、標籤組和標籤頁",
+          "enabled": "同步標籤歷史",
+          "close": "關閉",
+          "save": "保存",
+          "syncAfterAction": "同步後的操作",
+          "syncAfterActionTitle": "選擇同步後的處理方式",
+          "applyModes": {
+            "append": {
+              "title": "追加模式",
+              "description": "如果當前窗口的標籤頁少於5個，則同步的標籤頁將添加到當前窗口的末尾。如果同步了多個窗口，第一個窗口的標籤頁將合併到當前窗口中，其他窗口將作為單獨的新窗口創建。"
+            },
+            "new": {
+              "title": "新窗口",
+              "description": "在新窗口中打開同步的標籤頁，保持現有標籤頁不變"
+            },
+            "replace": {
+              "title": "替換模式",
+              "description": "關閉現有標籤頁並在新窗口中打開同步的標籤頁"
+            },
+            "createSnapshot": {
+              "title": "創建快照",
+              "description": "將同步的標籤頁保存為新快照"
+            }
+          },
+          "moreOptions": "高級選項",
+          "optionsTitle": "標籤同步設置",
+          "skipLastWindow": "最後一個窗口關閉時不同步",
+          "skipLastWindowDescription": "當最後一個窗口關閉時暫停同步，以允許在其他設備上恢復最近的標籤頁。如果禁用此選項，則同步將立即執行，其他設備將無法恢復這些標籤頁。",
+          "debounceMs": "同步延遲",
+          "debounceMsDescription": "設置標籤頁更改後等待多少秒再同步，以避免過於頻繁的同步操作"
+        }
       },
-      "SyncPrivateData": {
-        "label": "同步私人數據",
-        "description": "選擇如何同步私人數據，如網站Cookie、網頁本地存儲數據、SessionStorage數據等。數據將在同步前加密。",
-        "disabled": "禁用",
-        "uploadOnly": "僅上傳",
-        "downloadOnly": "僅下載",
-        "staySynchronized": "保持同步"
+      "globalTriggers": {
+        "title": "全局同步觸發器",
+        "description": "配置何時觸發全局同步操作",
+        "onStartup": "首次啟動瀏覽器時"
       }
     },
     "alerts": {
       "screenSizeTips": {
-        "pageSidebarRelase": "好消息！我們推出了一個新的“頁面側邊欄”功能，允許您在不使用瀏覽器內置側邊欄的情況下向網頁添加側邊欄。啟用後，只需將鼠標懸停在窗口邊緣即可調出側邊欄。[查看設置](/options.html#/tabSidebarOnPages)",
+        "pageSidebarRelase": "好消息！我們推出了一個新的“頁面側邊欄”功能，允許您在不使用瀏覽器內建側邊欄的情況下向網頁添加側邊欄。啟用後，只需將滑鼠懸停在視窗邊緣即可調出側邊欄。[查看設定](/options.html#/tabSidebarOnPages)",
         "showLess": "顯示較少",
         "showMore": "顯示更多",
-        "screenSizeWarningMessage": "我們檢測到您當前的屏幕分辨率可能會影響您使用側邊欄的體驗。由於瀏覽器的限制，側邊欄的最小寬度為360像素。在您當前的分辨率下，側邊欄可能會佔據您屏幕的{{percent}}%。\n\n為了提升您的體驗，請考慮調整您的屏幕分辨率。以下是一些幫助您的指南：\n\n- 對於Windows用戶：[在Windows中更改屏幕分辨率](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- 對於Mac用戶：[更改Mac顯示器的分辨率](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n請僅在必要時進行調整以適應您的舒適度和使用需求。",
-        "scaleWarningMessage": "您當前的顯示比例設置為{{scale}}%。較高的比例會使界面元素變大，但可用空間減少。降低比例會顯示更多內容，但元素尺寸會減小。請選擇最適合您閱讀舒適度和工作流程需求的設置。"
+        "screenSizeWarningMessage": "我們檢測到您當前的螢幕解析度可能會影響您使用側邊欄的體驗。由於瀏覽器的限制，側邊欄的最小寬度為360像素。在您當前的解析度下，側邊欄可能會佔據您螢幕的{{percent}}%。\n\n為了提升您的體驗，請考慮調整您的螢幕解析度。以下是一些幫助您的指南：\n\n- 對於Windows用戶：[在Windows中更改螢幕解析度](https://support.microsoft.com/windows/5effefe3-2eac-e306-0b5d-2073b765876b)\n- 對於Mac用戶：[更改Mac顯示器的解析度](https://support.apple.com/guide/mac-help/mchl86d72b76)\n\n請僅在必要時進行調整以適應您的舒適度和使用需求。",
+        "scaleWarningMessage": "您當前的顯示比例設置為{{scale}}%。較高的比例會使介面元素變大，但可用空間減少。降低比例會顯示更多內容，但元素尺寸會減小。請選擇最適合您閱讀舒適度和工作流程需求的設置。"
       }
     },
     "tabSidebarOnPages": {
       "title": "頁面側邊欄",
-      "description": "頁面側邊欄功能允許您在不打開瀏覽器內置側邊欄的情況下向網頁添加側邊欄。這對於那些覺得瀏覽器側邊欄過寬或不靈活的小屏幕用戶特別有用。雖然頁面側邊欄由於某些限制功能有限，但它提供了一個更緊湊的替代方案。啟用後，您可以通過將鼠標懸停在窗口邊緣來訪問側邊欄。",
+      "description": "頁面側邊欄功能允許您在不打開瀏覽器內建側邊欄的情況下向網頁添加側邊欄。這對於那些覺得瀏覽器側邊欄過寬或不靈活的小螢幕用戶特別有用。雖然頁面側邊欄由於某些限制功能有限，但它提供了一個更緊湊的替代方案。啟用後，您可以通過將滑鼠懸停在視窗邊緣來訪問側邊欄。",
       "usageRestrictions": "使用限制",
       "sidebarEnabled": {
         "label": "啟用側邊欄",
-        "description": "切換以激活或停用頁面側邊欄"
+        "description": "切換以啟動或停用頁面側邊欄"
       },
       "sidebarPosition": {
         "label": "側邊欄位置",
@@ -879,39 +977,61 @@
       },
       "contentScriptWarning": {
         "warningTitle": "內容腳本限制",
-        "warningMessage": "內容腳本是增強網頁功能的小程序。然而，由於安全和隱私限制，這些腳本無法在某些類型的頁面上運行。因此，側邊欄可能不會出現在以下頁面上：",
-        "webStore": "瀏覽器擴展商店（例如，Chrome Web Store，Microsoft Edge Add-ons）",
+        "warningMessage": "內容腳本是增強網頁功能的小程式。然而，由於安全和隱私限制，這些腳本無法在某些類型的頁面上運行。因此，側邊欄可能不會出現在以下頁面上：",
+        "webStore": "瀏覽器擴充功能商店（例如，Chrome Web Store，Microsoft Edge Add-ons）",
         "internalPages": "瀏覽器內部頁面（以chrome://，edge://或about://開頭）",
-        "fileUrls": "您計算機上的本地文件（以file://開頭）",
-        "extensionsPages": "其他瀏覽器擴展的頁面（以chrome-extension://或extension://或類似開頭）",
-        "protectedPages": "具有嚴格內容安全策略的網站",
-        "pdfViewer": "內置PDF查看器頁面",
+        "fileUrls": "您計算機上的本地檔案（以file://開頭）",
+        "extensionsPages": "其他瀏覽器擴充功能的頁面（以chrome-extension://或extension://或類似開頭）",
+        "protectedPages": "具有嚴格內容安全政策的網站",
+        "pdfViewer": "內建PDF檢視器頁面",
         "newTabPage": "新標籤頁（以chrome://newtab/或edge://newtab/或類似開頭）"
+      }
+    },
+    "general": {
+      "title": "一般",
+      "description": "",
+      "accountInfo": {
+        "label": "帳戶資訊",
+        "currentPlan": "當前計劃",
+        "subscribePremium": "訂閱高級版",
+        "manageAccount": "管理帳戶",
+        "logout": "登出",
+        "notLoggedIn": "未登入",
+        "signIn": "登入",
+        "free": "免費",
+        "premium": "高級版",
+        "premiumEndsAt": "您的高級版計劃將於{{date}}結束",
+        "trialEndsAt": "您的高級版試用將於{{date}}結束",
+        "signInForPremium": "登入以獲取高級版",
+        "trialEndsAndMembershipStarts": "您的試用期將於{{date}}結束。試用期結束後，您的正式會員資格將自動生效，所有福利將保持不變。",
+        "lifetimeMembership": "終身會員",
+        "manageSubscription": "管理訂閱"
       }
     }
   },
   "snapshots": {
     "title": "快照檢視器",
-    "description": "創建和管理快照。",
-    "createSnapshot": "創建快照",
+    "description": "建立和管理快照。",
+    "createSnapshot": "建立快照",
     "exportSnapshot": "匯出快照",
     "restoreWindowSize": "恢復視窗位置和大小",
-    "openAllWindows": "打開所有視窗",
-    "openSelectedInNewWindow": "在新視窗中打開選定項目",
-    "openSelectedInCurrentWindow": "在當前視窗中打開選定項目",
+    "restoreGroups": "恢復群組",
+    "openAllWindows": "開啟所有視窗",
+    "openSelectedInNewWindow": "在新視窗中開啟選定項目",
+    "openSelectedInCurrentWindow": "在當前視窗中開啟選定項目",
     "windowCount": "{{count}} 個視窗",
     "tabCount": "{{count}} 個分頁",
     "Window": "視窗",
-    "OpenInCurrentWindow": "在當前視窗中打開",
-    "OpenInNewWindow": "在新視窗中打開",
+    "OpenInCurrentWindow": "在當前視窗中開啟",
+    "OpenInNewWindow": "在新視窗中開啟",
     "ResetSelection": "重置選擇",
-    "snapshotCreatedSuccess": "快照創建成功",
-    "snapshotCreatedFailed": "快照創建失敗",
+    "snapshotCreatedSuccess": "快照建立成功",
+    "snapshotCreatedFailed": "快照建立失敗",
     "snapshotDeletedSuccess": "快照刪除成功",
     "snapshotDeletedFailed": "快照刪除失敗",
     "importSnapshot": "匯入快照",
     "snapshotImportFailedDuplicate": "快照匯入失敗，已存在重複快照",
-    "snapshotImportedSuccess": "{{count}} 快照匯入成功",
-    "snapshotImportFailed": "{{count}} 快照匯入失敗 {{error}}"
+    "snapshotImportedSuccess": "{{count}} 個快照匯入成功",
+    "snapshotImportFailed": "{{count}} 個快照匯入失敗 {{error}}"
   }
 }

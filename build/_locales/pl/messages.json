@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Odświeżanie odliczania"
+  },
+  "premium_feature_trial": {
+    "message": "Wypróbowujesz funkcje Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Okres próbny zaawansowanego trybu Picture-in-Picture zakończył się. Przełączono na standardowy tryb Picture-in-Picture. Aby nadal korzystać z zaawansowanych funkcji Picture-in-Picture, przejdź na wersję Premium."
+  },
+  "do_not_show_again": {
+    "message": "Nie pokazuj ponownie"
+  },
+  "upgrade_to_premium": {
+    "message": "Przejdź na Premium"
   }
 }

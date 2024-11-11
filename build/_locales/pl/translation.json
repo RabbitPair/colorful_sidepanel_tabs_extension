@@ -116,6 +116,7 @@
   "Donation": "Darowizna",
   "EarlyBirdDiscount": "Zniżka dla Wcześniaków",
   "SortTabsByDomain": "Sortuj Karty według Domeny",
+  "sortTabsByUrl": "Sortuj Karty według URL",
   "CurrentActiveTab": "Bieżąca Aktywna Karta",
   "ScrollToActiveTab": "Przewiń do Aktywnej Karty",
   "MuteAllTabsMakingSounds": "Wycisz Wszystkie Karty Wydające Dźwięki",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Zaktualizuj tytuł strony",
   "ExactMatch": "Dokładne dopasowanie",
   "ContainsMatch": "Zawiera dopasowanie",
-  "RenameTitle": "Zmień tytuł"
+  "RenameTitle": "Zmień tytuł",
+  "premium_feature_required": "To jest funkcja premium, musisz zaktualizować do wersji Premium, aby z niej korzystać",
+  "premium_feature": "Funkcja Premium",
+  "upgrade_to_premium": "Przejdź na Premium",
+  "login_required": "Wymagane logowanie",
+  "login": "Zaloguj się"
 }

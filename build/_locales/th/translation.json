@@ -116,6 +116,7 @@
   "Donation": "บริจาค",
   "EarlyBirdDiscount": "ส่วนลดนกแรก",
   "SortTabsByDomain": "จัดเรียงแท็บตามโดเมน",
+  "sortTabsByUrl": "จัดเรียงแท็บตาม URL",
   "CurrentActiveTab": "แท็บที่ใช้งานอยู่ปัจจุบัน",
   "ScrollToActiveTab": "เลื่อนไปยังแท็บที่ใช้งานอยู่",
   "MuteAllTabsMakingSounds": "ปิดเสียงแท็บทั้งหมดที่มีเสียง",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "อัปเดตชื่อหน้า",
   "ExactMatch": "ตรงกันทั้งหมด",
   "ContainsMatch": "ตรงกันบางส่วน",
-  "RenameTitle": "เปลี่ยนชื่อ"
+  "RenameTitle": "เปลี่ยนชื่อ",
+  "premium_feature_required": "นี่เป็นฟีเจอร์พรีเมียม คุณจำเป็นต้องอัปเกรดเป็นรุ่นพรีเมียมเพื่อใช้งาน",
+  "premium_feature": "ฟีเจอร์พรีเมียม",
+  "upgrade_to_premium": "อัปเกรดเป็นพรีเมียม",
+  "login_required": "ต้องเข้าสู่ระบบ",
+  "login": "เข้าสู่ระบบ"
 }

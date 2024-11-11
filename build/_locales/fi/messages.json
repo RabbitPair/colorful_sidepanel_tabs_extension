@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Laskennan päivitys"
+  },
+  "premium_feature_trial": {
+    "message": "Kokeilet Premium-ominaisuuksia"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Edistyneen kuva kuvassa -tilan kokeilujakso on päättynyt. Siirryttiin tavalliseen kuva kuvassa -tilaan. Jatkaaksesi edistyneiden kuva kuvassa -ominaisuuksien käyttöä, päivitä Premium-versioon."
+  },
+  "do_not_show_again": {
+    "message": "Älä näytä uudelleen"
+  },
+  "upgrade_to_premium": {
+    "message": "Päivitä Premium-versioon"
   }
 }

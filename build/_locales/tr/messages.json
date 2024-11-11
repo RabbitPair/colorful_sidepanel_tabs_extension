@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Geri Sayım Yenileme"
+  },
+  "premium_feature_trial": {
+    "message": "Premium özellikleri deniyorsunuz"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Gelişmiş Resim içinde Resim deneme süresi sona erdi. Standart Resim içinde Resim moduna geçildi. Gelişmiş Resim içinde Resim özelliklerini kullanmaya devam etmek için lütfen Premium'a yükseltin."
+  },
+  "do_not_show_again": {
+    "message": "Bir daha gösterme"
+  },
+  "upgrade_to_premium": {
+    "message": "Premium'a Yükselt"
   }
 }

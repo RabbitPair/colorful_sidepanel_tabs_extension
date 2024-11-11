@@ -116,6 +116,7 @@
   "Donation": "Donation",
   "EarlyBirdDiscount": "Early Bird Discount",
   "SortTabsByDomain": "Sort Tabs by Domain",
+  "sortTabsByUrl": "Sort Tabs by URL",
   "CurrentActiveTab": "Current Active Tab",
   "ScrollToActiveTab": "Scroll to Active Tab",
   "MuteAllTabsMakingSounds": "Mute All Tabs Making Sounds",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Update Page Title",
   "ExactMatch": "Exact Match",
   "ContainsMatch": "Contains Match",
-  "RenameTitle": "Rename Title"
+  "RenameTitle": "Rename Title",
+  "premium_feature_required": "This is a premium feature, you need to upgrade to Premium Edition to use it",
+  "premium_feature": "Premium Feature",
+  "upgrade_to_premium": "Upgrade to Premium",
+  "login_required": "Login Required",
+  "login": "Login"
 }

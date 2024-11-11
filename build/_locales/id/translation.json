@@ -116,6 +116,7 @@
   "Donation": "Donasi",
   "EarlyBirdDiscount": "Diskon Early Bird",
   "SortTabsByDomain": "Urutkan Tab berdasarkan Domain",
+  "sortTabsByUrl": "Urutkan Tab berdasarkan URL",
   "CurrentActiveTab": "Tab Aktif Saat Ini",
   "ScrollToActiveTab": "Gulir ke Tab Aktif",
   "MuteAllTabsMakingSounds": "Bisukan Semua Tab yang Mengeluarkan Suara",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Perbarui Judul Halaman",
   "ExactMatch": "Cocok Persis",
   "ContainsMatch": "Mengandung Kecocokan",
-  "RenameTitle": "Ganti Judul"
+  "RenameTitle": "Ganti Judul",
+  "premium_feature_required": "Ini adalah fitur premium, Anda perlu meningkatkan ke Edisi Premium untuk menggunakannya",
+  "premium_feature": "Fitur Premium",
+  "upgrade_to_premium": "Tingkatkan ke Premium",
+  "login_required": "Login Diperlukan",
+  "login": "Login"
 }

@@ -116,6 +116,7 @@
   "Donation": "Lahjoitus",
   "EarlyBirdDiscount": "Early Bird -alennus",
   "SortTabsByDomain": "Lajittele välilehdet toimialueen mukaan",
+  "sortTabsByUrl": "Lajittele välilehdet URL:n mukaan",
   "CurrentActiveTab": "Nykyinen aktiivinen välilehti",
   "ScrollToActiveTab": "Vieritä aktiiviseen välilehteen",
   "MuteAllTabsMakingSounds": "Mykistä kaikki ääntä tuottavat välilehdet",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Päivitä sivun otsikko",
   "ExactMatch": "Tarkka osuma",
   "ContainsMatch": "Sisältää osuman",
-  "RenameTitle": "Nimeä otsikko uudelleen"
+  "RenameTitle": "Nimeä otsikko uudelleen",
+  "premium_feature_required": "Tämä on premium-ominaisuus, sinun täytyy päivittää Premium-versioon käyttääksesi sitä",
+  "premium_feature": "Premium-ominaisuus",
+  "upgrade_to_premium": "Päivitä Premium-versioon",
+  "login_required": "Kirjautuminen vaaditaan",
+  "login": "Kirjaudu sisään"
 }

@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Tampilkan toolbar",
         "description": "Ketika diaktifkan, toolbar akan ditampilkan",
-        "moreOptions": "Opsi Lainnya",
-        "moreOptionsDescription": "Anda dapat mengontrol ikon mana yang muncul di toolbar.",
-        "moreOptionsHideLabel": "Sembunyikan label ikon toolbar",
+        "configure": "Konfigurasi",
+        "configureDesc": "Konfigurasi toolbar",
+        "enabledNavs": "Navigasi yang diaktifkan",
+        "disabledNavs": "Navigasi yang dinonaktifkan tersedia",
+        "showLabel": "Tampilkan label",
+        "close": "Tutup",
+        "save": "Simpan",
+        "left": "Kiri",
+        "right": "Kanan",
+        "newTab": "Tab baru",
+        "tabGoBack": "Kembali",
+        "tabGoForward": "Maju",
+        "tabRefresh": "Muat ulang",
+        "scrollToActiveTab": "Gulir ke tab aktif",
+        "muteAllTabs": "Bisukan semua tab",
+        "collapseAll": "Ciutkan semua",
+        "createSnapshot": "Buat snapshot",
+        "themeModes": "Mode tema",
+        "viewModes": "Mode tampilan",
+        "showBy": "Tampilkan berdasarkan",
+        "sortBy": "Urutkan berdasarkan",
+        "switchPIP": "Aktifkan gambar-dalam-gambar",
+        "clearTabs": "Bersihkan tab"
+      },
+      "clearTabsBtn": {
+        "label": "Tampilkan tombol bersihkan tab",
+        "description": "Ketika diaktifkan, tombol bersihkan tab akan ditampilkan",
+        "configure": "konfigurasi",
+        "configureDesc": "Anda dapat mengontrol perilaku saat membersihkan tab",
         "close": "Tutup",
         "options": {
-          "toolbar_newtab": "Tab Baru",
-          "toolbar_orderby": "Urutkan Berdasarkan",
-          "toolbar_showby": "Tampilkan Berdasarkan",
-          "toolbar_view": "tampilan",
-          "toolbar_colorMode": "Mode warna",
-          "toolbar_muteAllTabs": "Bisukan Semua Tab yang Mengeluarkan Suara",
-          "toolbar_scrollToActiveTab": "Gulir ke Tab Aktif"
-        }
+          "createSnapshot": "Buat snapshot sebelum membersihkan",
+          "closeInactiveTabs": "Tutup tab tidak aktif",
+          "closeDiscardTabs": "Tutup tab yang dibuang",
+          "skipSoundTabs": "Lewati tab yang memutar suara",
+          "skipCurrentTab": "Lewati tab saat ini",
+          "confirm": "Tampilkan dialog konfirmasi"
+        },
+        "confirmClearTabs": "Bersihkan Tab",
+        "confirmClearTabsMessage": "Apakah Anda yakin ingin membersihkan tab ini? Tindakan ini tidak dapat dibatalkan.",
+        "cancel": "Batal",
+        "confirm": "Konfirmasi"
       },
       "tabNav": {
         "label": "Tampilkan bilah navigasi Tab",
@@ -137,6 +166,7 @@
         "createTabPanel": "Buat Panel Tab",
         "tabPanels": "Panel Tab",
         "switchPIP": "Beralih ke Gambar-dalam-Gambar",
+        "clearTabs": "Bersihkan Tab",
         "pinToToolbarReminder": "Harap sematkan ekstensi ke toolbar Anda sebelum menghapus navigasi ini."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Aktifkan Pemutaran Berkelanjutan",
         "description": "Pemutaran berkelanjutan: Jendela Gambar-dalam-Gambar tidak menutup dan secara otomatis memutar episode berikutnya setelah video berakhir. Fitur ini memerlukan dukungan situs web."
+      },
+      "advancedPipShowTitle": {
+        "label": "Tampilkan Judul di Pemutar Gambar-dalam-Gambar Lanjutan",
+        "description": "Ketika diaktifkan, judul halaman akan ditampilkan di pemutar Gambar-dalam-Gambar Lanjutan"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Ekspor gagal"
       }
     },
-    "SyncToCloud": {
-      "label": "Sinkronkan ke cloud",
-      "SyncNow": "Sinkronkan Sekarang",
-      "SyncNowWithGoogleDrive": "Sinkronkan Sekarang dengan Google Drive",
-      "SyncNowWithDropbox": "Sinkronkan Sekarang dengan Dropbox",
-      "SyncNowWithOneDrive": "Sinkronkan Sekarang dengan OneDrive",
-      "Synchronizing": "Menyinkronkan...",
-      "SyncedSuccessfully": "Berhasil disinkronkan",
-      "SyncFailed": "Sinkronisasi gagal",
-      "LoginRequired": "Login diperlukan",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sinkronkan konfigurasi",
-        "description": "Pilih cara untuk menyinkronkan konfigurasi ekstensi ini.",
-        "disabled": "Dinonaktifkan",
-        "uploadOnly": "Hanya unggah",
-        "downloadOnly": "Hanya unduh",
-        "staySynchronized": "Tetap sinkron"
+    "syncToCloud": {
+      "title": "Sinkronisasi Pengaturan",
+      "setLocalPasswordTitle": "Atur Kata Sandi Lokal",
+      "setLocalPasswordDescription": "Untuk mengenkripsi dan melindungi data sinkronisasi Anda, silakan atur kata sandi enkripsi. Kata sandi ini tidak akan dikirimkan kepada kami. Anda harus mengatur kata sandi yang sama di browser lain untuk sinkronisasi. Pastikan untuk mengingatnya.",
+      "passwordError": "Kata sandi harus minimal 6 karakter dan mengandung angka serta huruf",
+      "save": "Simpan dan Lanjutkan",
+      "cancel": "Batal",
+      "doNotUseLocalPassword": "Gunakan enkripsi default",
+      "changeLocalPassword": "Ubah kata sandi lokal",
+      "changeLocalPasswordDesc": "Mengatur ulang kata sandi lokal akan membatalkan data yang telah disinkronkan sebelumnya. Kata sandi ini digunakan untuk mengenkripsi dan melindungi data sinkronisasi Anda. Kata sandi tidak akan dikirimkan kepada kami. Anda harus mengatur kata sandi yang sama di browser lain untuk sinkronisasi. Harap atur dengan hati-hati!",
+      "deviceName": "Nama Perangkat",
+      "deviceNameDescription": "Atur nama yang mudah dikenali untuk perangkat ini agar dapat dibedakan selama sinkronisasi multi-perangkat",
+      "deviceId": "ID Perangkat",
+      "syncNow": "Sinkronkan Sekarang",
+      "lastSyncTime": "Waktu Sinkronisasi Terakhir",
+      "uploadStatus": "Status Unggah",
+      "downloadStatus": "Status Unduh",
+      "notSynced": "Belum Sinkron",
+      "success": "Berhasil",
+      "failed": "Gagal",
+      "mode": {
+        "title": "Mode Sinkronisasi",
+        "description": "Pilih cara data disinkronkan antar perangkat",
+        "modes": {
+          "disabled": "Nonaktif",
+          "uploadOnly": "Hanya Unggah",
+          "downloadOnly": "Hanya Unduh",
+          "staySynchronized": "Tetap Sinkron"
+        }
       },
-      "SyncTabs": {
-        "label": "Sinkronkan tab",
-        "description": "Pilih cara untuk menyinkronkan data tab, tidak termasuk data pribadi seperti cookie dan informasi pribadi.",
-        "disabled": "Dinonaktifkan",
-        "uploadOnly": "Hanya unggah",
-        "downloadOnly": "Hanya unduh",
-        "staySynchronized": "Tetap sinkron"
+      "providers": {
+        "title": "Penyedia Sinkronisasi",
+        "description": "Pilih dan konfigurasikan penyedia layanan untuk sinkronisasi data",
+        "defaultProvider": "Penyedia Sinkronisasi Default",
+        "close": "Tutup",
+        "save": "Simpan",
+        "configure": "Konfigurasikan",
+        "authorize": "Otorisasi",
+        "providers": {
+          "custom": {
+            "title": "Layanan Cloud",
+            "enabled": "Diaktifkan"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Buka atau tutup tab secara sinkron",
-        "description": "Ketika diaktifkan, membuka atau menutup tab di browser yang berbeda akan disinkronkan. Ini hanya berlaku ketika opsi 'tetap sinkron' aktif",
-        "OpenOrCloseTabsSynchronouslyWarning": "Jika Anda masuk ke akun yang sama di dua browser pada saat yang sama dan mengaktifkan opsi ini, membuka atau menutup tab di satu browser akan melakukan operasi yang sama di browser lain. Jika situs web melarang login berulang dengan akun yang sama, pengecualian dapat terjadi."
+      "dataOptions": {
+        "title": "Opsi Sinkronisasi Data",
+        "description": "Pilih jenis data yang akan disinkronkan",
+        "openedTabs": {
+          "title": "Tab yang Dibuka",
+          "enabled": "Sinkronkan Tab yang Dibuka"
+        },
+        "settings": {
+          "title": "Pengaturan",
+          "enabled": "Sinkronkan Pengaturan"
+        },
+        "siteConfigs": {
+          "title": "Konfigurasi Situs",
+          "enabled": "Sinkronkan Konfigurasi Situs"
+        },
+        "quickAccess": {
+          "title": "Akses Cepat",
+          "enabled": "Sinkronkan Akses Cepat"
+        },
+        "recentClosedTabs": {
+          "title": "Tab yang Baru Saja Ditutup",
+          "enabled": "Sinkronkan Tab yang Baru Saja Ditutup"
+        },
+        "windowTabs": {
+          "title": "Jendela, Grup Tab, dan Tab",
+          "enabled": "Sinkronkan Riwayat Tab",
+          "close": "Tutup",
+          "save": "Simpan",
+          "syncAfterAction": "Tindakan Setelah Sinkronisasi",
+          "syncAfterActionTitle": "Pilih cara menangani setelah sinkronisasi",
+          "applyModes": {
+            "append": {
+              "title": "Mode Tambah",
+              "description": "Jika jendela saat ini memiliki kurang dari 5 tab, tab yang disinkronkan akan ditambahkan ke akhir jendela saat ini. Jika beberapa jendela disinkronkan, tab dari jendela pertama akan digabungkan ke jendela saat ini, dan jendela lainnya akan dibuat sebagai jendela baru yang terpisah."
+            },
+            "new": {
+              "title": "Jendela Baru",
+              "description": "Buka tab yang disinkronkan di jendela baru, menjaga tab yang ada tetap tidak berubah"
+            },
+            "replace": {
+              "title": "Mode Ganti",
+              "description": "Tutup tab yang ada dan buka tab yang disinkronkan di jendela baru"
+            },
+            "createSnapshot": {
+              "title": "Buat Cuplikan",
+              "description": "Simpan tab yang disinkronkan sebagai cuplikan baru"
+            }
+          },
+          "moreOptions": "Opsi Lanjutan",
+          "optionsTitle": "Pengaturan Sinkronisasi Tab",
+          "skipLastWindow": "Jangan Sinkronkan Saat Jendela Terakhir Ditutup",
+          "skipLastWindowDescription": "Jeda sinkronisasi saat jendela terakhir ditutup untuk memungkinkan pemulihan tab terbaru di perangkat lain. Jika opsi ini dinonaktifkan, sinkronisasi akan dilakukan segera, dan perangkat lain tidak akan dapat memulihkan tab ini.",
+          "debounceMs": "Penundaan Sinkronisasi",
+          "debounceMsDescription": "Atur berapa detik untuk menunggu setelah perubahan tab sebelum sinkronisasi untuk menghindari operasi sinkronisasi yang terlalu sering"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sinkronkan data pribadi",
-        "description": "Pilih cara untuk menyinkronkan data pribadi, seperti cookie situs web, data localstorage halaman web, data SessionStorage, dll. Data akan dienkripsi sebelum sinkronisasi.",
-        "disabled": "Dinonaktifkan",
-        "uploadOnly": "Hanya unggah",
-        "downloadOnly": "Hanya unduh",
-        "staySynchronized": "Tetap sinkron"
+      "globalTriggers": {
+        "title": "Pemicu Sinkronisasi Global",
+        "description": "Konfigurasikan kapan harus memicu operasi sinkronisasi global",
+        "onStartup": "Saat browser pertama kali dimulai"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Halaman penampil PDF bawaan",
         "newTabPage": "Halaman Tab Baru (dimulai dengan chrome://newtab/ atau edge://newtab/ atau serupa)"
       }
+    },
+    "general": {
+      "title": "Umum",
+      "description": "",
+      "accountInfo": {
+        "label": "Informasi Akun",
+        "currentPlan": "Paket Saat Ini",
+        "subscribePremium": "Berlangganan Premium",
+        "manageAccount": "Kelola Akun",
+        "logout": "Keluar",
+        "notLoggedIn": "Belum Masuk",
+        "signIn": "Masuk",
+        "free": "Gratis",
+        "premium": "Premium",
+        "premiumEndsAt": "Paket Premium Anda akan berakhir pada {{date}}",
+        "trialEndsAt": "Uji coba Premium Anda akan berakhir pada {{date}}",
+        "signInForPremium": "Masuk untuk mendapatkan Premium",
+        "trialEndsAndMembershipStarts": "Masa uji coba Anda akan berakhir pada {{date}}. Setelah masa uji coba berakhir, keanggotaan resmi Anda akan otomatis berlaku, dan semua manfaat akan tetap tidak berubah.",
+        "lifetimeMembership": "Keanggotaan Seumur Hidup",
+        "manageSubscription": "Kelola Langganan"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Buat Snapshot",
     "exportSnapshot": "Ekspor Snapshot",
     "restoreWindowSize": "Pulihkan posisi dan ukuran jendela",
+    "restoreGroups": "Pulihkan Grup",
     "openAllWindows": "Buka Semua Jendela",
     "openSelectedInNewWindow": "Buka yang Dipilih di Jendela Baru",
     "openSelectedInCurrentWindow": "Buka yang Dipilih di Jendela Saat Ini",

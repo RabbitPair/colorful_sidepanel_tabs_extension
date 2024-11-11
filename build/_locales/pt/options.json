@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "Mostrar barra de ferramentas",
-        "description": "Quando ativado, a barra de ferramentas é exibida",
-        "moreOptions": "Mais opções",
-        "moreOptionsDescription": "Você pode controlar quais ícones aparecem na barra de ferramentas.",
-        "moreOptionsHideLabel": "Ocultar rótulos dos ícones da barra de ferramentas",
+        "description": "Quando ativada, a barra de ferramentas é exibida",
+        "configure": "Configurar",
+        "configureDesc": "Configurar barra de ferramentas",
+        "enabledNavs": "Navegações ativadas",
+        "disabledNavs": "Navegações desativadas disponíveis",
+        "showLabel": "Mostrar rótulos",
+        "close": "Fechar",
+        "save": "Salvar",
+        "left": "Esquerda",
+        "right": "Direita",
+        "newTab": "Nova aba",
+        "tabGoBack": "Voltar",
+        "tabGoForward": "Avançar",
+        "tabRefresh": "Recarregar",
+        "scrollToActiveTab": "Rolar para aba ativa",
+        "muteAllTabs": "Silenciar todas as abas",
+        "collapseAll": "Recolher tudo",
+        "createSnapshot": "Criar captura",
+        "themeModes": "Modos de tema",
+        "viewModes": "Modos de visualização",
+        "showBy": "Mostrar por",
+        "sortBy": "Ordenar por",
+        "switchPIP": "Alternar picture-in-picture",
+        "clearTabs": "Limpar abas"
+      },
+      "clearTabsBtn": {
+        "label": "Mostrar botão de limpar abas",
+        "description": "Quando ativado, o botão de limpar abas é exibido",
+        "configure": "configurar",
+        "configureDesc": "Você pode controlar o comportamento ao limpar as abas",
         "close": "Fechar",
         "options": {
-          "toolbar_newtab": "Nova aba",
-          "toolbar_orderby": "Ordenar por",
-          "toolbar_showby": "Mostrar por",
-          "toolbar_view": "visualizar",
-          "toolbar_colorMode": "Modo de cor",
-          "toolbar_muteAllTabs": "Silenciar todas as abas com som",
-          "toolbar_scrollToActiveTab": "Rolar para a aba ativa"
-        }
+          "createSnapshot": "Criar captura antes de limpar",
+          "closeInactiveTabs": "Fechar abas inativas",
+          "closeDiscardTabs": "Fechar abas descartadas",
+          "skipSoundTabs": "Ignorar abas reproduzindo som",
+          "skipCurrentTab": "Ignorar aba atual",
+          "confirm": "Mostrar diálogo de confirmação"
+        },
+        "confirmClearTabs": "Limpar Abas",
+        "confirmClearTabsMessage": "Tem certeza que deseja limpar estas abas? Esta ação não pode ser desfeita.",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
       },
       "tabNav": {
         "label": "Mostrar barra de navegação de abas",
@@ -137,6 +166,7 @@
         "createTabPanel": "Criar Painel de Abas",
         "tabPanels": "Painéis de Abas",
         "switchPIP": "Alternar Picture-in-Picture",
+        "clearTabs": "Limpar Abas",
         "pinToToolbarReminder": "Por favor, fixe a extensão na barra de ferramentas antes de remover esta navegação."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Ativar Reprodução Contínua",
         "description": "Reprodução contínua: A janela de Imagem-em-Imagem não fecha e reproduz automaticamente o próximo episódio após o término do vídeo. Este recurso requer suporte do site."
+      },
+      "advancedPipShowTitle": {
+        "label": "Mostrar Título no Player de Imagem-em-Imagem Avançado",
+        "description": "Quando ativado, o título da página será exibido no player de Imagem-em-Imagem Avançado"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Falha na exportação"
       }
     },
-    "SyncToCloud": {
-      "label": "Sincronizar com a nuvem",
-      "SyncNow": "Sincronizar agora",
-      "SyncNowWithGoogleDrive": "Sincronizar agora com o Google Drive",
-      "SyncNowWithDropbox": "Sincronizar agora com o Dropbox",
-      "SyncNowWithOneDrive": "Sincronizar agora com o OneDrive",
-      "Synchronizing": "Sincronizando...",
-      "SyncedSuccessfully": "Sincronizado com sucesso",
-      "SyncFailed": "Falha na sincronização",
-      "LoginRequired": "Login necessário",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sincronizar configurações",
-        "description": "Escolha como sincronizar as configurações desta extensão.",
-        "disabled": "Desativado",
-        "uploadOnly": "Apenas enviar",
-        "downloadOnly": "Apenas baixar",
-        "staySynchronized": "Permanecer sincronizado"
+    "syncToCloud": {
+      "title": "Configurações de Sincronização",
+      "setLocalPasswordTitle": "Definir Senha Local",
+      "setLocalPasswordDescription": "Para criptografar e proteger seus dados de sincronização, defina uma senha de criptografia. Esta senha não será transmitida para nós. Você deve definir a mesma senha em outros navegadores para sincronizar. Certifique-se de lembrar dela.",
+      "passwordError": "A senha deve ter pelo menos 6 caracteres e conter números e letras",
+      "save": "Salvar e Continuar",
+      "cancel": "Cancelar",
+      "doNotUseLocalPassword": "Usar criptografia padrão",
+      "changeLocalPassword": "Alterar senha local",
+      "changeLocalPasswordDesc": "Redefinir a senha local invalidará os dados sincronizados anteriormente. Esta senha é usada para criptografar e proteger seus dados de sincronização. A senha não será transmitida para nós. Você deve definir a mesma senha em outros navegadores para sincronizar. Por favor, defina-a cuidadosamente!",
+      "deviceName": "Nome do Dispositivo",
+      "deviceNameDescription": "Defina um nome facilmente reconhecível para este dispositivo para distingui-lo durante a sincronização de vários dispositivos",
+      "deviceId": "ID do Dispositivo",
+      "syncNow": "Sincronizar Agora",
+      "lastSyncTime": "Última Sincronização",
+      "uploadStatus": "Status do Upload",
+      "downloadStatus": "Status do Download",
+      "notSynced": "Não Sincronizado",
+      "success": "Sucesso",
+      "failed": "Falhou",
+      "mode": {
+        "title": "Modo de Sincronização",
+        "description": "Escolha como os dados são sincronizados entre dispositivos",
+        "modes": {
+          "disabled": "Desativado",
+          "uploadOnly": "Apenas Upload",
+          "downloadOnly": "Apenas Download",
+          "staySynchronized": "Permanecer Sincronizado"
+        }
       },
-      "SyncTabs": {
-        "label": "Sincronizar abas",
-        "description": "Escolha como sincronizar os dados das abas, excluindo dados privados, como cookies e informações pessoais.",
-        "disabled": "Desativado",
-        "uploadOnly": "Apenas enviar",
-        "downloadOnly": "Apenas baixar",
-        "staySynchronized": "Permanecer sincronizado"
+      "providers": {
+        "title": "Provedores de Sincronização",
+        "description": "Selecione e configure os provedores de serviços para sincronização de dados",
+        "defaultProvider": "Provedor de Sincronização Padrão",
+        "close": "Fechar",
+        "save": "Salvar",
+        "configure": "Configurar",
+        "authorize": "Autorizar",
+        "providers": {
+          "custom": {
+            "title": "Serviço em Nuvem",
+            "enabled": "Ativado"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Abrir ou fechar abas simultaneamente",
-        "description": "Quando ativado, abrir ou fechar abas em diferentes navegadores será sincronizado. Isso só se aplica quando a opção 'permanecer sincronizado' estiver ativa",
-        "OpenOrCloseTabsSynchronouslyWarning": "Se você fizer login na mesma conta em dois navegadores ao mesmo tempo e ativar esta opção, abrir ou fechar abas em um navegador realizará a mesma operação no outro navegador. Se o site proibir logins repetidos com a mesma conta, podem ocorrer exceções."
+      "dataOptions": {
+        "title": "Opções de Sincronização de Dados",
+        "description": "Selecione os tipos de dados para sincronizar",
+        "openedTabs": {
+          "title": "Abas Abertas",
+          "enabled": "Sincronizar Abas Abertas"
+        },
+        "settings": {
+          "title": "Configurações",
+          "enabled": "Sincronizar Configurações"
+        },
+        "siteConfigs": {
+          "title": "Configurações do Site",
+          "enabled": "Sincronizar Configurações do Site"
+        },
+        "quickAccess": {
+          "title": "Acesso Rápido",
+          "enabled": "Sincronizar Acesso Rápido"
+        },
+        "recentClosedTabs": {
+          "title": "Abas Fechadas Recentemente",
+          "enabled": "Sincronizar Abas Fechadas Recentemente"
+        },
+        "windowTabs": {
+          "title": "Janelas, Grupos de Abas e Abas",
+          "enabled": "Sincronizar Histórico de Abas",
+          "close": "Fechar",
+          "save": "Salvar",
+          "syncAfterAction": "Ação Após Sincronização",
+          "syncAfterActionTitle": "Escolha como lidar após a sincronização",
+          "applyModes": {
+            "append": {
+              "title": "Modo de Anexar",
+              "description": "Se a janela atual tiver menos de 5 abas, as abas sincronizadas serão adicionadas ao final da janela atual. Se várias janelas estiverem sincronizadas, as abas da primeira janela serão mescladas na janela atual, e outras janelas serão criadas como novas janelas separadas."
+            },
+            "new": {
+              "title": "Nova Janela",
+              "description": "Abra as abas sincronizadas em uma nova janela, mantendo as abas existentes inalteradas"
+            },
+            "replace": {
+              "title": "Modo de Substituição",
+              "description": "Feche as abas existentes e abra as abas sincronizadas em uma nova janela"
+            },
+            "createSnapshot": {
+              "title": "Criar Snapshot",
+              "description": "Salve as abas sincronizadas como um novo snapshot"
+            }
+          },
+          "moreOptions": "Opções Avançadas",
+          "optionsTitle": "Configurações de Sincronização de Abas",
+          "skipLastWindow": "Não Sincronizar Quando a Última Janela Fechar",
+          "skipLastWindowDescription": "Pausar a sincronização quando a última janela for fechada para permitir a recuperação das abas recentes em outros dispositivos. Se esta opção estiver desativada, a sincronização será executada imediatamente, e outros dispositivos não poderão recuperar essas abas.",
+          "debounceMs": "Atraso de Sincronização",
+          "debounceMsDescription": "Defina quantos segundos esperar após uma alteração de aba antes de sincronizar para evitar operações de sincronização muito frequentes"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sincronizar dados privados",
-        "description": "Escolha como sincronizar dados privados, como cookies de sites, dados de armazenamento local de páginas da web, dados de SessionStorage, etc. Os dados serão criptografados antes da sincronização.",
-        "disabled": "Desativado",
-        "uploadOnly": "Apenas enviar",
-        "downloadOnly": "Apenas baixar",
-        "staySynchronized": "Permanecer sincronizado"
+      "globalTriggers": {
+        "title": "Gatilhos Globais de Sincronização",
+        "description": "Configure quando acionar operações de sincronização global",
+        "onStartup": "Quando o navegador iniciar pela primeira vez"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Páginas do visualizador de PDF integrado",
         "newTabPage": "Páginas de Nova Guia (começando com chrome://newtab/ ou edge://newtab/ ou similar)"
       }
+    },
+    "general": {
+      "title": "Geral",
+      "description": "",
+      "accountInfo": {
+        "label": "Informações da Conta",
+        "currentPlan": "Plano Atual",
+        "subscribePremium": "Assinar Premium",
+        "manageAccount": "Gerenciar Conta",
+        "logout": "Sair",
+        "notLoggedIn": "Não Conectado",
+        "signIn": "Entrar",
+        "free": "Grátis",
+        "premium": "Premium",
+        "premiumEndsAt": "Seu plano Premium terminará em {{date}}",
+        "trialEndsAt": "Seu período de teste Premium terminará em {{date}}",
+        "signInForPremium": "Entre para obter Premium",
+        "trialEndsAndMembershipStarts": "Seu período de teste terminará em {{date}}. Após o término do teste, sua assinatura oficial entrará em vigor automaticamente, e todos os benefícios permanecerão inalterados.",
+        "lifetimeMembership": "Assinatura Vitalícia",
+        "manageSubscription": "Gerenciar Assinatura"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Criar Snapshot",
     "exportSnapshot": "Exportar Snapshot",
     "restoreWindowSize": "Restaurar posição e tamanho da janela",
+    "restoreGroups": "Restaurar Grupos",
     "openAllWindows": "Abrir Todas as Janelas",
     "openSelectedInNewWindow": "Abrir Selecionados em Nova Janela",
     "openSelectedInCurrentWindow": "Abrir Selecionados na Janela Atual",

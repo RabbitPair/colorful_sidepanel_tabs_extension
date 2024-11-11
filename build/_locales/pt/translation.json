@@ -116,6 +116,7 @@
   "Donation": "Doação",
   "EarlyBirdDiscount": "Desconto para Pioneiros",
   "SortTabsByDomain": "Ordenar Abas por Domínio",
+  "sortTabsByUrl": "Ordenar Abas por URL",
   "CurrentActiveTab": "Aba Ativa Atual",
   "ScrollToActiveTab": "Rolar para Aba Ativa",
   "MuteAllTabsMakingSounds": "Silenciar Todas as Abas com Som",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Atualizar Título da Página",
   "ExactMatch": "Correspondência Exata",
   "ContainsMatch": "Contém Correspondência",
-  "RenameTitle": "Renomear Título"
+  "RenameTitle": "Renomear Título",
+  "premium_feature_required": "Este é um recurso premium, você precisa atualizar para a Edição Premium para usá-lo",
+  "premium_feature": "Recurso Premium",
+  "upgrade_to_premium": "Atualizar para Premium",
+  "login_required": "Login Necessário",
+  "login": "Entrar"
 }

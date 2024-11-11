@@ -116,6 +116,7 @@
   "Donation": "Donacija",
   "EarlyBirdDiscount": "Popust za rane prijave",
   "SortTabsByDomain": "Sortiraj kartice po domeni",
+  "sortTabsByUrl": "Sortiraj kartice po URL-u",
   "CurrentActiveTab": "Trenutno aktivna kartica",
   "ScrollToActiveTab": "Pomakni se do aktivne kartice",
   "MuteAllTabsMakingSounds": "Isključi zvuk svih kartica koje proizvode zvuk",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Ažuriraj naslov stranice",
   "ExactMatch": "Točno podudaranje",
   "ContainsMatch": "Sadrži podudaranje",
-  "RenameTitle": "Preimenuj naslov"
+  "RenameTitle": "Preimenuj naslov",
+  "premium_feature_required": "Ovo je premium značajka, morate nadograditi na Premium izdanje kako biste je koristili",
+  "premium_feature": "Premium značajka",
+  "upgrade_to_premium": "Nadogradi na Premium",
+  "login_required": "Potrebna prijava",
+  "login": "Prijava"
 }

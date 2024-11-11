@@ -1,4 +1,4 @@
 {
-    "Saved groups are not editable.": "Gespeicherte Gruppen sind nicht bearbeitbar",
+    "Saved groups are not editable.": "Gespeicherte Gruppen können nicht bearbeitet werden.",
     "ungroupingError": "Fehler beim Aufheben der Gruppierung aller Tabs: {{error}}"
 }

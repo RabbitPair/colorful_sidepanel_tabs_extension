@@ -6,9 +6,43 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-- **Scheduled Snapshots**: Automatically save snapshots at specified intervals. This feature ensures that your work is periodically backed up, providing a safety net against data loss.
 
+## [2.12.0] - 2024-11-11
+### Added
+
+- Added cloud synchronization feature to sync tabs, recently closed tabs, settings, site settings and quick access across multiple devices
+- Added user login and membership functionality
+- Enabled premium feature control
+- Auto-save up to 3 recent snapshots (more configurations available in upcoming premium versions)
+- Enhanced toolbar with more customization options, added quick actions for navigation, snapshots, and clearing tabs
+- Added "Scroll to Active Tab" option (enabled by default) - automatically scrolls to the current active tab when clicked
+
+### Changed
+
+- Sidebar content now loads on-demand when hovering over the edge instead of loading by default
+- Added delete button for custom groups in site settings that previously lacked removal functionality
+- Improved tooltips for advanced player controls
+- Enhanced "Clear Tabs" button with additional options:
+  - Create snapshot before clearing
+  - Close inactive tabs
+  - Close discarded tabs
+  - Skip tabs playing audio
+  - Skip current tab
+  - Show confirmation dialog
+- Added "Clear Tabs" button to bottom navigation bar as an alternative to the top list placement
+- Improved tab history functionality
+- Enhanced snapshot feature
+- Preserved tab discard state when restoring from snapshots to prevent browser freezing from opening too many tabs simultaneously
+
+### Fixed
+- Fixed auto-refresh continuing to execute even when URL no longer matches settings after navigation
+- Fixed incognito mode not triggering on page refresh when URL remains unchanged
+- Fixed quick access groups with single URLs opening list view instead of the URL when clicked
+- Fixed display issues in quick access list mode
+- Improved active window switching to address potential window focus loss affecting extensions like Vimium (partial fix for Chrome bug)
 ----
+
+
 ## [2.11.0] - 2024-10-07
 ### Added
 - **Tab Menu**: New menus have been added:
@@ -38,6 +72,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Fixed
 - **Picture-in-Picture**: Fixed an issue where the title did not change after switching videos in the Picture-in-Picture player.
 - **Custom Group Assignments**: Fixed an issue where changes to custom group assignments for websites didn't take effect immediately when the "Remember site grouping" option was enabled in Advanced Tab Groups settings. This has been resolved to apply changes instantly without requiring a restart.
+
+----
 
 
 ## [2.10.2] - 2024-10-07

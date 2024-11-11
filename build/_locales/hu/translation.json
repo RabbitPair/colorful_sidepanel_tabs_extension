@@ -116,6 +116,7 @@
   "Donation": "Adomány",
   "EarlyBirdDiscount": "Korai madár kedvezmény",
   "SortTabsByDomain": "Lapok rendezése domain szerint",
+  "sortTabsByUrl": "Lapok rendezése URL szerint",
   "CurrentActiveTab": "Jelenlegi aktív lap",
   "ScrollToActiveTab": "Görgetés az aktív lapra",
   "MuteAllTabsMakingSounds": "Összes hangot adó lap némítása",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Oldal címének frissítése",
   "ExactMatch": "Pontos egyezés",
   "ContainsMatch": "Tartalmazott egyezés",
-  "RenameTitle": "Cím átnevezése"
+  "RenameTitle": "Cím átnevezése",
+  "premium_feature_required": "Ez egy prémium funkció, a használatához frissítenie kell a Prémium verzióra",
+  "premium_feature": "Prémium funkció",
+  "upgrade_to_premium": "Frissítés Prémiumra",
+  "login_required": "Bejelentkezés szükséges",
+  "login": "Bejelentkezés"
 }

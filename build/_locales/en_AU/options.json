@@ -71,19 +71,48 @@
       "toolbar": {
         "label": "Show toolbar",
         "description": "When enabled, the toolbar is displayed",
-        "moreOptions": "More Options",
-        "moreOptionsDescription": "You can control which icons appear on the toolbar.",
-        "moreOptionsHideLabel": "Hide toolbar icon labels",
+        "configure": "Configure",
+        "configureDesc": "Configure toolbar",
+        "enabledNavs": "Enabled navigations",
+        "disabledNavs": "Available disabled navigations",
+        "showLabel": "Show labels",
+        "close": "Close",
+        "save": "Save",
+        "left": "Left",
+        "right": "Right",
+        "newTab": "New tab",
+        "tabGoBack": "Back",
+        "tabGoForward": "Forward",
+        "tabRefresh": "Reload",
+        "scrollToActiveTab": "Scroll to active tab",
+        "muteAllTabs": "Mute all tabs",
+        "collapseAll": "Collapse all",
+        "createSnapshot": "Create snapshot",
+        "themeModes": "Theme modes",
+        "viewModes": "View modes",
+        "showBy": "Show by",
+        "sortBy": "Sort by",
+        "switchPIP": "Toggle picture-in-picture",
+        "clearTabs": "Clear tabs"
+      },
+      "clearTabsBtn": {
+        "label": "Show clear tabs button",
+        "description": "When enabled, the clear tabs button is displayed",
+        "configure": "configure",
+        "configureDesc": "You can control the behavior when clearing tabs",
         "close": "Close",
         "options": {
-          "toolbar_newtab": "New Tab",
-          "toolbar_orderby": "Order By",
-          "toolbar_showby": "Show By",
-          "toolbar_view": "view",
-          "toolbar_colorMode": "Color mode",
-          "toolbar_muteAllTabs": "Mute All Tabs Making Sounds",
-          "toolbar_scrollToActiveTab": "Scroll to Active Tab"
-        }
+          "createSnapshot": "Create snapshot before clearing",
+          "closeInactiveTabs": "Close inactive tabs",
+          "closeDiscardTabs": "Close discarded tabs",
+          "skipSoundTabs": "Skip tabs playing sound",
+          "skipCurrentTab": "Skip current tab",
+          "confirm": "Show confirmation dialog"
+        },
+        "confirmClearTabs": "Clear Tabs",
+        "confirmClearTabsMessage": "Are you sure you want to clear these tabs? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
       },
       "tabNav": {
         "label": "Show Tab navigation bar",
@@ -137,6 +166,7 @@
         "createTabPanel": "Create Tab Panel",
         "tabPanels": "Tab Panels",
         "switchPIP": "Switch Picture-in-Picture",
+        "clearTabs": "Clear Tabs",
         "pinToToolbarReminder": "Please pin the extension to your toolbar before removing this navigation."
       },
       "buttonPosition": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "Enable Continuous Playback",
         "description": "Continuous playback: The Picture-in-Picture window does not close and automatically plays the next episode after the video ends. This feature requires website support."
+      },
+      "advancedPipShowTitle": {
+        "label": "Show Title in Advanced Picture-in-Picture Player",
+        "description": "When enabled, the page title will be displayed in the Advanced Picture-in-Picture player"
       }
     },
     "userActivitionAlert": {
@@ -811,47 +845,111 @@
         "exportFailed": "Export failed"
       }
     },
-    "SyncToCloud": {
-      "label": "Sync to cloud",
-      "SyncNow": "Sync Now",
-      "SyncNowWithGoogleDrive": "Sync Now with Google Drive",
-      "SyncNowWithDropbox": "Sync Now with Dropbox",
-      "SyncNowWithOneDrive": "Sync Now with OneDrive",
-      "Synchronizing": "Synchronizing...",
-      "SyncedSuccessfully": "Synchronized successfully",
-      "SyncFailed": "Synchronization failed",
-      "LoginRequired": "Login required",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Sync configs",
-        "description": "Choose how to synchronize this extension's configurations.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "Stay synchronized"
+    "syncToCloud": {
+      "title": "Sync Settings",
+      "setLocalPasswordTitle": "Set Local Password",
+      "setLocalPasswordDescription": "To encrypt and protect your sync data, please set an encryption password. This password will not be transmitted to us. You must set the same password on other browsers to sync. Make sure to remember it.",
+      "passwordError": "Password must be at least 6 characters long and contain both numbers and letters",
+      "save": "Save and Continue",
+      "cancel": "Cancel",
+      "doNotUseLocalPassword": "Use default encryption",
+      "changeLocalPassword": "Change local password",
+      "changeLocalPasswordDesc": "Resetting the local password will invalidate previously synced data. This password is used to encrypt and protect your sync data. The password will not be transmitted to us. You must set the same password on other browsers to sync. Please set it carefully!",
+      "deviceName": "Device Name",
+      "deviceNameDescription": "Set an easily recognizable name for this device to distinguish it during multi-device sync",
+      "deviceId": "Device ID",
+      "syncNow": "Sync Now",
+      "lastSyncTime": "Last Sync Time",
+      "uploadStatus": "Upload Status",
+      "downloadStatus": "Download Status",
+      "notSynced": "Not Synced",
+      "success": "Success",
+      "failed": "Failed",
+      "mode": {
+        "title": "Sync Mode",
+        "description": "Choose how data is synced between devices",
+        "modes": {
+          "disabled": "Disabled",
+          "uploadOnly": "Upload Only",
+          "downloadOnly": "Download Only",
+          "staySynchronized": "Stay Synchronized"
+        }
       },
-      "SyncTabs": {
-        "label": "Sync tabs",
-        "description": "Choose how to sync tab data, excluding private data such as cookies and personal information.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "Stay synchronized"
+      "providers": {
+        "title": "Sync Providers",
+        "description": "Select and configure the service providers for data sync",
+        "defaultProvider": "Default Sync Provider",
+        "close": "Close",
+        "save": "Save",
+        "configure": "Configure",
+        "authorize": "Authorize",
+        "providers": {
+          "custom": {
+            "title": "Cloud Service",
+            "enabled": "Enabled"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Open or close tabs synchronously",
-        "description": "When enabled, opening or closing tabs in different browsers will be synchronized. This only applies when the 'stay synchronized' option is active",
-        "OpenOrCloseTabsSynchronouslyWarning": "If you log in to the same account in two browsers at the same time and turn this option on, opening or closing tabs in one browser will perform the same operation in the other browser. If the website prohibits repeated logins with the same account, exceptions may occur."
+      "dataOptions": {
+        "title": "Data Sync Options",
+        "description": "Select the types of data to sync",
+        "openedTabs": {
+          "title": "Opened Tabs",
+          "enabled": "Sync Opened Tabs"
+        },
+        "settings": {
+          "title": "Settings",
+          "enabled": "Sync Settings"
+        },
+        "siteConfigs": {
+          "title": "Site Configurations",
+          "enabled": "Sync Site Configurations"
+        },
+        "quickAccess": {
+          "title": "Quick Access",
+          "enabled": "Sync Quick Access"
+        },
+        "recentClosedTabs": {
+          "title": "Recently Closed Tabs",
+          "enabled": "Sync Recently Closed Tabs"
+        },
+        "windowTabs": {
+          "title": "Windows, Tab Groups, and Tabs",
+          "enabled": "Sync Tab History",
+          "close": "Close",
+          "save": "Save",
+          "syncAfterAction": "Action After Sync",
+          "syncAfterActionTitle": "Choose how to handle after sync",
+          "applyModes": {
+            "append": {
+              "title": "Append Mode",
+              "description": "If the current window has fewer than 5 tabs, the synced tabs will be added to the end of the current window. If multiple windows are synced, the tabs from the first window will be merged into the current window, and other windows will be created as separate new windows."
+            },
+            "new": {
+              "title": "New Window",
+              "description": "Open the synced tabs in a new window, keeping the existing tabs unchanged"
+            },
+            "replace": {
+              "title": "Replace Mode",
+              "description": "Close existing tabs and open the synced tabs in a new window"
+            },
+            "createSnapshot": {
+              "title": "Create Snapshot",
+              "description": "Save the synced tabs as a new snapshot"
+            }
+          },
+          "moreOptions": "Advanced Options",
+          "optionsTitle": "Tab Sync Settings",
+          "skipLastWindow": "Do Not Sync When Last Window Closes",
+          "skipLastWindowDescription": "Pause sync when the last window is closed to allow recovery of recent tabs on other devices. If this option is disabled, sync will execute immediately, and other devices will not be able to recover these tabs.",
+          "debounceMs": "Sync Delay",
+          "debounceMsDescription": "Set how many seconds to wait after a tab change before syncing to avoid too frequent sync operations"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Sync private data",
-        "description": "Choose how to synchronize private data, such as website cookies, web page localstorage data, SessionStorage data, etc. Data will be encrypted before synchronization.",
-        "disabled": "Disabled",
-        "uploadOnly": "Upload only",
-        "downloadOnly": "Download only",
-        "staySynchronized": "Stay synchronized"
+      "globalTriggers": {
+        "title": "Global Sync Triggers",
+        "description": "Configure when to trigger global sync operations",
+        "onStartup": "When the browser starts for the first time"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Built-in PDF viewer pages",
         "newTabPage": "New Tab pages (starting with chrome://newtab/ or edge://newtab/ or similar)"
       }
+    },
+    "general": {
+      "title": "General",
+      "description": "",
+      "accountInfo": {
+        "label": "Account Information",
+        "currentPlan": "Current Plan",
+        "subscribePremium": "Subscribe to Premium",
+        "manageAccount": "Manage Account",
+        "logout": "Log Out",
+        "notLoggedIn": "Not Logged In",
+        "signIn": "Sign In",
+        "free": "Free",
+        "premium": "Premium",
+        "premiumEndsAt": "Your Premium plan will end on {{date}}",
+        "trialEndsAt": "Your Premium trial will end on {{date}}",
+        "signInForPremium": "Sign in to get Premium",
+        "trialEndsAndMembershipStarts": "Your trial period will end on {{date}}. After the trial ends, your official membership will automatically take effect, and all benefits will remain unchanged.",
+        "lifetimeMembership": "Lifetime Membership",
+        "manageSubscription": "Manage Subscription"
+      }
     }
   },
   "snapshots": {
@@ -896,6 +1015,7 @@
     "createSnapshot": "Create Snapshot",
     "exportSnapshot": "Export Snapshot",
     "restoreWindowSize": "Restore window position and size",
+    "restoreGroups": "Restore Groups",
     "openAllWindows": "Open All Windows",
     "openSelectedInNewWindow": "Open Selected In New Window",
     "openSelectedInCurrentWindow": "Open Selected In Current Window",

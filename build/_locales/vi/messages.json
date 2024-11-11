@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "Làm mới đếm ngược"
+  },
+  "premium_feature_trial": {
+    "message": "Bạn đang dùng thử các tính năng Premium"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Thời gian dùng thử tính năng Hình trong Hình nâng cao đã kết thúc. Đã chuyển sang chế độ Hình trong Hình tiêu chuẩn. Để tiếp tục sử dụng các tính năng Hình trong Hình nâng cao, vui lòng nâng cấp lên Premium."
+  },
+  "do_not_show_again": {
+    "message": "Không hiển thị lại"
+  },
+  "upgrade_to_premium": {
+    "message": "Nâng cấp lên Premium"
   }
 }

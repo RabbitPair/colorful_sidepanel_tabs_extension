@@ -6,7 +6,7 @@
     "message": "VertiTab"
   },
   "appDescription": {
-    "message": "カスタマイズ可能で美しい縦型タブ。サイドパネルで効率的にブラウザタブを管理し、多彩な機能を活用"
+    "message": "カスタマイズ可能で美しい縦型タブ。サイドパネルで効率的にブラウザタブを管理し、多彩な機能を活用できます。"
   },
   "openSidePanel": {
     "message": "サイドパネルを開く"
@@ -30,7 +30,7 @@
     "message": "ビデオと映画"
   },
   "group_liveStreaming": {
-    "message": "ライブとストリーミング"
+    "message": "ライブストリーミング"
   },
   "group_entertainmentGames": {
     "message": "ゲームとエンターテイメント"
@@ -171,7 +171,7 @@
     "message": "弾幕を表示/非表示"
   },
   "shortcut_toggle_fullscreen": {
-    "message": "全画面表示を切り替え"
+    "message": "全画面表示を切り替える"
   },
   "shortcut_playback_speed": {
     "message": "再生速度を調整"
@@ -225,10 +225,10 @@
     "message": "ビデオを再読み込み"
   },
   "loading_pip_config": {
-    "message": "ドキュメントのピクチャーインピクチャー設定を読み込み中..."
+    "message": "ピクチャーインピクチャー設定を読み込み中..."
   },
   "playing_in_pip_mode": {
-    "message": "ドキュメントのピクチャーインピクチャーモードで再生中"
+    "message": "ピクチャーインピクチャーモードで再生中"
   },
   "detecting_pip_subtitle_settings": {
     "message": "ピクチャーインピクチャーの字幕設定を検出中..."
@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "カウントダウンリフレッシュ"
+  },
+  "premium_feature_trial": {
+    "message": "プレミアム機能を試用中です"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "高度なピクチャーインピクチャーの試用期間が終了しました。標準のピクチャーインピクチャーモードに切り替わりました。高度なピクチャーインピクチャー機能を引き続き使用するには、プレミアムにアップグレードしてください。"
+  },
+  "do_not_show_again": {
+    "message": "今後表示しない"
+  },
+  "upgrade_to_premium": {
+    "message": "プレミアムにアップグレード"
   }
 }

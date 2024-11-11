@@ -116,6 +116,7 @@
   "Donation": "Quyên Góp",
   "EarlyBirdDiscount": "Giảm Giá Sớm",
   "SortTabsByDomain": "Sắp Xếp Thẻ Theo Miền",
+  "sortTabsByUrl": "Sắp Xếp Thẻ Theo URL",
   "CurrentActiveTab": "Thẻ Đang Hoạt Động Hiện Tại",
   "ScrollToActiveTab": "Cuộn Đến Thẻ Đang Hoạt Động",
   "MuteAllTabsMakingSounds": "Tắt Âm Tất Cả Thẻ Đang Phát Âm Thanh",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Cập nhật tiêu đề trang",
   "ExactMatch": "Khớp chính xác",
   "ContainsMatch": "Khớp chứa",
-  "RenameTitle": "Đổi tên tiêu đề"
+  "RenameTitle": "Đổi tên tiêu đề",
+  "premium_feature_required": "Đây là tính năng cao cấp, bạn cần nâng cấp lên Phiên bản Cao cấp để sử dụng",
+  "premium_feature": "Tính năng Cao cấp",
+  "upgrade_to_premium": "Nâng cấp lên Cao cấp",
+  "login_required": "Yêu cầu Đăng nhập",
+  "login": "Đăng nhập"
 }

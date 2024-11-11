@@ -21,7 +21,7 @@
       "header": "外观",
       "language": {
         "label": "界面语言",
-        "description": "设置界面显示语言"
+        "description": "设置界面显示的语言"
       },
       "theme": {
         "label": "颜色模式",
@@ -29,7 +29,7 @@
       },
       "rtl": {
         "label": "RTL",
-        "description": "启用后，界面将从右到左显示文本方向"
+        "description": "启用后，界面将从右到左显示文本"
       },
       "fontSize": {
         "label": "字体大小",
@@ -58,8 +58,8 @@
       },
       "SidePanelPosition": {
         "label": "侧边栏位置",
-        "description": "设置侧边栏显示在左侧或右侧。",
-        "goToBrowserSettings": "前往设置"
+        "description": "设置侧边栏显示在左侧或右侧",
+        "goToBrowserSettings": "前往浏览器设置"
       },
       "searchBoxPosition": {
         "label": "搜索框位置",
@@ -70,20 +70,49 @@
       },
       "toolbar": {
         "label": "显示工具栏",
-        "description": "启用后，显示工具栏",
-        "moreOptions": "更多选项",
-        "moreOptionsDescription": "您可以控制工具栏上显示的图标。",
-        "moreOptionsHideLabel": "隐藏工具栏图标标签",
+        "description": "启用后，工具栏将会显示",
+        "configure": "配置",
+        "configureDesc": "配置工具栏",
+        "enabledNavs": "已启用的导航",
+        "disabledNavs": "可用的未启用导航",
+        "showLabel": "显示标签",
+        "close": "关闭",
+        "save": "保存",
+        "left": "左侧",
+        "right": "右侧",
+        "newTab": "新标签页",
+        "tabGoBack": "后退",
+        "tabGoForward": "前进",
+        "tabRefresh": "重新加载",
+        "scrollToActiveTab": "滚动到当前标签页",
+        "muteAllTabs": "静音所有标签页",
+        "collapseAll": "全部折叠",
+        "createSnapshot": "创建快照",
+        "themeModes": "主题模式",
+        "viewModes": "视图模式",
+        "showBy": "显示方式",
+        "sortBy": "排序方式",
+        "switchPIP": "切换画中画",
+        "clearTabs": "清除标签页"
+      },
+      "clearTabsBtn": {
+        "label": "显示清除标签页按钮",
+        "description": "启用后，将显示清除标签页按钮",
+        "configure": "配置",
+        "configureDesc": "您可以控制清除标签页时的行为",
         "close": "关闭",
         "options": {
-          "toolbar_newtab": "新标签页",
-          "toolbar_orderby": "排序方式",
-          "toolbar_showby": "显示方式",
-          "toolbar_view": "视图",
-          "toolbar_colorMode": "颜色模式",
-          "toolbar_muteAllTabs": "静音所有发声标签页",
-          "toolbar_scrollToActiveTab": "滚动到活动标签页"
-        }
+          "createSnapshot": "清除前创建快照",
+          "closeInactiveTabs": "关闭非活动标签页",
+          "closeDiscardTabs": "关闭已丢弃的标签页",
+          "skipSoundTabs": "跳过正在播放声音的标签页",
+          "skipCurrentTab": "跳过当前标签页",
+          "confirm": "显示确认对话框"
+        },
+        "confirmClearTabs": "清除标签页",
+        "confirmClearTabsMessage": "您确定要清除这些标签页吗？此操作无法撤消。",
+        "cancel": "取消",
+        "confirm": "确认"
       },
       "tabNav": {
         "label": "显示标签导航栏",
@@ -104,7 +133,7 @@
         "history": "历史记录",
         "readingList": "阅读清单",
         "quickAccess": "快速访问",
-        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航。"
+        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航"
       },
       "bottomNav": {
         "label": "显示底部导航栏",
@@ -137,7 +166,8 @@
         "createTabPanel": "创建标签面板",
         "tabPanels": "标签面板",
         "switchPIP": "切换画中画",
-        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航。"
+        "clearTabs": "清除标签页",
+        "pinToToolbarReminder": "请将扩展程序固定到工具栏后再移除此导航"
       },
       "buttonPosition": {
         "label": "按钮位置",
@@ -151,7 +181,7 @@
       },
       "fullScreenHideSidePanel": {
         "label": "全屏时隐藏侧边栏",
-        "description": "启用后，页面全屏时侧边栏将自动隐藏。由于浏览器的限制，侧边栏无法自动重新打开。您需要手动重新打开侧边栏！"
+        "description": "启用后，页面全屏时侧边栏将自动隐藏。由于浏览器的限制，侧边栏无法自动重新打开。您需要手动重新打开侧边栏"
       }
     },
     "beautify": {
@@ -161,7 +191,7 @@
       },
       "backgroundPicture": {
         "label": "背景图片",
-        "description": "点击[+]添加自定义图片，点击[-]删除自定义图片。您可以在以下网站找到您喜欢的图片。",
+        "description": "点击[+]添加自定义图片，点击[-]删除自定义图片。您可以在以下网站找到您喜欢的图片",
         "dialogDescription": "输入图片地址",
         "OK": "确定",
         "Cancel": "取消",
@@ -174,14 +204,14 @@
       },
       "backgroundColor": {
         "label": "背景颜色",
-        "description": "选择界面的背景颜色。",
-        "backgroundImageConfigured": "已配置背景图片。",
+        "description": "选择界面的背景颜色",
+        "backgroundImageConfigured": "已配置背景图片",
         "random": "随机",
         "clear": "清除"
       },
       "backgroundGradient": {
         "label": "背景渐变",
-        "description": "启用后，当前背景颜色将用于渐变效果。您还可以使用滑块调整渐变角度。"
+        "description": "启用后，当前背景颜色将用于渐变效果。您还可以使用滑块调整渐变角度"
       },
       "backgroundImageTransparency": {
         "label": "图片透明度",
@@ -228,7 +258,7 @@
       "fluentOverlayScrollbars": {
         "label": "Fluent 滚动条",
         "description": "使用 Microsoft Fluent 设计风格化滚动条并使其覆盖在网页内容上",
-        "goToBrowserSettings": "前往设置"
+        "goToBrowserSettings": "前往浏览器设置"
       }
     },
     "tabs": {
@@ -291,7 +321,7 @@
       },
       "previewDelay": {
         "label": "预览延迟",
-        "description": "设置悬停在标签页上等时标签页预览的延迟时间（秒）。如果设置为0，则没有延迟",
+        "description": "设置悬停在标签页上时显示标签页预览的延迟时间（秒）。如果设置为0，则没有延迟",
         "seconds": "秒"
       },
       "showTabIndex": {
@@ -427,6 +457,10 @@
       "continuousPlayback": {
         "label": "启用连续播放",
         "description": "连续播放：画中画窗口不会关闭，并在视频结束后自动播放下一集。此功能需要网站支持。"
+      },
+      "advancedPipShowTitle": {
+        "label": "在高级画中画播放器中显示标题",
+        "description": "启用后，页面标题将显示在高级画中画播放器中"
       }
     },
     "userActivitionAlert": {
@@ -443,19 +477,19 @@
       "label": "高级标签组",
       "customGroupNames": {
         "label": "自定义组名",
-        "description": "您可以在此处添加一些预定义的组，以便在需要将标签页添加到组时快速选择它们。我们已经预设了一些组名，您可以根据需要进行修改或删除。",
+        "description": "您可以在此处添加一些预定义的组名，以便在需要将标签页添加到组时快速选择。我们已经预设了一些组名，您可以根据需要进行修改或删除。",
         "ManageGroupNames": "管理组名",
         "CustomGroupNames": "自定义组名",
         "ConfirmDelete": "确认删除",
-        "ConfirmDeleteMsg": "您确定要删除此名称吗？",
-        "AddNewName": "添加新名称",
+        "ConfirmDeleteMsg": "您确定要删除此组名吗？",
+        "AddNewName": "添加新组名",
         "Cancel": "取消",
         "Delete": "删除",
         "Close": "关闭"
       },
       "customGroupRemember": {
         "label": "记住站点分组",
-        "description": "启用后，如果将站点添加到自定义组，下次打开该站点时将自动使用此组"
+        "description": "启用后，如果将站点添加到自定义组，下次打开该站点时将自动使用此组。"
       },
       "autoActivateTabGrouping": {
         "label": "自动激活标签分组",
@@ -490,7 +524,7 @@
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "自动创建或加入同域名分组",
-        "description": "启用后,新打开的标签页会自动加入到相同域名分组,如果域名分组不存在则会创建一个新的域名分组",
+        "description": "启用后，新打开的标签页会自动加入到相同域名分组，如果域名分组不存在则会创建一个新的域名分组",
         "enabled": "启用",
         "disabled": "禁用"
       },
@@ -555,7 +589,7 @@
       },
       "disableAnimations": {
         "label": "禁用动画",
-        "description": "禁用涟漪效果并禁用所有过渡"
+        "description": "禁用涟漪效果并禁用所有过渡动画"
       }
     },
     "site": {
@@ -641,11 +675,11 @@
       },
       "linkOpenOptions": {
         "label": "链接打开设置",
-        "description": "设置此站点上的链接打开方式",
+        "description": "设置此站点上的链接打开方式。",
         "configure": "配置",
-        "listTips": "拖动以重新排序。顶部规则优先应用。",
-        "linkMatchContent": "链接模式",
-        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示一个字符。支持正则表达式。",
+        "listTips": "拖动以重新排序。优先级高的规则会优先应用。",
+        "linkMatchContent": "链接匹配模式",
+        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示单个字符。支持正则表达式。",
         "linkOpenMethod": "打开方式",
         "edit": "编辑",
         "delete": "删除",
@@ -663,17 +697,17 @@
       },
       "linkRefreshOptions": {
         "label": "自动刷新链接",
-        "description": "设置特定链接的自动刷新",
+        "description": "设置特定链接的自动刷新。",
         "configure": "配置",
-        "listTips": "拖动以重新排序。仅应用第一个匹配规则。",
-        "linkMatchContent": "链接模式",
-        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示一个字符。支持正则表达式。",
+        "listTips": "拖动以重新排序。仅应用第一个匹配的规则。",
+        "linkMatchContent": "链接匹配模式",
+        "linkMatchContentTips": "使用'*'表示任意字符，'?'表示单个字符。支持正则表达式。",
         "edit": "编辑",
         "delete": "删除",
         "save": "保存",
         "close": "关闭",
         "refreshInterval": "刷新间隔（分钟）",
-        "disabled": "关闭"
+        "disabled": "禁用"
       },
       "pageKeepAlive": {
         "label": "保持页面活跃",
@@ -683,7 +717,7 @@
         "label": "隐私浏览",
         "description": "每次访问后清除选定的站点数据。使用“配置”选择要清除的内容。可能会影响您的浏览体验。",
         "configure": "配置",
-        "configureDescription": "请选择要清除的功能",
+        "configureDescription": "请选择要清除的内容",
         "cache": "缓存",
         "cacheStorage": "缓存存储",
         "cookies": "Cookie",
@@ -691,7 +725,7 @@
         "history": "历史记录",
         "indexedDB": "IndexedDB",
         "localStorage": "本地存储",
-        "serviceWorkers": "服务工作者",
+        "serviceWorkers": "Service Workers",
         "webSQL": "Web SQL",
         "cookieWarning": "警告：删除Cookie会影响所有子域，并可能导致您退出登录。",
         "warningTitle": "警告",
@@ -703,7 +737,7 @@
       "autoJoinGroup": {
         "label": "自动加入组",
         "description": "自动加入或创建此站点的组。",
-        "configure": "设置",
+        "configure": "配置",
         "groupName": "组名",
         "save": "保存"
       },
@@ -741,7 +775,7 @@
       "title": "快速访问",
       "enableQuickAccess": {
         "label": "显示快速访问",
-        "description": "您可以将标签页设置为显示在快速访问中，以便于查找。只需右键单击（或长按）它并选择“固定到快速访问”。要删除它，请右键单击（或长按）它并选择“从快速访问中删除”。与固定标签页不同，快速访问保存URL并在每次点击时打开新标签页。"
+        "description": "您可以将标签页设置为显示在快速访问中，方便查找。只需右键单击（或长按）它并选择“固定到快速访问”。要删除它，请右键单击（或长按）它并选择“从快速访问中删除”。与固定标签页不同，快速访问保存URL并在每次点击时打开新标签页。"
       },
       "quickAccessVerticalSpacing": {
         "label": "垂直间距",
@@ -811,48 +845,111 @@
         "exportFailed": "导出失败"
       }
     },
-    "SyncToCloud": {
-      "label": "同步到云端",
-      "SyncNow": "立即同步",
-      "SyncNowWithGoogleDrive": "使用Google Drive立即同步",
-      "SyncNowWithDropbox": "使用Dropbox立即同步",
-      "SyncNowWithOneDrive": "使用OneDrive立即同步",
-      "Synchronizing": "正在同步...",
-      "SyncedSuccessfully": "同步成功",
-      "SyncFailed": "同步失败",
-      "LoginRequired": "需要登录",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "同步配置",
-        "description": "选择如何同步此扩展的配置。",
-        "disabled": "禁用",
-        "uploadOnly": "仅上传",
-        "downloadOnly": "仅下载",
-        "staySynchronized": "保持同步"
+    "syncToCloud": {
+      "title": "同步设置",
+      "setLocalPasswordTitle": "设置本地密码",
+      "setLocalPasswordDescription": "为了加密并保护您的同步数据,请设置加密密码。此密码为了加密并保护您的同步数据，密码不会传送给我们。在其他浏览器必须设置相同密码才可以同步。务必要记好。",
+      "passwordError": "密码必须不小于6位，包含数字和字母",
+      "save": "保存并继续",
+      "cancel": "取消",
+      "doNotUseLocalPassword": "使用默认加密",
+      "changeLocalPassword": "更改本地密码",
+      "changeLocalPasswordDesc": "重置本地密码将使先前同步的数据无效。此密码用于加密和保护您的同步数据。密码不会传送给我们。您必须在其他浏览器上设置相同的密码以进行同步。请谨慎设置！",
+      "deviceName": "设备名称",
+      "deviceNameDescription": "为此设备设置一个易于识别的名称，方便在多设备同步时区分",
+      "deviceId": "设备ID",
+      "syncNow": "立即同步",
+      "lastSyncTime": "上次同步时间",
+      "uploadStatus": "上传状态",
+      "downloadStatus": "下载状态",
+      "notSynced": "未同步",
+      "success": "成功",
+      "failed": "失败",
+      "mode": {
+        "title": "同步模式",
+        "description": "选择数据如何在设备之间同步",
+        "modes": {
+          "disabled": "已禁用",
+          "uploadOnly": "仅上传",
+          "downloadOnly": "仅下载",
+          "staySynchronized": "保持同步"
+        }
       },
-      "SyncTabs": {
-        "label": "同步标签页",
-        "description": "选择如何同步标签页数据，不包括私人数据，如Cookie和个人信息。",
-        "disabled": "禁用",
-        "uploadOnly": "仅上传",
-        "downloadOnly": "仅下载",
-        "staySynchronized": "保持同步"
+      "providers": {
+        "title": "同步提供商",
+        "description": "选择和配置用于同步数据的服务提供商",
+        "defaultProvider": "默认同步提供商",
+        "close": "关闭",
+        "save": "保存",
+        "configure": "配置",
+        "authorize": "授权",
+        "providers": {
+          "custom": {
+            "title": "云服务",
+            "enabled": "启用"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "同步打开或关闭标签页",
-        "description": "启用后，在不同浏览器中打开或关闭标签页将被同步。这仅在“保持同步”选项激活时适用",
-        "OpenOrCloseTabsSynchronouslyWarning": "如果您在两个浏览器中同时登录同一帐户并打开此选项，在一个浏览器中打开或关闭标签页将在另一个浏览器中执行相同操作。如果网站禁止使用同一帐户重复登录，可能会发生异常。"
+      "dataOptions": {
+        "title": "数据同步选项",
+        "description": "选择需要同步的数据类型",
+        "openedTabs": {
+          "title": "打开的标签页",
+          "enabled": "同步打开的标签页"
+        },
+        "settings": {
+          "title": "设置",
+          "enabled": "同步设置"
+        },
+        "siteConfigs": {
+          "title": "站点配置",
+          "enabled": "同步站点配置"
+        },
+        "quickAccess": {
+          "title": "快速访问",
+          "enabled": "同步快速访问"
+        },
+        "recentClosedTabs": {
+          "title": "最近关闭的标签页",
+          "enabled": "同步最近关闭的标签页"
+        },
+        "windowTabs": {
+          "title": "窗口、标签组和标签页",
+          "enabled": "同步标签页历史记录",
+          "close": "关闭",
+          "save": "保存",
+          "syncAfterAction": "同步后的操作",
+          "syncAfterActionTitle": "选择同步完成后的处理方式",
+          "applyModes": {
+            "append": {
+              "title": "追加模式",
+              "description": "当前窗口标签页数量少于5个时，同步的标签页将添加到当前窗口末尾。如果同步了多个窗口，第一个窗口的标签页会合并到当前窗口，其他窗口则会创建为独立的新窗口"
+            },
+            "new": {
+              "title": "新建窗口",
+              "description": "在新窗口中打开同步的标签页，保留现有标签页不变"
+            },
+            "replace": {
+              "title": "替换模式",
+              "description": "关闭现有标签页，在新窗口中打开同步的标签页"
+            },
+            "createSnapshot": {
+              "title": "创建快照",
+              "description": "将同步的标签页保存为一个新的快照"
+            }
+          },
+          "moreOptions": "高级选项",
+          "optionsTitle": "标签页同步设置",
+          "skipLastWindow": "最后一个窗口关闭时不同步",
+          "skipLastWindowDescription": "关闭最后一个窗口时暂停同步，以便在其他设备上恢复最近的标签页。如果禁用此选项，同步会立即执行，其他设备将无法恢复这些标签页。",
+          "debounceMs": "同步延迟",
+          "debounceMsDescription": "设置标签页变更后等待多少秒再进行同步，避免过于频繁的同步操作"
+        }
       },
-      "SyncPrivateData": {
-        "label": "同步私人数据",
-        "description": "选择如何同步私人数据，如网站Cookie、网页本地存储数据、SessionStorage数据等。数据将在同步前加密。",
-        "disabled": "禁用",
-        "uploadOnly": "仅上传",
-        "downloadOnly": "仅下载",
-        "staySynchronized": "保持同步",
-        "globaldisabledTips": "您必须在全局设置中打开同步才能修改此设置。"
+      "globalTriggers": {
+        "title": "全部同步触发器",
+        "description": "配置何时触发全部同步操作",
+        "onStartup": "浏览器首次启动时"
       }
     },
     "alerts": {
@@ -889,17 +986,39 @@
         "pdfViewer": "浏览器内置的PDF查看器页面",
         "newTabPage": "新标签页（网址以chrome://newtab/、edge://newtab/或类似格式开头）"
       }
+    },
+    "general": {
+      "title": "通用",
+      "description": "",
+      "accountInfo": {
+        "label": "账户信息",
+        "currentPlan": "当前计划",
+        "subscribePremium": "订阅高级版",
+        "manageAccount": "管理账户",
+        "logout": "退出登录",
+        "notLoggedIn": "未登录",
+        "signIn": "登录",
+        "free": "免费",
+        "premium": "高级版",
+        "premiumEndsAt": "您的高级版将于{{date}}结束",
+        "trialEndsAt": "您的高级版试用将于{{date}}结束",
+        "signInForPremium": "登录以获取高级版",
+        "trialEndsAndMembershipStarts": "您的试用期将于 {{date}} 结束。试用期结束后，您的正式会员资格将自动生效，所有权益将保持不变。",
+        "lifetimeMembership": "终身会员",
+        "manageSubscription": "管理订阅"
+      }
     }
   },
   "snapshots": {
-    "title": "快照查看器",
+    "title": "快照管理器",
     "description": "创建和管理快照。",
     "createSnapshot": "创建快照",
     "exportSnapshot": "导出快照",
     "restoreWindowSize": "恢复窗口位置和大小",
+    "restoreGroups": "恢复分组",
     "openAllWindows": "打开所有窗口",
-    "openSelectedInNewWindow": "在新窗口中打开选定项",
-    "openSelectedInCurrentWindow": "在当前窗口中打开选定项",
+    "openSelectedInNewWindow": "在新窗口中打开选中项",
+    "openSelectedInCurrentWindow": "在当前窗口中打开选中项",
     "windowCount": "{{count}} 个窗口",
     "tabCount": "{{count}} 个标签页",
     "Window": "窗口",
@@ -912,7 +1031,7 @@
     "snapshotDeletedFailed": "快照删除失败",
     "importSnapshot": "导入快照",
     "snapshotImportFailedDuplicate": "快照导入失败，存在重复快照",
-    "snapshotImportedSuccess": "{{count}} 快照导入成功",
-    "snapshotImportFailed": "{{count}} 快照导入失败 {{error}}"
+    "snapshotImportedSuccess": "{{count}} 个快照导入成功",
+    "snapshotImportFailed": "{{count}} 个快照导入失败，错误：{{error}}"
   }
 }

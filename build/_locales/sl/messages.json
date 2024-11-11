@@ -263,5 +263,17 @@
   },
   "countdown_refresh": {
     "message": "osvežitev odštevanja"
+  },
+  "premium_feature_trial": {
+    "message": "Preizkušate Premium funkcije"
+  },
+  "advanced_pip_trial_expired": {
+    "message": "Preizkusno obdobje napredne slike v sliki se je končalo. Preklopljeno na standardni način slike v sliki. Za nadaljnjo uporabo naprednih funkcij slike v sliki nadgradite na Premium."
+  },
+  "do_not_show_again": {
+    "message": "Ne prikaži več"
+  },
+  "upgrade_to_premium": {
+    "message": "Nadgradi na Premium"
   }
 }

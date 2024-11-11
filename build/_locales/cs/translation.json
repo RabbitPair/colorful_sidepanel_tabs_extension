@@ -116,6 +116,7 @@
   "Donation": "Dar",
   "EarlyBirdDiscount": "Sleva pro předplatitele",
   "SortTabsByDomain": "Seřadit karty podle domény",
+  "sortTabsByUrl": "Seřadit karty podle URL",
   "CurrentActiveTab": "Aktuální aktivní karta",
   "ScrollToActiveTab": "Přejít na aktivní kartu",
   "MuteAllTabsMakingSounds": "Ztlumit všechny karty vydávající zvuky",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Aktualizovat název stránky",
   "ExactMatch": "Přesná shoda",
   "ContainsMatch": "Obsahuje shodu",
-  "RenameTitle": "Přejmenovat název"
+  "RenameTitle": "Přejmenovat název",
+  "premium_feature_required": "Toto je prémiová funkce, pro její použití musíte upgradovat na Premium edici",
+  "premium_feature": "Prémiová funkce",
+  "upgrade_to_premium": "Upgradovat na Premium",
+  "login_required": "Vyžadováno přihlášení",
+  "login": "Přihlásit se"
 }

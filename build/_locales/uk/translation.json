@@ -116,6 +116,7 @@
   "Donation": "Пожертва",
   "EarlyBirdDiscount": "Знижка раннього птаха",
   "SortTabsByDomain": "Сортувати вкладки за доменом",
+  "sortTabsByUrl": "Сортувати вкладки за URL",
   "CurrentActiveTab": "Поточна активна вкладка",
   "ScrollToActiveTab": "Прокрутити до активної вкладки",
   "MuteAllTabsMakingSounds": "Вимкнути звук у всіх вкладках, що відтворюють звук",
@@ -260,5 +261,10 @@
   "UpdatePageTitle": "Оновити назву сторінки",
   "ExactMatch": "Точний збіг",
   "ContainsMatch": "Містить збіг",
-  "RenameTitle": "Перейменувати назву"
+  "RenameTitle": "Перейменувати назву",
+  "premium_feature_required": "Це преміум-функція, для її використання необхідно оновитися до Преміум-версії",
+  "premium_feature": "Преміум-функція",
+  "upgrade_to_premium": "Оновити до Преміум",
+  "login_required": "Потрібен вхід",
+  "login": "Увійти"
 }

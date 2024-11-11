@@ -71,24 +71,53 @@
       "toolbar": {
         "label": "Symbolleiste anzeigen",
         "description": "Wenn aktiviert, wird die Symbolleiste angezeigt",
-        "moreOptions": "Weitere Optionen",
-        "moreOptionsDescription": "Sie können steuern, welche Symbole in der Symbolleiste angezeigt werden.",
-        "moreOptionsHideLabel": "Symbolleisten-Symbolbeschriftungen ausblenden",
+        "configure": "Konfigurieren",
+        "configureDesc": "Symbolleiste konfigurieren",
+        "enabledNavs": "Aktivierte Navigationen",
+        "disabledNavs": "Verfügbare deaktivierte Navigationen",
+        "showLabel": "Labels anzeigen",
+        "close": "Schließen",
+        "save": "Speichern",
+        "left": "Links",
+        "right": "Rechts",
+        "newTab": "Neuer Tab",
+        "tabGoBack": "Zurück",
+        "tabGoForward": "Vorwärts",
+        "tabRefresh": "Neu laden",
+        "scrollToActiveTab": "Zum aktiven Tab scrollen",
+        "muteAllTabs": "Alle Tabs stummschalten",
+        "collapseAll": "Alle einklappen",
+        "createSnapshot": "Schnappschuss erstellen",
+        "themeModes": "Design-Modi",
+        "viewModes": "Ansichtsmodi",
+        "showBy": "Anzeigen nach",
+        "sortBy": "Sortieren nach",
+        "switchPIP": "Bild-in-Bild umschalten",
+        "clearTabs": "Tabs löschen"
+      },
+      "clearTabsBtn": {
+        "label": "Schaltfläche zum Löschen von Tabs anzeigen",
+        "description": "Wenn aktiviert, wird die Schaltfläche zum Löschen von Tabs angezeigt",
+        "configure": "Konfigurieren",
+        "configureDesc": "Sie können das Verhalten beim Löschen von Tabs steuern",
         "close": "Schließen",
         "options": {
-          "toolbar_newtab": "Neuer Tab",
-          "toolbar_orderby": "Sortieren nach",
-          "toolbar_showby": "Anzeigen nach",
-          "toolbar_view": "Ansicht",
-          "toolbar_colorMode": "Farbmodus",
-          "toolbar_muteAllTabs": "Alle Tabs stummschalten, die Geräusche machen",
-          "toolbar_scrollToActiveTab": "Zum aktiven Tab scrollen"
-        }
+          "createSnapshot": "Schnappschuss vor dem Löschen erstellen",
+          "closeInactiveTabs": "Inaktive Tabs schließen",
+          "closeDiscardTabs": "Verworfene Tabs schließen",
+          "skipSoundTabs": "Tabs mit Ton überspringen",
+          "skipCurrentTab": "Aktuellen Tab überspringen",
+          "confirm": "Bestätigungsdialog anzeigen"
+        },
+        "confirmClearTabs": "Tabs löschen",
+        "confirmClearTabsMessage": "Sind Sie sicher, dass Sie diese Tabs löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
       },
       "tabNav": {
         "label": "Tab-Navigationsleiste anzeigen",
         "description": "Wenn aktiviert, wird die Tab-Navigationsleiste angezeigt",
-        "configure": "konfigurieren",
+        "configure": "Konfigurieren",
         "configureTabNav": "Tab-Navigation konfigurieren",
         "enabledNavs": "Aktivierte Navigationen",
         "disabledNavs": "Deaktivierte Navigationen (Verfügbar)",
@@ -137,6 +166,7 @@
         "createTabPanel": "Tab-Panel erstellen",
         "tabPanels": "Tab-Panels",
         "switchPIP": "Bild-in-Bild-Modus wechseln",
+        "clearTabs": "Tabs löschen",
         "pinToToolbarReminder": "Bitte heften Sie die Erweiterung an Ihre Symbolleiste, bevor Sie diese Navigation entfernen."
       },
       "buttonPosition": {
@@ -234,17 +264,17 @@
     "tabs": {
       "listView": {
         "label": "Listenansicht",
-        "description": "Listenansicht wechseln",
+        "description": "Zur Listenansicht wechseln",
         "compact": "Kompaktansicht",
         "visual": "Visuelle Ansicht"
       },
       "showBy": {
         "label": "Anzeigen nach",
-        "description": "Anzeigen nach wechseln"
+        "description": "Anzeigemodus wechseln"
       },
       "sortBy": {
         "label": "Sortieren nach",
-        "description": "Sortieren nach wechseln"
+        "description": "Sortiermodus wechseln"
       },
       "showFullUrl": {
         "label": "Vollständige URL anzeigen",
@@ -260,7 +290,7 @@
       },
       "pinToQuickAccess": {
         "label": "Schnellzugriff anzeigen",
-        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff angezeigt wird, damit er leicht zu finden ist. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie Zum Schnellzugriff anheften. Lösen Sie ihn, wenn Sie ihn dort nicht mehr benötigen, indem Sie mit der rechten Maustaste darauf klicken (oder lange drücken) und Von Schnellzugriff löschen auswählen. Der Unterschied zu angehefteten Tabs besteht darin, dass der Schnellzugriff die URL speichert und jedes Mal, wenn darauf geklickt wird, einen neuen Tab öffnet."
+        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff angezeigt wird, damit er leicht zu finden ist. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'Zum Schnellzugriff anheften'. Lösen Sie ihn, wenn Sie ihn dort nicht mehr benötigen, indem Sie mit der rechten Maustaste darauf klicken (oder lange drücken) und 'Von Schnellzugriff löschen' auswählen. Der Unterschied zu angehefteten Tabs besteht darin, dass der Schnellzugriff die URL speichert und jedes Mal, wenn darauf geklickt wird, einen neuen Tab öffnet."
       },
       "selectFromHistory": {
         "label": "Aus dem Verlauf auswählen",
@@ -295,8 +325,8 @@
         "seconds": "Sekunden"
       },
       "showTabIndex": {
-        "label": "Registerkarte anzeigen",
-        "description": "Wenn aktiviert, wird der Registerkartenindex neben dem Titel angezeigt, sodass die Registerkarte leicht mit [Strg+Nummer] unter Windows oder [cmd+Nummer] auf dem Mac aktiviert werden kann. Beispiel: 1. stackoverflow.com 2. youtube, damit es einfach ist, Strg + 2 unter Windows oder cmd + 2 auf dem Mac zu youtube zu wechseln"
+        "label": "Tab-Index anzeigen",
+        "description": "Wenn aktiviert, wird der Tab-Index neben dem Titel angezeigt, sodass die Registerkarte leicht mit [Strg+Nummer] unter Windows oder [cmd+Nummer] auf dem Mac aktiviert werden kann. Beispiel: 1. stackoverflow.com 2. youtube, damit es einfach ist, Strg + 2 unter Windows oder cmd + 2 auf dem Mac zu youtube zu wechseln"
       },
       "showGroupTabCount": {
         "label": "Gruppen-Tab-Anzahl anzeigen",
@@ -353,46 +383,46 @@
     "history": {
       "saveRecentlyTabs": {
         "label": "Kürzlich geschlossene Tabs speichern",
-        "description": "Wenn aktiviert, werden kürzlich geschlossene Tabs gespeichert"
+        "description": "Wenn aktiviert, werden kürzlich geschlossene Tabs gespeichert."
       },
       "dataSource": {
         "label": "Datenquelle",
-        "description": "Datenquelle auswählen",
+        "description": "Wählen Sie die Datenquelle aus.",
         "recentlyClosedTabs": "Kürzlich geschlossene Tabs",
         "chromeHistory": "Chrome-Verlauf",
-        "alert": "Um Verlaufsdatensätze zu durchsuchen, benötigen Sie Ihre Autorisierung zur Aktivierung",
-        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung"
+        "alert": "Um Verlaufsdatensätze zu durchsuchen, benötigen Sie Ihre Autorisierung.",
+        "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung."
       },
       "showInSidePanel": {
         "label": "Im Seitenpanel anzeigen",
-        "description": "Wenn aktiviert, im Seitenpanel anzeigen"
+        "description": "Wenn aktiviert, im Seitenpanel anzeigen."
       },
       "showInTabSearchResults": {
         "label": "Verlauf in Tab-Suchergebnissen anzeigen",
-        "description": "Wenn aktiviert, werden kürzliche Verlaufsdatensätze in den Tab-Suchergebnissen angezeigt"
+        "description": "Wenn aktiviert, werden kürzliche Verlaufsdatensätze in den Tab-Suchergebnissen angezeigt."
       },
       "limitSearchResults": {
         "label": "Anzahl der Verlaufsdatensätze in Tab-Suchergebnissen begrenzen",
-        "description": "Legen Sie die Begrenzung der Anzahl der Verlaufsdatensätze in den Tab-Suchergebnissen fest. Verlaufsdatensätze, die das Limit überschreiten, werden gefiltert",
-        "alert": "Zu viele Datensätze beeinträchtigen die Ladegeschwindigkeit der Seite"
+        "description": "Legen Sie die Begrenzung der Anzahl der Verlaufsdatensätze in den Tab-Suchergebnissen fest. Verlaufsdatensätze, die das Limit überschreiten, werden gefiltert.",
+        "alert": "Zu viele Datensätze beeinträchtigen die Ladegeschwindigkeit der Seite."
       },
       "saveRecentlyTabsLimit": {
         "label": "Anzahl der zu speichernden kürzlich geschlossenen Tabs",
-        "description": "Legen Sie die Anzahl der zu speichernden kürzlich geschlossenen Tabs fest"
+        "description": "Legen Sie die Anzahl der zu speichernden kürzlich geschlossenen Tabs fest."
       },
       "keepDays": {
         "label": "Anzahl der Tage, an denen kürzlich geschlossene Tabs gespeichert werden",
-        "description": "Legen Sie die Anzahl der Tage fest, an denen kürzlich geschlossene Tabs gespeichert werden. Abgelaufene Daten werden gelöscht",
+        "description": "Legen Sie die Anzahl der Tage fest, an denen kürzlich geschlossene Tabs gespeichert werden. Abgelaufene Daten werden gelöscht.",
         "days": "Tage"
       },
       "openDuration": {
         "label": "Öffnungsdauer",
-        "description": "Nur Tabs, die länger als die eingestellte Zeit geöffnet sind, werden gespeichert",
+        "description": "Nur Tabs, die länger als die eingestellte Zeit geöffnet sind, werden gespeichert.",
         "seconds": "Sekunden"
       }
     },
     "shortcuts": {
-      "alert": "Diese Seite dient nur zur Anzeige. Um Tastenkombinationen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen]",
+      "alert": "Diese Seite dient nur zur Anzeige. Um Tastenkombinationen zu ändern, besuchen Sie bitte [Erweiterungen]->[Erweiterungen verwalten]->[Tastenkombinationen].",
       "goToBrowserSettings": "Zu den Einstellungen gehen",
       "_execute_action": "Diese Erweiterung aktivieren",
       "openSidePanel": "Seitenleiste öffnen",
@@ -402,7 +432,7 @@
       "Picture-in-picture": "Bild-in-Bild",
       "tabSwitch": {
         "label": "PIP beim Tab-Wechsel",
-        "description": "Automatisch in PIP wechseln, wenn Tabs mit einem nicht stummgeschalteten Video gewechselt werden",
+        "description": "Automatisch in PIP wechseln, wenn Tabs mit einem nicht stummgeschalteten Video gewechselt werden.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
@@ -427,11 +457,15 @@
       "continuousPlayback": {
         "label": "Kontinuierliche Wiedergabe aktivieren",
         "description": "Kontinuierliche Wiedergabe: Das Bild-in-Bild-Fenster schließt sich nicht und spielt automatisch die nächste Episode ab, nachdem das Video endet. Diese Funktion erfordert Unterstützung der Website."
+      },
+      "advancedPipShowTitle": {
+        "label": "Titel im erweiterten Bild-in-Bild-Player anzeigen",
+        "description": "Wenn aktiviert, wird der Seitentitel im erweiterten Bild-in-Bild-Player angezeigt"
       }
     },
     "userActivitionAlert": {
       "title": "Benutzeraktivierung erforderlich",
-      "tips_1": "Benutzeraktivierung bedeutet, dass der Benutzer derzeit mit der Seite interagiert",
+      "tips_1": "Benutzeraktivierung bedeutet, dass der Benutzer derzeit mit der Seite interagiert.",
       "tips_2": "Genauer gesagt, Aktivierung löst Eingabeereignisse wie aus:",
       "tips_3": "Hinweis: Die Verwendung des Mausrads oder Wischgesten löst dies nicht aus!",
       "tips_4": "Wenn Sie weitere Details wünschen, besuchen Sie bitte:",
@@ -455,7 +489,7 @@
       },
       "customGroupRemember": {
         "label": "Seiten-Gruppierung merken",
-        "description": "Wenn aktiviert, wird eine Seite, die zu einer benutzerdefinierten Gruppe hinzugefügt wurde, beim nächsten Öffnen der Seite automatisch diese Gruppe verwenden"
+        "description": "Wenn aktiviert, wird eine Seite, die zu einer benutzerdefinierten Gruppe hinzugefügt wurde, beim nächsten Öffnen der Seite automatisch diese Gruppe verwenden."
       },
       "autoActivateTabGrouping": {
         "label": "Automatische Tab-Gruppierung aktivieren",
@@ -463,40 +497,40 @@
       },
       "autoActivateTabGroupingName": {
         "label": "Name der automatischen Tab-Gruppierung",
-        "description": "Geben Sie an, wie Gruppen beim Erstellen einer neuen Gruppe benannt werden sollen",
+        "description": "Geben Sie an, wie Gruppen beim Erstellen einer neuen Gruppe benannt werden sollen.",
         "none": "Keine",
         "title": "Titel",
         "domain": "Domain"
       },
       "tabGroupCollapseBehavior": {
         "label": "Verhalten beim Einklappen von Tab-Gruppen",
-        "description": "Ändern Sie das Verhalten des Einklappens von Tab-Gruppen im Chrome-Browser",
+        "description": "Ändern Sie das Verhalten des Einklappens von Tab-Gruppen im Chrome-Browser.",
         "option_collapse_others": "Aktuelle Gruppe anzeigen und andere einklappen",
         "option_disable": "Alle Gruppen erweitern",
         "option_auto": "Chrome-Standardeinstellungen verwenden"
       },
       "useBookmarkFolderNameAsGroupName": {
         "label": "Lesezeichen-Ordnername als Gruppenname verwenden",
-        "description": "Verwenden Sie automatisch den Lesezeichen-Ordnernamen als Gruppennamen, wenn die geöffnete URL in den Lesezeichen enthalten ist",
+        "description": "Verwenden Sie automatisch den Lesezeichen-Ordnernamen als Gruppennamen, wenn die geöffnete URL in den Lesezeichen enthalten ist.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "groupSelectBookmarkFolderLevel": {
         "label": "Lesezeichen-Ordner-Ebene auswählen",
-        "description": "Wählen Sie die Ebene des Lesezeichen-Ordners, die als Gruppenname verwendet werden soll",
+        "description": "Wählen Sie die Ebene des Lesezeichen-Ordners, die als Gruppenname verwendet werden soll.",
         "top": "Oberste Ebene",
         "parent": "Elternebene",
         "full": "Vollständiger Pfad"
       },
       "autoCreateOrJoinSameDomainGroup": {
         "label": "Automatisch gleiche Domain-Gruppe erstellen oder beitreten",
-        "description": "Wenn aktiviert, werden neu geöffnete Tabs automatisch der gleichen Domain-Gruppe beitreten. Wenn die Domain-Gruppe nicht existiert, wird eine neue Domain-Gruppe erstellt",
+        "description": "Wenn aktiviert, werden neu geöffnete Tabs automatisch der gleichen Domain-Gruppe beitreten. Wenn die Domain-Gruppe nicht existiert, wird eine neue Domain-Gruppe erstellt.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "groupFilterOutPinnedTabs": {
         "label": "Angeheftete Tabs in Gruppen herausfiltern",
-        "description": "Wenn aktiviert, werden angeheftete Tabs nicht zu Gruppen hinzugefügt",
+        "description": "Wenn aktiviert, werden angeheftete Tabs nicht zu Gruppen hinzugefügt.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       }
@@ -504,25 +538,25 @@
     "progressBar": {
       "enableProgressBar": {
         "label": "Fortschrittsbalken aktivieren",
-        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt",
+        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "readingProgressBar": {
         "label": "Lesefortschrittsbalken",
-        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt",
+        "description": "Wenn aktiviert, wird ein Lesefortschrittsbalken unter der Tab-Titelleiste angezeigt.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "scrollHeightRatio": {
         "label": "Scroll-Höhenverhältnis",
-        "description": "Das Verhältnis der sichtbaren Fensterhöhe zur Seitenhöhe. Ein Fortschrittsbalken wird angezeigt, wenn das Verhältnis überschritten wird",
+        "description": "Das Verhältnis der sichtbaren Fensterhöhe zur Seitenhöhe. Ein Fortschrittsbalken wird angezeigt, wenn das Verhältnis überschritten wird.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       },
       "playingProgressBar": {
         "label": "Abspielfortschrittsbalken",
-        "description": "Wenn aktiviert, wird ein Abspielfortschrittsbalken unter der Tab-Titelleiste angezeigt",
+        "description": "Wenn aktiviert, wird ein Abspielfortschrittsbalken unter der Tab-Titelleiste angezeigt.",
         "enabled": "Aktiviert",
         "disabled": "Deaktiviert"
       }
@@ -536,26 +570,26 @@
     "performance": {
       "label": "Leistung",
       "saveMemoryAction": {
-        "label": "Wie man Speicher bei Tabs spart",
+        "label": "Speicher bei Tabs sparen",
         "description": "Um Speicher bei Tabs zu sparen, können Sie wählen, ob Sie Tabs schließen oder verwerfen möchten.",
-        "discardTips": "Ein verworfener Tab geht nirgendwo hin. Wir beenden ihn, aber er bleibt in der Chrome-Tab-Leiste sichtbar. Wenn Sie zu einem verworfenen Tab zurückkehren, wird er beim Klicken neu geladen. Formularinhalte, Scrollposition usw. werden auf die gleiche Weise gespeichert und wiederhergestellt wie beim Vorwärts-/Rückwärtsnavigieren von Tabs.",
+        "discardTips": "Ein verworfener Tab bleibt in der Chrome-Tab-Leiste sichtbar, wird aber beendet. Wenn Sie zu einem verworfenen Tab zurückkehren, wird er beim Klicken neu geladen. Formularinhalte, Scrollposition usw. werden auf die gleiche Weise gespeichert und wiederhergestellt wie beim Vorwärts-/Rückwärtsnavigieren von Tabs.",
         "disabled": "Deaktiviert",
         "closeTabs": "Tabs schließen",
         "discardTabs": "Tabs verwerfen"
       },
       "discardInactiveTabsMinutes": {
-        "label": "Wie lange inaktive Tabs verwerfen",
+        "label": "Inaktive Tabs nach Zeit verwerfen",
         "description": "Wenn auf dem Tab keine Audio- oder Videowiedergabe erfolgt und das automatische Verwerfen nicht verboten ist, wird der Tab nach der angegebenen Zeit verworfen.",
         "minutes": "Minuten"
       },
       "closeInactiveTabsMinutes": {
-        "label": "Wie lange inaktive Tabs schließen",
+        "label": "Inaktive Tabs nach Zeit schließen",
         "description": "Wenn auf dem Tab keine Audio- oder Videowiedergabe erfolgt und das automatische Verwerfen nicht verboten ist, wird der Tab nach der angegebenen Zeit geschlossen.",
         "minutes": "Minuten"
       },
       "disableAnimations": {
         "label": "Animationen deaktivieren",
-        "description": "Den Welleneffekt und alle Übergänge deaktivieren"
+        "description": "Den Welleneffekt und alle Übergänge deaktivieren."
       }
     },
     "site": {
@@ -583,7 +617,7 @@
       },
       "autoDiscardable": {
         "label": "Automatisch verwerfbar",
-        "description": "Wenn aktiviert, darf der Tab vom Browser verworfen werden, und wenn Sie die Leistung aktivieren und die Zeit zum Verwerfen inaktiver Tabs festlegen, wird der Tab nach der angegebenen Zeit verworfen. Wenn deaktiviert, wird der Tab nicht verworfen"
+        "description": "Wenn aktiviert, darf der Tab vom Browser verworfen werden, und wenn Sie die Leistung aktivieren und die Zeit zum Verwerfen inaktiver Tabs festlegen, wird der Tab nach der angegebenen Zeit verworfen. Wenn deaktiviert, wird der Tab nicht verworfen."
       },
       "readingProgressBar": {
         "label": "Lesefortschrittsbalken",
@@ -641,7 +675,7 @@
       },
       "linkOpenOptions": {
         "label": "Link-Öffnungseinstellungen",
-        "description": "Legen Sie fest, wie Links auf dieser Seite geöffnet werden",
+        "description": "Legen Sie fest, wie Links auf dieser Seite geöffnet werden.",
         "configure": "Konfigurieren",
         "listTips": "Ziehen, um neu anzuordnen. Obere Regeln gelten zuerst.",
         "linkMatchContent": "Link-Muster",
@@ -663,7 +697,7 @@
       },
       "linkRefreshOptions": {
         "label": "Links automatisch aktualisieren",
-        "description": "Richten Sie die automatische Aktualisierung für bestimmte Links ein",
+        "description": "Richten Sie die automatische Aktualisierung für bestimmte Links ein.",
         "configure": "Konfigurieren",
         "listTips": "Ziehen, um neu anzuordnen. Nur die erste übereinstimmende Regel gilt.",
         "linkMatchContent": "Link-Muster",
@@ -673,7 +707,7 @@
         "save": "Speichern",
         "close": "Schließen",
         "refreshInterval": "Aktualisierungsintervall (Minuten)",
-        "disabled": "Aus"
+        "disabled": "Deaktiviert"
       },
       "pageKeepAlive": {
         "label": "Seite aktiv halten",
@@ -683,7 +717,7 @@
         "label": "Privates Surfen",
         "description": "Löscht ausgewählte Websitedaten nach jedem Besuch. Verwenden Sie 'Konfigurieren', um auszuwählen, was gelöscht werden soll. Kann Ihr Surferlebnis beeinträchtigen.",
         "configure": "Konfigurieren",
-        "configureDescription": "Bitte wählen Sie die zu löschenden Funktionen aus",
+        "configureDescription": "Bitte wählen Sie die zu löschenden Funktionen aus.",
         "cache": "Cache",
         "cacheStorage": "Cache-Speicher",
         "cookies": "Cookies",
@@ -741,7 +775,7 @@
       "title": "Schnellzugriff",
       "enableQuickAccess": {
         "label": "Schnellzugriff anzeigen",
-        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff für einfachen Zugriff angezeigt wird. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'An Schnellzugriff anheften'. Um es zu entfernen, klicken Sie mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'Aus Schnellzugriff löschen'. Im Gegensatz zu angehefteten Tabs speichert Schnellzugriff die URL und öffnet jedes Mal einen neuen Tab, wenn darauf geklickt wird."
+        "description": "Sie können einen Tab so einstellen, dass er im Schnellzugriff für einfachen Zugriff angezeigt wird. Klicken Sie einfach mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'An Schnellzugriff anheften'. Um ihn zu entfernen, klicken Sie mit der rechten Maustaste (oder drücken Sie lange) darauf und wählen Sie 'Aus Schnellzugriff löschen'. Im Gegensatz zu angehefteten Tabs speichert Schnellzugriff die URL und öffnet jedes Mal einen neuen Tab, wenn darauf geklickt wird."
       },
       "quickAccessVerticalSpacing": {
         "label": "Vertikaler Abstand",
@@ -765,14 +799,14 @@
         "expandList": "Liste erweitern"
       },
       "selectFromHistory": {
-        "label": "Aus Verlauf auswählen",
+        "label": "Aus dem Verlauf auswählen",
         "description": "Eine Autorisierung ist erforderlich, um aus dem Verlauf auszuwählen.",
         "numberOfDays": "Anzahl der Tage",
         "numberOfUrls": "Anzahl der URLs",
         "cancel": "Abbrechen",
         "query": "Abfrage",
         "selectItemsToAddToQuickAccess": "Elemente auswählen, die dem Schnellzugriff hinzugefügt werden sollen:",
-        "selectAll": "Alles auswählen",
+        "selectAll": "Alle auswählen",
         "addSelected": "Ausgewählte hinzufügen",
         "addedSuccess": "{{count}} Elemente zum Schnellzugriff hinzugefügt.",
         "deniedMessage": "Sie haben die erforderliche Berechtigung verweigert, daher wurden die Einstellungen nicht geändert. Wenn Sie Ihre Meinung ändern, klicken Sie bitte erneut und erlauben Sie die Autorisierung."
@@ -811,47 +845,111 @@
         "exportFailed": "Export fehlgeschlagen"
       }
     },
-    "SyncToCloud": {
-      "label": "In die Cloud synchronisieren",
-      "SyncNow": "Jetzt synchronisieren",
-      "SyncNowWithGoogleDrive": "Jetzt mit Google Drive synchronisieren",
-      "SyncNowWithDropbox": "Jetzt mit Dropbox synchronisieren",
-      "SyncNowWithOneDrive": "Jetzt mit OneDrive synchronisieren",
-      "Synchronizing": "Synchronisieren...",
-      "SyncedSuccessfully": "Erfolgreich synchronisiert",
-      "SyncFailed": "Synchronisierung fehlgeschlagen",
-      "LoginRequired": "Anmeldung erforderlich",
-      "GoogleDrive": "Google Drive",
-      "Dropbox": "Dropbox",
-      "OneDrive": "OneDrive",
-      "SyncConfigs": {
-        "label": "Konfigurationen synchronisieren",
-        "description": "Wählen Sie, wie die Konfigurationen dieser Erweiterung synchronisiert werden sollen.",
-        "disabled": "Deaktiviert",
-        "uploadOnly": "Nur hochladen",
-        "downloadOnly": "Nur herunterladen",
-        "staySynchronized": "Synchronisiert bleiben"
+    "syncToCloud": {
+      "title": "Synchronisierungseinstellungen",
+      "setLocalPasswordTitle": "Lokales Passwort festlegen",
+      "setLocalPasswordDescription": "Um Ihre Synchronisierungsdaten zu verschlüsseln und zu schützen, legen Sie bitte ein Verschlüsselungspasswort fest. Dieses Passwort wird nicht an uns übertragen. Sie müssen dasselbe Passwort in anderen Browsern festlegen, um zu synchronisieren. Stellen Sie sicher, dass Sie es sich merken.",
+      "passwordError": "Das Passwort muss mindestens 6 Zeichen lang sein und sowohl Zahlen als auch Buchstaben enthalten",
+      "save": "Speichern und Fortfahren",
+      "cancel": "Abbrechen",
+      "doNotUseLocalPassword": "Standardverschlüsselung verwenden",
+      "changeLocalPassword": "Lokales Passwort ändern",
+      "changeLocalPasswordDesc": "Das Zurücksetzen des lokalen Passworts macht zuvor synchronisierte Daten ungültig. Dieses Passwort wird verwendet, um Ihre Synchronisierungsdaten zu verschlüsseln und zu schützen. Das Passwort wird nicht an uns übertragen. Sie müssen dasselbe Passwort in anderen Browsern festlegen, um zu synchronisieren. Bitte legen Sie es sorgfältig fest!",
+      "deviceName": "Gerätename",
+      "deviceNameDescription": "Legen Sie einen leicht erkennbaren Namen für dieses Gerät fest, um es bei der Mehrgeräte-Synchronisierung zu unterscheiden",
+      "deviceId": "Geräte-ID",
+      "syncNow": "Jetzt synchronisieren",
+      "lastSyncTime": "Letzte Synchronisierungszeit",
+      "uploadStatus": "Upload-Status",
+      "downloadStatus": "Download-Status",
+      "notSynced": "Nicht synchronisiert",
+      "success": "Erfolg",
+      "failed": "Fehlgeschlagen",
+      "mode": {
+        "title": "Synchronisierungsmodus",
+        "description": "Wählen Sie, wie Daten zwischen Geräten synchronisiert werden",
+        "modes": {
+          "disabled": "Deaktiviert",
+          "uploadOnly": "Nur hochladen",
+          "downloadOnly": "Nur herunterladen",
+          "staySynchronized": "Synchronisiert bleiben"
+        }
       },
-      "SyncTabs": {
-        "label": "Tabs synchronisieren",
-        "description": "Wählen Sie, wie Tab-Daten synchronisiert werden sollen, mit Ausnahme privater Daten wie Cookies und persönlichen Informationen.",
-        "disabled": "Deaktiviert",
-        "uploadOnly": "Nur hochladen",
-        "downloadOnly": "Nur herunterladen",
-        "staySynchronized": "Synchronisiert bleiben"
+      "providers": {
+        "title": "Synchronisierungsanbieter",
+        "description": "Wählen und konfigurieren Sie die Dienstanbieter für die Datensynchronisierung",
+        "defaultProvider": "Standard-Synchronisierungsanbieter",
+        "close": "Schließen",
+        "save": "Speichern",
+        "configure": "Konfigurieren",
+        "authorize": "Autorisieren",
+        "providers": {
+          "custom": {
+            "title": "Cloud-Dienst",
+            "enabled": "Aktiviert"
+          }
+        }
       },
-      "OpenOrCloseTabsSynchronously": {
-        "label": "Tabs synchron öffnen oder schließen",
-        "description": "Wenn aktiviert, wird das Öffnen oder Schließen von Tabs in verschiedenen Browsern synchronisiert. Dies gilt nur, wenn die Option 'Synchronisiert bleiben' aktiv ist",
-        "OpenOrCloseTabsSynchronouslyWarning": "Wenn Sie sich gleichzeitig in zwei Browsern mit demselben Konto anmelden und diese Option aktivieren, wird das Öffnen oder Schließen von Tabs in einem Browser die gleiche Aktion im anderen Browser ausführen. Wenn die Website wiederholte Anmeldungen mit demselben Konto verbietet, können Ausnahmen auftreten."
+      "dataOptions": {
+        "title": "Daten-Synchronisierungsoptionen",
+        "description": "Wählen Sie die Datentypen aus, die synchronisiert werden sollen",
+        "openedTabs": {
+          "title": "Geöffnete Tabs",
+          "enabled": "Geöffnete Tabs synchronisieren"
+        },
+        "settings": {
+          "title": "Einstellungen",
+          "enabled": "Einstellungen synchronisieren"
+        },
+        "siteConfigs": {
+          "title": "Website-Konfigurationen",
+          "enabled": "Website-Konfigurationen synchronisieren"
+        },
+        "quickAccess": {
+          "title": "Schnellzugriff",
+          "enabled": "Schnellzugriff synchronisieren"
+        },
+        "recentClosedTabs": {
+          "title": "Kürzlich geschlossene Tabs",
+          "enabled": "Kürzlich geschlossene Tabs synchronisieren"
+        },
+        "windowTabs": {
+          "title": "Fenster, Tab-Gruppen und Tabs",
+          "enabled": "Tab-Verlauf synchronisieren",
+          "close": "Schließen",
+          "save": "Speichern",
+          "syncAfterAction": "Aktion nach Synchronisierung",
+          "syncAfterActionTitle": "Wählen Sie, wie nach der Synchronisierung vorgegangen werden soll",
+          "applyModes": {
+            "append": {
+              "title": "Anhängen-Modus",
+              "description": "Wenn das aktuelle Fenster weniger als 5 Tabs hat, werden die synchronisierten Tabs am Ende des aktuellen Fensters hinzugefügt. Wenn mehrere Fenster synchronisiert werden, werden die Tabs des ersten Fensters in das aktuelle Fenster zusammengeführt, und andere Fenster werden als separate neue Fenster erstellt."
+            },
+            "new": {
+              "title": "Neues Fenster",
+              "description": "Öffnen Sie die synchronisierten Tabs in einem neuen Fenster, während die vorhandenen Tabs unverändert bleiben"
+            },
+            "replace": {
+              "title": "Ersetzen-Modus",
+              "description": "Schließen Sie vorhandene Tabs und öffnen Sie die synchronisierten Tabs in einem neuen Fenster"
+            },
+            "createSnapshot": {
+              "title": "Snapshot erstellen",
+              "description": "Speichern Sie die synchronisierten Tabs als neuen Snapshot"
+            }
+          },
+          "moreOptions": "Erweiterte Optionen",
+          "optionsTitle": "Tab-Synchronisierungseinstellungen",
+          "skipLastWindow": "Nicht synchronisieren, wenn das letzte Fenster geschlossen wird",
+          "skipLastWindowDescription": "Pausieren Sie die Synchronisierung, wenn das letzte Fenster geschlossen wird, um die Wiederherstellung kürzlich geöffneter Tabs auf anderen Geräten zu ermöglichen. Wenn diese Option deaktiviert ist, wird die Synchronisierung sofort ausgeführt, und andere Geräte können diese Tabs nicht wiederherstellen.",
+          "debounceMs": "Synchronisierungsverzögerung",
+          "debounceMsDescription": "Legen Sie fest, wie viele Sekunden nach einer Tab-Änderung gewartet werden soll, bevor synchronisiert wird, um zu häufige Synchronisierungsoperationen zu vermeiden"
+        }
       },
-      "SyncPrivateData": {
-        "label": "Private Daten synchronisieren",
-        "description": "Wählen Sie, wie private Daten synchronisiert werden sollen, z. B. Website-Cookies, lokale Webseitenspeicherdaten, SessionStorage-Daten usw. Daten werden vor der Synchronisierung verschlüsselt.",
-        "disabled": "Deaktiviert",
-        "uploadOnly": "Nur hochladen",
-        "downloadOnly": "Nur herunterladen",
-        "staySynchronized": "Synchronisiert bleiben"
+      "globalTriggers": {
+        "title": "Globale Synchronisierungs-Trigger",
+        "description": "Konfigurieren Sie, wann globale Synchronisierungsoperationen ausgelöst werden sollen",
+        "onStartup": "Beim ersten Start des Browsers"
       }
     },
     "alerts": {
@@ -888,6 +986,27 @@
         "pdfViewer": "Eingebaute PDF-Viewer-Seiten",
         "newTabPage": "Neue Tab-Seiten (beginnend mit chrome://newtab/ oder edge://newtab/ oder ähnlich)"
       }
+    },
+    "general": {
+      "title": "Allgemein",
+      "description": "",
+      "accountInfo": {
+        "label": "Kontoinformationen",
+        "currentPlan": "Aktueller Plan",
+        "subscribePremium": "Premium abonnieren",
+        "manageAccount": "Konto verwalten",
+        "logout": "Abmelden",
+        "notLoggedIn": "Nicht angemeldet",
+        "signIn": "Anmelden",
+        "free": "Kostenlos",
+        "premium": "Premium",
+        "premiumEndsAt": "Ihr Premium-Plan endet am {{date}}",
+        "trialEndsAt": "Ihre Premium-Testversion endet am {{date}}",
+        "signInForPremium": "Melden Sie sich an, um Premium zu erhalten",
+        "trialEndsAndMembershipStarts": "Ihre Testphase endet am {{date}}. Nach dem Ende der Testphase wird Ihre offizielle Mitgliedschaft automatisch wirksam und alle Vorteile bleiben unverändert.",
+        "lifetimeMembership": "Lebenslange Mitgliedschaft",
+        "manageSubscription": "Abonnement verwalten"
+      }
     }
   },
   "snapshots": {
@@ -896,14 +1015,15 @@
     "createSnapshot": "Snapshot erstellen",
     "exportSnapshot": "Snapshot exportieren",
     "restoreWindowSize": "Fensterposition und -größe wiederherstellen",
+    "restoreGroups": "Gruppen wiederherstellen",
     "openAllWindows": "Alle Fenster öffnen",
-    "openSelectedInNewWindow": "Ausgewählte in neuem Fenster öffnen",
+    "openSelectedInNewWindow": "Ausgewählte in einem neuen Fenster öffnen",
     "openSelectedInCurrentWindow": "Ausgewählte im aktuellen Fenster öffnen",
     "windowCount": "{{count}} Fenster",
     "tabCount": "{{count}} Tabs",
     "Window": "Fenster",
     "OpenInCurrentWindow": "Im aktuellen Fenster öffnen",
-    "OpenInNewWindow": "In neuem Fenster öffnen",
+    "OpenInNewWindow": "In einem neuen Fenster öffnen",
     "ResetSelection": "Auswahl zurücksetzen",
     "snapshotCreatedSuccess": "Snapshot erfolgreich erstellt",
     "snapshotCreatedFailed": "Snapshot-Erstellung fehlgeschlagen",
@@ -912,6 +1032,6 @@
     "importSnapshot": "Snapshot importieren",
     "snapshotImportFailedDuplicate": "Snapshot-Import fehlgeschlagen, doppelter Snapshot",
     "snapshotImportedSuccess": "{{count}} Snapshots erfolgreich importiert",
-    "snapshotImportFailed": "{{count}} Snapshot-Import fehlgeschlagen {{error}}"
+    "snapshotImportFailed": "{{count}} Snapshots-Import fehlgeschlagen {{error}}"
   }
 }
